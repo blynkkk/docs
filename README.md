@@ -27,6 +27,6 @@ Once the Article or Directory description is written/added it should be linked i
 To retrieve your ``*.md`` or ``directory`` path: 
 - open it
 - click Action button
-- Copy Path
+- copy Path
 
 Edit SUMMARY.md by adding the relative link you got by following prevous steps to the file you've created following the [markdown](https://guides.github.com/features/mastering-markdown/) you'll see there.
