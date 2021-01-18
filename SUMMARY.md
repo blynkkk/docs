@@ -1,6 +1,6 @@
 # Table of contents
 
-* [What is Blynk 2.0](README.md)
+* [What is Blynk 2.0](What-is-Blynk-2.0.md)
 * [Blynk 2.0 Business Story](blynk-2.0-business-story.md)
 
 ## Platform overview
