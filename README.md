@@ -28,5 +28,6 @@ To retrieve your ``*.md`` or ``directory`` path:
 - open it
 - click Action button
 - copy Path
+![copy path](https://user-images.githubusercontent.com/67413917/104936510-4d8d7180-59b5-11eb-8a8f-83fb49878bed.PNG)
 
 Edit SUMMARY.md by adding the relative link you got by following prevous steps to the file you've created following the [markdown](https://guides.github.com/features/mastering-markdown/) you'll see there.
