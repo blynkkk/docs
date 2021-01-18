@@ -1,2 +1,0 @@
-# Datastream: Data Type
-
