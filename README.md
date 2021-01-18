@@ -1,5 +1,14 @@
 # How to contribute to [Blynk 2.0 Documentation](https://github.com/blynkkk/docs)
 
+## Documentation cotribution flow
+When changes are made to Components, UI, general interaction flows, etc. They should be described in [Blynk Documentation repository](https://github.com/blynkkk/docs) 
+
+Plus we have existing documentation transfer case. To proceed with it:
+- find a file you know/created
+- check it's contents to be up-to-date with Blynk 2.0
+- put it to the corresponding directory or article of the new documentation
+- create pull request (let's keep main branch safe)
+
 ## Documentation structure.
 Keep to tree structure and mind that every entity should be described.
 
