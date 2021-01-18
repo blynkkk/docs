@@ -22,5 +22,11 @@ While articles contents are stored inside ``*.md`` files description to director
 - Provide the pictures in cases it can ease user's search of some specific buttons (such as ``Action``, ``Tags`` or ``Map View`` buttons) or to give explanation to separate screen sections (such as ``Main Tabs switches``, ``Devices List``, ``Device View``) 
 
 ## Link new Article or Directory to main structure
-Once the Article or Directory description is written/added it should be linked inside [SUMMARY.md](https://github.com/blynkkk/docs/blob/main/SUMMARY.md) so it can be uploaded and viewed om the Web.
-Edit SUMMARY.md by adding the relative link to the file you've created following the [markdown](https://guides.github.com/features/mastering-markdown/) you'll see there.
+Once the Article or Directory description is written/added it should be linked inside [SUMMARY.md](https://github.com/blynkkk/docs/blob/main/SUMMARY.md) so it can be uploaded and viewed om the Web. 
+
+To retrieve your ``*.md`` or ``directory`` path: 
+- open it
+- click Action button
+- Copy Path
+
+Edit SUMMARY.md by adding the relative link you got by following prevous steps to the file you've created following the [markdown](https://guides.github.com/features/mastering-markdown/) you'll see there.
