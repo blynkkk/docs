@@ -10,3 +10,7 @@ Product is an essential part of Blynk platform. It's a digital description of th
 
 Every Product has a unique Product ID \(template ID\)"
 
+
+
+> Diagram of how product is related between web and mobile app
+
