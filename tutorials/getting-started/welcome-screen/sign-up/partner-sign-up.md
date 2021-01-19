@@ -1,2 +1,0 @@
-# Partner Sign up
-
