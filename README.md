@@ -2,9 +2,11 @@
 
 ## Documentation contribution flow
 
+Priorities can be found [here](https://github.com/blynkkk/docs/issues) in ``Pinned issues`` section. Please follow it.
+
 When changes are made to Components, UI, general interaction flows, etc. They should be described in [Blynk Documentation repository](https://github.com/blynkkk/docs)
 
-Plus we have an existing documentation transfer case. To proceed with it:
+Plus we have continuos existing documentation transfer case. To proceed with it:
 
 * find a file you know/created
 * check it's contents to be up-to-date with Blynk 2.0
