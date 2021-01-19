@@ -1,7 +1,9 @@
 # What is Blynk
 
 {% hint style="warning" %}
-This documentation covers the latest generation of Blynk IoT Platform \(2.0\). Version 1.0 is no longer supported. Read more about it here **&lt;&lt;&lt;LINK&gt;&gt;&gt;**
+**This documentation covers only the latest generation of Blynk IoT Platform \(2.0\).** 
+
+Version 1.0 is no longer supported and developed. Read more about it here **&lt;&lt;&lt;LINK&gt;&gt;&gt;**
 {% endhint %}
 
 Blynk IoT Platform is a white-label, multi-tenant software solution that allows you to build personal and commercial IoT projects and connected products.

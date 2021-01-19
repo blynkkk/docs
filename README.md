@@ -2,7 +2,7 @@
 
 ## Documentation contribution flow
 
-Priorities can be found [here](https://github.com/blynkkk/docs/issues) in ``Pinned issues`` section. Please follow it.
+Priorities can be found [here](https://github.com/blynkkk/docs/issues) in `Pinned issues` section. Please follow it.
 
 When changes are made to Components, UI, general interaction flows, etc. They should be described in [Blynk Documentation repository](https://github.com/blynkkk/docs)
 

@@ -5,11 +5,12 @@
 
 ## Platform overview
 
-* [What is Blynk](platform-overview/what-is-blynk-2.0/README.md)
-  * [Blynk.Cloud](platform-overview/what-is-blynk-2.0/blynk.cloud.md)
-  * [Blynk.Edgent](platform-overview/what-is-blynk-2.0/blynk.edgent.md)
-  * [Blynk.App](platform-overview/what-is-blynk-2.0/blynk.app.md)
-  * [Blynk.360](platform-overview/what-is-blynk-2.0/blynk.360.md)
+* [What is Blynk](platform-overview/what-is-blynk-2.0.md)
+* [Blynk Components](platform-overview/blynk-components/README.md)
+  * [Blynk.App](platform-overview/blynk-components/blynk.app.md)
+  * [Blynk.360](platform-overview/blynk-components/blynk.360.md)
+  * [Blynk.Edgent](platform-overview/blynk-components/blynk.edgent.md)
+  * [Blynk.Cloud](platform-overview/blynk-components/blynk.cloud.md)
 * [Multi-tenancy](platform-overview/multi-tenant-tree-structure.md)
 
 ## Tutorials
@@ -110,7 +111,7 @@
 
 ## Firmware API
 
-* [Untitled](firmware-api/untitled.md)
+* [Time API](firmware-api/untitled.md)
 
 ## RESTful API
 
