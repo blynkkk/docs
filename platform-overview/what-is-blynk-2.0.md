@@ -26,5 +26,6 @@ The building blocks of Blynk IoT Platform are:
 **Services:**
 
 * **Blynk.R**
+* **Blynk.Inject**
 * **Blynk.Air**
 
