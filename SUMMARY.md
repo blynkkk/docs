@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Introduction](Introduction.md)
 * [Blynk 2.0 Business Story](blynk-2.0-business-story.md)
 
 ## Platform overview
