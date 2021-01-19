@@ -11,7 +11,7 @@ A tenant can mean a lot of things, and based on the type of application you are 
 Blynk platform offers a simple and flexible way to set up and manage multi-tenant IoT applications at any scale. 
 
 {% hint style="info" %}
-Multi-tenancy can be limited by the plan you are using. [Upgrade](https://blynk.io/pricing%20) to get complete access to this feature.
+Multi-tenancy functionality can be limited by the plan you are using. [Upgrade](https://blynk.io/pricing%20) to a higher plan to get complete access to this feature.
 {% endhint %}
 
 Every user of Blynk is a member of an Organization. This could be a one-person organization, a family, or a company with hundreds of employees. Additionally, every member of an organization has a role. Role controls how users access the data with a set of permissions. Read more about the roles and permissions here **&lt;&lt;&lt;LINK&gt;&gt;&gt;**

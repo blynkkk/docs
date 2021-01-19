@@ -1,12 +1,15 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [What is Blynk 2.0](what-is-blynk-2.0.md)
 * [Blynk 2.0 Business Story](blynk-2.0-business-story.md)
 
 ## Platform overview
 
-* [Platform Components](platform-overview/platform-components-products.md)
+* [What is Blynk](platform-overview/what-is-blynk-2.0/README.md)
+  * [Blynk.Cloud](platform-overview/what-is-blynk-2.0/blynk.cloud.md)
+  * [Blynk.Edgent](platform-overview/what-is-blynk-2.0/blynk.edgent.md)
+  * [Blynk.App](platform-overview/what-is-blynk-2.0/blynk.app.md)
+  * [Blynk.360](platform-overview/what-is-blynk-2.0/blynk.360.md)
 * [Multi-tenancy](platform-overview/multi-tenant-tree-structure.md)
 
 ## Tutorials
@@ -84,6 +87,7 @@
 
 ## Mobile Applications
 
+* [Overview](mobile-applications/overview.md)
 * [Sign Up / Sign In](mobile-applications/untitled/README.md)
   * [Partner Sign Up](mobile-applications/untitled/partner-sign-up.md)
   * [Client Sign Up](mobile-applications/untitled/client-sign-up.md)
@@ -101,6 +105,8 @@
   * [Create / Edit Automation](mobile-applications/automations/create-edit-automation.md)
   * [Automation Control](mobile-applications/automations/automation-control.md)
 * [Alerts](mobile-applications/alerts.md)
+* [Developer Mode](mobile-applications/developer-mode.md)
+* [Partner mode](mobile-applications/partner-mode.md)
 
 ## Firmware API
 
@@ -118,4 +124,6 @@
 ---
 
 * [Glossary](glossary.md)
+* [Blynk 1.0 and 2.0 comparison](blynk-1.0-and-2.0-comparison/README.md)
+  * [Migrate from 1.0 to 2.0](blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md)
 
