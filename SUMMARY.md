@@ -1,15 +1,17 @@
 # Table of contents
 
-* [What is Blynk 2.0](What-is-Blynk-2.0.md)
+* [Introduction](README.md)
+* [What is Blynk 2.0](what-is-blynk-2.0.md)
 * [Blynk 2.0 Business Story](blynk-2.0-business-story.md)
 
 ## Platform overview
 
 * [Platform Components](platform-overview/platform-components-products.md)
-* [Multi-tenant Tree Structure](platform-overview/multi-tenant-tree-structure.md)
+* [Multi-tenancy](platform-overview/multi-tenant-tree-structure.md)
 
 ## Tutorials
 
+* [Quick Start](tutorials/quick-start.md)
 * [Getting Started](tutorials/getting-started/README.md)
   * [Welcome screen](tutorials/getting-started/welcome-screen/README.md)
     * [Log in](tutorials/getting-started/welcome-screen/log-in.md)
@@ -51,12 +53,12 @@
     * [Metadata](web-dashboard/for-developers/products/metadata.md)
     * [Datastreams](web-dashboard/for-developers/products/datastreams.md)
     * [Events](web-dashboard/for-developers/products/events.md)
-    * [Dashboard](web-dashboard/for-developers/products/dashboard.md)
-      * [Slider](web-dashboard/for-developers/products/dashboard/Slider.md)
-      * [Switch](web-dashboard/for-developers/products/dashboard/Switch.md)
-      * [Label](web-dashboard/for-developers/products/dashboard/Label.md)
-      * [Chart](web-dashboard/for-developers/products/dashboard/Chart.md)
-      * [Map](web-dashboard/for-developers/products/dashboard/Map.md)
+    * [Dashboard](web-dashboard/for-developers/products/dashboard/README.md)
+      * [Slider](web-dashboard/for-developers/products/dashboard/slider.md)
+      * [Switch](web-dashboard/for-developers/products/dashboard/switch.md)
+      * [Label](web-dashboard/for-developers/products/dashboard/label.md)
+      * [Chart](web-dashboard/for-developers/products/dashboard/chart.md)
+      * [Map](web-dashboard/for-developers/products/dashboard/map.md)
   * [Organizations](web-dashboard/for-developers/organizations/README.md)
     * [Organizations Management](web-dashboard/for-developers/organizations/create-new-organization.md)
   * [Blynk.Air](web-dashboard/for-developers/blynk.air.md)
@@ -112,4 +114,8 @@
 ## Troubleshooting
 
 * [Untitled](troubleshooting/untitled.md)
+
+---
+
+* [Glossary](glossary.md)
 

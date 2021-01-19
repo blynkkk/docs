@@ -2,7 +2,3 @@
 
 {% page-ref page="../../devices/device-view/" %}
 
-
-
-
-
