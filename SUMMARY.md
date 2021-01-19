@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Introduction](Introduction.md)
-* [Blynk 2.0 Business Story](blynk-2.0-business-story.md)
 
 ## Platform overview
 
@@ -15,6 +14,7 @@
 
 ## Tutorials
 
+* [Blynk 2.0 Business Story](tutorials/blynk-2.0-business-story.md)
 * [Quick Start](tutorials/quick-start.md)
 * [Getting Started](tutorials/getting-started/README.md)
   * [Welcome screen](tutorials/getting-started/welcome-screen/README.md)
