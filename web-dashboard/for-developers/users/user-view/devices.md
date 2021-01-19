@@ -1,6 +1,0 @@
-# Devices
-
-* **List Of Devices**
-
-
-
