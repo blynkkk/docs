@@ -64,6 +64,8 @@
       * [Default Value](web-dashboard/for-developers/products/datastreams/default-value.md)
       * [Save RAW Data](web-dashboard/for-developers/products/datastreams/save-raw-data.md)
       * [Invalidate Value](web-dashboard/for-developers/products/datastreams/invalidate-value.md)
+      * [Wait for confirmation from device](web-dashboard/for-developers/products/datastreams/wait-for-confirmation-from-device.md)
+      * [Sync with latest server value every time device connects to the cloud](web-dashboard/for-developers/products/datastreams/sync-with-latest-server-value-every-time-device-connects-to-the-cloud.md)
       * [Expose to Automation](web-dashboard/for-developers/products/datastreams/automation.md)
     * [Events](web-dashboard/for-developers/products/events.md)
     * [Dashboard](web-dashboard/for-developers/products/dashboard/README.md)
