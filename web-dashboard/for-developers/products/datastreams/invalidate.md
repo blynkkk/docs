@@ -1,4 +1,4 @@
-# Datastream: Invalidate Value
+Invalidate Value
 
 Use this setting to manage the _freshness_ of the data. When enabled, the server will automatically check the timestamp of the latest value and act accordingly to settings.
 
