@@ -1,8 +1,7 @@
 # Chart
 
-```text
   Chart is used to visualise live and historical data. You can use it for sensor data, for binary event logging and more. 
-```
+
 
 SETUP:
 
