@@ -1,4 +1,4 @@
-# Datastream: Min/Max values
+# Min/Max values
 
 **Min / Max** fields are used to specify the range of incoming values. This setting is applied everywhere, where this Datastream is used.
 
