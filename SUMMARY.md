@@ -49,7 +49,9 @@
     * [Notification Settings](web-dashboard/for-developers/devices/notification-settings.md)
   * [Products](web-dashboard/for-developers/products/README.md)
     * [Products Management](web-dashboard/for-developers/products/porducts-management.md)
-    * [Info](web-dashboard/for-developers/products/info.md)
+    * [Info](web-dashboard/for-developers/products/info/README.md)
+      * [Manufacturer](web-dashboard/for-developers/products/info/manufacturer.md)
+      * [Offline Ignore Period](web-dashboard/for-developers/products/info/offline-ignore-period.md)
     * [Metadata](web-dashboard/for-developers/products/metadata.md)
     * [Datastreams](web-dashboard/for-developers/products/datastreams/README.md)
       * [Data Type](web-dashboard/for-developers/products/datastreams/data-type.md)
@@ -57,10 +59,8 @@
       * [Alias](web-dashboard/for-developers/products/datastreams/alias.md)
       * [Virtual Pin](web-dashboard/for-developers/products/datastreams/virtual-pin.md)
       * [Default Value](web-dashboard/for-developers/products/datastreams/default-value.md)
-      * ### Advanced Settings
       * [Save RAW Data](web-dashboard/for-developers/products/datastreams/save-raw-data.md)
       * [Invalidate Value](web-dashboard/for-developers/products/datastreams/invalidate-value.md)
-      * #### Automation and Voice Assistant
       * [Expose to Automation](web-dashboard/for-developers/products/datastreams/automation.md)
     * [Events](web-dashboard/for-developers/products/events.md)
     * [Dashboard](web-dashboard/for-developers/products/dashboard/README.md)
