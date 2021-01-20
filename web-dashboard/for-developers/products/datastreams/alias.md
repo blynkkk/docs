@@ -1,4 +1,4 @@
-# Datastream: Alias
+# Alias
 
 Alias is an alternative Datastream name which can be changed by the end-user. For example, it can be used by voice assistants like Amazon Echo \(Alexa\) and Google Home Assistant .
 
