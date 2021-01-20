@@ -1,8 +1,6 @@
 # Switch
 
-```text
 Switch label allows to send commands and view binary statuses of the device, such as power ON/OFF
-```
 
 SETUP:
 
