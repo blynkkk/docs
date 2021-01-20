@@ -1,4 +1,4 @@
-# Datastream: Virtual Pin
+# Virtual Pin
 
 Virtual Pin is a way to exchange data between hardware, web, and mobile apps. Think about Virtual Pins as a variable where you can store and retrieve data from sensors, actuators, etc.
 
