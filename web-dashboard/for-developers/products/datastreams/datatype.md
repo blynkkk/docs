@@ -1,4 +1,4 @@
-# Datastream: Data Type
+# Data Type
 
 Every Datastream has a Data Type setting. Data Type is used to specify the type and format of the data and optimize data storage and further calculations.
 
