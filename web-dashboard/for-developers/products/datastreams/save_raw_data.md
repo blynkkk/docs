@@ -1,4 +1,4 @@
-# Datastream: Save Raw Data
+# Save Raw Data
 
 This setting allows storing raw data \(uncompressed, non-aggregated\).
 
