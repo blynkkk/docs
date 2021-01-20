@@ -15,7 +15,6 @@
 ## Tutorials
 
 * [Blynk 2.0 Business Story](tutorials/blynk-2.0-business-story.md)
-* [Quick Start](tutorials/quick-start.md)
 * [Getting Started](tutorials/getting-started/README.md)
   * [Common Navigation and Actions Reference](tutorials/getting-started/common-navigation-and-actions-reference.md)
   * [User Profile Management](tutorials/getting-started/user-profile-management.md)
