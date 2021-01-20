@@ -51,7 +51,7 @@
     * [Products Management](web-dashboard/for-developers/products/porducts-management.md)
     * [Info](web-dashboard/for-developers/products/info.md)
     * [Metadata](web-dashboard/for-developers/products/metadata.md)
-    * [Datastreams](web-dashboard/for-developers/products/datastreams.md)
+    * [Datastreams](web-dashboard/for-developers/products/datastreams/README.md)      
     * [Events](web-dashboard/for-developers/products/events.md)
     * [Dashboard](web-dashboard/for-developers/products/dashboard/README.md)
       * [Slider](web-dashboard/for-developers/products/dashboard/slider.md)
