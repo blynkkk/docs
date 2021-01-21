@@ -2,7 +2,7 @@
 
 ORGANIZATION NAME – can be up to 80 characters. _Use letters, digits, space or '.', '-', ''' characters_
 
-ORGANIZATION TYPE – there are 4 types possible:
+ORGANIZATION TYPE – there are 4 types possible. Autodetection is applied accordingly to the flow used during Organization registration:
 
 * Root
 * Sub-organization
