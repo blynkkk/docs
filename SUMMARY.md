@@ -147,8 +147,9 @@
 
 ---
 
-* [Glossary](glossary.md)
 * [Blynk 1.0 and 2.0 comparison](blynk-1.0-and-2.0-comparison/README.md)
   * [Migrate from 1.0 to 2.0](blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md)
+* [Supported Hardware](supported-hardware.md)
+* [Glossary](glossary.md)
 * [Links](links.md)
 
