@@ -24,7 +24,12 @@
   * [Common Navigation and Actions Reference](tutorials/getting-started/common-navigation-and-actions-reference.md)
   * [User Profile Management](tutorials/getting-started/user-profile-management.md)
 * [Building a Commercial Product A-Z](tutorials/building-a-commercial-product-a-z.md)
-* [Blynk Firmware](tutorials/blynk-firmware.md)
+* [Blynk Firmware](tutorials/blynk-firmware/README.md)
+  * [Configuration](tutorials/blynk-firmware/configuration.md)
+  * [Connection Management](tutorials/blynk-firmware/connection-management.md)
+  * [Digital & Analog pins control](tutorials/blynk-firmware/digital-and-analog-pins-control.md)
+  * [BlynkTimer](tutorials/blynk-firmware/blynktimer.md)
+  * [Debugging](tutorials/blynk-firmware/debugging.md)
 
 ## Web Dashboard
 
@@ -144,4 +149,5 @@
 * [Glossary](glossary.md)
 * [Blynk 1.0 and 2.0 comparison](blynk-1.0-and-2.0-comparison/README.md)
   * [Migrate from 1.0 to 2.0](blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md)
+* [Links](links.md)
 
