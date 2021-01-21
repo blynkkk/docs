@@ -24,6 +24,7 @@
   * [Common Navigation and Actions Reference](tutorials/getting-started/common-navigation-and-actions-reference.md)
   * [User Profile Management](tutorials/getting-started/user-profile-management.md)
 * [Building a Commercial Product A-Z](tutorials/building-a-commercial-product-a-z.md)
+* [Getting Started With Hardware](tutorials/getting-started-with-hardware.md)
 * [Blynk Firmware](tutorials/blynk-firmware/README.md)
   * [Configuration](tutorials/blynk-firmware/configuration.md)
   * [Connection Management](tutorials/blynk-firmware/connection-management.md)
