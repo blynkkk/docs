@@ -12,6 +12,11 @@
   * [Blynk.Cloud](platform-overview/blynk-components/blynk.cloud.md)
 * [Multi-tenancy](platform-overview/multi-tenant-tree-structure.md)
 
+## Downloads
+
+* [Blynk 2.0 Apps for iOS and Android](downloads/blynk-2.0-apps-for-ios-and-android.md)
+* [Blynk 2.0 Library](downloads/blynk-2.0-library.md)
+
 ## Tutorials
 
 * [Blynk 2.0 Business Story](tutorials/blynk-2.0-business-story.md)
