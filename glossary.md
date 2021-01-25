@@ -10,7 +10,7 @@ description: Terminology used in Blynk
 
 ## A
 
-`Auth Token` - a unique identifier that is assigned to each device that is activated in the system.
+`Auth Token` - a unique identifier that is assigned to each device that is activated in the system. See `Dynamic` / `Static` auth tokens.
 
 ## B
 
@@ -20,7 +20,7 @@ description: Terminology used in Blynk
 
 `Blynk.Edgent` - Blynk firmware implementation.
 
-`BlynkR` - subsystem for usser registration and management
+`BlynkR` - subsystem for usser registration and management.
 
 `Blynk.Marketplace` - a registry of `Products`, that are available globally to all `Blynk` users.
 
@@ -40,7 +40,7 @@ description: Terminology used in Blynk
 
 ## E
 
-`Event` - an item in the device `Timeline`
+`Event` - an item in the device `Timeline`. On Apps, events are also displayed on the Alerts tab.
 
 ## F
 
@@ -58,6 +58,8 @@ description: Terminology used in Blynk
 
 ## L
 
+`Location` - 
+
 ## M
 
 `Metadata` -
@@ -65,6 +67,8 @@ description: Terminology used in Blynk
 ## N
 
 ## O
+
+`Organization` - 
 
 ## P
 
@@ -78,7 +82,11 @@ description: Terminology used in Blynk
 
 ## R
 
+`Rule Engine` - 
+
 ## S
+
+`Sharing` - 
 
 `Static Auth Token` -
 
@@ -91,6 +99,8 @@ description: Terminology used in Blynk
 ## U
 
 ## V
+
+`Virtual Pin` -
 
 ## W
 
