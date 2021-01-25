@@ -12,7 +12,7 @@ description: Terminology used in Blynk
 
 `Auth Token` - a unique identifier that is assigned to each device that is activated in the system.
 
-`Automation` -
+`Automation` - condition-to-action sets allowing electronic `devices` to complete various tasks with the minimal level of human interaction.
 
 ## B
 
@@ -26,13 +26,11 @@ description: Terminology used in Blynk
 
 `Blynk.Marketplace` - a registry of `Products`, that are available globally to all `Blynk` users.
 
-`Blynk Stats` -
-
-`Board` -
+`Board` - microcontroller hardware that is used as a core of `Device`
 
 ## C
 
-`Category` -
+`Category` - 
 
 `Claiming` - process of associating the device with it's digital twin. I.e. when working with cellular devices, `Provisioning` is usually not required, so we use `claiming` to register each device in the system.
 
@@ -42,7 +40,7 @@ description: Terminology used in Blynk
 
 `Device` - physical or virtual appliance, users can get telemetry from, configure, interact with, etc. Each device needs to be registered in the system.
 
-`Datastream` -
+`Datastream` - is a set of digital signals used for different kinds of content transmission.
 
 `Dynamic Auth Token` -
 
@@ -52,7 +50,7 @@ description: Terminology used in Blynk
 
 ## F
 
-`Firmware` -
+`Firmware` - `Device`
 
 ## G
 
@@ -88,7 +86,7 @@ description: Terminology used in Blynk
 
 ## P
 
-`Pin` - ... See `Virtual Pin`
+`Pin` - ... see `Virtual Pin`
 
 `Product` - a `Template`, that is successfully published to `Blynk.Marketplace`
 
@@ -123,6 +121,8 @@ description: Terminology used in Blynk
 ## U
 
 ## V
+
+`Virtual Pin -` 
 
 ## W
 
