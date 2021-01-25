@@ -6,11 +6,13 @@ description: Terminology used in Blynk
 
 ## 0..9
 
-`Blynk.360` - a complex of `Blynk` services. Our web portal is the main entry point to Blynk.360.
+`Blynk.360` - a complex of `Blynk` services. Our web portal is the main etnry point to Blynk.360.
 
 ## A
 
-`Auth Token` - a unique identifier that is assigned to each device that is activated in the system. See `Dynamic` / `Static` auth tokens.
+`Auth Token` - a unique identifier that is assigned to each device that is activated in the system.
+
+`Automation` - 
 
 ## B
 
@@ -20,11 +22,17 @@ description: Terminology used in Blynk
 
 `Blynk.Edgent` - Blynk firmware implementation.
 
-`BlynkR` - subsystem for usser registration and management.
+`BlynkR` - subsystem for usser registration and management
 
-`Blynk.Marketplace` - a registry of `Products`, that are available globally to all `Blynk` users.
+`Blynk.Marketplace` - a registry of `Products`, that are available globally to all `Blynk` users. 
+
+`Blynk Stats` - 
+
+`Board` - 
 
 ## C
+
+`Category` - 
 
 `Claiming` - process of associating the device with it's digital twin. I.e. when working with cellular devices, `Provisioning` is usually not required, so we use `claiming` to register each device in the sysyem.
 
@@ -40,9 +48,11 @@ description: Terminology used in Blynk
 
 ## E
 
-`Event` - an item in the device `Timeline`. On Apps, events are also displayed on the Alerts tab.
+`Event` - an item in the device `Timeline`
 
 ## F
+
+`Firmware` - 
 
 ## G
 
@@ -62,15 +72,23 @@ description: Terminology used in Blynk
 
 ## M
 
-`Metadata` -
+`Metadata` - Metadata is a set of characteristics (or configurations) applied to every Product and associated with every Device
 
 ## N
 
+`Notification` - 
+
 ## O
+
+`Offline Ignore Period` - 
 
 `Organization` - 
 
+`OTA` - 
+
 ## P
+
+`Pin` - 
 
 `Product` - a `Template`, that is succesfully published to `Blynk.Marketplace`
 
@@ -86,23 +104,29 @@ description: Terminology used in Blynk
 
 ## S
 
-`Sharing` - 
+`Shipment` - 
 
 `Static Auth Token` -
 
 ## T
 
+`Tag` - 
+
 `Template` - a set of elements and configurations, used to display all `Device`s of a specific type. `Template`s are created by `Developer`s, and can be published to be accessible globally as `Product`s.
 
 `Template ID` - a unique identifier that is automatically assigned to each `Template`.
+
+`Timeline` - 
+
+`Transfer` - 
 
 ## U
 
 ## V
 
-`Virtual Pin` -
-
 ## W
+
+`Widget` - 
 
 ## Y
 
