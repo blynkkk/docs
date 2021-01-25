@@ -129,8 +129,8 @@
 
 * [Overview](blynk.edgent/overview.md)
 * [Installation](blynk.edgent/installation.md)
-* [API](blynk.edgent/untitled/README.md)
-  * [Configuration](blynk.edgent/untitled/configuration.md)
+* [API](blynk.edgent/api/README.md)
+  * [Configuration](blynk.edgent/api/configuration.md)
 * [Supported Boards](blynk.edgent/supported-boards.md)
 
 ## HTTPS API \(for testing\) <a id="https-api"></a>
@@ -143,7 +143,6 @@
 
 ## Troubleshooting
 
-* [Untitled](troubleshooting/untitled.md)
 * [WiFi provisioning](troubleshooting/wifi-provisioning.md)
 
 ---
