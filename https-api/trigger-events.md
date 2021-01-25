@@ -1,24 +1,25 @@
 # Log Event
 
-## Log Event
-
-## Get Virtual Datastream value
-
-{% api-method method="get" host="https://blynk.cloud" path="/external/api/get?token={token}&pin={pin}" %}
+{% api-method method="get" host="https://blynk.cloud" path="/external/api/logEvent?token={token}&code={event\_name}&description={event\_desciption}" %}
 {% api-method-summary %}
-Get Datastream value by Virtual Pin
+Trigger the event by event code
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get the stored value or the Virtual Pin**Example:**  
-`https://blynk.cloud/external/api/get?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&pin=v23`
+This endpoint allows you to trigger the event  
+**Example:**  
+**`/https:`**
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="pin" type="string" required=false %}
-virtual pin number \(should start with "v"\)
+{% api-method-parameter name="description" type="string" required=false %}
+event description
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="code" type="string" required=true %}
+event code
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="token" type="string" required=true %}
@@ -30,11 +31,11 @@ device auth token
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Value successfully retrieved.
+Success
 {% endapi-method-response-example-description %}
 
-```text
-3.14
+```
+
 ```
 {% endapi-method-response-example %}
 

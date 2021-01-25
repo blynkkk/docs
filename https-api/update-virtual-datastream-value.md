@@ -1,4 +1,4 @@
-# Get Virtual Datastream Value
+# Update Virtual Datastream Value
 
 {% api-method method="get" host="https://blynk.cloud" path="/external/api/get?token={token}&pin={pin}" %}
 {% api-method-summary %}

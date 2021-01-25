@@ -22,7 +22,7 @@ description: Terminology used in Blynk
 
 `BlynkR` - subsystem for usser registration and management
 
-`Blynk.Marketplace` - a registry of `Products`, that are available globally to all `Blynk` users. 
+`Blynk.Marketplace` - a registry of `Products`, that are available globally to all `Blynk` users.
 
 ## C
 
@@ -60,7 +60,7 @@ description: Terminology used in Blynk
 
 ## M
 
-`Metadata` - 
+`Metadata` -
 
 ## N
 
