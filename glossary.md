@@ -6,7 +6,7 @@ description: Terminology used in Blynk
 
 ## 0..9
 
-`Blynk.360` - a complex of `Blynk` services. Our web portal is the main etnry point to Blynk.360.
+`Blynk.360` - a complex of `Blynk` services. Our web portal is the main entry point to Blynk.360.
 
 ## A
 
