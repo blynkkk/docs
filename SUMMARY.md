@@ -30,6 +30,7 @@
   * [Digital & Analog pins control](tutorials/blynk-firmware/digital-and-analog-pins-control.md)
   * [BlynkTimer](tutorials/blynk-firmware/blynktimer.md)
   * [Debugging](tutorials/blynk-firmware/debugging.md)
+* [Notification management](tutorials/notification-management.md)
 
 ## Web Dashboard
 
