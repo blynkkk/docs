@@ -1,19 +1,24 @@
 # Update Virtual Datastream Value
 
-{% api-method method="get" host="https://blynk.cloud" path="/external/api/get?token={token}&pin={pin}" %}
+{% api-method method="get" host="https://blynk.cloud" path="/external/api/update?token={token}&pin={pin}&value={value}" %}
 {% api-method-summary %}
-Get Datastream value by Virtual Pin
+Update Datastream value by Virtual Pin
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get the stored value or the Virtual Pin  
+This endpoint allows you to update the value or the Virtual Pin  
 **Example:**  
-`https://blynk.cloud/external/api/get?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&pin=v23`
+`https://blynk.cloud/external/api/update?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&pin=v23&value=3.14`
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
+{% api-method-parameter name="value" type="string" required=true %}
+the value will be parsed as the   
+Datastream data type \(int, double, string\)  
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="pin" type="string" required=true %}
 virtual pin number \(should start with "v"\)
 {% endapi-method-parameter %}
@@ -27,11 +32,11 @@ device auth token
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Value successfully retrieved.
+Success
 {% endapi-method-response-example-description %}
 
-```text
-3.14
+```
+
 ```
 {% endapi-method-response-example %}
 
@@ -50,20 +55,25 @@ Could not find a device token
 
 
 
-{% api-method method="get" host="https://blynk.cloud" path="/external/api/get?token={token}&dataStreamId={id}" %}
+{% api-method method="get" host="https://blynk.cloud" path="/external/api/update?token={token}&dataStreamId={id}&value={value}" %}
 {% api-method-summary %}
-Get value by Datastream ID
+Update value by Datastream ID
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get the stored value or the Datastream  
+This endpoint allows you to update the value or the Datastream  
 **Example:**  
-`https://blynk.cloud/external/api/get?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&dataStreamId=1`
+`https://blynk.cloud/external/api/update?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&dataStreamId=1&value=3.14`
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
+{% api-method-parameter name="value" type="string" required=true %}
+the value will be parsed as the Datastream data type  
+\(int, double, string\) 
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="dataStreamId" type="integer" required=true %}
 Datastream Id
 {% endapi-method-parameter %}
@@ -77,11 +87,11 @@ device auth token
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Value successfully retrieved.
+Success
 {% endapi-method-response-example-description %}
 
-```text
-3.14
+```
+
 ```
 {% endapi-method-response-example %}
 

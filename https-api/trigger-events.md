@@ -34,7 +34,7 @@ device auth token
 Success
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
