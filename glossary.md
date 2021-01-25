@@ -22,13 +22,15 @@ description: Terminology used in Blynk
 
 `BlynkR` - subsystem for usser registration and management
 
-`Blynk.Marketplace` - a registry of `Products`, that are available globally to all `Blynk` users.
+`Blynk.Marketplace` - a registry of `Products`, that are available globally to all `Blynk` users. 
 
 ## C
 
 `Claiming` - process of associating the device with it's digital twin. I.e. when working with cellular devices, `Provisioning` is usually not required, so we use `claiming` to register each device in the sysyem.
 
 ## D
+
+`Dashboard` - a collection of widgets.
 
 `Device` - physical or virtual appliance, users can get telemetry from, configure, interact with, etc. Each device needs to be registered in the system.
 
@@ -58,7 +60,7 @@ description: Terminology used in Blynk
 
 ## M
 
-`Metadata` -
+`Metadata` - 
 
 ## N
 
@@ -66,7 +68,7 @@ description: Terminology used in Blynk
 
 ## P
 
-`Product` - a `Template`, that is succesfully published in `Blynk.Marketplace`
+`Product` - a `Template`, that is succesfully published to `Blynk.Marketplace`
 
 `Provisioning` -
 
@@ -82,7 +84,7 @@ description: Terminology used in Blynk
 
 ## T
 
-`Template` -
+`Template` - a set of elements and configurations, used to display all `Device`s of a specific type. `Template`s are created by `Developer`s, and can be published to be accessible globally as `Product`s.
 
 `Template ID` - a unique identifier that is automatically assigned to each `Template`.
 
