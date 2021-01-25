@@ -1,8 +1,4 @@
----
-description: needs to be checked for beeing up-to-date
----
-
-# Supported Hardware
+# Supported Boards
 
 * **Arduino** \([https://github.com/blynkkk/blynk-library](https://github.com/blynkkk/blynk-library)\)
   * Arduino MKR WiFi 1010
