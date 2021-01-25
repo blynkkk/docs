@@ -12,7 +12,7 @@ description: Terminology used in Blynk
 
 `Auth Token` - a unique identifier that is assigned to each device that is activated in the system.
 
-`Automation` - condition-to-action sets allowing electronic `devices` to complete various tasks with the minimal level of human interaction.
+`Automation` - condition-to-action sets allowing electronic `Devices` to complete various tasks with the minimal amount of human interaction.
 
 ## B
 
@@ -20,13 +20,15 @@ description: Terminology used in Blynk
 
 `Blynk.Inject` - implementation of `provisioning` for WiFi devices. See `Provisioning`.
 
-`Blynk.Edgent` - Blynk firmware implementation.
+`Blynk.Edgent` - Blynk `Firmware` implementation.
 
-`BlynkR` - subsystem for user registration and management
+`Blynk Library` - Blynk `Library` implementation for integration with `Blynk.360`
 
 `Blynk.Marketplace` - a registry of `Products`, that are available globally to all `Blynk` users.
 
-`Board` - microcontroller hardware that is used as a core of `Device`
+`BlynkR` - subsystem for user registration and management
+
+`Board` - microcontroller hardware that is used as a core of `Device`. List of supported hardware.
 
 ## C
 
@@ -36,7 +38,7 @@ description: Terminology used in Blynk
 
 ## D
 
-`Dashboard` - a collection of widgets.
+`Dashboard` - a collection of `Widgets`.
 
 `Device` - physical or virtual appliance, users can get telemetry from, configure, interact with, etc. Each device needs to be registered in the system.
 
@@ -50,7 +52,7 @@ description: Terminology used in Blynk
 
 ## F
 
-`Firmware` - `Device`
+`Firmware` - `Device` software that allows data exchange and commands execution inside the `Device` and between it and `Blynk.360`
 
 ## G
 
@@ -66,7 +68,7 @@ description: Terminology used in Blynk
 
 ## L
 
-`Location` -
+`Library` - is a bunch of files embedded to the arduino (or any other) integrated development environment (IDE) that add more functionality and ease to the use the `Board`.
 
 ## M
 
@@ -74,7 +76,7 @@ description: Terminology used in Blynk
 
 ## N
 
-`Notification` -
+`Notification` - a message sent by Email, SMS or Push after an `Event` occured
 
 ## O
 
@@ -82,11 +84,11 @@ description: Terminology used in Blynk
 
 `Organization` -
 
-`OTA` -
+`OTA` - over-the-air `Firmware` updates without accessing the `Device` physically.
 
 ## P
 
-`Pin` - ... see `Virtual Pin`
+`Pin` - GPIO (General-purpose input/output) pin on your `Board` used to interface hardware (Servo, LCD and others) of your `Device`
 
 `Product` - a `Template`, that is successfully published to `Blynk.Marketplace`
 
@@ -102,7 +104,7 @@ description: Terminology used in Blynk
 
 ## S
 
-`Shipment` -
+`Shipment` - 
 
 `Static Auth Token` -
 
@@ -114,7 +116,7 @@ description: Terminology used in Blynk
 
 `Template ID` - a unique identifier that is automatically assigned to each `Template`.
 
-`Timeline` -
+`Timeline` - 
 
 `Transfer` -
 
@@ -122,11 +124,11 @@ description: Terminology used in Blynk
 
 ## V
 
-`Virtual Pin -` 
+`Virtual Pin -` think of them as channels for sending any data used to interface with other libraries and implement custom logic. Has have no physical representation.
 
 ## W
 
-`Widget` -
+`Widget` - interface module that eases digital and analog data reading.
 
 ## Y
 
