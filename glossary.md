@@ -76,11 +76,11 @@ description: Terminology used in Blynk
 
 ## M
 
-`Metadata` - a set of characteristics \(or configurations\) applied to every Product and associated with every Device
+`Metadata` - a set of characteristics \(or configurations\) applied to every Product and associated with every Device.
 
 ## N
 
-`Notification` - a message sent by Email, SMS or Push after an `Event` occured
+`Notification` - a message sent by Email, SMS or Push after an `Event` occured.
 
 ## O
 
@@ -92,19 +92,17 @@ description: Terminology used in Blynk
 
 ## P
 
-`Pin` - GPIO (general-purpose input/output) pin on your `Board` used to interface hardware (Servo, LCD and others) of your `Device`
+`Pin` - GPIO (general-purpose input/output) pin on your `Board` used to interface hardware (Servo, LCD and others) of your `Device`.
 
-`Product` - a `Template`, that is successfully published to `Blynk.Marketplace`
+`Product` - a `Template`, that is successfully published to `Blynk.Marketplace`.
 
-`Provisioning` - a process of assigning `Auth Token` to a `Device` while adding it to an `Organization`
+`Provisioning` - a process of assigning `Auth Token` to a `Device` while adding it to an `Organization`.
 
-`Profiling` -
+`Profiling` - a process of filling-in the `Matadata`, immediately after `Claiming` or `Provisioning` a device.
 
 ## Q
 
 ## R
-
-`Rule Engine` -
 
 ## S
 
