@@ -1,10 +1,11 @@
+
 # Configuration
 
-#### Blynk.begin\(\) <a id="blynk-firmware-configuration-blynkbegin"></a>
+### Blynk.begin\(\)
 
 The easiest way to configure Blynk is to use `Blynk.begin()`:
 
-```text
+```cpp
 Blynk.begin(auth, ...);
 ```
 
@@ -12,23 +13,23 @@ It has multiple parameters for different hardware models and it also depends on 
 
 What happens inside of `Blynk.begin()` function:
 
-1. Connection to the network \(WiFi, Ethernet, …\)
+1. Connection to the network \(WiFi, Ethernet, ...\)
 2. Call of `Blynk.config(...)` to set Auth Token, Server Address, etc.
 3. Attempts to connect to the server once \(can block for more than 30s\)
 
 If your shield/connection type is not supported yet - you can implement it by yourself. [Here are some examples](https://github.com/blynkkk/blynk-library/tree/master/examples/More/ArduinoClient).
 
-#### Blynk.config\(\) <a id="blynk-firmware-configuration-blynkconfig"></a>
+### Blynk.config\(\)
 
-`config()` allows you to manage network connection. You can set up your connection type \(WiFi, Ethernet, …\) by yourself, and then call:
+`config()` allows you to manage network connection. You can set up your connection type \(WiFi, Ethernet, ...\) by yourself, and then call:
 
-```text
+```cpp
 Blynk.config(auth, server, port);
 ```
 
 or just
 
-```text
+```cpp
 Blynk.config(auth);
 ```
 
@@ -37,7 +38,7 @@ To skip connecting to the server or to disconnect manually, call `Blynk.disconne
 
 Use `connectWiFi` to conveniently set up WiFi connection:
 
-```text
+```cpp
 Blynk.connectWiFi(ssid, pass);
 ```
 

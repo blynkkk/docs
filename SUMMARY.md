@@ -129,8 +129,14 @@
 
 * [Overview](blynk.edgent/overview.md)
 * [Installation](blynk.edgent/installation.md)
+* [Main Operations](blynk.edgent/mainoperations.md)
 * [API](blynk.edgent/api/README.md)
   * [Configuration](blynk.edgent/api/configuration.md)
+  * [Connection Management](blynk.edgent/api/connection-management.md)
+  * [Virtual Pins](blynk.edgent/api/virtual-pins.md)
+  * [Timer](blynk.edgent/api/blynk-timer.md)
+  * [Debug](blynk.edgent/api/debug.md)
+  * [Other](blynk.edgent/api/other.md)
 * [Supported Boards](blynk.edgent/supported-boards.md)
 
 ## HTTPS API \(for testing\) <a id="https-api"></a>
