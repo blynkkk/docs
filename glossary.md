@@ -114,7 +114,7 @@ description: Terminology used in Blynk
 
 ## T
 
-`Tag` - a keyword or term that can be used to give short descriptions of a `User` or a `Device` 
+`Tag` - a keyword or term that can be used to give short description to a `User` or a `Device` 
 
 `Template` - a set of elements and configurations, used to display all `Devices` of a particular type. `Templates` are created by `Developers`, and can be published to be accessible globally as `Products`.
 
