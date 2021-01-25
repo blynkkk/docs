@@ -14,12 +14,11 @@
 
 ## Downloads
 
-* [Blynk 2.0 Apps for iOS and Android](downloads/blynk-2.0-apps-for-ios-and-android.md)
-* [Blynk 2.0 Library](downloads/blynk-2.0-library.md)
+* [Apps for iOS and Android](downloads/blynk-apps-for-ios-and-android.md)
+* [Blynk.Edgent](downloads/blynk.edgent.md)
 
 ## Tutorials
 
-* [Blynk 2.0 Business Story](tutorials/blynk-2.0-business-story.md)
 * [Getting Started](tutorials/getting-started/README.md)
   * [Common Navigation and Actions Reference](tutorials/getting-started/common-navigation-and-actions-reference.md)
   * [User Profile Management](tutorials/getting-started/user-profile-management.md)
@@ -131,9 +130,12 @@
 * [Developer Mode](mobile-applications/developer-mode.md)
 * [Partner mode](mobile-applications/partner-mode.md)
 
-## Firmware API
+## Blynk.Edgent <a id="blynk.edgent-firmware-api"></a>
 
-* [Time API](firmware-api/untitled.md)
+* [Blynk.Edgent Overview](blynk.edgent-firmware-api/blynk-2.0-library.md)
+* [Installation](blynk.edgent-firmware-api/installation.md)
+* [Supported Hardware](blynk.edgent-firmware-api/supported-hardware.md)
+* [API](blynk.edgent-firmware-api/untitled.md)
 
 ## RESTful API
 
