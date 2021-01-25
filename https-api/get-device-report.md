@@ -1,62 +1,57 @@
 # Get Device Report
 
-{% api-method method="get" host="https://api.cakes.com" path="/v1/cakes/:id" %}
-{% api-method-summary %}
-Get Cakes
-{% endapi-method-summary %}
 
-{% api-method-description %}
-This endpoint allows you to get free cakes.
-{% endapi-method-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" %}
-ID of the cake to get, for free of course.
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+* ```text
+  https://blynk.cloud/external/api/data/get?token={token}&period={PERIOD}&granularityType={TYPE}
+     &sourceType={SOURCE_TYPE}&tzName={tzName}&format={FORMAT}&sendEvents=true&output=FILE
+     &dataStreamId={id}
+     &pin={pin}
+  ```
 
-{% api-method-headers %}
-{% api-method-parameter name="Authentication" type="string" required=true %}
-Authentication token to track down who is emptying our stocks.
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
+  * `period` is `MONTH` by default, other possible values: `HOUR`, `DAY, WEEK, THREE_MONTHS`
+  * `granularityType` is `RAW_DATA` by default, other possible values: `MINUTE, HOURLY, DAILY`
+  * `sourceType` is `AVG` by default, other possible values: `MIN, MAX, SUM, COUNT`
+  * `tzName` is `UTC` by default
+  * `format` is `TS` by default, other possible values:
+    * `ISO_US` "04/10/19 11:45:41 AM"
+    * `ISO_SIMPLE` "2018-06-07 22:01:20"
+  * `sendEvents` is `false` by default
+  * `dataStreamId` or `pin` are optional parameters, which are used to get data for the specific pin
+  * `output` is `FILE` by default, other possible value: `JSON`
 
-{% api-method-query-parameters %}
-{% api-method-parameter name="recipe" type="string" %}
-The API will do its best to find a cake matching the provided recipe.
-{% endapi-method-parameter %}
+**Output example:**
 
-{% api-method-parameter name="gluten" type="boolean" %}
-Whether the cake should be gluten-free or not.
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+```text
+{
+    "meta":
+    [
+        {
+            "name": "data_stream_name",
+            "type": "String"
+        },
+        {
+            "name": "ts",
+            "type": "UInt32"
+        },
+        {
+            "name": "value",
+            "type": "Float64"
+        }
+    ],
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Cake successfully retrieved.
-{% endapi-method-response-example-description %}
+    "data":
+    [
+        {
+            "data_stream_name": "",
+            "ts": 1598011200,
+            "value": 1.6100000000000003
+        }
+    ],
 
+    "rows": 1,
+
+    "rows_before_limit_at_least": 1
+}
 ```
-{    "name": "Cake's name",    "recipe": "Cake's recipe name",    "cake": "Binary cake"}
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Could not find a cake matching this query.
-{% endapi-method-response-example-description %}
-
-```
-{    "message": "Ain't no cake like that."}
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-
 

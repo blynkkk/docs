@@ -145,8 +145,6 @@
 * [Get Virtual Datastream Value](https-api/update-and-get-pin-ds-value.md)
 * [Log Event](https-api/trigger-events.md)
 * [Get Device Report](https-api/get-device-report.md)
-* [Devices](https-api/devices.md)
-* [Events](https-api/untitled.md)
 
 ## Troubleshooting
 
