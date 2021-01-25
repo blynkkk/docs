@@ -12,7 +12,7 @@ description: Terminology used in Blynk
 
 `Auth Token` - a unique identifier that is assigned to each device that is activated in the system.
 
-`Automation` - 
+`Automation` -
 
 ## B
 
@@ -24,15 +24,15 @@ description: Terminology used in Blynk
 
 `BlynkR` - subsystem for usser registration and management
 
-`Blynk.Marketplace` - a registry of `Products`, that are available globally to all `Blynk` users. 
+`Blynk.Marketplace` - a registry of `Products`, that are available globally to all `Blynk` users.
 
-`Blynk Stats` - 
+`Blynk Stats` -
 
-`Board` - 
+`Board` -
 
 ## C
 
-`Category` - 
+`Category` -
 
 `Claiming` - process of associating the device with it's digital twin. I.e. when working with cellular devices, `Provisioning` is usually not required, so we use `claiming` to register each device in the sysyem.
 
@@ -52,7 +52,7 @@ description: Terminology used in Blynk
 
 ## F
 
-`Firmware` - 
+`Firmware` -
 
 ## G
 
@@ -68,27 +68,27 @@ description: Terminology used in Blynk
 
 ## L
 
-`Location` - 
+`Location` -
 
 ## M
 
-`Metadata` - Metadata is a set of characteristics (or configurations) applied to every Product and associated with every Device
+`Metadata` - Metadata is a set of characteristics \(or configurations\) applied to every Product and associated with every Device
 
 ## N
 
-`Notification` - 
+`Notification` -
 
 ## O
 
-`Offline Ignore Period` - 
+`Offline Ignore Period` -
 
-`Organization` - 
+`Organization` -
 
-`OTA` - 
+`OTA` -
 
 ## P
 
-`Pin` - 
+`Pin` -
 
 `Product` - a `Template`, that is succesfully published to `Blynk.Marketplace`
 
@@ -100,25 +100,25 @@ description: Terminology used in Blynk
 
 ## R
 
-`Rule Engine` - 
+`Rule Engine` -
 
 ## S
 
-`Shipment` - 
+`Shipment` -
 
 `Static Auth Token` -
 
 ## T
 
-`Tag` - 
+`Tag` -
 
 `Template` - a set of elements and configurations, used to display all `Device`s of a specific type. `Template`s are created by `Developer`s, and can be published to be accessible globally as `Product`s.
 
 `Template ID` - a unique identifier that is automatically assigned to each `Template`.
 
-`Timeline` - 
+`Timeline` -
 
-`Transfer` - 
+`Transfer` -
 
 ## U
 
@@ -126,7 +126,7 @@ description: Terminology used in Blynk
 
 ## W
 
-`Widget` - 
+`Widget` -
 
 ## Y
 

@@ -15,8 +15,8 @@ This endpoint allows you to update the value or the Virtual Pin
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="value" type="string" required=true %}
-the value will be parsed as the   
-Datastream data type \(int, double, string\)  
+the value will be parsed as the  
+Datastream data type \(int, double, string\)
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="pin" type="string" required=true %}
@@ -35,7 +35,7 @@ device auth token
 Success
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -53,8 +53,6 @@ Could not find a device token
 {% endapi-method-spec %}
 {% endapi-method %}
 
-
-
 {% api-method method="get" host="https://blynk.cloud" path="/external/api/update?token={token}&dataStreamId={id}&value={value}" %}
 {% api-method-summary %}
 Update value by Datastream ID
@@ -71,7 +69,7 @@ This endpoint allows you to update the value or the Datastream
 {% api-method-path-parameters %}
 {% api-method-parameter name="value" type="string" required=true %}
 the value will be parsed as the Datastream data type  
-\(int, double, string\) 
+\(int, double, string\)
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="dataStreamId" type="integer" required=true %}
@@ -90,7 +88,7 @@ device auth token
 Success
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
