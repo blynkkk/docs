@@ -34,7 +34,7 @@ description: Terminology used in Blynk
 
 ## C
 
-`Category` - `Devices` group by their type that allows to control all of them by giving single commands to voice assistants (Alexa, Google Assistant).
+`Category` - `Devices` group by their type that allows to control all of them by giving single commands to voice assistants \(Alexa, Google Assistant\).
 
 `Claiming` - process of associating the device with it's digital twin. I.e. when working with cellular devices, `Provisioning` is usually not required, so we use `claiming` to register each device in the system.
 
@@ -72,7 +72,7 @@ description: Terminology used in Blynk
 
 ## L
 
-`Library` - a bunch of files embedded to the arduino (or any other) integrated development environment (IDE) that add more functionality and ease to the use the `Board`.
+`Library` - a bunch of files embedded to the arduino \(or any other\) integrated development environment \(IDE\) that add more functionality and ease to the use the `Board`.
 
 ## M
 
@@ -92,7 +92,7 @@ description: Terminology used in Blynk
 
 ## P
 
-`Pin` - GPIO (general-purpose input/output) pin on your `Board` used to interface hardware (Servo, LCD and others) of your `Device`.
+`Pin` - GPIO \(general-purpose input/output\) pin on your `Board` used to interface hardware \(Servo, LCD and others\) of your `Device`.
 
 `Product` - a `Template`, that is successfully published to `Blynk.Marketplace`.
 
@@ -106,13 +106,13 @@ description: Terminology used in Blynk
 
 ## S
 
-`Shipment` - `OTA` `Firmware `loading to a single or multiple `Devices` 
+`Shipment` - `OTA` `Firmware`loading to a single or multiple `Devices`
 
 `Static Auth Token` - a unique identifier that is activated in the system and is assigned to each `Device` manually by editting the `Sketch`
 
 ## T
 
-`Tag` - a keyword or term that can be used to give short description to a `User` or a `Device` 
+`Tag` - a keyword or term that can be used to give short description to a `User` or a `Device`
 
 `Template` - a set of elements and configurations, used to display all `Devices` of a particular type. `Templates` are created by `Developers`, and can be published to be accessible globally as `Products`.
 

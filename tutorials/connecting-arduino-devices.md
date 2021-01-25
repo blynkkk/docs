@@ -2,7 +2,7 @@
 description: needs updates
 ---
 
-# Getting Started With Hardware
+# Connecting Arduino Devices
 
 ### Getting Started With Hardware <a id="getting-started-getting-started-with-hardware"></a>
 

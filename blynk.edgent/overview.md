@@ -2,7 +2,7 @@
 description: Blynk hardware library that works on devices
 ---
 
-# Blynk.Edgent Overview
+# Overview
 
 Blynk.Edgent is a lightweight library that runs on the hardware device. 
 

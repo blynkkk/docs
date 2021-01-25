@@ -23,17 +23,12 @@
   * [Common Navigation and Actions Reference](tutorials/getting-started/common-navigation-and-actions-reference.md)
   * [User Profile Management](tutorials/getting-started/user-profile-management.md)
 * [Building a Commercial Product A-Z](tutorials/building-a-commercial-product-a-z.md)
-* [Getting Started With Hardware](tutorials/getting-started-with-hardware.md)
-* [Blynk Firmware](tutorials/blynk-firmware/README.md)
-  * [Configuration](tutorials/blynk-firmware/configuration.md)
-  * [Connection Management](tutorials/blynk-firmware/connection-management.md)
-  * [Digital & Analog pins control](tutorials/blynk-firmware/digital-and-analog-pins-control.md)
-  * [BlynkTimer](tutorials/blynk-firmware/blynktimer.md)
-  * [Debugging](tutorials/blynk-firmware/debugging.md)
+* [Connecting Arduino Devices](tutorials/connecting-arduino-devices.md)
 * [Notification management](tutorials/notification-management.md)
 
 ## Web Dashboard
 
+* [For End-users](web-dashboard/for-end-users.md)
 * [For Developers](web-dashboard/for-developers/README.md)
   * [Search](web-dashboard/for-developers/search/README.md)
     * [Devices](web-dashboard/for-developers/search/devices-1/README.md)
@@ -106,7 +101,6 @@
       * [Webhooks](web-dashboard/for-developers/settings/developers/webhooks.md)
     * [Integrations](web-dashboard/for-developers/settings/integrations.md)
   * [User Profile](web-dashboard/for-developers/user-profile.md)
-* [For End-users](web-dashboard/for-end-users.md)
 
 ## Mobile Applications
 
@@ -131,12 +125,13 @@
 * [Developer Mode](mobile-applications/developer-mode.md)
 * [Partner mode](mobile-applications/partner-mode.md)
 
-## Blynk.Edgent <a id="blynk.edgent-firmware-api"></a>
+## Blynk.Edgent
 
-* [Blynk.Edgent Overview](blynk.edgent-firmware-api/blynk-2.0-library.md)
-* [Installation](blynk.edgent-firmware-api/installation.md)
-* [Supported Hardware](blynk.edgent-firmware-api/supported-hardware.md)
-* [API](blynk.edgent-firmware-api/untitled.md)
+* [Overview](blynk.edgent/overview.md)
+* [Installation](blynk.edgent/installation.md)
+* [API](blynk.edgent/untitled/README.md)
+  * [Configuration](blynk.edgent/untitled/configuration.md)
+* [Supported Hardware](blynk.edgent/supported-hardware.md)
 
 ## HTTPS API \(for testing\) <a id="https-api"></a>
 
