@@ -1,5 +1,4 @@
-
-# BlynkTimer
+# Timer
 
 It's important to send data in intervals and keep the void loop\(\) as clean as possible.
 
@@ -13,3 +12,4 @@ For more information on timer usage, please see: [http://playground.arduino.cc/C
 And here is a BlynkTimer [example sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/PushData/PushData.ino#L30).
 
 Please also remember that a single `BlynkTimer` can schedule many timers, so most probably you need only one instance of BlynkTimer in your sketch.
+

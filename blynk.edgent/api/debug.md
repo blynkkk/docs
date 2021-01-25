@@ -1,9 +1,8 @@
+# Debug
 
-## Debugging
+## \#define BLYNK\_PRINT
 
-### \#define BLYNK\_PRINT
-
-### \#define BLYNK\_DEBUG
+## \#define BLYNK\_DEBUG
 
 To enable debug prints on the default Serial port add on the top of your sketch **IMPORTANT: This should be the first line in your code**:
 
@@ -24,7 +23,7 @@ You can also use spare Hardware serial ports or SoftwareSerial for debug output 
 
 **WARNING:** Enabling `BLYNK_DEBUG` will slowdown your hardware processing speed up to 10 times!
 
-### BLYNK\_LOG\(\)
+## BLYNK\_LOG\(\)
 
 When `BLYNK_PRINT` is defined, you can use `BLYNK_LOG` to print your logs. The usage is similar to `printf`:
 
@@ -42,3 +41,4 @@ BLYNK_LOG2("This is my value: ", 10); // Print 2 values
 BLYNK_LOG4("Temperature: ", 24, " Humidity: ", 55); // Print 4 values
 ...
 ```
+

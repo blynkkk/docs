@@ -1,9 +1,8 @@
-
-# Connection management
+# Connection Management
 
 There are several functions to help with connection management:
 
-### Blynk.connect\(\)
+## Blynk.connect\(\)
 
 This functions will continue trying to connect to Blynk server. Returns `true` when connected, `false` if timeout have been reached. Default timeout is 30 seconds.
 
@@ -12,7 +11,7 @@ bool result = Blynk.connect();
 bool result = Blynk.connect(timeout);
 ```
 
-### Blynk.disconnect\(\)
+## Blynk.disconnect\(\)
 
 Disconnects hardware from Blynk server:
 
@@ -20,7 +19,7 @@ Disconnects hardware from Blynk server:
 Blynk.disconnect();
 ```
 
-### Blynk.connected\(\)
+## Blynk.connected\(\)
 
 Returns `true` when hardware is connected to Blynk Server, `false` if there is no active connection to Blynk server.
 
@@ -28,7 +27,7 @@ Returns `true` when hardware is connected to Blynk Server, `false` if there is n
 bool result = Blynk.connected();
 ```
 
-### Blynk.run\(\)
+## Blynk.run\(\)
 
 This function should be called frequently to process incoming commands and perform housekeeping of Blynk connection. It is usually called in `void loop() {}`.
 
@@ -36,7 +35,7 @@ This command can be initiated it in other places of your code unless you run out
 
 For example, it is not recommended to call `Blynk.run()` inside of the `BLYNK_READ` and `BLYNK_WRITE` functions on low-RAM devices.
 
-### BLYNK\_CONNECTED\(\)
+## BLYNK\_CONNECTED\(\)
 
 Use this function when you need to run certain routine when hardware connects to Blynk Cloud or private server. It's common to call sync functions inside of this function.
 
@@ -46,7 +45,7 @@ BLYNK_CONNECTED() {
 }
 ```
 
-### BLYNK\_APP\_CONNECTED\(\)
+## BLYNK\_APP\_CONNECTED\(\)
 
 This function is called every time Blynk app client connects to Blynk server.
 
@@ -58,7 +57,7 @@ BLYNK_APP_CONNECTED() {
 
 [Example](https://github.com/blynkkk/blynk-library/blob/master/examples/More/AppConnectedEvents/AppConnectedEvents.ino)
 
-### BLYNK\_APP\_DISCONNECTED\(\)
+## BLYNK\_APP\_DISCONNECTED\(\)
 
 This function is called every time the Blynk app disconnects from Blynk Cloud or private server.
 
@@ -69,3 +68,4 @@ BLYNK_APP_DISCONNECTED() {
 ```
 
 [Example](https://github.com/blynkkk/blynk-library/blob/master/examples/More/AppConnectedEvents/AppConnectedEvents.ino)
+

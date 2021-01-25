@@ -1,7 +1,6 @@
-
 # Configuration
 
-### Blynk.begin\(\)
+## Blynk.begin\(\)
 
 The easiest way to configure Blynk is to use `Blynk.begin()`:
 
@@ -19,7 +18,7 @@ What happens inside of `Blynk.begin()` function:
 
 If your shield/connection type is not supported yet - you can implement it by yourself. [Here are some examples](https://github.com/blynkkk/blynk-library/tree/master/examples/More/ArduinoClient).
 
-### Blynk.config\(\)
+## Blynk.config\(\)
 
 `config()` allows you to manage network connection. You can set up your connection type \(WiFi, Ethernet, ...\) by yourself, and then call:
 
