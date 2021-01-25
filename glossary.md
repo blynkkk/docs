@@ -22,7 +22,7 @@ description: Terminology used in Blynk
 
 `BlynkR` - subsystem for usser registration and management
 
-`Blynk.Marketplace` - a registry of `Products`, that are available globally to all `Blynk` users. 
+`Blynk.Marketplace` - a registry of `Products`, that are available globally to all `Blynk` users.
 
 ## C
 
@@ -34,7 +34,7 @@ description: Terminology used in Blynk
 
 `Datastream` -
 
-`Dynamic Auth Token` - 
+`Dynamic Auth Token` -
 
 ## E
 
@@ -58,7 +58,7 @@ description: Terminology used in Blynk
 
 ## M
 
-`Metadata` - 
+`Metadata` -
 
 ## N
 
@@ -68,7 +68,7 @@ description: Terminology used in Blynk
 
 `Product` - a `Template`, that is succesfully published in `Blynk.Marketplace`
 
-`Provisioning` - 
+`Provisioning` -
 
 `Profiling` -
 
@@ -78,11 +78,11 @@ description: Terminology used in Blynk
 
 ## S
 
-`Static Auth Token` - 
+`Static Auth Token` -
 
 ## T
 
-`Template` - 
+`Template` -
 
 `Template ID` - a unique identifier that is automatically assigned to each `Template`.
 

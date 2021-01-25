@@ -140,8 +140,9 @@
 
 ## HTTPS API
 
+* [Update Virtual Datastream Value](https-api/update-virtual-datastream-value.md)
 * [Get Device Report](https-api/get-device-report.md)
-* [Get Virtual Datastream value](https-api/update-and-get-pin-ds-value.md)
+* [Get Virtual Datastream Value](https-api/update-and-get-pin-ds-value.md)
 * [Log Event](https-api/trigger-events.md)
 * [Devices](https-api/devices.md)
 * [Events](https-api/untitled.md)

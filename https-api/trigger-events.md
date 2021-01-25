@@ -1,6 +1,8 @@
 # Log Event
 
-# Get Virtual Datastream value
+## Log Event
+
+## Get Virtual Datastream value
 
 {% api-method method="get" host="https://blynk.cloud" path="/external/api/get?token={token}&pin={pin}" %}
 {% api-method-summary %}
@@ -8,11 +10,8 @@ Get Datastream value by Virtual Pin
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get the stored value or the Virtual Pin  
-  
-**Example:**  
-`https://blynk.cloud/external/api/get?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&pin=v23`  
-  
+This endpoint allows you to get the stored value or the Virtual Pin**Example:**  
+`https://blynk.cloud/external/api/get?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&pin=v23`
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -34,7 +33,7 @@ device auth token
 Value successfully retrieved.
 {% endapi-method-response-example-description %}
 
-```
+```text
 3.14
 ```
 {% endapi-method-response-example %}
@@ -44,7 +43,7 @@ Value successfully retrieved.
 Could not find a device token
 {% endapi-method-response-example-description %}
 
-```
+```text
 {"error":{"message":"Invalid token."}}
 ```
 {% endapi-method-response-example %}
