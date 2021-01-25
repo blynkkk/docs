@@ -6,7 +6,7 @@ description: Terminology used in Blynk
 
 ## 0..9
 
-`Blynk.360` - a complex of `Blynk` services. Our web portal is the main etnry point to Blynk.360.
+`Blynk.360` - a complex of `Blynk` services. Our web portal is the main entry point to Blynk.360.
 
 ## A
 
@@ -22,7 +22,7 @@ description: Terminology used in Blynk
 
 `Blynk.Edgent` - Blynk firmware implementation.
 
-`BlynkR` - subsystem for usser registration and management
+`BlynkR` - subsystem for user registration and management
 
 `Blynk.Marketplace` - a registry of `Products`, that are available globally to all `Blynk` users.
 
@@ -34,7 +34,7 @@ description: Terminology used in Blynk
 
 `Category` -
 
-`Claiming` - process of associating the device with it's digital twin. I.e. when working with cellular devices, `Provisioning` is usually not required, so we use `claiming` to register each device in the sysyem.
+`Claiming` - process of associating the device with it's digital twin. I.e. when working with cellular devices, `Provisioning` is usually not required, so we use `claiming` to register each device in the system.
 
 ## D
 
@@ -48,7 +48,7 @@ description: Terminology used in Blynk
 
 ## E
 
-`Event` - an item in the device `Timeline`
+`Event` - an item in the device `Timeline` . On Apps, events are also displayed in the `Alerts` tab.
 
 ## F
 
@@ -58,7 +58,7 @@ description: Terminology used in Blynk
 
 ## H
 
-`HTTP API` - a service that allows interoperating with devices using a simple HTTP client. Devices can report their data using `HTTP` protocol.
+`HTTP API` - a service that allows inter-operating with devices using a simple HTTP client. Devices can report their data using `HTTP` protocol.
 
 ## I
 
@@ -88,9 +88,9 @@ description: Terminology used in Blynk
 
 ## P
 
-`Pin` -
+`Pin` - ... See `Virtual Pin`
 
-`Product` - a `Template`, that is succesfully published to `Blynk.Marketplace`
+`Product` - a `Template`, that is successfully published to `Blynk.Marketplace`
 
 `Provisioning` -
 
@@ -112,7 +112,7 @@ description: Terminology used in Blynk
 
 `Tag` -
 
-`Template` - a set of elements and configurations, used to display all `Device`s of a specific type. `Template`s are created by `Developer`s, and can be published to be accessible globally as `Product`s.
+`Template` - a set of elements and configurations, used to display all `Devices` of a particular type. `Templates` are created by `Developers`, and can be published to be accessible globally as `Products`.
 
 `Template ID` - a unique identifier that is automatically assigned to each `Template`.
 
