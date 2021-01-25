@@ -4,55 +4,69 @@ description: Terminology used in Blynk
 
 # Glossary
 
-A  
-Auth Token
+### 0..9
+`Blynk.360` - 
 
-B
+### A  
+`Auth Token` - 
 
-C
+### B
+`Blynk.Air` -
+`Blynk.Inject` - 
+`BlynkR` - 
 
-D
+### C
+`Claiming`
 
-E
+### D
+`Device` - 
+`Datastream` - 
 
-F
+### E
+`Edgent` - 
+`Event` - 
 
-G
+### F
 
-H
+### G
 
-I
+### H
 
-J
+### I
 
-K
+### J
 
-L
+### K
 
-M
+### L
 
-N
+### M
+`Metadata` - 
 
-O
+### N
 
-P  
-Product
+### O
 
-Q
+### P  
+`Product` - 
+`Provisioning` - 
+`Profiling` - 
 
-R
+### Q
 
-S
+### R
 
-T
+### S
 
-U
+### T
 
-V
+### U
 
-W
+### V
 
-Y
+### W
 
-Z
+### Y
+
+### Z
 
