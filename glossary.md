@@ -58,17 +58,9 @@ description: Terminology used in Blynk
 
 `Firmware` - `Device's` low-level software that allows data exchange and commands execution inside a `Device` and between it and `Blynk.360`
 
-## G
-
 ## H
 
 `HTTP API` - a service that allows inter-operating with devices using a simple HTTP client. Devices can report their data using `HTTP` protocol.
-
-## I
-
-## J
-
-## K
 
 ## L
 
@@ -100,10 +92,6 @@ description: Terminology used in Blynk
 
 `Profiling` - a process of filling-in the `Matadata`, immediately after `Claiming` or `Provisioning` a device.
 
-## Q
-
-## R
-
 ## S
 
 `Shipment` - `OTA` `Firmware`loading to a single or multiple `Devices`
@@ -128,13 +116,9 @@ description: Terminology used in Blynk
 
 ## V
 
-`Virtual Pin -` think of them as channels for sending any data used to interface with other libraries and implement custom logic. Has have no physical representation.
+`Virtual Pin` - think of them as channels for sending any data used to interface with other libraries and implement custom logic. Has have no physical representation.
 
 ## W
 
 `Widget` - interface module that eases digital and analog data reading.
-
-## Y
-
-## Z
 
