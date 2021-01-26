@@ -1,8 +1,14 @@
 # Hotspot Prefix
 
-#### Info: Hotspot Prefix
-
-It's used in case you set up the device \(For example: ESP8266 or ESP32\) as WiFi access point.  
+It's used as SSID when the device works as WiFi access point during the Provision  .  
 Use this field to give a name to the future access point.  
-This setting applies during device provisioning.
+  
+Follow these steps to set:
+
+* select the Product, open Info tab and copy it's Hotspot Prefix;
+* in Arduino IDE Sketch find a string that contains "\#define PRODUCT\_WIFI\_SSID", change "Our Product" by pasting Hotspot Prefix from the previous step;
+
+Max length - 200 characters. Only letters, digits and space are allowed.
+
+
 
