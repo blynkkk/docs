@@ -1,6 +1,8 @@
-# Info
+---
+description: 'This page keeps general info about the Product such as:'
+---
 
-This page keeps general info about the Product such as:
+# Info
 
 * NAME – unique Product name that will be used during Device check and connection plus it's a default Device name \(paste it to Sketches "\#define BOARD\_NAME" string replacing the "Product Name"\). Make it readable and understandable. Use only letters, digits, and spaces. 100 characters limit.  
 * HARDWARE – dropdown list of supported Boards. Start typing the name of  board that will be used in the Product and choose correct one from search results or select it manually from the list. 
