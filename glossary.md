@@ -22,9 +22,7 @@ description: Terminology used in Blynk
 
 `Blynk.Inject` - implementation of `provisioning` for WiFi devices. See `Provisioning`.
 
-`Blynk.Edgent` - Blynk `Firmware` implementation.
-
-`Blynk.Library` - Blynk `Library` implementation for integration with `Blynk.360`
+`Blynk.Edgent` - Blynk firmware implementation for easy device integration with `Blynk.360`.
 
 `Blynk.Marketplace` - a registry of `Products`, that are available globally to all `Blynk` `Users`.
 
@@ -32,7 +30,9 @@ description: Terminology used in Blynk
 
 `Board` - microcontroller hardware that is used as a core of `Device`. List of supported hardware.
 
-`Blynk 0.1` - legacy Blynk app.
+`Blynk 0.1` - legacy Blynk app. Deprecated in favour of new `Blynk` app.
+
+`Blynk Library` - legacy Blynk library implementation. Deprecated in favour of `Blynk.Edgent`
 
 ## C
 
