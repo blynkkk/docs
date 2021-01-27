@@ -1,15 +1,12 @@
----
-description: >-
-  This datastream is a way to exchange any data between your hardware, Blynk.360
-  and Blynk.App. Think about Virtual Pins as channels for sending any data.
-  Virtual Pins have no physical representation.
----
-
 # Virtual Pin
 
-Please make sure you differentiate Virtual Pins from physical GPIO pins on your hardware. 
+Virtual Pin is a concept invented to provide exchange of any data between hardware, web and mobile app. Virtual pins allow you to interface with any sensor, any library, any actuator.
 
-Virtual Pins are commonly used to interface with other libraries \(Servo, LCD and others\) and implement custom logic. The Device can send data to Blynk.360 and/or Blynk.App using `Blynk.virtualWrite(pin, value)` and receive data from the Blynk.360 and/or Blynk.App using `BLYNK_WRITE(vPIN)`. 
+Think about Virtual Pins as a box where you can put any value, and everyone who has access to this box can see this value.
+
+It's a very powerful feature to display and send any data from your hardware to the application.
+
+Please make sure you differentiate Virtual Pins from physical GPIO pins on your hardware. 
 
 ![](../../../../.gitbook/assets/vpin_ds.png)
 
