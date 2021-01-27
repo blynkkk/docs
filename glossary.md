@@ -32,6 +32,8 @@ description: Terminology used in Blynk
 
 `Board` - microcontroller hardware that is used as a core of `Device`. List of supported hardware.
 
+`Blynk 0.1` - legacy Blynk app.
+
 ## C
 
 `Category` - `Devices` group by their type that allows to control all of them by giving single commands to voice assistants \(Alexa, Google Assistant\).
