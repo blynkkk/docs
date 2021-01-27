@@ -4,10 +4,6 @@ description: Terminology used in Blynk
 
 # Glossary
 
-## 0..9
-
-`Blynk.360` - a complex of `Blynk` services. Our web portal is the main entry point to Blynk.360.
-
 ## A
 
 `API` - an application programming interface is a computing interface that defines interactions between multiple software intermediaries
@@ -17,6 +13,10 @@ description: Terminology used in Blynk
 `Automation` - condition-to-action sets allowing electronic `Devices` to complete various tasks with the minimal amount of human interaction.
 
 ## B
+
+`Blynk.360` - a complex of `Blynk` services. Our web portal is the main entry point to `Blynk.360`.
+
+`Blynk.App` - iOS/Android apps, globally available in App Store and Google Play under name "Blynk".
 
 `Blynk.Air` - subsystem for management of over-the-air updates.
 
@@ -28,7 +28,7 @@ description: Terminology used in Blynk
 
 `Blynk.Marketplace` - a registry of `Products`, that are available globally to all `Blynk` `Users`.
 
-`BlynkR` - subsystem for `User` registration and management
+`Blynk.R` - subsystem for `User` registration and management
 
 `Board` - microcontroller hardware that is used as a core of `Device`. List of supported hardware.
 
