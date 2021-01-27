@@ -5,11 +5,11 @@
 ## Platform overview
 
 * [What is Blynk](platform-overview/what-is-blynk-2.0.md)
-* [Blynk Components](platform-overview/blynk-components/README.md)
-  * [Blynk.App](platform-overview/blynk-components/blynk.app.md)
-  * [Blynk.360](platform-overview/blynk-components/blynk.360.md)
-  * [Blynk.Edgent](platform-overview/blynk-components/blynk.edgent.md)
-  * [Blynk.Cloud](platform-overview/blynk-components/blynk.cloud.md)
+* [Products and Services](platform-overview/products-and-services/README.md)
+  * [Blynk.360](platform-overview/products-and-services/blynk.360.md)
+  * [Blynk.App](platform-overview/products-and-services/blynk.app.md)
+  * [Blynk.Edgent](platform-overview/products-and-services/blynk.edgent.md)
+  * [Blynk.Cloud](platform-overview/products-and-services/blynk.cloud.md)
 * [Multi-tenancy](platform-overview/multi-tenant-tree-structure.md)
 
 ## Downloads

@@ -6,59 +6,57 @@ description: Terminology used in Blynk
 
 ## A
 
-`API` - an application programming interface is a computing interface that defines interactions between multiple software intermediaries
+`API` - an Application Programming Interface – computing interface that defines interactions between multiple software intermediaries
 
 `Auth Token` - a unique identifier that is assigned to each `Device` that is activated in the system.
 
-`Automation` - condition-to-action sets allowing electronic `Devices` to complete various tasks with a minimal amount of human interaction.
+`Automation` - condition-to-action sets allowing `Devices` to complete tasks without user interaction.
 
 ## B
 
-`Blynk.360` - a complex of `Blynk` services. Our web portal is the main entry point to `Blynk.360`.
+`Blynk.360` - a web application to configure devices, manage users, organizations.... [Link](platform-overview/products-and-services/blynk.360.md)
 
-`Blynk.App` - iOS/Android apps, globally available in App Store and Google Play under name "Blynk".
+`Blynk.App` - a  mobile app available for iOS and Android
 
-`Blynk.Air` - subsystem for management of over-the-air updates.
+`Blynk.Air` - a Blynk Service that manages firmware-over-the-air updates. 
 
-`Blynk.Inject` - implementation of `provisioning` for WiFi devices. See `Provisioning`.
+`Blynk.Edgent` - a Blynk hardware agent library that manages device connection and communication with the cloud
 
-`Blynk.Edgent` - Blynk firmware implementation for easy device integration with `Blynk.360`.
+`Blynk.Inject` - Blynk Service that gets hardware connected to the Internet. In short - a wifi connection manager.  
 
-`Blynk.Marketplace` - a registry of `Products`, that are available globally to all `Blynk` `Users`.
-
-`Blynk.R` - subsystem for `User` registration and management
+`Blynk.R` - Blynk Service  for `User` registration and management
 
 `Board` - microcontroller hardware that is used as a core of `Device`. List of supported hardware.
 
-`Blynk 0.1` - legacy Blynk app. Deprecated in favour of new `Blynk` app.
+`Blynk 0.1` - First version of the Blynk IoT platform. No longer developed and supported.
 
-`Blynk Library` - legacy Blynk library implementation. Deprecated in favour of `Blynk.Edgent`
+`Blynk Library` - first version of the hardware agent library . Now`Blynk.Edgent`
 
 ## C
 
-`Category` - `Devices` group by their type that allows to control all of them by giving single commands to voice assistants \(Alexa, Google Assistant\).
+`Category` - `Devices` group by their type that allows controlling all of them with voice assistants \(Alexa, Google Assistant\).
 
-`Claiming` - process of associating the device with it's digital twin. I.e. when working with cellular devices, `Provisioning` is usually not required, so we use `claiming` to register each device in the system.
+`Claiming` - a process of associating the device with the User \(device owner\). Usually used with devices that connect to the Internet using cellular or wired connection. WiFI `Provisioning` 
 
 ## D
 
-`Dashboard` - a collection of `Widgets`.
+`Dashboard` - a collection of `Widgets`
 
 `Device` - physical or virtual appliance, `Users` can get telemetry from, configure, interact with, etc. Each device needs to be registered in the system.
 
-`Device Owner`- basically displays the `User` who added a `Device` to an `Organization`. Can be assigned to another `User` via `Transfer`
+`Device Owner`-  a user considered to be a primary owner of the physical device. 
 
 `Datastream` - is a set of digital signals used for different kinds of content transmission.
 
-`Dynamic Auth Token` - a unique identifier that is activated in the system and is assigned to each `Device` automatically during Wi-Fi `Provision`
+`Dynamic Auth Token` - a unique identifier that is activated in the system and is assigned to each `Device` automatically during Wi-Fi `Provisioning`
 
 ## E
 
-`Event` - an item in the device `Timeline` . On Apps, events are also displayed in the `Alerts` tab.
+`Event` - a recorded occurrence of an application-important event on the device
 
 ## F
 
-`Firmware` - `Device's` low-level software that allows data exchange and commands execution inside a `Device` and between it and `Blynk.360`
+`Firmware` -  a low-level software application that controls electronics and peripherials
 
 ## H
 
@@ -66,33 +64,33 @@ description: Terminology used in Blynk
 
 ## L
 
-`Library` - a bunch of files embedded to the arduino \(or any other\) integrated development environment \(IDE\) that add more functionality and ease to the use the `Board`.
+`Library` - a set of files embedded to the arduino \(or any other\) integrated development environment \(IDE\) that add more functionality and ease to the use the `Board`.
 
 ## M
 
-`Metadata` - a set of characteristics \(or configurations\) applied to every Product and associated with every Device.
+`Metadata` -  a `{key: value}` data associated with every device of a certain  `Template`
 
 ## N
 
-`Notification` - a message sent by Email, SMS or Push after an `Event` occured.
+`Notification` - a short message triggered by a certain `Event` and delivered to the specified recipient as an Email, SMS or `Push Notification`
 
 ## O
 
-`Offline Ignore Period` - a user defined amount of time to pass before `Device` is displayed offline in `Blynk.360` after it's being actually offline
+`Organization` - a collection of users, devices, and locations
 
-`Organization` - `Blynk.360` instance containing interconnected `Templates`, `Products`, `Devices` and Users used by a group of people.
-
-`OTA` - over-the-air `Firmware` updates without accessing the `Device` physically.
+`OTA` \(also `FOTA`\) – **O**ver-**T**he-**A**ir `Firmware` updates without accessing the `Device` physically.
 
 ## P
 
-`Pin` - GPIO \(general-purpose input/output\) pin on your `Board` used to interface hardware \(Servo, LCD and others\) of your `Device`.
+`Pin` - GPIO \(general-purpose input/output\) pin on your `Board` used to interface with external hardware components  \(sensors, servo motors, LCDs, etc\) of your `Device`.
 
-`Product` - a `Template`, that is successfully published to `Blynk.Marketplace`.
+`Product` - a `Template` published to `Blynk.Marketplace` and available for public use
 
-`Provisioning` - a process of assigning `Auth Token` to a `Device` while adding it to an `Organization`.
+`Provisioning (also WiFI provisioning)` - a process where the Blynk app sends parameters required to establish a WiFi connection to the `device`. 
 
-`Profiling` - a process of filling-in the `Matadata`, immediately after `Claiming` or `Provisioning` a device.
+`Profiling` - a process of filling-out  of Device `Matadata` after `Claiming` or `Provisioning` a device
+
+`Push Notification` - a type of notification sent directly to the app on the smartphone  
 
 ## S
 
@@ -102,7 +100,7 @@ description: Terminology used in Blynk
 
 ## T
 
-`Tag` - a keyword or term that can be used to give short description to a `User` or a `Device`
+`Tag` - a keyword or term that can be used to give a short description to a `User` or a `Device`
 
 `Template` - a set of elements and configurations, used to display all `Devices` of a particular type. `Templates` are created by `Developers`, and can be published to be accessible globally as `Products`.
 
@@ -118,9 +116,9 @@ description: Terminology used in Blynk
 
 ## V
 
-`Virtual Pin` - this datastream is a way to exchange any data between your `Device`, `Blynk.360` and `Blynk.App`. Think of it as a channel for sending any data used to interface with other libraries and implement custom logic. Has no physical representation.
+`Virtual Pin` - a "channel" used to send processed data from/to cloud . Virtual pins have no physical representation on the hardware. 
 
 ## W
 
-`Widget` - interface module that eases digital and analog data reading.
+`Widget` - a self-contained graphical user interface \(GUI\) element used to visualize data or get user input.
 
