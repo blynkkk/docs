@@ -118,7 +118,7 @@ description: Terminology used in Blynk
 
 ## V
 
-`Virtual Pin` - think of them as channels for sending any data used to interface with other libraries and implement custom logic. Has have no physical representation.
+`Virtual Pin` - this datastream is a way to exchange any data between your `Device`, `Blynk.360` and `Blynk.App`. Think of it as a channel for sending any data used to interface with other libraries and implement custom logic. Has no physical representation.
 
 ## W
 
