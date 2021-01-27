@@ -1,8 +1,10 @@
+---
+description: >-
+  Label is used to show value of Virtual Pin e.g. length/distance, mass,
+  duration, volume, temperature and other data types including strings.
+---
+
 # Label
-
-Label is used to show value of Virtual Pin e.g. length/distance, mass, duration, volume, temperature and other data types including strings.
-
-SETUP:
 
 * **Label** – name a Label widget so you or your client understand what it's about    
 * **Source** – there are two fields:  

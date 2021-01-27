@@ -1,8 +1,10 @@
+---
+description: >-
+  Chart is used to visualise live and historical data. You can use it for sensor
+  data, for binary event logging and more.
+---
+
 # Chart
-
-Chart is used to visualise live and historical data. You can use it for sensor data, for binary event logging and more.
-
-SETUP:
 
 * **Add source** – it's possible to set several Datastream **Sources** under one Chart. Click and set up as much as you need.
 * **Chart Title** – name a chart so you or your client understand what it's about
