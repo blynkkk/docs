@@ -2,7 +2,7 @@
 
 ## Locations View
 
-## Locations List
+## List of Locations
 
-
+## Location Page
 
