@@ -1,38 +1,39 @@
-# General
+# General tab
 
 ## Name
 
-Give your event a meaningful name because it will be shown to end-users.
+Give your event a meaningful name because it will be shown to end-users.   
+Use letters, digits, spaces, and underscores only. 50 character limit. 
 
 **IMPORTANT:** Event name should be unique within the product.
 
 ## Events: Code
 
-Event code is used in firmware API to trigger and render events from the device.
+Event code is used in firmware API to trigger and render events from the device.  
+Use letters, digits, spaces, and underscores only. 50 character limit. 
 
 **IMPORTANT:** Event code should be unique within the product.
 
-### igh\_temp
-
 ## Type
 
-Info
+There are 3 types of Events which help you to set the importance level to an events:
 
-Warning
+* Info – low priority general information. Green color is set by default.
+* Warning – ignoring this event may cause the issues. Orange color is set by default. 
+* Critical – immediate attention or action is required. Red color is set by default.
 
-Critical
+**IMPORTANT:** Events' colors are used in Analytics
 
+## Description
 
+Optional field that can contain a description of an event. 250 character limit. 
 
-Description
+## Show event on the Timeline
 
+This option is set to disabled during Create Event procedure to avoid false entries in Devices' Timeline.  
+Once you've finished with Event setup and sure everything is fine about it enable this option so that Event will appear in Timeline once it's triggered.
 
-
-Show event on the Timeline
-
-
-
-Apply a Tag
+## Apply a Tag
 
 Device will be tagged when this Event is recorded. This tag can’t be removed manually. When event is resolved, the tag will be removed automatically.
 

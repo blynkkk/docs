@@ -1,8 +1,6 @@
-# Notifications
+# Notifications tab
 
-
-
-## Events: Notification
+## Notification
 
 Every event can additionally trigger notifications.
 
