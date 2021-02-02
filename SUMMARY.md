@@ -78,7 +78,7 @@
         * [Wait for confirmation from device](web-dashboard/for-developers/products/datastreams/datastreams-common-settings/wait-for-confirmation-from-device.md)
         * [Sync with latest server value every time device connects to the cloud](web-dashboard/for-developers/products/datastreams/datastreams-common-settings/sync-with-latest-server-value-every-time-device-connects-to-the-cloud.md)
         * [Expose to Automation](web-dashboard/for-developers/products/datastreams/datastreams-common-settings/automation.md)
-        * [! Expose to Voice Assistants](web-dashboard/for-developers/products/datastreams/datastreams-common-settings/expose-to-voice-assistants.md)
+        * [Expose to Voice Assistants](web-dashboard/for-developers/products/datastreams/datastreams-common-settings/expose-to-voice-assistants.md)
       * [Virtual Pin](web-dashboard/for-developers/products/datastreams/virtual-pin.md)
       * [Location](web-dashboard/for-developers/products/datastreams/location.md)
       * [Enumerable](web-dashboard/for-developers/products/datastreams/enumerable.md)
