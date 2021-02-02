@@ -1,2 +1,2 @@
-# Common Navigation and Actions Reference
+# Common Navigation and Actions
 
