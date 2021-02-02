@@ -10,17 +10,17 @@ You can:
 * Send Push Notification on a smartphone/tablet
 * Send SMS \(additional charges apply\)
 
-### Recipients
+### Default Recipients
 
-You can assign different recipients to each event.
+You can assign different defaut recipients to each event that won't be visible to end-users.
 
-For example, some notifications should be sent to the end-customers, while others should be sent to the technical support team \(for internal review only\).
+For example, some notifications should be sent to devices owners, while others should be sent to the technical support team \(for internal review only\).
 
 You need to define the recipient of notifications in Product Metadata before they become available as a selection.
 
 When you add any of the following Metadata fields, they will be available as a recipient in notifications:
 
-* `Device owner` is available as a recipient by default \(no need to add such field\)
+* SuperAdmin and Device Owner are available as a recipient by default \(no need to add such field\)
 * Contact metadata
 * Email metadata
 
