@@ -1,3 +1,10 @@
+---
+description: >-
+  Basically Organizations are digital representations of real companies on Blynk
+  Platform. Think or Organization as of an instance for group of users who use
+  same sets of Products and Devices.
+---
+
 # Organizations
 
 ## Info
