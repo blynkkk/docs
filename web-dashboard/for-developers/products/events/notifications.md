@@ -20,7 +20,7 @@ You need to define the recipient of notifications in Product Metadata before the
 
 When you add any of the following Metadata fields, they will be available as a recipient in notifications:
 
-* SuperAdmin and Device Owner are available as a recipient by default \(no need to add such field\)
+* SuperAdmin and Device Owner are available as a recipient by default \(no need to add such fields\)
 * Contact metadata
 * Email metadata
 

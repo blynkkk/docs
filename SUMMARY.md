@@ -82,7 +82,7 @@
       * [Virtual Pin](web-dashboard/for-developers/products/datastreams/virtual-pin.md)
       * [Location](web-dashboard/for-developers/products/datastreams/location.md)
       * [Enumerable](web-dashboard/for-developers/products/datastreams/enumerable.md)
-    * [Events](web-dashboard/for-developers/products/events/README.md)
+    * [!Events](web-dashboard/for-developers/products/events/README.md)
       * [!Event List](web-dashboard/for-developers/products/events/event-list.md)
       * [General tab](web-dashboard/for-developers/products/events/general.md)
       * [Notifications tab](web-dashboard/for-developers/products/events/notifications.md)

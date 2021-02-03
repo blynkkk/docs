@@ -5,7 +5,7 @@ description: >-
   section.
 ---
 
-# Events
+# !Events
 
 Let’s look at a typical use case: read temperature from DHT sensor and send push notification when the temperature is over a certain limit:
 
