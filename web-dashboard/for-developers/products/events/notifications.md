@@ -1,5 +1,7 @@
 # Notifications tab
 
+![](../../../../.gitbook/assets/new_ev_notifspng.png)
+
 ## Notification
 
 Every event can additionally trigger notifications.
