@@ -28,7 +28,7 @@ You can assign users to any level in the hierarchy and they will have access to 
 
 Related articles:
 
-{% page-ref page="../web-dashboard/for-developers/organizations/" %}
+{% page-ref page="../web-dashboard/for-developers/organizations.md" %}
 
 {% page-ref page="multi-tenant-tree-structure.md" %}
 

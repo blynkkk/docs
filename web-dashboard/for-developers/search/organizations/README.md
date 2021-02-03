@@ -10,7 +10,7 @@ You can search for any metadata across devices, organizations, and users. Simply
 
 Click New Organization button to perform this action.  
 You'll be redirected to Organizations tab New Organization window.  
-Follow the steps of [this article](../../organizations/create-new-organization.md) to succeed.
+Follow the steps of [this article]() to succeed.
 
 ![](../../../../.gitbook/assets/create-new-organizations.png)
 
