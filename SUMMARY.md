@@ -65,7 +65,7 @@
       * [Metadata Types](web-dashboard/for-developers/products/metadata/metadata-types.md)
     * [Datastreams](web-dashboard/for-developers/products/datastreams/README.md)
       * [Datastreams Common Settings](web-dashboard/for-developers/products/datastreams/datastreams-common-settings/README.md)
-        * [Datastream Name](web-dashboard/for-developers/products/datastreams/datastreams-common-settings/datastream_name.md)
+        * [Name](web-dashboard/for-developers/products/datastreams/datastreams-common-settings/datastream_name.md)
         * [Alias](web-dashboard/for-developers/products/datastreams/datastreams-common-settings/alias.md)
         * [Virtual Pin](web-dashboard/for-developers/products/datastreams/datastreams-common-settings/virtual-pin.md)
         * [Color](web-dashboard/for-developers/products/datastreams/datastreams-common-settings/color.md)
