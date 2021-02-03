@@ -1,5 +1,7 @@
 # Default Value
 
+![](../../../../../.gitbook/assets/default-value.png)
+
 Default value is a Datastream property that allows you to set the initial value for the data stream. Those value later could be used by hardware, via HTTPS API or by Rule Engine. It is most useful on the first device connection to the server.
 
 Let's consider the next use case - You have a light bulb and right after the first device connection  

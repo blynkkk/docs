@@ -12,3 +12,5 @@ It is very important to select the correct type for your Datastream. As values t
 
 For example, let's assume we have the data stream with data type `Integer`. Hardware via `Blynk.virtualWrite` sends string `123.0`. Server will skip this value, because it is Floating point value and not `Integer`. Hardware have to send `123` if you want this values to be accepted or change the type of the Datastream to `Float`.
 
+![](../../../../../.gitbook/assets/ds_data_type.gif)
+
