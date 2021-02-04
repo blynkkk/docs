@@ -6,6 +6,8 @@ description: >-
 
 # Chart
 
+![Add Chart widget and click Setup pictogram](../../../../.gitbook/assets/chart_create.gif)
+
 * **Add source** – it's possible to set several Datastream **Sources** under one Chart. Click and set up as much as you need. 
 * **Chart Title** – name a chart so you or your client understand what it's about 
 * **Source Label** – The easiest way to name it/them is giving used Datastreams names.   
@@ -28,4 +30,8 @@ description: >-
   * **Show Y-axis** – enable if it's needed to view Datastream values on the axis \(X-axis displays the time\);  
   * **Autoscale** – enable if there's no specific limitations of the data values needed to be viewed. Otherwise specify them by setting the values in **MIN** and **MAX** fields. 
 * **Enable zoom** – enable if chart zoom may be useful. Otherwise leave it disabled.
+
+![Chart widget setup demo](../../../../.gitbook/assets/chart_setup.gif)
+
+
 

@@ -20,7 +20,7 @@ description: >-
   * **Value position** – left or right side to the Slider;
   * **Suffix** – type the unit you want to be viewed near the value.
 
-![](../../../../.gitbook/assets/slider_setup.gif)
+![Slider widget setup demo](../../../../.gitbook/assets/slider_setup.gif)
 
 
 

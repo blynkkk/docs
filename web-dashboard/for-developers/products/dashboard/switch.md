@@ -6,6 +6,8 @@ description: >-
 
 # Switch
 
+![Add Switch widget and click Setup pictogram](../../../../.gitbook/assets/switch_create.gif)
+
 * Name the Switch widget by editing **Switch** inside top field; 
 * **Target** – access available Datastreams dropdown list by click on _**Choose Source**_; 
 * set **ON/OFF Values** in the corresponding fields; 
@@ -14,4 +16,8 @@ description: >-
 * **Show on/off labels** – you can add labels for different Switch statuses: for each of them or both filling **ON Label** and/or **OFF Label**
   * **Label Position** – 2 options here: left and right; 
 * the last option: it's possible to **Hide widget name**.
+
+![Switch widget setup demo](../../../../.gitbook/assets/switch_setup.gif)
+
+
 
