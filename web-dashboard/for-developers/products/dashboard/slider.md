@@ -6,7 +6,9 @@ description: >-
 
 # Slider
 
-* Name the Slider widget by editing **Slider** inside top field;
+![Add Slider widget and click Setup pictogram](../../../../.gitbook/assets/slider_create.gif)
+
+* Name the Slider widget by editing **Slider** inside top field; 
 * **Choose Source** – select Datastream;
   * **Min** and **Max** – will be automatically taken from selected Datastream default value; 
     * **Send values on release only \(optimal\)** – we recommend to use this option to avoid misclick-like issues and decrease traffic to/from the Device \(critical for GSM connection\);  
@@ -17,4 +19,8 @@ description: >-
 * **Value**  
   * **Value position** – left or right side to the Slider;
   * **Suffix** – type the unit you want to be viewed near the value.
+
+![](../../../../.gitbook/assets/slider_setup.gif)
+
+
 
