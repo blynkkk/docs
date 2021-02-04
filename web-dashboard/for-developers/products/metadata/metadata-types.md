@@ -21,12 +21,14 @@ Most of the text fields have 200 characters input limit. Specific differences wi
 
 ### Basic Metadata types 
 
+![](../../../../.gitbook/assets/basic_metadata_types.png)
+
 Those 5 are present in any Product and can not be deleted:
 
 * **Device Name** – here you can type default Device name. 
 * **Device Owner** – here you can type default Device Owner name or Email. 
 * **Location** – here you can type default Location name. 
-  * **PREMISES ELEMENTS TO INCLUDE ALONG WITH THE ADDRESS** \(un/mark desired checkboxes\):
+  * PREMISES ELEMENTS TO INCLUDE ALONG WITH THE ADDRESS \(un/mark desired checkboxes\):
     * **Building Name**
     * **Floor**
     * **Unit**
@@ -37,8 +39,10 @@ Those 5 are present in any Product and can not be deleted:
 
 ### Additional Metadata types available:
 
-* **Text** – name this field any way you want and type default value for it. 255 characters limit for both fields.
-* * **Number** – field name examples: "Serial number", "Unit S/N", "Plate Number", etc..
+![](../../../../.gitbook/assets/metadata-types.png)
+
+* **Text** – name this field any way you want and type default value for it. 255 characters limit for both fields. 
+* **Number** – field name examples: "Serial number", "Unit S/N", "Plate Number", etc..
 
   * **DEFAULT VALUE** – set default value up to 15 digits. Stepper buttons are available for this field.
   * **MIN/MAX VALUES \(OPTIONAL\)** – set value range limits. Stepper buttons are available.

@@ -14,3 +14,7 @@ Currently you can select one of the following invalidation policies:
 * **Empty** - text `Empty` will be showed
 * **--** - text `--` will be showed
 
+![](../../../../../.gitbook/assets/invalidate.gif)
+
+
+

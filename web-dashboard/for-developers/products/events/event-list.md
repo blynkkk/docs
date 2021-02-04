@@ -30,7 +30,7 @@ Table view order can be sorted by Name, Type and Code.
 
 Event Name and Code can be copied:
 
-1.  hover on it
+1. hover on it
 2. after preview window will appear click Copy button
 3. It's saved to your PC's buffer and now you can paste it to your Sketch or everywhere else.
 

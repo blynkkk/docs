@@ -8,6 +8,8 @@ description: >-
 
 This Datastream specific fields INCOMING and OUTCOME allow to transform integer data to string. 
 
+![](../../../../.gitbook/assets/enum_ds.png)
+
 Example:  
 Device has sets of three positions: Open, Vent, Closed. In means of servo they are: 130, 20 and 0   
 This Datastream allows you to link these values: 130=Open, 20=Vent, 0=Closed  
@@ -21,5 +23,5 @@ Follow these steps to create value translation:
 4. you can assign a color to this conversion
 5. click **add row** to set further conversion values
 
-![](../../../../.gitbook/assets/enum_ds.png)
+![](../../../../.gitbook/assets/enum.gif)
 

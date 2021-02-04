@@ -7,9 +7,9 @@ description: >-
 
 # Expose to Automation
 
-## 1. Turn on the switch to expose this Datastream for Automation
+### 1. Turn on the switch to expose this Datastream for Automation
 
-## 2. Choose the Type of Automation
+### 2. Choose the Type of Automation
 
 Type defines what kind of Action or Trigger is it and how it will be presented for the user when using Automation
 
@@ -21,9 +21,13 @@ Type defines what kind of Action or Trigger is it and how it will be presented f
 | **Color** | Controls properties where color can be set. Include Brightness if needed. | Color picker | • | • | – |
 | **Sensor** | Read-only property to use sensor data as a Condition | Value | • |  | – |
 
-## 3. Configure if this Datastream is as a trigger, an action, or both.
+### 3. Configure if this Datastream is as a trigger, an action, or both.
 
 **Condition:** makes this Datastream available as a Condition.
 
 **Action:** makes this Datastream available as an Action. Some of the Automation Types can be only a condition.
+
+![](../../../../../.gitbook/assets/expose_to_auto.gif)
+
+
 
