@@ -1,10 +1,8 @@
 ---
-description: not finished
+description: not finished yet
 ---
 
-# !User Profile Management
-
-## Sign Up
+# !Sign Up
 
 Open [https://blynk.cloud/](https://blynk.cloud/) in you web browser
 
