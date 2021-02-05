@@ -37,7 +37,7 @@
       * [Device Organization View](web-dashboard/for-developers/search/devices-1/device-organization-view.md)
     * [Locations](web-dashboard/for-developers/search/locations.md)
     * [Organizations View](web-dashboard/for-developers/search/organizations/README.md)
-      * [Transfer Organization](web-dashboard/for-developers/search/organizations/transfer-organization.md)
+      * [!Transfer Organization](web-dashboard/for-developers/search/organizations/transfer-organization.md)
     * [Users](web-dashboard/for-developers/search/users/README.md)
       * [User View](web-dashboard/for-developers/search/users/user-view.md)
       * [Users List](web-dashboard/for-developers/search/users/users-list.md)
