@@ -66,12 +66,12 @@
     - Заглавий столбцов
     - Строк таблици - отображения данных сущности
     - Столбца действий над сущностью, обычно это контекстное меню.
-   Также в табличке есть возмость сортировать и вильтровать элементы таблици.
-   Сортировака. Клике на заглавие столбца есть возможность отсортировать элементи в таблице - нужен пример 
-   Фильтрация. При клике на значёк фильтрации есть возможность отфильтровать элементы в таблице по заданому параметру - нужен пример
-   Переход на отображение сущности. При клике на элемент таблици есть возможность перейти на отображение сущности по которой был произведен клик - нужен пример
-   Копирование элемента. Также есть возможность скопировать в буфер обмена некоторые элеметты таблици, которые это позволяют - нужен пример
-   Множественный выбор. При клике на чекбокс в первом столбце можно выбрать несколько элементов, а затем, выбрав нужный пункт из контекстного меню завершить действия над выбраным элементом(например удалить)
+    - Также в табличке есть возмость сортировать и вильтровать элементы таблици.
+    - Сортировака. Клике на заглавие столбца есть возможность отсортировать элементи в таблице - нужен пример 
+    - Фильтрация. При клике на значёк фильтрации есть возможность отфильтровать элементы в таблице по заданому параметру - нужен пример
+    - Переход на отображение сущности. При клике на элемент таблици есть возможность перейти на отображение сущности по которой был произведен клик - нужен пример
+    - Копирование элемента. Также есть возможность скопировать в буфер обмена некоторые элеметты таблици, которые это позволяют - нужен пример
+    - Множественный выбор. При клике на чекбокс в первом столбце можно выбрать несколько элементов, а затем, выбрав нужный пункт из контекстного меню завершить действия над выбраным элементом(например удалить)
    
     
     
@@ -143,9 +143,9 @@
     - Column headings
     - Table Rows - entity data display
     - A column of actions on an entity, usually a context menu.
-   Also, the table has the ability to sort and filter the elements of the table.
-   Sorting. By clicking on the column heading, you can sort the items in the table - an example is needed
-   Filtration. When you click on the filter icon, it is possible to filter the elements in the table by the specified parameter - an example is needed
-   Switch to entity display. When you click on an element of the table, you can go to the display of the entity on which the click was made - an example is needed
-   Copying an item. It is also possible to copy to the clipboard some elements of the table that allow this - an example is needed
-   Multiple choice. When you click on the checkbox in the first column, you can select several elements, and then, by selecting the desired item from the context menu, complete actions on the selected element (for example, delete)
+    - Also, the table has the ability to sort and filter the elements of the table.
+    - Sorting. By clicking on the column heading, you can sort the items in the table - an example is needed
+    - Filtration. When you click on the filter icon, it is possible to filter the elements in the table by the specified parameter - an example is needed
+    - Switch to entity display. When you click on an element of the table, you can go to the display of the entity on which the click was made - an example is needed
+    - Copying an item. It is also possible to copy to the clipboard some elements of the table that allow this - an example is needed
+    - Multiple choice. When you click on the checkbox in the first column, you can select several elements, and then, by selecting the desired item from the context menu, complete actions on the selected element (for example, delete)
