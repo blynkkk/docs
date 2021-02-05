@@ -56,6 +56,11 @@ _**Warning**_**:** All data associated with your account will be deleted permane
 2. **Type current password**
 3. Confirm the action by clicking **Detete My Account**
 
+### Logout
+
+Click to end the session.  
+You will be redirected to Sign In / Sign Up screen.
+
 
 
 
