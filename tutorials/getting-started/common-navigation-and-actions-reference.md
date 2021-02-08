@@ -1,8 +1,4 @@
----
-description: 'pics to be changed to neutral (Emails, Company and Device names, etc.)'
----
-
-# !Common Navigation and Actions
+# Common Navigation and Actions
 
 ## Global Navigation Menu. 
 
