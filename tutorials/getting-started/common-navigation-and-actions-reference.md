@@ -8,7 +8,7 @@ description: 'pics to be changed to neutral (Emails, Company and Device names, e
 
 The **menu** is located on the left edge of the application and it's accessible any time and almost any place excepts for open modal windows.
 
-![Navigation Menu](https://user-images.githubusercontent.com/24506752/107043650-f9afc480-67cb-11eb-9f11-775dc241db70.png)
+![Navigation Menu](../../.gitbook/assets/navigation_menu.gif)
 
 Clicking on a menu item will lead to a specific section of Blynk.360  
 Menu sections:
@@ -29,7 +29,13 @@ Menu sections:
 
 **Create** button is located in the upper right corner and has different names depending on the section is opened at the moment \(**+ New Device** in Devices section, **+ Invite New User** in Users section, etc..\)
 
-![image](https://user-images.githubusercontent.com/24506752/107053302-549ae900-67d7-11eb-9eea-bbc23ec4dae6.png)
+![List view Create button position](../../.gitbook/assets/create_from_table.png)
+
+Also it has screen center location if no entities are present_:_
+
+![No entities Create button position](../../.gitbook/assets/create_from_start.png)
+
+\_\_
 
 _Action:_ 
 
@@ -39,7 +45,7 @@ _Action:_
 
 This group of buttons is located in the upper right corner when in Create or Edit mode.
 
-![image](https://user-images.githubusercontent.com/24506752/107054418-c58ed080-67d8-11eb-9cad-2e795c1a18fd.png)
+![](../../.gitbook/assets/cancel_save.png)
 
 _Actions:_
 
@@ -50,15 +56,15 @@ _Actions:_
 ## Actions Menu
 
 Actions Menu button is located near a specific entity, e.g.: devices, user, table rows.   
-When you hover the context menu icon![Image](https://user-images.githubusercontent.com/24506752/107055212-b78d7f80-67d9-11eb-9ae6-b8cd26076681.png)a pop-up menu appears with items \(actions\) that can be performed on this entity.
+When you hover the context menu icon![Image](../../.gitbook/assets/actions_menu.png)a pop-up menu appears with items \(actions\) that can be performed on this entity.
 
 Locations examples:   
 
-![image](https://user-images.githubusercontent.com/24506752/107055904-72b61880-67da-11eb-99cc-08ee7c4a7e96.png)
+![User Profile Actions Menu](../../.gitbook/assets/profile_actions_menu.png)
 
-![image](https://user-images.githubusercontent.com/24506752/107056174-b90b7780-67da-11eb-941f-11052a7a33ee.png)
+![Devices list Actions Menu](../../.gitbook/assets/list_actions_menu.png)
 
-![image](https://user-images.githubusercontent.com/24506752/107055998-8c576000-67da-11eb-86b8-6657ddd425e9.png)
+![Device Actions Menu](../../.gitbook/assets/device_actions_menu.png)
 
 ## Modal windows 
 
@@ -69,9 +75,11 @@ They can be of 2 types:
 * Create or Edit 
 * Take Critical Actions
 
-An example of a modal window:
+![Edit User modal window](../../.gitbook/assets/user_profile_edit%20%281%29.png)
 
-![image](https://user-images.githubusercontent.com/24506752/107056857-74cca700-67db-11eb-8d6c-87346085b9a9.png)
+![Critical action modal window](../../.gitbook/assets/critical_modal.png)
+
+
 
 Modals have the following structure:
 
@@ -82,16 +90,35 @@ Modals have the following structure:
 
 ## Tables \(!need an example table and pics\)
 
-Table is the main type of data display in Blynk.360.   
+Table is the main type of data display in Blynk.360. 
+
+![](../../.gitbook/assets/products_table.png)
+
 Table contents and actions:
 
 * **Column headings**
-* **Table Rows** – entity data display
-* **Actions column** – context menu containing the actions that can be applied to a selected entity
+* **Table rows** – entity data display
 * Also, the table has the ability to sort and filter the elements of the table.
   * **Sorting** – clicking the column heading you can sort the items in the table - !an example is needed
-  * **Filtration –** click on the filter icon to filter the elements in the table by the specified parameter - !an example is needed
-* **Switch to entity display**  – click on an element of the table to the display the entity  - !an example is needed
-* **Copy an item** – there's an option to copy to the clipboard some elements of the table that - !an example is needed
+  * **Filtration –** click on the filter icon to filter the elements in the table by the specified parameter:
+
+![Shipments table sorting and filtering](../../.gitbook/assets/shipments_table_sorting.gif)
+
+* **Copy an item** – there's an option to copy to the clipboard some elements:
+
+![Copy Email from the row](../../.gitbook/assets/copy_from_row.gif)
+
+* **Actions column** – context menu containing the actions that can be applied to a selected entity
+
+![Actions column interaction](../../.gitbook/assets/actions_column.gif)
+
 * **Multiple choice** – click on the checkbox in the first column \(after hover an entity logo\) allows you to select several elements and apply bulk actions \(for example, delete\) by selecting the desired item from the context menu.
+
+![Locations selection](../../.gitbook/assets/locations_select.gif)
+
+* **Switch to entity display**  – click on an element of the table to the display the entity  - !an example is needed
+
+![Swicth to device and back to table ](../../.gitbook/assets/switch_to_from-devices.gif)
+
+
 
