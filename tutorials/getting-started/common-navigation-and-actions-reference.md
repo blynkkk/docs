@@ -1,7 +1,7 @@
 # Common Navigation and Actions
 
 
-1. Global navigation menu.
+Global navigation menu.
   Location: The menu is located on the left edge of the application.
     ![image](https://user-images.githubusercontent.com/24506752/107043650-f9afc480-67cb-11eb-9f11-775dc241db70.png)
  Actions: Clicking on a menu item will lead to a specific section of the application.
@@ -15,13 +15,13 @@
   - Settings
   - User profile
 
-2. Konopka creation.
+Create button.
   Location: The create button is located in the upper right corner.
   ![image](https://user-images.githubusercontent.com/24506752/107053302-549ae900-67d7-11eb-9eea-bbc23ec4dae6.png)
 
   Actions: The button is responsible for creating the selected entity
   
-3. The group of konopok. Save / Cancel
+The group of konopok. Save / Cancel
 
   Location: Buttons located in the upper right corner.
   ![image](https://user-images.githubusercontent.com/24506752/107054418-c58ed080-67d8-11eb-9cad-2e795c1a18fd.png)
@@ -31,7 +31,7 @@
     - Cancel button - cancels changes on the form
     
     
-4. Context Menu Action
+Context Menu Action
 
   Location: Buttons located near a specific entity. For example: devices, user, table rows.
   When you hover over the context menu icon![Image](https://user-images.githubusercontent.com/24506752/107055212-b78d7f80-67d9-11eb-9ae6-b8cd26076681.png)
@@ -42,7 +42,7 @@
   ![image](https://user-images.githubusercontent.com/24506752/107055998-8c576000-67da-11eb-86b8-6657ddd425e9.png)
   ![image](https://user-images.githubusercontent.com/24506752/107056174-b90b7780-67da-11eb-941f-11052a7a33ee.png)
 
-5. Modal windows
+Modal windows
   Modal windows are used for editing, displaying, deleting information / entities.
   An example of a modal window:
   ![image](https://user-images.githubusercontent.com/24506752/107056857-74cca700-67db-11eb-8d6c-87346085b9a9.png)
@@ -60,7 +60,7 @@
    Modals are divided into two types: Edit / Create and Take Critical Actions.
    
    
-5. Tables
+Tables
   A table is the main type of data display in an application. - need an example table
    The table consists of:
     - Column headings
