@@ -14,7 +14,7 @@
   * [Blynk.App](platform-overview/products-and-services/blynk.app.md)
   * [Blynk.Edgent](platform-overview/products-and-services/blynk.edgent.md)
   * [Blynk.Cloud](platform-overview/products-and-services/blynk.cloud.md)
-* [Multi-tenancy](platform-overview/multi-tenant-tree-structure.md)
+* [!Multi-tenancy](platform-overview/multi-tenant-tree-structure.md)
 
 ## Downloads
 
@@ -24,8 +24,8 @@
 ## Tutorials
 
 * [Getting Started](tutorials/getting-started/README.md)
-  * [Common Navigation and Actions](tutorials/getting-started/common-navigation-and-actions-reference.md)
   * [!Sign Up](tutorials/getting-started/sign-up.md)
+  * [Common Navigation and Actions](tutorials/getting-started/common-navigation-and-actions-reference.md)
 * [Building a Commercial Product A-Z](tutorials/building-a-commercial-product-a-z.md)
 * [Connecting Arduino Devices](tutorials/connecting-arduino-devices.md)
 * [Notification management](tutorials/notification-management.md)

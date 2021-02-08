@@ -2,7 +2,7 @@
 description: How multiple users can access the data on Blynk platform
 ---
 
-# Multi-tenancy
+# !Multi-tenancy
 
 In most IoT applications, there is usually a need to access devices and other data by multiple users, also commonly referred to as _tenants_. 
 
