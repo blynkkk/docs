@@ -6,6 +6,10 @@
 
 * [What is Blynk](platform-overview/what-is-blynk-2.0.md)
 * [Products and Services](platform-overview/products-and-services/README.md)
+  * [Blynk.Air](platform-overview/products-and-services/blynk.air/README.md)
+    * [Create your first shipment](platform-overview/products-and-services/blynk.air/create-your-first-shipment.md)
+    * [Shipment details](platform-overview/products-and-services/blynk.air/shipment-details.md)
+    * [Shipment management](platform-overview/products-and-services/blynk.air/shipment-management.md)
   * [Blynk.360](platform-overview/products-and-services/blynk.360.md)
   * [Blynk.App](platform-overview/products-and-services/blynk.app.md)
   * [Blynk.Edgent](platform-overview/products-and-services/blynk.edgent.md)
