@@ -2,9 +2,9 @@
 
 
 Global navigation menu.
-  Location: The menu is located on the left edge of the application.
-    ![image](https://user-images.githubusercontent.com/24506752/107043650-f9afc480-67cb-11eb-9f11-775dc241db70.png)
- Actions: Clicking on a menu item will lead to a specific section of the application.
+Location: The menu is located on the left edge of the application.
+![image](https://user-images.githubusercontent.com/24506752/107043650-f9afc480-67cb-11eb-9f11-775dc241db70.png)
+Actions: Clicking on a menu item will lead to a specific section of the application.
  Menu sections:
   - Data section and search by application
   - Analytics section
