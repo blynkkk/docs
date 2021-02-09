@@ -84,7 +84,7 @@ Modals have the following structure:
 * **Body** – displays form elements and other information. 
 * **Buttons area** – in most cases contains Save / Cancel buttons group. Optional: Delete, Transfer
 
-## Tables \(!need an example table and pics\)
+## Tables
 
 Table is the main type of data display in Blynk.360. 
 
