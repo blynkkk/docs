@@ -6,10 +6,7 @@
 
 * [What is Blynk](platform-overview/what-is-blynk-2.0.md)
 * [Products and Services](platform-overview/products-and-services/README.md)
-  * [Blynk.Air](platform-overview/products-and-services/blynk.air/README.md)
-    * [Create your first shipment](platform-overview/products-and-services/blynk.air/create-your-first-shipment.md)
-    * [Shipment details](platform-overview/products-and-services/blynk.air/shipment-details.md)
-    * [Shipment management](platform-overview/products-and-services/blynk.air/shipment-management.md)
+  * [Blynk.Air](platform-overview/products-and-services/blynk.air.md)
   * [Blynk.360](platform-overview/products-and-services/blynk.360.md)
   * [Blynk.App](platform-overview/products-and-services/blynk.app.md)
   * [Blynk.Edgent](platform-overview/products-and-services/blynk.edgent.md)
@@ -29,6 +26,7 @@
 * [Building a Commercial Product A-Z](tutorials/building-a-commercial-product-a-z.md)
 * [Connecting Arduino Devices](tutorials/connecting-arduino-devices.md)
 * [Notification management](tutorials/notification-management.md)
+* [Updating Devices' Firmwares OTA](tutorials/updating-devices-firmwares-ota.md)
 
 ## Web Dashboard
 
@@ -99,7 +97,10 @@
       * [!Map](web-dashboard/for-developers/products/dashboard/map.md)
       * [!Modules](web-dashboard/for-developers/products/dashboard/modules.md)
   * [Organizations](web-dashboard/for-developers/organizations.md)
-  * [Blynk.Air](web-dashboard/for-developers/blynk.air.md)
+  * [Blynk.Air](web-dashboard/for-developers/blynk.air/README.md)
+    * [Shipment details](web-dashboard/for-developers/blynk.air/shipment-details.md)
+    * [Shipment management](web-dashboard/for-developers/blynk.air/shipment-management/README.md)
+      * [New Shipping](web-dashboard/for-developers/blynk.air/shipment-management/new-shipping.md)
   * [Rule Engine](web-dashboard/for-developers/rule-engine.md)
   * [Settings](web-dashboard/for-developers/settings/README.md)
     * [Organization Settings](web-dashboard/for-developers/settings/organization-settings/README.md)

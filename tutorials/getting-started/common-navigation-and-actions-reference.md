@@ -14,7 +14,7 @@ Menu sections:
 * [Analytics](../../web-dashboard/for-developers/analytics.md)
 * [Products / Templates](../../web-dashboard/for-developers/products/)
 * [Organization](../../web-dashboard/for-developers/organizations.md)
-* [Blynk.Air](../../web-dashboard/for-developers/blynk.air.md)
+* [Blynk.Air](../../web-dashboard/for-developers/blynk.air/)
 * [Rule Engine](../../web-dashboard/for-developers/rule-engine.md)
 * [Settings](../../web-dashboard/for-developers/settings/)
 * [User Profile](../../web-dashboard/for-developers/user-profile.md)
