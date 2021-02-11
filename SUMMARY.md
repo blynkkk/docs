@@ -112,12 +112,12 @@
       * [General](web-dashboard/for-developers/settings/application-settings/general.md)
       * [Design](web-dashboard/for-developers/settings/application-settings/design.md)
       * [Mobile Apps](web-dashboard/for-developers/settings/application-settings/mobile-apps.md)
-      * [Sign Up](web-dashboard/for-developers/settings/application-settings/sign-up.md)
-    * [Access](web-dashboard/for-developers/settings/access.md)
-    * [Developers](web-dashboard/for-developers/settings/developers/README.md)
-      * [OAuth2](web-dashboard/for-developers/settings/developers/oauth2.md)
-      * [Webhooks](web-dashboard/for-developers/settings/developers/webhooks.md)
-    * [Integrations](web-dashboard/for-developers/settings/integrations.md)
+      * [!Sign Up](web-dashboard/for-developers/settings/application-settings/sign-up.md)
+    * [!Access](web-dashboard/for-developers/settings/access.md)
+    * [!Developers](web-dashboard/for-developers/settings/developers/README.md)
+      * [!OAuth2](web-dashboard/for-developers/settings/developers/oauth2.md)
+      * [!Webhooks](web-dashboard/for-developers/settings/developers/webhooks.md)
+    * [!Integrations](web-dashboard/for-developers/settings/integrations.md)
   * [User Profile](web-dashboard/for-developers/user-profile.md)
 
 ## Mobile Applications
