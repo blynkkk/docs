@@ -112,7 +112,7 @@
       * [General](web-dashboard/for-developers/settings/application-settings/general.md)
       * [Design](web-dashboard/for-developers/settings/application-settings/design.md)
       * [Mobile Apps](web-dashboard/for-developers/settings/application-settings/mobile-apps.md)
-      * [!Sign Up](web-dashboard/for-developers/settings/application-settings/sign-up.md)
+      * [Sign Up](web-dashboard/for-developers/settings/application-settings/sign-up.md)
     * [!Access](web-dashboard/for-developers/settings/access.md)
     * [!Developers](web-dashboard/for-developers/settings/developers/README.md)
       * [!OAuth2](web-dashboard/for-developers/settings/developers/oauth2.md)
