@@ -6,7 +6,7 @@ description: >-
 
 # Locations \(Job Site or Facilities\)
 
-_**Note:**_ this table name can be changed [here](../application-settings/general.md)
+_**Note:**_ this entity has [3 variations](../application-settings/general.md)
 
 ![](../../../../.gitbook/assets/locations%20%281%29.png)
 
@@ -24,7 +24,7 @@ There are 5 specific columns:
 
 ## **Search** 
 
-Locations can be found by Location Name, Address or Owner E-mail – type at least 3 characters to get search results.
+Locations can be found by Location Name, Address or Owner E-mail – type at least 3 characters to get search results in the table.
 
 ## Add Location
 

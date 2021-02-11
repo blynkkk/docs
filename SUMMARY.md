@@ -107,7 +107,7 @@
       * [General](web-dashboard/for-developers/settings/organization-settings/general.md)
       * [Users](web-dashboard/for-developers/settings/organization-settings/users.md)
       * [Locations \(Job Site or Facilities\)](web-dashboard/for-developers/settings/organization-settings/locations.md)
-      * [!Tags](web-dashboard/for-developers/settings/organization-settings/tags.md)
+      * [Tags](web-dashboard/for-developers/settings/organization-settings/tags.md)
     * [!Application Settings](web-dashboard/for-developers/settings/application-settings/README.md)
       * [General](web-dashboard/for-developers/settings/application-settings/general.md)
       * [Design](web-dashboard/for-developers/settings/application-settings/design.md)
