@@ -12,9 +12,9 @@ description: >-
 Most of the text fields have 200 characters input limit. Specific differences will be shown in Type info.
 
 * _**`Metadata Type Name`**_ – type default value that will be used and can be changed during Add Device procedure.  
-* **ADVANCED SETTINGS** – click `+` to access the following settings: 
-  * **SHORT DESCRIPTION** – fill this field with information corresponding to the hint "Help end-users understand what this field is about and how it will be used." 100 characters limit. 
-  * **MOBILE APP PROVISIONING**  
+* **Advanced Settings** – click `+` to access the following settings: 
+  * **Short Description** – fill this field with information corresponding to the hint "Help end-users understand what this field is about and how it will be used." 100 characters limit. 
+  * **Mobile App Provisioning**  
     * **Include in Mobile App Provisioning** \(switch\) – enabling this option allows to edit current Metadata Field during Device Provisioning 
     * **This is a required field** \(checkbox\) – marking the checkbox makes current Metadata Field mandatory during Device Provisioning 
     * **Exclude from “Recently used profile”** \(checkbox\) – marking the checkbox excludes current Metadata Field during Provisioning of the next Device

@@ -6,7 +6,7 @@ Alias is an alternative Datastream name which can be changed by the end-user. Fo
 
 You can only use letters, digits and spaces. No other characters are allowed
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Duplicate aliases are not allowed.
 {% endhint %}
 

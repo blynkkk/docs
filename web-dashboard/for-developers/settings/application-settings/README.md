@@ -1,4 +1,4 @@
-# !Application Settings
+# Application Settings
 
 {% page-ref page="general.md" %}
 

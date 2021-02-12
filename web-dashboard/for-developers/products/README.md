@@ -4,5 +4,19 @@
 
 ![](../../../.gitbook/assets/products.png)
 
+{% page-ref page="porducts-management.md" %}
+
+{% page-ref page="info/" %}
+
+{% page-ref page="metadata/" %}
+
+{% page-ref page="datastreams/" %}
+
+{% page-ref page="events/" %}
+
+{% page-ref page="dashboard/" %}
+
+
+
 
 
