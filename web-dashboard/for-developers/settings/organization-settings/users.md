@@ -12,7 +12,7 @@ Invite button \(top right of the screen\) click opens Invite New User modal wind
 
 * **Name** – Use only letters, hyphens, dots and spaces
 * **Email** – Email is required
-* **Role** – select from the drop-down list
+* **Role** – select from the drop-down list on of the 3 roles available: **Admin, Staff, User** with different [access and permissions](../access.md).
 * **Phone Number** \(optional\) – 15 digit international phone format for any country. There's a country code selector which can help in case you're not sure about the exact digits. Also it shows country flag after manual input.
 * **Assign to Location** \(optional\) – click + and select from the Locations available
 
@@ -30,7 +30,7 @@ The result \(multiple results are possible\) will be given in the Users table.
 This table shows the Organization's users information:
 
 * **Name** – user's name and last name \(optional\) that was assigned to User during invitation or sign up
-* **Role** – there are 3 roles available: **Admin, Staff, User** with different [access and permissions](../access.md).
+* **Role** – displays one of  3 roles available: **Admin, Staff, User** with different [access and permissions](../access.md).
 * **Location** – displays location user was assigned to during invitation or sign up
 * **Status** – 3 registration statuses are possible:
   * **pending** – the user is invited, but the email is not confirmed \(user haven't logged in\) 
