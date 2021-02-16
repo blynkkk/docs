@@ -4,7 +4,7 @@ description: not finished yet
 
 # !Sign Up
 
-Open [https://blynk.cloud/](https://blynk.cloud/) in you web browser
+Open [https://blynk.cloud/](https://blynk.cloud/) in you web browser or Mobile application
 
 You'll see Log In screen:
 
@@ -12,11 +12,15 @@ You'll see Log In screen:
 
 Click **Create new account** and you'll get to Sign Up screen:
 
+{% hint style="info" %}
+Contents of the Sign Up screen may vary accordingly to Sign Up settings applied by Administrator.
+{% endhint %}
+
 ![](../../.gitbook/assets/sign_up.png)
 
 There are Sign Up 2 options:
 
-**Sign Up \(**aka **Client Sign Up\)** – for personal or small company use, Developer's clients and test.
+**Sign Up \(**aka **Client Sign Up\)** – for personal or small company use, Developer's clients and tests
 
 **Partner Sign Up** – sign up for Distributors, Retailers, or Contractors who need extended Organization management functionality 
 
