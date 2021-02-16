@@ -124,8 +124,8 @@
 
 * [Overview](mobile-applications/overview.md)
 * [Sign Up / Sign In](mobile-applications/untitled/README.md)
-  * [Partner Sign Up](mobile-applications/untitled/partner-sign-up.md)
   * [Client Sign Up](mobile-applications/untitled/client-sign-up.md)
+  * [Partner Sign Up](mobile-applications/untitled/partner-sign-up.md)
 * [Profile Management](mobile-applications/profile-management/README.md)
   * [My Profile](mobile-applications/profile-management/my-profile.md)
   * [Settings](mobile-applications/profile-management/settings.md)
