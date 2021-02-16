@@ -2,7 +2,7 @@
 description: Will be deleted probably
 ---
 
-# !Analytics
+# Analytics
 
 ## User Dashboard
 

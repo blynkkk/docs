@@ -1,6 +1,6 @@
 # What is Blynk
 
-{% hint style="warning" %}
+{% hint style="info" %}
 This documentation covers only the latest generation of the Blynk IoT Platform. Blynk 0.1 is no longer supported and developed.
 {% endhint %}
 

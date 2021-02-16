@@ -27,7 +27,16 @@ The result \(multiple results are possible\) will be given in the Users table.
 
 ## Users table
 
-This table shows the Organization's users displaying their Name, Role, Location, Status and Last login.
+This table shows the Organization's users information:
+
+* **Name** – user's name and last name \(optional\) that was assigned to User during invitation or sign up
+* **Role** – there are 3 roles available: **Admin, Staff, User** with different [access and permissions](../access.md).
+* **Location** – displays location user was assigned to during invitation or sign up
+* **Status** – 3 registration statuses are possible:
+  * **pending** – the user is invited, but the email is not confirmed \(user haven't logged in\) 
+  * **active** – the user confirmed the email, logged at least one time 
+  * **inactive** – the user hasn't logged for 1 month
+* **Last login** – last time user logged in. hh:mm M D, Y format \(year is hidden if it's current\)
 
 ### Table interaction
 
