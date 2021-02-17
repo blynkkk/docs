@@ -11,7 +11,7 @@ After you installed mobile application you’ll need to create an account \(if i
 {% hint style="info" %}
 **Client Sign Up** – for personal or small company use, Developer's clients and tests
 
-**Partner Sign Up** – for Distributors, Retailers, or Contractors who need extended own and client's Organizations management functionality 
+**Partner Sign Up** – for Distributors, Retailers, or Contractors who need extended own and client's Organizations management functionality available in [Partner Mode](../partner-mode.md).
 {% endhint %}
 
   

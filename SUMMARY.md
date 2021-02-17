@@ -134,9 +134,9 @@
   * [Add new Device](mobile-applications/device-management/add-new-device.md)
 * [Group Management](mobile-applications/group-management.md)
 * [Automations](mobile-applications/automations.md)
-* [!Alerts](mobile-applications/alerts.md)
-* [Developer Mode](mobile-applications/developer-mode.md)
-* [!Partner mode](mobile-applications/partner-mode.md)
+* [Alerts](mobile-applications/alerts.md)
+* [!Developer Mode](mobile-applications/developer-mode.md)
+* [Partner mode](mobile-applications/partner-mode.md)
 
 ## Blynk.Edgent
 
