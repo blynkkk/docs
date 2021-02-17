@@ -18,7 +18,7 @@ There are Sign Up 2 options:
 
 **Sign Up \(**aka **Client Sign Up\)** – for personal or small company use, Developer's clients and tests
 
-**Partner Sign Up** – sign up for Distributors, Retailers, or Contractors who need extended Organization management functionality 
+**Partner Sign Up** – sign up for Distributors, Retailers, or Contractors who need to access Clients' Organizations Devices in assistance means
 
 ## Client Sign Up
 
