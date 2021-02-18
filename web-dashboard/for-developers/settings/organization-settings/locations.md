@@ -18,7 +18,7 @@ There are 5 specific columns:
 * **Address** – displays full address of the Location
 * **Users** – displays assigned users quantity
 * **Devices** – displays assigned devices quantity
-* **Owner** – diplays E-mail of the user who created the Location
+* **Owner** – displays E-mail of the user who created the Location
 
  Table view can be **sorted** in ascending/descending order by any column value. 
 
@@ -33,7 +33,7 @@ This button click opens modal window.
 ![Add Location short form](../../../../.gitbook/assets/new_location.png)
 
 * **Name** – make it meaningful and readable. 48 characters limit.
-* **Address** \(field wil appear after Name input\) – start typing Location address up to 48 characters and there are 2 options available: 
+* **Address** \(field will appear after Name input\) – start typing Location address up to 48 characters and there are 2 options available: 
 
   * select from search suggestions 
   * input manually
