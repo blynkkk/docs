@@ -49,7 +49,7 @@
       * [!Transfer Organization](web-dashboard/for-developers/search/organizations/transfer-organization.md)
     * [Users](web-dashboard/for-developers/search/users/README.md)
       * [User View](web-dashboard/for-developers/search/users/user-view.md)
-      * [Users List](web-dashboard/for-developers/search/users/users-list.md)
+      * [List of Users](web-dashboard/for-developers/search/users/users-list.md)
   * [Analytics](web-dashboard/for-developers/analytics.md)
   * [Products / Templates](web-dashboard/for-developers/products/README.md)
     * [Products Management](web-dashboard/for-developers/products/porducts-management.md)
