@@ -47,7 +47,7 @@ Select desired option\(s\) from the menu appears on clicking filter icon and pre
 
 #### Hover options:
 
-* **Initials** – shows checkbocks allowing to select the user for further Bulk Actions
+* **Initials** – shows checkboks allowing to select the user for further Bulk Actions
 * **Name** – opens Email containing hint. Click on it to copy user's Email address
 * **User role** – click opens [Role Permissions list](../access.md) on the right part of the screen  
 
