@@ -13,8 +13,8 @@
 
 ## Downloads
 
-* [Apps for iOS and Android](downloads/blynk-apps-for-ios-and-android.md)
-* [Blynk.Edgent](downloads/blynk.edgent.md)
+* [!Apps for iOS and Android](downloads/blynk-apps-for-ios-and-android.md)
+* [!Blynk.Edgent](downloads/blynk.edgent.md)
 
 ## Tutorials
 
