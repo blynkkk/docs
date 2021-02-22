@@ -7,7 +7,7 @@
 * [What is Blynk](platform-overview/what-is-blynk-2.0.md)
 * [Products and Services](platform-overview/products-and-services/README.md)
   * [Products](platform-overview/products-and-services/products.md)
-  * [Services](platform-overview/products-and-services/services.md)
+  * [!Services](platform-overview/products-and-services/services.md)
 * [!Multi-tenancy](platform-overview/multi-tenant-tree-structure.md)
 * [White-label](platform-overview/white-label.md)
 

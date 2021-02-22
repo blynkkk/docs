@@ -9,7 +9,7 @@
 1. Configuration of how connected devices work on the plartform + application settings.
 2. Management of devices, their data, users, organizations and locations 
 
-Full documentation on Blynk.App is here:
+Full documentation on Blynk.App is [here](https://app.gitbook.com/@blynk-iot/s/en/~/drafts/-MU9JY79Bpp1mqdyTvxu/web-dashboard/for-developers)
 
 
 
@@ -27,7 +27,7 @@ Full documentation on Blynk.App is here:
 
 Blynk.app is a white-label solution. 
 
-Full documentation on Blynk.App is here:
+Full documentation on Blynk.App is [here](https://app.gitbook.com/@blynk-iot/s/en/~/drafts/-MU9JY79Bpp1mqdyTvxu/mobile-applications/overview)
 
 
 
@@ -49,7 +49,7 @@ Main functions of Blynk.Edgent are:
 4. API to work with specific Blynk.app and Blynk.cloud features
 5. Over-the-air firmware updates \(for selected hardware models\)
 
-Full documentation on Blynk.App is here:
+Full documentation on Blynk.Edgent is [here](https://app.gitbook.com/@blynk-iot/s/en/~/drafts/-MU9JY79Bpp1mqdyTvxu/blynk.edgent/overview)
 
 
 
