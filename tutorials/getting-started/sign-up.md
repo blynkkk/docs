@@ -1,8 +1,10 @@
 # Sign Up
 
-Open [https://blynk.cloud/](https://blynk.cloud/) in you web browser or [Mobile application](../../mobile-applications/untitled/)
+Creating an account is required for every user of Blynk platform. This is essential for security reasons, to make data accessible from anywhere and to keep it in sync between your different devices.
 
-You'll see Log In screen:
+To create a new account, go to [https://blynk.cloud/](https://blynk.cloud/) in you web browser or use a [Mobile application](../../mobile-applications/untitled/):
+
+**&gt;&gt;&gt;&gt;Need a screenshot of a mobile app here:**
 
 ![](../../.gitbook/assets/log-in.png)
 
@@ -16,32 +18,25 @@ Contents of the Sign Up screen may vary accordingly to Sign Up settings applied 
 
 There are Sign Up 2 options:
 
-**Sign Up \(**aka **Client Sign Up\)** – for personal or small company use, Developer's clients and tests
+**Sign Up** – ****for personal or small company use, Developer's clients and tests
 
-**Partner Sign Up** – sign up for Distributors, Retailers, or Contractors who need to access Clients' Organizations Devices in assistance means
+\*\*\*\*
 
-## Client Sign Up
+## Sign Up Steps
 
-1. Enter your E-mail 
+1. Enter your valid Email address  
 2. Read and agree to the Terms and Conditions 
 3. Click **Continue** 
 4. Check your inbox for an email with instructions.
-5. Click **Create Password** in your invitation email
-6. Provide your profile required and optional information.
-7. Create a password following the hint provided on the screen and confirm the action.
+5. Click **Create Password** button ****in your invitation email. This link will be valid for 24 hours and after that you would need to repeat sign up process
+6. If required, fill in your details \(e.g. first name, last name\)
+7. Create a strong password
 
-## Partner Sign Up
-
-1. Click **Sign Up as a Partner**
-2. Fill in the Company Name, Partner Type, E-mail address and click **Continue**
-3. Check your inbox for an email with instructions.
-4. Click **Create Password** in your invitation email
-5. Provide your Organization required and optional information.
-6. Create a password following the hint provided on the screen and confirm the action.
+Now your account is created and you can start using the platform
 
 ## Log In
 
-If you have an already registered account _enter_ your **Email and password**, click **Log In** and you'll be redirected to **Search** screen in Web Dashboard or Devices tabs screen in Mobile Application.
+If you have an already registered account enter __your **Email and password**, click **Log In** and you'll be redirected to **Search** screen in Web Dashboard or Devices tabs screen in Mobile Application.
 
 ## [Personal account management ](../../web-dashboard/for-developers/user-profile.md)
 

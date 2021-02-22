@@ -6,12 +6,10 @@
 
 * [What is Blynk](platform-overview/what-is-blynk-2.0.md)
 * [Products and Services](platform-overview/products-and-services/README.md)
-  * [Blynk.Air](platform-overview/products-and-services/blynk.air.md)
-  * [!Blynk.360](platform-overview/products-and-services/blynk.360.md)
-  * [!Blynk.App](platform-overview/products-and-services/blynk.app.md)
-  * [Blynk.Edgent](platform-overview/products-and-services/blynk.edgent.md)
-  * [!Blynk.Cloud](platform-overview/products-and-services/blynk.cloud.md)
+  * [Products](platform-overview/products-and-services/products.md)
+  * [Services](platform-overview/products-and-services/services.md)
 * [!Multi-tenancy](platform-overview/multi-tenant-tree-structure.md)
+* [White-label](platform-overview/white-label.md)
 
 ## Downloads
 
@@ -22,13 +20,15 @@
 
 * [Getting Started](tutorials/getting-started/README.md)
   * [Sign Up](tutorials/getting-started/sign-up.md)
+  * [Sign Up by invitation](tutorials/getting-started/sign-up-by-invitation.md)
+  * [Partner Sign Up](tutorials/getting-started/partner-sign-up.md)
   * [Common Web Dashboard Navigation and Actions](tutorials/getting-started/common-navigation-and-actions-reference.md)
 * [Building a Commercial Product A-Z](tutorials/building-a-commercial-product-a-z.md)
 * [Connecting Arduino Devices](tutorials/connecting-arduino-devices.md)
 * [Notification management](tutorials/notification-management.md)
 * [Updating Devices' Firmwares OTA](tutorials/updating-devices-firmwares-ota.md)
 
-## Web Dashboard
+## Blynk.360 <a id="web-dashboard"></a>
 
 * [For End-users](web-dashboard/for-end-users.md)
 * [For Developers](web-dashboard/for-developers/README.md)
@@ -51,8 +51,8 @@
       * [User View](web-dashboard/for-developers/search/users/user-view.md)
       * [List of Users](web-dashboard/for-developers/search/users/users-list.md)
   * [Analytics](web-dashboard/for-developers/analytics.md)
-  * [Products / Templates](web-dashboard/for-developers/products/README.md)
-    * [Products Management](web-dashboard/for-developers/products/porducts-management.md)
+  * [Templates](web-dashboard/for-developers/products/README.md)
+    * [Templates Management](web-dashboard/for-developers/products/porducts-management.md)
     * [Info](web-dashboard/for-developers/products/info/README.md)
       * [Offline Ignore Period](web-dashboard/for-developers/products/info/offline-ignore-period.md)
       * [Manufacturer](web-dashboard/for-developers/products/info/manufacturer.md)
@@ -116,7 +116,7 @@
     * [Integrations](web-dashboard/for-developers/settings/integrations.md)
   * [User Profile](web-dashboard/for-developers/user-profile.md)
 
-## Mobile Applications
+## Blynk.App <a id="mobile-applications"></a>
 
 * [Overview](mobile-applications/overview.md)
 * [Sign Up / Sign In](mobile-applications/untitled/README.md)
@@ -149,7 +149,7 @@
   * [Other](blynk.edgent/api/other.md)
 * [Supported Boards](blynk.edgent/supported-boards.md)
 
-## HTTPS API \(for testing\) <a id="https-api"></a>
+## BLYNK.CLOUD \(HTTPS API\) <a id="https-api"></a>
 
 * [Update Virtual Datastream Value](https-api/update-virtual-datastream-value.md)
 * [Batch Update Values](https-api/batch-update-values.md)

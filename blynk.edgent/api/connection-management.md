@@ -4,7 +4,7 @@ There are several functions to help with connection management:
 
 ## Blynk.connect\(\)
 
-This functions will continue trying to connect to Blynk server. Returns `true` when connected, `false` if timeout have been reached. Default timeout is 30 seconds.
+This functions will continue trying to connect to Blynk server. Returns `true` when connected, `false` if timeout has been reached. Default timeout is 30 seconds.
 
 ```cpp
 bool result = Blynk.connect();
