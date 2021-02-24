@@ -12,7 +12,7 @@
 * **Last triggered** – displays last execution time in hh:mm:ss M D, Y format \(current year is hidden\)
 * **Attempts** – counter of all \(_successful, failed, test, real action_\) attempts to execute the webhook
 
-## New Webhook
+## !New Webhook
 
 ## Actions
 
@@ -42,7 +42,7 @@ It can be sorted by switching Timeline tabs and each column value.
 
 ![](../../../../.gitbook/assets/webhook_log.png)
 
-* **Status** – `OK`_,_ `Waiting`_,_ `Failed are possible`with [`server response code`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)\`\`
+* **Status** – `OK`_,_ `Waiting`_,_ `Failed` are possible with [`server response code`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)\`\`
 * **Date** – webhook trigger time in hh:mm:ss M D, Y format 
 * **Request to** – webhook request destination URL
 * **Trigger ID** – hover on so the hint appears, click Copy pictogram to put it to your clipboard
