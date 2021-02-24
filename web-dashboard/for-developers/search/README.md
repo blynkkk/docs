@@ -43,9 +43,17 @@ It previews main values of available Devices, Locations, Organizations and Users
   
 _Actions available:_ 
 
-* **Full screen view** – click pictogram to hide search filtering panel
-* **Create new entity** – ****click **+ New Device/Location/Organization/User** 
-* **Switch Table/Map views** – click switch to change the view
+* **Full screen view** – click pictogram to hide search filtering panel 
+
+![](../../../.gitbook/assets/full_screen.png)
+
+* **Create new entity** – ****click **+ New Device/Location/Organization/User** \(top right button\)
+
+![](../../../.gitbook/assets/new_entity.gif)
+
+* **Switch Table/Map views** – click switch to change the view 
+
+![](../../../.gitbook/assets/table-map.png)
 
 ### **Quick search view** 
 
@@ -57,8 +65,8 @@ _Actions available:_
 
 ### Manual search view 
 
-* Table – list of entities 
-* Locations
+* Table – list of entities \(entities specific table descriptions are in lower level articles\) 
+* Locations – view of entities on the world map
 
 
 
