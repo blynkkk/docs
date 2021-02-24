@@ -23,7 +23,7 @@
   * [Sign Up by invitation](tutorials/getting-started/sign-up-by-invitation.md)
   * [Partner Sign Up](tutorials/getting-started/partner-sign-up.md)
   * [Common Web Dashboard Navigation and Actions](tutorials/getting-started/common-navigation-and-actions-reference.md)
-* [Building a Commercial Product A-Z](tutorials/building-a-commercial-product-a-z.md)
+* [!Building a Commercial Product A-Z](tutorials/building-a-commercial-product-a-z.md)
 * [Connecting Arduino Devices](tutorials/connecting-arduino-devices.md)
 * [Notification management](tutorials/notification-management.md)
 * [Updating Devices' Firmwares OTA](tutorials/updating-devices-firmwares-ota.md)
@@ -118,7 +118,7 @@
 
 ## Blynk.App <a id="mobile-applications"></a>
 
-* [Overview](mobile-applications/overview.md)
+* [!Overview](mobile-applications/overview.md)
 * [Sign Up / Sign In](mobile-applications/untitled/README.md)
   * [Client Sign Up](mobile-applications/untitled/client-sign-up.md)
   * [Partner Sign Up](mobile-applications/untitled/partner-sign-up.md)
