@@ -7,7 +7,7 @@
 Limits number of notifications to one notification for a specified time period.  
 Example: 1hr 20min range means end-users will only get one notification within 1 hour 20 minutes even if hardware or API sends more.
 
-## Ignore treshold\|
+## Ignore treshold
 
 ![](../../../../.gitbook/assets/ignore_treshold.png)
 
