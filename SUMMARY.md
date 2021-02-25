@@ -84,7 +84,7 @@
       * [!Event List](web-dashboard/for-developers/products/events/event-list.md)
       * [General tab](web-dashboard/for-developers/products/events/general.md)
       * [Notifications tab](web-dashboard/for-developers/products/events/notifications.md)
-      * [Notification Limit](web-dashboard/for-developers/products/events/notification-limit.md)
+      * [Notifications Limit](web-dashboard/for-developers/products/events/notification-limit.md)
       * [How to trigger events](web-dashboard/for-developers/products/events/how-to-trigger-events.md)
     * [Dashboard](web-dashboard/for-developers/products/dashboard/README.md)
       * [Slider](web-dashboard/for-developers/products/dashboard/slider.md)

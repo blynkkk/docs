@@ -1,4 +1,4 @@
-# Notification Limit
+# Notifications Limit
 
 ## Limit period
 
