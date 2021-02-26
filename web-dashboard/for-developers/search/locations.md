@@ -18,11 +18,17 @@ You can see information about the available Locations in the form of a table or 
 
 ## List of Locations
 
+### Table interaction
+
+All the columns support sorting.
+
+
+
 
 
 ![](../../../.gitbook/assets/list-of-locations.png)
 
-## Table contents
+### Table contents
 
 There are 5 specific columns:
 
@@ -34,7 +40,7 @@ There are 5 specific columns:
 
 Table view can be **sorted** in ascending/descending order by any column value.
 
-## **Search**
+### **Search**
 
 ![](../../../.gitbook/assets/search-locations.png)
 
@@ -42,7 +48,7 @@ Table view can be **sorted** in ascending/descending order by any column value.
 
 Locations can be found by Location Name, Address or Owner E-mail – type at least 3 characters to get search results in the table.
 
-## New Location
+### New Location
 
 This button click opens modal window. 
 
@@ -75,7 +81,7 @@ Check all the fields to be filled and correct here:
 * **Latitude** and **Longitude** – automatically generated from the data given and can't be edited
 * **Map view** – location preview. No set point functionality at the moment.
 
-## Location Page
+### Location Page
 
 You can view information about a Location by clicking on its Name in the List of Locations
 
