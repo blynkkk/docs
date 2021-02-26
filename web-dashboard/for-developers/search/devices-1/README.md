@@ -1,4 +1,4 @@
-# !Devices
+# Devices
 
 ![Devices table](../../../../.gitbook/assets/search-table.png)
 
@@ -115,10 +115,10 @@ Don't worry, these actions apply only after confirmations in modal window opened
 
 ### Bulk actions \(upper action menu icon\):
 
-* **Apply** [**tag** ](../../settings/organization-settings/tags.md)
-* **Export devices CSV** 
-* **Notification settings** - verify saved settings in single actions test 
-* **Delete** 
+* **Apply** [**tag**](../../settings/organization-settings/tags.md) ****– ****virtual grouping that can ease further searches of these devices.
+* **Export devices CSV** – click it to download Devices table content in .csv format. 
+* **Notification settings** - verify saved settings in single actions test..
+* **Delete** \(critical action!\) – deletes all selected Devices entries and all their data.
 
 {% hint style="warning" %}
 Please mind Lazy Loading the Table uses to view Devices list – it's necessary to scroll down to load all Devices!
@@ -137,6 +137,6 @@ Hold left mouse button to move the map.
 
 You'll see dots of two colors on the map:
 
-* Blue – devices group with built-in devices counter. Click it to zoom in and view devices.
-* _Orange_ – device. Click it to view device name, template logo, actual connectivity status and latest in/accessibility date. Click on Device Name on map opens [Device View](device-view/).
+* **Blue** – devices group with built-in devices counter. Click it to zoom in and view devices.
+* **Orange** – device. Click it to view device name, template logo, actual connectivity status and latest in/accessibility date. Click on Device Name on map opens [Device View](device-view/).
 
