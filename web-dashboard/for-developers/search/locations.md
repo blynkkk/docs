@@ -24,11 +24,11 @@ All the columns support sorting.
 
 
 
-
-
-![](../../../.gitbook/assets/list-of-locations.png)
+## Table contents
 
 ### Table contents
+
+![](../../../.gitbook/assets/list-of-locations-single-actions.png)
 
 There are 5 specific columns:
 
@@ -40,13 +40,38 @@ There are 5 specific columns:
 
 Table view can be **sorted** in ascending/descending order by any column value.
 
+**Single Actions** menu is triggered by hovering Actions column in Location's row. Available actions:
+
+* **Edit Location** – edit data of Location. Modal window will appear. 
+
+  Confirm or cancel the action   
+
+![](../../../.gitbook/assets/list-of-locations-single-actions-edit.png)
+
+* **Delete Location**-modal window will appear. Type DELETE and confirm the action are required.
+
+![](../../../.gitbook/assets/list-of-locations-single-actions-delete.png)
+
+
+
+The only **Bulk Action** available here is to Delete the Locations. 
+
+![](../../../.gitbook/assets/list-of-locations-bulk-actions.png)
+
+1. Select all Locations by marking **checkbox** in columns naming row or specify Locations selection by marking each Location's checkbox.
+2. Once Locations selection is made **Delete** button appears on the top right of the screen.
+3. Don't worry, there's a prompt  "Delete Selected Locations?" with **Cancel** and  **Delete** buttons.
+4. Type DELETE and confirm the action are required.
+
+
+
 ### **Search**
 
 ![](../../../.gitbook/assets/search-locations.png)
 
 
 
-Locations can be found by Location Name, Address or Owner E-mail – type at least 3 characters to get search results in the table.
+Locations can be found by Location **Name**, **Address** or **Owner E-mail** – type at least 3 characters to get search results in the table.
 
 ### New Location
 

@@ -34,7 +34,7 @@ You need to fill in the information about the organization:
 
 ### **Tab Templates**
 
-You can to select the device templates that your organization will work with
+You can to select the device **Templates** that your **Organization** will work with
 
 ![](../../../../.gitbook/assets/create-new-organizations-templstes.png)
 
@@ -48,25 +48,25 @@ You can invite users to your organization
 
 ## List of Organizations
 
-The list of organizations contains information about all organizations in your company. In the list of organizations you can see information about:
+The **List of Organizations** contains information about all **Organizations** in your company. In the **List of Organizations** you can see information about:
 
-* Name
-* Type
-* Count of Device
-* Count of Users
-* Sub Organizations
-* Id
-* Actions
+* **Name**
+* **Type**
+* **Count of Device**
+* **Count of Users**
+* **Sub Organizations**
+* **Id**
+* **Actions**
 
 ![](../../../../.gitbook/assets/list-of-organizations.png)
 
 
 
-You can view the profile of any organization from the list of organizations by clicking on the name of the organization
+You can view the profile of any **Organization** from the **List of Organizations** by clicking on the name of the organization
 
 ![](../../../../.gitbook/assets/list-of-organizations-swich-to-any-org.png)
 
-You can go to any organization by clicking on the "switch to" icon.
+You can go to any organization by clicking on the "**Switch to**" icon.
 
 ## Page of Organization
 
@@ -76,12 +76,14 @@ You can edit information about the organization
 
 ![](../../../../.gitbook/assets/organization-action-menu.png)
 
-**Actions**
+### **Actions**
 
-* Edit Settings
-* Manage Users
-* Transfer Organization
-* Delete Organization
+* **Edit Settings-**Editing the settings will redirect you to the [Organization Settings](../../settings/organization-settings/) menu
+* **Manage Users-**The User Management menu will redirect you to the [Users](../../settings/organization-settings/users.md) section in the [Organization's settings](../../settings/organization-settings/), where you can manage the users of your organization.
+* **Transfer Organization -** The transfer of the organization is described in detail in the  [!Transfer Organization](transfer-organization.md) section
+* **Delete Organization -** modal window will appear. Type DELETE and confirm the action are required.
+
+![](../../../../.gitbook/assets/organization-action-menu-delete.png)
 
 On the tabs of the organization, you can see information about the organization, its device, users and locations.
 
@@ -89,10 +91,10 @@ On the tabs of the organization, you can see information about the organization,
 
 ### Tabs
 
-* Information
-* Devices
-* Users
-* Locations
+* **Information**
+* **Devices**
+* **Users**
+* **Locations**
 
 
 

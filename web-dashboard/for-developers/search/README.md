@@ -14,7 +14,7 @@ Use it to navigate to ther sections. It's available in anytime and almost anypla
 
 ## **Search Filtering Panel** 
 
-Here you can select View Panel contents. Click section name row to switch View panel to search mode or click one of the options available for manual search in table:
+Here you can select View Panel contents. Click section name row to switch View panel to search mode or click one of the options available for manual search in table or map view:
 
 * [Devices](devices-1/)
   * **All** – view all Devices available \(your and your clients organizations and other types sub-organizations\)

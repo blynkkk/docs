@@ -1,57 +1,128 @@
 # !Devices
 
-## Create Device
-
-Click New Device button to perform this action.  
-Select the Template and give it a name in the corresponding fields.  
-Confirm by click on Create button.
-
-## Search of device
-
-can be performed by: name, device owner, serial number, product name, etc
+![Devices table](../../../../.gitbook/assets/search-table.png)
 
 ## Predefined Filters
 
-allow you to view All or Current Organization's Devices
+There are two filters in Search Filtering Panel that can be applied to both Table and Map views.
 
-## Map view
+![](../../../../.gitbook/assets/devices_filters.png)
 
-shows devices located for current filter.  
-Click on Device Name on map opens it's dashboard
+**All** – view all Devices available \(your and your clients organizations and other types sub-organizations\)
+
+**Organization devices** – view only your organization Devices
+
+## Quick search
+
+![](../../../../.gitbook/assets/quick-search.gif)
+
+Can be performed by the following criterias:
+
+* Device Name
+* ICCID
+* Firmware Version
+* Organization Name
+* Device Model
+* Template Name
+* Device Owner Name
+* Hotspot Name
+* Contact Email, Street Address, Phone Number
+* IMEI
+* Auth Token
+* Serial Number
+* Device ID
+* Tag
+* other Metadata set in Template
+
+#### Search steps:
+
+1. Click on Devices row in Search Filtering Panel
+2. Start typing known value to perform a search \(search refine is supported\). Search results segmented by criteria will be opened in dropdown list. 
+3. Click on search result you need and you'll get all the Devices containing it in Table View
+4. Sort/filter Table View columns to make it easier to view found Devices
+5. Select \(bulk actions are supported\) and open Device\(s\) you want to apply further actions to.
 
 ## Table view
 
-**Column functions**: Sorts / Filters
+{% hint style="info" %}
+Please mind Lazy Loading the Table uses to view Devices list – it's necessary to scroll down to load all Devices!
+{% endhint %}
+
+Devices view order can be sorted by any column exists:
+
+* Device name
+* Device owner
+* Status
+* Device model
+* Last Updated
+* Organization
+* Activation date
+* Template name
+* Location
+* Serial number
+* Firmware version
+* Device ID
 
 **Navigation:**
 
-* Open device view: click on its name in table -&gt; Device view
-* Open device owner profile: click on Device Owner entry
-* Open device organization: click on entry in Organization column
+* Click on **Device Name** – opens [Device View](device-view/):
+* Click on **Device Owner** – opens Device owner profile: 
+* Click on **Organization Name** – opens device [Organization](../../organizations.md): 
 
-### Single actions \(on the right of each row\):
+## Actions
+
+### Create Device
+
+Click **New Device** button to perform this action.  
+New Device modal window will open:
+
+![](../../../../.gitbook/assets/new_device.png)
+
+1. **Choose template** – click this field and select the Template from the dropdown list
+2. **Device Name** – give it a meaningful name up to 60 characters. Use only letters, digits, and spaces.
+3. Click **Create** button to confirm the action.
+
+_**Done!**_  
+All the settings with their default values will be taken from [Template](../../products/).  
+[Device View](device-view/) will open.
+
+### Single actions \(hover to the right of each row\):
+
+![](../../../../.gitbook/assets/devices-single-action-menu.png)
 
 * **Rename** 
 * **Download report** 
-* **Transfer** 
+* **Transfer**
 * **Edit Product Dashboard** 
 * **Notification settings** 
 * **Erase data** 
 * **Delete Device owner** 
 * **Delete Device**
 
-
-
-![](../../../../.gitbook/assets/devices-single-action-menu.png)
-
-
-
-
-
 ### Bulk actions \(upper action menu icon\):
 
-* Bulk **Apply tag** 
+* **Apply** [**tag** ](../../settings/organization-settings/tags.md)
 * **Export devices CSV** 
-* Bulk notification settings - Verify saved settings in single actions test 
-* Bulk delete **Note**: please mind Lazy Loading the Table uses to view Devices list – it's necessary to scroll down to load all Devices!
+* **Notification settings** - verify saved settings in single actions test 
+* **Delete** 
+
+{% hint style="warning" %}
+Please mind Lazy Loading the Table uses to view Devices list – it's necessary to scroll down to load all Devices!
+{% endhint %}
+
+## Map view
+
+Here you can search and view Devices \(depending on selected filter\) by their locations.
+
+![](../../../../.gitbook/assets/device_map_view.png)
+
+Applied filtering option and Devices count are shown at top left.
+
+Map supports mouse scroll zoom in/out.  
+Hold left mouse button to move the map.
+
+You'll see dots of two colors on the map:
+
+* Blue – devices group with built-in devices counter. Click it to zoom in and view devices.
+* _Orange_ – device. Click it to view device name, template logo, actual connectivity status and latest in/accessibility date. Click on Device Name on map opens [Device View](device-view/).
 
