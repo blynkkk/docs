@@ -90,14 +90,28 @@ All the settings with their default values will be taken from [Template](../../p
 
 ![](../../../../.gitbook/assets/devices-single-action-menu.png)
 
-* **Rename** 
-* **Download report** 
-* **Transfer**
-* **Edit Product Dashboard** 
-* **Notification settings** 
-* **Erase data** 
-* **Delete Device owner** 
-* **Delete Device**
+* **Rename** – opens Rename Device modal window. Input new name up 60 characters here. Confirm.
+
+![](../../../../.gitbook/assets/rename_device.png)
+
+* **Download report** – opens Generate Report modal window were you can download and send by Email .csv formated Device report with data settings you need.
+
+![](../../../../.gitbook/assets/generate_report.png)
+
+* **Transfer** – here you can change Device Owner by providing Email of a new one.
+
+![](../../../../.gitbook/assets/transfer_device.png)
+
+* **Edit Product Dashboard** – redirects to [Template Dashboard](../../products/dashboard/) edit section \(Admin role required\)
+* **Notification settings** – opens quick setup drawer for [Notifications Management](../../../../tutorials/notification-management.md) 
+* **Erase data** \(critical action!\) ****– deletes of Device Data that was sent/received by Device and API.
+* **Delete Device owner** \(critical action!\) – unassignes Device from previous Device Owner.
+* **Delete Device** \(critical action!\) – deletes Device entry and all it's data.
+
+{% hint style="danger" %}
+All the critical actions lead to the permanent deletion of selected entities.   
+Don't worry, these actions apply only after confirmations in modal window opened.
+{% endhint %}
 
 ### Bulk actions \(upper action menu icon\):
 
