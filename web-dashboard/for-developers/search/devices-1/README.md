@@ -3,7 +3,7 @@
 ## Create Device
 
 Click New Device button to perform this action.  
-Select the Product and give it a name in the corresponding fields.  
+Select the Template and give it a name in the corresponding fields.  
 Confirm by click on Create button.
 
 ## Search of device
@@ -31,19 +31,27 @@ Click on Device Name on map opens it's dashboard
 
 ### Single actions \(on the right of each row\):
 
-* Rename 
-* Download report 
-* Transfer 
-* Edit Product Dashboard 
-* Notification settings 
-* Erase data 
-* Delete Device owner 
-* Delete Device
+* **Rename** 
+* **Download report** 
+* **Transfer** 
+* **Edit Product Dashboard** 
+* **Notification settings** 
+* **Erase data** 
+* **Delete Device owner** 
+* **Delete Device**
+
+
+
+![](../../../../.gitbook/assets/devices-single-action-menu.png)
+
+
+
+
 
 ### Bulk actions \(upper action menu icon\):
 
-* Bulk Apply tag 
-* Export devices CSV 
+* Bulk **Apply tag** 
+* **Export devices CSV** 
 * Bulk notification settings - Verify saved settings in single actions test 
 * Bulk delete **Note**: please mind Lazy Loading the Table uses to view Devices list – it's necessary to scroll down to load all Devices!
 

@@ -22,7 +22,7 @@
   * [Sign Up](tutorials/getting-started/sign-up.md)
   * [Sign Up by invitation](tutorials/getting-started/sign-up-by-invitation.md)
   * [Partner Sign Up](tutorials/getting-started/partner-sign-up.md)
-  * [Common Web Dashboard Navigation and Actions](tutorials/getting-started/common-navigation-and-actions-reference.md)
+  * [Common Blynk.360 Navigation and Actions](tutorials/getting-started/common-navigation-and-actions-reference.md)
 * [!Building a Commercial Product A-Z](tutorials/building-a-commercial-product-a-z.md)
 * [Connecting Arduino Devices](tutorials/connecting-arduino-devices.md)
 * [Notification management](tutorials/notification-management.md)

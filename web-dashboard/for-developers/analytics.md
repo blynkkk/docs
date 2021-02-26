@@ -9,10 +9,10 @@ description: Will be deleted probably
 ### Blynk Stats
 
 * Device Locations
-* Events Count by Product
+* Events Count by Template
 * Total activated devices
 * Active devices
-* Devices by Product
+* Devices by Template
 * Devices by Model
 
 ## Cloud Status

@@ -1,21 +1,22 @@
 # Templates Management
 
+![](../../../.gitbook/assets/templates.png)
 
+## Create a Template
 
-![Products general screen](../../../.gitbook/assets/products.png)
+1. Click **New Template** button to start configuring the Template
+2. Provide basic Template info in modal windoe opened
+3. Fill [Info](info/), [Metadata](metadata/), [Datastreams](datastreams/), [Events ](events/)and [Dashboard ](dashboard/)tabs contents 
+4. Click **Save** once you've finished the setup.
 
-## Create a Product
-
-Click **New Product** button to start configuring the Template
-
-## Edit a Product
+## Edit a Template
 
 Click Product **tile** to view the Template.   
 Here you can navigate through **tabs**. **Edit** and **Clone** options are available.
 
-![Product tabs navigation](../../../.gitbook/assets/product_tabs_options.gif)
+![](../../../.gitbook/assets/template_edit.gif)
 
-## Delete a Product \(critical action\)
+## Delete a Template \(critical action\)
 
 1. Click Product **tile** to view the Template. 
 2. Click **Edit**
@@ -27,17 +28,15 @@ Here you can navigate through **tabs**. **Edit** and **Clone** options are avail
 
 ![How to delete a Product](../../../.gitbook/assets/product_delete.gif)
 
-## Un/assign Product to an Organization
+## Un/assign Template to an Organization
 
 1. Navigate to **Organization tab** \(left menu\)
 2. Open Organization with **click on it's tile**
-3. Navigate to Organization's **Products** tab
+3. Navigate to Organization's **Templates** tab
 4. Products tile screen will open
 5. Click **Edit** 
-6. **Click tiles** to add/remove Products. Active Products are marked with green tick, disabled have tiles with reduced colors. 
+6. **Click tiles** to add/remove Templates. Active Templates are marked with green tick, disabled have tiles with reduced colors. 
 7. Once the changes are made click **Save**.
-
-![](../../../.gitbook/assets/assign_product_to_org.gif)
 
 
 

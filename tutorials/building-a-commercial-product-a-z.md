@@ -31,7 +31,7 @@ This is required to make you the product Template owner.
 
 
 
-5. Configure [Datastreams](../web-dashboard/for-developers/products/datastreams/) that you would like to use with your product
+5. Configure [Datastreams](../web-dashboard/for-developers/products/datastreams/) that you would like to use with your product Devices.
 
 ![](https://lh5.googleusercontent.com/V3BzYP__ze9sdfXMxFxhKUzky6DpYlc4cvb_sLrjMSmjTwSaTJA_0OxnBQ1aSABh6ITpZ37I6ABxPNaN0eJ2qFwU_kqd_K9jBonH9JuPNnOCK_BTVtjfunhod82vRwCJOSrfUThJ)
 
@@ -48,7 +48,7 @@ This is required to make you the product Template owner.
 1. Open [Blynk.App](../mobile-applications/overview.md)
 2. Log In to your account
 3. Switch to [Constructor mode](../mobile-applications/constructor.md) \[image\]
-4. Add a new template \[image\]
+4. Add a new Template \[image\]
 5. Link it to your product \[image\]
 6. Add the widgets you need and assign them datastreams \[image\]
 7. Publish the changes \[image\]

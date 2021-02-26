@@ -1,6 +1,6 @@
 # Metadata
 
-Metadata is a set of characteristics \(or configurations\) applied to every Product and associated with every Device. This information will be used for Device Provisioning and [Device Management](../../../../mobile-applications/device-management/).  
+Metadata is a set of characteristics \(or configurations\) applied to every Template and associated with every Device. This information will be used for Device Provisioning and [Device Management](../../../../mobile-applications/device-management/).  
   
 It's represented by a table in Blynk.360 with Name, Type and Value columns.
 

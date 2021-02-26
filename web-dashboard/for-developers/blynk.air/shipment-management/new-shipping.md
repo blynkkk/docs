@@ -16,9 +16,7 @@ Each shipping can have unique name.
 
 ![Target selection area](../../../../.gitbook/assets/air_target_selection.png)
 
-**Product** – select a **Product / Template** available in your Organization from the dropdown menu
-
-
+**Template** – select a Template available in your Organization from the dropdown menu
 
 **Preferred time** – select the best option of firmware update time period:
 
