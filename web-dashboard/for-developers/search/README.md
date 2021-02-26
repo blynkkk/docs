@@ -1,11 +1,6 @@
----
-description: >-
-  Here you can perform quick or manual search of devices, locations,
-  organizations and users you have access to by different criterias according to
-  filtering options you select.
----
-
 # !Search
+
+Here you can perform quick or manual search of [devices](devices-1/), [locations](locations.md), [organizations ](organizations/)and [users ](users/)you have access to by different criterias according to filtering options you select.
 
 This is the first screen everybody signed in to Blynk Web Dashboard sees.
 
