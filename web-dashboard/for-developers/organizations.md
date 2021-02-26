@@ -19,10 +19,10 @@ description: >-
   
 **Logo** – option to add Organization logo by uploading from computer or drag-n-drop a picture of .png or .jpg, min 500x500px format.
 
-## Products
+## Templates
 
-This screen with tiles view contains all the Products available to Organization.  
-Click **Edit** to add/remove Products by _**clicking the tiles**_. Active Products are marked with green tick, disabled have tiles with reduced colors. Once the changes are made click **Save**.
+This screen with tiles view contains all the Templates available to Organization.  
+Click **Edit** to add/remove Templates by _**clicking the tiles**_. Active Products are marked with green tick, disabled have tiles with reduced colors. Once the changes are made click **Save**.
 
 ![](../../.gitbook/assets/prod_tiles.png)
 

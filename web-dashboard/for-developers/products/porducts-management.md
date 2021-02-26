@@ -18,9 +18,9 @@ Here you can navigate through **tabs**. **Edit** and **Clone** options are avail
 
 ## Delete a Template \(critical action\)
 
-1. Click Product **tile** to view the Template. 
+1. Click Template **tile** to view it's settings
 2. Click **Edit**
-3. Delete button will appear.
+3. Delete button will appear
 4. Click **Delete** button
 5. Confirmation modal window will appear
 6. **Type DELETE** in the confirmation field and mark the checkbox to confirm the action
@@ -33,7 +33,7 @@ Here you can navigate through **tabs**. **Edit** and **Clone** options are avail
 1. Navigate to **Organization tab** \(left menu\)
 2. Open Organization with **click on it's tile**
 3. Navigate to Organization's **Templates** tab
-4. Products tile screen will open
+4. Templates tile screen will open
 5. Click **Edit** 
 6. **Click tiles** to add/remove Templates. Active Templates are marked with green tick, disabled have tiles with reduced colors. 
 7. Once the changes are made click **Save**.
