@@ -6,10 +6,10 @@
 
 * [What is Blynk](platform-overview/what-is-blynk-2.0.md)
 * [Products and Services](platform-overview/products-and-services/README.md)
-  * [Products](platform-overview/products-and-services/products.md)
+  * [!Products](platform-overview/products-and-services/products.md)
   * [!Services](platform-overview/products-and-services/services.md)
 * [!Multi-tenancy](platform-overview/multi-tenant-tree-structure.md)
-* [White-label](platform-overview/white-label.md)
+* [!White-label](platform-overview/white-label.md)
 
 ## Downloads
 
@@ -20,8 +20,8 @@
 
 * [Getting Started](tutorials/getting-started/README.md)
   * [Sign Up](tutorials/getting-started/sign-up.md)
-  * [Sign Up by invitation](tutorials/getting-started/sign-up-by-invitation.md)
-  * [Partner Sign Up](tutorials/getting-started/partner-sign-up.md)
+  * [!Sign Up by invitation](tutorials/getting-started/sign-up-by-invitation.md)
+  * [!Partner Sign Up](tutorials/getting-started/partner-sign-up.md)
   * [Common Blynk.360 Navigation and Actions](tutorials/getting-started/common-navigation-and-actions-reference.md)
 * [!Building a Commercial Product A-Z](tutorials/building-a-commercial-product-a-z.md)
 * [Connecting Arduino Devices](tutorials/connecting-arduino-devices.md)
@@ -164,8 +164,8 @@
 
 ---
 
-* [Blynk 1.0 and 2.0 comparison](blynk-1.0-and-2.0-comparison/README.md)
-  * [Migrate from 1.0 to 2.0](blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md)
+* [!Blynk comparison to Blynk 0.1](blynk-1.0-and-2.0-comparison/README.md)
+  * [!Migrate from 0.1 to Blynk](blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md)
 * [Glossary](glossary.md)
 * [Links](links.md)
 
