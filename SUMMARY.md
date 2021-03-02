@@ -39,7 +39,7 @@
         * [Timeline](web-dashboard/for-developers/search/devices-1/device-view/timeline.md)
         * [Device Info](web-dashboard/for-developers/search/devices-1/device-view/device-info.md)
         * [!Metadata](web-dashboard/for-developers/search/devices-1/device-view/metadata.md)
-        * [!Actions Log](web-dashboard/for-developers/search/devices-1/device-view/actions-log.md)
+        * [Actions Log](web-dashboard/for-developers/search/devices-1/device-view/actions-log.md)
         * [Service](web-dashboard/for-developers/search/devices-1/device-view/service.md)
       * [!Device Owner View](web-dashboard/for-developers/search/devices-1/device-owner-view.md)
       * [!Device Organization View](web-dashboard/for-developers/search/devices-1/device-organization-view.md)
