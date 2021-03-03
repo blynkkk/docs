@@ -10,13 +10,9 @@ For example, a user owns a wi-fi connected dimmer light
 
 To sync the device to the latest state, use the firmware API commands:
 
-Blynk.syncAll() will sync only Datastreams that are enabled for sync (with this setting).
+Blynk.syncAll\(\) will sync only Datastreams that are enabled for sync \(with this setting\).
 
-BLYNK_CONNECTED() { // when device is conneceted to Blynk Cloud...
-  Blynk.syncAll(); // request the values for all datastreams that has "sync" setting enabled
-}
-Blynk.sync() will sync any requested Datastream, even if sync setting is not enabled for the specified datastream
+BLYNK\_CONNECTED\(\) { // when device is conneceted to Blynk Cloud... Blynk.syncAll\(\); // request the values for all datastreams that has "sync" setting enabled } Blynk.sync\(\) will sync any requested Datastream, even if sync setting is not enabled for the specified datastream
 
-BLYNK_CONNECTED() { // when device is conneceted to Blynk Cloud...
-  Blynk.sync(V0);   // syncs V0 pin only (even if sync setting is off for V0
-}
+BLYNK\_CONNECTED\(\) { // when device is conneceted to Blynk Cloud... Blynk.sync\(V0\); // syncs V0 pin only \(even if sync setting is off for V0 }
+
