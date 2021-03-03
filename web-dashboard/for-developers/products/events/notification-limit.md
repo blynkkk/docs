@@ -1,11 +1,11 @@
 # Notifications Limit
 
-![](../../../../.gitbook/assets/limit_period.png)
+![](https://raw.githubusercontent.com/blynkkk/docs/main/.gitbook/assets/limit_period.png)
 
 Limits number of notifications to one notification for a specified time period.  
 _**Example**_: 1hr 20min range means end-users will only get one notification within 1 hour 20 minutes even if hardware or API sends more.
 
-![](../../../../.gitbook/assets/ignore_treshold.png)
+![](https://raw.githubusercontent.com/blynkkk/docs/main/.gitbook/assets/ignore_treshold.png)
 
 Notification will be sent after a specified number of events was received. After threshold is met, the counter resets.  
 _**Example**_: if the threshold is set to 10 and device sends 100 notifications, the user would only get 10 notifications \(each 10th ignoring those 9 in between\)
