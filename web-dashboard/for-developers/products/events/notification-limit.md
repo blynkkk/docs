@@ -8,7 +8,7 @@ _**Example**_: 1hr 20min range means end-users will only get one notification wi
 ![](../../../../.gitbook/assets/event_counter.png)
 
 Notification will be sent after a specified number of events was received. After threshold is met, the counter resets.  
-_**Example**_: if the threshold is set to 10 and device sends 100 notifications, the user would only get 10 notifications \(each 10th ignoring those 9 in between\)
+_**Example**_: if the counter is set to 10 and device sends 100 notifications, the user would only get 10 notifications \(each 10th ignoring those 9 in between\)
 
 _Examples above were given for cases when one of the settings is enabled._
 
