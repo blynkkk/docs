@@ -132,7 +132,7 @@
 * [Group Management](mobile-applications/group-management.md)
 * [Automations](mobile-applications/automations.md)
 * [Alerts](mobile-applications/alerts.md)
-* [Partner mode](mobile-applications/partner-mode.md)
+* [!Partner mode](mobile-applications/partner-mode.md)
 * [!Developer Mode](mobile-applications/developer-mode.md)
 * [!Constructor](mobile-applications/constructor.md)
 
