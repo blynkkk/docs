@@ -33,7 +33,25 @@ General chart properties:
 
 ![Area chart widget example](../../../../../.gitbook/assets/chart1.gif)
 
-**Map** – 
+**Map** – this widget displays device locations/route and data sets \(predefined by Template owner\) that are assigned to GPS data.
+
+![Map widget example](../../../../../.gitbook/assets/map_widget.png)
+
+1. Specify the time period if it's needed \(top center of the widget\):
+
+   1. select the day: click arrows to switch to previous/next day or click on the day to open date picker, search and click on the date you want;
+   2. set day time period: click the field containing time data to open time picker, set hh:mm for both start and end of the period; 
+
+2. Change track overlay by selecting available in top right dropdown menu. It's used for values/statuses differences visualization that can be checked in track overlays legend \(bottom right\) 
+3. Navigate to the point you want to check:
+   1. use scale management buttons at top left of the widget;
+   2. move the map by moving the mouse with left mouse button hold;
+   3. click the point or area \(nearest point data will be displayed\);
+
+![Scale management buttons](../../../../../.gitbook/assets/map_nav_but.gif)
+
+Now you can see all the data that was actual while the device was on the selected location.  
+It always starts with Date and Time in the first line, Location Longtitude and Latitude in second line and all other data in further lines.
 
 **Modules**  
 
