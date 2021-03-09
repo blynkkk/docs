@@ -6,8 +6,6 @@ description: >-
 
 # Label
 
-![Add Label widget and click Setup pictogram](../../../../.gitbook/assets/label_create.gif)
-
 * **Label** – name a Label widget so you or your client understand what it's about     
 * **Source** – there are two fields:   
   * **Choose Source** contains _**Datastreams used in the Product**_. Select one;   

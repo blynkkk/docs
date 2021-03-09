@@ -6,8 +6,6 @@ description: >-
 
 # Slider
 
-![Add Slider widget and click Setup pictogram](../../../../.gitbook/assets/slider_create.gif)
-
 * Name the Slider widget by editing **Slider** inside top field; 
 * **Choose Source** – select Datastream;
   * **Min** and **Max** – will be automatically taken from selected Datastream default value; 
@@ -20,7 +18,7 @@ description: >-
   * **Value position** – left or right side to the Slider;
   * **Suffix** – type the unit you want to be viewed near the value.
 
+
+
 ![Slider widget setup demo](../../../../.gitbook/assets/slider_setup.gif)
-
-
 

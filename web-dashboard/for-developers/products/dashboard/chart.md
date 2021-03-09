@@ -6,8 +6,6 @@ description: >-
 
 # Chart
 
-![Add Chart widget and click Setup pictogram](../../../../.gitbook/assets/chart_create.gif)
-
 * **Add source** – it's possible to set several Datastream **Sources** under one Chart. Click and set up as much as you need. 
 * **Chart Title** – name a chart so you or your client understand what it's about 
 * **Source Label** – The easiest way to name it/them is giving used Datastreams names.   

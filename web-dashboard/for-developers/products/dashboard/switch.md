@@ -6,8 +6,6 @@ description: >-
 
 # Switch
 
-![Add Switch widget and click Setup pictogram](../../../../.gitbook/assets/switch_create.gif)
-
 * Name the Switch widget by editing **Switch** inside top field; 
 * **Target** – access available Datastreams dropdown list by click on _**Choose Source**_; 
 * set **ON/OFF Values** in the corresponding fields; 
