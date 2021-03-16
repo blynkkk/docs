@@ -20,7 +20,13 @@ Now you can proceed in Blynk.App:
 
 ![](../.gitbook/assets/wrench.png)
 
-Now you've accessed Developer Mode screen.
+Now you've accessed Developer Mode screen and can set up mobile Dashboards for the Templates created in Blynk.360  
+
+
+!!to add new template:
+
+1. you need to have a product that has no mobile template
+2. scroll to it - find it among 'prototype' templates - and click on it
 
 ![](../.gitbook/assets/dev-mode-on-first-time.png)
 
