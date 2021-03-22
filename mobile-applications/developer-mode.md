@@ -4,33 +4,36 @@ As a Developer you're able to create Blynk.App Templates in [Constructor](constr
   
 To enable this feature: 
 
-1. open Blynk.360 
+1. open Blynk.App
 2. sign in
-3. navigate to [**User Profile**](../web-dashboard/for-developers/user-profile.md)\*\*\*\*
-4. scroll the page to the bottom
-5. toggle **Developer Mode** switch
+3. navigate to **My Profile**
+4. toggle **Developer Mode** switch
 
-![](../.gitbook/assets/dev_mode_on.png)
+Now you have access to Developer features.
 
-Now you can proceed in Blynk.App:
-
-1. launch app
-2. sign in
-3. tap Wrench pictogram that is available at top right of the screen near to Menu pictogram
+Tap **Wrench** pictogram at top right of the screen near to Menu pictogram
 
 ![](../.gitbook/assets/wrench.png)
 
-Now you've accessed Developer Mode screen and can set up mobile Dashboards for the Templates created in Blynk.360  
+In Developer Mode screen you can set up Tiles for the Templates created in Blynk.360
 
+![](../.gitbook/assets/proto2.jpg)
 
-!!to add new template:
+1. tap Tile containing Add Template in it's bottom
+2. select Template Tile Action Type and confirm by tap
+3. set up Tile Icon, Interaction, Datastreams, Shape and other settings
+4. tap X at top left to exit Tile Settings window and save the changes 
 
-1. you need to have a product that has no mobile template
-2. scroll to it - find it among 'prototype' templates - and click on it
+{% hint style="info" %}
+If you need to edit the Tile, **hold** it for about a second.
 
-![](../.gitbook/assets/dev-mode-on-first-time.png)
+Tap **Delete** button if you need to re-select Tile Interaction Type and repeat the actions from step 1 
 
-!Template Statuses
+Tap on Template Tile opens [**Constructor**](constructor.md) from now on.
+{% endhint %}
+
+  
+
 
 
 
