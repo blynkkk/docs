@@ -9,7 +9,8 @@
   * [!Products](platform-overview/products-and-services/products.md)
   * [!Services](platform-overview/products-and-services/services.md)
 * [!Multi-tenancy](platform-overview/multi-tenant-tree-structure.md)
-* [!White-label](platform-overview/white-label.md)
+* [Users](platform-overview/users.md)
+* [Organizations](platform-overview/organizations.md)
 
 ## Downloads
 
@@ -110,7 +111,7 @@
       * [Design](web-dashboard/for-developers/settings/application-settings/design.md)
       * [Mobile Apps](web-dashboard/for-developers/settings/application-settings/mobile-apps.md)
       * [Sign Up](web-dashboard/for-developers/settings/application-settings/sign-up.md)
-    * [Access](web-dashboard/for-developers/settings/access.md)
+    * [Roles and Permissions](web-dashboard/for-developers/settings/access.md)
     * [Developers](web-dashboard/for-developers/settings/developers/README.md)
       * [OAuth2](web-dashboard/for-developers/settings/developers/oauth2.md)
       * [Webhooks](web-dashboard/for-developers/settings/developers/webhooks.md)

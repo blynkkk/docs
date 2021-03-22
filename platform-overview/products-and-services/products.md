@@ -4,18 +4,17 @@
 
 ![Screenshot of Blynk.360](../../.gitbook/assets/image-placeholder.png)
 
-**Blynk.360** is a feature-rich web application that can be used by users with different roles. Two major functions of this app are:
+**Blynk.360** is a feature-rich web application that can be used by different [types of users](../users.md). Major functionality of this product is:
 
 1. Configuration of how connected devices work on the plartform + application settings.
 2. Management of devices, their data, users, organizations and locations 
+3. Remote monitoring and control of devices
 
-Full documentation on Blynk.App is [here](https://app.gitbook.com/@blynk-iot/s/en/~/drafts/-MU9JY79Bpp1mqdyTvxu/web-dashboard/for-developers)
+Full documentation on Blynk.360 is [here](https://app.gitbook.com/@blynk-iot/s/en/~/drafts/-MU9JY79Bpp1mqdyTvxu/web-dashboard/for-developers)
 
 
 
 ## Blynk.App
-
-
 
 ![Screenshot of Blynk apps](../../.gitbook/assets/image-placeholder.png)
 
@@ -34,8 +33,6 @@ Full documentation on Blynk.App is [here](https://app.gitbook.com/@blynk-iot/s/e
 
 
 ## Blynk.Edgent
-
-
 
 ![Diagram of Blynk.Edgent](../../.gitbook/assets/image-placeholder.png)
 

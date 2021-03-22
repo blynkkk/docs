@@ -8,9 +8,9 @@
 
 **Organization Type** – there are 4 types possible. Autodetection is applied accordingly to the flow used during Organization registration:
 
-* Root
+* Root \(accessible only in white-label version\)
 * Sub-organization
-* Partner
+* Partners
 * Client
 
 **Description** \(optional\) – organization info container. 500 characters limit with counter at the bottom

@@ -10,8 +10,6 @@ Download latest build:
 * Python
 * JS
 
-
-
   
 In case you forgot, or don’t know how to install Arduino libraries [click here](http://www.arduino.cc/en/guide/libraries).
 

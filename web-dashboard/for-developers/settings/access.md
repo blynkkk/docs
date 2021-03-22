@@ -2,7 +2,7 @@
 description: Access and permissions management for different user roles
 ---
 
-# Access
+# Roles and Permissions
 
 {% hint style="danger" %}
 Be attentive setting the permissions please 
@@ -14,7 +14,7 @@ Be attentive setting the permissions please
 
 
 
-Blynk has 3 types of users roles that can have different permissions sets: 
+Blynk has 3 roles that can have different permissions sets: 
 
 * **Admin** – supposed to have maximum permissions set
 * **Staff** – we recommend to set up and use this role for user support processes such as handling user invitation, device check and debug, view and assist users' organizations
@@ -118,7 +118,7 @@ Blynk has 3 types of users roles that can have different permissions sets:
 
 *  View Analytics -&gt; View analytics
 
-> #### Rule Engine
+> #### Rule Engine \(under development\)
 
 *  View Rule Group -&gt; View rule groups
 *  Create rule groups \(it doesn't exist at all\)

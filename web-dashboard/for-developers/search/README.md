@@ -2,17 +2,17 @@
 
 Here you can perform quick or manual search of [devices](devices-1/), [locations](locations.md), [organizations ](organizations/)and [users ](users/)you have access to by different criterias according to filtering options you select.
 
-This is the first screen everybody signed in to Blynk Web Dashboard sees.
+This is the first screen everybody signed in to Blynk.360 sees.
 
 ![](../../../.gitbook/assets/search.png)
 
 There are 3 segments \(left to right\):
 
-## **Main Navigation Panel** 
+## **Menu** 
 
 Use it to navigate to ther sections. It's available in anytime and almost anyplace of Web Dashboard. Read [this article](../../../tutorials/getting-started/common-navigation-and-actions-reference.md) to learn Blynk navigation and actions basics please.
 
-## **Search Filtering Panel** 
+## **Sidebar** 
 
 Here you can select View Panel contents. Click section name row to switch View panel to search mode or click one of the options available for manual search in table or map view:
 
@@ -32,7 +32,7 @@ Here you can select View Panel contents. Click section name row to switch View p
   * Organization users – view users of your organization only
   * With no devices – view users of all organizations \(you have access to\) with no devices assigned
 
-## **View panel** 
+## **Main view** 
 
 It previews main values of available Devices, Locations, Organizations and Users depending on Search filtering panel selection \(Devices table is open by default\) and search results.  
   

@@ -1,36 +1,35 @@
 # Sign Up
 
-Creating an account is required for every user of Blynk platform. This is essential for security reasons, to make data accessible from anywhere and to keep it in sync between your different devices.
+To use Blynk, every user needs to create an account. This is essential for security reasons, to make data accessible from multiple devices and places. A valid email address is requried to create an account.
 
-To create a new account, go to [https://blynk.cloud/](https://blynk.cloud/) in you web browser or use a [Mobile application](../../mobile-applications/untitled/):
+These are the main ways of how users can sign up:
 
-**&gt;&gt;&gt;&gt;Need a screenshot of a mobile app here:**
+1. By creating a new account at [https://blynk.cloud/](https://blynk.cloud/)
+2. By downloading Blynk [Mobile application](../../mobile-applications/untitled/) and following registration process in the app
+3. By getting an invitation from existing user \(available in paid plans only\)
+
+**&gt;Need a screenshot of a web login, mobile application login, email with invitation. All on a single screenshot.**
 
 ![](../../.gitbook/assets/log-in.png)
 
-Click **Create new account** and you'll get to Sign Up screen:
 
-{% hint style="info" %}
-Contents of the Sign Up screen may vary accordingly to Sign Up settings applied by Administrator.
-{% endhint %}
 
-![](../../.gitbook/assets/sign_up.png)
 
-There are Sign Up 2 options:
-
-**Sign Up** – ****for personal or small company use, Developer's clients and tests
 
 \*\*\*\*
 
-## Sign Up Steps
+## Sign Up Step-By-Step
 
-1. Enter your valid Email address  
-2. Read and agree to the Terms and Conditions 
+1. Enter a valid email address  
+2. Agree to Terms and Conditions and Privacy Policy 
 3. Click **Continue** 
 4. Check your inbox for an email with instructions.
 5. Click **Create Password** button ****in your invitation email. This link will be valid for 24 hours and after that you would need to repeat sign up process
-6. If required, fill in your details \(e.g. first name, last name\)
-7. Create a strong password
+6. Create a strong password and don't share it with anyone
+
+{% hint style="warning" %}
+If you haven't received email with activation link – check SPAM folder, add _dispatcher@blynk.cc_ to your address book and try to register again.
+{% endhint %}
 
 Now your account is created and you can start using the platform
 

@@ -6,7 +6,7 @@ description: How different types of users can access the data on Blynk platform
 
 In most IoT applications, there is usually a need to access devices and other data by multiple users, also commonly referred to as _tenants_. 
 
-A tenant can mean a lot of things, and based on the type of application you are building these can be individual users or organizations. Regardless of the application, however, the main idea is that tenant's assets\(devices, users, locations, etc.\) should always be protected from unauthorized access. 
+A tenant can mean a lot of things, and based on the type of application you are building these can be individual users or organizations. Regardless of the application, however, the main idea is that tenant's assets \(devices, users, locations, etc.\) should always be protected from unauthorized access. 
 
 Blynk platform offers a simple and flexible way to set up and manage multi-tenant IoT applications at any scale. 
 
@@ -14,7 +14,7 @@ Blynk platform offers a simple and flexible way to set up and manage multi-tenan
 Multi-tenancy functionality can be limited by the plan you are using. [Upgrade](https://blynk.io/pricing%20) to a higher plan to get complete access to this feature.
 {% endhint %}
 
-Every user of Blynk is a member of an Organization. This could be a one-person organization, a family, or a company with hundreds of employees. Additionally, every member of an organization has a role. Role controls how users access the data with a set of permissions. Read more about the roles and permissions.
+Every user of Blynk is a member of an Organization. This could be a one-person organization, a family, or a company with hundreds of employees. Additionally, every member of an organization has a role. Role controls how users access the data with a set of permissions. Read more [here](../web-dashboard/for-developers/settings/access.md).
 
 Organizations can have sub-organizations and also be a part of a larger organization, forming a tree-like structure. 
 
