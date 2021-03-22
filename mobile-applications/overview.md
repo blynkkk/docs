@@ -25,7 +25,7 @@ The list of important alerts from all devices will be here. In order to be liste
 
 ## Device dashboard
 
-When a user taps on the device tile, the device dashboard will be opened. It consists of widgets that allow controlling and monitoring the device. The layout of the widgets and their settings can be edited in the [Developer mode](developer-mode.md)  
+When a user taps on the device tile, the device dashboard will be opened. It consists of widgets that allow controlling and monitoring the device. The layout of the widgets and their settings can be edited in the [Developer mode](developer-mode/)  
   
 **Information and Timeline**  
 At the top right corner of the dashboard, there's an \[...\] icon that opens another view with the   
