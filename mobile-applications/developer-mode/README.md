@@ -33,9 +33,9 @@ Tap **Delete** button if you need to re-select Tile Interaction Type and repeat 
 Tap on Template Tile opens [**Constructor**](constructor.md) from now on.
 {% endhint %}
 
-### Tile Action Types
+### Tile Types
 
-There are 6 interractions presets for Device tiles: 
+There are 6 Devices tiles presets with different actions applied on tap : 
 
 **Default** – views selected Datastream value in the tile \(e.g.: temperature, volume, percentage, etc.\) 
 
