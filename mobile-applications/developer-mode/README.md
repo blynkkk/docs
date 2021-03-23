@@ -37,17 +37,12 @@ Tap on Template Tile opens [**Constructor**](constructor/) from now on.
 
 There are 6 Devices tiles presets with different actions applied on tap : 
 
-**Default** – views selected Datastream value in the tile \(e.g.: temperature, volume, percentage, etc.\) 
-
-**Icon Button** – tap on the Device Tile will trigger an action or switch ON/OFF state
-
-**Icon Level** – displays proportional level \(brightness, power, etc.\) based on selected Datastream value
-
-**Color Brightness** – allows to view and edit Color, Power status and Brightness level of the Device
-
-**Image** – shows Icon/Image on the Tile. No quick actions. It can be used for recognition purpose. 
-
-**3 Labels** – it's a hybrid of Default and Icon Button. Up to 3 Datastream values display is supported
+* **Default** – views selected Datastream value in the tile \(e.g.: temperature, volume, percentage, etc.\)
+* **Icon Button** – tap on the Device Tile will trigger an action or switch ON/OFF state
+* **Icon Level** – displays proportional level \(brightness, power, etc.\) based on selected Datastream value
+* **Color Brightness** – allows to view and edit Color, Power status and Brightness level of the Device
+* **Image** – shows Icon/Image on the Tile. No quick actions. It can be used for recognition purpose. 
+* **3 Labels** – it's a hybrid of Default and Icon Button. Up to 3 Datastream values display is supported
 
 
 

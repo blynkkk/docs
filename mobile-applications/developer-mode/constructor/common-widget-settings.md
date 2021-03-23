@@ -14,16 +14,22 @@ For example, when you move joystick widget, commands are streamed to the hardwar
 **Write Interval**  
 Similar to “Send on Release” option. However, it allows you to stream values to your hardware within certain interval. For example, setting **write interval** to 100 ms means that while you move the slider, only 1 value will be sent to hardware within 100 ms period. This option is also used to optimize data traffic flow to your hardware.
 
-**Color Gradient**  
+**Show Value**  
+
+
+**Progress Gradient**  
 When you choose gradient, it affects the color of widget elements based on invoming values. For example: You set Gauge Widget with Min and Max parameters of 0-100, and choose green-yellow-red gradient. When hardware sends: - `10`, Gauge will change it’s color to green color - `50` will change Gauge to yellow color - `80` will change Gauge to red color  
 There are 2 types of gradients you can choose from: - Warm: Green - Orange - Red; - Cold: Green - Blue - Violet;
 
-**States**
+**ON/OFF States**
 
-**Labels**
+**ON/OFF Labels**
+
+**Edges**  
+Rounded/Sharp/Pill/Custom
 
 **Design**  
-Font size, Text color  
+Font size, Text color, Progress, Buttom, Handle  
   
 
 
