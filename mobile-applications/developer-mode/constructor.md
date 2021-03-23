@@ -1,6 +1,8 @@
-# !Constructor
+---
+description: This is Devices' Dashboards Templates settings section.
+---
 
-This is Devices' Dashboards Templates settings section.
+# Constructor
 
 ## Grid
 
@@ -13,7 +15,7 @@ Here you can setup Template Dashboard that will be used by Devices.
 5. Move and combine the Widgets until you get Dashboard's UI you need.
 6. Once it's done, tap Exit pictogram. All the changes are saved now. Template screen is open.
 
-### Actions applicable to Widget:
+#### Actions applicable to Widget:
 
 * **Move** – _hold and drag_ to any area of the grid so you can combine it with other widgets to create integral composition of the Dashboard you create. 
 * **Resize** – _hold and release_. Green markup with dots on the movable borders will appear. _Hold and drag one of the dots_ to the side you want. 
@@ -28,11 +30,13 @@ Here you can setup Template Dashboard that will be used by Devices.
 
 ## Widget Box
 
-Controllers
+Here you can find Widgets of four groups:
 
-Displays
+* **Controllers** – buttons, switches, sliders, joysticks, etc.
+* **Displays** – value displays, LCD, LED, Charts, etc
+* **Interface** – tabs, menu, map, inputs, etc.
+* **Other** – specific properties entitites that outfits previous section funcionality.  
 
-Interface
-
-Other
+Scroll the list and tap on the Widget you need to add it to the Grid.  
+Tap the Widget to set it up.
 

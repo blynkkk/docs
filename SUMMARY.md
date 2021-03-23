@@ -130,12 +130,14 @@
   * [Settings](mobile-applications/profile-management/settings.md)
 * [Device Management](mobile-applications/device-management/README.md)
   * [Add new Device](mobile-applications/device-management/add-new-device.md)
+  * [Widgets](mobile-applications/device-management/widgets/README.md)
+    * [Untitled](mobile-applications/device-management/widgets/untitled.md)
 * [Group Management](mobile-applications/group-management.md)
 * [Automations](mobile-applications/automations.md)
 * [Alerts](mobile-applications/alerts.md)
 * [!Partner mode](mobile-applications/partner-mode.md)
 * [Developer Mode](mobile-applications/developer-mode/README.md)
-  * [!Constructor](mobile-applications/developer-mode/constructor.md)
+  * [Constructor](mobile-applications/developer-mode/constructor.md)
 
 ## Blynk.Edgent
 
