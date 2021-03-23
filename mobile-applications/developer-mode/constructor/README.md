@@ -26,7 +26,7 @@ Here you can setup Template Dashboard that will be used by Devices.
 
 
 
-![](../../.gitbook/assets/constructor.gif)
+![](../../../.gitbook/assets/constructor.gif)
 
 ## Widget Box
 

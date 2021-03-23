@@ -137,7 +137,8 @@
 * [Alerts](mobile-applications/alerts.md)
 * [!Partner mode](mobile-applications/partner-mode.md)
 * [Developer Mode](mobile-applications/developer-mode/README.md)
-  * [Constructor](mobile-applications/developer-mode/constructor.md)
+  * [Constructor](mobile-applications/developer-mode/constructor/README.md)
+    * [Common Widget Settings](mobile-applications/developer-mode/constructor/common-widget-settings.md)
 
 ## Blynk.Edgent
 

@@ -1,6 +1,6 @@
 # Developer Mode
 
-As a Developer you're able to create Blynk.App Templates in [Constructor](constructor.md) directly on your mobile device.
+As a Developer you're able to create Blynk.App Templates in [Constructor](constructor/) directly on your mobile device.
 
 ## Enable the feature 
 
@@ -30,7 +30,7 @@ If you need to edit the Tile, **hold** it for about a second.
 
 Tap **Delete** button if you need to re-select Tile Interaction Type and repeat the actions from step 1 
 
-Tap on Template Tile opens [**Constructor**](constructor.md) from now on.
+Tap on Template Tile opens [**Constructor**](constructor/) from now on.
 {% endhint %}
 
 ### Tile Types
