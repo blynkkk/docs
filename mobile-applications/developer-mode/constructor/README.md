@@ -21,7 +21,7 @@ Here you can setup Template Dashboard that will be used by Devices.
 * **Resize** – _hold and release_. Green markup with dots on the movable borders will appear. _Hold and drag one of the dots_ to the side you want. 
 * **Set up/Edit** – _tap_ to open setup screen where you can link Datastreams and set up widget's design and properties. 
 * **Clone** – this option can be applied to both new \(empty\) and previously set up widgets. _Hold and drag the widget to **Clone** pictogram_ \(it will appear at top left when hold\). Now move this copy to desired grid area. 
-* **Delete** – _hold and drag the widget to **Recycle** pictogram_ \(it will appear at top right when hold\). _**WARNING**_**:** there's no action confirmation and the widget will be permanently deleted.  
+* **Delete** – _hold and drag the widget to **Recycle** pictogram_ \(it will appear at top right when hold\).  Or _Edit Widget_, _scroll down_ to the bottom of the screen, _tap **Delete** button_.  _**WARNING**_**:** there's no action confirmation and the widget will be permanently deleted.  
 * **Clear the Grid** – _tap **Recycle** pictogram_ at top right of the screen. _Confirm_ the action.
 
 
