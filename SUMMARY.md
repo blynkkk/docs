@@ -28,6 +28,7 @@
 * [Connecting Arduino Devices](tutorials/connecting-arduino-devices.md)
 * [Notification management](tutorials/notification-management.md)
 * [Updating Devices' Firmwares OTA](tutorials/updating-devices-firmwares-ota.md)
+* [ODBC DB copy](tutorials/odbc-db-copy.md)
 
 ## Blynk.360 <a id="web-dashboard"></a>
 
