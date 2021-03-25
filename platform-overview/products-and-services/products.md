@@ -2,7 +2,7 @@
 
 ## Blynk.360
 
-![Screenshot of Blynk.360](../../.gitbook/assets/image-placeholder.png)
+![](../../.gitbook/assets/360.png)
 
 **Blynk.360** is a feature-rich web application that can be used by different [types of users](../users.md). Major functionality of this product is:
 
@@ -12,11 +12,9 @@
 
 Full documentation on Blynk.360 is [here](https://app.gitbook.com/@blynk-iot/s/en/~/drafts/-MU9JY79Bpp1mqdyTvxu/web-dashboard/for-developers)
 
-
-
 ## Blynk.App
 
-![Screenshot of Blynk apps](../../.gitbook/assets/image-placeholder.png)
+![](../../.gitbook/assets/screenshot_2021-03-25-21-07-56-35.jpg)
 
 **Blynk.App** is a multi-functional native iOS and Android mobile application that serves these major functions:
 
@@ -27,10 +25,6 @@ Full documentation on Blynk.360 is [here](https://app.gitbook.com/@blynk-iot/s/e
 Blynk.app is a white-label solution. 
 
 Full documentation on Blynk.App is [here](https://app.gitbook.com/@blynk-iot/s/en/~/drafts/-MU9JY79Bpp1mqdyTvxu/mobile-applications/overview)
-
-
-
-
 
 ## Blynk.Edgent
 
