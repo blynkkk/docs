@@ -19,7 +19,7 @@ Run`%systemdrive%\Windows\System32\Odbcad32.exe`
 
 1. Click Add in User DSN tab
 2. Name it \(CH in this tutorial\)
-3. Insert the following URL: `http://company-readonly:password@ip:port/query?database=company_prod_reporting&buffer_size=3000000`
+3. Insert the following URL: `http://company-readonly:password@ip:port/query?database=company_reporting&buffer_size=3000000`
 4. Click OK
 5. Click Apply
 
