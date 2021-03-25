@@ -1,7 +1,3 @@
----
-description: to be created
----
-
 # Introduction
 
 This documentation will help you understand how to get started using Blynk and give a comprehensive overview of all the features.
