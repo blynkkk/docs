@@ -1,4 +1,4 @@
-# !Services
+# Services
 
 Blynk services \(or micro-services\) are software modules that work across products and perform a certain set of functionality.
 

@@ -1,4 +1,4 @@
-# !Partner mode
+# Partner mode
 
 When you're signed up as a Partner \(that means you're a Distributor, Reseller, Contractor or Installer\) you can access your Client's Devices to view, setup and control them in assistance means.   
 You can request access or get invitations to from Clients.

@@ -2,7 +2,7 @@
 description: need to add list pic when improvents are done
 ---
 
-# !Event List
+# Event List
 
 ![!update this pic after improvements made](../../../../.gitbook/assets/events.png)
 

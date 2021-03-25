@@ -6,16 +6,16 @@
 
 * [What is Blynk](platform-overview/what-is-blynk-2.0.md)
 * [Products and Services](platform-overview/products-and-services/README.md)
-  * [!Products](platform-overview/products-and-services/products.md)
-  * [!Services](platform-overview/products-and-services/services.md)
-* [!Multi-tenancy](platform-overview/multi-tenant-tree-structure.md)
+  * [Products](platform-overview/products-and-services/products.md)
+  * [Services](platform-overview/products-and-services/services.md)
+* [Multi-tenancy](platform-overview/multi-tenant-tree-structure.md)
 * [Users](platform-overview/users.md)
 * [Organizations](platform-overview/organizations.md)
 
 ## Downloads
 
-* [!Apps for iOS and Android](downloads/blynk-apps-for-ios-and-android.md)
-* [!Blynk.Edgent](downloads/blynk.edgent.md)
+* [Apps for iOS and Android](downloads/blynk-apps-for-ios-and-android.md)
+* [Blynk.Edgent](downloads/blynk.edgent.md)
 
 ## Tutorials
 
@@ -24,7 +24,7 @@
   * [!Sign Up by invitation](tutorials/getting-started/sign-up-by-invitation.md)
   * [!Partner Sign Up](tutorials/getting-started/partner-sign-up.md)
   * [Common Blynk.360 Navigation and Actions](tutorials/getting-started/common-navigation-and-actions-reference.md)
-* [!Building a Commercial Product A-Z](tutorials/building-a-commercial-product-a-z.md)
+* [Building a Commercial Product A-Z](tutorials/building-a-commercial-product-a-z.md)
 * [Connecting Arduino Devices](tutorials/connecting-arduino-devices.md)
 * [Notification management](tutorials/notification-management.md)
 * [Updating Devices' Firmwares OTA](tutorials/updating-devices-firmwares-ota.md)
@@ -34,21 +34,21 @@
 
 * [For End-users](web-dashboard/for-end-users.md)
 * [For Developers](web-dashboard/for-developers/README.md)
-  * [!Search](web-dashboard/for-developers/search/README.md)
+  * [Search](web-dashboard/for-developers/search/README.md)
     * [Devices](web-dashboard/for-developers/search/devices-1/README.md)
-      * [!Device view](web-dashboard/for-developers/search/devices-1/device-view/README.md)
-        * [!Dashboard](web-dashboard/for-developers/search/devices-1/device-view/dashboard.md)
+      * [Device view](web-dashboard/for-developers/search/devices-1/device-view/README.md)
+        * [Dashboard](web-dashboard/for-developers/search/devices-1/device-view/dashboard.md)
         * [Timeline](web-dashboard/for-developers/search/devices-1/device-view/timeline.md)
         * [Device Info](web-dashboard/for-developers/search/devices-1/device-view/device-info.md)
         * [Metadata](web-dashboard/for-developers/search/devices-1/device-view/metadata.md)
         * [Actions Log](web-dashboard/for-developers/search/devices-1/device-view/actions-log.md)
         * [Service](web-dashboard/for-developers/search/devices-1/device-view/service.md)
-      * [!Device Owner View](web-dashboard/for-developers/search/devices-1/device-owner-view.md)
-      * [!Device Organization View](web-dashboard/for-developers/search/devices-1/device-organization-view.md)
-      * [!Notifications Settings](web-dashboard/for-developers/search/devices-1/notifications-settings.md)
-    * [!Locations](web-dashboard/for-developers/search/locations.md)
-    * [!Organizations View](web-dashboard/for-developers/search/organizations/README.md)
-      * [!Transfer Organization](web-dashboard/for-developers/search/organizations/transfer-organization.md)
+      * [Device Owner View](web-dashboard/for-developers/search/devices-1/device-owner-view.md)
+      * [Device Organization View](web-dashboard/for-developers/search/devices-1/device-organization-view.md)
+      * [Notifications Settings](web-dashboard/for-developers/search/devices-1/notifications-settings.md)
+    * [Locations](web-dashboard/for-developers/search/locations.md)
+    * [Organizations View](web-dashboard/for-developers/search/organizations/README.md)
+      * [Transfer Organization](web-dashboard/for-developers/search/organizations/transfer-organization.md)
     * [Users](web-dashboard/for-developers/search/users/README.md)
       * [User View](web-dashboard/for-developers/search/users/user-view.md)
       * [List of Users](web-dashboard/for-developers/search/users/users-list.md)
@@ -82,8 +82,8 @@
       * [Virtual Pin](web-dashboard/for-developers/products/datastreams/virtual-pin.md)
       * [Location](web-dashboard/for-developers/products/datastreams/location.md)
       * [Enumerable](web-dashboard/for-developers/products/datastreams/enumerable.md)
-    * [!Events](web-dashboard/for-developers/products/events/README.md)
-      * [!Event List](web-dashboard/for-developers/products/events/event-list.md)
+    * [Events](web-dashboard/for-developers/products/events/README.md)
+      * [Event List](web-dashboard/for-developers/products/events/event-list.md)
       * [General tab](web-dashboard/for-developers/products/events/general.md)
       * [Notifications tab](web-dashboard/for-developers/products/events/notifications.md)
       * [Notifications Limit](web-dashboard/for-developers/products/events/notification-limit.md)
@@ -93,8 +93,8 @@
       * [Switch](web-dashboard/for-developers/products/dashboard/switch.md)
       * [Label](web-dashboard/for-developers/products/dashboard/label.md)
       * [Chart](web-dashboard/for-developers/products/dashboard/chart.md)
-      * [!Map](web-dashboard/for-developers/products/dashboard/map.md)
-      * [!Modules](web-dashboard/for-developers/products/dashboard/modules.md)
+      * [Map](web-dashboard/for-developers/products/dashboard/map.md)
+      * [Modules](web-dashboard/for-developers/products/dashboard/modules.md)
   * [Organizations](web-dashboard/for-developers/organizations.md)
   * [Blynk.Air](web-dashboard/for-developers/blynk.air/README.md)
     * [Shipment details](web-dashboard/for-developers/blynk.air/shipment-details.md)
@@ -121,7 +121,7 @@
 
 ## Blynk.App <a id="mobile-applications"></a>
 
-* [!Overview](mobile-applications/overview.md)
+* [Overview](mobile-applications/overview.md)
 * [Sign Up / Sign In](mobile-applications/untitled/README.md)
   * [Client Sign Up](mobile-applications/untitled/client-sign-up.md)
   * [Partner Sign Up](mobile-applications/untitled/partner-sign-up.md)
@@ -131,12 +131,11 @@
   * [Settings](mobile-applications/profile-management/settings.md)
 * [Device Management](mobile-applications/device-management/README.md)
   * [Add new Device](mobile-applications/device-management/add-new-device.md)
-  * [Widgets](mobile-applications/device-management/widgets/README.md)
-    * [Untitled](mobile-applications/device-management/widgets/untitled.md)
+  * [Widgets](mobile-applications/device-management/widgets.md)
 * [Group Management](mobile-applications/group-management.md)
 * [Automations](mobile-applications/automations.md)
 * [Alerts](mobile-applications/alerts.md)
-* [!Partner mode](mobile-applications/partner-mode.md)
+* [Partner mode](mobile-applications/partner-mode.md)
 * [Developer Mode](mobile-applications/developer-mode/README.md)
   * [Constructor](mobile-applications/developer-mode/constructor/README.md)
     * [Common Widget Settings](mobile-applications/developer-mode/constructor/common-widget-settings.md)
@@ -145,7 +144,7 @@
 
 * [Overview](blynk.edgent/overview.md)
 * [Installation](blynk.edgent/installation.md)
-* [!Main Operations](blynk.edgent/mainoperations.md)
+* [Main Operations](blynk.edgent/mainoperations.md)
 * [API](blynk.edgent/api/README.md)
   * [Configuration](blynk.edgent/api/configuration.md)
   * [Connection Management](blynk.edgent/api/connection-management.md)
@@ -169,8 +168,8 @@
 
 ---
 
-* [!Blynk comparison to Blynk 0.1](blynk-1.0-and-2.0-comparison/README.md)
-  * [!Migrate from 0.1 to Blynk](blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md)
+* [Blynk comparison to Blynk 0.1](blynk-1.0-and-2.0-comparison/README.md)
+  * [Migrate from 0.1 to Blynk](blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md)
 * [Glossary](glossary.md)
 * [Links](links.md)
 

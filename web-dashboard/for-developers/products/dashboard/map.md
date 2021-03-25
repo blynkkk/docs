@@ -1,4 +1,4 @@
-# !Map
+# Map
 
 Map widget displays different types of data linked to GPS Datastream
 

@@ -2,7 +2,7 @@
 description: Available to SuperAdmin only. Should it be visible here?
 ---
 
-# !Transfer Organization
+# Transfer Organization
 
 1. **Find** by _Search_ or _in the list_ the **Organization** you want to transfer
 2. Hover **Actions Menu** button in it's row

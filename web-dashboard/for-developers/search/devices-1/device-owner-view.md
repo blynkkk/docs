@@ -1,2 +1,2 @@
-# !Device Owner View
+# Device Owner View
 

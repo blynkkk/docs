@@ -4,7 +4,7 @@ description: >-
   information about it
 ---
 
-# !Locations
+# Locations
 
 ## Locations View
 

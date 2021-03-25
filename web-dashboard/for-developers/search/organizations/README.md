@@ -1,4 +1,4 @@
-# !Organizations View
+# Organizations View
 
 ## Search Organization
 

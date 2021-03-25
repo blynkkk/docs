@@ -2,7 +2,7 @@
 description: Hardware library
 ---
 
-# !Blynk.Edgent
+# Blynk.Edgent
 
 Download latest build: 
 

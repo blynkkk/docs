@@ -2,7 +2,7 @@
 description: Appstore and playmarket badges with links should be added here
 ---
 
-# !Apps for iOS and Android
+# Apps for iOS and Android
 
-Need nice image here + links
+Blynk.App iOS version is in the development now, Android app is in CLosed Beta state
 
