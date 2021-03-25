@@ -66,7 +66,7 @@ Devices view order can be sorted by any column exists:
 **Navigation:**
 
 * Click on **Device Name** – opens [Device View](device-view/):
-* Click on **Device Owner** – opens Device owner profile: 
+* Click on **Device Owner** – opens [Device Owner profile](device-owner-view.md): 
 * Click on **Organization Name** – opens device [Organization](../../organizations.md): 
 
 ## Actions
@@ -84,7 +84,7 @@ New Device modal window will open:
 
 _**Done!**_  
 All the settings with their default values will be taken from [Template](../../products/).  
-[Device View](device-view/) will open.
+[Device View](device-view/) will be opened.
 
 ### Single actions \(hover to the right of each row\):
 
