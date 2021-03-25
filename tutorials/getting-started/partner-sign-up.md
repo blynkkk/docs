@@ -1,4 +1,4 @@
-# !Partner Sign Up
+# Partner Sign Up
 
 This is a separate flow ****used to register company partners: Distributors, Retailers, Contractors, etc who will get access to special app functions.
 

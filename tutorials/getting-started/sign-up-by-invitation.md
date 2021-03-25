@@ -1,2 +1,2 @@
-# !Sign Up by invitation
+# Sign Up by invitation
 
