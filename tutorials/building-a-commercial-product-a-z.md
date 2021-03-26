@@ -7,7 +7,8 @@ Please follow these steps to create your product [Template](https://docs.blynk.i
 
 ## [Sign Up](getting-started/sign-up.md)
 
-This is required to make you the product Template owner.
+This is required to make you the product Template owner.  
+Please mind that Templates are created in Blynk.360 generally and then are connected in Blynk.App
 
 ![](https://lh4.googleusercontent.com/6COCsKaE914ceV6v3Q3L3UI2rjcFHuVhUpzedKNyJKXOVedGb0z3kOAxuWOMg3NMeZkCt3f7UqQLwVpw_GZLoV9yRFYNyQVbpxKErTp-GWnOMxB-rYHrn59dC3VRxnqC3Gs5RIhH)
 
