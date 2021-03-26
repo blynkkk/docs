@@ -24,7 +24,7 @@
   * [Sign Up by invitation](tutorials/getting-started/sign-up-by-invitation.md)
   * [Partner Sign Up](tutorials/getting-started/partner-sign-up.md)
   * [Common Blynk.360 Navigation and Actions](tutorials/getting-started/common-navigation-and-actions-reference.md)
-* [Getting Started with the Product](tutorials/building-a-commercial-product-a-z.md)
+* [Getting Started: Product Template and Devices](tutorials/building-a-commercial-product-a-z.md)
 * [Using Virtual Pins to control physical devices](tutorials/using-virtual-pins-to-control-physical-devices.md)
 * [Connecting Arduino Devices](tutorials/connecting-arduino-devices.md)
 * [Notification management](tutorials/notification-management.md)

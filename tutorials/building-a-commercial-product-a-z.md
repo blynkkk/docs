@@ -1,4 +1,4 @@
-# Getting Started with the Product
+# Getting Started: Product Template and Devices
 
 [Product ](../glossary.md#p)is a complex solution consisting of various functions that need to be configured.  
 [Blynk.360](../web-dashboard/for-developers/) allows you to create a digital model of your product for web and mobile platforms.
