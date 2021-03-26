@@ -20,6 +20,14 @@ Map widget displays different types of data linked to GPS Datastream, e.g. speed
 
 ## Callout
 
+![](../../../../.gitbook/assets/callout.png)
+
+Callout is used to view specified Datastreams' value that was actual at the place and time selected by user in Map Widget.
+
+* **Add Value** – click this button to search and select for any Datastream you want to show in Callout window.
+* **Move** – hover on the previosly added Datastream panel for action buttons to appear. Hold Move button and change the position of Callout Value, release mouse button, repeat with other panels once you find it fine.
+* **Delete** – hover on the previosly added Datastream panel for action buttons to appear. Click Delete button \(no confirmation is applied here\)
+
 ## Track Overlays
 
 ## Misc
