@@ -47,11 +47,11 @@ This is required to make you the product Template owner.
 
 1. Open [Blynk.App](../mobile-applications/overview.md)
 2. Log In to your account
-3. Switch to [Constructor mode](../mobile-applications/developer-mode/constructor/) \[image\]
-4. Add a new Template \[image\]
-5. Link it to your product \[image\]
-6. Add the widgets you need and assign them datastreams \[image\]
-7. Publish the changes \[image\]
+3. Switch to [Constructor mode](../mobile-applications/developer-mode/constructor/)
+4. Add a new Template 
+5. Link it to your product 
+6. Add the widgets you need and assign them Datastreams
+7. Publish the changes 
 
 ## Configure your board:
 
