@@ -19,7 +19,7 @@
 
 ## Tutorials
 
-* [Getting Started: Sign Up and Navigation](tutorials/getting-started/README.md)
+* [Getting Started: Sign Up and Blynk.360 Navigation](tutorials/getting-started/README.md)
   * [Sign Up](tutorials/getting-started/sign-up.md)
   * [Sign Up by invitation](tutorials/getting-started/sign-up-by-invitation.md)
   * [Partner Sign Up](tutorials/getting-started/partner-sign-up.md)

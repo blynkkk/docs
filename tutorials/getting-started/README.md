@@ -1,2 +1,2 @@
-# Getting Started: Sign Up and Navigation
+# Getting Started: Sign Up and Blynk.360 Navigation
 

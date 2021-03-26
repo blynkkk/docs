@@ -47,7 +47,7 @@ This is required to make you the product Template owner.
 
 1. Open [Blynk.App](../mobile-applications/overview.md)
 2. Log In to your account
-3. Switch to [Constructor mode](../mobile-applications/developer-mode/constructor/)
+3. Switch to [Developer Mode](../mobile-applications/developer-mode/)
 4. Add a new Template 
 5. Link it to your product 
 6. Add the widgets you need and assign them Datastreams
@@ -61,6 +61,6 @@ This is required to make you the product Template owner.
 
 ### Congratulations, you have configured your product and it is ready to use!
 
-Now all that remains is to add your test board using Blynk.App, make sure it works as you expect, and integrate your code.  
+Now all that remains is to add your test board using Blynk.App, [Add Device](../mobile-applications/device-management/add-new-device.md) and make sure it works as you expect, and integrate your code.  
 ****
 
