@@ -8,20 +8,28 @@ Select or adjust Time Period using the switches on top of the tab.
 
 6 widget types can be met in this tab \(depends on what's set up by Template owner\):
 
-**Slider** – allows to view and send values to Virtual Pin of the selected Device. Usage examples: volume, brightness, RPM, flap position control, etc.. Move slider **handle** or fine control steps **+** and **–** buttons \(optional\) to set the value.   
+## **Slider**
+
+Slider ****allows to view and send values to Virtual Pin of the selected Device. Usage examples: volume, brightness, RPM, flap position control, etc.. Move slider **handle** or fine control steps **+** and **–** buttons \(optional\) to set the value.   
 Please keep in mind that different step ammounts can be set to handler and buttons.
 
 ![Slider widget example](../../../../../.gitbook/assets/slider.gif)
 
-**Switch** – allows to send commands and view binary statuses of the device, such as power/option ON/OFF
+## Switch
+
+The simpliest widget used to send commands and view binary statuses of the device, such as power/option ON/OFF
 
 ![Switch widget example](../../../../../.gitbook/assets/switch.gif)
 
-**Label** – shows value of Virtual Pin e.g. length/distance, mass, duration, volume, temperature and other data types including strings.Also it can show level/progress bar \(horizontal or vertical\) and/or have widget colors changes based on getting different predefined values.
+## **Label**
+
+This widget displays value of Virtual Pin e.g. length/distance, mass, duration, volume, temperature and other data types including strings.Also it can show level/progress bar \(horizontal or vertical\) and/or have widget colors changes based on getting different predefined values.
 
 ![](../../../../../.gitbook/assets/label.png)
 
-**Chart** – it's used to visualise live and historical data. You can use it for sensor data, for binary event logging and more. Chart display can be of 4 types: _Line, Area, Column, Stepline_
+## **Chart**
+
+It's used to visualise live and historical data. You can use it for sensor data, for binary event logging and more. Chart display can be of 4 types: _Line, Area, Column, Stepline_
 
 General chart properties:
 
@@ -33,7 +41,9 @@ General chart properties:
 
 ![Area chart widget example](../../../../../.gitbook/assets/chart1.gif)
 
-**Map** – this widget displays device locations/route and data sets \(predefined by Template owner\) that are assigned to GPS data.
+## **Map**
+
+**T**his widget displays device locations/route and data sets \(predefined by Template owner\) that are assigned to GPS data.
 
 ![Map widget example](../../../../../.gitbook/assets/map_widget.png)
 
@@ -53,6 +63,5 @@ General chart properties:
 Now you can see all the data that was actual while the device was on the selected location.  
 It always starts with Date and Time in the first line, Location Longtitude and Latitude in second line and all other data in further lines.
 
-**Modules**  
-
+## **Modules** 
 
