@@ -50,7 +50,7 @@ Please mind that Templates are created in Blynk.360 generally and then are conne
 2. Log In to your account
 3. Switch to [Developer Mode](../mobile-applications/developer-mode/)
 4. Add a new Template 
-5. Link it to your product 
+5. Link it to your Product 
 6. Add the widgets you need and assign them Datastreams
 7. Publish the changes 
 
@@ -60,8 +60,8 @@ Please mind that Templates are created in Blynk.360 generally and then are conne
 2. Specify [TMPLID](https://docs.blynk.io/en/web-dashboard/for-developers/products/info/template-ids), [SSID WiFi](../web-dashboard/for-developers/products/info/hotspot-prefix.md) and Board Name in the [sketch](connecting-arduino-devices.md)
 3. Flash this template to your board
 
-### Congratulations, you have configured your product and it is ready to use!
+### Congratulations, you have configured your Product and it is ready to use!
 
-Now all that remains is to add your test board using Blynk.App, [Add Device](../mobile-applications/device-management/add-new-device.md) and make sure it works as you expect, and integrate your code.  
+Now all that remains is to [add your test board using Blynk.App](../mobile-applications/device-management/add-new-device.md), make sure it works as you expect, and integrate your code.  
 ****
 
