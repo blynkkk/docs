@@ -1,10 +1,22 @@
 # Map
 
-Map widget displays different types of data linked to GPS Datastream
-
-Currently in development. Will be availbale soon.
+Map widget displays different types of data linked to GPS Datastream, e.g. speed, fuel/charge level, temperature, vehicle load, number of passengers, direction, etc..
 
 ## Map and GPS track
+
+![](../../../../.gitbook/assets/map-track.png)
+
+* **Show loaction track** – enable it to view the whole route. Otherwise only track points and direction will be displayed. **Color** and **line thickness pickers** are available for the Track.
+* **Disconnect track points period** – enable it in case you need to split the track if timestamp delta between 2 points is higher than specified value.
+* **Show direction** – enabling this option will show the arrows on the Track to ease the understanding of it's direction.
+* Map Style – select the one you find the best for your purposes. 7 styles are available now:
+  * Streets
+  * Outdoors
+  * Light
+  * Dark
+  * Satellite
+  * Satellite+Streets
+  * Blynk Light
 
 ## Callout
 
