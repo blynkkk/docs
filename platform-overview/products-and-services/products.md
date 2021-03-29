@@ -24,7 +24,7 @@ Full documentation on Blynk.360 is [here](../../web-dashboard/for-developers/)
 
 Blynk.app is a white-label solution. 
 
-Full documentation on Blynk.App is [here](https://app.gitbook.com/@blynk-iot/s/en/~/drafts/-MU9JY79Bpp1mqdyTvxu/mobile-applications/overview)
+Full documentation on Blynk.App is [here](../../mobile-applications/overview.md)
 
 ## Blynk.Edgent
 
@@ -40,7 +40,7 @@ Main functions of Blynk.Edgent are:
 4. API to work with specific Blynk.app and Blynk.cloud features
 5. Over-the-air firmware updates \(for selected hardware models\)
 
-Full documentation on Blynk.Edgent is [here](https://app.gitbook.com/@blynk-iot/s/en/~/drafts/-MU9JY79Bpp1mqdyTvxu/blynk.edgent/overview)
+Full documentation on Blynk.Edgent is [here](../../blynk.edgent/overview.md)
 
 
 
