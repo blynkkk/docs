@@ -10,7 +10,7 @@
 2. Management of devices, their data, users, organizations and locations 
 3. Remote monitoring and control of devices
 
-Full documentation on Blynk.360 is [here](https://app.gitbook.com/@blynk-iot/s/en/~/drafts/-MU9JY79Bpp1mqdyTvxu/web-dashboard/for-developers)
+Full documentation on Blynk.360 is [here](../../web-dashboard/for-developers/)
 
 ## Blynk.App
 
