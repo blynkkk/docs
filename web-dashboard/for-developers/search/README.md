@@ -1,3 +1,7 @@
+---
+description: 'Navigate through Devices, Locations, Organizations and users in one place.'
+---
+
 # Search
 
 Here you can perform quick or manual search of [devices](devices-1/), [locations](locations.md), [organizations ](organizations/)and [users ](users/)you have access to by different criterias according to filtering options you select.

@@ -1,3 +1,7 @@
+---
+description: Set up and edit Blynk.360 properties
+---
+
 # Settings
 
 {% page-ref page="organization-settings/" %}
