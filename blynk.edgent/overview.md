@@ -16,7 +16,7 @@ Blynk.Edgent is a lightweight library that runs on the hardware device.
 
 **Installation**
 
-![\(change to 2.0, add link to the library\)](../.gitbook/assets/download_blynk_lib.png)
+\*\*\*\*[Download latest Blynk Library](https://github.com/blynkkk/blynk-library/releases/tag/v1.0.0-beta.1)
 
 In case you forgot, or don’t know how to install Arduino libraries [click here](http://www.arduino.cc/en/guide/libraries).
 
