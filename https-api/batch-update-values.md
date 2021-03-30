@@ -13,7 +13,7 @@ Batch update
 
 {% api-method-description %}
 **Example:**  
-`https://blynk.cloud/external/api/update?token=bFFtSHNCZZDWQ__Zs96cP5jLMhLoJofg&pin=v0&value=33.00&value=44.00`
+`https://blynk.cloud/external/api/update?token=bFFtSHNCZZDWQ__Zs96cP5jLMhLoJofg&v1=33&v2=44`
 {% endapi-method-description %}
 
 {% api-method-spec %}
