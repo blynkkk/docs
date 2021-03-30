@@ -8,7 +8,7 @@ description: needs updates
 
 #### Static Provision
 
-Install the 1.0.0 beta3 library and use the ESP32 WiFi example.
+Install the [1.0.0 beta3 library](https://github.com/blynkkk/blynk-library/releases/tag/v1.0.0-beta.1) and use the ESP32 WiFi example.
 
 In Blynk.360, add a template that's based on an ESP32 board, then create a device based on that template.  
 The Template screen will give you two lines of firmware configuration, copy these and add them at the very beginning of your sketch.  
