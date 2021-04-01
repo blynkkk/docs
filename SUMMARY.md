@@ -28,6 +28,7 @@
 * [Getting Started: Connecting Arduino Devices](tutorials/connecting-arduino-devices.md)
 * [Using Virtual Pins to control physical devices](tutorials/using-virtual-pins-to-control-physical-devices.md)
 * [Notification management](tutorials/notification-management.md)
+* [Content Events testing](tutorials/content-events-testing.md)
 * [Updating Devices' Firmwares OTA](tutorials/updating-devices-firmwares-ota.md)
 * [ODBC DB copy](tutorials/odbc-db-copy.md)
 
