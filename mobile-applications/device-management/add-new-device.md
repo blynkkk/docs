@@ -20,13 +20,17 @@ Make sure your device is powered on and waiting for connection. Tap **Ready:**
 
 **iOS device connection:**
 
+Once the **Ready:** button is hit, the application tries to automatically connect to the device AP based on the predefined hotspot prefix - **Blynk:**. If connection is successful, the app goes straight to the **Connect your device** step. If unsuccessful (could be many reasons), the app presents with the instructions to go to system settings and connect to the device manually:
+
 * tap **Go to Settings;**
 * select your Device in Wi-Fi settings;
-* **allow** +more application to search and connect devices in your network;
+* **allow** Blynk application to search and connect devices in your network;
 * tap **Already connected;**
 * proceed with common add device ****flow  ****![](https://lh3.googleusercontent.com/rEpK9V1TMbuHGJnyj39UNMeO4dZpt3jLC30-1MmDysiWsa2uh4p02bkKLSyKBznxFyBjNbYvCfQPCeBXak67IO1OUIBMrXEzqZxmLvhevu2dQ3_zGYd0nLVwHCL52PGmYJDHazXD)![](https://lh4.googleusercontent.com/LxaOFcRX6p74lmu01GH8hnwCogmZ0keNC6_qBm0pwg9pcd2_Bkv_tyx9rls6icRPa64g6-JaeSCTXCt_vvgjpeQg4cIMFbEf46AsZNQRoFxo8d6x3NmB3Ngsgq3NUsa6OXggZELV)![](https://lh5.googleusercontent.com/YxysEYHujeWA5Q0J8ffqmRPqv1qBxVLkaBUjQHONOJmjZzb2NFdyFZIL9AnzI7zWF_2_P1sNxcVPYsgtVZbXWrzsSisuBlX-cZywYwryP48g-xm88MK_AHEGJUbWca40Dr-DUdSg)![](https://lh6.googleusercontent.com/gESqU8Eeoy6jbCATI8xUBqZ-FxigcB7KkEmU6di8clP-lj-bGiPBO_vhFm4rZGBRxdBcT1YaxBZ99UYHUwAQQ_6Innq7237ulY2A8qOHFo2hnzM5oMOZVw2m65LvlAMpija4JWeE)  ****
 
 ### **Connect your device**
+
+Once the app is connected to the device, the next step is to send to the device the wifi credentials for it to use.
 
 * Tap **Choose Wi-Fi network field** and select the network your mobile device is connected to;
 * type selected Wi-Fi password; 
@@ -44,7 +48,7 @@ Your smartphone will connect to the device and transfer the credentials, consequ
 
 ### **Device profile**
 
-Once your device is successfully connected to the internet and the cloud, you can rename it to differentiate from the other. Tap **Continue/done.**  
+Once your device is successfully connected to the internet and the cloud, you can rename it to differentiate from the others. Tap **Continue/done.**  
 
 
 ![](https://lh5.googleusercontent.com/heKdia12UOAlRulcKpbqO3PJlEb1hbPs8lW5eTeArlLgFN1HE9eLRMaZRdiZo-jad0fQXcB4lWjal_2OtiWaXgFcsBlNHmchMEsLNybDKg4tiM6HBhJ4quUxIuyOWTPSy07Xp1Dy)![](https://lh4.googleusercontent.com/9HZVJtcL4ygsihXnXQKGtM6N2HlDtZ4QJDLnZ4KV9hDhkLykYUTSflhs2YM5Kt1EQmW0MKp5cAFr191dRn0hJyBPMrtxHaTKkRVyUHxFMGjuR6pz7_RCRivg6vFPJUmylMBO8RV3)  
