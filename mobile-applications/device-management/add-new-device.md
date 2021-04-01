@@ -20,22 +20,23 @@ Make sure your device is powered on and waiting for connection. Tap **Ready:**
 
 **iOS device connection:**
 
-Once the **Ready:** button is hit, the application tries to automatically connect to the device AP based on the predefined hotspot prefix - **Blynk:**. If connection is successful, the app goes straight to the **Connect your device** step. If unsuccessful (could be many reasons), the app presents with the instructions to go to system settings and connect to the device manually:
+Once the **Ready** button is hit, the application tries to automatically connect to the device AP based on its hotspot prefix - **Blynk**. If connection is successful, the app goes straight to the **Connect your device** step. If unsuccessful (e.g. because the device has different hotspot prefix), the app presents with the instructions to go to the system settings and connect to the device manually:
 
 * tap **Go to Settings;**
-* select your Device in Wi-Fi settings;
-* **allow** Blynk application to search and connect devices in your network;
+* select your Device in Wi-Fi settings
+* return back to the Blynk application
 * tap **Already connected;**
+* if asked, **allow** Blynk application to connect to devices in your local network;
 * proceed with common add device ****flow  ****![](https://lh3.googleusercontent.com/rEpK9V1TMbuHGJnyj39UNMeO4dZpt3jLC30-1MmDysiWsa2uh4p02bkKLSyKBznxFyBjNbYvCfQPCeBXak67IO1OUIBMrXEzqZxmLvhevu2dQ3_zGYd0nLVwHCL52PGmYJDHazXD)![](https://lh4.googleusercontent.com/LxaOFcRX6p74lmu01GH8hnwCogmZ0keNC6_qBm0pwg9pcd2_Bkv_tyx9rls6icRPa64g6-JaeSCTXCt_vvgjpeQg4cIMFbEf46AsZNQRoFxo8d6x3NmB3Ngsgq3NUsa6OXggZELV)![](https://lh5.googleusercontent.com/YxysEYHujeWA5Q0J8ffqmRPqv1qBxVLkaBUjQHONOJmjZzb2NFdyFZIL9AnzI7zWF_2_P1sNxcVPYsgtVZbXWrzsSisuBlX-cZywYwryP48g-xm88MK_AHEGJUbWca40Dr-DUdSg)![](https://lh6.googleusercontent.com/gESqU8Eeoy6jbCATI8xUBqZ-FxigcB7KkEmU6di8clP-lj-bGiPBO_vhFm4rZGBRxdBcT1YaxBZ99UYHUwAQQ_6Innq7237ulY2A8qOHFo2hnzM5oMOZVw2m65LvlAMpija4JWeE)  ****
 
 ### **Connect your device**
 
 Once the app is connected to the device, the next step is to send to the device the wifi credentials for it to use.
 
-* Tap **Choose Wi-Fi network field** and select the network your mobile device is connected to;
+* tap **Choose Wi-Fi network** and select the network your mobile device is connected to;
 * type selected Wi-Fi password; 
 * there's an option to **Remember this network** f**or other devices** – enabling it helps to save time if you need to add many devices. 
-* Tap **Continue.**
+* tap **Continue.**
 
 ![](https://lh5.googleusercontent.com/SIzZchzVv2jc-_ykx9OOR0i19Nl0NRG-Ktr3-tvnVLhNLAqRyckmYLzETMmuyDgduIp1UO6wqK-LT7j2MGvtwPbl1f7YtGNlRbVsRIEWbFzw3n9gn52NQ3WLjCGVDnnCjgmuiC-b)![](https://lh6.googleusercontent.com/m2xjoFZPaNMNabYP-sABu9PTwzttpJUjgN5FHyuaoHWT2cnRW7yo74bKLNi_VlEAlt-kl0gOA2JfwNDsG2md1ddONjyQwXhGbxEJPJJ9NwESAItZP_2X-iSCvU1qI4P4KK5j2ZBq)  
   
