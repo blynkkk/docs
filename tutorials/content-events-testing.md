@@ -24,13 +24,13 @@ Events content can be created by the user with the permissions of the Super admi
    4. **Description** – event's reason and/or purpose, other information 
    5. **Action Title** – description or appeal \(e.g. “Get update”, “Proceed to the shop”\) to Action Link
    6. **Action Link** – URL to new library, firmware, application version, your/partner's website, etc.
-9. **Apply Tag** options – enable to
+9. **Apply Tag** – enable for the Device to be tagged when this Event is recorded. The tag can’t be removed manually. When event is resolved, the tag will be removed automatically.
 10. Switch to Notifications tab 
-11. Enable Notifications 
+11. Enable Notifications – lets you set notifications about events occured to Devices so you get them via SMS, Push or E-mail 
 12. Select the type of notification \(email, push, sms\) and recipients
 13. Set [Notifications Limit](../web-dashboard/for-developers/products/events/notification-limit.md) if necessary and turn on [Notifications management](notification-management.md)
 14. Click **Create** button 
-15. **Save** Template 
+15. **Save** Template
 
 ## **Send API request**
 
@@ -52,26 +52,20 @@ Tap keyboard **Enter**
 
 **Web application**
 
-Go to the device which token you've specified in the request,
+1. Navigate to the Device which token you've specified in the request,
+2. switch to Timeline tab 
+3. specify the time period you want to view and select the Content type of event 
+4. click Action Link 
 
-Switch to Timeline tab 
-
-Specify the time period you want to view and select the Content type of event 
-
-Follow this link 
-
-And you will see all the content of this notification 
+You will see all the content of this notification 
 
 **Mobile app:**
 
-Sign in to the mobile app
+1. Sign in to Blynk.App
+2. Go to the Alerts tab \(29\)
+3. Follow this link \(30\)
 
-Go to the Alerts tab \(29\)
+You will see all the content of this notification
 
-Follow this link \(30\)
+### **Check for the Tag to be applied**
 
-And you will see all the content of this notification \(31\)
-
-**Check for the Tag to be applied**
-
-1. 2. 
