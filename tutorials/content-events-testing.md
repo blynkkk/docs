@@ -67,5 +67,3 @@ You will see all the content of this notification
 
 You will see all the content of this notification
 
-### **Check for the Tag to be applied**
-
