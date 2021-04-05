@@ -18,7 +18,7 @@ Blynk has 3 roles that can have different permissions sets:
 
 * **Admin** – supposed to have maximum permissions set
 * **Staff** – we recommend to set up and use this role for user support processes such as handling user invitation, device check and debug, view and assist users' organizations
-* **Users** – supposed to have least permissions set that is focued mostly on managing user's own devices.
+* **Users** – supposed to have least permissions set that is focused mostly on managing user's own devices.
 
 ### Actions
 
@@ -30,7 +30,7 @@ Blynk has 3 roles that can have different permissions sets:
 
 #### Permissions Control
 
-* View rolls and permissions
+* View roles and permissions
 * Create new roles
 * Edit roles
 * Delete roles
