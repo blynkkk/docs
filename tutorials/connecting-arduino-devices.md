@@ -12,8 +12,10 @@ This new Blynk feature allows configuring the wifi settings via the app without 
   
 Here’s the quickstart guide on this process:
 
-1. Download the latest Blynk.Edgent library as zip file.
-2. Open Arduino IDE
+#### Sketch setup
+
+1. Download [the latest Blynk.Edgent library](https://github.com/blynkkk/blynk-library/releases/tag/v1.0.0-beta.1) as zip file.
+2. Open [Arduino IDE](https://www.arduino.cc/en/guide/windows)
 3. Navigate to Sketch - &gt; Include Library 
 4. Select Add .ZIP library
 
@@ -25,12 +27,12 @@ Here’s the quickstart guide on this process:
 7. Select Blynk.Edgent -&gt; Edgent\_ESP32
 
 Initially it should look like this.   
-Note the section marked with the red rectangle, these variables are empty now but they should be replaced with the ones from your template.
+_**Note:**_ the section marked with the red rectangle, these variables are empty now but they should be replaced with the ones from your template.
 
 ![](https://lh6.googleusercontent.com/0Zx4V87T_YZ8upPUktQLuN8gIV3Tnkaf9N_NYOwtkmG1dMxWsSC_iyXuu4w-MvGsgVU_Tm8b1yzS67BXqw2xc3kw6RC6pyfCdw5XYvC7yBU0JML5v-H6rVvE3XG5EqSik1i1_MML)
 
 8. Log in to Blynk.360  
-9. Create New template or open existing one.  
+9. [Create New Template](building-a-commercial-product-a-z.md#create-a-template) or open existing one.  
 10. Copy the configuration strings  
 ![](https://lh6.googleusercontent.com/x2ZHNOv1TA7jPkQtujqBWmn3_mtQr5yxkgZ-0JZF7T7pIndKZHTu0glkkblS3sEd4XV1KAo0ZaljY3dm73AA8aKghwdALd7rKiELWm3v0xjoCJ1Li6wjzsoOP_oCjMBysQ31QBNp)  
 11. Replace them in your sketch so it would look like this  
@@ -43,25 +45,23 @@ Connect your device, and press Upload
 If the upload process wend successfully you should see something like this in the serial monitor  
   
 ![](https://lh6.googleusercontent.com/ke-UDlKRqfsgiak0aMEEHVbEU-cAmShbXLAMOS1LEd4_Kd1tktKFw2SajHnWul_b9jT3si85XchMheZlMWy931lPBKUvgw_daFkiYuUVBfVQM9VKePbryxwbD9hvnH4t5lZ2AzFo)  
-  
-Now open Blynk app 
-
-click Add new device
-
-Select the SSID of the ESP32, in this case it is Blynk Root Template-FAD8F  
 
 
-App will start the dynamic provision process
+#### [Add Device](../mobile-applications/device-management/add-new-device.md)
 
-After that you should see your device connected
+1. Open Blynk.App 
+2. Tap Add New Device
+3. Select the SSID of the ESP32, in this case it is Blynk Root Template-FAD8F
+4. App will start the dynamic provision process
+
+After that you should see your device connected:
 
 ![](https://lh4.googleusercontent.com/Dofpg_nuepVAkVObVJcXsWC0Z9QShoVWHPGgYv8a_WZ9RMD-2G_zAwKHDk6ddp1lrf2KIHNrGCsgJ6Vu0x4UiKZCHgwsv1GUAu9_v819oItUP3vPo_iIVwNveTh3UI_fD6mCOi2B)
 
-That’s it! Now the device is configured to use the WiFi network.  
-You can check that the device successfully received the auth token from the app in the serial monitor output  
-  
-![](https://lh4.googleusercontent.com/P1WcVsuVbygCW8kSggfYwOKf55a1vVDk4KcCYevGbFPhFXGRI7r5s7_B7z2qKCzfLZudWU0nj6NKPkLMBO1Zodc7X8a54z3M51VLHo65pEfFlP93mCKxgJjaa5maOAKWg6HPZ7zv)  
+_**That’s it! Now the device is configured to use the WiFi network.**_  
+You can check that the device successfully received the auth token from the app in the serial monitor output:
 
+![](https://lh4.googleusercontent.com/P1WcVsuVbygCW8kSggfYwOKf55a1vVDk4KcCYevGbFPhFXGRI7r5s7_B7z2qKCzfLZudWU0nj6NKPkLMBO1Zodc7X8a54z3M51VLHo65pEfFlP93mCKxgJjaa5maOAKWg6HPZ7zv)
 
 
 
