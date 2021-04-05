@@ -34,7 +34,7 @@ Tags can be found by _Tag Name_, or _Owner name_ – type at least 1 character t
 
 ## Actions
 
-* **Hover on Owner**'s name to view his/her Email – hint will appear, click **Copy** pictogram to to put it to your clipboard
+* **Hover on Owner**'s name to view his/her Email – hint will appear, click **Copy** pictogram to put it to your clipboard
 * **Actions menu:**
   * **Edit** \(also can be accessed by click on row area\) – opens _Tag Еdit modal window_
   * **Delete** – opens Delete confirmation small modal window
