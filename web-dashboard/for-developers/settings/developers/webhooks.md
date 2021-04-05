@@ -17,7 +17,7 @@
 * **Click on row area** – opens Webhook view screen
 * **Actions Menu**
   * **Edit** – \(also available from Webhook view screen\)
-  * **Test** – triggers test execution with success/error return from the server on the top of the screen \(this execution is not saved to Webhook  Log\)
+  * **Test** – triggers test execution with success/error return from the server on the top of the screen \(this execution is not saved to Webhook Log\)
   * **Disable** – turns off the execution of the webhook without deleting it
   * **Delete** – opens delete modal window. Follow the steps described there 
 
@@ -90,7 +90,7 @@ Once the Webhook is created you can view it's info by clicking it's row or name 
 
 ### Logs table
 
-This table stores and displays all trigger results that was caused by rel actions \(not test webhook runs\)  
+This table stores and displays all trigger results that were caused by real actions \(not test webhook runs\)  
 It can be sorted by switching Timeline tabs and each column value.
 
 ![](../../../../.gitbook/assets/webhook_log.png)
