@@ -71,7 +71,7 @@ Mark **Checkboxes** accordingly to your requirements.
 
 ## Preview
 
-That's what new users will see after click on Sign Up button on the welocme screen. There are 4 options:
+That's what new users will see after click on Sign Up button on the welcome screen. There are 4 options:
 
 ![Sign Up is closed. Invitations only.](../../../../.gitbook/assets/signup_default.png)
 
