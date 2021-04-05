@@ -95,7 +95,7 @@ Table contents and actions:
 * **Column headings**
 * **Table rows** – entity data display
 * Also, the table has the ability to sort and filter the elements of the table.
-  * **Sorting** – clicking the column heading you can sort the items in the table - !an example is needed
+  * **Sorting** – clicking the column heading you can sort the items in the table;
   * **Filtration –** click on the filter icon to filter the elements in the table by the specified parameter:
 
 ![Shipments table sorting and filtering](../../.gitbook/assets/shipments_table_sorting.gif)
@@ -112,7 +112,7 @@ Table contents and actions:
 
 ![Locations selection](../../.gitbook/assets/locations_select.gif)
 
-* **Switch to entity display**  – click on an element of the table to the display the entity  - !an example is needed
+* **Switch to entity display**  – click on an element of the table to the display the entity
 
 ![Swicth to device and back to table ](../../.gitbook/assets/switch_to_from-devices.gif)
 
