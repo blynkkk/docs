@@ -2,7 +2,7 @@
 
 This tab keeps occured events data that can be sorted by time limitation period and event type.
 
-![](../../../../../.gitbook/assets/device_timeline.png)
+![](../../../../../.gitbook/assets/events_timeline.png)
 
 ## Filters
 
