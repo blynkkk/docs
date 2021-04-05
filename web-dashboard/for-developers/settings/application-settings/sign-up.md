@@ -14,10 +14,9 @@ Sign Up screen is separated in two view parts: **Sign Up** settings on the right
 
 **Privacy Policy Link** – `https://` format link placeholder
 
-**Terms and Conditions Link** – __`https://` format link placeholder
+**Terms and Conditions Link** – \_\_`https://` format link placeholder
 
-**Contact Email** – placeholder for an Email of administrator or tech-support who handles user invitations  
-
+**Contact Email** – placeholder for an Email of administrator or tech-support who handles user invitations
 
 ### Client Sign Up
 
@@ -33,14 +32,12 @@ Mark **Checkboxes** accordingly to your requirements.
 
 ![Client Sign Up metadata collection options](../../../../.gitbook/assets/csu_options.png)
 
-#### Default Name for Client Organization 
+#### Default Name for Client Organization
 
 This selection defines what names should be generated for Clients Organizations.  
 Later they can be found as sub-organizations of Clients organization.
 
 ![](../../../../.gitbook/assets/defaultnameforclientorganization.png)
-
-
 
 ### Partner Sign Up
 

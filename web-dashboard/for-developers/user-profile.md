@@ -6,7 +6,7 @@ description: 'Here you can view, edit, delete data provided during Sign Up and S
 
 ![User Profile screen](../../.gitbook/assets/user_profile.png)
 
-## Basic view set 
+## Basic view set
 
 \(custom fields can be added to Sign Up by SuperAdmin\)
 
@@ -24,7 +24,7 @@ Hover Actions Menu near the Name to access following options.
 
 Click to open User Profile edit modal window
 
-![Edit User Profile modal window](../../.gitbook/assets/user_profile_edit%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
+![Edit User Profile modal window](../../.gitbook/assets/user_profile_edit%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
 **Name** – here you can edit user name displayed in Blynk Platform. Use only letters, hyphens, dots and spaces. 60 characters limit.
 
@@ -32,7 +32,7 @@ Click to open User Profile edit modal window
 
 **Phone Number** – international phone numbers format regexp is applied here. Country code can be found by selecting country flag from the dropdown list. Country flag change is autoapplied on number typing.
 
-### Reset Password 
+### Reset Password
 
 Click to open Reset Password modal window
 
@@ -60,16 +60,4 @@ _**Warning**_**:** All data associated with your account will be deleted permane
 
 Click to end the session.  
 You will be redirected to Sign In / Sign Up screen.
-
-
-
-
-
-
-
-
-
-
-
-
 

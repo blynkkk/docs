@@ -23,6 +23,7 @@ There are 4 types of events view:
 
 * Critical
 * Warning
+* Content
 * Resolved
 * All events
 

@@ -8,7 +8,7 @@ description: 'Here you can Invite, View, Edit, Transfer and Delete users.'
 
 ## Invite
 
-Invite button \(top right of the screen\) click opens Invite New User modal window. Fill all mandatory  fields to proceed with user invitation.
+Invite button \(top right of the screen\) click opens Invite New User modal window. Fill all mandatory fields to proceed with user invitation.
 
 * **Name** – Use only letters, hyphens, dots and spaces
 * **Email** – Email is required
@@ -16,14 +16,14 @@ Invite button \(top right of the screen\) click opens Invite New User modal wind
 * **Phone Number** \(optional\) – 15 digit international phone format for any country. There's a country code selector which can help in case you're not sure about the exact digits. Also it shows country flag after manual input.
 * **Assign to Location** \(optional\) – click + and select from the Locations available
 
-Click modal window Invite button to finish the process. An invitation mail will be sent to user's Email. 
+Click modal window Invite button to finish the process. An invitation mail will be sent to user's Email.
 
 ![Invite User Modal window](../../../../.gitbook/assets/invite_user.gif)
 
 ## Search
 
-You can search for a specific user by typing the part or the whole Name, Email,  Role or Location.  
-The result \(multiple results are possible\) will be given in the Users table. 
+You can search for a specific user by typing the part or the whole Name, Email, Role or Location.  
+The result \(multiple results are possible\) will be given in the Users table.
 
 ## Users table
 
@@ -51,7 +51,7 @@ Select desired option\(s\) from the menu appears on clicking filter icon and pre
 * **User email** – opens Email containing hint. Click on it to copy user's Email address
 * **User role** – click opens [Role Permissions list](../access.md) on the right part of the screen  
 
-The only **Bulk Action** available here is to Delete the users. 
+The only **Bulk Action** available here is to Delete the users.
 
 1. Select all users by marking **checkbox** in columns naming row or specify users selection by marking each user's checkbox.
 2. Once users selection is made **Delete** button appears on the top right of the screen.
@@ -74,22 +74,4 @@ The only **Bulk Action** available here is to Delete the users.
 * **Delete Account** – modal window will appear. Type DELETE and confirm the action are required.
 
 ![Delete User modal window](../../../../.gitbook/assets/delete_user_modal.gif)
-
-
-
-
-
-
-
-
-
-
-
-### 
-
-
-
-
-
-
 
