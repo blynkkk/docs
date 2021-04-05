@@ -10,5 +10,5 @@ description: >-
 Send coordinates \(longtitude, latitude\) in decimal degrees as two values of "double" variable type.   
 For example: \(50.4501, 30.5234\)
 
-![](../../../../.gitbook/assets/location_ds%20%281%29.png)
+![](../../../../.gitbook/assets/location.png)
 
