@@ -30,7 +30,7 @@ There are 4 specific columns:
 
 ## Actions
 
-* **Hover Client ID** or **Secret** to view it – hint will appear, click **Copy** pictogram to to put it to your clipboard
+* **Hover Client ID** or **Secret** to view it – hint will appear, click **Copy** pictogram to put it to your clipboard
 * **Actions Menu**
   * **Edit** – \(also can be accessed by click on row area\) opens _Token modal window_
   * **Delete** – opens delete modal window. Follow the steps described there.
