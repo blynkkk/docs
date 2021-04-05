@@ -11,7 +11,7 @@
 
 ## Edit a Template
 
-Click Product **tile** to view the Template.   
+Click Product **tile** to view the Template.  
 Here you can navigate through **tabs**. **Edit** and **Clone** options are available.
 
 ![](../../../.gitbook/assets/template_edit.gif)
@@ -37,12 +37,4 @@ Here you can navigate through **tabs**. **Edit** and **Clone** options are avail
 5. Click **Edit** 
 6. **Click tiles** to add/remove Templates. Active Templates are marked with green tick, disabled have tiles with reduced colors. 
 7. Once the changes are made click **Save**.
-
-
-
-
-
-
-
-
 

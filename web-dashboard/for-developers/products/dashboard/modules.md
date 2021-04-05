@@ -32,11 +32,10 @@ Module setup modal window is split to configuration part \(on the left\) and pre
 **Is Enabled Datastream** – turn on/off Datastream that makes all other Datastreams that are related to the Module visible in Display Data.   
 _Example_: your module is fan, it has datastream V0. Once you attach the fan to the socket V0 switches from 0 to 1 that enables all other datastreams values display, such as RPM, fan LED color, voltage, etc. 
 
-**Display Data** – 
+**Display Data** – setup Datastreams sets and their view for each Module you add.
 
-        **Add Datastream** – click to add and set up datastreams which values or states will be displayed
-
-        **View type** – 
+1. **Add Datastream** – click to add and set up Datastreams which values or states will be displayed
+2. **Set View Type** – define Datastreams values/status view by accessing dropdown menu on the right of the selected Datastream. _**Note**:_ type limitations can be applied in the list accordingly to the selected Datastrem properties
 
 ![](../../../../.gitbook/assets/module_view_types.png)
 
