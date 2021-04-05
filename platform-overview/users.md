@@ -11,7 +11,7 @@ Every registered user is always a part of an Organization, even if it's just a s
 By default, a first user in organization ****becomes a Developer
 
 {% hint style="info" %}
-Currently, only one one developer is allowed per Organization to avoid sync issues. This limit might be changed later.
+Currently, only one developer is allowed per Organization to avoid sync issues. This limit might be changed later.
 {% endhint %}
 
 \*\*\*\*
