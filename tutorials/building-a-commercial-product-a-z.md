@@ -22,25 +22,29 @@ Please mind that Templates are created in Blynk.360 generally and then are conne
 
 ![](https://lh5.googleusercontent.com/HsUTKiaQoHNkxKd7Bi9u0LhOPau987ATLF-2oYPJlwQOfwz1tWH2cpI55dl5nhgyWEFZ-xP9FpKLt3WOutFuq5b5x1IFTeSgS059e37oJnvs8T9WKUvJDiRlM7egSZm0EkIldAnI)
 
-3. Provide basic [Information](https://docs.blynk.io/en/web-dashboard/for-developers/products/info) about the product you want to create:
+3. Provide basic information about your Product in Create New Template modal window
+
+![](../.gitbook/assets/create_new_template_modal.png)
+
+4. Provide basic [Information](https://docs.blynk.io/en/web-dashboard/for-developers/products/info) about the product you want to create:
 
 ![](https://lh3.googleusercontent.com/1iE8NoNVTJYhrB04e5ufTMNLoNy459h_5Ds0h6THt0IhIHsbTvcNujZKShuqTyKXVjHiX1uapd7Qbne09d6TGpi7CsLmqGk23uKSLcwtwJhdVaucfD2Ey678Xge4ksBzJeMjKHyP)
 
-4. Set up your product's [Metadata](https://docs.blynk.io/en/web-dashboard/for-developers/products/metadata) that will describe user's device or environment settings.
+5. Set up your product's [Metadata](https://docs.blynk.io/en/web-dashboard/for-developers/products/metadata) that will describe user's device or environment settings.
 
 ![](https://lh3.googleusercontent.com/q2tUJ1bbLclISMu2QRItpT3WVg1prd5RT6nECoeUymKW8MZVugC3jR4Mc8Hfg7Qmw_YYi2-7sWu29QI0nWDoi4YqCx110BAvXdQ_XEHIcyjQycGToMTWeSRUOJGhU_fxZB6ugsuT)
 
 
 
-5. Configure [Datastreams](../web-dashboard/for-developers/products/datastreams/) that you would like to use with your product Devices.
+6. Configure [Datastreams](../web-dashboard/for-developers/products/datastreams/) that you would like to use with your product Devices.
 
 ![](https://lh5.googleusercontent.com/V3BzYP__ze9sdfXMxFxhKUzky6DpYlc4cvb_sLrjMSmjTwSaTJA_0OxnBQ1aSABh6ITpZ37I6ABxPNaN0eJ2qFwU_kqd_K9jBonH9JuPNnOCK_BTVtjfunhod82vRwCJOSrfUThJ)
 
-6. Create [Events](https://docs.blynk.io/en/web-dashboard/for-developers/products/events) for your product if you want to monitor devices current status and inform about important events.
+7. Create [Events](https://docs.blynk.io/en/web-dashboard/for-developers/products/events) for your product if you want to monitor devices current status and inform about important events.
 
 ![](https://lh3.googleusercontent.com/MBvKHipg7K7Ee3Ashup4Ct7IfRYMQtKQ38qyGBA0mbStoCxzclQnFDk5NduRoLD6eBtak-0yO4PgWADIHL8wah_ScJKBHLAXGf_5UmPfkdO431mw0zctVko2HgaXTrPBlmwIrJRP)
 
-7. Set up [Dashboard](https://docs.blynk.io/en/web-dashboard/for-developers/products/dashboard) for your product that will ease your devices interaction for users
+8. Set up [Dashboard](https://docs.blynk.io/en/web-dashboard/for-developers/products/dashboard) for your product that will ease your devices interaction for users
 
 ![](https://lh3.googleusercontent.com/d1P5i2hHBaqWVwG5dx1ozOpajNagRFFt4nKR1KdtXTULRpdvcKJ-K2WzQ_iqbkcEuFjyo-9mZAQYAeYc-EovGluPXGPRYnMAZRf2xEfTfNKDc6tHCrUTfP7OSSVZjVcriuFa8cYu)
 
