@@ -12,7 +12,7 @@ description: 'Here you can view, edit, delete data provided during Sign Up and S
 
 * Name
 * Email
-* Phone Number \(field is hid if no information was provided\)
+* Phone Number \(field is hidden if no information was provided\)
 * Last Login 
 * Timezone \(this setting is defined by Organization's Timezone\)
 
