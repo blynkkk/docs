@@ -13,7 +13,7 @@ To add datastream to the selection list allow it to [save RAW data](../../../pro
 _Choose Datastreams_ you want to view \(**Clear selection** is supported by clicking this string\).  
 _Click on preview window_ or **Close** button of the datastreams selection area to open the chart window.  
 _Click_ **chart datastreams** button on top left to return to datastreams selection.  
-Aloso there's an option to view the chrt full screen – click **Chart Expand** button at top right.
+Also there's an option to view the chart full screen – click **Chart Expand** button at top right.
 
 ## Graphs window
 
