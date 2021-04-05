@@ -21,6 +21,8 @@ Check the Datastreams you want to use in modules to have Save raw data option en
 
 ![](../../../../.gitbook/assets/cpt2104051210-1143x899.gif)
 
+Module setup modal window is split to configuration part \(on the left\) and preview window \(on the right\).
+
 **Name** – widget's name. For example it can be "Socket A", "Dock 1", etc.
 
 **Add Module** – click this button to add modules. Once added you can move or delete them using appropriate buttons on the right to modules names and switch to configuring them with click on Settings button on the left to modules names.
@@ -35,6 +37,8 @@ _Example_: your module is fan, it has datastream V0. Once you attach the fan to 
         **Add Datastream** – click to add and set up datastreams which values or states will be displayed
 
         **View type** – 
+
+![](../../../../.gitbook/assets/module_view_types.png)
 
 **Modules Arrangement inside the Widget** – set vertical or horizontal order. Scrollbar will appear if there are a lot of modules.
 
