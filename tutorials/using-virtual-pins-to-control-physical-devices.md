@@ -150,7 +150,6 @@ When this button turns on/off all of the relays it also needs to update the 4 bu
 Here’s what the BLYNK\_WRITE\(V5\) function would look like to do this…
 
 ```text
-
 BLYNK_WRITE(V5) // Executes when the value of virtual pin 5 changes
 {
   if(param.asInt() == 1)
