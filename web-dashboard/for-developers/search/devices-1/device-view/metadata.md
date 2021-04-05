@@ -11,5 +11,3 @@ You can view and edit Device's Metadata that was provided during adding Device p
 
 Available Metadata entries can be managed in [Template's Metadata setup](../../../products/metadata/)
 
-
-

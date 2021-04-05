@@ -63,5 +63,16 @@ General chart properties:
 Now you can see all the data that was actual while the device was on the selected location.  
 It always starts with Date and Time in the first line, Location Longtitude and Latitude in second line and all other data in further lines.
 
-## **Modules** 
+## **Modules**
+
+This widget is extremely useful in cases your Product devices use detachable modules that can be attached accordingly to use conditions.  
+Each module has it's own tools, units, details that are represented by Datastreams sets configured under each module.  
+****Here you can view and edit values of Datastreams used in each Module.
+
+![](../../../../../.gitbook/assets/modules2.png)
+
+![](../../../../../.gitbook/assets/module.png)
+
+_Example:_   
+Your Product is a road cleaning machine and it has summer setup with fan and dry broom modules and winter setup with snow brush and dryer modules. Fan and dryer use socket A for connection, broom and brush use socket B. Each module has Datastream set to represent the connectivity such as V0 for fan and V1 for dryer. So in Display Data for socket A you can switch between Fan and Dryer by enabling and disabling those Datastreams. Once connectivity DS is set to ON all the other Datastreams of Module will be displayed in Socket A tab. 
 
