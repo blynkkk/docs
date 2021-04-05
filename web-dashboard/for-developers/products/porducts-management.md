@@ -5,7 +5,7 @@
 ## Create a Template
 
 1. Click **New Template** button to start configuring the Template
-2. Provide basic Template info in modal windoe opened
+2. Provide basic Template info in modal window opened
 3. Fill [Info](info/), [Metadata](metadata/), [Datastreams](datastreams/), [Events ](events/)and [Dashboard ](dashboard/)tabs contents 
 4. Click **Save** once you've finished the setup.
 
