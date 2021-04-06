@@ -6,7 +6,7 @@ Update Datastream value by Virtual Pin
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to update the value or the Virtual Pin  
+This endpoint allows you to update the value of the Virtual Datastream  
 **Example:**  
 `https://blynk.cloud/external/api/update?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&pin=v23&value=3.14`
 {% endapi-method-description %}
