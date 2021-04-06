@@ -10,7 +10,8 @@
   ```
 
   * `period` is `MONTH` by default, other possible values: `HOUR`, `DAY, WEEK, THREE_MONTHS`
-  * `granularityType` is `RAW_DATA` by default, other possible values: `MINUTE, HOURLY, DAILY`
+  * `granularityType` is `RAW_DATA` by default (is not supported for the `THREE_MONTHS` period),
+     other possible values: `MINUTE, HOURLY, DAILY`
   * `sourceType` is `AVG` by default, other possible values: `MIN, MAX, SUM, COUNT`
   * `tzName` is `UTC` by default
   * `format` is `TS` by default, other possible values:
