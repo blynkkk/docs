@@ -17,20 +17,22 @@
 * [Apps for iOS and Android](downloads/blynk-apps-for-ios-and-android.md)
 * [Blynk.Edgent](downloads/blynk.edgent.md)
 
-## Tutorials
+## Getting Started
 
-* [Getting Started: Sign Up and Blynk.360 Navigation](tutorials/getting-started/README.md)
-  * [Sign Up](tutorials/getting-started/sign-up.md)
-  * [Sign Up by invitation](tutorials/getting-started/sign-up-by-invitation.md)
-  * [Partner Sign Up](tutorials/getting-started/partner-sign-up.md)
-  * [Common Blynk.360 Navigation and Actions](tutorials/getting-started/common-navigation-and-actions-reference.md)
-* [Getting Started: Product Template and Devices](tutorials/building-a-commercial-product-a-z.md)
-* [Getting Started: Connecting Arduino Devices](tutorials/connecting-arduino-devices.md)
-* [Using Virtual Pins to control physical devices](tutorials/using-virtual-pins-to-control-physical-devices.md)
-* [Notification management](tutorials/notification-management.md)
-* [Content Events testing](tutorials/content-events-testing.md)
-* [Updating Devices' Firmwares OTA](tutorials/updating-devices-firmwares-ota.md)
-* [ODBC DB copy](tutorials/odbc-db-copy.md)
+* [Activating your devices](getting-started/connecting-arduino-devices/README.md)
+  * [WiFi provisioning](getting-started/connecting-arduino-devices/wifi-provisioning.md)
+  * [Static AuthToken](getting-started/connecting-arduino-devices/static-authtoken.md)
+* [Sign Up and Blynk.360 Navigation](getting-started/getting-started/README.md)
+  * [Sign Up](getting-started/getting-started/sign-up.md)
+  * [Sign Up by invitation](getting-started/getting-started/sign-up-by-invitation.md)
+  * [Partner Sign Up](getting-started/getting-started/partner-sign-up.md)
+  * [Common Blynk.360 Navigation and Actions](getting-started/getting-started/common-navigation-and-actions-reference.md)
+* [Getting Started: Product Template and Devices](getting-started/building-a-commercial-product-a-z.md)
+* [Using Virtual Pins to control physical devices](getting-started/using-virtual-pins-to-control-physical-devices.md)
+* [Notification management](getting-started/notification-management.md)
+* [Content Events testing](getting-started/content-events-testing.md)
+* [Updating Devices' Firmwares OTA](getting-started/updating-devices-firmwares-ota.md)
+* [ODBC DB copy](getting-started/odbc-db-copy.md)
 
 ## Blynk.360 <a id="web-dashboard"></a>
 

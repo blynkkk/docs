@@ -14,7 +14,7 @@ There are 3 segments \(left to right\):
 
 ## **Menu**
 
-Use it to navigate to the sections. It's available in anytime and almost anyplace of Web Dashboard. Read [this article](../../../tutorials/getting-started/common-navigation-and-actions-reference.md) to learn Blynk navigation and actions basics please.
+Use it to navigate to the sections. It's available in anytime and almost anyplace of Web Dashboard. Read [this article](../../../getting-started/getting-started/common-navigation-and-actions-reference.md) to learn Blynk navigation and actions basics please.
 
 ## **Sidebar**
 

@@ -103,7 +103,7 @@ All the settings with their default values will be taken from [Template](../../p
 ![](../../../../.gitbook/assets/transfer_device.png)
 
 * **Edit Product Dashboard** – redirects to [Template Dashboard](../../products/dashboard/) edit section \(Admin role required\)
-* **Notification settings** – opens quick setup drawer for [Notifications Management](../../../../tutorials/notification-management.md) 
+* **Notification settings** – opens quick setup drawer for [Notifications Management](../../../../getting-started/notification-management.md) 
 * **Erase data** \(critical action!\) ****– deletes of Device Data that was sent/received by Device and API.
 * **Delete Device owner** \(critical action!\) – unassignes Device from previous Device Owner.
 * **Delete Device** \(critical action!\) – deletes Device entry and all it's data.
