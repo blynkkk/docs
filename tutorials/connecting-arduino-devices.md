@@ -8,9 +8,9 @@ description: needs updates
 
 ### Dynamic provisioning
 
-This Blynk feature allows configuring the WiFi settings via the app, without need of flashing the auth token manually.  
+This Blynk feature allows configuring the WiFi settings via the app, without need of flashing the auth token manually. It's currently available for ESP8266 and ESP32 boards. If you'd like to connect any other devices, please use **Static Provisioning** \(see below\).  
   
-Here’s the QuickStart guide on this process:
+Here’s the QuickStart guide on Dynamic Provisioning process:
 
 #### Sketch setup
 
