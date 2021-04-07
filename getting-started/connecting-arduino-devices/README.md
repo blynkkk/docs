@@ -1,6 +1,6 @@
 # Activating your devices
 
-In order to become active in Blynk.Cloud and available for use, each device should have a unique AuthToken. AuthToken is the main identifier of the device in the Blynk Cloud. Depending on the hardware, connectivity, and the IoT use-case you are working on, a way of getting Auth Tokens for your  device can vary.
+In order to become active in Blynk.Cloud and available for use, each device should have a unique AuthToken. AuthToken is the main identifier of the device in the Blynk Cloud. Depending on the hardware, connectivity, and the IoT use-case you are working on, a way of getting Auth Tokens for your device can vary.
 
 Here are the two main ways of putting AuthTokens on your devices:
 
