@@ -143,6 +143,7 @@
 * [Developer Mode](mobile-applications/developer-mode/README.md)
   * [Constructor](mobile-applications/developer-mode/constructor/README.md)
     * [Common Widget Settings](mobile-applications/developer-mode/constructor/common-widget-settings.md)
+    * [Widgets](mobile-applications/developer-mode/constructor/widgets.md)
 
 ## Blynk.Edgent
 
