@@ -1,7 +1,3 @@
----
-description: needs updates
----
-
 # Getting Started: Connecting Arduino Devices
 
 ## Getting Started With Hardware
