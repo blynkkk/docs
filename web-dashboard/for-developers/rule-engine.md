@@ -5,7 +5,8 @@ description: Set up specific rules with JSON
 # Rule Engine
 
 Example:
-```
+
+```text
 {
   "id": 1,
   "name": "Greater than (> 10F)",
@@ -40,3 +41,4 @@ Example:
   "isInherited": true
 }
 ```
+

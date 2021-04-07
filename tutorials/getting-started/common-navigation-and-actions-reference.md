@@ -12,6 +12,7 @@ Menu sections:
 * Organization Logo \(can be changed in [Organization Settings](../../web-dashboard/for-developers/settings/organization-settings/general.md)\)
 * [Search](../../web-dashboard/for-developers/search/)
 * [Analytics](../../web-dashboard/for-developers/analytics.md)
+* [Orders](../../web-dashboard/for-developers/orders.md)
 * [Products / Templates](../../web-dashboard/for-developers/products/)
 * [Organization](../../web-dashboard/for-developers/organizations.md)
 * [Blynk.Air](../../web-dashboard/for-developers/blynk.air/)

@@ -27,7 +27,7 @@ Here you can select View Panel contents. Click section name row to switch View p
   * **My Locations** – view Locations created by your organization users
   * **All** – view all Locations available \(created by your organization and sub-organizations members\)
 * [Organizations](organizations/)
-  *  **My Organizations** – view all organizations you have access to
+  * **My Organizations** – view all organizations you have access to
   * No devices – view organizations \(you're allowed to access\) containing no devices 
   * No users – view organizations \(you're allowed to access\) containg no users
 * [Users](users/)
