@@ -4,7 +4,7 @@ description: Notifications settings
 
 # Settings
 
-Here you can enable or disable the following applicaation settings:
+Here you can enable or disable the following application settings:
 
 Notifications 
 
