@@ -1,6 +1,6 @@
 # 1. Enable Developer Mode
 
-As a Developer you're able to create Blynk.App Templates in [Constructor](constructor/) directly on your mobile device.
+As a Developer, you're able to create Blynk.App Templates in [Constructor](constructor/) directly on your mobile device.
 
 ## Enable the feature 
 
