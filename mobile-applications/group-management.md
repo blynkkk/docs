@@ -1,6 +1,6 @@
 # Group Management
 
-Several devices can be grouped to be controlled  simultaneously by single command.
+Several devices can be grouped to be controlled simultaneously by a single command.
 
 ![](../.gitbook/assets/no_groups.png)
 
