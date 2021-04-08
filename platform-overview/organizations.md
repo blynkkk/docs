@@ -6,7 +6,7 @@ On a high level, every Organization consists of:
 
 * Members \(users\)
 * Devices
-* [Locations](../web-dashboard/for-developers/products/datastreams/location.md) 
+* [Locations](../web-dashboard/products/datastreams/location.md) 
 * Sub-organizations 
 
 {% hint style="warning" %}

@@ -9,16 +9,16 @@ The **menu** is located on the left edge of the application and it's accessible 
 Clicking on a menu item will lead to a specific section of Blynk.360  
 Menu sections:
 
-* Organization Logo \(can be changed in [Organization Settings](../../web-dashboard/for-developers/settings/organization-settings/general.md)\)
-* [Search](../../web-dashboard/for-developers/search/)
-* [Analytics](../../web-dashboard/for-developers/analytics.md)
-* [Orders](../../web-dashboard/for-developers/orders.md)
-* [Products / Templates](../../web-dashboard/for-developers/products/)
-* [Organization](../../web-dashboard/for-developers/organizations.md)
-* [Blynk.Air](../../web-dashboard/for-developers/blynk.air/)
-* [Rule Engine](../../web-dashboard/for-developers/rule-engine.md)
-* [Settings](../../web-dashboard/for-developers/settings/)
-* [User Profile](../../web-dashboard/for-developers/user-profile.md)
+* Organization Logo \(can be changed in [Organization Settings](../../web-dashboard/settings/organization-settings/general.md)\)
+* [Search](../../web-dashboard/search/)
+* [Analytics](../../web-dashboard/analytics.md)
+* [Orders](../../web-dashboard/orders.md)
+* [Products / Templates](../../web-dashboard/products/)
+* [Organization](../../web-dashboard/organizations.md)
+* [Blynk.Air](../../web-dashboard/blynk.air/)
+* [Rule Engine](../../web-dashboard/rule-engine.md)
+* [Settings](../../web-dashboard/settings/)
+* [User Profile](../../web-dashboard/user-profile.md)
 
 **Note:** if some sections buttons are missing contact your Organization administrator.
 

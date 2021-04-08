@@ -33,7 +33,7 @@ To invite new member press **Invite New Member**
 
 ![](../../.gitbook/assets/invitation.png)
 
-Fill new members Email and name. Choose a role to see what [permissions](../../web-dashboard/for-developers/settings/access.md) new member will have, then tap **Invite** to confirm
+Fill new members Email and name. Choose a role to see what [permissions](../../web-dashboard/settings/access.md) new member will have, then tap **Invite** to confirm
 
 {% hint style="info" %}
 Blynk has 3 types of users roles that can have different permissions sets: 
