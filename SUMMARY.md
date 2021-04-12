@@ -30,7 +30,7 @@
 * [4. Build Dashboard UI](getting-started/4.-build-dashboard-ui.md)
 * [Sign Up and Blynk.360 Navigation](getting-started/getting-started/README.md)
   * [Sign Up](getting-started/getting-started/sign-up.md)
-  * [Sign Up by invitation](getting-started/getting-started/sign-up-by-invitation.md)
+  * [User Invitation](getting-started/getting-started/sign-up-by-invitation.md)
   * [Partner Sign Up](getting-started/getting-started/partner-sign-up.md)
   * [Common Blynk.360 Navigation and Actions](getting-started/getting-started/common-navigation-and-actions-reference.md)
 * [Using Virtual Pins to control physical devices](getting-started/using-virtual-pins-to-control-physical-devices.md)

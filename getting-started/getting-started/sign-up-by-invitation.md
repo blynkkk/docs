@@ -1,7 +1,13 @@
-# Sign Up by invitation
+---
+description: >-
+  In some cases, the Sign Up can be turned off for different reasons (for
+  example you want to control who is  getting registered). In those cases you
+  have to invite new users manually.
+---
 
-In some cases, the Sign Up can be turned off for different reasons \(for example you want to control who is  getting registered\)  
-In that case, you can invite new users manually. There are several places where you can invite new users:
+# User Invitation
+
+There are several places where you can invite new users:
 
 * Search - Users - **Invite New User**
 
@@ -11,7 +17,11 @@ In that case, you can invite new users manually. There are several places where 
 
 ![](../../.gitbook/assets/sosinv.png)
 
-* Organizations - &lt;Organization name&gt; tile - Users tab - **Invite**
+* Organizations - %Organization\_name% tile - Users tab - **Invite**
 
 ![](../../.gitbook/assets/orginv.png)
+
+* Blynk.App: Profile - %Organization\_name% - Members tab - **Invite new Member**
+
+![](../../.gitbook/assets/invite.gif)
 
