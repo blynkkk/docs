@@ -38,9 +38,9 @@ The event content can be sent using the API by placing a request in the browser 
 
 HTTPS API for Log event testing:
 
-`https://{server_address}/external/api/logEvent?{token}&code={event_name}`
+`https://{server_address}/external/api/logEvent?token={token}&code={event_name}`
 
-`https://{server_address}/external/api/logevent?{token}&code={event_name}&description={event_description}`
+`https://{server_address}/external/api/logevent?token={token}&code={event_name}&description={event_description}`
 
 Tap keyboard **Enter**
 
