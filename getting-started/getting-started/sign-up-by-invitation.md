@@ -7,6 +7,10 @@ description: >-
 
 # User Invitation
 
+{% hint style="info" %}
+Eligible access and permissions are needed to perform actions below.
+{% endhint %}
+
 There are several places where you can invite new users:
 
 * Search - Users - **Invite New User**
