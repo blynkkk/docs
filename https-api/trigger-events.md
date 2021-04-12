@@ -1,6 +1,6 @@
 # Log Event
 
-{% api-method method="get" host="https://blynk.cloud" path="/external/api/logEvent?token={token}&code={event\_name}&description={event\_desciption}" %}
+{% api-method method="post" host="https://blynk.cloud" path="/external/api/logEvent?token={token}&code={event\_name}&description={event\_desciption}" %}
 {% api-method-summary %}
 Trigger the event by event code
 {% endapi-method-summary %}
@@ -50,9 +50,12 @@ Could not find a device token
 
 
 
+
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+
 

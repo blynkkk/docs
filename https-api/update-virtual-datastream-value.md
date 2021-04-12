@@ -1,6 +1,6 @@
 # Update Virtual Datastream Value
 
-{% api-method method="get" host="https://{server\_address}" path="/external/api/update?token={token}&{pin}={value}" %}
+{% api-method method="put" host="https://{server\_address}" path="/external/api/update?token={token}&{pin}={value}" %}
 {% api-method-summary %}
 Update Datastream value by Virtual Pin
 {% endapi-method-summary %}
@@ -55,7 +55,7 @@ Could not find a device token
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{server\_address}" path="/external/api/update?token={token}&dataStreamId={id}&value={value}" %}
+{% api-method method="put" host="https://{server\_address}" path="/external/api/update?token={token}&dataStreamId={id}&value={value}" %}
 {% api-method-summary %}
 Update value by Datastream ID
 {% endapi-method-summary %}

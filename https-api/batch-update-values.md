@@ -6,7 +6,7 @@ description: >-
 
 # Batch Update Values
 
-{% api-method method="get" host="https://{server\_address}" path="/external/api/batch/update?token={token}&{pin1}={value1}&{pin2}={value2}" %}
+{% api-method method="put" host="https://{server\_address}" path="/external/api/batch/update?token={token}&{pin1}={value1}&{pin2}={value2}" %}
 {% api-method-summary %}
 Batch update
 {% endapi-method-summary %}
@@ -19,7 +19,7 @@ Batch update
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="token" type="string" required=false %}
+{% api-method-parameter name="token" type="string" required=true %}
 auth token of the device
 {% endapi-method-parameter %}
 
