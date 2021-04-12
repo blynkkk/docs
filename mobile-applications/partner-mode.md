@@ -21,5 +21,25 @@ Also this screen has **Awaiting Your Confirmation** section where you can see in
 
 ## Provide Partner access from the Client's side
 
+As an administrator of client organization you can request assistance from your partner company.
 
+1. Tap **Profile** pictogram
+2. Tap your **Organization name** to open Organization Setting screen
+3. Switch to **Contractor tab**
+4. Tap **Invite contractor**
+5. Type your Partner's E-mail
+6. Allow access to your organization by toggling the switch
+7. Allow controlling devices \(optionally\) – toggle if needed
+8. Set Access Period
+9. And confirm with tap on **Invite** button
+
+ 
+
+![](../.gitbook/assets/invite_partner.gif)
+
+Your Partner will receive an Email about your request and your card will appear in his Blynk.App Clients tab with "Pending Invitation" status. 
+
+{% hint style="info" %}
+You can recall the access anytime. 
+{% endhint %}
 
