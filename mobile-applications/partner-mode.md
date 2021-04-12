@@ -1,3 +1,7 @@
+---
+description: This mode comes in handy for interorganizational cooperation.
+---
+
 # Partner mode
 
 ## Partner access request
@@ -19,7 +23,7 @@ After the client is created an invitation Email will be sent and his/her card wi
 
 Also this screen has **Awaiting Your Confirmation** section where you can see invitations to join Client's Organizations. Once confirmed you can view and/or manage Clients' Devices accordingly to permissions Clients' have granted you .
 
-## Provide Partner access from the Client's side
+## Providing Partner access from the Client's side
 
 As an administrator of client organization you can request assistance from your partner company.
 
