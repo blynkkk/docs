@@ -1,13 +1,14 @@
 # Get Virtual Datastream Value
 
-{% api-method method="get" host="https://blynk.cloud" path="/external/api/get?token={token}&pin={pin}" %}
+{% api-method method="get" host="https://{server\_address}" path="/external/api/get?token={token}&{pin}" %}
 {% api-method-summary %}
 Get Datastream value by Virtual Pin
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get the stored value of the Virtual Datastream by pin type and pin **Example:**  
-`https://blynk.cloud/external/api/get?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&pin=v23`
+This endpoint allows you to get the stored value of the Virtual Datastream by pin type and pin   
+**Example:**  
+`https://blynk.cloud/external/api/get?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&v1`
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -47,13 +48,14 @@ Could not find a device token
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://blynk.cloud" path="/external/api/get?token={token}&dataStreamId={id}" %}
+{% api-method method="get" host="https://{server\_address}" path="/external/api/get?token={token}&dataStreamId={id}" %}
 {% api-method-summary %}
 Get value by Datastream ID
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get the stored value of the Datastream by id **Example:**  
+This endpoint allows you to get the stored value of the Datastream by id   
+**Example:**  
 `https://blynk.cloud/external/api/get?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&dataStreamId=1`
 {% endapi-method-description %}
 

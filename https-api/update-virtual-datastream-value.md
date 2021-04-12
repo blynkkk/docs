@@ -1,14 +1,16 @@
 # Update Virtual Datastream Value
 
-{% api-method method="get" host="https://blynk.cloud" path="/external/api/update?token={token}&pin={pin}&value={value}" %}
+{% api-method method="get" host="https://{server\_address}" path="/external/api/update?token={token}&{pin}={value}" %}
 {% api-method-summary %}
 Update Datastream value by Virtual Pin
 {% endapi-method-summary %}
 
 {% api-method-description %}
+`https://{server_address}/external/api/update/property?token={token}&pin={pin}&{property}={value}`  
+  
 This endpoint allows you to update the value of the Virtual Datastream  
 **Example:**  
-`https://blynk.cloud/external/api/update?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&pin=v23&value=3.14`
+`https://blynk.cloud/external/api/batch/update?token={token}&v1=100`
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -53,15 +55,16 @@ Could not find a device token
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://blynk.cloud" path="/external/api/update?token={token}&dataStreamId={id}&value={value}" %}
+{% api-method method="get" host="https://{server\_address}" path="/external/api/update?token={token}&dataStreamId={id}&value={value}" %}
 {% api-method-summary %}
 Update value by Datastream ID
 {% endapi-method-summary %}
 
 {% api-method-description %}
+  
 This endpoint allows you to update the value or the Datastream  
 **Example:**  
-`https://blynk.cloud/external/api/update?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&dataStreamId=1&value=3.14`
+`https://blynk.cloud/external/api/update?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&dataStreamId=1&value=100`
 {% endapi-method-description %}
 
 {% api-method-spec %}

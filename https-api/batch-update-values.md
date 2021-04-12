@@ -6,7 +6,7 @@ description: >-
 
 # Batch Update Values
 
-{% api-method method="get" host="https://blynk.cloud" path="/external/api/batch/update?token={token}&{pin1}={value1}&{pin2}={value2}" %}
+{% api-method method="get" host="https://{server\_address}" path="/external/api/batch/update?token={token}&{pin1}={value1}&{pin2}={value2}" %}
 {% api-method-summary %}
 Batch update
 {% endapi-method-summary %}

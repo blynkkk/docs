@@ -46,6 +46,10 @@ Could not find a device token
 
 ```text
 {"error":{"message":"Invalid token."}}
+
+
+
+
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
