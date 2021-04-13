@@ -113,7 +113,7 @@ A SEQUENCE OF SCREENSHOTS \(OR GIF animation\)
 
 _WiFI credentials -&gt; Waiting -&gt; all Checkmarks checked_ 
 
-When the process if over, you will be prompted to name the device. At this stage the devive is ready to use.
+When the process if over, you will be prompted to name the device. At this stage, the device is ready to use.
 
 ![](https://lh4.googleusercontent.com/Dofpg_nuepVAkVObVJcXsWC0Z9QShoVWHPGgYv8a_WZ9RMD-2G_zAwKHDk6ddp1lrf2KIHNrGCsgJ6Vu0x4UiKZCHgwsv1GUAu9_v819oItUP3vPo_iIVwNveTh3UI_fD6mCOi2B)
 

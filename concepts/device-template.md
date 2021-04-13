@@ -20,7 +20,13 @@ Every Device Template has a **Template ID** – ****a unique template identifier
 
 **Events:**  important events in the life of the device that should be logged and, if needed, used for notifications. Events can be triggered from the device itself or externally using HTTP API
 
-Template also includes 2 dashboards: one in the mobile app and the second one on the web.
+
+
+Template also includes two dashboards:
+
+
+
+![Screenshot of Web Dashboard and mobile app \(Tiles + Mobile dashboard\)](../.gitbook/assets/image-placeholder.png)
 
 **Web Dashboard:**  a set of UI elements \(widgets\) to visualize the data from the device accessible for the users in Blynk.360 – a web-based application.
 

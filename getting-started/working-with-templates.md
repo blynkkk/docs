@@ -1,64 +1,122 @@
 # Device Template Quick Setup
 
-## What is Device Template
-
 Device Template is a set of configurations inherited by devices of a similar type. 
 
-Think about smart home switches. They all perform a similar function and it's safe to assume that they should have the same data model, GPIOs, firmware code, etc. If you would need to introduce changes to all these devices, instead of editing each of them you could just edit a Device Template and all devices will be updated.
+Think about smart home switches. They all perform a similar function and it's safe to assume that they should have the same data model, GPIOs, firmware code, etc. If you would need to introduce changes to all of these devices, instead of editing each of them you could just edit a Device Template and all devices will be updated.
 
-Every Device Template has a **Template ID** – ****a unique template identifier that helps Blynk to recognize the type of added device and attach all other template elements:
+## Tutorial Overview
 
-**General Settings:**  general settings of the device
+Device Template has a lot of settings, but in this tutorial, we will focus only on the most important things you can set up quickly.
 
-**Metadata**: a table of `key:value` data attached to every device. `Keys` are static, and `values` can be different for each device. For example Serial Number. 
+At the end of this tutorial, you will have your first working device which will:
 
-**Datastreams:**  channels for any time-stamped data that flows in and out from the device to the cloud. For example sensor data should go through a Datastream. If you used the first version of Blynk platform, these are Virtual Pins. 
+* send random values to the web and mobile dashboard in intervals
+* receive user input from the web or mobile dashboard 
 
-**Events:**  important events in the life of the device that should be logged and, if needed, used for notifications. Events can be triggered from the device itself or externally using HTTP API
+{% hint style="info" %}
+You would need a development board \(e.g. Node MCU, Arduino\). List of supported boards can be found here.
+{% endhint %}
 
-Template also includes 2 dashboards: one in the mobile app and the second one on the web.
+Full documentation on all of the Template settings can be found [here](../web-dashboard/products/porducts-management.md):
 
-**Web Dashboard:**  a set of UI elements \(widgets\) to visualize the data from the device accessible for the users in Blynk.360 – a web-based application.
+{% page-ref page="../web-dashboard/products/porducts-management.md" %}
 
-**Mobile Dashboard:**  a set of UI elements \(widgets\) to visualize the data in Blynk mobile apps for iOS and Android. Mobile apps also contain a template of how device is represented in the list of devices \(tiles\) 
+## 1. Edit/Create Template
+
+Open the Templates section in the left menu and click **+ New Template** button**.** If you already have a template - click to open it and press **Edit** button.
+
+![](../.gitbook/assets/open-templates.gif)
 
 
 
-## Create a Template
+## 2. **Basic** Settings
 
-1. Open [Templates](https://docs.blynk.io/en/web-dashboard/for-developers/products) section
+Give your new template a name,  specify the hardware and connectivity you will be using.
 
-![](https://lh4.googleusercontent.com/W0PX2U7dcqhJHNzVAu1zkr9vqT8hJVT9g-ZUp-Ql7g9WzY6GMxQ4TEcLpJf-72AGTH9A0keen7X4p7DLWjlvbaI_IKDGzrgW-FUECGMzbMqlBZdtBfTTocol5JpYBJPl8n44uHn1)
-
-2. Click **+ New Template** button to start configuring your product Template
-
-![](https://lh5.googleusercontent.com/HsUTKiaQoHNkxKd7Bi9u0LhOPau987ATLF-2oYPJlwQOfwz1tWH2cpI55dl5nhgyWEFZ-xP9FpKLt3WOutFuq5b5x1IFTeSgS059e37oJnvs8T9WKUvJDiRlM7egSZm0EkIldAnI)
-
-3. Provide basic information about your Product in Create New Template modal window
+{% hint style="info" %}
+ If you can't find your hardware in the list choose **Generic Board**
+{% endhint %}
 
 ![](../.gitbook/assets/create_new_template_modal.png)
 
-4. Provide basic [Information](https://docs.blynk.io/en/web-dashboard/for-developers/products/info) about the product you want to create:
+## 3. Find **Template ID**
 
-![](https://lh3.googleusercontent.com/1iE8NoNVTJYhrB04e5ufTMNLoNy459h_5Ds0h6THt0IhIHsbTvcNujZKShuqTyKXVjHiX1uapd7Qbne09d6TGpi7CsLmqGk23uKSLcwtwJhdVaucfD2Ey678Xge4ksBzJeMjKHyP)
+A new Template was created. On this screen notice **Template ID** and **Firmware Configuration** sections. You will need these details later in your sketch.  
 
-5. Set up your product's [Metadata](https://docs.blynk.io/en/web-dashboard/for-developers/products/metadata) that will describe user's device or environment settings.
-
-![](https://lh3.googleusercontent.com/q2tUJ1bbLclISMu2QRItpT3WVg1prd5RT6nECoeUymKW8MZVugC3jR4Mc8Hfg7Qmw_YYi2-7sWu29QI0nWDoi4YqCx110BAvXdQ_XEHIcyjQycGToMTWeSRUOJGhU_fxZB6ugsuT)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 
 
-6. Configure [Datastreams](../web-dashboard/products/datastreams/) that you would like to use with your product Devices.
+## 4. **Add First Datastream**
 
-![](https://lh5.googleusercontent.com/V3BzYP__ze9sdfXMxFxhKUzky6DpYlc4cvb_sLrjMSmjTwSaTJA_0OxnBQ1aSABh6ITpZ37I6ABxPNaN0eJ2qFwU_kqd_K9jBonH9JuPNnOCK_BTVtjfunhod82vRwCJOSrfUThJ)
+For the goal of this tutorial skip the Metadata Tab and go to Datastreams tab. 
 
-7. Create [Events](https://docs.blynk.io/en/web-dashboard/for-developers/products/events) for your product if you want to monitor devices current status and inform about important events.
+Datastreams are channels that are used to send data between the device and Blynk.Cloud. We will be using this Datastream to send random values from your device.
 
-![](https://lh3.googleusercontent.com/MBvKHipg7K7Ee3Ashup4Ct7IfRYMQtKQ38qyGBA0mbStoCxzclQnFDk5NduRoLD6eBtak-0yO4PgWADIHL8wah_ScJKBHLAXGf_5UmPfkdO431mw0zctVko2HgaXTrPBlmwIrJRP)
+Click on **Add Datastream** button. Choose **Virtual Pin** in the dropdown menu:   
 
-8. Set up [Dashboard](https://docs.blynk.io/en/web-dashboard/for-developers/products/dashboard) for your product that will ease your devices interaction for users
 
-![](https://lh3.googleusercontent.com/d1P5i2hHBaqWVwG5dx1ozOpajNagRFFt4nKR1KdtXTULRpdvcKJ-K2WzQ_iqbkcEuFjyo-9mZAQYAeYc-EovGluPXGPRYnMAZRf2xEfTfNKDc6tHCrUTfP7OSSVZjVcriuFa8cYu)
+![](../.gitbook/assets/choose-virtual-pin.gif)
+
+
+
+Set up the Datastream like this: 
+
+![](../.gitbook/assets/screen-shot-2021-04-13-at-5.01.13-pm.png)
+
+* **Name:** Random Value Send
+* **Virtual Pin:** V0
+* **Data Type:** Integer
+* **Min/Max:** 0/100
+
+Skip all the other settings. When done, press Create and the new Datastream will be created.
+
+These settings mean that all the devices that inherit this Template will process `integers` in the range  of  `0 to 100` through a `Virtual Pin V0`
+
+## 4. **Add a Second Datastream**
+
+Click on **Add Datastream** button again. Choose **Enumerable** type in the dropdown menu and set up the Datastream. We will be using this Datastream to send a value from mobile and web dashboards to the device.
+
+![](../.gitbook/assets/screen-shot-2021-04-13-at-5.10.52-pm.png)
+
+* **Name:** Button
+* **Virtual Pin:** V1
+* Add **Row1:** 0, OFF
+* Add **Row2:** 1, ON
+
+Skip all the other settings and press **Create**
+
+These settings mean that all devices that inherit this Template will process values `integers` in the range  of  `0 to 1` through a `Virtual Pin V1`and Blynk will interpret `0` as `OFF` and `1` as `ON` 
+
+## 5. **Set Up Web Dashboard**
+
+Go to Dashboard Tab and drag-n-drop these widgets to the canvas. 
+
+* Switch
+* Label
+* Chart
+
+![](../.gitbook/assets/screen-shot-2021-04-13-at-5.36.54-pm.png)
+
+#### 
+
+### Set Up Switch Widget
+
+Hover on the widget and you will see a gear button. This will open widget settings. Set up widget like this: 
+
+![](../.gitbook/assets/screen-shot-2021-04-13-at-5.45.11-pm.png)
+
+### 
+
+### Set Up Label Widget:
+
+![](../.gitbook/assets/screen-shot-2021-04-13-at-5.50.45-pm.png)
+
+### 
+
+### Set Up Label Widget:
+
+## 5. **Set Up Mobile Dashboard**
 
 ## Link mobile dashboard with your product:
 
@@ -78,6 +136,9 @@ Template also includes 2 dashboards: one in the mobile app and the second one on
 
 ### Congratulations, you have configured your Product and it is ready to use!
 
-Now all that remains is to [add your test board using Blynk.App](../mobile-applications/device-management/add-new-device.md), make sure it works as you expect, and integrate your code.  
-****
+Now all that remains is to [add your test board using Blynk.App](../mobile-applications/device-management/add-new-device.md), make sure it works as you expect, and integrate your code.
+
+ 
+
+
 
