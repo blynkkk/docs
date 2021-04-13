@@ -1,26 +1,30 @@
 # Developer Mode
 
-Developer is a type of users who have access to all the functionality required to configure the platform for use by end-users \(also called Clients\). This is usually someone who builds the hardware, develops the firmware, and does all the needed configurations.
+Developer is a user who has access to all the functionality required to configure the platform for use by end-users \(also called Clients\). This is usually someone who builds the hardware, develops the firmware, and does all the needed configurations.
+
+By default, the ****first user in the Organization becomes a Developer.
+
+Developer can: 
+
+* Create and configure New Device Templates
+* Create and configure mobile dashboard
+* Publish Templates to Blynk.Marketplace \(work in progress\)
+
+## Enable Developer Mode 
+
+1. In the Blynk app or in Blynk.360
+2. Navigate to **My Profile**
+3. Check that **Developer Mode** switch is set to ON
+
+Now you should be able to see
 
 {% hint style="info" %}
-Currently, only one developer is allowed per Organization to avoid sync issues. This limit might be changed later.
+Currently, **only one developer is allowed per Organization** to avoid sync issues. This limit can be changed later.
 {% endhint %}
-
-By default, the ****first user in the Organization becomes a Developer. If for any reason you don't 
-
-## Check if you are in a developer mode 
-
-#### In the mobile app:
-
-1. Sign in to Blynk mobile app
-2. Navigate to **My Profile**
-3. Toggle **Developer Mode** switch
-
-Now you have access to Developer features.
 
 ## Linking the Templates
 
-Tap **Wrench** pictogram at top right of the screen near to Menu pictogram
+Tap **Wrench** pictogram at the top right of the screen near to Menu pictogram
 
 ![](../../.gitbook/assets/wrench.png)
 

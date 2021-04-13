@@ -23,7 +23,7 @@
   * [Constructor](getting-started/developer-mode/constructor/README.md)
     * [Common Widget Settings](getting-started/developer-mode/constructor/common-widget-settings.md)
     * [Widgets](getting-started/developer-mode/constructor/widgets.md)
-* [Create a Template](getting-started/working-with-templates.md)
+* [Create Device Template](getting-started/working-with-templates.md)
 * [Activate Your First Device](getting-started/activating-devices/README.md)
   * [WiFi provisioning](getting-started/activating-devices/blynk-edent-wifi-provisioning.md)
   * [Static AuthToken](getting-started/activating-devices/blynk-edent-static-authtoken.md)

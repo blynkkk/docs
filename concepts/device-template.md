@@ -18,11 +18,17 @@ Template also includes 2 dashboards: one in the mobile app and the second one on
 
 **Web Dashboard:**  a set of UI elements \(widgets\) to visualize the data from the device accessible for the users in Blynk.360 – a web-based application.
 
-**Mobile Dashboard:**  a set of UI elements \(widgets\) to visualize the data from the device accessible for the users in mobile apps for Blynk.
+**Mobile Dashboard:**  a set of UI elements \(widgets\) to visualize the data in Blynk mobile apps for iOS and Android. Mobile apps also contain a template of how device is represented in the list of devices \(tiles\) 
 
-a set of UI elements \(widgets\) to visualize the data from the device accessible for the users in Blynk.360 – a web-based applications
 
-**Mobile List \(tile\) UI:**  a visual representation
+
+### Related Articles
+
+{% page-ref page="../getting-started/working-with-templates.md" %}
+
+{% page-ref page="device-template.md" %}
+
+
 
 \*\*\*\*
 

@@ -1,25 +1,28 @@
-# Create a Template
+# Create Device Template
 
-## What is a Template
+## What is Device Template
 
-Template is a digital model and a set of configurations which are inherited by devices performing similar function. For example, if you have 3 Sensor Nodes and 3 Relay Nodes, you would need two templates: one for Sensor Nodes and the other one for Relay Node.
+Device Template is a set of configurations inherited by devices of a similar type. 
 
-This is a very convenient way of managing devices at any scale
+Think about smart home switches. They all perform a similar function and it's safe to assume that they should have the same data model, GPIOs, firmware code, etc. If you would need to introduce changes to all these devices, instead of editing each of them you could just edit a Device Template and all devices will be updated.
 
-Template settings can have a lot of nuances,  but you don't have to set up everything just to get started. We recommend checking demo templates that are created when you sign up for Blynk as a Developer. 
+Every Device Template has a **Template ID** – ****a unique template identifier that helps Blynk to recognize the type of added device and attach all other template elements:
 
-To get your first device online we will only need to create a new Template 
+**General Settings:**  general settings of the device
+
+**Metadata**: a table of `key:value` data attached to every device. `Keys` are static, and `values` can be different for each device. For example Serial Number. 
+
+**Datastreams:**  channels for any time-stamped data that flows in and out from the device to the cloud. For example sensor data should go through a Datastream. If you used the first version of Blynk platform, these are Virtual Pins. 
+
+**Events:**  important events in the life of the device that should be logged and, if needed, used for notifications. Events can be triggered from the device itself or externally using HTTP API
+
+Template also includes 2 dashboards: one in the mobile app and the second one on the web.
+
+**Web Dashboard:**  a set of UI elements \(widgets\) to visualize the data from the device accessible for the users in Blynk.360 – a web-based application.
+
+**Mobile Dashboard:**  a set of UI elements \(widgets\) to visualize the data in Blynk mobile apps for iOS and Android. Mobile apps also contain a template of how device is represented in the list of devices \(tiles\) 
 
 
-
-You can read everything about templates
-
-
-
-[Product ](../glossary.md#p)is a complex solution consisting of various functions that need to be configured.  
-[Blynk.360]() allows you to create a digital model of your product for web and mobile platforms.
-
-Please follow these steps to create your product [Template](https://docs.blynk.io/en/web-dashboard/for-developers/products) and configure it's basic functions:
 
 ## Create a Template
 
