@@ -19,14 +19,14 @@
 
 ## Getting Started
 
+* [Quick Start with Blynk](getting-started/activating-devices/README.md)
+  * [WiFi provisioning](getting-started/activating-devices/blynk-edent-wifi-provisioning.md)
+  * [Static AuthToken](getting-started/activating-devices/blynk-edent-static-authtoken.md)
 * [Developer Mode](getting-started/developer-mode/README.md)
   * [Constructor](getting-started/developer-mode/constructor/README.md)
     * [Common Widget Settings](getting-started/developer-mode/constructor/common-widget-settings.md)
     * [Widgets](getting-started/developer-mode/constructor/widgets.md)
 * [Create Device Template](getting-started/working-with-templates.md)
-* [Activate Your First Device](getting-started/activating-devices/README.md)
-  * [WiFi provisioning](getting-started/activating-devices/blynk-edent-wifi-provisioning.md)
-  * [Static AuthToken](getting-started/activating-devices/blynk-edent-static-authtoken.md)
 * [Sign Up and Blynk.360 Navigation](getting-started/getting-started/README.md)
   * [Sign Up](getting-started/getting-started/sign-up.md)
   * [User Invitation](getting-started/getting-started/sign-up-by-invitation.md)

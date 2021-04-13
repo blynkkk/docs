@@ -1,18 +1,34 @@
-# Activate Your First Device
+# Quick Start with Blynk
+
+The goal of this tutorial is to guide you through the steps needed to get your first Blynk device online.
+
+### **1. Enable Developer Mode** 
 
 Before moving further, check that you have Developer Mode enabled. Here is how to check it:
 
-{% page-ref page="../developer-mode/" %}
+1. In the Blynk app or in Blynk.360
+2. Navigate to **My Profile**
+3. Check that **Developer Mode** switch is set to ON
+
+{% hint style="warning" %}
+Currently, **only one developer is allowed per Organization** to avoid sync issues. This limit can be changed later.
+{% endhint %}
 
 
 
+### **2. Create a Device Template** 
 
+1. Log in to your [Blynk.360](https://blynk.cloud/) developer account  
+2. Go to Templates -&gt; Create New Template or open existing template  
+3. Check the Firmware Configuration code lines. You will need them later 
+
+### **3. Add Device** 
 
 In order to become active in Blynk.Cloud and available for use, each device should have a unique AuthToken. AuthToken is the main identifier of the device in the Blynk Cloud. Depending on the hardware, connectivity, and the IoT use-case you are working on, a way of getting Auth Tokens for your device can vary.
 
 Here are the two main ways of putting AuthTokens on your devices:
 
-### 1. WiFi provisioning using Blynk.Edgent
+### WiFi provisioning using Blynk.Edgent
 
 For devices that can connect to the Internet over WiFi, we recommend using the built-in **WiFi provisioning** method. This method is also called Dynamic Auth Token provisioning.
 
@@ -33,7 +49,7 @@ This method is especially beneficial for commercial applications because:
 
 ### 
 
-### 2. Activating device with Static Auth Token
+### Activating device with a Static Auth Token
 
 The main difference from WiFi provisioning is that for every device AuthToken should be generated manually and flashed to the device before it can be used.
 

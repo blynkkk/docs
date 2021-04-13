@@ -18,7 +18,7 @@ Currently, WiFi provisioning only works on ESP32 and ESP8266
 
 ### **How WiFI provisioning works**
 
-You can skip this part as this is something you don't have to think about because Blynk does everything for you. But we thought it might be helpful to understand how it works under the hood
+You can skip this part as this is something you don't have to think about because Blynk does everything for you. But it might be helpful to understand how it works under the hood
 
 1. In the beginning, your hardware will act as an Access Point \(AP\). It means that your device will broadcast its own WiFi network with an SSID\(name\) similar to `Blynk-something-1234`
 2. Your smartphone will connect to this AP with the Blynk app \(or from smartphone settings\) and they will start communicating directly with each other.

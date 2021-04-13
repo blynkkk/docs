@@ -2,7 +2,13 @@
 
 Device Template is a set of configurations inherited by devices of a similar type. 
 
-Think about smart home switches. They all perform a similar function and it's safe to assume that they should have the same data model, GPIOs, firmware code, etc. If you would need to introduce changes to all these devices, instead of editing each of them you could just edit a Device Template and all devices will be updated.
+Think about smart home switches. They all perform a similar function and we can assume they should have the same data model, GPIOs, firmware code, etc. If you would need to introduce changes to all these devices, instead of editing each of them you could just edit a Device Template and all devices will be updated.
+
+
+
+![Diagram of how devices are related to templates ](../.gitbook/assets/image-placeholder.png)
+
+
 
 Every Device Template has a **Template ID** – ****a unique template identifier that helps Blynk to recognize the type of added device and attach all other template elements:
 
