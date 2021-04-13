@@ -51,11 +51,11 @@ is FILE by default. Other posible value: JSON
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-
+Success.
 {% endapi-method-response-example-description %}
 
 ```
-JSON
+{"link":"https://server_address/device_data_2592_2021-04-13T02-27-11.zip"}
 ```
 {% endapi-method-response-example %}
 
