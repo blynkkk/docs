@@ -6,19 +6,19 @@ By default, the ****first user in the Organization becomes a Developer.
 
 Developer can: 
 
-* Create and configure New Device Templates
-* Create and configure mobile dashboard
+* Create and configure Device Templates in Blynk.360
+* Create and configure a mobile dashboard UI
+* Add new devices to the account
 * Publish Templates to Blynk.Marketplace \(work in progress\)
+* User other features accordingly to the chosen [plan](https://blynk.io/pricing%20)
 
-## Enable Developer Mode 
+### **Enable Developer Mode** 
 
 1. In the Blynk app or in Blynk.360
 2. Navigate to **My Profile**
 3. Check that **Developer Mode** switch is set to ON
 
-Now you should be able to see
-
-{% hint style="info" %}
+{% hint style="warning" %}
 Currently, **only one developer is allowed per Organization** to avoid sync issues. This limit can be changed later.
 {% endhint %}
 
