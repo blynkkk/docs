@@ -8,9 +8,14 @@
 * [Products and Services](platform-overview/products-and-services/README.md)
   * [Products](platform-overview/products-and-services/products.md)
   * [Services](platform-overview/products-and-services/services.md)
-* [Multi-tenancy](platform-overview/multi-tenant-tree-structure.md)
-* [Users](platform-overview/users.md)
-* [Organizations](platform-overview/organizations.md)
+
+## Concepts
+
+* [Device](concepts/device.md)
+* [Device Template](concepts/device-template.md)
+* [Multi-tenancy](concepts/multi-tenant-tree-structure.md)
+* [Users](concepts/users.md)
+* [Organizations](concepts/organizations.md)
 
 ## Getting Started
 

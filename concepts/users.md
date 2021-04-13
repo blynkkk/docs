@@ -4,7 +4,7 @@ description: Types of users
 
 # Users
 
-Every registered user on Blynk is always a member of an Organization, even if it's just a single-person organization. Such structure enables [multi-tenancy](multi-tenant-tree-structure.md). Within the organization there can be different types of users:
+Every registered user on Blynk is **always** a member of an Organization, even if it's just a single-person organization. Such structure enables [multi-tenancy](multi-tenant-tree-structure.md). Within the organization there can be different types of users:
 
 {% hint style="info" %}
 Types of users are related to, but different from [Roles and Permission](../web-dashboard/settings/access.md).

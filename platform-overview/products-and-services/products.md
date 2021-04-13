@@ -4,7 +4,7 @@
 
 ![](../../.gitbook/assets/360.png)
 
-**Blynk.360** is a feature-rich web application that can be used by different [types of users](../users.md). Major functionality of this product is:
+**Blynk.360** is a feature-rich web application that can be used by different [types of users](../../concepts/users.md). Major functionality of this product is:
 
 1. Configuration of how connected devices work on the plartform + application settings.
 2. Management of devices, their data, users, organizations and locations 
