@@ -2,7 +2,7 @@
 description: adapted from PeteKnight's article
 ---
 
-# Using Virtual Pins to control physical devices
+# Send any data using Virtual Pins
 
 **Why use virtual pins anyway?**
 

@@ -53,7 +53,7 @@ A new Template was created. On this screen notice **Template ID** and **Firmware
 
 1. Open [Blynk.App](../../mobile-applications/overview.md)
 2. Log In to your account
-3. Switch to [Developer Mode](../developer-mode/)
+3. Switch to [Developer Mode](../developer-mode.md)
 4. Add a new Template 
 5. Link it to your Product 
 6. Add the widgets you need and assign them Datastreams

@@ -19,10 +19,7 @@
 
 ## Getting Started
 
-* [Developer Mode](getting-started/developer-mode/README.md)
-  * [Constructor](getting-started/developer-mode/constructor/README.md)
-    * [Common Widget Settings](getting-started/developer-mode/constructor/common-widget-settings.md)
-    * [Widgets](getting-started/developer-mode/constructor/widgets.md)
+* [Developer Mode](getting-started/developer-mode.md)
 * [Quick Start with Blynk](getting-started/activating-devices/README.md)
   * [WiFi provisioning](getting-started/activating-devices/blynk-edent-wifi-provisioning.md)
   * [Static AuthToken](getting-started/activating-devices/blynk-edent-static-authtoken.md)
@@ -32,15 +29,11 @@
   * [Set Up Mobile App Dashboard](getting-started/working-with-templates/set-up-mobile-app-dashboard.md)
   * [Prepare Your Code](getting-started/working-with-templates/prepare-code.md)
   * [Test your Template](getting-started/working-with-templates/test-your-template.md)
-* [Sign Up and Blynk.360 Navigation](getting-started/getting-started/README.md)
-  * [Sign Up](getting-started/getting-started/sign-up.md)
-  * [User Invitation](getting-started/getting-started/sign-up-by-invitation.md)
-  * [Partner Sign Up](getting-started/getting-started/partner-sign-up.md)
-  * [Common Blynk.360 Navigation and Actions](getting-started/getting-started/common-navigation-and-actions-reference.md)
-* [Using Virtual Pins to control physical devices](getting-started/using-virtual-pins-to-control-physical-devices.md)
-* [Notification management](getting-started/notification-management.md)
-* [Content Events testing](getting-started/content-events-testing.md)
-* [Updating Devices' Firmwares OTA](getting-started/updating-devices-firmwares-ota.md)
+* [Metadata Tutorial](getting-started/metadata-tutorial.md)
+* [Events Tutorial](getting-started/events-tutorial.md)
+* [Notifications management](getting-started/notification-management.md)
+* [Send any data using Virtual Pins](getting-started/using-virtual-pins-to-control-physical-devices.md)
+* [Updating Firmware Over-The-Air](getting-started/updating-devices-firmwares-ota.md)
 * [ODBC DB copy](getting-started/odbc-db-copy.md)
 
 ## Downloads
@@ -50,6 +43,11 @@
 
 ## Blynk.360 <a id="web-dashboard"></a>
 
+* [Sign Up and Blynk.360 Navigation](web-dashboard/getting-started/README.md)
+  * [Sign Up](web-dashboard/getting-started/sign-up.md)
+  * [User Invitation](web-dashboard/getting-started/sign-up-by-invitation.md)
+  * [Partner Sign Up](web-dashboard/getting-started/partner-sign-up.md)
+  * [Common Blynk.360 Navigation and Actions](web-dashboard/getting-started/common-navigation-and-actions-reference.md)
 * [Search](web-dashboard/search/README.md)
   * [Devices](web-dashboard/search/devices-1/README.md)
     * [Device view](web-dashboard/search/devices-1/device-view/README.md)
@@ -105,6 +103,7 @@
     * [Notifications tab](web-dashboard/products/events/notifications.md)
     * [Notifications Limit](web-dashboard/products/events/notification-limit.md)
     * [How to trigger events](web-dashboard/products/events/how-to-trigger-events.md)
+    * [Content Events testing](web-dashboard/products/events/content-events-testing.md)
   * [Dashboard](web-dashboard/products/dashboard/README.md)
     * [Slider](web-dashboard/products/dashboard/slider.md)
     * [Switch](web-dashboard/products/dashboard/switch.md)
@@ -143,6 +142,11 @@
 * [Sign Up / Sign In](mobile-applications/untitled/README.md)
   * [Client Sign Up](mobile-applications/untitled/client-sign-up.md)
   * [Partner Sign Up](mobile-applications/untitled/partner-sign-up.md)
+* [Developer Mode](mobile-applications/constructor.md)
+* [Widgets](mobile-applications/widgets/README.md)
+  * [Common Widget Settings](mobile-applications/widgets/common-widget-settings.md)
+  * [Widget 1](mobile-applications/widgets/widget-1.md)
+  * [Widget 2](mobile-applications/widgets/widget-2.md)
 * [Profile Management](mobile-applications/profile-management/README.md)
   * [My Profile](mobile-applications/profile-management/my-profile.md)
   * [Organization Management](mobile-applications/profile-management/organization-management.md)

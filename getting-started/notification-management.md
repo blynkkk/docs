@@ -2,7 +2,7 @@
 description: How to set up notifications for a single device or for a selection of devices.
 ---
 
-# Notification management
+# Notifications management
 
 {% hint style="info" %}
 Note: notifications work on top of [Events](../web-dashboard/products/events/). Before moving forward make sure your product has at least one event configured in it's Template

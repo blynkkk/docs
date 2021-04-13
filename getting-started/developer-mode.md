@@ -1,12 +1,13 @@
 # Developer Mode
 
-Developer is a user who has access to all the functionality required to configure the platform for use by end-users \(also called Clients\). This is usually someone who builds the hardware, develops the firmware, and does all the needed configurations.
+**Developer** is a special user who has access to all the functionality required to configure the platform for use by end-users \(also called Clients\). This is usually someone who builds the hardware, develops the firmware, and does all the needed configurations.
 
 By default, the ****first user in the Organization becomes a Developer.
 
 Developer can: 
 
 * Create and configure Device Templates in Blynk.360
+* Create and configure web dashboard UI
 * Create and configure a mobile dashboard UI
 * Add new devices to the account
 * Publish Templates to Blynk.Marketplace \(work in progress\)

@@ -14,7 +14,7 @@ There are 3 segments \(left to right\):
 
 ## **Menu**
 
-Manu can help you navigate to specific sections and can be accessed from almost any page in the Web Dashboard. [This article](../../getting-started/getting-started/common-navigation-and-actions-reference.md) will give you a full overview of Blynk navigation and explain the key actions you can take.
+Manu can help you navigate to specific sections and can be accessed from almost any page in the Web Dashboard. [This article](../getting-started/common-navigation-and-actions-reference.md) will give you a full overview of Blynk navigation and explain the key actions you can take.
 
 ## **Sidebar**
 

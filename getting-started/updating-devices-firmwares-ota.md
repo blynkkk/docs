@@ -1,4 +1,4 @@
-# Updating Devices' Firmwares OTA
+# Updating Firmware Over-The-Air
 
 ![Blynk.Air icon in the main menu](../.gitbook/assets/image%20%2814%29.png)
 
