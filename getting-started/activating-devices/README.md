@@ -1,4 +1,12 @@
-# 3. Activate Your First Device
+# Activate Your First Device
+
+Before moving further, check that you have Developer Mode enabled. Here is how to check it:
+
+{% page-ref page="../developer-mode/" %}
+
+
+
+
 
 In order to become active in Blynk.Cloud and available for use, each device should have a unique AuthToken. AuthToken is the main identifier of the device in the Blynk Cloud. Depending on the hardware, connectivity, and the IoT use-case you are working on, a way of getting Auth Tokens for your device can vary.
 

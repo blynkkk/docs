@@ -1,12 +1,20 @@
-# 1. Enable Developer Mode
+# Developer Mode
 
-As a Developer, you're able to create Blynk.App Templates in [Constructor](constructor/) directly on your mobile device.
+Developer is a type of users who have access to all the functionality required to configure the platform for use by end-users \(also called Clients\). This is usually someone who builds the hardware, develops the firmware, and does all the needed configurations.
 
-## Enable the feature 
+{% hint style="info" %}
+Currently, only one developer is allowed per Organization to avoid sync issues. This limit might be changed later.
+{% endhint %}
 
-1. sign in
-2. navigate to **My Profile**
-3. toggle **Developer Mode** switch
+By default, the ****first user in the Organization becomes a Developer. If for any reason you don't 
+
+## Check if you are in a developer mode 
+
+#### In the mobile app:
+
+1. Sign in to Blynk mobile app
+2. Navigate to **My Profile**
+3. Toggle **Developer Mode** switch
 
 Now you have access to Developer features.
 

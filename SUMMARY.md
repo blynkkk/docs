@@ -14,12 +14,12 @@
 
 ## Getting Started
 
-* [1. Enable Developer Mode](getting-started/developer-mode/README.md)
+* [Developer Mode](getting-started/developer-mode/README.md)
   * [Constructor](getting-started/developer-mode/constructor/README.md)
     * [Common Widget Settings](getting-started/developer-mode/constructor/common-widget-settings.md)
     * [Widgets](getting-started/developer-mode/constructor/widgets.md)
-* [2. Create a Template](getting-started/working-with-templates.md)
-* [3. Activate Your First Device](getting-started/activating-devices/README.md)
+* [Create a Template](getting-started/working-with-templates.md)
+* [Activate Your First Device](getting-started/activating-devices/README.md)
   * [WiFi provisioning](getting-started/activating-devices/blynk-edent-wifi-provisioning.md)
   * [Static AuthToken](getting-started/activating-devices/blynk-edent-static-authtoken.md)
 * [Sign Up and Blynk.360 Navigation](getting-started/getting-started/README.md)

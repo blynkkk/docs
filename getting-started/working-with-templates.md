@@ -1,4 +1,4 @@
-# 2. Create a Template
+# Create a Template
 
 ## What is a Template
 
