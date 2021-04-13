@@ -28,7 +28,7 @@ Currently, only one developer is allowed per Organization to avoid sync issues. 
 
 #### **End-users \(also Clients\)**
 
-These users can add devices and use the platform's functionality based on their role and set of permissions, but they can't edit any configurations made by Developer.
+These users can add devices and use the platform's functionality based on their role and set of permissions, but they can't edit any configurations made by the Developer.
 
 \*\*\*\*
 
@@ -46,16 +46,16 @@ Available in Enterprise version only. These are the members of Partners organiza
 ### **Roles and permissions**
 
 {% hint style="info" %}
-Access to managing users and their roles depends on your [plan](https://blynk.io/pricing%20).
+**Access to user management including roles and permissions depends on your** [**plan**](https://blynk.io/pricing%20)**.**
 {% endhint %}
 
-Each user has a **role** in the organization**.** By default there are three main roles: 
+Each user has a **role** in the organization**.** By default there are three main roles. 
 
 * Admin
 * Staff
 * User
 
-Each role has an set of permissions. Read more about it here
+Each role has a set of permissions. Read more about it here
 
 
 

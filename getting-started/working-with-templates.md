@@ -1,4 +1,4 @@
-# Create Device Template
+# Device Template Quick Setup
 
 ## What is Device Template
 
