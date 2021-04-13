@@ -4,9 +4,9 @@ description: 'Navigate through Devices, Locations, Organizations and users in on
 
 # Search
 
-Here you can perform quick or manual search of [devices](devices-1/), [locations](locations.md), [organizations ](organizations/)and [users ](users/)you have access to by different criterias according to filtering options you select.
+Here you can perform a quick or extended search for [devices](devices-1/), [locations](locations.md), [organizations ](organizations/)and [users ](users/)you have access to.  You can apply various filters to narrow your search.
 
-This is the first screen everybody signed in to Blynk.360 sees.
+This is the first screen you see after signing into Blynk.360 Web Dashboard.
 
 ![](../../.gitbook/assets/search.png)
 
@@ -14,11 +14,11 @@ There are 3 segments \(left to right\):
 
 ## **Menu**
 
-Use it to navigate to the sections. It's available in anytime and almost anyplace of Web Dashboard. Read [this article](../../getting-started/getting-started/common-navigation-and-actions-reference.md) to learn Blynk navigation and actions basics please.
+Manu can help you navigate to specific sections and can be accessed from almost any page in the Web Dashboard. [This article](../../getting-started/getting-started/common-navigation-and-actions-reference.md) will give you a full overview of Blynk navigation and explain the key actions you can take.
 
 ## **Sidebar**
 
-Here you can select View Panel contents. Click section name row to switch View panel to search mode or click one of the options available for manual search in table or map view:
+Here you can select View Panel contents. Click section name row to switch View panel to search mode, or click one of the options available for manual search in table or map view:
 
 * [Devices](devices-1/)
   * **My devices** – view only your organization Devices
