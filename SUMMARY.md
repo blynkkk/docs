@@ -19,6 +19,10 @@
 
 ## Getting Started
 
+* [Developer Mode](getting-started/developer-mode/README.md)
+  * [Constructor](getting-started/developer-mode/constructor/README.md)
+    * [Common Widget Settings](getting-started/developer-mode/constructor/common-widget-settings.md)
+    * [Widgets](getting-started/developer-mode/constructor/widgets.md)
 * [Quick Start with Blynk](getting-started/activating-devices/README.md)
   * [WiFi provisioning](getting-started/activating-devices/blynk-edent-wifi-provisioning.md)
   * [Static AuthToken](getting-started/activating-devices/blynk-edent-static-authtoken.md)
@@ -26,12 +30,8 @@
   * [Set Up Datastreams](getting-started/working-with-templates/set-up-datastreams.md)
   * [Set Up Web Dashboard](getting-started/working-with-templates/set-up-web-dashboard.md)
   * [Set Up Mobile App Dashboard](getting-started/working-with-templates/set-up-mobile-app-dashboard.md)
-  * [Prepare Code](getting-started/working-with-templates/prepare-code.md)
+  * [Prepare Your Code](getting-started/working-with-templates/prepare-code.md)
   * [Test your Template](getting-started/working-with-templates/test-your-template.md)
-* [Developer Mode](getting-started/developer-mode/README.md)
-  * [Constructor](getting-started/developer-mode/constructor/README.md)
-    * [Common Widget Settings](getting-started/developer-mode/constructor/common-widget-settings.md)
-    * [Widgets](getting-started/developer-mode/constructor/widgets.md)
 * [Sign Up and Blynk.360 Navigation](getting-started/getting-started/README.md)
   * [Sign Up](getting-started/getting-started/sign-up.md)
   * [User Invitation](getting-started/getting-started/sign-up-by-invitation.md)
