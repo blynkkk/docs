@@ -51,7 +51,7 @@ Read the guide on how to set up WiFi provisioning:
 
 ### 
 
-#### Activating device with a Static Auth Token
+#### Activating device with a Static Auth Token \(for Ethernet, cellular, and other connection types\)
 
 The main difference from WiFi provisioning is that for every device AuthToken should be generated manually and flashed to the device before it can be used.
 

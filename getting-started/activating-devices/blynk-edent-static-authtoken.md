@@ -59,7 +59,7 @@ char auth[] = "YourAuthToken";
 #### Template ID and Device Name
 
 1. Log in to your [Blynk.360](https://blynk.cloud/) developer account
-2. If you don't have a  Device Templates -&gt; [Create New Template](../working-with-templates.md#create-a-template) or open existing one
+2. If you don't have a  Device Templates -&gt; [Create New Template](../working-with-templates.md#create-a-template) or open an existing one
 3. Copy the contents of this section and paste them to your sketch
 
 ![](../../.gitbook/assets/image%20%2820%29.png)
@@ -80,7 +80,7 @@ When the Template is ready, go to Search -&gt; Devices - **Create new device**
 
 
 
-1. After device was created, open its dashboard, go to Device Info tab. There you will find a field: Auth Token.
+2. After the device was created, open its dashboard, go to the Device Info tab. There you will find a field: Auth Token.
 
 ![](../../.gitbook/assets/image%20%2817%29.png)
 
@@ -120,4 +120,6 @@ Your IP is 192.168.0.11
 Connecting...
 Blynk connected!
 ```
+
+
 
