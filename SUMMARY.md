@@ -12,11 +12,6 @@
 * [Users](platform-overview/users.md)
 * [Organizations](platform-overview/organizations.md)
 
-## Downloads
-
-* [Apps for iOS and Android](downloads/blynk-apps-for-ios-and-android.md)
-* [Blynk.Edgent](downloads/blynk.edgent.md)
-
 ## Getting Started
 
 * [1. Enable Developer Mode](getting-started/developer-mode/README.md)
@@ -27,7 +22,6 @@
 * [3. Activate Your First Device](getting-started/activating-devices/README.md)
   * [WiFi provisioning](getting-started/activating-devices/blynk-edent-wifi-provisioning.md)
   * [Static AuthToken](getting-started/activating-devices/blynk-edent-static-authtoken.md)
-* [4. Build Dashboard UI](getting-started/4.-build-dashboard-ui.md)
 * [Sign Up and Blynk.360 Navigation](getting-started/getting-started/README.md)
   * [Sign Up](getting-started/getting-started/sign-up.md)
   * [User Invitation](getting-started/getting-started/sign-up-by-invitation.md)
@@ -38,6 +32,11 @@
 * [Content Events testing](getting-started/content-events-testing.md)
 * [Updating Devices' Firmwares OTA](getting-started/updating-devices-firmwares-ota.md)
 * [ODBC DB copy](getting-started/odbc-db-copy.md)
+
+## Downloads
+
+* [Apps for iOS and Android](downloads/blynk-apps-for-ios-and-android.md)
+* [Blynk.Edgent](downloads/blynk.edgent.md)
 
 ## Blynk.360 <a id="web-dashboard"></a>
 

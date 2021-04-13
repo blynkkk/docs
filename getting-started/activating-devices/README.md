@@ -6,7 +6,7 @@ Here are the two main ways of putting AuthTokens on your devices:
 
 ### 1. WiFi provisioning using Blynk.Edgent
 
-For devices that can connect to the Internet over WiFi, we recommend using the built-in **WiFi provisioning** method. This method is sometimes called Dynamic Auth Token provisioning.
+For devices that can connect to the Internet over WiFi, we recommend using the built-in **WiFi provisioning** method. This method is also called Dynamic Auth Token provisioning.
 
 Using this method, Blynk app, and Blynk.Edgent will take care of telling your devices how to connect to your home or office WiFi network. New Auth Token will be automatically generated and stored on the device. There is no need to specify WiFi credentials and Auth Token in the firmware code. 
 

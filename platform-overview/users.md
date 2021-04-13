@@ -10,9 +10,11 @@ Every registered user on Blynk is always a member of an Organization, even if it
 Types of users are related to, but different from [Roles and Permission](../web-dashboard/settings/access.md).
 {% endhint %}
 
+\*\*\*\*
+
 **Developer:** users of this type have access to all the functionality required to configure the platform for use by end-users \(also called Clients\). This is usually someone who builds the hardware, develops the firmware, and does all the needed configurations.
 
-By default, first user in the Organization becomes a Developer
+By default, the ****first user in Organization becomes a Developer
 
 {% hint style="info" %}
 Currently, only one developer is allowed per Organization to avoid sync issues. This limit might be changed later.
