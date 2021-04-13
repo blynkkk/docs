@@ -14,9 +14,15 @@ Every Device Template has a **Template ID** – ****a unique template identifier
 
 **Events:**  important events in the life of the device that should be logged and, if needed, used for notifications. Events can be triggered from the device itself or externally using HTTP API
 
-**Web Dashboard:**  a set of UI elements \(widgets\) to visualize the data from the device accessible for the users in Blynk.360 – a web-based applications
+Template also includes 2 dashboards: one in the mobile app and the second one on the web.
 
-**Mobile List \(tile\) UI:**  important events in the life of the device that should be logged and, if needed, used for notifications. Events can be triggered from the device itself or externally using HTTP API
+**Web Dashboard:**  a set of UI elements \(widgets\) to visualize the data from the device accessible for the users in Blynk.360 – a web-based application.
 
-**Mobile Dashboard:**  a set of UI elements \(widgets\) to visualize the data from the device accessible for the users in Blynk.360 – a web-based applications
+**Mobile Dashboard:**  a set of UI elements \(widgets\) to visualize the data from the device accessible for the users in mobile apps for Blynk.
+
+a set of UI elements \(widgets\) to visualize the data from the device accessible for the users in Blynk.360 – a web-based applications
+
+**Mobile List \(tile\) UI:**  a visual representation
+
+\*\*\*\*
 
