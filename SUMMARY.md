@@ -13,9 +13,9 @@
 
 * [Device](concepts/device.md)
 * [Device Template](concepts/device-template.md)
-* [Multi-tenancy](concepts/multi-tenant-tree-structure.md)
 * [Users](concepts/users.md)
 * [Organizations](concepts/organizations.md)
+* [Multi-tenancy](concepts/multi-tenant-tree-structure.md)
 
 ## Getting Started
 
