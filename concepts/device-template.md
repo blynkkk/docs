@@ -36,7 +36,7 @@ Template also includes two dashboards:
 
 ### Related Articles
 
-{% page-ref page="../getting-started/working-with-templates.md" %}
+{% page-ref page="../getting-started/working-with-templates/" %}
 
 {% page-ref page="device-template.md" %}
 
