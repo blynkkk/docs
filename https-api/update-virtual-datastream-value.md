@@ -1,6 +1,6 @@
 # Update Virtual Datastream Value
 
-{% api-method method="put" host="https://{server\_address}" path="/external/api/update?token={token}&{pin}={value}" %}
+{% api-method method="get" host="https://{server\_address}" path="/external/api/update?token={token}&{pin}={value}" %}
 {% api-method-summary %}
 Update Datastream value by Virtual Pin
 {% endapi-method-summary %}
@@ -10,7 +10,7 @@ Update Datastream value by Virtual Pin
   
 This endpoint allows you to update the value of the Virtual Datastream  
 **Example:**  
-`https://blynk.cloud/external/api/batch/update?token={token}&v1=100`
+`https://blynk.cloud/external/api/batch/update?token=ffujYGgbf805tgsf&v1=100`
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -44,18 +44,30 @@ Success
 
 {% api-method-response-example httpCode=400 %}
 {% api-method-response-example-description %}
-Could not find a device token
+Could not find a device token  
+or  
+Wrong pin format  
+or  
+Value doesn't match the Datastream data type
 {% endapi-method-response-example-description %}
 
 ```text
 {"error":{"message":"Invalid token."}}
+
+or
+
+{"error":{"message":"Wrong pin format."}}
+
+or
+
+{"error":{"message":"Value doesn't match the Datastream data type"}}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="put" host="https://{server\_address}" path="/external/api/update?token={token}&dataStreamId={id}&value={value}" %}
+{% api-method method="get" host="https://{server\_address}" path="/external/api/update?token={token}&dataStreamId={id}&value={value}" %}
 {% api-method-summary %}
 Update value by Datastream ID
 {% endapi-method-summary %}
@@ -98,11 +110,23 @@ Success
 
 {% api-method-response-example httpCode=400 %}
 {% api-method-response-example-description %}
-Could not find a device token
+Could not find a device token  
+or  
+Wrong dataStreamId format  
+or  
+Value doesn't match the Datastream data type
 {% endapi-method-response-example-description %}
 
 ```text
 {"error":{"message":"Invalid token."}}
+
+or
+
+{"error":{"message":"Wrong dataStreamId format."}}
+
+or
+
+{"error":{"message":"Value doesn't match the Datastream data type"}}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

@@ -72,7 +72,7 @@ They can be of 2 types:
 * Create or Edit 
 * Take Critical Actions
 
-![Edit User modal window](../../.gitbook/assets/user_profile_edit%20%281%29%20%281%29%20%281%29%20%281%29%20%282%29.png)
+![Edit User modal window](../../.gitbook/assets/user_profile_edit%20%281%29%20%281%29%20%281%29%20%281%29%20%282%29%20%282%29.png)
 
 ![Critical action modal window](../../.gitbook/assets/critical_modal.png)
 

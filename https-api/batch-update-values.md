@@ -6,7 +6,7 @@ description: >-
 
 # Batch Update Values
 
-{% api-method method="put" host="https://{server\_address}" path="/external/api/batch/update?token={token}&{pin1}={value1}&{pin2}={value2}" %}
+{% api-method method="get" host="https://{server\_address}" path="/external/api/batch/update?token={token}&{pin1}={value1}&{pin2}={value2}" %}
 {% api-method-summary %}
 Batch update
 {% endapi-method-summary %}
@@ -37,11 +37,33 @@ Datastream data type \(int, double, string
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-
+Success
 {% endapi-method-response-example-description %}
 
 ```
+OK
+```
+{% endapi-method-response-example %}
 
+{% api-method-response-example httpCode=400 %}
+{% api-method-response-example-description %}
+Could not find a device token  
+or  
+Wrong pin format  
+or  
+Value doesn't match the Datastream data type
+{% endapi-method-response-example-description %}
+
+```
+{"error":{"message":"Invalid token."}}
+
+or
+
+{"error":{"message":"Wrong pin format."}}
+
+or
+
+{"error":{"message":"Value doesn't match the Datastream data type"}}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

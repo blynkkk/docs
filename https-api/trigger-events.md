@@ -1,6 +1,6 @@
 # Log Event
 
-{% api-method method="post" host="https://blynk.cloud" path="/external/api/logEvent?token={token}&code={event\_name}&description={event\_desciption}" %}
+{% api-method method="get" host="https://blynk.cloud" path="/external/api/logEvent?token={token}&code={event\_name}&description={event\_desciption}" %}
 {% api-method-summary %}
 Trigger the event by event code
 {% endapi-method-summary %}
@@ -41,16 +41,23 @@ Success
 
 {% api-method-response-example httpCode=400 %}
 {% api-method-response-example-description %}
-Could not find a device token
+Could not find a device token  
+or  
+Typo in code  
+or  
+Could not find event code
 {% endapi-method-response-example-description %}
 
 ```text
 {"error":{"message":"Invalid token."}}
 
+or
 
+{"error":{"message":"Event code is not provided."}}
 
+or
 
-
+{"error":{"message":"Can't find Event with this code in Product template"}}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

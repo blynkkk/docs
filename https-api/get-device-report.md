@@ -25,7 +25,7 @@ is `AVG` by default. Other possible values: `MIN`, `MAX`, `SUM`, `COUNT`
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="tzName" type="string" required=true %}
-is `UTC` by defult
+is `UTC` by defult. Please specify timezones accordingly to `java.time.ZoneId`
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="format" type="string" required=true %}
@@ -56,6 +56,54 @@ is FILE by default. Other posible value: JSON
 
 ```
 JSON
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=400 %}
+{% api-method-response-example-description %}
+Could not find a device token  
+or  
+No device token was provided  
+or  
+Typo in parameter or it's value  
+or  
+Wrong pin format
+{% endapi-method-response-example-description %}
+
+```
+{"error":{"message":"Invalid token."}}
+
+or
+
+{"error":{"message":"No token provided."}}
+
+or
+
+{"error":{"message":"Request with incorrect parameters"}}
+
+or
+
+{"error":{"message":"Wrong pin format."}}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=500 %}
+{% api-method-response-example-description %}
+Wrong constant is used in parameter \(specified in the end of the string\)  
+or  
+There is no data for specified pin or datastream
+{% endapi-method-response-example-description %}
+
+```
+{"error":{"message":"No enum constant cc.blynk.server.core.model.widgets.outputs.graph.Period.YEAR"}}
+
+or
+
+{"error":{"message":"No data"}}
+
+or
+
+{"error":{"message":"Wrong pin format."}}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

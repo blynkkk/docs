@@ -31,17 +31,23 @@ Value successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```text
-3.14
+100.00000
 ```
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=400 %}
 {% api-method-response-example-description %}
-Could not find a device token
+Could not find a device token  
+or  
+Wrong pin format
 {% endapi-method-response-example-description %}
 
 ```text
 {"error":{"message":"Invalid token."}}
+
+or
+
+{"error":{"message":"Wrong pin format."}}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
@@ -79,17 +85,29 @@ Value successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```text
-3.14
+100.00000
 ```
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=400 %}
 {% api-method-response-example-description %}
-Could not find a device token
+Could not find a device token  
+or  
+Typo in dataStreamID  
+or  
+Requested dataStream doesn't exist in the product ESP32 QA
 {% endapi-method-response-example-description %}
 
 ```text
 {"error":{"message":"Invalid token."}}
+
+or
+
+{"error":{"message":"Wrong pin format."}}
+
+or
+
+{"error":{"message":"Requested dataStream doesn't exist in the product ESP32 QA"}}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
