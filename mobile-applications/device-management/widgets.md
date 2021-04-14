@@ -63,15 +63,21 @@ Step control is like 2 buttons assigned to 1 pin. One button increments your val
 
 ### Step V
 
-Step control is like 2 buttons assigned to 1 pin. One button increments your value by desired step and another one decrements it. It is very useful for use cases where you need to change your values very precisely and you can't achieve this precision with slider widget.Buttons orientation is vertical.
+Step control is like 2 buttons assigned to 1 pin. One button increments your value by desired step and another one decrements it. It is very useful for use cases where you need to change your values very precisely and you can't achieve this precision with slider widget. Buttons orientation is vertical.
 
 ### Slope Control
 
 ### Switch
 
+Simple switch that handles binary states.
+
 ### Level Slider
 
+This widget combines functions of level and slider simultaneously. 
+
 ### Level Slider with Switch
+
+Same as Level Slider with additional Switch option \(the same or different Datastream can be assigned\)
 
 ## Displays
 
