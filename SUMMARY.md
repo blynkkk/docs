@@ -162,6 +162,7 @@
 ## Blynk.Edgent
 
 * [Overview](blynk.edgent/overview.md)
+* [Supported Boards](blynk.edgent/supported-boards.md)
 * [Installation](blynk.edgent/installation.md)
 * [Main Operations](blynk.edgent/mainoperations.md)
 * [API](blynk.edgent/api/README.md)
@@ -171,7 +172,6 @@
   * [Timer](blynk.edgent/api/blynk-timer.md)
   * [Debug](blynk.edgent/api/debug.md)
   * [Other](blynk.edgent/api/other.md)
-* [Supported Boards](blynk.edgent/supported-boards.md)
 
 ## BLYNK.CLOUD \(HTTPS API\) <a id="https-api"></a>
 
