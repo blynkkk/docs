@@ -11,7 +11,7 @@ Now try triggering the switch ON / OFF states and you'll see the data appear on 
 
 ![](../../.gitbook/assets/file-4-.jpg)
 
-Additionally, you can set up the same widgets with the same datastreams on the web dashboard and see that all actions are synced between the web and mobile app.
+Make sure you have set up the same widgets with the same datastreams on the [web dashboard](set-up-web-dashboard.md) and check how all actions and value updates are synced between the web and mobile app.
 
 ![](../../.gitbook/assets/image%20%2824%29.png)
 
