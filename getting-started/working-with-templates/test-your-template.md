@@ -1,6 +1,6 @@
 # Test your Template
 
-Let's check if everything up and running!   
+Let's check if everything is up and running!   
   
 Firstly, add a [new device](../activating-devices/) that will inherit your new template.  
 After adding it, its dashboard should look like this
