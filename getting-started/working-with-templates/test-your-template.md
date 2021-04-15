@@ -2,7 +2,7 @@
 
 Let's check if everything is up and running!   
   
-Firstly, add a [new device](../activating-devices/) that will inherit your new template.  
+Firstly, add a [new device ](../activating-devices/blynk-edent-wifi-provisioning.md)that will inherit your new template.  
 After adding it, its dashboard should look like this
 
 ![](../../.gitbook/assets/file-3-.jpg)
