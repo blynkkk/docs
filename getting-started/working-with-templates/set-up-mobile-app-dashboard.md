@@ -34,7 +34,7 @@ There are currently 6 Tiles presets with different interactions:
 Choose the Icon Button Template  
 
 
-![](../../.gitbook/assets/image%20%2824%29.png)
+![](../../.gitbook/assets/image%20%2826%29.png)
 
 The template settings will open. Select the datastream that will be linked to the button action. 
 
