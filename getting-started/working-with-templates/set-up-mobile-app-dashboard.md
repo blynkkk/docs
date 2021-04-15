@@ -31,13 +31,20 @@ There are currently 6 Tiles presets with different interactions:
 * **Image** – shows Icon or Image on the Tile. No quick actions. 
 * **3 Labels** – it's a hybrid of Default and Icon Button. You can display up to 3 important values.
 
-Choose the BUTTON TEMPLATE
-
-SCREENSHOT
+Choose the Icon Button Template  
 
 
+![](../../.gitbook/assets/image%20%2824%29.png)
+
+The template settings will open. Select the datastream that will be linked to the button action. 
+
+Select the Button mode - Switch. It will allow switching controlling the state of the datastream when tapping the device tile. Press OK.
+
+![](../../.gitbook/assets/img_0090%20%281%29.png)
 
 ## Create Mobile Dashboard
+
+![](../../.gitbook/assets/img_0091.png)
 
 Now you can start building a mobile UI for your device. Tap anywhere on the canvas and add these widgets: 
 
@@ -47,29 +54,33 @@ Now you can start building a mobile UI for your device. Tap anywhere on the canv
 
 ### Switch Widget Settings
 
-SCREENSHOT
+Give it a title, select the datastream
+
+![](../../.gitbook/assets/img_0093.png)
 
 
 
-### Label Widget Settings
+### Labeled Value Settings
 
-SCREENSHOT
+For example, you want to show a temperature in the labeled value widget.   
+Pick a datastream for temperature, also you can define a text before or after the value
+
+![](../../.gitbook/assets/file-2-.jpg)
+
+
 
 ### 
 
 ###  Chart Widget Settings
 
-SCREENSHOT
+Now choose a SuperChart widget, set up 2 datastreams for example for power and temperature.   
 
 
+![](../../.gitbook/assets/file-1-.jpg)
+
+Now your template is ready. Let's finish with the sketch and make it work.  
+  
 
 
-
-
-
-### 
-
-
-
-Now your template is ready. Let's finish with the sketch and make it work.
+![](../../.gitbook/assets/img_0097.png)
 
