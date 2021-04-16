@@ -161,9 +161,9 @@ BLYNK_WRITE(V5) // Executes when the value of virtual pin 5 changes
     digitalWrite(12,HIGH);  // Set digital pin 12 HIGH
 
     Blynk.virtualWrite(V1,1);  // Turn the widget attached to V1 On
-    Blynk.virtualWrite(V2,1);  // Turn the widget attached to V1 On
-    Blynk.virtualWrite(V3,1);  // Turn the widget attached to V1 On
-    Blynk.virtualWrite(V4,1);  // Turn the widget attached to V1 On
+    Blynk.virtualWrite(V2,1);  // Turn the widget attached to V2 On
+    Blynk.virtualWrite(V3,1);  // Turn the widget attached to V3 On
+    Blynk.virtualWrite(V4,1);  // Turn the widget attached to V4 On
   {
   else
   {
@@ -174,9 +174,9 @@ BLYNK_WRITE(V5) // Executes when the value of virtual pin 5 changes
     digitalWrite(12,LOW);  // Set digital pin 12 LOW
 
     Blynk.virtualWrite(V1,0);  // Turn the widget attached to V1 Off
-    Blynk.virtualWrite(V2,0);  // Turn the widget attached to V1 Off
-    Blynk.virtualWrite(V3,0);  // Turn the widget attached to V1 Off
-    Blynk.virtualWrite(V4,0);  // Turn the widget attached to V1 Off
+    Blynk.virtualWrite(V2,0);  // Turn the widget attached to V2 Off
+    Blynk.virtualWrite(V3,0);  // Turn the widget attached to V3 Off
+    Blynk.virtualWrite(V4,0);  // Turn the widget attached to V4 Off
   }
 }
 ```
