@@ -24,7 +24,7 @@ Hover Actions Menu near the Name to access following options.
 
 Click to open User Profile edit modal window
 
-![Edit User Profile modal window](../.gitbook/assets/user_profile_edit%20%281%29%20%281%29%20%281%29%20%281%29%20%282%29%20%282%29%20%282%29.png)
+![Edit User Profile modal window](../.gitbook/assets/user_profile_edit%20%281%29%20%281%29%20%281%29%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
 
 **Name** – here you can edit user name displayed in Blynk Platform. Use only letters, hyphens, dots and spaces. 60 characters limit.
 

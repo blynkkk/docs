@@ -71,7 +71,14 @@ Control servo movements in 4 directions by moving the knob in two axis.
 
 zeRGBa is usual RGB controller \(color picker\).
 
+Move the scope throught the zeRGBa to pick a color.
+
 ### RGB Light Control
+
+Color  
+Button  
+Brightness  
+Animation Speed
 
 ### Step H
 
@@ -117,55 +124,110 @@ It is an enhanced version of 'Value Display'
 
 ### LED
 
+A simple LED for indication.
+
 ### Gauge
+
+A great visual way to display incoming numeric values.
 
 ### Radial Gauge
 
-Enhanced Gauge
+### Enhanced Gauge
 
-LCD
+### LCD
 
-SuperChart
+This is a regular 16x2 LCD display made in our secret facility in China.
 
-Terminal
+### SuperChart
 
-Video Streaming
+SuperChart is used to visualise live and historical data. It can view sensor data, for binary event logging and more.
 
-Level H
+**Interactions:**
 
-Level V
+* **Switch between time ranges and Live mode** Tap time ranges at the bottom of the widget to change time ranges
+* **Tap Legend Elements** to show or hide datastreams
+* **Tap'n'hold to view timestamp and corresponding values**
+* **Quick swipe from left to right to reveal previous data** Then you can then scroll data back and forward within the given time range.
+* **Full Screen Mode** Press this button to open Full Screen view in landscape orientation.
 
-Image Gallery
+Simply rotate the phone back to portrait mode. Chart should rotate automagically. In full screen view you will see X \(time\) and multiple Y scales. Full Screen Mode can be disabled from widget Settings.
 
-Gradient Ramp
+* **Menu Button** Menu button will open additional functions:
+  * Export to CSV
+  * Erase Data on the server
 
-Icon
+### Terminal
+
+Displays data from your hardware. Allows to send any string to your hardware. Terminal always stores last 25 messages your hardware had send to Blynk Cloud.
+
+```text
+// Print values, like Serial.print
+terminal.print();   
+// Print values, like Serial.println()
+terminal.println();
+ // Write a raw data buffer
+terminal.write();
+// Ensure that data was sent out of device
+terminal.flush();
+// Erase all values in the terminal
+terminal.clear();
+```
+
+### Video Streaming
+
+Simple widget that allows you to view any live or video stream. Widget supports RTSP \(RP, SDP\), HTTP/S progressive streaming, HTTP/S live streaming. 
+
+You can stop/start video stream with click on widget.
+
+### Level H
+
+### Level V
+
+### Image Gallery
+
+### Gradient Ramp
+
+### Icon
 
 ## Interface
 
-Tabs
+### Tabs
 
-Menu
+The only purpose of Tabs widget is to extend project space.
 
-Map
+### Menu
 
-Text Input
+Menu widget allows you to send command to your hardware based on selection you made on UI.
 
-Numeric Input
+### Map
 
-Segmented Switch
+This is very useful widget in case you have multiple devices and you want track their values on map.
 
-Icon Segmented Switch
+### Text Input
 
-Text
+Text Input displays and let's you directly alter a string value.
+
+### Numeric Input
+
+Numeric Input displays and let's you directly alter a number value. Similar to the Step widget, it has incrementing and decrementing buttons for quicker values changes.
+
+### Segmented Switch
+
+Segmented Switch widget allows you to send command to your hardware based on selection you made on UI.
+
+### Icon Segmented Switch
+
+### Text
 
 ## Other
 
-Music Player
+### Music Player
 
-WebPage Button
+Simple UI element with 3 buttons - simulates music player interface. Every button sends it's own command to hardware : `play`, `stop`, `prev`, `next`.
 
-WebPage Image Button
+### WebPage Button
 
-Alias Name
+### WebPage Image Button
+
+### Alias Name
 
