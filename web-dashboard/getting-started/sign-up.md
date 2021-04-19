@@ -8,15 +8,7 @@ These are the main ways of how users can sign up:
 2. By downloading Blynk [Mobile application](../../mobile-applications/untitled/) and following registration process in the app
 3. By getting an invitation from existing user \(available in paid plans only\)
 
-**&gt;Need a screenshot of a web login, mobile application login, email with invitation. All on a single screenshot.**
-
-![](../../.gitbook/assets/log-in.png)
-
-
-
-
-
-\*\*\*\*
+![Blynk.App and Blynk.360 Sign Up screens + Invitation Email](../../.gitbook/assets/log-in-screens.png)
 
 ## Sign Up Step-By-Step
 
