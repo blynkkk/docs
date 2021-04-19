@@ -8,14 +8,11 @@ Application generally consists of [main screen](./overview.md#main-screen) and 2
 
 ## Main screen 
 
-![](../.gitbook/assets/1-main-screen.png)
-
-The main app screen consists of up to 3 tabs depending on the configuration:  
+The main screen consists of up to 3 tabs depending on the configuration: [Devies](./overview.md#devices), [Automation](./overview.md#Automation) and [Notifications](./overview.md#Notifications)
 
 
 ### **Devices**
-
-![](../.gitbook/assets/2-no-devices.png)
+![](../.gitbook/assets/2-no-devices.png)  ![](../.gitbook/assets/1-main-screen.png)
 
 This section is open by default when you open the app. When there are no devices yet, there's a button "Add new device".  
 All created devices will be listed here and their tiles will look according to their [template ](../web-dashboard/products/)type.
@@ -36,11 +33,11 @@ You can automate your connected devices with the following triggers:
 * Device trigger
 * Manual execution \(Scenes\)
 
-### **Alerts**
+### **Notifications**
 
 ![](../.gitbook/assets/alerts.png)
 
-The list of important alerts from all devices will be here. 
+The list of notificatios and important alerts from all devices will be here. 
 
 {% hint style="info" %}
 In order to be listed here, the template should have the [Event](../web-dashboard/products/events/) configured and the event should be [triggered](../web-dashboard/products/events/how-to-trigger-events.md) in the device.
