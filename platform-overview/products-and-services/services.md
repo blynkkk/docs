@@ -1,10 +1,10 @@
 # Services
 
-Blynk services \(or micro-services\) are software modules that work across products and perform a certain set of functionality.
+Blynk services (or micro-services) are software modules that work across products and perform a certain set of functionality.
 
 ### Blynk.Inject
 
-![Icon of of Blynk.inject](../../.gitbook/assets/image-placeholder.png)
+![Icon of of Blynk.inject](../../.gitbook/assets/wi-fi-wizard.png)
 
 A  micro-service for:
 
@@ -13,13 +13,15 @@ A  micro-service for:
 3. Managing Authentication Tokens
 4. UX flow to guide end-users through the process of claiming and provisioning with the help of Blynk.app
 
-Full documentation on Blynk.Inject is here {LINK}
+To get understanding of the Blynk Inject take a look at the below videos:
 
-\*\*\*\*
+[![Blynk Inject flow. Blynk](http://img.youtube.com/vi/bXPEEmsEtPM/0.jpg)](http://www.youtube.com/watch?v=bXPEEmsEtPM "Blynk Inject flow. Blynk")
+[![Blynk Inject flow. Plaato](http://img.youtube.com/vi/4RGAn0tlrHs/0.jpg)](http://www.youtube.com/watch?v=4RGAn0tlrHs "Blynk Inject flow. Plaato")
+[![Blynk Inject flow. Cama Cooler](http://img.youtube.com/vi/GPneDxWvp4U/0.jpg)](http://www.youtube.com/watch?v=GPneDxWvp4U "Blynk Inject flow. Cama Cooler")
 
 ### Blynk.**R**
 
-![Icon of of Blynk.R](../../.gitbook/assets/image-placeholder.png)
+![Icon of of Blynk.R](../../.gitbook/assets/blynk-permissions.png)
 
 A micro-service for user management, covering
 
@@ -31,14 +33,12 @@ A micro-service for user management, covering
 
 ### Blynk.Air
 
-![Icon of of Blynk.Air](../../.gitbook/assets/image-placeholder.png)
+![Icon of of Blynk.Air](../../.gitbook/assets/air.png)
 
 A  micro-service for Firmware Over-the-Air Updates responsible for: 
 
 1. Managing Firmware Over-the-Air Updates shipping campaigns
 2. Installing new firmware on the edge devices
-
-Full documentation on Blynk.Inject is here {LINK}
 
 
 

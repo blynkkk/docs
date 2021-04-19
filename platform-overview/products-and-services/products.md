@@ -10,8 +10,6 @@
 2. Management of devices, their data, users, organizations and locations 
 3. Remote monitoring and control of devices
 
-Full documentation on Blynk.360 is [here]()
-
 ## Blynk.App
 
 ![](../../.gitbook/assets/screenshot_2021-03-25-21-07-56-35.jpg)
@@ -47,6 +45,8 @@ Full documentation on Blynk.Edgent is [here](../../blynk.edgent/overview.md)
 ## Blynk.Cloud
 
 **Blynk.Cloud** is a server infrastructure – heart of Blynk IoT platform. Cloud is responsible for binding all the platform components together. 
+
+Blynk also offers an on premise solutions for its clients. See the offerings and prices [here](https://blynk.io/pricing).
 
 
 

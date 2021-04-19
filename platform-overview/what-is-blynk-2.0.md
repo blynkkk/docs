@@ -12,5 +12,5 @@ Blynk is a [multi-tenant](../concepts/multi-tenant-tree-structure.md) solution. 
 
 Applications made with Blynk are ready for the end-users. Whether this is your family member, employee, or someone who has purchased your product, they will be able to download the app, connect the device and start using it.
 
-Blynk is a white-label solution, which means that you can add your company logo, app icon, and publish the app to App Store and Google Play under your company name. These apps will work with your devices.
+Blynk is a white-label solution, which means that you can add your company logo, app icon, choose the theme, colors, and publish the app to App Store and Google Play under your company name. These apps will work with your devices.
 
