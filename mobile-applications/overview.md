@@ -8,14 +8,17 @@ Application generally consists of [main screen](./overview.md#main-screen) and 2
 
 ## Main screen 
 
-The main screen consists of up to 3 tabs depending on the configuration: [Devies](./overview.md#devices), [Automation](./overview.md#Automation) and [Notifications](./overview.md#Notifications)
+The main screen consists of up to 3 tabs depending on the configuration: [Devies](./overview.md#devices), [Automation](./overview.md#automation) and [Notifications](./overview.md#notifications)
 
 
 ### **Devices**
 ![](../.gitbook/assets/2-no-devices.png)  ![](../.gitbook/assets/1-main-screen.png)
 
-This section is open by default when you open the app. When there are no devices yet, there's a button "Add new device".  
-All created devices will be listed here and their tiles will look according to their [template ](../web-dashboard/products/)type.
+This section is open by default when you open the app. All created devices will be listed here and their tiles will look according to their [template ](../web-dashboard/products/)type.
+To add new device go to the [Right](./overview.md#right-menu) menu by tapping the top right button in the navigation bar. There are also options to change how devices are sorted.
+
+If there are no devices yet, there is a button "Add new device" in the middle wich takes you right to the device provisioning routine. 
+
 
 ### **Automation**
 
