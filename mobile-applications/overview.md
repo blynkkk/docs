@@ -88,11 +88,11 @@ At the top left corner, there's a **Profile** icon that will open the main menu 
 
 ## **Right menu**
 
-At the top left corner, there's a hamburger icon that will open the right sidebar menu when you tap on it.  
-Depending on the active section it offers to add new Device or create new Automation.
-
 ![](../.gitbook/assets/sidebar-opened-2-.png)
 
-In the devices section, this menu also offers the sorting options for the device list.  
+At the top right corner, there's a hamburger icon that will open the right sidebar menu when you tap on it.  
+Depending on the active tab on the [Main screen](./overview.md#main-screen) it offers to add new Device, create new Automation, new Group, etc.
+
+This menu also offers the verious sorting and stacking options for the devices and device groups list.  
 
 
