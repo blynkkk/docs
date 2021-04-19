@@ -93,6 +93,6 @@ At the top left corner, there's a **Profile** icon that will open the main menu 
 At the top right corner, there's a hamburger icon that will open the right sidebar menu when you tap on it.  
 Depending on the active tab on the [Main screen](./overview.md#main-screen) it offers to add new Device, create new Automation, new Group, etc.
 
-This menu also offers the verious sorting and stacking options for the devices and device groups list.  
+This menu also offers the various sorting and stacking options for the devices and device groups list.  
 
 
