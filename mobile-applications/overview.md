@@ -4,6 +4,8 @@ description: Blynk.App main tabs and features
 
 # Overview
 
+Application generally consists of [main screen](./overview.md#main-screen) and 2 menu sliders: the [main one](./overview.md#main-menu) (slides from the left) and [secondary one](./overview.md#right-menu) that slides from the right.
+
 ## Main screen 
 
 ![](../.gitbook/assets/1-main-screen.png)
