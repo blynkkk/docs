@@ -14,23 +14,22 @@ Blynk offers a complete WiFi provisioning solution, which includes a firmware co
 Currently, WiFi provisioning only works on ESP32 and ESP8266
 {% endhint %}
 
-### \*\*\*\*
 
 ### **How WiFI provisioning works**
 
 You can skip this part as this is something you don't have to think about because Blynk does everything for you. But it might be helpful to understand how it works under the hood
 
-1. In the beginning, your hardware will act as an Access Point \(AP\). It means that your device will broadcast its own WiFi network with an SSID\(name\) similar to `Blynk-something-1234`
-2. Your smartphone will connect to this AP with the Blynk app \(or from smartphone settings\) and they will start communicating directly with each other.
-3. When the connection with the device is established, Blynk app will ask you for the name \(SSID\) and password of the WiFi network you would like to connect this device to.
-4. This WiFi information \(SSID and password\) will be sent to the device
-5. Also, Blynk app will request an Auth Token from the server and then send it to the device.
-6. Your device will store all of this items in EEPROM
-7. After that, device will automatically reboot. The AP mode will be turned off.
-8. Device will use the WiFi credentials you provided to connect to your home or office WiFi network.
-9. When connected to WiFI, your device will connect to the Blynk Cloud using the Auth Token from step 5. 
-10. After the successful authentication, the device is added to your account and ready to use.
-11. If you later need to connect to this device to a different network, WiFi credentials can be changed by using Blynk app or by resetting the device with a physical button \(you would need to plan it into your electrical circuit design\)
+1. In the beginning, your hardware will act as an Access Point (AP). It means that your device will broadcast its own WiFi network with an SSID (name) similar to `Blynk-something-1234`;
+2. Your smartphone will connect to this AP with the Blynk app (or from smartphone settings) and they will start communicating directly with each other;
+3. When the connection with the device is established, Blynk app will ask you for the name (SSID) and password of the WiFi network you would like to connect this device to;
+4. This WiFi information (SSID and password) will be sent to the device;
+5. Also, Blynk app will request an Auth Token from the server and then send it to the device;
+6. Your device will store all of this items in EEPROM;
+7. After that, device will automatically reboot. The AP mode will be turned off;
+8. Device will use the WiFi credentials you provided to connect to your home or office WiFi network;
+9. When connected to WiFI, your device will connect to the Blynk Cloud using the Auth Token from step 5; 
+10. After the successful authentication, the device is added to your account and ready to use;
+11. If you later need to connect to this device to a different network, WiFi credentials can be changed by using Blynk app or by resetting the device with a physical button (you would need to plan it into your electrical circuit design).
 
 Now let's make it work for your devices.
 
@@ -109,7 +108,7 @@ Now your device is ready to be activated using Blynk app.
 3. App will scan the WiFi networks around you and offer to connect to your device. In our example, device name will be:  **Blynk Root Template-FAD8F**
 4. Once the connection is established, the Blynk app will guide you through the provisioning process.
 
-A SEQUENCE OF SCREENSHOTS \(OR GIF animation\)
+A SEQUENCE OF SCREENSHOTS (OR GIF animation)
 
 _WiFI credentials -&gt; Waiting -&gt; all Checkmarks checked_ 
 

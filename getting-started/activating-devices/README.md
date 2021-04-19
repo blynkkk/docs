@@ -4,10 +4,10 @@ The goal of this tutorial is to guide you through the steps needed to get your f
 
 ### **1. Enable Developer Mode** 
 
-Before moving further, check that you have Developer Mode enabled. Here is how to check it:
+Before moving further, check that you have Developer Mode enabled:
 
 1. In the Blynk app or in Blynk.360
-2. Navigate to **My Profile**
+2. Navigate to **My Profile** / **User profile** in the left menu
 3. Check that **Developer Mode** switch is set to ON
 
 {% hint style="warning" %}
@@ -22,7 +22,7 @@ Currently, **only one developer is allowed per Organization** to avoid sync issu
 2. Go to Templates -&gt; Create New Template or open existing template  
 3. Check the Firmware Configuration code lines. You will need them later 
 
-### \*\*\*\*
+
 
 ### **3. Add Device** 
 
@@ -57,7 +57,7 @@ The main difference from WiFi provisioning is that for every device AuthToken sh
 
 This method is recommended for devices that can connect to the internet using Ethernet, Cellular \(2G, 3G, 4G, LTE\) or other types of connection \(that don't require custom WiFi credentials for example\). 
 
-Static Auth Token is often used during the prototyping stage. However, Blynk also offers a complete solution to work with Static tokens in commercial applications  
+Static Auth Token is often used during the prototyping stage. However, Blynk also offers a complete solution to work with Static tokens in the commercial applications.  
 
 Read the full guide on how to use Static Auth Token:
 

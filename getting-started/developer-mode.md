@@ -11,12 +11,12 @@ Developer can:
 * Create and configure a mobile dashboard UI
 * Add new devices to the account
 * Publish Templates to Blynk.Marketplace \(work in progress\)
-* User other features accordingly to the chosen [plan](https://blynk.io/pricing%20)
+* Use other features accordingly to the chosen [plan](https://blynk.io/pricing)
 
 ### **Enable Developer Mode** 
 
 1. In the Blynk app or in Blynk.360
-2. Navigate to **My Profile**
+2. Navigate to **My Profile** / **User profile** in the left menu
 3. Check that **Developer Mode** switch is set to ON
 
 {% hint style="warning" %}
