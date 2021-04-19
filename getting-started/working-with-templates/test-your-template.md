@@ -1,7 +1,6 @@
 # Test your Template
 
-Let's check if everything is up and running!   
-
+Let's check if everything is up and running! 
 
 ## Add device
 

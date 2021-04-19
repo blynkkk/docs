@@ -20,7 +20,7 @@
 2. Configuration of mobile UI during prototyping and production stages
 3. Automate work of connected devices
 
-Blynk.app is a white-label solution. 
+Blynk.app is a white-label solution.
 
 Full documentation on Blynk.App is [here](../../mobile-applications/overview.md)
 
@@ -30,7 +30,7 @@ Full documentation on Blynk.App is [here](../../mobile-applications/overview.md)
 
 **Blynk.Edgent** is a lightweight embedded library that runs on over 400 supported hardware models
 
-Main functions of Blynk.Edgent are: 
+Main functions of Blynk.Edgent are:
 
 1. Device claiming and Wi-Fi provisioning \(bringing device online and authenticating them with a certain user\)
 2. Connectivity management \(WiFi, Cellular, Ethernet\)
@@ -40,13 +40,9 @@ Main functions of Blynk.Edgent are:
 
 Full documentation on Blynk.Edgent is [here](../../blynk.edgent/overview.md)
 
-
-
 ## Blynk.Cloud
 
-**Blynk.Cloud** is a server infrastructure – heart of Blynk IoT platform. Cloud is responsible for binding all the platform components together. 
+**Blynk.Cloud** is a server infrastructure – heart of Blynk IoT platform. Cloud is responsible for binding all the platform components together.
 
 Blynk also offers an on premise solutions for its clients. See the offerings and prices [here](https://blynk.io/pricing).
-
-
 
