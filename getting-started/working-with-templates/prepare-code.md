@@ -1,17 +1,16 @@
 # Prepare Your Code
 
-A code example for ESP32/ ESP 8266 / Arduiono 
+A code example for ESP32/ ESP 8266 / Arduiono
 
 {% tabs %}
 {% tab title="ESP32" %}
-### 3 simple steps to configure your code:
+## 3 simple steps to configure your code:
+
 1. [Install Blynk library](http://help.blynk.cc/en/articles/512105-how-to-install-blynk-library-for-arduino-ide)
-2. Specify [Template ID and Template Name](getting-started/working-with-templates/prepare-code.md) in your firmware
+2. Specify [Template ID and Template Name](https://github.com/blynkkk/docs/tree/7a3c08cef5784864e5581561ccda90b394717039/getting-started/working-with-templates/getting-started/working-with-templates/prepare-code.md) in your firmware
 3. Upload this sketch into your test board
-****
+
 **Final step:** [Provision your board via Dynamic Provisioning flow](https://docs.blynk.io/en/getting-started/activating-devices#3-add-device) and add it to your account using Blynk app
-
-
 
 Example of a code with **basic functions** that you can use for your test product:
 
@@ -57,6 +56,4 @@ Instructions and code for Static Token
 JS code \(can be added later\)
 {% endtab %}
 {% endtabs %}
-
-
 

@@ -1,8 +1,8 @@
 # Developer Mode
 
-**Developer** is a special user who has access to all the functionality required to configure the platform for use by end-users \(also called Clients\). This is usually someone who builds the hardware, develops the firmware, and does all the needed configurations.
+**Developer** is a special user who has access to all the functionality required to configure the platform for the use by end-users \(also called Clients or End-Customers\). This is usually someone who builds the hardware, develops the firmware, and does all the needed configurations.
 
-By default, the _\*\*_first user in the Organization becomes a Developer.
+By default, first user in the Organization becomes a Developer.
 
 Developer can:
 
