@@ -4,19 +4,16 @@ A code example for ESP32/ ESP 8266 / Arduiono
 
 {% tabs %}
 {% tab title="ESP32" %}
-You would need a Template ID and Template Name. 
+### 3 simple steps to configure your code:
+1. [Install Blynk library](http://help.blynk.cc/en/articles/512105-how-to-install-blynk-library-for-arduino-ide)
+2. Specify [Template ID and Template Name](getting-started/working-with-templates/prepare-code.md) in your firmware
+3. Upload this sketch into your test board
+****
+**Final step:** [Provision your board via Dynamic Provisioning flow](https://docs.blynk.io/en/getting-started/activating-devices#3-add-device) and add it to your account using Blynk app
 
-Link to how to install library, etc. 
-
-Go to .... here... there... and copy to clipboard
 
 
-
-This sketch should: 
-
-1. Generate random data between 20 and 30 and store it to V0 every 1 second. Add comments about how important the timer is. 
-2. Accept the incoming value from Switch Widget to V1
-3. When V1 is ON, add 70 to V0 value \(so that users see that values were affected by the switch
+Example of a code with **basic functions** that you can use for your test product:
 
 ```cpp
 #define BLYNK_TEMPLATE_ID             ""
