@@ -7,28 +7,13 @@ description: This tutorial will help you with creating Events for your Templates
 Events shows the current status of the device on Devices Timeline in historical order.  
 This feature is extra handy for monitoring informational, warning and critical states of the Devices.
 
-## [Create a Template](working-with-templates/) or use an existing one
+## 1. [Create a Template](working-with-templates/) or use an existing one
 
-1. Open Blynk.360
-2. navigate to **Templates** 
-3. select Template or click New Template
-4. click **Edit** button \(if you've selected an existing Template\)
-
-![blank Template section](../.gitbook/assets/create_template.png)
-
-5. provide general information about the Product
-
-![](../.gitbook/assets/create_template2.png)
-
-6. Fill in the necessary field in the [Info tab.](../web-dashboard/products/info/)
-
-![provide additional info and click Save once it&apos;s done ](../.gitbook/assets/create_template3.png)
-
-## [Create the Device](../web-dashboard/search/devices-1/#create-device) that will be used with this Template
+## 2. [Create the Device](../web-dashboard/search/devices-1/#create-device) that will be used with this Template
 
 ![](../.gitbook/assets/create_device.png)
 
-## Create Events 
+## 3. Create Events 
 
 \(also this could be done at Template creation stage\)
 
@@ -52,7 +37,7 @@ _**Note:**_ there are two default events \(and they can't be edited\): Online an
 
 ![](../.gitbook/assets/apply_events_to_devices.png)
 
-## Check Events to be applied.
+## 4. Check Events to be applied.
 
 We'll do this using [HTTPS API](../https-api/trigger-events.md)
 
