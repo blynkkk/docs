@@ -1,25 +1,32 @@
 # Metadata Tutorial
 
+Metadata is a set of characteristics \(or configurations\) applied to every Template and associated with every Device. This information will be used for Device Provisioning and [Device Management](../mobile-applications/device-management/). ****Staff, installing the equipment will be able to fill it in.  
+  
+It's represented by a table in Blynk.360 with Name, Type and Value columns.
 
+## **1.** [Create a Template](working-with-templates/) or use an existing one
 
-## [Create a Template](working-with-templates/) or use an existing one
+## **2. Create Metadata**
 
-1. Open Blynk.360
-2. navigate to **Templates** 
-3. select Template or click New Template
-4. click **Edit** button \(if you've selected an existing Template\)
+1. Open Template
+2. Click **Edit** at the top right
+3. Switch to Metadata tab
 
-![blank Template section](../.gitbook/assets/create_template.png)
+![](../.gitbook/assets/metadata.png)
 
-5. provide general information about the Product
+4. Click **Add Metadata**.   
+Choose the most relevant [type ](../web-dashboard/products/metadata/metadata-types.md)for every characteristic. For example, if you would need to associate Serial Number with every product, add the “Number” metadata field.   
+5. Set it up and click **Create** button once you've finished with this characteristic 
 
-![](../.gitbook/assets/create_template2.png)
+![](../.gitbook/assets/add_new_metadata.png)
 
-6. Fill in the necessary field in the [Info tab.](../web-dashboard/products/info/)
+6. Repeat steps 4 and 5 untill you create Metadata list you need  
+7. Click **Save** Template at the top right  
+8. Choose Apply Changes option \(let's select Save Changes. Don't update active device this time\) and click **Continue**
 
-![provide additional info and click Save once it&apos;s done ](../.gitbook/assets/create_template3.png)
+![](../.gitbook/assets/apply_settings.png)
 
-## Create Metadata
+## 3. [Add Device](../mobile-applications/device-management/add-new-device.md) and provide it's Metadata
 
 
 
