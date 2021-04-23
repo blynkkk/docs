@@ -7,13 +7,13 @@ description: This tutorial will help you with creating Events for your Templates
 Events shows the current status of the device on Devices Timeline in historical order.  
 This feature is extra handy for monitoring informational, warning and critical states of the Devices.
 
-## 1. [Create a Template](working-with-templates/) or use an existing one
+### 1. [Create a Template](working-with-templates/) or use an existing one
 
-## 2. [Create the Device](../web-dashboard/search/devices-1/#create-device) that will be used with this Template
+### 2. [Create the Device](../web-dashboard/search/devices-1/#create-device) that will be used with this Template
 
 ![](../.gitbook/assets/create_device.png)
 
-## 3. Create Events 
+### 3. Create Events 
 
 \(also this could be done at Template creation stage\)
 
@@ -22,7 +22,7 @@ _**Note:**_ there are two default events \(and they can't be edited\): Online an
 
 ![](../.gitbook/assets/default_events.png)
 
-### Let's create 2 events with names Hello and Error
+#### Let's create 2 events with names Hello and Error
 
 1. click **Add New Event**
 2. provide info on ****[**General tab**](../web-dashboard/products/events/general.md)\*\*\*\*
@@ -37,7 +37,7 @@ _**Note:**_ there are two default events \(and they can't be edited\): Online an
 
 ![](../.gitbook/assets/apply_events_to_devices.png)
 
-## 4. Check Events to be applied.
+### 4. Check Events to be applied.
 
 We'll do this using [HTTPS API](../https-api/trigger-events.md)
 
