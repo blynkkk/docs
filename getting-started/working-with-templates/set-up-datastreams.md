@@ -1,6 +1,6 @@
 # Set Up Datastreams
 
-## 4. **Add First Datastream**
+## **Add First Datastream**
 
 For the goal of this tutorial skip the Metadata Tab and go to Datastreams tab. 
 
@@ -26,7 +26,7 @@ Skip all the other settings. When done, press Create and the new Datastream will
 
 These settings mean that all the devices that inherit this Template will process `integers` in the range  of  `0 to 100` through a `Virtual Pin V0`
 
-## 4. **Add a Second Datastream**
+## **Add a Second Datastream**
 
 Click on **Add Datastream** button again. Choose **Enumerable** type in the dropdown menu and set up the Datastream. We will be using this Datastream to send a value from mobile and web dashboards to the device.
 
