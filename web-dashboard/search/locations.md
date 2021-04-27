@@ -34,9 +34,9 @@ There are 5 specific columns:
 
 * **Location Name** 
 * **Full Address** – displays full address of the Location
-* **Owner Name**– displays the Name of user who assigned to this Location
-* **Country-**displays the country where the Location is located
-* **Owner E-mail -** displays E-mail of  user who assigned to this Location
+* **Owner Name** – displays the Name of user who assigned to this Location
+* **Country** – displays the country where the Location is located
+* **Owner E-mail** – displays E-mail of  user who assigned to this Location
 
 Table view can be **sorted** in ascending/descending order by any column value.
 
@@ -48,7 +48,7 @@ Table view can be **sorted** in ascending/descending order by any column value.
 
 ![](../../.gitbook/assets/list-of-locations-single-actions-edit.png)
 
-* **Delete Location**-modal window will appear. Type DELETE and confirm the action are required.
+* **Delete Location** – modal window will appear. Type DELETE and confirm the action are required.
 
 ![](../../.gitbook/assets/list-of-locations-single-actions-delete.png)
 
