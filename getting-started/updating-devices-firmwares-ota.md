@@ -41,15 +41,35 @@ Congratulations! The .bin file will is saved to the sketch folder and now you ca
 ![Blynk.Air icon in the main menu](../.gitbook/assets/image%20%2814%29.png)
 
 1. Go to [**Blynk.Air**](../web-dashboard/blynk.air/) in Navigation Menu
-2. Click **New Shipping**
-3. Select a **Template** available in the dropdown menu
-4. _Select Devices available_ in the **Devices list** if you want to update certain devices.  Otherwise _leave the selection empty_ – in this case, all of the selected Template's devices will be updated including these that will be added in the future. 
-5. **Upload** **Firmware** file. Click the area with cloud pictogram and select .bin, .tar binary file in your PC file explorer. Drag'n'drop is supported.
-6. Check **Firmware info**
-7. Check for **Optional Settings** under Template selection field and in ****Review and start area
-8. Press **Start Shipping** 
+2. Click **New Shipping** button
+3. Specify Target Selection 
 
-After that, the modal window will appear with the progress bar. You can close it, the shipment will continue working. 
+![](../.gitbook/assets/target-selection.png)
+
+3.1 Select a **Template** available in the dropdown menu  
+3.2 Set **Preferred Time** when the Shipment will be delievering  
+3.3 Set Shipping appliance condition by selecting an option available in **Apply Update if the Device has** dropdown menu  
+3.4 _Select Devices available_ in the **Devices list** if you want to update certain devices.   
+Otherwise _leave the selection empty_ – in this case, all of the selected Template's devices will be updated including these that will be added in the future. 
+
+4. **Upload** **Firmware** file. Click the area with cloud pictogram and select .bin, .tar binary file in your PC file explorer. Drag'n'drop is supported.  
+5. Check **Firmware info**
+
+![](../.gitbook/assets/firmware.png)
+
+6. Check for **Optional Settings** under Template selection field and in ****Review and start area  
+7. Press **Start Shipping** 
+
+![](../.gitbook/assets/review_and_start.png)
+
+Done!  
+After that, the modal window will appear with the progress bar. You can close it, the Shipping will continue working.
+
+![](../.gitbook/assets/shipping_in_progress.png)
+
+You can always check your Shippings status and progress accessing Blynk.Air table:
+
+![](../.gitbook/assets/shipments_tab.png)
 
 For more details follow the link below:
 
