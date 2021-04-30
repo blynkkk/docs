@@ -1,6 +1,6 @@
 # Locations
 
-### Create a new Location 
+## Create a new Location 
 
 1. Navigate to Settings - Organization Settings - Locations 
 2. Name it \(let it be in `Factory` this example\)
@@ -17,7 +17,7 @@ After you've created first Location you'll see Locations table[. ](../web-dashbo
 
 Repeat steps to create another location \(let's call it `Office` \)
 
-### Enable Location Metadata
+## Enable Location Metadata
 
 1. Navigate to Templates section  
 2. Click **Edit** button 
@@ -33,55 +33,83 @@ Repeat steps to create another location \(let's call it `Office` \)
 
 ![](../.gitbook/assets/apply.png)
 
-### Assign Device to Location
+## Assign Device to Location
 
-Search   
-Device   
-Metadata tab   
-Choose location   
-Save   
-  
-Create another Device   
-Choose Template   
-Metadata   
-Edit   
-Select second Location 
+1. Navigate to Search - Device - My Devices
+2. Click on the **Device** you want to assign the Location
+3. Switch to Metadata tab 
+4. Hover the **Location** row
+5. Click **Edit**
+6. Select Location from the **dropdown list** \( `Factory` \)
+7. Provide additional data in the modal window opened
+8. Click **Save** 
 
-Settings   
-Locations   
-Check Devices to be assigned to Locations 
+![](../.gitbook/assets/device_location.png)
 
-### Edit Location details
+![](../.gitbook/assets/factory_assign.png)
 
-#### Edit in Search section
+9. Create or chose another one Device  
+10. Repeat the steps below to assign location Office to your second Device  
 
-Search   
-Locations   
-View them   
-Edit   
-Locations 
 
-#### Edit in Settings section
+## Check the locations assignment
 
-Settings   
-Locations   
-Search Devices   
-Edit Locations   
-Check in Settings / Locations 
+#### Locations assigned to the Devices
 
-### Advanced Location Settings
+1. Search - Devices - My Devices
+2. Use horizontal scroll to get to Location column
 
-Template   
-Edit   
-Metadata   
-Advanced Location settings   
-Save   
-Apply to active Devices 
+![](../.gitbook/assets/serch-dev-loc.png)
+
+#### Quantity of the Devices assigned to the Locations
+
+1. Navigate to Settings - Organization Settings - Locations 
+2. Check the rows contents, Devices column 
+
+![](../.gitbook/assets/locations%20%282%29.png)
+
+## Edit Location details
+
+### Edit in Search section
+
+1. Search - Locations - My/All Locations
+2. Hover **Actions** column in desired Location's row
+3. Click **...**
+4. Click **Edit Location** 
+5. Change the values in the modal window opened
+6. Confirm the changes with click on **Done** button
+
+![](../.gitbook/assets/edit_locations_search.png)
+
+### Edit in Settings section
+
+1. Navigate to Settings - Locations  
+2. Click desired Location name
+3. Change the values in the modal window opened
+4. Confirm the changes with click on **Done** button
+
+![](../.gitbook/assets/settings_location.png)
+
+## Advanced Location Settings
+
+Navigate to Template section 
+
+1. Click Edit 
+2. Switch to Metadata tab
+3. Hover Location
+4. Click Edit button appeared
+5. Here you can specify additional Location settings.
+6. Click Save once it's done
+7. Select appliance option and confirm by click on Save button
+
+![](../.gitbook/assets/add_loc_set.png)
+
+
+
+### Describe Map view settings
 
 Check in Search / Device   
 Search   
 Devices   
 Map Mode 
-
-### Describe Map view settings
 
