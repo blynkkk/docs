@@ -19,12 +19,19 @@ Repeat steps to create another location \(let's call it `Office` \)
 
 ### Enable Location Metadata
 
-Templates   
-Edit   
-Metadata   
-Location - Enable   
-Save   
-Update active devices 
+1. Navigate to Templates section  
+2. Click **Edit** button 
+3. Switch to Metadata tab 
+4. Click on **Location** 
+5. Toggle switch to **Enable** in the modal window 
+6. Click **Save** 
+7. **Save** the Template
+8. Set **Update active devices** option in Apply Changes modal window 
+9. Click **Continue** button
+
+![](../.gitbook/assets/metadata_edit.png)
+
+![](../.gitbook/assets/apply.png)
 
 ### Assign Device to Location
 
