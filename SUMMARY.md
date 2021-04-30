@@ -30,7 +30,7 @@
   * [Prepare Your Code](getting-started/working-with-templates/prepare-code.md)
   * [Test your Template](getting-started/working-with-templates/test-your-template.md)
 * [Metadata Tutorial](getting-started/metadata-tutorial.md)
-* [Locations](getting-started/locations.md)
+* [Assigning Devices to the Locations](getting-started/locations.md)
 * [Events Tutorial](getting-started/events-tutorial.md)
 * [Notifications management](getting-started/notification-management.md)
 * [Send any data using Virtual Pins](getting-started/using-virtual-pins-to-control-physical-devices.md)

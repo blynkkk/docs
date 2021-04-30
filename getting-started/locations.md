@@ -1,4 +1,4 @@
-# Locations
+# Assigning Devices to the Locations
 
 ## Create a new Location 
 
@@ -92,24 +92,16 @@ Repeat steps to create another location \(let's call it `Office` \)
 
 ## Advanced Location Settings
 
-Navigate to Template section 
-
-1. Click Edit 
-2. Switch to Metadata tab
-3. Hover Location
-4. Click Edit button appeared
-5. Here you can specify additional Location settings.
-6. Click Save once it's done
-7. Select appliance option and confirm by click on Save button
+1. Navigate to Template section 
+2. Click **Edit** 
+3. Switch to Metadata tab
+4. _Hover_ Location
+5. Click **Edit** button appeared
+6. Here you can specify additional Location settings.
+7. Click **Save** once it's done
+8. Select appliance option and confirm by click on **Save** button
 
 ![](../.gitbook/assets/add_loc_set.png)
 
 
-
-### Describe Map view settings
-
-Check in Search / Device   
-Search   
-Devices   
-Map Mode 
 
