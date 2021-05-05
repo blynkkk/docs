@@ -4,8 +4,8 @@ description: This tutorial will help you with creating Events for your Templates
 
 # Events Tutorial
 
-Events shows the current status of the device on Devices Timeline in historical order.  
-This feature is extra handy for monitoring informational, warning and critical states of the Devices.
+Events show the current status of the device on the [Timeline](../web-dashboard/search/devices-1/device-view/timeline.md) in historical order.  
+This feature is extra handy for monitoring informational, warning, and critical states of the Devices.
 
 ### 1. [Create a Template](working-with-templates/) or use an existing one
 
@@ -24,12 +24,12 @@ _**Note:**_ there are two default events \(and they can't be edited\): Online an
 
 #### Let's create 2 events with names Hello and Error
 
-1. click **Add New Event**
-2. provide info on ****[**General tab**](../web-dashboard/products/events/general.md)\*\*\*\*
-3. name first event with the name Hello
-4. click **Create** \(the event will appear in Events tab list\)
-5. repeat previous step for second event with the name Error
-6. click **Save** to save and apply the changes made \(select Update active device this time\)
+1. Click **Add New Event**
+2. Provide information on the ****[**General tab**](../web-dashboard/products/events/general.md)\*\*\*\*
+3. Name the first event with the name Hello
+4. Click **Create** \(the event will appear in the Events tab list\)
+5. Repeat the previous step for the second event with the name Error
+6. Click **Save** to save and apply the changes made \(select Update active device this time\)
 
 ![](../.gitbook/assets/add_new_event.png)
 
@@ -39,18 +39,34 @@ _**Note:**_ there are two default events \(and they can't be edited\): Online an
 
 ### 4. Check Events to be applied.
 
-We'll do this using [HTTPS API](../https-api/trigger-events.md)
+There are 2 ways to trigger events, we'll cover both ways.
 
-1. navigate to Device yoo've created
-2. click on it's name
-3. open Device Info tab
-4. find Auth Token there and copy it to the clipboard
+#### Blynk.logEvent\(\) hardware command. 
+
+Just call the function in the corresponding place of your sketch like this:
+
+```text
+Blynk.logEvent("hello");
+```
+
+There is also a way to send a description along with events:
+
+```text
+Blynk.logEvent("error","something went wrong");
+```
+
+#### Another way to send events is to use the HTTPS API
+
+1. Navigate to the Device you've created
+2. Click on its name
+3. Open Device Info tab
+4. Find Auth Token there and copy it to the clipboard
 
 ![Device Info tab](../.gitbook/assets/event_device_info.png)
 
 ![Auth Token. Click copy pictogram here](../.gitbook/assets/auth_token%20%281%29.png)
 
-5. create \(paste Auth Token to it's body after token=\) and send API request
+### 5. Paste Auth Token into the request body and send a request using a browser
 
 {% api-method method="get" host="https://blynk.cloud" path="/external/api/logEvent?token=WD\_ofOivEbt4vpb02CiFPUPHHf0K5q8n&code=hello" %}
 {% api-method-summary %}
