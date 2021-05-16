@@ -8,7 +8,7 @@ Remember going to the coffee shop and asking for a name and password for their W
 
 Now imagine your ESP32 wants to connect to the Internet. It would also need the name and password of your home or office WiFi. Good for you, Blynk can do all the heavy work.
 
-Blynk offers a complete WiFi provisioning solution, which includes a firmware code and mobile app UI.
+A complete WiFi provisioning solution from Blynk includes both a firmware code and a mobile app UI to guide you through the WiFi set up.
 
 {% hint style="info" %}
 Currently, WiFi provisioning only works on ESP32 and ESP8266

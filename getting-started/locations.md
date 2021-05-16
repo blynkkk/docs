@@ -3,7 +3,7 @@
 ## Create a new Location 
 
 1. Navigate to Settings - Organization Settings - Locations 
-2. Name it \(let it be in `Factory` this example\)
+2. Name it \(Let's use `Factory` in this example\)
 3. Type the address in the corresponding field \(you can provide details s.e. ZIP, state, etc. in the modal window appearing after **Manual Input** click\)
 4. Confirm by clicking **Done**
 

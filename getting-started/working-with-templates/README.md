@@ -6,12 +6,10 @@ Think about smart home switches. They all perform a similar function and it's sa
 
 ## Tutorial Overview
 
-Device Template has a lot of settings, but in this tutorial, we will focus only on the most important things you can set up quickly.
+While Device Template has a lot of settings, in this tutorial, we focus only on the most important settings to get your devices up and running quickly. By the end of this tutorial, you should have your first working device which will:
 
-At the end of this tutorial, you will have your first working device which will:
-
-* send random values to the web and mobile dashboard in intervals
-* receive user input from the web or mobile dashboard 
+* send random values to the web and mobile dashboard in given intervals
+* receive user input from the web or mobile dashboard UI elements
 
 {% hint style="info" %}
 You would need a development board \(e.g. Node MCU, Arduino\). List of supported boards can be found here.
@@ -21,7 +19,21 @@ Full documentation on all of the Template settings can be found [here](../../web
 
 {% page-ref page="../../web-dashboard/products/porducts-management.md" %}
 
-## 1. Edit/Create Template
+
+
+## **1. Enable Developer Mode**
+
+Before moving further, make sure that you have **Developer Mode** enabled:
+
+1. In the Blynk app or in Blynk.360
+2. Navigate to **My Profile** / **User profile** in the left menu
+3. Check that **Developer Mode** switch is set to ON
+
+{% hint style="warning" %}
+Currently, **only one developer is allowed per Organization** to avoid sync issues. This limit can be changed later.
+{% endhint %}
+
+## 2. Edit/Create Template
 
 Open the Templates section in the left menu and click **+ New Template** button**.** If you already have a template - click to open it and press **Edit** button.
 
@@ -29,9 +41,9 @@ Open the Templates section in the left menu and click **+ New Template** button*
 
 
 
-## 2. **Basic** Settings
+## 3. **Basic** Settings
 
-Give your new template a name,  specify the hardware and connectivity you will be using.
+Give your new template a name, specify the hardware and connectivity you will be using.
 
 {% hint style="info" %}
  If you can't find your hardware in the list choose **Generic Board**
@@ -39,9 +51,9 @@ Give your new template a name,  specify the hardware and connectivity you will b
 
 ![](../../.gitbook/assets/create_new_template_modal.png)
 
-## 3. Find **Template ID**
+## 4. Find **Template ID**
 
-A new Template was created. On this screen notice **Template ID** and **Firmware Configuration** sections. You will need these details later in your sketch.  
+A new Template is now created. On this screen notice **Template ID** and **Firmware Configuration** sections. You will need these details later in your sketch.  
 
 ![](../../.gitbook/assets/image%20%2820%29.png)
 
@@ -49,15 +61,10 @@ A new Template was created. On this screen notice **Template ID** and **Firmware
 
 ## 5. **Set Up Mobile Dashboard**
 
-## Link mobile dashboard with your product:
-
 1. Open [Blynk.App](../../mobile-applications/overview.md)
 2. Log In to your account
 3. Switch to [Developer Mode](../developer-mode.md)
-4. Add a new Template 
-5. Link it to your Product 
-6. Add the widgets you need and assign them Datastreams
-7. Publish the changes 
+4. Find a template you just created on the web and tap on it.
 
 ## Configure your board:
 

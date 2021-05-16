@@ -6,7 +6,7 @@ description: Types of users
 
 Every registered user on Blynk is **always** a member of an Organization, even if it's just a single-person organization. Such structure enables [multi-tenancy](multi-tenant-tree-structure.md). Within the organization there can be different types of users:
 
-\*\*\*\*
+
 
 ### **Types of users**
 
@@ -46,7 +46,7 @@ Available in Enterprise version only. These are the members of Partners organiza
 ### **Roles and permissions**
 
 {% hint style="info" %}
-**Access to user management including roles and permissions depends on your** [**plan**](https://blynk.io/pricing%20)**.**
+Access to user management including roles and permissions depends on your [plan](https://blynk.io/pricing%20).
 {% endhint %}
 
 Each user has a **role** in the organization**.** By default there are three main roles. 

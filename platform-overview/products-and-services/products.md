@@ -26,7 +26,9 @@ Full documentation on Blynk.App is [here](../../mobile-applications/overview.md)
 
 ## Blynk.Edgent
 
-![Diagram of Blynk.Edgent](../../.gitbook/assets/image-placeholder.png)
+Edge + Agent = Edgent 
+
+![](../../.gitbook/assets/blynk-code-ide-wifi-provisioning.png)
 
 **Blynk.Edgent** is a lightweight embedded library that runs on over 400 supported hardware models
 
@@ -44,5 +46,5 @@ Full documentation on Blynk.Edgent is [here](../../blynk.edgent/overview.md)
 
 **Blynk.Cloud** is a server infrastructure – heart of Blynk IoT platform. Cloud is responsible for binding all the platform components together.
 
-Blynk also offers an on premise solutions for its clients. See the offerings and prices [here](https://blynk.io/pricing).
+Blynk also offers private servers. See the offerings and prices [here](https://blynk.io/pricing).
 

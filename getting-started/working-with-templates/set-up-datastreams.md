@@ -1,8 +1,8 @@
 # Set Up Datastreams
 
-## **Add First Datastream**
+## **Add Datastream**
 
-For the goal of this tutorial skip the Metadata Tab and go to Datastreams tab. 
+For the goal of this tutorial skip the Metadata Tab and go directly to Datastreams tab. 
 
 Datastreams are channels that are used to send data between the device and Blynk.Cloud. We will be using this Datastream to send random values from your device.
 
@@ -39,5 +39,5 @@ Click on **Add Datastream** button again. Choose **Enumerable** type in the drop
 
 Skip all the other settings and press **Create**
 
-These settings mean that all devices that inherit this Template will process values `integers` in the range  of  `0 to 1` through a `Virtual Pin V1`and Blynk will interpret `0` as `OFF` and `1` as `ON` 
+These settings mean that all devices that inherit this Template will process values `integers` in the range  of  `0 to 1` through a `Virtual Pin V1`and Blynk will interpret `0` as `OFF` and `1` as `ON` strings.
 

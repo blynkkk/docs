@@ -1,23 +1,24 @@
 ---
-description: This tutorial will help you with creating Events for your Templates
+description: This tutorial will help you with creating Events in Device Templates
 ---
 
 # Events Tutorial
 
-Events show the current status of the device on the [Timeline](../web-dashboard/search/devices-1/device-view/timeline.md) in historical order.  
-This feature is extra handy for monitoring informational, warning, and critical states of the Devices.
+Events are used to track and log important events happening on your devices. Events can also trigger different types of notifications which can be sent over email, as push notifications to Blynk app, or as SMS.
+
+Examples of an Event: 
+
+1. _You need to log a moment when a temperature reached a certain threshold and send a notification to selected users._
+2. _You need to log a total working hours of the device. If it approaches or goes beyond a max value, you would need to notify technical support so that they can replace the devices_ 
+
+Events that happened can be viewed on the device dashboard in web and mobile apps in the [Timeline](../web-dashboard/search/devices-1/device-view/timeline.md).  
+
 
 ### 1. [Create a Template](working-with-templates/) or use an existing one
 
-### 2. [Create the Device](../web-dashboard/search/devices-1/#create-device) that will be used with this Template
+### 2. Create Event
 
-![](../.gitbook/assets/create_device.png)
-
-### 3. Create Events 
-
-\(also this could be done at Template creation stage\)
-
-Return to Template settings and open Events tab and click Edit at top right.  
+Go to Template -&gt; Edit -&gt; Events tab.  
 _**Note:**_ there are two default events \(and they can't be edited\): Online and Offline.
 
 ![](../.gitbook/assets/default_events.png)
@@ -25,11 +26,14 @@ _**Note:**_ there are two default events \(and they can't be edited\): Online an
 #### Let's create 2 events with names Hello and Error
 
 1. Click **Add New Event**
-2. Provide information on the ****[**General tab**](../web-dashboard/products/events/general.md)\*\*\*\*
-3. Name the first event with the name Hello
-4. Click **Create** \(the event will appear in the Events tab list\)
-5. Repeat the previous step for the second event with the name Error
-6. Click **Save** to save and apply the changes made \(select Update active device this time\)
+2. Name the first event with the name Hello
+3. Click **Create** \(the event will appear in the Events tab list\)
+4. Repeat the previous step for the second event with the name Error
+5. Click **Save** to save and apply the changes made \(select Update active device this time\)
+
+{% hint style="info" %}
+Note that each event has `EVENT CODE`. This event code will be used in the firmware or HTTPS call to trigger it.
+{% endhint %}
 
 ![](../.gitbook/assets/add_new_event.png)
 
@@ -37,85 +41,69 @@ _**Note:**_ there are two default events \(and they can't be edited\): Online an
 
 ![](../.gitbook/assets/apply_events_to_devices.png)
 
-### 4. Check Events to be applied.
+### 3. Sending Events
 
-There are 2 ways to trigger events, we'll cover both ways.
+You can test the Event creation by sending it from Device using Blynk.Edgent firmware API, or with REST API.
 
-#### Blynk.logEvent\(\) hardware command. 
+#### 
 
-Just call the function in the corresponding place of your sketch like this:
+#### Use Blynk.logEvent\(\) firmware API. 
 
-```text
-Blynk.logEvent("hello");
+`Blynk.logEvent("event_code", "optional message");` 
+
+For this tutorial you would need to use hello as a name. Here is a pseudo code: 
+
+```cpp
+if (some_condition){
+    Blynk.logEvent("hello");
+}
 ```
 
-There is also a way to send a description along with events:
+Optionally, you can send a custom description with the event. This description will be rendered on Device Timeline.
 
-```text
-Blynk.logEvent("error","something went wrong");
+```cpp
+if (some_condition){
+    Blynk.logEvent("hello", "Hello World,") ;
+}
 ```
 
-#### Another way to send events is to use the HTTPS API
 
-1. Navigate to the Device you've created
+
+#### Use REST API
+
+1. Navigate to the Device
 2. Click on its name
 3. Open Device Info tab
-4. Find Auth Token there and copy it to the clipboard
+4. Find Auth Token there and click on the icon to copy it to the clipboard
 
 ![Device Info tab](../.gitbook/assets/event_device_info.png)
 
 ![Auth Token. Click copy pictogram here](../.gitbook/assets/auth_token%20%281%29.png)
 
-### 5. Paste Auth Token into the request body and send a request using a browser
+### 
 
-{% api-method method="get" host="https://blynk.cloud" path="/external/api/logEvent?token=WD\_ofOivEbt4vpb02CiFPUPHHf0K5q8n&code=hello" %}
-{% api-method-summary %}
+Now make an HTTP request with the tools you use for that. Make sure to change the `YourAuthToken` to the one you copied in the previous step.
 
-{% endapi-method-summary %}
+You can even use your browser for that. Just put it in the URL field and press Enter.
 
-{% api-method-description %}
-
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="token" type="string" required=true %}
-it's taken from Device Info tab
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-
-{% api-method-headers %}
-{% api-method-parameter name="code" type="string" required=true %}
-it's taken from Event Code field
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+```http
+https://blynk.cloud//external/api/logEvent?token=YourAuthToken&code=hello
 ```
 
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+Repeat the same with `code=error`
 
-6. repeat the same with code=error  
-7. check [Device Timeline](../web-dashboard/search/devices-1/device-view/timeline.md)
+```http
+https://blynk.cloud//external/api/logEvent?token=YourAuthToken&code=error
+```
+
+  
+
+
+### 4. Checking if Event was logged.
+
+First of all, check [Device Timeline](../web-dashboard/search/devices-1/device-view/timeline.md) by going to Device - &gt; Timeline Tab
 
 ![](../.gitbook/assets/events_on_timeline.png)
 
-Congratulations! We have 2 events now!
-
-Also we can mark Critical and Warning events as resolved after it's fixed. Please mind to comment this action in the modal window appeared.
-
-![](../.gitbook/assets/mark_as_resolved.png)
-
-From now on this event can be found under Resolved filter tag.
+You should see 2 events on the timeline! If you set up notifications, they should have been delivered as well. 
 

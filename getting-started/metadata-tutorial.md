@@ -1,7 +1,8 @@
 # Metadata Tutorial
 
-Metadata is a set of characteristics \(or configurations\) applied to every Template and associated with every Device. This information will be used for Device Provisioning and [Device Management](../mobile-applications/device-management/).   
-****Staff, installing the equipment will be able to fill it in.
+Metadata is a table of `key:value` data attached to every device. `Keys` are static, and `values` are related for each device. 
+
+For example, a Serial Number Metadata field can be attached to every device, but the actual value is different.
 
 ### **1.** [Create a Template](working-with-templates/) or use an existing one
 
@@ -14,7 +15,7 @@ Metadata is a set of characteristics \(or configurations\) applied to every Temp
 ![](../.gitbook/assets/metadata.png)
 
 4. Click **Add Metadata**.   
-Choose the most relevant [type ](../web-dashboard/products/metadata/metadata-types.md)for every characteristic. For example, if you would need to associate Serial Number with every product, add the “Number” metadata field.   
+Choose the most relevant [type ](../web-dashboard/products/metadata/metadata-types.md)for every metadata input. For example, if you would need to associate Serial Number with every product, add the “Number” metadata field.   
 5. Set it up and click **Create** button once you've finished with this characteristic 
 
 ![](../.gitbook/assets/add_new_metadata.png)
