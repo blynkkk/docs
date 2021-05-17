@@ -19,9 +19,7 @@
 
 ## Getting Started
 
-* [Sign Up / Sign In](getting-started/untitled/README.md)
-  * [Client Sign Up](getting-started/untitled/client-sign-up.md)
-  * [Partner Sign Up](getting-started/untitled/partner-sign-up.md)
+* [Sign Up / Sign In](getting-started/untitled.md)
 * [Developer Mode](getting-started/developer-mode.md)
 * [Downloads](getting-started/downloads.md)
 * [Template Quick Setup](getting-started/working-with-templates/README.md)
@@ -39,7 +37,7 @@
 * [Notifications management](getting-started/notification-management.md)
 * [Send any data using Virtual Pins](getting-started/using-virtual-pins-to-control-physical-devices.md)
 * [Updating Firmware Over-The-Air](getting-started/updating-devices-firmwares-ota.md)
-* [ODBC DB copy](getting-started/odbc-db-copy.md)
+* [ODBC DB](getting-started/odbc-db-copy.md)
 
 ## Downloads
 
@@ -194,4 +192,8 @@
   * [Migrate from 0.1 to Blynk](blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md)
 * [Glossary](glossary.md)
 * [Links](links.md)
+
+## Unused
+
+* [Partner Sign Up](unused/partner-sign-up.md)
 

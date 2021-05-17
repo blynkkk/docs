@@ -4,7 +4,7 @@ description: >-
   Power BI
 ---
 
-# ODBC DB copy
+# ODBC DB
 
 ### Prerequisites:
 

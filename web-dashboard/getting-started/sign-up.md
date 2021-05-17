@@ -5,7 +5,7 @@ To use Blynk, every user needs to create an account. This is essential for secur
 These are the main ways of how users can sign up:
 
 1. By creating a new account at [https://blynk.cloud/](https://blynk.cloud/)
-2. By downloading Blynk [Mobile application](../../getting-started/untitled/) and following registration process in the app
+2. By downloading Blynk [Mobile application](../../getting-started/untitled.md) and following registration process in the app
 3. By getting an invitation from existing user \(available in paid plans only\)
 
 ![Blynk.App and Blynk.360 Sign Up screens + Invitation Email](../../.gitbook/assets/log-in-screens.png)
