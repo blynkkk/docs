@@ -1,5 +1,5 @@
 ---
-description: Blynk.App main tabs and features
+description: Blynk.App main functionality
 ---
 
 # Overview

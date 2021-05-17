@@ -4,7 +4,7 @@ description: >-
   sub-organizations you have access to.
 ---
 
-# Organization Management
+# My Organization
 
 ![](../../.gitbook/assets/sidebar-opened.png)
 

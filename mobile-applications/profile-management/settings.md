@@ -2,7 +2,7 @@
 description: Notifications settings
 ---
 
-# Settings
+# Profile Settings
 
 Here you can enable or disable the following application settings:
 

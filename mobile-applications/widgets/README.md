@@ -1,20 +1,16 @@
----
-description: >-
-  Widgets are interface modules. Each of them performs a specific input/output
-  function when communicating with the hardware.
----
-
 # Widgets
 
-There are 4 types of Widgets:
+Widgets are pre-designed pieces of Graphic User Interface. Each widget performs a specific input/output function when communicating with your hardware or end-user.
 
-* **Controllers** - used to send commands that control your hardware
-* **Displays** - used for data visualization from sensors and other sources;
-* **Notifications** - send messages and notifications;
-* **Interface** - widgets to perform certain GUI functions;
-* **Other** - widgets that don't belong to any category;
+Widgets can be found in the **Widget Box.** There are 4 major types of widgets:
 
-Each Widget has it's own settings. 
+* **Controllers** – UI elements used to send data to hardware. For example: buttons, switches, sliders, joysticks, etc.
+* **Displays** – UI elements used to visualize the incoming data. LEDs, Charts, 
+* **Interface Elements** – Special Elements to build user-friendly UI. Example: Tabs, Drop down menus, various inputs, et..
+* **Misc** – special widgets that doesn't belong to any category.
+
+Scroll the list and tap on the Widget you need to add it to the Grid.  
+Tap the Widget to set it up.
 
 ## Controllers
 
@@ -25,7 +21,7 @@ button uses 0/1 \(LOW/HIGH\) values. Button sends 1 \(HIGH\) on press and sends 
 
 You can change button state from hardware side. For example, turn on button assigned to virtual pin V1 :
 
-```text
+```cpp
 Blynk.virtualWrite(V1, HIGH);
 ```
 
@@ -41,7 +37,7 @@ Blynk.setProperty(V1, "offLabel", "OFF");
 
 or change color :
 
-```text
+```cpp
 //#D3435C - Blynk RED 
 Blynk.setProperty(V1, "color", "#D3435C");
 ```

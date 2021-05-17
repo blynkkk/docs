@@ -19,6 +19,9 @@
 
 ## Getting Started
 
+* [Sign Up / Sign In](getting-started/untitled/README.md)
+  * [Client Sign Up](getting-started/untitled/client-sign-up.md)
+  * [Partner Sign Up](getting-started/untitled/partner-sign-up.md)
 * [Developer Mode](getting-started/developer-mode.md)
 * [Downloads](getting-started/downloads.md)
 * [Template Quick Setup](getting-started/working-with-templates/README.md)
@@ -141,18 +144,16 @@
 ## Blynk.App <a id="mobile-applications"></a>
 
 * [Overview](mobile-applications/overview.md)
-* [Sign Up / Sign In](mobile-applications/untitled/README.md)
-  * [Client Sign Up](mobile-applications/untitled/client-sign-up.md)
-  * [Partner Sign Up](mobile-applications/untitled/partner-sign-up.md)
-* [Developer Mode](mobile-applications/constructor.md)
+* [Mobile Dashboard Editor](mobile-applications/constructor.md)
 * [Widgets](mobile-applications/widgets/README.md)
   * [Common Widget Settings](mobile-applications/widgets/common-widget-settings.md)
   * [Widget 1](mobile-applications/widgets/widget-1.md)
   * [Widget 2](mobile-applications/widgets/widget-2.md)
-* [Profile Management](mobile-applications/profile-management/README.md)
+* [My Profile](mobile-applications/profile-management/README.md)
   * [My Profile](mobile-applications/profile-management/my-profile.md)
-  * [Organization Management](mobile-applications/profile-management/organization-management.md)
-  * [Settings](mobile-applications/profile-management/settings.md)
+  * [My Organization](mobile-applications/profile-management/organization-management.md)
+  * [User Management](mobile-applications/profile-management/user-management.md)
+  * [Profile Settings](mobile-applications/profile-management/settings.md)
 * [Device Management](mobile-applications/device-management/README.md)
   * [Add new Device](mobile-applications/device-management/add-new-device.md)
   * [Widgets](mobile-applications/device-management/widgets.md)
