@@ -38,5 +38,5 @@ Contents of the Sign Up screen may vary accordingly to Sign Up settings applied 
 
 ![Clients tab](../.gitbook/assets/empty-state-screen-1-.png)
 
-Now you can add and manage Devices, [Clients and their Organizations and/or Devices](../mobile-applications/partner-mode.md) \(depending on access provided by Client Organization Administrator\).
+Now you can add and manage Devices, [Clients and their Organizations and/or Devices](partner-mode.md) \(depending on access provided by Client Organization Administrator\).
 

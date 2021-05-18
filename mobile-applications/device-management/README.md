@@ -1,4 +1,4 @@
-# Device Management
+# Devices
 
 ![Blank Devices tab](../../.gitbook/assets/empty-state-screen.png)
 

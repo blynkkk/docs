@@ -4,11 +4,19 @@ description: Blynk.App main functionality
 
 # Overview
 
-Application generally consists of [main screen](overview.md#main-screen) and 2 menu sliders: the [main one](overview.md#main-menu) \(slides from the left\) and [secondary one](overview.md#right-menu) that slides from the right.
+Blynk offers native iOS and Android mobile apps which allow to remotely control connected devices and visualize data from them. 
 
-## Main screen
+App operates in two modes:
 
-The main screen consists of up to 3 tabs depending on the configuration: [Devies](overview.md#devices), [Automation](overview.md#automation) and [Notifications](overview.md#notifications)
+**Developer Mode**
+
+**End-user mode**
+
+
+
+## Home screen
+
+Home screen consists of up to 3 tabs depending on the configuration: [Devices](overview.md#devices), [Automation](overview.md#automation) and [Notifications](overview.md#notifications)
 
 ### **Devices**
 
@@ -55,7 +63,7 @@ When a user taps on the device tile, the device dashboard will be opened. It con
 At the top right corner of the dashboard, there's an ... icon that opens another view with the  
 Device Information and Timeline.
 
-On the **Device Info** tab, you can edit a device name, change other [metadata](../web-dashboard/search/devices-1/device-view/metadata.md) values, view other things like firmware version, etc.
+On the **Device Info** tab, you can edit a device name, change other [metadata](../web-dashboard/devices-1/device-view/metadata.md) values, view other things like firmware version, etc.
 
 ![](../.gitbook/assets/device-info-1-.png)
 

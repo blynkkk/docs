@@ -1,4 +1,4 @@
-# Templates Management
+# Working With Templates
 
 ![](../../.gitbook/assets/templates.png)
 

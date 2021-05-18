@@ -1,4 +1,4 @@
-# Group Management
+# Groups
 
 Several devices can be grouped to be controlled simultaneously by a single command.
 

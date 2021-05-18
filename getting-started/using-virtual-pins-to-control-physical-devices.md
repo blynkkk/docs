@@ -2,7 +2,7 @@
 description: adapted from PeteKnight's article
 ---
 
-# Send any data using Virtual Pins
+# Send Device Data to Blynk
 
 **Why use virtual pins anyway?**
 

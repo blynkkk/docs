@@ -49,5 +49,5 @@ Here you can see all Organizations invited users with their names, roles and inv
 
 If you need to apply more specific edits switch to Organization and proceed to [Organization Settings](settings/organization-settings/)
 
-Also there's [Transfer Organization](search/organizations/transfer-organization.md) feature available.
+Also there's [Transfer Organization](organizations-1/transfer-organization.md) feature available.
 

@@ -15,7 +15,13 @@ A micro-service for:
 
 To get understanding of the Blynk Inject take a look at the below videos:
 
-[![Blynk Inject flow. Blynk](http://img.youtube.com/vi/bXPEEmsEtPM/0.jpg)](http://www.youtube.com/watch?v=bXPEEmsEtPM) [![Blynk Inject flow. Plaato](http://img.youtube.com/vi/4RGAn0tlrHs/0.jpg)](http://www.youtube.com/watch?v=4RGAn0tlrHs) [![Blynk Inject flow. Cama Cooler](http://img.youtube.com/vi/GPneDxWvp4U/0.jpg)](http://www.youtube.com/watch?v=GPneDxWvp4U)
+  
+
+![Blynk Inject flow. Blynk](http://img.youtube.com/vi/bXPEEmsEtPM/0.jpg)
+
+![Blynk Inject flow. Cama Cooler](http://img.youtube.com/vi/GPneDxWvp4U/0.jpg)
+
+![Blynk Inject flow. Plaato](http://img.youtube.com/vi/4RGAn0tlrHs/0.jpg)
 
 ## Blynk.**R**
 
