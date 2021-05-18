@@ -1,5 +1,5 @@
 ---
-description: 'This page keeps general info about the Product such as:'
+description: 'This page keeps general info about the device such as:'
 ---
 
 # Info

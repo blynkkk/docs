@@ -1,5 +1,7 @@
 # Organizations
 
+## Overview
+
 ## Search Organization
 
 You can search for any metadata across devices, organizations, and users. Simply start typing.
@@ -13,6 +15,8 @@ You'll be redirected to Organizations tab New Organization window.
 Follow the steps of [this article]() to succeed.
 
 ![](../../.gitbook/assets/create-new-organizations.png)
+
+### \*\*\*\*
 
 ### **Tab Info**
 
@@ -32,11 +36,15 @@ You need to fill in the information about the organization:
 
 Сan create Sub-Organizations – switch it on/off accordingly to allow/prohibit your to create and keep Sub-Organizations inside the Organization .
 
+### \*\*\*\*
+
 ### **Tab Templates**
 
 You can to select the device **Templates** that your **Organization** will work with
 
 ![](../../.gitbook/assets/create-new-organizations-templstes.png)
+
+### 
 
 ### Tab Users
 
@@ -44,7 +52,7 @@ You can invite users to your organization
 
 ![](../../.gitbook/assets/create-new-organizations-users.png)
 
-## 
+
 
 ## List of Organizations
 

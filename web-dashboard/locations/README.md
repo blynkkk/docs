@@ -6,6 +6,18 @@ description: >-
 
 # Locations
 
+## Create new
+
+View locations
+
+Any actions
+
+Edit
+
+Delete
+
+
+
 ## Locations View
 
 You can see information about the available Locations in the form of a table or in the form of a map.

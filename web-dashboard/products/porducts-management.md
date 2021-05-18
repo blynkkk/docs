@@ -32,13 +32,5 @@ This is a critical action that can affect how your devices and application work
 
 ![How to delete a Product](../../.gitbook/assets/product_delete.gif)
 
-## MOVE TO ORGANIZATION CREATION: Share Template to an Organization
 
-1. Navigate to **Organization tab** \(left menu\)
-2. Open Organization with **click on it's tile**
-3. Navigate to Organization's **Templates** tab
-4. Templates tile screen will open
-5. Click **Edit** 
-6. **Click tiles** to add/remove Templates. Active Templates are marked with green tick, disabled have tiles with reduced colors. 
-7. Once the changes are made click **Save**.
 
