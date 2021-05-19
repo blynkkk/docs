@@ -21,11 +21,11 @@ There are several places where you can invite new users:
 
 ![](../.gitbook/assets/sosinv.png)
 
-* Organizations - %Organization\_name% tile - Users tab - **Invite**
+* Organizations - Organization Name tile - Users tab - **Invite**
 
 ![](../.gitbook/assets/orginv.png)
 
-* Blynk.App: Profile - %Organization\_name% - Members tab - **Invite new Member**
+* Blynk.App: Profile - Organization Name - Members tab - **Invite new Member**
 
 ![](../.gitbook/assets/invite.gif)
 
