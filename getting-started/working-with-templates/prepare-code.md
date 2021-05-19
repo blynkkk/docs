@@ -1,9 +1,9 @@
 # Prepare Your Code
 
-A code example for ESP32/ ESP 8266 / Arduiono
+A code example for ESP32/ ESP 8266 / Arduino
 
 {% tabs %}
-{% tab title="ESP32" %}
+{% tab title="ESP32 or ESP8266" %}
 ## 3 simple steps to configure your code:
 
 1. [Install Blynk library](http://help.blynk.cc/en/articles/512105-how-to-install-blynk-library-for-arduino-ide)
@@ -42,10 +42,6 @@ void loop() {
   BlynkEdgent.run();
 }
 ```
-{% endtab %}
-
-{% tab title="ESP8266" %}
-Add a code for ESP8266
 {% endtab %}
 
 {% tab title="Arduino \(or any other supported hardware\)" %}
