@@ -42,11 +42,3 @@ A micro-service for Firmware Over-the-Air Updates responsible for:
 1. Managing Firmware Over-the-Air Updates shipping campaigns
 2. Installing new firmware on the edge devices
 
-## Blynk.Speak
-
-![Icon of of Blynk.Speak](../../.gitbook/assets/image-placeholder.png)
-
-Amazon and Google Home voice assistants skills
-
-Full documentation on Blynk.Speak is here {LINK}
-
