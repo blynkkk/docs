@@ -47,9 +47,5 @@ void loop() {
 {% tab title="Arduino \(or any other supported hardware\)" %}
 Instructions and code for Static Token
 {% endtab %}
-
-{% tab title="Any Raspberry Pi" %}
-JS code \(can be added later\)
-{% endtab %}
 {% endtabs %}
 
