@@ -42,7 +42,17 @@ Fill in your profile required and optional information.
 
 ![Devices tab](../../.gitbook/assets/empty-state-screen%20%281%29.png)
 
+{% hint style="success" %}
 Once you've finished with Profile setup your Sign Up is complete and you can add and manage Devices!
+{% endhint %}
+
+## Sign In
+
+
+
+## Password Reset
+
+
 
   
 ****  
