@@ -9,6 +9,14 @@ description: >-
 
 ### 1. Turn on the switch to expose this Datastream for Automation
 
+1. **Edit** your Template
+2. Switch to _Datastream tab_
+3. _Select and click_ the Datastream you want to be used in Automations. Modal window will appear
+4. Click **+ Advanced Settings**
+5. Enable **Expose to Automation** at the bottom of the modal window
+
+![](../../../../.gitbook/assets/cpt2105201739-1919x971.gif)
+
 ### 2. Choose the Type of Automation
 
 Type defines what kind of Action or Trigger is it and how it will be presented for the user when using Automation
