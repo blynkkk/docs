@@ -48,6 +48,8 @@ Once you've finished with Profile setup your Sign Up is complete and you can add
 
 ## Sign In
 
+Open the [Blynk app for iOS or Android](../../downloads/blynk-apps-for-ios-and-android.md) or go to [Blynk.360](https://blynk.cloud).
+
 
 
 ## Password Reset
