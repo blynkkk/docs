@@ -78,7 +78,7 @@
 
 Once the Webhook is created you can view it's info by clicking it's row or name in Webhooks table.
 
-### Information
+### Information tab
 
 ![Information tab](../../../.gitbook/assets/webhook_view.png)
 
@@ -88,12 +88,12 @@ Once the Webhook is created you can view it's info by clicking it's row or name 
 * **Creation date** – hh:mm M D, Y format
 * **Version**
 
-### Logs table
+### Logs tab
 
 This table stores and displays all trigger results that were caused by real actions \(not test webhook runs\)  
 It can be sorted by switching Timeline tabs and each column value.
 
-![](../../../.gitbook/assets/webhook_log.png)
+![Logs table](../../../.gitbook/assets/webhook_log.png)
 
 * **Status** – `OK`_,_ `Waiting`_,_ `Failed` are possible with [`server response code`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)\`\`
 * **Date** – webhook trigger time in hh:mm:ss M D, Y format 
