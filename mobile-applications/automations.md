@@ -4,7 +4,9 @@ description: Automations let you set an automated control of your devices
 
 # Automations
 
-
+{% hint style="warning" %}
+Automations should be [enabled in Template settings](../web-dashboard/products/datastreams/datastreams-common-settings/automation.md) first. Otherwise Automation tab will be unavailable in Blynk.App
+{% endhint %}
 
 ![](../.gitbook/assets/no_automations.png)
 
