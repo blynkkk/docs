@@ -1,6 +1,6 @@
 # Prepare Your Code
 
-A code example for ESP32/ ESP8266 / Arduino
+A code example for ESP32/ ESP8266 / Arduino boards
 
 {% tabs %}
 {% tab title="ESP32 or ESP8266" %}
