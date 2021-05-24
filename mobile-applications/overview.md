@@ -8,11 +8,17 @@ Blynk offers native iOS and Android mobile apps which allow to remotely control 
 
 App operates in two modes:
 
-**Developer Mode**
+#### **Developer Mode**
 
-**End-user mode**
+The primary function of Developer Mode in the mobile app is to [build and edit the Mobile Dashboard User interface \(GUI\) for the given Device Template](constructor.md).
 
+Mobile Dashboard is built from Widgets - modular UI elements which can be positioned on the canvas. Every Widget serves a special function \(a button, a slider, a chart, etc\). Every Widget has it's own settings based on its functionality**.**
 
+#### **End-user mode**
+
+This mode is used by both the makers and the end-users.   
+  
+It's focused on devices, automations and notifications view and management with the help of widgets and additional screens containing specific information about data that is set/sent/received to/from Blynk.Cloud and devices.
 
 ## Home screen
 
