@@ -139,8 +139,6 @@
 * [Mobile Dashboard Editor](mobile-applications/constructor.md)
 * [Widgets](mobile-applications/widgets/README.md)
   * [Common Widget Settings](mobile-applications/widgets/common-widget-settings.md)
-  * [Widget 1](mobile-applications/widgets/widget-1.md)
-  * [Widget 2](mobile-applications/widgets/widget-2.md)
 * [My Profile](mobile-applications/profile-management/README.md)
   * [My Profile](mobile-applications/profile-management/my-profile.md)
   * [My Organization](mobile-applications/profile-management/organization-management.md)

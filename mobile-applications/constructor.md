@@ -14,7 +14,7 @@ Mobile Dashboard is built from Widgets - modular UI elements which can be positi
 Currently, **only one developer is allowed per Organization** to avoid sync issues. This limit can be changed later.
 {% endhint %}
 
-## Mobile Dashboard Editor 
+### Mobile Dashboard Editor 
 
 If you don't have any Device Templates, you can create a basic template in the app and then fully set it up in Blynk.360 later
 
