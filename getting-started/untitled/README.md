@@ -54,7 +54,13 @@ Open the [Blynk app for iOS or Android](../../downloads/blynk-apps-for-ios-and-a
 
 ## Password Reset
 
-
+![image](https://user-images.githubusercontent.com/65705128/119011517-d0432f00-b99d-11eb-895f-b29de1195bc9.png)
+![image](https://user-images.githubusercontent.com/65705128/119011717-fe287380-b99d-11eb-9272-a5096e96bfa2.png)
+![image](https://user-images.githubusercontent.com/65705128/119011772-097b9f00-b99e-11eb-8066-06e1f6190871.png)
+![image](https://user-images.githubusercontent.com/65705128/119011819-16988e00-b99e-11eb-9b85-caa20074bc9f.png)
+![image](https://user-images.githubusercontent.com/65705128/119011868-244e1380-b99e-11eb-967f-5c8b98c9d0bf.png)
+![image](https://user-images.githubusercontent.com/65705128/119011921-2f08a880-b99e-11eb-937d-cb4581ee7bf9.png)
+![image](https://user-images.githubusercontent.com/65705128/119011953-392aa700-b99e-11eb-8f74-95f88363c060.png)
 
   
 ****  
