@@ -14,7 +14,7 @@ There are 6 types of Widgets:
 
 To add widgets drag and drop them to Dashboard Preview window:
 
-![](../../../.gitbook/assets/add_widgets.gif)
+![](../../../.gitbook/assets/cpt2105241705-1793x897.gif)
 
 After widgets are added you can apply the following **actions**:
 
@@ -24,5 +24,5 @@ After widgets are added you can apply the following **actions**:
 * **Clone** – clones the selected widget \(also it can be applied to configured widget\). Hover the widget and navigate to top right, click clone pictogram.
 * **Configure** – opens widget configuration window. 
 
-![](../../../.gitbook/assets/widget_ext_actions.gif)
+![](../../../.gitbook/assets/cpt2105241707-610x318.gif)
 
