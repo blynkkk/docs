@@ -49,13 +49,17 @@ Give your new template a name, specify the hardware and connectivity you will be
  If you can't find your hardware in the list choose **Generic Board**
 {% endhint %}
 
-![](../../.gitbook/assets/create_new_template_modal.png)
+![New template modal](https://user-images.githubusercontent.com/72790181/119371516-30e4ab80-bcbf-11eb-917c-04f97aaa81f9.png)
+
+
+
 
 ## 4. Find **Template ID**
 
 A new Template is now created. On this screen notice **Template ID** and **Firmware Configuration** sections. You will need these details later in your sketch.  
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![Template editing](https://user-images.githubusercontent.com/72790181/119371440-1a3e5480-bcbf-11eb-9cf1-d3ee57ca8634.png)
+
 
 
 
