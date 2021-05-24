@@ -8,7 +8,7 @@ Here you can perform a quick or extended search for [devices](devices-1/), [loca
 
 This is the first screen you see after signing into Blynk.360 Web Dashboard.
 
-![](../.gitbook/assets/search.png)
+![](../.gitbook/assets/data.png)
 
 There are 3 segments \(left to right\):
 
