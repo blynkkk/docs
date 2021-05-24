@@ -1,26 +1,34 @@
+---
+description: In order to use Blynk IoT platform products you would need an account.
+---
+
 # Sign Up / Sign In
 
-In order to use Blynk IoT platform products you would need an account. A valid email address is required to create a new account.
-
 User account is needed to enable secure access to your data from different devices and from anywhere in the world.
+
+{% hint style="warning" %}
+A valid email address is required to create a new account.
+{% endhint %}
 
 Blynk never sells your data to any other companies and passwords are always stored encrypted.
 
 You can create a new account either in [Blynk.App](https://docs.blynk.io/en/platform-overview/products-and-services/products#blynk-app) or [Blynk.360](https://docs.blynk.io/en/platform-overview/products-and-services/products#blynk-360)
 
+
+
 ## **Sign Up**
 
-Open the [Blynk app for iOS or Android](../downloads/blynk-apps-for-ios-and-android.md) or go to [Blynk.360](https://blynk.cloud).
-
-You'll get to the first screen after application launch \(in case you're not logged in\):
+1. Open the [Blynk app for iOS or Android](../downloads/blynk-apps-for-ios-and-android.md) or go to [Blynk.360](https://blynk.cloud).
+2. You'll get to the first screen after application launch \(in case you're not logged in\):
 
 ![](../.gitbook/assets/log-in-screen.png)
 
-Tap **Sign Up** button if you don’t have an account. Sign Up screen will open:
+3. Tap **Sign Up** button if you don’t have an account. Sign Up screen will open:
 
 ![](../.gitbook/assets/sign-up.png)
 
-Enter your E-mail and agree to the Terms and Conditions. Then press **Continue** and check your inbox for an email with instructions.
+4. Enter your E-mail, read and agree to the Terms and Conditions.  
+5. Tap **Continue** and check your inbox for an Email with instructions.
 
 ![E-mail sent confirmation](../.gitbook/assets/success-screen.png)
 
@@ -30,15 +38,15 @@ Tap Resend a Link if you can't find the invitation email \(also mind checking Sp
 
 ![Create Password E-mail button](../.gitbook/assets/create_password.png)
 
-Tap **Create Password** button. The link will return you to the application.
+6. Tap **Create Password** button. The link will return you to the application.
 
 ![](../.gitbook/assets/enter-password.png)
 
-Enter the password following the hint below the field and tap **Continue**
+7. Enter the password following the hint below the field and tap **Continue**
 
 ![Profile Setup](../.gitbook/assets/profile.png)
 
-Fill in your profile required and optional information.
+8. Fill in your profile required and optional information.
 
 ![Devices tab](../.gitbook/assets/empty-state-screen%20%281%29.png)
 
@@ -46,9 +54,30 @@ Fill in your profile required and optional information.
 Once you've finished with Profile setup your Sign Up is complete and you can add and manage Devices!
 {% endhint %}
 
+
+
+
+
 ## Sign In
 
-Open the [Blynk app for iOS or Android](../downloads/blynk-apps-for-ios-and-android.md) or go to [Blynk.360](https://blynk.cloud).
+1. Open the [Blynk app for iOS or Android](../downloads/blynk-apps-for-ios-and-android.md) or [Blynk.360](https://blynk.cloud)
+2. Tap **Log In** button
+
+![](../.gitbook/assets/log-in-screen.png)
+
+3. Input your account Email and password  
+4. Tap **Log In** button
+
+![Log In screen](https://user-images.githubusercontent.com/65705128/119011517-d0432f00-b99d-11eb-895f-b29de1195bc9.png)
+
+{% hint style="success" %}
+Once you've logged in, Devices tab will be opened.   
+Here you can [add ](../mobile-applications/device-management/add-new-device.md)and [view and manage](../mobile-applications/device-management/) your devices or switch to [Developer Mode](developer-mode.md).
+{% endhint %}
+
+![Devices tab](../.gitbook/assets/empty-state-screen.png)
+
+
 
 
 

@@ -18,7 +18,7 @@ You can add new and **stack/sort** existing devices in the **right side menu**
 
 ![](../../.gitbook/assets/controls.png)
 
-**Tap Device tile** to open it's Dashboard. Here you can view and interract with device's stats and settings.
+Tap **Device tile** to open it's Dashboard. Here you can view and interract with device's stats and settings.
 
 ![](../../.gitbook/assets/timeline.png)
 
