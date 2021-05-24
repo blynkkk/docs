@@ -71,7 +71,7 @@
   * [Info](web-dashboard/products/info/README.md)
     * [Offline Ignore Period](web-dashboard/products/info/offline-ignore-period.md)
     * [Manufacturer](web-dashboard/products/info/manufacturer.md)
-    * [Template IDs](web-dashboard/products/info/template-ids.md)
+    * [Template ID](web-dashboard/products/info/template-ids.md)
     * [Categories](web-dashboard/products/info/categories.md)
     * [Hotspot Prefix](web-dashboard/products/info/hotspot-prefix.md)
   * [Metadata](web-dashboard/products/metadata/README.md)
