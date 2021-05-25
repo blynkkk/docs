@@ -17,6 +17,8 @@ Menu sections:
 * [Organization](../web-dashboard/organizations.md)
 * [Blynk.Air](../web-dashboard/blynk.air/)
 * [Rule Engine](rule-engine.md)
+* Report a bug
+* Documentation
 * [Settings](../web-dashboard/settings/)
 * [User Profile](../web-dashboard/user-profile.md)
 

@@ -6,7 +6,7 @@ Imagine smart home switches. They all perform a similar function and we can assu
 
 ![Diagram of how devices are related to templates ](../.gitbook/assets/image-placeholder.png)
 
-Every Device Template has a **Template ID** – _\*\*_a unique template identifier that helps Blynk to recognize the type of added device and attach all other template elements:
+Every Device Template has a **Template ID** – \_\*\*\_a unique template identifier that helps Blynk to recognize the type of added device and attach all other template elements:
 
 **General Settings:** general settings of the device
 
@@ -18,8 +18,7 @@ Every Device Template has a **Template ID** – _\*\*_a unique template identifi
 
 Template also includes two dashboards:
 
-<img width="1236" alt="Template" src="https://user-images.githubusercontent.com/72824404/119498209-0a317e00-bd6e-11eb-84d1-ae6565dfb7d3.png">
-
+![Template](https://user-images.githubusercontent.com/72824404/119498209-0a317e00-bd6e-11eb-84d1-ae6565dfb7d3.png)
 
 **Web Dashboard:** a set of UI elements \(widgets\) to visualize the data from the device accessible for the users in Blynk.360 – a web-based application.
 

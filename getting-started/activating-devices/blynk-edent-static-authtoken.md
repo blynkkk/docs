@@ -2,7 +2,7 @@
 
 Static AuthToken is used when you are working with hardware that doesn't support Blynk.Edgent WiFi provisioning. For example when you are using Ethernet shield, or work with hardware that connects to the Internet over cellular \(3G, LTE, etc\) network.
 
-### Preparing your sketch
+## Preparing your sketch
 
 1. Download [the latest release of Blynk.Edgent](https://github.com/blynkkk/blynk-library/releases/tag/v1.0.0-beta.3) as a **Source code .zip** file
 2. Open [Arduino IDE](https://www.arduino.cc/en/guide/windows)
@@ -11,10 +11,9 @@ Static AuthToken is used when you are working with hardware that doesn't support
 
 ![](https://lh3.googleusercontent.com/i3hKUqAHHOLARrcHd0QaKKhVXjs2BAzFFgonSnaA2JyLWwO5aj7yM8Z0K7QwTpW_sU17pJTyBAx0hLjHPOGceIjdCJhUjYdjukK0sjQTE0EX_xBV3UPpjzWHVvPqhkB2neYdVhkm)
 
-5. Select the downloaded .zip archive. Press **Choose** to continue.  
-6. After that, you should see Blynk folder under the **File &gt; Examples**  
-  
-7. Select the example for the hardware you use. We will use the one for Arduino UNO + Ethernet shield
+1. Select the downloaded .zip archive. Press **Choose** to continue.  
+2. After that, you should see Blynk folder under the **File &gt; Examples**
+3. Select the example for the hardware you use. We will use the one for Arduino UNO + Ethernet shield
 
 ![](https://lh3.googleusercontent.com/WfHrWEDwJZ-mzHNcy1UVE1nwHDCAODrMkVehACEgsZYc4pS54L4o99Qel706TSEYPqUqNayc8Ur8pM6DCECYFH1hivgwC2O-KHSZgANz4yTkVV99JR-N4-8B2NDCoZXm3GlXm7eD)
 
@@ -35,7 +34,7 @@ void loop()
 }
 ```
 
-Pay attention to these 4 lines: you would need to fill them. 
+Pay attention to these 4 lines: you would need to fill them.
 
 ```cpp
 ...
@@ -47,34 +46,27 @@ char auth[] = "YourAuthToken";
 Blynk.begin(auth, "wifi-ssid", "wifi-pass");
 ```
 
-### 
+## Getting Template ID and Auth Token for device
 
-### Getting Template ID and Auth Token for device
-
-#### Template ID and Device Name
+### Template ID and Device Name
 
 1. Log in to your [Blynk.360](https://blynk.cloud/) developer account
 2. If you don't have a  Device Templates -&gt; [Create New Template](../working-with-templates/#create-a-template) or open an existing one
 3. Copy the contents of this section and paste them to your sketch
 
-<img width="1200" alt="Template ID" src="https://user-images.githubusercontent.com/72824404/119491140-4234c300-bd66-11eb-80f4-324f2d06bfa0.png">
+![Template ID](https://user-images.githubusercontent.com/72824404/119491140-4234c300-bd66-11eb-80f4-324f2d06bfa0.png)
 
-#### 
-
-#### 
-
-#### Getting Auth Token
+### Getting Auth Token
 
 When the Template is ready, go to Search -&gt; Devices - **Create new device**
 
-<img width="1200" alt="new device" src="https://user-images.githubusercontent.com/72824404/119494118-9db48000-bd69-11eb-952c-297c0b7627f8.png">
+![new device](https://user-images.githubusercontent.com/72824404/119494118-9db48000-bd69-11eb-952c-297c0b7627f8.png)
 
 1. Choose a Template and give your new device a name
 
-<img width="1200" alt="new device" src="https://user-images.githubusercontent.com/72824404/119496316-0c92d880-bd6c-11eb-9276-9ce033ef38c2.png">
+![new device](https://user-images.githubusercontent.com/72824404/119496316-0c92d880-bd6c-11eb-9276-9ce033ef38c2.png)
 
-
-2. After the device was created, open its dashboard, go to the Device Info tab. There you will find a field: Auth Token.
+1. After the device was created, open its dashboard, go to the Device Info tab. There you will find a field: Auth Token.
 
 ![](../../.gitbook/assets/image%20%2817%29.png)
 
@@ -106,6 +98,4 @@ Your IP is 192.168.0.11
 Connecting to...
 Ready (ping: 40ms)
 ```
-
-
 
