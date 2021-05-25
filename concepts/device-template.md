@@ -22,7 +22,7 @@ Every Device Template has a **Template ID** – ****a unique template identifier
 
 Template also includes two dashboards:
 
-![](../.gitbook/assets/dashboards.png)
+![Uploading Template.png…]()
 
 **Web Dashboard:**  a set of UI elements \(widgets\) to visualize the data from the device accessible for the users in Blynk.360 – a web-based application.
 
