@@ -1,6 +1,6 @@
 # Devices
 
-![Devices table](../../.gitbook/assets/search-table.png)
+![](../../.gitbook/assets/search-table.png)
 
 ## Predefined Filters
 
@@ -32,7 +32,7 @@ Can be performed by the following criterias:
 * Serial Number
 * Device ID
 * Tag
-* other Metadata set in Template
+* other [Metadata](device-view/metadata/) set in [Template](../../concepts/device-template.md)
 
 #### Search steps:
 
@@ -45,23 +45,10 @@ Can be performed by the following criterias:
 ## Table view
 
 {% hint style="info" %}
-Please mind Lazy Loading the Table uses to view Devices list – it's necessary to scroll down to load all Devices!
+Scroll down to load more devices. They will appear as you scroll.
 {% endhint %}
 
-Devices view order can be sorted by any column exists:
-
-* Device name
-* Device owner
-* Status
-* Device model
-* Last Updated
-* Organization
-* Activation date
-* Template name
-* Location
-* Serial number
-* Firmware version
-* Device ID
+Devices view order can be sorted by clicking arrow icon in the column header.
 
 **Navigation:**
 

@@ -42,7 +42,7 @@
 ## Blynk.360 <a id="web-dashboard"></a>
 
 * [Overview](web-dashboard/getting-started.md)
-* [Data](web-dashboard/search.md)
+* [Search Data](web-dashboard/search.md)
 * [Devices](web-dashboard/devices-1/README.md)
   * [Device profile](web-dashboard/devices-1/device-view/README.md)
     * [Dashboard](web-dashboard/devices-1/device-view/dashboard.md)

@@ -2,7 +2,9 @@
 description: 'Navigate through Devices, Locations, Organizations and users in one place.'
 ---
 
-# Data
+# Search Data
+
+This is the main page of Blynk.360.
 
 Here you can perform a quick or extended search for [devices](devices-1/), [locations](locations/), [organizations ](organizations-1/)and [users ](users/)you have access to.  You can apply various filters to narrow your search.
 
