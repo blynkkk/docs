@@ -67,7 +67,7 @@ Blynk.begin(auth, "wifi-ssid", "wifi-pass");
 
 When the Template is ready, go to Search -&gt; Devices - **Create new device**
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+<img width="1200" alt="new device" src="https://user-images.githubusercontent.com/72824404/119494118-9db48000-bd69-11eb-952c-297c0b7627f8.png">
 
 1. Choose a Template and give your new device a name
 
