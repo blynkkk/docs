@@ -57,7 +57,7 @@ Blynk.begin(auth, "wifi-ssid", "wifi-pass");
 2. If you don't have a  Device Templates -&gt; [Create New Template](../working-with-templates/#create-a-template) or open an existing one
 3. Copy the contents of this section and paste them to your sketch
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![Uploading Template ID.png…]()
 
 #### 
 
