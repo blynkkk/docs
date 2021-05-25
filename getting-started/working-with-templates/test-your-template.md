@@ -16,7 +16,8 @@ Now try triggering the switch ON / OFF states and you'll see the data appear on 
 
 Device will be also visible in the dashboard. You can open it and see it's web version of the dashboard
 
-![](../../.gitbook/assets/image%20%2824%29.png)
+<img width="1143" alt="Template" src="https://user-images.githubusercontent.com/72824404/119482710-dd289f80-bd5c-11eb-9aa0-8c00b8b40dbe.png">
+
 
 ## What to check:
 
