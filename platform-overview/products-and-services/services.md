@@ -25,7 +25,8 @@ To get understanding of the Blynk Inject take a look at the below videos:
 
 ## Blynk.**R**
 
-![Roles and Permissions](https://user-images.githubusercontent.com/72824404/119464434-6505ae00-bd4b-11eb-9775-e8565e76a398.png)
+![Roles and Permissions](https://user-images.githubusercontent.com/72824404/119464996-f2e19900-bd4b-11eb-9a7d-ac54f7f4aa5b.png)
+
 
 
 
