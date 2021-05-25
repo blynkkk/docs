@@ -12,7 +12,7 @@
 
 ## Blynk.App
 
-![apps](https://user-images.githubusercontent.com/72790181/119367119-502d0a00-bcba-11eb-91f1-62f7c61210f1.png)
+<img width="1600" alt="Blynk.App" src="https://user-images.githubusercontent.com/72824404/119525085-e464a300-bd86-11eb-84dc-a4f3de0f7ec9.png">
 
 **Blynk.App** is a multi-functional native iOS and Android mobile application that serves these major functions:
 
