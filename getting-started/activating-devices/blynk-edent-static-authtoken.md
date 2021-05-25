@@ -13,8 +13,10 @@ Static AuthToken is used when you are working with hardware that doesn't support
 
 5. Select the downloaded .zip archive. Press **Choose** to continue.  
 6. After that, you should see Blynk folder under the **File &gt; Examples**  
-![](https://lh3.googleusercontent.com/WfHrWEDwJZ-mzHNcy1UVE1nwHDCAODrMkVehACEgsZYc4pS54L4o99Qel706TSEYPqUqNayc8Ur8pM6DCECYFH1hivgwC2O-KHSZgANz4yTkVV99JR-N4-8B2NDCoZXm3GlXm7eD)  
+  
 7. Select the example for the hardware you use. We will use the one for Arduino UNO + Ethernet shield
+
+![](https://lh3.googleusercontent.com/WfHrWEDwJZ-mzHNcy1UVE1nwHDCAODrMkVehACEgsZYc4pS54L4o99Qel706TSEYPqUqNayc8Ur8pM6DCECYFH1hivgwC2O-KHSZgANz4yTkVV99JR-N4-8B2NDCoZXm3GlXm7eD)
 
 ```cpp
 #define BLYNK_PRINT Serial

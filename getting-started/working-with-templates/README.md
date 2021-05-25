@@ -1,6 +1,6 @@
 # Template Quick Setup
 
-Device Template is a set of configurations inherited by devices of a similar type. 
+Device Template is a set of configurations inherited by devices of a similar type.
 
 Think about smart home switches. They all perform a similar function and it's safe to assume that they should have the same data model, GPIOs, firmware code, etc. If you would need to introduce changes to all of these devices, instead of editing each of them you could just edit a Device Template and all devices will be updated.
 
@@ -18,8 +18,6 @@ You would need a development board \(e.g. Node MCU, Arduino\). List of supported
 Full documentation on all of the Template settings can be found [here](../../web-dashboard/products/porducts-management.md):
 
 {% page-ref page="../../web-dashboard/products/porducts-management.md" %}
-
-
 
 ## **1. Enable Developer Mode**
 
@@ -39,29 +37,21 @@ Open the Templates section in the left menu and click **+ New Template** button*
 
 ![](../../.gitbook/assets/open-templates.gif)
 
-
-
 ## 3. **Basic** Settings
 
 Give your new template a name, specify the hardware and connectivity you will be using.
 
 {% hint style="info" %}
- If you can't find your hardware in the list choose **Generic Board**
+If you can't find your hardware in the list choose **Generic Board**
 {% endhint %}
 
 ![New template modal](https://user-images.githubusercontent.com/72790181/119371516-30e4ab80-bcbf-11eb-917c-04f97aaa81f9.png)
 
-
-
-
 ## 4. Find **Template ID**
 
-A new Template is now created. On this screen notice **Template ID** and **Firmware Configuration** sections. You will need these details later in your sketch.  
+A new Template is now created. On this screen notice **Template ID** and **Firmware Configuration** sections. You will need these details later in your sketch.
 
 ![Template editing](https://user-images.githubusercontent.com/72790181/119371440-1a3e5480-bcbf-11eb-9cf1-d3ee57ca8634.png)
-
-
-
 
 ## 5. **Set Up Mobile Dashboard**
 
@@ -79,8 +69,4 @@ A new Template is now created. On this screen notice **Template ID** and **Firmw
 ### Congratulations, you have configured your Product and it is ready to use!
 
 Now all that remains is to [add your test board using Blynk.App](../../mobile-applications/device-management/add-new-device.md), make sure it works as you expect, and integrate your code.
-
- 
-
-
 

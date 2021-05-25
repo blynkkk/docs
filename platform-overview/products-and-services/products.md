@@ -4,7 +4,6 @@
 
 ![360](https://user-images.githubusercontent.com/72790181/119367096-499e9280-bcba-11eb-903a-7d9c47d412cc.png)
 
-
 **Blynk.360** is a feature-rich web application that can be used by different [types of users](../../concepts/users.md). Major functionality of this product is:
 
 1. Configuration of how connected devices work on the plartform + application settings.
@@ -14,7 +13,6 @@
 ## Blynk.App
 
 ![apps](https://user-images.githubusercontent.com/72790181/119367119-502d0a00-bcba-11eb-91f1-62f7c61210f1.png)
-
 
 **Blynk.App** is a multi-functional native iOS and Android mobile application that serves these major functions:
 
@@ -28,7 +26,7 @@ Full documentation on Blynk.App is [here](../../mobile-applications/overview.md)
 
 ## Blynk.Edgent
 
-Edge + Agent = Edgent 
+Edge + Agent = Edgent
 
 ![](../../.gitbook/assets/blynk-code-ide-wifi-provisioning.png)
 
