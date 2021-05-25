@@ -9,7 +9,7 @@
 2. Make sure your device is powered on and waiting for connection.   
 3. Tap **Ready**
 
-![](../../.gitbook/assets/img_0005%20%281%29.png)
+![](../../.gitbook/assets/img_0005%20%281%29%20%281%29.png)
 
 4. **Choose your device** and tap it's name
 

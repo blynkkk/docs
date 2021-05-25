@@ -4,5 +4,3 @@ Blynk IoT platform offers four main Products that serve different functions. The
 
 ![](../.gitbook/assets/blynk-iot-platform-products.png)
 
-![Diagram of how products are connected](../.gitbook/assets/image-placeholder.png)
-
