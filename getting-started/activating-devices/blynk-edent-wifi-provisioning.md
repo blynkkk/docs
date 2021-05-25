@@ -42,9 +42,9 @@ Now let's make it work for your devices.
 ![](https://lh3.googleusercontent.com/i3hKUqAHHOLARrcHd0QaKKhVXjs2BAzFFgonSnaA2JyLWwO5aj7yM8Z0K7QwTpW_sU17pJTyBAx0hLjHPOGceIjdCJhUjYdjukK0sjQTE0EX_xBV3UPpjzWHVvPqhkB2neYdVhkm)
 
 1. Select the downloaded .zip archive. Press Choose to continue.  
-2. After that, you should see Blynk folder under the **File &gt; Examples**
+2. After that, you should see Blynk folder under the **File &gt; Examples**  
 
-   ![](https://lh3.googleusercontent.com/WfHrWEDwJZ-mzHNcy1UVE1nwHDCAODrMkVehACEgsZYc4pS54L4o99Qel706TSEYPqUqNayc8Ur8pM6DCECYFH1hivgwC2O-KHSZgANz4yTkVV99JR-N4-8B2NDCoZXm3GlXm7eD)
+   ![](https://lh3.googleusercontent.com/WfHrWEDwJZ-mzHNcy1UVE1nwHDCAODrMkVehACEgsZYc4pS54L4o99Qel706TSEYPqUqNayc8Ur8pM6DCECYFH1hivgwC2O-KHSZgANz4yTkVV99JR-N4-8B2NDCoZXm3GlXm7eD)  
 
 3. Select **Blynk.Edgent &gt; Edgent\_ESP32**
 
@@ -85,9 +85,9 @@ In the sketch variables `BLYNK_TEMPLATE_ID` and `BLYNK_DEVICE_NAME` are empty. T
 
 1. Log in to your [Blynk.360](https://blynk.cloud/) developer account  
 2. Go to Templates -&gt; [Create New Template](../working-with-templates/#create-a-template) or open existing template  
-3. Copy the Firmare Configuration code lines
+3. Copy the Firmare Configuration code lines   
 
-   ![](https://lh6.googleusercontent.com/x2ZHNOv1TA7jPkQtujqBWmn3_mtQr5yxkgZ-0JZF7T7pIndKZHTu0glkkblS3sEd4XV1KAo0ZaljY3dm73AA8aKghwdALd7rKiELWm3v0xjoCJ1Li6wjzsoOP_oCjMBysQ31QBNp)
+   ![](https://lh6.googleusercontent.com/x2ZHNOv1TA7jPkQtujqBWmn3_mtQr5yxkgZ-0JZF7T7pIndKZHTu0glkkblS3sEd4XV1KAo0ZaljY3dm73AA8aKghwdALd7rKiELWm3v0xjoCJ1Li6wjzsoOP_oCjMBysQ31QBNp)  
 
 4. Go back to your sketch and replace the configuration lines with what you copied.
 
@@ -114,7 +114,7 @@ _WiFI credentials -&gt; Waiting -&gt; all Checkmarks checked_
 
 When the process if over, you will be prompted to name the device. At this stage, the device is ready to use.
 
-![Device connected](https://user-images.githubusercontent.com/72790181/119508402-66999b00-bd78-11eb-9343-74a25c9eefbb.png)
+![](https://lh4.googleusercontent.com/Dofpg_nuepVAkVObVJcXsWC0Z9QShoVWHPGgYv8a_WZ9RMD-2G_zAwKHDk6ddp1lrf2KIHNrGCsgJ6Vu0x4UiKZCHgwsv1GUAu9_v819oItUP3vPo_iIVwNveTh3UI_fD6mCOi2B)
 
 For debugging and troubleshooting check the serial monitor output. There you will see how provisioning process is happening on the device.
 

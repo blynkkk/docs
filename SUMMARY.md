@@ -18,7 +18,7 @@
 
 ## Downloads
 
-* [Blynk mobile Apps](downloads/blynk-apps-for-ios-and-android.md)
+* [Blynk Mobile Apps](downloads/blynk-apps-for-ios-and-android.md)
 * [Blynk.Edgent](downloads/blynk.edgent.md)
 
 ## Getting Started
@@ -182,5 +182,4 @@
   * [Migrate from 0.1 to Blynk](blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md)
 * [Glossary](glossary.md)
 * [Links](links.md)
-* [Sign Up, Sign In, Password reset](sign-up-sign-in-password-reset.md)
 
