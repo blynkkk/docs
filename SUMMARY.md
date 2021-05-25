@@ -4,10 +4,9 @@
 
 ## Platform overview
 
-* [What is Blynk](platform-overview/what-is-blynk-2.0.md)
-* [Products and Services](platform-overview/products-and-services/README.md)
-  * [Products](platform-overview/products-and-services/products.md)
-  * [Services](platform-overview/products-and-services/services.md)
+* [Blynk Products and Services](platform-overview/products-and-services.md)
+* [Products](platform-overview/products.md)
+* [Services](platform-overview/services.md)
 
 ## Concepts
 

@@ -4,7 +4,7 @@
 
 ![360](https://user-images.githubusercontent.com/72790181/119367096-499e9280-bcba-11eb-903a-7d9c47d412cc.png)
 
-**Blynk.360** is a feature-rich web application that can be used by different [types of users](../../concepts/users.md). Major functionality of this product is:
+**Blynk.360** is a feature-rich web application that can be used by different [types of users](../concepts/users.md). Major functionality of this product is:
 
 1. Configuration of how connected devices work on the plartform + application settings.
 2. Management of devices, their data, users, organizations and locations 
@@ -22,13 +22,13 @@
 
 Blynk.app is a white-label solution.
 
-Full documentation on Blynk.App is [here](../../mobile-applications/overview.md)
+Full documentation on Blynk.App is [here](../mobile-applications/overview.md)
 
 ## Blynk.Edgent
 
 Edge + Agent = Edgent
 
-![](../../.gitbook/assets/blynk-code-ide-wifi-provisioning.png)
+![](../.gitbook/assets/blynk-code-ide-wifi-provisioning.png)
 
 **Blynk.Edgent** is a lightweight embedded library that runs on over 400 supported hardware models
 
@@ -40,7 +40,7 @@ Main functions of Blynk.Edgent are:
 4. API to work with specific Blynk.app and Blynk.cloud features
 5. Over-the-air firmware updates \(for selected hardware models\)
 
-Full documentation on Blynk.Edgent is [here](../../blynk.edgent/overview.md)
+Full documentation on Blynk.Edgent is [here](../blynk.edgent/overview.md)
 
 ## Blynk.Cloud
 
