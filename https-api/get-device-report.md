@@ -112,7 +112,7 @@ or
 {% endapi-method-spec %}
 {% endapi-method %}
 
-**Use case example:**
+### **Use case example:**
 
 You live in Sydney and have garage door opener and want to get an exact time you departed today in one file. The accuracy you need is up to 1 minute and it should be in "YYYY-MM-DD HH:MM:SS" format.  
 Garage door opener is Blynked and it uses Datastream with ID 20 and virtual pin 6 for open/close commands. Also you want to get the list of all the events occured during this period. So API request for this case looks like:  
