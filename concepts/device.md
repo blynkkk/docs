@@ -18,7 +18,7 @@ Every device inherits a [Device Template](device-template.md). Make sure you und
 
 A Device always belongs to an Organization and usually has an owner. In most common cases, it's a user who activated the device. However, ownership can be changed by transferring the device to a different user or Organization. Owner of the device could be found under the device name:
 
-![](../.gitbook/assets/owner.png)
+<img width="1264" alt="Ownership" src="https://user-images.githubusercontent.com/72824404/119472965-5fac6180-bd53-11eb-8178-84492a46bc76.png">
 
 Click on the owner name will open the user profile in case you have enough permissions to view it. Device owner is used mostly for the permissions to restrict the devices access within the organization.
 
