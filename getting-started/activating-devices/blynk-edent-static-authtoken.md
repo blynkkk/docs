@@ -71,8 +71,7 @@ When the Template is ready, go to Search -&gt; Devices - **Create new device**
 
 1. Choose a Template and give your new device a name
 
-![](../../.gitbook/assets/image%20%2818%29.png)
-
+<img width="1200" alt="new device" src="https://user-images.githubusercontent.com/72824404/119496316-0c92d880-bd6c-11eb-9276-9ce033ef38c2.png">
 
 
 2. After the device was created, open its dashboard, go to the Device Info tab. There you will find a field: Auth Token.
