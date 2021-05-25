@@ -174,6 +174,7 @@
 
 ## Troubleshooting
 
+* [Sign Up/In, Invite User, Password reset](troubleshooting/sign-up-in-invite-user-password-reset.md)
 * [WiFi provisioning](troubleshooting/wifi-provisioning.md)
 
 ---
