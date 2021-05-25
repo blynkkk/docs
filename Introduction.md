@@ -3,7 +3,7 @@
 {% hint style="warning" %}
 This documentation covers the **latest generation** of the Blynk IoT Platform. 
 
-Blynk 0.1 is no longer supported and developed. Documentation for the unsupported legacy version can be found [here](http://docs.blynk.cc).
+Blynk 0.1 is still maintained, but it's no longer receiving new features. Documentation for the unsupported legacy version can be found [here](http://docs.blynk.cc).
 {% endhint %}
 
 Blynk is a full suite of software required to prototype, deploy, and remotely manage connected electronic devices at any scale: from personal IoT projects to millions of commercial connected products.
