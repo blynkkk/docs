@@ -1,5 +1,14 @@
 # Log Event
 
+### Get an Event code
+
+1. Open Device Template
+2. Switch to Events tab
+3. Hover Code column across from Event name
+4. Once "Click to copy Event Code" hint appears, click it and Event Code will be coped to you buffer
+
+![](../.gitbook/assets/copy_event_code.png)
+
 {% api-method method="get" host="https://blynk.cloud" path="/external/api/logEvent?token={token}&code={event\_name}&description={event\_desciption}" %}
 {% api-method-summary %}
 Trigger the event by event code
