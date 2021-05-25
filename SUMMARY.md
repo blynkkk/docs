@@ -183,15 +183,3 @@
 * [Glossary](glossary.md)
 * [Links](links.md)
 
-## Unused
-
-* [Common Blynk.360 Navigation and Actions](unused/common-navigation-and-actions-reference.md)
-* [User Invitation](unused/sign-up-by-invitation.md)
-* [Sign Up](unused/sign-up.md)
-* [Partner mode](unused/partner-mode.md)
-* [Partner Sign Up](unused/partner-sign-up.md)
-* [Partner Sign Up](unused/partner-sign-up-1.md)
-* [ODBC DB](unused/odbc-db-copy.md)
-* [Analytics](unused/analytics.md)
-* [Rule Engine](unused/rule-engine.md)
-
