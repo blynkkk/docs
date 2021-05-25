@@ -33,7 +33,7 @@ A micro-service for user management, covering
 
 ## Blynk.Air
 
-![Icon of of Blynk.Air](../../.gitbook/assets/air.png)
+![Blynk Air](https://user-images.githubusercontent.com/72824404/119467722-72706780-bd4e-11eb-809c-eebfe3078bb1.png)
 
 A micro-service for Firmware Over-the-Air Updates responsible for:
 
