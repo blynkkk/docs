@@ -4,8 +4,7 @@ Blynk services \(or micro-services\) are software modules that work across produ
 
 ## Blynk.Inject
 
-<img width="1600" alt="Blynk Inject" src="https://user-images.githubusercontent.com/72824404/119472010-8322dc80-bd52-11eb-8b64-d23d23d8ae47.png">
-
+<img width="1600" alt="Blynk Inject" src="https://user-images.githubusercontent.com/72824404/119472455-ef9ddb80-bd52-11eb-9c6a-e54746ae32dd.png">
 
 A micro-service for:
 
