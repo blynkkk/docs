@@ -8,7 +8,7 @@
 * [Products](platform-overview/products.md)
 * [Services](platform-overview/services.md)
 
-## Concepts
+## General Concepts <a id="concepts"></a>
 
 * [Device](concepts/device.md)
 * [Device Template](concepts/device-template.md)
