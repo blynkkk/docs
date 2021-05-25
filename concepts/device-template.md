@@ -18,7 +18,8 @@ Every Device Template has a **Template ID** – _\*\*_a unique template identifi
 
 Template also includes two dashboards:
 
-![Template](https://user-images.githubusercontent.com/72824404/119476479-c5e6b380-bd56-11eb-9061-0c51782471de.png)
+<img width="1236" alt="Template" src="https://user-images.githubusercontent.com/72824404/119498209-0a317e00-bd6e-11eb-84d1-ae6565dfb7d3.png">
+
 
 **Web Dashboard:** a set of UI elements \(widgets\) to visualize the data from the device accessible for the users in Blynk.360 – a web-based application.
 
