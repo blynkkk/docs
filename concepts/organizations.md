@@ -19,7 +19,7 @@ Creating organizational tree-like organizational is available in paid plans only
 
 Sub-organizations have the same structure. This enables a flexible and scalable tree-like hierarchy and [multi-tenancy](multi-tenant-tree-structure.md). However, organizations can be used in a broader sense to build a required structure. For example, a company can have such structure:
 
-![How Orgs can be used to create Countries, Departments, etc](../.gitbook/assets/image-placeholder.png)
+<img width="1264" alt="Sub-organizations" src="https://user-images.githubusercontent.com/72824404/119477378-94bab300-bd57-11eb-8b20-7016752d3f18.png">
 
 Read more about tow to work with organizations here.
 
