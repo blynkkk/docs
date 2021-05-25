@@ -104,8 +104,8 @@ void loop()
 ```bash
 Blynk v.X.X.X
 Your IP is 192.168.0.11
-Connecting...
-Blynk connected!
+Connecting to...
+Ready (ping: 40ms)
 ```
 
 
