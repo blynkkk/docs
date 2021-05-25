@@ -7,7 +7,7 @@ description: >-
 
 # Working With Templates
 
-![](../../.gitbook/assets/templates.png)
+<img width="1264" alt="Working with templates" src="https://user-images.githubusercontent.com/72824404/119523586-8daa9980-bd85-11eb-8255-fc60270ccbce.png">
 
 ## Create a Template
 
