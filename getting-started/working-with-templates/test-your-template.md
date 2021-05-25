@@ -8,11 +8,15 @@ You can add your device using built-in [WiFi Provsioning](https://docs.blynk.io/
 
 After you add the device it will appear in the Devices section of the Blynk App. Tap on it to open Device page
 
-![](../../.gitbook/assets/file-3-.jpg)
+![Device dashboard (no data)](https://user-images.githubusercontent.com/72790181/119507130-3a314f00-bd77-11eb-93e7-4124329f77af.png)
+
+
 
 Now try triggering the switch ON / OFF states and you'll see the data appear on the SuperChart \(in Live mode\)
 
-![](../../.gitbook/assets/file-4-.jpg)
+![Device dashboard](https://user-images.githubusercontent.com/72790181/119507146-3d2c3f80-bd77-11eb-8da8-a75c98f1458d.png)
+
+
 
 Device will be also visible in the dashboard. You can open it and see it's web version of the dashboard
 
