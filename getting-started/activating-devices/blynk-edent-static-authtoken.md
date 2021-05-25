@@ -33,7 +33,7 @@ char auth[] = "YourAuthToken";
 
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(115200);
   Blynk.begin(auth);
 }
 
@@ -103,7 +103,7 @@ char auth[] = "•••••••-•••••••-VoFvaUOH2U_sI";
 
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(115200);
   Blynk.begin(auth);
 }
 

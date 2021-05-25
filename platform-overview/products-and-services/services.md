@@ -15,8 +15,6 @@ A micro-service for:
 
 To get understanding of the Blynk Inject take a look at the below videos:
 
-  
-
 ![Blynk Inject flow. Blynk](http://img.youtube.com/vi/bXPEEmsEtPM/0.jpg)
 
 ![Blynk Inject flow. Cama Cooler](http://img.youtube.com/vi/GPneDxWvp4U/0.jpg)
@@ -26,9 +24,6 @@ To get understanding of the Blynk Inject take a look at the below videos:
 ## Blynk.**R**
 
 ![Roles and Permissions](https://user-images.githubusercontent.com/72824404/119464996-f2e19900-bd4b-11eb-9a7d-ac54f7f4aa5b.png)
-
-
-
 
 A micro-service for user management, covering
 
