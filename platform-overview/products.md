@@ -2,7 +2,7 @@
 
 ## Blynk.360
 
-![360](https://user-images.githubusercontent.com/72790181/119367096-499e9280-bcba-11eb-903a-7d9c47d412cc.png)
+<img width="1264" alt="Blynk.360" src="https://user-images.githubusercontent.com/72824404/119524638-8041df00-bd86-11eb-831a-0d38fc6c07d3.png">
 
 **Blynk.360** is a feature-rich web application that can be used by different [types of users](../concepts/users.md). Major functionality of this product is:
 
