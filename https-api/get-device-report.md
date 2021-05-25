@@ -1,6 +1,6 @@
 # Get Device Report
 
-{% api-method method="get" host="https://{server\_address}" path="/external/api/data/get?token={token}&period={PERIOD}&granularityType={TYPE}&sourceType={SOURCE\_TYPE}&tzName={tzName}&format={FORMAT}&sendEvents=true&output=FILE&dataStreamId={id}&pin={pin}" %}
+{% api-method method="get" host="https://blynk.cloud" path="/external/api/data/get?token={token}&period={PERIOD}&granularityType={TYPE}&sourceType={SOURCE\_TYPE}&tzName={tzName}&format={FORMAT}&sendEvents=true&output=FILE&dataStreamId={id}&pin={pin}" %}
 {% api-method-summary %}
 
 {% endapi-method-summary %}
@@ -104,11 +104,20 @@ or
 or
 
 {"error":{"message":"Wrong pin format."}}
+
+
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+**Use case example:**
+
+You live in Sydney and have garage door opener and want to get an exact time you departed today in one file. The accuracy you need is up to 1 minute and it should be in "YYYY-MM-DD HH:MM:SS" format.  
+Garage door opener is Blynked and it uses Datastream with ID 20 and virtual pin 6 for open/close commands. Also you want to get the list of all the events occured during this period. So API request for this case looks like:  
+  
+****[**`https://blynk.cloud/external/api/data/get?token=HjKjfij84050fege&period=DAY&granularityType=MINUTE&sourceType=AVG&tzName=AET&format=ISO_SIMPLE&sendEvents=true&output=FILE&dataStreamId=20&pin=V6`**](https://blynk.cloud/external/api/data/get?token=HjKjfij84050fege&period=DAY&granularityType=MINUTE&sourceType=AVG&tzName=AET&format=ISO_SIMPLE&sendEvents=true&output=FILE&dataStreamId=20&pin=V6)**\`\`**
 
 **JSON Output example:**
 
@@ -144,4 +153,6 @@ or
 	"rows_before_limit_at_least": 1
 }
 ```
+
+
 
