@@ -45,13 +45,16 @@ Give your new template a name, specify the hardware and connectivity you will be
 If you can't find your hardware in the list choose **Generic Board**
 {% endhint %}
 
-![New template modal](https://user-images.githubusercontent.com/72790181/119371516-30e4ab80-bcbf-11eb-917c-04f97aaa81f9.png)
+![New template modal](https://user-images.githubusercontent.com/72790181/119468187-e1e65700-bd4e-11eb-8cfd-7c6fffda7b09.png)
+
+
 
 ## 4. Find **Template ID**
 
 A new Template is now created. On this screen notice **Template ID** and **Firmware Configuration** sections. You will need these details later in your sketch.
 
-![Template editing](https://user-images.githubusercontent.com/72790181/119371440-1a3e5480-bcbf-11eb-9cf1-d3ee57ca8634.png)
+![Template editing](https://user-images.githubusercontent.com/72790181/119468206-e6127480-bd4e-11eb-974a-d50402fbee52.png)
+
 
 ## 5. **Set Up Mobile Dashboard**
 
