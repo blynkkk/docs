@@ -20,30 +20,22 @@ Static AuthToken is used when you are working with hardware that doesn't support
 
 ```cpp
 #define BLYNK_PRINT Serial
-
-/* Fill-in your Template ID (only if using blynk.cloud) */
-#define BLYNK_TEMPLATE_ID             ""
-#define BLYNK_DEVICE_NAME             ""
-
-#include <SPI.h>
-#include <Ethernet.h>
-#include <BlynkSimpleEthernet.h>
-
-char auth[] = "YourAuthToken";
-
+#define BLYNK_TEMPLATE_ID "TMPLXtg6ltzI"
+#define BLYNK_DEVICE_NAME "Test"
+#include <BlynkSimpleEsp32.h>
+char auth[] = "1jIajShg30JO-QQZmlWf1NjdH5FNi2wW";
 void setup()
 {
   Serial.begin(115200);
-  Blynk.begin(auth);
+  Blynk.begin(auth, "wifi-ssid", "wifi-pass");
 }
-
 void loop()
 {
   Blynk.run();
 }
 ```
 
-Pay attention to these 3 lines: you would need to fill them. 
+Pay attention to these 4 lines: you would need to fill them. 
 
 ```cpp
 ...
@@ -52,6 +44,7 @@ Pay attention to these 3 lines: you would need to fill them.
 ...
 char auth[] = "YourAuthToken";
 ...
+Blynk.begin(auth, "wifi-ssid", "wifi-pass");
 ```
 
 ### 
@@ -90,23 +83,15 @@ Now you have all the information you need to update your sketch:
 
 ```cpp
 #define BLYNK_PRINT Serial
-
-/* Fill-in your Template ID (only if using blynk.cloud) */
 #define BLYNK_TEMPLATE_ID "TMPLbu8YYym5"
-#define BLYNK_DEVICE_NAME "My First Device"
-
-#include <SPI.h>
-#include <Ethernet.h>
-#include <BlynkSimpleEthernet.h>
-
+#define BLYNK_DEVICE_NAME "My First Device 01"
+#include <BlynkSimpleEsp32.h>
 char auth[] = "•••••••-•••••••-VoFvaUOH2U_sI";
-
 void setup()
 {
   Serial.begin(115200);
-  Blynk.begin(auth);
+  Blynk.begin(auth, "your_wifi-ssid", "your_wifi-pass");
 }
-
 void loop()
 {
   Blynk.run();

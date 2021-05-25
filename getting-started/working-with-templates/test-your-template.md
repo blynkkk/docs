@@ -1,6 +1,6 @@
 # Test your Template
 
-Let's check if everything is up and running! 
+Let's check if everything is up and running!
 
 ## Add device
 
@@ -16,24 +16,17 @@ Now try triggering the switch ON / OFF states and you'll see the data appear on 
 
 Device will be also visible in the dashboard. You can open it and see it's web version of the dashboard
 
-<img width="1143" alt="Template" src="https://user-images.githubusercontent.com/72824404/119482710-dd289f80-bd5c-11eb-9aa0-8c00b8b40dbe.png">
-
+![Template](https://user-images.githubusercontent.com/72824404/119482710-dd289f80-bd5c-11eb-9aa0-8c00b8b40dbe.png)
 
 ## What to check:
 
-#### 
-
-#### Data visualization and control 
+### Data visualization and control
 
 Check how data flows from the device, how widgets work.
 
 For example, the latest value is displayed in the label widget as well as historical data is displayed in the chart.
 
-
-
-#### Syncing between mobile and web
+### Syncing between mobile and web
 
 When you click the switch on the web dashboard you will see it changes the state everywhere: in the mobile app and in the dashboard
-
-
 

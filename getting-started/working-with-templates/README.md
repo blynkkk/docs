@@ -47,14 +47,11 @@ If you can't find your hardware in the list choose **Generic Board**
 
 ![New template modal](https://user-images.githubusercontent.com/72790181/119468187-e1e65700-bd4e-11eb-8cfd-7c6fffda7b09.png)
 
-
-
 ## 4. Find **Template ID**
 
 A new Template is now created. On this screen notice **Template ID** and **Firmware Configuration** sections. You will need these details later in your sketch.
 
 ![Template editing](https://user-images.githubusercontent.com/72790181/119468206-e6127480-bd4e-11eb-974a-d50402fbee52.png)
-
 
 ## 5. **Set Up Mobile Dashboard**
 

@@ -1,6 +1,6 @@
 # Devices
 
-![Blank Devices tab](../../.gitbook/assets/empty-state-screen%20%282%29%20%282%29.png)
+![Blank Devices tab](../../.gitbook/assets/empty-state-screen%20%282%29%20%282%29%20%282%29.png)
 
 Tap **Add New Device** in case your Devices tab is empty or you need to add new devices.
 
