@@ -114,7 +114,8 @@ _WiFI credentials -&gt; Waiting -&gt; all Checkmarks checked_
 
 When the process if over, you will be prompted to name the device. At this stage, the device is ready to use.
 
-![](https://lh4.googleusercontent.com/Dofpg_nuepVAkVObVJcXsWC0Z9QShoVWHPGgYv8a_WZ9RMD-2G_zAwKHDk6ddp1lrf2KIHNrGCsgJ6Vu0x4UiKZCHgwsv1GUAu9_v819oItUP3vPo_iIVwNveTh3UI_fD6mCOi2B)
+![Device connected](https://user-images.githubusercontent.com/72790181/119508402-66999b00-bd78-11eb-9343-74a25c9eefbb.png)
+
 
 For debugging and troubleshooting check the serial monitor output. There you will see how provisioning process is happening on the device.
 
