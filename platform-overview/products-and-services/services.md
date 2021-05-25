@@ -4,7 +4,7 @@ Blynk services \(or micro-services\) are software modules that work across produ
 
 ## Blynk.Inject
 
-![Blynk Inject](https://user-images.githubusercontent.com/72824404/119472455-ef9ddb80-bd52-11eb-9c6a-e54746ae32dd.png)
+![Blynk.Inject](https://user-images.githubusercontent.com/72824404/119472455-ef9ddb80-bd52-11eb-9c6a-e54746ae32dd.png)
 
 A micro-service for:
 
@@ -33,7 +33,7 @@ A micro-service for user management, covering
 
 ## Blynk.Air
 
-![Blynk Air](https://user-images.githubusercontent.com/72824404/119467722-72706780-bd4e-11eb-809c-eebfe3078bb1.png)
+![Blynk.Air](https://user-images.githubusercontent.com/72824404/119467722-72706780-bd4e-11eb-809c-eebfe3078bb1.png)
 
 A micro-service for Firmware Over-the-Air Updates responsible for:
 
