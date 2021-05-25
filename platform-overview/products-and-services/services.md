@@ -23,7 +23,8 @@ To get understanding of the Blynk Inject take a look at the below videos:
 
 ## Blynk.**R**
 
-![Roles and Permissions]<img width="1264" alt="Roles and permissions" src="https://user-images.githubusercontent.com/72824404/119471626-20314580-bd52-11eb-8e15-ea4d3cf00d66.png">
+<img width="1264" alt="Roles and permissions" src="https://user-images.githubusercontent.com/72824404/119471708-3808c980-bd52-11eb-89bd-7b003fc94da1.png">
+
 
 
 A micro-service for user management, covering
