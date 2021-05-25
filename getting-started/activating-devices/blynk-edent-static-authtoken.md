@@ -68,7 +68,8 @@ When the Template is ready, go to Search -&gt; Devices - **Create new device**
 
 1. After the device was created, open its dashboard, go to the Device Info tab. There you will find a field: Auth Token.
 
-![](../../.gitbook/assets/image%20%2817%29.png)
+<img width="1200" alt="AuthToken" src="https://user-images.githubusercontent.com/72824404/119501175-4adec680-bd71-11eb-804f-75438981169a.png">
+
 
 Now you have all the information you need to update your sketch:
 
