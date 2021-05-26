@@ -20,7 +20,8 @@ If you don't have any Device Templates, you can create a basic template in the a
 
 When there is a Device Template already, you can tap on it and start working with mobild dashboard layout. 
 
-![](../.gitbook/assets/constructor.gif)
+<img width="1461" alt="Dashboard editor" src="https://user-images.githubusercontent.com/72790181/119659720-1cc3ba00-be37-11eb-9332-0f4b7359a757.png">
+
 
 #### **Add Widgets**
 
