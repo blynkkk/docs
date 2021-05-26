@@ -1,2 +1,2 @@
-# My Profile
+# Main Menu
 
