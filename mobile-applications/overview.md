@@ -26,7 +26,8 @@ Home screen consists of up to 3 tabs depending on the configuration: [Devices](o
 
 ### **Devices**
 
-![](../.gitbook/assets/2-no-devices.png) ![](../.gitbook/assets/1-main-screen.png)
+<img width="1029" alt="Devices tab" src="https://user-images.githubusercontent.com/72790181/119658993-6cee4c80-be36-11eb-89c2-22e0d25fc709.png">
+
 
 This section is open by default when you open the app. All created devices will be listed here and their tiles will look according to their [template ](../web-dashboard/products/)type. To add new device go to the [Right](overview.md#right-menu) menu by tapping the top right button in the navigation bar. There are also options to change how devices are sorted.
 
@@ -39,7 +40,8 @@ This section is visible only when a template has at least one datastream enabled
 To enable the datastream for automation, please read the [Datastreams](../web-dashboard/products/datastreams/datastreams-common-settings/) article.
 {% endhint %}
 
-![](../.gitbook/assets/3-automations.png)
+<img width="1029" alt="Automation tab" src="https://user-images.githubusercontent.com/72790181/119659015-711a6a00-be36-11eb-982f-f4d3ab66a0c3.png">
+
 
 You can automate your connected devices with the following triggers:
 
@@ -50,7 +52,8 @@ You can automate your connected devices with the following triggers:
 
 ### **Notifications**
 
-![](../.gitbook/assets/alerts.png)
+![Notifications tab](https://user-images.githubusercontent.com/72790181/119659055-7a0b3b80-be36-11eb-8eeb-8eaf4f27957a.png)
+
 
 The list of notificatios and important alerts from all devices will be here.
 
@@ -60,7 +63,8 @@ In order to be listed here, the template should have the [Event](../web-dashboar
 
 ## Device dashboard
 
-![](../.gitbook/assets/device-dashboard.png)
+![Device dashboard](https://user-images.githubusercontent.com/72790181/119659080-7f688600-be36-11eb-8cb0-63d378339091.png)
+
 
 When a user taps on the device tile, the device dashboard will be opened. It consists of widgets that allow controlling and monitoring the device. The layout of the widgets and their settings can be edited in the [Developer mode](../getting-started/developer-mode.md)
 
@@ -71,15 +75,18 @@ Device Information and Timeline.
 
 On the **Device Info** tab, you can edit a device name, change other [metadata](../web-dashboard/devices-1/device-view/metadata/) values, view other things like firmware version, etc.
 
-![](../.gitbook/assets/device-info-1-.png)
+![Device profile](https://user-images.githubusercontent.com/72790181/119659123-898a8480-be36-11eb-9088-46e48b4c0015.png)
+
 
 On the **Timeline** tab, you'll find the list of all events of the device \(for example online, offline and custom [Events](../web-dashboard/products/events/)\)
 
-![](../.gitbook/assets/timeline-1-.png)
+![Timeline](https://user-images.githubusercontent.com/72790181/119659291-b048bb00-be36-11eb-8d83-762314da9862.png)
+
 
 ### **Device Actions menu**
 
-![](../.gitbook/assets/device-actions.png)
+![Device actions menu](https://user-images.githubusercontent.com/72790181/119659307-b50d6f00-be36-11eb-86fb-69df17cef2bc.png)
+
 
 At the top right corner of the Device Info and Timeline tabs, there's **Configure** \(gear\) _\*\*_icon that opens an actions menu with the following options:
 
@@ -89,7 +96,8 @@ At the top right corner of the Device Info and Timeline tabs, there's **Configur
 
 ## Main menu
 
-![](../.gitbook/assets/main-menu.png)
+![Left sidebar](https://user-images.githubusercontent.com/72790181/119659337-bc347d00-be36-11eb-82a1-19c3d94d2787.png)
+
 
 At the top left corner, there's a **Profile** icon that will open the main menu when you tap on it. This menu consists of the following entries:
 
@@ -100,7 +108,8 @@ At the top left corner, there's a **Profile** icon that will open the main menu 
 
 ## **Right menu**
 
-![](../.gitbook/assets/sidebar-opened-2-.png)
+![Right sidebar](https://user-images.githubusercontent.com/72790181/119659382-c5bde500-be36-11eb-89da-c0e8c774600a.png)
+
 
 At the top right corner, there's a hamburger icon that will open the right sidebar menu when you tap on it.  
 Depending on the active tab on the [Main screen](overview.md#main-screen) it offers to add new Device, create new Automation, new Group, etc.
