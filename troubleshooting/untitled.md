@@ -68,3 +68,12 @@ Keep your Blynk.App up to date please.
 * be sure to send the requests to the correct server  
 * check all the inputs to be corrent in the request and to be present in the template _\(also there's a hint on what exactly went wrong in a result field of Postman or web page body\)_
 
+## I can't see all metadata in Blynk.App 
+
+**What could be the reason:**  
+- ****not all metadata can be viewed now due to it's not implemented yet
+
+**What’s the solution:**  
+- view full metadata list in Blynk.360  
+- wait for Blynk.App full metadata support and update it regularly
+

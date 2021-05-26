@@ -1,42 +1,34 @@
 # Devices
 
-<img width="621" alt="Devices tab" src="https://user-images.githubusercontent.com/72790181/119669458-bf346b00-be40-11eb-8852-b66c1c8b18c5.png">
-
+![Devices tab](https://user-images.githubusercontent.com/72790181/119669458-bf346b00-be40-11eb-8852-b66c1c8b18c5.png)
 
 Tap **Add New Device** in case your Devices tab is empty or you need to add new devices.
 
-<img width="621" alt="Start provisioning" src="https://user-images.githubusercontent.com/72790181/119669516-cce9f080-be40-11eb-9ff0-d83ff21139a2.png">
-
+![Start provisioning](https://user-images.githubusercontent.com/72790181/119669516-cce9f080-be40-11eb-9ff0-d83ff21139a2.png)
 
 Follow the [provisioning steps](add-new-device.md).
 
-<img width="621" alt="Devices tiles" src="https://user-images.githubusercontent.com/72790181/119669566-d410fe80-be40-11eb-8163-15dcd1da98d4.png">
-
+![Devices tiles](https://user-images.githubusercontent.com/72790181/119669566-d410fe80-be40-11eb-8163-15dcd1da98d4.png)
 
 You will see the tiled list of devices after they are added.
 
-<img width="621" alt="Right sidebar" src="https://user-images.githubusercontent.com/72790181/119669667-e5f2a180-be40-11eb-870a-2435ab0c941d.png">
-
+![Right sidebar](https://user-images.githubusercontent.com/72790181/119669667-e5f2a180-be40-11eb-870a-2435ab0c941d.png)
 
 You can add new and **stack/sort** existing devices in the **right side menu**
 
-<img width="621" alt="Device dashboard" src="https://user-images.githubusercontent.com/72790181/119669724-f276fa00-be40-11eb-8188-0b89bfee4382.png">
-
+![Device dashboard](https://user-images.githubusercontent.com/72790181/119669724-f276fa00-be40-11eb-8188-0b89bfee4382.png)
 
 Tap **Device tile** to open it's Dashboard. Here you can view and interract with device's stats and settings.
 
-<img width="621" alt="Timeline" src="https://user-images.githubusercontent.com/72790181/119669742-f7d44480-be40-11eb-8374-9162ffef0960.png">
-
+![Timeline](https://user-images.githubusercontent.com/72790181/119669742-f7d44480-be40-11eb-8374-9162ffef0960.png)
 
 **Timeline** tab displays all events related to this device. Events are also displayed in the Alerts tab
 
-<img width="621" alt="Device settings" src="https://user-images.githubusercontent.com/72790181/119669773-fc98f880-be40-11eb-986e-1e8fa128075d.png">
-
+![Device settings](https://user-images.githubusercontent.com/72790181/119669773-fc98f880-be40-11eb-986e-1e8fa128075d.png)
 
 On the tab **Settings**, you can edit the device’s settings
 
-<img width="621" alt="Device actions" src="https://user-images.githubusercontent.com/72790181/119669787-00c51600-be41-11eb-918a-b42ca9ce7219.png">
-
+![Device actions](https://user-images.githubusercontent.com/72790181/119669787-00c51600-be41-11eb-918a-b42ca9ce7219.png)
 
 **Actions Menu** options:
 
