@@ -17,7 +17,7 @@ There is absolutely no correlation between virtual pins and any of the physical 
 **Basic principles of using virtual pins**  
 We’ll use an example of a Power Switch, set to Integer data type, connected to Virtual Pin 0 \(V0\). In Blynk.360 we’ll leave the values set to 0 and 1, so the widget sends a 0 when it’s turned off, and a 1 when it’s turned on - like this:
 
-![](../.gitbook/assets/power-switch-widget.png)
+![](https://user-images.githubusercontent.com/72824404/119658316-ad00ff80-be35-11eb-8875-bc1f1719aee4.png)
 
 **The BLYNK\_WRITE\(vPin\) function**  
 In your C++ sketch, you can add a special function that is triggered automatically whenever the server tells your device that the value of your virtual pin has changed. This change would normally happen when the widget button in the app is pressed.  
