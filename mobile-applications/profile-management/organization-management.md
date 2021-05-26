@@ -6,13 +6,13 @@ description: >-
 
 # My Organization
 
-![Left sidebar](https://user-images.githubusercontent.com/72790181/119666506-1b49c000-be3e-11eb-9759-fc9b5f3c7ad2.png)
 
 ## Organization management
 
 Open the left side menu and tap your **Organization Name** \(Test Reseller on screenshot\) to view it's settings
 
-![Organization profile](https://user-images.githubusercontent.com/72790181/119666541-23096480-be3e-11eb-84a6-440bff294c9b.png)
+<img width="1029" alt="Organization" src="https://user-images.githubusercontent.com/72790181/119668453-e0488c00-be3f-11eb-9e1a-f22eae4b2100.png">
+
 
 On this screen you can edit Organization Information, switch to another organization or navigate to Organization **Members** tab to edit users list.
 
