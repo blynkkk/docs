@@ -1,4 +1,10 @@
-# Untitled
+# General issues
+
+{% hint style="warning" %}
+There are certain connectivity and HTTP API send issues due to GeoDNS settings changes.  
+We feel sorry for the inconvinience you may expirience. It'll be fixed soon!  
+Keep your Blynk.App up to date please.
+{% endhint %}
 
 ## **Can’t log in**
 
