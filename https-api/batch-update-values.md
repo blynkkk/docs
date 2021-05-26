@@ -6,6 +6,17 @@ description: >-
 
 # Batch Update Values
 
+{% hint style="warning" %}
+Due to current GeoDNS settings you need to put server address with suffix manually depending on your region:  
+[https://fra1.blynk.cloud/](https://fra1.blynk.cloud/)   – Frankfurt  
+[https://lon1.blynk.cloud/](https://lon1.blynk.cloud/)  – London  
+[https://ny3.blynk.cloud/](https://ny3.blynk.cloud/)    – New York  
+[https://sgp1.blynk.cloud/](https://sgp1.blynk.cloud/)  – Singapore  
+[https://blr1.blynk.cloud/](https://blr1.blynk.cloud/)    – Bangalore  
+  
+Sorry for the inconvenience. This will be fixed soon!
+{% endhint %}
+
 {% api-method method="get" host="https://{server\_address}" path="/external/api/batch/update?token={token}&{pin1}={value1}&{pin2}={value2}" %}
 {% api-method-summary %}
 Batch update

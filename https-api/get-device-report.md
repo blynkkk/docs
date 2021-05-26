@@ -1,5 +1,16 @@
 # Get Device Report
 
+{% hint style="warning" %}
+Due to current GeoDNS settings you need to put server address with suffix manually depending on your region:  
+[https://fra1.blynk.cloud/](https://fra1.blynk.cloud/)   – Frankfurt  
+[https://lon1.blynk.cloud/](https://lon1.blynk.cloud/)  – London  
+[https://ny3.blynk.cloud/](https://ny3.blynk.cloud/)    – New York  
+[https://sgp1.blynk.cloud/](https://sgp1.blynk.cloud/)  – Singapore  
+[https://blr1.blynk.cloud/](https://blr1.blynk.cloud/)    – Bangalore  
+  
+Sorry for the inconvenience. This will be fixed soon!
+{% endhint %}
+
 {% api-method method="get" host="https://blynk.cloud" path="/external/api/data/get?token={token}&period={PERIOD}&granularityType={TYPE}&sourceType={SOURCE\_TYPE}&tzName={tzName}&format={FORMAT}&sendEvents=true&output=FILE&dataStreamId={id}&pin={pin}" %}
 {% api-method-summary %}
 
