@@ -33,5 +33,6 @@ Note, there's the "All members" entry. It means that all users of the organizati
 
 9. Press **Apply** and you'll see the event status and channels updated
 
-![](../../.gitbook/assets/image%20%286%29.png)
+<img width="1268" alt="" src="https://user-images.githubusercontent.com/72824404/119677034-0887b900-be47-11eb-8a2d-638bcc35c38f.png">
+
 
