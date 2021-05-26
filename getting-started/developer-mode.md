@@ -13,9 +13,9 @@ Developer can:
 * Publish Templates to Blynk.Marketplace \(work in progress\)
 * Use other features accordingly to the chosen [plan](https://blynk.io/pricing)
 
-## **Enable Developer Mode**
+## **How To Enable Developer Mode**
 
-1. In the Blynk app or in Blynk.360
+1. In the Blynk app or in [Blynk.360](https://blynk.cloud)
 2. Navigate to **My Profile** / **User profile** in the left menu
 3. Check that **Developer Mode** switch is set to ON
 

@@ -1,6 +1,6 @@
 # Template Quick Setup
 
-Device Template is a set of configurations inherited by devices of a similar type.
+**Device Template** is a set of configurations inherited by devices of a similar type.
 
 Think about smart home switches. They all perform a similar function and it's safe to assume that they should have the same data model, GPIOs, firmware code, etc. If you would need to introduce changes to all of these devices, instead of editing each of them you could just edit a Device Template and all devices will be updated.
 

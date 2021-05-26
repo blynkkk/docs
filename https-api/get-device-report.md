@@ -29,7 +29,7 @@ is `UTC` by defult. Please specify timezones accordingly to `java.time.ZoneId`
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="format" type="string" required=true %}
-is TS by default. Other possible values:   
+is TS by default. Other possible values:  
 ISO\_US "04/10/19 11:45:41 AM"  
 ISO\_SIMPLE "2018-06-07 22:01:20"
 {% endapi-method-parameter %}
@@ -54,7 +54,7 @@ is FILE by default. Other posible value: JSON
 Success.
 {% endapi-method-response-example-description %}
 
-```
+```text
 {"link":"https://server_address/device_data_2592_2021-04-13T02-27-11.zip"}
 ```
 {% endapi-method-response-example %}
@@ -70,7 +70,7 @@ or
 Wrong pin format
 {% endapi-method-response-example-description %}
 
-```
+```text
 {"error":{"message":"Invalid token."}}
 
 or
@@ -94,7 +94,7 @@ or
 There is no data for specified pin or datastream
 {% endapi-method-response-example-description %}
 
-```
+```text
 {"error":{"message":"No enum constant cc.blynk.server.core.model.widgets.outputs.graph.Period.YEAR"}}
 
 or
@@ -104,55 +104,51 @@ or
 or
 
 {"error":{"message":"Wrong pin format."}}
-
-
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-### **Use case example:**
+## **Use case example:**
 
 You live in Sydney and have garage door opener and want to get an exact time you departed today in one file. The accuracy you need is up to 1 minute and it should be in "YYYY-MM-DD HH:MM:SS" format.  
-Garage door opener is Blynked and it uses Datastream with ID 20 and virtual pin 6 for open/close commands. Also you want to get the list of all the events occured during this period. So API request for this case looks like:  
-  
-****[**`https://blynk.cloud/external/api/data/get?token=HjKjfij84050fege&period=DAY&granularityType=MINUTE&sourceType=AVG&tzName=America/New_York&format=ISO_SIMPLE&sendEvents=true&output=FILE&dataStreamId=20`**](https://blynk.cloud/external/api/data/get?token=HjKjfij84050fege&period=DAY&granularityType=MINUTE&sourceType=AVG&tzName=AET&format=ISO_SIMPLE&sendEvents=true&output=FILE&dataStreamId=20&pin=V6)**\`\`**
+Garage door opener is Blynked and it uses Datastream with ID 20 and virtual pin 6 for open/close commands. Also you want to get the list of all the events occured during this period. So API request for this case looks like:
+
+**\*\*\[**`https://blynk.cloud/external/api/data/get?token=HjKjfij84050fege&period=DAY&granularityType=MINUTE&sourceType=AVG&tzName=America/New_York&format=ISO_SIMPLE&sendEvents=true&output=FILE&dataStreamId=20`**\]\(**[https://blynk.cloud/external/api/data/get?token=HjKjfij84050fege&period=DAY&granularityType=MINUTE&sourceType=AVG&tzName=AET&format=ISO\_SIMPLE&sendEvents=true&output=FILE&dataStreamId=20&pin=V6](https://blynk.cloud/external/api/data/get?token=HjKjfij84050fege&period=DAY&granularityType=MINUTE&sourceType=AVG&tzName=AET&format=ISO_SIMPLE&sendEvents=true&output=FILE&dataStreamId=20&pin=V6)**\)**\`\`\*\*
 
 **JSON Output example:**
 
 ```text
 {
-	"meta":
-	[
-		{
-			"name": "data_stream_name",
-			"type": "String"
-		},
-		{
-			"name": "ts",
-			"type": "UInt32"
-		},
-		{
-			"name": "value",
-			"type": "Float64"
-		}
-	],
-               
-	"data":
-	[
-		{
-			"data_stream_name": "",
-			"ts": 2021-05-14 12:25:00,
-			"value": 1.6100000000000003
-		}
-	],
+    "meta":
+    [
+        {
+            "name": "data_stream_name",
+            "type": "String"
+        },
+        {
+            "name": "ts",
+            "type": "UInt32"
+        },
+        {
+            "name": "value",
+            "type": "Float64"
+        }
+    ],
 
-	"rows": 1,
+    "data":
+    [
+        {
+            "data_stream_name": "",
+            "ts": 2021-05-14 12:25:00,
+            "value": 1.6100000000000003
+        }
+    ],
 
-	"rows_before_limit_at_least": 1
+    "rows": 1,
+
+    "rows_before_limit_at_least": 1
 }
 ```
-
-
 

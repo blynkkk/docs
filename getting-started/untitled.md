@@ -6,7 +6,7 @@ description: In order to use Blynk IoT platform products you would need an accou
 
 User account is needed to enable secure access to your data from different devices and from anywhere in the world.
 
-{% hint style="warning" %}
+{% hint style="success" %}
 A valid email address is required to create a new account.
 {% endhint %}
 

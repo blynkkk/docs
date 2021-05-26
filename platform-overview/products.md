@@ -2,7 +2,7 @@
 
 ## Blynk.360
 
-<img width="1264" alt="Blynk.360" src="https://user-images.githubusercontent.com/72824404/119524638-8041df00-bd86-11eb-831a-0d38fc6c07d3.png">
+![Blynk.360](https://user-images.githubusercontent.com/72824404/119524638-8041df00-bd86-11eb-831a-0d38fc6c07d3.png)
 
 **Blynk.360** is a feature-rich web application that can be used by different [types of users](../concepts/users.md). Major functionality of this product is:
 
@@ -12,7 +12,7 @@
 
 ## Blynk.App
 
-<img width="1600" alt="Blynk.App" src="https://user-images.githubusercontent.com/72824404/119525085-e464a300-bd86-11eb-84dc-a4f3de0f7ec9.png">
+![Blynk.App](https://user-images.githubusercontent.com/72824404/119525085-e464a300-bd86-11eb-84dc-a4f3de0f7ec9.png)
 
 **Blynk.App** is a multi-functional native iOS and Android mobile application that serves these major functions:
 

@@ -4,7 +4,7 @@ description: Blynk hardware library that works on devices
 
 # Overview
 
-Blynk.Edgent is a lightweight library that runs on the hardware device. 
+Blynk.Edgent is a lightweight library that runs on the hardware. 
 
 **Main Functions:**
 
@@ -13,6 +13,8 @@ Blynk.Edgent is a lightweight library that runs on the hardware device.
 * Firmware API to work with applications
 * [FOTA](../web-dashboard/blynk.air/)
 * [WiFi Provisioning ](../mobile-applications/device-management/add-new-device.md)
+
+\*\*\*\*
 
 **Installation**
 
