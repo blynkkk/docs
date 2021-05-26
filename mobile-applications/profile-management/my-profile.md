@@ -1,10 +1,12 @@
 # My Profile
 
-![](../../.gitbook/assets/sidebar-opened-1-.png)
+<img width="621" alt="Left sidebar" src="https://user-images.githubusercontent.com/72790181/119666310-efc6d580-be3d-11eb-9e34-be660bd30aae.png">
+
 
 Open the left side menu and press **My Profile**
 
-![](../../.gitbook/assets/profile-1-.png)
+<img width="621" alt="User profile" src="https://user-images.githubusercontent.com/72790181/119666333-f3f2f300-be3d-11eb-94a3-877d4b5f98ea.png">
+
 
 Here you can edit your profile info by **tapping the input fields.** 
 
@@ -12,7 +14,8 @@ Here you can edit your profile info by **tapping the input fields.**
 Profile details fields may vary due to settings made by Organization Administrator.
 {% endhint %}
 
-![](../../.gitbook/assets/profile_edit.png)
+<img width="621" alt="Account actions" src="https://user-images.githubusercontent.com/72790181/119666351-f7867a00-be3d-11eb-8bbc-0e2fdfe2056a.png">
+
 
 **Actions Menu** options:
 
