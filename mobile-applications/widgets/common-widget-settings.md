@@ -29,7 +29,7 @@ There are 2 types of gradients you can choose from: - Warm: Green - Orange - Red
 Rounded/Sharp/Pill/Custom
 
 **Design**  
-Font size, Text color, Progress, Buttom, Handle  
+Font size, Text color, Progress, Button, Handle  
   
 
 
