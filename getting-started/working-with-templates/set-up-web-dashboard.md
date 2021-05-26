@@ -24,7 +24,7 @@ After widgets are added you can apply the following **actions**:
 
 You'll get a Dashbord view like this one as result:
 
-![](../../.gitbook/assets/screen-shot-2021-04-13-at-5.36.54-pm.png)
+<img width="1262" alt="" src="https://user-images.githubusercontent.com/72824404/119656472-690cfb00-be33-11eb-9f1e-668f0ebcf060.png">
 
 #### 
 
@@ -32,7 +32,7 @@ You'll get a Dashbord view like this one as result:
 
 Hover on the widget and you will see a **Configure** \(gear\) button. Click it and it will open widget settings. Set up widget as in the picture below: 
 
-![](../../.gitbook/assets/screen-shot-2021-04-13-at-5.45.11-pm.png)
+<img width="1264" alt="" src="https://user-images.githubusercontent.com/72824404/119656543-7cb86180-be33-11eb-8e90-0aae4545a06f.png">
 
 ### 
 
@@ -40,7 +40,7 @@ Hover on the widget and you will see a **Configure** \(gear\) button. Click it a
 
 On this widget, we will be showing data from the device in real-time from the `V0` Datastream 
 
-![](../../.gitbook/assets/screen-shot-2021-04-13-at-5.50.45-pm.png)
+<img width="1264" alt="" src="https://user-images.githubusercontent.com/72824404/119656739-b2f5e100-be33-11eb-8816-5a013bb8d17e.png">
 
 ### 
 
@@ -48,7 +48,7 @@ On this widget, we will be showing data from the device in real-time from the `V
 
 On this widget, we will be showing historical data from the device from the `V0` Datastream 
 
-![](../../.gitbook/assets/image%20%2821%29.png)
+<img width="1264" alt="" src="https://user-images.githubusercontent.com/72824404/119656767-bd17df80-be33-11eb-948d-93371e5afefd.png">
 
 {% hint style="warning" %}
 Click **Save** button at top right of the screen to save all the changes made to the Template.
