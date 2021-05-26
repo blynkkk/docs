@@ -29,7 +29,7 @@ These settings mean that all the devices that inherit this Template will process
 
 Click on **Add Datastream** button again. Choose **Enumerable** type in the dropdown menu and set up the Datastream. We will be using this Datastream to send a value from mobile and web dashboards to the device.
 
-![](../../.gitbook/assets/screen-shot-2021-04-13-at-5.10.52-pm.png)
+<img width="999" alt="" src="https://user-images.githubusercontent.com/72824404/119654605-51347780-be31-11eb-9a12-a3aa255a0b30.png">
 
 * **Name:** Button
 * **Virtual Pin:** V1
