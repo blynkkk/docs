@@ -9,7 +9,7 @@ Datastreams are channels that are used to send data between the device and Blynk
 Click on **Add Datastream** button. Choose **Virtual Pin** in the dropdown menu:   
 
 
-<img width="1264" alt="Datastreams" src="https://user-images.githubusercontent.com/72824404/119654057-b5a30700-be30-11eb-9084-76185c300d1e.png">
+<img width="1264" alt="" src="https://user-images.githubusercontent.com/72824404/119654057-b5a30700-be30-11eb-9084-76185c300d1e.png">
 
 
 Set up the Datastream like this: 
