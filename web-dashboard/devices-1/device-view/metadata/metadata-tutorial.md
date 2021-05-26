@@ -36,7 +36,8 @@ You can edit Product's Metadata settings any time you need it by following the s
 
 1. During the provision there will be prompts to input Device Metadata:
 
-![](../../../../.gitbook/assets/screenshot_2021-04-23-18-53-10-32_12ffc8cefb1625d72bea53ca6feebda3.jpg)
+![Device profiling](https://user-images.githubusercontent.com/72790181/119658205-8a6ee680-be35-11eb-8825-6bc47971ef98.png)
+
 
 2. Change default value to actual one by tapping step buttons or direct input to the field.  
 3. Follow provision flow till it's end.
@@ -51,7 +52,9 @@ You can edit Product's Metadata settings any time you need it by following the s
 2. Tap top right Menu button
 3. Scroll through Information tab untill you see Metadata you need
 
-![](../../../../.gitbook/assets/screenshot_2021-04-23-18-54-31-02_12ffc8cefb1625d72bea53ca6feebda3.jpg)
+![Device profile](https://user-images.githubusercontent.com/72790181/119658437-d1f57280-be35-11eb-881f-8346abdd42ec.png)
+
+
 
 #### Blynk.360
 
