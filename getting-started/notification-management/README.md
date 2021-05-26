@@ -16,7 +16,7 @@ Note: notifications work on top of [Events](../../web-dashboard/products/events/
 4. Hover over the **Actions menu \[...\]** \(2\)
 5. Click **Notification Settings** \(3\)
 
-![](../../.gitbook/assets/image%20%288%29%20%283%29%20%283%29%20%282%29%20%281%29%20%282%29.png)
+<img width="1264" alt="" src="https://user-images.githubusercontent.com/72824404/119673690-3ae3e700-be44-11eb-86e0-147f6a22b977.png">
 
 6. In the opened drawer _select the desired events_ to edit \(4\)  
 7. Click **Edit Settings** \(5\)
