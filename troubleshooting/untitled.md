@@ -70,10 +70,24 @@ Keep your Blynk.App up to date please.
 
 ## I can't see all metadata in Blynk.App 
 
-**What could be the reason:**  
-- ****not all metadata can be viewed now due to it's not implemented yet
+**What could be the reason:**
 
-**What’s the solution:**  
-- view full metadata list in Blynk.360  
-- wait for Blynk.App full metadata support and update it regularly
+* not all metadata can be viewed now due to it's not implemented yet
+
+**What’s the solution:**
+
+* view full metadata list in Blynk.360
+* wait for Blynk.App full metadata support and update it regularly
+
+## I can't see enumerable datastreams in Blynk.App
+
+**What could be the reason:**
+
+* not supported by every widget at the moment
+
+**What’s the solution:**
+
+* view full metadata list in Blynk.360
+* wait for Blynk.App list of widgets that support enumerable datastreams to expand 
+* keep Blynk.App up to date
 
