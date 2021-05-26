@@ -174,6 +174,7 @@
 
 ## Troubleshooting
 
+* [Untitled](troubleshooting/untitled.md)
 * [Sign Up/In, Invite User, Password reset](troubleshooting/sign-up-in-invite-user-password-reset.md)
 * [Developer Mode](troubleshooting/developer-mode.md)
 * [WiFi provisioning](troubleshooting/wifi-provisioning.md)

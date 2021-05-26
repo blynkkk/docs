@@ -1,12 +1,12 @@
 # Metadata Tutorial
 
-Metadata is a table of `key:value` data attached to every device. `Keys` are static, and `values` are related for each device. 
+Metadata is a table of `key:value` data attached to every device. `Keys` are static, and `values` are related for each device.
 
 For example, a Serial Number Metadata field can be attached to every device, but the actual value is different.
 
-### **1.** [Create a Template](../../../../getting-started/working-with-templates/) or use an existing one
+## **1.** [Create a Template](../../../../getting-started/working-with-templates/) or use an existing one
 
-### **2. Create Metadata**
+## **2. Create Metadata**
 
 1. Open Template
 2. Click **Edit** at the top right
@@ -14,15 +14,17 @@ For example, a Serial Number Metadata field can be attached to every device, but
 
 ![](../../../../.gitbook/assets/metadata.png)
 
-4. Click **Add Metadata**.   
-Choose the most relevant [type ](../../../products/metadata/metadata-types.md)for every metadata input. For example, if you would need to associate Serial Number with every product, add the “Number” metadata field.   
-5. Set it up and click **Create** button once you've finished with this characteristic 
+1. Click **Add Metadata**.   
+
+   Choose the most relevant [type ](../../../products/metadata/metadata-types.md)for every metadata input. For example, if you would need to associate Serial Number with every product, add the “Number” metadata field.   
+
+2. Set it up and click **Create** button once you've finished with this characteristic 
 
 ![](../../../../.gitbook/assets/add_new_metadata.png)
 
-6. Repeat steps 4 and 5 untill you create Metadata list you need  
-7. Click **Save** Template at the top right  
-8. Choose Apply Changes option \(let's select Save Changes. Don't update active device this time\) and click **Continue**
+1. Repeat steps 4 and 5 untill you create Metadata list you need  
+2. Click **Save** Template at the top right  
+3. Choose Apply Changes option \(let's select Save Changes. Don't update active device this time\) and click **Continue**
 
 ![](../../../../.gitbook/assets/apply_settings.png)
 
@@ -30,23 +32,18 @@ Choose the most relevant [type ](../../../products/metadata/metadata-types.md)fo
 You can edit Product's Metadata settings any time you need it by following the steps above.
 {% endhint %}
 
-### 
-
-### 3. [Add Device](../../../../mobile-applications/device-management/add-new-device.md) and provide it's Metadata
+## 3. [Add Device](../../../../mobile-applications/device-management/add-new-device.md) and provide it's Metadata
 
 1. During the provision there will be prompts to input Device Metadata:
 
 ![Device profiling](https://user-images.githubusercontent.com/72790181/119658205-8a6ee680-be35-11eb-8825-6bc47971ef98.png)
 
+1. Change default value to actual one by tapping step buttons or direct input to the field.  
+2. Follow provision flow till it's end.
 
-2. Change default value to actual one by tapping step buttons or direct input to the field.  
-3. Follow provision flow till it's end.
+## 4. View Metadata
 
-### 
-
-### 4. View Metadata
-
-#### Blynk.App
+### Blynk.App
 
 1. Tap Device tile
 2. Tap top right Menu button
@@ -54,9 +51,7 @@ You can edit Product's Metadata settings any time you need it by following the s
 
 ![Device profile](https://user-images.githubusercontent.com/72790181/119658437-d1f57280-be35-11eb-881f-8346abdd42ec.png)
 
-
-
-#### Blynk.360
+### Blynk.360
 
 1. Navigate to [Search section](../../../search.md)
 2. Find your Device
@@ -65,11 +60,9 @@ You can edit Product's Metadata settings any time you need it by following the s
 
 ![](../../../../.gitbook/assets/sn.png)
 
-### 
+## 5. Edit Device Metadata
 
-### 5. Edit Device Metadata
-
-#### Blynk.App
+### Blynk.App
 
 1. Tap Device tile
 2. Tap top right Menu button
@@ -78,7 +71,7 @@ You can edit Product's Metadata settings any time you need it by following the s
 5. Change the value
 6. Return to the previous screen
 
-#### Blynk.360
+### Blynk.360
 
 1. Navigate to [Search section](../../../search.md)
 2. Find your Device

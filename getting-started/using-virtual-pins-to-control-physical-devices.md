@@ -103,7 +103,7 @@ I’m now going to cover some extra stuff - some of which is specific to working
 **Dealing with Active LOW devices** - Many devices, such as the onboard LED attached to GPIO2 of the NodeMCU and many relay boards, are energised by a LOW signal rather than a HIGH signal. This means that, if you use the code example above, the LED/Relay will be off when the switch widget shows On, and vice-versa.  
 There are several ways around this issue. You could change your switch widget output settings to be 1/0 rather than 0/1 - so that an On state send a “0” value to the app like this…
 
-<img width="566" alt="" src="https://user-images.githubusercontent.com/72824404/119659207-a0c97200-be36-11eb-9f4a-838ac0b9201f.png">
+![](https://user-images.githubusercontent.com/72824404/119659207-a0c97200-be36-11eb-9f4a-838ac0b9201f.png)
 
 Personally, I don’t like this approach and would prefer to modify the code by swapping all the digitalWrite LOW commands with HIGH and vice-versa.
 

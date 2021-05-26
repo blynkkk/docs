@@ -1,6 +1,6 @@
 # Set Up Web Dashboard
 
-#### Let's set up the web GUI for our device. 
+### Let's set up the web GUI for our device.
 
 Go to [Dashboard ](../../web-dashboard/devices-1/device-view/dashboard.md)Tab and drag-n-drop these widgets to the canvas:
 
@@ -24,37 +24,29 @@ After widgets are added you can apply the following **actions**:
 
 You'll get a Dashbord view like this one as result:
 
-<img width="1262" alt="" src="https://user-images.githubusercontent.com/72824404/119656472-690cfb00-be33-11eb-9f1e-668f0ebcf060.png">
+![](https://user-images.githubusercontent.com/72824404/119656472-690cfb00-be33-11eb-9f1e-668f0ebcf060.png)
 
-#### 
+## Switch Widget Settings
 
-### Switch Widget Settings
+Hover on the widget and you will see a **Configure** \(gear\) button. Click it and it will open widget settings. Set up widget as in the picture below:
 
-Hover on the widget and you will see a **Configure** \(gear\) button. Click it and it will open widget settings. Set up widget as in the picture below: 
+![](https://user-images.githubusercontent.com/72824404/119656543-7cb86180-be33-11eb-8e90-0aae4545a06f.png)
 
-<img width="1264" alt="" src="https://user-images.githubusercontent.com/72824404/119656543-7cb86180-be33-11eb-8e90-0aae4545a06f.png">
+## Label Widget Settings
 
-### 
+On this widget, we will be showing data from the device in real-time from the `V0` Datastream
 
-### Label Widget Settings
+![](https://user-images.githubusercontent.com/72824404/119656739-b2f5e100-be33-11eb-8816-5a013bb8d17e.png)
 
-On this widget, we will be showing data from the device in real-time from the `V0` Datastream 
+## Chart Widget Settings
 
-<img width="1264" alt="" src="https://user-images.githubusercontent.com/72824404/119656739-b2f5e100-be33-11eb-8816-5a013bb8d17e.png">
+On this widget, we will be showing historical data from the device from the `V0` Datastream
 
-### 
-
-### Chart Widget Settings
-
-On this widget, we will be showing historical data from the device from the `V0` Datastream 
-
-<img width="1264" alt="" src="https://user-images.githubusercontent.com/72824404/119656767-bd17df80-be33-11eb-948d-93371e5afefd.png">
+![](https://user-images.githubusercontent.com/72824404/119656767-bd17df80-be33-11eb-948d-93371e5afefd.png)
 
 {% hint style="warning" %}
 Click **Save** button at top right of the screen to save all the changes made to the Template.
 {% endhint %}
 
 Now you can proceed to [Blynk.App dashboard setup](set-up-mobile-app-dashboard.md) or [Prepare Your Code](prepare-code.md)
-
-## 
 
