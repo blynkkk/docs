@@ -29,7 +29,7 @@ Note: notifications work on top of [Events](../../web-dashboard/products/events/
 Note, there's the "All members" entry. It means that all users of the organization where the device belongs will be the recipients
 {% endhint %}
 
-<img width="1440" alt="" src="https://user-images.githubusercontent.com/72824404/119676220-5c45d280-be46-11eb-975d-8afabe6a14d4.png">
+<img width="1268" alt="" src="https://user-images.githubusercontent.com/72824404/119676364-797aa100-be46-11eb-98e6-c8a4a16ae06e.png">
 
 9. Press **Apply** and you'll see the event status and channels updated
 
