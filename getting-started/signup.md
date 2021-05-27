@@ -10,9 +10,9 @@ A valid email address is required to create a new account.
 
 User account is needed to enable secure access to your data from different clients (iOS, Android, Web Browser) and from anywhere in the world.
 
-- Blynk never sells your data to any other companies and passwords are always stored encrypted.
-- Blynk doesn't track you with any 3-d party scripts or services.
-- Blynk only gathers mobile anonymous app usage analytics in order to improve user experience.
+- Blynk never sells and will never sell your data to any other companies and passwords are always stored encrypted.
+- Blynk doesn't track you with any 3-d party scripts, services or cookies.
+- Blynk only gathers anonymous mobile app usage analytics in order to improve user experience.
 
 Your privacy is our default priority.
 
@@ -132,5 +132,5 @@ You'll get UI an Email confirmation about that.
 
 ![Password changed](https://user-images.githubusercontent.com/72790181/119366118-4c4cb800-bcb9-11eb-8047-c686c82dc74e.png)
 
-1. Tap **Back to Login** button and [sign in](https://docs.blynk.io/en/getting-started/untitled#sign-in) to your account.
+1. Tap **Back to Login** button and [sign in](https://docs.blynk.io/en/getting-started/signup#sign-in) to your account.
 

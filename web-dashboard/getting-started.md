@@ -6,7 +6,7 @@
 * Management of devices, their data, users, organizations and locations 
 * Remote monitoring and control of devices
 
-Once you're [logged in](../getting-started/untitled.md#sign-in) you are able to access Blynk.360 user interface that is represented by 3 areas in most of the places: 
+Once you're [logged in](../getting-started/signup.md#sign-in) you are able to access Blynk.360 user interface that is represented by 3 areas in most of the places: 
 
 ![](../.gitbook/assets/overview.png)
 

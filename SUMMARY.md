@@ -23,7 +23,7 @@
 
 ## Getting Started
 
-* [Sign Up / Sign In](getting-started/untitled.md)
+* [Sign Up / Sign In](getting-started/signup.md)
 * [Developer Mode](getting-started/developer-mode.md)
 * [Template Quick Setup](getting-started/working-with-templates/README.md)
   * [Set Up Datastreams](getting-started/working-with-templates/set-up-datastreams.md)
