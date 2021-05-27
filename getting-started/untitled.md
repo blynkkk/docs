@@ -10,11 +10,9 @@ A valid email address is required to create a new account.
 
 User account is needed to enable secure access to your data from different clients (iOS, Android, Web Browser) and from anywhere in the world.
 
-Blynk never sells your data to any other companies and passwords are always stored encrypted.
-
-Blynk doesn't track you with any 3-d party scripts or services.
-
-Blynk only gathers mobile anonymous app usage analytics in order to improve user experience.
+- Blynk never sells your data to any other companies and passwords are always stored encrypted.
+- Blynk doesn't track you with any 3-d party scripts or services.
+- Blynk only gathers mobile anonymous app usage analytics in order to improve user experience.
 
 Your privacy is our default priority.
 
