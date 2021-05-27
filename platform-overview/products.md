@@ -10,6 +10,8 @@
 2. Management of devices, their data, users, organizations and locations 
 3. Remote monitoring and control of devices
 
+[Register in Blynk.360](https://blynk.cloud)
+
 ## Blynk.App
 
 ![Blynk.App](https://user-images.githubusercontent.com/72824404/119525085-e464a300-bd86-11eb-84dc-a4f3de0f7ec9.png)
@@ -21,6 +23,8 @@
 3. Automate work of connected devices
 
 Blynk.app is a white-label solution.
+
+[Install Blynk app for iOS or Android](../downloads/blynk-apps-for-ios-and-android.md)
 
 Full documentation on Blynk.App is [here](../mobile-applications/overview.md)
 
