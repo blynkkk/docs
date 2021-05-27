@@ -4,14 +4,18 @@ description: In order to use Blynk IoT platform products you would need an accou
 
 # Sign Up / Sign In
 
-User account is needed to enable secure access to your data from different clients (iOS, Android, Web Browser) and from anywhere in the world.
-
 {% hint style="success" %}
 A valid email address is required to create a new account.
 {% endhint %}
 
+User account is needed to enable secure access to your data from different clients (iOS, Android, Web Browser) and from anywhere in the world.
+
 Blynk never sells your data to any other companies and passwords are always stored encrypted.
-Blynk doesn't track you with any 3-d party scripts or services. 
+
+Blynk doesn't track you with any 3-d party scripts or services.
+
+Blynk only gathers mobile anonymous app usage analytics in order to improve user experience.
+
 Your privacy is our default priority.
 
 You can create a new account either in [Blynk.App](https://docs.blynk.io/en/platform-overview/products-and-services/products#blynk-app) or [Blynk.360](https://docs.blynk.io/en/platform-overview/products-and-services/products#blynk-360)

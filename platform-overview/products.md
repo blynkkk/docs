@@ -52,3 +52,5 @@ Full documentation on Blynk.Edgent is [here](../blynk.edgent/overview.md)
 
 Blynk also offers private servers. See the offerings and prices [here](https://blynk.io/pricing).
 
+[Register in Blynk.360](https://blynk.cloud)
+
