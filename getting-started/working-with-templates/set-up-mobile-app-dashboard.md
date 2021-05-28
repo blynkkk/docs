@@ -12,7 +12,6 @@ Click on the Wrench Icon to switch to Developer mode. There you should see your 
 
 ![Devices tab](https://user-images.githubusercontent.com/72790181/119994637-7235cd80-bfd5-11eb-9ad5-b932d1bfc1a6.png)
 
-
 Tap on the template you would like to work with.
 
 ![Developer mode](https://user-images.githubusercontent.com/72790181/119501811-e2dcb000-bd71-11eb-8d15-23889cdc4176.png)

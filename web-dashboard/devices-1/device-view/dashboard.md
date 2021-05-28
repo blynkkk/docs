@@ -1,23 +1,26 @@
 # Dashboard
 
-Here users can view and/or change Device data Datastreams in Widgets that were created during [Template's Dashboard setup](../../products/dashboard/).
+Dashboard is used to visualize data \(e.g. from sensors\) and provide remote control for your devices.
 
 ![](../../../.gitbook/assets/device_dashboard.gif)
 
 Select or adjust Time Period using the switches on top of the tab.
 
-6 widget types can be met in this tab \(depends on what's set up by Template owner\):
+
+
+Each widget may have indiviual elements
 
 ## **Slider**
 
-Slider ****allows to view and send values to Virtual Pin of the selected Device. Usage examples: volume, brightness, RPM, flap position control, etc.. Move slider **handle** or fine control steps **+** and **–** buttons \(optional\) to set the value.   
-Please keep in mind that different step ammounts can be set to handler and buttons.
+Slider ****allows to view and send values in the predefined range. Usage examples: volume, brightness, RPM, flap position control, etc.. Move slider **handle** or fine control steps **+** and **–** buttons \(optional\) to set the value. 
+
+Use plus/minus icons to set the value more precisely. 
 
 ![Slider widget example](../../../.gitbook/assets/slider.gif)
 
 ## Switch
 
-The simpliest widget used to send commands and view binary statuses of the device, such as power/option ON/OFF
+Turn parameters on/off
 
 ![Switch widget example](../../../.gitbook/assets/switch.gif)
 
@@ -43,7 +46,7 @@ General chart properties:
 
 ## **Map**
 
-**T**his widget displays device locations/route and data sets \(predefined by Template owner\) that are assigned to GPS data.
+This widget displays device locations/route and data sets \(predefined by Template owner\) that are assigned to GPS data.
 
 ![Map widget example](../../../.gitbook/assets/map_widget.png)
 
@@ -65,9 +68,8 @@ It always starts with Date and Time in the first line, Location Longtitude and L
 
 ## **Modules**
 
-This widget is extremely useful in cases your Product devices use detachable modules that can be attached accordingly to use conditions.  
-Each module has it's own tools, units, details that are represented by Datastreams sets configured under each module.  
-****Here you can view and edit values of Datastreams used in each Module.
+This widget is used with devices with detachable modules.  
+Each module has it's own tools, units, details that are represented by Datastreams sets configured under each module.
 
 ![](../../../.gitbook/assets/modules2.png)
 

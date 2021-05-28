@@ -18,21 +18,20 @@ Note: notifications work on top of [Events](../../web-dashboard/products/events/
 
 ![](https://user-images.githubusercontent.com/72824404/119673690-3ae3e700-be44-11eb-86e0-147f6a22b977.png)
 
-6. In the opened drawer _select the desired events_ to edit \(4\)  
-7. Click **Edit Settings** \(5\)
+1. In the opened drawer _select the desired events_ to edit \(4\)  
+2. Click **Edit Settings** \(5\)
 
 ![](https://user-images.githubusercontent.com/72824404/119675163-79c66c80-be45-11eb-93d1-71f02150a0b0.png)
 
-8. In the modal window turn on the desired channels \(Email, Push, or SMS\), _select the recipients_. If the recipient is not on the list you can search by typing the name or the email.
+1. In the modal window turn on the desired channels \(Email, Push, or SMS\), _select the recipients_. If the recipient is not on the list you can search by typing the name or the email.
 
 {% hint style="info" %}
 Note, there's the "All members" entry. It means that all users of the organization where the device belongs will be the recipients
 {% endhint %}
 
-<img width="1268" alt="" src="https://user-images.githubusercontent.com/72824404/119676364-797aa100-be46-11eb-98e6-c8a4a16ae06e.png">
+![](https://user-images.githubusercontent.com/72824404/119676364-797aa100-be46-11eb-98e6-c8a4a16ae06e.png)
 
-9. Press **Apply** and you'll see the event status and channels updated
+1. Press **Apply** and you'll see the event status and channels updated
 
-<img width="1268" alt="" src="https://user-images.githubusercontent.com/72824404/119677034-0887b900-be47-11eb-8a2d-638bcc35c38f.png">
-
+![](https://user-images.githubusercontent.com/72824404/119677034-0887b900-be47-11eb-8a2d-638bcc35c38f.png)
 

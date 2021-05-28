@@ -2,7 +2,7 @@
 
 ## Shipping name
 
-Each shipping can have unique name.
+Each shipping should have unique name.
 
 1. Click **Keyboard pictogram** near default shipping name \(top left screen area\)
 2. Type new name \(40 characters limit\)
