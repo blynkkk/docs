@@ -31,7 +31,8 @@ You can create a new account either in [Blynk.App](https://docs.blynk.io/en/plat
 
 3. Tap **Sign Up** button if you don’t have an account. Sign Up screen will open:
 
-![Sign Up](https://user-images.githubusercontent.com/72790181/119364346-78ffd000-bcb7-11eb-97de-796f62d69b2a.png)
+!![Sign up](https://user-images.githubusercontent.com/72790181/119994051-e7ed6980-bfd4-11eb-8518-78b33ead5d9e.png)
+
 
 4. Enter your E-mail, read and agree to the Terms and Conditions.  
 5. Tap **Continue** and check your inbox for an Email with instructions.
@@ -54,7 +55,8 @@ Tap Resend a Link if you can't find the invitation email \(also mind checking Sp
 
 8. Fill in your profile required and optional information.
 
-![Devices tab](https://user-images.githubusercontent.com/72790181/119365261-6fc33300-bcb8-11eb-8ec4-835439478dda.png)
+![Devices tab](https://user-images.githubusercontent.com/72790181/119994134-fb98d000-bfd4-11eb-9dd0-209e4ebe49e6.png)
+
 
 {% hint style="success" %}
 Once you've finished with Profile setup your Sign Up is complete and you can add and manage Devices!
@@ -77,7 +79,8 @@ Once you've logged in, Devices tab will be opened.
 Here you can [add ](../mobile-applications/device-management/add-new-device.md)and [view and manage](../mobile-applications/device-management/) your devices or switch to [Developer Mode](developer-mode.md).
 {% endhint %}
 
-![Devices tab](https://user-images.githubusercontent.com/72790181/119365416-92ede280-bcb8-11eb-8bd5-7b6c3ff9a979.png)
+![Devices tab](https://user-images.githubusercontent.com/72790181/119994276-1e2ae900-bfd5-11eb-887d-9194923f444b.png)
+
 
 ## Password Reset
 
