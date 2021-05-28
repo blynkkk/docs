@@ -8,6 +8,10 @@ description: In order to use Blynk IoT platform products you would need an accou
 A valid email address is required to create a new account.
 {% endhint %}
 
+{% hint style="success" %}
+If you are a Blynk 1.0 user, you have to create a new account.
+{% endhint %}
+
 User account is needed to enable secure access to your data from different clients (iOS, Android, Web Browser) and from anywhere in the world.
 
 - Blynk never sells and will never sell your data to any other companies and passwords are always stored encrypted.
