@@ -1,5 +1,8 @@
 # Map
 
+{% hint style="warning" %}
+Realtime updates for the map is not yet implemented.
+
 Map widget displays different types of data linked to GPS Datastream, e.g. speed, fuel/charge level, temperature, vehicle load, number of passengers, direction, etc..
 
 ## Map and GPS track
@@ -44,4 +47,26 @@ Select one of 4 track point styles:
 Select Datastream that contains course information in degrees \(e.g. it gets it from Device's compass\) so the track point can **show course direction** \(this feature is supported by Course and Truck point styles\)
 
 ![](../../../.gitbook/assets/captured-2021-03-26t164032.061%20%281%29.gif)
+
+# Insert the data
+
+Let's say we have the Location Datastream assigned to the Virtual Pin 5.
+For the map you can update the data from the hardware:
+
+```
+Blynk.virtualWrite(V5, longitude, latitude);
+```
+
+Also, you can insert the data via HTTPS API:
+
+`https://{server_address}/external/api/update?token={token}&V5=longitude&V5=latitude`  
+
+You can also send multiple datastreams within the same request.
+In that case these datastreams would be displayed in the callout with the same timestamp:
+
+- `https://{server_address}/external/api/batch/update?token={token}&V5=longitude&V5=latitude&V6={somevalue}`
+
+{% hint style="warning" %}
+Please pay attention to the order of the coordinates. `Longitude` should always go first.
+
 
