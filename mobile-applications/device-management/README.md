@@ -1,6 +1,7 @@
 # Devices
 
-![Devices tab](https://user-images.githubusercontent.com/72790181/119669458-bf346b00-be40-11eb-8852-b66c1c8b18c5.png)
+<img width="621" alt="Devices tab" src="https://user-images.githubusercontent.com/72790181/119995197-030ca900-bfd6-11eb-9d63-af55d189a5cf.png">
+
 
 Tap **Add New Device** in case your Devices tab is empty or you need to add new devices.
 
