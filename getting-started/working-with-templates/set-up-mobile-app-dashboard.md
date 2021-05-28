@@ -10,7 +10,8 @@ You would need Blynk mobile app for iOS or Android to continue.
 
 Click on the Wrench Icon to switch to Developer mode. There you should see your template\(s\). Now you can configure how your devices should work in the mobile app.
 
-![Devices tab](https://user-images.githubusercontent.com/72790181/119501788-de17fc00-bd71-11eb-981b-8ef1ff6dd741.png)
+![Devices tab](https://user-images.githubusercontent.com/72790181/119994637-7235cd80-bfd5-11eb-9ad5-b932d1bfc1a6.png)
+
 
 Tap on the template you would like to work with.
 
