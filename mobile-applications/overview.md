@@ -26,7 +26,9 @@ Home screen consists of up to 3 tabs depending on the configuration: [Devices](o
 
 ### **Devices**
 
-![Devices tab](https://user-images.githubusercontent.com/72790181/119658993-6cee4c80-be36-11eb-89c2-22e0d25fc709.png)
+<img width="1029" alt="Devices tab" src="https://user-images.githubusercontent.com/72790181/119994901-b923c300-bfd5-11eb-9475-a0d1826a875b.png">
+
+
 
 This section is open by default when you open the app. All created devices will be listed here and their tiles will look according to their [template ](../web-dashboard/products/)type. To add new device go to the [Right](overview.md#right-menu) menu by tapping the top right button in the navigation bar. There are also options to change how devices are sorted.
 
