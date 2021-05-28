@@ -55,24 +55,24 @@ Let's say we have the Location Datastream assigned to the Virtual Pin 5.
 For the map you can update the data from the hardware:
 
 ```
-Blynk.virtualWrite(V5, longitude, latitude);
+Blynk.virtualWrite(V5, longtitude, latitude);
 ```
 
 Also, you can insert the data via HTTPS API:
 
 ```
-https://{server_address}/external/api/update?token={token}&V5=longitude&V5=latitude
+https://{server_address}/external/api/update?token={token}&V5=longtitude&V5=latitude
 ```  
 
 You can also send multiple datastreams within the same request.
 In that case these datastreams would be displayed in the callout with the same timestamp:
 
 ```
-https://{server_address}/external/api/batch/update?token={token}&V5=longitude&V5=latitude&V6={somevalue}
+https://{server_address}/external/api/batch/update?token={token}&V5=longtitude&V5=latitude&V6={somevalue}
 ```
 
 {% hint style="warning" %}
-Please pay attention to the order of the coordinates. `Longitude` should always go first.
+Please pay attention to the order of the coordinates. `Longtitude` should always go first.
 {% endhint %}
 
 
