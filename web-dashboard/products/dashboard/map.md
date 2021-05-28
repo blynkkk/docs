@@ -1,6 +1,6 @@
 # Map
 
-Map widget vizualises data related to a location of the device. On a high level it shows: 
+Map widget vizualises data related to a location of the device:
 
 * Current or latest known location of the device 
 * GPS track \(historical position of the device\)
