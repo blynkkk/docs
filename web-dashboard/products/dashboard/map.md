@@ -2,6 +2,7 @@
 
 {% hint style="warning" %}
 Realtime updates for the map is not yet implemented.
+{% endhint %}
 
 Map widget displays different types of data linked to GPS Datastream, e.g. speed, fuel/charge level, temperature, vehicle load, number of passengers, direction, etc..
 
@@ -68,5 +69,6 @@ In that case these datastreams would be displayed in the callout with the same t
 
 {% hint style="warning" %}
 Please pay attention to the order of the coordinates. `Longitude` should always go first.
+{% endhint %}
 
 
