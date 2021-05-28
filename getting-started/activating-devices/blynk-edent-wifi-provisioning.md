@@ -14,7 +14,7 @@ A complete WiFi provisioning solution from Blynk includes both a firmware code a
 Currently, WiFi provisioning only works on ESP32 and ESP8266
 {% endhint %}
 
-## **How WiFI provisioning works**
+## **How WiFi provisioning works**
 
 You can skip this part as this is something you don't have to think about because Blynk does everything for you. But it might be helpful to understand how it works under the hood
 
