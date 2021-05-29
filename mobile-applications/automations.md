@@ -26,7 +26,7 @@ Blynk currently supports 4 types of automations:
 - **Scene** - allows to manually trigger multiple actions. For example, set the temperature to 30 degrees and turn off the alarm.
   The visibility of this type of the automation is controlled via permissions.
 
-{% hint style="warning" %}
+{% hint style="info" %}
 Automations can work across multiple devices
 {% endhint %}
 
