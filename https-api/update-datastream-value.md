@@ -1,14 +1,15 @@
 # Update Datastream Value
 
-{% api-method method="get" host="https://{server\_address}" path="/external/api/update?token={token}&{pin}={value}" %}
+{% api-method method="get" host="https://{server_address}" path="/external/api/update?token={token}&{pin}={value}" %}
 {% api-method-summary %}
-Update Datastream value by Virtual Pin
+Update the Datastream value
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to update the value of the Datastream  
+This endpoint allows you to update the value of the Datastream.  
+  
 **Example:**  
-`https://blynk.cloud/external/api/update/update?token=ffujYGgbf805tgsf&v1=100`
+```https://blynk.cloud/external/api/update/update?token=ffujYGgbf805tgsf&v1=100```
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -72,9 +73,10 @@ Update value by Datastream ID
 
 {% api-method-description %}
   
-This endpoint allows you to update the value of the Datastream  
+This endpoint allows you to update the value of the Datastream.  
+  
 **Example:**  
-`https://blynk.cloud/external/api/update?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&dataStreamId=1&value=100`
+```https://blynk.cloud/external/api/update?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&dataStreamId=1&value=100```
 {% endapi-method-description %}
 
 {% api-method-spec %}
