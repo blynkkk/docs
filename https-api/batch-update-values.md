@@ -6,17 +6,6 @@ description: >-
 
 # Batch Update Values
 
-{% hint style="warning" %}
-Due to current GeoDNS settings you need to put server address with suffix manually depending on your region:  
-[https://fra1.blynk.cloud/](https://fra1.blynk.cloud/)   – Frankfurt  
-[https://lon1.blynk.cloud/](https://lon1.blynk.cloud/)  – London  
-[https://ny3.blynk.cloud/](https://ny3.blynk.cloud/)    – New York  
-[https://sgp1.blynk.cloud/](https://sgp1.blynk.cloud/)  – Singapore  
-[https://blr1.blynk.cloud/](https://blr1.blynk.cloud/)    – Bangalore  
-  
-Sorry for the inconvenience. This will be fixed soon!
-{% endhint %}
-
 {% api-method method="get" host="https://{server\_address}" path="/external/api/batch/update?token={token}&{pin1}={value1}&{pin2}={value2}" %}
 {% api-method-summary %}
 Batch update
@@ -24,23 +13,23 @@ Batch update
 
 {% api-method-description %}
 **Example:**  
-`https://blynk.cloud/external/api/update?token=bFFtSHNCZZDWQ__Zs96cP5jLMhLoJofg&v1=33&v2=44`
+`https://blynk.cloud/external/api/batch/update?token=bFFtSHNCZZDWQ__Zs96cP5jLMhLoJofg&v1=33&v2=44`
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="token" type="string" required=true %}
-auth token of the device
+Device auth token
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="pin" type="string" required=true %}
-virtual pin
+Virtual pin
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="value" type="string" required=true %}
-the value will be parsed as the   
-Datastream data type \(int, double, string
+The value of the Datastream. Will be parsed based on the Datastream data type \(int, double, string\).
+In case value doesn't match the Datastream type error will be returned.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}
