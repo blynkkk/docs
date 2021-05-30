@@ -7,8 +7,6 @@ Get Datastream value
 
 {% api-method-description %}
 This endpoint allows you to get the stored value of the Datastream by pin type and pin.  
-  
-
 **Example:**  
 `https://blynk.cloud/external/api/get?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&v1`
 {% endapi-method-description %}
@@ -62,8 +60,8 @@ Get value by Datastream ID
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get the stored value of the Datastream by id  
-  
+This endpoint allows you to get the stored value of the Datastream by id.
+
 **Example:**  
 `https://blynk.cloud/external/api/get?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&dataStreamId=1`
 {% endapi-method-description %}
