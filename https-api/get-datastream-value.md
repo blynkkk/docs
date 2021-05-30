@@ -56,7 +56,7 @@ or
 
 {% api-method method="get" host="https://{server_address}" path="/external/api/get?token={token}&dataStreamId={id}" %}
 {% api-method-summary %}
-Get value by Datastream ID
+Get Datastream value by Datastream ID
 {% endapi-method-summary %}
 
 {% api-method-description %}

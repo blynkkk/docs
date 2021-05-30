@@ -30,7 +30,8 @@ Virtual pin
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="value" type="string" required=true %}
-The value of the Datastream. Will be parsed based on the Datastream data type \(int, double, string\).
+The desired value of the Datastream. Will be parsed based on the Datastream data type (int, double, string)
+and bounded with min / max values of datastream settings.
 In case value doesn't match the Datastream type error will be returned.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}

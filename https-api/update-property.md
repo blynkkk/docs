@@ -16,6 +16,7 @@ This endpoint allows you to update the widget value with assigned pin via GET re
 {% api-method-path-parameters %}
 {% api-method-parameter name="property" type="string" required=true %}
 The property of the widget you want ot update. Possible values: `label`, `isDisabled`, `color`
+{% endapi-method-parameter %}
 {% api-method-parameter name="value" type="string" required=true %}
 The desired value of the property
 {% endapi-method-parameter %}
@@ -25,7 +26,7 @@ Virtual pin number \(should start with "v"\)
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="token" type="string" required=true %}
-device auth token
+Device auth token
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}
