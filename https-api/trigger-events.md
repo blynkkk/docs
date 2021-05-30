@@ -18,7 +18,7 @@ Trigger the event by event code
 This endpoint allows you to trigger the event.  
   
 **Example:**  
-```https://blynk.cloud/external/api/logEvent?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&code=firmware_update&description=test```
+`https://blynk.cloud/external/api/logEvent?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&code=firmware_update&description=test`
 {% endapi-method-description %}
 
 {% api-method-spec %}
