@@ -169,9 +169,11 @@
 * [Overview](https-api/https-api-overview.md)
 * [Get Datastream Value](https-api/get-datastream-value.md)
 * [Update Datastream Value](https-api/update-datastream-value.md)
-* [Batch Update Values](https-api/batch-update-values.md)
+* [Batch Update of the Datastreams](https-api/batch-update-values.md)
+* [Update Widget Property](https-api/update-widget-property.md)
 * [Log Event](https-api/trigger-events.md)
 * [Get Device Report](https-api/get-device-report.md)
+* [Troubleshooting](https-api/https-api-troubleshooting.md)
 
 ## Troubleshooting
 
