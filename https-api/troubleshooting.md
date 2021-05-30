@@ -1,5 +1,11 @@
 # Troubleshooting
 
+- All HTTPS API is case-sensitive. Request path and query parameters letter-case shouldn't be changed.
+- Make sure you're using the correct server. Blynk currently have 2 clouds running.
+  The old cloud (no longer supported) with host ```blynk-cloud.com``` and the new cloud with host ```blynk.cloud```
+- In case you're getting the ```Invalid token.``` response from the HTTPS API,
+  and you're sure the device auth token is correct - it could be a GEO DNS issue. 
+
 {% hint style="warning" %}
 Due to current GeoDNS settings you need to put server address with suffix manually depending on your region:  
 [https://fra1.blynk.cloud/](https://fra1.blynk.cloud/)   – Frankfurt  
