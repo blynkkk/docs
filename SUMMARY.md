@@ -170,10 +170,10 @@
 * [Get Datastream Value](https-api/get-datastream-value.md)
 * [Update Datastream Value](https-api/update-datastream-value.md)
 * [Batch Update of the Datastreams](https-api/batch-update-values.md)
-* [Update Widget Property](https-api/update-widget-property.md)
+* [Update Widget Property](https-api/update-property.md)
 * [Log Event](https-api/trigger-events.md)
 * [Get Device Report](https-api/get-device-report.md)
-* [Troubleshooting](https-api/https-api-troubleshooting.md)
+* [Troubleshooting](https-api/troubleshooting.md)
 
 ## Troubleshooting
 
