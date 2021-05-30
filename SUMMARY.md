@@ -166,9 +166,9 @@
 
 ## BLYNK.CLOUD \(HTTPS API\) <a id="https-api"></a>
 
-* [Update Virtual Datastream Value](https-api/update-virtual-datastream-value.md)
+* [Get Datastream Value](https-api/get-datastream-value.md)
+* [Update Datastream Value](https-api/update-datastream-value.md)
 * [Batch Update Values](https-api/batch-update-values.md)
-* [Get Virtual Datastream Value](https-api/update-and-get-pin-ds-value.md)
 * [Log Event](https-api/trigger-events.md)
 * [Get Device Report](https-api/get-device-report.md)
 
