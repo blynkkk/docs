@@ -7,7 +7,6 @@ Update the Datastream value
 
 {% api-method-description %}
 This endpoint allows you to update the value of the Datastream.  
-  
 **Example:**  
 `https://blynk.cloud/external/api/update/update?token=ffujYGgbf805tgsf&v1=100`
 {% endapi-method-description %}
@@ -74,7 +73,6 @@ Update value by Datastream ID
 {% api-method-description %}
   
 This endpoint allows you to update the value of the Datastream.  
-  
 **Example:**  
 `https://blynk.cloud/external/api/update?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&dataStreamId=1&value=100`
 {% endapi-method-description %}
