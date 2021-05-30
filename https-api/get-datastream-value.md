@@ -56,7 +56,7 @@ or
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{server\_address}" path="/external/api/get?token={token}&dataStreamId={id}" %}
+{% api-method method="get" host="https://{server_address}" path="/external/api/get?token={token}&dataStreamId={id}" %}
 {% api-method-summary %}
 Get value by Datastream ID
 {% endapi-method-summary %}

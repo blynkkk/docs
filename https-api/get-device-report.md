@@ -1,17 +1,6 @@
 # Get Device Report
 
-{% hint style="warning" %}
-Due to current GeoDNS settings you need to put server address with suffix manually depending on your region:  
-[https://fra1.blynk.cloud/](https://fra1.blynk.cloud/)   – Frankfurt  
-[https://lon1.blynk.cloud/](https://lon1.blynk.cloud/)  – London  
-[https://ny3.blynk.cloud/](https://ny3.blynk.cloud/)    – New York  
-[https://sgp1.blynk.cloud/](https://sgp1.blynk.cloud/)  – Singapore  
-[https://blr1.blynk.cloud/](https://blr1.blynk.cloud/)    – Bangalore  
-  
-Sorry for the inconvenience. This will be fixed soon!
-{% endhint %}
-
-{% api-method method="get" host="https://blynk.cloud" path="/external/api/data/get?token={token}&period={PERIOD}&granularityType={TYPE}&sourceType={SOURCE\_TYPE}&tzName={tzName}&format={FORMAT}&sendEvents=true&output=FILE&dataStreamId={id}&pin={pin}" %}
+{% api-method method="get" host="https://{server_address}" path="/external/api/data/get?token={token}&period={PERIOD}&granularityType={TYPE}&sourceType={SOURCE_TYPE}&tzName={tzName}&format={FORMAT}&output=FILE&pin={pin}" %}
 {% api-method-summary %}
 
 {% endapi-method-summary %}
@@ -24,37 +13,37 @@ Sorry for the inconvenience. This will be fixed soon!
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="period" type="string" required=true %}
-is `MONTH` by default. Other possible options: `HOUR`, `DAY`, `WEEK`, `THREE_MONTHS`
+Is `MONTH` by default. Other possible options: `HOUR`, `DAY`, `WEEK`, `THREE_MONTHS`
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="granularityType" type="string" required=true %}
-is `RAW_DATA` by default. \( `RAW_DATA` is not supported for the `THREE_MONTH` period! \). Other possible values: `MINUTE`, `HOURLY`, `DAILY`
+Is `RAW_DATA` by default. \( `RAW_DATA` is not supported for the `THREE_MONTH` period! \). Other possible values: `MINUTE`, `HOURLY`, `DAILY`
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="sourceType" type="string" required=true %}
-is `AVG` by default. Other possible values: `MIN`, `MAX`, `SUM`, `COUNT`
+Is `AVG` by default. Other possible values: `MIN`, `MAX`, `SUM`, `COUNT`
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="tzName" type="string" required=true %}
-is `UTC` by defult. Please specify timezones accordingly to `java.time.ZoneId`
+Is `UTC` by defult. Please specify timezones accordingly to `java.time.ZoneId`
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="format" type="string" required=true %}
-is TS by default. Other possible values:  
+Is TS by default. Other possible values:  
 ISO\_US "04/10/19 11:45:41 AM"  
 ISO\_SIMPLE "2018-06-07 22:01:20"
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="sendEvents" type="string" required=true %}
-is false by default
+Is false by default
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="dataStreamId or pin" type="string" required=false %}
-are optional parameteres, which are used to get data for the specific pin
+Are optional parameteres, which are used to get data for the specific pin
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="output" type="string" required=true %}
-is FILE by default. Other posible value: JSON
+Is FILE by default. Other possible value: JSON
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}
