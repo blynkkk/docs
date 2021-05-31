@@ -54,3 +54,15 @@
 * wait for Blynk.App list of widgets that support enumerable datastreams to expand 
 * keep Blynk.App up to date
 
+## I can't add an image to Blynk.App widget
+
+**What could be the reason:**
+
+* limited access to the image source
+* image extension is not supported
+
+**What’s the solution:**
+
+* be sure to use the link open to public
+* images should have .png, .jpg, jpeg or .gif extension
+
