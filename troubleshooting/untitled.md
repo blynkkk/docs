@@ -44,25 +44,7 @@
 * you should wait for a while to reboot the server  
 * run traceroute command in your OS terminal, contact your ISP and provide them with this data
 
-## **My API request doesn't work**
-
-**What could be the reason:**
-
-* request with incorrect parameters  
-* the device token is specified incorrectly  
-* wrong pin format input  
-* value doesn't match the datastream type  
-* requested datastream doesn't exist in the product  
-* event code is not provided  
-* there's no event with code provided in the product
-
-**What’s the solution:**
-
-* follow [HTTPS guides](https://docs.blynk.io/en/https-api/update-datastream-value) attentively  
-* be sure to send the requests to the correct server  
-* check all the inputs to be corrent in the request and to be present in the template _\(also there's a hint on what exactly went wrong in a result field of Postman or web page body\)_
-
-## I can't see all metadata in Blynk.App
+## I can't see all metadata in Blynk.App 
 
 **What could be the reason:**
 
@@ -71,17 +53,34 @@
 **What’s the solution:**
 
 * view full metadata list in Blynk.360
-* wait for Blynk.App full metadata support and update it regularly
+* wait for Blynk.App full metadata support and update Blynk.App regularly
 
-## I can't see enumerable datastreams in Blynk.App
+## Device is offline
 
 **What could be the reason:**
 
-* not supported by every widget at the moment
+* connectivity issues
+* auth token was changed
+* Wi-Fi network SSID or password was changed
 
 **What’s the solution:**
 
-* view full metadata list in Blynk.360
-* wait for Blynk.App list of widgets that support enumerable datastreams to expand 
-* keep Blynk.App up to date
+* check if the device is powered on
+* check your internet connection between the device and Blynk.Cloud
+* connect to your device and check if it's auth token matches one in Blynk.Cloud
+* launch Device Reprovision
+
+## "Not correct device" during add device
+
+**What could be the reason:**
+
+* device board hardware is not supported by the Template
+* device Template ID mismatch
+* wrong Product Name 
+
+**What’s the solution:**
+
+* be sure to use the hardware that is mentioned in Template's Info page
+* be sure you paste correct BLYNK\_TEMPLATE\_ID to the sketch
+* be sure you paste correct BLYNK\_DEVICE\_NAME to the sketch
 
