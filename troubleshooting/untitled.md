@@ -122,3 +122,17 @@
 * check your internet connection for both: device and smartphone/PC \(Blynk is a cloud platform, there's no offline support\)
 * be sure that device is powered on and has no circuit or physical damage
 
+## I can't download device report
+
+**What could be the reason:**
+
+* connectivity issues
+* no data for the selected device
+* you have no permissions to do that
+
+**What’s the solution:**
+
+* check your internet connection
+* no report can be provided for download if there's no data for it
+* contact your organization administrator
+

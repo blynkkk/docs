@@ -66,3 +66,13 @@
 * be sure to use the link open to public
 * images should have .png, .jpg, jpeg or .gif extension
 
+## I've created dashboard in web and don't see it in mobile app \(or reverse\)
+
+**What could be the reason:**
+
+* there's no option to convert templates between Blynk.App and Blynk.360 now.
+
+**What’s the solution:**
+
+* set up dashboards in both Blynk.App and Blynk.360
+
