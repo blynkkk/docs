@@ -11,5 +11,10 @@ If you're using **Blynk library**, your code should be compatible with the new c
 
 ## Account and projects migration
 
-You will need to [create a new account](https://blynk.cloud/) and re-create new device templates.
+You will need to [create a new account](https://blynk.cloud/) and re-create new device templates.  
+Here are some things you should take into acount:
+
+* **Eventor widget** has been replaced with **Automations**
+* Bluetooth/BLE connections are currently not available from **Blynk.App**
+* **Bridge widget** has been replaced with **Rule Engine** \(not released yet\)
 
