@@ -160,6 +160,7 @@
   * [Configuration](blynk.edgent/api/configuration.md)
   * [Connection Management](blynk.edgent/api/connection-management.md)
   * [Virtual Pins](blynk.edgent/api/virtual-pins.md)
+  * [Log Event](blynk.edgent/api/log-event.md)
   * [Timer](blynk.edgent/api/blynk-timer.md)
   * [Debug](blynk.edgent/api/debug.md)
   * [Other](blynk.edgent/api/other.md)

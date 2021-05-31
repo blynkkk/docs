@@ -5,7 +5,7 @@
 1. Open Device Template
 2. Switch to Events tab
 3. Hover Code column across from Event name
-4. Once "Click to copy Event Code" hint appears, click it and Event Code will be coped to you buffer
+4. Click "Copy Event Code" hint
 
 ![](../.gitbook/assets/copy_event_code.png)
 

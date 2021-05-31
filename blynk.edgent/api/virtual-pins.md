@@ -7,7 +7,7 @@ Virtual Pins are commonly used to interface with other libraries \(Servo, LCD an
 ### Virtual Pin data types
 
 All Virtual Pin values are always sent as Strings and there are no practical limits on the data that can be sent.  
-However, there are certian limitations on the hardware side when dealing with numbers. For example, the integer on Arduino is 16-bit, allowing range -32768 to 32767.
+However, there are certain limitations on the hardware side when dealing with numbers. For example, the integer on Arduino is 16-bit, allowing range -32768 to 32767.
 
 To interpret incoming data as Integers, Floats, Doubles and Strings use:
 
