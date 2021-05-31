@@ -110,3 +110,15 @@
 * add a device so you can access it from Devices tab
 * check for the template to have required datastreams are exposed to automations 
 
+## I press button or move slider and nothing happens to the device
+
+**What could be the reason:**
+
+* connectivity issues
+* device issues
+
+**What’s the solution:**
+
+* check your internet connection for both: device and smartphone/PC \(Blynk is a cloud platform, there's no offline support\)
+* be sure that device is powered on and has no circuit or physical damage
+
