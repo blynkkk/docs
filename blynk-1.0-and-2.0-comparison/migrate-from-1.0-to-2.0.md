@@ -7,7 +7,7 @@ If you're using **Blynk library**, your code should be compatible with the new c
 * Update Blynk library to the latest version \(v1.0+\)
 * Add `BLYNK_TEMPLATE_ID` and `BLYNK_DEVICE_NAME` on top of your firmware
 * Replace `Blynk.notify`, `Blynk.email`, `Blynk.tweet`, `Blynk.sms` with `Blynk.logEvent`
-* Consider using **Blynk.Edgent** in your firmware for dynamic wifi credentials provisioning
+* Consider using **Blynk.Edgent** in your firmware for dynamic WiFi credentials provisioning
 
 ## Account and projects migration
 
