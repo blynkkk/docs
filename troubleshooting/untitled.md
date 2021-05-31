@@ -84,3 +84,15 @@
 * be sure you paste correct BLYNK\_TEMPLATE\_ID to the sketch
 * be sure you paste correct BLYNK\_DEVICE\_NAME to the sketch
 
+## I can't erase data from a device
+
+**What could be the reason:**
+
+* some time is required to erase all device data
+* there was network disconnection during the command send
+
+**What’s the solution:**
+
+* wait for up to 5 minutes and re-check device's data
+* check your network connection, re-send the command
+
