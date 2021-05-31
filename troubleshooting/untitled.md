@@ -96,3 +96,17 @@
 * wait for up to 5 minutes and re-check device's data
 * check your network connection, re-send the command
 
+## There are no devices in Blynk.App Automation
+
+**What could be the reason:**
+
+* there are no templates you can use at the moment
+* there are no devices added and available to access
+* device template has no datastreams allowed for automations
+
+**What’s the solution:**
+
+* create a template or ask your organization admin for it
+* add a device so you can access it from Devices tab
+* check for the template to have required datastreams are exposed to automations 
+
