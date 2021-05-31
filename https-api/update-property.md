@@ -1,6 +1,6 @@
 # Update Widget Property
 
-{% api-method method="get" host="https://{server_address}" path="/external/api/update/property?token={token}&pin={pin}&{property}={value}" %}
+{% api-method method="get" host="https://{server\_address}" path="/external/api/update/property?token={token}&pin={pin}&{property}={value}" %}
 {% api-method-summary %}
 Update the Widget with assigned pin
 {% endapi-method-summary %}
@@ -17,6 +17,7 @@ This endpoint allows you to update the widget value with assigned pin via GET re
 {% api-method-parameter name="property" type="string" required=true %}
 The property of the widget you want ot update. Possible values: `label`, `isDisabled`, `color`
 {% endapi-method-parameter %}
+
 {% api-method-parameter name="value" type="string" required=true %}
 The desired value of the property
 {% endapi-method-parameter %}

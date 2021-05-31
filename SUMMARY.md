@@ -173,7 +173,7 @@
 * [Update Widget Property](https-api/update-property.md)
 * [Log Event](https-api/trigger-events.md)
 * [Get Device Report](https-api/get-device-report.md)
-* [Troubleshooting](https-api/troubleshooting.md)
+* [HTTPS API Troubleshooting](https-api/troubleshooting.md)
 
 ## Troubleshooting
 

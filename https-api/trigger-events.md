@@ -1,6 +1,6 @@
 # Log Event
 
-### Get an Event code
+## Get an Event code
 
 1. Open Device Template
 2. Switch to Events tab
@@ -9,7 +9,7 @@
 
 ![](../.gitbook/assets/copy_event_code.png)
 
-{% api-method method="get" host="https://{server_address}" path="/external/api/logEvent?token={token}&code={event_name}&description={event_description}" %}
+{% api-method method="get" host="https://{server\_address}" path="/external/api/logEvent?token={token}&code={event\_name}&description={event\_description}" %}
 {% api-method-summary %}
 Trigger the event by event code
 {% endapi-method-summary %}
@@ -72,6 +72,4 @@ or
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
-
 

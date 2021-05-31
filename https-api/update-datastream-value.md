@@ -1,6 +1,6 @@
 # Update Datastream Value
 
-{% api-method method="get" host="https://{server_address}" path="/external/api/update?token={token}&{pin}={value}" %}
+{% api-method method="get" host="https://{server\_address}" path="/external/api/update?token={token}&{pin}={value}" %}
 {% api-method-summary %}
 Update the Datastream value
 {% endapi-method-summary %}
@@ -15,9 +15,7 @@ This endpoint allows you to update the value of the Datastream value via GET req
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="value" type="string" required=true %}
-The desired value of the Datastream. Will be parsed based on the Datastream data type (int, double, string)
-and bounded with min / max values of datastream settings.
-In case value doesn't match the Datastream type error will be returned.
+The desired value of the Datastream. Will be parsed based on the Datastream data type \(int, double, string\) and bounded with min / max values of datastream settings. In case value doesn't match the Datastream type error will be returned.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="pin" type="string" required=true %}
@@ -81,9 +79,7 @@ This endpoint allows you to update the value of the Datastream value via GET req
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="value" type="string" required=true %}
-The desired value of the Datastream. Will be parsed based on the Datastream data type (int, double, string)
-and bounded with min / max values of datastream settings.
-In case value doesn't match the Datastream type error will be returned.
+The desired value of the Datastream. Will be parsed based on the Datastream data type \(int, double, string\) and bounded with min / max values of datastream settings. In case value doesn't match the Datastream type error will be returned.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="dataStreamId" type="integer" required=true %}

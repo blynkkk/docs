@@ -16,14 +16,20 @@ Tap **Add automation** to create a new one
 
 Blynk currently supports 4 types of automations:
 
-- **Time of Day** - allows you to trigger at a specific time of the day and for the specific day.
-- **Sunset / Sunrise** - allows you to trigger at sunset/sunrise.
+* **Time of Day** - allows you to trigger at a specific time of the day and for the specific day.
+* **Sunset / Sunrise** - allows you to trigger at sunset/sunrise.
+
   This kind of automation is triggered based on the selected location.
+
   For the different locations you'll get the different sunset/sunrise time.
+
   Also, current sunset algorithm doesn't take into account the altitude of the selected region.
+
   So the sunset/sunrise time calculation may be not precise for the mountain regions.
-- **Device state** - allows you to trigger based on the device datastream values. For example, if temperature > 40 degrees turn of the boiler
-- **Scene** - allows to manually trigger multiple actions. For example, set the temperature to 30 degrees and turn off the alarm.
+
+* **Device state** - allows you to trigger based on the device datastream values. For example, if temperature &gt; 40 degrees turn of the boiler
+* **Scene** - allows to manually trigger multiple actions. For example, set the temperature to 30 degrees and turn off the alarm.
+
   The visibility of this type of the automation is controlled via permissions.
 
 {% hint style="info" %}

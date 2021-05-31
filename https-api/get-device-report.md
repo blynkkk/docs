@@ -1,6 +1,6 @@
 # Get Device Report
 
-{% api-method method="get" host="https://{server_address}" path="/external/api/data/get?token={token}&period={PERIOD}&granularityType={TYPE}&sourceType={SOURCE_TYPE}&tzName={tzName}&format={FORMAT}&output=FILE&pin={pin}" %}
+{% api-method method="get" host="https://{server\_address}" path="/external/api/data/get?token={token}&period={PERIOD}&granularityType={TYPE}&sourceType={SOURCE\_TYPE}&tzName={tzName}&format={FORMAT}&output=FILE&pin={pin}" %}
 {% api-method-summary %}
 
 {% endapi-method-summary %}

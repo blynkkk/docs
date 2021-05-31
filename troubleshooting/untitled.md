@@ -1,11 +1,5 @@
 # General issues
 
-{% hint style="warning" %}
-There are certain connectivity and HTTP API send issues due to GeoDNS settings changes.  
-We feel sorry for the inconvinience you may expirience. It'll be fixed soon!  
-Keep your Blynk.App up to date please.
-{% endhint %}
-
 ## **Can’t log in**
 
 **What could be the reason:**
@@ -68,7 +62,7 @@ Keep your Blynk.App up to date please.
 * be sure to send the requests to the correct server  
 * check all the inputs to be corrent in the request and to be present in the template _\(also there's a hint on what exactly went wrong in a result field of Postman or web page body\)_
 
-## I can't see all metadata in Blynk.App 
+## I can't see all metadata in Blynk.App
 
 **What could be the reason:**
 
