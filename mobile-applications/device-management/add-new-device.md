@@ -4,16 +4,19 @@
 
 1. Tap **Add new device**
 
-![](../../.gitbook/assets/img_0004.png)
+<img width="621" alt="Devices tab" src="https://user-images.githubusercontent.com/72790181/120279434-1a41e400-c2bf-11eb-8043-a7ae62397593.png">
+
 
 2. Make sure your device is powered on and waiting for connection.   
 3. Tap **Ready**
 
-![](../../.gitbook/assets/img_0005%20%281%29%20%281%29.png)
+<img width="621" alt="Add new device" src="https://user-images.githubusercontent.com/72790181/120279456-2168f200-c2bf-11eb-818c-f012ef0d6981.png">
+
 
 4. **Choose your device** and tap it's name
 
-![](https://lh4.googleusercontent.com/_S_WPnccoc8I_CJjroPnamtb4QTtt97IPyBW95qb8MqAWug6jtTNWFqi1xhALX8_LsMjNY2cdloMWUl7c-VSVdtaCtftztB9J98_QQXl6q1rpQb9YnKION16QXxTS27pWjGsZI5E)
+<img width="621" alt="Choose device" src="https://user-images.githubusercontent.com/72790181/120279475-29289680-c2bf-11eb-864a-2bec69665648.png">
+
 
 ### **iOS device connection:**
 
@@ -28,7 +31,8 @@ Once the **Ready** button is hit, the application tries to automatically connect
 
 \*\*\*\*
 
-*   ****![](https://lh3.googleusercontent.com/rEpK9V1TMbuHGJnyj39UNMeO4dZpt3jLC30-1MmDysiWsa2uh4p02bkKLSyKBznxFyBjNbYvCfQPCeBXak67IO1OUIBMrXEzqZxmLvhevu2dQ3_zGYd0nLVwHCL52PGmYJDHazXD)![](https://lh4.googleusercontent.com/LxaOFcRX6p74lmu01GH8hnwCogmZ0keNC6_qBm0pwg9pcd2_Bkv_tyx9rls6icRPa64g6-JaeSCTXCt_vvgjpeQg4cIMFbEf46AsZNQRoFxo8d6x3NmB3Ngsgq3NUsa6OXggZELV)![](https://lh5.googleusercontent.com/YxysEYHujeWA5Q0J8ffqmRPqv1qBxVLkaBUjQHONOJmjZzb2NFdyFZIL9AnzI7zWF_2_P1sNxcVPYsgtVZbXWrzsSisuBlX-cZywYwryP48g-xm88MK_AHEGJUbWca40Dr-DUdSg)![](https://lh6.googleusercontent.com/gESqU8Eeoy6jbCATI8xUBqZ-FxigcB7KkEmU6di8clP-lj-bGiPBO_vhFm4rZGBRxdBcT1YaxBZ99UYHUwAQQ_6Innq7237ulY2A8qOHFo2hnzM5oMOZVw2m65LvlAMpija4JWeE)  _\*\*_
+<img width="1867" alt="IOS manual connection" src="https://user-images.githubusercontent.com/72790181/120279552-43627480-c2bf-11eb-97be-ad8f9130b916.png">
+
 
 ## **Connect your device to Blynk.Cloud**
 
@@ -36,16 +40,18 @@ Once the app is connected to the device, the next step is to send to the device 
 
 1. tap **Choose Wi-Fi network** and select the network your mobile device is connected to;
 2. type selected Wi-Fi password; 
-3. there's an option to **Remember this network** f**or other devices** – enabling it helps to save time if you need to add many devices. 
+3. there's an option to **Remember this network** **for other devices** – enabling it helps to save time if you need to add many devices. 
 4. tap **Continue.**
 
-![](https://lh6.googleusercontent.com/m2xjoFZPaNMNabYP-sABu9PTwzttpJUjgN5FHyuaoHWT2cnRW7yo74bKLNi_VlEAlt-kl0gOA2JfwNDsG2md1ddONjyQwXhGbxEJPJJ9NwESAItZP_2X-iSCvU1qI4P4KK5j2ZBq)
+<img width="621" alt="WiFi setup" src="https://user-images.githubusercontent.com/72790181/120279726-773d9a00-c2bf-11eb-9fc8-7bcab1681f02.png">
+
 
 {% hint style="success" %}
 Your smartphone will connect to the device and transfer the credentials, consequently, the device will try to connect to the internet and subsequently to the Cloud.
 {% endhint %}
 
-![](https://lh5.googleusercontent.com/zhTs0yhOF_mDu800EKC_VZ5W3jN-Qs9VdrwrPpsGOupwSeH1MZUe93HUivNYci4pyhCvr6uUbWI11yyM6amBgv5rlLEy95p6uRKwbpTEOfsL_FuqWtQ9MzpmxFsNbsuYMijdZjdJ)
+<img width="621" alt="Configuring device" src="https://user-images.githubusercontent.com/72790181/120279747-802e6b80-c2bf-11eb-9e05-0e31da8636dc.png">
+
 
 ## **Device profiling**
 
@@ -53,13 +59,15 @@ Your smartphone will connect to the device and transfer the credentials, consequ
 Once your device is successfully connected to the internet and the cloud, you can rename it to differentiate from the others. 
 {% endhint %}
 
-1. Tap **Done**
+1. Tap **Continue**
 
-![](https://lh4.googleusercontent.com/9HZVJtcL4ygsihXnXQKGtM6N2HlDtZ4QJDLnZ4KV9hDhkLykYUTSflhs2YM5Kt1EQmW0MKp5cAFr191dRn0hJyBPMrtxHaTKkRVyUHxFMGjuR6pz7_RCRivg6vFPJUmylMBO8RV3)
+<img width="621" alt="Device connected" src="https://user-images.githubusercontent.com/72790181/120279939-b966db80-c2bf-11eb-9deb-becb387e85df.png">
+
 
 2. Follow the on-screen steps to create Device profile
 
-![](https://lh4.googleusercontent.com/q3scUh_Vitm50IMOy5Ta9J6Lb9DzvMYZRNQNsfAikMzggspo5X1LqDPQqHEZ83ZGdYqsfzAtKcarvvSTHGvFhSQfDZJucY2D5nkAqNbcen5CV6usT16uYYyBR7FSFyHiERf3WDDY)
+<img width="621" alt="Device profiling" src="https://user-images.githubusercontent.com/72790181/120279960-c257ad00-c2bf-11eb-9aed-e9745aba0422.png">
+
 
 {% hint style="info" %}
 Check the device information to be correct on the Review screen. If something has to be changed you can edit it here by taping the field you need to edit. 
@@ -67,7 +75,8 @@ Check the device information to be correct on the Review screen. If something ha
 
 3. Tap **Apply** once all is fine
 
-![](https://lh6.googleusercontent.com/8jwspUNjI3NTTWmaPBQAmawFp9ubOItF_bmoSxdkajsIUDEnCx4B1IjlUpzwRLZ-blXcixCoGhtmujC-ax_IBz8KuDMR5h_L9nVclTka1i17EKIuYojs1nLCEIkAAjFIqhkvwXe3)
+<img width="621" alt="Review" src="https://user-images.githubusercontent.com/72790181/120279993-cdaad880-c2bf-11eb-9690-6c16c943fe91.png">
+
 
 {% hint style="success" %}
 Profile is created.
@@ -75,7 +84,8 @@ Profile is created.
 
 4. Confirm by tapping **Continue**
 
-![](https://lh4.googleusercontent.com/nQ_o1YVAbqiS0FjEGxhZdmLdLNIqR6xDZxGcOCIn4RDC48TlvqDI7zsz_Xqh9yyjdkxfbUg7YK1tX78rzFmvf-9bZFynVRFNNY7JQR--AoVQkEGm0XFLHuwecxtjrxoWllmnZMeP)
+<img width="621" alt="Final step" src="https://user-images.githubusercontent.com/72790181/120280018-d56a7d00-c2bf-11eb-9e0c-3ce0e6aaa77a.png">
+
 
 ## **Finalizing setup**
 
@@ -85,5 +95,6 @@ There’s one last screen of the provision process. 3 options are here:
 * **Add new device and apply most recent profile/metadata** – our advice is to give devices different names;
 * **Exit to app** – end device adding process and proceed to using it.
 
-![](https://lh6.googleusercontent.com/_PdT0AVRh3iqywfKTD3TdKt7lpOWeLE3T0Rda4An12qxmctW61vl9bwQywstzNfhKAKNdyTFQAKQU7EWcFGPC9kFG9kQ4R0UdVSd9LwDjHGA27-TqIecR4w0vdX7DP38XZcWs-By)
+<img width="621" alt="Exit" src="https://user-images.githubusercontent.com/72790181/120280043-de5b4e80-c2bf-11eb-84d8-c3f6aaa252d2.png">
+
 
