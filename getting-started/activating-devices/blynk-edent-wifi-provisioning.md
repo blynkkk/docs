@@ -8,10 +8,12 @@ Remember going to the coffee shop and asking for a name and password for their W
 
 Now imagine your ESP32 wants to connect to the Internet. It would also need the name and password of your home or office WiFi. Good for you, Blynk can do all the heavy work.
 
-A complete WiFi provisioning solution from Blynk includes both a firmware code and a mobile app UI to guide you through the WiFi set up.
+A complete WiFi provisioning solution from Blynk includes both a firmware code and a mobile app UI to guide you through the WiFi set up. It's called **Blynk.Inject**
 
 {% hint style="info" %}
-Currently, WiFi provisioning only works on ESP32, ESP8266, Arduino MKR1010, and Texas Instruments CC3220.
+Currently, WiFi provisioning with Blynk.Inject only works on ESP32, ESP8266, WiO Terminal by Seeed, Arduino MKR1010, Arduino Nano 33IoT, and Texas Instruments CC3220.
+
+Raspberry Pi will be supported soon.
 {% endhint %}
 
 ## **How WiFi provisioning works**
