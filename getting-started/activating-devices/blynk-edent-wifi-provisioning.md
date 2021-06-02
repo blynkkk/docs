@@ -11,7 +11,7 @@ Now imagine your ESP32 wants to connect to the Internet. It would also need the 
 A complete WiFi provisioning solution from Blynk includes both a firmware code and a mobile app UI to guide you through the WiFi set up.
 
 {% hint style="info" %}
-Currently, WiFi provisioning only works on ESP32 and ESP8266
+Currently, WiFi provisioning only works on ESP32, ESP8266, Arduino MKR1010, and Texas Instruments CC3220.
 {% endhint %}
 
 ## **How WiFi provisioning works**
