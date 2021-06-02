@@ -8,13 +8,11 @@ description: Automations let you set an automated control of your devices
 Automations should be [enabled in Template settings](../web-dashboard/products/datastreams/datastreams-common-settings/automation.md) first. Otherwise Automation tab will be unavailable in Blynk.App
 {% endhint %}
 
-<img width="621" alt="No automations" src="https://user-images.githubusercontent.com/72790181/120281222-57a77100-c2c1-11eb-82fc-5d872520671f.png">
-
+![No automations](https://user-images.githubusercontent.com/72790181/120281222-57a77100-c2c1-11eb-82fc-5d872520671f.png)
 
 Tap **Add automation** to create a new one
 
-<img width="621" alt="Choose condition" src="https://user-images.githubusercontent.com/72790181/120281228-5b3af800-c2c1-11eb-8e54-267b8aed6e79.png">
-
+![Choose condition](https://user-images.githubusercontent.com/72790181/120281228-5b3af800-c2c1-11eb-8e54-267b8aed6e79.png)
 
 Blynk currently supports 4 types of automations:
 
@@ -42,25 +40,21 @@ Automations can work across multiple devices
 2. Choose cover picture
 3. Set a condition that will trigger an automation
 
-<img width="621" alt="No actions" src="https://user-images.githubusercontent.com/72790181/120281259-64c46000-c2c1-11eb-9b25-84c4e9e294b7.png">
-
+![No actions](https://user-images.githubusercontent.com/72790181/120281259-64c46000-c2c1-11eb-9b25-84c4e9e294b7.png)
 
 After setting the condition you can **Add actions** that will be performed when the condition is triggered
 
-<img width="621" alt="Choose action type" src="https://user-images.githubusercontent.com/72790181/120281347-81f92e80-c2c1-11eb-989d-fb5832653d9f.png">
-
+![Choose action type](https://user-images.githubusercontent.com/72790181/120281347-81f92e80-c2c1-11eb-989d-fb5832653d9f.png)
 
 After pressing Add action button you’ll see a modal with types of actions.
 
 You can choose actions that will change the device’s state, send a notification to your smartphone or send an email to the specified address.
 
-<img width="621" alt="Automation ready" src="https://user-images.githubusercontent.com/72790181/120281482-ad7c1900-c2c1-11eb-95a7-7352d126ba73.png">
-
+![Automation ready](https://user-images.githubusercontent.com/72790181/120281482-ad7c1900-c2c1-11eb-95a7-7352d126ba73.png)
 
 After adding the first action you can continue adding more of them or save this automation
 
-<img width="621" alt="Automations tab" src="https://user-images.githubusercontent.com/72790181/120281496-b1a83680-c2c1-11eb-8f99-04188d31fce7.png">
-
+![Automations tab](https://user-images.githubusercontent.com/72790181/120281496-b1a83680-c2c1-11eb-8f99-04188d31fce7.png)
 
 When Automations are created you will see the list of them. Here you can disable/enable automations and open their settings for view and edit.
 

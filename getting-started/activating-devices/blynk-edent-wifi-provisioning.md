@@ -108,13 +108,15 @@ Now your device is ready to be activated using Blynk app.
 3. App will scan the WiFi networks around you and offer to connect to your device. In our example, device name will be:  **Blynk Root Template-FAD8F**
 4. Once the connection is established, the Blynk app will guide you through the provisioning process.
 
-A SEQUENCE OF SCREENSHOTS \(OR GIF animation\)
+
 
 _WiFI credentials -&gt; Waiting -&gt; all Checkmarks checked_
 
 When the process if over, you will be prompted to name the device. At this stage, the device is ready to use.
 
-![](https://lh4.googleusercontent.com/Dofpg_nuepVAkVObVJcXsWC0Z9QShoVWHPGgYv8a_WZ9RMD-2G_zAwKHDk6ddp1lrf2KIHNrGCsgJ6Vu0x4UiKZCHgwsv1GUAu9_v819oItUP3vPo_iIVwNveTh3UI_fD6mCOi2B)
+Here is an example of how it works in the app: 
+
+[https://www.youtube.com/watch?v=bXPEEmsEtPM](https://www.youtube.com/watch?v=bXPEEmsEtPM)
 
 For debugging and troubleshooting check the serial monitor output. There you will see how provisioning process is happening on the device.
 
