@@ -112,7 +112,9 @@ When the process if over, you will be prompted to name the device. At this stage
 
 Here is an example of how it works in the app: 
 
-[https://www.youtube.com/watch?v=bXPEEmsEtPM](https://www.youtube.com/watch?v=bXPEEmsEtPM)
+{% embed url="https://www.youtube.com/watch?v=bXPEEmsEtPM" %}
+
+
 
 For debugging and troubleshooting check the serial monitor output. There you will see how provisioning process is happening on the device.
 
