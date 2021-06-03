@@ -174,63 +174,13 @@ Imagine you have a LED Widget connected to the Virtual Pin V1 in the app, and a 
 
 [Represent physical button state via Button widget with polling](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/SyncPhysicalButton/SyncPhysicalButton.ino)
 
-## Control of multiple devices
-
-Blynk app has support of multiple devices. That means you can assign any widget to specific device with own auth token. For example - you may have button on V1 that controls wi-fi bulb A and another button on V1 that controls wi-fi bulb B. In order to do this you need more than 1 device within your project. To achieve this please go to project settings and click on "Devices" section :
-
-![](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/.gitbook/assets/new_project_settings.png)
-
-You'll see list of devices :
-
-![](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/.gitbook/assets/list_of_devices.png)
-
-So you can add new device :
-
-![](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/.gitbook/assets/new_device%20%281%29.png)
-
-After above steps, every widget will have one more field "Target" :
-
-![](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/.gitbook/assets/widget_settings_devices.png)
-
-Now you need to assign widget to device and after that widget will control only this specific device.
-
-That's it! Now you need to upload sketches with correct Auth Tokens to your hardware.
-
-### Tags
-
-Tags feature allows you to group multiple devices. Tags are very useful in case you want to control few devices with 1 widget. For example, imagine a case when you have 3 smart bulbs and you want to turn on all those bulbs with one single click. You need to assign 3 devices to 1 tag and assign tag to button. That's it.
-
-Tag widgets also support state syncing. So you can get state of widget from your hardware. However you can't update state of such widgets from hardware.
-
 ## Devices online status
-
-Blynk app has support for online statuses for multiple devices.
-
-![](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/.gitbook/assets/online_status.png)
 
 In ideal world when device closes tcp connection with some `connection.close()` - connected server will get notification regarding closed connection. So you can get instant status update on UI. However in real world this mostly exceptional situation. In majority of cases there is no easy and instant way to find out that connection is not active anymore.
 
 That's why Blynk uses `HEARTBEAT` mechanism. With this approach hardware periodically sends `ping` command with predefined interval \(50 seconds by default, `BLYNK_HEARTBEAT` [property](https://github.com/blynkkk/blynk-library/blob/master/src/Blynk/BlynkConfig.h)\). In case hardware don't send anything within 50 seconds server waits additional 25 seconds and after that connection assumed to be broken and closed by server. So on UI you'll see connection status update with some delay.
 
 You can also change `BLYNK_HEARTBEAT` interval from hardware side. In that case `newHeartbeatInterval * 2.3` formula will be applied. Example: you set `HEARTBEAT` interval to 5 seconds. You'll get notification regarding connection with 11 sec delay in worst case.
-
-## Project Settings
-
-Every project has it's own settings:
-
-* **Theme** - switch between the Light and Black Blynk Theme \(Business accounts have wider choice\);
-* **Keep screen always on** - allows you to use the Blynk app without going to the sleep mode \(usually all mobile devices do that\);
-* **Send app connected command** - with this option enabled the server will send "App Connected" and "App Disconnected" commands
-
-  to your hardware when your Blynk app goes online/offline. [Usage example](https://github.com/blynkkk/blynk-library/blob/master/examples/More/AppConnectedEvents/AppConnectedEvents.ino);
-
-* **Do not show offline notifications** - right now, for debugging purposes, every time your hardware goes offline - the Blynk
-
-  Server will notify you with popup in the app about that. However, when debugging is not needed or the Blynk app is used only
-
-  via HTTP/S this notifications are meaningless. So this switch allows you to turn off this popups. Also this switch turns off
-
-  the Push notification "Notify when offline" option.
 
 ## Change Widget properties
 
@@ -348,5 +298,5 @@ You can also change widget properties via [HTTP API](http://docs.blynkapi.apiary
 * We recommend calling functions with intervals. For example, use [BlynkTimer](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/README.md#blynk-firmware-blynktimer)
 * Avoid using long delays with `delay()` – it may cause connection breaks;
 * If you send more than 100 values per second - you may cause [Flood Error](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/README.md#troubleshooting-flood-error) and your hardware will be automatically disconnected from the server;
-* Be careful sending a lot of `Blynk.virtualWrite` commands as most hardware is not very powerful \(like ESP8266\) so it may not handle many requests.
+* Be careful sending a lot of `Blynk.virtualWrite` commands as most hardware is not very powerful so it may not handle many requests.
 
