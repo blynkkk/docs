@@ -63,7 +63,7 @@ Devices view order can be sorted by clicking arrow icon in the column header.
 Click **New Device** button to perform this action.  
 New Device modal window will open:
 
-![](../../.gitbook/assets/new_device.png)
+<img width="544" alt="" src="https://user-images.githubusercontent.com/72824404/120639196-c5969880-c479-11eb-849f-6bc5e298e2a6.png">
 
 1. **Choose template** – click this field and select the Template from the dropdown list
 2. **Device Name** – give it a meaningful name up to 60 characters. Use only letters, digits, and spaces.
