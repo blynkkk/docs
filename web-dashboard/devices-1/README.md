@@ -1,6 +1,6 @@
 # Devices
 
-![](../../.gitbook/assets/search-table.png)
+<img width="1264" alt="" src="https://user-images.githubusercontent.com/72824404/120637733-ecec6600-c477-11eb-9aff-24dbddbcb29a.png">
 
 ## Predefined Filters
 
