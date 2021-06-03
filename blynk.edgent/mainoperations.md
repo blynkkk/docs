@@ -42,7 +42,7 @@ When you press a Button, Blynk App sends `1` On the second click - it sends `0`
 
 This is how Button Widget is set up:
 
-![](../.gitbook/assets/button_virtual_1.png1)
+![](../.gitbook/assets/but_ton_virtual_1.png)
 
 Full example sketch: [Get Data](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/GetData/GetData.ino#L24)
 
@@ -50,7 +50,7 @@ Full example sketch: [Get Data](https://github.com/blynkkk/blynk-library/blob/ma
 
 Some Widgets \(e.g Joystick, zeRGBa\) have more than one output.
 
-![](../.gitbook/assets/joystick_merge_mode.png)
+![](../.gitbook/assets/joystick_merge_mo_de.png)
 
 This output can be written to Virtual Pin as an array of values. On the hardware side - you can get any element of the array \[0,1,2...\] by using:
 
