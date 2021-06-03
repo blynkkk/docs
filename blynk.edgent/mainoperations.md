@@ -42,7 +42,7 @@ When you press a Button, Blynk App sends `1` On the second click - it sends `0`
 
 This is how Button Widget is set up:
 
-![](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/.gitbook/assets/button_virtual_1.png)
+![](https://github.com/blynkkk/docs/blob/main/.gitbook/assets/button_virtual_1.png)
 
 Full example sketch: [Get Data](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/GetData/GetData.ino#L24)
 
