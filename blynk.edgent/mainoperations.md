@@ -42,7 +42,7 @@ When you press a Button, Blynk App sends `1` On the second click - it sends `0`
 
 This is how Button Widget is set up:
 
-![](../.gitbook/assets/button_virtual_1.png)
+![](../.gitbook/assets/button_virtual_1.png1)
 
 Full example sketch: [Get Data](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/GetData/GetData.ino#L24)
 
@@ -63,7 +63,7 @@ BLYNK_WRITE(V1) // Widget WRITEs to Virtual Pin V1
 }
 ```
 
-**Sketch:** [JoystickTwoAxis](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/JoystickTwoAxis/JoystickTwoAxis.ino#L24)
+**Sketch:** [JoystickTwoAxis](ht tps://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/JoystickTwoAxis/JoystickTwoAxis.ino#L24)
 
 ## Get data from hardware
 
