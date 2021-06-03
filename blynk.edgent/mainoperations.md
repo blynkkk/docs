@@ -42,7 +42,7 @@ When you press a Button, Blynk App sends `1` On the second click - it sends `0`
 
 This is how Button Widget is set up:
 
-![](../.gitbook/assets/but_ton_virtual_1.png)
+![](https://github.com/blynkkk/docs/tree/a1ea2ed8bc31eba522320f514b900921303d3b07/.gitbook/assets/but_ton_virtual_1.png)
 
 Full example sketch: [Get Data](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/GetData/GetData.ino#L24)
 
@@ -50,7 +50,7 @@ Full example sketch: [Get Data](https://github.com/blynkkk/blynk-library/blob/ma
 
 Some Widgets \(e.g Joystick, zeRGBa\) have more than one output.
 
-![](../.gitbook/assets/joystick_merge_mo_de.png)
+![](https://github.com/blynkkk/docs/tree/a1ea2ed8bc31eba522320f514b900921303d3b07/.gitbook/assets/joystick_merge_mo_de.png)
 
 This output can be written to Virtual Pin as an array of values. On the hardware side - you can get any element of the array \[0,1,2...\] by using:
 
@@ -63,7 +63,7 @@ BLYNK_WRITE(V1) // Widget WRITEs to Virtual Pin V1
 }
 ```
 
-**Sketch:** [JoystickTwoAxis](ht tps://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/JoystickTwoAxis/JoystickTwoAxis.ino#L24)
+**Sketch:** [JoystickTwoAxis](https://github.com/blynkkk/docs/tree/a1ea2ed8bc31eba522320f514b900921303d3b07/blynk.edgent/ht%20tps:/github.com/blynkkk/blynk-library/blob/master/examples/Widgets/JoystickTwoAxis/JoystickTwoAxis.ino#L24)
 
 ## Get data from hardware
 
@@ -150,7 +150,7 @@ BLYNK_WRITE(V0) {
 
 The `Blynk.syncAll()` command restores all the Widget's values based on the last saved values on the server. All analog and digital pin states will be restored. Every Virtual Pin will perform `BLYNK_WRITE` event.
 
-**WARNING**: if pin is empty and wasn't initialized - hardware will not get any response for those pin during sync.
+**NOTE**: if pin value is empty and wasn't initialized, hardware will not get any response for those pin during sync.
 
 [Sync Hardware with App state](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/HardwareSyncStateFromApp/HardwareSyncStateFromApp.ino)
 
@@ -210,9 +210,9 @@ Blynk app has support for online statuses for multiple devices.
 
 In ideal world when device closes tcp connection with some `connection.close()` - connected server will get notification regarding closed connection. So you can get instant status update on UI. However in real world this mostly exceptional situation. In majority of cases there is no easy and instant way to find out that connection is not active anymore.
 
-That's why Blynk uses `HEARTBEAT` mechanism. With this approach hardware periodically sends `ping` command with predefined interval \(10 seconds by default, `BLYNK_HEARTBEAT` [property](https://github.com/blynkkk/blynk-library/blob/master/src/Blynk/BlynkConfig.h)\). In case hardware don't send anything within 10 seconds server waits additional 5 seconds and after that connection assumed to be broken and closed by server. So on UI you'll see connection status update only after 15 seconds when it is actually happened.
+That's why Blynk uses `HEARTBEAT` mechanism. With this approach hardware periodically sends `ping` command with predefined interval \(50 seconds by default, `BLYNK_HEARTBEAT` [property](https://github.com/blynkkk/blynk-library/blob/master/src/Blynk/BlynkConfig.h)\). In case hardware don't send anything within 50 seconds server waits additional 25 seconds and after that connection assumed to be broken and closed by server. So on UI you'll see connection status update with some delay.
 
-You can also change `HEARTBEAT` interval from hardware side via `Blynk.config`. In that case `newHeartbeatInterval * 2.3` formula will be applied. So in case you you decided to set `HEARTBEAT` interval to 5 seconds. You'll get notification regarding connection with 11 sec delay in worst case.
+You can also change `BLYNK_HEARTBEAT` interval from hardware side. In that case `newHeartbeatInterval * 2.3` formula will be applied. Example: you set `HEARTBEAT` interval to 5 seconds. You'll get notification regarding connection with 11 sec delay in worst case.
 
 ## Project Settings
 
