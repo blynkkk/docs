@@ -75,7 +75,7 @@ All the settings with their default values will be taken from [Template](../prod
 
 ### Single actions \(hover to the right of each row\):
 
-![](../../.gitbook/assets/devices-single-action-menu.png)
+<img width="1264" alt="" src="https://user-images.githubusercontent.com/72824404/120639525-1ad2aa00-c47a-11eb-9733-10677e6fd766.png">
 
 * **Rename** – opens Rename Device modal window. Input new name up 60 characters here. Confirm.
 
