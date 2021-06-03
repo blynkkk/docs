@@ -6,7 +6,7 @@
 
 There are two filters in Search Filtering Panel that can be applied to both Table and Map views.
 
-<img width="357" alt="" src="https://user-images.githubusercontent.com/72824404/120638302-a4817800-c478-11eb-8761-8937f15c852a.png">
+<img width="293" alt="" src="https://user-images.githubusercontent.com/72824404/120638302-a4817800-c478-11eb-8761-8937f15c852a.png">
 
 **All** – view all Devices available \(your and your clients organizations and other types sub-organizations\)
 
