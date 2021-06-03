@@ -1,5 +1,19 @@
 # Supported Boards
 
+## **Dynamic provisioning support**
+
+With dynamic provisioning, you can use Blynk.App to configure connection credentials for each device. You can use the same firmware binary for all of the devices of the same type.
+
+* **ESP32** - with OTA support
+* **ESP8266** - with OTA support
+* **Arduino MKR WiFi 1010**
+* **Arduino Nano 33 IoT**
+* **Seeed Wio Terminal**
+
+## Static provisioning support
+
+With static provisioning, authentication tokens are incorporated into the firmware binary. This method is supported by the vast majority of hardware platforms.
+
 **Arduino** \([https://github.com/blynkkk/blynk-library](https://github.com/blynkkk/blynk-library)\)
 
 * Arduino MKR WiFi 1010

@@ -6,17 +6,17 @@ description: 'Navigate through Devices, Locations, Organizations and users in on
 
 This is the main page of Blynk.360.
 
-Here you can perform a quick or extended search for [devices](devices-1/), [locations](locations/), [organizations ](organizations-1/)and [users ](users/)you have access to.  You can apply various filters to narrow your search.
+Here you can perform a quick or extended search for [devices](devices-1/), [locations](locations/), [organizations ](organizations-1/)and [users ](users/)you have access to. You can apply various filters to narrow your search.
 
 This is the first screen you see after signing into Blynk.360 Web Dashboard.
 
-<img width="1264" alt="" src="https://user-images.githubusercontent.com/72824404/120620602-ce7d6f00-c465-11eb-9ae7-437a9cf6f6fa.png">
+![](https://user-images.githubusercontent.com/72824404/120620602-ce7d6f00-c465-11eb-9ae7-437a9cf6f6fa.png)
 
 There are 3 segments \(left to right\):
 
 ## **Menu**
 
-Manu can help you navigate to specific sections and can be accessed from almost any page in the Web Dashboard. [This article]() will give you a full overview of Blynk navigation and explain the key actions you can take.
+Manu can help you navigate to specific sections and can be accessed from almost any page in the Web Dashboard. [This article](search.md) will give you a full overview of Blynk navigation and explain the key actions you can take.
 
 ## **Sidebar**
 

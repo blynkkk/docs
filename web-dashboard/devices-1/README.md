@@ -1,6 +1,6 @@
 # Devices
 
-<img width="1264" alt="" src="https://user-images.githubusercontent.com/72824404/120637733-ecec6600-c477-11eb-9aff-24dbddbcb29a.png">
+![](https://user-images.githubusercontent.com/72824404/120637733-ecec6600-c477-11eb-9aff-24dbddbcb29a.png)
 
 ## Predefined Filters
 
@@ -63,7 +63,7 @@ Devices view order can be sorted by clicking arrow icon in the column header.
 Click **New Device** button to perform this action.  
 New Device modal window will open:
 
-<img width="544" alt="" src="https://user-images.githubusercontent.com/72824404/120639196-c5969880-c479-11eb-849f-6bc5e298e2a6.png">
+![](https://user-images.githubusercontent.com/72824404/120639196-c5969880-c479-11eb-849f-6bc5e298e2a6.png)
 
 1. **Choose template** – click this field and select the Template from the dropdown list
 2. **Device Name** – give it a meaningful name up to 60 characters. Use only letters, digits, and spaces.
@@ -75,7 +75,7 @@ All the settings with their default values will be taken from [Template](../prod
 
 ### Single actions \(hover to the right of each row\):
 
-<img width="1264" alt="" src="https://user-images.githubusercontent.com/72824404/120639525-1ad2aa00-c47a-11eb-9733-10677e6fd766.png">
+![](https://user-images.githubusercontent.com/72824404/120639525-1ad2aa00-c47a-11eb-9733-10677e6fd766.png)
 
 * **Rename** – opens Rename Device modal window. Input new name up 60 characters here. Confirm.
 
@@ -91,18 +91,18 @@ All the settings with their default values will be taken from [Template](../prod
 
 * **Edit Product Dashboard** – redirects to [Template Dashboard](../products/dashboard/) edit section \(Admin role required\)
 * **Notification settings** – opens quick setup drawer for [Notifications Management](../../getting-started/notification-management/) 
-* **Erase data** \(critical action!\) ****– deletes of Device Data that was sent/received by Device and API.
+* **Erase data** \(critical action!\) _\*\*_– deletes of Device Data that was sent/received by Device and API.
 * **Delete Device owner** \(critical action!\) – unassignes Device from previous Device Owner.
 * **Delete Device** \(critical action!\) – deletes Device entry and all it's data.
 
 {% hint style="danger" %}
-All the critical actions lead to the permanent deletion of selected entities.   
+All the critical actions lead to the permanent deletion of selected entities.  
 Don't worry, these actions apply only after confirmations in modal window opened.
 {% endhint %}
 
 ### Bulk actions \(upper action menu icon\):
 
-* **Apply** [**tag**](../settings/organization-settings/tags.md) ****– ****virtual grouping that can ease further searches of these devices.
+* **Apply** [**tag**](../settings/organization-settings/tags.md) **–** virtual grouping that can ease further searches of these devices.
 * **Export devices CSV** – click it to download Devices table content in .csv format. 
 * **Notification settings** - verify saved settings in single actions test..
 * **Delete** \(critical action!\) – deletes all selected Devices entries and all their data.

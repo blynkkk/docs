@@ -156,7 +156,7 @@
 * [Supported Boards](blynk.edgent/supported-boards.md)
 * [Installation](blynk.edgent/installation.md)
 * [Main Operations](blynk.edgent/mainoperations.md)
-* [API](blynk.edgent/api/README.md)
+* [Library API](blynk.edgent/api/README.md)
   * [Configuration](blynk.edgent/api/configuration.md)
   * [Connection Management](blynk.edgent/api/connection-management.md)
   * [Virtual Pins](blynk.edgent/api/virtual-pins.md)
