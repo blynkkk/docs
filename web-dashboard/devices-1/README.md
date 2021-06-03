@@ -79,15 +79,15 @@ All the settings with their default values will be taken from [Template](../prod
 
 * **Rename** – opens Rename Device modal window. Input new name up 60 characters here. Confirm.
 
-![](../../.gitbook/assets/rename_device.png)
+![](https://user-images.githubusercontent.com/72824404/120640485-37231680-c47b-11eb-86d4-9336d8b047e9.png)
 
 * **Download report** – opens Generate Report modal window were you can download and send by Email .csv formated Device report with data settings you need.
 
-![](../../.gitbook/assets/generate_report.png)
+![](https://user-images.githubusercontent.com/72824404/120641024-cf210000-c47b-11eb-941e-dd8ac0254485.png)
 
 * **Transfer** – here you can change Device Owner by providing Email of a new one.
 
-![](../../.gitbook/assets/transfer_device.png)
+![transfer](https://user-images.githubusercontent.com/72824404/120641371-3343c400-c47c-11eb-8a5d-a66ec4290d30.png)
 
 * **Edit Product Dashboard** – redirects to [Template Dashboard](../products/dashboard/) edit section \(Admin role required\)
 * **Notification settings** – opens quick setup drawer for [Notifications Management](../../getting-started/notification-management/) 
