@@ -10,7 +10,7 @@ Here you can perform a quick or extended search for [devices](devices-1/), [loca
 
 This is the first screen you see after signing into Blynk.360 Web Dashboard.
 
-![](../.gitbook/assets/data.png)
+<img width="1264" alt="" src="https://user-images.githubusercontent.com/72824404/120620602-ce7d6f00-c465-11eb-9ae7-437a9cf6f6fa.png">
 
 There are 3 segments \(left to right\):
 
