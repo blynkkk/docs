@@ -115,7 +115,7 @@ Please mind Lazy Loading the Table uses to view Devices list – it's necessary 
 
 Here you can search and view Devices \(depending on selected filter\) by their locations.
 
-<img width="1440" alt="" src="https://user-images.githubusercontent.com/72824404/120644689-4a84b080-c480-11eb-951e-522104c54c54.png">
+<img width="1264" alt="" src="https://user-images.githubusercontent.com/72824404/120645490-28d7f900-c481-11eb-8ea5-189ee5095ec3.png">
 
 Applied filtering option and Devices count are shown at top left.
 
