@@ -11,7 +11,7 @@ You can set notifications about events occured to devices so you get them via SM
 6. In the opened drawer _select the desired events_ to edit \(4\)  
 7. Click **Edit Settings** \(5\)
 
-![](../../.gitbook/assets/image%20%281%29.png)
+![](https://user-images.githubusercontent.com/72824404/120807574-c6e6c480-c550-11eb-8965-6a979c147122.png)
 
 8. In the modal window turn on the desired channels \(Email, Push, or SMS\), _select the recipients_. If the recipient is not on the list you can search by typing the name or the email.
 
@@ -19,9 +19,10 @@ You can set notifications about events occured to devices so you get them via SM
 Note, there's the "All members" entry. It means that all users of the organization where the device belongs will be the recipients
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%285%29.png)
+![](https://user-images.githubusercontent.com/72824404/120807610-cfd79600-c550-11eb-82ea-969884f21cf9.png)
 
 9. Press **Apply** and you'll see the event status and channels updated
 
-![](../../.gitbook/assets/image%20%286%29.png)
+<img width="" alt="" src="https://user-images.githubusercontent.com/72824404/120807644-d8c86780-c550-11eb-927c-d73b24a638a7.png">
+
 
