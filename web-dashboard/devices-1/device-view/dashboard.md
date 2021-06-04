@@ -71,9 +71,7 @@ It always starts with Date and Time in the first line, Location Longtitude and L
 This widget is used with devices with detachable modules.  
 Each module has it's own tools, units, details that are represented by Datastreams sets configured under each module.
 
-<img width="" alt="" src="https://user-images.githubusercontent.com/72824404/120772795-5aa49a80-c529-11eb-8f76-74d6d3340463.png">
-
-![](https://user-images.githubusercontent.com/72824404/120772323-dd792580-c528-11eb-949e-c17b926f40c0.png)
+<img width="537" alt="Modules widget example" src="https://user-images.githubusercontent.com/72824404/120777353-de608600-c52d-11eb-859f-6249f1b22381.png">
 
 _Example:_   
 Your Product is a road cleaning machine and it has summer setup with fan and dry broom modules and winter setup with snow brush and dryer modules. Fan and dryer use socket A for connection, broom and brush use socket B. Each module has Datastream set to represent the connectivity such as V0 for fan and V1 for dryer. So in Display Data for socket A you can switch between Fan and Dryer by enabling and disabling those Datastreams. Once connectivity DS is set to ON all the other Datastreams of Module will be displayed in Socket A tab. 
