@@ -48,7 +48,7 @@ General chart properties:
 
 This widget displays device locations/route and data sets \(predefined by Template owner\) that are assigned to GPS data.
 
-<img width="1064" alt="Map widget example" src="https://user-images.githubusercontent.com/72824404/120770124-7f4b4300-c526-11eb-96ef-f5eedfbe1761.png">
+<img width="1063" alt="Map widget example" src="https://user-images.githubusercontent.com/72824404/120771180-9d657300-c527-11eb-9e4c-b06c794752d1.png">
 
 1. Specify the time period if it's needed \(top center of the widget\):
 
