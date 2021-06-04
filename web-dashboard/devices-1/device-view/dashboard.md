@@ -71,7 +71,7 @@ It always starts with Date and Time in the first line, Location Longtitude and L
 This widget is used with devices with detachable modules.  
 Each module has it's own tools, units, details that are represented by Datastreams sets configured under each module.
 
-![](https://user-images.githubusercontent.com/72824404/120772171-aefb4a80-c528-11eb-9c47-9cb21a07bbac.png)
+<img width="" alt="" src="https://user-images.githubusercontent.com/72824404/120772795-5aa49a80-c529-11eb-8f76-74d6d3340463.png">
 
 ![](https://user-images.githubusercontent.com/72824404/120772323-dd792580-c528-11eb-949e-c17b926f40c0.png)
 
