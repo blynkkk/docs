@@ -20,13 +20,13 @@ For example, a Serial Number Metadata field can be attached to every device, but
 
 2. Set it up and click **Create** button once you've finished with this characteristic 
 
-![](../../../../.gitbook/assets/add_new_metadata.png)
+![](https://user-images.githubusercontent.com/72824404/120796929-15da2d00-c544-11eb-8ed2-52ae0fdd94f7.png)
 
 1. Repeat steps 4 and 5 untill you create Metadata list you need  
 2. Click **Save** Template at the top right  
 3. Choose Apply Changes option \(let's select Save Changes. Don't update active device this time\) and click **Continue**
 
-![](../../../../.gitbook/assets/apply_settings.png)
+![](https://user-images.githubusercontent.com/72824404/120797093-3efabd80-c544-11eb-81bb-24344b16717b.png)
 
 {% hint style="info" %}
 You can edit Product's Metadata settings any time you need it by following the steps above.
@@ -58,7 +58,7 @@ You can edit Product's Metadata settings any time you need it by following the s
 3. Click on it's name or row in the table
 4. Switch to Metadata tab
 
-![](../../../../.gitbook/assets/sn.png)
+![](https://user-images.githubusercontent.com/72824404/120797332-90a34800-c544-11eb-8337-2127e665b330.png)
 
 ## 5. Edit Device Metadata
 
@@ -82,5 +82,5 @@ You can edit Product's Metadata settings any time you need it by following the s
 7. Change the value
 8. Click **Save**
 
-![](../../../../.gitbook/assets/metadata_save.png)
+![](https://user-images.githubusercontent.com/72824404/120797432-b4ff2480-c544-11eb-92b7-681fed6f0262.png)
 
