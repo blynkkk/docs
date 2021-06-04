@@ -67,6 +67,8 @@ When Automations are created you will see the list of them. Here you can disable
 
 ### Limit period
 
+<img width="1029" alt="Limit period (tap on limit period)" src="https://user-images.githubusercontent.com/72790181/120785065-6e55fe00-c535-11eb-8979-f3eb1b50ecf1.png">
+
 All automations with **Device state** condition have a **limit period**.
 Limit period defines a period during which only one condition trigger will be processed.
 
