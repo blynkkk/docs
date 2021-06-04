@@ -70,10 +70,10 @@ When Automations are created you will see the list of them. Here you can disable
 All automations with **Device state** condition have a **limit period**.
 Limit period defines a period during which only one condition trigger will be processed.
 
-For example, let's say we set a condition **when temperature is greater than 20 degrees** and **limit period** is set to 1 hour.
+For example, let's say we set a condition **when temperature is greater than 20 degrees** and **limit period is set to one hour**.
 
 At 9:30 device sends the temperature 21 degrees. Automation will be triggered and automation actions are executed.
 
-At 9:40 device sends the temperature 22 degrees. Automation will not be triggered in that case. Because we have a limit period set to 1 hour.
+At 9:40 device sends the temperature 22 degrees. Automation will not be triggered in that case, because we have a limit period set to one hour.
 
-At 10:31 device sends the temperature 22 degrees. Automation will be triggered and automation actions are executed again, as ignore period (one hour) had already pasesd.
+At 10:31 device sends the temperature 22 degrees. Automation will be triggered and automation actions are executed again, as ignore period (one hour) had already passed since the last execution.
