@@ -6,7 +6,7 @@ You can set notifications about events occured to devices so you get them via SM
 2. Hover over the **Actions menu \[...\]** \(2\)
 3. Click **Notification Settings** \(3\)
 
-![](../../.gitbook/assets/image%20%288%29%20%283%29%20%283%29%20%282%29%20%281%29%20%282%29.png)
+![](https://user-images.githubusercontent.com/72824404/120806266-4ffcfc00-c54f-11eb-9cc0-d0c53cf7efcf.png)
 
 6. In the opened drawer _select the desired events_ to edit \(4\)  
 7. Click **Edit Settings** \(5\)
