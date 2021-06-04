@@ -2,7 +2,7 @@
 
 This table contains every datastream action sent/received through Blynk.Cloud for this device.
 
-<img width="" alt="" src="https://user-images.githubusercontent.com/72824404/120805212-314a3580-c54e-11eb-85dc-d3345eafa951.png">
+![](https://user-images.githubusercontent.com/72824404/120805431-78d0c180-c54e-11eb-930c-41d139c948ef.png)
 
 Select or adjust Time Period using the switches on top of the tab.
 
