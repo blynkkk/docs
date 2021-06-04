@@ -18,7 +18,7 @@ Currently, **only one developer is allowed per Organization** to avoid sync issu
 
 If you don't have any Device Templates, you can create a basic template in the app and then fully set it up in Blynk.360 later
 
-When there is a Device Template already, you can tap on it and start working with mobild dashboard layout.
+When there is a Device Template already, you can tap on it and start working with mobile dashboard layout.
 
 ![Dashboard editor](https://user-images.githubusercontent.com/72790181/119659720-1cc3ba00-be37-11eb-9332-0f4b7359a757.png)
 

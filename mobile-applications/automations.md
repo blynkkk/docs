@@ -17,7 +17,7 @@ Tap **Add automation** to create a new one
 ![Choose condition](https://user-images.githubusercontent.com/72790181/120281228-5b3af800-c2c1-11eb-8e54-267b8aed6e79.png)
 
 If you don't see "Device state" condition that means you haven't enabled any datastream to work with automations.
-You need [to explicitly define](../web-dashboard/products/datastreams/datastreams-common-settings/automation.md) what datastreams will work as codntions.
+You need [to explicitly define](../web-dashboard/products/datastreams/datastreams-common-settings/automation.md) what datastreams will work as conditions.
 
 Blynk currently supports 4 types of automations:
 
