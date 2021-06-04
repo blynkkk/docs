@@ -17,7 +17,7 @@ Tap **Add automation** to create a new one
 ![Choose condition](https://user-images.githubusercontent.com/72790181/120281228-5b3af800-c2c1-11eb-8e54-267b8aed6e79.png)
 
 If you don't see "Device state" condition that means you haven't enabled any datastream to work with automations.
-You need [to explicitly define]((../web-dashboard/products/datastreams/datastreams-common-settings/automation.md)) what datastreams will work as codntions.
+You need [to explicitly define](../web-dashboard/products/datastreams/datastreams-common-settings/automation.md) what datastreams will work as codntions.
 
 Blynk currently supports 4 types of automations:
 
@@ -55,7 +55,7 @@ After pressing Add action button you’ll see a modal with types of actions.
 You can choose actions that will change the device’s state, send a notification to your smartphone or send an email to the specified address.
 
 If you don't see "Set device to" action that means you haven't enabled any datastream to work with automations.
-You need [to explicitly define]((../web-dashboard/products/datastreams/datastreams-common-settings/automation.md)) what datastreams can work as actions.
+You need [to explicitly define](../web-dashboard/products/datastreams/datastreams-common-settings/automation.md) what datastreams can work as actions.
 
 ![Automation ready](https://user-images.githubusercontent.com/72790181/120281482-ad7c1900-c2c1-11eb-95a7-7352d126ba73.png)
 
