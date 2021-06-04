@@ -12,7 +12,7 @@ For example, a Serial Number Metadata field can be attached to every device, but
 2. Click **Edit** at the top right
 3. Switch to Metadata tab
 
-![](../../../../.gitbook/assets/metadata.png)
+![](https://user-images.githubusercontent.com/72824404/120795827-aa439000-c542-11eb-8aec-660d8000baea.png)
 
 1. Click **Add Metadata**.   
 
