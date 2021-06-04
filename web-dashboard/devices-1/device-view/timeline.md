@@ -2,7 +2,7 @@
 
 This tab keeps occured events data that can be sorted by time limitation period and event type.
 
-![](../../../.gitbook/assets/events_timeline.png)
+<img width="1504" alt="" src="https://user-images.githubusercontent.com/72824404/120787540-2389b580-c538-11eb-8880-08d2ac22d1d4.png">
 
 ## Filters
 
