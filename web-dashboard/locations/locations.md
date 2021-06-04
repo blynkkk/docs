@@ -9,9 +9,9 @@
 
 ![](https://user-images.githubusercontent.com/72824404/120810204-7fae0300-c553-11eb-9e33-9b395a18a860.png)
 
-![](https://user-images.githubusercontent.com/72824404/120813177-5478e300-c556-11eb-8e1d-54ad14fd8091.png)
+![](https://user-images.githubusercontent.com/72824404/120814027-22b44c00-c557-11eb-9389-4794026232be.png)
 
-![](https://user-images.githubusercontent.com/72824404/120813230-5e024b00-c556-11eb-96f2-b9c77f1da6d8.png)
+<img width="" alt="" src="https://user-images.githubusercontent.com/72824404/120814061-2942c380-c557-11eb-8b56-1db4bbdf585b.png">
 
 After you've created first Location you'll see Locations table[. ](./#table-contents)You can find more details about it [here](./#table-contents).
 
