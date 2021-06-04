@@ -7,7 +7,7 @@
 3. Type the address in the corresponding field \(you can provide details s.e. ZIP, state, etc. in the modal window appearing after **Manual Input** click\)
 4. Confirm by clicking **Done**
 
-![](../../.gitbook/assets/create_location.png)
+![](https://user-images.githubusercontent.com/72824404/120810204-7fae0300-c553-11eb-9e33-9b395a18a860.png)
 
 ![](../../.gitbook/assets/factory.png)
 
