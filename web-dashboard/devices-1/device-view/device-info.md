@@ -1,6 +1,6 @@
 # Device Info
 
-![](https://user-images.githubusercontent.com/72824404/120794403-dc53f280-c540-11eb-8e51-7b6b1ab5fd1f.png)
+![](https://user-images.githubusercontent.com/72824404/120794875-73b94580-c541-11eb-875a-7ef678b96168.png)
 
 **Status** – shows if the Device is Online or Offline at the moment
 
