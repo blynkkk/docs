@@ -35,7 +35,7 @@ Blynk currently supports 4 types of automations:
 * **Device state** - allows you to trigger based on the device datastream values. For example, if temperature &gt; 40 degrees turn of the boiler
 * **Scene** - allows to manually trigger multiple actions. For example, set the temperature to 30 degrees and turn off the alarm.
 
-  The visibility of this type of the automation is controlled via permissions.
+  The visibility of scene automation is controlled via permission under the **Organizations** section and called **Automation execute**.
 
 {% hint style="info" %}
 Automations can work across multiple devices
