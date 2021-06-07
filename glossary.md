@@ -14,7 +14,7 @@ description: Terminology used in Blynk
 
 ## B
 
-`Blynk.360` - a web application to configure devices, manage users, organizations.... [Link]()
+`Blynk.Console` - a web application to configure devices, manage users, organizations...
 
 `Blynk.App` - a  mobile app available for iOS and Android
 

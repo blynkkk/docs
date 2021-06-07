@@ -1,4 +1,4 @@
-# Common Blynk.360 Navigation and Actions
+# Common Blynk.Console Navigation and Actions
 
 ## Global Navigation Menu. 
 
@@ -6,7 +6,7 @@ The **menu** is located on the left edge of the application and it's accessible 
 
 ![Navigation Menu](../../.gitbook/assets/navigation_menu.gif)
 
-Clicking on a menu item will lead to a specific section of Blynk.360  
+Clicking on a menu item will lead to a specific section of Blynk.Console 
 Menu sections:
 
 * Organization Logo \(can be changed in [Organization Settings](../../web-dashboard/for-developers/settings/organization-settings/general.md)\)
@@ -87,7 +87,7 @@ Modals have the following structure:
 
 ## Tables
 
-Table is the main type of data display in Blynk.360. 
+Table is the main type of data display in Blynk.Console. 
 
 ![](../../.gitbook/assets/products_table.png)
 

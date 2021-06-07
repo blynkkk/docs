@@ -17,7 +17,7 @@ There are 4 types of Widgets:
 
 ### Button
 
-Works in push or switch modes. Allows to send any number value on button click and button release events. E.g.: push is used for doorbell, switch is used for room light. If it's in switch mode then latest state that was set on device or Blynk.360 dashboard will be applied and viewed. 
+Works in push or switch modes. Allows to send any number value on button click and button release events. E.g.: push is used for doorbell, switch is used for room light. If it's in switch mode then latest state that was set on device or Blynk.Console dashboard will be applied and viewed. 
 
 Tap the button to apply the action.
 

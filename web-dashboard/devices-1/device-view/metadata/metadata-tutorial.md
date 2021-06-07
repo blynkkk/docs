@@ -51,7 +51,7 @@ You can edit Product's Metadata settings any time you need it by following the s
 
 ![Device profile](https://user-images.githubusercontent.com/72790181/119658437-d1f57280-be35-11eb-881f-8346abdd42ec.png)
 
-### Blynk.360
+### Blynk.Console
 
 1. Navigate to [Search section](../../../search.md)
 2. Find your Device
@@ -71,7 +71,7 @@ You can edit Product's Metadata settings any time you need it by following the s
 5. Change the value
 6. Return to the previous screen
 
-### Blynk.360
+### Blynk.Console
 
 1. Navigate to [Search section](../../../search.md)
 2. Find your Device

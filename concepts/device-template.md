@@ -20,7 +20,7 @@ Template also includes two dashboards:
 
 ![Template](https://user-images.githubusercontent.com/72824404/119498209-0a317e00-bd6e-11eb-84d1-ae6565dfb7d3.png)
 
-**Web Dashboard:** a set of UI elements \(widgets\) to visualize the data from the device accessible for the users in Blynk.360 – a web-based application.
+**Web Dashboard:** a set of UI elements \(widgets\) to visualize the data from the device accessible for the users in Blynk.Console – a web-based application.
 
 **Mobile Dashboard:** a set of UI elements \(widgets\) to visualize the data in Blynk mobile apps for iOS and Android. Mobile apps also contain a template of how device is represented in the list of devices \(tiles\)
 

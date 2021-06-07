@@ -15,7 +15,7 @@ Virtual pins are really just a way of sending a message from the app to the code
 There is absolutely no correlation between virtual pins and any of the physical pins on your board. If you want a virtual pin to change the state of one of your physical pins then you have to write the code to make this happen. _But don’t panic, it’s not difficult that difficult! - just keep reading…_
 
 **Basic principles of using virtual pins**  
-We’ll use an example of a Power Switch, set to Integer data type, connected to Virtual Pin 0 \(V0\). In Blynk.360 we’ll leave the values set to 0 and 1, so the widget sends a 0 when it’s turned off, and a 1 when it’s turned on - like this:
+We’ll use an example of a Power Switch, set to Integer data type, connected to Virtual Pin 0 \(V0\). In Blynk.Console we’ll leave the values set to 0 and 1, so the widget sends a 0 when it’s turned off, and a 1 when it’s turned on - like this:
 
 ![](https://user-images.githubusercontent.com/72824404/119658316-ad00ff80-be35-11eb-8875-bc1f1719aee4.png)
 

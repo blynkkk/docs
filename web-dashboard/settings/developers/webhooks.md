@@ -26,7 +26,7 @@
 ![](../../../.gitbook/assets/new-webhook.gif)
 
 * **Webhook Name** – Use only letters, digits, -, ' and spaces up to 80 characters. 
-* **Webhook Trigger Event** – Blynk.360 event that will trigger webhook execution. Click the field to open events list and select one of the following:
+* **Webhook Trigger Event** – Blynk.Console event that will trigger webhook execution. Click the field to open events list and select one of the following:
   * New User Added
   * User Deleted
   * User Metadata Updated
@@ -84,7 +84,7 @@ Once the Webhook is created you can view it's info by clicking it's row or name 
 
 * **URL** – webhook request destination 
 * **Trigger events** – displays the action that causes the webhook to run
-* **Webhook ID** – used in Blynk.360 only 
+* **Webhook ID** – used in Blynk.Console only 
 * **Creation date** – hh:mm M D, Y format
 * **Version**
 

@@ -39,7 +39,7 @@
   * [Events Tutorial](getting-started/notification-management/events-tutorial.md)
 * [Updating Firmware Over-The-Air](getting-started/updating-devices-firmwares-ota.md)
 
-## Blynk.360 <a id="web-dashboard"></a>
+## Blynk.Console <a id="web-dashboard"></a>
 
 * [Overview](web-dashboard/getting-started.md)
 * [Search Data](web-dashboard/search.md)

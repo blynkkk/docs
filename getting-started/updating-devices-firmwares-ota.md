@@ -11,7 +11,7 @@ To send the firmware over the air, you need to compile it into a binary file tha
 
 ![image](https://user-images.githubusercontent.com/65705128/115250112-f0c76180-a131-11eb-96b3-8f3156c7a136.png)
 
-4. Make sure you have **Template ID** specified in the sketch. You can find it in Template -&gt; Info in Blynk.360
+4. Make sure you have **Template ID** specified in the sketch. You can find it in Template -&gt; Info in Blynk.Console
 
 ![image](https://user-images.githubusercontent.com/65705128/115251088-dcd02f80-a132-11eb-9ae6-c657c429b4a1.png)
 

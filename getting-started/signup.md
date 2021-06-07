@@ -20,11 +20,11 @@ User account is needed to enable secure access to your data from different clien
 
 Your privacy is our default priority.
 
-You can create a new account either in [Blynk.App](https://docs.blynk.io/en/platform-overview/products-and-services/products#blynk-app) or [Blynk.360](https://docs.blynk.io/en/platform-overview/products-and-services/products#blynk-360)
+You can create a new account either in [Blynk.App](https://docs.blynk.io/en/platform-overview/products-and-services/products#blynk-app) or [Blynk.Console](https://docs.blynk.io/en/platform-overview/products-and-services/products#blynk-360)
 
 ## **Sign Up**
 
-1. Open the [Blynk app for iOS or Android](../downloads/blynk-apps-for-ios-and-android.md) or go to [Blynk.360](https://blynk.cloud).
+1. Open the [Blynk app for iOS or Android](../downloads/blynk-apps-for-ios-and-android.md) or go to [Blynk.Console](https://blynk.cloud).
 2. You'll get to the first screen after application launch \(in case you're not logged in\):
 
 ![](https://user-images.githubusercontent.com/72790181/119364178-4fdf3f80-bcb7-11eb-9cd4-37461c57185c.png)
@@ -62,7 +62,7 @@ Once you've finished with Profile setup your Sign Up is complete and you can add
 
 ## Sign In
 
-1. Open the [Blynk app for iOS or Android](../downloads/blynk-apps-for-ios-and-android.md) or [Blynk.360](https://blynk.cloud)
+1. Open the [Blynk app for iOS or Android](../downloads/blynk-apps-for-ios-and-android.md) or [Blynk.Console](https://blynk.cloud)
 2. Tap **Log In** button
 
 ![](https://user-images.githubusercontent.com/72790181/119365340-8073a900-bcb8-11eb-9bd5-5f3cc78948f4.png)

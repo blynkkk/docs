@@ -1,16 +1,16 @@
 # Products
 
-## Blynk.360
+## Blynk.Console
 
-![Blynk.360](https://user-images.githubusercontent.com/72824404/119524638-8041df00-bd86-11eb-831a-0d38fc6c07d3.png)
+![Blynk.Console](https://user-images.githubusercontent.com/72824404/119524638-8041df00-bd86-11eb-831a-0d38fc6c07d3.png)
 
-**Blynk.360** is a feature-rich web application that can be used by different [types of users](../concepts/users.md). Major functionality of this product is:
+**Blynk.Console** is a feature-rich web application that can be used by different [types of users](../concepts/users.md). Major functionality of this product is:
 
 1. Configuration of how connected devices work on the plartform + application settings.
 2. Management of devices, their data, users, organizations and locations 
 3. Remote monitoring and control of devices
 
-[Register in Blynk.360](https://blynk.cloud)
+[Register in Blynk.Console](https://blynk.cloud)
 
 ## Blynk.App
 
@@ -52,5 +52,5 @@ Full documentation on Blynk.Edgent is [here](../blynk.edgent/overview.md)
 
 Blynk also offers private servers. See the offerings and prices [here](https://blynk.io/pricing).
 
-[Register in Blynk.360](https://blynk.cloud)
+[Register in Blynk.Console](https://blynk.cloud)
 

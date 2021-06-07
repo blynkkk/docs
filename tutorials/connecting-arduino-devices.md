@@ -27,7 +27,7 @@ _**Note:**_ the section marked with the red rectangle, these variables are empty
 
 ![](https://lh6.googleusercontent.com/0Zx4V87T_YZ8upPUktQLuN8gIV3Tnkaf9N_NYOwtkmG1dMxWsSC_iyXuu4w-MvGsgVU_Tm8b1yzS67BXqw2xc3kw6RC6pyfCdw5XYvC7yBU0JML5v-H6rVvE3XG5EqSik1i1_MML)
 
-8. Log in to [Blynk.360](https://blynk.cloud/)  
+8. Log in to [Blynk.Console](https://blynk.cloud/)  
 9. [Create New Template](building-a-commercial-product-a-z.md#create-a-template) or open existing one.  
 10. Copy the configuration strings  
 ![](https://lh6.googleusercontent.com/x2ZHNOv1TA7jPkQtujqBWmn3_mtQr5yxkgZ-0JZF7T7pIndKZHTu0glkkblS3sEd4XV1KAo0ZaljY3dm73AA8aKghwdALd7rKiELWm3v0xjoCJ1Li6wjzsoOP_oCjMBysQ31QBNp)  
@@ -67,10 +67,10 @@ Static provisioning is useful, if you're adding a device that doesn't support Bl
 
 Install the [latest Blynk library](https://github.com/blynkkk/blynk-library/releases/tag/v1.0.0-beta.1) and use the ESP32 WiFi example.
 
-**In** [**Blynk.360**](https://blynk.cloud/)**, add a new template.**  
+**In** [**Blynk.Console**](https://blynk.cloud/)**, add a new template.**  
 The Template screen will give you two lines of firmware configuration. You'll have to add them at the very beginning of your sketch.
 
-**In** [**Blynk.360**](https://blynk.cloud/)**, create a new device based on your new template.**  
+**In** [**Blynk.Console**](https://blynk.cloud/)**, create a new device based on your new template.**  
 In the [Device &gt; Device Info ](../web-dashboard/for-developers/search/devices-1/device-view/device-info.md)screen you'll find the **Auth Token** \(left hand column, half way down\):  
 [![image](https://user-images.githubusercontent.com/35718564/112981316-e62d3400-9152-11eb-86b2-8a85806dd860.png)](https://user-images.githubusercontent.com/35718564/112981316-e62d3400-9152-11eb-86b2-8a85806dd860.png)
 

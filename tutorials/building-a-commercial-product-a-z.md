@@ -1,14 +1,14 @@
 # Getting Started: Product Template and Devices
 
 [Product ](../glossary.md#p)is a complex solution consisting of various functions that need to be configured.  
-[Blynk.360](../web-dashboard/for-developers/) allows you to create a digital model of your product for web and mobile platforms.
+[Blynk.Console](../web-dashboard/for-developers/) allows you to create a digital model of your product for web and mobile platforms.
 
 Please follow these steps to create your product [Template](https://docs.blynk.io/en/web-dashboard/for-developers/products) and configure it's basic functions:
 
 ## [Sign Up](getting-started/sign-up.md)
 
 This is required to make you the product Template owner.  
-Please mind that Templates are created in Blynk.360 generally and then are connected in Blynk.App
+Please mind that Templates are created in Blynk.Console generally and then are connected in Blynk.Apps
 
 ![](https://lh4.googleusercontent.com/6COCsKaE914ceV6v3Q3L3UI2rjcFHuVhUpzedKNyJKXOVedGb0z3kOAxuWOMg3NMeZkCt3f7UqQLwVpw_GZLoV9yRFYNyQVbpxKErTp-GWnOMxB-rYHrn59dC3VRxnqC3Gs5RIhH)
 

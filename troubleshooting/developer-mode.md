@@ -50,7 +50,7 @@
 
 **What’s the solution:**
 
-* view full metadata list in Blynk.360
+* view full metadata list in Blynk.Console
 * wait for Blynk.App list of widgets that support enumerable datastreams to expand 
 * keep Blynk.App up to date
 
@@ -70,9 +70,9 @@
 
 **What could be the reason:**
 
-* there's no option to convert templates between Blynk.App and Blynk.360 now.
+* there's no option to convert templates between Blynk.Apps and Blynk.Console now.
 
 **What’s the solution:**
 
-* set up dashboards in both Blynk.App and Blynk.360
+* set up dashboards in both Blynk.Apps and Blynk.Console
 

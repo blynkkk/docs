@@ -6,7 +6,7 @@ Mobile Dashboard is built from Widgets - modular UI elements which can be positi
 
 ## **How to enable Developer Mode**
 
-1. In the Blynk.app or in Blynk.360
+1. In the Blynk.app or in Blynk.Console
 2. Navigate to **My Profile** / **User profile** in the left menu
 3. Check that **Developer Mode** switch is set to ON
 
@@ -16,7 +16,7 @@ Currently, **only one developer is allowed per Organization** to avoid sync issu
 
 ## Mobile Dashboard Editor
 
-If you don't have any Device Templates, you can create a basic template in the app and then fully set it up in Blynk.360 later
+If you don't have any Device Templates, you can create a basic template in the app and then fully set it up in Blynk.Console later
 
 When there is a Device Template already, you can tap on it and start working with mobile dashboard layout.
 

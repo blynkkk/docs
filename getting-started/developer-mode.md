@@ -6,7 +6,7 @@ By default, first user in the Organization becomes a Developer.
 
 Developer can:
 
-* Create and configure Device Templates in Blynk.360
+* Create and configure Device Templates in Blynk.Console
 * Create and configure web dashboard UI
 * Create and configure mobile dashboard UI
 * Add new devices to the account
@@ -15,7 +15,7 @@ Developer can:
 
 ## **How To Enable Developer Mode**
 
-1. In the Blynk app or in [Blynk.360](https://blynk.cloud)
+1. In the Blynk app or in [Blynk.Console](https://blynk.cloud)
 2. Navigate to **My Profile** / **User profile** in the left menu
 3. Check that **Developer Mode** switch is set to ON
 

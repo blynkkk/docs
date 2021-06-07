@@ -1,6 +1,6 @@
 # Sync with latest server value every time device connects to the cloud
 
-Enable this option to set higher priority to the values changes made in Blynk.App or Blynk.360 instead of those sent from a Device. Useful for controlling Devices.
+Enable this option to set higher priority to the values changes made in Blynk.Apps or Blynk.Console instead of those sent from a Device. Useful for controlling Devices.
 
 For example, a user owns a wi-fi connected dimmer light
 

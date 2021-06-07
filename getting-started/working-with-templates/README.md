@@ -23,7 +23,7 @@ Full documentation on all of the Template settings can be found [here](../../web
 
 Before moving further, make sure that you have **Developer Mode** enabled:
 
-1. In the Blynk app or in Blynk.360
+1. In the Blynk app or in Blynk.Console
 2. Navigate to **My Profile** / **User profile** in the left menu
 3. Check that **Developer Mode** switch is set to ON
 

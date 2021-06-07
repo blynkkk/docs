@@ -10,7 +10,7 @@ Events content can be created by the user with the permissions of the Super admi
 
 ## Create Content Event
 
-1. Open Blynk.360
+1. Open Blynk.Console
 2. navigate to **Templates** 
 3. select Template
 4. click **Edit** button

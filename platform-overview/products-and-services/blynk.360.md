@@ -2,15 +2,15 @@
 description: A complete IoT management solution
 ---
 
-# !Blynk.360
+# !Blynk.Console
 
 
 
-![Screenshot of Blynk.360](../../.gitbook/assets/image-placeholder.png)
+![Screenshot of Blynk.Console](../../.gitbook/assets/image-placeholder.png)
 
 
 
-**Blynk.360** is a multi-functional web application that can be used by various users. where on one side developers configure how applications works, and on another side
+**Blynk.Console** is a multi-functional web application that can be used by various users. where on one side developers configure how applications works, and on another side
 
 1. It's a configuration console for those who develop 
 
@@ -21,7 +21,7 @@ description: A complete IoT management solution
 3. 
 \*\*\*\*
 
-**Blynk.360** is a web application that servers three major use-cases:
+**Blynk.Console** is a web application that servers three major use-cases:
 
 1. Configuration
 2. Administration

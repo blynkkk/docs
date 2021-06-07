@@ -52,7 +52,7 @@
 
 **What’s the solution:**
 
-* view full metadata list in Blynk.360
+* view full metadata list in Blynk.Console
 * wait for Blynk.App full metadata support and update Blynk.App regularly
 
 ## Device is offline

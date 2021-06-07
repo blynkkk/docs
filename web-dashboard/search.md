@@ -4,11 +4,11 @@ description: 'Navigate through Devices, Locations, Organizations and users in on
 
 # Search Data
 
-This is the main page of Blynk.360.
+This is the main page of Blynk.Console.
 
 Here you can perform a quick or extended search for [devices](devices-1/), [locations](locations/), [organizations ](organizations-1/)and [users ](users/)you have access to. You can apply various filters to narrow your search.
 
-This is the first screen you see after signing into Blynk.360 Web Dashboard.
+This is the first screen you see after signing into Blynk.Console Web Dashboard.
 
 ![](https://user-images.githubusercontent.com/72824404/120620602-ce7d6f00-c465-11eb-9ae7-437a9cf6f6fa.png)
 

@@ -17,7 +17,7 @@ If a person you've sent an invitation Email to can't find it, ask to check for i
 
 There are several places where you can invite new users:
 
-## Blynk.360
+## Blynk.Console
 
 * Search - Users - **Invite New User**
 

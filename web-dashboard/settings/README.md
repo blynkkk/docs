@@ -1,5 +1,5 @@
 ---
-description: Set up and edit Blynk.360 properties
+description: Set up and edit Blynk.Console properties
 ---
 
 # Settings
