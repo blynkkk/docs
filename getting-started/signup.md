@@ -31,7 +31,7 @@ You can create a new account either in [Blynk.App](https://docs.blynk.io/en/plat
 
 1. Tap **Sign Up** button if you don’t have an account. Sign Up screen will open:
 
-!![Sign up](https://user-images.githubusercontent.com/72790181/119994051-e7ed6980-bfd4-11eb-8518-78b33ead5d9e.png)
+![Sign up](https://user-images.githubusercontent.com/72790181/119994051-e7ed6980-bfd4-11eb-8518-78b33ead5d9e.png)
 
 1. Enter your E-mail, read and agree to the Terms and Conditions.  
 2. Tap **Continue** and check your inbox for an Email with instructions.
