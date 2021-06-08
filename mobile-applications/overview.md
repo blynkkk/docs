@@ -69,7 +69,7 @@ When a user taps on the device tile, the device dashboard will be opened. It con
 At the top right corner of the dashboard, there's an ... icon that opens another view with the  
 Device Information and Timeline.
 
-On the **Device Info** tab, you can edit a device name, change other [metadata](../web-dashboard/devices-1/device-view/metadata/) values, view other things like firmware version, etc.
+On the **Device Info** tab, you can edit a device name, change other [metadata](../web-dashboard/devices/device-profile/metadata.md) values, view other things like firmware version, etc.
 
 ![Device profile](https://user-images.githubusercontent.com/72790181/119659123-898a8480-be36-11eb-9088-46e48b4c0015.png)
 

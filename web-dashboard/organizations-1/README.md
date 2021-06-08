@@ -96,7 +96,7 @@ On the tabs of the organization, you can see information about the organization,
 ### Tabs
 
 * \*\*\*\*[**Information**](./#page-of-organization)\*\*\*\*
-* \*\*\*\*[**Devices**](../devices-1/#table-view)\*\*\*\*
+* \*\*\*\*[**Devices**](../devices/#table-view)\*\*\*\*
 * \*\*\*\*[**Users**](../settings/organization-settings/users.md)\*\*\*\*
 * \*\*\*\*[**Locations**](../settings/organization-settings/locations.md)\*\*\*\*
 

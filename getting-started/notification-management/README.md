@@ -10,8 +10,8 @@ Note: notifications work on top of [Events](../../web-dashboard/products/events/
 
 ## Setting notifications for a selection of devices
 
-1. Open [**Search**](../../web-dashboard/search.md)\*\*\*\*
-2. Go to [**Devices**](../../web-dashboard/devices-1/) filters
+1. Open [**Search**](../../web-dashboard/search-data.md)\*\*\*\*
+2. Go to [**Devices**](../../web-dashboard/devices/) filters
 3. Select multiple devices \(1\)
 4. Hover over the **Actions menu \[...\]** \(2\)
 5. Click **Notification Settings** \(3\)
