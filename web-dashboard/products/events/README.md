@@ -15,11 +15,11 @@ Let’s look at a typical use case: read temperature from DHT sensor and send pu
     return;
   }
   if (t > 40) {
-    Blynk.notify(String("Temperature is too high: ") + t);
+    Blynk.logEvent("temp_warning", String("Temperature is too high: ") + t);
   }
 ```
 
-Once server has received this string, Event will occure and it can be viewed in Device's Timeline.
+Once server has received this string it can be viewed in Device Timeline.
 
 ## Events: Online, Offline
 
