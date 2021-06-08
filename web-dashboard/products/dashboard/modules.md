@@ -1,7 +1,3 @@
----
-description: Currently in development. Will be availbale soon.
----
-
 # Modules
 
 This widget is extremely useful in cases your Product devices use detachable modules that can be attached accordingly to use conditions.  
