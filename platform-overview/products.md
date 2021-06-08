@@ -2,8 +2,6 @@
 
 ## Blynk.Console
 
-## Blynk.Console
-
 ![](https://user-images.githubusercontent.com/72824404/119524638-8041df00-bd86-11eb-831a-0d38fc6c07d3.png)
 
 ![Blynk.Console](https://user-images.githubusercontent.com/72824404/119524638-8041df00-bd86-11eb-831a-0d38fc6c07d3.png)
