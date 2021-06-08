@@ -1,6 +1,6 @@
 # Switch
 
-Switch label allows to send commands and view binary statuses of the device, such as power ON/OFF
+Switch widget allows to send commands and view binary statuses of the device, such as power ON/OFF
 
 * Name the Switch widget by editing **Switch** inside top field; 
 * **Target** – access available Datastreams dropdown list by click on _**Choose Source**_; 
