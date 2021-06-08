@@ -3,8 +3,6 @@
 Slider widget allows to send values to Virtual Pin of the selected Device.   
 Usage examples: volume, brightness, RPM, flap position control, etc.
 
-## Slider
-
 * Name the Slider widget by editing **Slider** inside top field; 
 * **Choose Source** – select Datastream;
   * **Min** and **Max** – will be automatically taken from selected Datastream default value; 
