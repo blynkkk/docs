@@ -9,7 +9,7 @@ When changes are made to Components, UI, general interaction flows, etc. They sh
 Plus we have continuos existing documentation transfer case. To proceed with it:
 
 * find a file you know/created
-* check it's contents to be up-to-date with Blynk 2.0
+* check it's contents to be up-to-date with actual Blynk
 * put it to the corresponding directory or article of the new documentation
 * create pull request \(let's keep main branch safe\)
 
