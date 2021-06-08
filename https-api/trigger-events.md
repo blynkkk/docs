@@ -9,7 +9,7 @@
 
 ![](../.gitbook/assets/copy_event_code.png)
 
-{% api-method method="get" host="https://{server\_address}" path="/external/api/logEvent?token={token}&code={event\_name}&description={event\_description}" %}
+{% api-method method="get" host="https://{server\_address}" path="/external/api/logEvent?token={token}&code={event\_code}&description={event\_description}" %}
 {% api-method-summary %}
 Trigger the event by event code
 {% endapi-method-summary %}
