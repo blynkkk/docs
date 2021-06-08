@@ -14,5 +14,3 @@ description: Set up and edit Blynk.Console properties
 
 {% page-ref page="integrations.md" %}
 
-
-

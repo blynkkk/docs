@@ -17,15 +17,15 @@ There are 4 types of Widgets:
 
 ### Button
 
-Works in push or switch modes. Allows to send any number value on button click and button release events. E.g.: push is used for doorbell, switch is used for room light. If it's in switch mode then latest state that was set on device or Blynk.Console dashboard will be applied and viewed. 
+Works in push or switch modes. Allows to send any number value on button click and button release events. E.g.: push is used for doorbell, switch is used for room light. If it's in switch mode then latest state that was set on device or Blynk.Console dashboard will be applied and viewed.
 
 Tap the button to apply the action.
 
 ### Styled Button
 
-Same as Button but has additional style settings, such as: separate button and background colors for ON and OFF labeles, button styles and edges shape. 
+Same as Button but has additional style settings, such as: separate button and background colors for ON and OFF labeles, button styles and edges shape.
 
-Tap the button to apply the action. 
+Tap the button to apply the action.
 
 ### Icon Button
 
@@ -96,13 +96,13 @@ Tap + or - button to change the value.
 
 ### Switch
 
-Simple switch that handles binary states. 
+Simple switch that handles binary states.
 
 Tap the handle to change the state.
 
 ### Level Slider
 
-This widget combines functions of Level display and Slider simultaneously. 
+This widget combines functions of Level display and Slider simultaneously.
 
 Tap or swipe level area to set new value.
 
@@ -175,7 +175,7 @@ terminal.clear();
 
 ### Video Streaming
 
-Simple widget that allows you to view any live or video stream. Widget supports RTSP \(RP, SDP\), HTTP/S progressive streaming, HTTP/S live streaming. 
+Simple widget that allows you to view any live or video stream. Widget supports RTSP \(RP, SDP\), HTTP/S progressive streaming, HTTP/S live streaming.
 
 You can stop/start video stream with click on widget.
 

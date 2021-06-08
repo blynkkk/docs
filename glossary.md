@@ -16,15 +16,15 @@ description: Terminology used in Blynk
 
 `Blynk.Console` - a web application to configure devices, manage users, organizations...
 
-`Blynk.App` - a  mobile app available for iOS and Android
+`Blynk.App` - a mobile app available for iOS and Android
 
-`Blynk.Air` - a Blynk Service that manages firmware-over-the-air updates. 
+`Blynk.Air` - a Blynk Service that manages firmware-over-the-air updates.
 
 `Blynk.Edgent` - a Blynk hardware agent library that manages device connection and communication with the cloud
 
-`Blynk.Inject` - Blynk Service that gets hardware connected to the Internet. In short - a wifi connection manager.  
+`Blynk.Inject` - Blynk Service that gets hardware connected to the Internet. In short - a wifi connection manager.
 
-`Blynk.R` - Blynk Service  for `User` registration and management
+`Blynk.R` - Blynk Service for `User` registration and management
 
 `Board` - microcontroller hardware that is used as a core of `Device`. List of supported hardware.
 
@@ -36,7 +36,7 @@ description: Terminology used in Blynk
 
 `Category` - `Devices` group by their type that allows controlling all of them with voice assistants \(Alexa, Google Assistant\).
 
-`Claiming` - a process of associating the device with the User \(device owner\). Usually used with devices that connect to the Internet using cellular or wired connection. WiFI `Provisioning` 
+`Claiming` - a process of associating the device with the User \(device owner\). Usually used with devices that connect to the Internet using cellular or wired connection. WiFI `Provisioning`
 
 ## D
 
@@ -44,7 +44,7 @@ description: Terminology used in Blynk
 
 `Device` - physical or virtual appliance, `Users` can get telemetry from, configure, interact with, etc. Each device needs to be registered in the system.
 
-`Device Owner`-  a user considered to be a primary owner of the physical device. 
+`Device Owner`- a user considered to be a primary owner of the physical device.
 
 `Datastream` - is a set of digital signals used for different kinds of content transmission.
 
@@ -56,7 +56,7 @@ description: Terminology used in Blynk
 
 ## F
 
-`Firmware` -  a low-level software application that controls electronics and peripherials
+`Firmware` - a low-level software application that controls electronics and peripherials
 
 ## H
 
@@ -68,7 +68,7 @@ description: Terminology used in Blynk
 
 ## M
 
-`Metadata` -  a `{key: value}` data associated with every device of a certain  `Template`
+`Metadata` - a `{key: value}` data associated with every device of a certain `Template`
 
 ## N
 
@@ -78,19 +78,19 @@ description: Terminology used in Blynk
 
 `Organization` - a collection of users, devices, and locations
 
-`OTA` \(also `FOTA`\) – **O**ver-**T**he-**A**ir `Firmware` updates without accessing the `Device` physically.
+`OTA` \(also `FOTA`\) – **O**ver-**T**he-**A**ir `Firmware` updates without accessing the `Device` physically.
 
 ## P
 
-`Pin` - GPIO \(general-purpose input/output\) pin on your `Board` used to interface with external hardware components  \(sensors, servo motors, LCDs, etc\) of your `Device`.
+`Pin` - GPIO \(general-purpose input/output\) pin on your `Board` used to interface with external hardware components \(sensors, servo motors, LCDs, etc\) of your `Device`.
 
 `Product` - a `Template` published to `Blynk.Marketplace` and available for public use
 
-`Provisioning (also WiFI provisioning)` - a process where the Blynk app sends parameters required to establish a WiFi connection to the `device`. 
+`Provisioning (also WiFI provisioning)` - a process where the Blynk app sends parameters required to establish a WiFi connection to the `device`.
 
-`Profiling` - a process of filling-out  of Device `Matadata` after `Claiming` or `Provisioning` a device
+`Profiling` - a process of filling-out of Device `Matadata` after `Claiming` or `Provisioning` a device
 
-`Push Notification` - a type of notification sent directly to the app on the smartphone  
+`Push Notification` - a type of notification sent directly to the app on the smartphone
 
 ## S
 
@@ -116,7 +116,7 @@ description: Terminology used in Blynk
 
 ## V
 
-`Virtual Pin` - a "channel" used to send processed data from/to cloud . Virtual pins have no physical representation on the hardware. 
+`Virtual Pin` - a "channel" used to send processed data from/to cloud . Virtual pins have no physical representation on the hardware.
 
 ## W
 

@@ -1,6 +1,6 @@
 # Assigning Devices to the Locations
 
-## Create a new Location 
+## Create a new Location
 
 1. Navigate to Settings - Organization Settings - Locations 
 2. Name it \(Let's use `Factory` in this example\)
@@ -11,7 +11,7 @@
 
 ![](https://user-images.githubusercontent.com/72824404/120814027-22b44c00-c557-11eb-9389-4794026232be.png)
 
-<img width="" alt="" src="https://user-images.githubusercontent.com/72824404/120814061-2942c380-c557-11eb-8b56-1db4bbdf585b.png">
+![](https://user-images.githubusercontent.com/72824404/120814061-2942c380-c557-11eb-8b56-1db4bbdf585b.png)
 
 After you've created first Location you'll see Locations table[. ](./#table-contents)You can find more details about it [here](./#table-contents).
 
@@ -48,9 +48,8 @@ Repeat steps to create another location \(let's call it `Office` \)
 
 ![](https://user-images.githubusercontent.com/72824404/120813432-8c802600-c556-11eb-86af-28d31502f20d.png)
 
-9. Create or chose another one Device  
-10. Repeat the steps below to assign location Office to your second Device  
-
+1. Create or chose another one Device  
+2. Repeat the steps below to assign location Office to your second Device  
 
 ## Check the locations assignment
 
@@ -102,6 +101,4 @@ Repeat steps to create another location \(let's call it `Office` \)
 8. Select appliance option and confirm by click on **Save** button
 
 ![](https://user-images.githubusercontent.com/72824404/120813679-c94c1d00-c556-11eb-8e18-c880bcc17e6d.png)
-
-
 

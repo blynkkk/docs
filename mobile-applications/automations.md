@@ -3,9 +3,11 @@ description: Automations let you set an automated control of your devices
 ---
 
 # Automations
+
 {% hint style="info" %}
 Automations are replacement for old Blynk TimeInput, Timer, Bridge and Eventor widgets
 {% endhint %}
+
 {% hint style="warning" %}
 Automations should be [enabled in Template settings](../web-dashboard/products/datastreams/datastreams-common-settings/automation.md) first. Otherwise Automation tab will be unavailable in Blynk.App
 {% endhint %}
@@ -16,8 +18,7 @@ Tap **Add automation** to create a new one
 
 ![Choose condition](https://user-images.githubusercontent.com/72790181/120281228-5b3af800-c2c1-11eb-8e54-267b8aed6e79.png)
 
-If you don't see **Device state** condition that means you haven't enabled any datastream to work with automations.
-You need [to explicitly define](../web-dashboard/products/datastreams/datastreams-common-settings/automation.md) what datastreams will work as conditions.
+If you don't see **Device state** condition that means you haven't enabled any datastream to work with automations. You need [to explicitly define](../web-dashboard/products/datastreams/datastreams-common-settings/automation.md) what datastreams will work as conditions.
 
 Blynk currently supports 4 types of automations:
 
@@ -41,9 +42,9 @@ Blynk currently supports 4 types of automations:
 Automations can work across multiple devices
 {% endhint %}
 
-- Create an Automation name
-- Choose cover picture
-- Set a condition that will trigger an automation
+* Create an Automation name
+* Choose cover picture
+* Set a condition that will trigger an automation
 
 ![No actions](https://user-images.githubusercontent.com/72790181/120281259-64c46000-c2c1-11eb-9b25-84c4e9e294b7.png)
 
@@ -51,11 +52,9 @@ After setting the condition you can **Add action** that will be performed when t
 
 ![Choose action type](https://user-images.githubusercontent.com/72790181/120281347-81f92e80-c2c1-11eb-989d-fb5832653d9f.png)
 
-After pressing **Add action** button you’ll see a modal with types of actions.
-You can choose actions that will change the device’s state, send a notification to your smartphone or send an email to the specified address.
+After pressing **Add action** button you’ll see a modal with types of actions. You can choose actions that will change the device’s state, send a notification to your smartphone or send an email to the specified address.
 
-If you don't see **Set device to** action that means you haven't enabled any datastream to work with automations.
-You need [to explicitly define](../web-dashboard/products/datastreams/datastreams-common-settings/automation.md) what datastreams can work as actions.
+If you don't see **Set device to** action that means you haven't enabled any datastream to work with automations. You need [to explicitly define](../web-dashboard/products/datastreams/datastreams-common-settings/automation.md) what datastreams can work as actions.
 
 ![Automation ready](https://user-images.githubusercontent.com/72790181/120281482-ad7c1900-c2c1-11eb-95a7-7352d126ba73.png)
 
@@ -65,12 +64,11 @@ After adding the first action you can continue adding more of them or save this 
 
 When Automations are created you will see the list of them. Here you can disable/enable automations and open their settings for view and edit.
 
-### Limit period
+## Limit period
 
-<img width="1029" alt="Limit period (tap on limit period)" src="https://user-images.githubusercontent.com/72790181/120785065-6e55fe00-c535-11eb-8979-f3eb1b50ecf1.png">
+![Limit period \(tap on limit period\)](https://user-images.githubusercontent.com/72790181/120785065-6e55fe00-c535-11eb-8979-f3eb1b50ecf1.png)
 
-All automations with **Device state** condition have a **limit period**.
-Limit period defines a period during which only one condition trigger will be processed.
+All automations with **Device state** condition have a **limit period**. Limit period defines a period during which only one condition trigger will be processed.
 
 For example, let's say we set a condition **when temperature is greater than 20 degrees** and **limit period is set to one hour**.
 
@@ -78,4 +76,5 @@ At 9:30 device sends the temperature 21 degrees. Automation will be triggered an
 
 At 9:40 device sends the temperature 22 degrees. Automation will not be triggered in that case, because we have a limit period set to one hour.
 
-At 10:31 device sends the temperature 22 degrees. Automation will be triggered and automation actions are executed again, as ignore period (one hour) had already passed since the last execution.
+At 10:31 device sends the temperature 22 degrees. Automation will be triggered and automation actions are executed again, as ignore period \(one hour\) had already passed since the last execution.
+

@@ -57,7 +57,7 @@ Tap keyboard **Enter**
 3. specify the time period you want to view and select the Content type of event 
 4. click Action Link 
 
-You will see all the content of this notification 
+You will see all the content of this notification
 
 **Mobile app:**
 

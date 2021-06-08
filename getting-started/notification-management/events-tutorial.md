@@ -87,13 +87,13 @@ Now make an HTTP request with the tools you use for that. Make sure to change th
 You can even use your browser for that. Just put it in the URL field and press Enter.
 
 ```http
-https://blynk.cloud//external/api/logEvent?token=YourAuthToken&code=hello
+https://blynk.cloud/external/api/logEvent?token=YourAuthToken&code=hello
 ```
 
 Repeat the same with `code=error`
 
 ```http
-https://blynk.cloud//external/api/logEvent?token=YourAuthToken&code=error
+https://blynk.cloud/external/api/logEvent?token=YourAuthToken&code=error
 ```
 
   

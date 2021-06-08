@@ -1,7 +1,7 @@
 # Metadata
 
-Metadata is a set of characteristics \(or configurations\) applied to every Template and associated with every Device. This information will be used for Device Provisioning and [Device Management](../../../mobile-applications/device-management/).  
-  
+Metadata is a set of characteristics \(or configurations\) applied to every Template and associated with every Device. This information will be used for Device Provisioning and [Device Management](../../../mobile-applications/device-management/).
+
 It's represented by a table in Blynk.Console with Name, Type and Value columns.
 
 ![](../../../.gitbook/assets/metadata_table.png)
@@ -11,7 +11,7 @@ For example, if you would need to associate Serial Number with every product, ad
 
 ![](../../../.gitbook/assets/metadata-types.png)
 
-Metadata can be edited by users based on their access level.  
-  
+Metadata can be edited by users based on their access level.
+
 Default value can be set to each Metadata, be changed during Add Device procedure and edited any time later.
 

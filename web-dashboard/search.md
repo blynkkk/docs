@@ -14,7 +14,7 @@ This is the first screen you see after signing into Blynk.Console Web Dashboard.
 
 \*\*\*\*
 
-### **Sidebar**
+## **Sidebar**
 
 * [Devices](devices-1/)
   * **My devices** – view only your organization Devices
@@ -31,9 +31,9 @@ This is the first screen you see after signing into Blynk.Console Web Dashboard.
   * **All** – view users of all organizations you have access to
   * With no devices – view users of all organizations \(you have access to\) with no devices assigned
 
-### \*\*\*\*
+## \*\*\*\*
 
-### **Main view**
+## **Main view**
 
 It previews main values of available Devices, Locations, Organizations and Users depending on Search filtering panel selection \(Devices table is open by default\) and search results.
 
@@ -51,7 +51,7 @@ _Actions available:_
 
 ![](../.gitbook/assets/table-map.png)
 
-### **Quick search view**
+## **Quick search view**
 
 ![](../.gitbook/assets/quick-search.gif)
 
@@ -59,7 +59,7 @@ _Actions available:_
 2. Click on search result you need to open the table viewing the entities values.
 3. Select \(bulk actions are supported\) and open entity you need for further actions.  
 
-### Manual search view
+## Manual search view
 
 * Table – list of entities \(entities specific table descriptions are in lower level articles\) 
 * Locations – view of entities on the world map

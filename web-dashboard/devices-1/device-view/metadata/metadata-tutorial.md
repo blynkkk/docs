@@ -14,11 +14,11 @@ For example, a Serial Number Metadata field can be attached to every device, but
 
 ![](https://user-images.githubusercontent.com/72824404/120795827-aa439000-c542-11eb-8aec-660d8000baea.png)
 
-1. Click **Add Metadata**.   
+1. Click **Add Metadata**.
 
-   Choose the most relevant [type ](../../../products/metadata/metadata-types.md)for every metadata input. For example, if you would need to associate Serial Number with every product, add the “Number” metadata field.   
+   Choose the most relevant [type ](../../../products/metadata/metadata-types.md)for every metadata input. For example, if you would need to associate Serial Number with every product, add the “Number” metadata field.
 
-2. Set it up and click **Create** button once you've finished with this characteristic 
+2. Set it up and click **Create** button once you've finished with this characteristic
 
 ![](https://user-images.githubusercontent.com/72824404/120796929-15da2d00-c544-11eb-8ed2-52ae0fdd94f7.png)
 

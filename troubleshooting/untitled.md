@@ -44,7 +44,7 @@
 * you should wait for a while to reboot the server  
 * run traceroute command in your OS terminal, contact your ISP and provide them with this data
 
-## I can't see all metadata in Blynk.App 
+## I can't see all metadata in Blynk.App
 
 **What could be the reason:**
 

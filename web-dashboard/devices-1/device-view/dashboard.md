@@ -6,15 +6,13 @@ Dashboard is used to visualize data \(e.g. from sensors\) and provide remote con
 
 Select or adjust Time Period using the switches on top of the tab.
 
-
-
 Each widget may have indiviual elements
 
 ## **Slider**
 
-Slider ****allows to view and send values in the predefined range. Usage examples: volume, brightness, RPM, flap position control, etc.. Move slider **handle** or fine control steps **+** and **–** buttons \(optional\) to set the value. 
+Slider **\*\*allows to view and send values in the predefined range. Usage examples: volume, brightness, RPM, flap position control, etc.. Move slider** handle **or fine control steps** + **and** –\*\* buttons \(optional\) to set the value.
 
-Use plus/minus icons to set the value more precisely. 
+Use plus/minus icons to set the value more precisely.
 
 ![Slider widget example](../../../.gitbook/assets/slider.gif)
 
@@ -48,14 +46,12 @@ General chart properties:
 
 This widget displays device locations/route and data sets \(predefined by Template owner\) that are assigned to GPS data.
 
-<img width="1063" alt="Map widget example" src="https://user-images.githubusercontent.com/72824404/120771180-9d657300-c527-11eb-9e4c-b06c794752d1.png">
+![Map widget example](https://user-images.githubusercontent.com/72824404/120771180-9d657300-c527-11eb-9e4c-b06c794752d1.png)
 
 1. Specify the time period if it's needed \(top center of the widget\):
-
    1. select the day: click arrows to switch to previous/next day or click on the day to open date picker, search and click on the date you want;
    2. set day time period: click the field containing time data to open time picker, set hh:mm for both start and end of the period; 
-
-2. Change track overlay by selecting available in top right dropdown menu. It's used for values/statuses differences visualization that can be checked in track overlays legend \(bottom right\) 
+2. Change track overlay by selecting available in top right dropdown menu. It's used for values/statuses differences visualization that can be checked in track overlays legend \(bottom right\)
 3. Navigate to the point you want to check:
    1. use scale management buttons at top left of the widget;
    2. move the map by moving the mouse with left mouse button hold;
@@ -71,8 +67,8 @@ It always starts with Date and Time in the first line, Location Longtitude and L
 This widget is used with devices with detachable modules.  
 Each module has it's own tools, units, details that are represented by Datastreams sets configured under each module.
 
-<img width="537" alt="Modules widget example" src="https://user-images.githubusercontent.com/72824404/120777353-de608600-c52d-11eb-859f-6249f1b22381.png">
+![Modules widget example](https://user-images.githubusercontent.com/72824404/120777353-de608600-c52d-11eb-859f-6249f1b22381.png)
 
-_Example:_   
-Your Product is a road cleaning machine and it has summer setup with fan and dry broom modules and winter setup with snow brush and dryer modules. Fan and dryer use socket A for connection, broom and brush use socket B. Each module has Datastream set to represent the connectivity such as V0 for fan and V1 for dryer. So in Display Data for socket A you can switch between Fan and Dryer by enabling and disabling those Datastreams. Once connectivity DS is set to ON all the other Datastreams of Module will be displayed in Socket A tab. 
+_Example:_  
+Your Product is a road cleaning machine and it has summer setup with fan and dry broom modules and winter setup with snow brush and dryer modules. Fan and dryer use socket A for connection, broom and brush use socket B. Each module has Datastream set to represent the connectivity such as V0 for fan and V1 for dryer. So in Display Data for socket A you can switch between Fan and Dryer by enabling and disabling those Datastreams. Once connectivity DS is set to ON all the other Datastreams of Module will be displayed in Socket A tab.
 

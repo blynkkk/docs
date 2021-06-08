@@ -4,5 +4,3 @@ Select your Device's Virtual Pin that is set in the sketch/firmware and will sen
 
 ![](../../../../.gitbook/assets/vpin.png)
 
-
-

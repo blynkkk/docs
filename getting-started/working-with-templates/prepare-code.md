@@ -56,10 +56,12 @@ Instructions and code for Static AuthToken is used when you are working with har
 
 ![](https://lh3.googleusercontent.com/i3hKUqAHHOLARrcHd0QaKKhVXjs2BAzFFgonSnaA2JyLWwO5aj7yM8Z0K7QwTpW_sU17pJTyBAx0hLjHPOGceIjdCJhUjYdjukK0sjQTE0EX_xBV3UPpjzWHVvPqhkB2neYdVhkm)
 
-5. Select the downloaded .zip archive. Press **Choose** to continue.  
-6. After that, you should see Blynk folder under the **File &gt; Examples**  
-![](https://lh3.googleusercontent.com/WfHrWEDwJZ-mzHNcy1UVE1nwHDCAODrMkVehACEgsZYc4pS54L4o99Qel706TSEYPqUqNayc8Ur8pM6DCECYFH1hivgwC2O-KHSZgANz4yTkVV99JR-N4-8B2NDCoZXm3GlXm7eD)  
-7. Select the example for the hardware you use. We will use the one for Arduino UNO + Ethernet shield
+1. Select the downloaded .zip archive. Press **Choose** to continue.  
+2. After that, you should see Blynk folder under the **File &gt; Examples**  
+
+   ![](https://lh3.googleusercontent.com/WfHrWEDwJZ-mzHNcy1UVE1nwHDCAODrMkVehACEgsZYc4pS54L4o99Qel706TSEYPqUqNayc8Ur8pM6DCECYFH1hivgwC2O-KHSZgANz4yTkVV99JR-N4-8B2NDCoZXm3GlXm7eD)  
+
+3. Select the example for the hardware you use. We will use the one for Arduino UNO + Ethernet shield
 
 ```cpp
 #define BLYNK_PRINT Serial
@@ -86,7 +88,7 @@ void loop()
 }
 ```
 
-Pay attention to these 3 lines: you would need to fill them. 
+Pay attention to these 3 lines: you would need to fill them.
 
 ```cpp
 ...
@@ -96,8 +98,6 @@ Pay attention to these 3 lines: you would need to fill them.
 char auth[] = "YourAuthToken";
 ...
 ```
-
-### 
 
 ### Getting Template ID and Auth Token for device
 
@@ -109,8 +109,6 @@ char auth[] = "YourAuthToken";
 
 ![](../../.gitbook/assets/image%20%2820%29.png)
 
-#### 
-
 #### Getting Auth Token
 
 When the Template is ready, go to Search -&gt; Devices - **Create new device**
@@ -121,9 +119,7 @@ When the Template is ready, go to Search -&gt; Devices - **Create new device**
 
 ![](../../.gitbook/assets/image%20%2818%29.png)
 
-
-
-2. After the device was created, open its dashboard, go to the Device Info tab. There you will find a field: Auth Token.
+1. After the device was created, open its dashboard, go to the Device Info tab. There you will find a field: Auth Token.
 
 ![](../../.gitbook/assets/image%20%2817%29.png)
 
