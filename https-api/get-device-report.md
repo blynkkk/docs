@@ -20,21 +20,21 @@ Is `MONTH` by default. Other possible options: `HOUR`, `DAY`, `WEEK`, `THREE_MON
 Is `RAW_DATA` by default. \( `RAW_DATA` is not supported for the `THREE_MONTH` period! \). Other possible values: `MINUTE`, `HOURLY`, `DAILY`
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="sourceType" type="string" required=true %}
+{% api-method-parameter name="sourceType" type="string" required=false %}
 Is `AVG` by default. Other possible values: `MIN`, `MAX`, `SUM`, `COUNT`
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="tzName" type="string" required=true %}
+{% api-method-parameter name="tzName" type="string" required=false %}
 Is `UTC` by defult. Please specify timezones accordingly to `java.time.ZoneId`
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="format" type="string" required=true %}
+{% api-method-parameter name="format" type="string" required=false %}
 Is TS by default. Other possible values:  
 ISO\_US "04/10/19 11:45:41 AM"  
 ISO\_SIMPLE "2018-06-07 22:01:20"
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="sendEvents" type="string" required=true %}
+{% api-method-parameter name="sendEvents" type="string" required=false %}
 Is false by default
 {% endapi-method-parameter %}
 
@@ -42,7 +42,7 @@ Is false by default
 Are optional parameteres, which are used to get data for the specific pin
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="output" type="string" required=true %}
+{% api-method-parameter name="output" type="string" required=false %}
 Is FILE by default. Other possible value: JSON
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
