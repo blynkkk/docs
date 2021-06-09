@@ -50,7 +50,7 @@ Raw data means no aggregation will be applied
 
 \*\*\*\*
 
-### **Transfer \(also ownership change\)** 
+### **Device Transfer \(also ownership change\)** 
 
 Every device has an owner. To change the ownership, device transfer action is used. You would need a valid email address of the new owner. They should have an account within Blynk. Once device is transferred, both parties will receive a confirmation.
 
