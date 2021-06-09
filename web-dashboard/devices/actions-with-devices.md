@@ -87,7 +87,7 @@ Once the device is transferred, both parties will receive a confirmation.
 
 For example, you can create the sub organization, invite the new user to it, and transfer the device to this new user.
 After the transfer the device will be visible only for the user from the transferred organization
-and for all users with **view organization devices** permission enabled from the above, parent organizations.
+and for all users with **view organization devices** permission enabled from the above, parent organizations along with **switch organization** permission.
 
 ####Move device to another organization not from your hierarchy
 
