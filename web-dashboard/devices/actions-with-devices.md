@@ -34,7 +34,7 @@ In this view you can configure and generate report.
 
 **Time range:** Choose a time range from today's date and time, back to selected range
 
-**Include events data:** this option will include timestamps and Event names into the report. You need to have [Events](../../getting-started/notification-management/events-tutorial.md) set up.
+**Include events data:** this option will include timestamps and Event names into the report. You need to have [Events](../../getting-started/events-tutorial.md) set up.
 
 **Send link to email:** when on, a link to download a report will be sent to the specified email address below
 
@@ -102,7 +102,7 @@ Dashboard Editing available from device profile view in [Developer Mode](../../g
 
 ### Notification settings
 
-Opens [Notifications Management](../../getting-started/notification-management/)
+Opens [Notifications Management](../../getting-started/notification-management.md)
 
 ### Erase data
 

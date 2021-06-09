@@ -55,7 +55,7 @@ You can automate your connected devices with the following triggers:
 The list of notificatios and important alerts from all devices will be here.
 
 {% hint style="info" %}
-In order to be listed here, the template should have the [Event](../web-dashboard/products/events/) configured and the event should be [triggered](../web-dashboard/products/events/how-to-trigger-events.md) in the device.
+In order to be listed here, the template should have the [Event](../web-dashboard/products/events/) configured and the event should be [triggered](../web-dashboard/products/events/custom-events/events--how-to-log-events.md) in the device.
 {% endhint %}
 
 ## Device dashboard
