@@ -18,13 +18,13 @@ _\*\*\*\*_
 
 ## Actions Column \(mouse over the last column\)
 
-### **Rename** 
+### Rename
 
 Opens Rename Device modal window. Input new name up 60 characters here. Confirm.
 
 ![](https://user-images.githubusercontent.com/72824404/120640485-37231680-c47b-11eb-86d4-9336d8b047e9.png)
 
-### **Download report**
+### Download report
 
 In this view you can configure and generate report. 
 
@@ -50,27 +50,45 @@ Raw data means no aggregation will be applied
 
 \*\*\*\*
 
-### **Device Transfer \(also ownership change\)** 
+### Device Transfer \(also ownership change\)
 
-Every device has an owner. To change the ownership, device transfer action is used. You would need a valid email address of the new owner. They should have an account within Blynk. Once device is transferred, both parties will receive a confirmation.
+Every device has an owner. To change the ownership, device transfer action is used.
+You would need a valid email address of the new owner. The new owner should have activated account within Blynk.
+Once the device is transferred, both parties will receive a confirmation.
+
+You can also use the **device transfer** action to move the device within your organization hierarchy.
+However, in that case the destination organization **should have** the template of the transferred device (it's added automatically when the new organization is created).
+For example, you can create the sub organization, invite the new user to it, and transfer the device to this new user.
+After the transfer the device will be visible only for the user from the transferred organization
+and for all users with **view organization devices** permission enabled from the above, parent organizations.
+
+You can use the **device transfer** when you need to provide the restricted access to the device.
 
 If you don't see this option, most likely you don't have enough permissions. Contact your administrator.  
 
 ![Device Transfer](https://user-images.githubusercontent.com/72824404/120641371-3343c400-c47c-11eb-8a5d-a66ec4290d30.png)
 
-**Edit Template Dashboard:** a quick way to edit a a dashboard layout for the template of current device. When selected, you will be sent to  Device Template -&gt; [Template Dashboard](../products/dashboard/) edit
+###Edit Template Dashboard
+
+A quick way to edit a dashboard layout for the template of current device. When selected, you will be sent to  Device Template -&gt; [Template Dashboard](../products/dashboard/) edit
 
 {% hint style="info" %}
 Dashboard Editing available from device profile view in [Developer Mode](../../getting-started/developer-mode.md) only.
 {% endhint %}
 
-**Notification settings:** opens [Notifications Management](../../getting-started/notification-management/) 
+###Notification settings
 
-**Erase data:** erase all device data. **⚠️ It's a critical action** 
+Opens [Notifications Management](../../getting-started/notification-management/) 
 
-**Delete Device owner** \(critical action!\) clear device ownership. Device can be transferred to a new owner. **⚠️ It's a critical action**
+###Erase data
 
-**Delete Device** \(critical action!\) – deletes Device entry and all it's data. **⚠️ It's a critical action**
+Erase all device data. **⚠️ It's a critical action** 
+
+###Delete Device owner
+\(critical action!\) Clear device ownership. Device can be transferred to a new owner. **⚠️ It's a critical action**
+
+###Delete Device
+\(critical action!\) – deletes Device entry and all it's data. **⚠️ It's a critical action**
 
 \*\*\*\*
 
