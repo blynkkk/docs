@@ -50,23 +50,48 @@ Raw data means no aggregation will be applied
 
 \*\*\*\*
 
-### Device Transfer \(also ownership change\)
+### Device Transfer
 
-Every device has an owner. To change the ownership, device transfer action is used.
-You would need a valid email address of the new owner. The new owner should have activated account within Blynk.
+![Device Transfer](https://user-images.githubusercontent.com/72824404/120641371-3343c400-c47c-11eb-8a5d-a66ec4290d30.png)
+
+You can use the device transfer feature to achieve the next goals:
+
+- Change the device ownership
+- Move the device within your organization hierarchy
+
+If you don't see this option, most likely you don't have enough permissions. Contact your administrator.
+
+####Ownership change
+
+Every device has an owner. Usually, the device owner has more access over the device than other users.
+However, this is fully configurable over **view own devices** and **view organization devices** permissions.
+To change the ownership, device transfer action is used.
+
+In order to change the ownership you need:
+- The new device owner should belong to your organization
+- The new device owner account should exist and be activated (user logged at least once)
+
 Once the device is transferred, both parties will receive a confirmation.
 
+####Move device to another organization within your hierarchy
+
 You can also use the **device transfer** action to move the device within your organization hierarchy.
-However, in that case the destination organization **should have** the template of the transferred device (it's added automatically when the new organization is created).
+
+In order to move the device within organization hierarchy you need:
+- The new device owner should belong to your or underlying organizations
+- The new device owner account should exist and be activated (user logged at least once)
+- The organization of the new device owner should have the template of the transferred device.
+  Right now, all templates from the parent organization are added automatically when the new organization is created, however you can change that
+
+Once the device is transferred, both parties will receive a confirmation.
+
 For example, you can create the sub organization, invite the new user to it, and transfer the device to this new user.
 After the transfer the device will be visible only for the user from the transferred organization
 and for all users with **view organization devices** permission enabled from the above, parent organizations.
 
-You can use the **device transfer** when you need to provide the restricted access to the device.
+####Move device to another organization not from your hierarchy
 
-If you don't see this option, most likely you don't have enough permissions. Contact your administrator.  
-
-![Device Transfer](https://user-images.githubusercontent.com/72824404/120641371-3343c400-c47c-11eb-8a5d-a66ec4290d30.png)
+This feature is not yet implemented and will be available when **Template publishing** will be delivered.
 
 ###Edit Template Dashboard
 
