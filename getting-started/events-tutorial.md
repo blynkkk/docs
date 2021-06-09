@@ -2,7 +2,7 @@
 description: This tutorial will help you with creating Events in Device Templates
 ---
 
-# Logging Event
+# Log Events
 
 Events are used to track and log important events happening on your devices. Events can also trigger different types of notifications which can be sent over email, as push notifications to Blynk app, or as SMS.
 

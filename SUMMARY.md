@@ -35,7 +35,7 @@
   * [WiFi provisioning](getting-started/activating-devices/blynk-edent-wifi-provisioning.md)
   * [Static AuthToken](getting-started/activating-devices/blynk-edent-static-authtoken.md)
 * [Send Device Data to Blynk](getting-started/using-virtual-pins-to-control-physical-devices.md)
-* [Logging Event](getting-started/events-tutorial.md)
+* [Log Events](getting-started/events-tutorial.md)
 * [Get Notifications](getting-started/notification-management.md)
 * [Updating Firmware Over-The-Air](getting-started/updating-devices-firmwares-ota.md)
 * [Metadata Tutorial](getting-started/metadata-tutorial.md)
