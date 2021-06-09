@@ -85,10 +85,10 @@ Opens [Notifications Management](../../getting-started/notification-management/)
 Erase all device data. **⚠️ It's a critical action** 
 
 ###Delete Device owner
-\(critical action!\) Clear device ownership. Device can be transferred to a new owner. **⚠️ It's a critical action**
+Clear device ownership. Device can be transferred to a new owner. **⚠️ It's a critical action**
 
 ###Delete Device
-\(critical action!\) – deletes Device entry and all it's data. **⚠️ It's a critical action**
+Deletes Device entry and all it's data. **⚠️ It's a critical action**
 
 \*\*\*\*
 
