@@ -26,7 +26,7 @@ Opens Rename Device modal window. Input new name up 60 characters here. Confirm.
 
 ### Download report
 
-In this view you can configure and generate report. 
+In this view you can configure and generate report.
 
 ![](https://user-images.githubusercontent.com/72824404/120641024-cf210000-c47b-11eb-941e-dd8ac0254485.png)
 
@@ -34,13 +34,13 @@ In this view you can configure and generate report.
 
 **Time range:** Choose a time range from today's date and time, back to selected range
 
-**Include events data:** this option will include timestamps and Event names into the report. You need to have [Events](../../getting-started/notification-management/events-tutorial.md) set up. 
+**Include events data:** this option will include timestamps and Event names into the report. You need to have [Events](../../getting-started/notification-management/events-tutorial.md) set up.
 
 **Send link to email:** when on, a link to download a report will be sent to the specified email address below
 
-**Data Aggregation:** defines how data in the report will be aggregated \(compressed\). Aggregation means that data will be averaged to 1 value per selected time range. 
+**Data Aggregation:** defines how data in the report will be aggregated \(compressed\). Aggregation means that data will be averaged to 1 value per selected time range.
 
-For example, if device sent 60 values in 1 minute, only 1 value will be in the report. This will be an averaged value from all 60 readings. `AVG(reading1, reading2, reading3...reading N)` 
+For example, if device sent 60 values in 1 minute, only 1 value will be in the report. This will be an averaged value from all 60 readings. `AVG(reading1, reading2, reading3...reading N)`
 
 Raw data means no aggregation will be applied
 
@@ -56,63 +56,64 @@ Raw data means no aggregation will be applied
 
 You can use the device transfer feature to achieve the next goals:
 
-- Change the device ownership
-- Move the device within your organization hierarchy
+* Change the device ownership
+* Move the device within your organization hierarchy
 
 If you don't see this option, most likely you don't have enough permissions. Contact your administrator.
 
-####Ownership change
+#### Ownership change
 
-Every device has an owner. Usually, the device owner has more access over the device than other users.
-However, this is fully configurable over **view own devices** and **view organization devices** permissions.
-To change the ownership, device transfer action is used.
+Every device has an owner. Usually, the device owner has more access over the device than other users. However, this is fully configurable over **view own devices** and **view organization devices** permissions. To change the ownership, device transfer action is used.
 
 In order to change the ownership you need:
-- The new device owner should belong to your organization
-- The new device owner account should exist and be activated (user logged at least once)
+
+* The new device owner should belong to your organization
+* The new device owner account should exist and be activated \(user logged at least once\)
 
 Once the device is transferred, both parties will receive a confirmation.
 
-####Move device to another organization within your hierarchy
+#### Move device to another organization within your hierarchy
 
 You can also use the **device transfer** action to move the device within your organization hierarchy.
 
 In order to move the device within organization hierarchy you need:
-- The new device owner should belong to your or underlying organizations
-- The new device owner account should exist and be activated (user logged at least once)
-- The organization of the new device owner should have the template of the transferred device.
+
+* The new device owner should belong to your or underlying organizations
+* The new device owner account should exist and be activated \(user logged at least once\)
+* The organization of the new device owner should have the template of the transferred device.
+
   Right now, all templates from the parent organization are added automatically when the new organization is created, however you can change that
 
 Once the device is transferred, both parties will receive a confirmation.
 
-For example, you can create the sub organization, invite the new user to it, and transfer the device to this new user.
-After the transfer the device will be visible only for the user from the transferred organization
-and for all users with **view organization devices** permission enabled from the above, parent organizations along with **switch organization** permission.
+For example, you can create the sub organization, invite the new user to it, and transfer the device to this new user. After the transfer the device will be visible only for the user from the transferred organization and for all users with **view organization devices** permission enabled from the above, parent organizations along with **switch organization** permission.
 
-####Move device to another organization not from your hierarchy
+#### Move device to another organization not from your hierarchy
 
 This feature is not yet implemented and will be available when **Template publishing** will be delivered.
 
-###Edit Template Dashboard
+### Edit Template Dashboard
 
-A quick way to edit a dashboard layout for the template of current device. When selected, you will be sent to  Device Template -&gt; [Template Dashboard](../products/dashboard/) edit
+A quick way to edit a dashboard layout for the template of current device. When selected, you will be sent to Device Template -&gt; [Template Dashboard](../products/dashboard/) edit
 
 {% hint style="info" %}
 Dashboard Editing available from device profile view in [Developer Mode](../../getting-started/developer-mode.md) only.
 {% endhint %}
 
-###Notification settings
+### Notification settings
 
-Opens [Notifications Management](../../getting-started/notification-management/) 
+Opens [Notifications Management](../../getting-started/notification-management/)
 
-###Erase data
+### Erase data
 
-Erase all device data. **⚠️ It's a critical action** 
+Erase all device data. **⚠️ It's a critical action**
 
-###Delete Device owner
+### Delete Device owner
+
 Clear device ownership. Device can be transferred to a new owner. **⚠️ It's a critical action**
 
-###Delete Device
+### Delete Device
+
 Deletes Device entry and all it's data. **⚠️ It's a critical action**
 
 \*\*\*\*
@@ -122,7 +123,7 @@ Deletes Device entry and all it's data. **⚠️ It's a critical action**
 Bulk actions are available when multiple devices are selected in the list view. To access these actions choose devices and press action button \("three dots"\) at the top of the device list.
 
 {% hint style="warning" %}
-Only loaded/visible devices will be selected. To load devices - scroll down to reveal more devices. 
+Only loaded/visible devices will be selected. To load devices - scroll down to reveal more devices.
 {% endhint %}
 
 * **Tag:** apply a [tag](../settings/organization-settings/tags.md) to multiple devices

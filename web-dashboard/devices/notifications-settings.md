@@ -23,9 +23,13 @@ SMS are currently only available in white-label solution
 1. In the opened drawer you will see a list of all Event available for notifications \(4\) . To specify Events available in Notifications settings, a Developer needs to set it up in the device template.
 2. Click **Edit Settings** \(5\)
 
+{% hint style="info" %}
+If you don't see the Edit Settings button, or list of Events is empty, check that you made events available for notifications.
+{% endhint %}
+
 ![](https://user-images.githubusercontent.com/72824404/120807574-c6e6c480-c550-11eb-8965-6a979c147122.png)
 
-Turn on the desired channels \(Email, Push, or SMS\) and add recipients. If the recipient is not on the list you can search by typing the name or the email.
+3. Turn on the desired channels \(Email, Push, or SMS\) and add recipients. If the recipient is not on the list you can search by typing the name or the email.
 
 Optionally you can choose  "All members". In this case all members of current organization will receive the notification through the selected channel.
 
@@ -43,7 +47,7 @@ Notifications can be muted for a specified period of time. Click on the switch n
 
 Notifications will be automatically unmuted after the specified period. 
 
-This feature is useful when you need to temoprary mute notifications. For example during deployment, testing, or maintenance at job site
+_❇️ This feature is useful when you need to temoprary mute notifications. For example during deployment, testing, or maintenance at job site._
 
 \_\_
 

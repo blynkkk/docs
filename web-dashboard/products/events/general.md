@@ -1,4 +1,4 @@
-# General tab
+# General Settings
 
 ![](../../../.gitbook/assets/new_ev_gen.png)
 

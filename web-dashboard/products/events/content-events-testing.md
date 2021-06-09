@@ -2,7 +2,7 @@
 description: Here's an instruction on how to create and test Content Events
 ---
 
-# Content Events testing
+# Content Events
 
 {% hint style="info" %}
 Events content can be created by the user with the permissions of the Super admin.
@@ -28,7 +28,7 @@ Events content can be created by the user with the permissions of the Super admi
 10. Switch to Notifications tab 
 11. Enable Notifications – lets you set notifications about events occured to Devices so you get them via SMS, Push or E-mail 
 12. Select the type of notification \(email, push, sms\) and recipients
-13. Set [Notifications Limit](notification-limit.md) if necessary and turn on [Notifications management](../../../getting-started/notification-management/)
+13. Set [Notifications Limit]() if necessary and turn on [Notifications management](../../../getting-started/notification-management/)
 14. Click **Create** button 
 15. **Save** Template
 

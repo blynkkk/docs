@@ -1,16 +1,19 @@
----
-description: >-
-  Events tell the current status of the device on the List of Devices, Device
-  Page itself, and also shows the history of states change in the Timeline
-  section.
----
-
 # Events
+
+Events are used to track and log important events happening on your devices. Events can also trigger different types of notifications which can be sent over email, delivered as push notifications to user's smartphone, or sent as an SMS.
+
+Examples of an Event: 
+
+1. _You need to log a moment when a temperature reached a certain threshold and send a notification to selected users._
+2. _You need to log a total working hours of the device. If it approaches or goes beyond a max value, you would need to notify technical support so that they can replace the device._ 
+
+Events that happened can be viewed on the device dashboard in web and mobile apps in the [Timeline](../../devices/device-profile/timeline.md).
 
 Let’s look at a typical use case: read temperature from DHT sensor and send push notification when the temperature is over a certain limit:
 
-```text
-  float t = dht.readTemperature();
+```cpp
+  float t = dht.readTemperature();//reading the temperature from the sensor
+  
   if (isnan(t)) {
     return;
   }

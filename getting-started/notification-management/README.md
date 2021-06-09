@@ -25,9 +25,7 @@ Note: notifications work on top of [Events](../../web-dashboard/products/events/
 
 1. In the modal window turn on the desired channels \(Email, Push, or SMS\), _select the recipients_. If the recipient is not on the list you can search by typing the name or the email.
 
-{% hint style="info" %}
-Note, there's the "All members" entry. It means that all users of the organization where the device belongs will be the recipients
-{% endhint %}
+If you need to deliver notifications to all members of current organization, choose **All members** in the dropdown.
 
 ![](https://user-images.githubusercontent.com/72824404/119676364-797aa100-be46-11eb-98e6-c8a4a16ae06e.png)
 

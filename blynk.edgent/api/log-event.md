@@ -1,4 +1,4 @@
-# Log Event
+# Trigger Event
 
 ## Get an Event code
 
@@ -11,7 +11,7 @@
 
 Use `Blynk.logEvent` function to send events to the cloud.
 
-```text
+```cpp
 Blynk.logEvent("event_code");
 
 // Also, you can add a custom description:

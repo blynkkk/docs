@@ -9,7 +9,7 @@ Events are used to track and log important events happening on your devices. Eve
 Examples of an Event: 
 
 1. _You need to log a moment when a temperature reached a certain threshold and send a notification to selected users._
-2. _You need to log a total working hours of the device. If it approaches or goes beyond a max value, you would need to notify technical support so that they can replace the devices_ 
+2. _You need to log a total working hours of the device. If it approaches or goes beyond a max value, you would need to notify technical support so that they can replace the device._ 
 
 Events that happened can be viewed on the device dashboard in web and mobile apps in the [Timeline](../../web-dashboard/devices/device-profile/timeline.md).  
 

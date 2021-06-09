@@ -1,17 +1,32 @@
-# How to trigger events
+# How to Trigger Events
 
-If you need to create a warning when the sensor detects temperature over a certain threshold. 1. Create a new Warning event named `High temperature` with code `high_temp` 2. Use the `Blynk.logEvent(event_code)` to trigger new event occurrence 3. When the device triggers the event, it will be rendered on the Timeline
+If you need to create an Event when the sensor detects temperature which is over a certain threshold:
+
+1. Create a new Event named `High temperature` with code `high_temp` 
+
+2. Use the `Blynk.logEvent(event_code)` firmware API command to trigger new event occurrence 
 
 A simple example could look like:
 
-```text
-if (temperatureSensor > 35)
+```cpp
+if (temperature > 35)
 {
    Blynk.logEvent("high_temp");
 }
 ```
 
-You can also use HTTPS API in order to trigger the device event:
+You can add extra information to the description of the event. If you endabled Timeline recording, description will be shown there
+
+```cpp
+if (temperature > 35)
+{
+  Blynk.logEvent("event_code", String("High TemperatureDetected! Tº: ") + temp);
+}
+```
+
+
+
+Trigger an event using HTTPS API: 
 
 ```text
 /external/api/logEvent?token={device_token}&code={event_code}&description={event_desciption}
@@ -22,6 +37,6 @@ You can also use HTTPS API in order to trigger the device event:
 For example:
 
 ```text
-https://my.server.com/external/api/logEvent?token=Q9qdlGahPuFuCfncrT35QutT7s3HjYFy&code=h
+https://my.server.com/external/api/logEvent?token=Q9qdlGahPuFuCfncrT35QutT7s3HjYFy&code=high_temp
 ```
 
