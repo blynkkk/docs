@@ -2,9 +2,8 @@
 
 If you need to log an Event when the sensor detects temperature over a certain threshold:
 
-1. Create a new Event named `High temperature` with code `high_temp` 
-
-2. Use the `Blynk.logEvent(event_code)` firmware API command to trigger new event occurrence 
+1. Create a new Event named `High temperature` with code `high_temp`
+2. Use the `Blynk.logEvent(event_code)` firmware API command to trigger new event occurrence
 
 A simple example could look like:
 
@@ -26,9 +25,7 @@ if (temperature > 35)
 }
 ```
 
-
-
-Trigger an event using HTTPS API: 
+Trigger an event using HTTPS API:
 
 ```text
 /external/api/logEvent?token={device_token}&code={event_code}&description={event_desciption}

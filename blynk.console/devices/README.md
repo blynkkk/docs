@@ -43,7 +43,7 @@ Search can be performed by the following fields:
 #### Search steps:
 
 1. Click on Devices row in Search Filtering Panel
-2. Start typing to perform a searc. Search results will be segmented by sections will appear in the dropdown. 
+2. Start typing to perform a search. Search results will be segmented by sections will appear in the dropdown. 
 3. Click on result you need and you'll get all the Devices containing it in Table View
 4. Use sorting and filter of the table columns to narrow down the search.
 
@@ -56,8 +56,8 @@ Keep scrolling down to load more devices.
 **Navigation:**
 
 * Click on **Device Name** – opens [Device View](device-profile/)
-* Click on **Device Owner** – opens [Device Owner profile](../users/device-owner-view.md)
-* Click on **Organization Name** – opens device [Organization](../organizations.md)
+* Click on **Device Owner** – opens [Device Owner profile]()
+* Click on **Organization Name** – opens device [Organization]()
 
 ## Map view
 

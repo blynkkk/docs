@@ -30,11 +30,11 @@ That is defined in product's Sketch.
 
 **IP Country** – IP based country definition. It's used to show Device's location on Map if the Device isn't assigned to any Location.
 
-**IP LAT/LON** – IP based latitude and longtitude definition. It's used to show Device's location on Map if the Device isn't assigned to any Location.
+**IP LAT/LON** – IP based latitude and longitude definition. It's used to show Device's location on Map if the Device isn't assigned to any Location.
 
-**Firmware Version** – actual firmware version of the Device \(it can be chaged by flash or [Blynk.Air](https://github.com/blynkkk/docs/tree/734d666b5b4e7a337c0659a96502e484d15a5d8e/blynk.console/blynk.air)\)
+**Firmware Version** – actual firmware version of the Device \(it can be changed by flash or [Blynk.Air](https://github.com/blynkkk/docs/tree/734d666b5b4e7a337c0659a96502e484d15a5d8e/blynk.console/blynk.air)\)
 
-**Blynk Version** – version of [Blynk Library](../../../downloads/blynk.edgent.md) used in the firmware \(it can be chaged by flash or [Blynk.Air](https://github.com/blynkkk/docs/tree/734d666b5b4e7a337c0659a96502e484d15a5d8e/blynk.console/blynk.air)\)
+**Blynk Version** – version of [Blynk Library](../../../downloads/blynk.edgent.md) used in the firmware \(it can be changed by flash or [Blynk.Air](https://github.com/blynkkk/docs/tree/734d666b5b4e7a337c0659a96502e484d15a5d8e/blynk.console/blynk.air)\)
 
 **Firmware Type** – unique ID of firmware. It's used during Provision and OTA checks.
 

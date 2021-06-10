@@ -40,7 +40,7 @@
 * [Updating Firmware Over-The-Air](getting-started/updating-devices-firmwares-ota.md)
 * [Metadata Tutorial](getting-started/metadata-tutorial.md)
 
-## Blynk.Console <a id="blynk.console"></a>
+## Blynk.Console
 
 * [Overview](blynk.console/console-overview.md)
 * [Search Data](blynk.console/search-data.md)
@@ -57,11 +57,7 @@
 * [Locations](blynk.console/locations/README.md)
   * [Location Profile](blynk.console/locations/location-profile.md)
   * [Assigning Devices to the Locations](blynk.console/locations/locations.md)
-* [Organizations](blynk.console/organizations/README.md)
-  * [List of Organizations](blynk.console/organizations/list-of-organizations.md)
-  * [Organization Profile](blynk.console/organizations/organization-profile.md)
-  * [Device Organization View](blynk.console/organizations/device-organization-view.md)
-  * [Transfer Organization](blynk.console/organizations/transfer-organization.md)
+* [Organizations](blynk.console/organizations-1.md)
 * [Users](blynk.console/users/README.md)
   * [List of Users](blynk.console/users/users-list.md)
   * [User Profile](blynk.console/users/user-view.md)
@@ -109,7 +105,6 @@
     * [Chart](blynk.console/templates/dashboard/chart.md)
     * [Map](blynk.console/templates/dashboard/map.md)
     * [Modules](blynk.console/templates/dashboard/modules.md)
-* [Organizations](blynk.console/organizations.md)
 * [Blynk.Air](blynk.console/blynk.air/README.md)
   * [Shipment details](blynk.console/blynk.air/shipment-details.md)
   * [Shipment management](blynk.console/blynk.air/shipment-management/README.md)
@@ -133,7 +128,7 @@
   * [Integrations](blynk.console/settings/integrations.md)
 * [User Profile](blynk.console/user-profile.md)
 
-## Blynk.Apps <a id="blynk.apps"></a>
+## Blynk.Apps
 
 * [Overview](blynk.apps/overview.md)
 * [Mobile Dashboard Editor](blynk.apps/constructor.md)

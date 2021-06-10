@@ -6,7 +6,7 @@ description: 'Navigate through Devices, Locations, Organizations and users in on
 
 This is the main page of Blynk.Console.
 
-Here you can perform a quick or extended search for [devices](devices/), [locations](locations/), [organizations ](organizations/)and [users ](users/)you have access to. You can apply various filters to narrow your search.
+Here you can perform a quick or extended search for [devices](devices/), [locations](locations/), [organizations ](https://github.com/blynkkk/docs/tree/2dc305739ee5d42b5fd9d7af9c9d6c057276a5fe/blynk.console/organizations/README.md)and [users ](users/)you have access to. You can apply various filters to narrow your search.
 
 This is the first screen you see after signing into Blynk.Console Web Dashboard.
 
@@ -22,10 +22,10 @@ This is the first screen you see after signing into Blynk.Console Web Dashboard.
 * [Locations](locations/) \(can be [changed](settings/application-settings/general.md) to Job Site or Facility\)
   * **My Locations** – view Locations created by your organization users
   * **All** – view all Locations available \(created by your organization and sub-organizations members\)
-* [Organizations](organizations/)
+* [Organizations](organizations-1.md)
   * **My Organizations** – view all organizations you have access to
-  * No devices – view organizations \(you're allowed to access\) containing no devices 
-  * No users – view organizations \(you're allowed to access\) containg no users
+  * No devices – view organizations \(you're allowed to access\) that contain no devices
+  * No users – view organizations \(you're allowed to access\) that contain no users
 * [Users](users/)
   * Organization members – view users of your organization only
   * **All** – view users of all organizations you have access to

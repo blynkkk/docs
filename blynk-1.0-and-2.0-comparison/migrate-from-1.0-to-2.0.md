@@ -16,7 +16,6 @@ If you're using **HTTP API**, you need to update your server and request URLs.
 You will need to [create a new account](https://blynk.cloud/) and re-create new device templates.  
 Here are some things you should take into account:
 
-* **Eventor widget** has been replaced with **Automations**
+* **Timer**, **TimeInput**, **Eventor** and **Bridge widgets** have been replaced with **Automations**
 * Bluetooth/BLE connections are currently not available in **Blynk.Apps**
-* **Bridge widget** has been replaced with **Rule Engine** \(not released yet\)
 

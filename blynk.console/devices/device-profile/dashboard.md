@@ -6,7 +6,7 @@ Dashboard is used to visualize data \(e.g. from sensors\) and provide remote con
 
 Select or adjust Time Period using the switches on top of the tab.
 
-Each widget may have indiviual elements
+Each widget may have individual elements
 
 ## **Slider**
 
@@ -30,11 +30,11 @@ This widget displays value of Virtual Pin e.g. length/distance, mass, duration, 
 
 ## **Chart**
 
-It's used to visualise live and historical data. You can use it for sensor data, for binary event logging and more. Chart display can be of 4 types: _Line, Area, Column, Stepline_
+It's used to visualize live and historical data. You can use it for sensor data, for binary event logging and more. Chart display can be of 4 types: _Line, Area, Column, Stepline_
 
 General chart properties:
 
-* **Values axis** \(vertical\) – each Datastream added to Chart widget has it's scale on the right and left. It can be set manually or to be autoscaled during Template dashboard setup.
+* **Values axis** \(vertical\) – each Datastream added to Chart widget has it's scale on the right and left. It can be set manually or to be auto-scaled during Template dashboard setup.
 * **Timeline Axis** \(horizontal\) – helps to find values actual for the exact time the search is performed.
 * **Hover the chart** – views value ant time for each selected point for each Datastream.
 
@@ -60,7 +60,7 @@ This widget displays device locations/route and data sets \(predefined by Templa
 ![Scale management buttons](../../../.gitbook/assets/map_nav_but.gif)
 
 Now you can see all the data that was actual while the device was on the selected location.  
-It always starts with Date and Time in the first line, Location Longtitude and Latitude in second line and all other data in further lines.
+It always starts with Date and Time in the first line, Location Longitude and Latitude in second line and all other data in further lines.
 
 ## **Modules**
 

@@ -47,7 +47,7 @@ Notifications can be muted for a specified period of time. Click on the switch n
 
 Notifications will be automatically unmuted after the specified period. 
 
-_❇️ This feature is useful when you need to temoprary mute notifications. For example during deployment, testing, or maintenance at job site._
+_❇️ This feature is useful when you need to temporarily mute notifications. For example during deployment, testing, or maintenance at job site._
 
 \_\_
 

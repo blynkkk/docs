@@ -4,7 +4,6 @@ Here you can view detailed information about Device Owner.
 
 ![](../../.gitbook/assets/user-action-menu.png)
 
-  
 The User profile contains information about the user **Name**, user **Organization**, user **Country**, information about the user **Status, Role, Email, Last login, Tags** and there may also be other custom information.‌
 
 **Single Actions** menu is triggered by hovering Actions column in user's row. Available actions:‌
@@ -26,7 +25,7 @@ The User profile contains information about the user **Name**, user **Organizati
 
 ​‌
 
-### Information Tab <a id="information-tab"></a>
+## Information Tab <a id="information-tab"></a>
 
 The Information tab contains information about:‌
 
@@ -47,7 +46,7 @@ The Information tab contains information about:‌
 
 ‌
 
-### Actions Log Tab <a id="actions-log-tab"></a>
+## Actions Log Tab <a id="actions-log-tab"></a>
 
 ​![](https://gblobscdn.gitbook.com/assets%2F-MBFTVMf7L6S67HOuqVC%2F-MUS_7EQcoNCzQbrQiOz%2F-MUS_gWYhC5mzbJCq72d%2Fuser%20action%20log.png?alt=media&token=80d3c559-3d40-4f85-9716-b5dbb84063e9)‌
 
@@ -59,13 +58,13 @@ The table contains information about:‌
 
 * **Time** – Date and time of the Action
 * **Organization Name**
-* **Client** – ****Android, iOS, Web, HTTPS API, Automation, Alexa, Google Home, Other
+* **Client** – _\*\*_Android, iOS, Web, HTTPS API, Automation, Alexa, Google Home, Other
 * **Action Name**
 * **Action Code**
 
 ​‌
 
-### Devices Tab <a id="devices-tab"></a>
+## Devices Tab <a id="devices-tab"></a>
 
 ​![](https://gblobscdn.gitbook.com/assets%2F-MBFTVMf7L6S67HOuqVC%2F-MUSamqSCHLYr7U5Z7QF%2F-MUSdpSqfjHB2TAIShly%2Fuser%20devices.png?alt=media&token=ea22b899-56c1-46c5-8122-777ba2286a8d)‌
 

@@ -27,7 +27,7 @@ Events content can be created by the user with the permissions of the Super admi
 9. Switch to Notifications tab 
 10. Enable Notifications – lets you set notifications about events occured to Devices so you get them via SMS, Push or E-mail 
 11. Select the type of notification \(email, push, sms\) and recipients
-12. Set [Notifications Limit]() if necessary and turn on [Notifications management](../../../../getting-started/notification-management.md)
+12. Set [Notifications Limit](events-content-events.md) if necessary and turn on [Notifications management](../../../../getting-started/notification-management.md)
 13. Click **Create** button 
 14. **Save** Template
 
@@ -45,7 +45,7 @@ Tap keyboard **Enter**
 
 ## **Check Content Event**
 
-#### **Email: Check specified email** 
+#### **Email: Check specified email**
 
 ### **Check your Device's Timeline:**
 

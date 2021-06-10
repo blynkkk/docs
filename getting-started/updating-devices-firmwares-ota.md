@@ -56,7 +56,7 @@ Otherwise _leave the selection empty_ – in this case, all of the selected Temp
 
 ![](../.gitbook/assets/firmware.png)
 
-1. Check for **Optional Settings** under Template selection field and in _\*\*_Review and start area  
+1. Check for **Optional Settings** under Template selection field and in \_\*\*\_Review and start area  
 2. Press **Start Shipping** 
 
 ![](../.gitbook/assets/review_and_start.png)

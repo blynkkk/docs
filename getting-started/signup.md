@@ -120,7 +120,7 @@ Once you've tapped **Reset Password** button, you'll be redirected back to Blynk
 {% hint style="info" %}
 We recommend to keep up to recommendations you see on the screen for security means.  
 Check the strength-meter that is intended to assist you in generating strong password.  
-You can check the password for typos with the tap on the _eye pictogram.
+You can check the password for typos with the tap on the \_eye pictogram.
 {% endhint %}
 
 1. Tap **Save** button to submit new password  

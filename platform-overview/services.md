@@ -8,10 +8,10 @@ Blynk services \(or micro-services\) are software modules that work across produ
 
 A micro-service for:
 
-- Claiming device ownership by users and organizations
-- Provisioning devices with WiFi credentials so they can connect to the end-user WiFi networks.
-- Managing Authentication Tokens
-- UX flow to guide end-users through the process of claiming and provisioning with the help of Blynk.Apps
+* Claiming device ownership by users and organizations
+* Provisioning devices with WiFi credentials so they can connect to the end-user WiFi networks.
+* Managing Authentication Tokens
+* UX flow to guide end-users through the process of claiming and provisioning with the help of Blynk.Apps
 
 To get understanding of the Blynk Inject take a look at the below videos:
 
@@ -27,9 +27,9 @@ To get understanding of the Blynk Inject take a look at the below videos:
 
 A micro-service for user management, covering
 
-- User registration with invitations
-- Roles and permissions management
-- Multi-tenancy
+* User registration with invitations
+* Roles and permissions management
+* Multi-tenancy
 
 ## Blynk.Air
 
@@ -37,6 +37,6 @@ A micro-service for user management, covering
 
 A micro-service for Firmware Over-the-Air Updates responsible for:
 
-- Managing Firmware Over-the-Air Updates shipping campaigns
-- Installing new firmware on the edge devices
+* Managing Firmware Over-the-Air Updates shipping campaigns
+* Installing new firmware on the edge devices
 

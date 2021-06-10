@@ -21,7 +21,7 @@ Note: notifications work as part of [Events](../blynk.console/templates/events/)
 
 ![](https://user-images.githubusercontent.com/72824404/119673690-3ae3e700-be44-11eb-86e0-147f6a22b977.png)
 
-In the opened drawer select the desired events to edit \(4\)  -&gt; **Edit Settings** \(5\)
+In the opened drawer select the desired events to edit \(4\) -&gt; **Edit Settings** \(5\)
 
 ![](https://user-images.githubusercontent.com/72824404/119675163-79c66c80-be45-11eb-93d1-71f02150a0b0.png)
 
