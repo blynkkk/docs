@@ -6,15 +6,15 @@
 
 You can search for any metadata across devices, organizations, and users. Simply start typing.
 
-![](../../.gitbook/assets/search-organization-by-name.png)
+![Organizations Search](../../.gitbook/assets/search-organization-by-name.png)
 
 ## Create New Organization
 
-Click New Organization button to perform this action.  
-You'll be redirected to Organizations tab New Organization window.  
-Follow the steps of [this article]() to succeed.
+If you have a permission **Create organization** you'll see the **+ New organization** button in the organization search view.
+Click **+ New organization** button to perform this action.  
+You'll be redirected to Organizations tab to the New Organization window.
 
-![](../../.gitbook/assets/create-new-organizations.png)
+![Create new Organization](../../.gitbook/assets/create-new-organizations.png)
 
 ### \*\*\*\*
 
@@ -22,19 +22,17 @@ Follow the steps of [this article]() to succeed.
 
 You need to fill in the information about the organization:
 
-![](../../.gitbook/assets/create-new-organizations-info.png)
+![Create new Organization](../../.gitbook/assets/create-new-organizations-info.png)
 
 \_\_
 
-**Organization Name** – can be up to 80 characters. _Use letters, digits, space or '.', '-', ''' characters_
+- **Organization Name** – can be up to 80 characters. _Use letters, digits, space or '.', '-', ''' characters_
 
-**Description** \(optional\) – organization info container. 500 characters limit with counter at the bottom
+- **Description** \(optional\) – organization info container. 200 characters limit
 
-**Logo** – upload Logo \(optional\) Upload from computer or drag-n-drop Organization logo in .png or .jpg formats and minimal resolution of 500x500px
+- **Logo** \(optional\) – upload Logo. Upload from computer or drag-n-drop Organization logo in .png or .jpg formats and minimal resolution is 500x500px
 
 
-
-Сan create Sub-Organizations – switch it on/off accordingly to allow/prohibit your to create and keep Sub-Organizations inside the Organization .
 
 ### \*\*\*\*
 
@@ -42,7 +40,7 @@ You need to fill in the information about the organization:
 
 You can to select the device **Templates** that your **Organization** will work with
 
-![](../../.gitbook/assets/create-new-organizations-templstes.png)
+![Select templates](../../.gitbook/assets/create-new-organizations-templstes.png)
 
 ### 
 
@@ -50,7 +48,7 @@ You can to select the device **Templates** that your **Organization** will work 
 
 You can invite users to your organization
 
-![](../../.gitbook/assets/create-new-organizations-users.png)
+![Invite users](../../.gitbook/assets/create-new-organizations-users.png)
 
 
 
