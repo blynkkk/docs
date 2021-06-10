@@ -1,4 +1,4 @@
-# WiFi provisioning
+# WiFi Provisioning
 
 Part of Blynk.Inject
 

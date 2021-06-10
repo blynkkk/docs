@@ -1,4 +1,4 @@
-# Shipment details
+# Shipment Details
 
 ## Shipments table
 

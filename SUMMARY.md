@@ -106,8 +106,8 @@
     * [Map](blynk.console/templates/dashboard/map.md)
     * [Modules](blynk.console/templates/dashboard/modules.md)
 * [Blynk.Air](blynk.console/blynk.air/README.md)
-  * [Shipment details](blynk.console/blynk.air/shipment-details.md)
-  * [Shipment management](blynk.console/blynk.air/shipment-management/README.md)
+  * [Shipment Details](blynk.console/blynk.air/shipment-details.md)
+  * [Shipment Management](blynk.console/blynk.air/shipment-management/README.md)
     * [New Shipping](blynk.console/blynk.air/shipment-management/new-shipping.md)
 * [Settings](blynk.console/settings/README.md)
   * [Organization Settings](blynk.console/settings/organization-settings/README.md)
@@ -140,7 +140,7 @@
     * [User Management](blynk.apps/profile-management/organization-management/user-management.md)
   * [Profile Settings](blynk.apps/profile-management/settings.md)
 * [Devices](blynk.apps/device-management/README.md)
-  * [Add new Device](blynk.apps/device-management/add-new-device.md)
+  * [Add New Device](blynk.apps/device-management/add-new-device.md)
   * [Widgets](blynk.apps/device-management/widgets.md)
 * [Groups](blynk.apps/group-management.md)
 * [Automations](blynk.apps/automations.md)
@@ -182,13 +182,13 @@
 
 ## Troubleshooting
 
-* [General issues](troubleshooting/general-issues.md)
+* [General Issues](troubleshooting/general-issues.md)
 * [Developer Mode](troubleshooting/developer-mode.md)
-* [WiFi provisioning](troubleshooting/wifi-provisioning.md)
+* [WiFi Provisioning](troubleshooting/wifi-provisioning.md)
 
 ---
 
-* [Blynk comparison to Blynk 0.1](blynk-1.0-and-2.0-comparison/README.md)
+* [Comparison to Blynk 0.1](blynk-1.0-and-2.0-comparison/README.md)
   * [Migrating to new Blynk](blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md)
 * [Glossary](glossary.md)
 * [Links](links.md)

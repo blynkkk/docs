@@ -1,4 +1,4 @@
-# General issues
+# General Issues
 
 ## **Can’t log in**
 

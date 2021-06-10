@@ -2,7 +2,7 @@
 description: 'Pause, resume, cancel, download reports and delete your shipments'
 ---
 
-# Shipment management
+# Shipment Management
 
 All shipments can be viewed and managed through the table.
 

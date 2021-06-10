@@ -1,4 +1,4 @@
-# Add new Device
+# Add New Device
 
 ## Link the device with Blynk.Apps
 
