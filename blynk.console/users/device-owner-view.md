@@ -58,7 +58,7 @@ The table contains information about:‌
 
 * **Time** – Date and time of the Action
 * **Organization Name**
-* **Client** – _\*\*_Android, iOS, Web, HTTPS API, Automation, Alexa, Google Home, Other
+* **Client** – \_\*\*\_Android, iOS, Web, HTTPS API, Automation, Alexa, Google Home, Other
 * **Action Name**
 * **Action Code**
 

@@ -6,8 +6,7 @@ Webhooks could be found in the **Developers** section of the **Settings** menu:
 
 ![](../../../.gitbook/assets/webhooks.png)
 
-If you don't see this section, this means you don't have permissions to access the webhooks.
-Please contact your administrator for the access rights.
+If you don't see this section, this means you don't have permissions to access the webhooks. Please contact your administrator for the access rights.
 
 In the view above you can find 5 specific columns:
 
