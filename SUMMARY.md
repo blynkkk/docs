@@ -160,6 +160,7 @@
 * [Library API](blynk.edgent/api/README.md)
   * [Configuration](blynk.edgent/api/configuration.md)
   * [Connection Management](blynk.edgent/api/connection-management.md)
+  * [Digital/Analog pins](blynk.edgent/api/digital-analog-pins.md)
   * [Virtual Pins](blynk.edgent/api/virtual-pins.md)
   * [Trigger Event](blynk.edgent/api/log-event.md)
   * [Timer](blynk.edgent/api/blynk-timer.md)
