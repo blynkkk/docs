@@ -12,7 +12,7 @@ There are two sections: left one contains **Design properties setup** and on the
 
 Different colors for 5 elements types can be set:
 
-* **Brand Primary Color**  – represents Organization's Brand color and is used mostly outside Web Dashboard on registration pages buttons and inside invitation Emails \(background + Create Password button, etc.\). Also it's applied to Web Dashboard main navigation panel Organizations and Products tiles.
+* **Brand Primary Color**  – represents Organization's Brand color and is used mostly outside Web Dashboard on registration pages buttons and inside invitation Emails \(background + Create Password button, etc.\). Also it's applied to Web Dashboard main navigation panel Organizations and Template tiles.
 * **Primary Color**  – marks main actions, highlights clickable menus, options on cursor hover and selected view options \(such as navigation structure points or widgets view switches\)
 * **Positive Color** – shows succesfully applied changes confirmation
 * **Warning Color** – is used for warning information text blocks notation

@@ -3,7 +3,7 @@
 This tab represents selected datastreams chart.
 
 {% hint style="info" %}
-To add datastream to the selection list allow it to [save RAW data](../../products/datastreams/datastreams-common-settings/save-raw-data.md) during Template datastreams setup.
+To add datastream to the selection list allow it to [save RAW data](../../templates/datastreams/datastreams-common-settings/save-raw-data.md) during Template datastreams setup.
 {% endhint %}
 
 ![](../../../.gitbook/assets/device_service.gif)

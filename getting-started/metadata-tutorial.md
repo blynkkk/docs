@@ -16,7 +16,7 @@ For example, a Serial Number Metadata field can be attached to every device, but
 
 1. Click **Add Metadata**.
 
-   Choose the most relevant [type ](../blynk.console/products/metadata/metadata-types.md)for every metadata input. For example, if you would need to associate Serial Number with every product, add the “Number” metadata field.
+   Choose the most relevant [type ](../blynk.console/templates/metadata/metadata-types.md)for every metadata input. For example, if you would need to associate Serial Number with every product, add the “Number” metadata field.
 
 2. Set it up and click **Create** button once you've finished with this characteristic
 

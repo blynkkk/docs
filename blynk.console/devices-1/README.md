@@ -70,7 +70,7 @@ New Device modal window will open:
 3. Click **Create** button to confirm the action.
 
 _**Done!**_  
-All the settings with their default values will be taken from [Template](../products/).  
+All the settings with their default values will be taken from [Template](../templates/).  
 [Device View](device-view/) will be opened.
 
 ### Single actions \(hover to the right of each row\):
@@ -89,7 +89,7 @@ All the settings with their default values will be taken from [Template](../prod
 
 ![transfer](https://user-images.githubusercontent.com/72824404/120641371-3343c400-c47c-11eb-8a5d-a66ec4290d30.png)
 
-* **Edit Product Dashboard** – redirects to [Template Dashboard](../products/dashboard/) edit section \(Admin role required\)
+* **Edit Product Dashboard** – redirects to [Template Dashboard](../templates/dashboard/) edit section \(Admin role required\)
 * **Notification settings** – opens quick setup drawer for [Notifications Management](../../getting-started/notification-management/) 
 * **Erase data** \(critical action!\) _\*\*_– deletes of Device Data that was sent/received by Device and API.
 * **Delete Device owner** \(critical action!\) – unassignes Device from previous Device Owner.

@@ -3,7 +3,7 @@
 [Product ](../glossary.md#p)is a complex solution consisting of various functions that need to be configured.  
 [Blynk.Console](../blynk.console/for-developers/) allows you to create a digital model of your product for web and mobile platforms.
 
-Please follow these steps to create your product [Template](https://docs.blynk.io/en/blynk.console/for-developers/products) and configure it's basic functions:
+Please follow these steps to create your product [Template](https://docs.blynk.io/en/blynk.console/for-developers/templates) and configure it's basic functions:
 
 ## [Sign Up](getting-started/sign-up.md)
 
@@ -14,7 +14,7 @@ Please mind that Templates are created in Blynk.Console generally and then are c
 
 ## Create a Template
 
-1. Open [Templates](https://docs.blynk.io/en/blynk.console/for-developers/products) section
+1. Open [Templates](https://docs.blynk.io/en/blynk.console/for-developers/templates) section
 
 ![](https://lh4.googleusercontent.com/W0PX2U7dcqhJHNzVAu1zkr9vqT8hJVT9g-ZUp-Ql7g9WzY6GMxQ4TEcLpJf-72AGTH9A0keen7X4p7DLWjlvbaI_IKDGzrgW-FUECGMzbMqlBZdtBfTTocol5JpYBJPl8n44uHn1)
 
@@ -26,25 +26,25 @@ Please mind that Templates are created in Blynk.Console generally and then are c
 
 ![](../.gitbook/assets/create_new_template_modal.png)
 
-4. Provide basic [Information](https://docs.blynk.io/en/blynk.console/for-developers/products/info) about the product you want to create:
+4. Provide basic [Information](https://docs.blynk.io/en/blynk.console/for-developers/templates/info) about the product you want to create:
 
 ![](https://lh3.googleusercontent.com/1iE8NoNVTJYhrB04e5ufTMNLoNy459h_5Ds0h6THt0IhIHsbTvcNujZKShuqTyKXVjHiX1uapd7Qbne09d6TGpi7CsLmqGk23uKSLcwtwJhdVaucfD2Ey678Xge4ksBzJeMjKHyP)
 
-5. Set up your product's [Metadata](https://docs.blynk.io/en/blynk.console/for-developers/products/metadata) that will describe user's device or environment settings.
+5. Set up your product's [Metadata](https://docs.blynk.io/en/blynk.console/for-developers/templates/metadata) that will describe user's device or environment settings.
 
 ![](https://lh3.googleusercontent.com/q2tUJ1bbLclISMu2QRItpT3WVg1prd5RT6nECoeUymKW8MZVugC3jR4Mc8Hfg7Qmw_YYi2-7sWu29QI0nWDoi4YqCx110BAvXdQ_XEHIcyjQycGToMTWeSRUOJGhU_fxZB6ugsuT)
 
 
 
-6. Configure [Datastreams](../blynk.console/for-developers/products/datastreams/) that you would like to use with your product Devices.
+6. Configure [Datastreams](../blynk.console/for-developers/templates/datastreams/) that you would like to use with your product Devices.
 
 ![](https://lh5.googleusercontent.com/V3BzYP__ze9sdfXMxFxhKUzky6DpYlc4cvb_sLrjMSmjTwSaTJA_0OxnBQ1aSABh6ITpZ37I6ABxPNaN0eJ2qFwU_kqd_K9jBonH9JuPNnOCK_BTVtjfunhod82vRwCJOSrfUThJ)
 
-7. Create [Events](https://docs.blynk.io/en/blynk.console/for-developers/products/events) for your product if you want to monitor devices current status and inform about important events.
+7. Create [Events](https://docs.blynk.io/en/blynk.console/for-developers/templates/events) for your product if you want to monitor devices current status and inform about important events.
 
 ![](https://lh3.googleusercontent.com/MBvKHipg7K7Ee3Ashup4Ct7IfRYMQtKQ38qyGBA0mbStoCxzclQnFDk5NduRoLD6eBtak-0yO4PgWADIHL8wah_ScJKBHLAXGf_5UmPfkdO431mw0zctVko2HgaXTrPBlmwIrJRP)
 
-8. Set up [Dashboard](https://docs.blynk.io/en/blynk.console/for-developers/products/dashboard) for your product that will ease your devices interaction for users
+8. Set up [Dashboard](https://docs.blynk.io/en/blynk.console/for-developers/templates/dashboard) for your product that will ease your devices interaction for users
 
 ![](https://lh3.googleusercontent.com/d1P5i2hHBaqWVwG5dx1ozOpajNagRFFt4nKR1KdtXTULRpdvcKJ-K2WzQ_iqbkcEuFjyo-9mZAQYAeYc-EovGluPXGPRYnMAZRf2xEfTfNKDc6tHCrUTfP7OSSVZjVcriuFa8cYu)
 
@@ -61,7 +61,7 @@ Please mind that Templates are created in Blynk.Console generally and then are c
 ## Configure your board:
 
 1. Open Dynamic Provisioning Template: - [ESP8266 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Inject/Template_ESP8266)- [ESP32 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Inject/Template_ESP32)- [MKR1000 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Inject/Template_MKR1000)- [MKR1010](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Inject/Template_MKR1010) 
-2. Specify [TMPLID](https://docs.blynk.io/en/blynk.console/for-developers/products/info/template-ids), [SSID WiFi](../blynk.console/for-developers/products/info/hotspot-prefix.md) and Board Name in the [sketch](connecting-arduino-devices.md)
+2. Specify [TMPLID](https://docs.blynk.io/en/blynk.console/for-developers/templates/info/template-ids), [SSID WiFi](../blynk.console/for-developers/templates/info/hotspot-prefix.md) and Board Name in the [sketch](connecting-arduino-devices.md)
 3. Flash this template to your board
 
 ### Congratulations, you have configured your Product and it is ready to use!

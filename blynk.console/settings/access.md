@@ -72,9 +72,9 @@ Blynk has 3 roles that can have different permissions sets:
 * Create New Firmware Shipment -&gt; Create new firmware shipments
 * Stop/Pause Shipment -&gt; Stop/pause shipments
 
-#### Products
+#### Templates
 
-* View products \(currently it's under "Add new products"\)
+* View templates \(currently it's under "Add new template"\)
 
 #### Organizations
 

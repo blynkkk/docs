@@ -5,10 +5,10 @@ description: How to set up notifications for a single device or for a selection 
 # Get Notifications
 
 {% hint style="info" %}
-Note: notifications work as part of [Events](../blynk.console/products/events/). Before moving forward:
+Note: notifications work as part of [Events](../blynk.console/templates/events/). Before moving forward:
 
 1. Make sure your template has at least one Event configured
-2. Make sure that [Notifications are enabled](../blynk.console/products/events/custom-events/events-notification-settings.md) for this Event
+2. Make sure that [Notifications are enabled](../blynk.console/templates/events/custom-events/events-notification-settings.md) for this Event
 {% endhint %}
 
 ## Setting notifications for multiple devices
@@ -26,7 +26,7 @@ In the opened drawer select the desired events to edit \(4\)  -&gt; **Edit Setti
 ![](https://user-images.githubusercontent.com/72824404/119675163-79c66c80-be45-11eb-93d1-71f02150a0b0.png)
 
 {% hint style="warning" %}
-If the list of events is empty or you don't see the **Edit Settings** button, make sure that [Notifications are enabled](../blynk.console/products/events/custom-events/events-notification-settings.md) for this Event in the Device Template
+If the list of events is empty or you don't see the **Edit Settings** button, make sure that [Notifications are enabled](../blynk.console/templates/events/custom-events/events-notification-settings.md) for this Event in the Device Template
 {% endhint %}
 
 ![](https://user-images.githubusercontent.com/72824404/119676364-797aa100-be46-11eb-98e6-c8a4a16ae06e.png)

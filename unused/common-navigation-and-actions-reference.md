@@ -13,7 +13,7 @@ Menu sections:
 * [Search](../blynk.console/search.md)
 * [Analytics](analytics.md)
 * [Orders]()
-* [Products / Templates](../blynk.console/products/)
+* [Templates](../blynk.console/templates/)
 * [Organization](../blynk.console/organizations.md)
 * [Blynk.Air](../blynk.console/blynk.air/)
 * [Rule Engine](rule-engine.md)
@@ -50,7 +50,7 @@ _Actions:_
 
 * **Save** button – saves changes on the form
 * **Cancel** button – cancels changes on the form
-* **Delete** button \(available in Products and Organizations edit modes\)– deletes selected entity
+* **Delete** button \(available in Templates and Organizations edit modes\)– deletes selected entity
 
 ## Actions Menu
 
@@ -91,7 +91,7 @@ Modals have the following structure:
 
 Table is the main type of data display in Blynk.Console. 
 
-![](../.gitbook/assets/products_table.png)
+![](../.gitbook/assets/organizations_table.png)
 
 Table contents and actions:
 

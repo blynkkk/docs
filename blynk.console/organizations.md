@@ -2,7 +2,7 @@
 description: >-
   Basically Organizations are digital representations of real companies on Blynk
   Platform. Think or Organization as of an instance for group of users who use
-  same sets of Products and Devices.
+  same sets of Templates and Devices.
 ---
 
 # Organizations
@@ -22,7 +22,7 @@ description: >-
 ## Templates
 
 This screen with tiles view contains all the Templates available to Organization.  
-Click **Edit** to add/remove Templates by _**clicking the tiles**_. Active Products are marked with green tick, disabled have tiles with reduced colors. Once the changes are made click **Save**.
+Click **Edit** to add/remove Templates by _**clicking the tiles**_. Active Templates are marked with green tick, disabled have tiles with reduced colors. Once the changes are made click **Save**.
 
 ![](../.gitbook/assets/prod_tiles.png)
 

@@ -32,7 +32,7 @@ While articles contents are stored inside `*.md` files description to directorie
 ## Article or Directory description formatting style
 
 * When writing an article explain each object giving maximum information shortly.
-* Use headers, paragraphs and lists to make it easier to read. [Example](https://github.com/blynkkk/docs/blob/main/blynk.console/for-developers/products/dashboard/Chart.md)
+* Use headers, paragraphs and lists to make it easier to read. [Example](https://github.com/blynkkk/docs/blob/main/blynk.console/for-developers/templates/dashboard/Chart.md)
 * Provide the pictures in cases it can ease user's search of some specific buttons \(such as `Action`, `Tags` or `Map View` buttons\) or to give explanation to separate screen sections \(such as `Main Tabs switches`, `Devices List`, `Device View`\) 
 
 ## Link new Article or Directory to main structure

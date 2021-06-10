@@ -4,9 +4,9 @@
 
 Go to [Dashboard ](../../blynk.console/devices/device-profile/dashboard.md)Tab and drag-n-drop these widgets to the canvas:
 
-* [Switch](../../blynk.console/products/dashboard/switch.md)
-* [Label](../../blynk.console/products/dashboard/label.md)
-* [Chart](../../blynk.console/products/dashboard/chart.md)
+* [Switch](../../blynk.console/templates/dashboard/switch.md)
+* [Label](../../blynk.console/templates/dashboard/label.md)
+* [Chart](../../blynk.console/templates/dashboard/chart.md)
 
 Drag and drop them to Dashboard Preview window:
 
