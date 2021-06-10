@@ -96,7 +96,7 @@ At the top left corner, there's a **Profile** icon that will open the main menu 
 * **My profile** – here you can change your name, password, or delete your account.
 * **Organization settings** – \_\*\*\_here you can change the organization name, description, and timezone.
 * **Members** – here you can invite new users to an organization by sending them an Email
-* **Switch organization** – if you have other [organizations]() created, you can switch to and from them using this switch.
+* **Switch organization** – if you have other [organizations](overview.md) created, you can switch to and from them using this switch.
 
 ## **Right menu**
 

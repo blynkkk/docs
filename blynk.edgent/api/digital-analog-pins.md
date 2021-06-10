@@ -1,4 +1,4 @@
-# Digital/Analog pins
+# Digital/Analog Pins
 
 
 
