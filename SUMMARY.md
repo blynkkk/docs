@@ -171,16 +171,16 @@
   * [Debug](blynk.edgent/api/debug.md)
   * [Other](blynk.edgent/api/other.md)
 
-## BLYNK.CLOUD \(HTTPS API\) <a id="https-api"></a>
+## BLYNK.CLOUD \(HTTPS API\) <a id="blynk.cloud"></a>
 
-* [Overview](https-api/https-api-overview.md)
-* [Get Datastream Value](https-api/get-datastream-value.md)
-* [Update Datastream Value](https-api/update-datastream-value.md)
-* [Batch Update of the Datastreams](https-api/batch-update-values.md)
-* [Update Widget Property](https-api/update-property.md)
-* [Log Event](https-api/trigger-events.md)
-* [Get Device Report](https-api/get-device-report.md)
-* [HTTPS API Troubleshooting](https-api/troubleshooting.md)
+* [Overview](blynk.cloud/https-api-overview.md)
+* [Get Datastream Value](blynk.cloud/get-datastream-value.md)
+* [Update Datastream Value](blynk.cloud/update-datastream-value.md)
+* [Batch Update of the Datastreams](blynk.cloud/batch-update-values.md)
+* [Update Widget Property](blynk.cloud/update-property.md)
+* [Log Event](blynk.cloud/trigger-events.md)
+* [Get Device Report](blynk.cloud/get-device-report.md)
+* [HTTPS API Troubleshooting](blynk.cloud/troubleshooting.md)
 
 ## Troubleshooting
 

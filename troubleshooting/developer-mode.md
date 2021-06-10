@@ -38,7 +38,7 @@
 
 **What’s the solution:**
 
-* follow [HTTPS guides](https://docs.blynk.io/en/https-api/update-datastream-value) attentively  
+* follow [HTTPS guides](https://docs.blynk.io/en/blynk.cloud/update-datastream-value) attentively  
 * be sure to send the requests to the correct server  
 * check all the inputs to be corrent in the request and to be present in the template _\(also there's a hint on what exactly went wrong in a result field of Postman or web page body\)_
 
