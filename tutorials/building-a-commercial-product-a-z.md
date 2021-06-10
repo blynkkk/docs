@@ -50,9 +50,9 @@ Please mind that Templates are created in Blynk.Console generally and then are c
 
 ## Link mobile dashboard with your product:
 
-1. Open [Blynk.App](../mobile-applications/overview.md)
+1. Open [Blynk.App](../blynk.app/overview.md)
 2. Log In to your account
-3. Switch to [Developer Mode](../mobile-applications/developer-mode/)
+3. Switch to [Developer Mode](../blynk.app/developer-mode/)
 4. Add a new Template 
 5. Link it to your Product 
 6. Add the widgets you need and assign them Datastreams
@@ -66,6 +66,6 @@ Please mind that Templates are created in Blynk.Console generally and then are c
 
 ### Congratulations, you have configured your Product and it is ready to use!
 
-Now all that remains is to [add your test board using Blynk.App](../mobile-applications/device-management/add-new-device.md), make sure it works as you expect, and integrate your code.  
+Now all that remains is to [add your test board using Blynk.App](../blynk.app/device-management/add-new-device.md), make sure it works as you expect, and integrate your code.  
 ****
 

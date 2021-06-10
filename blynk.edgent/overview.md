@@ -12,7 +12,7 @@ Blynk.Edgent is a lightweight library that runs on the hardware.
 * [Sending and receiving data](api/virtual-pins.md)
 * Firmware API to work with applications
 * [FOTA](../blynk-console/blynk.air/)
-* [WiFi Provisioning ](../mobile-applications/device-management/add-new-device.md)
+* [WiFi Provisioning ](../blynk.app/device-management/add-new-device.md)
 
 \*\*\*\*
 

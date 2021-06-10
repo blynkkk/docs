@@ -74,7 +74,7 @@ Once you've finished with Profile setup your Sign Up is complete and you can add
 
 {% hint style="success" %}
 Once you've logged in, Devices tab will be opened.  
-Here you can [add ](../mobile-applications/device-management/add-new-device.md)and [view and manage](../mobile-applications/device-management/) your devices or switch to [Developer Mode](developer-mode.md).
+Here you can [add ](../blynk.app/device-management/add-new-device.md)and [view and manage](../blynk.app/device-management/) your devices or switch to [Developer Mode](developer-mode.md).
 {% endhint %}
 
 ![Devices tab](https://user-images.githubusercontent.com/72790181/119994276-1e2ae900-bfd5-11eb-887d-9194923f444b.png)

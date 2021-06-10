@@ -133,23 +133,23 @@
   * [Integrations](blynk-console/settings/integrations.md)
 * [User Profile](blynk-console/user-profile.md)
 
-## Blynk.App <a id="mobile-applications"></a>
+## Blynk.App <a id="blynk.app"></a>
 
-* [Overview](mobile-applications/overview.md)
-* [Mobile Dashboard Editor](mobile-applications/constructor.md)
-* [Widgets](mobile-applications/widgets/README.md)
-  * [Common Widget Settings](mobile-applications/widgets/common-widget-settings.md)
-* [Main Menu](mobile-applications/profile-management/README.md)
-  * [My Profile](mobile-applications/profile-management/my-profile.md)
-  * [My Organization](mobile-applications/profile-management/organization-management/README.md)
-    * [User Management](mobile-applications/profile-management/organization-management/user-management.md)
-  * [Profile Settings](mobile-applications/profile-management/settings.md)
-* [Devices](mobile-applications/device-management/README.md)
-  * [Add new Device](mobile-applications/device-management/add-new-device.md)
-  * [Widgets](mobile-applications/device-management/widgets.md)
-* [Groups](mobile-applications/group-management.md)
-* [Automations](mobile-applications/automations.md)
-* [Alerts](mobile-applications/alerts.md)
+* [Overview](blynk.app/overview.md)
+* [Mobile Dashboard Editor](blynk.app/constructor.md)
+* [Widgets](blynk.app/widgets/README.md)
+  * [Common Widget Settings](blynk.app/widgets/common-widget-settings.md)
+* [Main Menu](blynk.app/profile-management/README.md)
+  * [My Profile](blynk.app/profile-management/my-profile.md)
+  * [My Organization](blynk.app/profile-management/organization-management/README.md)
+    * [User Management](blynk.app/profile-management/organization-management/user-management.md)
+  * [Profile Settings](blynk.app/profile-management/settings.md)
+* [Devices](blynk.app/device-management/README.md)
+  * [Add new Device](blynk.app/device-management/add-new-device.md)
+  * [Widgets](blynk.app/device-management/widgets.md)
+* [Groups](blynk.app/group-management.md)
+* [Automations](blynk.app/automations.md)
+* [Alerts](blynk.app/alerts.md)
 
 ## Blynk.Edgent
 

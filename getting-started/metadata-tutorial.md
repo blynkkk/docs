@@ -32,7 +32,7 @@ For example, a Serial Number Metadata field can be attached to every device, but
 You can edit Product's Metadata settings any time you need it by following the steps above.
 {% endhint %}
 
-## 3. [Add Device](../mobile-applications/device-management/add-new-device.md) and provide it's Metadata
+## 3. [Add Device](../blynk.app/device-management/add-new-device.md) and provide it's Metadata
 
 1. During the provision there will be prompts to input Device Metadata:
 

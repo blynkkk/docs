@@ -55,7 +55,7 @@ A new Template is now created. On this screen notice **Template ID** and **Firmw
 
 ## 5. **Set Up Mobile Dashboard**
 
-1. Open [Blynk.App](../../mobile-applications/overview.md)
+1. Open [Blynk.App](../../blynk.app/overview.md)
 2. Log In to your account
 3. Switch to [Developer Mode](../developer-mode.md)
 4. Find a template you just created on the web and tap on it.
@@ -68,5 +68,5 @@ A new Template is now created. On this screen notice **Template ID** and **Firmw
 
 ### Congratulations, you have configured your Product and it is ready to use!
 
-Now all that remains is to [add your test board using Blynk.App](../../mobile-applications/device-management/add-new-device.md), make sure it works as you expect, and integrate your code.
+Now all that remains is to [add your test board using Blynk.App](../../blynk.app/device-management/add-new-device.md), make sure it works as you expect, and integrate your code.
 

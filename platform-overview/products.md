@@ -30,7 +30,7 @@ Blynk.app is a white-label solution.
 
 [Install Blynk app for iOS or Android](../downloads/blynk-apps-for-ios-and-android.md)
 
-Full documentation on Blynk.App is [here](../mobile-applications/overview.md)
+Full documentation on Blynk.App is [here](../blynk.app/overview.md)
 
 ## Blynk.Edgent
 
