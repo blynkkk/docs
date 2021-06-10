@@ -1,6 +1,6 @@
 # Webhooks
 
-Webhooks could be found in the **Developers* section of the *Settings* menu:
+Webhooks could be found in the **Developers** section of the **Settings** menu:
 
 ![](../../../.gitbook/assets/webhook-menu.png)
 
