@@ -22,7 +22,7 @@ Tap **Device tile** to open it's Dashboard. Here you can view and interract with
 
 ![Timeline](https://user-images.githubusercontent.com/72790181/119669742-f7d44480-be40-11eb-8374-9162ffef0960.png)
 
-**Timeline** tab displays all events related to this device. Events are also displayed in the Alerts tab
+**Timeline** tab displays all events related to this device. Events are also displayed in the Notifications tab
 
 ![Device settings](https://user-images.githubusercontent.com/72790181/119669773-fc98f880-be40-11eb-986e-1e8fa128075d.png)
 

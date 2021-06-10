@@ -8,7 +8,7 @@ Blynk 0.1 is still maintained, but it's no longer receiving new features. Docume
 
 Blynk is a full suite of software required to prototype, deploy, and remotely manage connected electronic devices at any scale: from personal IoT projects to millions of commercial connected products.
 
-With Blynk anyone can connect their hardware to the cloud and build a no-code iOS, Android, and web applications to analyze real-time and historical data coming from devices, control them remotely from anywhere in the world, receive important alerts, and much more…
+With Blynk anyone can connect their hardware to the cloud and build a no-code iOS, Android, and web applications to analyze real-time and historical data coming from devices, control them remotely from anywhere in the world, receive important notifications, and much more…
 
 Blynk is a [multi-tenant](concepts/multi-tenant-tree-structure.md) solution. You can configure how users get access to the data by setting roles and configuring permissions.
 

@@ -144,7 +144,7 @@
   * [Widgets](blynk.apps/device-management/widgets.md)
 * [Groups](blynk.apps/group-management.md)
 * [Automations](blynk.apps/automations.md)
-* [Alerts](blynk.apps/alerts.md)
+* [Notifications](blynk.apps/notifications.md)
 
 ## Blynk.Edgent
 

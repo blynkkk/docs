@@ -52,7 +52,7 @@ You can automate your connected devices with the following triggers:
 
 ![Notifications tab](https://user-images.githubusercontent.com/72790181/119659055-7a0b3b80-be36-11eb-8eeb-8eaf4f27957a.png)
 
-The list of notificatios and important alerts from all devices will be here.
+The list of notifications from all devices will be here.
 
 {% hint style="info" %}
 In order to be listed here, the template should have the [Event](../blynk.console/templates/events/) configured and the event should be [triggered](../blynk.console/templates/events/custom-events/events--how-to-log-events.md) in the device.
