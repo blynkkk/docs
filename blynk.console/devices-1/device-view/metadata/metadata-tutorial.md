@@ -4,7 +4,7 @@ Metadata is a table of `key:value` data attached to every device. `Keys` are sta
 
 For example, a Serial Number Metadata field can be attached to every device, but the actual value is different.
 
-## **1.** [Create a Template](../../../../getting-started/working-with-templates/) or use an existing one
+## **1.** [Create a Template](../../../../getting-started/template-quick-setup/) or use an existing one
 
 ## **2. Create Metadata**
 

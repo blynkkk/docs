@@ -14,7 +14,7 @@ Examples of an Event:
 Events that happened can be viewed on the device dashboard in web and mobile apps in the [Timeline](../blynk.console/devices/device-profile/timeline.md).  
 
 
-### 1. [Create a Template](working-with-templates/) or use an existing one
+### 1. [Create a Template](template-quick-setup/) or use an existing one
 
 ### 2. Create Event
 

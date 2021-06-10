@@ -7,7 +7,7 @@ A code example for ESP32/ ESP8266 / Arduino boards
 ## 3 simple steps to configure your code:
 
 1. [Install Blynk library](http://help.blynk.cc/en/articles/512105-how-to-install-blynk-library-for-arduino-ide)
-2. Specify [Template ID and Template Name](https://github.com/blynkkk/docs/tree/7a3c08cef5784864e5581561ccda90b394717039/getting-started/working-with-templates/getting-started/working-with-templates/prepare-code.md) in your firmware
+2. Specify [Template ID and Template Name](https://github.com/blynkkk/docs/tree/7a3c08cef5784864e5581561ccda90b394717039/getting-started/template-quick-setup/getting-started/template-quick-setup/prepare-code.md) in your firmware
 3. Upload this sketch into your test board
 
 **Final step:** [Provision your board via Dynamic Provisioning flow](https://docs.blynk.io/en/getting-started/activating-devices#3-add-device) and add it to your account using Blynk app

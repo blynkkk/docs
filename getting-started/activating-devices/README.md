@@ -3,7 +3,7 @@
 This tutorial will explain how to get your first Blynk device online.
 
 {% hint style="info" %}
-Make sure you have at least one Template setup as described [here](../working-with-templates/).
+Make sure you have at least one Template setup as described [here](../template-quick-setup/).
 {% endhint %}
 
 ## **Add Device**

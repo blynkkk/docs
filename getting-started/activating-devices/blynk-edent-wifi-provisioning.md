@@ -86,7 +86,7 @@ In the sketch variables `BLYNK_TEMPLATE_ID` and `BLYNK_DEVICE_NAME` are empty. T
 {% endhint %}
 
 1. Log in to your [Blynk.Console](https://blynk.cloud/) developer account  
-2. Go to Templates -&gt; [Create New Template](../working-with-templates/#create-a-template) or open existing template  
+2. Go to Templates -&gt; [Create New Template](../template-quick-setup/#create-a-template) or open existing template  
 3. Copy the Firmare Configuration code lines
 
    ![](https://lh6.googleusercontent.com/x2ZHNOv1TA7jPkQtujqBWmn3_mtQr5yxkgZ-0JZF7T7pIndKZHTu0glkkblS3sEd4XV1KAo0ZaljY3dm73AA8aKghwdALd7rKiELWm3v0xjoCJ1Li6wjzsoOP_oCjMBysQ31QBNp)
