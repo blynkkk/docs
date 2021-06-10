@@ -22,7 +22,7 @@ This is the first screen you see after signing into Blynk.Console Web Dashboard.
 * [Locations](locations/) \(can be [changed](settings/application-settings/general.md) to Job Site or Facility\)
   * **My Locations** – view Locations created by your organization users
   * **All** – view all Locations available \(created by your organization and sub-organizations members\)
-* [Organizations](organizations-1.md)
+* [Organizations](organizations.md)
   * **My Organizations** – view all organizations you have access to
   * No devices – view organizations \(you're allowed to access\) that contain no devices
   * No users – view organizations \(you're allowed to access\) that contain no users
