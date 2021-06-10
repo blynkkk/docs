@@ -1,4 +1,4 @@
-# Updating Firmware Over-The-Air
+# Firmware Over-The-Air
 
 ## Compile a Firmware binary file
 

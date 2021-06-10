@@ -37,7 +37,7 @@
 * [Send Device Data to Blynk](getting-started/using-virtual-pins-to-control-physical-devices.md)
 * [Log Events](getting-started/events-tutorial.md)
 * [Get Notifications](getting-started/notification-management.md)
-* [Updating Firmware Over-The-Air](getting-started/updating-devices-firmwares-ota.md)
+* [Firmware Over-The-Air](getting-started/updating-devices-firmwares-ota.md)
 * [Metadata Tutorial](getting-started/metadata-tutorial.md)
 
 ## Blynk.Console
