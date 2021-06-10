@@ -1,13 +1,15 @@
 # Webhooks
 
+Webhooks could be found in the **Developers* section of the *Settings* menu:
+
+![](../../../.gitbook/assets/webhook-menu.png)
+
 ![](../../../.gitbook/assets/webhooks.png)
 
-## Table contents
-
-5 specific columns, table view order can be sorted by any of them.
+In the view above you can find 5 specific columns:
 
 * **Webhook name**
-* **Status** _–_ webhooks can be enabled or disabled for execution
+* **Status** – webhooks can be enabled or disabled for execution
 * **Trigger event** – displays the action that causes the webhook to run
 * **Last triggered** – displays last execution time in hh:mm:ss M D, Y format \(current year is hidden\)
 * **Attempts** – counter of all \(_successful, failed, test, real action_\) attempts to execute the webhook
