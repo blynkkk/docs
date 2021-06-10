@@ -16,7 +16,7 @@
 Is `MONTH` by default. Other possible options: `HOUR`, `DAY`, `WEEK`, `THREE_MONTHS`
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="granularityType" type="string" required=true %}
+{% api-method-parameter name="granularityType" type="string" required=false %}
 Is `RAW_DATA` by default. \( `RAW_DATA` is not supported for the `THREE_MONTH` period! \). Other possible values: `MINUTE`, `HOURLY`, `DAILY`
 {% endapi-method-parameter %}
 

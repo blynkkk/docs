@@ -22,13 +22,11 @@ By default, the _\*\*_first user in Organization becomes a Developer
 Currently, only one developer is allowed per Organization to avoid sync issues. This limit might be changed later.
 {% endhint %}
 
-## \*\*\*\*
+
 
 ### **End-users \(also Clients\)**
 
 These users can add devices and use the platform's functionality based on their role and set of permissions, but they can't edit any configurations made by the Developer.
-
-\*\*\*\*
 
 ### **Partners**
 
