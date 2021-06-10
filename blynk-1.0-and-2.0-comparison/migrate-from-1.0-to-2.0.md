@@ -17,6 +17,6 @@ You will need to [create a new account](https://blynk.cloud/) and re-create new 
 Here are some things you should take into account:
 
 * **Eventor widget** has been replaced with **Automations**
-* Bluetooth/BLE connections are currently not available in **Blynk.App**
+* Bluetooth/BLE connections are currently not available in **Blynk.Apps**
 * **Bridge widget** has been replaced with **Rule Engine** \(not released yet\)
 

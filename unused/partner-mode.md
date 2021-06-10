@@ -41,7 +41,7 @@ As an administrator of client organization you can request assistance from your 
 
 ![](../.gitbook/assets/invite_partner.gif)
 
-Your Partner will receive an Email about your request and your card will appear in his Blynk.App Clients tab with "Pending Invitation" status. 
+Your Partner will receive an Email about your request and your card will appear in his Blynk.Apps Clients tab with "Pending Invitation" status. 
 
 {% hint style="info" %}
 You can recall the access anytime. 

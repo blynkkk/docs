@@ -14,6 +14,7 @@ The four major components of the Blynk IoT Platform are:
 
 * **Blynk.Cloud**
 * **Blynk.Edgent**
-* **Blynk.Apps**
+* **Blynk.Apps***
 * **Blynk.Console**
+* **Blynk.Air***
 

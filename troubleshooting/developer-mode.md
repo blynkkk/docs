@@ -42,7 +42,7 @@
 * be sure to send the requests to the correct server  
 * check all the inputs to be corrent in the request and to be present in the template _\(also there's a hint on what exactly went wrong in a result field of Postman or web page body\)_
 
-## I can't see enumerable datastreams in Blynk.App
+## I can't see enumerable datastreams in Blynk.Apps
 
 **What could be the reason:**
 
@@ -51,10 +51,10 @@
 **What’s the solution:**
 
 * view full metadata list in Blynk.Console
-* wait for Blynk.App list of widgets that support enumerable datastreams to expand 
-* keep Blynk.App up to date
+* wait for Blynk.Apps list of widgets that support enumerable datastreams to expand 
+* keep Blynk.Apps up to date
 
-## I can't add an image to Blynk.App widget
+## I can't add an image to Blynk.Apps widget
 
 **What could be the reason:**
 

@@ -2,7 +2,7 @@
 
 ## **Dynamic provisioning support**
 
-With dynamic provisioning, you can use Blynk.App to configure connection credentials for each device. You can use the same firmware binary for all of the devices of the same type.
+With dynamic provisioning, you can use Blynk.Apps to configure connection credentials for each device. You can use the same firmware binary for all of the devices of the same type.
 
 * **ESP32** - with OTA support
 * **ESP8266** - with OTA support

@@ -16,7 +16,7 @@ description: Terminology used in Blynk
 
 `Blynk.Console` - a web application to configure devices, manage users, organizations...
 
-`Blynk.App` - a mobile app available for iOS and Android
+`Blynk.Apps` - a mobile app available for iOS and Android
 
 `Blynk.Air` - a Blynk Service that manages firmware-over-the-air updates.
 

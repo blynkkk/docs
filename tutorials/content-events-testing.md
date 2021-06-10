@@ -61,7 +61,7 @@ You will see all the content of this notification
 
 **Mobile app:**
 
-1. Sign in to Blynk.App
+1. Sign in to Blynk.Apps
 2. Go to the Alerts tab \(29\)
 3. Follow this link \(30\)
 

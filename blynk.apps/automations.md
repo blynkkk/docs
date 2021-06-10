@@ -9,7 +9,7 @@ Automations are replacement for old Blynk TimeInput, Timer, Bridge and Eventor w
 {% endhint %}
 
 {% hint style="warning" %}
-Automations should be [enabled in Template settings](../blynk.console/products/datastreams/datastreams-common-settings/automation.md) first. Otherwise Automation tab will be unavailable in Blynk.App
+Automations should be [enabled in Template settings](../blynk.console/products/datastreams/datastreams-common-settings/automation.md) first. Otherwise, Automation tab will be unavailable in Blynk.Apps
 {% endhint %}
 
 ![No automations](https://user-images.githubusercontent.com/72790181/120281222-57a77100-c2c1-11eb-82fc-5d872520671f.png)

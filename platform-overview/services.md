@@ -11,7 +11,7 @@ A micro-service for:
 1. Claiming device ownership by users and organizations
 2. Provisioning devices with WiFi credentials so they can connect to the end-user WiFi networks.
 3. Managing Authentication Tokens
-4. UX flow to guide end-users through the process of claiming and provisioning with the help of Blynk.app
+4. UX flow to guide end-users through the process of claiming and provisioning with the help of Blynk.Apps
 
 To get understanding of the Blynk Inject take a look at the below videos:
 

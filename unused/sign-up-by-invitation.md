@@ -43,7 +43,7 @@ Fill all the fields with the relevant data and confirm user invitation with **In
 
 ### 
 
-## Blynk.App
+## Blynk.Apps
 
 * Profile - Organization Name - Members tab - **Invite new Member**
 

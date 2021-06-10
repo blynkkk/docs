@@ -1,5 +1,5 @@
 ---
-description: Blynk.App main functionality
+description: Blynk.Apps main functionality
 ---
 
 # Overview

@@ -48,5 +48,5 @@ On this widget, we will be showing historical data from the device from the `V0`
 Click **Save** button at top right of the screen to save all the changes made to the Template.
 {% endhint %}
 
-Now you can proceed to [Blynk.App dashboard setup](set-up-mobile-app-dashboard.md) or [Prepare Your Code](prepare-code.md)
+Now you can proceed to [Blynk.Apps dashboard setup](set-up-mobile-app-dashboard.md) or [Prepare Your Code](prepare-code.md)
 

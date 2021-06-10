@@ -12,21 +12,21 @@
 
 [Register in Blynk.Console](https://blynk.cloud)
 
-## Blynk.App
+## Blynk.Apps
 
-![Blynk.App](https://user-images.githubusercontent.com/72824404/119525085-e464a300-bd86-11eb-84dc-a4f3de0f7ec9.png)
+![Blynk.Apps](https://user-images.githubusercontent.com/72824404/119525085-e464a300-bd86-11eb-84dc-a4f3de0f7ec9.png)
 
-**Blynk.App** is a multi-functional native iOS and Android mobile application that serves these major functions:
+**Blynk.Apps** is a multi-functional native iOS and Android mobile application that serves these major functions:
 
 1. Remote monitoring and control of connected devices that work with Blynk platform
 2. Configuration of mobile UI during prototyping and production stages
 3. Automate work of connected devices
 
-Blynk.app is a white-label solution.
+Blynk.apps is a white-label solution.
 
 [Install Blynk app for iOS or Android](../downloads/blynk-apps-for-ios-and-android.md)
 
-Full documentation on Blynk.App is [here](../blynk.app/overview.md)
+Full documentation on Blynk.Apps is [here](../blynk.apps/overview.md)
 
 ## Blynk.Edgent
 
@@ -41,7 +41,7 @@ Main functions of Blynk.Edgent are:
 1. Device claiming and Wi-Fi provisioning \(bringing device online and authenticating them with a certain user\)
 2. Connectivity management \(WiFi, Cellular, Ethernet\)
 3. Data transfer between the device and cloud 
-4. API to work with specific Blynk.app and Blynk.cloud features
+4. API to work with specific Blynk.Apps and Blynk.cloud features
 5. Over-the-air firmware updates \(for selected hardware models\)
 
 Full documentation on Blynk.Edgent is [here](../blynk.edgent/overview.md)

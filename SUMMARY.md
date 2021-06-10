@@ -133,23 +133,23 @@
   * [Integrations](blynk.console/settings/integrations.md)
 * [User Profile](blynk.console/user-profile.md)
 
-## Blynk.App <a id="blynk.app"></a>
+## Blynk.Apps <a id="blynk.apps"></a>
 
-* [Overview](blynk.app/overview.md)
-* [Mobile Dashboard Editor](blynk.app/constructor.md)
-* [Widgets](blynk.app/widgets/README.md)
-  * [Common Widget Settings](blynk.app/widgets/common-widget-settings.md)
-* [Main Menu](blynk.app/profile-management/README.md)
-  * [My Profile](blynk.app/profile-management/my-profile.md)
-  * [My Organization](blynk.app/profile-management/organization-management/README.md)
-    * [User Management](blynk.app/profile-management/organization-management/user-management.md)
-  * [Profile Settings](blynk.app/profile-management/settings.md)
-* [Devices](blynk.app/device-management/README.md)
-  * [Add new Device](blynk.app/device-management/add-new-device.md)
-  * [Widgets](blynk.app/device-management/widgets.md)
-* [Groups](blynk.app/group-management.md)
-* [Automations](blynk.app/automations.md)
-* [Alerts](blynk.app/alerts.md)
+* [Overview](blynk.apps/overview.md)
+* [Mobile Dashboard Editor](blynk.apps/constructor.md)
+* [Widgets](blynk.apps/widgets/README.md)
+  * [Common Widget Settings](blynk.apps/widgets/common-widget-settings.md)
+* [Main Menu](blynk.apps/profile-management/README.md)
+  * [My Profile](blynk.apps/profile-management/my-profile.md)
+  * [My Organization](blynk.apps/profile-management/organization-management/README.md)
+    * [User Management](blynk.apps/profile-management/organization-management/user-management.md)
+  * [Profile Settings](blynk.apps/profile-management/settings.md)
+* [Devices](blynk.apps/device-management/README.md)
+  * [Add new Device](blynk.apps/device-management/add-new-device.md)
+  * [Widgets](blynk.apps/device-management/widgets.md)
+* [Groups](blynk.apps/group-management.md)
+* [Automations](blynk.apps/automations.md)
+* [Alerts](blynk.apps/alerts.md)
 
 ## Blynk.Edgent
 

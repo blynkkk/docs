@@ -1,6 +1,6 @@
 # Add new Device
 
-## Link the device with Blynk.App
+## Link the device with Blynk.Apps
 
 1. Tap **Add new device**
 

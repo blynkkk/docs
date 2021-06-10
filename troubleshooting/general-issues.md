@@ -44,7 +44,7 @@
 * you should wait for a while to reboot the server  
 * run traceroute command in your OS terminal, contact your ISP and provide them with this data
 
-## I can't see all metadata in Blynk.App
+## I can't see all metadata in Blynk.Apps
 
 **What could be the reason:**
 
@@ -53,7 +53,7 @@
 **What’s the solution:**
 
 * view full metadata list in Blynk.Console
-* wait for Blynk.App full metadata support and update Blynk.App regularly
+* wait for Blynk.Apps full metadata support and update Blynk.Apps regularly
 
 ## Device is offline
 
@@ -96,7 +96,7 @@
 * wait for up to 5 minutes and re-check device's data
 * check your network connection, re-send the command
 
-## There are no devices in Blynk.App Automation
+## There are no devices in Blynk.Apps Automation
 
 **What could be the reason:**
 

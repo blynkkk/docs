@@ -6,7 +6,7 @@ Mobile Dashboard is built from Widgets - modular UI elements which can be positi
 
 ## **How to enable Developer Mode**
 
-1. In the Blynk.app or in Blynk.Console
+1. In the Blynk.Apps or in Blynk.Console
 2. Navigate to **My Profile** / **User profile** in the left menu
 3. Check that **Developer Mode** switch is set to ON
 

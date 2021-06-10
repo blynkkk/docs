@@ -43,7 +43,7 @@ If the upload process wend successfully you should see something like this in th
 ![](https://lh6.googleusercontent.com/ke-UDlKRqfsgiak0aMEEHVbEU-cAmShbXLAMOS1LEd4_Kd1tktKFw2SajHnWul_b9jT3si85XchMheZlMWy931lPBKUvgw_daFkiYuUVBfVQM9VKePbryxwbD9hvnH4t5lZ2AzFo)  
 
 
-#### [Add Device](../blynk.app/device-management/add-new-device.md)
+#### [Add Device](../blynk.apps/device-management/add-new-device.md)
 
 1. Open Blynk App 
 2. Tap Add New Device

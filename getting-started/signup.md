@@ -20,7 +20,7 @@ User account is needed to enable secure access to your data from different clien
 
 Your privacy is our default priority.
 
-You can create a new account either in [Blynk.App](https://docs.blynk.io/en/platform-overview/products-and-services/products#blynk-app) or [Blynk.Console](https://docs.blynk.io/en/platform-overview/products-and-services/products#blynk-360)
+You can create a new account either in [Blynk.Apps](https://docs.blynk.io/en/platform-overview/products-and-services/products#blynk-app) or [Blynk.Console](https://docs.blynk.io/en/platform-overview/products-and-services/products#blynk-360)
 
 ## **Sign Up**
 
@@ -74,7 +74,7 @@ Once you've finished with Profile setup your Sign Up is complete and you can add
 
 {% hint style="success" %}
 Once you've logged in, Devices tab will be opened.  
-Here you can [add ](../blynk.app/device-management/add-new-device.md)and [view and manage](../blynk.app/device-management/) your devices or switch to [Developer Mode](developer-mode.md).
+Here you can [add ](../blynk.apps/device-management/add-new-device.md)and [view and manage](../blynk.apps/device-management/) your devices or switch to [Developer Mode](developer-mode.md).
 {% endhint %}
 
 ![Devices tab](https://user-images.githubusercontent.com/72790181/119994276-1e2ae900-bfd5-11eb-887d-9194923f444b.png)
@@ -84,7 +84,7 @@ Here you can [add ](../blynk.app/device-management/add-new-device.md)and [view a
 If you forgot your account password, you can restore it by sending reset password link to your Email.  
 Follow the steps below:
 
-1. Launch Blynk.App
+1. Launch Blynk.Apps
 2. tap **Log In** button
 3. _type your Email_
 4. tap **Forgot password?** string
@@ -106,7 +106,7 @@ The link will be sent to the Email that was linked to your Blynk account during 
 1. Check your Email inbox please
 
 {% hint style="warning" %}
-If you can't find _Reset your password letter_ in your inbox for a long period of time \(it takes less than 1 minute to be delivered normally\), check your Spam folder please. Otherwise re-send the link from Blynk.App
+If you can't find _Reset your password letter_ in your inbox for a long period of time \(it takes less than 1 minute to be delivered normally\), check your Spam folder please. Otherwise, re-send the link from Blynk.Apps
 {% endhint %}
 
 1. Tap **Reset Password** button you've got in the Email
@@ -114,13 +114,13 @@ If you can't find _Reset your password letter_ in your inbox for a long period o
 ![Email](https://user-images.githubusercontent.com/72790181/119365776-f415b600-bcb8-11eb-878e-82d79f5f52e1.png)
 
 {% hint style="success" %}
-Once you've tapped **Reset Password** button, you'll be redirected back to Blynk.App and asked to type a new password.
+Once you've tapped **Reset Password** button, you'll be redirected back to Blynk.Apps and asked to type a new password.
 {% endhint %}
 
 {% hint style="info" %}
 We recommend to keep up to recommendations you see on the screen for security means.  
 Check the strength-meter that is intended to assist you in generating strong password.  
-You can check the password for typos with the tap on the _eye pictogram._
+You can check the password for typos with the tap on the _eye pictogram.
 {% endhint %}
 
 1. Tap **Save** button to submit new password  
