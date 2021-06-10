@@ -28,7 +28,7 @@ Events content can be created by the user with the permissions of the Super admi
 10. Switch to Notifications tab 
 11. Enable Notifications – lets you set notifications about events occured to Devices so you get them via SMS, Push or E-mail 
 12. Select the type of notification \(email, push, sms\) and recipients
-13. Set [Notifications Limit](../web-dashboard/for-developers/products/events/notification-limit.md) if necessary and turn on [Notifications management](notification-management.md)
+13. Set [Notifications Limit](../blynk-console/for-developers/products/events/notification-limit.md) if necessary and turn on [Notifications management](notification-management.md)
 14. Click **Create** button 
 15. **Save** Template
 

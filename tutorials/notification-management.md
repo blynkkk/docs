@@ -5,13 +5,13 @@ description: How to set up notifications for a single device or for a selection 
 # Notification management
 
 {% hint style="info" %}
-Note: notifications work on top of [Events](../web-dashboard/for-developers/products/events/). Before moving forward make sure your product has at least one event configured in it's Template
+Note: notifications work on top of [Events](../blynk-console/for-developers/products/events/). Before moving forward make sure your product has at least one event configured in it's Template
 {% endhint %}
 
 ## Setting notifications for a selection of devices
 
-1. Open [**Search**](../web-dashboard/for-developers/search/)\*\*\*\*
-2. Go to [**Devices**](../web-dashboard/for-developers/search/devices-1/) filters
+1. Open [**Search**](../blynk-console/for-developers/search/)\*\*\*\*
+2. Go to [**Devices**](../blynk-console/for-developers/search/devices-1/) filters
 3. Select multiple devices \(1\)
 4. Hover over the **Actions menu \[...\]** \(2\)
 5. Click **Notification Settings** \(3\)

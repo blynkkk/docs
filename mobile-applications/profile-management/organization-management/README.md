@@ -31,7 +31,7 @@ To invite new member press **User Icon** on the top
 
 ![User invitation](https://user-images.githubusercontent.com/72790181/119666581-2b619f80-be3e-11eb-833f-cf60a73a376a.png)
 
-Fill new members Email and name. Choose a role to see what [permissions](../../../web-dashboard/settings/access.md) new member will have, then tap **User icon** to confirm
+Fill new members Email and name. Choose a role to see what [permissions](../../../blynk-console/settings/access.md) new member will have, then tap **User icon** to confirm
 
 {% hint style="info" %}
 Blynk has 3 types of users roles that can have different permissions sets:

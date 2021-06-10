@@ -38,7 +38,7 @@ Upload from computer or drag-n-drop .png or .jpg, only 1024x1024px to add an Ico
 
 ## Favicon 
 
-Upload from computer or drag-n-drop .ico, .png or jpg, only 16x16 or 32x32px to add desired Icon everybody accessing Web-Dashboard will see in browser's address bar
+Upload from computer or drag-n-drop .ico, .png or jpg, only 16x16 or 32x32px to add desired Icon everybody accessing Blynk.Console will see in browser's address bar
 
 
 

@@ -17,7 +17,7 @@ if (temperature > 35)
 
 When this code worked, an Event will be logged and system will act accordingly to the Event setup \(render on timeline, send notifications, etc.\)
 
-You can add extra information to the description of the event. If you endabled [Timeline recording](https://docs.blynk.io/en/web-dashboard/products/events/general#show-event-on-the-timeline), description will be shown there.
+You can add extra information to the description of the event. If you endabled [Timeline recording](https://docs.blynk.io/en/blynk-console/products/events/general#show-event-on-the-timeline), description will be shown there.
 
 ```cpp
 if (temperature > 35)

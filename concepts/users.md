@@ -11,7 +11,7 @@ Every registered user on Blynk is **always** a member of an Organization, even i
 ### **Types of users**
 
 {% hint style="info" %}
-Types of users are related to, but different from [Roles and Permission](../web-dashboard/settings/access.md).
+Types of users are related to, but different from [Roles and Permission](../blynk-console/settings/access.md).
 {% endhint %}
 
 #### **Developers**

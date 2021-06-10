@@ -29,7 +29,7 @@ Now your account is created and you can start using the platform
 
 If you have an already registered account enter __your **Email and password**, click **Log In** and you'll be redirected to **Search** screen in Web Dashboard or Devices tabs screen in Mobile Application.
 
-## [Personal account management ](../web-dashboard/user-profile.md)
+## [Personal account management ](../blynk-console/user-profile.md)
 
 ## 
 

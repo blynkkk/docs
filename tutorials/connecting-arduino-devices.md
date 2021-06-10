@@ -71,7 +71,7 @@ Install the [latest Blynk library](https://github.com/blynkkk/blynk-library/rele
 The Template screen will give you two lines of firmware configuration. You'll have to add them at the very beginning of your sketch.
 
 **In** [**Blynk.Console**](https://blynk.cloud/)**, create a new device based on your new template.**  
-In the [Device &gt; Device Info ](../web-dashboard/for-developers/search/devices-1/device-view/device-info.md)screen you'll find the **Auth Token** \(left hand column, half way down\):  
+In the [Device &gt; Device Info ](../blynk-console/for-developers/search/devices-1/device-view/device-info.md)screen you'll find the **Auth Token** \(left hand column, half way down\):  
 [![image](https://user-images.githubusercontent.com/35718564/112981316-e62d3400-9152-11eb-86b2-8a85806dd860.png)](https://user-images.githubusercontent.com/35718564/112981316-e62d3400-9152-11eb-86b2-8a85806dd860.png)
 
 You'll also have to update it in your sketch file, so copy it to the clipboard.
