@@ -28,7 +28,7 @@ Home screen consists of up to 3 tabs depending on the configuration: [Devices](o
 
 ![Devices tab](https://user-images.githubusercontent.com/72790181/119994901-b923c300-bfd5-11eb-9475-a0d1826a875b.png)
 
-This section is open by default when you open the app. All created devices will be listed here and their tiles will look according to their [template ](../blynk-console/products/)type. To add new device go to the [Right](overview.md#right-menu) menu by tapping the top right button in the navigation bar. There are also options to change how devices are sorted.
+This section is open by default when you open the app. All created devices will be listed here and their tiles will look according to their [template ](../blynk.console/products/)type. To add new device go to the [Right](overview.md#right-menu) menu by tapping the top right button in the navigation bar. There are also options to change how devices are sorted.
 
 If there are no devices yet, there is a button "Add new device" in the middle wich takes you right to the device provisioning routine.
 
@@ -36,7 +36,7 @@ If there are no devices yet, there is a button "Add new device" in the middle wi
 
 {% hint style="info" %}
 This section is visible only when a template has at least one datastream enabled for automation.  
-To enable the datastream for automation, please read the [Datastreams](../blynk-console/products/datastreams/datastreams-common-settings/) article.
+To enable the datastream for automation, please read the [Datastreams](../blynk.console/products/datastreams/datastreams-common-settings/) article.
 {% endhint %}
 
 ![Automation tab](https://user-images.githubusercontent.com/72790181/119659015-711a6a00-be36-11eb-982f-f4d3ab66a0c3.png)
@@ -55,7 +55,7 @@ You can automate your connected devices with the following triggers:
 The list of notificatios and important alerts from all devices will be here.
 
 {% hint style="info" %}
-In order to be listed here, the template should have the [Event](../blynk-console/products/events/) configured and the event should be [triggered](../blynk-console/products/events/custom-events/events--how-to-log-events.md) in the device.
+In order to be listed here, the template should have the [Event](../blynk.console/products/events/) configured and the event should be [triggered](../blynk.console/products/events/custom-events/events--how-to-log-events.md) in the device.
 {% endhint %}
 
 ## Device dashboard
@@ -69,11 +69,11 @@ When a user taps on the device tile, the device dashboard will be opened. It con
 At the top right corner of the dashboard, there's an ... icon that opens another view with the  
 Device Information and Timeline.
 
-On the **Device Info** tab, you can edit a device name, change other [metadata](../blynk-console/devices/device-profile/metadata.md) values, view other things like firmware version, etc.
+On the **Device Info** tab, you can edit a device name, change other [metadata](../blynk.console/devices/device-profile/metadata.md) values, view other things like firmware version, etc.
 
 ![Device profile](https://user-images.githubusercontent.com/72790181/119659123-898a8480-be36-11eb-9088-46e48b4c0015.png)
 
-On the **Timeline** tab, you'll find the list of all events of the device \(for example online, offline and custom [Events](../blynk-console/products/events/)\)
+On the **Timeline** tab, you'll find the list of all events of the device \(for example online, offline and custom [Events](../blynk.console/products/events/)\)
 
 ![Timeline](https://user-images.githubusercontent.com/72790181/119659291-b048bb00-be36-11eb-8d83-762314da9862.png)
 
@@ -96,7 +96,7 @@ At the top left corner, there's a **Profile** icon that will open the main menu 
 * **My profile** – here you can change your name, password, or delete your account.
 * **Organization settings** – \_\*\*\_here you can change the organization name, description, and timezone.
 * **Members** – here you can invite new users to an organization by sending them an Email
-* **Switch organization** – if you have other [organizations](../blynk-console/organizations.md) created, you can switch to and from them using this switch.
+* **Switch organization** – if you have other [organizations](../blynk.console/organizations.md) created, you can switch to and from them using this switch.
 
 ## **Right menu**
 

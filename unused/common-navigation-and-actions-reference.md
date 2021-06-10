@@ -9,18 +9,18 @@ The **menu** is located on the left edge of the application and it's accessible 
 Clicking on a menu item will lead to a specific section of Blynk.Console 
 Menu sections:
 
-* Organization Logo \(can be changed in [Organization Settings](../blynk-console/settings/organization-settings/general.md)\)
-* [Search](../blynk-console/search.md)
+* Organization Logo \(can be changed in [Organization Settings](../blynk.console/settings/organization-settings/general.md)\)
+* [Search](../blynk.console/search.md)
 * [Analytics](analytics.md)
 * [Orders]()
-* [Products / Templates](../blynk-console/products/)
-* [Organization](../blynk-console/organizations.md)
-* [Blynk.Air](../blynk-console/blynk.air/)
+* [Products / Templates](../blynk.console/products/)
+* [Organization](../blynk.console/organizations.md)
+* [Blynk.Air](../blynk.console/blynk.air/)
 * [Rule Engine](rule-engine.md)
 * Report a bug
 * Documentation
-* [Settings](../blynk-console/settings/)
-* [User Profile](../blynk-console/user-profile.md)
+* [Settings](../blynk.console/settings/)
+* [User Profile](../blynk.console/user-profile.md)
 
 **Note:** if some sections buttons are missing contact your Organization administrator.
 

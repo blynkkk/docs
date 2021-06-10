@@ -41,7 +41,7 @@ The Information tab contains information about:‌
 * **Email**
 * **Nickname**
 * **Phone Number** \(optional\) – 15 digit international phone format for any country.
-* **Role** – 3 roles available: **Admin, Staff, User** with different [access and permissions](https://app.gitbook.com/@blynk-iot/s/en/blynk-console/for-developers/settings/access).
+* **Role** – 3 roles available: **Admin, Staff, User** with different [access and permissions](https://app.gitbook.com/@blynk-iot/s/en/blynk.console/for-developers/settings/access).
 * **Client Custom fields-** may contain additional information about the user required for work.
 * **Timezone-** user location timezone.
 

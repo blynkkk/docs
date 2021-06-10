@@ -2,11 +2,11 @@
 
 ### Let's set up the web GUI for our device.
 
-Go to [Dashboard ](../../blynk-console/devices/device-profile/dashboard.md)Tab and drag-n-drop these widgets to the canvas:
+Go to [Dashboard ](../../blynk.console/devices/device-profile/dashboard.md)Tab and drag-n-drop these widgets to the canvas:
 
-* [Switch](../../blynk-console/products/dashboard/switch.md)
-* [Label](../../blynk-console/products/dashboard/label.md)
-* [Chart](../../blynk-console/products/dashboard/chart.md)
+* [Switch](../../blynk.console/products/dashboard/switch.md)
+* [Label](../../blynk.console/products/dashboard/label.md)
+* [Chart](../../blynk.console/products/dashboard/chart.md)
 
 Drag and drop them to Dashboard Preview window:
 

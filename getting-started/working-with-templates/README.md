@@ -15,9 +15,9 @@ While Device Template has a lot of settings, in this tutorial, we focus only on 
 You would need a development board \(e.g. Node MCU, Arduino\). List of supported boards can be found here.
 {% endhint %}
 
-Full documentation on all of the Template settings can be found [here](../../blynk-console/products/porducts-management.md):
+Full documentation on all of the Template settings can be found [here](../../blynk.console/products/porducts-management.md):
 
-{% page-ref page="../../blynk-console/products/porducts-management.md" %}
+{% page-ref page="../../blynk.console/products/porducts-management.md" %}
 
 ## **1. Enable Developer Mode**
 
@@ -63,7 +63,7 @@ A new Template is now created. On this screen notice **Template ID** and **Firmw
 ## Configure your board:
 
 1. Open Dynamic Provisioning Template: - [ESP8266 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Inject/Template_ESP8266)- [ESP32 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Inject/Template_ESP32)- [MKR1000 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Inject/Template_MKR1000)- [MKR1010](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Inject/Template_MKR1010) 
-2. Specify [TMPLID](https://docs.blynk.io/en/blynk-console/for-developers/products/info/template-ids), [SSID WiFi](../../blynk-console/products/info/hotspot-prefix.md) and Board Name in the [sketch](../activating-devices/)
+2. Specify [TMPLID](https://docs.blynk.io/en/blynk.console/for-developers/products/info/template-ids), [SSID WiFi](../../blynk.console/products/info/hotspot-prefix.md) and Board Name in the [sketch](../activating-devices/)
 3. Flash this template to your board
 
 ### Congratulations, you have configured your Product and it is ready to use!

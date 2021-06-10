@@ -11,7 +11,7 @@ Examples of an Event:
 1. _You need to log a moment when a temperature reached a certain threshold and send a notification to selected users._
 2. _You need to log a total working hours of the device. If it approaches or goes beyond a max value, you would need to notify technical support so that they can replace the device._ 
 
-Events that happened can be viewed on the device dashboard in web and mobile apps in the [Timeline](../../blynk-console/devices/device-profile/timeline.md).  
+Events that happened can be viewed on the device dashboard in web and mobile apps in the [Timeline](../../blynk.console/devices/device-profile/timeline.md).  
 
 
 ### 1. [Create a Template](../working-with-templates/) or use an existing one
@@ -101,7 +101,7 @@ https://blynk.cloud/external/api/logEvent?token=YourAuthToken&code=error
 
 ### 4. Checking if Event was logged.
 
-First of all, check [Device Timeline](../../blynk-console/devices/device-profile/timeline.md) by going to Device - &gt; Timeline Tab
+First of all, check [Device Timeline](../../blynk.console/devices/device-profile/timeline.md) by going to Device - &gt; Timeline Tab
 
 ![](../../.gitbook/assets/events_on_timeline.png)
 

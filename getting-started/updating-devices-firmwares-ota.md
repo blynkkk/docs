@@ -39,7 +39,7 @@ You can fild a `.bin` file in the sketch folder. It's ready to be used with Blyn
 
 ## Create Shipping
 
-1. Go to [**Blynk.Air**](https://github.com/blynkkk/docs/tree/874cbfc84deeb7af25fc16dc69cc0aabc984189c/blynk-console/blynk.air) in Left Menu
+1. Go to [**Blynk.Air**](https://github.com/blynkkk/docs/tree/874cbfc84deeb7af25fc16dc69cc0aabc984189c/blynk.console/blynk.air) in Left Menu
 2. Click **New Shipping** button
 3. Specify Target Selection 
 
@@ -72,5 +72,5 @@ You can always check your Shippings status and progress accessing Blynk.Air tabl
 
 For more details follow the link below:
 
-{% page-ref page="../blynk-console/blynk.air/shipment-management/new-shipping.md" %}
+{% page-ref page="../blynk.console/blynk.air/shipment-management/new-shipping.md" %}
 
