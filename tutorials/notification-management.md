@@ -10,8 +10,8 @@ Note: notifications work on top of [Events](../blynk.console/for-developers/temp
 
 ## Setting notifications for a selection of devices
 
-1. Open [**Search**](../blynk.console/for-developers/search/)\*\*\*\*
-2. Go to [**Devices**](../blynk.console/for-developers/search/devices-1/) filters
+1. Open Search
+2. Go to [**Devices**](../blynk.console/devices/) filters
 3. Select multiple devices \(1\)
 4. Hover over the **Actions menu \[...\]** \(2\)
 5. Click **Notification Settings** \(3\)
