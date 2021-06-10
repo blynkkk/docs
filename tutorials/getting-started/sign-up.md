@@ -4,8 +4,8 @@ To use Blynk, every user needs to create an account. This is essential for secur
 
 These are the main ways of how users can sign up:
 
-1. By creating a new account at [https://blynk.cloud/](https://blynk.cloud/)
-2. By downloading Blynk [Mobile application](../../blynk.app/untitled/) and following registration process in the app
+1. By creating a new account at [https://blynk.cloud/](https://blynk.cloud)
+2. By downloading Blynk [Mobile application](../../downloads/blynk-apps-for-ios-and-android.md) and following registration process in the app
 3. By getting an invitation from existing user \(available in paid plans only\)
 
 **&gt;Need a screenshot of a web login, mobile application login, email with invitation. All on a single screenshot.**
@@ -37,7 +37,7 @@ Now your account is created and you can start using the platform
 
 If you have an already registered account enter __your **Email and password**, click **Log In** and you'll be redirected to **Search** screen in Web Dashboard or Devices tabs screen in Mobile Application.
 
-## [Personal account management ](../../blynk-console/for-developers/user-profile.md)
+## [Personal account management ](../../blynk-console/users/user-view.md#user-profile)
 
 ## 
 

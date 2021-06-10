@@ -184,7 +184,7 @@
 
 ## Troubleshooting
 
-* [General issues](troubleshooting/untitled.md)
+* [General issues](troubleshooting/general-issues.md)
 * [Developer Mode](troubleshooting/developer-mode.md)
 * [WiFi provisioning](troubleshooting/wifi-provisioning.md)
 
