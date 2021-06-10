@@ -6,7 +6,7 @@ description: 'Navigate through Devices, Locations, Organizations and users in on
 
 This is the main page of Blynk.Console.
 
-Here you can perform a quick or extended search for [devices](devices-1/), [locations](locations/), [organizations ](organizations-1/)and [users ](users/)you have access to. You can apply various filters to narrow your search.
+Here you can perform a quick or extended search for [devices](devices-1/), [locations](locations/), [organizations ](organizations/)and [users ](users/)you have access to. You can apply various filters to narrow your search.
 
 This is the first screen you see after signing into Blynk.Console Web Dashboard.
 
@@ -22,7 +22,7 @@ This is the first screen you see after signing into Blynk.Console Web Dashboard.
 * [Locations](locations/) \(can be [changed](settings/application-settings/general.md) to Job Site or Facility\)
   * **My Locations** – view Locations created by your organization users
   * **All** – view all Locations available \(created by your organization and sub-organizations members\)
-* [Organizations](organizations-1/)
+* [Organizations](organizations/)
   * **My Organizations** – view all organizations you have access to
   * No devices – view organizations \(you're allowed to access\) containing no devices 
   * No users – view organizations \(you're allowed to access\) containg no users

@@ -21,5 +21,5 @@ Sub-organizations have the same structure. This enables a flexible and scalable 
 
 ![Sub-organizations](https://user-images.githubusercontent.com/72824404/119477378-94bab300-bd57-11eb-8b20-7016752d3f18.png)
 
-Read more about tow to work with organizations [here](../blynk.console/organizations-1/).
+Read more about tow to work with organizations [here](../blynk.console/organizations/).
 
