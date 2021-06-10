@@ -8,18 +8,18 @@ Blynk services \(or micro-services\) are software modules that work across produ
 
 A micro-service for:
 
-1. Claiming device ownership by users and organizations
-2. Provisioning devices with WiFi credentials so they can connect to the end-user WiFi networks.
-3. Managing Authentication Tokens
-4. UX flow to guide end-users through the process of claiming and provisioning with the help of Blynk.Apps
+- Claiming device ownership by users and organizations
+- Provisioning devices with WiFi credentials so they can connect to the end-user WiFi networks.
+- Managing Authentication Tokens
+- UX flow to guide end-users through the process of claiming and provisioning with the help of Blynk.Apps
 
 To get understanding of the Blynk Inject take a look at the below videos:
 
-![Blynk Inject flow. Blynk](http://img.youtube.com/vi/bXPEEmsEtPM/0.jpg)
+[![Blynk Inject flow. Blynk](http://img.youtube.com/vi/bXPEEmsEtPM/0.jpg)](http://www.youtube.com/watch?v=bXPEEmsEtPM)
 
-![Blynk Inject flow. Cama Cooler](http://img.youtube.com/vi/GPneDxWvp4U/0.jpg)
+[![Blynk Inject flow. Plaato](http://img.youtube.com/vi/4RGAn0tlrHs/0.jpg)](http://www.youtube.com/watch?v=4RGAn0tlrHs)
 
-![Blynk Inject flow. Plaato](http://img.youtube.com/vi/4RGAn0tlrHs/0.jpg)
+[![Blynk Inject flow. Cama Cooler](http://img.youtube.com/vi/GPneDxWvp4U/0.jpg)](http://www.youtube.com/watch?v=GPneDxWvp4U)
 
 ## Blynk.**R**
 
@@ -27,9 +27,9 @@ To get understanding of the Blynk Inject take a look at the below videos:
 
 A micro-service for user management, covering
 
-1. User registration with invitations
-2. Roles and permissions management
-3. Multi-tenancy
+- User registration with invitations
+- Roles and permissions management
+- Multi-tenancy
 
 ## Blynk.Air
 
@@ -37,6 +37,6 @@ A micro-service for user management, covering
 
 A micro-service for Firmware Over-the-Air Updates responsible for:
 
-1. Managing Firmware Over-the-Air Updates shipping campaigns
-2. Installing new firmware on the edge devices
+- Managing Firmware Over-the-Air Updates shipping campaigns
+- Installing new firmware on the edge devices
 
