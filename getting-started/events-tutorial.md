@@ -73,7 +73,7 @@ if (some_condition){
 
 ![Device Info tab](../.gitbook/assets/event_device_info.png)
 
-![Auth Token. Click copy pictogram here](../.gitbook/assets/auth_token%20%281%29.png)
+![Auth Token. Click copy pictogram here](../.gitbook/assets/single_auth_token.png)
 
 Now make an HTTP request with the tools you use for that. Make sure to change the `YourAuthToken` to the one you copied in the previous step.
 
