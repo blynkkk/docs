@@ -61,7 +61,7 @@ A new Template is now created. On this screen notice **Template ID** and **Firmw
 ## Configure your board:
 
 1. Open Dynamic Provisioning Template: - [ESP8266 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent_ESP8266)- [ESP32 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent_ESP32)- [MKR1000 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent_MKR1000)- [MKR1010](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent_MKR1010) 
-2. Specify [TMPLID](https://docs.blynk.io/en/blynk.console/for-developers/templates/info/template-ids), [SSID WiFi](../../blynk.console/templates/info/hotspot-prefix.md) and Board Name in the [sketch](../activating-devices/)
+2. Specify [TMPLID](https://docs.blynk.io/en/blynk.console/templates/info/template-ids), [SSID WiFi](../../blynk.console/templates/info/hotspot-prefix.md) and Board Name in the [sketch](../activating-devices/)
 3. Flash this template to your board
 
 ### Congratulations, you have configured your Product and it is ready to use!

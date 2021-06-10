@@ -1,16 +1,20 @@
 # Data Type
 
-Every Datastream has a data type. Data type is used to optimize the data storage and calculations.
+Every Datastream has a Data Type setting. Data Type is used to specify the type and format of the data and optimize data storage and further calculations.
 
-Currently there are 3 supported data types:
+Make sure you choose a correct Data Type for your data. Currently, these Data Types are supported:
 
-* `Integer` \(-2,147,483,648 to 2,147,483,647\)
-* `Double` \(1.7976931348623157 x 10^308 to 4.9406564584124654 x 10^-324\)
-* `String` \(any value is accepted\)
+| Type | Min | Max |
+| :---: | :---: | :---: |
+| `Integer` | -2,147,483,648 | 2,147,483,647 |
+| `Double` | -1.8 x 10^300 | 4.9 x 10^-324 |
+| `String` | any value is accepted |  |
 
-It is very important to select the correct type for your Datastream. As values that doesn't match the data type are ignored.
+**IMPORTANT:**
 
-For example, let's assume we have the data stream with data type `Integer`. Hardware via `Blynk.virtualWrite` sends string `123.0`. Server will skip this value, because it is Floating point value and not `Integer`. Hardware have to send `123` if you want this values to be accepted or change the type of the Datastream to `Double`.
+Blynk server will ignore values that don't match the Data Type
 
-![](../../../../.gitbook/assets/ds_data_type.gif)
+Example: if Datastream has Data Type set to `Integer`, but Hardware sends `123.45`, this value will be skipped because it is `Double`, not `Integer`.
+
+If the incoming value goes out of range of Min or Max setting, this value will be "cropped" to match this setting.
 

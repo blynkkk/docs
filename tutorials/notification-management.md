@@ -5,7 +5,7 @@ description: How to set up notifications for a single device or for a selection 
 # Notification management
 
 {% hint style="info" %}
-Note: notifications work on top of [Events](../blynk.console/for-developers/templates/events/). Before moving forward make sure your product has at least one event configured in it's Template
+Note: notifications work on top of [Events](../blynk.console/templates/events/). Before moving forward make sure your product has at least one event configured in it's Template
 {% endhint %}
 
 ## Setting notifications for a selection of devices
