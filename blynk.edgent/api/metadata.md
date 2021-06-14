@@ -1,6 +1,6 @@
 # Metadata
 
-### Read metadata
+### Read device metadata
 
 ```text
 BLYNK_CONNECTED() {
@@ -21,7 +21,7 @@ BLYNK_WRITE(InternalPinMETA) {
 }
 ```
 
-### Write Metadata
+### Write device metadata
 
 ```text
 Blynk.sendInternal("meta", "set", "Serial Number", sn_value);
