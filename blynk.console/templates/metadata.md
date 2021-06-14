@@ -1,11 +1,27 @@
----
-description: >-
-  This page includes common fields options descriptions in top section and Type
-  specific settings (if they are present) under Types descriptions in lower
-  section.
----
+# Metadata
 
-# Metadata Types
+Metadata is a set of `key:value` data attached to every device. `Keys` are static, and `values` are related for each device. 
+
+For example, a Serial Number Metadata field can be attached to every device, but the actual value is different.
+
+Unlike Datastreams, Metadata is not supposed to change very often.  
+
+![](../../.gitbook/assets/metadata_table.png)
+
+
+
+Metadata can be of different types. Choose the most relevant type for every characteristic.  
+For example, if you would need to associate Serial Number with every product, add the “Number” metadata field. Metadata is also used during device provisioning and configiration process. Staff, installing the equipment will be able to fill it in.
+
+![](../../.gitbook/assets/metadata-types.png)
+
+Metadata can be edited by users based on their access level.
+
+Default value can be set to each Metadata, be changed during Add Device procedure and edited any time later.
+
+
+
+
 
 ## Common Metadata settings for all Types:
 
@@ -21,7 +37,7 @@ Most of the text fields have 200 characters input limit. Specific differences wi
 
 ### Basic Metadata types 
 
-![](../../../.gitbook/assets/basic_metadata_types.png)
+![](../../.gitbook/assets/basic_metadata_types.png)
 
 Those 5 are present in any Product and can not be deleted:
 
@@ -39,7 +55,7 @@ Those 5 are present in any Product and can not be deleted:
 
 ### Additional Metadata types available:
 
-![](../../../.gitbook/assets/metadata-types.png)
+![](../../.gitbook/assets/metadata-types.png)
 
 * **Text** – name this field any way you want and type default value for it. 255 characters limit for both fields. 
 * **Number** – field name examples: "Serial number", "Unit S/N", "Plate Number", etc..

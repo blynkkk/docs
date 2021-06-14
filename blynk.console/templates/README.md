@@ -11,7 +11,7 @@ description: >-
 
 {% page-ref page="info/" %}
 
-{% page-ref page="metadata/" %}
+{% page-ref page="metadata.md" %}
 
 {% page-ref page="datastreams/" %}
 
