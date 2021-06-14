@@ -166,7 +166,7 @@
   * [Trigger Event](blynk.edgent/api/log-event.md)
   * [RTC clock](blynk.edgent/api/rtc-clock.md)
   * [Timezone / Location](blynk.edgent/api/timezone-location.md)
-  * [OTA updates](blynk.edgent/api/ota-updates.md)
+  * [Over-The-Air Firmware Updates \(OTA\)](blynk.edgent/api/ota-updates.md)
   * [Metadata](blynk.edgent/api/metadata.md)
   * [Debug](blynk.edgent/api/debug.md)
   * [Other](blynk.edgent/api/other.md)
