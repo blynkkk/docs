@@ -1,2 +1,21 @@
 # OTA updates
 
+OTA updates are delivered using HTTP/HTTPS protocol.  
+When new shipment is created in **Blynk.Air**, it determines if device needs to be upgraded, then sends an upgrade URL to your devices.
+
+You can get the OTA request by listening to the OTA internal pin:
+
+```text
+BLYNK_WRITE(InternalPinOTA) {
+  String url = param.asString();
+  Blynk.disconnect();
+  // Procceed to download and apply the upgrade
+}
+```
+
+The device may decide to wait some time before downloading/applying the update. For example there could be some important operations in progress, that should not be interrupted by the update.
+
+After device applies an update, it usually reboots with the new firmware, connects to the server, which in turn recognizes the new firmware version. This is considered to be a successfull OTA upgrade.
+
+In some cases, your firmware may decide to rollback the upgrade. In this case, just reboot your device with the previous version. Server will recognize this pattern \(i.e. `Old -> New -> Old` transition\) and mark it as a **Rollback**.
+
