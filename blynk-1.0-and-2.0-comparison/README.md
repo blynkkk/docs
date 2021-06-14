@@ -9,8 +9,8 @@
 | Eventor widget | ✅ Replaced by **Automations** |
 | Timer widget | ✅ Replaced by **Automations** |
 | TimeInput widget | ✅ Replaced by **Automations** |
-| RTC widget | ✅ No widget needed, just use the RTC function |
-| WebHook widget | ✅ Replaced by WebHook settings in Blynk.Console |
+| RTC widget | ✅ No widget needed, the RTC function is enabled by default |
+| WebHook widget | ✅ Replaced by WebHook settings in **Blynk.Console** |
 | Table widget | ❌ Not available in new Blynk yet |
 | Device Sharing via QR code | ❌ Not available in new Blynk yet For now, you can only share devices with members of your organization \(or home\) |
 | Voice Assistants | 🎉 **Alexa** and **Google Home** integration\* |
