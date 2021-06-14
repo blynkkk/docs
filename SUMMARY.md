@@ -162,7 +162,7 @@
   * [Digital/Analog Pins](blynk.edgent/api/digital-analog-pins.md)
   * [Virtual Pins](blynk.edgent/api/virtual-pins.md)
   * [Timer](blynk.edgent/api/blynk-timer.md)
-  * [Trigger Event](blynk.edgent/api/log-event.md)
+  * [Log Event](blynk.edgent/api/log-event.md)
   * [RTC clock](blynk.edgent/api/rtc-clock.md)
   * [Timezone / Location](blynk.edgent/api/timezone-location.md)
   * [Over-The-Air Firmware Updates \(OTA\)](blynk.edgent/api/ota-updates.md)

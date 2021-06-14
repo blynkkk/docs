@@ -1,15 +1,18 @@
-# Trigger Event
+---
+description: How to log an event using firmware API
+---
+
+# Log Event
 
 ## Get an Event code
 
-1. Open Device Template
-2. Switch to Events tab
-3. Hover Code column across from Event name
-4. Click "Copy Event Code" hint
+1. Go to Device Template -&gt; Events
+2. Find Event Code. Edit it if needed
+3. Copy it to use in the firmware code below:
 
-## Publish events from device
+## Log Events from device
 
-Use `Blynk.logEvent` function to send events to the cloud.
+Use `Blynk.logEvent` command to log events to the Blynk cloud.
 
 ```cpp
 Blynk.logEvent("event_code");
