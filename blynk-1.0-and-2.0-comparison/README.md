@@ -2,9 +2,9 @@
 
 | Feature | Difference |
 | :--- | :--- |
+| Local Server | Available on **White-label** plan |
 | Bluetooth 2.0 SPP | ❌ Not available in new Blynk yet |
 | Bluetooth Low Energy \(BLE\) | ❌ Not available in new Blynk yet |
-| Local Server | Available on **White-label** plan |
 | Bridge widget | ❌ Replaced by **Rule Engine** \(not released yet\) |
 | Eventor widget | ✅ Replaced by **Automations** |
 | Timer widget | ✅ Replaced by **Automations** |
