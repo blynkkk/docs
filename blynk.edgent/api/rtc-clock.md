@@ -1,6 +1,10 @@
+---
+description: Working with time using Blynk API
+---
+
 # RTC clock
 
-Blynk can provide your device with time data, like an RTC.
+Blynk can provide your device with current time, like an RTC \(real-time-clock\).
 
 {% hint style="info" %}
 Please note that the accuracy of this method is up to several seconds.
