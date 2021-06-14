@@ -1,4 +1,4 @@
-# Comparison to Blynk 0.1
+# Changes from Blynk 0.1
 
 | Feature | Difference |
 | :--- | :--- |
@@ -11,4 +11,5 @@
 | RTC widget | ✅ No widget needed, just use the RTC function |
 | WebHook widget | ✅ Replaced by WebHook settings in Blynk.Console |
 | Table widget | ❌ Not available in new Blynk yet |
+| Device Sharing via QR code | ❌ Not available in new Blynk yet You can share devices with all members of your organization |
 
