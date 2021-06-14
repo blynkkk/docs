@@ -162,11 +162,12 @@
   * [Connection Management](blynk.edgent/api/connection-management.md)
   * [Digital/Analog Pins](blynk.edgent/api/digital-analog-pins.md)
   * [Virtual Pins](blynk.edgent/api/virtual-pins.md)
-  * [Trigger Event](blynk.edgent/api/log-event.md)
   * [Timer](blynk.edgent/api/blynk-timer.md)
+  * [Trigger Event](blynk.edgent/api/log-event.md)
   * [RTC clock](blynk.edgent/api/rtc-clock.md)
   * [Timezone / Location](blynk.edgent/api/timezone-location.md)
   * [OTA updates](blynk.edgent/api/ota-updates.md)
+  * [Metadata](blynk.edgent/api/metadata.md)
   * [Debug](blynk.edgent/api/debug.md)
   * [Other](blynk.edgent/api/other.md)
 
