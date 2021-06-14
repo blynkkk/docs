@@ -40,7 +40,7 @@ Open the Templates section in the left menu and click **+ New Template** button*
 Give your new template a name, specify the hardware and connectivity you will be using.
 
 {% hint style="info" %}
-If you can't find your hardware in the list choose **Generic Board**
+If you can't find your hardware in the list choose **Other**
 {% endhint %}
 
 ![New template modal](https://user-images.githubusercontent.com/72790181/119468187-e1e65700-bd4e-11eb-8cfd-7c6fffda7b09.png)
