@@ -2,7 +2,7 @@
 
 ### Read device metadata
 
-```text
+```cpp
 BLYNK_CONNECTED() {
   // Send requests for different metadata
   Blynk.sendInternal("meta", "get", "Spa Size");
@@ -23,7 +23,7 @@ BLYNK_WRITE(InternalPinMETA) {
 
 ### Write device metadata
 
-```text
+```cpp
 Blynk.sendInternal("meta", "set", "Serial Number", sn_value);
 Blynk.sendInternal("meta", "set", "Model", model_value);
 ```

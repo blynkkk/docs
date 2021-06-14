@@ -5,7 +5,7 @@ When new shipment is created in **Blynk.Air**, it determines if device needs to 
 
 You can get the OTA request by listening to the OTA internal pin:
 
-```text
+```cpp
 BLYNK_WRITE(InternalPinOTA) {
   String url = param.asString();
   Blynk.disconnect();
