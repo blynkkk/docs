@@ -15,7 +15,9 @@ BLYNK_WRITE(InternalPinOTA) {
 
 The device may decide to wait some time before downloading/applying the update. For example there could be some important operations in progress, that should not be interrupted by the update.
 
-After device applies an update, it usually reboots with the new firmware, connects to the server, which in turn recognizes the new firmware version. This is considered to be a successfull OTA upgrade.
+After device applies an update, it usually reboots with the new firmware, connects to the server, which in turn recognizes the new firmware version. This is considered to be a **successful OTA upgrade**.
+
+Some devices may struggle to download the update \(i.e. due to bad connectivity\). Such devices will be marked as "**reached download limit**".
 
 In some cases, your firmware may decide to rollback the upgrade. In this case, just reboot your device with the previous version. Server will recognize this pattern \(i.e. `Old -> New -> Old` transition\) and mark it as a **Rollback**.
 
