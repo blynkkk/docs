@@ -27,7 +27,9 @@ param.getLength()
 
 ## Blynk.virtualWrite\(vPin, value\)
 
-**NOTE: Use BlynkTimer when you use this command to send data. Otherwise your hardware will be disconnected from the server**
+{% hint style="info" %}
+Use BlynkTimer when you use this command to send data. Otherwise your hardware may be disconnected from the server
+{% endhint %}
 
 Send data in various formats to Virtual Pins.
 
