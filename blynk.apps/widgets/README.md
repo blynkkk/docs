@@ -450,29 +450,15 @@ BLYNK_WRITE(V1) {
 
 ### Value Display
 
-Displays incoming data from your sensors or Virtual Pins. Can work in 2 modes :
+Displays incoming data from your sensors or Virtual Pins.
 
-* PUSH mode \(select it from Frequency Reading picker\);
-* Frequency Reading mode;
-
-In PUSH mode you update value display from hardware side with code :
+To send the data to the value display simply call the next code:
 
 ```text
 Blynk.virtualWrite(V1, val); 
 ```
 
-In this mode every message that hardware sends to server is stored automatically on server. PUSH mode doesn't require application to be online or opened.
-
-With Frequency Reading mode you need to select update interval and application will trigger events with required timing. Your application should be open and running in order to make requests to hardware. You don't need any code for Analog and Digital pins in that case. However for virtual pins you need to use next code :
-
-```text
-//triggered from app
-BLYNK_READ(V1)
-{
-  //send to app
-  Blynk.virtualWrite(V1, val);
-}
-```
+Every message that hardware sends to server is stored automatically on server.
 
 **Home Screen Value Display**
 
@@ -487,29 +473,14 @@ You can also resize Value Display on Home Screen - just do long click on widget 
 
 Displays incoming data from your sensors or Virtual Pins. It is a better version of 'Value Display' as it has a formatting string, so you could format incoming value to any string you want.
 
-Can work in 2 modes :
-
-* PUSH mode \(select if from Frequency Reading picker\);
-* Frequency Reading mode;
-
-In PUSH mode you update value display from hardware side with code :
+Update value display from hardware side with code :
 
 ```text
 Blynk.virtualWrite(V1, val); 
 ```
 
-In this mode every message that hardware sends to server is stored automatically on server. PUSH mode doesn't require application to be online or opened.
+Every message that hardware sends to server is stored automatically on server.
 
-With Frequency Reading mode you need to select update interval and application will trigger events with required timing. Your application should be open and running in order to make requests to hardware. You don't need any code for Analog and digital pins in that case. However for virtual pins you need to use next code :
-
-```text
-//triggered from app
-BLYNK_READ(V1)
-{
-  //send to app
-  Blynk.virtualWrite(V1, val);
-}
-```
 
 **Formatting options**
 
@@ -569,29 +540,13 @@ You can also add LED to your Android Home Screen. LED works via HTTPS in that ca
 
 A great visual way to display incoming numeric values.
 
-Can work in 2 modes :
-
-* PUSH mode \(select if from Frequency Reading picker\);
-* Frequency Reading mode;
-
-In PUSH mode you update gauge from hardware side with code :
+Update gauge from hardware side with code :
 
 ```text
 Blynk.virtualWrite(V1, val); 
 ```
 
-In this mode every message that hardware sends to server is stored automatically on server. PUSH mode doesn't require application to be online or opened.
-
-With Frequency Reading mode you need to select update interval and application will trigger events with required timing. Your application should be open and running in order to make requests to hardware. You don't need any code for Analog and Digital pins in that case. However for virtual pins you need to use next code :
-
-```text
-//triggered from app
-BLYNK_READ(V1)
-{
-  //send to app
-  Blynk.virtualWrite(V1, val);
-}
-```
+Every message that hardware sends to server is stored automatically on server.
 
 **Formatting options**
 
@@ -628,27 +583,7 @@ Blynk.setProperty(V1, "color", "#D3435C");
 
 ### LCD
 
-This is a regular 16x2 LCD display made in our secret facility in China. It can work in 2 modes :
-
-* Simple
-* Advanced
-
-**Simple mode**
-
-In simple mode your LCD widget performs as regular widget with Frequency reading.
-
-With Frequency Reading mode you need to select update interval and application will trigger events with required timing. Your application should be open and running in order to make requests to hardware. You don't need any code for Analog and Digital pins in that case. However for virtual pins you need to use next code :
-
-```text
-//triggered from app
-BLYNK_READ(V1)
-{
-  //send to app
-  Blynk.virtualWrite(V1, val);
-}
-```
-
-In Simple mode LCD also supports formatting options.
+This is a regular 16x2 LCD display made in our secret facility in China. 
 
 **Formatting options**
 

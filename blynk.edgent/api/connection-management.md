@@ -33,7 +33,7 @@ This function should be called frequently to process incoming commands and perfo
 
 This command can be initiated it in other places of your code unless you run out of heap memory \(in the cascaded functions with local memory\).
 
-For example, it is not recommended to call `Blynk.run()` inside of the `BLYNK_READ` and `BLYNK_WRITE` functions on low-RAM devices.
+For example, it is not recommended to call `Blynk.run()` inside `BLYNK_WRITE` functions on low-RAM devices.
 
 ## BLYNK\_CONNECTED\(\)
 

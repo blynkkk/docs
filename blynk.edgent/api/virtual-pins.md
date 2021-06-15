@@ -80,19 +80,6 @@ BLYNK_WRITE(V0)
 
 **Note:** For virtual pins with numbers &gt; 127, please use `BLYNK_WRITE_DEFAULT()` API
 
-## BLYNK\_READ\(vPIN\)
-
-`BLYNK_READ` is function called when device is requested to send it's current value of Virtual Pin to the server. Normally, this function should contain `Blynk.virtualWrite` call\(s\).
-
-```cpp
-BLYNK_READ(V0)
-{
-  Blynk.virtualWrite(V0, newValue);
-}
-```
-
-**Note:** For virtual pins with numbers &gt; 127, please use `BLYNK_READ_DEFAULT()` API
-
 ## BLYNK\_WRITE\_DEFAULT\(\)
 
 Redefines the handler for all pins that are not covered by custom `BLYNK_WRITE` functions.
@@ -105,17 +92,6 @@ BLYNK_WRITE_DEFAULT()
 }
 ```
 
-## BLYNK\_READ\_DEFAULT\(\)
-
-Redefines the handler for all pins that are not covered by custom `BLYNK_READ` functions.
-
-```cpp
-BLYNK_READ_DEFAULT()
-{
-  int pin = request.pin;      // Which exactly pin is handled?
-  Blynk.virtualWrite(pin, newValue);
-}
-```
 
 ## Blynk.syncAll\(\)
 

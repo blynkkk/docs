@@ -55,29 +55,9 @@ BLYNK_WRITE(V1) // Widget WRITEs to Virtual Pin V1
 
 **Sketch:** [JoystickTwoAxis](https://github.com/blynkkk/docs/tree/a1ea2ed8bc31eba522320f514b900921303d3b07/blynk.edgent/ht%20tps:/github.com/blynkkk/blynk-library/blob/master/examples/Widgets/JoystickTwoAxis/JoystickTwoAxis.ino#L24)
 
-## Get data from hardware
+## Pushing data from hardware
 
-There are two ways of pushing data from your hardware to the Widgets in the app over Virtual Pins.
-
-### Perform requests by Widget
-
-* Using Blynk built-in reading frequency while App is active by setting 'Reading Frequency' parameter to some interval:
-
-![](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/.gitbook/assets/frequency_reading_pull.png)
-
-```cpp
-BLYNK_READ(V5) // Widget in the app READs Virtal Pin V5 with the certain frequency
-{
-  // This command writes Arduino's uptime in seconds to Virtual Pin V5
-  Blynk.virtualWrite(5, millis() / 1000);
-}
-```
-
-**Sketch:** [PushDataOnRequest](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/PushDataOnRequest/PushDataOnRequest.ino#L26)
-
-### Pushing data from hardware
-
-If you need to PUSH sensor or other data from your hardware to Widget, you can write any logic you want. Just set the frequency to PUSH mode. Any command that hardware sends to Blynk Cloud is automatically stored on server and you get this info either with [History Graph](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/README.md#widgets-displays-superchart) widget or with [HTTP API](http://docs.blynkapi.apiary.io/#reference/0/pin-history-data/get-all-history-data-for-specific-pin).
+If you need to PUSH sensor or other data from your hardware to Widget, you can write any logic you want. Any command that hardware sends to Blynk Cloud is automatically stored on the server and you get this info either with [History Graph](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/README.md#widgets-displays-superchart) widget or with [HTTP API](http://docs.blynkapi.apiary.io/#reference/0/pin-history-data/get-all-history-data-for-specific-pin).
 
 ![](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/.gitbook/assets/frequency_reading_push.png)
 
