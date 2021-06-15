@@ -153,7 +153,7 @@
 * [Main Operations](blynk.edgent/mainoperations/README.md)
   * [Virtual Pins](blynk.edgent/mainoperations/virtual-pins.md)
   * [State Syncing](blynk.edgent/mainoperations/state-syncing.md)
-  * [Devices Online Status](blynk.edgent/mainoperations/devices-online-status.md)
+  * [Device Online/Offline Status](blynk.edgent/mainoperations/devices-online-status.md)
   * [Widget Properties](blynk.edgent/mainoperations/widget-properties.md)
   * [Limitations and Recommendations](blynk.edgent/mainoperations/limitations-and-recommendations.md)
 * [Library API](blynk.edgent/api/README.md)

@@ -1,7 +1,13 @@
 # Devices Online Status
 
+Blynk always updates the device online status in realtime.
+As soon as device sends the `login` command, online status is sent to the web and mobile apps.
+So you can always see if the device is online or not.
+
+# Devices Offline Status
+
 In ideal world when device closes tcp connection with the code like `connection.close()`- 
-connected server will get notification regarding closed connection.
+the server will get notification regarding closed connection.
 So you can get instant status update on UI.
 However, in real world this mostly exceptional situation.
 In the majority of cases there is no easy and instant way to find out that connection is not active anymore.
