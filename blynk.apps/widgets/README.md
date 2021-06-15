@@ -14,7 +14,7 @@ Tap the Widget to set it up.
 
 ## Controllers
 
-### Button 
+### Button
 
 Works in push or switch modes. Allows to send any number value on button click and button release events. By default  
 button uses 0/1 \(LOW/HIGH\) values. Button sends 1 \(HIGH\) on press and sends 0 \(LOW\) on release.
@@ -280,9 +280,9 @@ BLYNK_WRITE(V1) // zeRGBa assigned to V1
     // get a RED channel value
     int r = param[0].asInt();
     // get a GREEN channel value
-	int g = param[1].asInt();
-	// get a BLUE channel value
-	int b = param[2].asInt();
+    int g = param[1].asInt();
+    // get a BLUE channel value
+    int b = param[2].asInt();
 }
 ```
 
@@ -444,7 +444,7 @@ BLYNK_WRITE(V1) {
 
 ### Level Slider
 
-### Level Slider with Switch 
+### Level Slider with Switch
 
 ## Displays
 
@@ -455,7 +455,7 @@ Displays incoming data from your sensors or Virtual Pins.
 To send the data to the value display simply call the next code:
 
 ```text
-Blynk.virtualWrite(V1, val); 
+Blynk.virtualWrite(V1, val);
 ```
 
 Every message that hardware sends to server is stored automatically on server.
@@ -476,11 +476,10 @@ Displays incoming data from your sensors or Virtual Pins. It is a better version
 Update value display from hardware side with code :
 
 ```text
-Blynk.virtualWrite(V1, val); 
+Blynk.virtualWrite(V1, val);
 ```
 
 Every message that hardware sends to server is stored automatically on server.
-
 
 **Formatting options**
 
@@ -518,14 +517,14 @@ All values between 0 and 255 will change LED brightness :
 ```text
 WidgetLED led2(V2);
 //set brightness of LED to 50%.
-led2.setValue(127); 
+led2.setValue(127);
 ```
 
 You can also change LED color with :
 
 ```text
 //#D3435C - Blynk RED 
-Blynk.setProperty(V1, "color", "#D3435C"); 
+Blynk.setProperty(V1, "color", "#D3435C");
 ```
 
 **Home Screen LED**
@@ -543,7 +542,7 @@ A great visual way to display incoming numeric values.
 Update gauge from hardware side with code :
 
 ```text
-Blynk.virtualWrite(V1, val); 
+Blynk.virtualWrite(V1, val);
 ```
 
 Every message that hardware sends to server is stored automatically on server.
@@ -583,7 +582,7 @@ Blynk.setProperty(V1, "color", "#D3435C");
 
 ### LCD
 
-This is a regular 16x2 LCD display made in our secret facility in China. 
+This is a regular 16x2 LCD display made in our secret facility in China.
 
 **Formatting options**
 

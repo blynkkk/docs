@@ -92,7 +92,6 @@ BLYNK_WRITE_DEFAULT()
 }
 ```
 
-
 ## Blynk.syncAll\(\)
 
 Requests all stored on the server latest values for all widgets. All analog/digital/virtual pin values and states will be set to the latest stored value. Every virtual pin will generate BLYNK\_WRITE\(\) event.
