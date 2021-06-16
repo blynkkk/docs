@@ -4,9 +4,9 @@ Blynk offers a very flexible way to send notifications. Users can specify who ge
 
 Currently, Blynk offers 3 channels to deliver notifications: 
 
-1. **E-mail**
-2. **Push notifications.** A push notification is a message that pops up on a mobile device. Users don't have to be in the app to get them
-3. **SMS.** Notification will be delivered as a text message using mobile operator
+* E-mail
+* Push notifications - a push notification is a message that pops up on a mobile device. Users don't have to be in the app to get them
+* SMS - notification will be delivered as a text message using mobile operator
 
 {% hint style="info" %}
 SMS are currently only available in white-label solution
@@ -20,8 +20,8 @@ SMS are currently only available in white-label solution
 
 ![](https://user-images.githubusercontent.com/72824404/120806266-4ffcfc00-c54f-11eb-9cc0-d0c53cf7efcf.png)
 
-1. In the opened drawer you will see a list of all Event available for notifications \(4\) . To specify Events available in Notifications settings, a Developer needs to set it up in the device template.
-2. Click **Edit Settings** \(5\)
+4. In the opened drawer you will see a list of all Event available for notifications \(4\) . To specify Events available in Notifications settings, a Developer needs to set it up in the device template.
+5. Click **Edit Settings** \(5\)
 
 {% hint style="info" %}
 If you don't see the Edit Settings button, or list of Events is empty, check that you made events available for notifications.
@@ -29,7 +29,7 @@ If you don't see the Edit Settings button, or list of Events is empty, check tha
 
 ![](https://user-images.githubusercontent.com/72824404/120807574-c6e6c480-c550-11eb-8965-6a979c147122.png)
 
-3. Turn on the desired channels \(Email, Push, or SMS\) and add recipients. If the recipient is not on the list you can search by typing the name or the email.
+6. Turn on the desired channels \(Email, Push, or SMS\) and add recipients. If the recipient is not on the list you can search by typing the name or the email.
 
 Optionally you can choose  "All members". In this case all members of current organization will receive the notification through the selected channel.
 
