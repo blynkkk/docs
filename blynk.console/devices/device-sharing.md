@@ -25,6 +25,13 @@ Users with **View Organization Devices** can see all devices within organization
 This type of sharing is useful when you have only one user to share the device with and you don't want to isolate 
 the device within other organization.
 
+For example, you want to share your garage door with your wife, so you both can view and control the garage doors.
+At the same time, you have other devices you're playing with, and you don't want your wife to see them 
+(because one of them is drinking machine, so obviously you don't want your wife to be aware of it).
+You invite your wife with a role that has **View Own Devices** and **Control Own Devices** permissions, and you transfer 
+the ownership of the garage doors to the wife.
+Now you (as administrator) can see all devices, and she (as device owner) can view and control only the garage doors.
+
 ## Sharing via sub organization
 
 You can create the sub organization, invite multiple users you want to share the device with and transfer the device ownership
@@ -34,3 +41,10 @@ Have in mind, that users from sub organizations never can see any data from the 
 
 This type of sharing is useful when you want to share the device with many users.
 You still will be able to see this device in the search or via organization switch.
+
+For example, now your children grown up, and you want to share your garage door with not only your wife but also with a children.
+But, you still have your drinking machine (it was helping you while your children were growing), 
+so you don't want to share it with your wife and children, so giving them a 
+**View Organization Devices** permission is not an option. At the same time, device can have only one owner. So in that 
+case you create a new sub organization, invite into it your wife and children with **View Organization Devices** permission,  
+and now they are able to view the garage doors as well as you.
