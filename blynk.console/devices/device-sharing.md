@@ -1,0 +1,36 @@
+# Device Sharing
+
+Blynk doesn't allow anonymous device sharing like it was done in the first version of Blynk.
+If you want to share the device, users you want to share the device with should be registered within the Blynk.Console.
+
+Device sharing is handled with permission **View Organization Devices**,
+**Control Organization Devices**, **View Own Devices**, and **Control Own Devices**.
+
+At the moment in order to share the device you have 2 options:
+
+- Transfer the device ownership to the user you want to share the device with
+- Create sub organization and transfer the device into it
+
+## Transfer Ownership
+
+You can [transfer the device ownership](actions-with-devices.md#device-transfer) to the user you want to share the device with within your organization
+(user should be invited to your organization).
+In that case, you can restrict the access of the user to other devices within organization, so user with permission
+**View Own Devices** will see only devices where he is the owner.
+
+In other words, users that don't have permission **View Organization Devices** can't see other organization devices.
+They can only see the devices where they are owners and only if they have **View Own Devices** permission.
+Users with **View Organization Devices** can see all devices within organization they belong to.
+
+This type of sharing is useful when you have only one user to share the device with and you don't want to isolate 
+the device within other organization.
+
+## Sharing via sub organization
+
+You can create the sub organization, invite multiple users you want to share the device with and transfer the device ownership
+to one of those users. For that type of sharing all users within sub organization should have **View Organization Devices** 
+permission. Otherwise, device will be visible only for the owner of device.
+Have in mind, that users from sub organizations never can see any data from the upper organization hierarchy.
+
+This type of sharing is useful when you want to share the device with many users.
+You still will be able to see this device in the search or via organization switch.

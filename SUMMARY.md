@@ -54,6 +54,7 @@
     * [Service](blynk.console/devices/device-profile/service.md)
   * [Actions with devices](blynk.console/devices/actions-with-devices.md)
   * [Notifications Settings](blynk.console/devices/notifications-settings.md)
+  * [Device Sharing](blynk.console/devices/device-sharing.md)
 * [Locations](blynk.console/locations/README.md)
   * [Location Profile](blynk.console/locations/location-profile.md)
   * [Assigning Devices to the Locations](blynk.console/locations/locations.md)
