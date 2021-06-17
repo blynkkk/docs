@@ -129,6 +129,14 @@
       <td style="text-align:left">&#x274C; Not available in new Blynk (yet)</td>
     </tr>
     <tr>
+      <td style="text-align:left">Device Selector</td>
+      <td style="text-align:left">&#x274C; Replaced with Device Tiles</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Reports</td>
+      <td style="text-align:left">&#x2705; Moved to <b>Blynk.Console. </b>Scheduled reports not yet available</td>
+    </tr>
+    <tr>
       <td style="text-align:left"><b>Cloud</b>
       </td>
       <td style="text-align:left"></td>
