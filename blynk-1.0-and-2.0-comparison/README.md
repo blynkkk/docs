@@ -15,7 +15,7 @@
     <tr>
       <td style="text-align:left">Android App</td>
       <td style="text-align:left">
-        <p>Blynk (legacy) requires <b>Android 4.2 </b>or later</p>
+        <p>Legacy Blynk requires <b>Android 4.2 </b>or later</p>
         <p>Blynk IoT requires <b>Android 5 </b>or later</p>
       </td>
     </tr>
