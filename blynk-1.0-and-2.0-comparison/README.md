@@ -76,7 +76,7 @@
     <tr>
       <td style="text-align:left"><a href="https://docs.blynk.io/en/blynk.console/devices/device-sharing">Device Sharing</a> (via
         QR code)</td>
-      <td style="text-align:left">&#x2705; Replaced by inviting users.</td>
+      <td style="text-align:left">&#x2705; Replaced by inviting users</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Connectivity</b>
@@ -134,7 +134,7 @@
     </tr>
     <tr>
       <td style="text-align:left">Reports</td>
-      <td style="text-align:left">&#x2705; Moved to <b>Blynk.Console. </b>Scheduled reports not yet available</td>
+      <td style="text-align:left">&#x2705; Moved to <b>Blynk.Console<br /></b>Scheduled reports not yet available</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Cloud</b>
@@ -142,12 +142,8 @@
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">Blynk.Cloud</td>
-      <td style="text-align:left">&#x2705; Further optimized</td>
-    </tr>
-    <tr>
       <td style="text-align:left">Local Server</td>
-      <td style="text-align:left">&#x274C; Available in <b>White-label</b> plan only</td>
+      <td style="text-align:left">Available in <b>White-label</b> plan only</td>
     </tr>
     <tr>
       <td style="text-align:left">Private Business Server</td>
@@ -160,7 +156,7 @@
     </tr>
     <tr>
       <td style="text-align:left">Blynk Energy</td>
-      <td style="text-align:left">&#x274C;Replaced with <a href="https://blynk.io/pricing#!/tab/318474072-1">subscription plans</a>
+      <td style="text-align:left">Replaced with <a href="https://blynk.io/pricing#!/tab/318474072-1">subscription plans</a>
       </td>
     </tr>
   </tbody>
