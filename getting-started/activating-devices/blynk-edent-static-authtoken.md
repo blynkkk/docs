@@ -74,7 +74,7 @@ Now you have all the information you need to update your sketch:
 
 ```cpp
 #define BLYNK_PRINT Serial
-#define BLYNK_TEMPLATE_ID "TMPLbu8YYym5"
+#define BLYNK_TEMPLATE_ID "TMPLbu8•••••"
 #define BLYNK_DEVICE_NAME "My First Device 01"
 #include <BlynkSimpleEsp32.h>
 char auth[] = "•••••••-•••••••-VoFvaUOH2U_sI";
