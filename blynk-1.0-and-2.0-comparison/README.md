@@ -31,7 +31,7 @@
       <td style="text-align:left">iOS App</td>
       <td style="text-align:left">
         <p>Legacy Blynk requires <b>iOS 9</b> or later</p>
-        <p>Blynk IoT require <b>iOS 14.1</b> or later</p>
+        <p>Blynk IoT requires <b>iOS 14.1</b> or later</p>
       </td>
     </tr>
     <tr>
