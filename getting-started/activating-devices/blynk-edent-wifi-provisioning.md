@@ -63,9 +63,7 @@ In the sketch variables `BLYNK_TEMPLATE_ID` and `BLYNK_DEVICE_NAME` are empty. T
 
 ![](../../.gitbook/assets/apr-07-2021-14-06-30.gif)
 
-1. Press **Upload** button to flash the code to your device. 
-
-If the upload process wend successfully you should see output in the serial monitor.
+Press **Upload** button to flash the code to your device. If the upload process wend successfully you should see output in the serial monitor:
 
 ![](https://lh6.googleusercontent.com/ke-UDlKRqfsgiak0aMEEHVbEU-cAmShbXLAMOS1LEd4_Kd1tktKFw2SajHnWul_b9jT3si85XchMheZlMWy931lPBKUvgw_daFkiYuUVBfVQM9VKePbryxwbD9hvnH4t5lZ2AzFo)
 
