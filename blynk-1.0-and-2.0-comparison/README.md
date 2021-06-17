@@ -21,7 +21,10 @@
     </tr>
     <tr>
       <td style="text-align:left">iOS App</td>
-      <td style="text-align:left">Both Blynk versions require <b>iOS 14.1</b> or later</td>
+      <td style="text-align:left">
+        <p>Legacy Blynk requires <b>iOS 9</b> or later</p>
+        <p>Blynk IoT require <b>iOS 14.1</b> or later</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">Bluetooth 2.0 SPP</td>
