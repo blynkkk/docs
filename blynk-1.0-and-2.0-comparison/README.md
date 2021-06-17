@@ -35,7 +35,7 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Device Management Features</b>
+      <td style="text-align:left"><b>Device Management</b>
       </td>
       <td style="text-align:left"></td>
     </tr>
@@ -67,6 +67,12 @@
       <td style="text-align:left">User Roles and Permissions</td>
       <td style="text-align:left">&#x1F389; New in <b>Blynk.Console</b>
       </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://docs.blynk.io/en/blynk.console/devices/device-sharing">Device Sharing</a> (via
+        QR code)</td>
+      <td style="text-align:left">&#x2705; Replaced by inviting users. QR-code and other self-activation
+        methods will be available in Discovery add-on soon</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Connectivity</b>
@@ -119,10 +125,6 @@
       <td style="text-align:left">&#x274C; Not available in new Blynk (yet)</td>
     </tr>
     <tr>
-      <td style="text-align:left">Device Sharing (via QR code)</td>
-      <td style="text-align:left">&#x2705; Replaced by inviting users</td>
-    </tr>
-    <tr>
       <td style="text-align:left"><b>Cloud</b>
       </td>
       <td style="text-align:left"></td>
@@ -138,6 +140,16 @@
     <tr>
       <td style="text-align:left">Private Business Server</td>
       <td style="text-align:left">&#x2705; Remains available for White-label clients</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Pricing Model</b>
+      </td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Blynk Energy</td>
+      <td style="text-align:left">&#x274C;Replaced with <a href="https://blynk.io/pricing#!/tab/318474072-1">subscription plans</a>
+      </td>
     </tr>
   </tbody>
 </table>
