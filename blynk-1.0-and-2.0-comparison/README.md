@@ -54,8 +54,13 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Device Event Timeline</td>
+      <td style="text-align:left">Event Logging</td>
       <td style="text-align:left">&#x1F389; New in <b>Blynk.Console</b> and <b>Blynk.Apps</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Notifications management</td>
+      <td style="text-align:left">&#x1F389; New in <b>Blynk.Console</b>
       </td>
     </tr>
     <tr>
@@ -71,8 +76,7 @@
     <tr>
       <td style="text-align:left"><a href="https://docs.blynk.io/en/blynk.console/devices/device-sharing">Device Sharing</a> (via
         QR code)</td>
-      <td style="text-align:left">&#x2705; Replaced by inviting users. QR-code and other self-activation
-        methods will be available in Discovery add-on soon</td>
+      <td style="text-align:left">&#x2705; Replaced by inviting users.</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Connectivity</b>
