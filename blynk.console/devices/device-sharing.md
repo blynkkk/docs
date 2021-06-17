@@ -51,4 +51,4 @@ However, in that case your family will see other devices within your organizatio
 So you have to create a new sub organization, invite into it your family with 
 **View Organization Devices** permissions, and now they will be able to view the garage doors.
 Sub organization has only device, so your family will see only it. While you still be able to see the devices in own/root organization and in the 
-sub roganizatio as well.
+sub organization as well.
