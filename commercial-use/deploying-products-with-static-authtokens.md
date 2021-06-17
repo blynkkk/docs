@@ -59,8 +59,8 @@ The planned workflow is next:
 
 1. In Blynk.Console you will be able to generate AuthTokens you need \(not devices as currently\)
 2. Each token will all come with a corresponding downloadable QR-code
-3. You would flash the tokens to the devices
-4. When your customer purchases a device, you will send them the device + printed \(or emailed\) QR code
+3. After flashing firmware to your devices, you'll be able to set AuthToken and your product-specific settings for each unit.
+4. Your customers receive the device + printed \(or emailed\) QR code
 5. They will download Blynk app and scan the QR code. 
 6. After scanning the QR code, device will be claimed by the customer and placed into their organization.
 
