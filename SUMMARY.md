@@ -2,6 +2,26 @@
 
 * [Introduction](Introduction.md)
 
+## Getting Started
+
+* [What do I need to Blynk?](getting-started/what-do-i-need-to-blynk.md)
+* [Sign Up / Sign In](getting-started/signup.md)
+* [Developer Mode](getting-started/developer-mode.md)
+* [Template Quick Setup](getting-started/template-quick-setup/README.md)
+  * [Set Up Datastreams](getting-started/template-quick-setup/set-up-datastreams.md)
+  * [Set Up Web Dashboard](getting-started/template-quick-setup/set-up-web-dashboard.md)
+  * [Set Up Mobile App Dashboard](getting-started/template-quick-setup/set-up-mobile-app-dashboard.md)
+  * [Prepare Your Code](getting-started/template-quick-setup/prepare-code.md)
+  * [Test your Template](getting-started/template-quick-setup/test-your-template.md)
+* [Device Activation](getting-started/activating-devices/README.md)
+  * [WiFi provisioning](getting-started/activating-devices/blynk-edent-wifi-provisioning.md)
+  * [Static AuthToken](getting-started/activating-devices/blynk-edent-static-authtoken.md)
+* [Send Device Data to Blynk](getting-started/using-virtual-pins-to-control-physical-devices.md)
+* [Log Events](getting-started/events-tutorial.md)
+* [Get Notifications](getting-started/notification-management.md)
+* [Firmware Over-The-Air](getting-started/updating-devices-firmwares-ota.md)
+* [Metadata Tutorial](getting-started/metadata-tutorial.md)
+
 ## Platform overview
 
 * [Blynk Products and Services](platform-overview/products-and-services.md)
@@ -20,25 +40,6 @@
 
 * [Blynk Mobile Apps](downloads/blynk-apps-for-ios-and-android.md)
 * [Blynk.Edgent](downloads/blynk.edgent.md)
-
-## Getting Started
-
-* [Sign Up / Sign In](getting-started/signup.md)
-* [Developer Mode](getting-started/developer-mode.md)
-* [Template Quick Setup](getting-started/template-quick-setup/README.md)
-  * [Set Up Datastreams](getting-started/template-quick-setup/set-up-datastreams.md)
-  * [Set Up Web Dashboard](getting-started/template-quick-setup/set-up-web-dashboard.md)
-  * [Set Up Mobile App Dashboard](getting-started/template-quick-setup/set-up-mobile-app-dashboard.md)
-  * [Prepare Your Code](getting-started/template-quick-setup/prepare-code.md)
-  * [Test your Template](getting-started/template-quick-setup/test-your-template.md)
-* [Device Activation](getting-started/activating-devices/README.md)
-  * [WiFi provisioning](getting-started/activating-devices/blynk-edent-wifi-provisioning.md)
-  * [Static AuthToken](getting-started/activating-devices/blynk-edent-static-authtoken.md)
-* [Send Device Data to Blynk](getting-started/using-virtual-pins-to-control-physical-devices.md)
-* [Log Events](getting-started/events-tutorial.md)
-* [Get Notifications](getting-started/notification-management.md)
-* [Firmware Over-The-Air](getting-started/updating-devices-firmwares-ota.md)
-* [Metadata Tutorial](getting-started/metadata-tutorial.md)
 
 ## Blynk.Console
 

@@ -42,9 +42,7 @@ You can create a new account either in [Blynk.Apps](https://docs.blynk.io/en/pla
 Tap Resend a Link if you can't find the invitation email \(also mind checking Spam folder\) after 1 minute interval\) to send it again.
 {% endhint %}
 
-![Create Password E-mail button](../.gitbook/assets/create_password.png)
-
-1. Tap **Create Password** button. The link will return you to the application.
+1. In the email you get tap **Create Password** button. The link will return you to the application.
 
 ![Password creation](https://user-images.githubusercontent.com/72790181/119364490-a2206080-bcb7-11eb-9221-b594e8aec99e.png)
 
