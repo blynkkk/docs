@@ -36,8 +36,7 @@
     </tr>
     <tr>
       <td style="text-align:left">Bridge widget</td>
-      <td style="text-align:left">&#x2705; Replaced by <b>Automations</b>
-      </td>
+      <td style="text-align:left">&#x2705; Replaced by <b>Automations</b> and <b>Rule Engine</b> (coming soon)</td>
     </tr>
     <tr>
       <td style="text-align:left">Eventor widget</td>
