@@ -11,8 +11,14 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">Local Server</td>
-      <td style="text-align:left">Available in <b>White-label</b> plan only</td>
+      <td style="text-align:left"><b>Apps</b>
+      </td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Web Dashboard</td>
+      <td style="text-align:left">&#x1F389; New <b>Blynk.Console</b>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">Android App</td>
@@ -29,12 +35,56 @@
       </td>
     </tr>
     <tr>
+      <td style="text-align:left"><b>Device Management Features</b>
+      </td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Voice Assistants</td>
+      <td style="text-align:left">&#x1F389; <b>Alexa</b> and <b>Google Home</b> integration (coming soon)</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Device Provisioning and Profiling</td>
+      <td style="text-align:left">&#x1F389; New in <b>Blynk.Edgent </b>and<b> Blynk.Apps</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Over-the-Air firmware updates (Blynk.Air)</td>
+      <td style="text-align:left">&#x1F389; New in <b>Blynk.Edgent </b>and<b> Blynk.Console</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Device Event Timeline</td>
+      <td style="text-align:left">&#x1F389; New in <b>Blynk.Console</b> and <b>Blynk.Apps</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Device and User Management</td>
+      <td style="text-align:left">&#x1F389; New in <b>Blynk.Console</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">User Roles and Permissions</td>
+      <td style="text-align:left">&#x1F389; New in <b>Blynk.Console</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Connectivity</b>
+      </td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
       <td style="text-align:left">Bluetooth 2.0 SPP</td>
       <td style="text-align:left">&#x274C; Not available in new Blynk (yet)</td>
     </tr>
     <tr>
       <td style="text-align:left">Bluetooth Low Energy (BLE)</td>
       <td style="text-align:left">&#x274C; Not available in new Blynk (yet)</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Widgets</b>
+      </td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">Bridge widget</td>
@@ -73,38 +123,21 @@
       <td style="text-align:left">&#x2705; Replaced by inviting users</td>
     </tr>
     <tr>
-      <td style="text-align:left">Web Dashboard</td>
-      <td style="text-align:left">&#x1F389; New <b>Blynk.Console</b>
+      <td style="text-align:left"><b>Cloud</b>
       </td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">Voice Assistants</td>
-      <td style="text-align:left">&#x1F389; <b>Alexa</b> and <b>Google Home</b> integration (coming soon)</td>
+      <td style="text-align:left">Blynk.Cloud</td>
+      <td style="text-align:left">&#x2705; Further optimized</td>
     </tr>
     <tr>
-      <td style="text-align:left">Device Provisioning and Profiling</td>
-      <td style="text-align:left">&#x1F389; New in <b>Blynk.Edgent </b>and<b> Blynk.Apps</b>
-      </td>
+      <td style="text-align:left">Local Server</td>
+      <td style="text-align:left">&#x274C; Available in <b>White-label</b> plan only</td>
     </tr>
     <tr>
-      <td style="text-align:left">Over-the-Air firmware updates</td>
-      <td style="text-align:left">&#x1F389; New in <b>Blynk.Edgent </b>and<b> Blynk.Console</b>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Device Event Timeline</td>
-      <td style="text-align:left">&#x1F389; New in <b>Blynk.Console</b> and <b>Blynk.Apps</b>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Device and User Management</td>
-      <td style="text-align:left">&#x1F389; New in <b>Blynk.Console</b>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">User Roles and Permissions</td>
-      <td style="text-align:left">&#x1F389; New in <b>Blynk.Console</b>
-      </td>
+      <td style="text-align:left">Private Business Server</td>
+      <td style="text-align:left">&#x2705; Remains available for White-label clients</td>
     </tr>
   </tbody>
 </table>
