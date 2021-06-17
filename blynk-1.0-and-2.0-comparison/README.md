@@ -99,6 +99,11 @@
       <td style="text-align:left">&#x1F389; New in <b>Blynk.Console</b>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">Roles and Permissions</td>
+      <td style="text-align:left">&#x1F389; New in <b>Blynk.Console</b>
+      </td>
+    </tr>
   </tbody>
 </table>
 
