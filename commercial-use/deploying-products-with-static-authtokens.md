@@ -59,12 +59,12 @@ The planned workflow is next:
 
 1. In Blynk.Console you will be able to generate AuthTokens you need \(not devices as currently\)
 2. Each token will all come with a corresponding downloadable QR-code
-3. After flashing firmware to your devices, you'll be able to set AuthToken and your product-specific settings for each unit.
+3. After flashing firmware to your devices, you'll be able to set AuthToken and your product-specific settings for each unit
 4. Your customers receive the device + printed \(or emailed\) QR code
 5. They will download Blynk app and scan the QR code. 
 6. After scanning the QR code, device will be claimed by the customer and placed into their organization.
 
-Additionally, you will be able to choose the unique identifer for claiming process. For example, if your devices already have unique number \(e.g. MAC address, Serial Number\), then this number will be mapped to the generated AuthTokens. In this case you won't need to flash the AuthTokens to your hardware.  
+Additionally, you will be able to choose the unique identifier for claiming process. For example, if your devices already have unique number \(e.g. MAC address, Serial Number\), then this number will be mapped to the generated AuthTokens. In this case you won't need to flash the AuthTokens to your hardware.  
 
 You would still need to make nodes to pair with the gateway and reroute messages
 
