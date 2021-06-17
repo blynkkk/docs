@@ -20,17 +20,16 @@ Raspberry Pi will be supported soon.
 
 You can skip this part as this is something you don't have to think about because Blynk does everything for you. But it might be helpful to understand how it works under the hood
 
-1. In the beginning, your hardware will act as an Access Point \(AP\). It means that your device will broadcast its own WiFi network with an SSID \(name\) similar to `Blynk-something-1234`;
-2. Your smartphone will connect to this AP with the Blynk app \(or from smartphone settings\) and they will start communicating directly with each other;
-3. When the connection with the device is established, Blynk app will ask you for the name \(SSID\) and password of the WiFi network you would like to connect this device to;
-4. This WiFi information \(SSID and password\) will be sent to the device;
-5. Also, Blynk app will request an Auth Token from the server and then send it to the device;
-6. Your device will store all of this items in EEPROM;
-7. After that, device will automatically reboot. The AP mode will be turned off;
-8. Device will use the WiFi credentials you provided to connect to your home or office WiFi network;
-9. When connected to WiFI, your device will connect to the Blynk Cloud using the Auth Token from step 5; 
-10. After the successful authentication, the device is added to your account and ready to use;
-11. If you later need to connect to this device to a different network, WiFi credentials can be changed by using Blynk app or by resetting the device with a physical button \(you would need to plan it into your electrical circuit design\).
+1. In the beginning, your hardware will act as an Access Point \(AP\). It means that your device will broadcast its own WiFi network with an SSID \(name\) similar to `Blynk Device-1234`
+2. Your smartphone will connect to this AP with the Blynk app \(or from smartphone settings\) and they will start communicating directly with each other
+3. Blynk app will ask you for the name \(SSID\) and password of the WiFi network you would like to connect this device to
+4. WiFi information \(SSID and password\) will be sent to the device
+5. Also, Blynk app will request an Auth Token from the server and then send it to the device
+6. Your device will store all of this items in Flash/EEPROM memory
+7. After that, device will automatically reboot. The AP mode will be turned off
+8. Device will use the WiFi credentials you provided to connect to your home or office WiFi network 
+9. After the successful authentication, the device is added to your account and ready to use
+10. If you later need to connect to this device to a different network, WiFi credentials can be changed by using Blynk app, by resetting the device with a physical button \(you would need to plan it into your electrical circuit design\)
 
 Now let's make it work for your devices.
 
@@ -49,37 +48,6 @@ Now let's make it work for your devices.
    ![](https://lh3.googleusercontent.com/WfHrWEDwJZ-mzHNcy1UVE1nwHDCAODrMkVehACEgsZYc4pS54L4o99Qel706TSEYPqUqNayc8Ur8pM6DCECYFH1hivgwC2O-KHSZgANz4yTkVV99JR-N4-8B2NDCoZXm3GlXm7eD)
 
 3. Select **Blynk.Edgent &gt; Edgent\_ESP32**
-
-The sketch will look like this:
-
-```cpp
-#define BLYNK_TEMPLATE_ID             ""
-#define BLYNK_DEVICE_NAME             ""
-
-#define BLYNK_FIRMWARE_VERSION        "0.1.0"
-
-#define BLYNK_PRINT Serial
-//#define BLYNK_DEBUG
-
-#define APP_DEBUG
-
-// Uncomment your board, or configure a custom board in Settings.h
-//#define USE_WROVER_BOARD
-
-#include "BlynkEdgent.h"
-
-void setup()
-{
-  Serial.begin(115200);
-  delay(100);
-
-  BlynkEdgent.begin();
-}
-
-void loop() {
-  BlynkEdgent.run();
-}
-```
 
 {% hint style="warning" %}
 In the sketch variables `BLYNK_TEMPLATE_ID` and `BLYNK_DEVICE_NAME` are empty. They should be replaced with the ones from your template. Read below on where to find them.
