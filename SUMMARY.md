@@ -195,3 +195,7 @@
 * [Glossary](glossary.md)
 * [Links](links.md)
 
+## Commercial Use
+
+* [Deploying Products With Static AuthTokens](commercial-use/deploying-products-with-static-authtokens.md)
+
