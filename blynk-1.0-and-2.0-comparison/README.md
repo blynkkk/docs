@@ -121,7 +121,7 @@
     </tr>
     <tr>
       <td style="text-align:left">WebHook widget</td>
-      <td style="text-align:left">&#x2705; Replaced by WebHook settings in <b>Blynk.Console*</b>
+      <td style="text-align:left">&#x2705; Replaced by WebHook settings in <b>Blynk.Console</b>
       </td>
     </tr>
     <tr>
@@ -143,7 +143,7 @@
     </tr>
     <tr>
       <td style="text-align:left">Local Server</td>
-      <td style="text-align:left">Available in <b>White-label</b> plan only</td>
+      <td style="text-align:left">&#x274C; Available in <b>White-label</b> plan only</td>
     </tr>
     <tr>
       <td style="text-align:left">Private Business Server</td>
