@@ -12,7 +12,7 @@ description: adapted from PeteKnight's article
 
 **So what are virtual pins - how do they relate to the pins on my board?**  
 Virtual pins are really just a way of sending a message from the app to the code that’s running on your board \(via the Blynk server\).  
-There is absolutely no correlation between virtual pins and any of the physical pins on your board. If you want a virtual pin to change the state of one of your physical pins then you have to write the code to make this happen. _But don’t panic, it’s not difficult that difficult! - just keep reading…_
+There is absolutely no correlation between virtual pins and any of the physical pins on your board. If you want a virtual pin to change the state of one of your physical pins then you have to write the code to make this happen. _But don’t panic, it’s not that difficult! - just keep reading…_
 
 **Basic principles of using virtual pins**  
 We’ll use an example of a Power Switch, set to Integer data type, connected to Virtual Pin 0 \(V0\). In Blynk.Console we’ll leave the values set to 0 and 1, so the widget sends a 0 when it’s turned off, and a 1 when it’s turned on - like this:
