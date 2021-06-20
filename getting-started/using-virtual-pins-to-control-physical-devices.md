@@ -26,7 +26,7 @@ This special function is called BLYNK\_WRITE, but its name is a little confusing
 So, for virtual pin 0, our sketch would need this bit of code adding…
 
 ```text
-BLYNK_WRITE(V1)
+BLYNK_WRITE(V0)
 {
   // any code you place here will execute when the virtual pin value changes
 }
@@ -78,7 +78,7 @@ void setup()
   pinMode(2, OUTPUT); // Initialise digital pin 2 as an output pin
 }
 
-BLYNK_WRITE(V1) // Executes when the value of virtual pin 0 changes
+BLYNK_WRITE(V0) // Executes when the value of virtual pin 0 changes
 {
   if(param.asInt() == 1)
   {
