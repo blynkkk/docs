@@ -115,7 +115,7 @@ or
 You live in Sydney and have garage door opener and want to get an exact time you departed today in one file. The accuracy you need is up to 1 minute and it should be in "YYYY-MM-DD HH:MM:SS" format.  
 Garage door opener is Blynked and it uses Datastream with ID 20 and virtual pin 6 for open/close commands. Also you want to get the list of all the events occured during this period. So API request for this case looks like:
 
-**\*\*\[**`https://blynk.cloud/external/api/data/get?token=HjKjfij84050fege&period=DAY&granularityType=MINUTE&sourceType=AVG&tzName=America/New_York&format=ISO_SIMPLE&sendEvents=true&output=FILE&dataStreamId=20`**\]\(**[https://blynk.cloud/external/api/data/get?token=HjKjfij84050fege&period=DAY&granularityType=MINUTE&sourceType=AVG&tzName=AET&format=ISO\_SIMPLE&sendEvents=true&output=FILE&dataStreamId=20&pin=V6](https://blynk.cloud/external/api/data/get?token=HjKjfij84050fege&period=DAY&granularityType=MINUTE&sourceType=AVG&tzName=AET&format=ISO_SIMPLE&sendEvents=true&output=FILE&dataStreamId=20&pin=V6)**\)**\`\`\*\*
+`https://blynk.cloud/external/api/data/get?token=HjKjfij84050fege&period=DAY&granularityType=MINUTE&sourceType=AVG&tzName=America/New_York&format=ISO_SIMPLE&sendEvents=true&output=FILE&dataStreamId=20`
 
 **JSON Output example:**
 
