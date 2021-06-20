@@ -77,7 +77,7 @@ Now you have all the information you need to update your sketch:
 #define BLYNK_TEMPLATE_ID "TMPLbu8•••••"
 #define BLYNK_DEVICE_NAME "My First Device 01"
 #include <BlynkSimpleEsp32.h>
-char auth[] = "•••••••-•••••••-VoFvaUOH2U_sI";
+char auth[] = "••••••••••••••VoFvaUOH2U_sI";
 void setup()
 {
   Serial.begin(115200);

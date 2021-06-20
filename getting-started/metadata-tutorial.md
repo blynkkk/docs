@@ -34,7 +34,7 @@ You can edit Product's Metadata settings any time you need it by following the s
 
 ## 3. [Add Device](../blynk.apps/device-management/add-new-device.md) and provide it's Metadata
 
-1. During the provision there will be prompts to input Device Metadata:
+During the provision there will be prompts to input Device Metadata:
 
 ![Device profiling](https://user-images.githubusercontent.com/72790181/119658205-8a6ee680-be35-11eb-8825-6bc47971ef98.png)
 

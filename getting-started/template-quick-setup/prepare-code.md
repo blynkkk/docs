@@ -136,7 +136,7 @@ Now you have all the information you need to update your sketch:
 #include <Ethernet.h>
 #include <BlynkSimpleEthernet.h>
 
-char auth[] = "•••••••-•••••••-VoFvaUOH2U_sI";
+char auth[] = "••••••••••••••VoFvaUOH2U_sI";
 
 void setup()
 {
