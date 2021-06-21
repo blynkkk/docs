@@ -2,7 +2,7 @@
 
 To start building your first IoT projects you would need:
 
-1. Create a Blynk account using Blynk.Console or [Blynk.App for iOS or Android](../downloads/blynk-apps-for-ios-and-android.md)
+1. Create a Blynk account using [Blynk.Console](https://docs.blynk.io/en/blynk.console/console-overview) or [Blynk.App for iOS or Android](../downloads/blynk-apps-for-ios-and-android.md)
 2. Supported hardware \(ESP32, Arduino, Raspberry Pi, etc. List of supported devices is [here](../blynk.edgent/supported-boards.md).
 3. Installed Blynk.Edgent \(a hardware library\)
 4. Create a Blynk account using [Blynk.Console](https://blynk.cloud/) or [Blynk.App for iOS or Android](../downloads/blynk-apps-for-ios-and-android.md)
