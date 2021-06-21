@@ -51,7 +51,7 @@ Select one of 4 track point styles:
 
 Select Datastream that contains course information in degrees \(e.g. it gets it from Device's compass\) so the track point can **show course direction** \(this feature is supported by Course and Truck point styles\)
 
-![](../../../.gitbook/assets/map_widget_settings%20%285%29%20%284%29%20%281%29.gif)
+![](../../../.gitbook/assets/map_widget_settings%20%285%29%20%284%29%20%281%29%20%281%29.gif)
 
 ## Insert the data
 

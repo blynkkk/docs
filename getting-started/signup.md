@@ -24,17 +24,17 @@ You can create a new account either in [Blynk.Apps](https://docs.blynk.io/en/pla
 
 ## **Sign Up**
 
-- Open the [Blynk app for iOS or Android](../downloads/blynk-apps-for-ios-and-android.md) or go to [Blynk.Console](https://blynk.cloud).
-- You'll get to the first screen after application launch \(in case you're not logged in\):
+* Open the [Blynk app for iOS or Android](../downloads/blynk-apps-for-ios-and-android.md) or go to [Blynk.Console](https://blynk.cloud).
+* You'll get to the first screen after application launch \(in case you're not logged in\):
 
 ![](https://user-images.githubusercontent.com/72790181/119364178-4fdf3f80-bcb7-11eb-9cd4-37461c57185c.png)
 
-- Tap **Sign Up** button if you don’t have an account. Sign Up screen will open:
+* Tap **Sign Up** button if you don’t have an account. Sign Up screen will open:
 
 ![Sign up](https://user-images.githubusercontent.com/72790181/119994051-e7ed6980-bfd4-11eb-8518-78b33ead5d9e.png)
 
-- Enter your E-mail, read and agree to the Terms and Conditions.  
-- Tap **Continue** and check your inbox for an Email with instructions.
+* Enter your E-mail, read and agree to the Terms and Conditions.  
+* Tap **Continue** and check your inbox for an Email with instructions.
 
 ![Email sent](https://user-images.githubusercontent.com/72790181/119364440-93d24480-bcb7-11eb-81fe-c052382d5f6e.png)
 
@@ -42,15 +42,15 @@ You can create a new account either in [Blynk.Apps](https://docs.blynk.io/en/pla
 Tap Resend a Link if you can't find the invitation email \(also mind checking Spam folder\) after 1 minute interval\) to send it again.
 {% endhint %}
 
-- In the email you get tap **Create Password** button. The link will return you to the application.
+* In the email you get tap **Create Password** button. The link will return you to the application.
 
 ![Password creation](https://user-images.githubusercontent.com/72790181/119364490-a2206080-bcb7-11eb-9221-b594e8aec99e.png)
 
-- Enter the password following the hint below the field and tap **Continue**
+* Enter the password following the hint below the field and tap **Continue**
 
 ![Profilling](https://user-images.githubusercontent.com/72790181/119364574-b5333080-bcb7-11eb-85d1-9525c7eb7fbc.png)
 
-- Fill in your profile required and optional information.
+* Fill in your profile required and optional information.
 
 ![Devices tab](https://user-images.githubusercontent.com/72790181/119994134-fb98d000-bfd4-11eb-9dd0-209e4ebe49e6.png)
 
@@ -60,13 +60,13 @@ Once you've finished with Profile setup your Sign Up is complete and you can add
 
 ## Sign In
 
-- Open the [Blynk app for iOS or Android](../downloads/blynk-apps-for-ios-and-android.md) or [Blynk.Console](https://blynk.cloud)
-- Tap **Log In** button
+* Open the [Blynk app for iOS or Android](../downloads/blynk-apps-for-ios-and-android.md) or [Blynk.Console](https://blynk.cloud)
+* Tap **Log In** button
 
 ![](https://user-images.githubusercontent.com/72790181/119365340-8073a900-bcb8-11eb-9bd5-5f3cc78948f4.png)
 
-- Input your account Email and password  
-- Tap **Log In** button
+* Input your account Email and password  
+* Tap **Log In** button
 
 ![Log In](https://user-images.githubusercontent.com/72790181/119365363-87022080-bcb8-11eb-877d-a9964b36a398.png)
 
@@ -89,11 +89,11 @@ Follow the steps below:
 
 ![Log In](https://user-images.githubusercontent.com/72790181/119365430-984b2d00-bcb8-11eb-9886-ccc21be14284.png)
 
-- Confirm reset password link sending by tap on the **Send** button 
+* Confirm reset password link sending by tap on the **Send** button 
 
 ![Forgot password screen](https://user-images.githubusercontent.com/72790181/119365594-be70cd00-bcb8-11eb-9865-b7fc91e3e23a.png)
 
-- After the link is sent, follow the instructions you see on the screen and then return to Log In screen by tap on the **Back to Login** button
+* After the link is sent, follow the instructions you see on the screen and then return to Log In screen by tap on the **Back to Login** button
 
 ![Email sent](https://user-images.githubusercontent.com/72790181/119365677-da746e80-bcb8-11eb-8a2b-ebf88b0dcb59.png)
 
@@ -101,13 +101,13 @@ Follow the steps below:
 The link will be sent to the Email that was linked to your Blynk account during Sign Up.
 {% endhint %}
 
-- Check your Email inbox please
+* Check your Email inbox please
 
 {% hint style="warning" %}
 If you can't find _Reset your password letter_ in your inbox for a long period of time \(it takes less than 1 minute to be delivered normally\), check your Spam folder please. Otherwise, re-send the link from Blynk.Apps
 {% endhint %}
 
-- Tap **Reset Password** button you've got in the Email
+* Tap **Reset Password** button you've got in the Email
 
 ![Email](https://user-images.githubusercontent.com/72790181/119365776-f415b600-bcb8-11eb-878e-82d79f5f52e1.png)
 
@@ -121,7 +121,7 @@ Check the strength-meter that is intended to assist you in generating strong pas
 You can check the password for typos with the tap on the \_eye pictogram.
 {% endhint %}
 
-- Tap **Save** button to submit new password  
+* Tap **Save** button to submit new password  
 
 ![Set new password](https://user-images.githubusercontent.com/72790181/119365819-01cb3b80-bcb9-11eb-8e9d-fcae1bc817ba.png)
 
@@ -134,5 +134,5 @@ You'll get UI an Email confirmation about that.
 
 ![Password changed](https://user-images.githubusercontent.com/72790181/119366118-4c4cb800-bcb9-11eb-8047-c686c82dc74e.png)
 
-- Tap **Back to Login** button and [sign in](https://docs.blynk.io/en/getting-started/signup#sign-in) to your account.
+* Tap **Back to Login** button and [sign in](https://docs.blynk.io/en/getting-started/signup#sign-in) to your account.
 
