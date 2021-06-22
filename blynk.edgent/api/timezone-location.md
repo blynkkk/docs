@@ -18,12 +18,13 @@ Example:
 ```cpp
 BLYNK_CONNECTED() {
     // Send requests for different internal data
-    Blynk.sendInternal("utc", "tz_name");
-    Blynk.sendInternal("utc", "iso");
-    Blynk.sendInternal("utc", "time");
-    Blynk.sendInternal("utc", "tz");
-    Blynk.sendInternal("utc", "tz_rule");
-    Blynk.sendInternal("utc", "dst_next");
+    // Request what is actually needed for your use-case
+    Blynk.sendInternal("utc", "tz_name");   // Name of timezone
+    Blynk.sendInternal("utc", "iso");       // ISO-8601 formatted time
+    Blynk.sendInternal("utc", "time");      // Unix timestamp (with msecs)
+    Blynk.sendInternal("utc", "tz");        // Timezone and DST offsets
+    Blynk.sendInternal("utc", "tz_rule");   // POSIX TZ rule
+    Blynk.sendInternal("utc", "dst_next");  // Up to 2 next time offset changes (due to DST)
 }
 
 // Receive UTC data
