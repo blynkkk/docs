@@ -1,6 +1,6 @@
 # Security
 
-- Every message sent through Blynk is encrypted and secure (unless you're using hardware that's doesn't support TLS)
+- Every message sent through Blynk is encrypted and secure (unless you're using hardware that doesn't support TLS)
 - Granular permissions allow you to manage who and how can see your devices and their data
 - Server system design doesn't allow any other user than allowed by you to view the devices within your organization hierarchy
 - Each device has own unique OAuth token and Product Id. Combination of both these fields grants access of the device only for your organization
@@ -55,7 +55,7 @@ After multiple (5) failed login attempts from the same IP - IP is not allowed to
 
 ### Certificates
 
-Blynk users Let's Encrypt certificates for the TLS connections. Certificates are renewed every 2 months. 
+Blynk uses Let's Encrypt certificates for the TLS connections. Certificates are renewed every 2 months. 
 
 ### Ports
 
