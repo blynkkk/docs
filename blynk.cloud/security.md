@@ -51,6 +51,7 @@ After multiple (5) failed login attempts from the same IP - IP is not allowed to
 - All data transfer between server and database is encrypted
 - Database is fully isolated within the private network
 - Database doesn't have access from the internet and available only from the private network
+- Database itself is not encrypted. Could be done for the clients on Enterprise plan ($).
 
 ### Certificates
 
