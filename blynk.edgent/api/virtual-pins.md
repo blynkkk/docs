@@ -118,5 +118,5 @@ Blynk.syncVirtual(V0, V1, V6, V9, V16);
 
 ## Blynk.setProperty\(vPin, "property", value\)
 
-This command allows [changing widget properties](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/api/blynkfirmware.md#blynk-main-operations-change-widget-properties)
+This command allows [changing widget properties](../mainoperations/widget-properties.md)
 
