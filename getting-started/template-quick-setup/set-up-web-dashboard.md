@@ -1,6 +1,6 @@
 # Set Up Web Dashboard
 
-### Let's set up the web GUI for our device.
+Now we need to to setup a dashboard template to interact with our device and visualize data from it.
 
 Go to [Dashboard ](../../blynk.console/devices/device-profile/dashboard.md)Tab and drag-n-drop these widgets to the canvas:
 
@@ -26,6 +26,12 @@ You'll get a Dashbord view like this one as result:
 
 ![](https://user-images.githubusercontent.com/72824404/119656472-690cfb00-be33-11eb-9f1e-668f0ebcf060.png)
 
+{% hint style="warning" %}
+**IMPORTANT!** At this stage you have set up a dashboard _template_ only and it will not yet connect to your actual devices. You will need to save the template and apply it to actual devices.
+
+In order to see actual data and interact with your device, you need to go to your devices: Search -&gt; My Devices -&gt; Device 
+{% endhint %}
+
 ## Switch Widget Settings
 
 Hover on the widget and you will see a **Configure** \(gear\) button. Click it and it will open widget settings. Set up widget as in the picture below:
@@ -44,9 +50,15 @@ On this widget, we will be showing historical data from the device from the `V0`
 
 ![](https://user-images.githubusercontent.com/72824404/119656767-bd17df80-be33-11eb-948d-93371e5afefd.png)
 
-{% hint style="warning" %}
 Click **Save** button at top right of the screen to save all the changes made to the Template.
+
+{% hint style="warning" %}
+**IMPORTANT!** At this stage you have set up a dashboard _template_ only and it will not yet connect to your devices. You will need to save the template and apply it to actual devices.
+
+In order to see actual data and interact with your device, you need to go to your devices: Search -&gt; My Devices -&gt; Device 
 {% endhint %}
+
+
 
 Now you can proceed to [Blynk.Apps dashboard setup](set-up-mobile-app-dashboard.md) or [Prepare Your Code](prepare-code.md)
 

@@ -26,3 +26,11 @@ After widgets are added you can apply the following **actions**:
 
 ![](../../../.gitbook/assets/cpt2105241707-610x318.gif)
 
+
+
+{% hint style="warning" %}
+**IMPORTANT!** In this section you are working with dashboard _template_ only and it will not yet connect to your devices. You will need to save the template and apply it to actual devices.
+
+In order to see actual data and interact with your device, you need to go to your devices: Search -&gt; My Devices -&gt; Device 
+{% endhint %}
+
