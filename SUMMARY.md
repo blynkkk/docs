@@ -182,6 +182,7 @@
 * [Log Event](blynk.cloud/trigger-events.md)
 * [Get Device Report](blynk.cloud/get-device-report.md)
 * [HTTPS API Troubleshooting](blynk.cloud/troubleshooting.md)
+* [Security](blynk.cloud/security.md)
 
 ## Troubleshooting
 
