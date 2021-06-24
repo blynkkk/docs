@@ -1,7 +1,5 @@
 # Changes from Blynk 0.1
 
-
-
 <table>
   <thead>
     <tr>
@@ -23,8 +21,8 @@
     <tr>
       <td style="text-align:left">Android App</td>
       <td style="text-align:left">
-        <p>Legacy Blynk requires <b>Android 4.2 </b>or later</p>
-        <p>Blynk IoT requires <b>Android 5 </b>or later</p>
+        <p>Legacy Blynk requires <b>Android 4.2</b> or later</p>
+        <p>Blynk IoT requires <b>Android 5</b> or later</p>
       </td>
     </tr>
     <tr>
@@ -45,12 +43,12 @@
     </tr>
     <tr>
       <td style="text-align:left">Device Provisioning and Profiling</td>
-      <td style="text-align:left">&#x1F389; New in <b>Blynk.Edgent </b>and<b> Blynk.Apps</b>
+      <td style="text-align:left">&#x1F389; New in <b>Blynk.Edgent</b> and <b>Blynk.Apps</b>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Over-the-Air firmware updates (Blynk.Air)</td>
-      <td style="text-align:left">&#x1F389; New in <b>Blynk.Edgent </b>and<b> Blynk.Console</b>
+      <td style="text-align:left">&#x1F389; New in <b>Blynk.Edgent</b> and <b>Blynk.Console</b>
       </td>
     </tr>
     <tr>
@@ -169,6 +167,4 @@
     </tr>
   </tbody>
 </table>
-
-
 
