@@ -125,8 +125,8 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Notifications, Email, Twitter widget</td>
-      <td style="text-align:left">&#x274C; Replaced with Template Events</td>
+      <td style="text-align:left">Notifications, Email, Twitter widgets</td>
+      <td style="text-align:left">&#x2705; Replaced by Template Events</td>
     </tr>
     <tr>
       <td style="text-align:left">Terminal widget</td>
