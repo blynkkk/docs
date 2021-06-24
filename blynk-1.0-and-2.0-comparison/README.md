@@ -125,6 +125,14 @@
       </td>
     </tr>
     <tr>
+      <td style="text-align:left">Notifications, Email, Twitter widget</td>
+      <td style="text-align:left">&#x274C; Replaced with Template Events</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Terminal widget</td>
+      <td style="text-align:left">&#x274C; Works only in realtime. History not supported</td>
+    </tr>
+    <tr>
       <td style="text-align:left">Table widget</td>
       <td style="text-align:left">&#x274C; Not available in new Blynk (yet)</td>
     </tr>
