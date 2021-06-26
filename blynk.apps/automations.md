@@ -17,7 +17,7 @@ In order to enable automation permissions for the end users you neeed to:
 
 - Go to the **Settings** in the left menu
 - Click on **Roles and Permissions**
-- Click on **Organizations** and enable **Create/Edit/Delete/View Automations* permissions for the required role
+- Click on **Organizations** and enable **Create/Edit/View/Delete Automations** permissions for the required role
 
 ![No automations](https://user-images.githubusercontent.com/72790181/120281222-57a77100-c2c1-11eb-82fc-5d872520671f.png)
 
