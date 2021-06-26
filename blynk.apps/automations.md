@@ -12,6 +12,13 @@ Automations are replacement for old Blynk TimeInput, Timer, Bridge and Eventor w
 Automations should be [enabled in Template settings](../blynk.console/templates/datastreams/datastreams-common-settings/automation.md) first. Otherwise, Automation tab will be unavailable in Blynk.Apps
 {% endhint %}
 
+Automations are created per organization and available only for the users who has required permissions.
+In order to enable automation permissions for the end users you neeed to:
+
+- Go to the **Settings** in the left menu
+- Click on **Roles and Permissions**
+- Click on **Organizations** and enable **Create/Edit/Delete/View Automations* permissions for the required role
+
 ![No automations](https://user-images.githubusercontent.com/72790181/120281222-57a77100-c2c1-11eb-82fc-5d872520671f.png)
 
 Tap **Add automation** to create a new one
