@@ -20,7 +20,7 @@ Blynk.setProperty(V0, "labels", "Menu Item 1", "Menu Item 2", "Menu Item 3");
 
 **NOTE :** Changing these parameters work **only** for widgets attached to Virtual pins \(analog/digital pins won't work\).
 
-Four widget properties are supported - `color`, `label`, `min`, `max` for all widgets :
+`color`, `label` widget properties are supported for all widgets :
 
 `label` is string for label of all widgets.
 
@@ -33,8 +33,6 @@ Four widget properties are supported - `color`, `label`, `min`, `max` for all wi
 #define BLYNK_RED       "#D3435C"
 #define BLYNK_DARK_BLUE "#5F7CD8"
 ```
-
-`min`, `max` - minimum and maximum values for the widget \(for example range for the Slider\). This numbers may be float.
 
 On firmware side, widget objects also support `setLabel()` and `setColor()` functions.
 
