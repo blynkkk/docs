@@ -143,6 +143,10 @@
       <td style="text-align:left">&#x2705; Moved to <b>Blynk.Console<br /></b>Scheduled reports not yet available</td>
     </tr>
     <tr>
+      <td style="text-align:left">Widget min/max set property</td>
+      <td style="text-align:left">&#x274C; Widget min/max fields were moved to datastream settings</td>
+    </tr>
+    <tr>
       <td style="text-align:left"><b>Cloud</b>
       </td>
       <td style="text-align:left"></td>
