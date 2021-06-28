@@ -62,13 +62,16 @@
 * connectivity issues
 * auth token was changed
 * Wi-Fi network SSID or password was changed
+* old version of library or even beta version is used
+* outdated ESP core version
 
 **What’s the solution:**
 
 * check if the device is powered on
-* check your internet connection between the device and Blynk.Cloud
+* check your internet connection between the device and Blynk.Cloud \(mind Wi-Fi signal strength and distance\)
 * connect to your device and check if it's auth token matches one in Blynk.Cloud
-* launch Device Reprovision
+* be sure to use the latest version of library, otherwise re-flash and launch Device Reprovision process
+* check your ESP core version is up to date, otherwise re-flash and launch Device Reprovision process
 
 ## "Not correct device" during add device
 
