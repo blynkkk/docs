@@ -14,13 +14,13 @@ Open the left side menu and tap your **Organization Name** \(Test Reseller on sc
 
 On this screen you can edit Organization Information, switch to another organization or navigate to Organization **Members** tab to edit users list.
 
-![Organization members](https://user-images.githubusercontent.com/72790181/119666558-269ceb80-be3e-11eb-9032-b89ad16010af.png)
+## Members \(aka users\) management
 
-## Members management
+![Organization members](https://user-images.githubusercontent.com/72790181/119666558-269ceb80-be3e-11eb-9032-b89ad16010af.png)
 
 Members tab displays all members of the current organization and invite new one's.
 
-Status – 3 registration statuses are possible: 
+Statuses are:
 
 * **Pending** – the user is invited, but the email is not confirmed \(user haven't logged in yet\)
 * **Active** – the user confirmed the email, logged at least one time
