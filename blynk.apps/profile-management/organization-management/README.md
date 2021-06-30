@@ -20,24 +20,25 @@ On this screen you can edit Organization Information, switch to another organiza
 
 Members tab displays all members of the current organization and invite new one's.
 
-{% hint style="info" %}
-* **Status** – 3 registration statuses are possible:
-  * **pending** – the user is invited, but the email is not confirmed \(user haven't logged in\) 
-  * **active** – the user confirmed the email, logged at least one time 
-  * **inactive** – the user hasn't logged for 1 month
-{% endhint %}
+Status – 3 registration statuses are possible: 
 
-To invite new member press **User Icon** on the top
+* **Pending** – the user is invited, but the email is not confirmed \(user haven't logged in yet\)
+* **Active** – the user confirmed the email, logged at least one time
+* **Inactive** – the user hasn't logged for 1 month
+
+To invite new member press **Add** **User**  in the upper right corner
 
 ![User invitation](https://user-images.githubusercontent.com/72790181/119666581-2b619f80-be3e-11eb-833f-cf60a73a376a.png)
 
-Fill new members Email and name. Choose a role to see what [permissions](../../../blynk.console/settings/access.md) new member will have, then tap **User icon** to confirm
+Fill new members Email and name. Choose a role to see what [permissions](../../../blynk.console/settings/access.md) new member will have, then tap **User icon** to confirm.
 
-{% hint style="info" %}
-Blynk has 3 types of users roles that can have different permissions sets:
-
-* **Admin** – supposed to have maximum permissions set
-* **Staff** – we recommend to set up and use this role for user support processes such as handling user invitation, device check and debug, view and assist users' organizations
-* **Users** – supposed to have least permissions set that is focued mostly on managing user's own devices.
+{% hint style="warning" %}
+Full control over permissions is only available in [PRO plans](https://www.blynk.io/pricing) and higher.
 {% endhint %}
+
+These roles are available by default:
+
+* **Admin** – supposed to have the most rights 
+* **Staff** – use this role for those who provide user support, need to invite other users,  check all devices, supervise other organizations \(clients\) 
+* **User** – supposed to have basic permissions
 
