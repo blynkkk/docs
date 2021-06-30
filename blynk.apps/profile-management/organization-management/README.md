@@ -14,7 +14,7 @@ Open the left side menu and tap your **Organization Name** \(Test Reseller on sc
 
 On this screen you can edit Organization Information, switch to another organization or navigate to Organization **Members** tab to edit users list.
 
-## Members \(aka users\) management
+## Members \(users\) management
 
 ![Organization members](https://user-images.githubusercontent.com/72790181/119666558-269ceb80-be3e-11eb-9032-b89ad16010af.png)
 
