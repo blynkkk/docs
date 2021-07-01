@@ -6,9 +6,7 @@ Map widget vizualises data related to a location of the device:
 * GPS track \(historical position of the device\)
 * Overlays: various data related to the time and location of the device. E.g. speed of the device at a particular point of the track.
 
-{% hint style="warning" %}
-Location update in real time is not yet implemented. Refresh the page to see the latest location.
-{% endhint %}
+**Warning:** Location real time update is not implemented yet. Refresh the page to see the latest location.
 
 ### Map Settings
 
@@ -73,7 +71,5 @@ You can also send multiple datastreams within the same request. In that case the
 https://{server_address}/external/api/batch/update?token={token}&V5=longtitude&V5=latitude&V6={somevalue}
 ```
 
-{% hint style="warning" %}
-Please pay attention to the order of the coordinates. `Longtitude` should always go first.
-{% endhint %}
+**Warning:** Please pay attention to the order of the coordinates. Longtitude should always go first.
 
