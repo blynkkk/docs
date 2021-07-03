@@ -6,10 +6,17 @@ Device sharing is handled with permission **View Organization Devices**, **Contr
 
 At the moment in order to share the device you have 2 options:
 
-* Transfer the device ownership to the user you want to share the device with
-* Create sub organization and transfer the device into it
+* Invite the user to your organization
+* Create sub organization, invite the user to the sub organization and transfer the device into it
 
-## Sharing via  Transfer Ownership
+## Sharing via Own organization
+
+In order to share your device with someone, you just need to invite this user to your organization.
+
+Right now you can select **Admin**, **Staff** or **User** roles during the invitation.
+User should have a role with **View Organization Devices** permission in order to see your devices.
+Have in mind, that default **User** role doesn't have any permissions. You need to set required permissions for this and other roles.
+Otherwise, invited user will see the empty screen without any devices.
 
 You can [transfer the device ownership](actions-with-devices.md#device-transfer) to the user you want to share the device with within your organization \(user should be invited to your organization\). In that case, you can restrict the access of the user to other devices within organization, so user with permission **View Own Devices** will see only devices where he is the owner.
 
