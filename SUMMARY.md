@@ -8,8 +8,8 @@
 * [Sign Up / Sign In](getting-started/signup.md)
 * [Developer Mode](getting-started/developer-mode.md)
 * [Device Activation](getting-started/activating-devices/README.md)
-  * [WiFi provisioning](getting-started/activating-devices/blynk-edent-wifi-provisioning.md)
-  * [Static AuthToken](getting-started/activating-devices/blynk-edent-static-authtoken.md)
+  * [WiFi provisioning](getting-started/activating-devices/blynk-edgent-wifi-provisioning.md)
+  * [Static AuthToken](getting-started/activating-devices/blynk-edgent-static-authtoken.md)
 * [Template Quick Setup](getting-started/template-quick-setup/README.md)
   * [Set Up Datastreams](getting-started/template-quick-setup/set-up-datastreams.md)
   * [Set Up Web Dashboard](getting-started/template-quick-setup/set-up-web-dashboard.md)
@@ -199,5 +199,6 @@
 
 ## Commercial Use
 
+* [Deploying Products With Dynamic AuthTokens](commercial-use/deploying-products-with-dynamic-authtokens.md)
 * [Deploying Products With Static AuthTokens](commercial-use/deploying-products-with-static-authtokens.md)
 

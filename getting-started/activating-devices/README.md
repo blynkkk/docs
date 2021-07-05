@@ -29,7 +29,7 @@ This method is especially beneficial for commercial applications because:
 
 **How to set up WiFi provisioning:**
 
-{% page-ref page="blynk-edent-wifi-provisioning.md" %}
+{% page-ref page="blynk-edgent-wifi-provisioning.md" %}
 
 ### B. Activating device with a Static Auth Token \(for Ethernet, cellular, and other connection types\)
 
@@ -41,5 +41,5 @@ Static Auth Token is often used during the prototyping stage. However, Blynk als
 
 **How to use Static Auth Token:**
 
-{% page-ref page="blynk-edent-static-authtoken.md" %}
+{% page-ref page="blynk-edgent-static-authtoken.md" %}
 
