@@ -2,19 +2,25 @@
 
 Every device needs a unique AuthToken in order to authenticate in Blynk.Cloud. During prototyping you can manually add AuthToken to every device. However, when working with commercial products you would need a scalable approach to eliminate manual work.
 
+### 
+
 ### Why use dynamic AuthTokens
 
 1. With this approach you don't have to flash different AuthTokens onto your devices. You can use the same firmware on every device, which significantly simplifies the production process.
-2. Dynamic AuthTokens workflow is included in Blynk.Edgent and work out-of-the-box.
+2. Dynamic AuthTokens workflow is included in Blynk.Edgent and works out-of-the-box.
 3. This flow is integrated with Blynk.apps providing great user experience 
 
 {% hint style="info" %}
 Dynamic AuthTokens works only with Wi-Fi devices. Supported devices are: ESP32, ESP8266, WiO Terminal by Seeed, Arduino MKR1010, Arduino Nano 33IoT, and Texas Instruments CC3220. Raspberry Pi will be supported soon.
 {% endhint %}
 
+### \*\*\*\*
+
+### \*\*\*\*
+
 ### **How Dynamic AuthTokens work**
 
-Dynamic AuthToken generation is part of device provisioning process. It's important to understand how it works.
+Dynamic AuthToken generation is a part of device provisioning process:
 
 1. In the beginning, your device will act as an Access Point \(AP\). It means that your device will broadcast its own WiFi network with an SSID \(name\) similar to `Blynk Device-1234`
 2. Your smartphone will connect to this AP with the Blynk app \(or from smartphone settings\) and they will start communicating directly with each other over WiFi
@@ -36,10 +42,10 @@ In general, Blynk.Edgent covers everything you need to enable your productst to 
 {% page-ref page="../getting-started/activating-devices/blynk-edgent-wifi-provisioning.md" %}
 
 {% hint style="warning" %}
-IMPORTANT: When working on electrical design for your product: 
+**IMPORTANT**: When working on electrical design for your product: 
 
-1. Plan a physical button which will allow resetting the device to its factory settings. Holding this button for N seconds will erase the AuthToken \(and WiFi credentials\)
-2. Plan an LED to indicate the status of device. It can be RGB or one-color.
+1. Plan a physical button which will allow your customers to reset the device to its factory settings. E.g. holding this button for N seconds will erase the AuthToken \(and WiFi credentials\).
+2. Plan an LED to indicate the status of device. It can be RGB or one-color LED.
 
 You can find references to handling reset and statuses indication in Blynk.Edgent examples 
 {% endhint %}
@@ -48,17 +54,11 @@ You can find references to handling reset and statuses indication in Blynk.Edgen
 
 ### Delivering devices to the client
 
-Your clienst will use Blynk app to connect their devices. Here is an example of how it works
+Your clienst will use Blynk app to connect their devices. Here is an example of how it works:
 
 {% hint style="info" %}
-User experience is different for iOS and Android devices. Also future updates of operating systems can result in UI changes.  
+User experience is different for iOS and Android devices. Future updates of these operating systems can result in UI changes. These changes are handled by Blynk.  
 {% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=bXPEEmsEtPM" %}
-
-
-
-
-
-
 
