@@ -2,7 +2,7 @@
 
 Every device needs a unique AuthToken in order to authenticate in Blynk.Cloud. During prototyping you can manually add AuthToken to every device. However, when working with commercial products you would need a scalable approach to eliminate manual work.
 
-### 
+
 
 ### Why use dynamic AuthTokens
 
@@ -13,8 +13,6 @@ Every device needs a unique AuthToken in order to authenticate in Blynk.Cloud. D
 {% hint style="info" %}
 Dynamic AuthTokens works only with Wi-Fi devices. Supported devices are: ESP32, ESP8266, WiO Terminal by Seeed, Arduino MKR1010, Arduino Nano 33IoT, and Texas Instruments CC3220. Raspberry Pi will be supported soon.
 {% endhint %}
-
-### \*\*\*\*
 
 ### \*\*\*\*
 
