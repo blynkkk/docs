@@ -128,7 +128,7 @@
     </tr>
     <tr>
       <td style="text-align:left">Terminal widget</td>
-      <td style="text-align:left">&#x274C; Works only in realtime. History not supported</td>
+      <td style="text-align:left">Works only in realtime. History not supported</td>
     </tr>
     <tr>
       <td style="text-align:left">Table widget</td>
@@ -137,6 +137,10 @@
     <tr>
       <td style="text-align:left">Device Selector</td>
       <td style="text-align:left">&#x274C; Replaced with Device Tiles</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Multi-device projects</td>
+      <td style="text-align:left">&#x274C; Replaced with Device Tiles and <b>Dashboards</b> (coming soon)</td>
     </tr>
     <tr>
       <td style="text-align:left">Reports</td>
