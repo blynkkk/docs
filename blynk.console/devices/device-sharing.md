@@ -9,6 +9,8 @@ At the moment in order to share the device you have 2 options:
 * Invite the user to your organization
 * Create sub organization, invite the user to the sub organization and transfer the device into it
 
+In both above use cases the user could provision the device by himself after he is invited to the org or suborg. 
+
 ## Sharing via Own organization
 
 In order to share your device with someone, you just need to invite this user to your organization.
