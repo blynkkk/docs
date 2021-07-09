@@ -7,7 +7,7 @@ Device sharing is handled with permission **View Organization Devices**, **Contr
 At the moment in order to share the device you have 2 options:
 
 * Invite the user to your organization
-* Create sub organization, invite the user to the sub organization and transfer the device into it
+* Create sub organization (available only for the **PRO** users), invite the user to the sub organization and transfer the device into it
 
 In both above use cases the user could provision the device by himself after he is invited to the org or suborg. 
 
