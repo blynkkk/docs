@@ -70,6 +70,24 @@ After adding the first action you can continue adding more of them or save this 
 
 When Automations are created you will see the list of them. Here you can disable/enable automations and open their settings for view and edit.
 
+## Notification actions
+
+Currently Automations support 3 types of notification actions:
+
+- Email notification
+- Push notification. The maximum size of the message for push notification is 255 chars. Larger messages won't be send
+- Sms notifications (only for the white label clients)
+
+All action types support the next placeholders within the message body:
+
+- ```{ORG_NAME}```
+- ```{PRODUCT_NAME}```
+- ```{DEVICE_NAME}```
+- ```{TRIGGER_VALUE}```
+
+For example, let's say you made an automation that triggers the push notification when the temperature is higher than 40 degrees.
+You can make the next message: ```Temperature for {DEVICE_NAME} is too high, current value is - {TRIGGER_VALUE}!```
+
 ## Limit period
 
 ![Limit period \(tap on limit period\)](https://user-images.githubusercontent.com/72790181/120785065-6e55fe00-c535-11eb-8979-f3eb1b50ecf1.png)
