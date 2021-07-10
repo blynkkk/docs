@@ -109,7 +109,7 @@
     </tr>
     <tr>
       <td style="text-align:left">TimeInput widget</td>
-      <td style="text-align:left">&#x2705; Replaced by <b>Automations</b>
+      <td style="text-align:left">&#x2705; Not yet available. Will be returned very soon
       </td>
     </tr>
     <tr>
