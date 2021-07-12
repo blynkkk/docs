@@ -7,7 +7,7 @@ A code example for ESP32/ ESP8266 / Arduino boards
 ## 3 simple steps to configure your code:
 
 1. [Install Blynk library](http://help.blynk.cc/en/articles/512105-how-to-install-blynk-library-for-arduino-ide)
-2. Specify Template ID and Template Name in your firmware
+2. Define Template ID and Device Name on top of your firmware, before any includes
 3. Upload this sketch into your test board
 
 **Final step:** [Provision your board via Dynamic Provisioning flow](https://docs.blynk.io/en/getting-started/activating-devices#3-add-device) and add it to your account using Blynk app
@@ -105,7 +105,7 @@ char auth[] = "YourAuthToken";
 
 1. Log in to your [Blynk.Console](https://blynk.cloud/) developer account
 2. If you don't have a  Device Templates -&gt; [Create New Template](./#create-a-template) or open an existing one
-3. Copy the contents of this section and paste them to your sketch
+3. Copy the contents of this section and paste them on top of your firmware, before any includes
 
 ![](../../.gitbook/assets/image%20%2820%29.png)
 

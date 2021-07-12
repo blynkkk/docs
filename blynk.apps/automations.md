@@ -74,19 +74,18 @@ When Automations are created you will see the list of them. Here you can disable
 
 Currently Automations support 3 types of notification actions:
 
-- Email notification
-- Push notification. The maximum size of the message for push notification is 255 chars. Larger messages won't be send
-- Sms notifications (only for the white label clients)
+* Email notification
+* Push notification. The maximum size of the message for push notification is 255 chars. Larger messages won't be send
+* Sms notifications \(only for the white label clients\)
 
 All action types support the next placeholders within the message body:
 
-- ```{ORG_NAME}```
-- ```{PRODUCT_NAME}```
-- ```{DEVICE_NAME}```
-- ```{TRIGGER_VALUE}```
+* `{ORG_NAME}`
+* `{PRODUCT_NAME}`
+* `{DEVICE_NAME}`
+* `{TRIGGER_VALUE}`
 
-For example, let's say you made an automation that triggers the push notification when the temperature is higher than 40 degrees.
-You can make the next message: ```Temperature for {DEVICE_NAME} is too high, current value is - {TRIGGER_VALUE}!```
+For example, let's say you made an automation that triggers the push notification when the temperature is higher than 40 degrees. You can make the next message: `Temperature for {DEVICE_NAME} is too high, current value is - {TRIGGER_VALUE}!`
 
 ## Limit period
 
