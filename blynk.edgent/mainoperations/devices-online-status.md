@@ -2,7 +2,7 @@
 
 ## Devices Online Status
 
-Blynk always updates the device's online status in realtime. As soon as the device sends the `login` command, online status is sent to the web and mobile apps. So you can always see if the device is online or not.
+Blynk always updates the device's online status in realtime. As soon as the device sends the `login` command, online status is sent to the web and mobile apps. So you can always see whether the device is online or offline.
 
 ## Devices Offline Status
 
