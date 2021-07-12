@@ -4,11 +4,19 @@
 
 With dynamic provisioning, you can use Blynk.Apps to configure connection credentials for each device. You can use the same firmware binary for all of the devices of the same type.
 
-* **ESP32** - with OTA support
-* **ESP8266** - with OTA support
-* **Arduino MKR WiFi 1010**
-* **Arduino Nano 33 IoT**
-* **Seeed Wio Terminal**
+| Board | Provisioning | Secure connection | Blynk.Air \(OTA\) |
+| :--- | :--- | :--- | :--- |
+| ESP32 | ✅ | ✅ | ✅ |
+| ESP8266 | ✅ | ✅ | ✅ |
+| Arduino MKR WiFi 1010 | ✅ | ✅ | ✅ |
+| Arduino Nano 33 IoT | ✅ | ✅ | ✅ |
+| Arduino MKR1000 | ✅ | ✅ | ✅ \(partial\) |
+| Seeed Wio Terminal | ✅ | ✅ | ❌ |
+| TI CC3220 | ✅ | ✅ | ✅ |
+
+## Production Line provisioning support
+
+This allows you to configure device credentials and other device-specific parameters on the device production line. The feature is currently under development, and available upon request.
 
 ## Static provisioning support
 
