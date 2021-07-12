@@ -16,7 +16,9 @@ With dynamic provisioning, you can use Blynk.Apps to configure connection creden
 
 ## Production Line provisioning support
 
-This allows you to configure device credentials and other device-specific parameters on the device production line. The feature is currently under development, and available upon request.
+This allows you to configure device credentials and other device-specific parameters on the device production line. You can use the same firmware binary for all of the devices of the same type.
+
+**The feature is currently under development, and available upon request.**
 
 ## Static provisioning support
 
