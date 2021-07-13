@@ -1,56 +1,69 @@
 ---
-description: Automations let you set an automated control of your devices
+description: Automations let you automate
 ---
 
 # Automations
 
-{% hint style="info" %}
-Automations are replacement for old Blynk TimeInput, Timer, Bridge and Eventor widgets
-{% endhint %}
+Automations is a powerful feature that allows end-users to set up their own sequences of actions that starts when a certain **trigger** happens. Automations can be set up to work between device. A trigger fired on one device, can cause another devices to perform actions. 
+
+Automation examples:
+
+* If temperature sensor  shows temperature above 40 degrees, turn the Boiler OFF
+* Every Tuesday at 8pm turn the Garden Lights Off
 
 {% hint style="warning" %}
-Automations should be [enabled in Template settings](../blynk.console/templates/datastreams/datastreams-common-settings/automation.md) first. Otherwise, Automation tab will be unavailable in Blynk.Apps
+Automations should be properly configured[ in Template settings](../blynk.console/templates/datastreams/datastreams-common-settings/automation.md). Otherwise, Automation tab will be unavailable in Blynk.Apps
 {% endhint %}
 
-Automations are created per organization and available only for the users who has required permissions. In order to enable automation permissions for the end users you neeed to:
+{% hint style="info" %}
+Automations feature is a replacement for some of the Blynk 1.0 \(Legacy\) widgets like: Timer, Bridge, and Eventor.
+{% endhint %}
 
-* Go to the **Settings** in the left menu
-* Click on **Roles and Permissions**
-* Click on **Organizations** and enable **Create/Edit/View/Delete Automations** permissions for the required role
+
+
+### Triggers
+
+Automations can be based on these triggers:
+
+* **Time of Day** - a specific time of the day and for day of week will trigger the automation
+* **Sunset / Sunrise** - \(also called astronomical timer\). Based on the location of device, Blynk will calculate the sun position time and use it as a trigger. Current sunset algorithm doesn't take into account the altitude of the selected region which makes this calculation less precise for the mountainous regions.
+* **Device state** -  certain value of defined datastream will trigger the automation. For example, if temperature &gt; 40 degrees, turn the boiler off
+* **Scene** - manual activation of automation scenario
+
+One trigger, can be used to start actions on multipe devices. 
+
+
+
+### Actions
+
+Actions define what should happen upon trigger. You have these options: 
+
+1. **Set a device to... -** this action allows you to set a datastream of device to a specified state. For example, turn something on/off, set datastream to a value. 
+2. **Send Email** - ****will send email to specified recipient\(s\).  
+3. **Send notification** - will send a push notification \(in-app notification\) to specified recipients. 
+4. **Send SMS -** will send an SMS. This is only available in [White-label](https://www.blynk.io/pricing#business) solution.
+
+Notificaitons can contain placeholders. Check details below.
+
+### \*\*\*\*
+
+### **Setting up automations**
+
+Automations are created per organization and only available for users with permission for it. To enable automation permissions:
+
+* Go to the **Settings** -&gt; **Roles and Permissions**
+* Find **Organizations** section and enable **Create/Edit/View/Delete Automations** permissions for the required role
+* The availability of **Scene** trigger is controlled in: Settings - &gt; Roles and Permissions - &gt; Organizations -&gt; **Automation execute** row.
 
 ![No automations](https://user-images.githubusercontent.com/72790181/120281222-57a77100-c2c1-11eb-82fc-5d872520671f.png)
 
-Tap **Add automation** to create a new one
+Tap **Add automation** to create a new one or use plus icon in the upper right corner.
 
 ![Choose condition](https://user-images.githubusercontent.com/72790181/120281228-5b3af800-c2c1-11eb-8e54-267b8aed6e79.png)
 
-If you don't see **Device state** condition that means you haven't enabled any datastream to work with automations. You need [to explicitly define](../blynk.console/templates/datastreams/datastreams-common-settings/automation.md) what datastreams will work as conditions.
-
-Blynk currently supports 4 types of automations:
-
-* **Time of Day** - allows you to trigger at a specific time of the day and for the specific day.
-* **Sunset / Sunrise** - allows you to trigger at sunset/sunrise.
-
-  This kind of automation is triggered based on the selected location.
-
-  For the different locations you'll get the different sunset/sunrise time.
-
-  Also, current sunset algorithm doesn't take into account the altitude of the selected region.
-
-  So the sunset/sunrise time calculation may be not precise for the mountain regions.
-
-* **Device state** - allows you to trigger based on the device datastream values. For example, if temperature &gt; 40 degrees turn of the boiler
-* **Scene** - allows to manually trigger multiple actions. For example, set the temperature to 30 degrees and turn off the alarm.
-
-  The visibility of scene automation is controlled via permission under the **Organizations** section and called **Automation execute**.
-
-{% hint style="info" %}
-Automations can work across multiple devices
-{% endhint %}
-
-* Create an Automation name
-* Choose cover picture
-* Set a condition that will trigger an automation
+1. Fill in Automation name
+2. Choose cover picture
+3. Set a condition that will trigger an automation
 
 ![No actions](https://user-images.githubusercontent.com/72790181/120281259-64c46000-c2c1-11eb-9b25-84c4e9e294b7.png)
 
@@ -58,9 +71,11 @@ After setting the condition you can **Add action** that will be performed when t
 
 ![Choose action type](https://user-images.githubusercontent.com/72790181/120281347-81f92e80-c2c1-11eb-989d-fb5832653d9f.png)
 
-After pressing **Add action** button you’ll see a modal with types of actions. You can choose actions that will change the device’s state, send a notification to your smartphone or send an email to the specified address.
+After pressing **Add action** button you’ll see a modal with types of actions.
 
-If you don't see **Set device to** action that means you haven't enabled any datastream to work with automations. You need [to explicitly define](../blynk.console/templates/datastreams/datastreams-common-settings/automation.md) what datastreams can work as actions.
+{% hint style="info" %}
+If you don't see **Set device to..** action, check that you properly configured datastreams in device template. You need to[ explicitly define](../blynk.console/templates/datastreams/datastreams-common-settings/automation.md) which datastreams are exposed to Automations.
+{% endhint %}
 
 ![Automation ready](https://user-images.githubusercontent.com/72790181/120281482-ad7c1900-c2c1-11eb-95a7-7352d126ba73.png)
 
@@ -68,36 +83,41 @@ After adding the first action you can continue adding more of them or save this 
 
 ![Automations tab](https://user-images.githubusercontent.com/72790181/120281496-b1a83680-c2c1-11eb-8f99-04188d31fce7.png)
 
-When Automations are created you will see the list of them. Here you can disable/enable automations and open their settings for view and edit.
+When Automations are created you can manually disable/enable them and edit
 
 ## Notification actions
 
-Currently Automations support 3 types of notification actions:
+You can send these types of notifications:
 
-* Email notification
-* Push notification. The maximum size of the message for push notification is 255 chars. Larger messages won't be send
-* Sms notifications \(only for the white label clients\)
+1. **Send Email** - ****will send email to specified recipient\(s\).  
+2. **Send notification** - will send a push notification \(in-app notification\) to specified recipients. 
+3. **Send SMS -** will send an SMS. This is only available in [White-label](https://www.blynk.io/pricing#business) solution.
 
-All action types support the next placeholders within the message body:
+You can include placeholders in the message:
 
-* `{ORG_NAME}`
-* `{PRODUCT_NAME}`
-* `{DEVICE_NAME}`
-* `{TRIGGER_VALUE}`
+* `{ORG_NAME}`  - name of the organization device belongs to
+* `{PRODUCT_NAME}` - name of the Template belongs to
+* `{DEVICE_NAME}` - device name
+* `{TRIGGER_VALUE}` - if "Device State" trigger was used, this will be the value of the trigger
 
-For example, let's say you made an automation that triggers the push notification when the temperature is higher than 40 degrees. You can make the next message: `Temperature for {DEVICE_NAME} is too high, current value is - {TRIGGER_VALUE}!`
+For example, if you want to send the push notification when the temperature is higher than 40 degrees, The message constructor will look like this: 
+
+Temperature of `{DEVICE_NAME}` is too high, current value is `{TRIGGER_VALUE}`ºC!
+
+Resulted message will be: `Temperature of Living Room Sensor is too high, current value is 43ºC!`
 
 ## Limit period
 
 ![Limit period \(tap on limit period\)](https://user-images.githubusercontent.com/72790181/120785065-6e55fe00-c535-11eb-8979-f3eb1b50ecf1.png)
 
-All automations with **Device state** condition have a **limit period**. Limit period defines a period during which only one condition trigger will be processed.
+Automations with **Device state** trigger have a **limit period** setting. It defines a period during which only one action will be performed, no matter how many triggers were recorded.
 
-For example, let's say we set a condition **when temperature is greater than 20 degrees** and **limit period is set to one hour**.
+For example, if you sett **limit period** to one hour for such automation:  _"When temperature is higher than 20º, send Email Notification"._ Let's look at possible timeline:
 
-At 9:30 device sends the temperature 21 degrees. Automation will be triggered and automation actions are executed.
+* _9:30_ - Device sends the temperature value of 21º. Automation is triggered and notification was sent to the recipient. Limit period timer started. 
+* _9:40_ - Device sends the temperature value of 22º. Notification is not sent because 1 hour hasn't  passed yet. Limit period timer is now at 10 minutes since the first trigger. 
+* _10:30_ - Limit period timer resets
+* _10:31_ - Device sends the temperature value of 22º. Notificaiton will be sent again, as one hour has already passed since first occurrence.
 
-At 9:40 device sends the temperature 22 degrees. Automation will not be triggered in that case, because we have a limit period set to one hour.
 
-At 10:31 device sends the temperature 22 degrees. Automation will be triggered and automation actions are executed again, as ignore period \(one hour\) had already passed since the last execution.
 
