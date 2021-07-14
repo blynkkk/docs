@@ -503,21 +503,16 @@ You can also add Labeled Value to your Android Home Screen. Labeled Value works 
 
 ### LED
 
-A simple LED for indication. You need to send 0 in order to turn LED off. And 255 in order to turn LED on. Or just use Blynk API as described below :
+A simple indicator \(similar to a LED\).
+
+* if value is equal to `min` DataStream setting, indicator is **OFF**
+* if value is equal to `max` DataStream setting, indicator is **ON**
+* in-between values are used for brightness control \(like PWM\)
 
 ```text
-//register to virtual pin 1
-WidgetLED led1(V1);
-led1.off();
-led1.on();
-```
-
-All values between 0 and 255 will change LED brightness :
-
-```text
-WidgetLED led2(V2);
-//set brightness of LED to 50%.
-led2.setValue(127);
+// DataStream is configured for range 0..255
+// Set brightness of LED to 50%
+Blynk.virtualWrite(V1, 127);
 ```
 
 You can also change LED color with :
