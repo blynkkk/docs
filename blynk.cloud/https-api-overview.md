@@ -7,6 +7,7 @@ description: Blynk Cloud HTTPS API overview
 **Main API Endpoints:**
 
 * [Get Datastream Value](get-datastream-value.md)
+* [Get Multiple Datastream Values](get-multiple-datastream-values.md)
 * [Update Datastream Value](update-datastream-value.md)
 * [Batch Update of the Datastreams](batch-update-values.md)
 * [Update Widget Property](update-property.md)
