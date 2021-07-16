@@ -13,5 +13,6 @@ description: Blynk Cloud HTTPS API overview
 * [Update Widget Property](update-property.md)
 * [Trigger Log Event](trigger-events.md)
 * [Get Device History Data](get-device-report.md)
+* [Get Device MetaField value](get-device-metafield-value.md)
 * [Troubleshooting](troubleshooting.md)
 
