@@ -176,6 +176,7 @@
 
 * [Overview](blynk.cloud/https-api-overview.md)
 * [Get Datastream Value](blynk.cloud/get-datastream-value.md)
+* [Get Multiple Datastream Values](blynk.cloud/get-multiple-datastream-values.md)
 * [Update Datastream Value](blynk.cloud/update-datastream-value.md)
 * [Batch Update of the Datastreams](blynk.cloud/batch-update-values.md)
 * [Update Widget Property](blynk.cloud/update-property.md)
