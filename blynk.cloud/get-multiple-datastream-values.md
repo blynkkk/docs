@@ -6,10 +6,7 @@ Get Multiple Datastream values
 {% endapi-method-summary %}
 
 {% api-method-description %}
-In some cases it's important to get the datastream values with one call.
-This endpoint allows you to get the stored values of the multiple Datastreams.
-Returned type depends on the datastream type.
-**Example:**  
+In some cases it's important to get the datastream values with one call. This endpoint allows you to get the stored values of the multiple Datastreams. Returned type depends on the datastream type. **Example:**  
 `https://blynk.cloud/external/api/get?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&v1&v2&v3&v4`
 {% endapi-method-description %}
 
@@ -55,3 +52,4 @@ or
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+

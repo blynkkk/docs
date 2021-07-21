@@ -37,7 +37,7 @@ The main difference from WiFi provisioning is that AuthToken should be manually 
 
 This method is recommended for devices that can connect to the Internet using Ethernet, Cellular \(2G, 3G, 4G, LTE\) or other types of connection \(that don't require custom WiFi credentials for example\).
 
-Static Auth Token is often used during the prototyping stage. However, Blynk also offers a complete solution to work with Static tokens in the commercial applications.
+Static Auth Token is often used during the prototyping stage. However, Blynk also offers a complete solution to [work with Static tokens in the commercial applications](https://docs.blynk.io/en/commercial-use/deploying-products-with-static-authtokens).
 
 **How to use Static Auth Token:**
 
