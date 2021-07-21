@@ -39,9 +39,7 @@ Value successfully retrieved.
 {% api-method-response-example-description %}
 Could not find a device token  
 or  
-Wrong metaField format
-or
-Could not find metaField id 
+Wrong metaField format or Could not find metaField id
 {% endapi-method-response-example-description %}
 
 ```text
@@ -59,3 +57,4 @@ or
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+

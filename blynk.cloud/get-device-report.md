@@ -1,4 +1,4 @@
-# Get Device Report
+# Get Device History Data
 
 {% api-method method="get" host="https://{server\_address}" path="/external/api/data/get?token={token}&period={PERIOD}&granularityType={TYPE}&sourceType={SOURCE\_TYPE}&tzName={tzName}&format={FORMAT}&output=FILE&pin={pin}" %}
 {% api-method-summary %}

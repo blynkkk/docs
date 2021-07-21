@@ -1,4 +1,4 @@
-# Log Event
+# Trigger Log Event
 
 ## Get an Event code
 
