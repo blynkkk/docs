@@ -15,7 +15,7 @@ Automation examples:
 Automations should be properly configured[ in Template settings](../blynk.console/templates/datastreams/datastreams-common-settings/automation.md). Otherwise, Automation tab will be unavailable in Blynk.Apps
 {% endhint %}
 
-Automations are created per organization and available only for the users who has required permissions. In order to enable automation permissions for the end users you neeed to:
+Automations are created per organization and available only for the users who has required permissions. In order to enable automation permissions for the end-users you need to:
 
 {% hint style="info" %}
 Automations feature is a replacement for some of the Blynk 1.0 \(Legacy\) widgets like: Timer, Bridge, and Eventor.
