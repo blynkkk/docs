@@ -46,7 +46,7 @@ char auth[] = "YourAuthToken";
 Blynk.begin(auth, "wifi-ssid", "wifi-pass");
 ```
 
-## Getting Template ID and Auth Token for device
+## Getting Template ID and AuthToken for device
 
 ### Template ID and Device Name
 
@@ -56,7 +56,7 @@ Blynk.begin(auth, "wifi-ssid", "wifi-pass");
 
 ![Template ID](https://user-images.githubusercontent.com/72824404/119491140-4234c300-bd66-11eb-80f4-324f2d06bfa0.png)
 
-### Getting Auth Token
+### Getting AuthToken
 
 When the Template is ready, go to Search -&gt; Devices - **Create new device**
 
@@ -66,7 +66,7 @@ When the Template is ready, go to Search -&gt; Devices - **Create new device**
 
 ![](https://user-images.githubusercontent.com/72824404/119496316-0c92d880-bd6c-11eb-9276-9ce033ef38c2.png)
 
-1. After the device was created, open its dashboard, go to the Device Info tab. There you will find a field: Auth Token.
+1. After the device was created, open its dashboard, go to the Device Info tab. There you will find a field: AuthToken.
 
 ![AuthToken](https://user-images.githubusercontent.com/72824404/119501175-4adec680-bd71-11eb-804f-75438981169a.png)
 
