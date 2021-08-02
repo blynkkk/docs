@@ -23,6 +23,8 @@ void resetMCU()
 
 BLYNK_WRITE(InternalPinDBG) {
   if (String(param.asStr()) == "reboot") {
+    Serial.println("Rebooting...");
+
     // TODO: Perform any neccessary preparation here,
     // i.e. turn off peripherals, write state to EEPROM, etc.
 
