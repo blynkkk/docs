@@ -170,6 +170,7 @@
   * [Over-The-Air Firmware Updates \(OTA\)](blynk.edgent/api/ota-updates.md)
   * [Metadata](blynk.edgent/api/metadata.md)
   * [Debug](blynk.edgent/api/debug.md)
+  * [Reboot](blynk.edgent/api/reboot.md)
   * [Other](blynk.edgent/api/other.md)
 
 ## BLYNK.CLOUD \(HTTPS API\) <a id="blynk.cloud"></a>
