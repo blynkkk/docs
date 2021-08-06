@@ -6,6 +6,10 @@ Notifications work on top of Events. Blynk platform offers a flexible way to sen
 * Push Notifications to the user's smartphone
 * SMS \(additional charges apply\)
 
+{% hint style="info" %}
+Only registered Blynk users can be notifications recipients.
+{% endhint %}
+
 Notifications are configured in the second tab of Event - &gt; Notifications
 
 Start with Enabling notifications by turning on this option.
@@ -59,8 +63,6 @@ _❇️ Example: if you set 1 hour as a limit, end-users will only get one notif
 **Event Counter** - notification will be sent only after a number of events was recorded. Counter starts when first event happened. After counter value was met, counter resets to zero. 
 
 _❇️ Example: if the counter is set to 50 and device sends 100 events, the user would only get 1 notification \(every 51st event will trigger the notification\)._
-
-\_\_
 
 {% hint style="info" %}
 You can also use Limit period and Event counter together.
