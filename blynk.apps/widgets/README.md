@@ -729,7 +729,7 @@ For example, you can set to `TRUE` to "Equipment ON" label, `FALSE` to "Equipmen
 
 ### Terminal
 
-Displays data from your hardware. Allows to send any string to your hardware. Terminal always stores last 25 messages your hardware had send to Blynk Cloud. This limit may be increased on Local Server with `terminal.strings.pool.size` property.
+Displays data from your hardware. Allows to send any string to your hardware. Terminal always stores last 25 messages your hardware had send to Blynk Cloud.
 
 You can use special commands with this widget:
 
