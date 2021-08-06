@@ -1,6 +1,6 @@
 # Actions Log
 
-This table contains every datastream action sent/received through Blynk.Cloud for this device.
+This table contains every datastream action sent through Blynk.Cloud for this device.
 
 ![](https://user-images.githubusercontent.com/72824404/120805431-78d0c180-c54e-11eb-930c-41d139c948ef.png)
 
