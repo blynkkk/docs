@@ -30,6 +30,7 @@ BLYNK_WRITE(InternalPinDBG) {
 
     // NOTE: You may need to defer a reboot,
     // if device is in process of some critical operation.
+
     resetMCU();
   }
 }
