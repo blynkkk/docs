@@ -29,13 +29,15 @@ If you don't see the Edit Settings button, or list of Events is empty, check tha
 
 ![](https://user-images.githubusercontent.com/72824404/120807574-c6e6c480-c550-11eb-8965-6a979c147122.png)
 
-1. Turn on the desired channels \(Email, Push, or SMS\) and add recipients. If the recipient is not on the list you can search by typing the name or the email.
+1. Turn on the desired channels \(Email, Push, or SMS\) and add recipients. If the recipient is not on the list you can search by typing the name or the email. Optionally you can choose _"All members"_. In this case all members of current organization will receive the notification through the selected channel.
 
-Optionally you can choose "All members". In this case all members of current organization will receive the notification through the selected channel.
+{% hint style="info" %}
+_**Note:**_ only registered Blynk users can be notifications recipients.
+{% endhint %}
 
 ![](https://user-images.githubusercontent.com/72824404/120807610-cfd79600-c550-11eb-82ea-969884f21cf9.png)
 
-Press **Apply** and you'll see the event status and channels updated.
+2. Press **Apply** and you'll see the event status and channels updated.
 
 ![](https://user-images.githubusercontent.com/72824404/120807644-d8c86780-c550-11eb-927c-d73b24a638a7.png)
 
