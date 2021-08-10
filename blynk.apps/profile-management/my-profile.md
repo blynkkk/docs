@@ -1,3 +1,7 @@
+---
+description: View and edit your account information and settings
+---
+
 # My Profile
 
 ![Left sidebar](https://user-images.githubusercontent.com/72790181/119666310-efc6d580-be3d-11eb-9e34-be660bd30aae.png)
