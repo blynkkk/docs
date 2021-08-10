@@ -1,4 +1,3 @@
-
 # Blynk Mobile Apps
 
 ![](../.gitbook/assets/apps.png)
