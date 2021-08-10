@@ -6,7 +6,7 @@ description: >-
 
 # About
 
-![About screen](../../.gitbook/assets/screenshot_2021-08-10-12-42-08-42.jpg)
+![](../../.gitbook/assets/about.png)
 
 ### General app info: 
 
@@ -40,5 +40,5 @@ We kindly ask you to use it before reproducing the issue and sending the logs, i
 
 List of libraries used with Terms and Conditions details included \(view by tap\)
 
-![Third parties libraries list \(scrollable\)](../../.gitbook/assets/screenshot_2021-08-10-13-05-29-16.jpg)
+![](../../.gitbook/assets/third-parties-libraries-list.png)
 

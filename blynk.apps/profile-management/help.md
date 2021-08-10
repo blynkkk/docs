@@ -6,5 +6,5 @@ description: This section views Blynk Documentation.
 
 Use left menu for top level documentation navigation and right menu for in-article paragraphs transitions.
 
-![](../../.gitbook/assets/app_help.jpg)
+![](../../.gitbook/assets/help%20%281%29.png)
 
