@@ -95,3 +95,11 @@ For debugging and troubleshooting check the serial monitor output. There you wil
 
 ![](https://lh4.googleusercontent.com/P1WcVsuVbygCW8kSggfYwOKf55a1vVDk4KcCYevGbFPhFXGRI7r5s7_B7z2qKCzfLZudWU0nj6NKPkLMBO1Zodc7X8a54z3M51VLHo65pEfFlP93mCKxgJjaa5maOAKWg6HPZ7zv)
 
+## Troubleshooting
+
+### ESP32/ESP8266-specific issues
+
+If you cannot configure the device, and the log displays `AP IP: 0.0.0.0` , please ensure you're using the latest stable Arduino Core version \(i.e., not an outdated, beta, or rc version\).
+
+In some rare cases it could be a hardware issue of a specific module, so if you have any issues please also try using a new \(unused\) module.
+
