@@ -1,5 +1,7 @@
 # Slider
 
+_**Note:**_ please remember that web and apps widgets are set up separately and may have same datastreams set to view the same data \(excepts Map widgets – those two use different codebase now\).  
+  
 Slider widget allows to send values to Virtual Pin of the selected Device.   
 Usage examples: volume, brightness, RPM, flap position control, etc.
 

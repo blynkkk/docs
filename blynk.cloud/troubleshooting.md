@@ -20,3 +20,5 @@ Due to current GeoDNS settings you need to put server address with suffix manual
 The server region could be found in the right bottom corner of the web interface.
 {% endhint %}
 
+
+

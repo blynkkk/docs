@@ -1,5 +1,7 @@
 # Modules
 
+_**Note:**_ please remember that web and apps widgets are set up separately and may have same datastreams set to view the same data \(excepts Map widgets – those two use different codebase now\).
+
 This widget is extremely useful in cases your Product devices use detachable modules that can be attached accordingly to use conditions.  
 Each module has it's own tools, units, details that are represented by Datastreams sets configured under each module.
 

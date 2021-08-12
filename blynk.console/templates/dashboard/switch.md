@@ -1,5 +1,7 @@
 # Switch
 
+_**Note:**_ please remember that web and apps widgets are set up separately and may have same datastreams set to view the same data \(excepts Map widgets – those two use different codebase now\).
+
 Switch widget allows to send commands and view binary statuses of the device, such as power ON/OFF
 
 * Name the Switch widget by editing **Switch** inside top field; 

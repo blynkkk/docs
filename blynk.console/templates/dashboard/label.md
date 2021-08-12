@@ -1,5 +1,7 @@
 # Label
 
+_**Note:**_ please remember that web and apps widgets are set up separately and may have same datastreams set to view the same data \(excepts Map widgets – those two use different codebase now\).
+
 Label is used to show value of Virtual Pin e.g. length/distance, mass, duration, volume, temperature and other data types including strings.
 
 * **Label** – name a Label widget so you or your client understand what it's about     

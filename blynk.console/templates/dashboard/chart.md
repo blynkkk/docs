@@ -1,5 +1,7 @@
 # Chart
 
+_**Note:**_ please remember that web and apps widgets are set up separately and may have same datastreams set to view the same data \(excepts Map widgets – those two use different codebase now\).
+
 Chart is used to visualise live and historical data. You can use it for sensor data, for binary event logging and more.
 
 * **Add source** – it's possible to set several Datastream **Sources** under one Chart. Click and set up as much as you need. 

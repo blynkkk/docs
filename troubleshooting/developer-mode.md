@@ -76,3 +76,14 @@
 
 * set up dashboards in both Blynk.Apps and Blynk.Console
 
+## I've set up Map widgets in web and mobile app but they show different data
+
+**What could be the reason:**
+
+* web and mobile apps Map widgets use different datastreams in their sets now
+
+**What’s the solution:**
+
+* wait for Blynk.Console and Blynk.Apps to become unified
+* keep Blynk.Apps up to date
+

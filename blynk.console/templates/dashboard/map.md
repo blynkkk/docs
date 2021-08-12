@@ -1,12 +1,16 @@
 # Map
 
-Map widget vizualises data related to a location of the device:
+_**Note:**_ please remember that web and apps widgets are set up separately and may have same datastreams set to view the same data \(excepts Map widgets – those two use different codebase now\).
+
+Map widget visualizes data related to a location of the device:
 
 * Current or latest known location of the device 
 * GPS track \(historical position of the device\)
 * Overlays: various data related to the time and location of the device. E.g. speed of the device at a particular point of the track.
 
-**Warning:** Location real time update is not implemented yet. Refresh the page to see the latest location.
+{% hint style="warning" %}
+Location real time update is not implemented yet. Refresh the page to see the latest location.
+{% endhint %}
 
 ### Map Settings
 
@@ -53,6 +57,10 @@ Select Datastream that contains course information in degrees \(e.g. it gets it 
 
 ## Insert the data
 
+{% hint style="warning" %}
+Web and apps Map widgets use different codebases now that will be unified in the future.
+{% endhint %}
+
 Let's say we have the Location Datastream assigned to the Virtual Pin 5. For the map you can update the data from the hardware:
 
 ```text
@@ -71,5 +79,7 @@ You can also send multiple datastreams within the same request. In that case the
 https://{server_address}/external/api/batch/update?token={token}&V5=longtitude&V5=latitude&V6={somevalue}
 ```
 
-**Warning:** Please pay attention to the order of the coordinates. Longtitude should always go first.
+{% hint style="danger" %}
+Please pay attention to the order of the coordinates. Longitude should always go first.
+{% endhint %}
 
