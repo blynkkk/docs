@@ -2,7 +2,7 @@
 
 ## **Dynamic provisioning support**
 
-With dynamic provisioning, you can use Blynk.Apps to configure connection credentials for each device. You can use the same firmware binary for all of the devices of the same type.
+With dynamic provisioning, you can use **Blynk.App** to configure connection credentials for each device. You can use the same firmware binary for all of the devices of the same type.
 
 | Board | Provisioning | Secure connection | Blynk.Air \(OTA\) |
 | :--- | :--- | :--- | :--- |
@@ -11,7 +11,7 @@ With dynamic provisioning, you can use Blynk.Apps to configure connection creden
 | Arduino MKR WiFi 1010 | ✅ | ✅ | ✅ |
 | Arduino Nano 33 IoT | ✅ | ✅ | ✅ |
 | Arduino MKR1000 | ✅ | ✅ | ✅ \(partial\) |
-| Seeed Wio Terminal | ✅ | ✅ | ❌ |
+| Seeed Wio Terminal | ✅ | ✅ | ✅ |
 | TI CC3220 | ✅ | ✅ | ✅ |
 
 ## Production Line provisioning support
@@ -24,6 +24,10 @@ This allows you to configure device credentials and other device-specific parame
 
 With static provisioning, authentication tokens are incorporated into the firmware binary. This method is supported by the vast majority of hardware platforms.
 
+{% hint style="info" %}
+This is the easiest way to migrate legacy Blynk projects. Just add `BLYNK_TEMPLATE_ID` and `BLYNK_DEVICE_NAME` on top of your existing firmware \(before any Blynk includes\), set new Auth Token and that's it. Read more about [project migration](../blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md).
+{% endhint %}
+
 **Arduino** \([https://github.com/blynkkk/blynk-library](https://github.com/blynkkk/blynk-library)\)
 
 * Arduino MKR WiFi 1010
@@ -31,7 +35,7 @@ With static provisioning, authentication tokens are incorporated into the firmwa
 * Arduino MKR NB 1500
 * Arduino Uno, Duemilanove
 * Arduino Nano, Mini, Pro Mini, Pro Micro, Due, Mega
-* Arduino 101 \(Intel Curie, with BLE\)
+* Arduino 101 \(Intel Curie\)
 * Arduino MKR1000
 * Arduino Zero
 * Arduino Yún \(onboard WiFi and Ethernet, via Bridge\)
@@ -43,23 +47,16 @@ With static provisioning, authentication tokens are incorporated into the firmwa
 
 * Blynk Board
 * ESP8266 \(Generic, NodeMCU, Witty Cloud, Huzzah, WeMos D1, Seeed Wio Link, etc.\)
-* ESP32 \(WiFi, BLE\)
+* ESP32
 * Nordic nRF51/nRF52 - based boards
 * Teensy 3.2/3.1
 * Blue Pill \(STM32F103C\)
 * Realtek RTL8710 / Ameba via [RTLduino](https://github.com/pvvx/RtlDuino)
-* BBC micro:bit
-* LightBlue Bean _, soon_
 * DFRobot Bluno
-* RedBear Duo \(WiFi, BLE\)
+* RedBear Duo
 * RedBearLab Blend Micro
-* RedBearLab BLE Nano \(v1 and v2\)
-* Seeed Tiny BLE
-* Simblee BLE
-* RFduino BLE
 * The AirBoard \(BLE-Link, RN-XV\)
 * Feather M0 WiFi
-* Feather 32u4 BLE
 * Intel Edison
 * Intel Galileo
 * Fishino Guppy, Uno, Mega
@@ -69,7 +66,7 @@ With static provisioning, authentication tokens are incorporated into the firmwa
 * Digistump Oak
 * chipKIT Uno32
 * Alorium XLR8 \(FPGA\)
-* LinkIt ONE \(WiFi only\)
+* LinkIt ONE
 
 **Energia**
 
@@ -89,14 +86,12 @@ With static provisioning, authentication tokens are incorporated into the firmwa
 * Electron
 * RPi
 * SparkFun RedBoard
-* RedBear Duo \(WiFi & BLE\)
 
 **ARM mbed** \([https://developer.mbed.org/users/vshymanskyy/code/Blynk/](https://developer.mbed.org/users/vshymanskyy/code/Blynk/)\)
 
 * Seeed Tiny BLE
 * RedBearLab BLE Nano
 * BBC micro:bit
-* STM32 Nucleo + Wiznet 5100 _, soon_
 
 **JavaScript** \(Node.js, Espruino, Browsers\) \([https://www.npmjs.com/package/blynk-library](https://www.npmjs.com/package/blynk-library)\)
 
@@ -142,14 +137,6 @@ With static provisioning, authentication tokens are incorporated into the firmwa
   * WIZnet WizFi310
   * Adafruit CC3000 WiFi Breakout / Shield
   * RN-XV WiFly
-* **Bluetooth Smart \(BLE 4.0\)**
-  * HM-10, HC-08
-  * DFRobot BLE-Link module
-  * Microduino/mCookie BLE
-  * RedBearLab BLE Mini
-  * nRF8001-based boards \(Adafruit Bluefruit LE, etc.\)
-* **Bluetooth 2.0 Serial Port Profile \(SPP\)**
-  * HC-05, HC-06, …
 * **Cellular \(GSM/3G/LTE\)**
   * SIMCom SIM800 series \(SIM800A, SIM800C, SIM800L, SIM800H, SIM808, SIM868\)
   * SIMCom SIM900 series \(SIM900A, SIM900D, SIM908, SIM968\)
