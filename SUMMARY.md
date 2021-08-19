@@ -135,6 +135,7 @@
 * [Mobile Dashboard Editor](blynk.apps/constructor.md)
 * [Widgets](blynk.apps/widgets/README.md)
   * [Common Widget Settings](blynk.apps/widgets/common-widget-settings.md)
+  * [List of Datastreams types supported by Widgets](blynk.apps/widgets/list-of-datastreams-types-supported-by-widgets.md)
 * [Main Menu](blynk.apps/profile-management/README.md)
   * [My Profile](blynk.apps/profile-management/my-profile.md)
   * [Organization](blynk.apps/profile-management/organization-management.md)
