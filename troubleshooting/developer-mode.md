@@ -87,3 +87,62 @@
 * wait for Blynk.Console and Blynk.Apps to become unified
 * keep Blynk.Apps up to date
 
+## Flood Error
+
+**What could be the reason:**
+
+* Your code frequently sends a lot of requests to our server, your hardware will be disconnected. Blynk App may show “Your hardware is offline” When `Blynk.virtualWrite` is in the `void loop`, it generates hundreds of “writes” per second
+
+Here is an example of what may cause flood. _**DON’T DO THAT:**_
+
+```text
+void loop()
+{
+  Blynk.virtualWrite(1, value); // This line sends hundreds of messages to Blynk server
+  Blynk.run();
+}
+```
+
+**What’s the solution:**
+
+* If you need to perform actions in time intervals - use timers, for example [BlynkTimer.](../blynk.edgent/api/blynk-timer.md)  **Note:** using `delay()` will not solve the problem either. It may cause another issue. Use timers!
+
+If sending hundreds of requests is what you need for your product you may increase flood limit on local server and within Blynk library. For local server you need to change `user.message.quota.limit` property within `server.properties` file :
+
+```text
+    #100 Req/sec rate limit per user.
+    user.message.quota.limit=100
+```
+
+For library you need to change `BLYNK_MSG_LIMIT` property within `BlynkConfig.h` file :
+
+```text
+    //Limit the amount of outgoing commands.
+    #define BLYNK_MSG_LIMIT 20
+```
+
+## Delay
+
+**What could be the reason:**
+
+* If you use long `delay()` or send your hardware to sleep inside of the `loop()` expect connection drops and downgraded performance.
+
+_**DON’T DO THAT:**_
+
+```text
+void loop()
+{
+  ...
+  delay(1000); // this is long delay, that should be avoided
+  other_long_operation();
+  ...
+  Blynk.run();
+}
+```
+
+_**Note:**_ This also applies to the BLYNK\_READ & BLYNK\_WRITE handlers!
+
+**What’s the solution:**
+
+* If you need to perform actions in time intervals - use timers, for example [BlynkTimer](../blynk.edgent/api/blynk-timer.md)
+

@@ -17,13 +17,13 @@ Blynk.virtualWrite(pin, 12.34);
 Blynk.virtualWrite(pin, "hello", 123, 12.34);
 ```
 
-For more information about virtual pins, [read this](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/README.md#blynk-firmware-virtual-pins-control)
+For more information about virtual pins, [read this](../../getting-started/using-virtual-pins-to-control-physical-devices.md)
 
 ## Send data from app to hardware
 
 You can send any data from Widgets in the app to your hardware.
 
-All [Controller Widgets](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/README.md#widgets-controllers) can send data to Virtual Pins on your hardware. For example, code below shows how to get values from the Button Widget in the App
+All Controller Widgets can send data to Virtual Pins on your hardware. For example, code below shows how to get values from the Button Widget in the App
 
 ```cpp
 BLYNK_WRITE(V1) //Button Widget is writing to pin V1
@@ -53,11 +53,11 @@ BLYNK_WRITE(V1) // Widget WRITEs to Virtual Pin V1
 }
 ```
 
-**Sketch:** [JoystickTwoAxis](https://github.com/blynkkk/docs/tree/a1ea2ed8bc31eba522320f514b900921303d3b07/blynk.edgent/ht%20tps:/github.com/blynkkk/blynk-library/blob/master/examples/Widgets/JoystickTwoAxis/JoystickTwoAxis.ino#L24)
+**Sketch:** [JoystickTwoAxis](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/JoystickTwoAxis/JoystickTwoAxis.ino)
 
 ## Pushing data from hardware
 
-If you need to PUSH sensor or other data from your hardware to Widget, you can write any logic you want. Any command that hardware sends to Blynk Cloud is automatically stored on the server and you get this info either with [History Graph](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/README.md#widgets-displays-superchart) widget or with [HTTP API](http://docs.blynkapi.apiary.io/#reference/0/pin-history-data/get-all-history-data-for-specific-pin).
+If you need to PUSH sensor or other data from your hardware to Widget, you can write any logic you want. Any command that hardware sends to Blynk Cloud is automatically stored on the server and you get this info either with SuperChart widget or with [HTTP API](http://docs.blynkapi.apiary.io/#reference/0/pin-history-data/get-all-history-data-for-specific-pin).
 
 ![](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/.gitbook/assets/frequency_reading_push.png)
 
