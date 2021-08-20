@@ -40,7 +40,7 @@ Full example sketch: [Get Data](https://github.com/blynkkk/blynk-library/blob/ma
 
 Some Widgets \(e.g Joystick, zeRGBa\) have more than one output.
 
-![](../../.gitbook/assets/zergba_dss.jpg)
+![](../../.gitbook/assets/zergba.png)
 
 This output can be written to Virtual Pin as an array of values. On the hardware side - you can get any element of the array \[0,1,2...\] by using:
 
