@@ -105,7 +105,7 @@ void loop()
 
 **What’s the solution:**
 
-* If you need to perform actions in time intervals - use timers, for example [BlynkTimer.](../blynk.edgent/api/blynk-timer.md)  **Note:** using `delay()` will not solve the problem either. It may cause Delay issue. Use timers!
+* If you need to perform actions in time intervals - use timers, for example [BlynkTimer.](../blynk.edgent/api/blynk-timer.md)  **Note:** using `delay()` will not solve the problem either. It may cause [Delay issue](https://docs.blynk.io/en/troubleshooting/developer-mode#delay). Use timers!
 
 If sending hundreds of requests is what you need for your product you may increase flood limit on local server and within Blynk.Library. For local server you need to change `user.message.quota.limit` property within `server.properties` file :
 
