@@ -40,7 +40,7 @@ Full example sketch: [Get Data](https://github.com/blynkkk/blynk-library/blob/ma
 
 Some Widgets \(e.g Joystick, zeRGBa\) have more than one output.
 
-![](https://github.com/blynkkk/docs/tree/a1ea2ed8bc31eba522320f514b900921303d3b07/.gitbook/assets/joystick_merge_mo_de.png)
+![](../../.gitbook/assets/zergba_dss.jpg)
 
 This output can be written to Virtual Pin as an array of values. On the hardware side - you can get any element of the array \[0,1,2...\] by using:
 
@@ -58,8 +58,6 @@ BLYNK_WRITE(V1) // Widget WRITEs to Virtual Pin V1
 ## Pushing data from hardware
 
 If you need to PUSH sensor or other data from your hardware to Widget, you can write any logic you want. Any command that hardware sends to Blynk.Cloud is automatically stored on the server and you get this info either with SuperChart widget or with [HTTP API](http://docs.blynkapi.apiary.io/#reference/0/pin-history-data/get-all-history-data-for-specific-pin).
-
-![](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/.gitbook/assets/frequency_reading_push.png)
 
 We recommend sending data in intervals and avoiding [Flood Error.](https://docs.blynk.io/en/troubleshooting/developer-mode#flood-error) You can use timers like [BlynkTimer](../api/blynk-timer.md). Please read instructions inside this [example sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/PushData/PushData.ino) for more details.
 
