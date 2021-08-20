@@ -61,7 +61,7 @@ If you need to PUSH sensor or other data from your hardware to Widget, you can w
 
 ![](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/.gitbook/assets/frequency_reading_push.png)
 
-We recommend sending data in intervals and avoiding [Flood Error](https://docs.blynk.cc/#troubleshooting-flood-error). You can use timers like [BlynkTimer](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/README.md#blynk-firmware-blynktimer). Please read instructions inside this [example sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/PushData/PushData.ino) for more details.
+We recommend sending data in intervals and avoiding [Flood Error.](https://docs.blynk.io/en/troubleshooting/developer-mode#flood-error) You can use timers like [BlynkTimer](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/README.md#blynk-firmware-blynktimer). Please read instructions inside this [example sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/PushData/PushData.ino) for more details.
 
 Here is how it can work:
 

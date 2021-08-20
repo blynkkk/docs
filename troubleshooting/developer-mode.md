@@ -91,7 +91,7 @@
 
 **What could be the reason:**
 
-* Your code frequently sends a lot of requests to our server, your hardware will be disconnected. Blynk App may show “Your hardware is offline” When `Blynk.virtualWrite` is in the `void loop`, it generates hundreds of “writes” per second
+* Your code frequently sends a lot of requests to our server, your hardware will be disconnected. Blynk.App may show “Your hardware is offline” When `Blynk.virtualWrite` is in the `void loop`, it generates hundreds of “writes” per second
 
 Here is an example of what may cause flood. _**DON’T DO THAT:**_
 
@@ -105,9 +105,9 @@ void loop()
 
 **What’s the solution:**
 
-* If you need to perform actions in time intervals - use timers, for example [BlynkTimer.](../blynk.edgent/api/blynk-timer.md)  **Note:** using `delay()` will not solve the problem either. It may cause another issue. Use timers!
+* If you need to perform actions in time intervals - use timers, for example [BlynkTimer.](../blynk.edgent/api/blynk-timer.md)  **Note:** using `delay()` will not solve the problem either. It may cause Delay issue. Use timers!
 
-If sending hundreds of requests is what you need for your product you may increase flood limit on local server and within Blynk library. For local server you need to change `user.message.quota.limit` property within `server.properties` file :
+If sending hundreds of requests is what you need for your product you may increase flood limit on local server and within Blynk.Library. For local server you need to change `user.message.quota.limit` property within `server.properties` file :
 
 ```text
     #100 Req/sec rate limit per user.
