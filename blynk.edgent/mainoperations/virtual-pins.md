@@ -2,7 +2,7 @@
 
 Blynk can control Digital and Analog I/O Pins on you hardware directly. You don't even need to write code for it. It's great for blinking LEDs, but often it's just not enough...
 
-We designed Virtual Pins to send **any** data from your microcontroller to the Blynk App and back.
+We designed Virtual Pins to send **any** data from your microcontroller to the Blynk.App and back.
 
 Anything you connect to your hardware will be able to talk to Blynk. With Virtual Pins you can send something from the App, process it on microcontroller and then send it back to the smartphone. You can trigger functions, read I2C devices, convert values, control servo and DC motors etc.
 
@@ -57,7 +57,7 @@ BLYNK_WRITE(V1) // Widget WRITEs to Virtual Pin V1
 
 ## Pushing data from hardware
 
-If you need to PUSH sensor or other data from your hardware to Widget, you can write any logic you want. Any command that hardware sends to Blynk Cloud is automatically stored on the server and you get this info either with SuperChart widget or with [HTTP API](http://docs.blynkapi.apiary.io/#reference/0/pin-history-data/get-all-history-data-for-specific-pin).
+If you need to PUSH sensor or other data from your hardware to Widget, you can write any logic you want. Any command that hardware sends to Blynk.Cloud is automatically stored on the server and you get this info either with SuperChart widget or with [HTTP API](http://docs.blynkapi.apiary.io/#reference/0/pin-history-data/get-all-history-data-for-specific-pin).
 
 ![](https://github.com/blynkkk/docs/tree/b7e1f17dc099ba9cebae3461a13ca2fe69b767a8/blynk.edgent/.gitbook/assets/frequency_reading_push.png)
 
