@@ -460,11 +460,6 @@ Blynk.virtualWrite(V1, val);
 
 Every message that hardware sends to server is stored automatically on server.
 
-**Home Screen Value Display**
-
-You can also add Value Display to your Android Home Screen. Value Display works via HTTPS in that case. Have in mind that in "Home Screen" mode Value Display has few limitations. Value Display will update it's state only once per 15 min. You can change this via Widget Settings. However update interval less than 15 minutes is not guaranteed.  
-You can also resize Value Display on Home Screen - just do long click on widget and resize it as you need.
-
 **Sketch:** [BlynkBlink](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
 
 ### Labeled Value
@@ -491,10 +486,6 @@ Let's assume, your sensor sends number 12.6789 to Blynk application. Next format
 
 `/pin.##/` - displays the value with two decimal places \(12.68\)
 
-**Home Screen Labeled Value**
-
-You can also add Labeled Value to your Android Home Screen. Labeled Value works via HTTPS in that case. Have in mind that in "Home Screen" mode Labeled Value has few limitations. Labeled Value will update it's state only once per 15 min. You can change this via Widget Settings. However update interval less than 15 minutes is not guaranteed. You can also resize Labeled Value on Home Screen - just do long click on widget and resize it as you need.
-
 **Sketch:** [BlynkBlink](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
 
 ### LED
@@ -517,10 +508,6 @@ You can also change LED color with :
 //#D3435C - Blynk RED 
 Blynk.setProperty(V1, "color", "#D3435C");
 ```
-
-**Home Screen LED**
-
-You can also add LED to your Android Home Screen. LED works via HTTPS in that case. Have in mind that in "Home Screen" mode LED has few limitations. LED will update it's state only once per 15 min. You can change this via Widget Settings. However update interval less than 15 minutes is not guaranteed.
 
 **Sketch:** [LED](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/LED/LED_Blink/LED_Blink.ino)
 
