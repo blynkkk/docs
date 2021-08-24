@@ -5,8 +5,8 @@
 ## Getting Started
 
 * [Quickstart](getting-started/what-do-i-need-to-blynk/README.md)
-  * [How Quickstart device was made](getting-started/what-do-i-need-to-blynk/how-quickstart-device-was-made.md)
-  * [Quickstart device code overview](getting-started/what-do-i-need-to-blynk/quickstart-device-code-overview.md)
+  * [How Quickstart Device Was Made](getting-started/what-do-i-need-to-blynk/how-quickstart-device-was-made.md)
+  * [Quickstart Device: Code Overview](getting-started/what-do-i-need-to-blynk/quickstart-device-code-overview.md)
   * [Troubleshooting](getting-started/what-do-i-need-to-blynk/troubleshooting.md)
 * [Template Quick Setup](getting-started/template-quick-setup/README.md)
   * [Set Up Datastreams](getting-started/template-quick-setup/set-up-datastreams.md)

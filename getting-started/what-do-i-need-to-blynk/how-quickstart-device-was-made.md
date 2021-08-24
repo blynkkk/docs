@@ -1,4 +1,4 @@
-# How Quickstart device was made
+# How Quickstart Device Was Made
 
 Congrats on getting your first device online! Now let's take a look at what happened during the Quickstart process. This will help you to understand important details of how the Blynk platform works and will be comfortable with building your own logic. 
 

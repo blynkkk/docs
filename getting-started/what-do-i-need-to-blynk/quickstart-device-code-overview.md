@@ -1,4 +1,4 @@
-# Quickstart device code overview
+# Quickstart Device: Code Overview
 
 Now that you know how to Quickstart device was prepared, let's look at the code it used to connect and communicate with Blynk.
 
@@ -6,7 +6,7 @@ Code depends on the hardware and connection method you use. You can always find 
 
 Let's look at the parts of the code one by one.
 
-### 
+
 
 ### Definitions
 
