@@ -1,62 +1,62 @@
 # Troubleshooting
 
-## I c**an’t sign up or log in**
+## I C**an’t Sign Up or Log In**
 
 **Reason:**
 
-* wrong email address  
-* the password is incorrect  
-* the user with the specified email address is not registered in the system
+* Wrong email address  
+* The password is incorrect  
+* The user with the specified email address is not registered in the system
 
 **Solution:**
 
-* specify correct email address  
-* be sure to type the correct password  
-* reset password  
-* check the specified email inbox to be sure it's registered in the system  
-* register with a different email address
+* Specify correct email address  
+* Be sure to type the correct password  
+* Reset password  
+* Check the specified email inbox to be sure it's registered in the system  
+* Register with a different email address
 
-## **No email received**
+## **No Email Received**
 
 **Reason:**
 
-* you entered an incorrect email address  
-* the letter got into the spam folder  
-* email server issues  
+* You entered an incorrect email address  
+* The letter got into the spam folder  
+* Email server issues  
 
 **Solution:**
 
-* specify correct email address  
-* check your spam folder  
-* contact you mail server administrator
+* Specify correct email address  
+* Check your spam folder  
+* Contact you mail server administrator
 
-## **No connection to server**
+## **No Connection to Server**
 
 **Reason:**
 
-* you do not have an internet connection  
-* the server is rebooting  
-* intermediate providers issues
+* You do not have an internet connection  
+* The server is rebooting  
+* Intermediate providers issues
 
 **Solution:**
 
-* check your internet connection  
-* you should wait for a while to reboot the server  
-* run traceroute command in your OS terminal, contact your ISP and provide them with this data
+* Check your internet connection  
+* You should wait for a while to reboot the server  
+* Run traceroute command in your OS terminal, contact your ISP and provide them with this data
 
-## Device is offline
+## Device is Offline
 
 **Reason:**
 
-* connectivity issues
+* Connectivity issues
 * SSID and/or pass were not specified
-* old version of library or even beta version is used
-* outdated ESP core version
+* Old version of library or even beta version is used
+* Outdated ESP core version
 
 **Solution:**
 
-* check if the device is powered on
-* check your internet connection between the device and Blynk.Cloud \(mind Wi-Fi signal strength and distance\)
-* be sure to use the latest version of library, otherwise re-flash and launch Device Reprovision process
-* check your ESP core version is up to date, otherwise re-flash and launch Device Reprovision process
+* Check if the device is powered on
+* Check your internet connection between the device and Blynk.Cloud \(mind Wi-Fi signal strength and distance\)
+* Be sure to use the latest version of library, otherwise re-flash and launch Device Reprovision process
+* Check your ESP core version is up to date, otherwise re-flash and launch Device Reprovision process
 
