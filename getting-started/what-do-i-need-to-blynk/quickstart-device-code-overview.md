@@ -48,7 +48,7 @@ Here we are enabling output to Serial monitor of what Blynk.Edgent is doing for 
 ```cpp
 #include <WiFi.h>
 #include <WiFiClient.h>
-#include <BlynkSimpleEsp32_SSL.h>
+#include <BlynkSimpleEsp32.h>
 ```
 
 These lines above are specific to your hardware. For example, it you are working with NodeMCU, these lines will be different.
