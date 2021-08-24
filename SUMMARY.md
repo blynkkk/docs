@@ -4,12 +4,10 @@
 
 ## Getting Started
 
-* [What do I need to Blynk?](getting-started/what-do-i-need-to-blynk.md)
-* [Sign Up / Sign In](getting-started/signup.md)
-* [Developer Mode](getting-started/developer-mode.md)
-* [Device Activation](getting-started/activating-devices/README.md)
-  * [WiFi provisioning](getting-started/activating-devices/blynk-edgent-wifi-provisioning.md)
-  * [Static AuthToken](getting-started/activating-devices/blynk-edgent-static-authtoken.md)
+* [Quickstart](getting-started/what-do-i-need-to-blynk/README.md)
+  * [How Quickstart device was made](getting-started/what-do-i-need-to-blynk/how-quickstart-device-was-made.md)
+  * [Quickstart device code overview](getting-started/what-do-i-need-to-blynk/quickstart-device-code-overview.md)
+  * [Troubleshooting](getting-started/what-do-i-need-to-blynk/troubleshooting.md)
 * [Template Quick Setup](getting-started/template-quick-setup/README.md)
   * [Set Up Datastreams](getting-started/template-quick-setup/set-up-datastreams.md)
   * [Set Up Web Dashboard](getting-started/template-quick-setup/set-up-web-dashboard.md)
@@ -19,8 +17,13 @@
 * [Send Device Data to Blynk](getting-started/using-virtual-pins-to-control-physical-devices.md)
 * [Log Events](getting-started/events-tutorial.md)
 * [Get Notifications](getting-started/notification-management.md)
+* [Developer Mode](getting-started/developer-mode.md)
+* [Device Activation Method](getting-started/activating-devices/README.md)
+  * [WiFi provisioning](getting-started/activating-devices/blynk-edgent-wifi-provisioning.md)
+  * [Static AuthToken](getting-started/activating-devices/blynk-edgent-static-authtoken.md)
 * [Firmware Over-The-Air](getting-started/updating-devices-firmwares-ota.md)
 * [Metadata Tutorial](getting-started/metadata-tutorial.md)
+* [Sign Up / Sign In](getting-started/signup.md)
 
 ## Platform overview
 

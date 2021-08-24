@@ -8,5 +8,5 @@ description: >-
 
 Tap Log out in left menu and confirm the action. 
 
-![](../../.gitbook/assets/log-out-confirmation-screen%20%281%29.png)
+![](../../.gitbook/assets/log-out-confirmation-screen%20%281%29%20%281%29.png)
 

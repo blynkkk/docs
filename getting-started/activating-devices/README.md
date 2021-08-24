@@ -1,4 +1,4 @@
-# Device Activation
+# Device Activation Method
 
 This tutorial will explain how to get your first Blynk device online.
 
