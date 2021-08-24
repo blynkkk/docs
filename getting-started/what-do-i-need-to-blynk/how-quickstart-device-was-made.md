@@ -70,13 +70,15 @@ Dashboards are made from building blocks we call **Widgets**. These UI layouts a
 
 For the Quickstart demo, we've created dashboards w couple of widgets to demonstrate how they work. Of course you can build your own dashboards. The best part is that you can have two different dashboards: one on the mobile apps and another one for desktop computer. 
 
+![](../../.gitbook/assets/onboarding-device-dashboard.png)
+
 
 
 ### **At this point, you should be more comfortable with understanding the relationship between templates, devices, datastreams, and widgets on the dashboard.** 
 
-Now take a closer look at what was happening on device.
+Now take a closer look at what was happening on the device:
 
-
+{% page-ref page="quickstart-device-code-overview.md" %}
 
 ## \*\*\*\*
 
