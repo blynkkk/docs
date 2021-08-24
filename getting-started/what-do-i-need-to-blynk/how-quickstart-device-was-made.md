@@ -19,7 +19,7 @@ In Blynk, we use Device Templates to make it easy to work with multiple devices 
 
 On the diagram above you can see that we've created a Quickstart Template and one Quickstart device. When you decide to create your own device, you will create your own Template and then create devices from it. 
 
-Think about smart home switches. They all perform a similar function and it's safe to assume that they should have the same data model, GPIOs, firmware code, etc. You can create Smart Swit temlpate and use it to create multiple smart home switches.
+Think about smart home switches. They all perform a similar function and it's safe to assume that they should have the same data model, GPIOs, firmware code, etc. You can create a Smart Switch template and use it to create multiple smart home switches.
 
 ### 
 
