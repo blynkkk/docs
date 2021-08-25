@@ -8,6 +8,10 @@
   * [How Quickstart Device Was Set Up](getting-started/what-do-i-need-to-blynk/how-quickstart-device-was-made.md)
   * [Quickstart Device: Code Overview](getting-started/what-do-i-need-to-blynk/quickstart-device-code-overview.md)
   * [Troubleshooting](getting-started/what-do-i-need-to-blynk/troubleshooting.md)
+* [Device Activation Methods](getting-started/activating-devices/README.md)
+  * [Manual Device Activation](getting-started/activating-devices/manual-device-activation.md)
+  * [WiFi provisioning](getting-started/activating-devices/blynk-edgent-wifi-provisioning.md)
+  * [Static Token](getting-started/activating-devices/blynk-edgent-static-authtoken.md)
 * [Template Quick Setup](getting-started/template-quick-setup/README.md)
   * [Set Up Datastreams](getting-started/template-quick-setup/set-up-datastreams.md)
   * [Set Up Web Dashboard](getting-started/template-quick-setup/set-up-web-dashboard.md)
@@ -18,9 +22,6 @@
 * [Log Events](getting-started/events-tutorial.md)
 * [Get Notifications](getting-started/notification-management.md)
 * [Developer Mode](getting-started/developer-mode.md)
-* [Device Activation Method](getting-started/activating-devices/README.md)
-  * [WiFi provisioning](getting-started/activating-devices/blynk-edgent-wifi-provisioning.md)
-  * [Static AuthToken](getting-started/activating-devices/blynk-edgent-static-authtoken.md)
 * [Firmware Over-The-Air](getting-started/updating-devices-firmwares-ota.md)
 * [Metadata Tutorial](getting-started/metadata-tutorial.md)
 * [Sign Up / Sign In](getting-started/signup.md)
@@ -209,5 +210,5 @@
 ## Commercial Use
 
 * [Deploying Products With Dynamic AuthTokens](commercial-use/deploying-products-with-dynamic-authtokens.md)
-* [Deploying Products With Static AuthTokens](commercial-use/deploying-products-with-static-authtokens.md)
+* [Deploying Products With Static Tokens](commercial-use/deploying-products-with-static-authtokens.md)
 

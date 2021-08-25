@@ -1,18 +1,20 @@
 # Template Quick Setup
 
-**Device Template** is a set of configurations inherited by devices of a similar type.
+A **Device Template** is a set of configurations inherited by devices of a similar type.
 
-Think about smart home switches. They all perform a similar function and it's safe to assume that they should have the same data model, GPIOs, firmware code, etc. If you would need to introduce changes to all of these devices, instead of editing each of them you could just edit a Device Template and all devices will be updated.
+![](../../.gitbook/assets/blynk-template-device-relationship%20%282%29.png)
+
+Think about smart home switches. They all perform a similar function and it's safe to assume that they should have the same data model, GPIOs, firmware code, etc. You can create a SmartSwitch template and then create multiple SmartHome switches from it.
 
 ## Tutorial Overview
 
-While Device Template has a lot of settings, in this tutorial, we focus only on the most important settings to get your devices up and running quickly. By the end of this tutorial, you should have your first working device which will:
+While Device Template has a lot of settings, in this tutorial, we focus only on the most important settings to get your devices up and running quickly. By the end of this tutorial, you should have a working device that will:
 
-* send random values to the web and mobile dashboard in given intervals
-* receive user input from the web or mobile dashboard UI elements
+* Send random values to the web and mobile dashboard in given intervals
+* Receive user input from the web or mobile dashboard UI elements
 
 {% hint style="info" %}
-You would need a development board \(e.g. Node MCU, Arduino\). List of supported boards can be found here.
+You would need a development board \(e.g. Node MCU, Arduino\). A list of supported boards can be found [here](../../blynk.edgent/supported-boards.md).
 {% endhint %}
 
 Full documentation on all of the Template settings can be found [here](../../blynk.console/templates/porducts-management.md).
@@ -22,8 +24,8 @@ Full documentation on all of the Template settings can be found [here](../../bly
 Before moving further, make sure that you have **Developer Mode** enabled:
 
 1. In the Blynk app or in Blynk.Console
-2. Navigate to **My Profile** / **User profile** in the left menu
-3. Check that **Developer Mode** switch is set to ON
+2. Navigate to **My Profile** → **User profile** in the left menu
+3. Check that the **Developer Mode** switch is set to ON
 
 {% hint style="warning" %}
 Currently, **only one developer is allowed per Organization** to avoid sync issues. This limit can be changed later.
@@ -47,7 +49,7 @@ If you can't find your hardware in the list choose **Other**
 
 ## 4. Find **Template ID**
 
-A new Template is now created. On this screen notice **Template ID** and **Firmware Configuration** sections. You will need these details later in your sketch.
+A new Template is now created. On the screen below notice **Template ID** and **Firmware Configuration** sections. You will need these details later in your sketch.
 
 ![Template editing](https://user-images.githubusercontent.com/72790181/119468206-e6127480-bd4e-11eb-974a-d50402fbee52.png)
 
@@ -62,9 +64,9 @@ A new Template is now created. On this screen notice **Template ID** and **Firmw
 
 1. Open Dynamic Provisioning Template: - [ESP8266 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent_ESP8266)- [ESP32 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent_ESP32)- [MKR1000 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent_MKR1000)- [MKR1010](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent_MKR1010) 
 2. Specify [TMPLID](https://docs.blynk.io/en/blynk.console/templates/info/template-ids), [SSID WiFi](../../blynk.console/templates/info/hotspot-prefix.md) and Board Name in the [sketch](../activating-devices/)
-3. Flash this template to your board
+3. Upload this code to your board
 
-### Congratulations, you have configured your Product and it is ready to use!
+### Congratulations, you have configured your device and it is ready to use!
 
 Now all that remains is to [add your test board using Blynk.Apps](../../blynk.apps/device-management/add-new-device.md), make sure it works as you expect, and integrate your code.
 

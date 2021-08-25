@@ -226,7 +226,7 @@ It's important to keep the void\_loop\(\) clean. Avoid using delays and use time
 
 ### **Now you are ready to build your own devices!** Check out these guides to learn more about Blynk features:
 
-{% page-ref page="../activating-devices/blynk-edgent-wifi-provisioning.md" %}
+{% page-ref page="../activating-devices/" %}
 
 {% page-ref page="../template-quick-setup/" %}
 
