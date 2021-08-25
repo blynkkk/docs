@@ -6,7 +6,7 @@ Code depends on the hardware and connection method you use. You can always find 
 
 Let's look at the parts of the code one by one.
 
-### 
+
 
 ### Definitions
 
