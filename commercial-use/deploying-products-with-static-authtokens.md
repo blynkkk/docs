@@ -21,7 +21,7 @@ Connected products can have various topologies.
 2. **Gateway \(hub\)** topology. In this setup, the gateway is connected to the Internet, and nodes are sending the data to the gateway. Gateway then processes the messages and sends them to the Blynk.Cloud
 3. **Mesh Network**. Similar to gateway setup above, but in mesh networks, each device can reroute messages from any device to the gateway. 
 
-{% hint style="info" %}
+{% hint style="warning" %}
 For hub/gateway or mesh topologies, you would need to use HTTP API to tunnel messages from the nodes to the Blynk.Cloud. These messages will contain AuthToken of the node and will be identified this way.
 {% endhint %}
 
