@@ -95,6 +95,10 @@
       <td style="text-align:left"></td>
     </tr>
     <tr>
+      <td style="text-align:left">New widgets: icon button, image button, step slider, vertical step slider, slop control, switch button, level slider, level slider with switch, radial gauge, enhanced gauge, gradient ramp, icon, bink button, link image button, alias</td>
+      <td style="text-align:left">&#x2705; Replaced by <b>Automations</b> and <b>Rule Engine</b> (coming soon)</td>
+    </tr>
+    <tr>
       <td style="text-align:left">Bridge widget</td>
       <td style="text-align:left">&#x2705; Replaced by <b>Automations</b> and <b>Rule Engine</b> (coming soon)</td>
     </tr>
