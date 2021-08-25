@@ -95,7 +95,7 @@
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">New widgets: icon button, image button, step slider, vertical step slider, slop control, switch button, level slider, level slider with switch, radial gauge, enhanced gauge, gradient ramp, icon, link button, link image button, alias</td>
+      <td style="text-align:left">16 new widgets: icon button, image button, step slider, vertical step slider, slop control, switch button, level slider, level slider with switch, radial gauge, enhanced gauge, gradient ramp, icon, link button, link image button, alias</td>
       <td style="text-align:left">&#x2705; Only in Blynk 2.0</td>
     </tr>
     <tr>
