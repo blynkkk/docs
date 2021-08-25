@@ -27,12 +27,30 @@ For hub/gateway or mesh topologies, you would need to use HTTP API to tunnel mes
 
 ### 
 
-1. In Blynk.Console generate the number of Tokens you need based on the number of devices you plan to deploy
-2. Each token will all come with a corresponding downloadable QR-code
-3. After flashing firmware to your devices, you'll be able to add AuthToken to each device
-4. Your customers receive the device + printed \(or emailed\) QR code
-5. They will download Blynk app and scan the QR code. 
-6. After scanning the QR code, device will be claimed by the customer and placed into their organization.
+### Preparation 
 
-You would still need to make nodes to pair with the gateway and reroute messages
+The process of working with Statik Tokens is next:
+
+1. Go to Blynk.Console → Static Tokens
+2. Generate the number of Tokens you need based on the number of devices you plan to deploy
+3. Each token comes with a corresponding downloadable QR-code image
+4. You download the list of Tokens and all QR code images 
+5. You flash AuthToken to every device and print the corresponding QR code
+
+Now products are ready for sale/delivery/deployment
+
+### 
+
+### Device activation by end customers
+
+When customers receive your device, they would need to dowload the Blynk app. It's recommended that you include this step into the manual. 
+
+1. Your customers receive the device + printed \(or emailed\) QR code
+2. Your customers download the Blynk app and create a new account there. Alternatively, you can create a new sub-organization and invite your customer there. 
+3. Your customer scans the QR code. 
+4. Device appears in the apps and is ready for use.
+
+At this stage, the device is claimed \(owned\) by the customer and assigned to an organization.
+
+
 
