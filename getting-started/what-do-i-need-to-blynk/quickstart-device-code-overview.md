@@ -4,10 +4,9 @@ Now that you know how to Quickstart device was prepared, let's look at the code 
 
 Code depends on the hardware and connection method you use. You can always find a correct code example for your hardware [here](https://examples.blynk.cc/).
 
-Let's look at the parts of the code one by one.  
+Let's look at the parts of the code one by one.
 
-
-
+### 
 
 ### Definitions
 
@@ -30,8 +29,10 @@ You can always find AuthToken for your Device in the Device Info section of the 
 {% hint style="info" %}
 Getting an AuthToken manually is the simplest way to get your hardware connected. However, we also offer an alternative way for WiFi devices, where AuthToken can be saved to the device without specifying it beforehand. 
 
-You can learn more about such process [here](../activating-devices/#a-wifi-provisioning-using-blynk-edgent).
+You can learn more about such a process [here](../activating-devices/#a-wifi-provisioning-using-blynk-edgent).
 {% endhint %}
+
+
 
 Let's continue looking at the sketch
 

@@ -19,7 +19,7 @@ In Blynk, we use Device Templates to make it easy to work with multiple devices 
 
 In the diagram above, you can see that we've created a Quickstart Template and one Quickstart device. When you decide to create your own device, you will first create your own Template and then create devices from it. 
 
-Think about Smart Home switches. They all perform a similar function and it's safe to assume that they should have the same data model, GPIOs, firmware code, etc. You can create a Smart Switch template and use it to create multiple smart home switches in Blynk.
+Think about smart home switches. They all perform a similar function and it's safe to assume that they should have the same data model, GPIOs, firmware code, etc. You can create Smart Switch template and use it to create multiple smart home switches.
 
 ### 
 
@@ -51,7 +51,7 @@ IMPORTANT! definition of Template ID should always be **the** **first** line in 
 Think of a Datastream as a channel to transfer data between your device and Blynk.Cloud. To process it correctly,  Blynk.Cloud needs to know what kind of data is being transferred. 
 
 {% hint style="info" %}
-If you used an old version of Blynk, Datastreams are somewhat similar to Virtual Pins, but significantly enhanced.
+If you used an old version of Blynk, Datastreams are somewhat similar to **Virtual Pins** but more enhanced.
 {% endhint %}
 
 During the Quickstart process, we created and configured four Datastreams for you, but when you continue building your own device, you will need to do it by yourself.  

@@ -2,11 +2,17 @@
 
 ## I C**an’t Sign Up or Log In**
 
+Check that correct hardware and port are used when uploading sketch
+
 **Reason:**
+
+Check that use correct WiFi credentials are
 
 * Wrong email address  
 * The password is incorrect  
 * The user with the specified email address is not registered in the system
+
+Check that your device connects to 2.4 WiFi network 
 
 **Solution:**
 
@@ -30,7 +36,7 @@
 * Check your spam folder  
 * Contact you mail server administrator
 
-## **No Connection to Server**
+## **No Connection to Cloud Server**
 
 **Reason:**
 
