@@ -1,4 +1,4 @@
-# Deploying Products With AuthTokens
+# Deploying Products With Dynamic AuthTokens
 
 Every device needs a unique AuthToken in order to authenticate in Blynk.Cloud. During prototyping, you can manually add AuthToken to every device. However, when working with commercial products you would need a scalable approach to eliminate manual work.
 

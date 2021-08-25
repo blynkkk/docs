@@ -209,6 +209,6 @@
 
 ## Commercial Use
 
-* [Deploying Products With AuthTokens](commercial-use/deploying-products-with-dynamic-authtokens.md)
+* [Deploying Products With Dynamic AuthTokens](commercial-use/deploying-products-with-dynamic-authtokens.md)
 * [Deploying Products With Static Tokens](commercial-use/deploying-products-with-static-authtokens.md)
 
