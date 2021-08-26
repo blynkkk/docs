@@ -1,39 +1,82 @@
-# Firmware Over-The-Air
+# Firmware Over-The-Air \(Blynk.Air\)
 
-## Compile a Firmware binary file
+Blynk offers an interface to easily update your devices over-the-air. Only 
 
-To send the firmware over the air, you need to compile it into a binary file that has `.bin` file extension.
+{% hint style="info" %}
+Currently, OTA provisioning works on ESP32, ESP8266, Seeed WiO Terminal, Arduino MKR1010, Arduino Nano 33IoT, and Texas Instruments CC3220. Raspberry Pi will be supported soon.
+{% endhint %}
+
+## Overview
+
+The process of updating the device firmware over the air looks like this:
+
+1. Prepare your board to accept firmware over the air from Blynk
+2. Compile a binary file from your sketch using Arduino IDE
+3. Create new firmware shipping and update device
+
+## 1. Prepare your device for OTA updates
+
+First, we need to prepare your device to work with Blynk.Air service. Follow the steps below to make it work
 
 {% tabs %}
 {% tab title="Arduino IDE" %}
-1. Launch Arduino IDE  
-2. Open your sketch file which is working with Blynk application
+In Arduino IDE open the Blynk.Edgent example sketch for your board.
 
 ![image](https://user-images.githubusercontent.com/65705128/115250112-f0c76180-a131-11eb-96b3-8f3156c7a136.png)
 
-1. Make sure you have **Template ID** specified in the sketch. You can find it in Template -&gt; Info in Blynk.Console
+
+
+Double-check that `Template ID` is defined in the sketch. You can always find the `TemplateID` in Blynk.Console →Template → General Settings
 
 ![image](https://user-images.githubusercontent.com/65705128/115251088-dcd02f80-a132-11eb-9ae6-c657c429b4a1.png)
 
-![image](https://user-images.githubusercontent.com/65705128/115254884-75b47a00-a136-11eb-8fc4-e4305b7f68b3.png)
+![Replace these lines with your TemplateID](https://user-images.githubusercontent.com/65705128/115254884-75b47a00-a136-11eb-8fc4-e4305b7f68b3.png)
 
-![image](https://user-images.githubusercontent.com/65705128/115254884-75b47a00-a136-11eb-8fc4-e4305b7f68b3.png)
+Upload this sketch to your device and make sure it shows up online in Blynk.Console and Blynk.Apps.
+{% endtab %}
 
-1. Go to File -&gt; Save
+{% tab title="PlatformIO" %}
+Work in progress
+{% endtab %}
+{% endtabs %}
+
+
+
+## Compile a Firmware binary file
+
+At this stage your device is ready to accept firmware over the air with Blynk. Now you can write your own code and deliver it wirelessly. 
+
+{% tabs %}
+{% tab title="Arduino IDE" %}
+First of all, you need to change the Firmware version. Otherwise, your device will not know this is a new firmware and will ignore it. 
+
+In the code find the firmware version and increment it. For example, if it was `0.1.0`, change it to `0.1.1`. You should do it every time you plan to update your device with new version of code. 
+
+```cpp
+define BLYNK_FIRMWARE_VERSION "0.1.1"
+```
+
+Now we need to export your code as a binary \(.bin\) file.
+
+First of all, go to Arduino -&gt; File -&gt; Save
 
 ![image](https://user-images.githubusercontent.com/65705128/115255420-ebb8e100-a136-11eb-8fff-ab3e901f59f2.png)
 
-1. Now go to Sketch -&gt; Export compiled Binary
+
+
+Now go to Sketch -&gt; Export compiled Binary
 
 ![image](https://user-images.githubusercontent.com/65705128/115255779-46523d00-a137-11eb-8420-1ab24f465265.png)
 
-You can fild a `.bin` file in the sketch folder. It's ready to be used with Blynk.Air over-the-air updates
+The `.bin` file is now in the same sketch folder with other files.
 
 ![image](https://user-images.githubusercontent.com/65705128/115256352-d09aa100-a137-11eb-91f5-cb8024c17222.png)
+
+Now you are ready to ship it.
 {% endtab %}
 
-{% tab title="Platformio" %}
-
+{% tab title="PlatformIO" %}
+Work in Progress
 {% endtab %}
 {% endtabs %}
 
@@ -45,32 +88,34 @@ You can fild a `.bin` file in the sketch folder. It's ready to be used with Blyn
 
 ![](../.gitbook/assets/target-selection.png)
 
-3.1 Select a **Template** available in the dropdown menu  
-3.2 Set **Preferred Time** when the Shipment will be delievering  
-3.3 Set Shipping appliance condition by selecting an option available in **Apply Update if the Device has** dropdown menu  
-3.4 _Select Devices available_ in the **Devices list** if you want to update certain devices.  
-Otherwise _leave the selection empty_ – in this case, all of the selected Template's devices will be updated including these that will be added in the future.
+4. Select a **Template** available in the dropdown menu  
+5. Select Devices available in the **Devices list** if you want to update certain devices.  
+If you leave the selection empty, all of the devices made from this Template will be updated. 6. **Upload** **Firmware** file. Click the area with cloud pictogram and select .bin, .tar binary file in your PC file explorer. Drag'n'drop is supported.  
 
-1. **Upload** **Firmware** file. Click the area with cloud pictogram and select .bin, .tar binary file in your PC file explorer. Drag'n'drop is supported.  
-2. Check **Firmware info**
+7. Check **Firmware info**
 
 ![](../.gitbook/assets/firmware.png)
 
-1. Check for **Optional Settings** under Template selection field and in \_\*\*\_Review and start area  
-2. Press **Start Shipping** 
+8. Check for **Optional Settings** under Template selection field and in \_\*\*\_Review and start area  
+
+9. Press **Start Shipping** 
 
 ![](../.gitbook/assets/review_and_start.png)
 
-Done!  
-After that, the modal window will appear with the progress bar. You can close it, the Shipping will continue working.
+Now you are all set. The shipping has started.  
+
+
+You will see the progress of the shipping. You can close it, the shipping will continue working.
 
 ![](../.gitbook/assets/shipping_in_progress.png)
 
-You can always check your Shippings status and progress accessing Blynk.Air table:
+You can always check your Shippings status and progress by accessing list of all OTA updates.
 
 ![](../.gitbook/assets/shipments_tab.png)
 
-For more details follow the link below:
 
-{% page-ref page="../blynk.console/blynk.air/shipment-management/new-shipping.md" %}
+
+Read more about over-the-air updates here: 
+
+{% page-ref page="../blynk.console/blynk.air/" %}
 

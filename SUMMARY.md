@@ -22,7 +22,7 @@
 * [Log Events](getting-started/events-tutorial.md)
 * [Get Notifications](getting-started/notification-management.md)
 * [Developer Mode](getting-started/developer-mode.md)
-* [Firmware Over-The-Air](getting-started/updating-devices-firmwares-ota.md)
+* [Firmware Over-The-Air \(Blynk.Air\)](getting-started/updating-devices-firmwares-ota.md)
 * [Metadata Tutorial](getting-started/metadata-tutorial.md)
 * [Sign Up / Sign In](getting-started/signup.md)
 
