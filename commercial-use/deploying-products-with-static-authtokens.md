@@ -29,7 +29,7 @@ For hub/gateway or mesh topologies, you would need to use HTTP API to tunnel mes
 
 ### Preparation 
 
-The process of working with Statik Tokens is next:
+The process of working with Static Tokens is next:
 
 1. Go to Blynk.Console → Static Tokens
 2. Generate the number of Tokens you need based on the number of devices you plan to deploy
