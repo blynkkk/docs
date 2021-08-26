@@ -2,7 +2,7 @@
 
 This type of device activation is designed for commercial deployments of non-WiFi IoT devices, such as cellular \(3G, 4G, LTE, etc\), Ethernet, and others. Typically these devices don't require any additional parameters from the end customers to connect to the Internet.
 
-The process of working with Statik Tokens is next:
+The process of working with Statiс Tokens is next:
 
 1. Go to Blynk.Console -&gt; Static Tokens
 2. Generate the number of Tokens you need based on the number of devices you plan to deploy
