@@ -15,7 +15,7 @@ Here is what happened during the Quickstart flow:
 
 In Blynk, we use Device Templates to make it easy to work with multiple devices that perform the same functions. On a high level, Device Template is a set of configurations. Once you have created a template, you can create devices from this template and they will inherit all of the same configurations. 
 
-![](../../.gitbook/assets/blynk-quickstart-template-device-relationship.jpg)
+![](../../.gitbook/assets/blynk-quickstart-template-device-relationship%20%281%29%20%281%29.jpg)
 
 In the diagram above, you can see that we've created a Quickstart Template and one Quickstart device. When you decide to create your own device, you will first create your own Template and then create devices from it. 
 

@@ -4,16 +4,14 @@ description: How to work with Static Tokens in a commercial setup
 
 # Deploying Products With Static Tokens
 
-Deployment of commercial IoT products for use by end-customer is a challenging process. Blynk offers tools to simplify this process for developers and end-users. 
+Deployment of commercial IoT products for use by end-customer is a challenging process. Blynk offers tools to simplify this process for developers and end-users.
 
 Static Tokens are used for non-WiFi devices. The workflow proposed below covers two parts of the process:
 
 1. Preparing your products to deliver to end-customers
 2. Claiming products by end-customers
 
-
-
-### Supported topologies
+## Supported topologies
 
 Connected products can have various topologies.
 
@@ -25,9 +23,7 @@ Connected products can have various topologies.
 For hub/gateway or mesh topologies, you would need to use HTTP API to tunnel messages from the nodes to the Blynk.Cloud. These messages will contain AuthToken of the node and will be identified this way.
 {% endhint %}
 
-### 
-
-### Preparation 
+## Preparation
 
 The process of working with Static Tokens is next:
 
@@ -39,11 +35,9 @@ The process of working with Static Tokens is next:
 
 Now products are ready for sale/delivery/deployment
 
-### 
+## Device activation by end customers
 
-### Device activation by end customers
-
-When customers receive your device, they would need to dowload the Blynk app. It's recommended that you include this step into the manual. 
+When customers receive your device, they would need to dowload the Blynk app. It's recommended that you include this step into the manual.
 
 1. Your customers receive the device + printed \(or emailed\) QR code
 2. Your customers download the Blynk app and create a new account there. Alternatively, you can create a new sub-organization and invite your customer there. 
@@ -51,6 +45,4 @@ When customers receive your device, they would need to dowload the Blynk app. It
 4. Device appears in the apps and is ready for use.
 
 At this stage, the device is claimed \(owned\) by the customer and assigned to an organization user belongs to.
-
-
 
