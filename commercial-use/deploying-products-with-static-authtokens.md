@@ -50,7 +50,7 @@ When customers receive your device, they would need to dowload the Blynk app. It
 3. Your customer scans the QR code. 
 4. Device appears in the apps and is ready for use.
 
-At this stage, the device is claimed \(owned\) by the customer and assigned to an organization.
+At this stage, the device is claimed \(owned\) by the customer and assigned to an organization user belongs to.
 
 
 
