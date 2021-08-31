@@ -14,6 +14,7 @@ description: >-
 3. _Select and click_ the Datastream you want to be used in Automations. Modal window will appear
 4. Click **+ Advanced Settings**
 5. Enable **Expose to Automation** at the bottom of the modal window
+6. Enable **Available in Conditions** below
 
 ![](../../../../.gitbook/assets/cpt2105201739-1919x971.gif)
 
