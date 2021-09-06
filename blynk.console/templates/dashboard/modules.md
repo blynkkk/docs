@@ -32,7 +32,7 @@ _Example_: your module is fan, it has datastream V0. Once you attach the fan to 
 1. **Add Datastream** – click to add and set up Datastreams which values or states will be displayed
 2. **Set View Type** – define Datastreams values/status view by accessing dropdown menu on the right of the selected Datastream. _**Note**:_ type limitations can be applied in the list accordingly to the selected Datastrem properties
 
-![](../../../.gitbook/assets/module_view_types.png)
+![](../../../.gitbook/assets/module_view_types%20%281%29.png)
 
 **Modules Arrangement inside the Widget** – set vertical or horizontal order. Scrollbar will appear if there are a lot of modules.
 
