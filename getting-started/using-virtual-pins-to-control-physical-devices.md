@@ -2,20 +2,36 @@
 description: adapted from PeteKnight's article
 ---
 
-# Send Device Data to Blynk
+# Control Devices \(GPIOs and more\)
 
-### **Why use virtual pins anyway?**
+Blynk can control Digital and Analog I/O Pins ****\(GPIOs\) on your hardware directly. You don’t even need to write code for it. But when it's not enough, you can use Virtual Pins.
 
-* Virtual pins are hardware independent. This means that it’s far easier to port your code from one hardware platform to another in future \(when you realise that the NodeMCU is far better than the Arduino Uno + ESP-01 that you started with, for example\).
+We designed Virtual Pins to exchange **any data** between your hardware and Blynk. Anything you connect to your hardware will be able to talk to Blynk. With Virtual Pins you can send something from the App, process it on the microcontroller, and then send it back to the smartphone. You can trigger functions, read I2C devices, convert values, control servo and DC motors etc.
+
+Virtual Pins can be used to interface with external libraries \(Servo, LCD, and others\) and implement custom functionality.
+
+Hardware may send data to the Widgets over the Virtual Pin like this:
+
+```cpp
+Blynk.virtualWrite(pin, "abc"); 
+Blynk.virtualWrite(pin, 123); Blynk.virtualWrite(pin, 12.34); 
+Blynk.virtualWrite(pin, "hello", 123, 12.34);
+```
+
+### \*\*\*\*
+
+### **Why use Virtual Pins ?**
+
+* Virtual pins are hardware-independent. This means that it’s far easier to port your code from one hardware platform to another in the future \(when you realize that the NodeMCU is far better than the Arduino Uno + ESP-01 that you started with, for example\).
 * You have far more control over what your widget does when using virtual pins. For example, if you want a single app button to switch multiple relays on or off at the same time then that’s simple with virtual pins, but almost impossible using digital pins.
 * Virtual pins are more predictable \(stable if you like\) than manipulating digital pins.
 
 ### 
 
-### How Virtual pins **relate to the GPIO pins on my hardware?**
+### How do Virtual Pins **relate to the GPIO pins on my hardware?**
 
 Virtual pins are really just a way of sending a message from the app to the code that’s running on your board \(via the Blynk server\).  
-There no correlation between Virtual Pins and any of the physical GPIO pins on your hardware. If you want a Virtual Pin to change the state of one of your physical pins then you have to write the code to make this happen. 
+There is no correlation between Virtual Pins and any of the physical GPIO pins on your hardware. If you want a Virtual Pin to change the state of one of your physical pins then you have to write the code to make this happen. 
 
 ### \*\*\*\*
 
@@ -132,7 +148,7 @@ There are several ways around this issue. You could change your switch widget ou
 
 ### **Syncing the output state with the app at startup**
 
-When the device starts up \(reboots\) it won’t be aware of the state of the button widget in the app, so may be in a different state to what the button widget shows in the app. This will be rectified when you toggle the button widget in the app, but that’s not a very satisfactory solution.  
+When the device starts up \(reboots\) it won’t be aware of the state of the button widget in the app, so maybe in a different state to what the button widget shows in the app. This will be rectified when you toggle the button widget in the app, but that’s not a very satisfactory solution.  
 We can force the Blynk server to send the latest value for the virtual pin, by using the `Blynk.syncVirtual(vPin)` command. This causes the corresponding `BLYNK_WRITE(vPin)` command to execute.
 
 To automatically run the `BlynkSyncVirtual(vPin)` command when the device connects to the Blynk server \(which will normally be after a reboot but could also be following a disconnection\) we can use another special function called \`BLYNK\_CONNECTED, like this…
@@ -220,5 +236,5 @@ BLYNK_WRITE(V5) // Executes when the value of virtual pin 5 changes
 }
 ```
 
-As you can see, instead of just doing a digitalWrite to one GPIO pin, we’re doing 4 pins one after another. The `Blynk.virtualWrite` commands are then issued, which will update the button widgets to match the digital pins.
+As you can see, instead of just doing a digitalWrite to one GPIO pin, we’re doing 4 pins one after another. `Blynk.virtualWrite` commandsare then issued, which will update the button widgets to match the digital pins.
 

@@ -18,7 +18,7 @@
   * [Set Up Mobile App Dashboard](getting-started/template-quick-setup/set-up-mobile-app-dashboard.md)
   * [Prepare Your Code](getting-started/template-quick-setup/prepare-code.md)
   * [Test your Template](getting-started/template-quick-setup/test-your-template.md)
-* [Send Device Data to Blynk](getting-started/using-virtual-pins-to-control-physical-devices.md)
+* [Control Devices \(GPIOs and more\)](getting-started/using-virtual-pins-to-control-physical-devices.md)
 * [Log Events](getting-started/events-tutorial.md)
 * [Get Notifications](getting-started/notification-management.md)
 * [Developer Mode](getting-started/developer-mode.md)
