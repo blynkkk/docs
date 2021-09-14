@@ -22,6 +22,8 @@ Use-cases can be broader than this, of course. For example, your devices can con
 
 When you create a new Static Token using the tools we offer, two related items are created: **AuthToken** \(Device Token\) and **QR Token**. Static Token always belongs to a specific Device Template and specific Organization.
 
+### 
+
 ### AuthToken \(Device Token\)
 
 Every device on Blynk platform has an AuthToken \(OAuth Token\), also often called as Device Token. This is a unique identifier of the device and it's used to authenticate, validate, and connect devices to Blynk.Cloud.
@@ -29,6 +31,8 @@ Every device on Blynk platform has an AuthToken \(OAuth Token\), also often call
 AuthToken is stated in the firmware code and is flashed to the device before it is delivered to the end customer.
 
 AuthToken is usually not exposed to the end users due to security reasons \(for the same reason you should not display it for public view anywhere\).
+
+### 
 
 ### QR Token
 
@@ -42,9 +46,13 @@ QR token is secure. It can only be used for claiming purpose. Unlike AuthToken, 
 
 After the QR token was used, device can't be claimed by anyone else. It can be unclaimed only by the owner of the device or by the manufacturer.
 
+### 
+
 ### Relationship to the Device Template
 
 Static Tokens are generated from a specific Device Template. When device connects to the Blynk.Cloud for the first time, AuthToken is used for authentication. Then the server checks whether such AuthToken belongs to a Static Token. If this is true, this device will be using a corresponding Template.
+
+### 
 
 ### Relationship to the Organization
 
@@ -55,6 +63,10 @@ A common scenario is when the device goes online before getting into customer's 
 {% hint style="info" %}
 Blynk currently doesn't support over-the-air firmware updates for devices that utilize Static Tokens. Such functionality is planned for later releases of Blynk platform.
 {% endhint %}
+
+
+
+
 
 ## Proposed Workflow
 
@@ -67,6 +79,8 @@ The workflow proposed below covers these steps:
 3. Prepare for the product delivery. Working with QR codes
 4. Claiming devices by end-customers
 5. Managing Static Tokens
+
+
 
 ## 1. Generating Static Tokens
 
@@ -139,6 +153,8 @@ After this process is finished each token can be found in the list of Static Tok
 
 Now you have AuthTokens that can be flashed to devices.
 
+
+
 ## 2. Flashing AuthTokens to devices
 
 While Static Tokens are favorable for end-users because they enable an amazing user experience \(scan the QR code and device is ready\), working with them brings challenges to the manufacturing process.
@@ -152,6 +168,8 @@ Depending on the volumes you are working with, you should take this factor into 
 Blynk offers an utility that allows flashing AuthTokens at EOL \(end-of-line\). This means that you can flash all devices with the same firmware, and then this utility will "inject" AuthTokens only.
 
 This tool simplifies the flashing process significantly. Contact us if you would like to purchase it \(only available for White-Label plan customers\).
+
+
 
 ## 3. Preparing for device delivery
 
@@ -172,6 +190,8 @@ Printing QR codes and putting them onto the device with the same AuthToken can b
 #### Manual for end customers
 
 It's also beneficial to prepare a manual for your customers outlining the steps they need to make to activate their device \(read below\).
+
+
 
 ## 4. Device claiming \(activation\) by end customers
 
@@ -205,6 +225,8 @@ This is how the flow with connected device looks like in details:
 6. Customer scans the QR code
 7. Device appears under their account and is ready for use
 
+### 
+
 ### "Discovery" plan workflow \(delivery planned for Q4 2021\)
 
 {% hint style="warning" %}
@@ -221,9 +243,13 @@ When you enable Discovery add-on, you no longer need to invite each client manua
 It's beneficial to prepare instructions for your customers outlining the steps they need to take to activate their devices
 {% endhint %}
 
+
+
 ## 5. Managing Static Tokens
 
 Blynk.Console allows you to manage Static Tokens. 
+
+### 
 
 ### Unclaiming Static Token
 
