@@ -47,7 +47,6 @@ void loop()
 {
   sensorValue = analogRead(A5);         // reading sensor analog pin value
   Serial.println(sensorValue);          // printing value to Serial Monitor 
-
  👉Blynk.run();                         // run Blynk magic  
  👉Blynk.virtualWrite(V1, sensorValue); // sending value to Blynk app
 }
@@ -55,7 +54,9 @@ void loop()
 
 This would work for a regular electronics project, but not for the Internet of Things, and not for Blynk, because:
 
-#### ⚠️You are spamming Blynk Cloud <a id="you-are-spamming-blynk-cloud"></a>
+{% hint style="danger" %}
+#### You are now spamming Blynk Cloud with too many messages <a id="you-are-spamming-blynk-cloud"></a>
+{% endhint %}
 
 As it was described above, everything in the `void loop()`  will be executed many times per second. 
 
@@ -80,11 +81,15 @@ void loop()
 
 But it will not help because:
 
-#### ⚠️You will block Blynk.run with a delay\(\)  <a id="you-will-block-blynkrun-with-a-delay"></a>
+{% hint style="danger" %}
+#### delay\(\) will block all the Blynk.run\(\) magic <a id="you-are-spamming-blynk-cloud"></a>
+{% endhint %}
 
 `Blynk.run()`  is a main Blynk routine responsible for keeping connection alive, sending data, receiving data, etc. When you use a `delay()` , you most likely are breaking a connection to Blynk Cloud or blocking some functions of Blynk library.
 
 Basically, your `sensorValue` will never get to the Cloud.
+
+###  <a id="solution-what-should-i-do-then"></a>
 
 ### Solution. What should I do then?  <a id="solution-what-should-i-do-then"></a>
 
@@ -152,16 +157,5 @@ void loop()
    
 With such a minimal `void loop()` you will never block a connection to Blynk Cloud and will never spam it.
 
-You can create multiple timers, stop/start them, add and delete. Read more about advanced usage of BlynkTimer [here](https://playground.arduino.cc/Code/SimpleTimer).  
-
-
-### Check BlynkTimer example sketch for your hardware: <a id="check-blynktimer-example-sketch-for-your-hardware"></a>
-
-[Sketch to send Data to Blynk app](https://examples.blynk.cc/?board=NodeMCU&shield=ESP8266%20WiFi&example=GettingStarted%2FPushData)
-
-**---**
-
-**If you have questions or something is not working, visit our 👥** [**community**](https://community.blynk.cc/) **page.**
-
-Also, full 📗 documentation is [here](http://docs.blynk.cc/).
+You can create multiple timers, stop/start them, add and delete. Read more about advanced usage of timers [here](https://playground.arduino.cc/Code/SimpleTimer).
 

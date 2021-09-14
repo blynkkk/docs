@@ -13,6 +13,7 @@ Batch update
 
 {% api-method-description %}
 Updates multiple datastreams with one GET request. It could be used to save network bandwidth. Also, the batch update is required to show multiple datastreams in the map widget popup.  
+  
 **Example:**  
 `https://blynk.cloud/external/api/batch/update?token=bFFtSHNCZZDWQ__Zs96cP5jLMhLoJofg&v1=33&v2=44`
 {% endapi-method-description %}
@@ -21,11 +22,11 @@ Updates multiple datastreams with one GET request. It could be used to save netw
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="token" type="string" required=true %}
-Device auth token
+Device AuthToken
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="pin" type="string" required=true %}
-Virtual pin
+Virtual Pin
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="value" type="string" required=true %}

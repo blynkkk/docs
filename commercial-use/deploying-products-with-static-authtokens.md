@@ -205,7 +205,11 @@ This is how the flow with connected device looks like in details:
 6. Customer scans the QR code
 7. Device appears under their account and is ready for use
 
-### "Discovery" plan workflow \(planned for Q4 2021\)
+### "Discovery" plan workflow \(delivery planned for Q4 2021\)
+
+{% hint style="warning" %}
+This feature is not available yet.
+{% endhint %}
 
 When you enable Discovery add-on, you no longer need to invite each client manually like in PRO plan. They can create accounts and claim devices by themselves. Here is how it works:
 
@@ -219,29 +223,33 @@ It's beneficial to prepare instructions for your customers outlining the steps t
 
 ## 5. Managing Static Tokens
 
-### Unclaiming
+Blynk.Console allows you to manage Static Tokens. 
 
-Very often during the prototyping stage you would like to test how Static Tokens work. For that you may use **Unclaiming Static Token** feature. Also, you can use it when you want to sell the device one more time \(in case the device was claimed and then - returned to you by the end user\).
+### Unclaiming Static Token
 
-This feature allows you to fully follow the Static Token Claiming process and at the end of it you can unclaim the claimed static token. So it could be used by real end user or you again.
+Unclaiming process removes any ownership of the device and set it back as unclaimed. After that it can be used again.
+
+Examples when unclaiming can be used: 
+
+* **Testing**. You may test the tokens and then unclaim them before sending the device to end customers.
+* **Device return**. If device was returned and you need to resell it again. Unclaiming will allow new customer to claim device again
+* **Ownership change**. When your customer wants to give the device to another user. You can also use device transfer
 
 When the Static Token is unclaimed - connected device is removed.
 
-Have in mind - if your device will connect again after related Static Token was unclaimed - new device will be created and placed under your org as unclaimed device.
+If your device connects to the cloud after its Static Token was unclaimed, a new device will be created under your org. It will be unclaimed.
 
-### Deleting
+### 
 
-You can remove claimed Static Token. However, in that case the related device is also fully removed. You won't be able to restore this device. So, please, be very careful when removing the claimed Static Tokens.
+### Deleting Static Token
 
-## Supported topologies
+When you delete a Static Token after device was claimed, this device will be deleted. 
 
-Connected products can have various topologies.
-
-1. **Direct communication** with the Blynk.Cloud. Cellular or Ethernet devices can connect to the Internet and authenticate in Blynk.Cloud
-2. **Gateway \(hub\)** topology. In this setup, the gateway is connected to the Internet, and nodes are sending the data to the gateway. The gateway then processes the messages and sends them to the Blynk.Cloud
-3. **Mesh Network**. This is similar to the gateway setup above, but in mesh networks, each device can reroute messages from any device to the gateway 
-
-{% hint style="warning" %}
-For hub/gateway or mesh topologies, you would need to use HTTP API to tunnel messages from the nodes to the Blynk.Cloud. These messages will contain AuthToken of the node and will be identified this way.
+{% hint style="danger" %}
+This is a critical action which can't be undone. You won't be able to restore this device
 {% endhint %}
+
+
+
+
 

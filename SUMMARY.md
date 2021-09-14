@@ -211,6 +211,7 @@
 
 * [Deploying Products With Dynamic AuthTokens](commercial-use/deploying-products-with-dynamic-authtokens.md)
 * [Deploying Products With Static Tokens](commercial-use/deploying-products-with-static-authtokens.md)
+* [Supported topologies](commercial-use/supported-topologies.md)
 * [White Label Solution](commercial-use/white-label-solution/README.md)
   * [App Publishing Process and Timeline](commercial-use/white-label-solution/app-publishing-process-and-timeline.md)
   * [What you need to have publish a standalone application](commercial-use/white-label-solution/what-you-need-to-have-in-order-to-create-and-publish-your-own-application.md)
@@ -219,7 +220,7 @@
   * [Which assets are required to publish my application?](commercial-use/white-label-solution/which-assets-are-required-to-publish-my-application.md)
   * [Assets required to publish your apps](commercial-use/white-label-solution/publishing-materials.md)
 
-## Legacy Platform
+## Legacy Platform Help Articles <a id="legacy-platform"></a>
 
 * [How to install Blynk Library for Arduino IDE](legacy-platform/what-do-i-need-to-blynk.md)
 * [How to find code for my hardware?](legacy-platform/getting-started.md)
