@@ -4,11 +4,7 @@ description: Troubleshooting of one of the most popular mistakes of newbie Blynk
 
 # Keep your void loop\(\) clean
 
-### Getting "Device is Offline" message?  <a id="getting-device-is-offline-message"></a>
-
-### Not seeing your data in Blynk app?  <a id="not-seeing-your-data-in-blynk-app"></a>
-
-### Getting "Flood Error"? <a id="getting-flood-error"></a>
+### Getting "Device is Offline" message? Not seeing your data in Blynk app?  Getting "Flood Error"? <a id="getting-device-is-offline-message"></a>
 
 Most likely you are making an error by sending data to Blynk incorrectly. This article will help you to understand and troubleshoot this issue.
 

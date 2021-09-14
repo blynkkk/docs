@@ -211,6 +211,10 @@
 
 * [Deploying Products With Dynamic AuthTokens](commercial-use/deploying-products-with-dynamic-authtokens.md)
 * [Deploying Products With Static Tokens](commercial-use/deploying-products-with-static-authtokens.md)
+* [White Label Solution](commercial-use/white-label-solution/README.md)
+  * [Your email address for transactional emails](commercial-use/white-label-solution/set-up-custom-email-address-for-transactional-emails-in-blynk.md)
+  * [Branding Materials](commercial-use/white-label-solution/branding-materials.md)
+  * [Assets required to publish your apps](commercial-use/white-label-solution/publishing-materials.md)
 
 ## Legacy Platform
 
@@ -220,7 +224,6 @@
 * [What is Virtual Pins](legacy-platform/what-is-virtual-pins.md)
 * [How to display ANY sensor data in Blynk app](legacy-platform/how-to-display-any-sensor-data-in-blynk-app.md)
 * [How to control anything with Blynk app](legacy-platform/how-to-control-anything-with-blynk-app.md)
-* [Hardware Guides](legacy-platform/hardware-guides.md)
 * [Install ESP8266 core for Arduino IDE](legacy-platform/install-esp8266-core-for-arduino-ide.md)
 * [NodeMCU](legacy-platform/nodemcu.md)
 * [ESP8266 standalone](legacy-platform/esp8266-standalone.md)
@@ -243,9 +246,6 @@
 * [Creating a Preview Application](legacy-platform/creating-a-preview-application.md)
 * [What you need to have in order to create and publish your own application](legacy-platform/what-you-need-to-have-in-order-to-create-and-publish-your-own-application.md)
 * [Which assets are required to publish my application?](legacy-platform/which-assets-are-required-to-publish-my-application.md)
-* [Publishing Materials](legacy-platform/publishing-materials.md)
-* [Branding Materials](legacy-platform/branding-materials.md)
-* [Set up custom email address for transactional emails in Blynk](legacy-platform/set-up-custom-email-address-for-transactional-emails-in-blynk.md)
 * [Issues](legacy-platform/issues.md)
 * [App and board logs. How to send application and board logs correctly](legacy-platform/app-and-board-logs.-how-to-send-application-and-board-logs-correctly.md)
 * [Blynk Android permissions explained](legacy-platform/blynk-android-permissions-explained.md)
