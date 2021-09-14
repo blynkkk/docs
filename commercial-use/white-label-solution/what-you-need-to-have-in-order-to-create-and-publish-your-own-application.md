@@ -4,7 +4,7 @@ description: >-
   resources.
 ---
 
-# What you need to have in order to create and publish your own application
+# What you need to have publish a standalone application
 
 Here's the list of minimum resources to get your app published.
 

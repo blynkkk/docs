@@ -212,8 +212,11 @@
 * [Deploying Products With Dynamic AuthTokens](commercial-use/deploying-products-with-dynamic-authtokens.md)
 * [Deploying Products With Static Tokens](commercial-use/deploying-products-with-static-authtokens.md)
 * [White Label Solution](commercial-use/white-label-solution/README.md)
+  * [App Publishing Process and Timeline](commercial-use/white-label-solution/app-publishing-process-and-timeline.md)
+  * [What you need to have publish a standalone application](commercial-use/white-label-solution/what-you-need-to-have-in-order-to-create-and-publish-your-own-application.md)
   * [Your email address for transactional emails](commercial-use/white-label-solution/set-up-custom-email-address-for-transactional-emails-in-blynk.md)
   * [Branding Materials](commercial-use/white-label-solution/branding-materials.md)
+  * [Which assets are required to publish my application?](commercial-use/white-label-solution/which-assets-are-required-to-publish-my-application.md)
   * [Assets required to publish your apps](commercial-use/white-label-solution/publishing-materials.md)
 
 ## Legacy Platform
@@ -238,15 +241,7 @@
 * [Particle Electron](legacy-platform/particle-electron.md)
 * [Implementing a Blynk client \(library\)](legacy-platform/implementing-a-blynk-client-library.md)
 * [Export Project made with Blynk into a standalone app](legacy-platform/export-project-made-with-blynk-into-a-standalone-app.md)
-* [Static Auth Token Provisioning](legacy-platform/static-auth-token-provisioning.md)
-* [Managing multiple Devices, Products, and Clients](legacy-platform/managing-multiple-devices-products-and-clients.md)
 * [Updating the apps made with Blynk](legacy-platform/updating-the-apps-made-with-blynk.md)
-* [App Publishing Process and Timeline](legacy-platform/app-publishing-process-and-timeline.md)
-* [List of features that are not supported in exported apps \(or have limited support\)](legacy-platform/list-of-features-that-are-not-supported-in-exported-apps-or-have-limited-support.md)
-* [Creating a Preview Application](legacy-platform/creating-a-preview-application.md)
-* [What you need to have in order to create and publish your own application](legacy-platform/what-you-need-to-have-in-order-to-create-and-publish-your-own-application.md)
-* [Which assets are required to publish my application?](legacy-platform/which-assets-are-required-to-publish-my-application.md)
-* [Issues](legacy-platform/issues.md)
 * [App and board logs. How to send application and board logs correctly](legacy-platform/app-and-board-logs.-how-to-send-application-and-board-logs-correctly.md)
 * [Blynk Android permissions explained](legacy-platform/blynk-android-permissions-explained.md)
 
