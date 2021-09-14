@@ -1,6 +1,12 @@
 # How Quickstart Device Was Set Up
 
-Congrats on getting your first device online! Now let's take a look at what happened during the Quickstart process. This will help you to understand important details of how the Blynk platform works and will get you comfortable with building your own logic. 
+ongrats on getting your first device online! Now let's take a look at what happened during the Quickstart process. This will help you to understand important details of how the Blynk platform works and will get you comfortable with building your own logic. 
+
+{% hint style="success" %}
+**Make sure you are in** [**Developer Mode**](../developer-mode.md) **before you continue**
+{% endhint %}
+
+
 
 Here is what happened during the Quickstart flow:  
 
