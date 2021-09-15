@@ -44,19 +44,11 @@ You can find references to handling reset and statuses indication in Blynk.Edgen
 
 ## Setting up your sketch to enable WiFi Provisioning
 
-1. Download [the latest release of Blynk.Edgent](https://github.com/blynkkk/blynk-library/releases/tag/v1.0.0-beta.3) as a **Source code .zip** file
+1. Install Blynk Library in Arduino IDE \(or download [the latest release](https://github.com/blynkkk/blynk-library/releases/tag/v1.0.0-beta.3) as a .zip file and install library as a zip file\)
 2. Open [Arduino IDE](https://www.arduino.cc/en/guide/windows)
-3. In Arduino IDE menu go to Sketch - &gt; Include Library 
-4. Select Add .ZIP library
-
-![](https://lh3.googleusercontent.com/i3hKUqAHHOLARrcHd0QaKKhVXjs2BAzFFgonSnaA2JyLWwO5aj7yM8Z0K7QwTpW_sU17pJTyBAx0hLjHPOGceIjdCJhUjYdjukK0sjQTE0EX_xBV3UPpjzWHVvPqhkB2neYdVhkm)
-
-1. Select the downloaded .zip archive. Press Choose to continue.  
-2. After that, you should see Blynk folder under the **File &gt; Examples**
-
-   ![](https://lh3.googleusercontent.com/WfHrWEDwJZ-mzHNcy1UVE1nwHDCAODrMkVehACEgsZYc4pS54L4o99Qel706TSEYPqUqNayc8Ur8pM6DCECYFH1hivgwC2O-KHSZgANz4yTkVV99JR-N4-8B2NDCoZXm3GlXm7eD)
-
-3. Select **Blynk.Edgent &gt; Edgent\_ESP32**
+3. After that, you should see Blynk folder under the **File &gt; Examples**
+4. ![](https://lh3.googleusercontent.com/WfHrWEDwJZ-mzHNcy1UVE1nwHDCAODrMkVehACEgsZYc4pS54L4o99Qel706TSEYPqUqNayc8Ur8pM6DCECYFH1hivgwC2O-KHSZgANz4yTkVV99JR-N4-8B2NDCoZXm3GlXm7eD)
+5. Select **Blynk.Edgent &gt; Edgent\_ESP32**
 
 {% hint style="warning" %}
 In the sketch variables `BLYNK_TEMPLATE_ID` and `BLYNK_DEVICE_NAME` are empty. They should be replaced with the ones from your template. Read below on where to find them.
@@ -81,11 +73,14 @@ Now your device is ready to be activated using Blynk app.
 ## Activating device using Blynk app
 
 1. Open Blynk App 
-2. Tap Add New Device
-3. App will scan the WiFi networks around you and offer to connect to your device. In our example, device name will be:  **Blynk Root Template-FAD8F**
-4. Once the connection is established, the Blynk app will guide you through the provisioning process.
+2. Open the MENU icon in the upper right corner In the upper right corner 
+3. Tap on +Add New Device
+4. App will scan the WiFi networks around you and offer to connect to your device. In our example, device name will be:  **Blynk Root Template-FAD8F**
+5. Once the connection is established, the Blynk app will guide you through the provisioning process.
 
 When the process if over, you will be prompted to name the device. At this stage, the device is ready to use.
+
+
 
 Here is an example of how it works in the app:
 
