@@ -193,6 +193,7 @@
 * [Trigger Log Event](blynk.cloud/trigger-events.md)
 * [Get Device History Data](blynk.cloud/get-device-report.md)
 * [Get Device MetaField Value](blynk.cloud/get-device-metafield-value.md)
+* [Is Device Connected](blynk.cloud/is-device-connected.md)
 * [HTTPS API Troubleshooting](blynk.cloud/troubleshooting.md)
 * [Security](blynk.cloud/security.md)
 
