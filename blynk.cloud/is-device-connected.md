@@ -23,7 +23,7 @@ Device auth token
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Returns ```true``` or ```false```
+Returns `true` or `false`
 {% endapi-method-response-example-description %}
 
 ```text

@@ -137,9 +137,9 @@
 
 * [Overview](blynk.apps/overview.md)
 * [Mobile Dashboard Editor](blynk.apps/constructor.md)
+* [Pages](blynk.apps/pages.md)
 * [Widgets](blynk.apps/widgets/README.md)
   * [Button](blynk.apps/widgets/button.md)
-  * [Pages](blynk.apps/widgets/pages.md)
   * [Common Widget Settings](blynk.apps/widgets/common-widget-settings.md)
   * [List of Datastreams types supported by Widgets](blynk.apps/widgets/list-of-datastreams-types-supported-by-widgets.md)
 * [Main Menu](blynk.apps/profile-management/README.md)
