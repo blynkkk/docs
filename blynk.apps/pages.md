@@ -12,7 +12,9 @@ With **Pages** you can add multiple pages to a device dashboard. This helps to b
 * **View More Data.** Imagine you have a sensor value displayed on the dashboard and you would like to show more data, like historical data chart, explanations how to read this, show additional data points  etc. To de-clutter the user interface, you can create a button which will open a page with all of this additional information. 
 * **Technical Dashboard.** Imagine you have a technical dashboard that should only be seen by users with a certain role. With Pages, you can add a tab in Device Info and define which user roles can access this tab. Users with other roles will not see this dashboard. 
 
-
+{% hint style="warning" %}
+Pages feature is available in paid plans only. You can always upgrade in your Account Settings.
+{% endhint %}
 
 ### Types Of Pages And Navigation
 
