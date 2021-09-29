@@ -139,3 +139,14 @@
 * no report can be provided for download if there's no data for it
 * contact your organization administrator
 
+
+## My hardware constantly disconnected
+
+There are multiple reasons why your hardware could be disconnected.
+In order to eliminate some obvious reasons, please do the next:
+
+* Run `ping blynk.cloud`. If your connection is good you should see the ping less than 200ms. If you see the higher ping it could be a reason for disconnections
+* In case your hardware uses Wi-Fi - check your Wi-Fi signal strength, and make sure there is no other noise that case decrease the signal level
+* Make sure you don't use `delay()` instructions in your firmware, long delay in your sketch can break the persistent connection with Blynk Cloud
+* Checkout your serial console output, make sure it doesn't contain crashes or other error that may lead to connection interrupts
+* Make sure you don't send a huge number of virtualWrite commands per seconds. Blynk Cloud doesn't allow to send more than 20 requests per seconds. Connections that exceeds the limit are closed
