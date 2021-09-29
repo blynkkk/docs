@@ -64,14 +64,16 @@ Now you are ready to ship it.
 
 ![](../.gitbook/assets/target-selection.png)
 
-1. Select a **Template** available in the dropdown menu  
-2. Select Devices available in the **Devices list** if you want to update certain devices. If you leave the selection empty, all of the devices made from this Template will be updated. 6. **Upload** **Firmware** file. Click the area with cloud pictogram and select .bin, .tar binary file in your PC file explorer. Drag'n'drop is supported.
-3. Check **Firmware info**
+4. Select a **Template** available in the dropdown menu    
+5. Select Devices available in the **Devices list** if you want to update certain devices.  
+If you leave the selection empty, all of the devices made from this Template will be updated.   
+6. **Upload** **Firmware** file. Click the area with cloud pictogram and select .bin, .tar binary file in your PC file explorer. Drag'n'drop is supported.  
+7. Check **Firmware info**
 
 ![](../.gitbook/assets/firmware.png)
 
-1. Check for **Optional Settings** under Template selection field and in \_\*\*\_Review and start area
-2. Press **Start Shipping**
+8. Check for **Optional Settings** under Template selection field and in \_\*\*\_Review and start area  
+9. Press **Start Shipping**
 
 ![](../.gitbook/assets/review_and_start.png)
 
