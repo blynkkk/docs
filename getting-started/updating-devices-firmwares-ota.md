@@ -16,8 +16,7 @@ The process of updating the device firmware over the air looks like this:
 
 First, we need to prepare your device to work with Blynk.Air service. Follow the steps below to make it work
 
-{% tabs %}
-{% tab title="Arduino IDE" %}
+
 In Arduino IDE open the Blynk.Edgent example sketch for your board.
 
 ![image](https://user-images.githubusercontent.com/65705128/115250112-f0c76180-a131-11eb-96b3-8f3156c7a136.png)
@@ -31,12 +30,6 @@ Double-check that `Template ID` is defined in the sketch. You can always find th
 ![Replace these lines with your TemplateID](https://user-images.githubusercontent.com/65705128/115254884-75b47a00-a136-11eb-8fc4-e4305b7f68b3.png)
 
 Upload this sketch to your device and make sure it shows up online in Blynk.Console and Blynk.Apps.
-{% endtab %}
-
-{% tab title="PlatformIO" %}
-Work in progress
-{% endtab %}
-{% endtabs %}
 
 
 
@@ -44,8 +37,6 @@ Work in progress
 
 At this stage your device is ready to accept firmware over the air with Blynk. Now you can write your own code and deliver it wirelessly. 
 
-{% tabs %}
-{% tab title="Arduino IDE" %}
 First of all, you need to change the Firmware version. Otherwise, your device will not know this is a new firmware and will ignore it. 
 
 In the code find the firmware version and increment it. For example, if it was `0.1.0`, change it to `0.1.1`. You should do it every time you plan to update your device with new version of code. 
@@ -71,8 +62,6 @@ The `.bin` file is now in the same sketch folder with other files.
 ![image](https://user-images.githubusercontent.com/65705128/115256352-d09aa100-a137-11eb-91f5-cb8024c17222.png)
 
 Now you are ready to ship it.
-{% endtab %}
-{% endtabs %}
 
 ## Create Shipping
 
