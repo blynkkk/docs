@@ -1,10 +1,8 @@
 # Firmware Over-The-Air \(Blynk.Air\)
 
-Blynk offers an interface to easily update your devices over-the-air. Only 
+Blynk offers an interface to easily update your devices over-the-air.
 
-{% hint style="info" %}
-Currently, OTA provisioning works on ESP32, ESP8266, Seeed WiO Terminal, Arduino MKR1010, Arduino Nano 33IoT, and Texas Instruments CC3220. Raspberry Pi will be supported soon.
-{% endhint %}
+_**Note:**_ currently, OTA provisioning works on ESP32, ESP8266, Seeed WiO Terminal, Arduino MKR1010, Arduino Nano 33IoT, and Texas Instruments CC3220. Raspberry Pi will be supported soon.
 
 ## Overview
 
@@ -73,10 +71,6 @@ The `.bin` file is now in the same sketch folder with other files.
 ![image](https://user-images.githubusercontent.com/65705128/115256352-d09aa100-a137-11eb-91f5-cb8024c17222.png)
 
 Now you are ready to ship it.
-{% endtab %}
-
-{% tab title="PlatformIO" %}
-Work in Progress
 {% endtab %}
 {% endtabs %}
 
