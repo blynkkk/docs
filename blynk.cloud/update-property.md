@@ -1,12 +1,16 @@
-# Update Widget Property
+# Update Widget/Datastream Property
 
 {% api-method method="get" host="https://{server\_address}" path="/external/api/update/property?token={token}&pin={pin}&{property}={value}" %}
 {% api-method-summary %}
-Update the Widget with assigned pin
+Updates the Datastream Property and all assigned Widgets
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to update the widget value with assigned pin via GET request.  
+This endpoint allows you to update the Datastream Property value via GET request.
+All widgets (both web and mobile) that are assigned to this datastream will inherit this property.
+For example, if you have 2 widgets assigned to the datastream with the pin 10 and use set property "label" to "xxx", both widgets will get this label.
+The Datastream Property is persistent and will be stored forever until you change it with another value.
+In order to clear the property you need to clear the device data in device actions menu.
 **Example:**  
 `https://blynk.cloud/external/api/update/property?token=ffujYGgbf805tgsf&pin=v1&isDisabled=true`
 {% endapi-method-description %}

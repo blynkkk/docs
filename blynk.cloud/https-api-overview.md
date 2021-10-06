@@ -10,7 +10,7 @@ description: Blynk Cloud HTTPS API overview
 * [Get Multiple Datastream Values](get-multiple-datastream-values.md)
 * [Update Datastream Value](update-datastream-value.md)
 * [Batch Update of the Datastreams](batch-update-values.md)
-* [Update Widget Property](update-property.md)
+* [Update Widget/Datastream Property](update-property.md)
 * [Trigger Log Event](trigger-events.md)
 * [Get Device History Data](get-device-report.md)
 * [Get Device MetaField Value](get-device-metafield-value.md)
