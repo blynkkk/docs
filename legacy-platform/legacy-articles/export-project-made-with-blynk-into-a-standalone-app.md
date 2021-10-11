@@ -10,13 +10,13 @@ Every project made in Blynk app can be exported as a standalone app and publishe
 
 It will have your icon, logo, name, description, screenshots, etc.
 
-Your customers will visit app stores and download your app as any other app.  
-  
+Your customers will visit app stores and download your app as any other app.\
+\
 According to the [plan](https://www.blynk.io/plans/) you choose, apps may support different features. 
 
-  
-**How it works:**  
-Basically, we take your project made with Blynk app, export it into a standalone app and publish it to the app stores:  
+\
+**How it works:**\
+****Basically, we take your project made with Blynk app, export it into a standalone app and publish it to the app stores:\
 ****
 
 ![](https://uploads.intercomcdn.com/i/o/19373879/dcae51dc3ed93da1aa27faf0/File1488578555491)
@@ -27,11 +27,10 @@ Basically, we take your project made with Blynk app, export it into a standalone
 4. Choose the project you would like to export
 5. Follow on screen instructions
 
-After you understand how it works you can create an App Publishing request, subscribe to one of our plans and we will Publish your app.  
-  
+After you understand how it works you can create an App Publishing request, subscribe to one of our plans and we will Publish your app.\
+\
 [https://www.youtube.com/watch?v=RLKuIHaraKs](https://www.youtube.com/watch?v=RLKuIHaraKs)
 
----
+\---
 
-#### If you have any questions - [contact us](mailto://iot@blynk.cc) or post to our [forum](https://community.blynk.cc/). <a id="if-you-have-any-questions---contact-us-or-post-to-our-forum"></a>
-
+#### If you have any questions - [contact us](mailto://iot@blynk.cc) or post to our [forum](https://community.blynk.cc). <a href="if-you-have-any-questions---contact-us-or-post-to-our-forum" id="if-you-have-any-questions---contact-us-or-post-to-our-forum"></a>

@@ -12,20 +12,20 @@ App exporting and publishing is a multi-step process that is mostly done by a Bl
 
 
 
-On average, the whole process takes 5-10 business days and it's very dependent on how ready your project and hardware are. It also depends on how fast communication between your company and Blynk is happening.  
+On average, the whole process takes 5-10 business days and it's very dependent on how ready your project and hardware are. It also depends on how fast communication between your company and Blynk is happening.\
 
 
-###  Launch <a id="launch-"></a>
+###  Launch <a href="launch" id="launch"></a>
 
 **🗓 Duration: 1-2 business days**
 
 1. Your dedicated business server will be launched
 2. Blynk engineer will help with transferring this project to your business server.
-3. Blynk engineer will review your firmware code \(if you'd like\) to check that Blynk routines are implemented correctly.
+3. Blynk engineer will review your firmware code (if you'd like) to check that Blynk routines are implemented correctly.
 
-###  <a id="app-testing"></a>
+###  <a href="app-testing" id="app-testing"></a>
 
-### App testing <a id="app-testing"></a>
+### App testing <a href="app-testing" id="app-testing"></a>
 
 **🗓 Duration depends on how ready your product is**
 
@@ -41,9 +41,9 @@ For testing your iOS app you would need:
 
 Once you confirm that everything works correctly
 
-###  <a id="app-publishing"></a>
+###  <a href="app-publishing" id="app-publishing"></a>
 
-### App publishing <a id="app-publishing"></a>
+### App publishing <a href="app-publishing" id="app-publishing"></a>
 
 **🗓 2-5 business days**
 
@@ -56,19 +56,18 @@ Unfortunately, Apple and Google no longer allow publishing apps for other compan
 
 Once you have the developer accounts set up, Blynk engineer will guide you through the rest of the procedures needed.
 
-7. Usually, we start with publishing your Android app because it's easier. For that you would simply give Blynk engineer permissions to publish Android version of the app under your developer account.  
-  
-8. To publish iOS version, we would need to go through these steps:
+7\. Usually, we start with publishing your Android app because it's easier. For that you would simply give Blynk engineer permissions to publish Android version of the app under your developer account.\
+\
+8\. To publish iOS version, we would need to go through these steps:
 
-* Add Blynk iOS engineer to your developer account \(we will explain how\)
-* Prepare a demo-video for Apple review. Apple requires a short video that shows a **real iOS device** and your **product**. Include how a user would add a new device \(Dynamic Provisioning\) or and a few interactions with it.
+* Add Blynk iOS engineer to your developer account (we will explain how)
+* Prepare a demo-video for Apple review. Apple requires a short video that shows a **real iOS device** and your **product**. Include how a user would add a new device (Dynamic Provisioning) or and a few interactions with it.
 
-  
+\
 Make sure a real iOS device is in the video with your product. It is **not allowed** to use video montage or screen recording. You can send a video or a link to it.
 
 Apple will take 2-10 days for a review.Once approved app will be published to app store automatically.
 
-### 🥳 Done! <a id="-done"></a>
+### 🥳 Done! <a href="done" id="done"></a>
 
 Your apps are now in app stores and ready for download by your clients.
-

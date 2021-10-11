@@ -1,62 +1,56 @@
 # Update Widget/Datastream Property
 
-{% api-method method="get" host="https://{server\_address}" path="/external/api/update/property?token={token}&pin={pin}&{property}={value}" %}
-{% api-method-summary %}
-Updates the Datastream Property and all assigned Widgets
-{% endapi-method-summary %}
+{% swagger baseUrl="https://{server_address}" path="/external/api/update/property?token={token}&pin={pin}&{property}={value}" method="get" summary="Updates the Datastream Property and all assigned Widgets" %}
+{% swagger-description %}
+This endpoint allows you to update the Datastream Property value via GET request. All widgets (both web and mobile) that are assigned to this datastream will inherit this property. For example, if you have 2 widgets assigned to the datastream with the pin 10 and use set property "label" to "xxx", both widgets will get this label. The Datastream Property is persistent and will be stored forever until you change it with another value. In order to clear the property you need to clear the device data in device actions menu. 
 
-{% api-method-description %}
-This endpoint allows you to update the Datastream Property value via GET request.
-All widgets (both web and mobile) that are assigned to this datastream will inherit this property.
-For example, if you have 2 widgets assigned to the datastream with the pin 10 and use set property "label" to "xxx", both widgets will get this label.
-The Datastream Property is persistent and will be stored forever until you change it with another value.
-In order to clear the property you need to clear the device data in device actions menu.
-**Example:**  
+**Example:**
+
+\
+
+
+
+
 `https://blynk.cloud/external/api/update/property?token=ffujYGgbf805tgsf&pin=v1&isDisabled=true`
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="property" type="string" required=true %}
-The property of the widget you want ot update. Possible values: `label`, `isDisabled`, `color`
-{% endapi-method-parameter %}
+{% swagger-parameter in="path" name="property" type="string" %}
+The property of the widget you want ot update. Possible values: 
 
-{% api-method-parameter name="value" type="string" required=true %}
+`label`
+
+, 
+
+`isDisabled`
+
+, 
+
+`color`
+{% endswagger-parameter %}
+
+{% swagger-parameter in="path" name="value" type="string" %}
 The desired value of the property
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="pin" type="string" required=true %}
-Virtual pin number \(should start with "v"\)
-{% endapi-method-parameter %}
+{% swagger-parameter in="path" name="pin" type="string" %}
+Virtual pin number (should start with "v")
+{% endswagger-parameter %}
 
-{% api-method-parameter name="token" type="string" required=true %}
+{% swagger-parameter in="path" name="token" type="string" %}
 Device auth token
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
-```text
-
+{% swagger-response status="200" description="Success" %}
 ```
-{% endapi-method-response-example %}
+```
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=400 %}
-{% api-method-response-example-description %}
-Could not find a device token  
-or  
-Wrong pin format  
-or  
-Value doesn't match the Datastream data type
-{% endapi-method-response-example-description %}
-
-```text
+{% swagger-response status="400" description="Could not find a device token
+or
+Wrong pin format
+or
+Value doesn't match the Datastream data type" %}
+```
 {"error":{"message":"Invalid token."}}
 
 or
@@ -67,8 +61,5 @@ or
 
 {"error":{"message":"Value doesn't match the Datastream data type"}}
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
+{% endswagger-response %}
+{% endswagger %}

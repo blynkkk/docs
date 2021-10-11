@@ -1,4 +1,4 @@
-# Firmware Over-The-Air \(Blynk.Air\)
+# Firmware Over-The-Air (Blynk.Air)
 
 Blynk offers an interface to easily update your devices over-the-air.
 
@@ -40,13 +40,13 @@ In the code find the firmware version and increment it. For example, if it was `
 define BLYNK_FIRMWARE_VERSION "0.1.1"
 ```
 
-Now we need to export your code as a binary \(.bin\) file.
+Now we need to export your code as a binary (.bin) file.
 
-First of all, go to Arduino -&gt; File -&gt; Save
+First of all, go to Arduino -> File -> Save
 
 ![image](https://user-images.githubusercontent.com/65705128/115255420-ebb8e100-a136-11eb-8fff-ab3e901f59f2.png)
 
-Now go to Sketch -&gt; Export compiled Binary
+Now go to Sketch -> Export compiled Binary
 
 ![image](https://user-images.githubusercontent.com/65705128/115255779-46523d00-a137-11eb-8420-1ab24f465265.png)
 
@@ -64,16 +64,16 @@ Now you are ready to ship it.
 
 ![](../.gitbook/assets/target-selection.png)
 
-4. Select a **Template** available in the dropdown menu    
-5. Select Devices available in the **Devices list** if you want to update certain devices.  
-If you leave the selection empty, all of the devices made from this Template will be updated.   
-6. **Upload** **Firmware** file. Click the area with cloud pictogram and select .bin, .tar binary file in your PC file explorer. Drag'n'drop is supported.  
-7. Check **Firmware info**
+4\. Select a **Template** available in the dropdown menu  \
+5\. Select Devices available in the **Devices list** if you want to update certain devices.\
+If you leave the selection empty, all of the devices made from this Template will be updated. \
+6\. **Upload** **Firmware** file. Click the area with cloud pictogram and select .bin, .tar binary file in your PC file explorer. Drag'n'drop is supported.\
+7\. Check **Firmware info**
 
 ![](../.gitbook/assets/firmware.png)
 
-8. Check for **Optional Settings** under Template selection field and in \_\*\*\_Review and start area  
-9. Press **Start Shipping**
+8\. Check for **Optional Settings** under Template selection field and in \_\*\*\_Review and start area\
+9\. Press **Start Shipping**
 
 ![](../.gitbook/assets/review_and_start.png)
 
@@ -88,4 +88,3 @@ You can always check your Shippings status and progress by accessing list of all
 ![](../.gitbook/assets/shipments_tab.png)
 
 Read more about over-the-air updates here:
-

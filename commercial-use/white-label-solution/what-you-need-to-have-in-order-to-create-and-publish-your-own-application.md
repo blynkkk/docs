@@ -19,7 +19,7 @@ Branding Materials:
 Publish Materials:
 
 1. [Android Developer Account](https://developer.android.com/distribute/console)\*
-2. [iOS Developer Account](https://developer.apple.com/programs/enroll) \("as Organization"\)\*
+2. [iOS Developer Account](https://developer.apple.com/programs/enroll) ("as Organization")\*
 3. Server name and location
 4. Link to your public website
 5. Public link to your Privacy Policy on your website
@@ -31,6 +31,4 @@ Publish Materials:
 
 **\*We highly recommend you to create your developer accounts in advance as it can take over 20 days to get them activated despite the 2-3 days suggested officially.**
 
-You can read the requirements and examples [here](http://help.blynk.cc/en/articles/2692182-which-assets-are-required-to-publish-my-application).  
-
-
+You can read the requirements and examples [here](http://help.blynk.cc/en/articles/2692182-which-assets-are-required-to-publish-my-application).\

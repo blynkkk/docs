@@ -6,56 +6,54 @@ description: >-
 
 # Batch Update of the Datastreams
 
-{% api-method method="get" host="https://{server\_address}" path="/external/api/batch/update?token={token}&{pin1}={value1}&{pin2}={value2}" %}
-{% api-method-summary %}
-Batch update
-{% endapi-method-summary %}
+{% swagger baseUrl="https://{server_address}" path="/external/api/batch/update?token={token}&{pin1}={value1}&{pin2}={value2}" method="get" summary="Batch update" %}
+{% swagger-description %}
+Updates multiple datastreams with one GET request. It could be used to save network bandwidth. Also, the batch update is required to show multiple datastreams in the map widget popup.
 
-{% api-method-description %}
-Updates multiple datastreams with one GET request. It could be used to save network bandwidth. Also, the batch update is required to show multiple datastreams in the map widget popup.  
-  
-**Example:**  
+\
+
+
+
+
+\
+
+
+
+
+**Example:**
+
+\
+
+
+
+
 `https://blynk.cloud/external/api/batch/update?token=bFFtSHNCZZDWQ__Zs96cP5jLMhLoJofg&v1=33&v2=44`
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="token" type="string" required=true %}
+{% swagger-parameter in="path" name="token" type="string" %}
 Device AuthToken
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="pin" type="string" required=true %}
+{% swagger-parameter in="path" name="pin" type="string" %}
 Virtual Pin
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="value" type="string" required=true %}
-The desired value of the Datastream. Will be parsed based on the Datastream data type \(int, double, string\) and bounded with min / max values of datastream settings. In case value doesn't match the Datastream type error will be returned.
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% swagger-parameter in="path" name="value" type="string" %}
+The desired value of the Datastream. Will be parsed based on the Datastream data type (int, double, string) and bounded with min / max values of datastream settings. In case value doesn't match the Datastream type error will be returned.
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
-```text
+{% swagger-response status="200" description="Success" %}
+```
 OK
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=400 %}
-{% api-method-response-example-description %}
-Could not find a device token  
-or  
-Wrong pin format  
-or  
-Value doesn't match the Datastream data type
-{% endapi-method-response-example-description %}
-
-```text
+{% swagger-response status="400" description="Could not find a device token
+or
+Wrong pin format
+or
+Value doesn't match the Datastream data type" %}
+```
 {"error":{"message":"Invalid token."}}
 
 or
@@ -66,8 +64,5 @@ or
 
 {"error":{"message":"Value doesn't match the Datastream data type"}}
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
+{% endswagger-response %}
+{% endswagger %}

@@ -2,9 +2,9 @@
 
 With **Pages** you can add multiple pages to a device dashboard. This helps to better organize the UI and build connections between sections of your device dashboard.
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](<../.gitbook/assets/image (23).png>)
 
-#### 
+####
 
 ### Examples Of Use 
 
@@ -21,9 +21,9 @@ Pages feature is available in paid plans only. You can always upgrade in your Ac
 There are two types of pages you can add:
 
 * Standalone pages
-* Pages in Device Info View \(tabs\)
+* Pages in Device Info View (tabs)
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](<../.gitbook/assets/image (31).png>)
 
 Standalone Pages can be interconnected. You can open **Page A** from **Page B** or **Page C** in any order. Just keep the navigation simple and clear for end-users.
 
@@ -35,18 +35,18 @@ Device Info Pages can only be accessed in Device Info view.
 
 ## Standalone Pages
 
-These pages are opened by tapping on widgets that are set as _entry points._ 
+These pages are opened by tapping on widgets that are set as _entry points. _
 
-![](../.gitbook/assets/image%20%2830%29.png)
+![](<../.gitbook/assets/image (30).png>)
 
 ### 1. Creating a new page
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](<../.gitbook/assets/image (32).png>)
 
 1. Go to ToolBox → Pages → **Standalone Pages**
 2. Tap **+ Add Page**
 3. Give your new page a name
-4. Tap **Create** in the top right corner
+4. Tap **Create **in the top right corner
 5. Your new page is created
 
 
@@ -59,7 +59,7 @@ Tap on the gear icon to  access page settings, where you can Rename or Delete th
 
 You can always access all of the pages and edit them in ToolBox → Pages
 
-#### 
+####
 
 ### 3. Linking Page to an Entry Point 
 
@@ -76,13 +76,13 @@ Once the page layout is ready, you need to define a page entry point. In Blynk, 
 
 To create an entry point:
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](<../.gitbook/assets/image (27).png>)
 
-1. Add one of the supported widgets to the dashboard \(check supported widgets below\)
+1. Add one of the supported widgets to the dashboard (check supported widgets below)
 2. Open Widget Settings
 3. Set **Mode** to **Page**
 4. Choose the Page to open
-5. Set page appearance animation \(how the page appears on screen\). The page can slide in from the bottom or from the left. 
+5. Set page appearance animation (how the page appears on screen). The page can slide in from the bottom or from the left. 
 
 
 
@@ -100,7 +100,7 @@ After the page has been set up and connected to an entry point widget, it's read
 
 ## Device Info Tabs
 
-You can also add Pages \(in the format of Tabs\) to "More.." menu on device Dashboard. By default, this view has 2 tabs: Device Info and Timeline. They can't be deleted or removed. 
+You can also add Pages (in the format of Tabs) to "More.." menu on device Dashboard. By default, this view has 2 tabs: Device Info and Timeline. They can't be deleted or removed. 
 
 To see these tabs, end-users will need to open Device Info. This is the only entry point.
 
@@ -110,17 +110,17 @@ Unlike Standalone Pages, you can define which users can access the tab. For exam
 
 Root User - description
 
-### 
+###
 
 ### 1. Adding a Tab Page
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](<../.gitbook/assets/image (32).png>)
 
 1. Go to Toolbox → Pages → **Device Info Tabs**
 2. Tap **+ Add Page**
 3. Give your new page a name
-4. Set access permissions \(optional\)
-5. Tap **Create** in the top right corner
+4. Set access permissions (optional)
+5. Tap **Create **in the top right corner
 6. A new tab page is created
 
 
@@ -147,8 +147,6 @@ To change the order of tabs:
 To delete the tab, swipe left in the list of Tabs . Keep in mind that this will delete all widgets on the tab.
 
 Alternatively, you can delete the tab during editing.
-
-
 
 
 

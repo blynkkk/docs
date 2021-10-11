@@ -40,7 +40,7 @@
 
 * follow [HTTPS guides](https://docs.blynk.io/en/blynk.cloud/update-datastream-value) attentively  
 * be sure to send the requests to the correct server  
-* check all the inputs to be corrent in the request and to be present in the template _\(also there's a hint on what exactly went wrong in a result field of Postman or web page body\)_
+* check all the inputs to be corrent in the request and to be present in the template _(also there's a hint on what exactly went wrong in a result field of Postman or web page body)_
 
 ## I can't see enumerable datastreams in Blynk.Apps
 
@@ -66,7 +66,7 @@
 * be sure to use the link open to public
 * images should have .png, .jpg, jpeg or .gif extension
 
-## I've created dashboard in web and don't see it in mobile app \(or reverse\)
+## I've created dashboard in web and don't see it in mobile app (or reverse)
 
 **What could be the reason:**
 
@@ -91,11 +91,12 @@
 
 **What could be the reason:**
 
-* Your code frequently sends a lot of requests to our server, your hardware will be disconnected. Blynk.App may show “Your hardware is offline” When `Blynk.virtualWrite` is in the `void loop`, it generates hundreds of “writes” per second
+* Your code frequently sends a lot of requests to our server, your hardware will be disconnected. Blynk.App may show “Your hardware is offline”\
+  When `Blynk.virtualWrite` is in the `void loop`, it generates hundreds of “writes” per second
 
 Here is an example of what may cause flood. _**DON’T DO THAT:**_
 
-```text
+```
 void loop()
 {
   Blynk.virtualWrite(1, value); // This line sends hundreds of messages to Blynk server
@@ -105,18 +106,20 @@ void loop()
 
 **What’s the solution:**
 
-* If you need to perform actions in time intervals - use timers, for example [BlynkTimer.](../blynk.edgent/api/blynk-timer.md)  **Note:** using `delay()` will not solve the problem either. It may cause [Delay issue](https://docs.blynk.io/en/troubleshooting/developer-mode#delay). Use timers!
+* If you need to perform actions in time intervals - use timers, for example [BlynkTimer.](../blynk.edgent/api/blynk-timer.md)\
+  \
+  **Note:** using `delay()` will not solve the problem either. It may cause [Delay issue](https://docs.blynk.io/en/troubleshooting/developer-mode#delay). Use timers!
 
 If sending hundreds of requests is what you need for your product you may increase flood limit on local server and within Blynk.Library. For local server you need to change `user.message.quota.limit` property within `server.properties` file :
 
-```text
+```
     #100 Req/sec rate limit per user.
     user.message.quota.limit=100
 ```
 
 For library you need to change `BLYNK_MSG_LIMIT` property within `BlynkConfig.h` file :
 
-```text
+```
     //Limit the amount of outgoing commands.
     #define BLYNK_MSG_LIMIT 20
 ```
@@ -129,7 +132,7 @@ For library you need to change `BLYNK_MSG_LIMIT` property within `BlynkConfig.h`
 
 _**DON’T DO THAT:**_
 
-```text
+```
 void loop()
 {
   ...
@@ -140,9 +143,8 @@ void loop()
 }
 ```
 
-_**Note:**_ This also applies to the BLYNK\_READ & BLYNK\_WRITE handlers!
+_**Note:**_ This also applies to the BLYNK_READ & BLYNK_WRITE handlers!
 
 **What’s the solution:**
 
 * If you need to perform actions in time intervals - use timers, for example [BlynkTimer](../blynk.edgent/api/blynk-timer.md)
-

@@ -16,23 +16,23 @@ This article will help you to understand the key concepts related to Static Toke
 
 ## What is a Static Token and when to use it
 
-Static Tokens are designed for non-wifi devices \(cellular, Ethernet, etc.\). These devices can connect to the Internet automatically and don't require any additional user input \(e.g. WiFi credentials\) to get online.
+Static Tokens are designed for non-wifi devices (cellular, Ethernet, etc.). These devices can connect to the Internet automatically and don't require any additional user input (e.g. WiFi credentials) to get online.
 
-Use-cases can be broader than this, of course. For example, your devices can connect to a mobile \(cellular\) hotspot using hardcoded WiFi credentials. In such cases, Static Tokens are applicable as well.
+Use-cases can be broader than this, of course. For example, your devices can connect to a mobile (cellular) hotspot using hardcoded WiFi credentials. In such cases, Static Tokens are applicable as well.
 
-When you create a new Static Token using the tools we offer, two related items are created: **AuthToken** \(Device Token\) and **QR Token**. Static Token always belongs to a specific Device Template and specific Organization.
+When you create a new Static Token using the tools we offer, two related items are created: **AuthToken** (Device Token) and **QR Token**. Static Token always belongs to a specific Device Template and specific Organization.
 
-### 
+###
 
-### AuthToken \(Device Token\)
+### AuthToken (Device Token)
 
-Every device on Blynk platform has an AuthToken \(OAuth Token\), also often called as Device Token. This is a unique identifier of the device and it's used to authenticate, validate, and connect devices to Blynk.Cloud.
+Every device on Blynk platform has an AuthToken (OAuth Token), also often called as Device Token. This is a unique identifier of the device and it's used to authenticate, validate, and connect devices to Blynk.Cloud.
 
 AuthToken is stated in the firmware code and is flashed to the device before it is delivered to the end customer.
 
-AuthToken is usually not exposed to the end users due to security reasons \(for the same reason you should not display it for public view anywhere\).
+AuthToken is usually not exposed to the end users due to security reasons (for the same reason you should not display it for public view anywhere).
 
-### 
+###
 
 ### QR Token
 
@@ -46,13 +46,13 @@ QR token is secure. It can only be used for claiming purpose. Unlike AuthToken, 
 
 After the QR token was used, device can't be claimed by anyone else. It can be unclaimed only by the owner of the device or by the manufacturer.
 
-### 
+###
 
 ### Relationship to the Device Template
 
 Static Tokens are generated from a specific Device Template. When device connects to the Blynk.Cloud for the first time, AuthToken is used for authentication. Then the server checks whether such AuthToken belongs to a Static Token. If this is true, this device will be using a corresponding Template.
 
-### 
+###
 
 ### Relationship to the Organization
 
@@ -89,7 +89,7 @@ You have two options for generating the number of Tokens you need based on the n
 * Automatically generate the number of tokens you need
 * Generate Tokens based on the CSV file you provide 
 
-#### Automatically generate the number of tokens
+### Automatically generate the number of tokens
 
 This is the simplest way to generate any number of Static Tokens you need.
 
@@ -97,7 +97,7 @@ This is the simplest way to generate any number of Static Tokens you need.
 The number of tokens you can create is limited by your plan limits. If you need more tokens, upgrade to a higher plan.
 {% endhint %}
 
-![](../.gitbook/assets/static-tokens-generation_-auto-create.png)
+![](../.gitbook/assets/static-tokens-generation\_-auto-create.png)
 
 1. Go to Blynk.Console → Static Tokens 
 2. Click on **Create Static Tokens**
@@ -109,7 +109,9 @@ The number of tokens you can create is limited by your plan limits. If you need 
 
 Now the new AuthTokens are ready to be flashed to the hardware.
 
-#### Generating  Static Tokens from a .CSV file
+####
+
+### Generating  Static Tokens from a .CSV file
 
 In some cases, you may already have devices ready for a specific customer, or you already have some information like serial number on the devices and you need to map this information to Static Tokens.
 
@@ -118,20 +120,20 @@ The process of generating Static Tokens from a file looks like that:
 #### **1. Data preparation:**
 
 * Identify the data you would like to associate with devices
-* In the Device Template -&gt; Metadata create Metadata fields for each data item you would need
+* In the Device Template -> Metadata create Metadata fields for each data item you would need
 * Create a .CSV file with headers that correspond the Metadata fields names. See below.
 
-_Example:_ Let's say you have 3 devices and they already have a Serial Number, a MAC address and device names \_\_assigned.
+_Example:_ Let's say you have 3 devices and they already have a Serial Number, a MAC address and device names \__assigned.
 
 First of all, you would need to create 2 new metadata fields in the Device Template: Serial Number and MAC address. Device Name is a default Metadata provided by Blynk and there is no need to duplicate it.
 
 Then create a CSV file like the one below.
 
-| Serial Number | MAC address | Device Name |
-| :--- | :--- | :--- |
-| SN000001 | 2C:54:91:88:C9:E3 | Temperature Sense Node AGHJ |
-| SN000002 | 5C:62:91:82:C9:E8 | Temperature Sense Node KJGF |
-| SN000003 | 4A:33:54:68:K9:F1 | Temperature Sense Node CVBN |
+| Serial Number | MAC address       | Device Name                 |
+| ------------- | ----------------- | --------------------------- |
+| SN000001      | 2C:54:91:88:C9:E3 | Temperature Sense Node AGHJ |
+| SN000002      | 5C:62:91:82:C9:E8 | Temperature Sense Node KJGF |
+| SN000003      | 4A:33:54:68:K9:F1 | Temperature Sense Node CVBN |
 
 {% hint style="warning" %}
 CSV file headers are case sensitive and should fully match Metadata Field names.
@@ -143,11 +145,11 @@ CSV file headers are case sensitive and should fully match Metadata Field names.
 2. Click on **Create Static Tokens** → Create From File
 3. Choose Template
 4. Upload the file
-5. Blynk will parse the CSV file and will identify all the columns \(or find errors in the file\)
+5. Blynk will parse the CSV file and will identify all the columns (or find errors in the file)
 6. The number of Tokens will be based on the number of rows in your file
 7. You will have an ability to remap the columns in your file to metadata fields
 
-![](../.gitbook/assets/static-tokens-generation_-create-from-file.png)
+![](../.gitbook/assets/static-tokens-generation\_-create-from-file.png)
 
 After this process is finished each token can be found in the list of Static Tokens. Each token is associated with a QR code image. Now you can export Tokens as a .zip file. It will contain AuthTokens and a folder with all the QR code images as PNG files.
 
@@ -157,7 +159,7 @@ Now you have AuthTokens that can be flashed to devices.
 
 ## 2. Flashing AuthTokens to devices
 
-While Static Tokens are favorable for end-users because they enable an amazing user experience \(scan the QR code and device is ready\), working with them brings challenges to the manufacturing process.
+While Static Tokens are favorable for end-users because they enable an amazing user experience (scan the QR code and device is ready), working with them brings challenges to the manufacturing process.
 
 The biggest challenge is that since every device would need to have a unique AuthToken stated in the firmware, every firmware file will be different. For example if you have 100 devices, you would need 100 versions of the firmware file.
 
@@ -165,9 +167,9 @@ Depending on the volumes you are working with, you should take this factor into 
 
 #### EOL Inject Utility
 
-Blynk offers an utility that allows flashing AuthTokens at EOL \(end-of-line\). This means that you can flash all devices with the same firmware, and then this utility will "inject" AuthTokens only.
+Blynk offers an utility that allows flashing AuthTokens at EOL (end-of-line). This means that you can flash all devices with the same firmware, and then this utility will "inject" AuthTokens only.
 
-This tool simplifies the flashing process significantly. Contact us if you would like to purchase it \(only available for White-Label plan customers\).
+This tool simplifies the flashing process significantly. Contact us if you would like to purchase it (only available for White-Label plan customers).
 
 
 
@@ -189,15 +191,15 @@ Printing QR codes and putting them onto the device with the same AuthToken can b
 
 #### Manual for end customers
 
-It's also beneficial to prepare a manual for your customers outlining the steps they need to make to activate their device \(read below\).
+It's also beneficial to prepare a manual for your customers outlining the steps they need to make to activate their device (read below).
 
 
 
-## 4. Device claiming \(activation\) by end customers
+## 4. Device claiming (activation) by end customers
 
-When customers receive your device, they would need to claim \(activate\) it. For that they would need:
+When customers receive your device, they would need to claim (activate) it. For that they would need:
 
-* The device itself \(this is optional because device can be activated with just a QR code\) 
+* The device itself (this is optional because device can be activated with just a QR code) 
 * QR code image
 * Account in Blynk
 
@@ -208,7 +210,7 @@ This is how the flow with connected device looks like in details:
 * User unpacks your device
 * User turns on the device
 * Device shows some indicator that it's online
-* When the device connects to the Blynk.Cloud it doesn't have an owner yet. So at that moment the device is placed under the organization of the manufacturer \(the organization where Static Token was created\)  
+* When the device connects to the Blynk.Cloud it doesn't have an owner yet. So at that moment the device is placed under the organization of the manufacturer (the organization where Static Token was created)  
 * User accepts you invite within Blynk.App
 * User scans the QR printed on the devices box
 * The device is transferred from the manufacturer organization to the end user organization
@@ -225,9 +227,9 @@ This is how the flow with connected device looks like in details:
 6. Customer scans the QR code
 7. Device appears under their account and is ready for use
 
-### 
+###
 
-### "Discovery" plan workflow \(delivery planned for Q4 2021\)
+### "Discovery" plan workflow (delivery planned for Q4 2021)
 
 {% hint style="warning" %}
 This feature is not available yet.
@@ -249,7 +251,7 @@ It's beneficial to prepare instructions for your customers outlining the steps t
 
 Blynk.Console allows you to manage Static Tokens. 
 
-### 
+###
 
 ### Unclaiming Static Token
 
@@ -265,7 +267,7 @@ When the Static Token is unclaimed - connected device is removed.
 
 If your device connects to the cloud after its Static Token was unclaimed, a new device will be created under your org. It will be unclaimed.
 
-### 
+###
 
 ### Deleting Static Token
 
@@ -274,8 +276,6 @@ When you delete a Static Token after device was claimed, this device will be del
 {% hint style="danger" %}
 This is a critical action which can't be undone. You won't be able to restore this device
 {% endhint %}
-
-
 
 
 

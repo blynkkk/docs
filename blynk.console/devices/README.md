@@ -1,6 +1,6 @@
 # Devices
 
-This is the main view, where you can manage all devices that belong to your organization, including the sub-organizations \(if you have any\)
+This is the main view, where you can manage all devices that belong to your organization, including the sub-organizations (if you have any)
 
 ![](https://user-images.githubusercontent.com/72824404/120637733-ecec6600-c477-11eb-9aff-24dbddbcb29a.png)
 
@@ -14,7 +14,7 @@ In the sidebar there are segments of devices.
 
 **All** **Devices**– list of all devices that your organization has access to, including all devices in sub organizations.  
 
-\*\*\*\*
+****
 
 ## Quick search
 
@@ -56,22 +56,21 @@ Keep scrolling down to load more devices.
 **Navigation:**
 
 * Click on **Device Name** – opens [Device View](device-profile/)
-* Click on **Device Owner** – opens [Device Owner profile]()
-* Click on **Organization Name** – opens device [Organization]()
+* Click on **Device Owner** – opens [Device Owner profile](broken-reference)
+* Click on **Organization Name** – opens device [Organization](broken-reference)
 
 ## Map view
 
-Here you can search and view Devices \(depending on selected filter\) by their locations.
+Here you can search and view Devices (depending on selected filter) by their locations.
 
 ![](https://user-images.githubusercontent.com/72824404/120645490-28d7f900-c481-11eb-8ea5-189ee5095ec3.png)
 
 Applied filtering option and Devices count are shown at top left.
 
-Map supports mouse scroll zoom in/out.  
+Map supports mouse scroll zoom in/out.\
 Hold left mouse button to move the map.
 
 You'll see dots of two colors on the map:
 
 * **Blue** – devices group with built-in devices counter. Click it to zoom in and view devices.
 * **Orange** – device. Click it to view device name, template logo, actual connectivity status and latest in/accessibility date. Click on Device Name on map opens [Device View](device-profile/).
-

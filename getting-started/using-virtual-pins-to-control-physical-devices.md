@@ -1,14 +1,10 @@
----
-description: adapted from PeteKnight's article
----
+# Control Devices (GPIOs and more)
 
-# Control Devices \(GPIOs and more\)
-
-Blynk can control Digital and Analog I/O Pins ****\(GPIOs\) on your hardware directly. You don’t even need to write code for it. But when it's not enough, you can use Virtual Pins.
+Blynk can control Digital and Analog I/O Pins** **(GPIOs) on your hardware directly. You don’t even need to write code for it. But when it's not enough, you can use Virtual Pins.
 
 We designed Virtual Pins to exchange **any data** between your hardware and Blynk. Anything you connect to your hardware will be able to talk to Blynk. With Virtual Pins you can send something from the App, process it on the microcontroller, and then send it back to the smartphone. You can trigger functions, read I2C devices, convert values, control servo and DC motors etc.
 
-Virtual Pins can be used to interface with external libraries \(Servo, LCD, and others\) and implement custom functionality.
+Virtual Pins can be used to interface with external libraries (Servo, LCD, and others) and implement custom functionality.
 
 Hardware may send data to the Widgets over the Virtual Pin like this:
 
@@ -18,34 +14,34 @@ Blynk.virtualWrite(pin, 123); Blynk.virtualWrite(pin, 12.34);
 Blynk.virtualWrite(pin, "hello", 123, 12.34);
 ```
 
-### \*\*\*\*
+### ****
 
 ### **Why use Virtual Pins ?**
 
-* Virtual pins are hardware-independent. This means that it’s far easier to port your code from one hardware platform to another in the future \(when you realize that the NodeMCU is far better than the Arduino Uno + ESP-01 that you started with, for example\).
+* Virtual pins are hardware-independent. This means that it’s far easier to port your code from one hardware platform to another in the future (when you realize that the NodeMCU is far better than the Arduino Uno + ESP-01 that you started with, for example).
 * You have far more control over what your widget does when using virtual pins. For example, if you want a single app button to switch multiple relays on or off at the same time then that’s simple with virtual pins, but almost impossible using digital pins.
-* Virtual pins are more predictable \(stable if you like\) than manipulating digital pins.
+* Virtual pins are more predictable (stable if you like) than manipulating digital pins.
 
-### 
+###
 
-### How do Virtual Pins **relate to the GPIO pins on my hardware?**
+### How do Virtual Pins** relate to the GPIO pins on my hardware?**
 
-Virtual pins are really just a way of sending a message from the app to the code that’s running on your board \(via the Blynk server\).  
+Virtual pins are really just a way of sending a message from the app to the code that’s running on your board (via the Blynk server).\
 There is no correlation between Virtual Pins and any of the physical GPIO pins on your hardware. If you want a Virtual Pin to change the state of one of your physical pins then you have to write the code to make this happen. 
 
-### \*\*\*\*
+### ****
 
 ### **Basic principles of using Virtual Pins**
 
-We’ll use an example of a Power Switch, set to Integer data type, connected to Virtual Pin 0 \(V0\). In Blynk.Console we’ll leave the values set to 0 and 1, so the widget sends a 0 when it’s turned off, and a 1 when it’s turned on - like this:
+We’ll use an example of a Power Switch, set to Integer data type, connected to Virtual Pin 0 (V0). In Blynk.Console we’ll leave the values set to 0 and 1, so the widget sends a 0 when it’s turned off, and a 1 when it’s turned on - like this:
 
 ![](https://user-images.githubusercontent.com/72824404/119658316-ad00ff80-be35-11eb-8875-bc1f1719aee4.png)
 
-### \*\*\*\*
+### ****
 
-### **The BLYNK\_WRITE\(vPin\) function**
+### **The BLYNK_WRITE(vPin) function**
 
-In your C++ sketch, you can add a special function that is triggered automatically whenever the server tells your device that the value of your virtual pin has changed. This change would normally happen when the widget button in the app is pressed.  
+In your C++ sketch, you can add a special function that is triggered automatically whenever the server tells your device that the value of your virtual pin has changed. This change would normally happen when the widget button in the app is pressed.\
 
 
 This special function is called `BLYNK_WRITE`. Think of it as meaning that the Blynk.Cloud is telling your hardware “there a new value written to your virtual pin”.
@@ -61,7 +57,7 @@ BLYNK_WRITE(V0)
 
 That’s okay if you want the same code to execute regardless of whether the button widget was turned on or off, but that’s not much use in real life, so we need to find out what the new value of the virtual pin is. Don’t forget, this will be a `0` if the button widget is off, and a `1` of it’s on.
 
-### \*\*\*\*
+### ****
 
 ### **Obtaining values from the virtual pin**
 
@@ -71,10 +67,10 @@ The server sends the current Virtual Pin `value` to the hardware as a parameter,
 int virtual_pin_value = param.asInt();
 ```
 
-This tells the code to get the value parameter from the virtual pin and store it in the local integer variable called `virtual_pin_value`.  
+This tells the code to get the value parameter from the virtual pin and store it in the local integer variable called `virtual_pin_value`.\
 We can then use this value to do different actions if the button widget is now on, compared to if it is now off.
 
-Some datastreams send their values at text, or double/float point numbers \(integers are whole numbers, double point variables are one with numbers to the right of the decimal point\).  
+Some datastreams send their values at text, or double/float point numbers (integers are whole numbers, double point variables are one with numbers to the right of the decimal point).\
 To allow you to use these values the Blynk library also allows the following:
 
 ```cpp
@@ -84,24 +80,24 @@ param.asFloat()
 
 but, as we are dealing with just zeros and ones, which are integers, we’ll use the `param.asInt` method.
 
-### \*\*\*\*
+### ****
 
 ### **How to control the physical GPIO pins on my board?**
 
-If you’re familiar with C++/Arduino programming you’ll probably know about `pinMode` and `digitalWrite` commands already. These are what we use to control the physical pins of your device from within the `BLYNK_WRITE(vPin)` function.  
+If you’re familiar with C++/Arduino programming you’ll probably know about `pinMode` and `digitalWrite` commands already. These are what we use to control the physical pins of your device from within the `BLYNK_WRITE(vPin)` function.\
 For those people who aren’t familiar with these commands, I’ll give a brief summary here - but feel free to learn more by searching the internet.
 
 The pinMode command tells your board how a particular pin is going to be used. The three most common commands are:
 
-`pinMode(pin,OUTPUT);  
-pinMode(pin, INPUT);  
-pinMode(pin, INPUT_PULLUP);`
+`pinMode(pin,OUTPUT);`\
+`pinMode(pin, INPUT);`\
+`pinMode(pin, INPUT_PULLUP);`
 
 As we will be controlling something like a relay or an LED in this example, we want our pins to be OUTPUTs - we’ll be outputting a HIGH or LOW signal to the relay/LED.
 
 You only need to issue a pinMode command once, when your device boots up, so this command goes in your `void setup()`
 
-The digitalWrite\(pin, value\) command sets the specified pins LOW \(zero volts\) or HIGH \(3.3v or 5v, depending on your type of board\). This is how you energise your relay, LED etc.
+The digitalWrite(pin, value) command sets the specified pins LOW (zero volts) or HIGH (3.3v or 5v, depending on your type of board). This is how you energise your relay, LED etc.
 
 ## **Bringing it all together…**
 
@@ -130,28 +126,28 @@ BLYNK_WRITE(V0) // Executes when the value of virtual pin 0 changes
 
 Note that you can only have one `void setup` in your sketch, so the pinMode statement needs to be copied into your existing `void setup`
 
-That’s it really, you now have the same functionality from your virtual pin as you would have had if you’d used a digital pin.  
+That’s it really, you now have the same functionality from your virtual pin as you would have had if you’d used a digital pin.\
 I’m now going to cover some extra stuff - some of which is specific to working with virtual pins, but some also apply if you use digital pins instead…
 
 
 
 ## Helpful tips when working with Virtual Pins
 
-### \*\*\*\*
+### ****
 
 ### **Dealing with Active LOW devices**
 
-Many devices, such as the onboard LED attached to GPIO2 of the NodeMCU and many relay boards, are energised by a LOW signal rather than a HIGH signal. This means that, if you use the code example above, the LED/Relay will be off when the switch widget shows On, and vice-versa.  
+Many devices, such as the onboard LED attached to GPIO2 of the NodeMCU and many relay boards, are energised by a LOW signal rather than a HIGH signal. This means that, if you use the code example above, the LED/Relay will be off when the switch widget shows On, and vice-versa.\
 There are several ways around this issue. You could change your switch widget output settings to be 1/0 rather than 0/1 - so that an On state send a “0” value to the app like this…
 
 ![](https://user-images.githubusercontent.com/72824404/119659207-a0c97200-be36-11eb-9f4a-838ac0b9201f.png)
 
 ### **Syncing the output state with the app at startup**
 
-When the device starts up \(reboots\) it won’t be aware of the state of the button widget in the app, so maybe in a different state to what the button widget shows in the app. This will be rectified when you toggle the button widget in the app, but that’s not a very satisfactory solution.  
+When the device starts up (reboots) it won’t be aware of the state of the button widget in the app, so maybe in a different state to what the button widget shows in the app. This will be rectified when you toggle the button widget in the app, but that’s not a very satisfactory solution.\
 We can force the Blynk server to send the latest value for the virtual pin, by using the `Blynk.syncVirtual(vPin)` command. This causes the corresponding `BLYNK_WRITE(vPin)` command to execute.
 
-To automatically run the `BlynkSyncVirtual(vPin)` command when the device connects to the Blynk server \(which will normally be after a reboot but could also be following a disconnection\) we can use another special function called \`BLYNK\_CONNECTED, like this…
+To automatically run the `BlynkSyncVirtual(vPin)` command when the device connects to the Blynk server (which will normally be after a reboot but could also be following a disconnection) we can use another special function called \`BLYNK_CONNECTED, like this…
 
 ```cpp
 BLYNK_CONNECTED()
@@ -160,21 +156,21 @@ BLYNK_CONNECTED()
 }
 ```
 
-\*\*\*\*
+****
 
 ### **Pin numbering**
 
-If you’re working with an Arduino then it’s all quite simple. General Purpose Input/Output \(GPIO\) pin 2 is labelled “2” or “D2”.  
+If you’re working with an Arduino then it’s all quite simple. General Purpose Input/Output (GPIO) pin 2 is labelled “2” or “D2”.\
 However, if you’re using a NodeMCU type of device then the manufacturers decided to make things a little more complicated. The numbers screen printed onto the board are not the GPIO numbers. You have to translate these NodeMCU “D” numbers onto actual GPIO’s as follows…
 
-`Lablel GPIO`  
-`D1 5`  
-`D2 4`  
-`D3 0`  
-`D4 2`  
-`D5 14`  
-`D6 12`  
-`D7 13`  
+`Lablel GPIO`\
+`D1 5`\
+`D2 4`\
+`D3 0`\
+`D4 2`\
+`D5 14`\
+`D6 12`\
+`D7 13`\
 `D8 15`
 
 So, in the example above where we controlled GPIO2 with the command `digitalWrite(2,HIGH)` it’s actually the pin labelled “D4” on the NodeMCU that we’re turning on and off.
@@ -187,20 +183,20 @@ digitalWrite(D4,HIGH);
 
 but personally. I don’t like this approach as it makes it much more difficult to use your code on different types of devices if you ever need to.
 
-\*\*\*\*
+****
 
 ### **Some NodeMCU physical pins need to be avoided** 
 
-Some of the pins on the NodeMCU aren’t really suitable for connecting some types of devices to. In particular, if GPIO0 \(the pin labelled D3\) is pulled LOW at startup then the device won’t execute the sketch and instead, it will enter programming mode, waiting for a new sketch to be uploaded. There’s more info on this topic: [ESP8266 GPIO pins info, restrictions and features](https://community.blynk.cc/t/esp8266-gpio-pins-info-restrictions-and-features/22872) [FAQ](https://community.blynk.cc/c/faq/8)
+Some of the pins on the NodeMCU aren’t really suitable for connecting some types of devices to. In particular, if GPIO0 (the pin labelled D3) is pulled LOW at startup then the device won’t execute the sketch and instead, it will enter programming mode, waiting for a new sketch to be uploaded. There’s more info on this topic: [ESP8266 GPIO pins info, restrictions and features](https://community.blynk.cc/t/esp8266-gpio-pins-info-restrictions-and-features/22872) [FAQ](https://community.blynk.cc/c/faq/8)
 
-\*\*\*\*
+****
 
-### **How to trigger multiple actions \(e.g. turn 4 relays on/off\) with a single button in the app?** 
+### **How to trigger multiple actions (e.g. turn 4 relays on/off) with a single button in the app? **
 
 You said “_if you want a single app button to switch multiple relays on or off at the same time then that’s simple with virtual pins” but how do we do that_? - It's really very simple with Virtual Pins. 
 
-Let's say that you have four relays that are all controlled by four different button widgets attached to virtual pins \(V1 to V4\). These allow independent control of each of the relays, but you then want another button widget, which we’ll attach to virtual pin 5, that can turn all of the relays on or off with just one click.  
-When this button turns on/off all of the relays it also needs to update the 4 button widgets \(attached to V1 to V4\), so that they are also all on or off.
+Let's say that you have four relays that are all controlled by four different button widgets attached to virtual pins (V1 to V4). These allow independent control of each of the relays, but you then want another button widget, which we’ll attach to virtual pin 5, that can turn all of the relays on or off with just one click.\
+When this button turns on/off all of the relays it also needs to update the 4 button widgets (attached to V1 to V4), so that they are also all on or off.
 
 Here’s what the `BLYNK_WRITE(V5)` function would look like to do this…
 
@@ -237,4 +233,3 @@ BLYNK_WRITE(V5) // Executes when the value of virtual pin 5 changes
 ```
 
 As you can see, instead of just doing a digitalWrite to one GPIO pin, we’re doing 4 pins one after another. `Blynk.virtualWrite` commandsare then issued, which will update the button widgets to match the digital pins.
-

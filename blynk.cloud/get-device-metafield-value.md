@@ -1,48 +1,42 @@
 # Get Device MetaField Value
 
-{% api-method method="get" host="https://{server\_address}" path="/external/api/device/meta?token={token}&metaFieldId={metaFieldId}" %}
-{% api-method-summary %}
-Get Device Metafield Value
-{% endapi-method-summary %}
+{% swagger baseUrl="https://{server_address}" path="/external/api/device/meta?token={token}&metaFieldId={metaFieldId}" method="get" summary="Get Device Metafield Value" %}
+{% swagger-description %}
+This endpoint allows you to get the device metaField value by its id.
 
-{% api-method-description %}
-This endpoint allows you to get the device metaField value by its id.  
-**Example:**  
+\
+
+
+
+
+**Example:**
+
+\
+
+
+
+
 `https://blynk.cloud/external/api/device/meta?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&metaFieldId=1`
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="metaFieldId" type="string" required=true %}
+{% swagger-parameter in="path" name="metaFieldId" type="string" %}
 MetaField id.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="token" type="string" required=true %}
+{% swagger-parameter in="path" name="token" type="string" %}
 Device auth token
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Value successfully retrieved.
-{% endapi-method-response-example-description %}
-
-```text
+{% swagger-response status="200" description="Value successfully retrieved." %}
+```
 {"type":"Text","value":"device value"}
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=400 %}
-{% api-method-response-example-description %}
-Could not find a device token  
-or  
-Wrong metaField format or Could not find metaField id
-{% endapi-method-response-example-description %}
-
-```text
+{% swagger-response status="400" description="Could not find a device token
+or
+Wrong metaField format or Could not find metaField id" %}
+```
 {"error":{"message":"Invalid token."}}
 
 or
@@ -53,8 +47,5 @@ or
 
 {"error":{"message":"MetaField doesn't exist."}}
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
+{% endswagger-response %}
+{% endswagger %}

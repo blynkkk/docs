@@ -9,55 +9,48 @@
 
 ![](../.gitbook/assets/copy_event_code.png)
 
-{% api-method method="get" host="https://{server\_address}" path="/external/api/logEvent?token={token}&code={event\_code}&description={event\_description}" %}
-{% api-method-summary %}
-Trigger the event by event code
-{% endapi-method-summary %}
+{% swagger baseUrl="https://{server_address}" path="/external/api/logEvent?token={token}&code={event_code}&description={event_description}" method="get" summary="Trigger the event by event code" %}
+{% swagger-description %}
+This endpoint allows you to trigger the event.
 
-{% api-method-description %}
-This endpoint allows you to trigger the event.  
-**Example:**  
+\
+
+
+
+
+**Example:**
+
+\
+
+
+
+
 `https://blynk.cloud/external/api/logEvent?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&code=firmware_update&description=test`
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="description" type="string" required=false %}
+{% swagger-parameter in="path" name="description" type="string" %}
 Event description
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="code" type="string" required=true %}
+{% swagger-parameter in="path" name="code" type="string" %}
 Event code
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="token" type="string" required=true %}
+{% swagger-parameter in="path" name="token" type="string" %}
 Device auth token
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
-```text
-
+{% swagger-response status="200" description="Success" %}
 ```
-{% endapi-method-response-example %}
+```
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=400 %}
-{% api-method-response-example-description %}
-Could not find a device token  
-or  
-Typo in code  
-or  
-Could not find event code
-{% endapi-method-response-example-description %}
-
-```text
+{% swagger-response status="400" description="Could not find a device token
+or
+Typo in code
+or
+Could not find event code" %}
+```
 {"error":{"message":"Invalid token."}}
 
 or
@@ -68,8 +61,5 @@ or
 
 {"error":{"message":"Can't find Event with this code in Product template"}}
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
+{% endswagger-response %}
+{% endswagger %}

@@ -1,10 +1,18 @@
 # Application Settings
 
-{% page-ref page="general.md" %}
+{% content-ref url="general.md" %}
+[general.md](general.md)
+{% endcontent-ref %}
 
-{% page-ref page="mobile-apps.md" %}
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
-{% page-ref page="sign-up.md" %}
+{% content-ref url="mobile-apps.md" %}
+[mobile-apps.md](mobile-apps.md)
+{% endcontent-ref %}
 
-
+{% content-ref url="sign-up.md" %}
+[sign-up.md](sign-up.md)
+{% endcontent-ref %}
 

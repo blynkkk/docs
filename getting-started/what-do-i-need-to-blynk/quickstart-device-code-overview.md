@@ -2,7 +2,7 @@
 
 Now that you know how to Quickstart device was prepared, let's look at the code it used to connect and communicate with Blynk.
 
-Code depends on the hardware and connection method you use. You can always find a correct code example for your hardware [here](https://examples.blynk.cc/).
+Code depends on the hardware and connection method you use. You can always find a correct code example for your hardware [here](https://examples.blynk.cc).
 
 Let's look at the parts of the code one by one.
 
@@ -76,12 +76,12 @@ You will only see these lines when you work with a WiFi-enabled device. Replace 
 If your network doesn't have a password - leave it empty: `char pass[] = ""`
 
 {% hint style="warning" %}
-Many devices can **only** connect to 2.4Ghz networks. Double-check specs of your hardware to make sure you will be connecting to the correct network.
+Many devices can **only **connect to 2.4Ghz networks. Double-check specs of your hardware to make sure you will be connecting to the correct network.
 {% endhint %}
 
 In some cases, you won't know the credentials upfront. For that, we offer an alternative way to provision devices with WiFi credentials using Blynk.Apps. You can read more about it [here](../activating-devices/blynk-edgent-wifi-provisioning.md).
 
-### 
+###
 
 ### Timers
 
@@ -162,7 +162,7 @@ void myTimerEvent()
 }
 ```
 
-This ****code is for the timer that updates Label Widget attached to  V2 Datastream every second. All we do is just send the uptime \(time in seconds counting from device boot up\).
+This** **code is for the timer that updates Label Widget attached to  V2 Datastream every second. All we do is just send the uptime (time in seconds counting from device boot up).
 
 
 
@@ -184,9 +184,9 @@ In the code above we track when the device connects to the Blynk.Cloud with `BLY
 
 ![](../../.gitbook/assets/blynk-quickstart-image-widget-update-property.jpg)
 
-\*\*\*\*
+****
 
-**Void setup\(\) and void loop\(\)**
+**Void setup() and void loop()**
 
 ```cpp
 void setup()
@@ -201,7 +201,7 @@ void setup()
 
 This is a standard Arduino code which runs once on device boot up. With `Blynk.begin()` we use AuthToken and WiFi credentials to get your device online and authenticate in Blynk.Cloud. 
 
-Then we launch the timer to run it every minute \(it was used to send uptime\)
+Then we launch the timer to run it every minute (it was used to send uptime)
 
 ```cpp
 void loop()
@@ -221,24 +221,31 @@ void loop()
  `timer.run()` runs the timer function
 
 {% hint style="info" %}
-It's important to keep the void\_loop\(\) clean. Avoid using delays and use timers when you need to send data. 
+It's important to keep the void_loop() clean. Avoid using delays and use timers when you need to send data. 
 {% endhint %}
 
-### **Now you are ready to build your own devices!** Check out these guides to learn more about Blynk features:
+### **Now you are ready to build your own devices! **Check out these guides to learn more about Blynk features:
 
-{% page-ref page="../activating-devices/" %}
+{% content-ref url="../activating-devices/" %}
+[activating-devices](../activating-devices/)
+{% endcontent-ref %}
 
-{% page-ref page="../template-quick-setup/" %}
+{% content-ref url="../template-quick-setup/" %}
+[template-quick-setup](../template-quick-setup/)
+{% endcontent-ref %}
 
-{% page-ref page="../using-virtual-pins-to-control-physical-devices.md" %}
+{% content-ref url="../using-virtual-pins-to-control-physical-devices.md" %}
+[using-virtual-pins-to-control-physical-devices.md](../using-virtual-pins-to-control-physical-devices.md)
+{% endcontent-ref %}
 
-{% page-ref page="../events-tutorial.md" %}
+{% content-ref url="../events-tutorial.md" %}
+[events-tutorial.md](../events-tutorial.md)
+{% endcontent-ref %}
 
 
 
 
 
-###   ****
+###  ** **
 
-### 
-
+###

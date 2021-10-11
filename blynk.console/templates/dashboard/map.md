@@ -1,11 +1,11 @@
 # Map
 
-_**Note:**_ please remember that web and apps widgets are set up separately and may have same datastreams set to view the same data \(excepts Map widgets – those two use different codebase now\).
+_**Note:**_ please remember that web and apps widgets are set up separately and may have same datastreams set to view the same data (excepts Map widgets – those two use different codebase now).
 
 Map widget visualizes data related to a location of the device:
 
 * Current or latest known location of the device 
-* GPS track \(historical position of the device\)
+* GPS track (historical position of the device)
 * Overlays: various data related to the time and location of the device. E.g. speed of the device at a particular point of the track.
 
 {% hint style="warning" %}
@@ -36,7 +36,7 @@ Callout is used to view specified Datastreams' value that was actual at the plac
 
 * **Add Value** – click this button to search and select for any Datastream you want to show in Callout window.
 * **Move** – hover on the previosly added Datastream panel for action buttons to appear. Hold Move button and change the position of Callout Value, release mouse button, repeat with other panels once you find it fine.
-* **Delete** – hover on the previosly added Datastream panel for action buttons to appear. Click Delete button \(no confirmation is applied here\)
+* **Delete** – hover on the previosly added Datastream panel for action buttons to appear. Click Delete button (no confirmation is applied here)
 
 ### Track Overlays
 
@@ -51,9 +51,9 @@ Select one of 4 track point styles:
 * Truck
 * Device name
 
-Select Datastream that contains course information in degrees \(e.g. it gets it from Device's compass\) so the track point can **show course direction** \(this feature is supported by Course and Truck point styles\)
+Select Datastream that contains course information in degrees (e.g. it gets it from Device's compass) so the track point can **show course direction** (this feature is supported by Course and Truck point styles)
 
-![](../../../.gitbook/assets/map_widget_settings%20%285%29%20%284%29%20%281%29%20%281%29.gif)
+![](<../../../.gitbook/assets/map_widget_settings (5) (4) (1) (1) (1).gif>)
 
 ## Insert the data
 
@@ -63,23 +63,22 @@ Web and apps Map widgets use different codebases now that will be unified in the
 
 Let's say we have the Location Datastream assigned to the Virtual Pin 5. For the map you can update the data from the hardware:
 
-```text
+```
 Blynk.virtualWrite(V5, longtitude, latitude);
 ```
 
 Also, you can insert the data via HTTPS API:
 
-```text
+```
 https://{server_address}/external/api/update?token={token}&V5=longtitude&V5=latitude
 ```
 
 You can also send multiple datastreams within the same request. In that case these datastreams would be displayed in the callout with the same timestamp:
 
-```text
+```
 https://{server_address}/external/api/batch/update?token={token}&V5=longtitude&V5=latitude&V6={somevalue}
 ```
 
 {% hint style="danger" %}
 Please pay attention to the order of the coordinates. Longitude should always go first.
 {% endhint %}
-

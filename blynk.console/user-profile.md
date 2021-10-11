@@ -1,5 +1,5 @@
 ---
-description: 'Here you can view, edit, delete data provided during Sign Up and Sign out'
+description: Here you can view, edit, delete data provided during Sign Up and Sign out
 ---
 
 # User Profile
@@ -8,13 +8,13 @@ description: 'Here you can view, edit, delete data provided during Sign Up and S
 
 ## Basic view set
 
-\(custom fields can be added to Sign Up by SuperAdmin\)
+(custom fields can be added to Sign Up by SuperAdmin)
 
 * Name
 * Email
-* Phone Number \(field is hidden if no information was provided\)
+* Phone Number (field is hidden if no information was provided)
 * Last Login 
-* Timezone \(this setting is defined by Organization's Timezone\)
+* Timezone (this setting is defined by Organization's Timezone)
 
 ## Actions
 
@@ -24,7 +24,7 @@ Hover Actions Menu near the Name to access following options.
 
 Click to open User Profile edit modal window
 
-![Edit User Profile modal window](../.gitbook/assets/user_profile_edit%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29.png)
+![Edit User Profile modal window](<../.gitbook/assets/user_profile_edit (2) (2) (2) (2) (2) (1) (1).png>)
 
 **Name** – here you can edit user name displayed in Blynk Platform. Use only letters, hyphens, dots and spaces. 60 characters limit.
 
@@ -38,8 +38,8 @@ Click to open Reset Password modal window
 
 ![Reset Password modal window](../.gitbook/assets/reset_password.png)
 
-1. **Type current password** \(click "eye" pictogram to show/hide the password\)
-2. **Type new password** with minimum of 8 characters \(click "eye" pictogram to show/hide the password\) Our recomendations on password creation:
+1. **Type current password** (click "eye" pictogram to show/hide the password)
+2. **Type new password** with minimum of 8 characters (click "eye" pictogram to show/hide the password) Our recomendations on password creation:
    * Use uncommon words
    * Use non-standard uPPercaSing
    * Use creatif spellllllling
@@ -58,6 +58,5 @@ _**Warning**_**:** All data associated with your account will be deleted permane
 
 ### Logout
 
-Click to end the session.  
+Click to end the session.\
 You will be redirected to Sign In / Sign Up screen.
-

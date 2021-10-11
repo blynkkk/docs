@@ -1,11 +1,11 @@
 # User Profile
 
-You can see information about **Users** in the **Section of Users**
+You can see information about** Users** in the** Section of Users**
 
 ## Search
 
-You can search for a specific user by typing the part or the whole Name, Email,  Role or Location.  
-The result \(multiple results are possible\) will be given in the Users table. 
+You can search for a specific user by typing the part or the whole Name, Email,  Role or Location.\
+The result (multiple results are possible) will be given in the Users table. 
 
 ![](../../.gitbook/assets/search-user.png)
 
@@ -15,37 +15,38 @@ The result \(multiple results are possible\) will be given in the Users table.
 
 This table shows the Organization's users information:
 
-* **Name** – user's name and last name \(optional\) that was assigned to User during invitation or sign up
-* **Role** – displays one of  3 roles available: **Admin, Staff, User** with different [access and permissions](../settings/access.md).
-* **Location** – displays location user was assigned to during invitation or sign up
-* **Status** – 3 registration statuses are possible:
-  * **pending** – the user is invited, but the email is not confirmed \(user haven't logged in\) 
-  * **active** – the user confirmed the email, logged at least one time 
-  * **inactive** – the user hasn't logged for 1 month
-* **Last login** – last time user logged in. hh:mm M D, Y format \(year is hidden if it's current\)
+* **Name **– user's name and last name (optional) that was assigned to User during invitation or sign up
+* **Role **– displays one of  3 roles available: **Admin, Staff, User** with different [access and permissions](../settings/access.md).
+* **Location **– displays location user was assigned to during invitation or sign up
+* **Status **– 3 registration statuses are possible:
+  * **pending **– the user is invited, but the email is not confirmed (user haven't logged in) 
+  * **active **– the user confirmed the email, logged at least one time 
+  * **inactive **– the user hasn't logged for 1 month
+* **Last login **– last time user logged in. hh:mm M D, Y format (year is hidden if it's current)
 
 ### Table interaction
 
 All the columns support sorting.
 
-Role and Status columns support additional filtering option.  
-Select desired option\(s\) from the menu appears on clicking filter icon and press OK in order to change the table view. Click reset in the same menu if you want to return to default table view.
+Role and Status columns support additional filtering option.\
+Select desired option(s) from the menu appears on clicking filter icon and press OK in order to change the table view. Click reset in the same menu if you want to return to default table view.
 
 #### Hover options:
 
-* **Initials** – allows selecting users for Bulk Actions
-* **Name** – opens Email containing hint. Click on it to copy user's Email address
-* **User role** – click opens [Role Permissions list](../settings/access.md) on the right part of the screen  
+* **Initials **– allows selecting users for Bulk Actions
+* **Name **– opens Email containing hint. Click on it to copy user's Email address
+* **User role** – click opens [Role Permissions list](../settings/access.md) on the right part of the screen \
+
 
 The only **Bulk Action** available here: 
 
 * **Apply Tag**
-* **Export Users \(CSV\)**
+* **Export Users (CSV)**
 * **Delete**
 
 ![](../../.gitbook/assets/users-bulk-action-menu.png)
 
-Select all users by marking **checkbox** in columns naming row or specify users selection by marking each user's checkbox.
+Select all users by marking **checkbox **in columns naming row or specify users selection by marking each user's checkbox.
 
 ‌ Select the desired menu item
 
@@ -53,12 +54,12 @@ Select all users by marking **checkbox** in columns naming row or specify users 
 
 
 
-  
+\
 
 
 ![](../../.gitbook/assets/all-users-list.-1png.png)
 
-By clicking on the **Name** of a User in the **List of Users,** you can see information about a specific user
+By clicking on the **Name** of a User in the** List of Users,** you can see information about a specific user
 
 ## User Profile
 
@@ -68,7 +69,7 @@ The User profile contains information about the user **Name**, user **Organizati
 
 **Single Actions** menu is triggered by hovering Actions column in user's row. Available actions:
 
-* **Edit** – edit data that was provided during invitation. Same modal window as for Invite User. Email can't be changed.
+* **Edit **– edit data that was provided during invitation. Same modal window as for Invite User. Email can't be changed.
 * **Change Password** – modal window opens.  "Are you sure want to change user password?" prompt NEW PASSWORD input field.
 
 ![Change Password modal window](../../.gitbook/assets/change_password_modal.png)
@@ -79,7 +80,7 @@ The User profile contains information about the user **Name**, user **Organizati
 
 ![Transfer User modal window](../../.gitbook/assets/transfer_user.png)
 
-* **Delete Account** – modal window will appear. Type DELETE and confirm the action are required.
+* **Delete Account **– modal window will appear. Type DELETE and confirm the action are required.
 
 ![Delete User modal window](../../.gitbook/assets/delete_user_modal.gif)
 
@@ -89,18 +90,19 @@ The User profile contains information about the user **Name**, user **Organizati
 
 The Information tab contains information about: 
 
-* **Status** – 3 registration statuses are possible:
+*   **Status **– 3 registration statuses are possible:
 
-  * **pending** – the user is invited, but the email is not confirmed \(user haven't logged in\) 
-  * **active** – the user confirmed the email, logged at least one time 
-  * **inactive** – the user hasn't logged for 1 month
+    * **pending **– the user is invited, but the email is not confirmed (user haven't logged in) 
+    * **active **– the user confirmed the email, logged at least one time 
+    * **inactive **– the user hasn't logged for 1 month
 
-* **Email** 
+
+* **Email **
 * **Nickname**
-* **Phone Number** \(optional\) – 15 digit international phone format for any country. 
-* **Role** – 3 roles available: **Admin, Staff, User** with different [access and permissions](../settings/access.md).
-* **Client Custom fields-** may contain additional information about the user required for work.
-* **Timezone-** user location timezone.
+* **Phone Number** (optional) – 15 digit international phone format for any country. 
+* **Role **– 3 roles available: **Admin, Staff, User** with different [access and permissions](../settings/access.md).
+* **Client Custom fields- **may contain additional information about the user required for work.
+* **Timezone- **user location timezone.
 
 ### Actions Log Tab
 
@@ -112,9 +114,9 @@ On the Action logs tab, the user can select a time interval to view the actions 
 
 The table contains information about:
 
-* **Time -** Date and time of the Action
+* **Time - **Date and time of the Action
 * **Organization Name**
-* **Client -** Android, iOS, Web, HTTPS API, Automation, Alexa, Google Home, Other
+* **Client - **Android, iOS, Web, HTTPS API, Automation, Alexa, Google Home, Other
 * **Action Name**
 * **Action Code**
 
@@ -126,10 +128,9 @@ The table contains information about:
 
 The Devices tab contains information about all user devices
 
-* **Name -** Name of Device
-* **Status -** Online or Offline
-* **Model-** Model of Device
+* **Name - **Name of Device
+* **Status - **Online or Offline
+* **Model- **Model of Device
 * **Last Updated-**Date and time of the last update
 
-\*\*\*\*
-
+****

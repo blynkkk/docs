@@ -6,13 +6,13 @@ description: Exchange any data between Blynk app and your hardware
 
 **Virtual Pin** is a concept invented by Blynk Inc. to provide exchange of any data between hardware and Blynk mobile app. 
 
-Virtual pins are different than  [Digital](https://www.arduino.cc/en/Tutorial/DigitalPins) and [Analog](https://www.arduino.cc/en/Tutorial/AnalogInputPins) Input/Output \(I/O\) pins. They are **physical pins** on your microcontroller board where you connect sensors and actuators.![](https://uploads.intercomcdn.com/i/o/19844964/1b2212d3c5c061943f6bdeb0/Group+5.png)
+Virtual pins are different than  [Digital](https://www.arduino.cc/en/Tutorial/DigitalPins) and [Analog](https://www.arduino.cc/en/Tutorial/AnalogInputPins) Input/Output (I/O) pins. They are **physical pins** on your microcontroller board where you connect sensors and actuators.![](https://uploads.intercomcdn.com/i/o/19844964/1b2212d3c5c061943f6bdeb0/Group+5.png)
 
 **Blynk lets you control any hardware connected to Digital and Analog pins without having to write any additional code.**
 
 For example, if you need to turn On/Off LED connected to Digital pin, you don't have to write any code: 
 
-1. Just use [BlynkBlink code for your hardware](http://examples.blynk.cc/). 
+1. Just use [BlynkBlink code for your hardware](http://examples.blynk.cc). 
 2. In the Blynk app - add **Button Widget** and set it to pin **D8**
 3. That's it! No additional code is required. Simply press Play in the app.
 
@@ -20,11 +20,11 @@ For example, if you need to turn On/Off LED connected to Digital pin, you don't 
 
 That was, easy, right? But what if you need more flexibility?
 
-### Virtual Pins <a id="virtual-pins"></a>
+### Virtual Pins <a href="virtual-pins" id="virtual-pins"></a>
 
 Virtual pins allow you to interface with any sensor, any library, any actuator. 
 
-Imagine that there are "virtual" pins that you can use  
+Imagine that there are "virtual" pins that you can use\
 ![](https://uploads.intercomcdn.com/i/o/19851900/f385072e3b34e023aba74a07/VP.png)
 
 Think about Virtual Pins as a box where you can put any value, and everyone who has access to this box can see this value.
@@ -35,11 +35,11 @@ It's a very powerful feature to **display and send any data** from your hardware
 
 There are two fundamental commands you need to know to use Virtual Pins:
 
-### To read data from Blynk app widgets <a id="to-read-data-from-blynk-app-widgets"></a>
+### To read data from Blynk app widgets <a href="to-read-data-from-blynk-app-widgets" id="to-read-data-from-blynk-app-widgets"></a>
 
 Use this block of code:
 
-```text
+```
 BLYNK_WRITE(V5) // V5 is the number of Virtual Pin  
 {
   int pinValue = param.asInt();
@@ -48,26 +48,24 @@ BLYNK_WRITE(V5) // V5 is the number of Virtual Pin
 
 Where `param.asInt()`  is the value from V5.
 
-  
+\
 👉 Full article: [**How to control anything with Blynk**](http://help.blynk.cc/getting-started/blynk-basics/how-to-control-anything-with-blynk-app)
 
-### To send data from your hardware to Blynk app <a id="to-send-data-from-your-hardware-to-blynk-app"></a>
+### To send data from your hardware to Blynk app <a href="to-send-data-from-your-hardware-to-blynk-app" id="to-send-data-from-your-hardware-to-blynk-app"></a>
 
 Use this command `Blynk.virtualWrite(V5)` where V5 is the Virtual Pin you are using.  
 
-⚠️ **WARNING:  
-Don't place** `Blynk.virtualWrite(V5)` **inside**  `void loop()` 
+⚠️ **WARNING:**\
+**Don't place** `Blynk.virtualWrite(V5)` **inside  **`void loop()` 
 
-– Why?  
-– Read [here](http://help.blynk.cc/getting-started/blynk-basics/how-to-display-any-sensor-data-in-blynk-app)    
+– Why?\
+– Read [here](http://help.blynk.cc/getting-started/blynk-basics/how-to-display-any-sensor-data-in-blynk-app)  \
 
 
-👉 Full article: [**How to display any sensor data with Blynk**](http://help.blynk.cc/getting-started/blynk-basics/how-to-display-any-sensor-data-in-blynk-app)  
+👉 Full article: [**How to display any sensor data with Blynk**](http://help.blynk.cc/getting-started/blynk-basics/how-to-display-any-sensor-data-in-blynk-app)****\
 ****![](https://uploads.intercomcdn.com/i/o/19866955/96eec33e38de6f75c3371861/Sensor+2.png)
 
-**---  
-If you have questions or something is not working, visit our 👥** [**community**](http://community.blynk.cc/) **page.**
+**---**\
+**If you have questions or something is not working, visit our 👥** [**community**](http://community.blynk.cc) **page.**
 
-Also, full 📗 documentation is [here](http://docs.blynk.cc/).  
-
-
+Also, full 📗 documentation is [here](http://docs.blynk.cc).\
