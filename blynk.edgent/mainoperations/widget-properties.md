@@ -104,5 +104,5 @@ or you can change individual image by it index:
 Blynk.setProperty(V1, "url", 1, "https://image1.jpg");
 ```
 
-You can also change widget properties via [HTTP API](http://docs.blynkapi.apiary.io/#).
+You can also change widget properties via [HTTP API](https://docs.blynk.io/en/blynk.cloud/https-api-overview).
 
