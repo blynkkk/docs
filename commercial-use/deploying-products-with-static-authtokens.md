@@ -87,7 +87,7 @@ The workflow proposed below covers these steps:
 You have two options for generating the number of Tokens you need based on the number of devices you plan to deploy:
 
 * Automatically generate the number of tokens you need
-* Generate Tokens based on the CSV file you provide 
+* Generate Tokens based on the CSV file you provide&#x20;
 
 ### Automatically generate the number of tokens
 
@@ -99,7 +99,7 @@ The number of tokens you can create is limited by your plan limits. If you need 
 
 ![](../.gitbook/assets/static-tokens-generation\_-auto-create.png)
 
-1. Go to Blynk.Console → Static Tokens 
+1. Go to Blynk.Console → Static Tokens&#x20;
 2. Click on **Create Static Tokens**
 3. Choose Auto-create
 4. Choose the Template to create tokens for
@@ -123,7 +123,7 @@ The process of generating Static Tokens from a file looks like that:
 * In the Device Template -> Metadata create Metadata fields for each data item you would need
 * Create a .CSV file with headers that correspond the Metadata fields names. See below.
 
-_Example:_ Let's say you have 3 devices and they already have a Serial Number, a MAC address and device names \__assigned.
+_Example:_ Let's say you have 3 devices and they already have a Serial Number, a MAC address and device names \_\_assigned.
 
 First of all, you would need to create 2 new metadata fields in the Device Template: Serial Number and MAC address. Device Name is a default Metadata provided by Blynk and there is no need to duplicate it.
 
@@ -141,7 +141,7 @@ CSV file headers are case sensitive and should fully match Metadata Field names.
 
 #### 2. Generate Static Tokens from file
 
-1. Go to Blynk.Console → Static Tokens 
+1. Go to Blynk.Console → Static Tokens&#x20;
 2. Click on **Create Static Tokens** → Create From File
 3. Choose Template
 4. Upload the file
@@ -199,7 +199,7 @@ It's also beneficial to prepare a manual for your customers outlining the steps 
 
 When customers receive your device, they would need to claim (activate) it. For that they would need:
 
-* The device itself (this is optional because device can be activated with just a QR code) 
+* The device itself (this is optional because the device can be activated with just a QR code)&#x20;
 * QR code image
 * Account in Blynk
 
@@ -210,18 +210,26 @@ This is how the flow with connected device looks like in details:
 * User unpacks your device
 * User turns on the device
 * Device shows some indicator that it's online
-* When the device connects to the Blynk.Cloud it doesn't have an owner yet. So at that moment the device is placed under the organization of the manufacturer (the organization where Static Token was created)  
+* When the device connects to the Blynk.Cloud it doesn't have an owner yet. So at that moment the device is placed under the organization of the manufacturer (the organization where Static Token was created) &#x20;
 * User accepts you invite within Blynk.App
-* User scans the QR printed on the devices box
+* User scans the QR printed on the device box
 * The device is transferred from the manufacturer organization to the end user organization
 
 ![](../.gitbook/assets/qr-code-scanning-mobile-.png)
 
+###
+
+### Deleting device by the end customer
+
+If the user deletes the device from their account, it becomes unclaimed. After that, it can be claimed again by other customers by scanning the QR code.&#x20;
+
+###
+
 ### PRO Plan Workflow
 
-1. You create a new sub organization for your client in Blynk.Console → Organizations 
+1. You create a new sub organization for your client in Blynk.Console → Organizations&#x20;
 2. Invite your client to this organization using their email
-3. Your customers get an invitation email 
+3. Your customers get an invitation email&#x20;
 4. Customer follows the invite link and creates a password for their account
 5. Customers login using Blynk.Apps for iOS and Android or login to Blynk.Console
 6. Customer scans the QR code
@@ -229,7 +237,7 @@ This is how the flow with connected device looks like in details:
 
 ###
 
-### "Discovery" plan workflow (delivery planned for Q4 2021)
+### "Discovery" plan workflow (delivery planned for Q1 2022)
 
 {% hint style="warning" %}
 This feature is not available yet.
@@ -237,7 +245,7 @@ This feature is not available yet.
 
 When you enable Discovery add-on, you no longer need to invite each client manually like in PRO plan. They can create accounts and claim devices by themselves. Here is how it works:
 
-1. Customers download Blynk.Apps and create new account there. Or they can use Blynk.Console. 
+1. Customers download Blynk.Apps and create new account there. Or they can use Blynk.Console.&#x20;
 2. When logged in, customer scan the provided QR code by clicking on Add New Device
 3. Device appears under their account and is ready for use
 
@@ -249,33 +257,36 @@ It's beneficial to prepare instructions for your customers outlining the steps t
 
 ## 5. Managing Static Tokens
 
-Blynk.Console allows you to manage Static Tokens. 
+Blynk.Console allows you to manage Static Tokens.&#x20;
 
 ###
 
-### Unclaiming Static Token
+### Disclaiming a Static Token
 
-Unclaiming process removes any ownership of the device and set it back as unclaimed. After that it can be used again.
+Disclaiming removes any ownership of the device and sets it back as unclaimed. After that it can be used again.
 
-Examples when unclaiming can be used: 
+Disclaiming can only be done by organization where it was created.
 
-* **Testing**. You may test the tokens and then unclaim them before sending the device to end customers.
-* **Device return**. If device was returned and you need to resell it again. Unclaiming will allow new customer to claim device again
-* **Ownership change**. When your customer wants to give the device to another user. You can also use device transfer
+After the Static Token becomes unclaimed, the device is removed from the organization it belonged to, but it stays in the system. If it connects to the cloud again, it will automatically return to the organization where the Static Token was created.
 
-When the Static Token is unclaimed - connected device is removed.
+Examples when disclaiming can be needed:&#x20;
 
-If your device connects to the cloud after its Static Token was unclaimed, a new device will be created under your org. It will be unclaimed.
+* **Testing**. You may test the tokens and then disclaim them before sending the device to end customers.
+* **Device return**. If device was returned and you need to resell it again. Disclaiming will allow new customers to claim device again.
+* **Ownership change**. When your customer wants to give the device to another user. (You can also use device transfer for that without disclaiming)
+
+
 
 ###
 
 ### Deleting Static Token
 
-When you delete a Static Token after device was claimed, this device will be deleted. 
-
 {% hint style="danger" %}
-This is a critical action which can't be undone. You won't be able to restore this device
+This is a critical action that can't be undone. You won't be able to restore this device
 {% endhint %}
 
+When you delete a Static Token, an associated AuthToken becomes invalid. If it was flashed to the device, this device will not be able to connect. You need to generate a new Static Token and use new AuthToken.
 
+1. If you delete a Static Token after device was claimed, this device will be deleted permanently. Customers won't be able to claim it. &#x20;
+2. If you deleted a Static Token before the device was claimed, the device will not be able to connect.
 
