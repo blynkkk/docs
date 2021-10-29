@@ -1,40 +1,177 @@
 # Button
 
-With Button you can  send any number value to the hardware. on button click and button release events. By default  
-button uses 0/1 \(LOW/HIGH\) values. Button sends 1 \(HIGH\) on press and sends 0 \(LOW\) on release.
+The button is made to turn something on and off on your device. However, it can do much more
 
-You can change button state from hardware side. For example, turn on button assigned to virtual pin V1 :
+## Settings
+
+Most of the settings are self-explanatory. This document only covers the most unique ones.&#x20;
+
+###
+
+### Datastream
+
+Select the Datastream to send values from the button to. If you would like to change properties of the widget, you would need Datastream as well.&#x20;
+
+###
+
+### Mode
+
+1. **Push:** when finger released - button will switch to OFF state
+2. **Switch:** when finger is released - the button will stay in the pressed state
+3. **Page:** button will open a specified [page](../pages.md)
+4. **QR:** button will open the code scanner. Read below:
+
+#### How the code scanner works.
+
+End users will tap on the widget and a code scanner (camera) will open. The camera should be pointed to the code.
+
+Once the code is successfully scanned, its contents will be sent to the hardware in a String format to the specified Datastream. The scanner screen will be closed automatically. A String Datastream should be added to the Device Template to accept these values.
+
+Value of the code is sent as is (not pre-processed or post-processed by Blynk).&#x20;
+
+In case of scanning an unsupported format, no error will be shown. User would need to close the scanner view (camera) manually.
+
+End-users would need to grant permissions to use the camera on the smartphone OS level. If permission wasn’t granted, a message will be shown to go to settings to enable access to the camera.
+
+#### Scanner works with these code formats
+
+* QR&#x20;
+* AZTEC
+* CODE\_39
+* CODE\_39 mod 43
+* CODE\_93&#x20;
+* CODE\_128&#x20;
+* DATA\_MATRIX
+* EAN\_8
+* EAN-13
+* ITF
+* PDF\_417
+* UPC\_E
+
+Android app can additionally support these formats:
+
+* CODABAR
+* MAXICODE
+* RSS\_14
+* RSS\_EXPANDED
+* UPC\_A
+* UPC\_EAN\_EXTENSION
+
+
+
+## How to process button input on the device
+
+When button is pressed, value is sent and stored into the Blynk.Cloud. After that it's sent to your device.
+
+### Reading the button value
+
+For example, if Button Widget is set to Datastream with Virtual Pin V1, you can use such code:
 
 ```cpp
-Blynk.virtualWrite(V1, HIGH);
+BLYNK_WRITE(V1) // this command is listening when something is written to V1
+{
+  int pinValue = param.asInt(); // assigning incoming value from pin V1 to a variable
+  
+  if (pinValue = 1){
+   // do something when button is pressed;
+  } else if {
+  (pinValue = 0)
+   // do something when button is released;
+  }
+  
+  Serial.print("V1 button value is: "); // printing value to serial monitor
+  Serial.println(pinValue);
+}
 ```
 
-You can change button labels from hardware with :
+Find a full code example for your hardware [here](https://examples.blynk.cc/?board=ESP32\&shield=ESP32%20WiFi\&example=GettingStarted%2FGetData).&#x20;
 
-```text
+
+
+### Changing button state
+
+You can also update the state of the button from hardware.
+
+```cpp
+Blynk.virtualWrite(vPin, HIGH);
+```
+
+{% hint style="danger" %}
+Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, or use timers.
+{% endhint %}
+
+## Change Button Properties
+
+You can change certain properties of the Widget from your device. For that, use this command:&#x20;
+
+```
+Blynk.setProperty(vPin, "widgetProperty", "propertyValue"); 
+```
+
+Where:&#x20;
+
+* `vPin` is: virtual pin number the widget is assigned to
+* `widgetProperty`: property you want to change
+* `propertyValue`: value of the property you want to change
+
+{% hint style="danger" %}
+Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, or use timers.
+{% endhint %}
+
+###
+
+### Supported properties
+
+**Change On/Off labels:**
+
+```cpp
 Blynk.setProperty(V1, "onLabel", "ON");
-```
-
-```text
 Blynk.setProperty(V1, "offLabel", "OFF");
 ```
 
-or change color :
+**Set Button Color:**
 
 ```cpp
 //#D3435C - Blynk RED 
 Blynk.setProperty(V1, "color", "#D3435C");
 ```
 
-You can also get button state from server in case your hardware was disconnected with Blynk Sync feature :
+**Disable/Enable**. Widget will be greyed out on UI and users won't be able to press it.
 
-```text
-BLYNK_CONNECTED() {
-  Blynk.syncVirtual(V1);
-}
-
-BLYNK_WRITE(V1) {
-  int buttonState = param.asInt();
-}
+```cpp
+Blynk.setProperty(V1, "isDisabled", true);
 ```
 
+**Show/Hide**. When hidden, widget will be greyed out and end-users won't be able to press it
+
+```cpp
+Blynk.setProperty(V1, "isHidden", true);
+```
+
+**Change Page Target**. This command will set which page should open when the button is pressed. Page Id can be found in the mobile app in developer mode:  Toolbox -> Pages
+
+```cpp
+Blynk.setProperty(V1, "page", pageId);
+```
+
+**Sync to the latest known state **
+
+Get the latest known value from the server. For example, after your hardware went offline and then became online again.
+
+```cpp
+BLYNK_CONNECTED() { // checks if there is a connection to Blynk.Cloud  
+  Blynk.syncVirtual(V1); // get the latest value
+}
+
+BLYNK_WRITE(V1) // this command is listening when something is written to V1
+{
+  int pinValue = param.asInt(); // assigning incoming value from pin V1 to a variable
+  
+  if (pinValue = 1){
+   // do something when button is pressed;
+  } else if {
+  (pinValue = 0)
+   // do something when button is released;
+  }
+}
+```
