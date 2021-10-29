@@ -10,7 +10,7 @@ Most likely you are making an error by sending data to Blynk incorrectly. This a
 
 ### Intro <a href="intro" id="intro"></a>
 
-The code should be familiar to anyone who have ever tinkered with MCUs like Arduino and the likes: 
+The code should be familiar to anyone who have ever tinkered with MCUs like Arduino and the likes:&#x20;
 
 ```
 void loop() 
@@ -40,7 +40,7 @@ It would work for a regular application, but not for the Internet Of Things appl
 
 ### Problem <a href="problem" id="problem"></a>
 
-Imagine you want to send `sensorValue`  to Blynk app and write such code:  
+Imagine you want to send `sensorValue`  to Blynk app and write such code: &#x20;
 
 ```
 void loop() 
@@ -58,12 +58,12 @@ This would work for a regular electronics project, but not for the Internet of T
 #### You are now spamming Blynk Cloud with too many messages <a href="you-are-spamming-blynk-cloud" id="you-are-spamming-blynk-cloud"></a>
 {% endhint %}
 
-As it was described above, everything in the `void loop()`  will be executed many times per second. 
+As it was described above, everything in the `void loop()`  will be executed many times per second.&#x20;
 
 So if you use `Blynk.virtualWrite(V1, sensorValue)` in the loop, you send gazillion messages to Blynk Cloud from your hardware. When it happens, Blynk automatically **disconnects** your device for spamming. Sorry.
 
 \
- \
+&#x20;\
 A logical step would be to add a `delay()` ...
 
 ```
@@ -89,7 +89,7 @@ But it will not help because:
 
 Basically, your `sensorValue` will never get to the Cloud.
 
-###  <a href="solution-what-should-i-do-then" id="solution-what-should-i-do-then"></a>
+### &#x20;<a href="solution-what-should-i-do-then" id="solution-what-should-i-do-then"></a>
 
 ### Solution. What should I do then?  <a href="solution-what-should-i-do-then" id="solution-what-should-i-do-then"></a>
 
@@ -97,7 +97,7 @@ Basically, your `sensorValue` will never get to the Cloud.
 
 When using Blynk, try to keep `void loop()`  as clean as possible and move all the other routines (e.g. sensor reading) into **timers** and separate functions.
 
-So, an ideal Blynk `void loop()` should look like that: 
+So, an ideal Blynk `void loop()` should look like that:&#x20;
 
 ```
 void loop() 
@@ -108,13 +108,13 @@ void loop()
 
 \
 But you still need to send the data, right?\
- 
+&#x20;
 
 #### 2. Use BlynkTimer to send data in intervals <a href="2-use-blynktimer-to-send-data-in-intervals" id="2-use-blynktimer-to-send-data-in-intervals"></a>
 
 In most of the cases, you would need to send data periodically in certain intervals.\
 A very simple way of doing that is to use **BlynkTimer**, included in Blynk Library.\
- 
+&#x20;
 
 👉First you would need to create a new Timer object:
 
@@ -122,7 +122,7 @@ A very simple way of doing that is to use **BlynkTimer**, included in Blynk Libr
 BlynkTimer timer; // Announcing the timer
 ```
 
-👉In `void setup()` you need to declare that your function `sensorDataSend()`  should run every 1000 milliseconds, (which is 1 second). 
+👉In `void setup()` you need to declare that your function `sensorDataSend()`  should run every 1000 milliseconds, (which is 1 second).&#x20;
 
 ```
 void setup()
@@ -143,8 +143,8 @@ void sensorDataSend()
 ```
 
 \
- \
-👉And then you run timer in your new and beautiful `void loop()` 
+&#x20;\
+👉And then you run timer in your new and beautiful `void loop()`&#x20;
 
 ```
 void loop()
@@ -154,7 +154,7 @@ void loop()
 }
 ```
 
- \
+&#x20;\
 With such a minimal `void loop()` you will never block a connection to Blynk Cloud and will never spam it.
 
 You can create multiple timers, stop/start them, add and delete. Read more about advanced usage of timers [here](https://playground.arduino.cc/Code/SimpleTimer).

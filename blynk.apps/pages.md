@@ -6,11 +6,11 @@ With **Pages** you can add multiple pages to a device dashboard. This helps to b
 
 ####
 
-### Examples Of Use 
+### Examples Of Use&#x20;
 
-* **Device Settings.** Let's say you plan to use a group of widgets for various Settings. This is not something your end-users will be using very often, so it makes sense to organize Settings widgets as into a separate page. For end-users, there will be a tiny icon in the UI which will open this page. 
-* **View More Data.** Imagine you have a sensor value displayed on the dashboard and you would like to show more data, like historical data chart, explanations how to read this, show additional data points  etc. To de-clutter the user interface, you can create a button which will open a page with all of this additional information. 
-* **Technical Dashboard.** Imagine you have a technical dashboard that should only be seen by users with a certain role. With Pages, you can add a tab in Device Info and define which user roles can access this tab. Users with other roles will not see this dashboard. 
+* **Device Settings.** Let's say you plan to use a group of widgets for various Settings. This is not something your end-users will be using very often, so it makes sense to organize Settings widgets as into a separate page. For end-users, there will be a tiny icon in the UI which will open this page.&#x20;
+* **View More Data.** Imagine you have a sensor value displayed on the dashboard and you would like to show more data, like historical data chart, explanations how to read this, show additional data points  etc. To de-clutter the user interface, you can create a button which will open a page with all of this additional information.&#x20;
+* **Technical Dashboard.** Imagine you have a technical dashboard that should only be seen by users with a certain role. With Pages, you can add a tab in Device Info and define which user roles can access this tab. Users with other roles will not see this dashboard.&#x20;
 
 {% hint style="warning" %}
 Pages feature is available in paid plans only. You can always upgrade in your Account Settings.
@@ -27,9 +27,9 @@ There are two types of pages you can add:
 
 Standalone Pages can be interconnected. You can open **Page A** from **Page B** or **Page C** in any order. Just keep the navigation simple and clear for end-users.
 
-End users open Pages by tapping on widgets which are set as _entry points_. Users can always go back to the previous view. 
+End users open Pages by tapping on widgets which are set as _entry points_. Users can always go back to the previous view.&#x20;
 
-Device Info Pages can only be accessed in Device Info view. 
+Device Info Pages can only be accessed in Device Info view.&#x20;
 
 
 
@@ -61,9 +61,9 @@ You can always access all of the pages and edit them in ToolBox → Pages
 
 ####
 
-### 3. Linking Page to an Entry Point 
+### 3. Linking Page to an Entry Point&#x20;
 
-Once the page layout is ready, you need to define a page entry point. In Blynk, an entry point is a widget configured to open pages. 
+Once the page layout is ready, you need to define a page entry point. In Blynk, an entry point is a widget configured to open pages.&#x20;
 
 #### Widgets that can be used as entry points:
 
@@ -76,13 +76,13 @@ Once the page layout is ready, you need to define a page entry point. In Blynk, 
 
 To create an entry point:
 
-![](<../.gitbook/assets/image (27).png>)
+![](<../.gitbook/assets/image (33).png>)
 
 1. Add one of the supported widgets to the dashboard (check supported widgets below)
 2. Open Widget Settings
 3. Set **Mode** to **Page**
 4. Choose the Page to open
-5. Set page appearance animation (how the page appears on screen). The page can slide in from the bottom or from the left. 
+5. Set page appearance animation (how the page appears on screen). The page can slide in from the bottom or from the left.&#x20;
 
 
 
@@ -96,15 +96,40 @@ After the page has been set up and connected to an entry point widget, it's read
 4. A page should open
 5. Press Back to return to the entry point
 
+###
+
+### Changing target page from hardware
+
+You can change the target page from the device using firmware API. When this command is used, a widget will open a page with a specified index.&#x20;
+
+Page index can be found
+
+1. Create a new datastream. For example: `PageIndex`
+2. Add a widget that should open a page&#x20;
+3. Set it's datastream to `PageIndex`&#x20;
+4. Set mode to PAGE
+5. Choose default page&#x20;
+6. On your device use the command:
+
+```cpp
+setProperty (vPin, "page", page_index)
+```
+
+&#x20;`vPin` is a Virtual Pin number of the widget.
+
+`index` is the id of the page this widget should open. It can be found in Toolbox -> Pages.
+
+
+
 
 
 ## Device Info Tabs
 
-You can also add Pages (in the format of Tabs) to "More.." menu on device Dashboard. By default, this view has 2 tabs: Device Info and Timeline. They can't be deleted or removed. 
+You can also add Pages (in the format of Tabs) to "More.." menu on device Dashboard. By default, this view has 2 tabs: Device Info and Timeline. They can't be deleted or removed.&#x20;
 
 To see these tabs, end-users will need to open Device Info. This is the only entry point.
 
-Unlike Standalone Pages, you can define which users can access the tab. For example, if you choose Admins only, users with other roles will not see this tab. This can be useful when you need to place some technical information which is only needed for administrators. 
+Unlike Standalone Pages, you can define which users can access the tab. For example, if you choose Admins only, users with other roles will not see this tab. This can be useful when you need to place some technical information which is only needed for administrators.&#x20;
 
 
 
@@ -135,7 +160,7 @@ You can always access list of added tabs in Toolbox → Pages → **Device Info 
 
 ### 3. Reordering The Tabs
 
-To change the order of tabs: 
+To change the order of tabs:&#x20;
 
 1. Tap and hold the tab you want to move
 2. Drag and drop to desired position
