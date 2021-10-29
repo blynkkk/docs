@@ -4,7 +4,7 @@ The button is made to turn something on and off on your device. However, it can 
 
 ## Settings
 
-Most of the settings are self-explanatory. This document only covers the most unique ones.&#x20;
+Most of the settings are self-explanatory. This document only covers unique ones.&#x20;
 
 ###
 
