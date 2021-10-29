@@ -16,6 +16,8 @@ Select the Datastream to send values from the button to. If you would like to ch
 
 ### Mode
 
+Button can operate in these modes:&#x20;
+
 1. **Push:** when finger released - button will switch to OFF state
 2. **Switch:** when finger is released - the button will stay in the pressed state
 3. **Page:** button will open a specified [page](../pages.md)
