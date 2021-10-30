@@ -104,7 +104,7 @@ Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a
 
 ## Change Button Properties
 
-You can change certain properties of the Widget from your device. For that, use this command:&#x20;
+You can change certain properties of the Widget from your hardware. For that, use this command:&#x20;
 
 ```
 Blynk.setProperty(vPin, "widgetProperty", "propertyValue"); 
@@ -124,6 +124,8 @@ Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a 
 
 ### Supported properties
 
+Examples below use Virtual Pin V01. Change to your parameters.&#x20;
+
 **Change On/Off labels:**
 
 ```cpp
@@ -138,13 +140,13 @@ Blynk.setProperty(V1, "offLabel", "OFF");
 Blynk.setProperty(V1, "color", "#D3435C");
 ```
 
-**Disable/Enable**. Widget will be greyed out on UI and users won't be able to press it.
+**Disable/Enable**. Widget will be greyed out on UI and users won't be able to tap on it.
 
 ```cpp
 Blynk.setProperty(V1, "isDisabled", true);
 ```
 
-**Show/Hide**. When hidden, widget will be greyed out and end-users won't be able to press it
+**Show/Hide**. Widget will be hidden from dashboard. Design your UI so that it doesn't look weird when there is no widget.
 
 ```cpp
 Blynk.setProperty(V1, "isHidden", true);
