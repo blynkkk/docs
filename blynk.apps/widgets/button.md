@@ -74,10 +74,10 @@ BLYNK_WRITE(V1) // this command is listening when something is written to V1
 {
   int pinValue = param.asInt(); // assigning incoming value from pin V1 to a variable
   
-  if (pinValue = 1){
+  if (pinValue == 1){
    // do something when button is pressed;
   } else if {
-  (pinValue = 0)
+  (pinValue == 0)
    // do something when button is released;
   }
   
