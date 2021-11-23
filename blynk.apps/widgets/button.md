@@ -23,7 +23,7 @@ Button can operate in these modes:&#x20;
 3. **Page:** button will open a specified [page](../pages.md)
 4. **QR:** button will open the code scanner. Read below:
 
-#### How the code scanner works.
+#### How the QR code scanner works.
 
 End users will tap on the widget and a code scanner (camera) will open. The camera should be pointed to the code.
 
@@ -133,6 +133,8 @@ Blynk.setProperty(V1, "onLabel", "ON");
 Blynk.setProperty(V1, "offLabel", "OFF");
 ```
 
+****
+
 **Set Button Color:**
 
 ```cpp
@@ -140,11 +142,15 @@ Blynk.setProperty(V1, "offLabel", "OFF");
 Blynk.setProperty(V1, "color", "#D3435C");
 ```
 
+****
+
 **Disable/Enable**. Widget will be greyed out on UI and users won't be able to tap on it.
 
 ```cpp
 Blynk.setProperty(V1, "isDisabled", true);
 ```
+
+****
 
 **Show/Hide**. Widget will be hidden from dashboard. Design your UI so that it doesn't look weird when there is no widget.
 
@@ -152,11 +158,15 @@ Blynk.setProperty(V1, "isDisabled", true);
 Blynk.setProperty(V1, "isHidden", true);
 ```
 
-**Change Page Target**. This command will set which page should open when the button is pressed. Page Id can be found in the mobile app in developer mode:  Toolbox -> Pages
+****
+
+**Change Page Target**. This command will set which page should open when the button is pressed. PageId can be found in the mobile app in developer mode:  Toolbox -> Pages
 
 ```cpp
-Blynk.setProperty(V1, "page", pageId);
+Blynk.setProperty(V1, "page", "pageId");
 ```
+
+****
 
 **Sync to the latest known state **
 

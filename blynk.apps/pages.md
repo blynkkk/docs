@@ -18,10 +18,11 @@ Pages feature is available in paid plans only. You can always upgrade in your Ac
 
 ### Types Of Pages And Navigation
 
-There are two types of pages you can add:
+There are three types of pages you can add:
 
 * Standalone pages
-* Pages in Device Info View (tabs)
+* Pages (tabs) in Device Info&#x20;
+* Device Welcome page
 
 ![](<../.gitbook/assets/image (31).png>)
 
@@ -175,5 +176,21 @@ Alternatively, you can delete the tab during editing.
 
 
 
+## Device Welcome Page
 
+This is a special page that can be shown after the device was added using device provisioning or device claiming.
+
+It's a good place to explain to your customers how device works, or walk them through the initial configuration.&#x20;
+
+Device Welcome Page is set up similarly to a Standalone Page described above using widgets
+
+
+
+#### Web Page
+
+Optionally, instead of page with widgets you can set up a **web** page to show after the device was added. In this case, the in-app browser will open automatically with the specified page.&#x20;
+
+{% hint style="warning" %}
+Make sure that the web page is mobile-friendly so that it renders correctly in the in-app browser.
+{% endhint %}
 
