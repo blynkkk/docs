@@ -44,28 +44,3 @@ BLYNK_CONNECTED() {
 // Your code here
 }
 ```
-
-## BLYNK\_APP\_CONNECTED\(\)
-
-This function is called every time Blynk app client connects to Blynk server.
-
-```cpp
-BLYNK_APP_CONNECTED() {
-// Your code goes here
-}
-```
-
-[Example](https://github.com/blynkkk/blynk-library/blob/master/examples/More/AppConnectedEvents/AppConnectedEvents.ino)
-
-## BLYNK\_APP\_DISCONNECTED\(\)
-
-This function is called every time the Blynk app disconnects from Blynk Cloud or private server.
-
-```cpp
-BLYNK_APP_DISCONNECTED() {
-// Your code here
-}
-```
-
-[Example](https://github.com/blynkkk/blynk-library/blob/master/examples/More/AppConnectedEvents/AppConnectedEvents.ino)
-
