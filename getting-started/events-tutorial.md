@@ -44,7 +44,7 @@ Note that each event has`EVENT CODE`. This event code will be used in the firmwa
 
 You can test the Event creation by sending it from Device using Blynk.Edgent firmware API, or with REST API.
 
-### Use Blynk.logEvent\(\) firmware API.
+### Use Blynk.logEvent\(\) firmware API
 
 `Blynk.logEvent("event_code", "optional message");`
 
