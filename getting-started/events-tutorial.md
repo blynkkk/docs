@@ -97,3 +97,10 @@ First of all, check [Device Timeline](../blynk.console/devices/device-profile/ti
 
 You should see 2 events on the timeline! If you set up notifications, they should have been delivered as well.
 
+### Limitations
+
+- You can send only 100 events per devices per day
+- When the limit is reached you'll see the notification on the UI in the Device Timeline section
+- The maximum description length for the event is 300 chars
+
+Limits could be changed for the White Label clients if required.
