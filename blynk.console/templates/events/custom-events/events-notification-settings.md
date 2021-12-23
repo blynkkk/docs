@@ -16,15 +16,15 @@ Start with Enabling notifications by turning on this option.
 
 
 
-![](../../../../.gitbook/assets/new_ev_notifspng.png)
+![](../../../../.gitbook/assets/new\_ev\_notifspng.png)
 
 ### Default recipients
 
 Here you can assign defaut recipients to the event. End-users will not see that there are default recipients.
 
-_**Example: **imagine that you, as a developer or manufacturer would like to get notifications on certain state of the device for your own analysis, but you don't won't your customers to see these notifications._
+_**Example:** imagine that you, as a developer or manufacturer would like to get notifications on certain state of the device for your own analysis, but you don't won't your customers to see these notifications._
 
-Default recipients can only be taken from certain Metadata fields: 
+Default recipients can only be taken from certain Metadata fields:&#x20;
 
 * `Device Owner` metadata-  this one is available by default. No need to create this metadata.
 * `Contact` metadata . Make sure email or phone number is enabled.
@@ -43,9 +43,9 @@ For example, you need to send an email to **techncial.support@yourcompany.com** 
 
     Set a recipient of email notification as `Technical Support`
 
-Now, all the notifications for this Event will go to the email specified in the metadata of Technical Support, which is **technical.support@yourcompany.com. **
+Now, all the notifications for this Event will go to the email specified in the metadata of Technical Support, which is **technical.support@yourcompany.com.**&#x20;
 
-When device is deployed, if you go to Device -> Metadata and change the value of Technical Support to let's say **another.email@yourcompany.com, **all notifications for this event will go to the newly added email.
+When device is deployed, if you go to Device -> Metadata and change the value of Technical Support to let's say **another.email@yourcompany.com,** all notifications for this event will go to the newly added email.
 
 ###
 
@@ -59,7 +59,7 @@ _❇️ Example: if you set 1 hour as a limit, end-users will only get one notif
 
 ****
 
-**Event Counter** - notification will be sent only after a number of events was recorded. Counter starts when first event happened. After counter value was met, counter resets to zero. 
+**Event Counter** - notification will be sent only after a number of events was recorded. Counter starts when first event happened. After counter value was met, counter resets to zero.&#x20;
 
 _❇️ Example: if the counter is set to 50 and device sends 100 events, the user would only get 1 notification (every 51st event will trigger the notification)._
 

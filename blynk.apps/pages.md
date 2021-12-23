@@ -36,7 +36,7 @@ Device Info Pages can only be accessed in Device Info view.&#x20;
 
 ## Standalone Pages
 
-These pages are opened by tapping on widgets that are set as _entry points. _
+These pages are opened by tapping on widgets that are set as _entry points._&#x20;
 
 ![](<../.gitbook/assets/image (30).png>)
 
@@ -47,7 +47,7 @@ These pages are opened by tapping on widgets that are set as _entry points. _
 1. Go to ToolBox → Pages → **Standalone Pages**
 2. Tap **+ Add Page**
 3. Give your new page a name
-4. Tap **Create **in the top right corner
+4. Tap **Create** in the top right corner
 5. Your new page is created
 
 
@@ -77,7 +77,7 @@ Once the page layout is ready, you need to define a page entry point. In Blynk, 
 
 To create an entry point:
 
-![](<../.gitbook/assets/image (33).png>)
+![](<../.gitbook/assets/image (33) (1).png>)
 
 1. Add one of the supported widgets to the dashboard (check supported widgets below)
 2. Open Widget Settings
@@ -146,7 +146,7 @@ Root User - description
 2. Tap **+ Add Page**
 3. Give your new page a name
 4. Set access permissions (optional)
-5. Tap **Create **in the top right corner
+5. Tap **Create** in the top right corner
 6. A new tab page is created
 
 

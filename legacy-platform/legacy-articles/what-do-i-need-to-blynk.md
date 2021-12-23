@@ -4,15 +4,15 @@ description: Step by step guide on how to install Blynk Library
 
 # How to install Blynk Library for Arduino IDE
 
-Blynk Library establishes communication between your hardware, Blynk Cloud and Blynk Apps. 
+Blynk Library establishes communication between your hardware, Blynk Cloud and Blynk Apps.&#x20;
 
-#### There are few ways to install Blynk Library for Arduino IDE: <a href="there-are-few-ways-to-install-blynk-library-for-arduino-ide" id="there-are-few-ways-to-install-blynk-library-for-arduino-ide"></a>
+#### There are few ways to install Blynk Library for Arduino IDE: <a href="#there-are-few-ways-to-install-blynk-library-for-arduino-ide" id="there-are-few-ways-to-install-blynk-library-for-arduino-ide"></a>
 
 1. **Using built-in library manager in Arduino IDE**
 2. **Installing Blynk library as ZIP file in Arduino IDE**
 3. **Manually install Blynk Library**
 
-### 1. Install Blynk Library using built-in library manager in Arduino IDE <a href="1-install-blynk-library-using-built-in-library-manager-in-arduino-ide" id="1-install-blynk-library-using-built-in-library-manager-in-arduino-ide"></a>
+### 1. Install Blynk Library using built-in library manager in Arduino IDE <a href="#1-install-blynk-library-using-built-in-library-manager-in-arduino-ide" id="1-install-blynk-library-using-built-in-library-manager-in-arduino-ide"></a>
 
 To install a new library into your Arduino IDE you can use the Library Manager (available from IDE version 1.6.2). Open the IDE and click to the "Sketch" menu and then Include Library > Manage Libraries.![](https://blynk.intercom-attachments-1.com/i/o/166433746/acccf446076ff541d782d143/LibraryManager\_1.png)
 
@@ -22,9 +22,9 @@ Finally click on Install and wait for the IDE to install the new library. Downlo
 
 You can now find the new library available in the Sketch > Include Library menu.
 
-### 2. Install Blynk as ZIP file in Arduino IDE <a href="2-install-blynk-as-zip-file-in-arduino-ide" id="2-install-blynk-as-zip-file-in-arduino-ide"></a>
+### 2. Install Blynk as ZIP file in Arduino IDE <a href="#2-install-blynk-as-zip-file-in-arduino-ide" id="2-install-blynk-as-zip-file-in-arduino-ide"></a>
 
-Blynk library is available as a downloadable ZIP. Starting with Arduino IDE version 1.0.5, you can install 3rd party libraries in the IDE. 
+Blynk library is available as a downloadable ZIP. Starting with Arduino IDE version 1.0.5, you can install 3rd party libraries in the IDE.&#x20;
 
 Download Blynk Library by clicking the button: [Download Blynk Library](https://github.com/blynkkk/blynk-library/releases/latest)
 
@@ -35,12 +35,12 @@ Download Blynk Library by clicking the button: [Download Blynk Library](https://
 
 The Library will be available to use in sketches, but with older IDE versions examples for the library will not be exposed in the File > Examples until after the IDE has restarted.
 
-### 3. Install Blynk library manually <a href="3-install-blynk-library-manually" id="3-install-blynk-library-manually"></a>
+### 3. Install Blynk library manually <a href="#3-install-blynk-library-manually" id="3-install-blynk-library-manually"></a>
 
-Download the latest **Blynk_Release_vXX.zip** file from the GitHub page:[Download Blynk Library](https://github.com/blynkkk/blynk-library/releases/latest)
+Download the latest **Blynk\_Release\_vXX.zip** file from the GitHub page:[Download Blynk Library](https://github.com/blynkkk/blynk-library/releases/latest)
 
-1. Unzip the **Blynk_Release_vXX.zip** archive. You will notice that archive contains several folders and several libraries.
-2. Copy all of these libraries to **your sketchbook folder** of **Arduino IDE**. 
+1. Unzip the **Blynk\_Release\_vXX.zip** archive. You will notice that archive contains several folders and several libraries.
+2. Copy all of these libraries to **your sketchbook folder** of **Arduino IDE**.&#x20;
 
 To find the location of **your sketchbook folder**, go to top menu in Arduino IDE:\
 **Windows:** File → Preferences\
@@ -57,13 +57,13 @@ your_sketchbook_folder/tools/BlynkUsbScript
 ...
 ```
 
-**☝️ Note that **
+**☝️ Note that**&#x20;
 
-* **libraries** should go to **libraries **
+* **libraries** should go to **libraries**&#x20;
 * **tools** should go to **tools**
 * If you don't have **libraries** or **tools** folders, you can create them manually.
 
-### On minute 2:00 of this video you can see the process of installation for MacOS, but it's very similar to Windows <a href="on-minute-200-of-this-video-you-can-see-the-process-of-installation-for-macos-but-its-very-similar-t" id="on-minute-200-of-this-video-you-can-see-the-process-of-installation-for-macos-but-its-very-similar-t"></a>
+### On minute 2:00 of this video you can see the process of installation for MacOS, but it's very similar to Windows <a href="#on-minute-200-of-this-video-you-can-see-the-process-of-installation-for-macos-but-its-very-similar-t" id="on-minute-200-of-this-video-you-can-see-the-process-of-installation-for-macos-but-its-very-similar-t"></a>
 
 Arduino libraries are managed in three different places: inside the IDE installation folder, inside the core folder and in the libraries folder inside your sketchbook. The way libraries are chosen during compilation is designed to allow the update of libraries present in the distribution. This means that placing a library in the “libraries” folder in your sketchbook overrides the other libraries versions.
 
@@ -73,11 +73,11 @@ Last, but not least important is the way the Arduino Software (IDE) upgrades its
 
 This is why we recommend that you only install libraries to the sketchbook folder so they are not deleted during the Arduino IDE update process.
 
-### 4. Troubleshooting 🚨 <a href="4-troubleshooting" id="4-troubleshooting"></a>
+### 4. Troubleshooting 🚨 <a href="#4-troubleshooting" id="4-troubleshooting"></a>
 
-1. If you have troubles installing Blynk library,  check [Arduino](https://www.arduino.cc/en/guide/libraries) guide for additional information. 
+1. If you have troubles installing Blynk library,  check [Arduino](https://www.arduino.cc/en/guide/libraries) guide for additional information.&#x20;
 2. Try deleting and re-installing Blynk Library - it helps in many cases
-3. Make sure you don't have any duplicates of Blynk library 
+3. Make sure you don't have any duplicates of Blynk library&#x20;
 4. If you have issues - feel free to ask on our [forum](http://community.blynk.cc). There are many Blynkers who are eager to help.
 
-###   <a href="h_d5153c7aee" id="h_d5153c7aee"></a>
+### &#x20; <a href="#h_d5153c7aee" id="h_d5153c7aee"></a>

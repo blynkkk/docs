@@ -168,7 +168,7 @@ Blynk.setProperty(V1, "page", "pageId");
 
 ****
 
-**Sync to the latest known state **
+**Sync to the latest known state**&#x20;
 
 Get the latest known value from the server. For example, after your hardware went offline and then became online again.
 

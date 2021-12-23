@@ -19,10 +19,11 @@
   * [Set Up Mobile App Dashboard](getting-started/template-quick-setup/set-up-mobile-app-dashboard.md)
   * [Prepare Your Code](getting-started/template-quick-setup/prepare-code.md)
   * [Test your Template](getting-started/template-quick-setup/test-your-template.md)
-* [Control Devices \(GPIOs and more\)](getting-started/using-virtual-pins-to-control-physical-devices.md)
+* [Control Devices (GPIOs and more)](getting-started/using-virtual-pins-to-control-physical-devices.md)
 * [Log Events](getting-started/events-tutorial.md)
-* [Get Notifications](getting-started/notification-management.md)
-* [Firmware Over-The-Air \(Blynk.Air\)](getting-started/updating-devices-firmwares-ota.md)
+* [Send Notifications (Alerts)](getting-started/notification-management/README.md)
+  * [Use Automations To Send Notifications (no code)](getting-started/notification-management/use-automations-to-send-notifications-no-code.md)
+* [Firmware Over-The-Air (Blynk.Air)](getting-started/updating-devices-firmwares-ota.md)
 * [Metadata Tutorial](getting-started/metadata-tutorial.md)
 * [Sign Up / Sign In](getting-started/signup.md)
 
@@ -32,7 +33,7 @@
 * [Products](platform-overview/products.md)
 * [Services](platform-overview/services.md)
 
-## General Concepts <a id="concepts"></a>
+## General Concepts <a href="#concepts" id="concepts"></a>
 
 * [Device](concepts/device.md)
 * [Device Template](concepts/device-template.md)
@@ -78,8 +79,8 @@
     * [Hotspot Prefix](blynk.console/templates/info/hotspot-prefix.md)
   * [Metadata](blynk.console/templates/metadata.md)
   * [Datastreams](blynk.console/templates/datastreams/README.md)
-    * [Datastreams Common Settings](blynk.console/templates/datastreams/datastreams-common-settings/README.md)
-      * [Name](blynk.console/templates/datastreams/datastreams-common-settings/datastream_name.md)
+    * [Datastream Settings](blynk.console/templates/datastreams/datastreams-common-settings/README.md)
+      * [Name](blynk.console/templates/datastreams/datastreams-common-settings/datastream\_name.md)
       * [Alias](blynk.console/templates/datastreams/datastreams-common-settings/alias.md)
       * [Virtual Pin](blynk.console/templates/datastreams/datastreams-common-settings/virtual-pin.md)
       * [Color](blynk.console/templates/datastreams/datastreams-common-settings/color.md)
@@ -118,7 +119,7 @@
   * [Organization Settings](blynk.console/settings/organization-settings/README.md)
     * [General](blynk.console/settings/organization-settings/general.md)
     * [Users](blynk.console/settings/organization-settings/users.md)
-    * [Locations \(Job Site or Facilities\)](blynk.console/settings/organization-settings/locations.md)
+    * [Locations (Job Site or Facilities)](blynk.console/settings/organization-settings/locations.md)
     * [Tags](blynk.console/settings/organization-settings/tags.md)
     * [Forms](blynk.console/settings/organization-settings/forms.md)
   * [Application Settings](blynk.console/settings/application-settings/README.md)
@@ -176,13 +177,13 @@
   * [Log Event](blynk.edgent/api/log-event.md)
   * [RTC clock](blynk.edgent/api/rtc-clock.md)
   * [Timezone / Location](blynk.edgent/api/timezone-location.md)
-  * [Over-The-Air Firmware Updates \(OTA\)](blynk.edgent/api/ota-updates.md)
+  * [Over-The-Air Firmware Updates (OTA)](blynk.edgent/api/ota-updates.md)
   * [Metadata](blynk.edgent/api/metadata.md)
   * [Debug](blynk.edgent/api/debug.md)
   * [Reboot](blynk.edgent/api/reboot.md)
   * [Other](blynk.edgent/api/other.md)
 
-## BLYNK.CLOUD \(HTTPS API\) <a id="blynk.cloud"></a>
+## BLYNK.CLOUD (HTTPS API) <a href="#blynk.cloud" id="blynk.cloud"></a>
 
 * [Overview](blynk.cloud/https-api-overview.md)
 * [Get Datastream Value](blynk.cloud/get-datastream-value.md)
@@ -203,7 +204,7 @@
 * [Developer Mode](troubleshooting/developer-mode.md)
 * [WiFi Provisioning](troubleshooting/wifi-provisioning.md)
 
----
+***
 
 * [Changes from Blynk 0.1](blynk-1.0-and-2.0-comparison/README.md)
   * [Migrating to new Blynk](blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md)
@@ -223,30 +224,29 @@
   * [Which assets are required to publish my application?](commercial-use/white-label-solution/which-assets-are-required-to-publish-my-application.md)
   * [Assets required to publish your apps](commercial-use/white-label-solution/publishing-materials.md)
 
-## Legacy Platform Help Articles <a id="legacy-platform"></a>
+## Legacy Platform Help Articles <a href="#legacy-platform" id="legacy-platform"></a>
 
 * [Legacy articles](legacy-platform/legacy-articles/README.md)
   * [How to display ANY sensor data in Blynk app](legacy-platform/legacy-articles/how-to-display-any-sensor-data-in-blynk-app.md)
   * [What is Virtual Pins](legacy-platform/legacy-articles/what-is-virtual-pins.md)
-  * [Keep your void loop\(\) clean](legacy-platform/legacy-articles/keep-your-void-loop-clean.md)
+  * [Keep your void loop() clean](legacy-platform/legacy-articles/keep-your-void-loop-clean.md)
   * [How to control anything with Blynk app](legacy-platform/legacy-articles/how-to-control-anything-with-blynk-app.md)
   * [Install ESP8266 core for Arduino IDE](legacy-platform/legacy-articles/install-esp8266-core-for-arduino-ide.md)
   * [NodeMCU](legacy-platform/legacy-articles/nodemcu.md)
   * [ESP8266 standalone](legacy-platform/legacy-articles/esp8266-standalone.md)
   * [Particle Electron](legacy-platform/legacy-articles/particle-electron.md)
   * [ESP8266 with AT firmware](legacy-platform/legacy-articles/esp8266-with-at-firmware.md)
-  * [Bluetooth \(2.0 SPP, 4.0 LE\)](legacy-platform/legacy-articles/bluetooth-2.0-spp-4.0-le.md)
+  * [Bluetooth (2.0 SPP, 4.0 LE)](legacy-platform/legacy-articles/bluetooth-2.0-spp-4.0-le.md)
   * [USB Serial](legacy-platform/legacy-articles/usb-serial.md)
   * [Raspberry Pi and Blynk](legacy-platform/legacy-articles/raspberry-pi-and-blynk.md)
   * [BBC micro:bit + Arduino IDE](legacy-platform/legacy-articles/bbc-micro-bit-+-arduino-ide.md)
   * [Blynk and Raspberry Pi: Tips & Tricks](legacy-platform/legacy-articles/blynk-and-raspberry-pi-tips-and-tricks.md)
   * [How to install Node.js library on Linux](legacy-platform/legacy-articles/how-to-install-node.js-library-on-linux.md)
   * [Node.js vs. C++ library](legacy-platform/legacy-articles/node.js-vs.-c++-library.md)
-  * [Implementing a Blynk client \(library\)](legacy-platform/legacy-articles/implementing-a-blynk-client-library.md)
+  * [Implementing a Blynk client (library)](legacy-platform/legacy-articles/implementing-a-blynk-client-library.md)
   * [Export Project made with Blynk into a standalone app](legacy-platform/legacy-articles/export-project-made-with-blynk-into-a-standalone-app.md)
   * [Updating the apps made with Blynk](legacy-platform/legacy-articles/updating-the-apps-made-with-blynk.md)
   * [App and board logs. How to send application and board logs correctly](legacy-platform/legacy-articles/app-and-board-logs.-how-to-send-application-and-board-logs-correctly.md)
   * [Blynk Android permissions explained](legacy-platform/legacy-articles/blynk-android-permissions-explained.md)
   * [How to find code for my hardware?](legacy-platform/legacy-articles/getting-started.md)
   * [How to install Blynk Library for Arduino IDE](legacy-platform/legacy-articles/what-do-i-need-to-blynk.md)
-

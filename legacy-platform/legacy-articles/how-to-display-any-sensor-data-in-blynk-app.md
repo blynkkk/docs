@@ -4,14 +4,14 @@ description: With Blynk you can visualize data from any sensor
 
 # How to display ANY sensor data in Blynk app
 
-### First of all, you should know that Blynk can work with ANY sensor.  <a href="first-of-all-you-should-know-that-blynk-can-work-with-any-sensor" id="first-of-all-you-should-know-that-blynk-can-work-with-any-sensor"></a>
+### First of all, you should know that Blynk can work with ANY sensor.  <a href="#first-of-all-you-should-know-that-blynk-can-work-with-any-sensor" id="first-of-all-you-should-know-that-blynk-can-work-with-any-sensor"></a>
 
 All you need to do is:
 
 1. Read the sensor;
 2. Send the data to Blynk App;
 
-### ⚠️ Make sure you can read your sensor without Blynk. <a href="make-sure-you-can-read-your-sensor-without-blynk" id="make-sure-you-can-read-your-sensor-without-blynk"></a>
+### ⚠️ Make sure you can read your sensor without Blynk. <a href="#make-sure-you-can-read-your-sensor-without-blynk" id="make-sure-you-can-read-your-sensor-without-blynk"></a>
 
 There are thousands of different sensors in the world. Some of them can be read simply from Analog Pins, others would need special libraries.
 
@@ -24,12 +24,12 @@ Before you try to visualize the sensor data in Blynk app, you should be able to 
 3. Install the library for your sensor to Arduino IDE;
 4. Print the sensor data to Serial;
 
-After you have a code that can successfully read the sensor, you can start sending it to Blynk App. 
+After you have a code that can successfully read the sensor, you can start sending it to Blynk App.&#x20;
 
 **If you can't get readings from the sensor without Blynk, you won't be able to send it to Blynk app** 😕.\
 
 
-### Let's get started. <a href="lets-get-started" id="lets-get-started"></a>
+### Let's get started. <a href="#lets-get-started" id="lets-get-started"></a>
 
 There are two major ways of displaying sensor data in the app:
 
@@ -39,11 +39,11 @@ There are two major ways of displaying sensor data in the app:
 Depending on the project you are working on, decide what is better for you.\
 
 
-### PULL sensor data when Blynk app is running over Virtual Pins. <a href="pull-sensor-data-when-blynk-app-is-running-over-virtual-pins" id="pull-sensor-data-when-blynk-app-is-running-over-virtual-pins"></a>
+### PULL sensor data when Blynk app is running over Virtual Pins. <a href="#pull-sensor-data-when-blynk-app-is-running-over-virtual-pins" id="pull-sensor-data-when-blynk-app-is-running-over-virtual-pins"></a>
 
 Read this article on [Virtual Pins](http://help.blynk.cc/getting-started/blynk-basics/what-is-virtual-pins) if you don't know what it is.\
 \
-This might be the simplest way of displaying the data in the app. 
+This might be the simplest way of displaying the data in the app.&#x20;
 
 Blynk app can "ask" your hardware for the data when the app is open. When Blynk app is closed or is running in background, data is not requested.
 
@@ -64,11 +64,11 @@ This way of sending data has it's own **Pros** and **Cons**. Consider them when 
 2. Add Value Display Widget;
 3. Go to Widget Settings ;
 4. Set PIN to Virtual Pin **V5**;
-5. Set Frequency to **3 seconds**; 
+5. Set Frequency to **3 seconds**;&#x20;
 
 It means that Blynk app will request the data from Virtual Pin V5 every 3 seconds (when app is open, of course).
 
-**🙌 If you want to simply read Analog Pin, you don't have to write the code. **
+**🙌 If you want to simply read Analog Pin, you don't have to write the code.**&#x20;
 
 **Preparing the code:**
 
@@ -107,13 +107,13 @@ and then write the sensor reading back to Blynk app to Virtual Pin V5
 Blynk.virtualWrite(V5, sensorData);
 ```
 
-### PUSH. Send sensor data from hardware in intervals over Virtual Pins <a href="push-send-sensor-data-from-hardware-in-intervals-over-virtual-pins" id="push-send-sensor-data-from-hardware-in-intervals-over-virtual-pins"></a>
+### PUSH. Send sensor data from hardware in intervals over Virtual Pins <a href="#push-send-sensor-data-from-hardware-in-intervals-over-virtual-pins" id="push-send-sensor-data-from-hardware-in-intervals-over-virtual-pins"></a>
 
 ![](https://uploads.intercomcdn.com/i/o/19867082/18c2a246b7d2afc4cca3ef2f/Sensor+2.png)
 
-####  Avoiding the void  <a href="avoiding-the-void" id="avoiding-the-void"></a>
+#### &#x20;Avoiding the void  <a href="#avoiding-the-void" id="avoiding-the-void"></a>
 
-**☝️ 🔥 ⚠️ VERY IMPORTANT: You can't send sensor data in your** `void loop()` 
+**☝️ 🔥 ⚠️ VERY IMPORTANT: You can't send sensor data in your** `void loop()`&#x20;
 
 – Why?\
 – Because Blynk sends data over the Internet, and when you put something into void loop(), your microcontroller will execute it 🙀 gazillion number of times. Which means that Blynk Cloud will be **flooded** with gazillion messages from your hardware.
@@ -124,7 +124,7 @@ And when Blynk Cloud notices that, it automatically ✂︎ cuts your connection.
 – Send sensor data in intervals!\
 
 
-#### Using timers to send sensor data in intervals <a href="using-timers-to-send-sensor-data-in-intervals" id="using-timers-to-send-sensor-data-in-intervals"></a>
+#### Using timers to send sensor data in intervals <a href="#using-timers-to-send-sensor-data-in-intervals" id="using-timers-to-send-sensor-data-in-intervals"></a>
 
 There are lots of ways to send data in intervals, but here is a simple one. We recommend using a **BlynkTimer** for that. It's included in Blynk Library Package, so if you installed Library correctly, you are all set.
 
@@ -133,9 +133,9 @@ There are lots of ways to send data in intervals, but here is a simple one. We r
 
 1. Create a New Project (new Auth Token will be sent to your email)
 2. Add Value Display Widget
-3. Go to Widget Settings 
+3. Go to Widget Settings&#x20;
 4. Set PIN to **V5**
-5. Set Frequency to **PUSH** 
+5. Set Frequency to **PUSH**&#x20;
 
 It means that Blynk app will be waiting for the data whenever your hardware sends it.
 
@@ -166,7 +166,7 @@ void myTimerEvent()
 }
 ```
 
-In setup, we declare that our function myTimerEvent() should run every 1000 milliseconds, which is 1 second. 
+In setup, we declare that our function myTimerEvent() should run every 1000 milliseconds, which is 1 second.&#x20;
 
 ```
 void setup()

@@ -1,6 +1,6 @@
 # Control Devices (GPIOs and more)
 
-Blynk can control Digital and Analog I/O Pins** **(GPIOs) on your hardware directly. You don’t even need to write code for it. But when it's not enough, you can use Virtual Pins.
+Blynk can control Digital and Analog I/O Pins **** (GPIOs) on your hardware directly. You don’t even need to write code for it. But when it's not enough, you can use Virtual Pins.
 
 We designed Virtual Pins to exchange **any data** between your hardware and Blynk. Anything you connect to your hardware will be able to talk to Blynk. With Virtual Pins you can send something from the App, process it on the microcontroller, and then send it back to the smartphone. You can trigger functions, read I2C devices, convert values, control servo and DC motors etc.
 
@@ -24,10 +24,10 @@ Blynk.virtualWrite(pin, "hello", 123, 12.34);
 
 ###
 
-### How do Virtual Pins** relate to the GPIO pins on my hardware?**
+### How do Virtual Pins **relate to the GPIO pins on my hardware?**
 
 Virtual pins are really just a way of sending a message from the app to the code that’s running on your board (via the Blynk server).\
-There is no correlation between Virtual Pins and any of the physical GPIO pins on your hardware. If you want a Virtual Pin to change the state of one of your physical pins then you have to write the code to make this happen. 
+There is no correlation between Virtual Pins and any of the physical GPIO pins on your hardware. If you want a Virtual Pin to change the state of one of your physical pins then you have to write the code to make this happen.&#x20;
 
 ### ****
 
@@ -39,7 +39,7 @@ We’ll use an example of a Power Switch, set to Integer data type, connected to
 
 ### ****
 
-### **The BLYNK_WRITE(vPin) function**
+### **The BLYNK\_WRITE(vPin) function**
 
 In your C++ sketch, you can add a special function that is triggered automatically whenever the server tells your device that the value of your virtual pin has changed. This change would normally happen when the widget button in the app is pressed.\
 
@@ -147,7 +147,7 @@ There are several ways around this issue. You could change your switch widget ou
 When the device starts up (reboots) it won’t be aware of the state of the button widget in the app, so maybe in a different state to what the button widget shows in the app. This will be rectified when you toggle the button widget in the app, but that’s not a very satisfactory solution.\
 We can force the Blynk server to send the latest value for the virtual pin, by using the `Blynk.syncVirtual(vPin)` command. This causes the corresponding `BLYNK_WRITE(vPin)` command to execute.
 
-To automatically run the `BlynkSyncVirtual(vPin)` command when the device connects to the Blynk server (which will normally be after a reboot but could also be following a disconnection) we can use another special function called \`BLYNK_CONNECTED, like this…
+To automatically run the `BlynkSyncVirtual(vPin)` command when the device connects to the Blynk server (which will normally be after a reboot but could also be following a disconnection) we can use another special function called \`BLYNK\_CONNECTED, like this…
 
 ```cpp
 BLYNK_CONNECTED()
@@ -185,15 +185,15 @@ but personally. I don’t like this approach as it makes it much more difficult 
 
 ****
 
-### **Some NodeMCU physical pins need to be avoided** 
+### **Some NodeMCU physical pins need to be avoided**&#x20;
 
 Some of the pins on the NodeMCU aren’t really suitable for connecting some types of devices to. In particular, if GPIO0 (the pin labelled D3) is pulled LOW at startup then the device won’t execute the sketch and instead, it will enter programming mode, waiting for a new sketch to be uploaded. There’s more info on this topic: [ESP8266 GPIO pins info, restrictions and features](https://community.blynk.cc/t/esp8266-gpio-pins-info-restrictions-and-features/22872) [FAQ](https://community.blynk.cc/c/faq/8)
 
 ****
 
-### **How to trigger multiple actions (e.g. turn 4 relays on/off) with a single button in the app? **
+### **How to trigger multiple actions (e.g. turn 4 relays on/off) with a single button in the app?**&#x20;
 
-You said “_if you want a single app button to switch multiple relays on or off at the same time then that’s simple with virtual pins” but how do we do that_? - It's really very simple with Virtual Pins. 
+You said “_if you want a single app button to switch multiple relays on or off at the same time then that’s simple with virtual pins” but how do we do that_? - It's really very simple with Virtual Pins.&#x20;
 
 Let's say that you have four relays that are all controlled by four different button widgets attached to virtual pins (V1 to V4). These allow independent control of each of the relays, but you then want another button widget, which we’ll attach to virtual pin 5, that can turn all of the relays on or off with just one click.\
 When this button turns on/off all of the relays it also needs to update the 4 button widgets (attached to V1 to V4), so that they are also all on or off.

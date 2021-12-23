@@ -31,19 +31,18 @@ Total quantity numbers for each of them are displayed inside the switches.
 
 ## Events list
 
-Here you can see events in sequential order \(latest to earliest\).
+Here you can see events in sequential order (latest to earliest).
 
-Event name and date are displayed in the header.  
-Short description given in event body can be fully viewed during cursor hover on it.  
+Event name and date are displayed in the header.\
+Short description given in event body can be fully viewed during cursor hover on it.\
 After actions applied you can move notification from Critical or Warning list to Resolved. To do this:
 
-1. Hover on notification, Mark as Resolved button will appear  
+1. Hover on notification, Mark as Resolved button will appear &#x20;
 2. Click **Mark as Resolved**, it will open _\*\*_Commentary modal window
-3. Describe actions made and/or actual specific of what happened to Device by giving a commentary in the input field \(up to 200 characters\)
+3. Describe actions made and/or actual specific of what happened to Device by giving a commentary in the input field (up to 200 characters)
 4. Click **Mark as Resolved.**
 
 ## **Notifications Settings**
 
-This button is on the top right of the screen.  
-Click it to set up events notifications recipients, statuses and channels. Click [this link](../../../getting-started/notification-management.md) for more details.
-
+This button is on the top right of the screen.\
+Click it to set up events notifications recipients, statuses and channels. Click [this link](../../../getting-started/notification-management/) for more details.

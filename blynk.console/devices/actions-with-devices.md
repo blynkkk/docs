@@ -16,7 +16,7 @@ In the list of devices, click **New Device.** A dialogue will pop up:
 
 _\*\*\*\*_
 
-## Actions Column \(mouse over the last column\)
+## Actions Column (mouse over the last column)
 
 ### Rename
 
@@ -38,7 +38,7 @@ In this view you can configure and generate report.
 
 **Send link to email:** when on, a link to download a report will be sent to the specified email address below
 
-**Data Aggregation:** defines how data in the report will be aggregated \(compressed\). Aggregation means that data will be averaged to 1 value per selected time range.
+**Data Aggregation:** defines how data in the report will be aggregated (compressed). Aggregation means that data will be averaged to 1 value per selected time range.
 
 For example, if device sent 60 values in 1 minute, only 1 value will be in the report. This will be an averaged value from all 60 readings. `AVG(reading1, reading2, reading3...reading N)`
 
@@ -68,7 +68,7 @@ Every device has an owner. Usually, the device owner has more access over the de
 In order to change the ownership you need:
 
 * The new device owner should belong to your organization
-* The new device owner account should exist and be activated \(user logged at least once\)
+* The new device owner account should exist and be activated (user logged at least once)
 
 Once the device is transferred, both parties will receive a confirmation.
 
@@ -79,10 +79,10 @@ You can also use the **device transfer** action to move the device within your o
 In order to move the device within organization hierarchy you need:
 
 * The new device owner should belong to your or underlying organizations
-* The new device owner account should exist and be activated \(user logged at least once\)
-* The organization of the new device owner should have the template of the transferred device.
+* The new device owner account should exist and be activated (user logged at least once)
+*   The organization of the new device owner should have the template of the transferred device.
 
-  Right now, all templates from the parent organization are added automatically when the new organization is created, however you can change that
+    Right now, all templates from the parent organization are added automatically when the new organization is created, however you can change that
 
 Once the device is transferred, both parties will receive a confirmation.
 
@@ -94,7 +94,7 @@ This feature is not yet implemented and will be available when **Template publis
 
 ### Edit Template Dashboard
 
-A quick way to edit a dashboard layout for the template of current device. When selected, you will be sent to Device Template -&gt; [Template Dashboard](../templates/dashboard/) edit
+A quick way to edit a dashboard layout for the template of current device. When selected, you will be sent to Device Template -> [Template Dashboard](../templates/dashboard/) edit
 
 {% hint style="info" %}
 Dashboard Editing available from device profile view in [Developer Mode](../../getting-started/developer-mode.md) only.
@@ -102,7 +102,7 @@ Dashboard Editing available from device profile view in [Developer Mode](../../g
 
 ### Notification settings
 
-Opens [Notifications Management](../../getting-started/notification-management.md)
+Opens [Notifications Management](../../getting-started/notification-management/)
 
 ### Erase data
 
@@ -120,14 +120,13 @@ Deletes Device entry and all it's data. **⚠️ It's a critical action**
 
 ## Bulk actions
 
-Bulk actions are available when multiple devices are selected in the list view. To access these actions choose devices and press action button \("three dots"\) at the top of the device list.
+Bulk actions are available when multiple devices are selected in the list view. To access these actions choose devices and press action button ("three dots") at the top of the device list.
 
 {% hint style="warning" %}
 Only loaded/visible devices will be selected. To load devices - scroll down to reveal more devices.
 {% endhint %}
 
 * **Tag:** apply a [tag](../settings/organization-settings/tags.md) to multiple devices
-* **Export devices CSV:** download the list of devices in CSV format 
+* **Export devices CSV:** download the list of devices in CSV format&#x20;
 * **Notification settings** - apply same notification settings to multiple devices
 * **Delete:** deletes all selected devices their data.**⚠️ It's a critical action**
-

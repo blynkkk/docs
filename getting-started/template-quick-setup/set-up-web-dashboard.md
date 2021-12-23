@@ -10,7 +10,7 @@ Go to [Dashboard ](../../blynk.console/devices/device-profile/dashboard.md)Tab a
 
 Drag and drop them to Dashboard Preview window:
 
-![](https://gblobscdn.gitbook.com/assets%2F-MBFTVMf7L6S67HOuqVC%2F-MVMYDq0TRdqW29XdjDl%2F-MVN7FVW7Np3NfDOn3a3%2Fadd_widgets.gif?alt=media\&token=b1f61faa-acc1-46a8-ad65-5dff6b4039bc)
+![](https://gblobscdn.gitbook.com/assets%2F-MBFTVMf7L6S67HOuqVC%2F-MVMYDq0TRdqW29XdjDl%2F-MVN7FVW7Np3NfDOn3a3%2Fadd\_widgets.gif?alt=media\&token=b1f61faa-acc1-46a8-ad65-5dff6b4039bc)
 
 After widgets are added you can apply the following **actions**:
 
@@ -20,16 +20,16 @@ After widgets are added you can apply the following **actions**:
 * **Clone** – clones the selected widget (also it can be applied to configured widget). Hover the widget and navigate to top right, click clone pictogram.
 * **Configure** – opens widget configuration window.
 
-![](https://gblobscdn.gitbook.com/assets%2F-MBFTVMf7L6S67HOuqVC%2F-MVMYDq0TRdqW29XdjDl%2F-MVNG7AC55GueGyh3LsB%2Fwidget_ext_actions.gif?alt=media\&token=b3652d5e-eff2-4187-97fd-58a588151e3b)
+![](https://gblobscdn.gitbook.com/assets%2F-MBFTVMf7L6S67HOuqVC%2F-MVMYDq0TRdqW29XdjDl%2F-MVNG7AC55GueGyh3LsB%2Fwidget\_ext\_actions.gif?alt=media\&token=b3652d5e-eff2-4187-97fd-58a588151e3b)
 
 You'll get a Dashbord view like this one as result:
 
 ![](https://user-images.githubusercontent.com/72824404/119656472-690cfb00-be33-11eb-9f1e-668f0ebcf060.png)
 
 {% hint style="warning" %}
-**IMPORTANT! **At this stage you have set up a dashboard _template _only and it will not yet connect to your actual devices. You will need to save the template and apply it to actual devices.
+**IMPORTANT!** At this stage you have set up a dashboard _template_ only and it will not yet connect to your actual devices. You will need to save the template and apply it to actual devices.
 
-In order to see actual data and interact with your device, you need to go to your devices: Search -> My Devices -> Device 
+In order to see actual data and interact with your device, you need to go to your devices: Search -> My Devices -> Device&#x20;
 {% endhint %}
 
 ## Switch Widget Settings
@@ -53,9 +53,9 @@ On this widget, we will be showing historical data from the device from the `V0`
 Click **Save** button at top right of the screen to save all the changes made to the Template.
 
 {% hint style="warning" %}
-**IMPORTANT! **At this stage you have set up a dashboard _template _only and it will not yet connect to your devices. You will need to save the template and apply it to actual devices.
+**IMPORTANT!** At this stage you have set up a dashboard _template_ only and it will not yet connect to your devices. You will need to save the template and apply it to actual devices.
 
-In order to see actual data and interact with your device, you need to go to your devices: Search -> My Devices -> Device 
+In order to see actual data and interact with your device, you need to go to your devices: Search -> My Devices -> Device&#x20;
 {% endhint %}
 
 

@@ -44,35 +44,35 @@ All the columns support sorting.
 
 There are 5 specific columns:
 
-* **Location Name **
-* **Full Address **– displays full address of the Location
-* **Owner Name **– displays the Name of user who assigned to this Location
-* **Country **– displays the country where the Location is located
-* **Owner E-mail **– displays E-mail of  user who assigned to this Location
+* **Location Name**&#x20;
+* **Full Address** – displays full address of the Location
+* **Owner Name** – displays the Name of user who assigned to this Location
+* **Country** – displays the country where the Location is located
+* **Owner E-mail** – displays E-mail of  user who assigned to this Location
 
-Table view can be **sorted **in ascending/descending order by any column value.
+Table view can be **sorted** in ascending/descending order by any column value.
 
 **Single Actions** menu is triggered by hovering Actions column in Location's row. Available actions:
 
-*   **Edit Location **– edit data of Location. Modal window will appear. 
+*   **Edit Location** – edit data of Location. Modal window will appear.&#x20;
 
-    Confirm or cancel the action   
+    Confirm or cancel the action  &#x20;
 
 ![](../../.gitbook/assets/list-of-locations-single-actions-edit.png)
 
-* **Delete Location **– modal window will appear. Type DELETE and confirm the action are required.
+* **Delete Location** – modal window will appear. Type DELETE and confirm the action are required.
 
 ![](../../.gitbook/assets/list-of-locations-single-actions-delete.png)
 
 
 
-The only **Bulk Action** available here is to Delete the Locations. 
+The only **Bulk Action** available here is to Delete the Locations.&#x20;
 
 ![](../../.gitbook/assets/list-of-locations-bulk-actions.png)
 
-1. Select all Locations by marking **checkbox **in columns naming row or specify Locations selection by marking each Location's checkbox.
-2. Once Locations selection is made **Delete **button appears on the top right of the screen.
-3. Don't worry, there's a prompt  "Delete Selected Locations?" with **Cancel **and ** Delete** buttons.
+1. Select all Locations by marking **checkbox** in columns naming row or specify Locations selection by marking each Location's checkbox.
+2. Once Locations selection is made **Delete** button appears on the top right of the screen.
+3. Don't worry, there's a prompt  "Delete Selected Locations?" with **Cancel** and **Delete** buttons.
 4. Type DELETE and confirm the action are required.
 
 
@@ -83,40 +83,40 @@ The only **Bulk Action** available here is to Delete the Locations.
 
 
 
-Locations can be found by Location **Name**,** Address** or **Owner E-mail** – type at least 3 characters to get search results in the table.
+Locations can be found by Location **Name**, **Address** or **Owner E-mail** – type at least 3 characters to get search results in the table.
 
 ### New Location
 
-This button click opens modal window. 
+This button click opens modal window.&#x20;
 
 ![](../../.gitbook/assets/create-new-location.png)
 
 
 
-* **Name **– make it meaningful and readable. 48 characters limit.
-*   **Address **(field will appear after Name input) – start typing Location address up to 48 characters and there are 2 options available: 
+* **Name** – make it meaningful and readable. 48 characters limit.
+*   **Address** (field will appear after Name input) – start typing Location address up to 48 characters and there are 2 options available:&#x20;
 
-    * select from search suggestions 
+    * select from search suggestions&#x20;
     * input manually
 
     Full form will be opened:
 
-![](../../.gitbook/assets/new_location.png)
+![](../../.gitbook/assets/new\_location.png)
 
-![](../../.gitbook/assets/location_fullform.png)
+![](../../.gitbook/assets/location\_fullform.png)
 
 
 
 Check all the fields to be filled and correct here:
 
-* **Name **– will be transferred from the previous form. Can be edited.
-* **Address **– will be transferred from the previous form. Can be edited.
-* **ZIP **– postal code
+* **Name** – will be transferred from the previous form. Can be edited.
+* **Address** – will be transferred from the previous form. Can be edited.
+* **ZIP** – postal code
 * **State**
 * **City**
 * **Country**
-* **Latitude **and **Longitude **– automatically generated from the data given and can't be edited
-* **Map view **– location preview. No set point functionality at the moment.
+* **Latitude** and **Longitude** – automatically generated from the data given and can't be edited
+* **Map view** – location preview. No set point functionality at the moment.
 
 ### Location Page
 

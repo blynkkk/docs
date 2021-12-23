@@ -26,7 +26,7 @@ Statuses are:
 * **Active** – the user confirmed the email, logged at least one time
 * **Inactive** – the user hasn't logged for 1 month
 
-To invite new member press **Add** **User ** in the upper right corner
+To invite new member press **Add** **User** in the upper right corner
 
 ![User invitation](https://user-images.githubusercontent.com/72790181/119666581-2b619f80-be3e-11eb-833f-cf60a73a376a.png)
 
@@ -38,6 +38,6 @@ Full control over permissions is only available in [PRO plans](https://www.blynk
 
 These roles are available by default:
 
-* **Admin** – supposed to have the most rights 
-* **Staff** – use this role for those who provide user support, need to invite other users,  check all devices, supervise other organizations (clients) 
+* **Admin** – supposed to have the most rights&#x20;
+* **Staff** – use this role for those who provide user support, need to invite other users,  check all devices, supervise other organizations (clients)&#x20;
 * **User** – supposed to have basic permissions

@@ -6,9 +6,9 @@ description: >-
 
 # Enumerable
 
-This Datastream specific fields INCOMING and OUTCOME allow to transform integer data to string. 
+This Datastream specific fields INCOMING and OUTCOME allow to transform integer data to string.&#x20;
 
-![](../../../.gitbook/assets/enum_ds.png)
+![](../../../.gitbook/assets/enum\_ds.png)
 
 Example:\
 Device has sets of three positions: Open, Vent, Closed. In means of servo they are: 130, 20 and 0 \
@@ -18,8 +18,8 @@ So each time servo reaches any of those positions you'll get a readable state re
 Follow these steps to create value translation:
 
 1. click **add row**
-2. set integer value than can be sent by your Device in **INCOMING **field
-3. in **OUTCOME **type string value that will be used/viewed instead of original integer value
+2. set integer value than can be sent by your Device in **INCOMING** field
+3. in **OUTCOME** type string value that will be used/viewed instead of original integer value
 4. you can assign a color to this conversion
 5. click **add row** to set further conversion values
 

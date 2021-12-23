@@ -8,10 +8,10 @@ Due to any malfunction your device could stop sending the updates. Without the i
 
 Currently you can select one of the following invalidation policies:
 
-* **Nothing **- widget will be empty and will show nothing
-* **Default **- widget will be filled with the default value of the data stream if it is present
+* **Nothing** - widget will be empty and will show nothing
+* **Default** - widget will be filled with the default value of the data stream if it is present
 * **No Data** - text `No Data` will be showed
-* **Empty **- text `Empty` will be showed
+* **Empty** - text `Empty` will be showed
 * **--** - text `--` will be showed
 
 ![](../../../../.gitbook/assets/invalidate.gif)

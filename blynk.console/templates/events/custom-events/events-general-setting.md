@@ -1,18 +1,18 @@
 # General Settings
 
-![](../../../../.gitbook/assets/new_ev_gen.png)
+![](../../../../.gitbook/assets/new\_ev\_gen.png)
 
 ### Event Name
 
 Give your event a meaningful name because it will be shown to end-users. \
-Use letters, digits, spaces, and underscores only. 50 character limit. 
+Use letters, digits, spaces, and underscores only. 50 character limit.&#x20;
 
 **IMPORTANT:** Event name should be unique within the product.
 
 ### Event Code
 
 Event code is used in firmware API to trigger and render events from the device.\
-Use letters, digits, spaces, and underscores only. 50 character limit. 
+Use letters, digits, spaces, and underscores only. 50 character limit.&#x20;
 
 **IMPORTANT:** Event code should be unique within the product.
 
@@ -20,24 +20,24 @@ Use letters, digits, spaces, and underscores only. 50 character limit.
 
 There are 3 types of Events which help you to set the importance level to an events:
 
-* **Info **– low priority general information. Green color is set by default.
-* **Warning **– ignoring this event may cause the issues. Orange color is set by default. 
-* **Critical **– immediate attention or action is required. Red color is set by default.
-* **Content **– special type of events that can provide some extra info (e.g. picture, link, additional text information)
+* **Info** – low priority general information. Green color is set by default.
+* **Warning** – ignoring this event may cause the issues. Orange color is set by default.&#x20;
+* **Critical** – immediate attention or action is required. Red color is set by default.
+* **Content** – special type of events that can provide some extra info (e.g. picture, link, additional text information)
 
-**IMPORTANT: **Events' colors are used in Analytics
+**IMPORTANT:** Events' colors are used in Analytics
 
 ### Description
 
-Optional field that can contain a description of an event. 250 character limit. 
+Optional field that can contain a description of an event. 250 character limit.&#x20;
 
 ### Content type specific fields
 
-**Subtitle **– short description of the event nature, e.g. provided content type, category of the event, it's content or action
+**Subtitle** – short description of the event nature, e.g. provided content type, category of the event, it's content or action
 
-**Image Link **– URL (must be accessible to your users) to picture you want to show
+**Image Link** – URL (must be accessible to your users) to picture you want to show
 
-**Action Title **– description or invitation to perform Action Link transition   
+**Action Title** – description or invitation to perform Action Link transition  &#x20;
 
 **Action Link** – URL to new library, firmware, application version or your/partner's web page
 

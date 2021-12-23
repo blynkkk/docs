@@ -11,10 +11,10 @@ description: >-
 
 1. **Edit** your Template
 2. Switch to _Datastream tab_
-3. _Select and click _the Datastream you want to be used in Automations. Modal window will appear
+3. _Select and click_ the Datastream you want to be used in Automations. Modal window will appear
 4. Click **+ Advanced Settings**
-5. Enable **Expose to Automation **at the bottom of the modal window
-6. Enable **Available in Conditions **below
+5. Enable **Expose to Automation** at the bottom of the modal window
+6. Enable **Available in Conditions** below
 
 ![](../../../../.gitbook/assets/cpt2105201739-1919x971.gif)
 
@@ -36,5 +36,5 @@ Type defines what kind of Action or Trigger is it and how it will be presented f
 
 **Action:** makes this Datastream available as an Action. Some of the Automation Types can be only a condition.
 
-![](../../../../.gitbook/assets/expose_to_auto.gif)
+![](../../../../.gitbook/assets/expose\_to\_auto.gif)
 

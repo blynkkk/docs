@@ -6,9 +6,9 @@ description: Turn your things On / Off or send any data from Blynk app to hardwa
 
 Blynk can control any electronics, GPIOs, relays, anything. You just need to know the basics, which are super simple.
 
-☝️ **You need Blynk library installed. Here is the guide how to **[**install Blynk Library**](http://intercom.help/blynk/getting-started/step-by-step/how-to-install-blynk-library)**.**
+☝️ **You need Blynk library installed. Here is the guide how to** [**install Blynk Library**](http://intercom.help/blynk/getting-started/step-by-step/how-to-install-blynk-library)**.**
 
-There are two ways of turning things ON and OFF with Blynk: 
+There are two ways of turning things ON and OFF with Blynk:&#x20;
 
 1. **Simple**. Directly controlling Digital I/O pins with **no coding;**
 2. **Advanced**, using Virtual Pins and simple code;
@@ -19,9 +19,9 @@ In this article we will describe both cases.
 Let's try turning on/off LED connected to **Digital Pin D3** of your hardware.\
 
 
-![](https://uploads.intercomcdn.com/i/o/19421463/dfe3e0f06f459c4b9ff06fc0/LED_blink\_320.gif)
+![](https://uploads.intercomcdn.com/i/o/19421463/dfe3e0f06f459c4b9ff06fc0/LED\_blink\_320.gif)
 
-### Control GPIOs with no extra coding <a href="control-gpios-with-no-extra-coding" id="control-gpios-with-no-extra-coding"></a>
+### Control GPIOs with no extra coding <a href="#control-gpios-with-no-extra-coding" id="control-gpios-with-no-extra-coding"></a>
 
 **In Blynk app:**
 
@@ -45,7 +45,7 @@ Use our **Blynk Examples Sketch Builder** to create the code for your hardware.
 
 ![](https://uploads.intercomcdn.com/i/o/19400959/c0c34377e80478a4a02354ca/examples2.gif)
 
-### Input your Auth Token <a href="input-your-auth-token" id="input-your-auth-token"></a>
+### Input your Auth Token <a href="#input-your-auth-token" id="input-your-auth-token"></a>
 
 In the example sketch find the line:
 
@@ -63,11 +63,11 @@ char auth[] = "53e4da8793764b6197fc44a673ce4e21";
 
 🔥 Flash the example code to your hardware.
 
-### Advanced. Using Virtual Pins to turn things ON and OFF <a href="advanced-using-virtual-pins-to-turn-things-on-and-off" id="advanced-using-virtual-pins-to-turn-things-on-and-off"></a>
+### Advanced. Using Virtual Pins to turn things ON and OFF <a href="#advanced-using-virtual-pins-to-turn-things-on-and-off" id="advanced-using-virtual-pins-to-turn-things-on-and-off"></a>
 
 Sometimes, triggering single Digital Pin is not enough. Sometimes you need more flexibility. For example, how to control brightness of 3 LEDs using one Slider Widget, or trigger a a whole set of actions with 1 button?
 
-We've got you covered. 
+We've got you covered.&#x20;
 
 1. In Blynk app add a Slider Widget and set it to use **Virtual Pin V1**;
 2. Change [this basic sketch](http://examples.blynk.cc/?board=ESP8266\&shield=ESP8266%20WiFi\&example=GettingStarted%2FGetData) to match your hardware and connection type;
@@ -84,7 +84,7 @@ BLYNK_WRITE(V1)
 }
 ```
 
-This is where we tell the hardware what to do when there is a WRITING command from Blynk app to **Virtual Pin V1. **
+This is where we tell the hardware what to do when there is a WRITING command from Blynk app to **Virtual Pin V1.**&#x20;
 
 Our Slider widget sends data to V1:
 
@@ -92,7 +92,7 @@ Our Slider widget sends data to V1:
 BLYNK_WRITE(V1) //something in Blynk app WRITEs to pin V1 
 ```
 
-☝️ **BLYNK_WRITE should be placed OUTSIDE of void loop();**\
+☝️ **BLYNK\_WRITE should be placed OUTSIDE of void loop();**\
 \
 The next line is to get the actual incoming value:
 
@@ -146,6 +146,6 @@ BLYNK_WRITE(V5) // Button Widget writes to Virtual Pin V5
 
 **---**
 
-**If you have questions or something is not working, visit our 👥 **[**community**](https://community.blynk.cc)** page.**
+**If you have questions or something is not working, visit our 👥** [**community**](https://community.blynk.cc) **page.**
 
 Also, full 📗 documentation is [here](http://docs.blynk.cc).
