@@ -122,7 +122,7 @@ Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a 
 
 ###
 
-### Supported properties
+### Properties you can change
 
 Examples below use Virtual Pin V01. Change to your parameters.&#x20;
 
