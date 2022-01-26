@@ -89,7 +89,7 @@ You have two options for generating the number of Tokens you need based on the n
 * Automatically generate the number of tokens you need
 * Generate Tokens based on the CSV file you provide&#x20;
 
-### Automatically generate the number of tokens
+### Generate tokens automatically
 
 This is the simplest way to generate any number of Static Tokens you need.
 
