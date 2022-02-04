@@ -19,7 +19,7 @@ Fill the form and tap **Create new client**
 
 ![](../.gitbook/assets/clients_list.png)
 
-After the client is created an invitation Email will be sent and his/her card will be shown in the **Active Clients** list.
+After the client is created an invitation Email will be sent and their card will be shown in the **Active Clients** list.
 
 Also this screen has **Awaiting Your Confirmation** section where you can see invitations to join Client's Organizations. Once confirmed you can view and/or manage Clients' Devices accordingly to permissions Clients' have granted you .
 
