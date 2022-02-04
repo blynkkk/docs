@@ -1,8 +1,12 @@
-# Firmware Over-The-Air (Blynk.Air)
+# OTA: Firmware Over-The-Air updates
 
-Blynk offers an interface to easily update your devices over-the-air.
+Blynk offers an interface to easily update your devices over-the-air. It's called Blynk.Air
 
-**Note:** currently, OTA provisioning works on ESP32, ESP8266, Seeed WiO Terminal, Arduino MKR1010, Arduino Nano 33IoT, and Texas Instruments CC3220. Raspberry Pi will be supported soon.
+{% hint style="info" %}
+OTA works only with ESP32, ESP8266, Seeed WiO Terminal, Arduino MKR1010, Arduino Nano 33IoT, and Texas Instruments CC3220. Raspberry Pi will be supported soon.
+
+Currently, OTA can only work over WiFi
+{% endhint %}
 
 ## Overview
 
@@ -60,7 +64,7 @@ Now you are ready to ship it.
 
 1. Go to [**Blynk.Air**](https://github.com/blynkkk/docs/tree/874cbfc84deeb7af25fc16dc69cc0aabc984189c/blynk.console/blynk.air) in Left Menu
 2. Click **New Shipping** button
-3. Specify Target Selection 
+3. Specify Target Selection&#x20;
 
 ![](../.gitbook/assets/target-selection.png)
 
@@ -75,16 +79,16 @@ If you leave the selection empty, all of the devices made from this Template wil
 8\. Check for **Optional Settings** under Template selection field and in \_\*\*\_Review and start area\
 9\. Press **Start Shipping**
 
-![](../.gitbook/assets/review_and_start.png)
+![](../.gitbook/assets/review\_and\_start.png)
 
 Now you are all set. The shipping has started.
 
 You will see the progress of the shipping. You can close it, the shipping will continue working.
 
-![](../.gitbook/assets/shipping_in_progress.png)
+![](../.gitbook/assets/shipping\_in\_progress.png)
 
 You can always check your Shippings status and progress by accessing list of all OTA updates.
 
-![](../.gitbook/assets/shipments_tab.png)
+![](../.gitbook/assets/shipments\_tab.png)
 
 Read more about over-the-air updates here:

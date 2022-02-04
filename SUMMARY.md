@@ -23,7 +23,7 @@
 * [Log Events](getting-started/events-tutorial.md)
 * [Send Notifications (Alerts)](getting-started/notification-management/README.md)
   * [Use Automations To Send Notifications (no code)](getting-started/notification-management/use-automations-to-send-notifications-no-code.md)
-* [Firmware Over-The-Air (Blynk.Air)](getting-started/updating-devices-firmwares-ota.md)
+* [OTA: Firmware Over-The-Air updates](getting-started/updating-devices-firmwares-ota.md)
 * [Metadata Tutorial](getting-started/metadata-tutorial.md)
 * [Sign Up / Sign In](getting-started/signup.md)
 

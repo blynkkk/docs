@@ -203,7 +203,7 @@ When customers receive your device, they would need to claim (activate) it. For 
 * QR code image
 * Account in Blynk
 
-Have in mind, that in order to claim the device it shouldn't be connected to the Blynk.Cloud. End user can claim both connected and not connected yet devices. Both Blynk.Apps ans Blynk.Console have "device online" indicator, so the user will always know if device is connected or not.
+Have in mind, that in order to claim the device it shouldn't be connected to the Blynk.Cloud. End user can claim both connected and non-yet-connected devices. Both Blynk.Apps ans Blynk.Console have "device online" indicator, so the user will always know if device is connected or not.
 
 This is how the flow with connected device looks like in details:
 
@@ -227,13 +227,12 @@ If the user deletes the device from their account, it becomes unclaimed. After t
 
 ### PRO Plan Workflow
 
-1. You create a new sub organization for your client in Blynk.Console → Organizations&#x20;
-2. Invite your client to this organization using their email
-3. Your customers get an invitation email&#x20;
-4. Customer follows the invite link and creates a password for their account
-5. Customers login using Blynk.Apps for iOS and Android or login to Blynk.Console
-6. Customer scans the QR code
-7. Device appears under their account and is ready for use
+1. Create a new sub-organization for your client in **Blynk.Console → Organizations**
+2. Invite your client to this organization using their email. Your customer will get an invitation to create a new accoun by simply creating a password.
+3. Customer logs in using Blynk.Apps for iOS and Android or Blynk.Console in their broswer.
+4. Make sure your customer has a QR code image
+5. Customer scans the provided QR code
+6. Device appears under their account and is ready for use
 
 ###
 
@@ -259,7 +258,7 @@ It's beneficial to prepare instructions for your customers outlining the steps t
 
 Blynk.Console allows you to manage Static Tokens.&#x20;
 
-###
+
 
 ### Disclaiming a Static Token
 
