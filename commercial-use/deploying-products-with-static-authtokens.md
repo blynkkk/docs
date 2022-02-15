@@ -36,7 +36,7 @@ AuthToken is usually not exposed to the end users due to security reasons (for t
 
 ### QR Token
 
-This is a special token encoded into a QR code image. This QR code is used only for assigning a certain device to a certain user within a certain organization. This process is also called **Device claiming**.
+This is a special token encoded into a QR code image. QR code is used only for assigning a certain device to a certain user within a certain organization. This process is also called **Device claiming**.
 
 During device claiming, your customers scan the QR code using Blynk.Apps or Blynk.Console and it's automatically assigned to their account and their organization.
 
@@ -50,7 +50,7 @@ After the QR token was used, device can't be claimed by anyone else. It can be u
 
 ### Relationship to the Device Template
 
-Static Tokens are generated from a specific Device Template. When device connects to the Blynk.Cloud for the first time, AuthToken is used for authentication. Then the server checks whether such AuthToken belongs to a Static Token. If this is true, this device will be using a corresponding Template.
+Static Tokens are generated for a specific Device Template. When device connects to the Blynk.Cloud for the first time, AuthToken is used for authentication. Then the server checks whether such AuthToken belongs to a Static Token. If this is true, this device will be using a corresponding Template.
 
 ###
 
@@ -58,10 +58,12 @@ Static Tokens are generated from a specific Device Template. When device connect
 
 When you generate Static Tokens, they are created in your organization. You will have all the visibility on them and access the tools to manage these tokens further.
 
-A common scenario is when the device goes online before getting into customer's hands. Such device will be authenticated by Blynk.Cloud and placed into the organization where the Static Token was created. Device will have unclaimed status. When end user claims it, device ownership will be updated and device will be transferred to the user's organization automatically.
+A common scenario is when the device goes online before getting into customer's hands. Such device will be authenticated by Blynk.Cloud and placed into the organization where the Static Token was created. Device will have **unclaimed** status. When end user claims it, device ownership will be updated and device will be transferred to the user's organization automatically.
+
+
 
 {% hint style="info" %}
-Blynk currently doesn't support over-the-air firmware updates for devices that utilize Static Tokens. Such functionality is planned for later releases of Blynk platform.
+Blynk currently doesn't support over-the-air firmware updates for devices that utilize Static Tokens. Such functionality is planned for future releases.
 {% endhint %}
 
 
@@ -175,7 +177,11 @@ This tool simplifies the flashing process significantly. Contact us if you would
 
 ## 3. Preparing for device delivery
 
-Once your devices are flashed with AuthTokens, you need to prepare QR codes. These codes will be used by your clients to claim their devices.
+Once your devices are flashed with AuthTokens and tested, you would need to prepare QR codes. These codes will be used by your clients to claim their devices.
+
+{% hint style="info" %}
+If you plan to test, setup, calibrate or perform any actions with the device before sending it to customer, you can do safely do so. Devices will remain working in your organization, but stay unclaimed before the QR code is scanned. After the scan, device will be claimed and moved to the client's organization.
+{% endhint %}
 
 #### Printing QR codes
 
