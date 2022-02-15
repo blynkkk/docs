@@ -180,7 +180,9 @@ This tool simplifies the flashing process significantly. Contact us if you would
 Once your devices are flashed with AuthTokens and tested, you would need to prepare QR codes. These codes will be used by your clients to claim their devices.
 
 {% hint style="info" %}
-If you plan to test, setup, calibrate or perform any actions with the device before sending it to customer, you can do safely do so. Devices will remain working in your organization, but stay unclaimed before the QR code is scanned. After the scan, device will be claimed and moved to the client's organization.
+If you plan to test, setup, calibrate or perform any actions with the device before sending it to customer, you can do safely do so. Devices will remain working in your organization, but stay unclaimed before the QR code is scanned.
+
+Only after the QR code is scanned, device will change status to "Claimed" and moved to the client's organization.
 {% endhint %}
 
 #### Printing QR codes
@@ -242,7 +244,7 @@ If the user deletes the device from their account, it becomes unclaimed. After t
 
 ###
 
-### "Discovery" plan workflow (delivery planned for Q1 2022)
+### "Discovery" plan workflow (delivery planned for Q2-Q3 2022)
 
 {% hint style="warning" %}
 This feature is not available yet.
