@@ -4,14 +4,13 @@ Each device can have multiple dashboard tabs in Blynk Console. This feature allo
 
 To create new tabs in your web dashboard in Blynk.Console:
 
-* Go to Device Template
-* Go to Web Dashboard section
+* Go to Device Template -> Web Dashboard
 * Click on “Add Tab”
 * Name the tab
 * Add widgets as usual
 
 ![](<../../../.gitbook/assets/Screenshot 2022-03-17 at 18.37.53.png>)
 
-Here is how you can define who will have access to the new tabs you are creating:
+You can define who will have access to the new tabs you are creating. Main Dashboard tab doesn't have access controls and can't be deleted.
 
 ![](<../../../.gitbook/assets/Screenshot 2022-03-17 at 18.58.05.png>)

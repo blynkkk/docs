@@ -5,15 +5,15 @@
 It's designed to group and visualize data of selected Datastreams in Widgets (interface modules). Each of them performs a specific input/output function when communicating with the hardware.\
 There are 9 Widgets available:
 
-* [**Slider**](slider.md)
-* [**Switch**](switch.md)
-* [**Label**](label.md)
-* [**Gauge**](gauge.md)****
-* ****[**LED**](led.md)****
-* ****[**Image Gallery**](image-gallery.md) **** (Plus/Pro subscriptions)
-* [**Chart**](chart.md)
-* [**Map**](map.md) **** (Plus/Pro subscriptions)
-* [**Modules**](modules.md) **** (Plus/Pro subscriptions)
+* [**Slider**](../../widgets-console/slider.md)
+* [**Switch**](../../widgets-console/switch.md)
+* [**Label**](../../widgets-console/label.md)
+* [**Gauge**](../../widgets-console/gauge.md)****
+* ****[**LED**](../../widgets-console/led.md)****
+* ****[**Image Gallery**](../../widgets-console/image-gallery.md) **** (Plus/Pro subscriptions)
+* [**Chart**](../../widgets-console/chart.md)
+* [**Map**](../../widgets-console/map.md) **** (Plus/Pro subscriptions)
+* [**Modules**](../../widgets-console/modules.md) **** (Plus/Pro subscriptions)
 
 To add widgets drag and drop them to Dashboard Preview window:
 

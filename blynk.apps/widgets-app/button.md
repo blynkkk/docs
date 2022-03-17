@@ -1,6 +1,6 @@
 # Button
 
-The button is made to turn something on and off on your device. However, it can do much more
+The button is made to turn something on and off on your device. However, it can do more.
 
 ## Settings
 

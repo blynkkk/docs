@@ -4,9 +4,9 @@ Now we need to to setup a dashboard template to interact with our device and vis
 
 Go to [Dashboard ](../../blynk.console/devices/device-profile/dashboard.md)Tab and drag-n-drop these widgets to the canvas:
 
-* [Switch](../../blynk.console/templates/dashboard/switch.md)
-* [Label](../../blynk.console/templates/dashboard/label.md)
-* [Chart](../../blynk.console/templates/dashboard/chart.md)
+* [Switch](../../blynk.console/widgets-console/switch.md)
+* [Label](../../blynk.console/widgets-console/label.md)
+* [Chart](../../blynk.console/widgets-console/chart.md)
 
 Drag and drop them to Dashboard Preview window:
 
