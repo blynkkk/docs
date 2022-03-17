@@ -1,6 +1,6 @@
 # Label
 
-_**Note:**_ please remember that web and apps widgets are set up separately and may have same datastreams set to view the same data (excepts Map widgets – those two use different codebase now).
+_**Note:**_ please remember that web and apps widgets are set up separately and may have same datastreams set to view the same data (excepts Image Gallery Map widgets – those two use different codebase now).
 
 Label is used to show value of Virtual Pin e.g. length/distance, mass, duration, volume, temperature and other data types including strings.
 
@@ -10,17 +10,17 @@ Label is used to show value of Virtual Pin e.g. length/distance, mass, duration,
 
   * **Choose Source** contains _**Datastreams used in the Product**_. Select one;  \
 
-  *   the left is _**Source agregation type menu**_ it's used to select an option to be viewed:  
+  *   the left is _**Source agregation type menu**_ it's used to select an option to be viewed: &#x20;
 
-      **AVG of** will plot average value per minute;  
+      **AVG of** will plot average value per minute; &#x20;
 
-      **Raw of** data will plot using all the data available;  
+      **Raw of** data will plot using all the data available; &#x20;
 
-      **SUM of** will summarize all incoming values to the specified Virtual Pin;  
+      **SUM of** will summarize all incoming values to the specified Virtual Pin; &#x20;
 
-      **MIN of** will plot minimum value per minute;  
+      **MIN of** will plot minimum value per minute; &#x20;
 
-      **MAX of** will plot maximum value per minute;  
+      **MAX of** will plot maximum value per minute; &#x20;
 
       **COUNT of** will plot the number of times data was sent by device per minute;  \
 
@@ -43,5 +43,5 @@ Label is used to show value of Virtual Pin e.g. length/distance, mass, duration,
 
 * **Level** – enable it by switching **Show level** on to visualize accordingly to values set in **MIN and MAX Value** fields below.
 
-![Label widget setup demo](../../../.gitbook/assets/label_setup.gif)
+![Label widget setup demo](../../../.gitbook/assets/label\_setup.gif)
 

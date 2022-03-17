@@ -1,6 +1,6 @@
 # Chart
 
-_**Note:**_ please remember that web and apps widgets are set up separately and may have same datastreams set to view the same data (excepts Map widgets – those two use different codebase now).
+_**Note:**_ please remember that web and apps widgets are set up separately and may have same datastreams set to view the same data (excepts Image Gallery Map widgets – those two use different codebase now).
 
 Chart is used to visualise live and historical data. You can use it for sensor data, for binary event logging and more.
 
@@ -28,11 +28,11 @@ Chart is used to visualise live and historical data. You can use it for sensor d
 
       **COUNT of** will plot the number of times data was sent by device per minute;\
 
-* **Chart type** - 4 types are available: _Line, Area, Column, Stepline_. Pick a color to make it different from other sources may use under this chart.  
-  * **Show Y-axis** – enable if it's needed to view Datastream values on the axis (X-axis displays the time);  
+* **Chart type** - 4 types are available: _Line, Area, Column, Stepline_. Pick a color to make it different from other sources may use under this chart. &#x20;
+  * **Show Y-axis** – enable if it's needed to view Datastream values on the axis (X-axis displays the time); &#x20;
   * **Autoscale** – enable if there's no specific limitations of the data values needed to be viewed. Otherwise specify them by setting the values in **MIN** and **MAX** fields.\
 
 * **Enable zoom** – enable if chart zoom may be useful. Otherwise leave it disabled.
 
-![Chart widget setup demo](../../../.gitbook/assets/chart_setup.gif)
+![Chart widget setup demo](../../../.gitbook/assets/chart\_setup.gif)
 

@@ -110,6 +110,9 @@
     * [Switch](blynk.console/templates/dashboard/switch.md)
     * [Segmented Switch](blynk.console/templates/dashboard/segmented-switch.md)
     * [Label](blynk.console/templates/dashboard/label.md)
+    * [Gauge](blynk.console/templates/dashboard/gauge.md)
+    * [LED](blynk.console/templates/dashboard/led.md)
+    * [Image Gallery](blynk.console/templates/dashboard/image-gallery.md)
     * [Chart](blynk.console/templates/dashboard/chart.md)
     * [Map](blynk.console/templates/dashboard/map.md)
     * [Modules](blynk.console/templates/dashboard/modules.md)
@@ -161,7 +164,7 @@
 
 ## Blynk.Edgent
 
-* [Overview](blynk.edgent/overview.md)
+* [Blynk.Edgent Overview](blynk.edgent/overview.md)
 * [Supported Boards](blynk.edgent/supported-boards.md)
 * [Installation](blynk.edgent/installation.md)
 * [Main Operations](blynk.edgent/mainoperations/README.md)

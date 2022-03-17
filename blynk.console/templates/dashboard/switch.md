@@ -1,6 +1,6 @@
 # Switch
 
-_**Note:**_ please remember that web and apps widgets are set up separately and may have same datastreams set to view the same data (excepts Map widgets – those two use different codebase now).
+_**Note:**_ please remember that web and apps widgets are set up separately and may have same datastreams set to view the same data (excepts Image Gallery Map widgets – those two use different codebase now).
 
 Switch widget allows to send commands and view binary statuses of the device, such as power ON/OFF
 
@@ -19,5 +19,5 @@ Switch widget allows to send commands and view binary statuses of the device, su
 
 * the last option: it's possible to **Hide widget name**.
 
-![Switch widget setup demo](../../../.gitbook/assets/switch_setup.gif)
+![Switch widget setup demo](../../../.gitbook/assets/switch\_setup.gif)
 

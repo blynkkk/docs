@@ -1,10 +1,12 @@
 # Map
 
-_**Note:**_ please remember that web and apps widgets are set up separately and may have same datastreams set to view the same data (excepts Map widgets – those two use different codebase now).
+Available only for PLUS and PRO users\
+\
+_**Note:**_ please remember that web and apps widgets are set up separately and may have same datastreams set to view the same data (excepts Image Gallery Map widgets – those two use different codebase now).
 
 Map widget visualizes data related to a location of the device:
 
-* Current or latest known location of the device 
+* Current or latest known location of the device&#x20;
 * GPS track (historical position of the device)
 * Overlays: various data related to the time and location of the device. E.g. speed of the device at a particular point of the track.
 
@@ -53,7 +55,7 @@ Select one of 4 track point styles:
 
 Select Datastream that contains course information in degrees (e.g. it gets it from Device's compass) so the track point can **show course direction** (this feature is supported by Course and Truck point styles)
 
-![](<../../../.gitbook/assets/map_widget_settings (5) (4) (1) (1) (1).gif>)
+![](<../../../.gitbook/assets/map\_widget\_settings (5) (4) (1) (1) (1).gif>)
 
 ## Insert the data
 
