@@ -1,4 +1,4 @@
-# How Quickstart Device Was Set Up
+# Next Steps After Quickstart
 
 Congrats on getting your first device online! Now let's take a look at what happened during the Quickstart process. This will help you to understand important details of how the Blynk platform works and will get you comfortable with building your own logic.
 
@@ -11,7 +11,7 @@ Here is what happened during the Quickstart flow:
 1. We automatically created a Quickstart Template for you.
 2. Using this Quickstart Template, we then created a Quickstart Device.
 3. For this device, we generated the sketch with all the needed parameters.
-4. You uploaded the sketch to your board and it used the parameters to connect to Blynk.Cloud and to become visible in the apps. 
+4. You uploaded the sketch to your board and it used the parameters to connect to Blynk.Cloud and to become visible in the apps.&#x20;
 
 ### What is a Device Template?
 
@@ -38,11 +38,11 @@ The most important element of the template is `TemplateID`. This is a unique ide
 #define BLYNK_DEVICE_NAME "Quickstart Device"
 ```
 
-You can always find TemplateID in [Blynk.Console](https://blynk.cloud) → Templates → YourTemplate. There is a code snippet you can copy/paste for your next devices.
-
 {% hint style="danger" %}
-IMPORTANT! definition of Template ID should always be **the** **first** line in your code
+&#x20;Definition of Template ID should **always be** **the** **first** line in your code
 {% endhint %}
+
+You can always find TemplateID in [Blynk.Console](https://blynk.cloud) → Templates → YourTemplate. There is a code snippet you can copy/paste for your next devices.
 
 #### Datastreams
 

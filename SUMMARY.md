@@ -5,7 +5,7 @@
 ## Getting Started
 
 * [Quickstart](getting-started/what-do-i-need-to-blynk/README.md)
-  * [How Quickstart Device Was Set Up](getting-started/what-do-i-need-to-blynk/how-quickstart-device-was-made.md)
+  * [Next Steps After Quickstart](getting-started/what-do-i-need-to-blynk/how-quickstart-device-was-made.md)
   * [Quickstart Device: Code Overview](getting-started/what-do-i-need-to-blynk/quickstart-device-code-overview.md)
   * [Troubleshooting](getting-started/what-do-i-need-to-blynk/troubleshooting.md)
 * [Developer Mode](getting-started/developer-mode.md)
@@ -105,8 +105,10 @@
       * [How to Log Events](blynk.console/templates/events/custom-events/events--how-to-log-events.md)
       * [Content Events](blynk.console/templates/events/custom-events/events-content-events.md)
   * [Dashboard](blynk.console/templates/dashboard/README.md)
+    * [Multiple Dashboard Tabs](blynk.console/templates/dashboard/multiple-dashboard-tabs.md)
     * [Slider](blynk.console/templates/dashboard/slider.md)
     * [Switch](blynk.console/templates/dashboard/switch.md)
+    * [Segmented Switch](blynk.console/templates/dashboard/segmented-switch.md)
     * [Label](blynk.console/templates/dashboard/label.md)
     * [Chart](blynk.console/templates/dashboard/chart.md)
     * [Map](blynk.console/templates/dashboard/map.md)
