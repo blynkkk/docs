@@ -1,12 +1,8 @@
 # Button
 
-The button is made to turn something on and off on your device. However, it can do more.
+The button is made to turn something on and off on your device. However, it can do more. There are different types of buttons, but most of the settings are self-explanatory. This document only covers unique settings.&#x20;
 
-## Settings
 
-Most of the settings are self-explanatory. This document only covers unique ones.&#x20;
-
-###
 
 ### Datastream
 
