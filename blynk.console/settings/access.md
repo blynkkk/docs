@@ -4,10 +4,6 @@ description: Access and permissions management for different user roles
 
 # Roles and Permissions
 
-{% hint style="danger" %}
-Be attentive setting the permissions please
-{% endhint %}
-
 ## Roles and Permissions
 
 ![](../../.gitbook/assets/roles\_and\_perms.gif)
@@ -112,11 +108,11 @@ Blynk has 3 default roles that can have different sets of permissions:
 * Edit OAuth Token -> Edit OAuth tokens
 * Delete OAuth Token -> Delete OAuth tokens
 
-> #### Analytics
+> **Analytics**
 
 * View Analytics -> View analytics
 
-> #### Rule Engine (under development)
+> **Rule Engine (under development)**
 
 * View Rule Group -> View rule groups
 * Create rule groups (it doesn't exist at all)
