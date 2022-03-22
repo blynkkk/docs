@@ -1,23 +1,23 @@
-# Widgets
+# Widgets (app)
 
 Widgets are pre-designed pieces of Graphic User Interface. Each widget performs a specific input/output function when communicating with your hardware or end-user.
 
 Widgets can be found in the **Widget Box.** There are 4 major types of widgets:
 
 * **Controllers** – UI elements used to send data to hardware. For example: buttons, switches, sliders, joysticks, etc.
-* **Displays** – UI elements used to visualize the incoming data. LEDs, Charts, 
+* **Displays** – UI elements used to visualize the incoming data. LEDs, Charts,&#x20;
 * **Interface Elements** – Special Elements to build user-friendly UI. Example: Tabs, Drop down menus, various inputs, et..
 * **Misc** – special widgets that doesn't belong to any category.
 
-Scroll the list and tap on the Widget you need to add it to the Grid.  
+Scroll the list and tap on the Widget you need to add it to the Grid.\
 Tap the Widget to set it up.
 
 ## Controllers
 
 ### Button
 
-Works in push or switch modes. Allows to send any number value on button click and button release events. By default  
-button uses 0/1 \(LOW/HIGH\) values. Button sends 1 \(HIGH\) on press and sends 0 \(LOW\) on release.
+Works in push or switch modes. Allows to send any number value on button click and button release events. By default\
+button uses 0/1 (LOW/HIGH) values. Button sends 1 (HIGH) on press and sends 0 (LOW) on release.
 
 You can change button state from hardware side. For example, turn on button assigned to virtual pin V1 :
 
@@ -27,11 +27,11 @@ Blynk.virtualWrite(V1, HIGH);
 
 You can change button labels from hardware with :
 
-```text
+```
 Blynk.setProperty(V1, "onLabel", "ON");
 ```
 
-```text
+```
 Blynk.setProperty(V1, "offLabel", "OFF");
 ```
 
@@ -44,7 +44,7 @@ Blynk.setProperty(V1, "color", "#D3435C");
 
 You can also get button state from server in case your hardware was disconnected with Blynk Sync feature :
 
-```text
+```
 BLYNK_CONNECTED() {
   Blynk.syncVirtual(V1);
 }
@@ -64,17 +64,17 @@ BLYNK_WRITE(V1) {
 
 ### Styled Button
 
-Works in push or switch modes. Allows to send any number value on button click and button release events. By default button uses 0/1 \(LOW/HIGH\) values. Button sends 1 \(HIGH\) on press and sends 0 \(LOW\) on release.
+Works in push or switch modes. Allows to send any number value on button click and button release events. By default button uses 0/1 (LOW/HIGH) values. Button sends 1 (HIGH) on press and sends 0 (LOW) on release.
 
 You can change button state from hardware side. For example, turn on button assigned to virtual pin V1:
 
-```text
+```
 Blynk.virtualWrite(V1, HIGH);
 ```
 
 You can change button labels from hardware with :
 
-```text
+```
 Blynk.setProperty(V1, "onLabel", "ON");
 
 Blynk.setProperty(V1, "offLabel", "OFF");
@@ -82,7 +82,7 @@ Blynk.setProperty(V1, "offLabel", "OFF");
 
 or change color of the button :
 
-```text
+```
 Blynk.setProperty(V1, "onColor", "#D3435C");
 
 Blynk.setProperty(V1, "offColor", "#D3435C");
@@ -90,7 +90,7 @@ Blynk.setProperty(V1, "offColor", "#D3435C");
 
 or change background color of the button :
 
-```text
+```
 Blynk.setProperty(V1, "onBackColor", "#D3435C");
 
 Blynk.setProperty(V1, "offBackColor", "#D3435C");
@@ -98,7 +98,7 @@ Blynk.setProperty(V1, "offBackColor", "#D3435C");
 
 You can also get button state from server in case your hardware was disconnected with Blynk Sync feature :
 
-```text
+```
 BLYNK_CONNECTED() {
   Blynk.syncVirtual(V1);
 }
@@ -131,33 +131,33 @@ You can make image widget interactive by providing multiple links to different i
 
 For example, select the first icon from the list :
 
-```text
+```
 Blynk.virtualWrite(V1, 1); //image indexing starts from 1
 ```
 
 You can also change opacity, scale or rotation of the displayed the image :
 
-```text
+```
 Blynk.setProperty(V1, "opacity", 50); // 0-100%
 ```
 
-```text
+```
 Blynk.setProperty(V1, "scale", 30); // 0-100%
 ```
 
-```text
+```
 Blynk.setProperty(V1, "rotation", 10); //0-360 degrees
 ```
 
 also, you can fully replace the list of images from the hardware:
 
-```text
+```
 Blynk.setProperty(V1, "urls", "https://image1.jpg", "https://image2.jpg");
 ```
 
 or you can change individual image by it index:
 
-```text
+```
 Blynk.setProperty(V1, "url", 1, "https://image1.jpg");
 ```
 
@@ -167,19 +167,19 @@ Similar to potentiometer. Allows to send values between MIN and MAX.
 
 You can change slider state from hardware side. For example, set slider value assigned to virtual pin V1 to 55 :
 
-```text
+```
 Blynk.virtualWrite(V1, 55);
 ```
 
 You can change slider label from hardware with :
 
-```text
+```
 Blynk.setProperty(V1, "label", "My Slider Label");
 ```
 
 or change color :
 
-```text
+```
 //#D3435C - Blynk RED
 Blynk.setProperty(V1, "color", "#D3435C");
 ```
@@ -210,13 +210,13 @@ Control servo movements in 4 directions.
 
 **Settings:**
 
-* **SPLIT**: Each of the parameters is sent directly to the Pin on your hardware \(e.g D7\). You don't need to write any code.
+* **SPLIT**: Each of the parameters is sent directly to the Pin on your hardware (e.g D7). You don't need to write any code.
 
 **NOTE:** In this mode you send multiple commands from one widget, which can reduce performance of your hardware.
 
 Example: If you have a Joystick Widget and it's set to D3 and D4, it will send 2 commands over the Internet:
 
-```text
+```
 digitalWrite(3, x);
 digitalWrite(4, y);
 ```
@@ -227,7 +227,7 @@ This mode can be used with Virtual Pins only.
 
 Example: Add a Joystick Widget and set it to MERGE mode. Choose Virtual Pin V1
 
-```text
+```
 BLYNK_WRITE(V1) // Joystick assigned to V1 
 {
   // get x 
@@ -252,17 +252,17 @@ Similar to above option. However, allows you to stream values to your hardware w
 
 ### zeRGBa
 
-zeRGBa is usual RGB controller \(color picker\).
+zeRGBa is usual RGB controller (color picker).
 
 **Settings:**
 
-* **SPLIT**: Each of the parameters is sent directly to the Pin on your hardware \(e.g D7\). You don't need to write any code.
+* **SPLIT**: Each of the parameters is sent directly to the Pin on your hardware (e.g D7). You don't need to write any code.
 
 **NOTE:** In this mode you send multiple commands from one widget, which can reduce performance of your hardware.
 
 Example: If you have a zeRGBa Widget and it's set to D1, D2, D3 it will send 3 commands over the Internet:
 
-```text
+```
 digitalWrite(1, r);
 digitalWrite(2, g);
 digitalWrite(3, b);
@@ -274,7 +274,7 @@ This mode can be used with Virtual Pins only.
 
 Example: Add a zeRGBa Widget and set it to MERGE mode. Choose Virtual Pin V1.
 
-```text
+```
 BLYNK_WRITE(V1) // zeRGBa assigned to V1 
 {
     // get a RED channel value
@@ -302,32 +302,32 @@ Step control is like 2 buttons assigned to 1 pin. One button increments your val
 
 You can change step state from hardware side. For example :
 
-```text
+```
 Blynk.virtualWrite(V1, val);
 ```
 
 You can change step labels from hardware with :
 
-```text
+```
 Blynk.setProperty(V1, "label", "My Stepper");
 ```
 
 You can change the step of the step widget from hardware with :
 
-```text
+```
 Blynk.setProperty(V1, "step", 10);
 ```
 
 or change color :
 
-```text
+```
 //#D3435C - Blynk RED 
 Blynk.setProperty(V1, "color", "#D3435C");
 ```
 
 You can also get step control state from server in case your hardware was disconnected with Blynk Sync feature :
 
-```text
+```
 BLYNK_CONNECTED() {
   Blynk.syncVirtual(V1);
 }
@@ -351,32 +351,32 @@ Step control is like 2 buttons assigned to 1 pin. One button increments your val
 
 You can change step state from hardware side. For example :
 
-```text
+```
 Blynk.virtualWrite(V1, val);
 ```
 
 You can change step labels from hardware with :
 
-```text
+```
 Blynk.setProperty(V1, "label", "My Stepper");
 ```
 
 You can change the step of the step widget from hardware with :
 
-```text
+```
 Blynk.setProperty(V1, "step", 10);
 ```
 
 or change color :
 
-```text
+```
 //#D3435C - Blynk RED 
 Blynk.setProperty(V1, "color", "#D3435C");
 ```
 
 You can also get step control state from server in case your hardware was disconnected with Blynk Sync feature :
 
-```text
+```
 BLYNK_CONNECTED() {
   Blynk.syncVirtual(V1);
 }
@@ -396,35 +396,35 @@ Similar to above option. However, allows you to stream values to your hardware w
 
 ### Switch
 
-Allows to send any number value on button click and button release events. By default  
-button uses 0/1 \(LOW/HIGH\) values. Button sends 1 \(HIGH\) on press and sends 0 \(LOW\) on release.
+Allows to send any number value on button click and button release events. By default\
+button uses 0/1 (LOW/HIGH) values. Button sends 1 (HIGH) on press and sends 0 (LOW) on release.
 
 You can change button state from hardware side. For example, turn on button assigned to virtual pin V1 :
 
-```text
+```
 Blynk.virtualWrite(V1, HIGH);
 ```
 
 You can change button labels from hardware with :
 
-```text
+```
 Blynk.setProperty(V1, "onLabel", "ON");
 ```
 
-```text
+```
 Blynk.setProperty(V1, "offLabel", "OFF");
 ```
 
 or change color :
 
-```text
+```
 //#D3435C - Blynk RED 
 Blynk.setProperty(V1, "color", "#D3435C");
 ```
 
 You can also get button state from server in case your hardware was disconnected with Blynk Sync feature :
 
-```text
+```
 BLYNK_CONNECTED() {
   Blynk.syncVirtual(V1);
 }
@@ -454,7 +454,7 @@ Displays incoming data from your sensors or Virtual Pins.
 
 To send the data to the value display simply call the next code:
 
-```text
+```
 Blynk.virtualWrite(V1, val);
 ```
 
@@ -468,7 +468,7 @@ Displays incoming data from your sensors or Virtual Pins. It is a better version
 
 Update value display from hardware side with code :
 
-```text
+```
 Blynk.virtualWrite(V1, val);
 ```
 
@@ -478,25 +478,25 @@ Every message that hardware sends to server is stored automatically on server.
 
 Let's assume, your sensor sends number 12.6789 to Blynk application. Next formatting options are supported:
 
-`/pin/` - displays the value without formatting \(12.6789\)
+`/pin/` - displays the value without formatting (12.6789)
 
-`/pin./` - displays the value without decimal part \(13\)
+`/pin./` - displays the value without decimal part (13)
 
-`/pin.#/` - displays the value with 1 decimal digit \(12.7\)
+`/pin.#/` - displays the value with 1 decimal digit (12.7)
 
-`/pin.##/` - displays the value with two decimal places \(12.68\)
+`/pin.##/` - displays the value with two decimal places (12.68)
 
 **Sketch:** [BlynkBlink](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
 
 ### LED
 
-A simple indicator \(similar to a LED\).
+A simple indicator (similar to a LED).
 
 * if value is equal to `min` DataStream setting, indicator is **OFF**
 * if value is equal to `max` DataStream setting, indicator is **ON**
-* in-between values are used for brightness control \(like PWM\)
+* in-between values are used for brightness control (like PWM)
 
-```text
+```
 // DataStream is configured for range 0..255
 // Set brightness of LED to 50%
 Blynk.virtualWrite(V1, 127);
@@ -504,12 +504,12 @@ Blynk.virtualWrite(V1, 127);
 
 You can also change LED color with :
 
-```text
+```
 //#D3435C - Blynk RED 
 Blynk.setProperty(V1, "color", "#D3435C");
 ```
 
-**Sketch:** [LED](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/LED/LED_Blink/LED_Blink.ino)
+**Sketch:** [LED](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/LED/LED\_Blink/LED\_Blink.ino)
 
 ### Gauge
 
@@ -517,7 +517,7 @@ A great visual way to display incoming numeric values.
 
 Update gauge from hardware side with code :
 
-```text
+```
 Blynk.virtualWrite(V1, val);
 ```
 
@@ -527,25 +527,25 @@ Every message that hardware sends to server is stored automatically on server.
 
 Gauge also has "Label" field which allows use to use formatting. Let's assume, your sensor sends number 12.6789 to Blynk application. Next formatting options are supported:
 
-`/pin/` - displays the value without formatting \(12.6789\)
+`/pin/` - displays the value without formatting (12.6789)
 
-`/pin./` - displays the value without decimal part \(13\)
+`/pin./` - displays the value without decimal part (13)
 
-`/pin.#/` - displays the value with 1 decimal digit \(12.7\)
+`/pin.#/` - displays the value with 1 decimal digit (12.7)
 
-`/pin.##/` - displays the value with two decimal places \(12.68\)
+`/pin.##/` - displays the value with two decimal places (12.68)
 
 **Other options**
 
 You can also change gauge label from hardware with :
 
-```text
+```
 Blynk.setProperty(V1, "label", "My Gauge Label");
 ```
 
 or change color :
 
-```text
+```
 //#D3435C - Blynk RED
 Blynk.setProperty(V1, "color", "#D3435C");
 ```
@@ -564,17 +564,17 @@ This is a regular 16x2 LCD display made in our secret facility in China.
 
 Let's assume, your sensor sends number 12.6789 to Blynk application. Next formatting options supported:
 
-`/pin/` - displays the value without formatting \(12.6789\)
+`/pin/` - displays the value without formatting (12.6789)
 
-`/pin./` - displays the value without decimal part \(13\)
+`/pin./` - displays the value without decimal part (13)
 
-`/pin.#/` - displays the value with 1 decimal digit \(12.7\)
+`/pin.#/` - displays the value with 1 decimal digit (12.7)
 
-`/pin.##/` - displays the value with two decimal places \(12.68\)
+`/pin.##/` - displays the value with two decimal places (12.68)
 
-**Sketch:** [LCD Simple Mode Pushing](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/LCD/LCD_SimpleModePushing/LCD_SimpleModePushing.ino)
+**Sketch:** [LCD Simple Mode Pushing](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/LCD/LCD\_SimpleModePushing/LCD\_SimpleModePushing.ino)
 
-**Sketch:** [LCD Simple Mode Reading](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/LCD/LCD_SimpleModeReading/LCD_SimpleModeReading.ino)
+**Sketch:** [LCD Simple Mode Reading](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/LCD/LCD\_SimpleModeReading/LCD\_SimpleModeReading.ino)
 
 **Advanced mode**
 
@@ -584,31 +584,31 @@ Advanced mode is for experienced users. Allows you to use special commands to co
 
 Init LCD variable :
 
-```text
+```
 WidgetLCD lcd(V1);
 ```
 
 Send message :
 
-```text
+```
 lcd.print(x, y, "Your Message");
 ```
 
-Where `x` is a symbol position \(0-15\), `y` is a line number \(0 or 1\),
+Where `x` is a symbol position (0-15), `y` is a line number (0 or 1),
 
 Clear LCD :
 
-```text
+```
 lcd.clear();
 ```
 
-**Sketch:** [LCD Advanced Mode](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/LCD/LCD_AdvancedMode/LCD_AdvancedMode.ino)
+**Sketch:** [LCD Advanced Mode](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/LCD/LCD\_AdvancedMode/LCD\_AdvancedMode.ino)
 
 ### SuperChart
 
 SuperChart is used to visualise live and historical data. You can use it for sensor data, for binary event logging and more.
 
-To use SuperChart widget you would need to push the data from the hardware with the desired interval by using timers. [Here is](https://examples.blynk.cc/?board=ESP8266&shield=ESP8266%20WiFi&example=GettingStarted%2FPushData) a basic example for data pushing.
+To use SuperChart widget you would need to push the data from the hardware with the desired interval by using timers. [Here is](https://examples.blynk.cc/?board=ESP8266\&shield=ESP8266%20WiFi\&example=GettingStarted%2FPushData) a basic example for data pushing.
 
 **Interactions:**
 
@@ -618,20 +618,18 @@ To use SuperChart widget you would need to push the data from the hardware with 
 * **Quick swipe from left to right to reveal previous data** Then you can then scroll data back and forward within the given time range.
 * **Full Screen Mode** Press this button to open Full Screen view in landscape orientation.
 
-Simply rotate the phone back to portrait mode. Chart should rotate automagically. In full screen view you will see X \(time\) and multiple Y scales. Full Screen Mode can be disabled from widget Settings.
+Simply rotate the phone back to portrait mode. Chart should rotate automagically. In full screen view you will see X (time) and multiple Y scales. Full Screen Mode can be disabled from widget Settings.
 
-* **Menu Button** Menu button will open additional functions:
-  * Export to CSV
-  * Erase Data on the server
+****
 
 **SuperChart Settings:**
 
 * **Chart Title**
 * **Title Font Size** You have a choice of 3 font sizes
 * **Title Alignment** Choose chart title alignment. This setting also affects Title and Legend position on the Widget.
-* **Show x-axis \(time\)** Select it if you want to show the time label at the bottom of your chart.
-* **Time ranges picker** Allows you to select required periods \(`15m`, `30m`, `1h`, `3h`, ...\) and resolution for your chart. Resolution defines how precise your data is. Right now chart supports 2 types of resolution `standard` and `high`. Resolution also depends on the selected period. For example, `standard` resolution for `1d` means you'll get 24 points per day \(1 per hour\), with `high` resolution you'll get for `1d` 1440 points per day \(1 per minute\).
-* **Datastreams** Add datastreams \(read below how to configure datastreams\)
+* **Show x-axis (time)** Select it if you want to show the time label at the bottom of your chart.
+* **Time ranges picker** Allows you to select required periods (`15m`, `30m`, `1h`, `3h`, ...) and resolution for your chart. Resolution defines how precise your data is. Right now chart supports 2 types of resolution `standard` and `high`. Resolution also depends on the selected period. For example, `standard` resolution for `1d` means you'll get 24 points per day (1 per hour), with `high` resolution you'll get for `1d` 1440 points per day (1 per minute).
+* **Datastreams** Add datastreams (read below how to configure datastreams)
 
 **Datastream Settings**
 
@@ -642,7 +640,7 @@ Widget supports up to 4 Datastreams. Press Datastream Settings Icon to open Data
 * Line
 * Area
 * Bar
-* Binary \(anchor LINK to binary\)
+* Binary (anchor LINK to binary)
 
 **Color:** Choose solid colors or gradients
 
@@ -655,8 +653,8 @@ Widget supports up to 4 Datastreams. Press Datastream Settings Icon to open Data
 To use Tags:
 
 * [**Add Tag**](https://github.com/blynkkk/blynkkk.github.io/blob/master/#blynk-main-operations-control-of-multiple-devices-tags) to every device you want to aggregate data from.
-* **Push data to the same Virtual Pin** on every device. \(e.g. `Blynk.virtualWrite (V0, temperature);`\)
-* **Choose Tag as a source** in SuperChart Widget and use the pin where the data is coming to \(e.g V0\) 
+* **Push data to the same Virtual Pin** on every device. (e.g. `Blynk.virtualWrite (V0, temperature);`)
+* **Choose Tag as a source** in SuperChart Widget and use the pin where the data is coming to (e.g V0)&#x20;
 
 **Functions available:**
 
@@ -670,7 +668,7 @@ To use Tags:
 
 1. [**Device Selector**](https://github.com/blynkkk/blynkkk.github.io/blob/master/#widgets-time-input-device-selector) If you add Device Selector Widget to your project, you can use it as a source for SuperChart. In this case, when you change the device in Device Selector, chart will be updated accordingly
 
-**Y-Axis Settings**  
+**Y-Axis Settings**\
 There are 4 modes of how to scale data along the Y axis
 
 1. _Auto_ Data will be auto-scaled based on min and max values of the given time period. This is nice option to start with.
@@ -680,7 +678,7 @@ You may also want to visualize the data within some specific range. Let's say in
 
 1. **% of Height** This option allows you to auto-scale incoming data on the widget and position it the way you want. In this mode, you set up the percentage of widget height on the screen, from 0% to 100%.
 
-If you set 0-100%, in fact it's a full auto-scale. No matter in which range the data is coming,  
+If you set 0-100%, in fact it's a full auto-scale. No matter in which range the data is coming,\
 it will be always scaled to the whole height of the widget.
 
 If you set it to 0-25%, then this chart will only be rendered on 1/4 of the widget height.
@@ -689,27 +687,27 @@ This setting is very valuable for **Binary Chart** or for visualizing a few data
 
 1. _Delta_ While data stays within the given Delta value, chart will be auto-scaled within this range. If delta exceeds the range, chart will be auto-scaled to min/max values of the given period.
 
-**Suffix**  
+**Suffix**\
 Here you can specify a suffix that will be shown during the Tap'n'hold.
 
-**Decimals**  
-Defines the formatting of the graph value when you Tap'n'hold the graph. Possible options are: \#, \#.\#, \#.\#\#, etc.
+**Decimals**\
+Defines the formatting of the graph value when you Tap'n'hold the graph. Possible options are: #, #.#, #.##, etc.
 
-**Connect Missing Data Points**  
+**Connect Missing Data Points**\
 If this switch is ON, then SuperChart will connect all the dots even if there was no data.
 
 If it's set to OFF, then you will see gaps in case there was no data.
 
-**Binary Chart Settings**  
+**Binary Chart Settings**\
 This type of chart is useful to plot binary data, for example when unit was ON or OFF, or when motion was detected or when certain threshold was reached.
 
 You need to specify a **FLIP** point, which is the point where incoming data will be turned into TRUE or FALSE state.
 
-For example, you send the data in the range of `0 to 1023`. If you set `512` as a **FLIP** point, then everything above `512` \(excluding 512\) will be recorded as `TRUE`, any value below `512` \(including 512\) will be `FALSE`.
+For example, you send the data in the range of `0 to 1023`. If you set `512` as a **FLIP** point, then everything above `512` (excluding 512) will be recorded as `TRUE`, any value below `512` (including 512) will be `FALSE`.
 
 Another example, if you send `0 and 1` and set `0` as a **FLIP** point, then `1` will be `TRUE`, `0` will be `FALSE`
 
-**State Labels:**  
+**State Labels:**\
 Here you can specify how `TRUE/FALSE` should be shown in Tap'n'Hold mode.
 
 For example, you can set to `TRUE` to "Equipment ON" label, `FALSE` to "Equipment OFF".
@@ -720,7 +718,7 @@ Displays data from your hardware. Allows to send any string to your hardware. Te
 
 You can use special commands with this widget:
 
-```text
+```
 // Print values, like Serial.print
 terminal.print();   
 // Print values, like Serial.println()
@@ -737,15 +735,15 @@ terminal.clear();
 
 ### Video Streaming
 
-Simple widget that allows you to display any live or video stream. Widget supports RTSP \(RP, SDP\), HTTP/S progressive streaming, HTTP/S live streaming. For more info please follow [official Android documentation](https://developer.android.com/guide/appendix/media-formats.html).
+Simple widget that allows you to display any live or video stream. Widget supports RTSP (RP, SDP), HTTP/S progressive streaming, HTTP/S live streaming. For more info please follow [official Android documentation](https://developer.android.com/guide/appendix/media-formats.html).
 
-At the moment Blynk doesn't provide streaming servers. So you can either stream directly from camera, use 3-d party services or host streaming server on own server \(on raspberry for example\).
+At the moment Blynk doesn't provide streaming servers. So you can either stream directly from camera, use 3-d party services or host streaming server on own server (on raspberry for example).
 
 You can also stop/start video stream with click on widget.
 
 You can also change video url from hardware with :
 
-```text
+```
 Blynk.setProperty(V1, "url", "http://my_new_video_url");
 ```
 
@@ -773,7 +771,7 @@ Menu widget allows you to send command to your hardware based on selection you m
 
 Example code:
 
-```text
+```
 BLYNK_WRITE {
   switch (param.asInt()) {
     case 1: { // Item 1
@@ -790,7 +788,7 @@ BLYNK_WRITE {
 
 You can also set Menu items from hardware side with :
 
-```text
+```
 Blynk.setProperty(V1, "labels", "label 1", "label 2", "label 3");
 ```
 
@@ -802,7 +800,7 @@ Map widget allows you set points/pins on map from hardware side. This is very us
 
 You can send a point to map with regular virtual write command :
 
-```text
+```
 Blynk.virtualWrite(V1, pointIndex, lat, lon, "value");
 ```
 
@@ -810,7 +808,7 @@ We also created a wrapper for you to make usage of map simpler :
 
 You can change button labels from hardware with :
 
-```text
+```
 WidgetMap myMap(V1);
 ...
 int index = 1;
@@ -829,7 +827,7 @@ Text Input displays and let's you directly alter a string value. You can limit a
 
 ### Numeric Input
 
-Numeric Input displays and let's you directly alter a number value. Similar to the Step widget, it has incrementing and decrementing buttons for quicker values changes, which you can setup \(step, looping\) in widget settings.
+Numeric Input displays and let's you directly alter a number value. Similar to the Step widget, it has incrementing and decrementing buttons for quicker values changes, which you can setup (step, looping) in widget settings.
 
 ### Segmented Switch
 
@@ -837,7 +835,7 @@ Segmented Switch widget allows you to send command to your hardware based on sel
 
 Example code:
 
-```text
+```
 BLYNK_WRITE {
   switch (param.asInt()) {
     case 1: { // Item 1
@@ -854,7 +852,7 @@ BLYNK_WRITE {
 
 You can also set Menu items from hardware side with :
 
-```text
+```
 Blynk.setProperty(V1, "labels", "label 1", "label 2", "label 3");
 ```
 
@@ -872,12 +870,12 @@ Simple UI element with 3 buttons - simulates music player interface. Every butto
 
 You can change widget state within the app from hardware side with next commands:
 
-```text
+```
 Blynk.virtualWrite(Vx, “play”);
 Blynk.virtualWrite(Vx, “stop”);
 ```
 
-You can also change widget play/stop state with next code \(equivalent to above commands\) :
+You can also change widget play/stop state with next code (equivalent to above commands) :
 
 `Blynk.setProperty(V1, "isOnPlay", "false");`
 
@@ -888,4 +886,3 @@ You can also change widget play/stop state with next code \(equivalent to above 
 ### Web Page Image Button
 
 ### Alias Name
-
