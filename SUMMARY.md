@@ -196,6 +196,7 @@
 * [Get Multiple Datastream Values](blynk.cloud/get-multiple-datastream-values.md)
 * [Update Datastream Value](blynk.cloud/update-datastream-value.md)
 * [Batch Update of the Datastreams](blynk.cloud/batch-update-values.md)
+* [Single Datastream batch update with timestamps](blynk.cloud/batch-update-values-1.md)
 * [Update Widget/Datastream Property](blynk.cloud/update-property.md)
 * [Trigger Log Event](blynk.cloud/trigger-events.md)
 * [Get Device History Data](blynk.cloud/get-device-report.md)
