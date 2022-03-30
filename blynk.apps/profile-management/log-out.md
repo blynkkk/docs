@@ -6,6 +6,6 @@ description: >-
 
 # Log Out
 
-Tap Log out in left menu and confirm the action. 
+Tap Log out in left menu and confirm the action.&#x20;
 
-![](<../../.gitbook/assets/log-out-confirmation-screen (1).png>)
+![](<../../.gitbook/assets/log-out-confirmation-screen (1) (1).png>)

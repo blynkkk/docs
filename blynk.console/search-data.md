@@ -18,7 +18,7 @@ This is the first screen you see after signing into Blynk.Console Web Dashboard.
 
 * [Devices](devices/)
   * **My devices** – view only your organization Devices
-  * **All** – view all Devices available (your and your clients organizations and other types sub-organizations) 
+  * **All** – view all Devices available (your and your clients organizations and other types sub-organizations)&#x20;
 * [Locations](locations/) (can be [changed](settings/application-settings/general.md) to Job Site or Facility)
   * **My Locations** – view Locations created by your organization users
   * **All** – view all Locations available (created by your organization and sub-organizations members)
@@ -39,15 +39,15 @@ It previews main values of available Devices, Locations, Organizations and Users
 
 _Actions available:_
 
-* **Full screen view** – click pictogram to hide search filtering panel 
+* **Full screen view** – click pictogram to hide search filtering panel&#x20;
 
-![](<../.gitbook/assets/full_screen (1) (1).png>)
+![](<../.gitbook/assets/full\_screen (1).png>)
 
 * **Create new entity** – **\*\*click** + New Device/Location/Organization/User\*\* (top right button)
 
-![](../.gitbook/assets/new_entity.gif)
+![](../.gitbook/assets/new\_entity.gif)
 
-* **Switch Table/Map views** – click switch to change the view 
+* **Switch Table/Map views** – click switch to change the view&#x20;
 
 ![](../.gitbook/assets/table-map.png)
 
@@ -57,9 +57,9 @@ _Actions available:_
 
 1. Start typing entity name or known criteria value to perform a search (search refine is supported). Search results segmented by criteria will be opened in dropdown list.
 2. Click on search result you need to open the table viewing the entities values.
-3. Select (bulk actions are supported) and open entity you need for further actions.  
+3. Select (bulk actions are supported) and open entity you need for further actions. &#x20;
 
 ## Manual search view
 
-* Table – list of entities (entities specific table descriptions are in lower level articles) 
+* Table – list of entities (entities specific table descriptions are in lower level articles)&#x20;
 * Locations – view of entities on the world map
