@@ -4,7 +4,7 @@ description: >-
   it take
 ---
 
-# App Publishing Process and Timeline
+# App Publishing Process And Timeline
 
 App exporting and publishing is a multi-step process that is mostly done by a Blynk Launch Engineer assigned to you after you sign up, but there are actions needed from you as well.
 
@@ -82,8 +82,8 @@ To publish the apps you would need to prepare marketing materails such as app de
 
 Here is an article you can check:&#x20;
 
-{% content-ref url="which-assets-are-required-to-publish-my-application.md" %}
-[which-assets-are-required-to-publish-my-application.md](which-assets-are-required-to-publish-my-application.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 

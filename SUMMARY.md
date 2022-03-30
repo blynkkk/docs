@@ -223,13 +223,11 @@
 * [Deploying Products With Dynamic AuthTokens](commercial-use/deploying-products-with-dynamic-authtokens.md)
 * [Deploying Products With Static Tokens](commercial-use/deploying-products-with-static-authtokens.md)
 * [Supported topologies](commercial-use/supported-topologies.md)
-* [White Label Solution](commercial-use/white-label-solution/README.md)
-  * [App Publishing Process and Timeline](commercial-use/white-label-solution/app-publishing-process-and-timeline.md)
-  * [What you need to have publish a standalone application](commercial-use/white-label-solution/what-you-need-to-have-in-order-to-create-and-publish-your-own-application.md)
-  * [Your email address for transactional emails](commercial-use/white-label-solution/set-up-custom-email-address-for-transactional-emails-in-blynk.md)
+* [Business Plan (White Label Solution)](commercial-use/white-label-solution/README.md)
+  * [App Publishing Process And Timeline](commercial-use/white-label-solution/app-publishing-process-and-timeline.md)
+  * [What's Needed To Publish Your Apps And Go Live](commercial-use/white-label-solution/publishing-materials.md)
   * [Branding Materials](commercial-use/white-label-solution/branding-materials.md)
-  * [Which assets are required to publish my application?](commercial-use/white-label-solution/which-assets-are-required-to-publish-my-application.md)
-  * [Assets required to publish your apps](commercial-use/white-label-solution/publishing-materials.md)
+  * [Custom Email Address For Transactional Emails](commercial-use/white-label-solution/set-up-custom-email-address-for-transactional-emails-in-blynk.md)
 
 ## Legacy Platform Help Articles <a href="#legacy-platform" id="legacy-platform"></a>
 
