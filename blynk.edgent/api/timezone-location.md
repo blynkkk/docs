@@ -88,11 +88,11 @@ BLYNK_CONNECTED() {
 BLYNK_WRITE(InternalPinUTC) {
     String cmd = param[0].asStr();
     if (cmd == "time") {
-        const uint64_t utc_time = param[1].asLongLong();        
+        const uint64_t utc_time = param[1].asLongLong();
         UTC.setTime(utc_time / 1000, utc_time % 1000);
         Serial.print("Unix time (UTC): "); Serial.println(utc_time);
     } else if (cmd == "tz_rule") {
-        String tz_rule = param[1].asStr();         
+        String tz_rule = param[1].asStr();
         local.setPosix(tz_rule);
         Serial.print("POSIX TZ rule:   "); Serial.println(tz_rule);
     }
