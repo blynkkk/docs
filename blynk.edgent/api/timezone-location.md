@@ -113,3 +113,6 @@ void loop() {
     timer.run();
 }
 ```
+
+This way, the clock is always running in UTC, but `local` time is always computed according to the Timezone/DST rule.  
+It works event if device goes offline temporarily.
