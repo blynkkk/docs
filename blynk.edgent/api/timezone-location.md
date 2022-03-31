@@ -109,7 +109,7 @@ void setup() {
 }
 
 void loop() {
-    blynk.run();
+    Blynk.run();
     timer.run();
 }
 ```
