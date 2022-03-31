@@ -102,8 +102,14 @@ void printClock() {
     Serial.println("Time: " + local.dateTime());
 }
 
-void setup () {
-    //...
+void setup() {
+    // Init Blynk, etc...
+
     timer.setInterval(10000, printClock);
+}
+
+void loop() {
+    blynk.run();
+    timer.run();
 }
 ```
