@@ -68,5 +68,42 @@ BLYNK_WRITE(InternalPinUTC) {
 }
 ```
 
+## Tracking local time
 
+It's a common requirement for IoT devices to keep track of local device time.  
+For this, you need to apply the timezone offset, taking into account the Daylight Saving rules.  
+Luckily, there are many ways to implement it, and one of the easiest is to use the `ezTime` library:
 
+```cpp
+#include <ezTime.h>
+
+Timezone local;
+BlynkTimer timer;
+
+BLYNK_CONNECTED() {
+    Blynk.sendInternal("utc", "time");      // Unix timestamp (with msecs)
+    Blynk.sendInternal("utc", "tz_rule");   // POSIX TZ rule
+}
+
+BLYNK_WRITE(InternalPinUTC) {
+    String cmd = param[0].asStr();
+    if (cmd == "time") {
+        const uint64_t utc_time = param[1].asLongLong();        
+        UTC.setTime(utc_time / 1000, utc_time % 1000);
+        Serial.print("Unix time (UTC): "); Serial.println(utc_time);
+    } else if (cmd == "tz_rule") {
+        String tz_rule = param[1].asStr();         
+        local.setPosix(tz_rule);
+        Serial.print("POSIX TZ rule:   "); Serial.println(tz_rule);
+    }
+}
+
+void printClock() {
+    Serial.println("Time: " + local.dateTime());
+}
+
+void setup () {
+    //...
+    timer.setInterval(10000, printClock);
+}
+```
