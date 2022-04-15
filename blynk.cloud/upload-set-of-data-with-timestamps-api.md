@@ -20,7 +20,9 @@ When sending the data you would need to provide a timestamp for each value and s
 
 The timestamp is the same as `Unix epoch` or `Unix timestamp` **multiplied by 1000ms.**
 
-
+{% hint style="warning" %}
+**LIMIT:** timestamps could be only one month in the past. Older timestamps won't be accepted.
+{% endhint %}
 
 ### Entry Format
 
@@ -29,7 +31,7 @@ The full body is the array of entries:`[[timestamp1, value1], [timestamp2, value
 
 
 {% hint style="warning" %}
-`Content-Type` header is mandatory and should be set to `application/json`
+`Content-Type` the header is mandatory and should be set to `application/json`
 {% endhint %}
 
 {% swagger baseUrl="https://{server_address}" path="/external/api/batch/update?token={token}&pin={pin}" method="post" summary="Upload a Set Of Datapoints With Timestamps" %}
