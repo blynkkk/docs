@@ -1,6 +1,6 @@
 # Upload a Set of Timestamped Data
 
-You can update a single Datastream with a set of timestamped datapoints. This can be helpful when you don't stream the data in real-time, but instead, collect it on the device and need to send it periodically as a dataset.&#x20;
+You can update a single Datastream with a set of timestamped data points. This can be helpful when you don't stream the data in real-time, but instead, collect it on the device and need to send it periodically as a dataset.&#x20;
 
 For example, your device can be offline most of the time, but connect periodically and upload a set of data points.
 
@@ -16,7 +16,7 @@ This limit can vary based on the plan you are using.
 
 ### Timestamp requirements
 
-When sending the data you would need to provide a timestamp for each value and send the timestamp and value as a single entry, like this: `[timestamp, value]`. Where `timestamp` is the time difference between the current time and midnight, January 1, 1970 UTC measured in **milliseconds**.
+When sending the data you would need to provide a timestamp for each value and send the timestamp and value as a single entry, like this: `[[timestamp, value]]`. Where `timestamp` is the time difference between the current time and midnight, January 1, 1970 UTC measured in **milliseconds**.
 
 The timestamp is the same as `Unix epoch` or `Unix timestamp` **multiplied by 1000ms.**
 
@@ -26,8 +26,8 @@ The timestamp is the same as `Unix epoch` or `Unix timestamp` **multiplied by 10
 
 ### Entry Format
 
-Single entry format: `[timestamp, value]`\
-The full body is the array of entries:`[[timestamp1, value1], [timestamp2, value2]]`\
+The single entry format: `[[timestamp, value]]`\
+The full body with multiple entries:`[[timestamp1, value1], [timestamp2, value2]]`\
 
 
 {% hint style="warning" %}
@@ -70,6 +70,10 @@ OK
 or
 
 {"error":{"message":"Wrong pin format."}}
+
+or
+
+{"error":{"message":"Unknown content type."}}
 
 or
 
