@@ -148,7 +148,7 @@ This is the easiest way to migrate legacy Blynk projects. Just add `BLYNK_TEMPLA
   * Adafruit FONA \(Mini Cellular GSM Breakout\)
   * Adafruit FONA 800/808 Shield
 
-**Note:** traffic optimization is usually required for cellular connections. Using realtime streaming protocols like Blynk or MQTT has benefits of interactive device updates, but it also requires device to stay always connected, which significantly increases the traffic. Blynk recommends using [HTTPS (batch) API](../blynk.cloud/https-api-overview) for reporting telemetry and fetching DataStream values periodically in such scenarios. It will also help saving battery.
+**Note:** traffic optimization is usually required for cellular connections. Using realtime streaming protocols like Blynk or MQTT has benefits of interactive device updates, but it also requires device to stay always connected, which significantly increases the traffic. Blynk recommends using [HTTPS (batch) API](../blynk.cloud/https-api-overview.md) for reporting telemetry and fetching DataStream values periodically in such scenarios. It will also help saving battery.
 
 ### Made by Community <a id="supported-hardware-made-by-community"></a>
 
