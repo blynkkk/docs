@@ -72,8 +72,7 @@ BLYNK_WRITE(V1) // this command is listening when something is written to V1
   
   if (pinValue == 1){
    // do something when button is pressed;
-  } else if {
-  (pinValue == 0)
+  } else if (pinValue == 0) {
    // do something when button is released;
   }
   
