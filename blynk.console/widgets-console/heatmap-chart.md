@@ -16,7 +16,7 @@ It's possible to plot up to 5 datastreams in one widget. Only INT, DOUBLE, and E
 
 When using ENUM type, colors will be taken from Datastream settings, for others you can set your own color mapping.
 
-###
+
 
 ### Data aggregation
 
@@ -30,6 +30,14 @@ How data will be aggregated:&#x20;
 {% hint style="info" %}
 ENUM will only work with **Raw** aggregation type
 {% endhint %}
+
+
+
+### Color
+
+Set the color scale to color the incoming values.
+
+When using ENUM datastream, colors will be taken from datastream settings, for others you can set your own colors.
 
 
 
