@@ -81,3 +81,7 @@ or
 ```
 {% endswagger-response %}
 {% endswagger %}
+
+### cURL example:
+
+`curl -X POST -H 'Content-Type: application/json' -d '[[1650378744000,0]]' -i 'https://blynk.cloud/external/api/batch/update?token=YOUR_TOKEN&pin=v1'`
