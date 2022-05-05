@@ -10,9 +10,9 @@ Max request size - 2 MB (headers + request body)
 
 Max number of file uploads (product/organization logos, firmware for shipment, data import) per user per day - 25 uploads
 
-Max number of Export Data (`/external/api/data/get`) calls per device per day (both UI and HTTPS API export) - 10 calls
+Max number of **Export Data** (`/external/api/data/get`) calls per device per day (both UI and HTTPS API export) - 10 calls
 
-Max number of update requests (`/external/api/update`) per device per day - 500\_000 requests
+Max number of the **Update**  (`/external/api/update`)  requests per device per day - 500\_000 requests
 
 
 
