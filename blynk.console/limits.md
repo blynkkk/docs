@@ -1,6 +1,6 @@
 # Limits
 
-Note: For bussiness clients, all limits could be changed / increased.
+Note: For business clients, all limits could be changed / increased.
 
 
 
@@ -10,7 +10,7 @@ Max request size - 2 MB (headers + request body)
 
 Max number of file uploads (product/organization logos, firmware for shipment, data import) per user per day - 25 uploads
 
-Max number of Export Data calls per device per day (both UI and HTTPS API export) - 10 calls
+Max number of Export Data (`/external/api/data/get`) calls per device per day (both UI and HTTPS API export) - 10 calls
 
 Max number of update requests (`/external/api/update`) per device per day - 500\_000 requests
 
@@ -38,7 +38,7 @@ Max number of mobile tab pages - 1 for Plus, 5 for Pro plan
 
 Max number of templates per organization - 50 templates
 
-Max number of sub organizations - 200 organizations for PRO plan
+Max number of sub-organizations - 200 organizations for the Pro plan
 
 Max number of automations per organization - 5 for Free, 25 for Plus, 50 for Pro plan
 
@@ -74,7 +74,7 @@ Max number of tags per user - 5 tags
 
 Max response size - 16 KB
 
-Max url length - 1024 chars
+Max URL length - 1024 chars
 
 Max body size - 5 KB
 
@@ -90,11 +90,11 @@ Max number of events per day (`Blynk.logEvent`) - 100 events
 
 Min interval between events of the same type - 1 second
 
-Min interval between notification messages (push notifcations/emails/sms) - 5 seconds
+Min interval between notification messages (push notifications/emails/SMS) - 5 seconds
 
 Max number of requests per device - 50 req/sec
 
-Max number of data points per device per day you can import into device - 10\_000 points
+Max number of data points per device per day you can import into the device - 10\_000 points
 
 Max length of the string value - 1024 bytes
 
