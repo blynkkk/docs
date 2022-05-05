@@ -86,7 +86,7 @@ Limit rate - 1 webhook per minute
 
 #### Hardware
 
-Max number of events per day (`Blynk.logEvent`) - 100 events
+Max number of events per day per device (`Blynk.logEvent`) - 100 events
 
 Min interval between events of the same type - 1 second
 
