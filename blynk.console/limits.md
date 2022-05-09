@@ -1,6 +1,6 @@
 # Limits
 
-Note: For business clients, all limits could be changed / increased.
+Note: For users on Business Plan, the limits can be increased.
 
 
 
@@ -46,7 +46,7 @@ Max number of actions per automation - 5 for Free, 25 for Plus, 50 for Pro plan
 
 Max number of users per organization - 100 users
 
-Max organization hierarchy level - 5 levels (sub sub sub sub sub org)
+Max organization hierarchy levels - 5 levels (sub sub sub sub sub org)
 
 Max number of shipments per organization  - 25 shipments
 
@@ -54,7 +54,7 @@ Max number of locations per organization - 50 locations
 
 Max image width/height - 4096x2048 pixels
 
-Report file expire time - 45 days
+Report file expiration time - 45 days
 
 Max user invites per day - 25 invites
 
