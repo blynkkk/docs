@@ -2,16 +2,21 @@
 description: How to set up notifications for a single device or for a selection of devices.
 ---
 
-# Send Notifications (Alerts)
+# Notifications (Alerts)
 
-Getting notifications when certain event happens is a crucial part of any IoT solution. Blynk offers a simple way to set up these events and manage notifications.
+Getting Started -> Send Notifications (Alerts)
 
 
 
-On a high level, there are 2 ways to send notifications:
+Notifications/Alerts is a crucial part of any IoT solution. Blynk offers extensive set of features to send and receive in-app (push), email, and SMS notifications from devices.
 
-1. Use Automations to send notifications from Blynk.Cloud (no code)
-2. Send notifications from hardware
+
+
+## Use Automations To Send Notifications From Blynk.Cloud (no code)
+
+This is the easiest way of sending notifications triggered by user-defined conditions .You don't even need to write any code on the hardware, Blynk.Apps and Blynk.Console offer a simple user interface to set it up. Blynk.Cloud will do all the rest.
+
+Read more about setting up automations here:
 
 {% content-ref url="use-automations-to-send-notifications-no-code.md" %}
 [use-automations-to-send-notifications-no-code.md](use-automations-to-send-notifications-no-code.md)
@@ -19,12 +24,22 @@ On a high level, there are 2 ways to send notifications:
 
 
 
-{% hint style="info" %}
-Note: notifications work as part of [Events](../../blynk.console/templates/events/). Before moving forward:
+## Send Notifications From Hardware
 
-1. Make sure your template has at least one Event configured
+Very often notifications and alerts are an integral part of an IoT product and has to be triggered by the device itself. Blynk offers a way to pre-configure and inegrate alerts into the device logic.&#x20;
+
+Such Notifications are part of Events functionality. You would need to configure an [Event](../../blynk.console/templates/events/) first
+
+{% hint style="info" %}
+Note: notifications are parts of [Events](../../blynk.console/templates/events/). Before moving forward:
+
+1. Make sure your template has Event configured
 2. Make sure that [Notifications are enabled](../../blynk.console/templates/events/custom-events/events-notification-settings.md) for this Event
 {% endhint %}
+
+{% content-ref url="../../blynk.console/templates/events/custom-events/events--how-to-log-events.md" %}
+[events--how-to-log-events.md](../../blynk.console/templates/events/custom-events/events--how-to-log-events.md)
+{% endcontent-ref %}
 
 ## Setting notifications for multiple devices
 

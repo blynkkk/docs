@@ -6,16 +6,16 @@
 
 **Last Online** – hh:mm M D format last online appearance time
 
-**Device Activated** – time \(hh:mm, M D\) and Device Owner's email at the moment of Device [Provision](../../../troubleshooting/wifi-provisioning.md)
+**Device Activated** – time (hh:mm, M D) and Device Owner's email at the moment of Device [Provision](broken-reference)
 
-**Total Online Time** – shows total time the Device has been online.  
+**Total Online Time** – shows total time the Device has been online.\
 Days+hours, hours+minutes or minutes+seconds time view depending on summary duration.
 
-**Auth Token** – it's hidden. Hover to make Copy pictogram appear \(if you have sufficient rights\). Click Copy pictogram to put Auth Token to clipboard.
+**Auth Token** – it's hidden. Hover to make Copy pictogram appear (if you have sufficient rights). Click Copy pictogram to put Auth Token to clipboard.
 
 **Manufacturer** – name of an Organization where this Device's Template was created
 
-**SSL** – data transfer between device and Blynk.Cloud can be secure \(SSL\) and risky \(no SSL\).  
+**SSL** – data transfer between device and Blynk.Cloud can be secure (SSL) and risky (no SSL).\
 That is defined in product's Sketch.
 
 **Last Updated** – last time of Datastream changes for that Device in hh:mm M D format
@@ -32,9 +32,9 @@ That is defined in product's Sketch.
 
 **IP LAT/LON** – IP based latitude and longitude definition. It's used to show Device's location on Map if the Device isn't assigned to any Location.
 
-**Firmware Version** – actual firmware version of the Device \(it can be changed by flash or [Blynk.Air](https://github.com/blynkkk/docs/tree/734d666b5b4e7a337c0659a96502e484d15a5d8e/blynk.console/blynk.air)\)
+**Firmware Version** – actual firmware version of the Device (it can be changed by flash or [Blynk.Air](https://github.com/blynkkk/docs/tree/734d666b5b4e7a337c0659a96502e484d15a5d8e/blynk.console/blynk.air))
 
-**Blynk Version** – version of [Blynk Library](../../../downloads/blynk.edgent.md) used in the firmware \(it can be changed by flash or [Blynk.Air](https://github.com/blynkkk/docs/tree/734d666b5b4e7a337c0659a96502e484d15a5d8e/blynk.console/blynk.air)\)
+**Blynk Version** – version of [Blynk Library](../../../downloads/blynk.edgent.md) used in the firmware (it can be changed by flash or [Blynk.Air](https://github.com/blynkkk/docs/tree/734d666b5b4e7a337c0659a96502e484d15a5d8e/blynk.console/blynk.air))
 
 **Firmware Type** – unique ID of firmware. It's used during Provision and OTA checks.
 
@@ -44,5 +44,4 @@ That is defined in product's Sketch.
 
 **Template ID** – unique ID of the Template used by Devices Product.
 
-**Heartbeat Interval** – ping command period \(in seconds\) that is defined in firmware
-
+**Heartbeat Interval** – ping command period (in seconds) that is defined in firmware

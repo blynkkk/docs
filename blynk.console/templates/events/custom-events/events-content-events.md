@@ -41,7 +41,7 @@ HTTPS API for Log event testing:
 
 `https://{server_address}/external/api/logevent?token={token}&code={event_name}&description={event_description}`
 
-Tap keyboard **Enter**
+
 
 ## **Check Content Event**
 

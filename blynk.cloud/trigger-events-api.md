@@ -1,16 +1,9 @@
-# Trigger An Event Logging
+# Send/Log An Event
 
-You can use API to trigger Events.
+[HTTPS API ](https-api-overview.md)-> Send/Log An Event
 
-First you would need to get an `event_code`
-
-1. Go ot Device Template ->Events
-2. Find **Code** column for the Event you would like to trigger
-3. Click on "Copy Event Code"&#x20;
-
-![](../.gitbook/assets/copy\_event\_code.png)
-
-&#x20; 4\. Then use the example below:&#x20;
+1. Check this [article](../getting-started/events-tutorial.md) on setting up an event
+2. Use the GET call below to send event&#x20;
 
 {% swagger baseUrl="https://{server_address}" path="/external/api/logEvent?token={token}&code={event_code}&description={event_description}" method="get" summary="Trigger the event by event code" %}
 {% swagger-description %}

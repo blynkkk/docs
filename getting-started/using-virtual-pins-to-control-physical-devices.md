@@ -1,57 +1,93 @@
-# Control Devices (GPIOs and more)
+---
+description: >-
+  How to send any data from Blynk apps to hardware and use it to control a
+  device
+---
 
-Blynk can control Digital and Analog I/O Pins **** (GPIOs) on your hardware directly. You don’t even need to write code for it. But when it's not enough, you can use Virtual Pins.
+# Control Devices (GPIOs and beyond)
 
-We designed Virtual Pins to exchange **any data** between your hardware and Blynk. Anything you connect to your hardware will be able to talk to Blynk. With Virtual Pins you can send something from the App, process it on the microcontroller, and then send it back to the smartphone. You can trigger functions, read I2C devices, convert values, control servo and DC motors etc.
+Getting Started -> Control Devices with Blynk
+
+
+
+### How Data Gets From Blynk To The Device
+
+Blynk can control any supported device remotely using Blynk.Console web interface or Blynk.Apps for iOS and Android.&#x20;
+
+When you tap a button or swipe the slider in the mobile app, the value is sent to the device through a Datastream using Blynk protocol.&#x20;
+
+Datastream is a channel that tells Blynk what type of data is flowing through it.&#x20;
+
+For example, you can tell the button to set the GPIO on your device HIGH or LOW or you can send a specific value based on the state of the button.
+
+You can control the GPIOs directly by using Digital and Analog Datatreams, but we highly recommend using Virtual Pin Datastreams
+
+
+
+## Virtual Pins Datastream
+
+Virtual Pins are designed to exchange **any data** between your hardware and Blynk. Anything you connect to your hardware will be able to talk to Blynk. With Virtual Pins you can send something from the App, process it on the microcontroller, and then send it back to the smartphone. You can trigger functions, read I2C devices, convert values, control servo and DC motors etc.
 
 Virtual Pins can be used to interface with external libraries (Servo, LCD, and others) and implement custom functionality.
 
-Hardware may send data to the Widgets over the Virtual Pin like this:
-
-```cpp
-Blynk.virtualWrite(pin, "abc"); 
-Blynk.virtualWrite(pin, 123); Blynk.virtualWrite(pin, 12.34); 
-Blynk.virtualWrite(pin, "hello", 123, 12.34);
-```
-
-### ****
-
-### **Why use Virtual Pins ?**
+#### **Why Use Virtual Pins To Send Data To Device?**
 
 * Virtual pins are hardware-independent. This means that it’s far easier to port your code from one hardware platform to another in the future (when you realize that the NodeMCU is far better than the Arduino Uno + ESP-01 that you started with, for example).
-* You have far more control over what your widget does when using virtual pins. For example, if you want a single app button to switch multiple relays on or off at the same time then that’s simple with virtual pins, but almost impossible using digital pins.
+* You have far more control over what your widgets do when using Virtual Pins. For example, if you want a single app button to switch multiple relays on or off at the same time then that’s simple with virtual pins, but almost impossible using digital pins.
 * Virtual pins are more predictable (stable if you like) than manipulating digital pins.
 
-###
+Virtual Pins are designed to exchange **any data** between your hardware and Blynk. Anything you connect to your hardware will be able to talk to Blynk. With Virtual Pins you can send something from the App, process it on the microcontroller, and then send it back to the smartphone. You can trigger functions, read I2C devices, convert values, control servo and DC motors etc.
 
-### How do Virtual Pins **relate to the GPIO pins on my hardware?**
 
-Virtual pins are really just a way of sending a message from the app to the code that’s running on your board (via the Blynk server).\
+
+#### How do Virtual Pins **relate to the GPIO pins on my hardware?**
+
+Virtual Pins are really just a way of sending a message from the app to the code that’s running on your board (via the Blynk server).\
 There is no correlation between Virtual Pins and any of the physical GPIO pins on your hardware. If you want a Virtual Pin to change the state of one of your physical pins then you have to write the code to make this happen.&#x20;
 
-### ****
 
-### **Basic principles of using Virtual Pins**
 
-We’ll use an example of a Power Switch, set to Integer data type, connected to Virtual Pin 0 (V0). In Blynk.Console we’ll leave the values set to 0 and 1, so the widget sends a 0 when it’s turned off, and a 1 when it’s turned on - like this:
+## **Basic Principles Of Sending Data With Virtual Pin Datastream**
 
-![](https://user-images.githubusercontent.com/72824404/119658316-ad00ff80-be35-11eb-8875-bc1f1719aee4.png)
+We’ll use an example of a Power Switch to remotely turn the device on and off with Blynk.Console web interface.
 
-### ****
+1. Create a new Template or go to existing one Blynk.Console ->Templates
+2. Go to Template -> Dashboard - add Switch Widget&#x20;
+3. Open widget settings - Create Datastream - Virtual Pin
+
+![](<../.gitbook/assets/image (37).png>)
+
+
+
+Set to Integer data type, connected to Virtual Pin 0 (V0). In Blynk.Console we’ll leave the values set to 0 and 1, so the widget sends a 0 when it’s turned off, and a 1 when it’s turned on - like this:
+
+![](<../.gitbook/assets/image (34).png>)
+
+Now the widget is ready to send 0/1 through the Virtual Pin Datastream V1. Click **Save and Apply** to save the template and apply changes.
+
+Refer to these articles if needed:&#x20;
+
+* [**How to create a device from Template**](activating-devices/manual-device-activation.md)****
+* [**Quick Template setup**](template-quick-setup/)****
+
+
 
 ### **The BLYNK\_WRITE(vPin) function**
 
-In your C++ sketch, you can add a special function that is triggered automatically whenever the server tells your device that the value of your virtual pin has changed. This change would normally happen when the widget button in the app is pressed.\
+Now every time you press the switch, 0 or 1 will be sent to your hardware. Let's prepare the code to capture these values when they come.
+
+In your C++ sketch, you can add a special function that is triggered automatically whenever the server tells your device that the value of your virtual pin has changed. \
 
 
-This special function is called `BLYNK_WRITE`. Think of it as meaning that the Blynk.Cloud is telling your hardware “there a new value written to your virtual pin”.
+This special function is called `BLYNK_WRITE`. Think of it as meaning that the Blynk.Cloud is telling your hardware “I'm WRITING something to Virtual Pin V1”.
 
 So, for Virtual Pin 0, your sketch would need this bit of code adding…
 
 ```cpp
-BLYNK_WRITE(V0)
+BLYNK_WRITE(V1)
 {
   // any code you place here will execute when the virtual pin value changes
+  Serial.print("Blynk.Cloud is writing something to V1");
 }
 ```
 
@@ -132,8 +168,6 @@ I’m now going to cover some extra stuff - some of which is specific to working
 
 
 ## Helpful tips when working with Virtual Pins
-
-### ****
 
 ### **Dealing with Active LOW devices**
 

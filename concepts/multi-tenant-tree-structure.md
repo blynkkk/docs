@@ -26,8 +26,3 @@ It's important to understand that any user that is above a tenant in a hierarchy
 
 You can assign users to any level in the hierarchy and they will have access to their own devices and any device beneath them.
 
-Related articles:
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}

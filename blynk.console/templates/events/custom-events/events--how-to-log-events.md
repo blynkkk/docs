@@ -1,11 +1,13 @@
-# How to Log Events
+# How to Send/Log Events
+
+## Send events using Firmware API
+
+
 
 If you need to log an Event when the sensor detects temperature over a certain threshold:
 
 1. Create a new Event named `High temperature` with code `high_temp`
-2. Use the `Blynk.logEvent(event_code)` firmware API command to trigger new event occurrence
-
-A simple example could look like:
+2. Use the `Blynk.logEvent(event_code)` firmware API command to trigger new event
 
 ```cpp
 if (temperature > 35)
@@ -14,9 +16,13 @@ if (temperature > 35)
 }
 ```
 
-When this code worked, an Event will be logged and system will act accordingly to the Event setup \(render on timeline, send notifications, etc.\)
+When this code worked, an Event will be logged and the system will act accordingly to the Event setup (render on timeline, send notifications, etc.)
 
-You can add extra information to the description of the event. If you endabled [Timeline recording](https://docs.blynk.io/en/blynk.console/templates/events/general#show-event-on-the-timeline), description will be shown there.
+
+
+### Custom Event Description
+
+You can change the description of the event when it's rendered on the timeline in Blynk.Console and in Blynk.Apps.&#x20;
 
 ```cpp
 if (temperature > 35)
@@ -25,9 +31,25 @@ if (temperature > 35)
 }
 ```
 
-Trigger an event using HTTPS API:
+{% hint style="warning" %}
+Make sure you enabled [Timeline recording](https://docs.blynk.io/en/blynk.console/templates/events/general#show-event-on-the-timeline) in the Event Settings to see the result in the apps
+{% endhint %}
 
-```text
+
+
+## Send events using HTTPS API
+
+To log an event use this request
+
+```
+`/external/api/logEvent?token={AuthToken}&code={event_code}
+```
+
+```
+`/external/api/logEvent?token={token}&code={event_code}&description={event_description}
+```
+
+```
 /external/api/logEvent?token={device_token}&code={event_code}&description={event_desciption}
 ```
 
@@ -35,7 +57,6 @@ Trigger an event using HTTPS API:
 
 For example:
 
-```text
+```
 https://my.server.com/external/api/logEvent?token=Q9qdlGahPuFuCfncrT35QutT7s3HjYFy&code=high_temp
 ```
-

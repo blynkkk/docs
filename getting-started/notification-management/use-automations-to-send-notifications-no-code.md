@@ -1,5 +1,9 @@
 # Use Automations To Send Notifications (no code)
 
+Getting Started -> Send Notifications -> Use Automations To Send Notifications (no code)
+
+
+
 Let's say you need to send a notification if a sensor logs temperature above 40ºC. The simplest way to do that would be to use Automations.&#x20;
 
 Automations is a powerful Blynk feature that allows you to to set up sequences of actions (scenarios) triggered by a certain event.
@@ -88,7 +92,7 @@ You can create Automations in both Blynk.Apps and Blynk.Console. In this article
 3. Choose **Device State** as a Condition. This means that certain device state will trigger automation
 4. Set up the condition itself. For example, when temperature < 40ºC.
 
-![](<../../.gitbook/assets/image (35) (1).png>)
+![](<../../.gitbook/assets/image (35) (1) (1).png>)
 
 After condition is ready, press **Add action** and choose the type of notification you would like to send:
 

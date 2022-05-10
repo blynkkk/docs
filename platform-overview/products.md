@@ -7,7 +7,7 @@
 **Blynk.Console** is a feature-rich web application that can be used by different [types of users](../concepts/users.md). Major functionality of this product is:
 
 1. Configuration of how connected devices work on the platform + application settings.
-2. Management of devices, their data, users, organizations and locations 
+2. Management of devices, their data, users, organizations and locations&#x20;
 3. Remote monitoring and control of devices
 
 [Register in Blynk.Console](https://blynk.cloud)
@@ -38,13 +38,13 @@ Edge + Agent = Edgent
 
 Main functions of Blynk.Edgent are:
 
-1. Device claiming and Wi-Fi provisioning \(bringing device online and authenticating them with a certain user\)
-2. Connectivity management \(WiFi, Cellular, Ethernet\)
-3. Data transfer between the device and cloud 
+1. Device claiming and Wi-Fi provisioning (bringing device online and authenticating them with a certain user)
+2. Connectivity management (WiFi, Cellular, Ethernet)
+3. Data transfer between the device and cloud&#x20;
 4. API to work with specific Blynk.Apps and Blynk.cloud features
-5. Over-the-air firmware updates \(for selected hardware models\)
+5. Over-the-air firmware updates (for selected hardware models)
 
-Full documentation on Blynk.Edgent is [here](../blynk.edgent/overview.md)
+Full documentation on Blynk.Edgent is [here](broken-reference)
 
 ## Blynk.Cloud
 
@@ -53,4 +53,3 @@ Full documentation on Blynk.Edgent is [here](../blynk.edgent/overview.md)
 Blynk also offers private servers. See the offerings and prices [here](https://blynk.io/pricing).
 
 [Register in Blynk.Console](https://blynk.cloud)
-
