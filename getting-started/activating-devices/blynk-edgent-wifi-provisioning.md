@@ -63,6 +63,12 @@ In the sketch variables `BLYNK_TEMPLATE_ID` and `BLYNK_DEVICE_NAME` are empty. T
 
 ![](../../.gitbook/assets/apr-07-2021-14-06-30.gif)
 
+{% hint style="warning" %}
+The Device Name is the name that you provide when you create the template, and the Edgent sketch then adds additional characters that are derived from the Chip ID of the device to give the SSID which is used when the app connects to the device.
+
+The device name + Chip ID should not exceed 32 characters for the provisioning process to complete successfully. You can edit the template name if the device name proved too long.
+{% endhint %}
+
 Press the **Upload** button to flash the code to your device. If the upload process went successfully you should see the output in the serial monitor:
 
 ![](https://lh6.googleusercontent.com/ke-UDlKRqfsgiak0aMEEHVbEU-cAmShbXLAMOS1LEd4\_Kd1tktKFw2SajHnWul\_b9jT3si85XchMheZlMWy931lPBKUvgw\_daFkiYuUVBfVQM9VKePbryxwbD9hvnH4t5lZ2AzFo)
@@ -85,11 +91,38 @@ Here is an example of how it works in the app:
 
 {% embed url="https://www.youtube.com/watch?v=bXPEEmsEtPM" %}
 
-For debugging and troubleshooting check the serial monitor output. There you will see how provisioning process is happening on the device.
+For debugging and troubleshooting check the serial monitor output. There you will see how the provisioning process is happening on the device.
 
-![](https://lh4.googleusercontent.com/P1WcVsuVbygCW8kSggfYwOKf55a1vVDk4KcCYevGbFPhFXGRI7r5s7\_B7z2qKCzfLZudWU0nj6NKPkLMBO1Zodc7X8a54z3M51VLHo65pEfFlP93mCKxgJjaa5maOAKWg6HPZ7zv)
+![ ](https://lh4.googleusercontent.com/P1WcVsuVbygCW8kSggfYwOKf55a1vVDk4KcCYevGbFPhFXGRI7r5s7\_B7z2qKCzfLZudWU0nj6NKPkLMBO1Zodc7X8a54z3M51VLHo65pEfFlP93mCKxgJjaa5maOAKWg6HPZ7zv)
+
+## Re-provisioning new WiFi credentials
+
+
+
+If you’re having problems provisioning a device, or you’ve accidentally entered the wrong WiFi credentials, then press and hold the physical button (the one defined in Settings.h for your board type) for 10 seconds. This will clear the stored credentials and the LED will start flashing quickly and allow you to either repeat the provisioning process, or if the device has already been created in the app you can re-provision it.
+
+To re-provision an existing device, tap on the device in the app, then tap the three dots in the top right-hand corner of the app screen. This will bring up the device information/timeline screen.
+
+Tap on the three dots in the top right-hand corner once more, and this will pop up a dialog that allows you to “Reconfigure”, “Erase all device data”, “Delete Device” or “Cancel”.
+
+Choose “Reconfigure” and this will take you back into the provisioning process described in the earlier section.
+
+If the wrong SSID was selected and/or the password was entered before then take care to enter the correct information rather than using the credentials stored in the app.
 
 ## Troubleshooting
+
+
+
+If the LED on the board isn’t doing anything, then ensure that the LED and switch are defined correctly and that you don’t have any peripherals also using the LED or Switch pins.\
+\
+If the LED is pulsing slowly then the board thinks it’s already provisioned. Follow the instructions in the _“Re-provisioning new WiFi credentials”_ section.\
+\
+If the LED is flashing quickly, but the device doesn’t show up in the app when you tap the “Ready” button in the app then check the following:
+
+* The Template name isn’t too long (see the restrictions for BLYNK\_DEVICE\_NAME above)
+* The template ID and device name in the sketch are EXACTLY as they appear in the web console
+* The app is signed-in to the same user account as the web console, or
+* The user has permission to provision new devices.
 
 ### ESP32/ESP8266-specific issues
 
