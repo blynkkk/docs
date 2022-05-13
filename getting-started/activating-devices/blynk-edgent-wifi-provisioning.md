@@ -109,15 +109,15 @@ If the wrong SSID was selected and/or the password was entered before then take 
 
 ## Troubleshooting
 
-If the LED on the board isn’t doing anything, then ensure that the LED and switch are defined correctly and that you don’t have any peripherals also using the LED or Switch pins.\
+If the LED on the board isn’t doing anything, then ensure that the [LED and switch are defined correctly](https://docs.blynk.io/en/getting-started/template-quick-setup/prepare-code#defining-your-physical-button-and-led) and that you don’t have any peripherals also using the LED or Switch pins.\
 \
-If the LED is pulsing slowly then the board thinks it’s already provisioned. Follow the instructions in the _“Re-provisioning new WiFi credentials”_ section.\
+If the LED is pulsing slowly then the board thinks it’s already provisioned. Follow the instructions in the _“_[_Re-provisioning new WiFi credentials_](https://docs.blynk.io/en/getting-started/activating-devices/blynk-edgent-wifi-provisioning#re-provisioning-new-wifi-credentials)_”_ section.\
 \
 If the LED is flashing quickly, but the device doesn’t show up in the app when you tap the “Ready” button in the app then check the following:
 
 * The Template name isn’t too long (see the restrictions for BLYNK\_DEVICE\_NAME above)
 * The template ID and device name in the sketch are EXACTLY as they appear in the web console
-* The app is signed-in to the same user account as the web console, or
+* The app is signed in to the same user account as the web console, or
 * The user has permission to provision new devices.
 
 ### ESP32/ESP8266-specific issues
