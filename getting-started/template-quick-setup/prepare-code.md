@@ -126,6 +126,8 @@ In plain English, this means, “If you’ve uncommented either the #define USE\
 
 The NodeMCU board has 2 physical buttons:
 
+![Image credits to RandomNerdTutorials](../../.gitbook/assets/NodeMCU.webp)
+
 The button on the bottom left is labeled RST and the one on the bottom right is labeled FLASH.
 
 The FLASH button is connected to GPIO0 (the pin labeled D3 on the board). When the button is pressed, GPIO0 is connected to GND (LOW).
@@ -144,6 +146,8 @@ Below the comments are added explaining the standard settings for the NodeMCU/We
 ```
 
 If you’re using the Wemos D1 mini, it is very similar but you’ll notice that it only has one button labeled RESET (same as the RST button on the NodeMCU).
+
+![Image credits to RandomNerdTutorials](../../.gitbook/assets/Wemos\_D1\_mini.webp)
 
 It doesn’t have the FLASH button, so you’ll need to add a physical momentary push to make a button in order to be able to clear the stored credentials if ever you need to re-provision the board.
 

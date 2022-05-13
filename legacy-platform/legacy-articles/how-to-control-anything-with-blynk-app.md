@@ -35,7 +35,7 @@ Let's try turning on/off LED connected to **Digital Pin D3** of your hardware.\
 
 Use our **Blynk Examples Sketch Builder** to create the code for your hardware.
 
-[Open Blynk Examples Builder](https://examples.blynk.cc)
+[Open Blynk Examples Builder](https://examples.blynk.cc/)
 
 1. Choose your board;
 2. Choose your Connection (WiFi, Ethernet, Bluetooth, USB, ...);
@@ -146,6 +146,6 @@ BLYNK_WRITE(V5) // Button Widget writes to Virtual Pin V5
 
 **---**
 
-**If you have questions or something is not working, visit our 👥** [**community**](https://community.blynk.cc) **page.**
+**If you have questions or something is not working, visit our 👥** [**community**](https://community.blynk.cc/) **page.**
 
-Also, full 📗 documentation is [here](http://docs.blynk.cc).
+Also, full 📗 documentation is [here](http://docs.blynk.cc/).

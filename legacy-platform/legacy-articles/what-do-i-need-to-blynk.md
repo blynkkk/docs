@@ -78,6 +78,6 @@ This is why we recommend that you only install libraries to the sketchbook folde
 1. If you have troubles installing Blynk library,  check [Arduino](https://www.arduino.cc/en/guide/libraries) guide for additional information.&#x20;
 2. Try deleting and re-installing Blynk Library - it helps in many cases
 3. Make sure you don't have any duplicates of Blynk library&#x20;
-4. If you have issues - feel free to ask on our [forum](http://community.blynk.cc). There are many Blynkers who are eager to help.
+4. If you have issues - feel free to ask on our [forum](http://community.blynk.cc/). There are many Blynkers who are eager to help.
 
 ### &#x20; <a href="#h_d5153c7aee" id="h_d5153c7aee"></a>

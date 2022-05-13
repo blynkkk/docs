@@ -2,7 +2,7 @@
 
 Now that you know how to Quickstart device was prepared, let's look at the code it used to connect and communicate with Blynk.
 
-Code depends on the hardware and connection method you use. You can always find a correct code example for your hardware [here](https://examples.blynk.cc).
+Code depends on the hardware and connection method you use. You can always find a correct code example for your hardware [here](https://examples.blynk.cc/).
 
 Let's look at the parts of the code one by one.
 

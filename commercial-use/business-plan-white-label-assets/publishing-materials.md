@@ -67,7 +67,7 @@ Length: up to 4000 characters
 **Example:**\
 This app is for setting up and controlling August & Wonder enchanted art objects.
 
-August & Wonder creates enchanted decor objects that evoke, connect and inform. The Market, the first magical creation, captures and reflects the fundamental binary pattern of the stock- market, continually shifting from Bull to Bear and back again - sometimes gently, sometimes dramatically. Learn more at [www.augustwonder.com](http://www.augustwonder.com).
+August & Wonder creates enchanted decor objects that evoke, connect and inform. The Market, the first magical creation, captures and reflects the fundamental binary pattern of the stock- market, continually shifting from Bull to Bear and back again - sometimes gently, sometimes dramatically. Learn more at [www.augustwonder.com](http://www.augustwonder.com/).
 
 **How it looks:**
 

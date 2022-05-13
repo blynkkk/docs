@@ -54,7 +54,7 @@ You can find references to handling reset and statuses indication in Blynk.Edgen
 In the sketch variables `BLYNK_TEMPLATE_ID` and `BLYNK_DEVICE_NAME` are empty. They should be filled in with the values from your template. Read below on where to find them.
 {% endhint %}
 
-1. Log in to your [Blynk.Console](https://blynk.cloud) developer account &#x20;
+1. Log in to your [Blynk.Console](https://blynk.cloud/) developer account &#x20;
 2. Go to Templates -> [Create New Template](../template-quick-setup/#create-a-template) or open an existing template &#x20;
 3.  Copy the Firmware Configuration code lines
 
@@ -97,8 +97,6 @@ For debugging and troubleshooting check the serial monitor output. There you wil
 
 ## Re-provisioning new WiFi credentials
 
-
-
 If you’re having problems provisioning a device, or you’ve accidentally entered the wrong WiFi credentials, then press and hold the physical button (the one defined in Settings.h for your board type) for 10 seconds. This will clear the stored credentials and the LED will start flashing quickly and allow you to either repeat the provisioning process, or if the device has already been created in the app you can re-provision it.
 
 To re-provision an existing device, tap on the device in the app, then tap the three dots in the top right-hand corner of the app screen. This will bring up the device information/timeline screen.
@@ -110,8 +108,6 @@ Choose “Reconfigure” and this will take you back into the provisioning proce
 If the wrong SSID was selected and/or the password was entered before then take care to enter the correct information rather than using the credentials stored in the app.
 
 ## Troubleshooting
-
-
 
 If the LED on the board isn’t doing anything, then ensure that the LED and switch are defined correctly and that you don’t have any peripherals also using the LED or Switch pins.\
 \

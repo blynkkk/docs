@@ -12,7 +12,7 @@ Virtual pins are different than  [Digital](https://www.arduino.cc/en/Tutorial/Di
 
 For example, if you need to turn On/Off LED connected to Digital pin, you don't have to write any code:&#x20;
 
-1. Just use [BlynkBlink code for your hardware](http://examples.blynk.cc).&#x20;
+1. Just use [BlynkBlink code for your hardware](http://examples.blynk.cc/).&#x20;
 2. In the Blynk app - add **Button Widget** and set it to pin **D8**
 3. That's it! No additional code is required. Simply press Play in the app.
 
@@ -66,6 +66,6 @@ Use this command `Blynk.virtualWrite(V5)` where V5 is the Virtual Pin you are us
 ****![](https://uploads.intercomcdn.com/i/o/19866955/96eec33e38de6f75c3371861/Sensor+2.png)
 
 **---**\
-**If you have questions or something is not working, visit our 👥** [**community**](http://community.blynk.cc) **page.**
+**If you have questions or something is not working, visit our 👥** [**community**](http://community.blynk.cc/) **page.**
 
-Also, full 📗 documentation is [here](http://docs.blynk.cc).\
+Also, full 📗 documentation is [here](http://docs.blynk.cc/).\
