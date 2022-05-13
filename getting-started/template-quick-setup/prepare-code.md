@@ -6,12 +6,12 @@ A code example for ESP32/ ESP8266 / Arduino boards
 {% tab title="ESP32 or ESP8266" %}
 ## 4 simple steps to configure your code:
 
-1. [Install Blynk library](http://help.blynk.cc/en/articles/512105-how-to-install-blynk-library-for-arduino-ide)
+1. Install [Blynk library](https://github.com/blynkkk/blynk-library/releases/latest)
 2. Define Template ID and Device Name on top of your firmware, before any includes
 3. Define your [physical button and LED](https://docs.blynk.io/en/getting-started/template-quick-setup/prepare-code#defining-your-physical-button-and-led) if needed
 4. Upload this sketch into your test board
 
-**Final step:** [Provision your board via Dynamic Provisioning flow](https://docs.blynk.io/en/getting-started/activating-devices#3-add-device) and add it to your account using Blynk app
+**Final step:** [Provision your board via Dynamic Provisioning](https://docs.blynk.io/en/getting-started/activating-devices/blynk-edgent-wifi-provisioning) flow and add it to your account using Blynk app
 
 Example of a code with **basic functions** that you can use for your test product:
 
