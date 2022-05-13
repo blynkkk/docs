@@ -184,4 +184,130 @@ Make sure you check these before starting device provisioning:
 * Use the custom board configuration if you have an unusual type of board, but edit the custom section of Settinsg.h to make it match your hardware
 * Ensure that you don’t use the GPIOs assigned to the button or LED pins for anything else in your sketch.
 {% endtab %}
+
+{% tab title="Arduino (static provisioning)" %}
+{% hint style="info" %}
+Instructions and code for Static AuthToken is used when you are working with hardware that doesn't support Blynk.Edgent WiFi provisioning. For example when you are using Ethernet shield, or work with hardware that connects to the Internet over cellular (3G, LTE, etc) network.
+{% endhint %}
+
+1. Download [the latest release of Blynk.Edgent](https://github.com/blynkkk/blynk-library/releases/tag/v1.0.0-beta.3) as a **Source code .zip** file
+2. Open [Arduino IDE](https://www.arduino.cc/en/guide/windows)
+3. In Arduino IDE menu go to Sketch - > **Include Library**&#x20;
+4. Select Add **.ZIP library**
+
+![](<../../.gitbook/assets/pasted image 0.png>)
+
+1. Select the downloaded .zip archive. Press **Choose** to continue. &#x20;
+2. After that, you should see Blynk folder under the **File > Examples**
+
+![](<../../.gitbook/assets/pasted image 1.png>)
+
+Select the example for the hardware you use. We will use the one for Arduino UNO + Ethernet shield
+
+```
+#define BLYNK_PRINT Serial
+
+/* Fill-in your Template ID (only if using blynk.cloud) */
+#define BLYNK_TEMPLATE_ID             ""
+#define BLYNK_DEVICE_NAME             ""
+
+#include <SPI.h>
+#include <Ethernet.h>
+#include <BlynkSimpleEthernet.h>
+
+char auth[] = "YourAuthToken";
+
+void setup()
+{
+  Serial.begin(9600);
+  Blynk.begin(auth);
+}
+
+void loop()
+{
+  Blynk.run();
+}
+```
+
+Pay attention to these 3 lines: you would need to fill them.
+
+```cpp
+...
+#define BLYNK_TEMPLATE_ID             ""
+#define BLYNK_DEVICE_NAME             ""
+...
+char auth[] = "YourAuthToken";
+...
+```
+
+
+
+### Getting Template ID and Auth Token for device
+
+#### Template ID and Device Name
+
+1. Log in to your [Blynk.Console](https://blynk.cloud/) developer account
+2. If you don't have a  Device Templates -> [Create New Template](./#create-a-template) or open an existing one
+3. Copy the contents of this section and paste them on top of your firmware, before any includes
+
+![](<../../.gitbook/assets/image (2) (1).png>)
+
+#### Getting Auth Token
+
+When the Template is ready, go to Search -> Devices - **Create new device**
+
+![](<../../.gitbook/assets/image (4) (1).png>)
+
+
+
+Choose a Template and give your new device a name
+
+![](<../../.gitbook/assets/image (18).png>)
+
+
+
+After the device was created, open its dashboard, go to the Device Info tab. There you will find a field: Auth Token.
+
+![](<../../.gitbook/assets/image (17).png>)
+
+
+
+Now you have all the information you need to update your sketch:
+
+```cpp
+#define BLYNK_PRINT Serial
+
+/* Fill-in your Template ID (only if using blynk.cloud) */
+#define BLYNK_TEMPLATE_ID "TMPLbu8YYym5"
+#define BLYNK_DEVICE_NAME "My First Device"
+
+#include <SPI.h>
+#include <Ethernet.h>
+#include <BlynkSimpleEthernet.h>
+
+char auth[] = "••••••••••••••VoFvaUOH2U_sI";
+
+void setup()
+{
+  Serial.begin(9600);
+  Blynk.begin(auth);
+}
+
+void loop()
+{
+  Blynk.run();
+}
+```
+
+1. Upload the sketch to your device
+2. Open Serial Monitor. Wait until you see something like this:
+
+```bash
+Blynk v.X.X.X
+Your IP is 192.168.0.11
+Connecting...
+Blynk connected!
+```
+{% endtab %}
 {% endtabs %}
+
