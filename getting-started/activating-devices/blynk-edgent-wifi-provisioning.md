@@ -39,7 +39,7 @@ To enhance the user experience it's recommended that you plan these things into 
 1. Plan a physical button which will allow resetting the device to its default settings. E.g.: Holding this button for N seconds will erase the AuthToken and WiFi credentials.
 2. Plan an LED to indicate different statuses of device (AP, connected, etc.). It can be RGB or one-color LED.
 
-You can find references to handling reset and statuses indication in Blynk.Edgent examples&#x20;
+You can find [references to handling reset and statuses indication](https://docs.blynk.io/en/getting-started/template-quick-setup/prepare-code#defining-your-physical-button-and-led) in Blynk.Edgent examples&#x20;
 {% endhint %}
 
 ## Setting up your sketch to enable WiFi Provisioning
