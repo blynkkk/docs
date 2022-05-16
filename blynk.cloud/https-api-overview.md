@@ -2,7 +2,7 @@
 description: Blynk Cloud HTTPS API overview
 ---
 
-# Overview
+# HTTPs REST API
 
 **Main API Endpoints:**
 
@@ -15,4 +15,9 @@ description: Blynk Cloud HTTPS API overview
 * [Get Device History Data](get-device-report.md)
 * [Get Device MetaField Value](get-device-metafield-value.md)
 * [Is Device Connected](is-device-connected.md)
-* [Troubleshooting](troubleshooting.md)
+
+[Troubleshooting](troubleshooting.md)
+
+[Limits](https://docs.blynk.io/en/blynk.console/limits#https-api)
+
+[Security](https://docs.blynk.io/en/blynk.cloud/security)
