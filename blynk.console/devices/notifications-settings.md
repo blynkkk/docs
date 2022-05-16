@@ -50,4 +50,6 @@ Notifications will be automatically unmuted after the specified period.
 
 _❇️ This feature is useful when you need to temporarily mute notifications. For example during deployment, testing, or maintenance at job site._
 
-\__
+### [Limits apply](https://docs.blynk.io/en/blynk.console/limits#hardware)
+
+\_\_
