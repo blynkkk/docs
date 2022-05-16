@@ -8,10 +8,10 @@ Every user of Blynk is a member of an Organization. This could be a one-person o
 
 On a high level, every Organization consists of:
 
-* Members \(administrator and other users\)
+* Members (administrator and other users)
 * Devices
 * Locations
-* Sub-organizations 
+* Sub-organizations&#x20;
 
 {% hint style="warning" %}
 Creating organizational tree-like organizational is available in paid plans only. You can always upgrade in your Account Settings
@@ -23,3 +23,4 @@ Sub-organizations have the same structure. This enables a flexible and scalable 
 
 Read more about tow to work with organizations [here](https://github.com/blynkkk/docs/tree/2dc305739ee5d42b5fd9d7af9c9d6c057276a5fe/blynk.console/organizations/README.md).
 
+Learn about existing limitations [here](https://docs.blynk.io/en/blynk.console/limits#organization).
