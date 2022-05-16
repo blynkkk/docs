@@ -7,31 +7,15 @@ description: >-
 
 # Device Templates
 
-{% content-ref url="porducts-management.md" %}
-[porducts-management.md](porducts-management.md)
-{% endcontent-ref %}
+{% page-ref page="porducts-management.md" %}
 
-{% content-ref url="info/" %}
-[info](info/)
-{% endcontent-ref %}
+{% page-ref page="info/" %}
 
-{% content-ref url="metadata.md" %}
-[metadata.md](metadata.md)
-{% endcontent-ref %}
+{% page-ref page="metadata.md" %}
 
-{% content-ref url="datastreams/" %}
-[datastreams](datastreams/)
-{% endcontent-ref %}
+{% page-ref page="datastreams/" %}
 
-{% content-ref url="events/" %}
-[events](events/)
-{% endcontent-ref %}
+{% page-ref page="events/" %}
 
-{% content-ref url="dashboard/" %}
-[dashboard](dashboard/)
-{% endcontent-ref %}
-
-{% content-ref url="../limits.md" %}
-[limits.md](../limits.md)
-{% endcontent-ref %}
+{% page-ref page="dashboard/" %}
 

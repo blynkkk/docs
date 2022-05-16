@@ -32,4 +32,8 @@ Template also includes two dashboards:
 [device-template.md](device-template.md)
 {% endcontent-ref %}
 
+{% content-ref url="../blynk.console/limits.md" %}
+[limits.md](../blynk.console/limits.md)
+{% endcontent-ref %}
+
 \*\*\*\*
