@@ -24,9 +24,9 @@ You can control the GPIOs directly by using Digital and Analog Datatreams, but w
 
 
 
-## Virtual Pins Datastream
+## Virtual Pin Datastream
 
-Virtual Pins are designed to exchange **any data** between your hardware and Blynk. Anything you connect to your hardware will be able to talk to Blynk. With Virtual Pins you can send something from the App, process it on the microcontroller, and then send it back to the smartphone. You can trigger functions, read I2C devices, convert values, control servo and DC motors etc.
+Virtual Pins are designed to exchange **any data** between your hardware and Blynk. Anything you connect to your hardware will be able to talk to Blynk. With Virtual Pins you can send something from the App, process it on the microcontroller, and then send it back to the smartphone. You can trigger functions, read I2C devices, convert values, control servo and DC motors, etc.
 
 Virtual Pins can be used to interface with external libraries (Servo, LCD, and others) and implement custom functionality.
 
@@ -35,10 +35,6 @@ Virtual Pins can be used to interface with external libraries (Servo, LCD, and o
 * Virtual pins are hardware-independent. This means that it’s far easier to port your code from one hardware platform to another in the future (when you realize that the NodeMCU is far better than the Arduino Uno + ESP-01 that you started with, for example).
 * You have far more control over what your widgets do when using Virtual Pins. For example, if you want a single app button to switch multiple relays on or off at the same time then that’s simple with virtual pins, but almost impossible using digital pins.
 * Virtual pins are more predictable (stable if you like) than manipulating digital pins.
-
-Virtual Pins are designed to exchange **any data** between your hardware and Blynk. Anything you connect to your hardware will be able to talk to Blynk. With Virtual Pins you can send something from the App, process it on the microcontroller, and then send it back to the smartphone. You can trigger functions, read I2C devices, convert values, control servo and DC motors etc.
-
-
 
 #### How do Virtual Pins **relate to the GPIO pins on my hardware?**
 
@@ -114,7 +110,7 @@ param.asStrng()
 param.asFloat()
 ```
 
-but, as we are dealing with just zeros and ones, which are integers, we’ll use the `param.asInt` method.
+But, as we are dealing with just zeros and ones, which are integers, we’ll use the `param.asInt` method.
 
 ### ****
 
@@ -125,11 +121,9 @@ For those people who aren’t familiar with these commands, I’ll give a brief 
 
 The pinMode command tells your board how a particular pin is going to be used. The three most common commands are:
 
-`pinMode(pin,OUTPUT);`\
+`pinMode(pin, OUTPUT);`\
 `pinMode(pin, INPUT);`\
 `pinMode(pin, INPUT_PULLUP);`
-
-As we will be controlling something like a relay or an LED in this example, we want our pins to be OUTPUTs - we’ll be outputting a HIGH or LOW signal to the relay/LED.
 
 You only need to issue a pinMode command once, when your device boots up, so this command goes in your `void setup()`
 
@@ -160,7 +154,7 @@ BLYNK_WRITE(V0) // Executes when the value of virtual pin 0 changes
 }
 ```
 
-Note that you can only have one `void setup` in your sketch, so the pinMode statement needs to be copied into your existing `void setup`
+Note that you can only have one `void setup` in your sketch, so the pinMode statement needs to be copied into your existing `void setup.`
 
 That’s it really, you now have the same functionality from your virtual pin as you would have had if you’d used a digital pin.\
 I’m now going to cover some extra stuff - some of which is specific to working with virtual pins, but some also apply if you use digital pins instead…
@@ -171,17 +165,17 @@ I’m now going to cover some extra stuff - some of which is specific to working
 
 ### **Dealing with Active LOW devices**
 
-Many devices, such as the onboard LED attached to GPIO2 of the NodeMCU and many relay boards, are energised by a LOW signal rather than a HIGH signal. This means that, if you use the code example above, the LED/Relay will be off when the switch widget shows On, and vice-versa.\
+Many devices, such as the onboard LED attached to GPIO2 of the NodeMCU and many relay boards, are energized by a LOW signal rather than a HIGH signal. This means that, if you use the code example above, the LED/Relay will be off when the switch widget shows On, and vice-versa.\
 There are several ways around this issue. You could change your switch widget output settings to be 1/0 rather than 0/1 - so that an On state send a “0” value to the app like this…
 
 ![](https://user-images.githubusercontent.com/72824404/119659207-a0c97200-be36-11eb-9f4a-838ac0b9201f.png)
 
 ### **Syncing the output state with the app at startup**
 
-When the device starts up (reboots) it won’t be aware of the state of the button widget in the app, so maybe in a different state to what the button widget shows in the app. This will be rectified when you toggle the button widget in the app, but that’s not a very satisfactory solution.\
+When the device starts up (reboots) it won’t be aware of the state of the button widget in the app, so may be in a different state than what the button widget shows in the app. This will be rectified when you toggle the button widget in the app, but that’s not a very satisfactory solution.\
 We can force the Blynk server to send the latest value for the virtual pin, by using the `Blynk.syncVirtual(vPin)` command. This causes the corresponding `BLYNK_WRITE(vPin)` command to execute.
 
-To automatically run the `BlynkSyncVirtual(vPin)` command when the device connects to the Blynk server (which will normally be after a reboot but could also be following a disconnection) we can use another special function called \`BLYNK\_CONNECTED, like this…
+To automatically run the `BlynkSyncVirtual(vPin)` command when the device connects to the Blynk server (which will normally be after a reboot but could also be following a disconnection) we can use another special function called BLYNK\_CONNECTED, like this…
 
 ```cpp
 BLYNK_CONNECTED()
@@ -194,10 +188,10 @@ BLYNK_CONNECTED()
 
 ### **Pin numbering**
 
-If you’re working with an Arduino then it’s all quite simple. General Purpose Input/Output (GPIO) pin 2 is labelled “2” or “D2”.\
-However, if you’re using a NodeMCU type of device then the manufacturers decided to make things a little more complicated. The numbers screen printed onto the board are not the GPIO numbers. You have to translate these NodeMCU “D” numbers onto actual GPIO’s as follows…
+If you’re working with an Arduino then it’s all quite simple. General Purpose Input/Output (GPIO) pin 2 is labeled “2” or “D2”.\
+However, if you’re using a NodeMCU type of device then the manufacturers decided to make things a little more complicated. The numbers screen printed onto the board are not the GPIO numbers. You have to translate these NodeMCU “D” numbers onto actual GPIOs as follows…
 
-`Lablel GPIO`\
+`Label GPIO`\
 `D1 5`\
 `D2 4`\
 `D3 0`\
@@ -215,13 +209,13 @@ The Arduino IDE does allow you to use the NodeMCU’s “D” pin numbers direct
 digitalWrite(D4,HIGH);
 ```
 
-but personally. I don’t like this approach as it makes it much more difficult to use your code on different types of devices if you ever need to.
+But this approach makes it much more difficult to use your code on different types of devices if you ever need to.
 
 ****
 
 ### **Some NodeMCU physical pins need to be avoided**&#x20;
 
-Some of the pins on the NodeMCU aren’t really suitable for connecting some types of devices to. In particular, if GPIO0 (the pin labelled D3) is pulled LOW at startup then the device won’t execute the sketch and instead, it will enter programming mode, waiting for a new sketch to be uploaded. There’s more info on this topic: [ESP8266 GPIO pins info, restrictions and features](https://community.blynk.cc/t/esp8266-gpio-pins-info-restrictions-and-features/22872) [FAQ](https://community.blynk.cc/c/faq/8)
+Some of the pins on the NodeMCU aren’t really suitable for connecting some types of devices to. In particular, if GPIO0 (the pin labeled D3) is pulled LOW at startup then the device won’t execute the sketch but will enter programming mode, waiting for a new sketch to be uploaded instead. There’s more info on this topic: [ESP8266 GPIO pins info, restrictions and features](https://community.blynk.cc/t/esp8266-gpio-pins-info-restrictions-and-features/22872) [FAQ](https://community.blynk.cc/c/faq/8)
 
 ****
 
@@ -266,4 +260,4 @@ BLYNK_WRITE(V5) // Executes when the value of virtual pin 5 changes
 }
 ```
 
-As you can see, instead of just doing a digitalWrite to one GPIO pin, we’re doing 4 pins one after another. `Blynk.virtualWrite` commandsare then issued, which will update the button widgets to match the digital pins.
+As you can see, instead of just doing a digitalWrite to one GPIO pin, we’re doing 4 pins one after another. `Blynk.virtualWrite` commands are then issued, which will update the button widgets to match the digital pins.
