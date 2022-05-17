@@ -57,10 +57,6 @@ Virtual Pins can be used to interface with external libraries (Servo, LCD, and o
 * You have far more control over what your widgets do when using Virtual Pins. For example, if you want a single app button to switch multiple relays on or off at the same time then that’s simple with virtual pins, but almost impossible using digital pins.
 * Virtual pins are more predictable (stable if you like) than manipulating digital pins.
 
-Virtual Pins are designed to exchange **any data** between your hardware and Blynk. Anything you connect to your hardware will be able to talk to Blynk. With Virtual Pins you can send something from the App, process it on the microcontroller, and then send it back to the smartphone. You can trigger functions, read I2C devices, convert values, control servo and DC motors etc.
-
-
-
 #### How do Virtual Pins **relate to the GPIO pins on my hardware?**
 
 Virtual Pins are really just a way of sending a message from the app to the code that’s running on your board (via the Blynk server).\
@@ -72,7 +68,7 @@ There is no correlation between Virtual Pins and any of the physical GPIO pins o
 
 ## Sending And Storing Data  <a href="#first-of-all-you-should-know-that-blynk-can-work-with-any-sensor" id="first-of-all-you-should-know-that-blynk-can-work-with-any-sensor"></a>
 
-Depending on the plan you choose, the data can be stored as is (Raw data) or will be averaged to a one-minute average. Averaging means that if you sent 60 values per minute, Blynk will only store one value. You can still see the data flowing in in real-time.
+Depending on the plan you choose, the data can be stored as-is (Raw data) or will be averaged to a one-minute average. Averaging means that if you sent 60 values per minute, Blynk will only store one value. You can still see the data flowing in in real-time.
 
 
 
@@ -139,7 +135,7 @@ To avoid spamming the server, send data only when it's needed (event-based) or u
 
 
 
-This is an example code on how to send data every second with timer:&#x20;
+This is an example code on how to send data every second with a timer:&#x20;
 
 ```cpp
 // Declaring a global variabl for sensor data
