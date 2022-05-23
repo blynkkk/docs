@@ -12,7 +12,7 @@ Events are used to track, log, and work with important events that happen on the
 
 Events are also used for notifications which can be sent over email, delivered as push notifications to user's smartphone, or sent as an SMS.
 
-Events are pre-configured in Blynk.Console and can be triggered with a [Events Firmware API](../blynk.edgent/api/log-event.md) from device or using [Events HTTP API](../blynk.cloud/trigger-events-api.md).
+Events are pre-configured in Blynk.Console and can be triggered with a [Events Firmware API](../blynk.edgent-firmware-api/log-event.md) from device or using [Events HTTP API](../blynk.cloud/trigger-events-api.md).
 
 _Examples of an Event:_
 

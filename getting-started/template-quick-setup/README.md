@@ -2,7 +2,7 @@
 
 A **Device Template** is a set of configurations inherited by devices of a similar type.
 
-![](../../.gitbook/assets/blynk-template-device-relationship%20%282%29.png)
+![](<../../.gitbook/assets/blynk-template-device-relationship (2).png>)
 
 Think about smart home switches. They all perform a similar function and it's safe to assume that they should have the same data model, GPIOs, firmware code, etc. You can create a SmartSwitch template and then create multiple SmartHome switches from it.
 
@@ -14,7 +14,7 @@ While Device Template has a lot of settings, in this tutorial, we focus only on 
 * Receive user input from the web or mobile dashboard UI elements
 
 {% hint style="info" %}
-You would need a development board \(e.g. Node MCU, Arduino\). A list of supported boards can be found [here](../../blynk.edgent/supported-boards.md).
+You would need a development board (e.g. Node MCU, Arduino). A list of supported boards can be found [here](../../blynk.edgent-firmware-api/supported-boards.md).
 {% endhint %}
 
 Full documentation on all of the Template settings can be found [here](../../blynk.console/templates/porducts-management.md).
@@ -62,11 +62,10 @@ A new Template is now created. On the screen below notice **Template ID** and **
 
 ## Configure your board:
 
-1. Open Dynamic Provisioning Template: - [ESP8266 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent_ESP8266)- [ESP32 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent_ESP32)- [MKR1000 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent_MKR1000)- [MKR1010](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent_MKR1010) 
+1. Open Dynamic Provisioning Template: - [ESP8266 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_ESP8266)- [ESP32 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_ESP32)- [MKR1000 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_MKR1000)- [MKR1010](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_MKR1010)&#x20;
 2. Specify [TMPLID](https://docs.blynk.io/en/blynk.console/templates/info/template-ids), [SSID WiFi](../../blynk.console/templates/info/hotspot-prefix.md) and Board Name in the [sketch](../activating-devices/)
 3. Upload this code to your board
 
 ### Congratulations, you have configured your device and it is ready to use!
 
 Now all that remains is to [add your test board using Blynk.Apps](../../blynk.apps/device-management/add-new-device.md), make sure it works as you expect, and integrate your code.
-

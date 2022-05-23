@@ -22,24 +22,24 @@
 
 * be sure to click Save button on the top right after you made changes that you want to keep
 * check your internet connection please.
-* keep the page open, click Save once you'll get "Connection has been restored" 
+* keep the page open, click Save once you'll get "Connection has been restored"&#x20;
 
 ## **My API request doesn't work**
 
 **What could be the reason:**
 
-* request with incorrect parameters  
-* the device token is specified incorrectly  
-* wrong pin format input  
-* value doesn't match the datastream type  
-* requested datastream doesn't exist in the product  
-* event code is not provided  
+* request with incorrect parameters &#x20;
+* the device token is specified incorrectly &#x20;
+* wrong pin format input &#x20;
+* value doesn't match the datastream type &#x20;
+* requested datastream doesn't exist in the product &#x20;
+* event code is not provided &#x20;
 * there's no event with code provided in the product
 
 **What’s the solution:**
 
-* follow [HTTPS guides](https://docs.blynk.io/en/blynk.cloud/update-datastream-value) attentively  
-* be sure to send the requests to the correct server  
+* follow [HTTPS guides](https://docs.blynk.io/en/blynk.cloud/update-datastream-value) attentively &#x20;
+* be sure to send the requests to the correct server &#x20;
 * check all the inputs to be corrent in the request and to be present in the template _(also there's a hint on what exactly went wrong in a result field of Postman or web page body)_
 
 ## I can't see enumerable datastreams in Blynk.Apps
@@ -51,7 +51,7 @@
 **What’s the solution:**
 
 * view full metadata list in Blynk.Console
-* wait for Blynk.Apps list of widgets that support enumerable datastreams to expand 
+* wait for Blynk.Apps list of widgets that support enumerable datastreams to expand&#x20;
 * keep Blynk.Apps up to date
 
 ## I can't add an image to Blynk.Apps widget
@@ -106,7 +106,7 @@ void loop()
 
 **What’s the solution:**
 
-* If you need to perform actions in time intervals - use timers, for example [BlynkTimer.](../blynk.edgent/api/blynk-timer.md)\
+* If you need to perform actions in time intervals - use timers, for example [BlynkTimer.](../blynk.edgent-firmware-api/blynk-timer.md)\
   \
   **Note:** using `delay()` will not solve the problem either. It may cause [Delay issue](https://docs.blynk.io/en/troubleshooting/developer-mode#delay). Use timers!
 
@@ -143,8 +143,8 @@ void loop()
 }
 ```
 
-_**Note:**_ This also applies to the BLYNK_READ & BLYNK_WRITE handlers!
+_**Note:**_ This also applies to the BLYNK\_READ & BLYNK\_WRITE handlers!
 
 **What’s the solution:**
 
-* If you need to perform actions in time intervals - use timers, for example [BlynkTimer](../blynk.edgent/api/blynk-timer.md)
+* If you need to perform actions in time intervals - use timers, for example [BlynkTimer](../blynk.edgent-firmware-api/blynk-timer.md)
