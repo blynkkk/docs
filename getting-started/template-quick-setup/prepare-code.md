@@ -190,7 +190,7 @@ Make sure you check these before starting device provisioning:
 Instructions and code for Static AuthToken is used when you are working with hardware that doesn't support Blynk.Edgent WiFi provisioning. For example when you are using Ethernet shield, or work with hardware that connects to the Internet over cellular (3G, LTE, etc) network.
 {% endhint %}
 
-1. Download [the latest release of Blynk.Edgent](https://github.com/blynkkk/blynk-library/releases/tag/v1.0.0-beta.3) as a **Source code .zip** file
+1. Download [the latest release of Blynk.Edgent](https://github.com/blynkkk/blynk-library/releases/latest) as a **Source code .zip** file
 2. Open [Arduino IDE](https://www.arduino.cc/en/software)
 3. In Arduino IDE menu go to Sketch - > **Include Library**&#x20;
 4. Select Add **.ZIP library**
