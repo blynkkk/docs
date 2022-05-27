@@ -6,7 +6,7 @@ A code example for ESP32/ ESP8266 / Arduino boards
 {% tab title="ESP32 or ESP8266" %}
 ## 4 simple steps to configure your code:
 
-1. Install [Blynk library](https://github.com/blynkkk/blynk-library/releases/latest)
+1. Open [Arduino IDE ](https://www.arduino.cc/en/software)and install [Blynk library](https://github.com/blynkkk/blynk-library/releases/latest)
 2. Define Template ID and Device Name on top of your firmware, before any includes
 3. Define your [physical button and LED](https://docs.blynk.io/en/getting-started/template-quick-setup/prepare-code#defining-your-physical-button-and-led) if needed
 4. Upload this sketch into your test board
@@ -191,7 +191,7 @@ Instructions and code for Static AuthToken is used when you are working with har
 {% endhint %}
 
 1. Download [the latest release of Blynk.Edgent](https://github.com/blynkkk/blynk-library/releases/tag/v1.0.0-beta.3) as a **Source code .zip** file
-2. Open [Arduino IDE](https://www.arduino.cc/en/guide/windows)
+2. Open [Arduino IDE](https://www.arduino.cc/en/software)
 3. In Arduino IDE menu go to Sketch - > **Include Library**&#x20;
 4. Select Add **.ZIP library**
 
