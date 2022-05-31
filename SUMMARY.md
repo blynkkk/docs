@@ -119,6 +119,7 @@
   * [Map](blynk.console/widgets-console/map.md)
   * [Modules](blynk.console/widgets-console/modules.md)
   * [Image Button](blynk.console/widgets-console/image-button.md)
+  * [Web Page Image Button](blynk.console/widgets-console/web-page-image-button.md)
   * [Heatmap Chart](blynk.console/widgets-console/heatmap-chart.md)
 * [Blynk.Air](blynk.console/blynk.air/README.md)
   * [Shipment Details](blynk.console/blynk.air/shipment-details.md)
