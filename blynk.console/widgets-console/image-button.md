@@ -65,7 +65,7 @@ BLYNK_WRITE(V1) {
 
 Please check this article [https://docs.blynk.io/en/blynk.cloud/update-datastream-value](https://docs.blynk.io/en/blynk.cloud/update-datastream-value)
 
-### Set property
+### Set image URLs via setProperty function
 
 You can set \*\* onImageUrl\*\* via setProperty function:
 
