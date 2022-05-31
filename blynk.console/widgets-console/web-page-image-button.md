@@ -45,13 +45,13 @@ You can set **url** via setProperty function (in these examples V1 pin is used a
 Blynk.setProperty(V1, "url", "https://blynk.cloud");
 ```
 
-You can set \*\* onImageUrl\*\* via setProperty function:
+You can set **onImageUrl** via setProperty function:
 
 ```
 Blynk.setProperty(V1, "onImageUrl", "https://blynk.cloud/static/icon.png");
 ```
 
-You can set \*\* offImageUrl\*\* via setProperty function:
+You can set **offImageUrl** via setProperty function:
 
 ```
 Blynk.setProperty(V1, "offImageUrl", "https://blynk.cloud/static/icon.png");
