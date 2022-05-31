@@ -117,6 +117,7 @@
   * [Label](blynk.console/widgets-console/label.md)
   * [Image Gallery](blynk.console/widgets-console/image-gallery.md)
   * [Map](blynk.console/widgets-console/map.md)
+  * [Terminal](blynk.console/widgets-console/terminal.md)
   * [Modules](blynk.console/widgets-console/modules.md)
   * [Image Button](blynk.console/widgets-console/image-button.md)
   * [Web Page Image Button](blynk.console/widgets-console/web-page-image-button.md)
