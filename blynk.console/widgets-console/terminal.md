@@ -34,16 +34,17 @@ Don't put `Blynk.virtualWrite()` into the `void loop()` as it can cause a flood 
 
 ### Get data using Blynk library
 
-You can also get button state from server in case your hardware was disconnected with Blynk Sync feature :
+For terminal you can use regular Blynk virtual pin operations:
 
 ```
-BLYNK_CONNECTED() {
-  Blynk.syncVirtual(V1);
+//to get the value from the terminal text input
+BLYNK_WRITE(V1) {
+   String string = param.asStr();
 }
 
-BLYNK_WRITE(V1) {
-  String string = param.asStr();
-}
+//to send the value to terminal
+//max length for the 1 terminal message is 255 chars
+Blynk.virtualWrite(V1, value)
 ```
 
 ### Send data using HTTP API
