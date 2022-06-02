@@ -200,9 +200,19 @@ Similar to above option. However, allows you to stream values to your hardware w
 
 ### Vertical Slider
 
+Same as Slider. The only difference is it's vertical UI.
+
 ### Step Slider
 
+Slider with additional step control by buttons taps.
+
+Tap + or - buttons to change the value with high precision (value amount per step is set by Product owner) or move the handle.
+
 ### Vertical Step Slider
+
+Same as Step Slider. The only difference is it's vertical UI.
+
+Tap + or - buttons to change the value with high precision (value amount per step is set by Product owner) or move the handle.
 
 ### Joystick
 
@@ -444,7 +454,15 @@ BLYNK_WRITE(V1) {
 
 ### Level Slider
 
+This widget combines functions of Level display and Slider simultaneously.
+
+Tap or swipe level area to set the new value.
+
 ### Level Slider with Switch
+
+Same as Level Slider with additional Switch option (the same or different Datastream can be assigned)
+
+Tap or swipe level area to set the new value.
 
 ## Displays
 
@@ -823,11 +841,11 @@ Using save `index` allows you to override existing point value.
 
 ### Text Input
 
-Text Input displays and let's you directly alter a string value. You can limit a maximum number of characters in widget settings.
+Text Input displays and lets you directly alter a string value. You can limit the maximum number of characters in widget settings.
 
 ### Numeric Input
 
-Numeric Input displays and let's you directly alter a number value. Similar to the Step widget, it has incrementing and decrementing buttons for quicker values changes, which you can setup (step, looping) in widget settings.
+Numeric Input displays and lets you directly alter a number value. Similar to the Step widget, it has incrementing and decrementing buttons for quicker value changes, which you can set up (step, looping) in widget settings.
 
 ### Segmented Switch
 
