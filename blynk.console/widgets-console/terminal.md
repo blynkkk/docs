@@ -1,25 +1,33 @@
 # Terminal
 
 Terminal widget works like the usual system terminal. The widget is showing real-time data from your hardware through a **string** datastream. Allows sending any string to your hardware.\
-[![image](https://user-images.githubusercontent.com/24506752/171181626-7f9ac4a6-78b3-490f-a6a1-7f3eff6bea65.png)](https://user-images.githubusercontent.com/24506752/171181626-7f9ac4a6-78b3-490f-a6a1-7f3eff6bea65.png)
 
-### Datastream
+
+![](../../.gitbook/assets/terminal-widget-newsletter.png)
+
+### Settings
+
+![](../../.gitbook/assets/terminal-widget-settings-documentation.png)
+
+#### Datastream
 
 Only **String** datastream can be used here.
 
-### Widget Settings
+#### Input hint
 
-INPUT HINT — textual hint for the input field\
-[![image](https://user-images.githubusercontent.com/24506752/171186147-edd6e5be-5a51-4fc8-b190-b1f751024b44.png)](https://user-images.githubusercontent.com/24506752/171186147-edd6e5be-5a51-4fc8-b190-b1f751024b44.png)
+Textual hint for the input field
 
-Auto scroll — enable/disable automatic scrolling to the bottom when new values are coming\
-[![image](https://user-images.githubusercontent.com/24506752/171186515-23765638-eecb-4699-a519-ba5f9c96a90a.png)](https://user-images.githubusercontent.com/24506752/171186515-23765638-eecb-4699-a519-ba5f9c96a90a.png)
+#### Auto scroll
 
-Show input — show/hide input field in the terminal widget\
-[![image](https://user-images.githubusercontent.com/24506752/171186925-aa5b2324-f54e-4cff-9294-1743686249a7.png)](https://user-images.githubusercontent.com/24506752/171186925-aa5b2324-f54e-4cff-9294-1743686249a7.png)
+Enable/disable automatic scrolling to the bottom when new values are coming
 
-You can set screen and text colors too.\
-[![image](https://user-images.githubusercontent.com/24506752/171187044-3d8eb566-834c-46ab-ba3a-f06337560a3a.png)](https://user-images.githubusercontent.com/24506752/171187044-3d8eb566-834c-46ab-ba3a-f06337560a3a.png)
+#### Show input
+
+Show/hide input field in the terminal widget
+
+#### Colors
+
+You can set screen and text colors too
 
 ### How to send data from a device
 
