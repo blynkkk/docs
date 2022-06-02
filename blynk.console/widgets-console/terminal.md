@@ -7,7 +7,7 @@ Terminal widget works like the usual system terminal. The widget is showing real
 
 ### Settings
 
-![](../../.gitbook/assets/terminal-widget-settings-documentation.png)
+![](<../../.gitbook/assets/terminal-widget-settings-documentation (1).png>)
 
 #### Datastream
 
