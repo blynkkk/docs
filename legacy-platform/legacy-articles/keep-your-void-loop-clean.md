@@ -4,11 +4,21 @@ description: Troubleshooting of one of the most popular mistakes of newbie Blynk
 
 # Keep your void loop() clean
 
-### Getting "Device is Offline" message? Not seeing your data in Blynk app?  Getting "Flood Error"? <a href="getting-device-is-offline-message" id="getting-device-is-offline-message"></a>
+{% hint style="warning" %}
+This documentation is for the LEGACY version of Blynk platform which is no longer supported and will be shut down.&#x20;
+
+You can sign up for the current version of Blynk platform [here](http://blynk.cloud/register).
+
+The new mobile apps can be downloaded from [App Store](https://apps.apple.com/us/app/blynk-iot/id1559317868) and [Google Play](https://play.google.com/store/apps/details?id=cloud.blynk\&hl=en\&gl=US).
+
+The actual Blynk documentation is [here](https://docs.blynk.io/).
+{% endhint %}
+
+### Getting "Device is Offline" message? Not seeing your data in Blynk app?  Getting "Flood Error"? <a href="#getting-device-is-offline-message" id="getting-device-is-offline-message"></a>
 
 Most likely you are making an error by sending data to Blynk incorrectly. This article will help you to understand and troubleshoot this issue.
 
-### Intro <a href="intro" id="intro"></a>
+### Intro <a href="#intro" id="intro"></a>
 
 The code should be familiar to anyone who have ever tinkered with MCUs like Arduino and the likes:&#x20;
 
@@ -38,7 +48,7 @@ void loop()
 
 It would work for a regular application, but not for the Internet Of Things applications like Blynk. See below why.
 
-### Problem <a href="problem" id="problem"></a>
+### Problem <a href="#problem" id="problem"></a>
 
 Imagine you want to send `sensorValue`  to Blynk app and write such code: &#x20;
 
@@ -55,7 +65,7 @@ void loop()
 This would work for a regular electronics project, but not for the Internet of Things, and not for Blynk, because:
 
 {% hint style="danger" %}
-#### You are now spamming Blynk Cloud with too many messages <a href="you-are-spamming-blynk-cloud" id="you-are-spamming-blynk-cloud"></a>
+#### You are now spamming Blynk Cloud with too many messages <a href="#you-are-spamming-blynk-cloud" id="you-are-spamming-blynk-cloud"></a>
 {% endhint %}
 
 As it was described above, everything in the `void loop()`  will be executed many times per second.&#x20;
@@ -82,18 +92,18 @@ void loop()
 But it will not help because:
 
 {% hint style="danger" %}
-#### delay() will block all the Blynk.run() magic <a href="you-are-spamming-blynk-cloud" id="you-are-spamming-blynk-cloud"></a>
+#### delay() will block all the Blynk.run() magic <a href="#you-are-spamming-blynk-cloud" id="you-are-spamming-blynk-cloud"></a>
 {% endhint %}
 
 `Blynk.run()`  is a main Blynk routine responsible for keeping connection alive, sending data, receiving data, etc. When you use a `delay()` , you most likely are breaking a connection to Blynk Cloud or blocking some functions of Blynk library.
 
 Basically, your `sensorValue` will never get to the Cloud.
 
-### &#x20;<a href="solution-what-should-i-do-then" id="solution-what-should-i-do-then"></a>
+### &#x20;<a href="#solution-what-should-i-do-then" id="solution-what-should-i-do-then"></a>
 
-### Solution. What should I do then?  <a href="solution-what-should-i-do-then" id="solution-what-should-i-do-then"></a>
+### Solution. What should I do then?  <a href="#solution-what-should-i-do-then" id="solution-what-should-i-do-then"></a>
 
-#### 1. Keep the void loop() clean <a href="1-keep-the-void-loop-clean" id="1-keep-the-void-loop-clean"></a>
+#### 1. Keep the void loop() clean <a href="#1-keep-the-void-loop-clean" id="1-keep-the-void-loop-clean"></a>
 
 When using Blynk, try to keep `void loop()`  as clean as possible and move all the other routines (e.g. sensor reading) into **timers** and separate functions.
 
@@ -110,7 +120,7 @@ void loop()
 But you still need to send the data, right?\
 &#x20;
 
-#### 2. Use BlynkTimer to send data in intervals <a href="2-use-blynktimer-to-send-data-in-intervals" id="2-use-blynktimer-to-send-data-in-intervals"></a>
+#### 2. Use BlynkTimer to send data in intervals <a href="#2-use-blynktimer-to-send-data-in-intervals" id="2-use-blynktimer-to-send-data-in-intervals"></a>
 
 In most of the cases, you would need to send data periodically in certain intervals.\
 A very simple way of doing that is to use **BlynkTimer**, included in Blynk Library.\

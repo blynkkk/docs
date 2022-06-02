@@ -4,6 +4,16 @@ description: Exchange any data between Blynk app and your hardware
 
 # What is Virtual Pins
 
+{% hint style="warning" %}
+This documentation is for the LEGACY version of Blynk platform which is no longer supported and will be shut down.&#x20;
+
+You can sign up for the current version of Blynk platform [here](http://blynk.cloud/register).
+
+The new mobile apps can be downloaded from [App Store](https://apps.apple.com/us/app/blynk-iot/id1559317868) and [Google Play](https://play.google.com/store/apps/details?id=cloud.blynk\&hl=en\&gl=US).
+
+The actual Blynk documentation is [here](https://docs.blynk.io/).
+{% endhint %}
+
 **Virtual Pin** is a concept invented by Blynk Inc. to provide exchange of any data between hardware and Blynk mobile app.&#x20;
 
 Virtual pins are different than  [Digital](https://www.arduino.cc/en/Tutorial/DigitalPins) and [Analog](https://www.arduino.cc/en/Tutorial/AnalogInputPins) Input/Output (I/O) pins. They are **physical pins** on your microcontroller board where you connect sensors and actuators.![](https://uploads.intercomcdn.com/i/o/19844964/1b2212d3c5c061943f6bdeb0/Group+5.png)

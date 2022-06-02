@@ -1,43 +1,53 @@
 # ESP8266 with AT firmware
 
+{% hint style="warning" %}
+This documentation is for the LEGACY version of Blynk platform which is no longer supported and will be shut down.&#x20;
+
+You can sign up for the current version of Blynk platform [here](http://blynk.cloud/register).
+
+The new mobile apps can be downloaded from [App Store](https://apps.apple.com/us/app/blynk-iot/id1559317868) and [Google Play](https://play.google.com/store/apps/details?id=cloud.blynk\&hl=en\&gl=US).
+
+The actual Blynk documentation is [here](https://docs.blynk.io/).
+{% endhint %}
+
 ESP8266 WiFi module (or shield) with default AT firmware can be used to connect your hardware to Blynk.
 
-### ESP8266 Shields <a href="esp8266-shields" id="esp8266-shields"></a>
+### ESP8266 Shields <a href="#esp8266-shields" id="esp8266-shields"></a>
 
 These come in different shapes and colors, but basically you can use simple ESP01 module like this:\
 ![](https://s3.amazonaws.com/uploads.intercomcdn.com/i/o/20403619/89af7398dd485c00c1235a9e/upload\_8700179421741362625)
 
 If you have an Arduino Shield with ESP8266 (like doit.com ESP13 Shield), you don't need to do this wiring - that is already done for you!
 
-#### ☝️ This connection type is very tricky to start with. As a MUCH easier option, we recommend to start with  [ESP8266 as a standalone platform](http://help.blynk.cc/blynkkk-blynk-library/esp8266-standalone) (Blynk can run directly on ESP8266 chip). <a href="this-connection-type-is-very-tricky-to-start-with-as-a-much-easier-option-we-recommend-to-start-with" id="this-connection-type-is-very-tricky-to-start-with-as-a-much-easier-option-we-recommend-to-start-with"></a>
+#### ☝️ This connection type is very tricky to start with. As a MUCH easier option, we recommend to start with  [ESP8266 as a standalone platform](http://help.blynk.cc/blynkkk-blynk-library/esp8266-standalone) (Blynk can run directly on ESP8266 chip). <a href="#this-connection-type-is-very-tricky-to-start-with-as-a-much-easier-option-we-recommend-to-start-with" id="this-connection-type-is-very-tricky-to-start-with-as-a-much-easier-option-we-recommend-to-start-with"></a>
 
-###   <a href="h_2bbb223880" id="h_2bbb223880"></a>
+### &#x20; <a href="#h_2bbb223880" id="h_2bbb223880"></a>
 
-#### ☝️ This method does not work with [this](http://www.arduino.org/products/boards/arduino-uno-wifi?gclid=CjwKEAjwytLKBRCX547gve7EsE4SJAD3IZV6jA96xZ-U5ED2VI6ARlTxVJRe1k1iDOUNggAoyCbL1hoCQ2Pw_wcB) Arduino UNO WIFI board (at least until Arduino provides proper TCP libraries). <a href="this-method-does-not-work-with-this-arduino-uno-wifi-board-at-least-until-arduino-provides-proper-tc" id="this-method-does-not-work-with-this-arduino-uno-wifi-board-at-least-until-arduino-provides-proper-tc"></a>
+#### ☝️ This method does not work with [this](http://www.arduino.org/products/boards/arduino-uno-wifi?gclid=CjwKEAjwytLKBRCX547gve7EsE4SJAD3IZV6jA96xZ-U5ED2VI6ARlTxVJRe1k1iDOUNggAoyCbL1hoCQ2Pw\_wcB) Arduino UNO WIFI board (at least until Arduino provides proper TCP libraries). <a href="#this-method-does-not-work-with-this-arduino-uno-wifi-board-at-least-until-arduino-provides-proper-tc" id="this-method-does-not-work-with-this-arduino-uno-wifi-board-at-least-until-arduino-provides-proper-tc"></a>
 
-### --- <a href="undefined" id="undefined"></a>
+### --- <a href="#undefined" id="undefined"></a>
 
 First of all, it is recommended to buy a USB-UART TTL converter, capable to supply 1A @ 3.3V. This will help you in lots of different cases, not only for ESP8266. For ESP8266, it will be needed for initial configuration and testing, AT firmware upgrade, etc.
 
-☝️ If you run ESP8266-standalone example on your ESP8266 module, it overwrites AT firmware of the module, so it won't work as modem. Make sure your ESP is flashed with AT firmware (you can find stable firmware [here](http://www.electrodragon.com/w/File:At_firmware_bin1.54.zip), flash it to 0x00000 using [this guide](http://cityos.io/tutorial/1935/How-to-put-AT-firmware-in-Esp8266) for example).
+☝️ If you run ESP8266-standalone example on your ESP8266 module, it overwrites AT firmware of the module, so it won't work as modem. Make sure your ESP is flashed with AT firmware (you can find stable firmware [here](http://www.electrodragon.com/w/File:At\_firmware\_bin1.54.zip), flash it to 0x00000 using [this guide](http://cityos.io/tutorial/1935/How-to-put-AT-firmware-in-Esp8266) for example).
 
 For this connection, Blynk uses ESP8266\_Lib.h library, which you get automatically when you [install Blynk libraries](https://github.com/blynkkk/blynk-library/releases/latest).\
 
 
-### Getting Started <a href="getting-started" id="getting-started"></a>
+### Getting Started <a href="#getting-started" id="getting-started"></a>
 
 1. Check that your ESP8266 module is powered correctly and turned on
 2. Ensure a stable serial connection to ESP8266
 3. Use your USB-UART TTL converter, or [this sketch](https://github.com/blynkkk/blynk-library/tree/master/tests/SerialXconnect/SerialXconnect.ino) to access AT command console
 4. Update your ESP to the latest firmware, if needed (AT v1.1.0.0 is recommended)
 5. Remember which Software Serial pins (or Hardware Serial#) and baud rate work for your module.
-6. Use **Blynk -> Boards_WiFi ->** [**ESP8266\_Shield**](https://github.com/blynkkk/blynk-library/tree/master/examples/Boards_WiFi/ESP8266\_Shield/ESP8266\_Shield.ino) example with the same Serial configuration.
+6. Use **Blynk -> Boards\_WiFi ->** [**ESP8266\_Shield**](https://github.com/blynkkk/blynk-library/tree/master/examples/Boards\_WiFi/ESP8266\_Shield/ESP8266\_Shield.ino) example with the same Serial configuration.
 7. In Blynk App, select the Board type of your main board, to which ESP8266 is connected (Uno, Mega, etc)
 
-#### Software Serial <a href="software-serial" id="software-serial"></a>
+#### Software Serial <a href="#software-serial" id="software-serial"></a>
 
 When using Software Serial - you have to switch ESP8266 to baud rate 9600.\
- Send this AT command to ESP8266:
+&#x20;Send this AT command to ESP8266:
 
 ```
 AT+UART_DEF=9600,8,1,0,0
@@ -51,7 +61,7 @@ AT+CIOBAUD=9600
 
 It should reply `OK`.
 
-### Troubleshooting <a href="troubleshooting" id="troubleshooting"></a>
+### Troubleshooting <a href="#troubleshooting" id="troubleshooting"></a>
 
 * Failing to read the comments in the sketch and amending it accordingly for the specific hardware.
 * Powering ESP8266 from 3v3 pin on `Arduino UNO/Nano/Mega` most likely won't work.
@@ -95,4 +105,4 @@ AT version:1.1.0.0(May 11 2016 18:09:56)
 SDK version:1.5.4(baaeaebb)
 ```
 
-#### ☝️  While it seems to work with all of these versions, we observed that the AT version 1.1.0.0 works best. <a href="while-it-seems-to-work-with-all-of-these-versions-we-observed-that-the-at-version-1100-works-best" id="while-it-seems-to-work-with-all-of-these-versions-we-observed-that-the-at-version-1100-works-best"></a>
+#### ☝️  While it seems to work with all of these versions, we observed that the AT version 1.1.0.0 works best. <a href="#while-it-seems-to-work-with-all-of-these-versions-we-observed-that-the-at-version-1100-works-best" id="while-it-seems-to-work-with-all-of-these-versions-we-observed-that-the-at-version-1100-works-best"></a>

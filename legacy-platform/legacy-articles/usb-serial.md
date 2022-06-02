@@ -1,5 +1,15 @@
 # USB Serial
 
+{% hint style="warning" %}
+This documentation is for the LEGACY version of Blynk platform which is no longer supported and will be shut down.&#x20;
+
+You can sign up for the current version of Blynk platform [here](http://blynk.cloud/register).
+
+The new mobile apps can be downloaded from [App Store](https://apps.apple.com/us/app/blynk-iot/id1559317868) and [Google Play](https://play.google.com/store/apps/details?id=cloud.blynk\&hl=en\&gl=US).
+
+The actual Blynk documentation is [here](https://docs.blynk.io/).
+{% endhint %}
+
 If you don't have any shield and your hardware doesn't have any connectivity, you can still use Blynk – directly over USB.![](https://camo.githubusercontent.com/045888bbf8448f490567570ee13e99a9324e7157/68747470733a2f2f696d616765732e696e646965676f676f2e636f6d2f66696c655f6174746163686d656e74732f3936383239392f66696c65732f32303134313032393036333834312d706c75672e706e673f31343134353839393231)
 
 #### Getting Started <a href="#getting-started" id="getting-started"></a>

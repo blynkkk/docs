@@ -1,5 +1,15 @@
 # Blynk Android permissions explained
 
+{% hint style="warning" %}
+This documentation is for the LEGACY version of Blynk platform which is no longer supported and will be shut down.&#x20;
+
+You can sign up for the current version of Blynk platform [here](http://blynk.cloud/register).
+
+The new mobile apps can be downloaded from [App Store](https://apps.apple.com/us/app/blynk-iot/id1559317868) and [Google Play](https://play.google.com/store/apps/details?id=cloud.blynk\&hl=en\&gl=US).
+
+The actual Blynk documentation is [here](https://docs.blynk.io/).
+{% endhint %}
+
 **Camera**
 
 Required to be able to access the camera device
@@ -12,7 +22,7 @@ Allows an app to access precise and/or approximate location
 
 App needs this permission only for GPS Stream and GPS Trigger widgets. Also on devices with Android 6.0 and later this permission is needed for Wi-Fi or BLE/Bluetooth devices scan due to privacy protection - detailed explanation could be found [here](https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-hardware-id).
 
-On devices with Android 6.0 and later this permission would be disabled by default - Blynk app will ask you to grant this permission if you will add this widgets. 
+On devices with Android 6.0 and later this permission would be disabled by default - Blynk app will ask you to grant this permission if you will add this widgets.&#x20;
 
 **Storage**
 
