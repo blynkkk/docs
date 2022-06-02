@@ -6,29 +6,31 @@ For the image, you need to provide http/s url to it. The URL should be a valid e
 
 The widget has two images representing on/off state.
 
-[![image](https://user-images.githubusercontent.com/24506752/171159657-bddb6373-1cc5-4fa1-8a58-db10c3727f08.png)](https://user-images.githubusercontent.com/24506752/171159657-bddb6373-1cc5-4fa1-8a58-db10c3727f08.png)
+![](../../.gitbook/assets/image-button-widget-newsletter.png)
 
 The main use case for this widget is similar to that of the on/off Switch widget but enriched with images.
 
-### Datastream
+### Settings
+
+![](../../.gitbook/assets/image-button-widget-settings-documentation.png)
+
+#### Datastream
 
 Only Integer Datastream can be used here.
 
-### Mode
+#### Mode
 
 The image button widget can operate in these modes:
 
 * Push: on finger release, the device will switch off but the button will return to its original state
 * Switch: on finger release, the device and the button will toggle between the on and off states
 
-### Images
-
-[![image](https://user-images.githubusercontent.com/24506752/171161912-d15f26bf-e4e6-4df6-930f-4cfb6fe29505.png)](https://user-images.githubusercontent.com/24506752/171161912-d15f26bf-e4e6-4df6-930f-4cfb6fe29505.png)
+#### Images
 
 **Off Image** - for the minimum datastream value\
 **On Image** - for the maximum datastream value
 
-### Display options
+#### Display options
 
 As of now, the image button widget supports 2 display options:
 
