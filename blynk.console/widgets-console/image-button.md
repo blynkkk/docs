@@ -1,20 +1,20 @@
 # Image Button
 
-Available only for PRO users
+Available only for PRO users.
 
 The image button widget allows you to not only control your device by switching between two states (e.g. on/off) but also display any image making your dashboard more visually engaging.&#x20;
 
-For the image, you need to provide http/s url to it. The URL should be a valid endpoint to the binary data of the image. URL shortener will not work.
+For the button image, you need to provide http/s URL. The URL should be a valid endpoint to the binary data of the image. URL shortener will not work.
 
 The widget has two images representing on/off state.
 
 ![](../../.gitbook/assets/image-button-widget-newsletter.png)
 
-The main use case for this widget is similar to that of the on/off Switch widget but enriched with images.
+The main use case for this widget is same as for on/off Switch widget but enriched with images.
 
 ### Settings
 
-![](../../.gitbook/assets/image-button-widget-settings-documentation.png)
+![Image Button SEttings](../../.gitbook/assets/image-button-widget-settings-documentation.png)
 
 #### Datastream
 
@@ -24,8 +24,8 @@ Only Integer Datastream can be used here.
 
 The image button widget can operate in these modes:
 
-* Push: on finger release, the device will switch off but the button will return to its original state
-* Switch: on finger release, the device and the button will toggle between the on and off states
+* **Push**: on click (mouse down) - the button will be turned on, on release (mouse up) - the button will return to its original state
+* **Switch**: on click - the button will be turned on and the button will toggle between the on and off states with the next clicks
 
 #### Images
 
@@ -41,8 +41,8 @@ As of now, the image button widget supports 2 display options:
 
 ### How to send data from the device
 
-The widget works in push or switch modes. It allows sending any number value on button click and button release events. By default, the widget uses 0/1 (LOW/HIGH) values. It sends 1 (HIGH) on press and sends 0 (LOW) on release.\
-You can change the button state on the hardware side. For example, turn on the button assigned to virtual pin V1 on sending 1 :
+By default, the widget uses 0/1 (LOW/HIGH) values. It sends 1 (HIGH) on press and sends 0 (LOW) on release in PUSH mode.\
+You can also change the button state from the hardware side. For example, turn on the button assigned to virtual pin V1 by sending value 1, for example:
 
 ```
 Blynk.virtualWrite(V1, 0); // show off image
@@ -65,20 +65,20 @@ BLYNK_WRITE(V1) {
 }
 ```
 
+### Set image URLs via setProperty function
+
+You can set **onImageUrl** via setProperty function:
+
+```
+Blynk.setProperty(V1, "onImageUrl", "https://host/static/icon.png");
+```
+
+You can set **offImageUrl** via setProperty function:
+
+```
+Blynk.setProperty(V1, "offImageUrl", "https://host/static/icon.png");
+```
+
 ### Send data using HTTP API
 
 Please check this article [https://docs.blynk.io/en/blynk.cloud/update-datastream-value](https://docs.blynk.io/en/blynk.cloud/update-datastream-value)
-
-### Set image URLs via setProperty function
-
-You can set \*\* onImageUrl\*\* via setProperty function:
-
-```
-Blynk.setProperty(V1, "onImageUrl", "https://blynk.cloud/static/icon.png");
-```
-
-You can set \*\* offImageUrl\*\* via setProperty function:
-
-```
-Blynk.setProperty(V1, "offImageUrl", "https://blynk.cloud/static/icon.png");
-```
