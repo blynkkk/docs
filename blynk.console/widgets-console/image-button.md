@@ -1,5 +1,7 @@
 # Image Button
 
+Available only for PRO users
+
 The image button widget allows you to not only control your device by switching between two states (e.g. on/off) but also display any image making your dashboard more visually engaging.&#x20;
 
 For the image, you need to provide http/s url to it. The URL should be a valid endpoint to the binary data of the image. URL shortener will not work.

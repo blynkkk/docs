@@ -1,5 +1,7 @@
 # Web Page Image Button
 
+Available only for PRO users
+
 This widget allows you to display any image and open any external or even Blynk Console internal page in the new tab on click.&#x20;
 
 You need to provide a http/s URL for the image. The URL should be a valid endpoint to the binary data of the image. URL shortener will not work.

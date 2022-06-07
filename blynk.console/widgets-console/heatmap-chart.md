@@ -1,5 +1,7 @@
 # Heatmap Chart
 
+Available only for PRO users
+
 Heatmap Chart is a two-dimensional visual representation of data, where X-axis is time, and Y-axis is a value visualized with color intensity.&#x20;
 
 ![](<../../.gitbook/assets/image (35) (1).png>)
