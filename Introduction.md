@@ -1,6 +1,6 @@
 # Introduction
 
-{% hint style="warning" %}
+{% hint style="success" %}
 This documentation covers the **latest generation** of the Blynk IoT Platform.
 
 Blynk 0.1 is still maintained, but it's no longer receiving new features. Documentation for the unsupported legacy version can be found [here](http://docs.blynk.cc).
@@ -14,5 +14,4 @@ Blynk is a [multi-tenant](concepts/multi-tenant-tree-structure.md) solution. You
 
 Applications made with Blynk are ready for the end-users. Whether it is your family member, an employee, or someone who has purchased your product, they will be able to download the app, connect the device and start using it.
 
-Blynk also offers a white-label solution \(part of the Business Plan\), which means that you can add your company logo, app icon, choose the theme, colors, and publish the app to App Store and Google Play under your company name. These apps will work with your devices.
-
+Blynk also offers a white-label solution (part of the Business Plan), which means that you can add your company logo, app icon, choose the theme, colors, and publish the app to App Store and Google Play under your company name. These apps will work with your devices.
