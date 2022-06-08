@@ -8,7 +8,7 @@ You need to provide a http/s URL for the image. The URL should be a valid endpoi
 
 You can set up two images representing the pressed/unpressed state of the button and an URL field for the external page address.
 
-[![image](https://user-images.githubusercontent.com/24506752/171175692-c750acd0-11f5-4410-a7c0-f55187526475.png)](https://user-images.githubusercontent.com/24506752/171175692-c750acd0-11f5-4410-a7c0-f55187526475.png)
+![](../../.gitbook/assets/web-page-image-button-widget-newsletter.png)
 
 ### Datastream
 
@@ -20,12 +20,13 @@ The button operates in push mode: on finger released — the button will switch 
 
 ### Widget Settings
 
-**URL to the web page that is opened on click**
+![](../../.gitbook/assets/web-page-image-button-widget-settings-documentation.png)
 
-[![image](https://user-images.githubusercontent.com/24506752/171175228-6fbe9838-b45f-4149-b858-5513cf8109f2.png)](https://user-images.githubusercontent.com/24506752/171175228-6fbe9838-b45f-4149-b858-5513cf8109f2.png)
+**URL**
 
-**Images**\
-[![image](https://user-images.githubusercontent.com/24506752/171161912-d15f26bf-e4e6-4df6-930f-4cfb6fe29505.png)](https://user-images.githubusercontent.com/24506752/171161912-d15f26bf-e4e6-4df6-930f-4cfb6fe29505.png)
+URL to the web page that is opened on click
+
+**Images**
 
 **Off Image** - for default button state\
 **On Image** - for pressed button state
