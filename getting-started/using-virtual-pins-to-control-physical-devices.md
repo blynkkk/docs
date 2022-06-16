@@ -51,7 +51,7 @@ We’ll use an example of a Power Switch to remotely turn the device on and off 
 2. Go to Template -> Dashboard - add Switch Widget&#x20;
 3. Open widget settings - Create Datastream - Virtual Pin
 
-![](<../.gitbook/assets/image (37).png>)
+![](<../.gitbook/assets/image (37) (1).png>)
 
 
 

@@ -78,11 +78,11 @@ Before you start sending data, we need to prepare some place to store it and vis
 2. Go to Web Dashboard Tab -> Add Chart Widget, then open Widget Settings
 3. Press Create New Datastream -> Virtual Pin
 
-![](<../.gitbook/assets/image (36).png>)
+![](<../.gitbook/assets/image (36) (1).png>)
 
 &#x20;Now set up the Datastream like this and press create
 
-![](<../.gitbook/assets/image (35).png>)
+![](<../.gitbook/assets/image (35) (1).png>)
 
 Now the widget is ready to receive values in the range of 0-1023 through the Virtual Pin Datastream V5.&#x20;
 

@@ -20,7 +20,11 @@ Organizations can have sub-organizations and also be a part of a larger organiza
 
 The diagram below shows imaginary companies: **United Heaters Inc.** and **Muller Boilers Group**, which are customers of **WarmPlus Corporation.** Each of these companies can have multiple users and devices.
 
-![Diagram of hierarchy](../.gitbook/assets/image-placeholder.png)
+
+
+<img src="../.gitbook/assets/image (41).png" alt="" data-size="original">
+
+
 
 It's important to understand that any user that is above a tenant in a hierarchy will have access to child tenant’s devices as well. Such an approach allows complex hierarchies to be created. For example, United Heaters could have distributors and contractors underneath them who in turn can have their own customers.
 

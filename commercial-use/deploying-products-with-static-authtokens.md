@@ -236,7 +236,7 @@ If the user deletes the device from their account, it becomes unclaimed. After t
 ### PRO Plan Workflow
 
 1. Create a new sub-organization for your client in **Blynk.Console → Organizations**
-2. Invite your client to this organization using their email. Your customer will get an invitation to create a new accoun by simply creating a password.
+2. Invite your client to this organization using their email. Your customer will get an invitation to create a new account by simply creating a password.
 3. Customer logs in using Blynk.Apps for iOS and Android or Blynk.Console in their broswer.
 4. Make sure your customer has a QR code image
 5. Customer scans the provided QR code

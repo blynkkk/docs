@@ -22,11 +22,11 @@ The button operates in push mode: on finger released — the button will switch 
 
 ![](../../.gitbook/assets/web-page-image-button-widget-settings-documentation.png)
 
-**URL**
+#### **URL**
 
 URL to the web page that is opened on click
 
-**Images**
+#### **Images**
 
 **Off Image** - for default button state\
 **On Image** - for pressed button state

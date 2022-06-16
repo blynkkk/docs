@@ -4,7 +4,7 @@ Available only for PRO users
 
 Heatmap Chart is a two-dimensional visual representation of data, where X-axis is time, and Y-axis is a value visualized with color intensity.&#x20;
 
-![](<../../.gitbook/assets/image (35) (1).png>)
+![](<../../.gitbook/assets/image (35) (1) (1).png>)
 
 An example of use could be a chart of temperature change depicted in color, but it can also be used to visualize on/off or mode states.&#x20;
 
