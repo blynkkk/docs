@@ -19,7 +19,7 @@ This is the first screen you see after signing into Blynk.Console Web Dashboard.
 * [Devices](devices/)
   * **My devices** – view only your organization Devices
   * **All** – view all Devices available (your and your clients organizations and other types sub-organizations)&#x20;
-* [Locations](locations/) (can be [changed](settings/application-settings/general.md) to Job Site or Facility)
+* [Locations](locations/)
   * **My Locations** – view Locations created by your organization users
   * **All** – view all Locations available (created by your organization and sub-organizations members)
 * [Organizations](https://github.com/blynkkk/docs/tree/273f6f604f1950b945cb81ce478826ccbbc01265/blynk.console/organizations.md)
