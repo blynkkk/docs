@@ -4,7 +4,7 @@ Every device needs a unique AuthToken in order to authenticate in Blynk.Cloud. D
 
 
 
-### Why use dynamic AuthTokens
+## Why use dynamic AuthTokens
 
 1. With this approach, you don't have to flash different AuthTokens onto every device. You can use the same firmware on every device, which significantly simplifies the production process.
 2. Dynamic AuthTokens workflow is included in Blynk.Edgent and works out-of-the-box.
@@ -16,7 +16,7 @@ Dynamic AuthTokens works only with Wi-Fi devices. Supported devices are: ESP32, 
 
 ### ****
 
-### **How Dynamic AuthTokens work**
+## **How Dynamic AuthTokens work**
 
 Dynamic AuthToken generation is a part of the device provisioning process:
 
@@ -33,7 +33,7 @@ Dynamic AuthToken generation is a part of the device provisioning process:
 
 
 
-### Preparation
+## Preparation
 
 In general, Blynk.Edgent covers everything you need to enable your productst to get AuthTokens Following this guide will give you a full understanding of how this process works.
 
@@ -52,7 +52,7 @@ You can find references to handling reset and statuses indication in Blynk.Edgen
 
 
 
-### Testing WiFi Provisioning Process
+## Testing WiFi Provisioning Process
 
 Before delivering your IoT products to new customers, it's beneficial to test the user experience your clients will face. Here is an example of how adding new device would work.
 
@@ -64,7 +64,7 @@ User experience is different for iOS and Android devices. Future updates of thes
 
 ###
 
-### Delivering products to clients (PRO plan workflow)
+## Delivering products to clients (PRO plan workflow)
 
 Here is a recommended workflow for managing customers in PRO plan so that your clients only see devices they own, while you, as an administrator can get access to all the devices, users, organizations, etc.
 
@@ -97,11 +97,13 @@ Alternatively, if you know client's WiFi credentials or you provide a mobile hot
 
 
 
-### Managing and Troubleshooting Clients
+## Managing and Troubleshooting Clients
 
 Once you have active clients, you will most likely need to help them with different questions they have. Here is what you need to become fluent with to provide a good level of customer support:
 
-#### 1. Navigating between organizations.&#x20;
+
+
+### 1. Navigating between organizations.&#x20;
 
 With Blynk you can switch to any sub-organization to see "what client sees". When switched, you also get access to this organization's settings like user permissions and more.
 
@@ -111,7 +113,7 @@ You can also switch organizations in the mobile app by tapping on the organizati
 
 ![](<../.gitbook/assets/image (40).png>)
 
-#### 2. Transferring devices.
+### 2. Transferring devices.
 
 With Blynk you can do all sorts of assets transfer:
 
@@ -126,7 +128,7 @@ With Blynk you can do all sorts of assets transfer:
 
 ####
 
-#### 3. User permissions&#x20;
+### 3. User permissions&#x20;
 
 In Blynk, Permissions are set per organization, which gives you full control of how your clients access devices and other data.&#x20;
 
@@ -140,7 +142,7 @@ To check permissions for a current organization and user role
 2. Switch to this organization
 3. Go to Organization Settings -> Roles and permissions
 
-**Advanced use:**
+#### **Advanced use of permissions:**
 
 You can change and apply permissions for all clients or for a group of clients. To do that, you can create such a structure:
 
