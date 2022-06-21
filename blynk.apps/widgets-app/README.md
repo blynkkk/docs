@@ -576,7 +576,29 @@ Blynk.setProperty(V1, "color", "#D3435C");
 
 ### LCD
 
-This is a regular 16x2 LCD display made in our secret facility in China.
+This is a regular 16x2 LCD display made in our secret facility in China. It can work in 2 modes :
+
+* Simple
+* Advanced
+
+**Simple mode**
+
+In simple mode, your LCD widget performs as a regular widget with Frequency reading.
+
+With Frequency Reading mode you need to select update interval and the application will trigger events with the required timing.\
+Your application should be open and running in order to make requests to hardware. You don't need any code for Analog and\
+Digital pins in that case. However, for virtual pins you need to use the following code :
+
+```
+//triggered from app
+BLYNK_READ(V1)
+{
+  //send to app
+  Blynk.virtualWrite(V1, val);
+}
+```
+
+In Simple mode LCD also supports formatting options.
 
 **Formatting options**
 
