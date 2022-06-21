@@ -732,7 +732,9 @@ For example, you can set to `TRUE` to "Equipment ON" label, `FALSE` to "Equipmen
 
 ### Simple Chart
 
-Simple Chart widget provides historic chart visualization of numerical data that comes from the device. It features:
+![](../../.gitbook/assets/simple-chart-widget-newsletter.png)
+
+Simple Chart widget visualizes numerical data that comes from the device plotting a historical graph. It features:
 
 * line, stepped line or bar chart types
 * plotting data resolutions: 1 min, 1 hour, or 1 day
@@ -742,27 +744,35 @@ Simple Chart widget provides historic chart visualization of numerical data that
 * easily reveal individual points via tap-n-hold
 * scrollable time axis
 * numerous styling settings
-* full screen mode
+* full-screen mode
 
 #### **Widget Settings**
 
 #### **Data**
 
+![](../../.gitbook/assets/simple-chart-widget-data-settings.png)
+
 Select a datastream which has numerical (i.e. of Int or Double) data type and comes from the device. Data that the app sends to the device is not registered. Simple Chart widget shows data from a single datastream. If you need to plot multiple datastreams in a single chart, check the Super Chart widget. By default the chart shows the average value (AVG) for each point on the chart, but you can change aggregation to (SUM) total of the incoming data. The time period covered by each point on the chart is defined by the selected Time Range/Resolution (see below).
 
 #### Chart Style
 
-Choose chart type (Line, Bar, or Step line) and its visual properties, like line width, color or gradient, axes style, etc. Note: when the gradient option is used, its color distribution is based on min/max properties of the selected Datastream.
+![](../../.gitbook/assets/simple-chart-widget-style.png)
+
+Choose chart type (Line, Bar, or Step line) and its visual properties, like line width, color or gradient, axes style, etc. Note: when the gradient option is used, its color distribution is based on min/max properties of the selected datastream.
 
 #### Time Ranges / Resolution
+
+![](../../.gitbook/assets/simple-chart-widget-time-ranges.png)
 
 Select up to 7 time ranges you want to be able to switch between in the widget. Each time range button you select specifies its resolution - that is a period of time covered by each single point on a chart. Whenever there are multiple actual data writings coming from the device within the resolution period, that data is aggregated into one point (calculating average or total depending on the selection made in the Data section (see above).
 
 #### Y-Axis Scaling
 
+![](../../.gitbook/assets/simple-chart-widget-y-axis-scaling.png)
+
 There are a number of ways to define the range of values to be shown on a chart. Select option to**:**
 
-* use Datastream min/max (available for AVG aggregation, not available for SUM aggregation)
+* use datastream min/max (available for AVG aggregation, not available for SUM aggregation)
 * auto scale the visual range to always fit all the data
 * 0-Auto: auto-scale but always start from zero
 * define fixed min and max of the visual range
@@ -770,9 +780,13 @@ There are a number of ways to define the range of values to be shown on a chart.
 
 #### Summary
 
-Turn on Summary to show in the top right corner the average or total of all values presented on the chart. Note: summary style settings also define the style of selected value during tap-n-hold.
+![](../../.gitbook/assets/simple-chart-widget-value-summary.png)
+
+Turn on Summary to show the average or total of all values presented on the chart in the top right corner. Note: summary style settings also define the style of selected value during tap-n-hold.
 
 #### Other Settings
+
+![](../../.gitbook/assets/simple-chart-widget-settings.png)
 
 * Show or hide a button at the bottom right to go to full-screen mode
 * Allow chart scrolling along the time axis. On scrolling, the chart and the summary are updated according to the new time range
