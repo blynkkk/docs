@@ -2,11 +2,11 @@
 
 ### Introduction
 
-An automation performs one or more actions based on a condition.
+An [automation](automations.md) performs one or more actions based on a condition.
 
-The types of conditions that may be defined are: Schedule, Sunrise/Sunset, Device State, and Scene. The Schedule condition allows you to trigger an event based on the current date/time reaching a particular set of date/time values (all relative to a specified time zone). A Sunrise/Sunset condition triggers an event when the time before/after sunrise/sunset occurs relative to a set of defined week days, at a specific geographic location. The Device State triggers an action based on the value of a Datastream. The Scene option allows you to manually trigger an automation event from the Blynk.App mobile app or the Blynk.Console web app.
+The types of **conditions** that may be defined are: Schedule, Sunrise/Sunset, Device State, and Scene. The **Schedule** condition allows you to trigger an event based on the current date/time reaching a particular set of date/time values (all relative to a specified time zone). A **Sunrise/Sunset** condition triggers an event when the time before/after sunrise/sunset occurs relative to a set of defined week days, at a specific geographic location. The **Device State** triggers an action based on the value of a [Datastream](../blynk.console/templates/datastreams/). The **Scene** option allows you to manually trigger an automation event from the [Blynk.App](broken-reference) mobile app or the [Blynk.Console](broken-reference) web app.
 
-One or more actions may be executed sequentially when a condition's requirement has been met. The types of actions include a mobile app notification, an email, a delay, and setting a Datastream value. Actions may be triggered by multiple devices.
+One or more actions may be executed sequentially when a condition's requirement has been met. The types of actions include a mobile app notification, an email, a delay, and setting a [Datastream](../blynk.console/templates/datastreams/) value. Actions may be triggered by multiple devices.
 
 Note that the value of a Datastream may be used by a condition, and an action can be configured to set a Datastream to a new value. Using widgets on the Blynk.Console and/or Blynk.App, you can visualize and change the values of Datastreams. You may also access Datastreams within the firmware of an IoT device, and by using the Blynk.Cloud HTTPS API.
 
