@@ -102,7 +102,7 @@ Dashboard Editing available from device profile view in [Developer Mode](../../g
 
 ### Notification settings
 
-Opens [Notifications Management](../../getting-started/notification-management/)
+Opens [Notifications Management](../../getting-started/notification-management.md)
 
 ### Erase data
 

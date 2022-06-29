@@ -18,33 +18,31 @@ This is the easiest way of sending notifications triggered by user-defined condi
 
 Read more about setting up automations here:
 
-{% content-ref url="use-automations-to-send-notifications-no-code.md" %}
-[use-automations-to-send-notifications-no-code.md](use-automations-to-send-notifications-no-code.md)
+{% content-ref url="../concepts/automations.md" %}
+[automations.md](../concepts/automations.md)
 {% endcontent-ref %}
-
-
 
 ## Send Notifications From Hardware
 
 Very often notifications and alerts are an integral part of an IoT product and has to be triggered by the device itself. Blynk offers a way to pre-configure and inegrate alerts into the device logic.&#x20;
 
-Such Notifications are part of Events functionality. You would need to configure an [Event](../../blynk.console/templates/events/) first
+Such Notifications are part of Events functionality. You would need to configure an [Event](../blynk.console/templates/events/) first
 
 {% hint style="info" %}
-Note: notifications are parts of [Events](../../blynk.console/templates/events/). Before moving forward:
+Note: notifications are parts of [Events](../blynk.console/templates/events/). Before moving forward:
 
 1. Make sure your template has Event configured
-2. Make sure that [Notifications are enabled](../../blynk.console/templates/events/custom-events/events-notification-settings.md) for this Event
+2. Make sure that [Notifications are enabled](../blynk.console/templates/events/custom-events/events-notification-settings.md) for this Event
 {% endhint %}
 
-{% content-ref url="../../blynk.console/templates/events/custom-events/events--how-to-log-events.md" %}
-[events--how-to-log-events.md](../../blynk.console/templates/events/custom-events/events--how-to-log-events.md)
+{% content-ref url="../blynk.console/templates/events/custom-events/events--how-to-log-events.md" %}
+[events--how-to-log-events.md](../blynk.console/templates/events/custom-events/events--how-to-log-events.md)
 {% endcontent-ref %}
 
 ## Setting notifications for multiple devices
 
-1. Open [Search](../../blynk.console/search-data.md)
-2. Go to [Devices](../../blynk.console/devices/) filters
+1. Open [Search](../blynk.console/search-data.md)
+2. Go to [Devices](../blynk.console/devices/) filters
 3. Select multiple devices (1)
 4. Hover over the **Actions menu \[...]** (2)
 5. Click **Notification Settings** (3)
@@ -56,7 +54,7 @@ In the opened drawer select the desired events to edit (4) -> **Edit Settings** 
 ![](https://user-images.githubusercontent.com/72824404/119675163-79c66c80-be45-11eb-93d1-71f02150a0b0.png)
 
 {% hint style="warning" %}
-If the list of events is empty or you don't see the **Edit Settings** button, make sure that [Notifications are enabled](../../blynk.console/templates/events/custom-events/events-notification-settings.md) for this Event in the Device Template
+If the list of events is empty or you don't see the **Edit Settings** button, make sure that [Notifications are enabled](../blynk.console/templates/events/custom-events/events-notification-settings.md) for this Event in the Device Template
 {% endhint %}
 
 ![](https://user-images.githubusercontent.com/72824404/119676364-797aa100-be46-11eb-98e6-c8a4a16ae06e.png)

@@ -45,4 +45,4 @@ After actions applied you can move notification from Critical or Warning list to
 ## **Notifications Settings**
 
 This button is on the top right of the screen.\
-Click it to set up events notifications recipients, statuses and channels. Click [this link](../../../getting-started/notification-management/) for more details.
+Click it to set up events notifications recipients, statuses and channels. Click [this link](../../../getting-started/notification-management.md) for more details.

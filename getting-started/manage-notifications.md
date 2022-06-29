@@ -6,7 +6,7 @@ Blynk offers a flexible system of sending notifications to multiple users using 
 
 There are three main approaches you can take.
 
-1. End-users can set up [Notifications using Automations](notification-management/use-automations-to-send-notifications-no-code.md) (if allowed so by their role and set of permissions). Once Automation is set up, Blynk.Cloud monitors the data and sends notification to the specified recipients when the condition is met.&#x20;
+1. End-users can set up [Notifications using Automations](broken-reference) (if allowed so by their role and set of permissions). Once Automation is set up, Blynk.Cloud monitors the data and sends notification to the specified recipients when the condition is met.&#x20;
 2. Device-driven notifications
 
 ## Setting notifications for multiple devices
