@@ -91,7 +91,9 @@ For the Automation scenario of: “When the temperature is higher than 40, send 
 
 After the [Automation](automations.md) is configured, it will appear in the 'Automations' list as a card, with the count of actions defined, and the last date/time that the Automation was executed. A switch on the card allows the Automation to be enabled/disabled.
 
-If the condition of type 'Scene' was chosen, a 'Execute automation' button will also be available within the rectangle, otherwise a 'Disable automation' button will be available.
+![](<../.gitbook/assets/image (34).png>)
+
+If the condition of type 'Scene' was chosen, a 'Execute automation' button will also be available within the rectangle, otherwise, a 'Disable automation' button will be available.
 
 The images that follow, show how the Automation card appears in both the Blynk.Console and the Blynk.App. Recall that creating an Automation in one app (Blynk.Console or Blynk.App) will cause it to be accessible in the other app.
 
