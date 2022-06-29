@@ -7,7 +7,7 @@ description: >-
 
 # Expose to Automation
 
-### 1. Turn on the switch to expose this Datastream for Automation
+### 1. Turn on the switch to expose this Datastream for [Automation](../../../../concepts/automations.md)
 
 1. **Edit** your Template
 2. Switch to _Datastream tab_
@@ -20,7 +20,7 @@ description: >-
 
 ### 2. Choose the Type of Automation
 
-Type defines what kind of Action or Trigger is it and how it will be presented for the user when using Automation
+Type defines what kind of Action or Trigger is it and how it will be presented for the user when using [Automation](../../../../concepts/automations.md#preparing-template-and-datastreams)
 
 | Type                  | Description                                                                                                                                                                                                 |      GUI     | Condition | Action | Settings |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: | :-------: | :----: | :------: |
