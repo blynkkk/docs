@@ -30,14 +30,14 @@ In the table column labeled ‘Type of Automation’, make a choice for the Data
 
 #### Template Automation Options
 
-| Type of Automation | Data Type                                                  | Description                                                                                                    | Blynk.App Automation GUI Control |
-| ------------------ | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------- |
-| Power Switch       | Integer                                                    | Typically 0 = on, 1 = off Max 1 Power Switch per product                                                       | Switch                           |
-| Switch             | Integer                                                    | Typically 0 = on, 1 = off                                                                                      | Switch                           |
-| Range Control      | Integer                                                    | The min/max is defined by the Datastream. The slider step value is defined in the ‘Type of Automation’ column. | Slider                           |
-| Color              | String                                                     | Color value and Alpha (transparency)                                                                           | Color Slider                     |
-| Enumerable         | Enumerable                                                 | An integer value corresponds to a string value                                                                 | a list of the enumeration values |
-| Sensor             | <p>Double </p><p>Integer</p><p>String</p><p>Enumerable</p> | Cannot be an action                                                                                            | N/A                              |
+| **Type of Automation** | <p><strong>Data</strong> <br><strong>Type</strong></p>     | **Description**                                                                                                | **Blynk.App Automation GUI Control** |
+| ---------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| Power Switch           | Integer                                                    | Typically 0 = on, 1 = off Max 1 Power Switch per product                                                       | Switch                               |
+| Switch                 | Integer                                                    | Typically 0 = on, 1 = off                                                                                      | Switch                               |
+| Range Control          | Integer                                                    | The min/max is defined by the Datastream. The slider step value is defined in the ‘Type of Automation’ column. | Slider                               |
+| Color                  | String                                                     | Color value and Alpha (transparency)                                                                           | Color Slider                         |
+| Enumerable             | Enumerable                                                 | An integer value corresponds to a string value                                                                 | a list of the enumeration values     |
+| Sensor                 | <p>Double </p><p>Integer</p><p>String</p><p>Enumerable</p> | Cannot be an action                                                                                            | N/A                                  |
 
 If the value of the Datastream will be used to trigger an action, then enable the ‘Condition’ switch in the table.  If the value of the Datastream is to be changed by the Automation, then enable the ‘Action’ switch in the table.
 
