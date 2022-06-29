@@ -84,12 +84,12 @@ The 'Name' and 'Cover' should also be configured for the new [automation](automa
 {% hint style="info" %}
 **Limit Period Example**
 
-For the Automation scenario of: “When the temperature is higher than 40, send Email Notification" with a limit period of 1 hour”, if the temperature rises and exceeds 40 at 9:30 am, then no additional notifications will be sent until 1 hour later at 10:30 am. At 10:30 am, the limit period resets, permitting another notification to be sent at 11:30 am if the temperature continues to exceed 40.
+For the Automation scenario of: “When the temperature is higher than 40, send Email Notification" with a **limit period** of 1 hour”, if the temperature rises and exceeds 40 at 9:30 am, then no additional notifications will be sent until 1 hour later at 10:30 am. At 10:30 am, the limit period resets, permitting another notification to be sent at 11:30 am if the temperature continues to exceed 40.
 {% endhint %}
 
 ### Automation Management
 
-After the Automation is configured, it will appear in the 'Automations' list as a card, with the count of actions defined, and the last date/time that the Automation was executed. A switch on the card allows the Automation to be enabled/disabled.
+After the [Automation](automations.md) is configured, it will appear in the 'Automations' list as a card, with the count of actions defined, and the last date/time that the Automation was executed. A switch on the card allows the Automation to be enabled/disabled.
 
 If the condition of type 'Scene' was chosen, a 'Execute automation' button will also be available within the rectangle, otherwise a 'Disable automation' button will be available.
 
@@ -107,11 +107,11 @@ If you click on the ‘AUTOMATIONS’ section, you may enable/disable the partic
 
 ### Automations Logs
 
-In the [Blynk.Console](https://docs.google.com/document/d/1Ov\_hYFmcVgPfRA\_8SMv1raMtXEykAQ\_I9Uo1GwYDOM8/edit#bookmark=id.hry24cwv591c), you may also view the Automation Logs while editing an [Automation](https://docs.google.com/document/d/1Ov\_hYFmcVgPfRA\_8SMv1raMtXEykAQ\_I9Uo1GwYDOM8/edit#bookmark=id.n0xggfd5ieg).  This option is not available in the [Blynk.App](https://docs.google.com/document/d/1Ov\_hYFmcVgPfRA\_8SMv1raMtXEykAQ\_I9Uo1GwYDOM8/edit#bookmark=id.amxwygon3fmj).
+In the [Blynk.Console](broken-reference), you may also view the Automation Logs while editing an Automation.  This option is not available in the [Blynk.App](broken-reference).
 
 ![](https://lh5.googleusercontent.com/5626PQoO5gYsmKuu6hXSFK\_qDJS4tPWOyxdmWB5dZEsV2Mn6s4knXqpUJ4Vuuwwp\_cfXFZxWl5BMrsGw0SQjwfKKFw5vT864iKsIEmzUhaDxeKeT3jH4KR1-AFKLVdQ9-p2WlY1WihkoxBpePA)
 
-Selecting the ‘Automation Logs’ icon will display a page with a history of the executions of the [Automation](https://docs.google.com/document/d/1Ov\_hYFmcVgPfRA\_8SMv1raMtXEykAQ\_I9Uo1GwYDOM8/edit#bookmark=id.n0xggfd5ieg).  The summary includes the date/time when it was executed, from what [Device](https://docs.google.com/document/d/1Ov\_hYFmcVgPfRA\_8SMv1raMtXEykAQ\_I9Uo1GwYDOM8/edit#bookmark=id.p39oifjipyk4), the [Datastream](https://docs.google.com/document/d/1Ov\_hYFmcVgPfRA\_8SMv1raMtXEykAQ\_I9Uo1GwYDOM8/edit#bookmark=id.4beq33tc010t) employed, and the value of the [Datastream](https://docs.google.com/document/d/1Ov\_hYFmcVgPfRA\_8SMv1raMtXEykAQ\_I9Uo1GwYDOM8/edit#bookmark=id.4beq33tc010t).
+Selecting the ‘Automation Logs’ icon will display a page with a history of the executions of the [Automation](automations.md).  The summary includes the date/time when it was executed, from what [Device](device.md), the Datastream employed, and the value of the [Datastream](../getting-started/template-quick-setup/set-up-datastreams.md).
 
 ![](https://lh5.googleusercontent.com/kjXex\_900CfRg1nOxtaDRselm3v8gEVwXxu6lWjd\_ZcaU2yyuzVFipwLaG5Cq45p05beK8WxkSRQOg6vXny\_rchv0eaOjjmHLzn-8NmwY29gC1ufv-B08iXvqRkYtG5eM6w2S6kEQGQPk5-W0A)
 
