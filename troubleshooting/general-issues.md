@@ -4,44 +4,44 @@
 
 **What could be the reason:**
 
-* wrong email address  
-* the password is incorrect  
+* wrong email address &#x20;
+* the password is incorrect &#x20;
 * the user with the specified email address is not registered in the system
 
 **What’s the solution:**
 
-* specify correct email address  
-* be sure to type the correct password  
-* reset password  
-* check the specified email inbox to be sure it's registered in the system  
+* specify correct email address &#x20;
+* be sure to type the correct password &#x20;
+* reset password &#x20;
+* check the specified email inbox to be sure it's registered in the system &#x20;
 * register with a different email address
 
 ## **No email received**
 
 **What could be the reason:**
 
-* you entered an incorrect email address  
-* the letter got into the spam folder  
-* email server issues  
+* you entered an incorrect email address &#x20;
+* the letter got into the spam folder &#x20;
+* email server issues &#x20;
 
 **What’s the solution:**
 
-* specify correct email address  
-* check your spam folder  
+* specify correct email address &#x20;
+* check your spam folder &#x20;
 * contact you mail server administrator
 
 ## **No connection to server**
 
 **What could be the reason:**
 
-* you do not have an internet connection  
-* the server is rebooting  
+* you do not have an internet connection &#x20;
+* the server is rebooting &#x20;
 * intermediate providers issues
 
 **What’s the solution:**
 
-* check your internet connection  
-* you should wait for a while to reboot the server  
+* check your internet connection &#x20;
+* you should wait for a while to reboot the server &#x20;
 * run traceroute command in your OS terminal, contact your ISP and provide them with this data
 
 ## I can't see all metadata in Blynk.Apps
@@ -68,7 +68,7 @@
 **What’s the solution:**
 
 * check if the device is powered on
-* check your internet connection between the device and Blynk.Cloud \(mind Wi-Fi signal strength and distance\)
+* check your internet connection between the device and Blynk.Cloud (mind Wi-Fi signal strength and distance)
 * connect to your device and check if it's auth token matches one in Blynk.Cloud
 * be sure to use the latest version of library, otherwise re-flash and launch Device Reprovision process
 * check your ESP core version is up to date, otherwise re-flash and launch Device Reprovision process
@@ -79,7 +79,7 @@
 
 * device board hardware is not supported by the Template
 * device Template ID mismatch
-* wrong Product Name 
+* wrong Product Name&#x20;
 
 **What’s the solution:**
 
@@ -99,7 +99,7 @@
 * wait for up to 5 minutes and re-check device's data
 * check your network connection, re-send the command
 
-## There are no devices in Blynk.Apps Automation
+## There are no devices in Blynk.Apps [Automation](../concepts/automations.md)
 
 **What could be the reason:**
 
@@ -111,7 +111,7 @@
 
 * create a template or ask your organization admin for it
 * add a device so you can access it from Devices tab
-* check for the template to have required datastreams are exposed to automations 
+* check for the template to have required datastreams are exposed to automations&#x20;
 
 ## I press button or move slider and nothing happens to the device
 
@@ -122,7 +122,7 @@
 
 **What’s the solution:**
 
-* check your internet connection for both: device and smartphone/PC \(Blynk is a cloud platform, there's no offline support\)
+* check your internet connection for both: device and smartphone/PC (Blynk is a cloud platform, there's no offline support)
 * be sure that device is powered on and has no circuit or physical damage
 
 ## I can't download device report
@@ -148,4 +148,3 @@ There are multiple reasons why your hardware could be disconnected. In order to 
 * Make sure you don't use `delay()` instructions in your firmware, long delay in your sketch can break the persistent connection with Blynk Cloud
 * Checkout your serial console output, make sure it doesn't contain crashes or other error that may lead to connection interrupts
 * Make sure you don't send a huge number of virtualWrite commands per seconds. Blynk Cloud doesn't allow to send more than 20 requests per seconds. Connections that exceeds the limit are closed
-

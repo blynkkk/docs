@@ -40,9 +40,9 @@ Max number of templates per organization - 50 templates
 
 Max number of sub-organizations - 200 organizations for the Pro plan
 
-Max number of automations per organization - 5 for Free, 25 for Plus, 50 for Pro plan
+Max number of [automations](../concepts/automations.md) per organization - 5 for Free, 25 for Plus, 50 for Pro plan
 
-Max number of actions per automation - 5 for Free, 25 for Plus, 50 for Pro plan
+Max number of [actions](../concepts/automations.md#actions) per automation - 5 for Free, 25 for Plus, 50 for Pro plan
 
 Max number of users per organization - 100 users
 

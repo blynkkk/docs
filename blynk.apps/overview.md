@@ -22,7 +22,7 @@ It's focused on devices, automations and notifications view and management with 
 
 ## Home screen
 
-Home screen consists of up to 3 tabs depending on the configuration: [Devices](overview.md#devices), [Automation](overview.md#automation) and [Notifications](overview.md#notifications)
+Home screen consists of up to 3 tabs depending on the configuration: [Devices](overview.md#devices), [Automation](../concepts/automations.md) and [Notifications](overview.md#notifications)
 
 ### **Devices**
 
