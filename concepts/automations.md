@@ -26,7 +26,7 @@ From the Blynk.Console, click on the main menu icon for 'Templates'. Choose a Te
 
 ![](https://lh4.googleusercontent.com/vf-aA9Q8Ni7nevWNpVnrN5g5o-D0LL7D0hkKJAg8GRxE8xfpH5mI10sH8baDiTHQ7-KYbPLtvpzhEC-IHVBJmHGyyR\_nmjiciwvQc5L7soAxXkXWrPgrg5fH6DZXg1EOk8ceqIlUmDKdi4JcTw)
 
-In the table column labeled ‘Type of Automation’, make a choice for the Datastream to be associated with your Automation.  The choices vary by the [Datastream](../getting-started/template-quick-setup/set-up-datastreams.md) data type (double, integer, string, enumerable).  All options except for ‘Sensor’ define what type of GUI control will be presented to the User when defining the Automation in the Blynk.App.
+In the table column labeled **‘Type of Automation’**, make a choice for the Datastream to be associated with your Automation.  The choices vary by the [Datastream](../getting-started/template-quick-setup/set-up-datastreams.md) data type (double, integer, string, enumerable).  All options except for ‘Sensor’ define what type of GUI control will be presented to the User when defining the Automation in the Blynk.App.
 
 #### Template Automation Options
 
@@ -47,36 +47,44 @@ You may create an Automation scenario in either the [Blynk.Console](broken-refer
 
 ### Create an Automation
 
-From the [Blynk.Console](https://docs.google.com/document/d/1Ov\_hYFmcVgPfRA\_8SMv1raMtXEykAQ\_I9Uo1GwYDOM8/edit#bookmark=id.hry24cwv591c), click on the 'Automations' icon on the main menu.  From the [Blynk.App](https://docs.google.com/document/d/1Ov\_hYFmcVgPfRA\_8SMv1raMtXEykAQ\_I9Uo1GwYDOM8/edit#bookmark=id.amxwygon3fmj), click on the ‘Automations’ icon at the bottom of the home screen.
+From the [Blynk.Console](broken-reference), click on the 'Automations' icon on the main menu.  From the [Blynk.App](broken-reference), click on the ‘Automations’ icon at the bottom of the home screen.
+
+#### Conditions
 
 Choose a condition from the options of:
 
-* Schedule allows you to trigger an action based on the current date/time reaching a particular set of date/time values (all relative to a specified time zone).
-* Sunrise/Sunset triggers an action when the time before/after sunrise/sunset occurs according to a set of week days, at a specific geographic location.
-* Device State triggers an action based on the value of a Datastream.
-* Scene is a manual trigger of an Automation directly from the 'Automations' page in the Blynk.Cloud or Blynk.App.
+* **Schedule** allows you to trigger an action based on the current date/time reaching a particular set of date/time values (all relative to a specified time zone).
+* **Sunrise/Sunset** triggers an action when the time before/after sunrise/sunset occurs according to a set of week days, at a specific geographic location.
+* **Device State** triggers an action based on the value of a Datastream.
+* **Scene** is a manual trigger of an Automation directly from the 'Automations' page in the Blynk.Cloud or Blynk.App.
+
+#### Actions
 
 After you have the 'When' condition defined, the next step is to configure one or more 'Do this' actions. The action choices are:
 
-* Control Device - select a specific Device to control by setting a Datastream value.
-* Send Email will send an email to one or more Users with optional details about the Organization, Template name, Device name, and/or Datastream value included (availability of each depends on the Datastream data type and type of automation).
-* Send In-App Notifications to one or more Users' Blynk.App with optional details about the Organization, Template name, Device name, and/or Datastream value included (availability of each depends on the Datastream data type and type of automation).
-* Wait, Then Do Something - delay until a specific time of the day is reached (in a specified timezone), or until a timer between 1 sec and 24 hours elapses.
-* Send SMS will send a text message to one or more Users's Blynk.App with optional details about the Organization, Template name, Device name, and/or Datastream value included (availability of each depends on the Datastream data type and type of automation). This option is available only to BUSINESS subscribers.
+* **Control Device** - select a specific Device to control by setting a Datastream value.
+* **Send Email** will send an email to one or more Users with optional details about the Organization, Template name, Device name, and/or Datastream value included (availability of each depends on the Datastream data type and type of automation).
+* **Send In-App Notifications** to one or more Users' Blynk.App with optional details about the Organization, Template name, Device name, and/or Datastream value included (availability of each depends on the Datastream data type and type of automation).
+* **Wait, Then Do Something** - delay until a specific time of the day is reached (in a specified timezone), or until a timer between 1 sec and 24 hours elapses.
+* **Send SMS** will send a text message to one or more Users's Blynk.App with optional details about the Organization, Template name, Device name, and/or Datastream value included (availability of each depends on the Datastream data type and type of automation). This option is available only to BUSINESS subscribers.
 
-The ‘Send Email’, ‘Send In-App Notifications’, and ‘Send SMS’ actions support the use of placeholders. Placeholders are key/value pairs that refer to Blynk account metadata and DataStream values.
+#### Placeholders
 
-* {ORG\_NAME} - name of the organization the device is assigned to.&#x20;
-* {PRODUCT\_NAME} - name of the Template used.&#x20;
-* {DEVICE\_NAME} - the IoT Device name as displayed under ‘DEVICES’.
-* {TRIGGER\_VALUE} - if a Device State trigger was used, this will be the value of the trigger.
+The ‘Send Email’, ‘Send In-App Notifications’, and ‘Send SMS’ actions support the use of placeholders. Placeholders are key/value pairs that refer to Blynk account metadata and Datastream values.
+
+* **{ORG\_NAME}** - name of the organization the device is assigned to.&#x20;
+* **{PRODUCT\_NAME}** - name of the Template used.&#x20;
+* **{DEVICE\_NAME}** - the IoT Device name as displayed under ‘DEVICES’.
+* **{TRIGGER\_VALUE}** - if a Device State trigger was used, this will be the value of the trigger.
+
+#### Limit period
 
 The 'Name' and 'Cover' should also be configured for the new automation. If the Automation has a Device State condition defined, then an option of 'LIMIT PERIOD' is available and should be configured. The limit period prevents multiple executions of an Automation within the limit period duration, beginning from when the last trigger occurred.
 
 {% hint style="info" %}
-Limit Period Example
+**Limit Period Example**
 
-For the Automation scenario of: “When temperature is higher than 40, send Email Notification" with a limit period of 1 hour”, if the temperature rises and exceeds 40 at 9:30 am, then no additional notifications will be sent until 1 hour later at 10:30 am. At 10:30 am, the limit period resets, permitting another notification to be sent at 11:30 am if the temperature continues to exceed 40.
+For the Automation scenario of: “When the temperature is higher than 40, send Email Notification" with a limit period of 1 hour”, if the temperature rises and exceeds 40 at 9:30 am, then no additional notifications will be sent until 1 hour later at 10:30 am. At 10:30 am, the limit period resets, permitting another notification to be sent at 11:30 am if the temperature continues to exceed 40.
 {% endhint %}
 
 ### Automation Management
