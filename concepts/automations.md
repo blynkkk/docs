@@ -55,8 +55,8 @@ Choose a condition from the options of:
 
 * **Schedule** allows you to trigger an action based on the current date/time reaching a particular set of date/time values (all relative to a specified time zone).
 * **Sunrise/Sunset** triggers an action when the time before/after sunrise/sunset occurs according to a set of week days, at a specific geographic location.
-* **Device State** triggers an action based on the value of a Datastream.
-* **Scene** is a manual trigger of an Automation directly from the 'Automations' page in the Blynk.Cloud or Blynk.App.
+* **Device State** triggers an action based on the value of a [Datastream](../getting-started/template-quick-setup/set-up-datastreams.md).
+* **Scene** is a manual trigger of an Automation directly from the 'Automations' page in the Blynk.Console or Blynk.App.
 
 #### Actions
 
@@ -70,7 +70,7 @@ After you have the 'When' condition defined, the next step is to configure one o
 
 #### Placeholders
 
-The ‘Send Email’, ‘Send In-App Notifications’, and ‘Send SMS’ actions support the use of placeholders. Placeholders are key/value pairs that refer to Blynk account metadata and Datastream values.
+The ‘Send Email’, ‘Send In-App Notifications’, and ‘Send SMS’ actions support the use of placeholders. Placeholders are key/value pairs that refer to Blynk account metadata and [Datastream](../getting-started/template-quick-setup/set-up-datastreams.md) values.
 
 * **{ORG\_NAME}** - name of the organization the device is assigned to.&#x20;
 * **{PRODUCT\_NAME}** - name of the Template used.&#x20;
@@ -79,7 +79,7 @@ The ‘Send Email’, ‘Send In-App Notifications’, and ‘Send SMS’ action
 
 #### Limit period
 
-The 'Name' and 'Cover' should also be configured for the new automation. If the Automation has a Device State condition defined, then an option of 'LIMIT PERIOD' is available and should be configured. The limit period prevents multiple executions of an Automation within the limit period duration, beginning from when the last trigger occurred.
+The 'Name' and 'Cover' should also be configured for the new [automation](automations.md). If the Automation has a Device State condition defined, then an option of 'LIMIT PERIOD' is available and should be configured. The limit period prevents multiple executions of an Automation within the limit period duration, beginning from when the last trigger occurred.
 
 {% hint style="info" %}
 **Limit Period Example**
