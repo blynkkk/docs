@@ -10,7 +10,7 @@ description: Terminology used in Blynk
 
 `Auth Token` - a unique identifier that is assigned to each `Device` that is activated in the system.
 
-`Automation` - condition-to-action sets allowing `Devices` to complete tasks without user interaction.
+``[`Automation`](concepts/automations.md) - condition-to-action sets allowing `Devices` to complete tasks without user interaction.
 
 ## B
 
@@ -34,9 +34,9 @@ description: Terminology used in Blynk
 
 ## C
 
-`Category` - `Devices` group by their type that allows controlling all of them with voice assistants \(Alexa, Google Assistant\).
+`Category` - `Devices` group by their type that allows controlling all of them with voice assistants (Alexa, Google Assistant).
 
-`Claiming` - a process of associating the device with the User \(device owner\). Usually used with devices that connect to the Internet using cellular or wired connection. WiFI `Provisioning`
+`Claiming` - a process of associating the device with the User (device owner). Usually used with devices that connect to the Internet using cellular or wired connection. WiFI `Provisioning`
 
 ## D
 
@@ -64,7 +64,7 @@ description: Terminology used in Blynk
 
 ## L
 
-`Library` - a set of files embedded to the arduino \(or any other\) integrated development environment \(IDE\) that add more functionality and ease to the use the `Board`.
+`Library` - a set of files embedded to the arduino (or any other) integrated development environment (IDE) that add more functionality and ease to the use the `Board`.
 
 ## M
 
@@ -78,11 +78,11 @@ description: Terminology used in Blynk
 
 `Organization` - a collection of users, devices, and locations
 
-`OTA` \(also `FOTA`\) – **O**ver-**T**he-**A**ir `Firmware` updates without accessing the `Device` physically.
+`OTA` (also `FOTA`) – **O**ver-**T**he-**A**ir `Firmware` updates without accessing the `Device` physically.
 
 ## P
 
-`Pin` - GPIO \(general-purpose input/output\) pin on your `Board` used to interface with external hardware components \(sensors, servo motors, LCDs, etc\) of your `Device`.
+`Pin` - GPIO (general-purpose input/output) pin on your `Board` used to interface with external hardware components (sensors, servo motors, LCDs, etc) of your `Device`.
 
 `Product` - a `Template` published to `Blynk.Marketplace` and available for public use
 
@@ -120,5 +120,4 @@ description: Terminology used in Blynk
 
 ## W
 
-`Widget` - a self-contained graphical user interface \(GUI\) element used to visualize data or get user input.
-
+`Widget` - a self-contained graphical user interface (GUI) element used to visualize data or get user input.
