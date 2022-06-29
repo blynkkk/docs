@@ -42,6 +42,7 @@
 * [Users](concepts/users.md)
 * [Organizations](concepts/organizations.md)
 * [Multi-tenancy](concepts/multi-tenant-tree-structure.md)
+* [Automations](concepts/automations.md)
 
 ## Downloads
 
