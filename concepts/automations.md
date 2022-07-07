@@ -1,6 +1,6 @@
 # Automations
 
-## Introduction
+### Introduction
 
 Automations allow the end-user of your app to create scenarios where the device automatically performs one or more **actions** based on a **condition**.
 
@@ -38,9 +38,11 @@ Note that the value of a Datastream may be used by a condition, and action can b
 
 
 
-## Preparing Template and Datastreams
+## How to Set Up Automations in Blynk
 
-### 1. Check permissions
+### 1. Prepare the Template and Datastreams
+
+#### Check permissions
 
 [Automations](automations.md) are created per [Organization](organizations.md) and are only available for users with permission for it. By default, the first user in the Organization becomes a [Developer](users.md#developers) and has sufficient permissions to create an Automation.
 
@@ -50,7 +52,7 @@ Enable automation permissions for other roles by visiting [Blynk.Console](broken
 
 ###
 
-### 2. Check Developer Mode
+#### Check Developer Mode
 
 The [Developer Mode](../getting-started/developer-mode.md) must be turned on in order to edit the Automations options for a [Template](device-template.md).  The Developer Mode can be turned on from [Blynk.Console](broken-reference) or the [Blynk.App](broken-reference).
 
@@ -62,7 +64,7 @@ Even if none of your existing Datastreams will be involved in any Automation, yo
 
 
 
-### 3. Set up Automations in Template
+#### Set up Automations in Template
 
 Go to Blynk.Console ->Templates' -> Template you are working with -> **Automations** tab.&#x20;
 
@@ -95,11 +97,9 @@ In the table column labeled **Type of Automation**, make a choice for the Datast
 
 You may create an Automation scenario in either the [Blynk.Console](broken-reference), or the [Blynk.App](broken-reference). Creating an Automation in one app will cause it to be accessible in the other app (you may need to refresh the other app).
 
-## 4. Create an Automation
+### 2. Create an Automation
 
 From the [Blynk.Console](broken-reference), click on the Automations icon on the main menu.  From the [Blynk.App](broken-reference), click on the ‘Automations’ icon at the bottom of the home screen.
-
-###
 
 ### Conditions
 
@@ -109,8 +109,6 @@ Choose a condition from one of the options below:
 * **Sunrise/Sunset** triggers an action when the time before/after sunrise/sunset occurs according to a set of weekdays, at a specific geographic location.
 * **Device State** triggers an action based on the value of a [Datastream](../getting-started/template-quick-setup/set-up-datastreams.md).
 * **Scene** is a manual trigger of an Automation directly from the 'Automations' page in the Blynk.Console or Blynk.App.
-
-###
 
 ### Actions
 
@@ -131,7 +129,7 @@ The ‘Send Email’, ‘Send In-App Notifications’, and ‘Send SMS’ action
 * **{DEVICE\_NAME}** - the IoT Device name as displayed under ‘DEVICES’.
 * **{TRIGGER\_VALUE}** - if a Device State trigger was used, this will be the value of the trigger.
 
-###
+
 
 ### Limit period
 
@@ -145,9 +143,7 @@ For the Automation scenario of: “When the temperature is higher than 40, send 
 
 
 
-
-
-## 5. Automation Management
+### 3. Automation Management
 
 After the [Automation](automations.md) is configured, it will appear in the 'Automations' list as a card, with the count of actions defined, and the last date/time that the Automation was executed. A switch on the card allows the Automation to be enabled/disabled.
 
