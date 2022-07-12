@@ -22,7 +22,7 @@ The diagram below shows imaginary companies: **United Heaters Inc.** and **Mulle
 
 
 
-<img src="../.gitbook/assets/image (41).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (41) (1).png" alt="" data-size="original">
 
 
 

@@ -82,8 +82,8 @@ To publish the apps you would need to prepare marketing materails such as app de
 
 Here is an article you can check:&#x20;
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="branding-materials.md" %}
+[branding-materials.md](branding-materials.md)
 {% endcontent-ref %}
 
 

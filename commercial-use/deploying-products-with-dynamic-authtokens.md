@@ -119,7 +119,7 @@ With Blynk you can do all sorts of assets transfer:
 
 * Transfer user to a different organization. Go to Users - hover on the actions button - Transfer User. You would need an email of an administrator of the destination organization.
 
-![](<../.gitbook/assets/image (38) (1).png>)
+![](<../.gitbook/assets/image (38) (1) (1).png>)
 
 &#x20;
 
