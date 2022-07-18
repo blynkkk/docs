@@ -29,7 +29,7 @@ You can always find AuthToken for your Device in the Device Info section of the 
 {% hint style="info" %}
 Getting an AuthToken manually is the simplest way to get your hardware connected. However, we also offer an alternative way for WiFi devices, where AuthToken can be saved to the device without specifying it beforehand.&#x20;
 
-You can learn more about such a process [here](../activating-devices/#a-wifi-provisioning-using-blynk-edgent).
+You can learn more about such a process [here](https://docs.blynk.io/en/getting-started/activating-devices/blynk-edgent-wifi-provisioning).
 {% endhint %}
 
 
