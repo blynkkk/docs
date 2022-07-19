@@ -219,7 +219,7 @@
 ***
 
 * [Changes from Blynk 0.1](blynk-1.0-and-2.0-comparison/README.md)
-  * [Migrating to new Blynk](blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md)
+  * [Migrating to the new Blynk - Full Guide](blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md)
 * [Glossary](glossary.md)
 * [Links](links.md)
 
