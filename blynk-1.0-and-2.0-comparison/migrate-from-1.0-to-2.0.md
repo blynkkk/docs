@@ -35,15 +35,15 @@ For those of you who purchased Energy in the legacy app, we provide a 50% discou
 
 Blynk may be deployed on more than 400 IoT device types, including Arduino, Particle, ARM mbed, TI Energia, MicroPython, Node.js, OpenWRT, and many Single Board Computers. You can review the [list of supported devices and provisioning options](../blynk.edgent-firmware-api/supported-boards.md) for them.
 
-Update the library on the device to the latest version. Modify your firmware to add `BLYNK_TEMPLATE_ID` and `BLYNK_DEVICE_NAME` in the top of your firmware (prior to any includes).
+Update the library on the device to [the latest version](https://github.com/blynkkk/blynk-library/releases/latest). Modify your firmware to add `BLYNK_TEMPLATE_ID` and `BLYNK_DEVICE_NAME` at the top of your firmware (prior to any includes).
 
-Note that Datastreams now provide the data transfer between your IoT device, the Blynk.Console, and Blynk IoT. They are similar to the Blynk Legacy virtual pins, but with much more capability.
+Note that [Datastreams](../blynk.console/templates/datastreams/) now provide the data transfer between your IoT device, the Blynk.Console, and Blynk IoT. They are similar to the Blynk Legacy [virtual pins](http://docs.blynk.cc/#blynk-main-operations-virtual-pins), but with much more capability.
 
-Replace Blynk.notify(), Blynk.email(), Blynk.tweet(), Blynk.sms() with Blynk.logEvent(). Read this guide on how to set up Events with notifications.
+Replace [Blynk.notify()](http://docs.blynk.cc/#widgets-notifications-push-notifications), [Blynk.email()](http://docs.blynk.cc/#widgets-notifications-email), [Blynk.tweet()](http://docs.blynk.cc/#widgets-notifications-twitter), Blynk.sms() with [Blynk.logEvent()](../getting-started/notification-management.md). Read [this guide](../blynk.console/templates/events/) on how to set up Events with notifications.
 
 WiFi, cellular, USB, and Ethernet are supported by Blynk IoT. Classic Bluetooth and low energy Bluetooth (BLE) are not currently supported.
 
-Over-The-Air Firmware Updates (OTA) are triggered by a new shipment created in Blynk.Air. Extensive management and control over multiple device OTA is provided by Blynk.Air.
+Over-The-Air Firmware Updates ([OTA](../blynk.edgent-firmware-api/ota-updates.md)) are triggered by a new shipment created in [Blynk.Air](../blynk.console/blynk.air/). Extensive management and control over multiple device OTA are provided by Blynk.Air as well.
 
 ### Blynk.Console
 
@@ -52,15 +52,15 @@ The Blynk.Console is a no-code web application that allows you to:
 * Configure and manage devices, users, data, and organizations.&#x20;
 * Create a dashboard with multiple tabs for interacting with your devices via Widgets.
 
-If needed you can get better understanding of the general concepts of devices, templates, users, organizations, multi-tenancy, and automations.
+If needed you can get a better understanding of the general concepts of [devices](../concepts/device.md), [templates](../concepts/device-template.md), [users](../concepts/users.md), [organizations](../concepts/organizations.md), [multi-tenancy](../concepts/multi-tenant-tree-structure.md), and automations.
 
-Blynk account supports an organization and sub-organizations (available in PRO and Business Plans). Members (users), devices, and locations are assigned to organizations or sub-organizations. Members may be assigned the role of 'Admin', 'Staff', or 'User'. See also the documentation, and this blog.
+Blynk account supports an organization and sub-organizations (available in PRO and Business Plans). Members (users), devices, and locations are assigned to organizations or sub-organizations. Members may be assigned the role of 'Admin', 'Staff', or 'User'. See also the [documentation](broken-reference), and this [blog](https://blynk.io/how-to-add-users-and-give-them-access-to-your-devices).
 
 ### Blynk.App
 
 The no-code phone application for Blynk IoT supports many new features:
 
-* Pages - now you can create multiple pages and point Button Widgets to open them.&#x20;
+* [Pages](../blynk.apps/pages.md) - now you can create multiple pages and point Button Widgets to open them.&#x20;
 * 16 new widgets: icon button, image button, step slider, vertical step slider, slop control, switch button, level slider, level slider with switch, radial gauge, enhanced gauge, gradient ramp, icon, link button, link image button, alias.
 
 Note the following regarding the former Blynk Legacy widgets:
