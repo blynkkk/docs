@@ -14,26 +14,26 @@ In May 2021, Blynk released the latest generation of the Blynk IoT Platform call
 
 ### Getting Started
 
-* Create a new account on Blynk.Console (your old account does not exist on the new platform). This should be done by the Developer, the single user who builds the hardware, develops the firmware, and does all of the device configurations.
+* Create a [new account](https://blynk.cloud/dashboard/register) on Blynk.Console (your old account does not exist on the new platform). This should be done by the Developer, the single user who builds the hardware, develops the firmware, and does all of the device configurations.
 * Install Blynk IoT app on your mobile device. Make sure it runs Android 5 or later and/or iOS 14.1 or later.
-* Check here to confirm that your IoT hardware is supported by Blynk IoT.
-* Map out the widgets you intend to utilize in both the Blynk IoT app and Blynk.Console (web console). Begin with your existing Blynk Legacy configuration, then evaluate the new Blynk IoT widget options against your map.
-* Enable developer mode in either the Blynk.Console (web app), or the Blynk IoT (Android/iOS mobile app).
-* Build a new device template from the Blynk.Console, or the Blynk IoT app. It is highly recommended you initially use the Quickstart Template and Quickstart Device automatically created when you set up a new account, and keep it simple to verify the complete workflow and communication between your IoT device, the Blynk.Cloud, Blynk IoT, and the **** Blynk.Console. Note that Blynk Legacy Device Tiles Widget is replaced by Device Templates in Blynk IoT and it became the default view for the list of devices.
-* Provision your device(s) using one of the three device activation methods. Depending on the activation method chosen, you may need to add a device to your account using the Blynk IoT or Blynk.Console.
-* Follow this tutorial to verify communication between your first IoT device, the Blynk.Console, and Blynk IoT. You will also need to configure Datastreams.
+* Check [here](../blynk.edgent-firmware-api/supported-boards.md) to confirm that your IoT hardware is supported by Blynk IoT. Note that all boards supported under Legacy Blynk are also supported under the new Blynk IoT.
+* Map out the widgets you intend to utilize in both the Blynk IoT app and Blynk.Console (web console). Begin with your existing Blynk Legacy configuration, then evaluate the [new Blynk IoT widget options](migrate-from-1.0-to-2.0.md#blynk.app) against your map.
+* Enable [developer mode](../getting-started/developer-mode.md#how-to-enable-developer-mode) in either the Blynk.Console (web app), or the Blynk IoT (Android/iOS mobile app).
+* Build a new [device template](../concepts/device-template.md) from the Blynk.Console, or the Blynk IoT app. It is highly recommended you initially use the Quickstart Template and Quickstart Device automatically created when you walk through the Quickstart flow suggested to you at [setting up a new account](https://blynk.cloud/dashboard/register), and keep it simple to verify the complete workflow and communication between your IoT device, the Blynk.Cloud, Blynk IoT, and the **** Blynk.Console. Note that Blynk Legacy Device Tiles Widget is replaced by Device Templates in Blynk IoT and it became the default view for the list of devices.
+* Provision your device(s) using one of the three [device activation methods](../getting-started/activating-devices/). Depending on the activation method chosen, you may need to add a device to your account using the Blynk IoT or Blynk.Console.
+* [Follow this tutorial](../getting-started/template-quick-setup/) to verify communication between your first IoT device, the Blynk.Console, and Blynk IoT. You will also need to configure [Datastreams](../blynk.console/templates/datastreams/).
 * Add more features in the form of Datastreams and Widgets to your Template and IoT device sketch, confirming functionality one item at a time.
 * Continue with the migration of legacy features such as Event Logging, OTA, Device Sharing (via QR code), and HTTP AP.
 
 ### Service Subscription
 
-Blynk IoT products and services are provided as a subscription plan. Visit blynk.io/pricing to see the plan options. A FREE plan is available for you to explore the new Blynk platform capabilities.
+Blynk IoT products and services are provided as a subscription plan. Visit [blynk.io/pricing](https://blynk.io/pricing) to see the plan options. A FREE plan is available for you to explore the new Blynk platform capabilities.
 
 For those of you who purchased Energy in the legacy app, we provide a 50% discount on the first year or first month of a Plus or PRO subscription. The promo code (obtained from the legacy app) can be redeemed in the Blynk.Console only, and is valid until Aug 31, 2022. The discount may also be applied to an upgrade from the FREE plan to Plus or PRO.
 
 ### IoT Hardware & Firmware
 
-Blynk may be deployed on more than 400 IoT device types, including Arduino, Particle, ARM mbed, TI Energia, MicroPython, Node.js, OpenWRT, and many Single Board Computers. List of supported devices. You should also review the provisioning options for your devices.
+Blynk may be deployed on more than 400 IoT device types, including Arduino, Particle, ARM mbed, TI Energia, MicroPython, Node.js, OpenWRT, and many Single Board Computers. You can review the [list of supported devices and provisioning options](../blynk.edgent-firmware-api/supported-boards.md) for them.
 
 Update the library on the device to the latest version. Modify your firmware to add `BLYNK_TEMPLATE_ID` and `BLYNK_DEVICE_NAME` in the top of your firmware (prior to any includes).
 
