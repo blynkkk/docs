@@ -65,18 +65,18 @@ The no-code phone application for Blynk IoT supports many new features:
 
 Note the following regarding the former Blynk Legacy widgets:
 
-* [Bridge widget](http://docs.blynk.cc/#widgets-other-bridge) for device-to-device communication is replaced by [Automations](https://docs.blynk.io/en/concepts/automations), and the upcoming Rule Engine.
-* [Eventor widget](http://docs.blynk.cc/#widgets-other-eventor) is replaced by [Automations](https://docs.blynk.io/en/concepts/automations).
-* [Timer widget](http://docs.blynk.cc/#widgets-controllers-timer) is replaced by [Automations](https://docs.blynk.io/en/concepts/automations).
-* [RTC widget](http://docs.blynk.cc/#widgets-other-rtc) is replaced by [Time API](https://docs.blynk.io/en/blynk.edgent-firmware-api/rtc-clock).&#x20;
-* [WebHook widget](http://docs.blynk.cc/#widgets-other-webhook) is replaced by [Webhooks](https://docs.blynk.io/en/blynk.console/settings/developers/webhooks) feature in the Blynk.Console.  They are triggered by a system event or a Datastream.&#x20;
-* [Notifications](http://docs.blynk.cc/#widgets-notifications) and [Email](http://docs.blynk.cc/#widgets-notifications-email) widgets are replaced by [Automations](https://docs.blynk.io/en/concepts/automations) and [Template Events](https://docs.blynk.io/en/getting-started/events-tutorial)
-* [Twitter](http://docs.blynk.cc/#widgets-notifications-twitter) widget was deprecated, but you can use [Webhooks](https://docs.blynk.io/en/blynk.console/settings/developers/webhooks)
+* [Bridge widget](http://docs.blynk.cc/#widgets-other-bridge) for device-to-device communication is replaced by [Automations](../concepts/automations.md) and the upcoming Rule Engine.
+* [Eventor widget](http://docs.blynk.cc/#widgets-other-eventor) is replaced by [Automations](../concepts/automations.md).
+* [Timer widget](http://docs.blynk.cc/#widgets-controllers-timer) is replaced by [Automations](../concepts/automations.md).
+* [RTC widget](http://docs.blynk.cc/#widgets-other-rtc) is replaced by [Time API](../blynk.edgent-firmware-api/rtc-clock.md).&#x20;
+* [WebHook widget](http://docs.blynk.cc/#widgets-other-webhook) is replaced by [Webhooks](../blynk.console/settings/developers/webhooks.md) feature in the Blynk.Console. They are triggered by a system event or a Datastream.&#x20;
+* [Notifications](http://docs.blynk.cc/#widgets-notifications) and [Email](http://docs.blynk.cc/#widgets-notifications-email) widgets are replaced by [Automations](../concepts/automations.md) and [Template Events](../getting-started/events-tutorial.md).
+* [Twitter](http://docs.blynk.cc/#widgets-notifications-twitter) widget was deprecated, but you can use [Webhooks](../blynk.console/settings/developers/webhooks.md).
 * [Terminal widget](http://docs.blynk.cc/#widgets-displays-terminal) is replaced by the Terminal Widget available in both the [Blynk.App](https://docs.blynk.io/en/blynk.apps/widgets-app#terminal) and [Blynk.Console](https://docs.blynk.io/en/blynk.console/widgets-console/terminal).
 * [Table widget](http://docs.blynk.cc/#widgets-interface-table) is not yet available.&#x20;
-* [Device Selector](http://docs.blynk.cc/#widgets-interface-device-selector) is replaced with Device Tiles in both [Blynk.App](https://docs.blynk.io/en/blynk.apps/device-management) and [Blynk.Console](https://docs.blynk.io/en/blynk.console/devices). Several devices can be grouped to be controlled simultaneously by a single command using Blynk.App [Groups](https://docs.blynk.io/en/blynk.apps/group-management) feature (available in Business Plan only)
-* [Device Tiles](http://docs.blynk.cc/#widgets-interface-device-tiles) are replaced by Device Templates. Tiles is a new default view for list of devices.
-* [Reports](http://docs.blynk.cc/#widgets-other-reports-widget) widget was replaced with [Download Report](https://docs.blynk.io/en/blynk.console/devices/actions-with-devices#download-report) feature in Blynk.Console.  Scheduled reports are not available yet.
+* [Device Selector](http://docs.blynk.cc/#widgets-interface-device-selector) is replaced with Device Tiles in both [Blynk.App](https://docs.blynk.io/en/blynk.apps/device-management) and [Blynk.Console](https://docs.blynk.io/en/blynk.console/devices). Several devices can be grouped to be controlled simultaneously by a single command using Blynk.App [Groups](../blynk.apps/group-management.md) feature (available in Business Plan only)
+* [Device Tiles](http://docs.blynk.cc/#widgets-interface-device-tiles) are replaced by Device Templates. Tiles is a new default view for a list of devices.
+* [Reports](http://docs.blynk.cc/#widgets-other-reports-widget) widget was replaced with [Download Report](../blynk.console/devices/actions-with-devices.md#download-report) feature in Blynk.Console.  Scheduled reports are not available yet.
 * The widget min/max property is now defined within a Datastream.
 
 Adjust indexing for Image Gallery, Menu, Icon, Segmented Switch, Icon Segmented Switch widgets. It used to start with one (1), but in the new Blynk IoT it starts from the min value of the associated DataStream.
