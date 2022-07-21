@@ -65,32 +65,24 @@ The no-code phone application for Blynk IoT supports many new features:
 
 Note the following regarding the former Blynk Legacy widgets:
 
-* Bridge widget for device-to-device communication is replaced by Automations, and the upcoming Rule Engine.
-* Eventor widget is replaced by Automations.&#x20;
-* Timer widget is replaced by Automations.
-* RTC widget is replaced by Time API.
-* WebHook widget is replaced by Webhooks feature in the Blynk.Console. They are triggered by a system event or a Datastream.
-* Notifications and Email widgets are replaced by Automations and Template Events.
-* Twitter widget was deprecated, but you can use Webhooks.
-* Terminal widget is replaced by the Terminal Widget available in both the Blynk.App and Blynk.Console.&#x20;
-* Table widget is not yet available.
-* Device Selector is replaced with Device Tiles in both Blynk.App and Blynk.Console. Several devices can be grouped to be controlled simultaneously by a single command using Blynk.App Groups feature (available in Business Plan only).
-* Device Tiles are replaced by Device Templates. Tiles is a new default view for list of devices.
-* Reports widget was replaced with Download Report feature in Blynk.Console. Scheduled reports are not available yet.
+* [Bridge widget](http://docs.blynk.cc/#widgets-other-bridge) for device-to-device communication is replaced by [Automations](https://docs.blynk.io/en/concepts/automations), and the upcoming Rule Engine.
+* [Eventor widget](http://docs.blynk.cc/#widgets-other-eventor) is replaced by [Automations](https://docs.blynk.io/en/concepts/automations).
+* [Timer widget](http://docs.blynk.cc/#widgets-controllers-timer) is replaced by [Automations](https://docs.blynk.io/en/concepts/automations).
+* [RTC widget](http://docs.blynk.cc/#widgets-other-rtc) is replaced by [Time API](https://docs.blynk.io/en/blynk.edgent-firmware-api/rtc-clock).&#x20;
+* [WebHook widget](http://docs.blynk.cc/#widgets-other-webhook) is replaced by [Webhooks](https://docs.blynk.io/en/blynk.console/settings/developers/webhooks) feature in the Blynk.Console.  They are triggered by a system event or a Datastream.&#x20;
+* [Notifications](http://docs.blynk.cc/#widgets-notifications) and [Email](http://docs.blynk.cc/#widgets-notifications-email) widgets are replaced by [Automations](https://docs.blynk.io/en/concepts/automations) and [Template Events](https://docs.blynk.io/en/getting-started/events-tutorial)
+* [Twitter](http://docs.blynk.cc/#widgets-notifications-twitter) widget was deprecated, but you can use [Webhooks](https://docs.blynk.io/en/blynk.console/settings/developers/webhooks)
+* [Terminal widget](http://docs.blynk.cc/#widgets-displays-terminal) is replaced by the Terminal Widget available in both the [Blynk.App](https://docs.blynk.io/en/blynk.apps/widgets-app#terminal) and [Blynk.Console](https://docs.blynk.io/en/blynk.console/widgets-console/terminal).
+* [Table widget](http://docs.blynk.cc/#widgets-interface-table) is not yet available.&#x20;
+* [Device Selector](http://docs.blynk.cc/#widgets-interface-device-selector) is replaced with Device Tiles in both [Blynk.App](https://docs.blynk.io/en/blynk.apps/device-management) and [Blynk.Console](https://docs.blynk.io/en/blynk.console/devices). Several devices can be grouped to be controlled simultaneously by a single command using Blynk.App [Groups](https://docs.blynk.io/en/blynk.apps/group-management) feature (available in Business Plan only)
+* [Device Tiles](http://docs.blynk.cc/#widgets-interface-device-tiles) are replaced by Device Templates. Tiles is a new default view for list of devices.
+* [Reports](http://docs.blynk.cc/#widgets-other-reports-widget) widget was replaced with [Download Report](https://docs.blynk.io/en/blynk.console/devices/actions-with-devices#download-report) feature in Blynk.Console.  Scheduled reports are not available yet.
 * The widget min/max property is now defined within a Datastream.
 
 Adjust indexing for Image Gallery, Menu, Icon, Segmented Switch, Icon Segmented Switch widgets. It used to start with one (1), but in the new Blynk IoT it starts from the min value of the associated DataStream.
 
-Make sure you are in Developer Mode when building the application.
+Make sure you are in [Developer Mode](../getting-started/developer-mode.md) when building the application.
 
 ### HTTP API
 
 If you're using HTTP API, you need to update your server and request URLs.
-
-
-
-
-
-## Account and projects migration
-
-You will need to [create a new account](https://blynk.cloud/) and re-create new device templates.
