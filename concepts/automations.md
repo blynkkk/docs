@@ -151,19 +151,17 @@ The images that follow, show how the Automation card appears in both the Blynk.C
 
 Within the Blynk.App, you can see Automations the device is participating in. From the Device page, select the ‘...’ icon in the upper right of the screen. Choose the ‘Information’ tab, and the Automations the device is participating in will be listed under the ‘AUTOMATIONS’ section.
 
-![](https://lh3.googleusercontent.com/L3ohpOLyjhs\_\_HwuSdHzrrv9L5vt4p1kFq8-4remvKtUNyLog7zFZK1JloSbVBRKRl3Z8RYm4TgBBeC3YzZGYhQ81YH-CAYrmuFNmTPkF\_Y3KJzqLwcsxoaHAYMOZCrx70ceWvMdVT5bGBbuaA)
+![](../.gitbook/assets/device-info-automations.png)
 
 If you click on the ‘AUTOMATIONS’ section, you may enable/disable the participation of the Device in Automations.
 
-![](https://lh5.googleusercontent.com/ymLGrVCQr62bScdKk5E5IRqxgrhcWJI4H63b8QGqI2H5Q3xFu344jC9JA\_TIqlBd1OgBCMphNGY5xRMc51knLrSGD3115Kqh30HgIFJ2ShDuMLjmtaRAs6qHfWJd39VQsnX8lzwKv-q2NcsKIg)
+![](../.gitbook/assets/automations-using-this-device.png)
 
 ### Automations Logs
 
 In the [Blynk.Console](broken-reference), you may also view the Automation Logs while editing an Automation.  This option is not available in the [Blynk.App](broken-reference).
 
-![](https://lh5.googleusercontent.com/5626PQoO5gYsmKuu6hXSFK\_qDJS4tPWOyxdmWB5dZEsV2Mn6s4knXqpUJ4Vuuwwp\_cfXFZxWl5BMrsGw0SQjwfKKFw5vT864iKsIEmzUhaDxeKeT3jH4KR1-AFKLVdQ9-p2WlY1WihkoxBpePA)
+![](../.gitbook/assets/automation-logs.png)
 
 Selecting the ‘Automation Logs’ icon will display a page with a history of the executions of the [Automation](automations.md).  The summary includes the date/time when it was executed, from what [Device](device.md), the Datastream employed, and the value of the [Datastream](../getting-started/template-quick-setup/set-up-datastreams.md).
-
-![](https://lh5.googleusercontent.com/kjXex\_900CfRg1nOxtaDRselm3v8gEVwXxu6lWjd\_ZcaU2yyuzVFipwLaG5Cq45p05beK8WxkSRQOg6vXny\_rchv0eaOjjmHLzn-8NmwY29gC1ufv-B08iXvqRkYtG5eM6w2S6kEQGQPk5-W0A)
 
