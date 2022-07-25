@@ -64,7 +64,7 @@ Even if none of your existing Datastreams will be involved in any Automation, yo
 
 #### Set up Automations in Template
 
-Go to Blynk.Console ->Templates' -> Template you are working with -> **Automations** tab.&#x20;
+Go to Blynk.Console ->Templates -> Template you are working with -> **Automations** tab.&#x20;
 
 A list of Datastreams for the Template will appear, with columns labeled 'Condition' and 'Action' that each has an enable/disable switch for each Datastream. At the top right of the screen, click the 'Edit' button.
 
