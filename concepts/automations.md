@@ -48,9 +48,7 @@ Note that the value of a Datastream may be used by a condition, and action can b
 
 Enable automation permissions for other roles by visiting [Blynk.Console](broken-reference), click on the 'Settings' option on the main menu, access the 'Roles and permissions' menu option, expand the 'Organizations' section and find the 'Automations' permissions. Set the role's create/edit/view/delete/execute/manage permissions as appropriate for the role.
 
-![](https://lh4.googleusercontent.com/xojjAJydkpnR5BokM2dPAp8txz4iiUPcsVdOSYtJt8c0Ml8G40gN4haxRWPlFeMZOfWheFE-SHF5HGdadS2\_jDd9pVXi56\_8fudweCu5rjjZbaC8KkcrcK2xZokz9oXFHumOMAntQn0Zz2cOMQ)
-
-###
+![](../.gitbook/assets/roles-and-permissions-automations.png)
 
 #### Check Developer Mode
 
@@ -72,9 +70,7 @@ A list of Datastreams for the Template will appear, with columns labeled 'Condit
 
 If the value of the Datastream will be used to trigger an action, then enable the ‘Condition’ switch in the table.  If the value of the Datastream is to be changed by the Automation, then enable the ‘Action’ switch in the table.
 
-![](https://lh4.googleusercontent.com/vf-aA9Q8Ni7nevWNpVnrN5g5o-D0LL7D0hkKJAg8GRxE8xfpH5mI10sH8baDiTHQ7-KYbPLtvpzhEC-IHVBJmHGyyR\_nmjiciwvQc5L7soAxXkXWrPgrg5fH6DZXg1EOk8ceqIlUmDKdi4JcTw)
-
-
+![](../.gitbook/assets/automations-datastreams.png)
 
 In the table column labeled **Type of Automation**, make a choice for the Datastream to be associated with your Automation.  The choices vary by the [Datastream](../getting-started/template-quick-setup/set-up-datastreams.md) data type (double, integer, string, enumerable).  All options except for ‘Sensor’ define what type of GUI control will be presented to the User when defining the Automation in the Blynk.App.
 
@@ -147,13 +143,11 @@ For the Automation scenario of: “When the temperature is higher than 40, send 
 
 After the [Automation](automations.md) is configured, it will appear in the 'Automations' list as a card, with the count of actions defined, and the last date/time that the Automation was executed. A switch on the card allows the Automation to be enabled/disabled.
 
-![](<../.gitbook/assets/image (38) (1).png>)
+![](../.gitbook/assets/automation-management.png)
 
 If the condition of type 'Scene' was chosen, a 'Execute automation' button will also be available within the rectangle, otherwise, a 'Disable automation' button will be available.
 
 The images that follow, show how the Automation card appears in both the Blynk.Console and the Blynk.App. Recall that creating an Automation in one app (Blynk.Console or Blynk.App) will cause it to be accessible in the other app.
-
-![](https://lh4.googleusercontent.com/uJ7Udloy71j6EfNDj6Kb2TFnEjDpJuI7dXzQ2oRENgAxiQ-ZcTZNRgCggwqx4Xr4NOzNc7WJrZt7fmGqRefNeBi\_1C7t0zNBpFtQ6PdJfLqdBmdyK1QG2FgD4OhPR2TlZa0dJqpE5VhMGf7zbg)![](https://lh4.googleusercontent.com/xavgv1SGUbFNLkmBTfu-X4ncgbcdwet50\_UW0tsi4ymnnsUOjkcuJ0Rk8JtgnaFA04kDcOLlmxVGDUp7WjCyeFY\_v5b3O6tDajaucvBdLFRoB6oC\_3BTSZc7oXDARQs1tLrl-k3I-mBY6KCdnA)
 
 Within the Blynk.App, you can see Automations the device is participating in. From the Device page, select the ‘...’ icon in the upper right of the screen. Choose the ‘Information’ tab, and the Automations the device is participating in will be listed under the ‘AUTOMATIONS’ section.
 
