@@ -82,7 +82,7 @@ Note the following regarding the former Blynk Legacy widgets:
 Adjust indexing for Image Gallery, Menu, Icon, Segmented Switch, Icon Segmented Switch widgets. It used to start with one (1), but in the new Blynk IoT it starts from the min value of the associated DataStream.
 
 {% hint style="warning" %}
-Please note that BLYNK\_READ is no longer used. Use BLYNK\_WRITE instead.
+Please note that BLYNK\_READ is no longer used. Use [BLYNK\_WRITE](../getting-started/using-virtual-pins-to-control-physical-devices.md#the-blynk\_write-vpin-function) instead.
 {% endhint %}
 
 Make sure you are in [Developer Mode](../getting-started/developer-mode.md) when building the application.
