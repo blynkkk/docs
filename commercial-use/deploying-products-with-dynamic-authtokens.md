@@ -4,7 +4,7 @@ Every device needs a unique AuthToken in order to authenticate in Blynk.Cloud. D
 
 
 
-## Why use dynamic AuthTokens
+### Why use dynamic AuthTokens
 
 1. With this approach, you don't have to flash different AuthTokens onto every device. You can use the same firmware on every device, which significantly simplifies the production process.
 2. Dynamic AuthTokens workflow is included in Blynk.Edgent and works out-of-the-box.
@@ -16,7 +16,7 @@ Dynamic AuthTokens works only with Wi-Fi devices. Supported devices are: ESP32, 
 
 ### ****
 
-## **How Dynamic AuthTokens work**
+## **How End-Users Claim Devices With Dynamic AuthTokens**
 
 Dynamic AuthToken generation is a part of the device provisioning process:
 
@@ -33,7 +33,7 @@ Dynamic AuthToken generation is a part of the device provisioning process:
 
 
 
-## Preparation
+### Preparation
 
 In general, Blynk.Edgent covers everything you need to enable your productst to get AuthTokens Following this guide will give you a full understanding of how this process works.
 
@@ -52,7 +52,7 @@ You can find references to handling reset and statuses indication in Blynk.Edgen
 
 
 
-## Testing WiFi Provisioning Process
+### Testing WiFi Provisioning Process
 
 Before delivering your IoT products to new customers, it's beneficial to test the user experience your clients will face. Here is an example of how adding new device would work.
 
@@ -64,7 +64,7 @@ User experience is different for iOS and Android devices. Future updates of thes
 
 ###
 
-## Delivering products to clients (PRO plan workflow)
+### Delivering products to clients (PRO plan workflow)
 
 Here is a recommended workflow for managing customers in PRO plan so that your clients only see devices they own, while you, as an administrator, can get access to all the devices, users, organizations, etc.
 
@@ -95,15 +95,21 @@ Alternatively, if you know the client's WiFi credentials or you provide a mobile
 * Once their account is active, use the [Device Transfer](https://docs.blynk.io/en/blynk.console/devices/actions-with-devices#device-transfer) feature
 * The device will be transferred to the client and is ready for use.&#x20;
 
+### Delivering products to clients (BUSINESS plan workflow)
 
+With [BUSINESS plan ](https://blynk.io/pricing/business-plan)you no longer need to invite each client manually like in PRO plan. They can create accounts and claim devices by themselves. Here is how it works:
 
-## Managing and Troubleshooting Clients
+* Customer will log in using your branded apps for iOS and Android or your branded web console
+* In the app, they will tap on Add New Device and go through WiFi provisioning steps to connect the device to their home or office WiFi network
+* The device will appear under their account ready to use.
+
+### Managing and Troubleshooting Clients
 
 Once you have active clients, you will most likely need to help them with different questions they have. Here is what you need to become fluent with to provide a good level of customer support:
 
 
 
-### 1. Navigating between organizations.&#x20;
+#### 1. Navigating between organizations.&#x20;
 
 With Blynk you can switch to any sub-organization to see "what client sees". When switched, you also get access to this organization's settings like user permissions and more.
 
@@ -113,7 +119,7 @@ You can also switch organizations in the mobile app by tapping on the organizati
 
 ![](<../.gitbook/assets/image (40).png>)
 
-### 2. Transferring devices.
+#### 2. Transferring devices.
 
 With Blynk you can do all sorts of assets transfer:
 
@@ -123,12 +129,12 @@ With Blynk you can do all sorts of assets transfer:
 
 &#x20;
 
-* [Transfer device](https://docs.blynk.io/en/blynk.console/devices/actions-with-devices#device-transfer) (change owner) from one organization to another. A new owner should be specified.
-* Transfer sub-organization (available in Business Plan only)under a different organization. Think about it as moving a folder with files to another folder on your computer.&#x20;
+* [Transfer device](https://docs.blynk.io/en/blynk.console/devices/actions-with-devices#device-transfer) (change owner) from one organization to another. The new owner should be specified.
+* Transfer sub-organization (available in [BUSINESS plan](https://blynk.io/pricing/business-plan) only) under a different organization. Think about it as moving a folder with files to another folder on your computer.&#x20;
 
 ####
 
-### 3. User permissions&#x20;
+#### 3. User permissions&#x20;
 
 In Blynk, Permissions are set per organization, which gives you full control of how your clients access devices and other data.&#x20;
 
