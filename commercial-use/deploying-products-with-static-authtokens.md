@@ -171,7 +171,7 @@ Depending on the volumes you are working with, you should take this factor into 
 
 Blynk offers a utility that allows flashing AuthTokens at EOL (end-of-line). This means that you can flash all devices with the same firmware, and then this utility will "inject" AuthTokens only.
 
-This tool simplifies the flashing process significantly. Contact us if you would like to purchase it (only available for BUSINESS plan customers).
+This tool simplifies the flashing process significantly. Contact us if you would like to purchase it (only available for [BUSINESS plan](https://blynk.io/pricing/business-plan) customers).
 
 
 
@@ -244,15 +244,11 @@ If the user deletes the device from their account, it becomes unclaimed. After t
 
 ###
 
-### "Discovery" workflow (delivery planned for Q2-Q3 2022)
+### BUSINESS plan workflow
 
-{% hint style="warning" %}
-This feature is not available yet.
-{% endhint %}
+With [BUSINESS plan ](https://blynk.io/pricing/business-plan)you no longer need to invite each client manually like in PRO plan. They can create accounts and claim devices by themselves. Here is how it works:
 
-When you enable Discovery add-on, you no longer need to invite each client manually like in PRO plan. They can create accounts and claim devices by themselves. Here is how it works:
-
-1. Customer downloads Blynk.Apps and creates a new account there. Or they can use Blynk.Console.&#x20;
+1. Customer downloads your branded app and creates a new account there. Or they can use your branded web console.&#x20;
 2. When logged in, customer clicks on Add New Device and scans the provided QR code
 3. The device appears under their account and is ready for use
 
