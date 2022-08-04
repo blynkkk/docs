@@ -14,7 +14,7 @@ There are three ways to obtain AuthTokens for your devices:
 
 This article will help you to understand the key concepts related to Static Tokens and guide you through the steps required at all stages - from manufacturing to delivery of your devices into the customer's hands.
 
-## What is a Static Token and when to use it?
+### What is a Static Token and when to use it?
 
 Static Tokens are designed for non-wifi devices (cellular, Ethernet, etc.). These devices can connect to the Internet on their own and don't require any additional user input (e.g. WiFi credentials) to get online.
 
@@ -70,7 +70,7 @@ Blynk currently doesn't support over-the-air firmware updates for devices that u
 
 
 
-## Proposed Workflow
+## Device Activation With Static Tokens
 
 ![](../.gitbook/assets/blynk-static-token-authtoken-commercial-manufacturing.png)
 
@@ -84,14 +84,14 @@ The workflow proposed below covers these steps:
 
 
 
-## 1. Generating Static Tokens
+### 1. Generating Static Tokens
 
 You have two options for generating the number of Tokens you need based on the number of devices you plan to deploy:
 
 * Automatically generate the number of tokens you need
 * Generate Tokens based on the CSV file you provide&#x20;
 
-### Generate tokens automatically
+#### Generate tokens automatically
 
 This is the simplest way to generate any number of Static Tokens you need.
 
@@ -113,7 +113,7 @@ Now the new AuthTokens are ready to be flashed to the hardware.
 
 ####
 
-### Generating  Static Tokens from a .CSV file
+#### Generating  Static Tokens from a .CSV file
 
 In some cases, you may already have devices ready for a specific customer, or you already have some information like serial number on the devices and you need to map this information to Static Tokens.
 
@@ -159,7 +159,7 @@ Now you have AuthTokens that can be flashed to devices.
 
 
 
-## 2. Flashing AuthTokens to devices
+### 2. Flashing AuthTokens to devices
 
 While Static Tokens are favorable for end-users because they enable an amazing user experience (scan the QR code and the device is ready), working with them brings challenges to the manufacturing process.
 
@@ -175,7 +175,7 @@ This tool simplifies the flashing process significantly. Contact us if you would
 
 
 
-## 3. Preparing for device delivery
+### 3. Preparing for device delivery
 
 Once your devices are flashed with AuthTokens and tested, you would need to prepare QR codes. These codes will be used by your clients to claim their devices.
 
@@ -203,7 +203,7 @@ It's also beneficial to prepare a manual for your customers outlining the steps 
 
 
 
-## 4. Device claiming (activation) by end customers
+### 4. Device claiming (activation) by end customers
 
 When customers receive your device, they would need to claim (activate) it. For that they would need:
 
@@ -231,7 +231,7 @@ This is what the flow with the connected device looks like in detail:
 
 If the user deletes the device from their account, it becomes unclaimed. After that, it can be claimed again by other customers by scanning the QR code.&#x20;
 
-###
+
 
 ### PRO Plan Workflow
 
@@ -242,7 +242,7 @@ If the user deletes the device from their account, it becomes unclaimed. After t
 5. Customer scans the provided QR code
 6. The device appears under their account and is ready for use
 
-###
+
 
 ### BUSINESS plan workflow
 
@@ -258,13 +258,13 @@ It's beneficial to prepare instructions for your customers outlining the steps t
 
 
 
-## 5. Managing Static Tokens
+### 5. Managing Static Tokens
 
 Blynk.Console allows you to manage Static Tokens.&#x20;
 
 
 
-### Disclaiming a Static Token
+#### Disclaiming a Static Token
 
 Disclaiming removes any ownership of the device and sets it back as unclaimed. After that, it can be claimed again.
 
@@ -280,9 +280,7 @@ Examples when disclaiming can be needed:&#x20;
 
 
 
-
-
-### Deleting a Static Token
+#### Deleting a Static Token
 
 {% hint style="danger" %}
 This is a critical action that can't be undone. You won't be able to restore this device
