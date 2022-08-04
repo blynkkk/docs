@@ -12,11 +12,11 @@ There are three ways to obtain AuthTokens for your devices:
 2. [Automatically, using Blynk.Inject](deploying-products-with-dynamic-authtokens.md) : can be used for WiFi devices only
 3. Using **Static Tokens**
 
-This article will help you to understand the key concepts related to Static Tokens and guide you through the steps required at all stages - from manufacturing to delivery of your devices into the customer's hands
+This article will help you to understand the key concepts related to Static Tokens and guide you through the steps required at all stages - from manufacturing to delivery of your devices into the customer's hands.
 
-## What is a Static Token and when to use it
+## What is a Static Token and when to use it?
 
-Static Tokens are designed for non-wifi devices (cellular, Ethernet, etc.). These devices can connect to the Internet automatically and don't require any additional user input (e.g. WiFi credentials) to get online.
+Static Tokens are designed for non-wifi devices (cellular, Ethernet, etc.). These devices can connect to the Internet on their own and don't require any additional user input (e.g. WiFi credentials) to get online.
 
 Use-cases can be broader than this, of course. For example, your devices can connect to a mobile (cellular) hotspot using hardcoded WiFi credentials. In such cases, Static Tokens are applicable as well.
 
@@ -161,17 +161,17 @@ Now you have AuthTokens that can be flashed to devices.
 
 ## 2. Flashing AuthTokens to devices
 
-While Static Tokens are favorable for end-users because they enable an amazing user experience (scan the QR code and device is ready), working with them brings challenges to the manufacturing process.
+While Static Tokens are favorable for end-users because they enable an amazing user experience (scan the QR code and the device is ready), working with them brings challenges to the manufacturing process.
 
-The biggest challenge is that since every device would need to have a unique AuthToken stated in the firmware, every firmware file will be different. For example if you have 100 devices, you would need 100 versions of the firmware file.
+The biggest challenge is that since every device would need to have a unique AuthToken stated in the firmware, every firmware file will be different. For example, if you have 100 devices, you would need 100 versions of the firmware file.
 
 Depending on the volumes you are working with, you should take this factor into account.
 
 #### EOL Inject Utility
 
-Blynk offers an utility that allows flashing AuthTokens at EOL (end-of-line). This means that you can flash all devices with the same firmware, and then this utility will "inject" AuthTokens only.
+Blynk offers a utility that allows flashing AuthTokens at EOL (end-of-line). This means that you can flash all devices with the same firmware, and then this utility will "inject" AuthTokens only.
 
-This tool simplifies the flashing process significantly. Contact us if you would like to purchase it (only available for White-Label plan customers).
+This tool simplifies the flashing process significantly. Contact us if you would like to purchase it (only available for BUSINESS plan customers).
 
 
 
@@ -180,9 +180,9 @@ This tool simplifies the flashing process significantly. Contact us if you would
 Once your devices are flashed with AuthTokens and tested, you would need to prepare QR codes. These codes will be used by your clients to claim their devices.
 
 {% hint style="info" %}
-If you plan to test, setup, calibrate or perform any actions with the device before sending it to customer, you can do safely do so. Devices will remain working in your organization, but stay unclaimed before the QR code is scanned.
+If you plan to test, set up, calibrate or perform any actions with the device before sending it to a customer, you can safely do so. Devices will remain working in your organization, but stay unclaimed before the QR code is scanned.
 
-Only after the QR code is scanned, device will change status to "Claimed" and moved to the client's organization.
+Only after the QR code is scanned, the device will change its status to "Claimed" and move to the client's organization.
 {% endhint %}
 
 #### Printing QR codes
@@ -211,15 +211,15 @@ When customers receive your device, they would need to claim (activate) it. For 
 * QR code image
 * Account in Blynk
 
-Have in mind, that in order to claim the device it shouldn't be connected to the Blynk.Cloud. End user can claim both connected and non-yet-connected devices. Both Blynk.Apps ans Blynk.Console have "device online" indicator, so the user will always know if device is connected or not.
+Have in mind, that in order to claim the device it shouldn't be connected to the Blynk.Cloud. End users can claim both connected and non-yet-connected devices. Both Blynk.Apps and Blynk.Console have a "device online" indicator, so the user will always know if the device is connected or not.
 
-This is how the flow with connected device looks like in details:
+This is what the flow with the connected device looks like in detail:
 
 * User unpacks your device
 * User turns on the device
-* Device shows some indicator that it's online
-* When the device connects to the Blynk.Cloud it doesn't have an owner yet. So at that moment the device is placed under the organization of the manufacturer (the organization where Static Token was created) &#x20;
-* User accepts you invite within Blynk.App
+* The device shows some indicator that it's online
+* When the device connects to the Blynk.Cloud, it doesn't have an owner yet. So at that moment, the device is placed under the organization of the manufacturer (the organization where Static Token was created) &#x20;
+* User accepts your invite within Blynk.App
 * User scans the QR printed on the device box
 * The device is transferred from the manufacturer organization to the end user organization
 
@@ -227,7 +227,7 @@ This is how the flow with connected device looks like in details:
 
 ###
 
-### Deleting device by the end customer
+### Deleting a device by the end customer
 
 If the user deletes the device from their account, it becomes unclaimed. After that, it can be claimed again by other customers by scanning the QR code.&#x20;
 
@@ -236,15 +236,15 @@ If the user deletes the device from their account, it becomes unclaimed. After t
 ### PRO Plan Workflow
 
 1. Create a new sub-organization for your client in **Blynk.Console → Organizations**
-2. Invite your client to this organization using their email. Your customer will get an invitation to create a new account by simply creating a password.
-3. Customer logs in using Blynk.Apps for iOS and Android or Blynk.Console in their broswer.
+2. Invite your client to this organization using their email. Your customer will get an invitation to create a new account by simply creating a password
+3. Customer logs in using Blynk.Apps for iOS and Android or Blynk.Console in their browser
 4. Make sure your customer has a QR code image
 5. Customer scans the provided QR code
-6. Device appears under their account and is ready for use
+6. The device appears under their account and is ready for use
 
 ###
 
-### "Discovery" plan workflow (delivery planned for Q2-Q3 2022)
+### "Discovery" workflow (delivery planned for Q2-Q3 2022)
 
 {% hint style="warning" %}
 This feature is not available yet.
@@ -252,9 +252,9 @@ This feature is not available yet.
 
 When you enable Discovery add-on, you no longer need to invite each client manually like in PRO plan. They can create accounts and claim devices by themselves. Here is how it works:
 
-1. Customers download Blynk.Apps and create new account there. Or they can use Blynk.Console.&#x20;
-2. When logged in, customer scan the provided QR code by clicking on Add New Device
-3. Device appears under their account and is ready for use
+1. Customer downloads Blynk.Apps and creates a new account there. Or they can use Blynk.Console.&#x20;
+2. When logged in, customer clicks on Add New Device and scans the provided QR code
+3. The device appears under their account and is ready for use
 
 {% hint style="success" %}
 It's beneficial to prepare instructions for your customers outlining the steps they need to take to activate their devices
@@ -270,30 +270,30 @@ Blynk.Console allows you to manage Static Tokens.&#x20;
 
 ### Disclaiming a Static Token
 
-Disclaiming removes any ownership of the device and sets it back as unclaimed. After that it can be used again.
+Disclaiming removes any ownership of the device and sets it back as unclaimed. After that, it can be claimed again.
 
-Disclaiming can only be done by organization where it was created.
+Disclaiming can only be done by the organization where it was created.
 
 After the Static Token becomes unclaimed, the device is removed from the organization it belonged to, but it stays in the system. If it connects to the cloud again, it will automatically return to the organization where the Static Token was created.
 
 Examples when disclaiming can be needed:&#x20;
 
 * **Testing**. You may test the tokens and then disclaim them before sending the device to end customers.
-* **Device return**. If device was returned and you need to resell it again. Disclaiming will allow new customers to claim device again.
+* **Device return**. If a device was returned and you need to resell it again. Disclaiming will allow new customers to claim the device again.
 * **Ownership change**. When your customer wants to give the device to another user. (You can also use device transfer for that without disclaiming)
 
 
 
 
 
-### Deleting Static Token
+### Deleting a Static Token
 
 {% hint style="danger" %}
 This is a critical action that can't be undone. You won't be able to restore this device
 {% endhint %}
 
-When you delete a Static Token, an associated AuthToken becomes invalid. If it was flashed to the device, this device will not be able to connect. You need to generate a new Static Token and use new AuthToken.
+When you delete a Static Token, an associated AuthToken becomes invalid. If it was flashed to the device, this device will not be able to connect. You need to generate a new Static Token and use the new AuthToken.
 
-1. If you delete a Static Token after device was claimed, this device will be deleted permanently. Customers won't be able to claim it. &#x20;
+1. If you delete a Static Token after a device was claimed, this device will be deleted permanently. Customers won't be able to claim it. &#x20;
 2. If you deleted a Static Token before the device was claimed, the device will not be able to connect.
 
