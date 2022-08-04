@@ -66,7 +66,7 @@ User experience is different for iOS and Android devices. Future updates of thes
 
 ## Delivering products to clients (PRO plan workflow)
 
-Here is a recommended workflow for managing customers in PRO plan so that your clients only see devices they own, while you, as an administrator can get access to all the devices, users, organizations, etc.
+Here is a recommended workflow for managing customers in PRO plan so that your clients only see devices they own, while you, as an administrator, can get access to all the devices, users, organizations, etc.
 
 PRO plan was designed for managed services, where you would need to manually create and manage each customer.&#x20;
 
@@ -75,25 +75,25 @@ First of all, you need to get familiar with the [Multi-tenancy concept](../conce
 To create a new client:
 
 * Create a new sub-organization for your client in **Blynk.Console → Organizations -> Create New Organization**
-* There will be 3 tabs: Info, Templates, Users.  Go through thema and set up your client. Give it a name, make sure all needed device templates are enabled for this organization, and in the Users Tab invite your client to this organization using their email address. &#x20;
+* There will be 3 tabs: Info, Templates, Users.  Go through them and set up your client. Give them a name, make sure all needed device templates are enabled for this organization, and in the Users Tab invite your client to this organization using their email address. &#x20;
 * Your customer will get an invitation email with a link to create a new account by simply creating a password.
 * Customer will log in using Blynk.Apps for iOS and Android or Blynk.Console.
-* In the app they will tap on Add New Device and go through WiFi provisioning steps to connect the device to their home or office WiFi network
-* Device will appear under their account and now it's ready to use
+* In the app, they will tap on Add New Device and go through WiFi provisioning steps to connect the device to their home or office WiFi network
+* Device will appear under their account and now it's ready to use.
 
 
 
 
 
-Alternatively, if you know client's WiFi credentials or you provide a mobile hotspot together with the device, you can provision the device under your organization and then transfer it to the client. To do that:&#x20;
+Alternatively, if you know the client's WiFi credentials or you provide a mobile hotspot together with the device, you can provision the device under your organization and then transfer it to the client. To do that:&#x20;
 
 * Activate the device in your organization&#x20;
 * Create a new sub-organization for your client in **Blynk.Console → Organizations -> Create New Organization**
-* There will be 3 tabs: Info, Templates, Users.  Go through thema and set up your client. Give it a name, make sure all needed device templates are enabled for this organization, and in the Users Tab invite your client to this organization using their email address. &#x20;
-* Your customer will get an invitation email with a link to create a new account by simply creating a password.
-* Customer will log in using Blynk.Apps for iOS and Android or Blynk.Console.
-* Once their account is active, use the [Device Transfer](https://docs.blynk.io/en/blynk.console/devices/actions-with-devices#device-transfer) feature.&#x20;
-* Device will be transferred to the client and is ready for use.&#x20;
+* There will be 3 tabs: Info, Templates, Users.  Go through them and set up your client. Give it a name, make sure all needed device templates are enabled for this organization, and in the Users Tab invite your client to this organization using their email address&#x20;
+* Your customer will get an invitation email with a link to create a new account by simply creating a password
+* Customer will log in using Blynk.Apps for iOS and Android or Blynk.Console
+* Once their account is active, use the [Device Transfer](https://docs.blynk.io/en/blynk.console/devices/actions-with-devices#device-transfer) feature
+* The device will be transferred to the client and is ready for use.&#x20;
 
 
 
