@@ -16,7 +16,7 @@ Dynamic AuthTokens works only with Wi-Fi devices. Supported devices are: ESP32, 
 
 ### ****
 
-## **How End-Users Claim Devices With Dynamic AuthTokens**
+## **Device Activation With Dynamic AuthTokens**
 
 Dynamic AuthToken generation is a part of the device provisioning process:
 
