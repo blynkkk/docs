@@ -14,7 +14,7 @@ Creating/editing a Web Dashboard is only possible with [Developer Mode](../../..
 
 To add widgets, click on the ‘Edit’ button at the top right of the Web Dashboard tab to enter the edit mode, and then drag and drop widgets from the ‘Widget Box’ to the Dashboard Preview window.
 
-<figure><img src="../../../.gitbook/assets/add_widgets (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/add_widgets.gif" alt=""><figcaption></figcaption></figure>
 
 After the widgets are added, you may:
 
