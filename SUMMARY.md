@@ -105,7 +105,7 @@
       * [Notifications Settings](blynk.console/templates/events/custom-events/events-notification-settings.md)
       * [How to Send/Log Events](blynk.console/templates/events/custom-events/events--how-to-log-events.md)
       * [Content Events](blynk.console/templates/events/custom-events/events-content-events.md)
-  * [Dashboard](blynk.console/templates/dashboard/README.md)
+  * [Web Dashboard](blynk.console/templates/dashboard/README.md)
     * [Multiple Dashboard Tabs](blynk.console/templates/dashboard/multiple-dashboard-tabs.md)
 * [Widgets (Console)](blynk.console/widgets-console/README.md)
   * [Switch](blynk.console/widgets-console/switch.md)
