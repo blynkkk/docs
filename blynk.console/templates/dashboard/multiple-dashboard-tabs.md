@@ -1,16 +1,11 @@
-# Multiple Dashboards
+# Multiple Dashboard Tabs
 
-Each device can have multiple dashboards in Blynk.Console. This feature allows to group widgets based on use cases and set up access permissions to view certain tabs. For example, you can set up a general device tab for all users and a separate one with restricted access for staff use.
+The default dashboard has a single tab named ‘Dashboard’ automatically created. You may add additional tabs to the dashboard by clicking the ‘+’ icon (‘Add Tab’). Tabs allow you to group widgets based on their use case, or whatever grouping fits your project. You may also restrict access to particular tabs based on the three possible user roles of Admin, Staff, Users.
 
-To create new tabs in your web dashboard in Blynk.Console:
-
-* Go to Device Template -> Web Dashboard
-* Click on “Add Tab”
-* Name the tab
-* Add widgets as usual
+Add additional tabs to the dashboard by clicking the ‘+’ icon (‘Add Tab’):
 
 ![](../../../.gitbook/assets/tabs.png)
 
-You can define who will have access to the new tabs you are creating. Main Dashboard tab doesn't have access controls and can't be deleted.
+The default dashboard tab ‘Dashboard’ is visible to all users, and it cannot be deleted. Any added tab can be later deleted, and access to the tab may be restricted based on the user’s role within the root organization, and the sub organization. Click on the user icon in order to edit the tab’s access permissions. The window shown below will appear.
 
 ![](../../../.gitbook/assets/permissions.png)
