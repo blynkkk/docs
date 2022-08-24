@@ -14,7 +14,9 @@ Creating/editing a Web Dashboard is only possible with [Developer Mode](../../..
 
 To add widgets, click on the ‘Edit’ button at the top right of the Web Dashboard tab to enter the edit mode, and then drag and drop widgets from the ‘Widget Box’ to the Dashboard Preview window.
 
-<figure><img src="../../../.gitbook/assets/add_widgets.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/add_widgets (1).gif" alt=""><figcaption></figcaption></figure>
+
+![](../../../.gitbook/assets/cpt2105241705-1793x897.gif)
 
 After the widgets are added, you may:
 
@@ -24,6 +26,8 @@ After the widgets are added, you may:
 * **Clone** - creates a copy of the selected widget. Hover your mouse over the widget and click on the copy pictogram.
 * **Configure** - hover your mouse over the widget and select the gear pictogram. This option will allow you to access all of the widget settings, including assignment of a datastream.
 
+![](../../../.gitbook/assets/cpt2105241707-610x318.gif)
+
 {% hint style="info" %}
 The Widgets in the Web Dashboard and Blynk.App both use and may share Datastreams. However, you must independently configure Widgets for the Web Dashboard in Blynk.Console, and Widgets for mobile apps in Blynk.App.
 {% endhint %}
@@ -32,24 +36,6 @@ The Widgets in the Web Dashboard and Blynk.App both use and may share Datastream
 IMPORTANT: In order to see live data applied to your dashboard, you need to create and save your dashboard template, apply it to your devices, and then visit the Blynk.Console section: Search -> My Devices -> Device -> Dashboard.
 {% endhint %}
 
-There are 9 Widgets available:
-
-* [**Slider**](../../widgets-console/slider.md)
-* [**Switch**](../../widgets-console/switch.md)
-* [**Label**](../../widgets-console/label.md)
-* [**Gauge**](../../widgets-console/gauge.md)****
-* ****[**LED**](../../widgets-console/led.md)****
-* ****[**Image Gallery**](../../widgets-console/image-gallery.md) **** (Plus/Pro subscriptions)
-* [**Chart**](../../widgets-console/chart.md)
-* [**Map**](../../widgets-console/map.md) **** (Plus/Pro subscriptions)
-* [**Modules**](../../widgets-console/modules.md) **** (Plus/Pro subscriptions)
-
-To add widgets drag and drop them to Dashboard Preview window:
-
-![](../../../.gitbook/assets/cpt2105241705-1793x897.gif)
-
-
-
-![](../../../.gitbook/assets/cpt2105241707-610x318.gif)
-
-****
+{% content-ref url="../../widgets-console/" %}
+[widgets-console](../../widgets-console/)
+{% endcontent-ref %}
