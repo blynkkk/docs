@@ -17,14 +17,14 @@ Below is the table of widgets grouped by type and subscription. See the [Blynk p
 
 (\*) PLUS subscriptions include all widgets under the FREE subscription. PRO subscription includes widgets under PLUS and FREE subscriptions.
 
-All widgets require the assignment of at least one datastream. The datastream assigned to a widget typically defines many of the characteristics and defaults for the widget. For many widgets, the following is true:
+All widgets require the assignment of at least one [datastream](../templates/datastreams/). The datastream assigned to a widget typically defines many of the characteristics and defaults for the widget. For many widgets, the following is true:
 
-* The widget [min value](https://docs.blynk.io/en/blynk.console/templates/datastreams/datastreams-common-settings/min-value) and [max value](https://docs.blynk.io/en/blynk.console/templates/datastreams/datastreams-common-settings/max-value), as well as any units are established from the datastream.
-* The widget will be set to the datastream [default value](https://docs.blynk.io/en/blynk.console/templates/datastreams/datastreams-common-settings/default-value) every time the IoT device reconnects to the Blynk.Cloud, unless the datastream option ‘Sync with latest server value every time device connects to the cloud’ is enabled.  The datastream ‘[Invalidate Value](https://docs.blynk.io/en/blynk.console/templates/datastreams/datastreams-common-settings/invalidate-value)’ option will also affect the widget’s value when enabled.
-* The types of datastreams by [data type](https://docs.blynk.io/en/blynk.console/templates/datastreams/datastreams-common-settings/data-type) that may be assigned to a widget can be found by reviewing [List of Datastreams types supported by Widgets](https://docs.blynk.io/en/blynk.apps/widgets-app/list-of-datastreams-types-supported-by-widgets).
-* Every widget has an optional ‘Title’ that may be assigned to label it, otherwise the [name of the datastream](https://docs.blynk.io/en/blynk.console/templates/datastreams/datastreams-common-settings) is assigned by default.
-* The widget color takes on the assigned [datastream color](https://docs.blynk.io/en/blynk.console/templates/datastreams/datastreams-common-settings) by default.
+* The widget [min value](../templates/datastreams/datastreams-common-settings/min-value.md) and [max value](../templates/datastreams/datastreams-common-settings/max-value.md), as well as any units are established from the datastream.
+* The widget will be set to the datastream [default value](../templates/datastreams/datastreams-common-settings/default-value.md) every time the IoT device reconnects to the Blynk.Cloud, unless the datastream option ‘Sync with latest server value every time device connects to the cloud’ is enabled.  The datastream ‘[Invalidate Value](../templates/datastreams/datastreams-common-settings/invalidate-value.md)’ option will also affect the widget’s value when enabled.
+* The types of datastreams by [data type](../templates/datastreams/datastreams-common-settings/data-type.md) that may be assigned to a widget can be found by reviewing [List of Datastreams types supported by Widgets](../../blynk.apps/widgets-app/list-of-datastreams-types-supported-by-widgets.md).
+* Every widget has an optional ‘Title’ that may be assigned to label it, otherwise the [name of the datastream](../templates/datastreams/datastreams-common-settings/) is assigned by default.
+* The widget color takes on the assigned [datastream color](../templates/datastreams/datastreams-common-settings/) by default.
 
 When editing a widget’s settings, a visual preview is typically provided.
 
-Most widgets also support changes made to the title/label text, color, and other properties via either the [HTTP API](https://docs.blynk.io/en/blynk.cloud/update-property) or [Blynk.EdgeNet Firmware API](https://docs.blynk.io/en/blynk.edgent-firmware-api/widget-properties).
+Most widgets also support changes made to the title/label text, color, and other properties via either the [HTTP](../../blynk.cloud/update-property.md) API or [Blynk.EdgeNet Firmware API](../../blynk.edgent-firmware-api/widget-properties.md).
