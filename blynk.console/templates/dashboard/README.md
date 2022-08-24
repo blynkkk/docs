@@ -16,8 +16,6 @@ To add widgets, click on the ‘Edit’ button at the top right of the Web Dashb
 
 <figure><img src="../../../.gitbook/assets/add_widgets (1).gif" alt=""><figcaption></figcaption></figure>
 
-![](../../../.gitbook/assets/cpt2105241705-1793x897.gif)
-
 After the widgets are added, you may:
 
 * **Arrange** - drag the widgets into the position you want on each dashboard tab.
@@ -29,7 +27,7 @@ After the widgets are added, you may:
 ![](../../../.gitbook/assets/cpt2105241707-610x318.gif)
 
 {% hint style="info" %}
-The Widgets in the Web Dashboard and Blynk.App both use and may share Datastreams. However, you must independently configure Widgets for the Web Dashboard in Blynk.Console, and Widgets for mobile apps in Blynk.App.
+The Widgets in the Web Dashboard and Blynk.App both use and may share datastreams. However, you must independently configure Widgets for the Web Dashboard in Blynk.Console, and Widgets for mobile apps in Blynk.App.
 {% endhint %}
 
 {% hint style="warning" %}
