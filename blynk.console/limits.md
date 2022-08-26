@@ -28,15 +28,16 @@ Max number of the **Update** requests (`/external/api/update`) per device per da
 
 These are limits that apply to a each device template:
 
-|                       Feature                      | FREE | PLUS | PRO |
-| :------------------------------------------------: | :--: | :--: | --- |
-|        [Datastreams](templates/datastreams/)       |  30  |  80  | 200 |
-|                       Widgets                      |  30  |  80  | 200 |
-|                       Events                       |  50  |  50  | 50  |
-|                   Metadata fields                  |  50  |  50  | 50  |
-| Additional device dashboard pages in Blynk.Console |   0  |   1  | 3   |
-|  Additional device dashboard pages in Blynk.apps   |   0  |   1  | 10  |
-|      Additional device info tabs in Blynk.apps     |   0  |   1  | 5   |
+|                                                 Feature                                                 | FREE | PLUS | PRO |
+| :-----------------------------------------------------------------------------------------------------: | :--: | :--: | --- |
+|                                  [Datastreams](templates/datastreams/)                                  |  30  |  80  | 200 |
+|                                    Widgets per page in Blynk.Console                                    |  30  |  80  | 200 |
+|                                      Widgets per page in Blynk.Apps                                     |  30  |  80  | 200 |
+|                                                  Events                                                 |  50  |  50  | 50  |
+|                                             Metadata fields                                             |  50  |  50  | 50  |
+|                            Additional device dashboard pages in Blynk.Console                           |   0  |   1  | 3   |
+|      Additional device dashboard [pages](https://docs.blynk.io/en/blynk.apps/pages) in Blynk.apps       |   0  |   1  | 10  |
+| Additional [device info tabs](https://docs.blynk.io/en/blynk.apps/pages#device-info-tabs) in Blynk.apps |   0  |   1  | 5   |
 
 
 
