@@ -1,102 +1,108 @@
+---
+description: List of all limits for plans
+---
+
 # Limits
 
-Note: For users on Business Plan, the limits can be increased.
+
+
+{% hint style="warning" %}
+If you are using [Business Plan](https://blynk.io/pricing/business-plan), the limits can be increased. Contact your support engineer.
+{% endhint %}
+
+### HTTPS API Limits
+
+Max request size: 2 MB (headers + request body)
+
+Max number of file uploads (product/organization logos, firmware for shipment, data import) per user per day: 25
+
+Max number of **Export Data** calls (`/external/api/data/get`) per device per day (both UI and HTTPS API export): 10
+
+Max number of the **Update** requests (`/external/api/update`) per device per day: 500,000
 
 
 
-#### HTTPS API
-
-Max request size - 2 MB (headers + request body)
-
-Max number of file uploads (product/organization logos, firmware for shipment, data import) per user per day - 25 uploads
-
-Max number of **Export Data** (`/external/api/data/get`) calls per device per day (both UI and HTTPS API export) - 10 calls
-
-Max number of the **Update**  (`/external/api/update`)  requests per device per day - 500\_000 requests
 
 
+### Device Template Limits
 
-#### Template
+These are limits that apply to a single device template:
 
-Max number of metafields per template - 50 metafields
-
-Max number of events per template - 50 events
-
-Max number of datastreams per template - 30 for Free, 80 for Plus, 200 for Pro plan
-
-Max number of widgets per template - 30 for Free, 80 for Plus, 200 for Pro plan
-
-Max number of web pages - 1 for Plus, 3 for Pro plan
-
-Max number of mobile pages - 1 for Plus, 10 for Pro plan
-
-Max number of mobile tab pages - 1 for Plus, 5 for Pro plan
+|                       Feature                      | FREE | PLUS | PRO |
+| :------------------------------------------------: | :--: | :--: | --- |
+|        [Datastreams](templates/datastreams/)       |  30  |  80  | 200 |
+|                       Widgets                      |  30  |  80  | 200 |
+|                       Events                       |  50  |  50  | 50  |
+|                   Metadata fields                  |  50  |  50  | 50  |
+| Additional device dashboard pages in Blynk.Console |   0  |   1  | 3   |
+|  Additional device dashboard pages in Blynk.apps   |   0  |   1  | 10  |
+|      Additional device info tabs in Blynk.apps     |   0  |   1  | 5   |
 
 
 
-#### Organization
+### Organization Limits
 
-Max number of templates per organization - 50 templates
+These are limits that apply to a single device template:
 
-Max number of sub-organizations - 200 organizations for the Pro plan
-
-Max number of [automations](../concepts/automations.md) per organization - 5 for Free, 25 for Plus, 50 for Pro plan
-
-Max number of [actions](../concepts/automations.md#actions) per automation - 5 for Free, 25 for Plus, 50 for Pro plan
-
-Max number of users per organization - 100 users
-
-Max organization hierarchy levels - 5 levels (sub sub sub sub sub org)
-
-Max number of shipments per organization  - 25 shipments
-
-Max number of locations per organization - 50 locations
-
-Max image width/height - 4096x2048 pixels
-
-Report file expiration time - 45 days
-
-Max user invites per day - 25 invites
+|                                     Feature                                     | FREE | PLUS | PRO |
+| :-----------------------------------------------------------------------------: | :--: | :--: | --- |
+|                                    Templates                                    |  50  |  50  | 50  |
+|                    [Automations](../concepts/automations.md)                    |   5  |  25  | 50  |
+| [Actions](https://docs.blynk.io/en/concepts/automations#actions) per automation |   5  |  25  | 50  |
+|                                      Users                                      |   5  |  10  | 100 |
+|                                Sub-organizations                                |   0  |   0  | 200 |
+|                      Levels of sub-organizations hierarchy                      |   0  |   0  | 5   |
+|                         Blynk.Air shipments (campaigns)                         |  25  |  25  | 25  |
+|                                    Locations                                    |  50  |  50  | 50  |
+|                                     Webhooks                                    |   1  |   5  | 20  |
 
 
 
-#### Tag
+Max logo image size: 4096x2048 pixels
 
-Max number of tags per organization  - 25 tags
+Report file expiration time: 45 days
 
-Max number of tags per device - 5 tags
-
-Max number of tags per user - 5 tags
+Max user invites per day: 25 invites
 
 
 
-#### Webhook
+### Tags
 
-Max response size - 16 KB
+Max number of tags per organization: 25 tags
 
-Max URL length - 1024 chars
+Max number of tags per device: 5 tags
 
-Max body size - 5 KB
-
-Max number of webhooks per organization  - 1 for Free, 5 for Plus, 20 for Pro plan
-
-Limit rate - 1 webhook per minute
+Max number of tags per user: 5 tags
 
 
 
-#### Hardware
+### Webhooks
 
-Max number of events per day per device (`Blynk.logEvent`) - 100 events
+Max response size: 16 KB
 
-Min interval between events of the same type - 1 second
+Max URL length: 1024 chars
 
-Min interval between notification messages (push notifications/emails/SMS) - 5 seconds
+Max body size: 5 KB
 
-Max number of requests per device - 50 req/sec
+Max number of Webhooks per organization: 1 for Free, 5 for Plus, 20 for Pro plan
 
-Max number of data points per device per day you can import into the device - 10\_000 points
+Limit rate: 1 /minute
 
-Max length of the string value - 1024 bytes
+
+
+### Hardware
+
+Max number of events per day per device (`Blynk.logEvent`): 100 events
+
+Min interval between events of the same type: 1 second
+
+Min interval between notification messages (push notifications/emails/SMS): 5 seconds
+
+Max number of requests per device: 50 req/sec
+
+Max number of data points per device per day you can import into the device: 10,000 points
+
+Max length of the string value: 1024 bytes
 
 
 
