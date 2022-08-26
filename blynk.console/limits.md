@@ -1,14 +1,14 @@
 ---
-description: List of all limits for plans
+description: What are the limits to use Blynk platform features
 ---
 
 # Limits
 
-
-
-{% hint style="warning" %}
-If you are using [Business Plan](https://blynk.io/pricing/business-plan), the limits can be increased. Contact your support engineer.
+{% hint style="success" %}
+If you are using [Business Plan](https://blynk.io/pricing/business-plan), the limits below can be increased. Contact your support engineer.
 {% endhint %}
+
+###
 
 ### HTTPS API Limits
 
@@ -26,7 +26,7 @@ Max number of the **Update** requests (`/external/api/update`) per device per da
 
 ### Device Template Limits
 
-These are limits that apply to a single device template:
+These are limits that apply to a each device template:
 
 |                       Feature                      | FREE | PLUS | PRO |
 | :------------------------------------------------: | :--: | :--: | --- |
@@ -66,17 +66,17 @@ Max user invites per day: 25 invites
 
 
 
-### Tags
+### Tags Limits
 
-Max number of tags per organization: 25 tags
+Max number of tags per organization: 25
 
-Max number of tags per device: 5 tags
+Max number of tags per device: 5
 
-Max number of tags per user: 5 tags
+Max number of tags per user: 5
 
 
 
-### Webhooks
+### Webhooks Limits
 
 Max response size: 16 KB
 
@@ -98,7 +98,7 @@ Min interval between events of the same type: 1 second
 
 Min interval between notification messages (push notifications/emails/SMS): 5 seconds
 
-Max number of requests per device: 50 req/sec
+Max number of requests per device: 50 requests/second
 
 Max number of data points per device per day you can import into the device: 10,000 points
 
