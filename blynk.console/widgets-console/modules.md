@@ -22,6 +22,8 @@ __Your Product is a road cleaning machine and it has summer setup with fan and d
 
 Module setup modal window is split to configuration part (on the left) and preview window (on the right).
 
+### Settings
+
 **Name** – widget's name. For example it can be "Socket A", "Dock 1", etc.
 
 **Add Module** – click this button to add modules. Once added you can move or delete them using appropriate buttons on the right to modules names and switch to configuring them with click on Settings button on the left to modules names.
