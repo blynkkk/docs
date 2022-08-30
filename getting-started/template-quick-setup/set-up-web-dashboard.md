@@ -2,7 +2,7 @@
 
 Now we need to to setup a dashboard template to interact with our device and visualize data from it.
 
-Go to [Dashboard ](../../blynk.console/devices/device-profile/dashboard.md)Tab and drag-n-drop these widgets to the canvas:
+Go to [Web Dashboard](../../blynk.console/templates/dashboard/) Tab, click Edit button in the top right corner and drag-n-drop these widgets to the canvas:
 
 * [Switch](../../blynk.console/widgets-console/switch.md)
 * [Label](../../blynk.console/widgets-console/label.md)
@@ -58,6 +58,10 @@ Click **Save** button at top right of the screen to save all the changes made to
 In order to see actual data and interact with your device, you need to go to your devices: Search -> My Devices -> Device&#x20;
 {% endhint %}
 
+More detailed guide on how to configure/manage a Web Dashboard for your device you can find here:
 
+{% content-ref url="../../blynk.console/templates/dashboard/" %}
+[dashboard](../../blynk.console/templates/dashboard/)
+{% endcontent-ref %}
 
 Now you can proceed to [Blynk.Apps dashboard setup](set-up-mobile-app-dashboard.md) or [Prepare Your Code](prepare-code.md)
