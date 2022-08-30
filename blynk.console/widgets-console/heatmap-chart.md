@@ -2,6 +2,10 @@
 
 Available only for PRO users
 
+{% hint style="warning" %}
+_**Note:**_ please remember that web and mobile app widgets are set up separately in the Web Dashboard and Mobile App Dashboard sections correspondingly. They can still use the same datastreams to access the same data (Map widget is an exception – a different codebase is used for Map on mobile and web).
+{% endhint %}
+
 Heatmap Chart is a two-dimensional visual representation of data, where X-axis is time, and Y-axis is a value visualized with color intensity.&#x20;
 
 ![](<../../.gitbook/assets/image (35) (1) (1).png>)

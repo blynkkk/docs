@@ -1,5 +1,9 @@
 # Terminal
 
+{% hint style="warning" %}
+_**Note:**_ please remember that web and mobile app widgets are set up separately in the Web Dashboard and Mobile App Dashboard sections correspondingly. They can still use the same datastreams to access the same data (Map widget is an exception – a different codebase is used for Map on mobile and web).
+{% endhint %}
+
 Terminal widget works like the usual system terminal. The widget is showing real-time data from your hardware through a **string** datastream. Allows sending any string to your hardware.\
 
 

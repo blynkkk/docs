@@ -1,8 +1,20 @@
 # Chart
 
-_**Note:**_ please remember that web and apps widgets are set up separately and may have same datastreams set to view the same data (excepts Image Gallery Map widgets – those two use different codebase now).
+{% hint style="warning" %}
+_**Note:**_ please remember that web and mobile app widgets are set up separately in the Web Dashboard and Mobile App Dashboard sections correspondingly. They can still use the same datastreams to access the same data (Map widget is an exception – a different codebase is used for Map on mobile and web).
+{% endhint %}
 
-Chart is used to visualise live and historical data. You can use it for sensor data, for binary event logging and more.
+Chart is used to visualise live and historical data. You can use it for sensor data, for binary event logging and more. Chart display can be of 4 types: _Line, Area, Column, Stepline_General chart properties:
+
+* **Values axis** (vertical) – each Datastream added to Chart widget has it's scale on the right and left. It can be set manually or to be auto-scaled during Template dashboard setup.
+* **Timeline Axis** (horizontal) – helps to find values actual for the exact time the search is performed.
+* **Hover the chart** – views value ant time for each selected point for each Datastream.
+
+<figure><img src="https://files.gitbook.com/v0/b/gitbook-legacy-files/o/assets%2F-MBFTVMf7L6S67HOuqVC%2F-MVLXy69EogCOTmSZVul%2F-MVM0tyZhHW7hxWOM0dh%2FChart2.gif?alt=media&#x26;token=d8e60384-9ec2-4bdc-9246-85586bc2e19b" alt=""><figcaption><p>Stepline chart widget example</p></figcaption></figure>
+
+<figure><img src="https://files.gitbook.com/v0/b/gitbook-legacy-files/o/assets%2F-MBFTVMf7L6S67HOuqVC%2F-MVLXy69EogCOTmSZVul%2F-MVM0zztBlPi-PSyYwVQ%2FChart1.gif?alt=media&#x26;token=47c35cc0-6486-4baa-a253-edf24230b0d0" alt=""><figcaption><p>Area chart widget example</p></figcaption></figure>
+
+### **Settings**
 
 * **Add source** – it's possible to set several Datastream **Sources** under one Chart. Click and set up as much as you need.\
 
@@ -34,5 +46,5 @@ Chart is used to visualise live and historical data. You can use it for sensor d
 
 * **Enable zoom** – enable if chart zoom may be useful. Otherwise leave it disabled.
 
-![Chart widget setup demo](../../../.gitbook/assets/chart\_setup.gif)
+![Chart widget setup demo](../../.gitbook/assets/chart\_setup.gif)
 

@@ -1,8 +1,10 @@
 # Modules
 
-Available only for PLUS and PRO users\
-\
-_**Note:**_ please remember that web and apps widgets are set up separately and may have same datastreams set to view the same data (excepts Image Gallery Map widgets – those two use different codebase now).
+Available only for PLUS and PRO users
+
+{% hint style="warning" %}
+_**Note:**_ please remember that web and mobile app widgets are set up separately in the Web Dashboard and Mobile App Dashboard sections correspondingly. They can still use the same datastreams to access the same data (Map widget is an exception – a different codebase is used for Map on mobile and web).
+{% endhint %}
 
 This widget is extremely useful in cases your Product devices use detachable modules that can be attached accordingly to use conditions.\
 Each module has it's own tools, units, details that are represented by Datastreams sets configured under each module.

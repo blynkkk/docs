@@ -2,6 +2,10 @@
 
 Available only for PRO users.
 
+{% hint style="warning" %}
+_**Note:**_ please remember that web and mobile app widgets are set up separately in the Web Dashboard and Mobile App Dashboard sections correspondingly. They can still use the same datastreams to access the same data (Map widget is an exception – a different codebase is used for Map on mobile and web).
+{% endhint %}
+
 The image button widget allows you to not only control your device by switching between two states (e.g. on/off) but also display any image making your dashboard more visually engaging.&#x20;
 
 For the button image, you need to provide http/s URL. The URL should be a valid endpoint to the binary data of the image. URL shortener will not work.
