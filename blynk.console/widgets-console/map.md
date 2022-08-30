@@ -4,11 +4,27 @@ Available only for PLUS and PRO users\
 \
 _**Note:**_ please remember that web and apps widgets are set up separately and may have same datastreams set to view the same data (excepts Image Gallery Map widgets – those two use different codebase now).
 
-Map widget visualizes data related to a location of the device:
+This widget displays device locations/route and data sets (predefined by Template owner) that are assigned to GPS data:
 
 * Current or latest known location of the device&#x20;
 * GPS track (historical position of the device)
 * Overlays: various data related to the time and location of the device. E.g. speed of the device at a particular point of the track.
+
+![Map widget example](https://user-images.githubusercontent.com/72824404/120771180-9d657300-c527-11eb-9e4c-b06c794752d1.png)
+
+1. Specify the time period if it's needed (top center of the widget):
+   1. select the day: click arrows to switch to previous/next day or click on the day to open date picker, search and click on the date you want;
+   2. set day time period: click the field containing time data to open time picker, set hh:mm for both start and end of the period;&#x20;
+2. Change track overlay by selecting available in top right dropdown menu. It's used for values/statuses differences visualization that can be checked in track overlays legend (bottom right)
+3. Navigate to the point you want to check:
+   1. use scale management buttons at top left of the widget;
+   2. move the map by moving the mouse with left mouse button hold;
+   3. click the point or area (nearest point data will be displayed);
+
+![Scale management buttons](../../.gitbook/assets/map\_nav\_but.gif)
+
+Now you can see all the data that was actual while the device was on the selected location.\
+It always starts with Date and Time in the first line, Location Longitude and Latitude in second line and all other data in further lines.
 
 {% hint style="warning" %}
 Location real time update is not implemented yet. Refresh the page to see the latest location.
