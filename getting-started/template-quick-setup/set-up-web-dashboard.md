@@ -58,7 +58,7 @@ Click **Save** button at top right of the screen to save all the changes made to
 In order to see actual data and interact with your device, you need to go to your devices: Search -> My Devices -> Device&#x20;
 {% endhint %}
 
-More detailed guide on how to configure/manage a Web Dashboard for your device you can find here:
+A more detailed guide on how to configure/manage a more robust Web Dashboard for your device you can find here:
 
 {% content-ref url="../../blynk.console/templates/dashboard/" %}
 [dashboard](../../blynk.console/templates/dashboard/)
