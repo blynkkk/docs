@@ -183,7 +183,7 @@
 * [Virtual Pins](blynk.edgent-firmware-api/virtual-pins.md)
 * [Widget Properties](blynk.edgent-firmware-api/widget-properties.md)
 * [State Syncing](blynk.edgent-firmware-api/state-syncing.md)
-* [Timer](blynk.edgent-firmware-api/blynk-timer.md)
+* [Timers](blynk.edgent-firmware-api/blynk-timer.md)
 * [Time (RTC clock)](blynk.edgent-firmware-api/rtc-clock.md)
 * [Timezone / Location](blynk.edgent-firmware-api/timezone-location.md)
 * [Log Event](blynk.edgent-firmware-api/log-event.md)
