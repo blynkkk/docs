@@ -18,8 +18,8 @@ This is the easiest way of sending notifications triggered by user-defined condi
 
 Read more about setting up automations here:
 
-{% content-ref url="../concepts/automations.md" %}
-[automations.md](../concepts/automations.md)
+{% content-ref url="../concepts/automations/" %}
+[automations](../concepts/automations/)
 {% endcontent-ref %}
 
 ## Send Notifications From Hardware

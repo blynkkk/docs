@@ -41,7 +41,8 @@
 * [Users](concepts/users.md)
 * [Organizations](concepts/organizations.md)
 * [Multi-tenancy](concepts/multi-tenant-tree-structure.md)
-* [Automations](concepts/automations.md)
+* [Automations](concepts/automations/README.md)
+  * [Forward Device Data](concepts/automations/forward-device-data.md)
 
 ## Downloads
 
