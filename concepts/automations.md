@@ -68,8 +68,6 @@ Go to Blynk.Console ->Templates -> Template you are working with -> **Automation
 
 A list of Datastreams for the Template will appear, with columns labeled 'Condition' and 'Action' that each has an enable/disable switch for each Datastream. At the top right of the screen, click the 'Edit' button.
 
-If the value of the Datastream will be used to trigger an action, then enable the ‘Condition’ switch in the table.  If the value of the Datastream is to be changed by the Automation, then enable the ‘Action’ switch in the table.
-
 ![](../.gitbook/assets/automations-datastreams.png)
 
 In the table column labeled **Type of Automation**, make a choice for the Datastream to be associated with your Automation.  The choices vary by the [Datastream](../getting-started/template-quick-setup/set-up-datastreams.md) data type (double, integer, string, enumerable).  All options except for ‘Sensor’ define what type of GUI control will be presented to the User when defining the Automation in the Blynk.App.
@@ -85,7 +83,7 @@ In the table column labeled **Type of Automation**, make a choice for the Datast
 | Enumerable          | Enumerable                                                 | An integer value corresponds to a string value                                                                 | a list of the enumeration values     |
 | Sensor              | <p>Double </p><p>Integer</p><p>String</p><p>Enumerable</p> | Cannot be an action                                                                                            | N/A                                  |
 
-
+If the value of the Datastream will be used to trigger an action, then enable the ‘Condition’ switch in the table.  If the value of the Datastream is to be changed by the Automation, then enable the ‘Action’ switch in the table.
 
 1. Enable at least one Condition or Action for a Datastream and then click the **Save And Apply** button at the top right of the screen.&#x20;
 2. Refresh the browser window (CTRL-F5), and the Automations icon should be now visible in the [Blynk.Console](broken-reference) side menu.&#x20;

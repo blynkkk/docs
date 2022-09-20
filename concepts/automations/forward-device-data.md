@@ -13,7 +13,7 @@ Note that Forward Device Data is not limited to devices within the device templa
 
 Two methods exist to forward device data to more than one device:
 
-* Any device monitoring the datastream that is the target of the action ‘Forward Device Data’ will receive the update via a BLYNK\_WRITE().&#x20;
+* Any device monitoring the datastream that is the target of the action ‘Forward Device Data’ will receive the update via a `BLYNK_WRITE()`.&#x20;
 * Multiple actions may be defined for an automation, with each action configured as ‘Forward Device Data’ targeting a different device and datastream.&#x20;
 
 {% hint style="info" %}
