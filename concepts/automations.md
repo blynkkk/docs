@@ -124,11 +124,13 @@ The ‘Send Email’, ‘Send In-App Notifications’, and ‘Send SMS’ action
 * **{DEVICE\_NAME}** - the IoT Device name as displayed under ‘DEVICES’.
 * **{TRIGGER\_VALUE}** - if a Device State trigger was used, this will be the value of the trigger.
 
+The 'Name' and 'Cover' should also be configured for the new [automation](automations.md).&#x20;
 
+### Automation Settings (Limit Period, Name, Cover)
 
-### Limit period
+The 'Name' and 'Cover' should also be configured for the new automation in the 'Settings' section.&#x20;
 
-The 'Name' and 'Cover' should also be configured for the new [automation](automations.md). If the Automation has a Device State condition defined, then an option of 'LIMIT PERIOD' is available and should be configured. The limit period prevents multiple executions of an Automation within the limit period duration, beginning from when the last trigger occurred.
+If the Automation has a Device State condition defined, then an option of 'LIMIT PERIOD' is available and should be configured. The limit period prevents multiple executions of an Automation within the limit period duration, beginning from when the last trigger occurred.
 
 {% hint style="info" %}
 **Limit Period Example**
