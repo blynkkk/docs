@@ -19,11 +19,12 @@ The types of **conditions** are:&#x20;
 
 
 
-### Multiple actions
+### &#x20;Actions
 
-One or more actions may be executed sequentially when a condition's requirement has been met. The types of actions include:
+One or more actions may be executed sequentially or simultaneously when a condition's requirement has been met. The types of actions include:
 
 * Sending a mobile app notification
+* Forwarding device data to some other device datastream
 * Sending an email
 * Setting a delay
 * Setting a [Datastream](../blynk.console/templates/datastreams/) value.&#x20;
