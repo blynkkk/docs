@@ -22,7 +22,7 @@ It's focused on devices, automations and notifications view and management with 
 
 ## Home screen
 
-Home screen consists of up to 3 tabs depending on the configuration: [Devices](overview.md#devices), [Automation](../concepts/automations/) and [Notifications](overview.md#notifications)
+Home screen consists of up to 3 tabs depending on the configuration: [Devices](overview.md#devices), [Automation](../concepts/automations.md) and [Notifications](overview.md#notifications)
 
 ### **Devices**
 
@@ -41,7 +41,7 @@ To enable the datastream for automation, please read the [Datastreams](../blynk.
 
 ![Automation tab](https://user-images.githubusercontent.com/72790181/119659015-711a6a00-be36-11eb-982f-f4d3ab66a0c3.png)
 
-You can [automate](../concepts/automations/) your connected devices with the following triggers:
+You can [automate](../concepts/automations.md) your connected devices with the following triggers:
 
 * Time of the day
 * Sunset and sunrise

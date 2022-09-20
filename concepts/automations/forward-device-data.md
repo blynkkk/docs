@@ -11,6 +11,11 @@ It is possible to create an automation that will forward a datastream triggered 
 
 Note that Forward Device Data is not limited to devices within the device template of the forwarding device (master). You can forward device data to any device in any template.
 
+Two methods exist to forward device data to more than one device:
+
+* Any device monitoring the datastream that is the target of the action ‘Forward Device Data’ will receive the update via a BLYNK\_WRITE().&#x20;
+* Multiple actions may be defined for an automation, with each action configured as ‘Forward Device Data’ targeting a different device and datastream.&#x20;
+
 {% hint style="info" %}
 IMPORTANT: The automation setting ‘LIMIT PERIOD’ will limit how often the automation will forward a datastream triggered value.
 {% endhint %}

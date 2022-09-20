@@ -65,12 +65,12 @@ The no-code phone application for Blynk IoT supports many new features:
 
 Note the following regarding the former Blynk Legacy widgets:
 
-* [Bridge widget](http://docs.blynk.cc/#widgets-other-bridge) for device-to-device communication is replaced by [Automations](../concepts/automations/) and the upcoming Rule Engine.
-* [Eventor widget](http://docs.blynk.cc/#widgets-other-eventor) is replaced by [Automations](../concepts/automations/).
-* [Timer widget](http://docs.blynk.cc/#widgets-controllers-timer) is replaced by [Automations](../concepts/automations/).
+* [Bridge widget](http://docs.blynk.cc/#widgets-other-bridge) for device-to-device communication is replaced by [Automations](../concepts/automations.md) and the upcoming Rule Engine.
+* [Eventor widget](http://docs.blynk.cc/#widgets-other-eventor) is replaced by [Automations](../concepts/automations.md).
+* [Timer widget](http://docs.blynk.cc/#widgets-controllers-timer) is replaced by [Automations](../concepts/automations.md).
 * [RTC widget](http://docs.blynk.cc/#widgets-other-rtc) is replaced by [Time API](../blynk.edgent-firmware-api/rtc-clock.md).&#x20;
 * [WebHook widget](http://docs.blynk.cc/#widgets-other-webhook) is replaced by [Webhooks](../blynk.console/settings/developers/webhooks.md) feature in the Blynk.Console. They are triggered by a system event or a Datastream.&#x20;
-* [Notifications](http://docs.blynk.cc/#widgets-notifications) and [Email](http://docs.blynk.cc/#widgets-notifications-email) widgets are replaced by [Automations](../concepts/automations/) and [Template Events](../getting-started/events-tutorial.md).
+* [Notifications](http://docs.blynk.cc/#widgets-notifications) and [Email](http://docs.blynk.cc/#widgets-notifications-email) widgets are replaced by [Automations](../concepts/automations.md) and [Template Events](../getting-started/events-tutorial.md).
 * [Twitter](http://docs.blynk.cc/#widgets-notifications-twitter) widget was deprecated, but you can use [Webhooks](../blynk.console/settings/developers/webhooks.md).
 * [Terminal widget](http://docs.blynk.cc/#widgets-displays-terminal) is replaced by the Terminal Widget available in both the [Blynk.App](https://docs.blynk.io/en/blynk.apps/widgets-app#terminal) and [Blynk.Console](https://docs.blynk.io/en/blynk.console/widgets-console/terminal).
 * [Table widget](http://docs.blynk.cc/#widgets-interface-table) is not yet available.&#x20;
