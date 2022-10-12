@@ -4,13 +4,22 @@ description: Set up and edit Blynk.Console properties
 
 # Settings
 
-{% page-ref page="organization-settings/" %}
+{% content-ref url="organization-settings/" %}
+[organization-settings](organization-settings/)
+{% endcontent-ref %}
 
-{% page-ref page="application-settings/" %}
+{% content-ref url="../../commercial-use/business-plan-white-label-assets/application-settings/" %}
+[application-settings](../../commercial-use/business-plan-white-label-assets/application-settings/)
+{% endcontent-ref %}
 
-{% page-ref page="access.md" %}
+{% content-ref url="access.md" %}
+[access.md](access.md)
+{% endcontent-ref %}
 
-{% page-ref page="developers/" %}
+{% content-ref url="developers/" %}
+[developers](developers/)
+{% endcontent-ref %}
 
-{% page-ref page="integrations.md" %}
-
+{% content-ref url="integrations.md" %}
+[integrations.md](integrations.md)
+{% endcontent-ref %}

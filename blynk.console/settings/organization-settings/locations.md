@@ -6,7 +6,7 @@ description: >-
 
 # Locations (Job Site or Facilities)
 
-_**Note:**_ this entity has [3 variations](../application-settings/general.md)
+_**Note:**_ this entity has [3 variations](../../../commercial-use/business-plan-white-label-assets/application-settings/general.md)
 
 ![](<../../../.gitbook/assets/locations (1).png>)
 

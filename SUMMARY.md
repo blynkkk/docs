@@ -133,12 +133,6 @@
     * [Users](blynk.console/settings/organization-settings/users.md)
     * [Locations (Job Site or Facilities)](blynk.console/settings/organization-settings/locations.md)
     * [Tags](blynk.console/settings/organization-settings/tags.md)
-    * [Forms](blynk.console/settings/organization-settings/forms.md)
-  * [Application Settings](blynk.console/settings/application-settings/README.md)
-    * [General](blynk.console/settings/application-settings/general.md)
-    * [Design](blynk.console/settings/application-settings/design.md)
-    * [Mobile Apps](blynk.console/settings/application-settings/mobile-apps.md)
-    * [Sign Up](blynk.console/settings/application-settings/sign-up.md)
   * [Roles and Permissions](blynk.console/settings/access.md)
   * [Developers](blynk.console/settings/developers/README.md)
     * [OAuth2](blynk.console/settings/developers/oauth2.md)
@@ -235,6 +229,11 @@
   * [What's Needed To Publish Your Apps And Go Live](commercial-use/business-plan-white-label-assets/publishing-materials.md)
   * [Branding Materials](commercial-use/business-plan-white-label-assets/branding-materials.md)
   * [Custom Email Address For Transactional Emails](commercial-use/business-plan-white-label-assets/set-up-custom-email-address-for-transactional-emails-in-blynk.md)
+  * [Application Settings](commercial-use/business-plan-white-label-assets/application-settings/README.md)
+    * [General](commercial-use/business-plan-white-label-assets/application-settings/general.md)
+    * [Design](commercial-use/business-plan-white-label-assets/application-settings/design.md)
+    * [Mobile Apps](commercial-use/business-plan-white-label-assets/application-settings/mobile-apps.md)
+    * [Sign Up](commercial-use/business-plan-white-label-assets/application-settings/sign-up.md)
 
 ## Legacy Platform Help Articles <a href="#legacy-platform" id="legacy-platform"></a>
 

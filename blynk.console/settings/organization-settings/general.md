@@ -10,8 +10,8 @@
 
 * Root (accessible only in white-label version)
 * Sub-organization
-* Partners
-* Client
+* Partners (Business Plan only)
+* Client (Business Plan only)
 
 **Description** (optional) – organization info container. 500 characters limit with counter at the bottom
 
