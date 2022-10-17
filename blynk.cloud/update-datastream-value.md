@@ -36,7 +36,7 @@ Device auth token
 ```
 {% endswagger-response %}
 
-{% swagger-response status="400" description="Could not find a device token or Wrong pin format or Value doesn't match the Datastream data type or No datastream setup for that pin" %}
+{% swagger-response status="400" description="'Could not find a device token' or 'Wrong pin format' or 'Value doesn't match the Datastream data type' or 'No datastream setup for that pin'" %}
 ```
 {"error":{"message":"Invalid token."}}
 or
