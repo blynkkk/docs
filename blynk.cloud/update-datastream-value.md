@@ -42,7 +42,7 @@ Device auth token
 or
 {"error":{"message":"Wrong pin format."}}
 or
-{"error":{"message":"Value doesn't match the Datastream data type"}}
+{"error":{"message":"Value doesn't match the Datastream data type."}}
 or
 {"error":{"message":"No datastream setup for that pin."}}
 ```
