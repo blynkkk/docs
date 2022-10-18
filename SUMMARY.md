@@ -234,6 +234,8 @@
     * [Design](commercial-use/business-plan-white-label-assets/application-settings/design.md)
     * [Mobile Apps](commercial-use/business-plan-white-label-assets/application-settings/mobile-apps.md)
     * [Sign Up](commercial-use/business-plan-white-label-assets/application-settings/sign-up.md)
+* [Add-Ons](commercial-use/add-ons/README.md)
+  * [Marketing](commercial-use/add-ons/marketing.md)
 
 ## Legacy Platform Help Articles <a href="#legacy-platform" id="legacy-platform"></a>
 
