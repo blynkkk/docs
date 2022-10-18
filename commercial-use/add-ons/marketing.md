@@ -1,14 +1,10 @@
 # Marketing
 
-In-App notifications
-
-
-
-### In-app Tracking
+## In-app Tracking
 
 Better understand how customers are using your products and app. Blynk apps are tracking click tap events and send results to Firebase. Then your can create build custom reports, or ask Blynk team to set it up for you.
 
-Example: track how often customers use a certain feature or track most common user journeys
+_Example: track how often customers use a certain feature or track most common user journeys_
 
 There are two types of events: events tracked by default and events related to your device dashboard (widgets).
 
