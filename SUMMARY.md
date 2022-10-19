@@ -235,6 +235,14 @@
     * [Mobile Apps](commercial-use/business-plan-white-label-assets/application-settings/mobile-apps.md)
     * [Sign Up](commercial-use/business-plan-white-label-assets/application-settings/sign-up.md)
 
+## Add-Ons
+
+* [Amazon Alexa](add-ons/amazon-alexa.md)
+* [Google Assistant](add-ons/google-assistant.md)
+* [Localization](add-ons/localization.md)
+* [Database Access](add-ons/database-access.md)
+* [Marketing](add-ons/marketing.md)
+
 ## Legacy Platform Help Articles <a href="#legacy-platform" id="legacy-platform"></a>
 
 * [Legacy articles](legacy-platform/legacy-articles/README.md)
@@ -256,11 +264,3 @@
   * [App and board logs. How to send application and board logs correctly](legacy-platform/legacy-articles/app-and-board-logs.-how-to-send-application-and-board-logs-correctly.md)
   * [Blynk Android permissions explained](legacy-platform/legacy-articles/blynk-android-permissions-explained.md)
   * [How to find code for my hardware?](legacy-platform/legacy-articles/getting-started.md)
-
-## Add-Ons
-
-* [Amazon Alexa](add-ons/amazon-alexa.md)
-* [Google Assistant](add-ons/google-assistant.md)
-* [Localization](add-ons/localization.md)
-* [Database Access](add-ons/database-access.md)
-* [Marketing](add-ons/marketing.md)

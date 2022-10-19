@@ -2,19 +2,19 @@
 
 ## In-app Tracking
 
-Better understand how customers are using your products and app. Blynk apps are tracking click tap events and send results to Firebase. Then your can create build custom reports, or ask Blynk team to set it up for you.
+The feature gives you better understanding of how customers are using your products and the app. Blynk apps are tracking click/tap events and send results to Firebase.&#x20;
 
-_Example: track how often customers use a certain feature or track most common user journeys_
+_Typical use case: track how often customers use a certain feature or track most common user journeys._
+
+{% hint style="success" %}
+All collected data is anonymized. There is no way to track actions of a particular user.
+{% endhint %}
+
+In Firebase you can build custom reports, or ask Blynk team to set them up for you.
+
+**To enable in-app tracking and set it up contact your launch engineer.**&#x20;
 
 There are two types of events: events tracked by default and events related to your device dashboard (widgets).
-
-All collected data is anonymized. There is no way to track actions of a particular user.
-
-
-
-Contact your launch engineer to enable this feature and set it up.&#x20;
-
-
 
 Here is what can be tracked:
 
