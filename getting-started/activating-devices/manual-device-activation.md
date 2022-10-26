@@ -4,13 +4,7 @@ Manual device creation can be used with any device supported by Blynk no matter 
 
 Such workflow is mostly used during prototyping or for devices that don't require end-user activation.
 
-Let's guide you on how to do it!
-
-
-
-Expand blocks below:
-
-
+Follow the steps 1-4 below:&#x20;
 
 <details>
 
