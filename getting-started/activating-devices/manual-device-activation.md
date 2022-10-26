@@ -102,9 +102,9 @@ Now you have all the information you need to update your sketch:
 
 <details>
 
-<summary>Step 4: Updating sketch with Template ID and AuthToken and</summary>
+<summary>Step 4: Updating sketch with Template ID and AuthToken</summary>
 
-Now you have all the information you need to update your sketch:
+Add `TEMPLATE_ID` and `AuthToken` to your sketch:
 
 <pre class="language-cpp"><code class="lang-cpp">#define BLYNK_PRINT Serial
 #define BLYNK_TEMPLATE_ID "TMPLbu8•••••"
@@ -134,7 +134,7 @@ Connecting to...
 Ready (ping: 40ms)
 ```
 
-###
+
 
 ### Congrats! Your device should be now online!
 
