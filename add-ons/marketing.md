@@ -1,14 +1,6 @@
 # Marketing
 
-## Blynk Marketing Add-On
-
-Marketing add-on unlocks the two powerful features: in-app click tracking and in-app messaging.&#x20;
-
-{% hint style="info" %}
-The add-on is available to Business plan subscribers only. Contact your launch engineer to unlock and set up.
-{% endhint %}
-
-### In-App Tracking
+## In-app Tracking
 
 The feature gives you better understanding of how customers are using your products and the app. Blynk apps are tracking click/tap events and send results to Firebase.&#x20;
 
@@ -70,20 +62,3 @@ Here is what can be tracked:
 | `bl_app_review_request`       | Users views review request for App Store                                                |                                                                                                                                                                                                |                                                                                             |                                                          |
 |                               |                                                                                         |                                                                                                                                                                                                |                                                                                             |                                                          |
 | `bl_provisioning_error`       | App shows previous provisioning try error, returned by the hardware during provisioning | If there is an error during device provisioning, on next attempt app will try to report the error code                                                                                         | bl\_ssid bl\_error bl\_template\_id bl\_firmware\_version bl\_firmware\_type                | Android only for now                                     |
-
-### **Blynk In-App Messaging**
-
-This feature allows you to reach users with a promotion / informational message when they are inside of your app, or drive them back into your app using a push notification.&#x20;
-
-This is helpful when you are trying to promote new products or features, convert users to additional paid services or simply educate them on how to best use your product.
-
-Using Blynk.Console you will be able to:
-
-* set up one-time or recurring campaigns&#x20;
-* start them immediately or schedule for a specific start time&#x20;
-* track the results - impressions, open rate, clicks and actions
-
-Blynk in-app messaging allows sending **push notifications**, **in-app messages** or combine them in one campaign.
-
-
-
