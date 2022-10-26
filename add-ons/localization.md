@@ -2,7 +2,11 @@
 
 ## Platform Localization Add-On
 
-This Add-On allows you to translate your IoT app, console and all of the transactional emails to additional languages (one language per add-on, multiple add-ons possible). Anything can be localized - from system messages to widget and datastream names.
+This Add-On allows you to translate your IoT app, console and all of the transactional emails to additional languages. Anything can be localized - from system messages to widget and datastream names.
+
+{% hint style="info" %}
+One language per add-on, multiple add-ons possible.
+{% endhint %}
 
 The process is the following:&#x20;
 
