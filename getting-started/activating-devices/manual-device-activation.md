@@ -8,6 +8,10 @@ Let's guide you on how to do it!
 
 
 
+Expand blocks below:
+
+
+
 <details>
 
 <summary>Step 1: Perparing your sketch</summary>
@@ -24,11 +28,13 @@ Let's guide you on how to do it!
 #define BLYNK_DEVICE_NAME "Test"
 #include <BlynkSimpleEsp32.h>
 char auth[] = "1jIajShg30JO-QQZmlWf1NjdH5FNi2wW";
+
 void setup()
 {
   Serial.begin(115200);
   Blynk.begin(auth, "wifi-ssid", "wifi-pass");
 }
+
 void loop()
 {
   Blynk.run();
@@ -38,7 +44,6 @@ void loop()
 Pay attention to these 4 lines: you would need to fill them.
 
 ```cpp
-...
 #define BLYNK_TEMPLATE_ID             ""
 #define BLYNK_DEVICE_NAME             ""
 ...
@@ -51,7 +56,7 @@ Blynk.begin(auth, "wifi-ssid", "wifi-pass");
 
 <details>
 
-<summary>Step 2: Getting Template ID and Auth Token for device</summary>
+<summary>Step 2: Getting Template ID</summary>
 
 ### Template ID and Device Name
 
@@ -81,13 +86,17 @@ Now you have all the information you need to update your sketch:
 #define BLYNK_PRINT Serial
 #define BLYNK_TEMPLATE_ID "TMPLbu8•••••"
 #define BLYNK_DEVICE_NAME "My First Device 01"
+
 #include <BlynkSimpleEsp32.h>
+
 char auth[] = "••••••••••••••VoFvaUOH2U_sI";
+
 void setup()
 {
   Serial.begin(115200);
   Blynk.begin(auth, "your_wifi-ssid", "your_wifi-pass");
 }
+
 void loop()
 {
   Blynk.run();
@@ -107,7 +116,7 @@ Ready (ping: 40ms)
 
 <details>
 
-<summary>Step 3: Getting Auth Token for device</summary>
+<summary>Step 3: Getting Auth Token</summary>
 
 ### Getting Auth Token
 
@@ -129,26 +138,28 @@ Now you have all the information you need to update your sketch:
 
 <details>
 
-<summary>Step 4: Updating sketch</summary>
+<summary>Step 4: Updating sketch with Template ID and AuthToken and</summary>
 
 Now you have all the information you need to update your sketch:
 
-```cpp
-#define BLYNK_PRINT Serial
+<pre class="language-cpp"><code class="lang-cpp">#define BLYNK_PRINT Serial
 #define BLYNK_TEMPLATE_ID "TMPLbu8•••••"
 #define BLYNK_DEVICE_NAME "My First Device 01"
-#include <BlynkSimpleEsp32.h>
+
+#include &#x3C;BlynkSimpleEsp32.h>
+
 char auth[] = "••••••••••••••VoFvaUOH2U_sI";
-void setup()
-{
+<strong>
+</strong><strong>void setup()
+</strong>{
   Serial.begin(115200);
   Blynk.begin(auth, "your_wifi-ssid", "your_wifi-pass");
 }
+
 void loop()
 {
   Blynk.run();
-}
-```
+}</code></pre>
 
 Upload the sketch to your device and open Serial Monitor. Wait until you see something like this:
 
