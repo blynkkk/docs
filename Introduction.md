@@ -1,7 +1,5 @@
 ---
 description: Welcome to Blynk Documentation
-coverY: 0
-layout: landing
 ---
 
 # Introduction
