@@ -1,3 +1,8 @@
+---
+coverY: 0
+layout: landing
+---
+
 # Introduction
 
 {% hint style="success" %}
