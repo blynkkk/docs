@@ -74,38 +74,6 @@ After the device was created, you will get the notification with TemplateID and 
 
 <img src="https://user-images.githubusercontent.com/72824404/119501175-4adec680-bd71-11eb-804f-75438981169a.png" alt="AuthToken" data-size="original">
 
-Now you have all the information you need to update your sketch:
-
-```cpp
-#define BLYNK_PRINT Serial
-#define BLYNK_TEMPLATE_ID "TMPLbu8•••••"
-#define BLYNK_DEVICE_NAME "My First Device 01"
-
-#include <BlynkSimpleEsp32.h>
-
-char auth[] = "••••••••••••••VoFvaUOH2U_sI";
-
-void setup()
-{
-  Serial.begin(115200);
-  Blynk.begin(auth, "your_wifi-ssid", "your_wifi-pass");
-}
-
-void loop()
-{
-  Blynk.run();
-}
-```
-
-Upload the sketch to your device and open Serial Monitor. Wait until you see something like this:
-
-```bash
-Blynk v.X.X.X
-Your IP is 192.168.0.11
-Connecting to...
-Ready (ping: 40ms)
-```
-
 </details>
 
 <details>
@@ -126,6 +94,8 @@ After the device was created, you will get the notification with TemplateID and 
 
 <img src="https://user-images.githubusercontent.com/72824404/119501175-4adec680-bd71-11eb-804f-75438981169a.png" alt="AuthToken" data-size="original">
 
+
+
 Now you have all the information you need to update your sketch:
 
 </details>
@@ -143,8 +113,8 @@ Now you have all the information you need to update your sketch:
 #include &#x3C;BlynkSimpleEsp32.h>
 
 char auth[] = "••••••••••••••VoFvaUOH2U_sI";
-<strong>
-</strong><strong>void setup()
+
+<strong>void setup()
 </strong>{
   Serial.begin(115200);
   Blynk.begin(auth, "your_wifi-ssid", "your_wifi-pass");
