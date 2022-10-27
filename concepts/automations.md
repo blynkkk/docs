@@ -102,7 +102,7 @@ Choose a condition from one of the options below:
 
 * **Schedule** allows you to trigger an action based on the current date/time reaching a particular set of date/time values (all relative to a specified time zone).
 * **Sunrise/Sunset** triggers an action when the time before/after sunrise/sunset occurs according to a set of weekdays, at a specific geographic location.
-* **Device State** triggers an action based on the value of a [Datastream](../getting-started/template-quick-setup/set-up-datastreams.md).
+* **Device State** triggers an action based on the value of a Datastream. See [Configuring a Device State Condition](automations.md#configuring-a-device-state-condition) for more details.
 * **Scene** is a manual trigger of an Automation directly from the 'Automations' page in the Blynk.Console or Blynk.App.
 
 ### Actions
@@ -168,12 +168,12 @@ The automation Device State condition is set to ‘Is Any’ for datastream V20 
 Configuring a switch in the Blynk.Console web dashboard for datastream V20 will allow you to set V20 to on (value of 1), and after two seconds you will see the value changed back to a value of off (zero) by the automation. Click the switch on again and the automation will turn off the switch after two seconds.
 
 {% hint style="warning" %}
-IMPORTANT: If the Device State condition is set to ‘Is On’, then the automation will only execute once, unless the value of the datastream is changed manually with the dashboard switch, or by the hardware. See the next example ‘Is On’ Device State Condition Example.
+IMPORTANT: If the Device State condition is set to ‘Is On’, then the automation will only execute once, unless the value of the datastream is changed manually with the dashboard switch, or by the hardware. See the next example [‘Is On’ Device State Condition Example](automations.md#is-on-device-state-condition-example).
 {% endhint %}
 
 #### ‘Is On’ Device State Condition Example
 
-Configure a datastream, automation, and web dashboard as specified in the prior example ‘Is Any’ Device State Condition Example. Modify the device state condition, changing it from ‘Is Any’ to ‘Is On’.
+Configure a datastream, automation, and web dashboard as specified in the prior example [‘Is Any’ Device State Condition Example](automations.md#is-any-device-state-condition-example). Modify the device state condition, changing it from ‘Is Any’ to ‘Is On’.
 
 <figure><img src="../.gitbook/assets/automationison.png" alt=""><figcaption></figcaption></figure>
 
