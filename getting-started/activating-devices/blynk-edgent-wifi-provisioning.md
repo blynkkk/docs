@@ -93,8 +93,6 @@ Here is an example of how it works in the app:
 
 For debugging and troubleshooting check the serial monitor output. There you will see how the provisioning process is happening on the device.
 
-![ ](https://lh4.googleusercontent.com/P1WcVsuVbygCW8kSggfYwOKf55a1vVDk4KcCYevGbFPhFXGRI7r5s7\_B7z2qKCzfLZudWU0nj6NKPkLMBO1Zodc7X8a54z3M51VLHo65pEfFlP93mCKxgJjaa5maOAKWg6HPZ7zv)
-
 ## Re-provisioning new WiFi credentials
 
 If you’re having problems provisioning a device, or you’ve accidentally entered the wrong WiFi credentials, then press and hold the physical button (the one defined in Settings.h for your board type) for 10 seconds. This will clear the stored credentials and the LED will start flashing quickly and allow you to either repeat the provisioning process, or if the device has already been created in the app you can re-provision it.
