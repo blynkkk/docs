@@ -1,30 +1,32 @@
 # Device Activation Methods
 
-In order to become active in Blynk.Cloud and available for use, each device should have a unique AuthToken. AuthToken is the main identifier of the device in the Blynk Cloud. Depending on the hardware, connectivity, and the IoT use-case you are working on, a way of getting AuthTokens for your device can vary.
+For authentication Blynk, every device should have a unique AuthToken. AuthToken is the main identifier of every device in the Blynk Cloud. Depending on the hardware, connectivity, and the IoT use-case you are working on, a way of getting AuthTokens for your device can be different.
 
-With Blynk you can use three ways to activate devices: 
+With Blynk you can use three ways to activate devices:
 
 1. Manually create a device using Blynk.Console for initial prototyping
-2. Use Blynk.Inject for WiFi-enabled devices
+2. Use Blynk.Inject for WiFi-enabled devices.&#x20;
 3. Use Static Tokens for cellular, Ethernet, and other non-WiFi connection methods
 
 ### 1. Activating devices with manually generated AuthTokens
 
 This method is recommended for prototyping stages or when you build a device for yourself. It's the most simple method that works with any supported hardware and any connection type.
 
-On a high level, you manually create a new device and then place the generated AuthToken to your device.
+On a high level, you manually create a new device and then place the generated AuthToken to your device's firmware.
 
 The main difference from WiFi provisioning is that AuthToken should be manually generated and flashed to the device before it can be used.
 
 #### Here is a tutorial on how to activate devices manually:
 
-{% page-ref page="manual-device-activation.md" %}
+{% content-ref url="manual-device-activation.md" %}
+[manual-device-activation.md](manual-device-activation.md)
+{% endcontent-ref %}
 
-### 
+###
 
-### 2. WiFi provisioning using Blynk.Inject
+### 2. WiFi provisioning with Blynk.Inject
 
-For supported devices that can connect to the Internet over WiFi, you can use **WiFi provisioning** method which is built-in into Blynk.Apps. 
+For supported devices that can connect to the Internet over WiFi, you can use **WiFi provisioning** method which is built-in into Blynk.Apps.
 
 Using this method, Blynk.Apps, and Blynk.Edgent will take care of telling your devices how to connect to your home or office WiFi network. New AuthToken will be automatically generated and stored on the device. There is no need to specify WiFi credentials and Auth Token in the firmware code.
 
@@ -39,16 +41,18 @@ This method is especially beneficial for commercial applications because:
 
 #### Here is a tutorial on how to activate devices with Blynk.Inject:
 
-{% page-ref page="blynk-edgent-wifi-provisioning.md" %}
-
-
+{% content-ref url="blynk-edgent-wifi-provisioning.md" %}
+[blynk-edgent-wifi-provisioning.md](blynk-edgent-wifi-provisioning.md)
+{% endcontent-ref %}
 
 ### 3. Static Token Activation
 
-This method is usually used in commercial applications when you need to deploy a high volume of devices and they will need to be activated by end customers. 
+This method is usually used in commercial applications when you need to deploy a high volume of devices and they will need to be activated by end customers.
 
-This method works best with non-WiFi devices. 
+This method works best cellular, ethernet, and other non-wifi connection methods
 
 #### Here is a tutorial on how to activate devices with Static tokens:
 
-{% page-ref page="../../commercial-use/deploying-products-with-static-authtokens.md" %}
+{% content-ref url="../../commercial-use/deploying-products-with-static-authtokens.md" %}
+[deploying-products-with-static-authtokens.md](../../commercial-use/deploying-products-with-static-authtokens.md)
+{% endcontent-ref %}

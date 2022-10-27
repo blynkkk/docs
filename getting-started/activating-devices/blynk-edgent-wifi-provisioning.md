@@ -6,12 +6,12 @@ description: Sending WiFi credentials and and Auth Token to your device
 
 Remember going to a coffee shop and asking for the name and password for their WiFi network to connect your smartphone or laptop to? Familiar situation, right?
 
-Now imagine your ESP32 wants to connect to the Internet. It would also need the name and password of your home or office WiFi. Good for you, Blynk can do all the heavy work.
+Now imagine your ESP32 or other hardware wants to connect to the Internet. It would also need the wifi network name and password. Good news, Blynk can do it for you.
 
 A complete WiFi provisioning solution from Blynk includes both a firmware code and a mobile app UI to guide you through the WiFi setup. It's called **Blynk.Inject**
 
 {% hint style="info" %}
-Currently, WiFi provisioning with Blynk.Inject only works on ESP32, ESP8266, WiO Terminal by Seeed, Arduino MKR1010, Arduino Nano 33IoT, and Texas Instruments CC3220.
+Currently, WiFi provisioning with Blynk.Inject works on ESP32, ESP8266, WiO Terminal by Seeed, Arduino MKR1010, Arduino Nano 33IoT, and Texas Instruments CC3220.
 
 Raspberry Pi will be supported soon.
 {% endhint %}
@@ -26,20 +26,22 @@ You can skip this part as this is something you don't have to think about becaus
 4. WiFi information (SSID and password) will be sent to the device
 5. Also, Blynk app will request an Auth Token from the server and then send it to the device
 6. Your device will store all of these items in Flash/EEPROM memory
-7. After that, the device will automatically reboot. The AP mode will be turned off
+7. After that, the device will automatically reboot. The AP mode will be turned off.
 8. The device will use the WiFi credentials you provided to connect to your home or office WiFi network&#x20;
 9. After the successful authentication, the device is added to your account and is ready to use
 10. If you later need to connect this device to a different network, WiFi credentials can be changed using Blynk app, by resetting the device with a physical button (you would need to plan it into your electrical circuit design)
 
 Now let's make it work for your devices.
 
-{% hint style="info" %}
-To enhance the user experience it's recommended that you plan these things into your electrical design:&#x20;
+{% hint style="warning" %}
+To enhance the end-user experience it's highly recommended that you plan certain components into device's electrical design. **Especially if you are working on a commercial product!**
 
 1. Plan a physical button which will allow resetting the device to its default settings. E.g.: Holding this button for N seconds will erase the AuthToken and WiFi credentials.
 2. Plan an LED to indicate different statuses of device (AP, connected, etc.). It can be RGB or one-color LED.
 
 You can find [references to handling reset and statuses indication](https://docs.blynk.io/en/getting-started/template-quick-setup/prepare-code#defining-your-physical-button-and-led) in Blynk.Edgent examples&#x20;
+
+
 {% endhint %}
 
 ## Setting up your sketch to enable WiFi Provisioning
@@ -47,8 +49,10 @@ You can find [references to handling reset and statuses indication](https://docs
 1. Install Blynk Library in Arduino IDE (or download [the latest release](https://github.com/blynkkk/blynk-library/releases/latest) as a .zip file and install the library as a zip file)
 2. Open [Arduino IDE](https://www.arduino.cc/en/software)
 3. After that, you should see Blynk folder under the **File > Examples**
-4. ![](https://lh3.googleusercontent.com/WfHrWEDwJZ-mzHNcy1UVE1nwHDCAODrMkVehACEgsZYc4pS54L4o99Qel706TSEYPqUqNayc8Ur8pM6DCECYFH1hivgwC2O-KHSZgANz4yTkVV99JR-N4-8B2NDCoZXm3GlXm7eD)
-5. Select **Blynk.Edgent > Edgent\_ESP32**
+
+
+
+1. Select **Blynk.Edgent > Edgent\_ESP32**
 
 {% hint style="warning" %}
 In the sketch variables `BLYNK_TEMPLATE_ID` and `BLYNK_DEVICE_NAME` are empty. They should be filled in with the values from your template. Read below on where to find them.
@@ -56,9 +60,7 @@ In the sketch variables `BLYNK_TEMPLATE_ID` and `BLYNK_DEVICE_NAME` are empty. T
 
 1. Log in to your [Blynk.Console](https://blynk.cloud/) developer account &#x20;
 2. Go to Templates -> [Create New Template](../template-quick-setup/#create-a-template) or open an existing template &#x20;
-3.  Copy the Firmware Configuration code lines
-
-    ![](https://lh6.googleusercontent.com/x2ZHNOv1TA7jPkQtujqBWmn3\_mtQr5yxkgZ-0JZF7T7pIndKZHTu0glkkblS3sEd4XV1KAo0ZaljY3dm73AA8aKghwdALd7rKiELWm3v0xjoCJ1Li6wjzsoOP\_oCjMBysQ31QBNp)
+3. Copy the Firmware Configuration code lines
 4. Go back to your sketch and replace the configuration lines with what you copied.
 
 ![](../../.gitbook/assets/apr-07-2021-14-06-30.gif)
@@ -70,8 +72,6 @@ The device name + Chip ID should not exceed 32 characters for the provisioning p
 {% endhint %}
 
 Press the **Upload** button to flash the code to your device. If the upload process went successfully you should see the output in the serial monitor:
-
-![](https://lh6.googleusercontent.com/ke-UDlKRqfsgiak0aMEEHVbEU-cAmShbXLAMOS1LEd4\_Kd1tktKFw2SajHnWul\_b9jT3si85XchMheZlMWy931lPBKUvgw\_daFkiYuUVBfVQM9VKePbryxwbD9hvnH4t5lZ2AzFo)
 
 Now your device is ready to be activated using Blynk app.
 
