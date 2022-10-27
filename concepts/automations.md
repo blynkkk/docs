@@ -139,7 +139,27 @@ If the Automation has a Device State condition defined, then an option of 'LIMIT
 For the Automation scenario of: “When the temperature is higher than 40, send Email Notification" with a **limit period** of 1 hour”, if the temperature rises and exceeds 40 at 9:30 am, then no additional notifications will be sent until 1 hour later at 10:30 am. At 10:30 am, the limit period resets, permitting another notification to be sent at 11:30 am if the temperature continues to exceed 40.
 {% endhint %}
 
+### Configuring a Device State Condition
 
+The condition (When) option of ‘Device State’ triggers an action based on the value of a datastream.
+
+After selecting the ‘Device State’ option, you need to specify the device, then the datastream, and finally what type of datastream value change to monitor from the dropdown lists.
+
+<figure><img src="../.gitbook/assets/changetype.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+The options ‘Is On’ and ‘Is Off’ require that the datastream is set back to the default state after the automation is triggered in order for the automation to execute again. To avoid having to reset the device state use the 'Is Any' or 'Has Changed' option as in the example below.
+{% endhint %}
+
+#### ‘Is Any’ Device State Condition Example
+
+A integer type datastream V20 is configured as shown below.
+
+<figure><img src="../.gitbook/assets/isanyexample.png" alt=""><figcaption></figcaption></figure>
+
+An automation is created as shown below with the ‘LIMIT PERIOD’ set to ‘No Limit’.
+
+<figure><img src="../.gitbook/assets/limitperiod.png" alt=""><figcaption></figcaption></figure>
 
 ### 3. Automation Management
 
