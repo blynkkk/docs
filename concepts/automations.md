@@ -155,11 +155,35 @@ The options ‘Is On’ and ‘Is Off’ require that the datastream is set back
 
 A integer type datastream V20 is configured as shown below.
 
-<figure><img src="../.gitbook/assets/isanyexample.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/isanyexample (1).png" alt=""><figcaption></figcaption></figure>
 
 An automation is created as shown below with the ‘LIMIT PERIOD’ set to ‘No Limit’.
 
 <figure><img src="../.gitbook/assets/limitperiod.png" alt=""><figcaption></figcaption></figure>
+
+The automation Device State condition is set to ‘Is Any’ for datastream V20 ('Has Changed' could be used as well, with the exact same behavior). A two second timer is executed, and then the V20 datastream is set to off (value of zero).
+
+<figure><img src="../.gitbook/assets/automationisany.png" alt=""><figcaption></figcaption></figure>
+
+Configuring a switch in the Blynk.Console web dashboard for datastream V20 will allow you to set V20 to on (value of 1), and after two seconds you will see the value changed back to a value of off (zero) by the automation. Click the switch on again and the automation will turn off the switch after two seconds.
+
+{% hint style="warning" %}
+IMPORTANT: If the Device State condition is set to ‘Is On’, then the automation will only execute once, unless the value of the datastream is changed manually with the dashboard switch, or by the hardware. See the next example ‘Is On’ Device State Condition Example.
+{% endhint %}
+
+#### ‘Is On’ Device State Condition Example
+
+Configure a datastream, automation, and web dashboard as specified in the prior example ‘Is Any’ Device State Condition Example. Modify the device state condition, changing it from ‘Is Any’ to ‘Is On’.
+
+<figure><img src="../.gitbook/assets/automationison.png" alt=""><figcaption></figcaption></figure>
+
+When you click the web dashboard switch for V20 ‘on’, you will observe the switch turn off after two seconds by the automation. However, if you try it again, the switch will not be turned off (datastream set to a value of zero) by the automation. The automation will not execute again until the datastream is set back to the default state (a value of zero) by either manually clicking the web dashboard switch on/off, or by the IoT hardware.
+
+The described behavior is similar if a datastream with a default value of 1 is used with the ‘Is Off’ automation device state condition, but now the values 0 and 1 (off /on) are reversed.
+
+Consider carefully this automation behavior for ‘Is On’ and ‘Is Off’ when creating an automation.
+
+
 
 ### 3. Automation Management
 
