@@ -66,3 +66,5 @@ or
 ```
 {% endswagger-response %}
 {% endswagger %}
+
+You can also use Blynk.Edgent API to [send data with the same timestamp](https://docs.blynk.io/en/blynk.edgent-firmware-api/virtual-pins#blynk.begingroup-blynk.endgroup).

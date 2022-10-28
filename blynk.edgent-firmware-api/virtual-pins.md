@@ -1,8 +1,14 @@
+---
+description: Send and receive data from device
+---
+
 # Virtual Pins
 
-Virtual Pins is a way to exchange any data between your hardware and Blynk app. Think about Virtual Pins as channels for sending any data. Make sure you differentiate Virtual Pins from physical GPIO pins on your hardware. Virtual Pins have no physical representation.
+Virtual Pins is a way to exchange any data between your hardware and Blynk app. Think about Virtual Pins as channels for sending any data. Make sure you differentiate Virtual Pins from physical GPIO pins on your hardware. Virtual Pins have no physical representation.&#x20;
 
-Virtual Pins are commonly used to interface with other libraries (Servo, LCD and others) and implement custom logic. The device can send data to the App using `Blynk.virtualWrite(pin, value)` and receive data from the App using `BLYNK_WRITE(vPIN)`. Read below
+Virtual Pins are commonly used to interface with other libraries (Servo, LCD and others) and implement custom logic. The device can send data to the App using `Blynk.virtualWrite(pin, value)` and receive data from the App using `BLYNK_WRITE(vPIN)`.
+
+###
 
 ### Virtual Pin data types
 
@@ -24,6 +30,8 @@ You can also get the RAW data from the param buffer:
 param.getBuffer()
 param.getLength()
 ```
+
+##
 
 ## Blynk.virtualWrite(vPin, value)
 
@@ -59,6 +67,8 @@ Please use plain virtual pin number, for example:
 Blynk.virtualWrite(128, "abc");
 ```
 
+##
+
 ## BLYNK\_WRITE(vPIN)
 
 `BLYNK_WRITE` is a function called every time device gets an update of Virtual Pin value from the server (or app):
@@ -80,6 +90,8 @@ BLYNK_WRITE(V0)
 
 **Note:** For virtual pins with numbers > 127, please use `BLYNK_WRITE_DEFAULT()` API
 
+##
+
 ## BLYNK\_WRITE\_DEFAULT()
 
 Redefines the handler for all pins that are not covered by custom `BLYNK_WRITE` functions.
@@ -92,9 +104,11 @@ BLYNK_WRITE_DEFAULT()
 }
 ```
 
+##
+
 ## Blynk.beginGroup(), Blynk.endGroup()
 
-When `Blynk.virtualWrite()` is called, server stores the provided value along with a timestamp. Timestamp can be different for every data point. If you'd like to assign a single timestamp for a bunch of values, you should group them together:
+When `Blynk.virtualWrite()` is called, server stores the provided value along with a timestamp. If you make several consecutive commands, timestamps will be different for every datapoint. If you'd need to assign a single timestamp for a batch of values, you can group them together:
 
 ```cpp
 Blynk.beginGroup();
@@ -104,10 +118,10 @@ Blynk.virtualWrite(V10, 123);
 Blynk.endGroup();
 ```
 
-Using grouping will make it easier for Blynk to associate the reported data, and it will improve charts rendering and CSV reports.
+This approach can improve charts rendering and CSV reports when many datapoints should have similar timestamp
 
-`Blynk.beginGroup()` will determine the timestamp for the following commands.
-Alternatively, you can specify the timestamp explicitly:
+`Blynk.beginGroup()` will determine the timestamp for the commands that follow. Alternatively, you can specify the timestamp explicitly:
+
 ```cpp
 uint64_t ts = getCurrentUtcTime();
 Blynk.beginGroup(ts);
@@ -116,6 +130,8 @@ Blynk.endGroup();
 ```
 
 Here, `ts` is a Unix Timestamp (UTC) with milliseconds, which you can get from [Timezone / Location API](timezone-location.md).
+
+##
 
 ## Blynk.syncAll()
 
@@ -126,6 +142,8 @@ BLYNK_CONNECTED() {
     Blynk.syncAll();
 }
 ```
+
+##
 
 ## Blynk.syncVirtual(vPin)
 
@@ -140,6 +158,8 @@ To update multiple pins, use:
 ```
 Blynk.syncVirtual(V0, V1, V6, V9, V16);
 ```
+
+##
 
 ## Blynk.setProperty(vPin, "property", value)
 
