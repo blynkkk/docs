@@ -120,10 +120,9 @@ Blynk.endGroup();
 
 This approach can improve charts rendering and CSV reports when many datapoints should have similar timestamp
 
-`Blynk.beginGroup()` will determine the timestamp for the commands that follow. Alternatively, you can specify the timestamp explicitly:
-
+`Blynk.beginGroup()` will determine the timestamp for the commands that follow. Alternatively, you can specify the timestamp explicitly (using `ezTime` library here):
 ```cpp
-uint64_t ts = getCurrentUtcTime();
+uint64_t ts = (uint64_t)UTC.now() * 1000 + UTC.ms(LAST_READ);
 Blynk.beginGroup(ts);
 ...
 Blynk.endGroup();
