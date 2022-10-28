@@ -115,7 +115,7 @@ Blynk.beginGroup(ts);
 Blynk.endGroup();
 ```
 
-Here, `ts` is a Unix Timestamp (UTC) with milliseconds, which you can get from `Blynk Timezone / Location API`.
+Here, `ts` is a Unix Timestamp (UTC) with milliseconds, which you can get from [Timezone / Location API](timezone-location.md).
 
 ## Blynk.syncAll()
 
