@@ -151,6 +151,8 @@ After selecting the ‘Device State’ option, you need to specify the device, t
 The options ‘Is On’ and ‘Is Off’ require that the datastream is set back to the default state after the automation is triggered in order for the automation to execute again. To avoid having to reset the device state use the 'Is Any' or 'Has Changed' option as in the example below.
 {% endhint %}
 
+The ‘Is Any’ option detects an update to the value for the datastream (it can be the same as prior, or changed). The ‘Has changed’ option checks that the new datastream value has changed from the prior value.
+
 #### ‘Is Any’ Device State Condition Example
 
 A integer type datastream V20 is configured as shown below.
