@@ -92,6 +92,31 @@ BLYNK_WRITE_DEFAULT()
 }
 ```
 
+## Blynk.beginGroup(), Blynk.endGroup()
+
+When `Blynk.virtualWrite()` is called, server stores the provided value along with a timestamp. Timestamp can be different for every data point. If you'd like to assign a single timestamp for a bunch of values, you should group them together:
+
+```cpp
+Blynk.beginGroup();
+Blynk.virtualWrite(V1, "abc");
+...
+Blynk.virtualWrite(V10, 123);
+Blynk.endGroup();
+```
+
+Using grouping will make it easier for Blynk to associate the reported data, and it will improve charts rendering and CSV reports.
+
+`Blynk.beginGroup()` will determine the timestamp for the following commands.
+Alternatively, you can specify the timestamp explicitly:
+```cpp
+uint64_t ts = getCurrentUtcTime();
+Blynk.beginGroup(ts);
+...
+Blynk.endGroup();
+```
+
+Here, `ts` is a Unix Timestamp (UTC) with milliseconds, which you can get from `Blynk Timezone / Location API`.
+
 ## Blynk.syncAll()
 
 Requests all stored on the server latest values for all widgets. All analog/digital/virtual pin values and states will be set to the latest stored value. Every virtual pin will generate BLYNK\_WRITE() event.
