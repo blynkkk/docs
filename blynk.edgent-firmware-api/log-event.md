@@ -21,3 +21,10 @@ Blynk.logEvent("event_code");
 Blynk.logEvent("event_code", String("Temperature above threshold: ") + temp);
 ```
 
+## Resolve Events from device
+
+```cpp
+Blynk.resolveEvent("event_code");      // Resolve the latest reported event with the given code
+
+Blynk.resolveAllEvents("event_code");  // Resolve all reported events with the given code
+```
