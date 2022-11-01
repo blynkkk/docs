@@ -8,8 +8,6 @@ Unlike Datastreams, Metadata is not supposed to change very often. &#x20;
 
 ![](../../.gitbook/assets/metadata\_table.png)
 
-### Types of metadata in Blynk
-
 Metadata can be of different types. Choose the most relevant type for every characteristic.\
 For example, if you would need to associate Serial Number with every product, add the “Number” metadata field. Metadata is also used during device provisioning and configiration process. Staff, installing the equipment will be able to fill it in.
 
