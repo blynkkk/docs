@@ -28,10 +28,6 @@ Template also includes two dashboards:
 [template-quick-setup](../getting-started/template-quick-setup/)
 {% endcontent-ref %}
 
-{% content-ref url="device-template.md" %}
-[device-template.md](device-template.md)
-{% endcontent-ref %}
-
 {% content-ref url="../blynk.console/limits.md" %}
 [limits.md](../blynk.console/limits.md)
 {% endcontent-ref %}
