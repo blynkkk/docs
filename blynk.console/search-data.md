@@ -12,8 +12,6 @@ This is the first screen you see after signing into Blynk.Console Web Dashboard.
 
 ![](https://user-images.githubusercontent.com/72824404/120620602-ce7d6f00-c465-11eb-9ae7-437a9cf6f6fa.png)
 
-\*\*\*\*
-
 ## **Sidebar**
 
 * [Devices](devices/)
@@ -30,8 +28,6 @@ This is the first screen you see after signing into Blynk.Console Web Dashboard.
   * Organization members – view users of your organization only
   * **All** – view users of all organizations you have access to
   * With no devices – view users of all organizations (you have access to) with no devices assigned
-
-## \*\*\*\*
 
 ## **Main view**
 
