@@ -76,4 +76,3 @@ Now take a closer look at what was happening on the device:
 [quickstart-device-code-overview.md](quickstart-device-code-overview.md)
 {% endcontent-ref %}
 
-## \*\*\*\*
