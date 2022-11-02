@@ -1,5 +1,9 @@
 # Number Input
 
+{% hint style="warning" %}
+_**Note:**_ please remember that web and mobile app widgets are set up separately in the Web Dashboard and Mobile App Dashboard sections correspondingly. They can still use the same datastreams to access the same data (Map widget is an exception – a different codebase is used for Map on mobile and web).
+{% endhint %}
+
 The Number Input widget displays a numeric value and lets you increment or decrement the value using - and + buttons. The initial value is the datastream default value, and the range of values are defined by the datastream [min value](../templates/datastreams/datastreams-common-settings/min-value.md) and [max value](../templates/datastreams/datastreams-common-settings/max-value.md), and so is the unit.
 
 <figure><img src="../../.gitbook/assets/number_input.png" alt=""><figcaption></figcaption></figure>
