@@ -116,6 +116,7 @@
   * [Gauge](blynk.console/widgets-console/gauge.md)
   * [Chart](blynk.console/widgets-console/chart.md)
   * [Label](blynk.console/widgets-console/label.md)
+  * [Number Input](blynk.console/widgets-console/number-input.md)
   * [Image Gallery](blynk.console/widgets-console/image-gallery.md)
   * [Map](blynk.console/widgets-console/map.md)
   * [Terminal](blynk.console/widgets-console/terminal.md)
