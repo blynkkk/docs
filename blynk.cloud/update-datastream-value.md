@@ -103,3 +103,13 @@ or
 ```
 {% endswagger-response %}
 {% endswagger %}
+
+To update Datastreams that have 2 values, for example Location Datastream, use this call:&#x20;
+
+```
+token={token}&dataStreamId={id}&value=lon&value=lat
+```
+
+
+
+\&value=x\&value=y
