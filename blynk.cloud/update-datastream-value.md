@@ -107,9 +107,11 @@ or
 To update Datastreams that have 2 values, for example Location Datastream, use this call:&#x20;
 
 ```
-token={token}&dataStreamId={id}&value=lon&value=lat
+/external/api/update?token={token}&dataStreamId={id}&value=lon&value=lat
 ```
 
+or
 
-
-\&value=x\&value=y
+```
+/external/api/update?token={token}&pin=V1&value=lon&value=lat
+```
