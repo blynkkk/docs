@@ -1,16 +1,16 @@
 # Image Button
 
-Available only for PRO users.
+Available only to PRO and Business subscribers.
 
 {% hint style="warning" %}
 _**Note:**_ please remember that web and mobile app widgets are set up separately in the Web Dashboard and Mobile App Dashboard sections correspondingly. They can still use the same datastreams to access the same data (Map widget is an exception – a different codebase is used for Map on mobile and web).
 {% endhint %}
 
-The image button widget allows you to not only control your device by switching between two states (e.g. on/off) but also display any image making your dashboard more visually engaging.&#x20;
+The Image Button widget simulates a latching or momentary pushbutton, with the two states (e.g. on/off) represented by a custom image.&#x20;
+
+A latching pushbutton persists the state change after manual activation. A momentary pushbutton temporarily changes the state while being manually activated (pushed).
 
 For the button image, you need to provide http/s URL. The URL should be a valid endpoint to the binary data of the image. URL shortener will not work.
-
-The widget has two images representing on/off state.
 
 ![](../../.gitbook/assets/image-button-widget-newsletter.png)
 
@@ -20,25 +20,19 @@ The main use case for this widget is same as for on/off Switch widget but enrich
 
 ![Image Button SEttings](../../.gitbook/assets/image-button-widget-settings-documentation.png)
 
-#### Datastream
+**Title** - This is the label shown at the top of the widget. The default is the name assigned to the datastream.
 
-Only Integer Datastream can be used here.
+**Datastream** - only datastreams of data type integer may be assigned.
 
-#### Mode
+**MODE** - defines the type of control, simulating either a momentary pushbutton, or a latching pushbutton.
 
-The image button widget can operate in these modes:
+\- **Push** - Clicking the button and holding changes the widget state from ‘OFF’ to ‘ON’. Releasing the button will return the widget to its original state.
 
-* **Push**: on click (mouse down) - the button will be turned on, on release (mouse up) - the button will return to its original state
-* **Switch**: on click - the button will be turned on and the button will toggle between the on and off states with the next clicks
+\- **Switch** - Clicking the button will change the state between the options of ‘OFF’ and ‘ON’.
 
-#### Images
+**Images** - Assign a URL that links to an image accessible online to each of the two states of ‘OFF’ and ‘ON’. A shortened URL will not work.
 
-**Off Image** - for the minimum datastream value\
-**On Image** - for the maximum datastream value
-
-#### Display options
-
-As of now, the image button widget supports 2 display options:
+**IMAGES SCALING** - adjusts how the image will be scaled to fit the widget.
 
 * **Fit:** The image will be scaled to fit the height or width of the widget size
 * **Fill:** The image will be scaled to fill the widget area. Cropping may occur
@@ -69,15 +63,13 @@ BLYNK_WRITE(V1) {
 }
 ```
 
-### Set image URLs via setProperty function
+### Set image URLs via setProperty function **of** Blynk.Edgent Firmware API
 
-You can set **onImageUrl** via setProperty function:
+A connected IoT device can programmatically change the two image URLs by accessing the [properties for the widget](../../blynk.edgent-firmware-api/widget-properties.md).  Examples:
 
 ```
 Blynk.setProperty(V1, "onImageUrl", "https://host/static/icon.png");
 ```
-
-You can set **offImageUrl** via setProperty function:
 
 ```
 Blynk.setProperty(V1, "offImageUrl", "https://host/static/icon.png");
