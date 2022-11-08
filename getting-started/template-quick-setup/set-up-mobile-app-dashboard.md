@@ -43,7 +43,7 @@ There are currently 8 Device Tile presets with different interactions:
 
 **Android:** To choose the Device Tile preset, tap on the gear icon, choose ‘TILE TYPE’ and then choose from ‘Key Value’, ‘Button’,’Level’, ‘Color’, ‘Image’, ‘3 Labels’, or ‘Gauge’. Assign a ‘TILE TYPE’, ‘TILE DATASTREAM’, and then click on the ‘Tile Design’ option at the bottom of the screen to change the visual settings. Click on the ‘Settings’ gear icon at the bottom to vary the simulated datastream values so you can confirm the appearance settings you defined for the tile.
 
-**iOS:** To choose the Device Tile preset tap on the gear icon and after that on three dots in the top right corner. Tap Change tile type and you'll see the full list of options.
+**iOS:** To choose the Device Tile preset tap on the gear icon and after that on three dots in the top right corner. Tap Change tile type and you'll see the full list of tile type options.
 
 ![Choose tile design preset](https://user-images.githubusercontent.com/72790181/119505413-9a26f600-bd75-11eb-9a73-986f5ab3dce0.png)
 
