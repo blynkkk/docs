@@ -1,10 +1,10 @@
 # Mobile Dashboard Editor
 
-The primary function of Developer Mode in the mobile app is to build and edit the Mobile Dashboard User interface \(GUI\) for the given Device Template.
+The primary function of Developer Mode in the mobile app is to build and edit the Mobile Dashboard User interface (GUI) for the given Device Template.
 
-Mobile Dashboard is built from Widgets - modular UI elements which can be positioned on the canvas. Every Widget serves a special function \(a button, a slider, a chart, etc\). Every Widget has it's own settings based on its functionality
+Mobile Dashboard is built from Widgets - modular UI elements which can be positioned on the canvas. Every Widget serves a special function (a button, a slider, a chart, etc). Every Widget has it's own settings based on its functionality
 
-## **How to enable Developer Mode**
+### **How to enable Developer Mode**
 
 1. In the Blynk.Apps or in Blynk.Console
 2. Navigate to **My Profile** / **User profile** in the left menu
@@ -29,17 +29,13 @@ When there is a Device Template already, you can tap on it and start working wit
 3. Find the widget you need and tap on it
 4. Widget will placed in the first empty area required for this widget
 
-\*\*\*\*
-
-**Configure Widget**
+### **Configure Widget**
 
 To open Widget Settings simply tap on the widget. A new screen will open. Each widget has its own settings relevant to the function it provides.
 
 Check a particular widget documentation to learn more about their settings.
 
-\*\*\*\*
-
-**Resize Widgets**
+### **Resize Widgets**
 
 Right after the widget is placed on the canvas, you will see small green handlebars. They indicate in which direction the widget can be resized. Tap and hold the handlebar to resize the widget.
 
@@ -49,27 +45,26 @@ Each widget has its max height and width. You can't go over these limits.
 
 ### Move Widgets
 
-1. Tap and hold on the widget until it pops up a bit. 
+1. Tap and hold on the widget until it pops up a bit.&#x20;
 2. Drag it anywhere you need. Release the finger when done.
 
 If there is no room for the widget at the destination, it will return to the initial position.
 
 ### Duplicate Widgets
 
-1. Tap and hold any widget until it pops up a bit. 
-2. The header of the app will change and you will see the Duplucate icon. 
-3. Drag the widget to the Duplicate area untill its duplicated. 
+1. Tap and hold any widget until it pops up a bit.&#x20;
+2. The header of the app will change and you will see the Duplucate icon.&#x20;
+3. Drag the widget to the Duplicate area untill its duplicated.&#x20;
 4. Clone of the widget will be placed on the next available place. You might need to scroll down to see where it landed.
 
-**Delete Widget**
+### **Delete Widget**
 
-1. Tap and hold any widget until it pops up a bit. 
-2. The header of the app will change and you will see the ♺ icon. 
-3. Drag the widget to the recycle area and drop.  
+1. Tap and hold any widget until it pops up a bit.&#x20;
+2. The header of the app will change and you will see the ♺ icon.&#x20;
+3. Drag the widget to the recycle area and drop. &#x20;
 
 You can also delete the widget from the Widget Settings:
 
 1. Tap on the widget to open it's settings
 2. Scroll down until you see Delete Button.
 3. Tap Delete.
-
