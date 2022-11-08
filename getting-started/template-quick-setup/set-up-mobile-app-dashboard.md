@@ -31,7 +31,8 @@ There are currently 8 Device Tile presets with different interactions:
 
     \- **Template Icon** - the icon chosen here will be the default device icon.
 
-    \- **Value** - the display of the numerical value and units under the gauge may be enabled or disabled. Choose the color, alpha, or define custom colors for the value based on the datastream value.
+    \- **Value** - the display of the numerical value and units under the gauge may be enabled or disabled. Choose the color, alpha, or define custom colors for the value based on the datastream value.\
+    <img src="../../.gitbook/assets/gauge-tile-type-design-settings.png" alt="" data-size="original">
 
     &#x20;**** - **Label** - choose an icon (optional), and/or a label. A switch enables or disables the display of the label + icon above the gauge. The icon and label color may be customized.
 
