@@ -29,15 +29,15 @@ There are currently 8 Device Tile presets with different interactions:
 * **Image (default)** – shows device image or icon. Tap anywhere will open the device dashboard&#x20;
 *   **Gauge** - displays values of datastream of data type integer as a gauge with the datastream units. The visual options that may be set are:
 
-    &#x20;   **Template Icon** - the icon chosen here will be the default device icon.
+    \- **Template Icon** - the icon chosen here will be the default device icon.
 
-    &#x20;   **Value** - the display of the numerical value and units under the gauge may be enabled or disabled. Choose the color, alpha, or define custom colors for the value based on the datastream value.
+    \- **Value** - the display of the numerical value and units under the gauge may be enabled or disabled. Choose the color, alpha, or define custom colors for the value based on the datastream value.
 
-    &#x20;   **Label** - choose an icon (optional), and/or a label. A switch enables or disables the display of the label + icon above the gauge. The icon and label color may be customized.
+    &#x20;**** - **Label** - choose an icon (optional), and/or a label. A switch enables or disables the display of the label + icon above the gauge. The icon and label color may be customized.
 
-    &#x20;   **Gauge** - set the line width and gauge color. The gauge color can be solid and with a specific color and alpha, or choose ‘Ramp’ and to assign either a linear or step gradient with up to six colors and datastream values.
+    \- **Gauge** - set the line width and gauge color. The gauge color can be solid and with a specific color and alpha, or choose ‘Ramp’ and to assign either a linear or step gradient with up to six colors and datastream values.
 
-    &#x20;   **Indicator** - set the style (dot or tick), and the color of that indicator.
+    \- **Indicator** - set the style (dot or tick), and the color of that indicator.
 * **3 Labels** – you can display up to 3 important values plus a switch control
 * **2 Labels** – you can display up to 2 values, plus a switch control
 
