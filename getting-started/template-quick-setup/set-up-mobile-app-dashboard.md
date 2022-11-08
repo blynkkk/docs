@@ -20,16 +20,30 @@ Tap on the template you would like to work with. If you are new to Blynk and use
 
 You can choose how a device tile will look in the list of devices when added using this template.
 
-There are currently 6 Device Tile presets with different interactions:
+There are currently 8 Device Tile presets with different interactions:
 
-* **Key Value (default)** – shows Datastream value in real-time (e.g.: temperature, volume, percentage, etc.)
+* **Key Value** – shows Datastream value in real-time (e.g.: temperature, volume, percentage, etc.)
 * **Button** – tap on the Device Tile will trigger an action or toggle ON/OFF state. Tap on the name to open the device dashboard
 * **Level** – visualizes a certain level (brightness, power, etc.) based on selected Datastream value
 * **Color** – indicates color, brightness, etc., and can quickly turn the device ON/OFF. Tap on the name to open the device dashboard
-* **Image** – shows device image or icon. Tap anywhere will=/. open the device dashboard&#x20;
-* **3 Labels** – you can display up to 3 important values plus a switch control
+* **Image (default)** – shows device image or icon. Tap anywhere will open the device dashboard&#x20;
+*   **Gauge** - displays values of datastream of data type integer as a gauge with the datastream units. The visual options that may be set are:
 
-To choose the Device Tile preset tap on Gear Icon and after that on three dots in the top right corner. Tap Change tile type and you'll see the full list of options.
+    &#x20;   **Template Icon** - the icon chosen here will be the default device icon.
+
+    &#x20;   **Value** - the display of the numerical value and units under the gauge may be enabled or disabled. Choose the color, alpha, or define custom colors for the value based on the datastream value.
+
+    &#x20;   **Label** - choose an icon (optional), and/or a label. A switch enables or disables the display of the label + icon above the gauge. The icon and label color may be customized.
+
+    &#x20;   **Gauge** - set the line width and gauge color. The gauge color can be solid and with a specific color and alpha, or choose ‘Ramp’ and to assign either a linear or step gradient with up to six colors and datastream values.
+
+    &#x20;   **Indicator** - set the style (dot or tick), and the color of that indicator.
+* **3 Labels** – you can display up to 3 important values plus a switch control
+* **2 Labels** – you can display up to 2 values, plus a switch control
+
+**Android:** To choose the Device Tile preset, tap on the gear icon, choose ‘TILE TYPE’ and then choose from ‘Key Value’, ‘Button’,’Level’, ‘Color’, ‘Image’, ‘3 Labels’, or ‘Gauge’. Assign a ‘TILE TYPE’, ‘TILE DATASTREAM’, and then click on the ‘Tile Design’ option at the bottom of the screen to change the visual settings. Click on the ‘Settings’ gear icon at the bottom to vary the simulated datastream values so you can confirm the appearance settings you defined for the tile.
+
+**iOS:** To choose the Device Tile preset tap on the gear icon and after that on three dots in the top right corner. Tap Change tile type and you'll see the full list of options.
 
 ![Choose tile design preset](https://user-images.githubusercontent.com/72790181/119505413-9a26f600-bd75-11eb-9a73-986f5ab3dce0.png)
 
