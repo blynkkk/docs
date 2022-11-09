@@ -27,10 +27,10 @@ There are currently 8 Device Tile presets with different interactions:
 * **Level** – visualizes a certain level (brightness, power, etc.) based on selected Datastream value
 * **Color** – indicates color, brightness, etc., and can quickly turn the device ON/OFF. Tap on the name to open the device dashboard
 * **Image (default)** – shows device image or icon. Tap anywhere will open the device dashboard&#x20;
-*   **Gauge** - displays values of datastream of data type integer as a gauge with the datastream units. The visual options that may be set are:
+*   **Gauge** - displays values of datastream of data type integer as a gauge. The visual options that may be set are:
 
     * **Template Icon** - the icon chosen here will be the default device icon.
-    * **Value** - the display of the numerical value and units under the gauge may be enabled or disabled. Choose the color, alpha, or define custom colors for the value based on the datastream value.
+    * **Value** - the display of the numerical value under the gauge may be enabled or disabled. Choose the color, alpha, or define custom colors for the value based on the datastream value.
 
     <figure><img src="../../.gitbook/assets/gauge-tile-type-design-settings.png" alt=""><figcaption></figcaption></figure>
 
