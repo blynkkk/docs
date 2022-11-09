@@ -120,14 +120,14 @@ BLYNK_WRITE(V1) {
 
 ### Image Button
 
-Image widget allows you to display any image within your project. You need to provide http/s url to it. Url should be valid endpoint to the binary data of the image. Url shortener will not work.
+The image widget allows you to display any image within your project. You need to provide http/s url to it. Url should be a valid endpoint to the binary data of the image. The url shortener will not work.
 
 Right now image widget supports 2 display options:
 
-* **Fit**: Image will be scaled to fit height or width of the widget size;
-* **Fill**: Image will be scaled to fill widget area. Cropping may occur;
+* **Fit**: The image will be scaled to fit the height or width of the widget size;
+* **Fill**: The image will be scaled to fill the widget area. Cropping may occur;
 
-You can make image widget interactive by providing multiple links to different images with different states and change displayed image index from your hardware or via Eventor widget.
+You can make an image widget interactive by providing multiple links to different images with different states and change the displayed image index from your hardware.
 
 For example, select the first icon from the list :
 
@@ -155,7 +155,7 @@ also, you can fully replace the list of images from the hardware:
 Blynk.setProperty(V1, "urls", "https://image1.jpg", "https://image2.jpg");
 ```
 
-or you can change individual image by it index:
+or you can change the individual image by its index:
 
 ```
 Blynk.setProperty(V1, "url", 1, "https://image1.jpg");
@@ -163,15 +163,15 @@ Blynk.setProperty(V1, "url", 1, "https://image1.jpg");
 
 ### Slider
 
-Similar to potentiometer. Allows to send values between MIN and MAX.
+Similar to potentiometer. Allows sending values between MIN and MAX.
 
-You can change slider state from hardware side. For example, set slider value assigned to virtual pin V1 to 55 :
+You can change slider state from the hardware side. For example, set the slider value assigned to virtual pin V1 to 55 :
 
 ```
 Blynk.virtualWrite(V1, 55);
 ```
 
-You can change slider label from hardware with :
+You can change the slider label from hardware with :
 
 ```
 Blynk.setProperty(V1, "label", "My Slider Label");
@@ -186,15 +186,15 @@ Blynk.setProperty(V1, "color", "#D3435C");
 
 #### Fraction
 
-Defines how many digits after the point you would like to see when moving slider. When you have "No Fraction" that means slider will send only integer values without decimal point. "1 digit" means that values will look like 1.1, 1.2, ..., 2.0, etc.
+Defines how many digits after the point you would like to see when moving the slider. When you have "No Fraction" that means the slider will send only integer values without the decimal point. "1 digit" means that values will look like 1.1, 1.2, ..., 2.0, etc.
 
 #### Send On Release
 
-**Send On Release** is available for most controller widgets and allows you to decrease data traffic on your hardware. For example, when you move slider widget, commands are continuously streamed to the hardware, during a single slider move you can send dozens of commands. There are use-cases where it's needed, however creating such a load may cause hardware reset. We recommend enabling **Send On Release** feature for most of the cases, unless you really need instant feedback. This option is enabled by default.
+**Send On Release** is available for most controller widgets and allows you to decrease data traffic on your hardware. For example, when you move the slider widget, commands are continuously streamed to the hardware, during a single slider move you can send dozens of commands. There are use cases where it's needed, however creating such a load may cause hardware reset. We recommend enabling **Send On Release** feature for most of the cases, unless you really need instant feedback. This option is enabled by default.
 
 #### Write interval
 
-Similar to above option. However, allows you to stream values to your hardware within certain interval. For example, setting write interval to 100 ms - means, that while you move slider only 1 value will be send to hardware within 100 ms. This option also used to decrease data traffic on your hardware.
+Similar to the above option. However, allows you to stream values to your hardware within a certain intervals. For example, setting the write interval to 100 ms - means, that while you move the slider only 1 value will be sent to the hardware within 100 ms. This option is also used to decrease data traffic on your hardware.
 
 **Sketch:** [Basic Sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
 
@@ -204,15 +204,15 @@ Same as Slider. The only difference is it's vertical UI.
 
 ### Step Slider
 
-Slider with additional step control by buttons taps.
+Slider with additional step control by button taps.
 
-Tap + or - buttons to change the value with high precision (value amount per step is set by Product owner) or move the handle.
+Tap + or - buttons to change the value with high precision (the value amount per step is set by Product owner) or move the handle.
 
 ### Vertical Step Slider
 
-Same as Step Slider. The only difference is it's vertical UI.
+Same as Step Slider. The only difference is its vertical UI.
 
-Tap + or - buttons to change the value with high precision (value amount per step is set by Product owner) or move the handle.
+Tap + or - buttons to change the value with high precision (the value amount per step is set by Product owner) or move the handle.
 
 ### Joystick
 
@@ -222,7 +222,7 @@ Control servo movements in 4 directions.
 
 * **SPLIT**: Each of the parameters is sent directly to the Pin on your hardware (e.g D7). You don't need to write any code.
 
-**NOTE:** In this mode you send multiple commands from one widget, which can reduce performance of your hardware.
+**NOTE:** In this mode you send multiple commands from one widget, which can reduce the performance of your hardware.
 
 Example: If you have a Joystick Widget and it's set to D3 and D4, it will send 2 commands over the Internet:
 
@@ -231,7 +231,7 @@ digitalWrite(3, x);
 digitalWrite(4, y);
 ```
 
-* **MERGE**: When MERGE mode is selected, you are sending just 1 message, consisting of array of values. But you'll need to parse it on the hardware.
+* **MERGE**: When MERGE mode is selected, you are sending just 1 message, consisting of an array of values. But you'll need to parse it on the hardware.
 
 This mode can be used with Virtual Pins only.
 
@@ -248,15 +248,15 @@ BLYNK_WRITE(V1) // Joystick assigned to V1
 ```
 
 * **Rotate on Tilt** When it's ON, Joystick will automatically rotate if you use your smartphone in landscape orientation.
-* **Auto-Return** When it's OFF, Joystick handle will not return back to center position. It will stay where you left it.
+* **Auto-Return** When it's OFF, the Joystick handle will not return back to the center position. It will stay where you left it.
 
 #### Send On Release
 
-**Send On Release** is available for most controller widgets and allows you to decrease data traffic on your hardware. For example, when you move joystick widget, commands are continuously streamed to the hardware, during a single joystick move you can send dozens of commands. There are use-cases where it's needed, however creating such a load may cause hardware reset. We recommend enabling **Send On Release** feature for most of the cases, unless you really need instant feedback. This option is enabled by default.
+**Send On Release** is available for most controller widgets and allows you to decrease data traffic on your hardware. For example, when you move the joystick widget, commands are continuously streamed to the hardware, during a single joystick move you can send dozens of commands. There are use cases where it's needed, however creating such a load may cause hardware reset. We recommend enabling **Send On Release** feature for most of the cases, unless you really need instant feedback. This option is enabled by default.
 
 #### Write interval
 
-Similar to above option. However, allows you to stream values to your hardware within certain interval. For example, setting write interval to 100 ms - means, that while you move slider only 1 value will be send to hardware within 100 ms. This option also used to decrease data traffic on your hardware.
+Similar to the above option. However, allows you to stream values to your hardware within a certain intervals. For example, setting write interval to 100 ms - means, that while you move the slider only 1 value will be sent to the hardware within 100 ms. This option is also used to decrease data traffic on your hardware.
 
 **Sketch:** [JoystickTwoAxis](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/JoystickTwoAxis/JoystickTwoAxis.ino)
 
@@ -268,7 +268,7 @@ zeRGBa is usual RGB controller (color picker).
 
 * **SPLIT**: Each of the parameters is sent directly to the Pin on your hardware (e.g D7). You don't need to write any code.
 
-**NOTE:** In this mode you send multiple commands from one widget, which can reduce performance of your hardware.
+**NOTE:** In this mode you send multiple commands from one widget, which can reduce the performance of your hardware.
 
 Example: If you have a zeRGBa Widget and it's set to D1, D2, D3 it will send 3 commands over the Internet:
 
@@ -278,7 +278,7 @@ digitalWrite(2, g);
 digitalWrite(3, b);
 ```
 
-* **MERGE**: When MERGE mode is selected, you are sending just 1 message, consisting of array of values. But you'll need to parse it on the hardware.
+* **MERGE**: When MERGE mode is selected, you are sending just 1 message, consisting of an array of values. But you'll need to parse it on the hardware.
 
 This mode can be used with Virtual Pins only.
 
@@ -296,11 +296,11 @@ BLYNK_WRITE(V1) // zeRGBa assigned to V1
 }
 ```
 
-* **Send On Release** is available for most controller widgets and allows you to decrease data traffic on your hardware. For example, when you move joystick widget, commands are continuously streamed to the hardware, during a single joystick move you can send dozens of commands. There are use-cases where it's needed, however creating such a load may cause hardware reset. We recommend enabling **Send On Release** feature for most of the cases, unless you really need instant feedback. This option is enabled by default.
+* **Send On Release** is available for most controller widgets and allows you to decrease data traffic on your hardware. For example, when you move the joystick widget, commands are continuously streamed to the hardware, during a single joystick move you can send dozens of commands. There are use cases where it's needed, however creating such a load may cause hardware reset. We recommend enabling **Send On Release** feature for most of the cases, unless you really need instant feedback. This option is enabled by default.
 
 #### Write interval
 
-Similar to above option. However, allows you to stream values to your hardware within certain interval. For example, setting write interval to 100 ms - means, that while you move slider only 1 value will be send to hardware within 100 ms. This option also used to decrease data traffic on your hardware.
+Similar to the above option. However, allows you to stream values to your hardware within a certain interval. For example, setting write interval to 100 ms - means, that while you move the slider only 1 value will be sent to the hardware within 100 ms. This option is also used to decrease data traffic on your hardware.
 
 ### RGB Light Control
 
