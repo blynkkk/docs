@@ -50,6 +50,7 @@ These are limits that apply to a single device template:
 |                                    Templates                                    |  50  |  50  | 50  |
 |                    [Automations](../concepts/automations.md)                    |   5  |  25  | 50  |
 | [Actions](https://docs.blynk.io/en/concepts/automations#actions) per automation |   5  |  25  | 50  |
+|                         Automation push/emails per hour                         |  20  |  20  | 20  |
 |                                      Users                                      |   5  |  10  | 100 |
 |                                Sub-organizations                                |   0  |   0  | 200 |
 |                      Levels of sub-organizations hierarchy                      |   0  |   0  | 5   |
