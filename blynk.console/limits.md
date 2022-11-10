@@ -53,7 +53,7 @@ These are limits that apply to a single device template:
 |                         Automation push/emails per hour                         |  20  |  20  | 20  |
 |                                      Users                                      |   5  |  10  | 100 |
 |                                Sub-organizations                                |   0  |   0  | 200 |
-|                      Levels of sub-organizations hierarchy                      |   0  |   0  | 5   |
+|                      Levels of sub-organizations hierarchy                      |   0  |   0  | 4   |
 |                         Blynk.Air shipments (campaigns)                         |  25  |  25  | 25  |
 |                                    Locations                                    |  50  |  50  | 50  |
 |                                     Webhooks                                    |   1  |   5  | 20  |
