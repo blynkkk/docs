@@ -7,8 +7,8 @@ description: >-
 
 # Device Templates
 
-{% content-ref url="porducts-management.md" %}
-[porducts-management.md](porducts-management.md)
+{% content-ref url="working-with-templates.md" %}
+[working-with-templates.md](working-with-templates.md)
 {% endcontent-ref %}
 
 {% content-ref url="info/" %}

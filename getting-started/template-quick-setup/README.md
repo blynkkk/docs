@@ -17,7 +17,7 @@ While Device Template has a lot of settings, in this tutorial, we focus only on 
 You would need a development board (e.g. Node MCU, Arduino). A list of supported boards can be found [here](../../blynk.edgent-firmware-api/supported-boards.md).
 {% endhint %}
 
-Full documentation on all of the Template settings can be found [here](../../blynk.console/templates/porducts-management.md).
+Full documentation on all of the Template settings can be found [here](../../blynk.console/templates/working-with-templates.md).
 
 ## **1. Enable Developer Mode**
 

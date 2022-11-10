@@ -73,7 +73,7 @@
   * [User Profile](blynk.console/users/user-view.md)
   * [Device Owner View](blynk.console/users/device-owner-view.md)
 * [Device Templates](blynk.console/templates/README.md)
-  * [Working With Templates](blynk.console/templates/porducts-management.md)
+  * [Working With Templates](blynk.console/templates/working-with-templates.md)
   * [Info](blynk.console/templates/info/README.md)
     * [Offline Ignore Period](blynk.console/templates/info/offline-ignore-period.md)
     * [Manufacturer](blynk.console/templates/info/manufacturer.md)
