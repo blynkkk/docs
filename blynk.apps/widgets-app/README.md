@@ -120,47 +120,6 @@ BLYNK_WRITE(V1) {
 
 ### Image Button
 
-The image widget allows you to display any image within your project. You need to provide http/s url to it. Url should be a valid endpoint to the binary data of the image. The url shortener will not work.
-
-Right now image widget supports 2 display options:
-
-* **Fit**: The image will be scaled to fit the height or width of the widget size;
-* **Fill**: The image will be scaled to fill the widget area. Cropping may occur;
-
-You can make an image widget interactive by providing multiple links to different images with different states and change the displayed image index from your hardware.
-
-For example, select the first icon from the list :
-
-```
-Blynk.virtualWrite(V1, 1); //image indexing starts from 1
-```
-
-You can also change opacity, scale or rotation of the displayed the image :
-
-```
-Blynk.setProperty(V1, "opacity", 50); // 0-100%
-```
-
-```
-Blynk.setProperty(V1, "scale", 30); // 0-100%
-```
-
-```
-Blynk.setProperty(V1, "rotation", 10); //0-360 degrees
-```
-
-also, you can fully replace the list of images from the hardware:
-
-```
-Blynk.setProperty(V1, "urls", "https://image1.jpg", "https://image2.jpg");
-```
-
-or you can change the individual image by its index:
-
-```
-Blynk.setProperty(V1, "url", 1, "https://image1.jpg");
-```
-
 ### Slider
 
 Similar to potentiometer. Allows sending values between MIN and MAX.
@@ -871,6 +830,47 @@ Blynk.setProperty(V1, "url", "http://my_new_video_url");
 ### Level V
 
 ### Image Gallery
+
+The image gallery widget allows you to display any image within your project. You need to provide http/s url to it. Url should be a valid endpoint to the binary data of the image. The url shortener will not work.
+
+Right now image widget supports 2 display options:
+
+* **Fit**: The image will be scaled to fit the height or width of the widget size;
+* **Fill**: The image will be scaled to fill the widget area. Cropping may occur;
+
+You can make an image widget interactive by providing multiple links to different images with different states and change the displayed image index from your hardware.
+
+For example, select the first icon from the list :
+
+```
+Blynk.virtualWrite(V1, 1); //image indexing starts from 1
+```
+
+You can also change opacity, scale or rotation of the displayed the image :
+
+```
+Blynk.setProperty(V1, "opacity", 50); // 0-100%
+```
+
+```
+Blynk.setProperty(V1, "scale", 30); // 0-100%
+```
+
+```
+Blynk.setProperty(V1, "rotation", 10); //0-360 degrees
+```
+
+also, you can fully replace the list of images from the hardware:
+
+```
+Blynk.setProperty(V1, "urls", "https://image1.jpg", "https://image2.jpg");
+```
+
+or you can change the individual image by its index:
+
+```
+Blynk.setProperty(V1, "url", 1, "https://image1.jpg");
+```
 
 ### Gradient Ramp
 
