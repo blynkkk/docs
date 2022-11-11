@@ -32,7 +32,7 @@ if (temperature > 35)
 ```
 
 {% hint style="warning" %}
-Make sure you enabled [Timeline recording](https://docs.blynk.io/en/blynk.console/templates/events/general#show-event-on-the-timeline) in the Event Settings to see the result in the apps
+Make sure you enabled [Timeline recording](events-general-setting.md#show-event-on-the-timeline) in the Event Settings to see the result in the apps
 {% endhint %}
 
 
