@@ -49,6 +49,8 @@ HTTPS API for Log event testing:
 
 ### **Check your Device's Timeline:**
 
+<figure><img src="../../../../.gitbook/assets/content_events.png" alt=""><figcaption></figcaption></figure>
+
 **Web application**
 
 1. Navigate to the Device which token you've specified in the request,
