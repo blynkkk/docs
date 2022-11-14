@@ -36,6 +36,8 @@ Use this field to give more context about the event to the end-users. Content de
 
 When turned on, will show the event on the Timeline in mobile apps and in Blynk.Console:
 
+<figure><img src="../../../../.gitbook/assets/events (1).png" alt=""><figcaption></figcaption></figure>
+
 ### Apply a Tag
 
 With this feature you can automatically tag a device with a specified tag when Event is logged.&#x20;
