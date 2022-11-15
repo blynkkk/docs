@@ -78,19 +78,4 @@ __
 
 ### Notification management
 
-When enabled, this event will be available in for [Notification Management](../../../devices/notifications-settings.md#managing-notifications) by end-users
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-
-
-
-
-
-
-
-
-
-
+When enabled, this event will be available in for [Notification Management](../../../devices/notifications-settings.md#managing-notifications) by end-users.
