@@ -4,7 +4,7 @@ description: App settings
 
 # Settings
 
-![App settings](https://user-images.githubusercontent.com/72790181/119669193-87c5be80-be40-11eb-8dfd-5a77f29ed3fa.png)
+![App settings](<../../.gitbook/assets/App settings.png>)
 
 Tap Settings in the left sidebar.
 
