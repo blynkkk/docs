@@ -843,10 +843,10 @@ You can make an image widget interactive by providing multiple links to differen
 For example, select the first icon from the list :
 
 ```
-Blynk.virtualWrite(V1, 1); //image indexing starts from 1
+Blynk.virtualWrite(V1, 0); //image indexing starts from 0
 ```
 
-You can also change opacity, scale or rotation of the displayed the image :
+You can also change the opacity, scale, or rotation of the displayed image :
 
 ```
 Blynk.setProperty(V1, "opacity", 50); // 0-100%
@@ -869,7 +869,7 @@ Blynk.setProperty(V1, "urls", "https://image1.jpg", "https://image2.jpg");
 or you can change the individual image by its index:
 
 ```
-Blynk.setProperty(V1, "url", 1, "https://image1.jpg");
+Blynk.setProperty(V1, "url", 0, "https://image1.jpg");
 ```
 
 ### Gradient Ramp
@@ -880,24 +880,24 @@ Blynk.setProperty(V1, "url", 1, "https://image1.jpg");
 
 ### Tabs
 
-The only purpose of Tabs widget is to extend your project space. In order to edit tabs widget - just tap on the selected tab. You can drag widgets between tabs. Only the last tab can be removed: to remove it swipe left on its name in Settings screen.
+The only purpose of the Tabs widget is to extend your project space. In order to edit the tabs widget - just tap on the selected tab. You can drag widgets between tabs. Only the last tab can be removed: to remove it swipe left on its name in the Settings screen.
 
 The maximum number of tabs on iOS is 4 The maximum number of tabs on Android is 10
 
 ### Menu
 
-Menu widget allows you to send command to your hardware based on selection you made on UI. Menu sends index of element you selected and not label string. Sending index is starts from 1. It works same way as usual ComboBox element.
+The menu widget allows you to send commands to your hardware based on the selection you made on UI. The menu sends the index of the element you selected and not the label string. Sending index starts from 0. It works the same way as the usual ComboBox element.
 
 Example code:
 
 ```
 BLYNK_WRITE {
   switch (param.asInt()) {
-    case 1: { // Item 1
+    case 0: { // Item 1
       Serial.println("Item 1 selected");
       break;
     }
-    case 2: { // Item 2
+    case 1: { // Item 2
       Serial.println("Item 2 selected");
       break;
     }    
@@ -915,7 +915,7 @@ Blynk.setProperty(V1, "labels", "label 1", "label 2", "label 3");
 
 ### Map
 
-Map widget allows you set points/pins on map from hardware side. This is very useful widget in case you have multiple devices and you want track their values on map.
+The map widget allows you to set points/pins on the map from the hardware side. This is a very useful widget in case you have multiple devices and you want to track their values on a map.
 
 You can send a point to map with regular virtual write command :
 
@@ -950,18 +950,18 @@ Numeric Input displays and lets you directly alter a number value. Similar to th
 
 ### Segmented Switch
 
-Segmented Switch widget allows you to send command to your hardware based on selection you made on UI. Segmented Switch sends index of element you selected and not label string. Sending index starts from 1. It works same way as usual ComboBox or Menu element.
+The Segmented Switch widget allows you to send commands to your hardware based on the selection you made on UI. Segmented Switch sends the index of the element you selected and not the label string. Sending index starts from 0. It works the same way as the usual ComboBox or Menu element.
 
 Example code:
 
 ```
 BLYNK_WRITE {
   switch (param.asInt()) {
-    case 1: { // Item 1
+    case 0: { // Item 1
       Serial.println("Item 1 selected");
       break;
     }
-    case 2: { // Item 2
+    case 1: { // Item 2
       Serial.println("Item 2 selected");
       break;
     }    
@@ -969,7 +969,7 @@ BLYNK_WRITE {
 }
 ```
 
-You can also set Menu items from hardware side with :
+You can also set Menu items from the hardware side with :
 
 ```
 Blynk.setProperty(V1, "labels", "label 1", "label 2", "label 3");
