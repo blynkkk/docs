@@ -95,7 +95,6 @@
       * [Invalidate Value](blynk.console/templates/datastreams/datastreams-common-settings/invalidate-value.md)
       * [Wait for confirmation from device](blynk.console/templates/datastreams/datastreams-common-settings/wait-for-confirmation-from-device.md)
       * [Sync with latest server value every time device connects to the cloud](blynk.console/templates/datastreams/datastreams-common-settings/sync-with-latest-server-value-every-time-device-connects-to-the-cloud.md)
-      * [Expose to Automation](blynk.console/templates/datastreams/datastreams-common-settings/automation.md)
       * [Expose to Voice Assistants](blynk.console/templates/datastreams/datastreams-common-settings/expose-to-voice-assistants.md)
     * [Virtual Pin](blynk.console/templates/datastreams/virtual-pin.md)
     * [Location](blynk.console/templates/datastreams/location.md)
