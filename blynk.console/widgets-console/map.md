@@ -1,18 +1,18 @@
 # Map
 
-Available only for PLUS and PRO users
+Available to PLUS and higher subscribers.
 
 {% hint style="warning" %}
 _**Note:**_ please remember that web and mobile app widgets are set up separately in the Web Dashboard and Mobile App Dashboard sections correspondingly. They can still use the same datastreams to access the same data (Map widget is an exception – a different codebase is used for Map on mobile and web).
 {% endhint %}
 
-This widget displays device locations/route and data sets (predefined by Template owner) that are assigned to GPS data:
-
-* Current or latest known location of the device&#x20;
-* GPS track (historical position of the device)
-* Overlays: various data related to the time and location of the device. E.g. speed of the device at a particular point of the track.
+This widget displays GPS position data, and optionally additional synchronized datastream data on a map as a callout or/and a track overlay. The displayed time period, zoom, map style, and track overlay (when enabled) can be configured by the user. Only one map widget can be added per device template.
 
 ![Map widget example](https://user-images.githubusercontent.com/72824404/120771180-9d657300-c527-11eb-9e4c-b06c794752d1.png)
+
+Callouts can be configured to display additional datastream values posted at the same time as the GPS data.
+
+
 
 1. Specify the time period if it's needed (top center of the widget):
    1. select the day: click arrows to switch to previous/next day or click on the day to open date picker, search and click on the date you want;
@@ -34,7 +34,7 @@ Location real time update is not implemented yet. Refresh the page to see the la
 
 ### Map Settings
 
-![](../../.gitbook/assets/map-track.png)
+<figure><img src="../../.gitbook/assets/map-widget-map-and-GPS-track-settings.png" alt=""><figcaption></figcaption></figure>
 
 * **Show location track** – enable it to view the whole route. Otherwise only track points and direction will be displayed. **Color** and **line thickness pickers** are available for the Track.
 * **Disconnect track points period** – enable it in case you need to split the track if timestamp delta between 2 points is higher than specified value.
