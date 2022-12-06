@@ -12,6 +12,40 @@ This widget displays GPS position data, and optionally additional synchronized d
 
 Callouts can be configured to display additional datastream values posted at the same time as the GPS data.
 
+Track overlays allow datastream values that approximately correspond to the location datastream timestamp to be visualized on the GPS track. E.g. speed of the device along the track.
+
+Note that the GPS track points are assigned to a datastream by an IoT device or HTTPS API.  The current position of the IoT device derived from the IP address is also available, but is generally treated separately from the map widget.
+
+Before creating a map widget, you need to create a Location Datastream, and in order to visualize the data you will need to write location values to the datastream.
+
+#### Create Location Datastream
+
+The map widget requires the use of a Location Datastream. Create a location datastream by editing a template, select ‘Datastreams’ tab, click on ‘+ New Datastream’, and select the option ‘Location’. Max one location datastream per template.
+
+Assign a virtual pin to the location datastream, and a default longitude and latitude positions in [decimal degrees](https://en.wikipedia.org/wiki/Decimal\_degrees) under ‘DEFAULT COORDINATES (LON/LAT)’.  The advanced setting ‘Show in Service Charts’ will make this DS available in the list of datastreams in Custom chart (which is often used as a service chart).
+
+#### Write Values To Location Datastream
+
+{% hint style="warning" %}
+Currently the code behind the Blynk.App (mobile) map widget supports both an old and new API format. It is recommended you do not use the old format of Blynk.virtualWrite (pin, index, lat, lon, label).&#x20;
+
+Use the new format of Blynk.virtualWrite (pin, lon, lat) and/or the HTTPS API to ensure your system is compatible with both the Blynk.App and Blynk.Console map widgets, and conforms to the unification of the code in the future.
+{% endhint %}
+
+After the location datastream is created, a pair of GPS longitude/latitude values need to be written to the location datastream from either an IoT device, or via HTTPS API.
+
+```
+Blynk.virtualWrite(V5, longitude, latitude);
+
+https://{server_address}/external/api/batch/update?token={token}&V5=longtitude&V5=latitude
+```
+
+In order to include datastream value for Callout and/or Track Overlays, you should use the HTTPS API request. This will fulfill the callout and track overlay requirement that all datastream values have the same timestamp.
+
+```
+https://{server_address}/external/api/batch/update?token={token}&V5=longtitude&V5=latitude&V14=100.0&V3=23.1
+```
+
 
 
 1. Specify the time period if it's needed (top center of the widget):
@@ -33,6 +67,8 @@ Location real time update is not implemented yet. Refresh the page to see the la
 {% endhint %}
 
 ### Map Settings
+
+The map widget settings has four tabs labeled ‘Map and GPS track’, ‘Callout’, ‘Track Overlays’, and ‘Misc’. Begin by selecting the ‘Map and GPS track’ tab and assigning / creating a location datastream.
 
 #### Map and GPS track
 
