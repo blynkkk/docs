@@ -262,7 +262,7 @@ When the Template is ready, go to Search -> Devices - **Create new device**
 
 Choose a Template and give your new device a name
 
-![](<../../.gitbook/assets/image (18).png>)
+![](<../../.gitbook/assets/image (18) (1).png>)
 
 
 

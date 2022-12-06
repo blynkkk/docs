@@ -18,7 +18,7 @@ We've prepared a quick and easy way to connect your first device. Whether you ar
 {% hint style="info" %}
 If you skipped **Quickstart** on the first app launch, you can always find it in the Blynk.Console side menu, under Help section or in Blynk App:&#x20;
 
-![](<../../.gitbook/assets/image (43).png>)    ![](../../.gitbook/assets/IMG\_FD770D9E9E60-1.jpeg)
+![](<../../.gitbook/assets/image (18).png>)   ![](../../.gitbook/assets/IMG\_FD770D9E9E60-1.jpeg)
 {% endhint %}
 
 
