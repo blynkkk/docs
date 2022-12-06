@@ -10,7 +10,7 @@ Here is what happened during the Quickstart flow:
 
 1. We automatically created a Quickstart Template for you.
 2. Using this Quickstart Template, we then created a Quickstart Device.
-3. For this device, we generated the sketch with all the needed parameters.
+3. For this device, we generated the sketch with all the parameters including [Auth Token](../activating-devices/manual-device-activation.md#step-3-getting-auth-token).
 4. You uploaded the sketch to your board and it used the parameters to connect to Blynk.Cloud and to become visible in the apps.&#x20;
 
 ### What is a Device Template?
