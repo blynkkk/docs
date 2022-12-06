@@ -60,11 +60,13 @@ Callout is used to view specified Datastreams' value that was actual at the plac
 * **Move** – hover on the previosly added Datastream panel for action buttons to appear. Hold Move button and change the position of Callout Value, release mouse button, repeat with other panels once you find it fine.
 * **Delete** – hover on the previosly added Datastream panel for action buttons to appear. Click Delete button (no confirmation is applied here)
 
-### Track Overlays
+#### Track Overlays
 
 <figure><img src="../../.gitbook/assets/map-widget-overlay-settings.png" alt=""><figcaption></figcaption></figure>
 
-### Misc
+#### Misc
+
+![](<../../.gitbook/assets/map\_widget\_settings (5) (4) (1) (1) (1) (1) (1).gif>)
 
 Here you can set up Device's **actual track point design**.
 
@@ -77,9 +79,7 @@ Select one of 4 track point styles:
 
 Select Datastream that contains course information in degrees (e.g. it gets it from Device's compass) so the track point can **show course direction** (this feature is supported by Course and Truck point styles)
 
-![](<../../.gitbook/assets/map\_widget\_settings (5) (4) (1) (1) (1) (1) (1).gif>)
-
-## Insert the data
+### Insert the data
 
 {% hint style="warning" %}
 Web and apps Map widgets use different codebases now that will be unified in the future.
