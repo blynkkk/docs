@@ -60,20 +60,6 @@ Blynk.begin(auth, "wifi-ssid", "wifi-pass");
 
 <img src="https://user-images.githubusercontent.com/72824404/119491140-4234c300-bd66-11eb-80f4-324f2d06bfa0.png" alt="Template ID" data-size="original">
 
-### Getting Auth Token
-
-When the Template is ready, go to Search -> Devices - **Create New Device**
-
-<img src="https://user-images.githubusercontent.com/72824404/119494118-9db48000-bd69-11eb-952c-297c0b7627f8.png" alt="" data-size="original">
-
-Choose a Template and give your new device a name
-
-<img src="https://user-images.githubusercontent.com/72824404/119496316-0c92d880-bd6c-11eb-9276-9ce033ef38c2.png" alt="" data-size="original">
-
-After the device was created, you will get the notification with TemplateID and AuthToken. Also, this info is always available in Device View -> Device Info
-
-<img src="https://user-images.githubusercontent.com/72824404/119501175-4adec680-bd71-11eb-804f-75438981169a.png" alt="AuthToken" data-size="original">
-
 </details>
 
 <details>
@@ -123,7 +109,8 @@ char auth[] = "••••••••••••••VoFvaUOH2U_sI";
 void loop()
 {
   Blynk.run();
-}</code></pre>
+}
+</code></pre>
 
 Upload the sketch to your device and open Serial Monitor. Wait until you see something like this:
 
