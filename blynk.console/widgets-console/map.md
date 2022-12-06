@@ -34,6 +34,8 @@ Location real time update is not implemented yet. Refresh the page to see the la
 
 ### Map Settings
 
+#### Map and GPS track
+
 <figure><img src="../../.gitbook/assets/map-widget-map-and-GPS-track-settings.png" alt=""><figcaption></figcaption></figure>
 
 * **Show location track** – enable it to view the whole route. Otherwise only track points and direction will be displayed. **Color** and **line thickness pickers** are available for the Track.
@@ -48,9 +50,9 @@ Location real time update is not implemented yet. Refresh the page to see the la
   * Satellite+Streets
   * Blynk Light
 
-### Callout
+#### Callout
 
-![](../../.gitbook/assets/callout.png)
+<figure><img src="../../.gitbook/assets/map-widget-callout-settings.png" alt=""><figcaption></figcaption></figure>
 
 Callout is used to view specified Datastreams' value that was actual at the place and time selected by user in Map Widget.
 
@@ -59,6 +61,8 @@ Callout is used to view specified Datastreams' value that was actual at the plac
 * **Delete** – hover on the previosly added Datastream panel for action buttons to appear. Click Delete button (no confirmation is applied here)
 
 ### Track Overlays
+
+<figure><img src="../../.gitbook/assets/map-widget-overlay-settings.png" alt=""><figcaption></figcaption></figure>
 
 ### Misc
 
