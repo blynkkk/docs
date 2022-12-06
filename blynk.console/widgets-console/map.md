@@ -6,15 +6,19 @@ Available to PLUS and higher subscribers.
 _**Note:**_ please remember that web and mobile app widgets are set up separately in the Web Dashboard and Mobile App Dashboard sections correspondingly. They can still use the same datastreams to access the same data (Map widget is an exception – a different codebase is used for Map on mobile and web).
 {% endhint %}
 
-This widget displays GPS position data, and optionally additional synchronized datastream data on a map as a callout or/and a track overlay. The displayed time period, zoom, map style, and track overlay (when enabled) can be configured by the user. Only one map widget can be added per device template.
+This widget displays GPS position data, and optionally additional synchronized datastream data on a map as a callout or/and a track overlay.&#x20;
+
+The displayed time period, zoom, map style, and track overlay (when enabled) can be configured by the user. Only one map widget can be added per device template.
 
 <figure><img src="../../.gitbook/assets/map-widget.png" alt=""><figcaption></figcaption></figure>
 
-Callouts can be configured to display additional datastream values posted at the same time as the GPS data.
+**Callouts** can be configured to display additional datastream values posted at the same time as the GPS data.
 
-Track overlays allow datastream values that approximately correspond to the location datastream timestamp to be visualized on the GPS track. E.g. speed of the device along the track.
+**Track overlays** allow datastream values that approximately correspond to the location datastream timestamp to be visualized on the GPS track. E.g. speed of the device along the track.
 
+{% hint style="info" %}
 Note that the GPS track points are assigned to a datastream by an IoT device or HTTPS API.  The current position of the IoT device derived from the IP address is also available, but is generally treated separately from the map widget.
+{% endhint %}
 
 Before creating a map widget, you need to create a Location Datastream, and in order to visualize the data you will need to write location values to the datastream.
 
@@ -22,7 +26,7 @@ Before creating a map widget, you need to create a Location Datastream, and in o
 
 The map widget requires the use of a Location Datastream. Create a location datastream by editing a template, select ‘Datastreams’ tab, click on ‘+ New Datastream’, and select the option ‘Location’. Max one location datastream per template.
 
-Assign a virtual pin to the location datastream, and a default longitude and latitude positions in [decimal degrees](https://en.wikipedia.org/wiki/Decimal\_degrees) under ‘DEFAULT COORDINATES (LON/LAT)’.  The advanced setting ‘Show in Service Charts’ will make this DS available in the list of datastreams in Custom chart (which is often used as a service chart).
+Assign a virtual pin to the location datastream, and a default longitude and latitude positions in [decimal degrees](https://en.wikipedia.org/wiki/Decimal\_degrees) under ‘DEFAULT COORDINATES (LON/LAT)’. The advanced setting ‘Show in Service Charts’ will make this DS available in the list of datastreams in Custom chart (which is often used as a service chart).
 
 #### Write Values To Location Datastream
 
