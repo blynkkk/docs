@@ -8,7 +8,7 @@ _**Note:**_ please remember that web and mobile app widgets are set up separatel
 
 This widget displays GPS position data, and optionally additional synchronized datastream data on a map as a callout or/and a track overlay. The displayed time period, zoom, map style, and track overlay (when enabled) can be configured by the user. Only one map widget can be added per device template.
 
-![Map widget example](https://user-images.githubusercontent.com/72824404/120771180-9d657300-c527-11eb-9e4c-b06c794752d1.png)
+<figure><img src="../../.gitbook/assets/map-widget.png" alt=""><figcaption></figcaption></figure>
 
 Callouts can be configured to display additional datastream values posted at the same time as the GPS data.
 
@@ -46,21 +46,9 @@ In order to include datastream value for Callout and/or Track Overlays, you shou
 https://{server_address}/external/api/batch/update?token={token}&V5=longtitude&V5=latitude&V14=100.0&V3=23.1
 ```
 
-
-
-1. Specify the time period if it's needed (top center of the widget):
-   1. select the day: click arrows to switch to previous/next day or click on the day to open date picker, search and click on the date you want;
-   2. set day time period: click the field containing time data to open time picker, set hh:mm for both start and end of the period;&#x20;
-2. Change track overlay by selecting available in top right dropdown menu. It's used for values/statuses differences visualization that can be checked in track overlays legend (bottom right)
-3. Navigate to the point you want to check:
-   1. use scale management buttons at top left of the widget;
-   2. move the map by moving the mouse with left mouse button hold;
-   3. click the point or area (nearest point data will be displayed);
-
-![Scale management buttons](../../.gitbook/assets/map\_nav\_but.gif)
-
-Now you can see all the data that was actual while the device was on the selected location.\
-It always starts with Date and Time in the first line, Location Longitude and Latitude in second line and all other data in further lines.
+{% hint style="danger" %}
+Please pay attention to the order of the coordinates. Longitude should always go first.
+{% endhint %}
 
 {% hint style="warning" %}
 Location real time update is not implemented yet. Refresh the page to see the latest location.
@@ -74,23 +62,17 @@ The map widget settings has four tabs labeled ‘Map and GPS track’, ‘Callou
 
 <figure><img src="../../.gitbook/assets/map-widget-map-and-GPS-track-settings.png" alt=""><figcaption></figcaption></figure>
 
-* **Show location track** – enable it to view the whole route. Otherwise only track points and direction will be displayed. **Color** and **line thickness pickers** are available for the Track.
-* **Disconnect track points period** – enable it in case you need to split the track if timestamp delta between 2 points is higher than specified value.
-* **Show direction** – enabling this option will show the arrows on the Track to ease the understanding of it's direction.
-* Map Style – select the one you find the best for your purposes. 7 styles are available now:
-  * Streets
-  * Outdoors
-  * Light
-  * Dark
-  * Satellite
-  * Satellite+Streets
-  * Blynk Light
+**Show location track** - Turns on/off the display of the track.  When enabled, you may choose a color and thickness for the track.&#x20;
+
+**Disconnect track points period** - when enabled, two sequential points with a delta higher than the specified threshold will not be connected.&#x20;
+
+**Show direction** - when enabled it will add a directional arrow to the track.
 
 #### Callout
 
-<figure><img src="../../.gitbook/assets/map-widget-callout-settings.png" alt=""><figcaption></figcaption></figure>
+The Callout tab allows you to optionally configure additional datastream values to be displayed when a particular set of GPS coordinates are viewed. The datastream must have the advanced settings option ‘Save raw data’ enabled, and the same timestamp as the location datastream.
 
-Callout is used to view specified Datastreams' value that was actual at the place and time selected by user in Map Widget.
+<figure><img src="../../.gitbook/assets/map-widget-callout-settings.png" alt=""><figcaption></figcaption></figure>
 
 * **Add Value** – click this button to search and select for any Datastream you want to show in Callout window.
 * **Move** – hover on the previosly added Datastream panel for action buttons to appear. Hold Move button and change the position of Callout Value, release mouse button, repeat with other panels once you find it fine.
@@ -98,47 +80,20 @@ Callout is used to view specified Datastreams' value that was actual at the plac
 
 #### Track Overlays
 
+The Track Overlays tab optionally configures additional datastreams to be visualized on the GPS track. Click the ‘+ Add Value’ button to add a datastream.
+
+The datastream must have the advanced settings option ‘Save raw data’ enabled, and the same timestamp as the location datastream.
+
 <figure><img src="../../.gitbook/assets/map-widget-overlay-settings.png" alt=""><figcaption></figcaption></figure>
 
 #### Misc
 
+The Misc tab allows you to configure the track termination point style, and optionally the track course direction.
+
 ![](<../../.gitbook/assets/map\_widget\_settings (5) (4) (1) (1) (1) (1) (1).gif>)
 
-Here you can set up Device's **actual track point design**.
+**STYLE: POINT** - choose the track termination style from the options of: Point, Course, Truck, and Device name.
 
-Select one of 4 track point styles:
+**Choose Datastream** - select a datastream that contains course information in degrees (e.g. device compass data) in order to show the course direction with the Course and Truck track point styles.
 
-* Point
-* Course
-* Truck
-* Device name
-
-Select Datastream that contains course information in degrees (e.g. it gets it from Device's compass) so the track point can **show course direction** (this feature is supported by Course and Truck point styles)
-
-### Insert the data
-
-{% hint style="warning" %}
-Web and apps Map widgets use different codebases now that will be unified in the future.
-{% endhint %}
-
-Let's say we have the Location Datastream assigned to the Virtual Pin 5. For the map you can update the data from the hardware:
-
-```
-Blynk.virtualWrite(V5, longtitude, latitude);
-```
-
-Also, you can insert the data via HTTPS API:
-
-```
-https://{server_address}/external/api/update?token={token}&V5=longtitude&V5=latitude
-```
-
-You can also send multiple datastreams within the same request. In that case these datastreams would be displayed in the callout with the same timestamp:
-
-```
-https://{server_address}/external/api/batch/update?token={token}&V5=longtitude&V5=latitude&V6={somevalue}
-```
-
-{% hint style="danger" %}
-Please pay attention to the order of the coordinates. Longitude should always go first.
-{% endhint %}
+**Use global time range selector** - when enabled, the global time range setting will constrain the range of data displayed.
