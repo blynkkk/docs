@@ -4,17 +4,14 @@ description: How to install Blynk.Edgent on popular IDEs
 
 # Installation
 
-## Installation
+{% content-ref url="what-do-i-need-to-blynk.md" %}
+[what-do-i-need-to-blynk.md](what-do-i-need-to-blynk.md)
+{% endcontent-ref %}
 
-* Platform.io
-* For Arduino IDE
-* Particle
+{% content-ref url="install-blynk-library-for-platformio.org.md" %}
+[install-blynk-library-for-platformio.org.md](install-blynk-library-for-platformio.org.md)
+{% endcontent-ref %}
 
-### Install Blynk.Edgent library on Platform.io IDE
-
-[Blynk library on Platform.io](https://platformio.org/lib/show/415/Blynk)
-
-### Install Blynk.Edgent library on Arduino IDE
-
-### Install Blynk.Edgent library on Particle
-
+{% content-ref url="install-esp8266-core-for-arduino-ide.md" %}
+[install-esp8266-core-for-arduino-ide.md](install-esp8266-core-for-arduino-ide.md)
+{% endcontent-ref %}
