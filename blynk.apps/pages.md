@@ -134,10 +134,6 @@ Unlike Standalone Pages, you can define which users can access the tab. For exam
 
 
 
-Root User - description
-
-###
-
 ### 1. Adding a Device Info Tab
 
 ![](<../.gitbook/assets/image (32).png>)
@@ -153,7 +149,7 @@ Root User - description
 
 ### 2. Editing Tab Contents
 
-After you have created a new page, tap on it to start editing. You will see a familiar canvas with the grid where you can add widgets.
+After you have created a new tab, tap on it to start editing. You will see a familiar canvas with the grid where you can add widgets.
 
 You can always access list of added tabs in Toolbox → Pages → **Device Info Tabs**
 
