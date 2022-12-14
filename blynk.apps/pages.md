@@ -138,13 +138,13 @@ Root User - description
 
 ###
 
-### 1. Adding a Tab Page
+### 1. Adding a Device Info Tab
 
 ![](<../.gitbook/assets/image (32).png>)
 
 1. Go to Toolbox → Pages → **Device Info Tabs**
 2. Tap **+ Add Page**
-3. Give your new page a name
+3. Give your new tab a name
 4. Set access permissions (optional)
 5. Tap **Create** in the top right corner
 6. A new tab page is created
