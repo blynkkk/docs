@@ -1,102 +1,51 @@
 # Organizations
 
-## Overview
+Basically, Organizations are digital representations of real companies on Blynk Platform. Think or Organization as of an instance for group of users who use same sets of Templates and Devices.
 
-## Search Organization
+## Organizations
 
-You can search for any metadata across devices, organizations, and users. Simply start typing.
+### Info
 
-![Organizations Search](../../.gitbook/assets/search-organization-by-name.png)
+![](../../.gitbook/assets/org\_info.png)
 
-## Create New Organization
+**Name** – must be unique. Use letters, digits, space or '.', '-', ''' characters. 80 characters limit.
 
-If you have a permission **Create organization** you'll see the **+ New organization** button in the organization search view.
-Click **+ New organization** button to perform this action.  
-You'll be redirected to Organizations tab to the New Organization window.
+**Description** – optional field with information about the Organization. Notes about sub-organizations can be put here. 200 characters limit with counter.
 
-![Create new Organization](../../.gitbook/assets/create-new-organizations.png)
+**Can create Sub-Organizations** – enable this option to allow to create affiliated Organizations under this one. It's useful when there's a need to setup a Client Organization
 
-### \*\*\*\*
+**Logo** – option to add Organization logo by uploading from computer or drag-n-drop a picture of .png or .jpg, min 500x500px format.
 
-### **Tab Info**
+### Templates
 
-You need to fill in the information about the organization:
+This screen with tiles view contains all the Templates available to Organization.\
+Click **Edit** to add/remove Templates by _**clicking the tiles**_. Active Templates are marked with green tick, disabled have tiles with reduced colors. Once the changes are made click **Save**.
 
-![Create new Organization](../../.gitbook/assets/create-new-organizations-info.png)
+![](../../.gitbook/assets/prod\_tiles.png)
 
-\_\_
+### Users
 
-- **Organization Name** – can be up to 80 characters. _Use letters, digits, space or '.', '-', ''' characters_
+This screen has 2 sections: Invite User and User List
 
-- **Description** \(optional\) – organization info container. 200 characters limit
+![](../../.gitbook/assets/inv\_user.png)
 
-- **Logo** \(optional\) – upload Logo. Upload from computer or drag-n-drop Organization logo in .png or .jpg formats and minimal resolution is 500x500px
+**User name** – fill in this field with First and Last names of the user you want to invite.
 
+**Email Address** – be sure to input correct Email. The invitation letter with links to apps will be sent to it.
 
+**Role** – select user's role in this Organization. _Admin, Staff_ and _User_ roles are available from the dropdown menu.
 
-### \*\*\*\*
+Click **Invite** once all is done here.\
+The invitation letter will be sent to user's Email and user account will appear in **Users Invitations List.**
 
-### **Tab Templates**
+![](../../.gitbook/assets/org\_usr\_list.png)
 
-You can to select the device **Templates** that your **Organization** will work with
+Here you can see all Organizations invited users with their names, roles and invitation statuses. Also you can change view order by toggling sorting arrows near the columns names and limit viewed users list by applying Status filter (multiple selections are supported).
 
-![Select templates](../../.gitbook/assets/create-new-organizations-templstes.png)
+### More Organization management options
 
-### 
+If you need to apply more specific edits switch to Organization and proceed to [Organization Settings](../settings/organization-settings/)
 
-### Tab Users
+Also there's [Transfer Organization](https://github.com/blynkkk/docs/tree/005c4b94e9d27f9d5e328f938f5b621b1168e315/blynk.console/organizations/transfer-organization.md) feature available.
 
-You can invite users to your organization
-
-![Invite users](../../.gitbook/assets/create-new-organizations-users.png)
-
-
-
-## List of Organizations
-
-The **List of Organizations** contains information about all **Organizations** in your company. In the **List of Organizations** you can see information about:
-
-* **Name**
-* **Type**
-* **Count of Device**
-* **Count of Users**
-* **Sub Organizations**
-* **Id**
-* **Actions**
-
-![](../../.gitbook/assets/list-of-organizations.png)
-
-
-
-You can view the profile of any **Organization** from the **List of Organizations** by clicking on the name of the organization
-
-![](../../.gitbook/assets/list-of-organizations-swich-to-any-org.png)
-
-You can go to any organization by clicking on the "**Switch to**" icon.
-
-## Page of Organization
-
-Here you can view or edit information about the organization
-
-![](../../.gitbook/assets/organization-action-menu.png)
-
-### **Actions**
-
-* **Edit Settings** – redirects you to the [Organization Settings](../settings/organization-settings/) menu
-* **Manage Users** – redirects you to the [Users](../settings/organization-settings/users.md) section in the [Organization's settings](../settings/organization-settings/), where you can manage the users of your organization.
-* **Transfer Organization** – detailed information about transfer of the organization is described in in the  [Transfer Organization](transfer-organization.md) section
-* **Delete Organization** – modal window will appear. Type DELETE and confirm the action are required.
-
-![](../../.gitbook/assets/organization-action-menu-delete.png)
-
-On the tabs of the organization, you can see information about the organization, its device, users and locations.
-
-### Tabs
-
-* \*\*\*\*[**Information**](./#page-of-organization)\*\*\*\*
-* \*\*\*\*[**Devices**](../devices/#table-view)\*\*\*\*
-* \*\*\*\*[**Users**](../settings/organization-settings/users.md)\*\*\*\*
-* \*\*\*\*[**Locations**](../settings/organization-settings/locations.md)\*\*\*\*
-
-
-
+Keep in mind there are some [limits](https://docs.blynk.io/en/blynk.console/limits#organization) applicable.
