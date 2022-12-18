@@ -54,9 +54,15 @@ The full management and configuration is more easily accomplished using the Blyn
 
 You need to be logged into Blynk as a user with a role and set of permissions that will allow you to create/edit organizations, templates, users, etc.  The organization you are assigned to as a user has access only to that organization, and any sub-organizations.  The root organization user with ‘Admin’ role and default permissions is sufficient.
 
-Sketch out your current root organization including templates, devices, and users.  Then layout the sub-organization and include the templates, at least one user with ‘Admin’ role, one device, and the user who will be assigned as the device owner.
+Sketch out your current root organization including templates, devices, and users.  Then lay out the sub-organization and include the templates, at least one user with ‘Admin’ role, one device, and the user who will be assigned as the device owner.
 
 <figure><img src="../.gitbook/assets/organizations-diagram.png" alt=""><figcaption></figcaption></figure>
+
+In the example above user R has access to the Thermostat of the user W and vice versa, user W has access not only to their own Thermostat but also to the Boiler owned by R.&#x20;
+
+For the users to have access only to their own devices, create a structure like United Heaters Inc. on the image, where a sub-organization is created for each user, so M only has access to Pool Heater, while H can only see data from their Thermostat and manage it.
+
+User A from the parent organization has access to all devices in the sub-organizations within their hierarchy.
 
 Decide on roles for the users (‘Admin’, ‘Staff’, ‘User’), and what permissions you want to configure for each role.  Review this by accessing ‘Settings -> Roles and permissions’ from the sidebar.
 
