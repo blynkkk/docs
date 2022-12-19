@@ -50,3 +50,14 @@ You can navigate back to your root organization by clicking the Blynk logo at th
 You can navigate back to your root organization by clicking the Blynk logo at the top of the sidebar menu (top left corner).
 {% endhint %}
 
+### How to Move a Device to a Sub-Organization
+
+The easiest way to move a device within your org structure is to [change its ownership](../devices/actions-with-devices.md#device-transfer). You can transfer ownership from one member to another by email address.
+
+{% hint style="warning" %}
+The user to be assigned to the device, and the device itself must belong to the same organization (or sub-organization).
+{% endhint %}
+
+\
+
+
