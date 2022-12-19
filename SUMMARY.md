@@ -69,6 +69,7 @@
   * [Assigning Devices to the Locations](blynk.console/locations/locations.md)
 * [Organizations](blynk.console/organizations/README.md)
   * [Create a Sub-Organization](blynk.console/organizations/create-a-sub-organization.md)
+  * [Browse & Edit a Sub-Organization](blynk.console/organizations/browse-and-edit-a-sub-organization.md)
 * [Users](blynk.console/users/README.md)
   * [List of Users](blynk.console/users/users-list.md)
   * [User Profile](blynk.console/users/user-view.md)
