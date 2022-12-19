@@ -1,4 +1,4 @@
-# Creating a Sub-Organization
+# Create a Sub-Organization
 
 The workflow is to log in to Blynk, create the sub-organization(s), assign templates, assign an ‘Admin’ member, transfer or create users, and finally create or transfer devices (assign a user to the device).  Members with the correct roles and permissions can also create and provision devices.
 
@@ -18,11 +18,7 @@ Click on the ‘Users’ tab to add members who will have access to the devices 
 
 You can dynamically invite users that currently don’t have a Blynk account and assign them the [roles](https://docs.blynk.io/en/blynk.console/settings/access#roles-and-permissions) of ‘Admin’, ‘Staff’, or ‘User’ on this tab as well.  See ‘[How to Assign a Device to a User](https://docs.google.com/document/d/1y\_PpM8KAuvTYCgAaOjuDmh5oL637Vq4Dcuel07LGCkM/edit?pli=1#bookmark=id.je16rq9h3eu)’ for more details.
 
-Existing Blynk members will need to be transferred via [Search -> Users -> All](https://docs.blynk.io/en/blynk.console/users/users-list#users-table) -> Actions -> Transfer User, or [Search -> Organizations](https://docs.blynk.io/en/blynk.console/settings/organization-settings/users#hover-options), [Settings -> ORGANIZATION SETTINGS -> Users](https://docs.blynk.io/en/blynk.console/settings/organization-settings/users#hover-options).
-
-{% hint style="info" %}
-Users can only be transferred within the same hierarchy. E.g.: If a user has a Blynk account, that's not within your organization structure, they will have to delete their account prior to being added to your organization or use a different email that hasn't been in use on Blynk.&#x20;
-{% endhint %}
+Existing Blynk members will need to be transferred.
 
 Click the ‘Create’ button when finished.  Repeat the process to create any other sub-organizations. &#x20;
 

@@ -24,6 +24,10 @@ You may also browse organizations from ‘Search -> [ORGANIZATIONS’](https://d
 
 Existing Blynk members can be transferred from one organization to another via [Search -> Users -> All](https://docs.blynk.io/en/blynk.console/users/users-list#users-table) -> Actions -> Transfer User, or [Search -> Organizations](https://docs.blynk.io/en/blynk.console/settings/organization-settings/users#hover-options), [Settings -> ORGANIZATION SETTINGS -> Users](https://docs.blynk.io/en/blynk.console/settings/organization-settings/users#hover-options).
 
+{% hint style="info" %}
+Users can only be transferred within the same hierarchy. E.g.: If a user has a Blynk account, that's not within your organization structure, they will have to delete their account prior to being added to your organization or use a different email that hasn't been in use on Blynk.&#x20;
+{% endhint %}
+
 To transfer a user that is currently a Blynk member, navigate to  [Search -> Users -> All](https://docs.blynk.io/en/blynk.console/users/users-list#users-table) -> Actions, and choose the ‘Transfer User’ option.  Enter the email address of the administrator for the destination organization.  You may change the role for the user, and optionally transfer all owned devices.  The user transferred, and the admin for the destination organization will automatically receive an email notification of the user transfer. &#x20;
 
 ![](https://lh6.googleusercontent.com/lheniT04JM8J9tggh3d3aG7aQbwN9s9QHPZ9E7plcDSGeQjkOc6noBEXHYGI\_J6lArBnLYV1oK1gjsrXOTrFB\_9TX8zpM2J06SFqxL3QSr5eNQOHz9\_6A\_bYH9lhMjE9agmtdLtiUsMQRwsjXgrfEiVZHFLD9Val0ulyJXzgJgNuw9FpXzr6EssNN\_vUig)   ![](https://lh5.googleusercontent.com/VR1k0YxzWlflnCNJnJLxTe3x0dy0sa6pbzFiNtsNoQ0CKeZRZI\_K0QN1WlN72k5H60yYeB66qlDR7XgsB3MaDB6Roi6hQPk4\_xRswMEEwnkfxt6t\_tWzmwI4qi3qO8egk7b\_HLxg7ja-NdYZ7HviiIDJcfs13v9e4091OMk1z\_uzoV8PMmEy\_DvAvXVnvQ)
