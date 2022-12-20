@@ -10,7 +10,11 @@ Getting Started -> Send Notifications (Alerts)
 
 Notifications/Alerts is a crucial part of any IoT solution. Blynk offers extensive set of features to send and receive in-app (push), email, and SMS notifications from devices.
 
+There are three main approaches you can take:
 
+1. End-users can set up [Notifications using Automations](broken-reference) (if allowed so by their role and set of permissions). Once Automation is set up, Blynk.Cloud monitors the data and sends notification to the specified recipients when the condition is met.&#x20;
+2. Device-driven notifications
+3. [Content events](../blynk.console/templates/events/custom-events/events-content-events.md)
 
 ## Use Automations To Send Notifications From Blynk.Cloud (no code)
 
@@ -32,7 +36,7 @@ Such Notifications are part of Events functionality. You would need to configure
 Note: notifications are parts of [Events](../blynk.console/templates/events/). Before moving forward:
 
 1. Make sure your template has Event configured
-2. Make sure that [Notifications are enabled](../blynk.console/templates/events/custom-events/events-notification-settings.md) for this Event
+2. Make sure that [Notifications are enabled](../blynk.console/templates/events/events-notification-settings/) for this Event
 {% endhint %}
 
 {% content-ref url="../blynk.console/templates/events/custom-events/events--how-to-log-events.md" %}
@@ -54,7 +58,7 @@ In the opened drawer select the desired events to edit (4) -> **Edit Settings** 
 ![](https://user-images.githubusercontent.com/72824404/119675163-79c66c80-be45-11eb-93d1-71f02150a0b0.png)
 
 {% hint style="warning" %}
-If the list of events is empty or you don't see the **Edit Settings** button, make sure that [Notifications are enabled](../blynk.console/templates/events/custom-events/events-notification-settings.md) for this Event in the Device Template
+If the list of events is empty or you don't see the **Edit Settings** button, make sure that [Notifications are enabled](../blynk.console/templates/events/events-notification-settings/) for this Event in the Device Template
 {% endhint %}
 
 ![](https://user-images.githubusercontent.com/72824404/119676364-797aa100-be46-11eb-98e6-c8a4a16ae06e.png)

@@ -2,9 +2,9 @@
 
 It is possible to customize sounds for notifications coming from Blynk. There are three main push notification channels:
 
-* In-app push notifications from a device triggered by [events](../../blynk.console/templates/events/custom-events/events-general-setting.md) configured in the Blynk.Console.&#x20;
+* In-app push notifications from a device triggered by [events](../custom-events/events-general-setting.md) configured in the Blynk.Console.&#x20;
 * Notifications triggered by Automations&#x20;
-* Other such as [content events](../../blynk.console/templates/events/custom-events/events-content-events.md).&#x20;
+* Other such as [content events](../custom-events/events-content-events.md).&#x20;
 
 Each channel can be configured to turn on/off all notifications or use custom sounds, and device event notifications can be configured as critical alerts in some cases.&#x20;
 
