@@ -33,24 +33,24 @@ Access notifications by choosing Profile -> Settings -> Notifications and sounds
 Clients using [BUSINESS plan](https://blynk.io/pricing/business-plan) can cause critical alerts to be recognized by iOS, resulting in delivery with maximum sound, ignoring the phone’s mute and Do Not Disturb settings.
 
 {% hint style="warning" %}
-App approval to use this feature is required by Apple.
+Approval for the app to use this feature is required by Apple.
 {% endhint %}
 
 #### Android
 
-On Android Critical notifications were created to bypass the iOS / Android app Do Not Disturb setting and to enable custom sounds for different triggers. (By default when Do Not Disturb is enabled for Android, notifications and sounds are suppressed).&#x20;
+On Android, Critical notifications were created to bypass the iOS / Android app Do Not Disturb setting and to enable custom sounds for different triggers. (By default when Do Not Disturb is enabled for Android, notifications and sounds are suppressed).
 
 ![](https://lh4.googleusercontent.com/mpVqM6HCmq\_pNHXu\_kVBy3x4fogK6z4EcTmneJQDFSXbjyAO8eQs8E-DtJmdqbTDdYZTAFNelAt93rbMP7IhN0xEpfDoefPs1nNt0rKuHkNPDwLgjY-Yv69\_3Ge5849YkpA-fNEHHUi9HXgPkwUSqf7lD0kI-IvSSr7M1h49M\_ZioKA9MxISzHn-q6LdUw)    ![](https://lh6.googleusercontent.com/QlshOhaAvFfokgobt8PzwvdxnMmIWIJDTE3NJAM-nn317q4xDdat7FWcAQEVv7xmum2mjnZp9e2Z4MUsl\_5ib5LYgHkuIwSLFzr8ELDN\_IRBlNkpb5NcYwkXZjZ8Tar3mKtHRl4sW9F-CRyKAMK-9UCJza6mtHASJts3SASMbR7sjRm-a5A8Rlrq7FqXdQ)
 
-To turn on/off the ‘Ignore Background Restrictions’ option, causing Blynk to run in the background in an attempt to push notifications despite the phone’s do not disturb settings.
+‘Ignore Background Restrictions’ option can be turned on or turned off. If this setting is on, Blynk will run in the background and will try to push notifications despite the phone’s do not disturb settings.
 
 {% hint style="warning" %}
-For some devices Android ‘Do Not Disturb’ may still prevent receipt of notifications.&#x20;
+For some device models Android ‘Do Not Disturb’ may still prevent receipt of notifications.
 {% endhint %}
 
 ### Notifications customization by device
 
-On Android notification settings may also be configured for each Blynk device. Select a device, and then tap on the More info icon, tap on the More info icon again, then within the ‘Actions’ page, select ‘Notification Settings’.  From here you have extensive control over the notification settings for the device, including the notification sound.
+On Android, notification settings may also be configured for each Blynk device. Select a device, and then tap on the More info icon, tap on the More info icon again, then within the ‘Actions’ page, select ‘Notification Settings’. From here you have extensive control over the notification settings for the device, including the notification sound.
 
 An additional setting ‘Override Do Not Disturb’ can be found by expanding the ‘Advanced’ menu. After enabling this setting, a window will appear asking for permission to always run the app in the background.
 
