@@ -2,15 +2,15 @@
 
 It is possible to customize sounds for notifications coming from Blynk. There are three main push notification channels:
 
-* In-app push notifications from a device triggered by [events](https://docs.blynk.io/en/getting-started/events-tutorial#custom-events) configured in the Blynk.Console.&#x20;
+* In-app push notifications from a device triggered by [events](../../blynk.console/templates/events/custom-events/events-general-setting.md) configured in the Blynk.Console.&#x20;
 * Notifications triggered by Automations&#x20;
-* Other such as [content events](https://docs.blynk.io/en/blynk.console/templates/events/custom-events/events-content-events).&#x20;
+* Other such as [content events](../../blynk.console/templates/events/custom-events/events-content-events.md).&#x20;
 
 Each channel can be configured to turn on/off all notifications or use custom sounds, and device event notifications can be configured as critical alerts in some cases.&#x20;
 
 ### Device Event Notifications
 
-For a notification to be considered an alert and become eligible for sound customization, a corresponding setting must be turned on in the Notifications tab of the event settings on the [Blynk.Console](https://docs.blynk.io/en/blynk.console/devices/notifications-settings).  Go to Templates -> Template -> Edit -> Events Tab, select an event and then the ‘Notifications’ tab. Enable the option ‘Deliver push notification as alerts’ and then configure the sound settings in Blynk apps.
+For a notification to be considered an alert and become eligible for sound customization, a corresponding setting must be turned on in the Notifications tab of the event settings on the [Blynk.Console](https://blynk.cloud/).  Go to Templates -> Template -> Edit -> Events Tab, select an event and then the ‘Notifications’ tab. Enable the option ‘Deliver push notification as alerts’ and then configure the sound settings in Blynk apps.
 
 <img src="https://lh4.googleusercontent.com/jUYSzR4OTomqmu7HbQ7SaC5i6I935KlpF4LRmzIedYfqS4zZQ-QG_JZO0DwByHR60vpCYyiDqntHdMYWlML7oC7MQCwyhhD--AxvwbFczssYNvpub3ebV2ZKW_Oy0ZB0AfN_1cHVD_8Z86LhgoqLzuAbZ4-8etzCwAmSGyBMczZypqZVA4KO0tdn6Pa69Q" alt="" data-size="original">
 

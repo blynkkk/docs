@@ -40,7 +40,7 @@ Update the library on the device to [the latest version](https://github.com/blyn
 
 Note that [Datastreams](../blynk.console/templates/datastreams/) now provide the data transfer between your IoT device, the Blynk.Console, and Blynk IoT. They are similar to the Blynk Legacy [virtual pins](http://docs.blynk.cc/#blynk-main-operations-virtual-pins), but with much more capability.
 
-Replace [Blynk.notify()](http://docs.blynk.cc/#widgets-notifications-push-notifications), [Blynk.email()](http://docs.blynk.cc/#widgets-notifications-email), [Blynk.tweet()](http://docs.blynk.cc/#widgets-notifications-twitter), Blynk.sms() with [Blynk.logEvent()](../getting-started/notification-management/). Read [this guide](../blynk.console/templates/events/) on how to set up Events with notifications.
+Replace [Blynk.notify()](http://docs.blynk.cc/#widgets-notifications-push-notifications), [Blynk.email()](http://docs.blynk.cc/#widgets-notifications-email), [Blynk.tweet()](http://docs.blynk.cc/#widgets-notifications-twitter), Blynk.sms() with [Blynk.logEvent()](../getting-started/notification-management.md). Read [this guide](../blynk.console/templates/events/) on how to set up Events with notifications.
 
 WiFi, cellular, USB, and Ethernet are supported by Blynk IoT. Classic Bluetooth and low energy Bluetooth (BLE) are not currently supported.
 
