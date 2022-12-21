@@ -2,25 +2,25 @@
 
 It is possible to customize sounds for notifications coming from Blynk. There are three main push notification channels:
 
-* In-app push notifications from a device triggered by [events](../custom-events/events-general-setting.md) configured in the Blynk.Console.&#x20;
+* In-app push notifications from a device triggered by [events](../custom-events/events-general-setting.md) configured in the Blynk.Console&#x20;
 * Notifications triggered by Automations&#x20;
-* Other such as [content events](../custom-events/events-content-events.md).&#x20;
+* General/other such as [content events](../custom-events/events-content-events.md) notifications or Rule engine notifications (business plan only)
 
 Each channel can be configured to turn on/off all notifications or use custom sounds, and device event notifications can be configured as critical alerts in some cases.&#x20;
 
 ### Device Event Notifications
 
-For a notification to be considered an alert and become eligible for sound customization, a corresponding setting must be turned on in the Notifications tab of the event settings on the [Blynk.Console](https://blynk.cloud/).  Go to Templates -> Template -> Edit -> Events Tab, select an event and then the ‘Notifications’ tab. Enable the option ‘Deliver push notification as alerts’ and then configure the sound settings in Blynk apps.
+For a notification to be considered an alert and become eligible for sound customization, a corresponding setting must be turned on in the Notifications tab of the event settings on the [Blynk.Console](https://blynk.cloud/).  Go to Templates -> Template -> Edit -> Events Tab, select an event, and then the ‘Notifications’ tab. Enable the option ‘Deliver push notifications as alerts’ and then configure the sound settings in Blynk apps.
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Event notifcations settings</p></figcaption></figure>
 
 On the ‘General’ tab, enable the option ‘Send event to Notifications tab’ if you want the event to be visible in the app notifications tab.
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Event "Send event to Notifications tab" setting</p></figcaption></figure>
 
 #### For iOS:
 
-Go to Main menu -> Settings -> Notifications and sounds -> Devices. From this menu you can enable/disable notifications from device events or select a custom sound for it.
+Go to Main menu -> Settings -> Notifications and sounds -> Devices. From this menu, you can enable/disable notifications from device events or select a custom sound for it.
 
 #### For Android:
 
@@ -38,11 +38,11 @@ Approval for the app to use this feature is required by Apple.
 
 #### Android
 
-On Android, Critical notifications were created to bypass the iOS / Android app Do Not Disturb setting and to enable custom sounds for different triggers. (By default when Do Not Disturb is enabled for Android, notifications and sounds are suppressed).
+On Android, Critical notifications were created to bypass the Android app Do Not Disturb setting and to enable custom sounds for different triggers. (By default when Do Not Disturb is enabled for Android, notifications and sounds are suppressed).
 
 ![](https://lh4.googleusercontent.com/mpVqM6HCmq\_pNHXu\_kVBy3x4fogK6z4EcTmneJQDFSXbjyAO8eQs8E-DtJmdqbTDdYZTAFNelAt93rbMP7IhN0xEpfDoefPs1nNt0rKuHkNPDwLgjY-Yv69\_3Ge5849YkpA-fNEHHUi9HXgPkwUSqf7lD0kI-IvSSr7M1h49M\_ZioKA9MxISzHn-q6LdUw)    ![](https://lh6.googleusercontent.com/QlshOhaAvFfokgobt8PzwvdxnMmIWIJDTE3NJAM-nn317q4xDdat7FWcAQEVv7xmum2mjnZp9e2Z4MUsl\_5ib5LYgHkuIwSLFzr8ELDN\_IRBlNkpb5NcYwkXZjZ8Tar3mKtHRl4sW9F-CRyKAMK-9UCJza6mtHASJts3SASMbR7sjRm-a5A8Rlrq7FqXdQ)
 
-‘Ignore Background Restrictions’ option can be turned on or turned off. If this setting is on, Blynk will run in the background and will try to push notifications despite the phone’s do not disturb settings.
+If ‘Ignore Background Restrictions’ setting is on, Blynk will run in the background and will try to push notifications despite the phone’s do not disturb settings.
 
 {% hint style="warning" %}
 For some device models Android ‘Do Not Disturb’ may still prevent receipt of notifications.
@@ -64,11 +64,11 @@ The detailed notification setting options for each automation are accessible fro
 
 #### For iOS:
 
-Go to Main menu -> Settings -> Notifications and sounds -> Automations. From this menu you can enable/disable notifications from Automations or select a custom sound for it.
+Go to Main menu -> Settings -> Notifications and sounds -> Automations. From this menu, you can enable/disable notifications from Automations or select a custom sound for it.
 
 #### For Android:
 
-Go to Automations tab, select an automation, and then choose ‘Notification Settings’.
+Go to the Automations tab, select automation, and then choose ‘Notification Settings’.
 
 | ![](https://lh3.googleusercontent.com/TUtmfIlLfuWJAU3ofNzZqMMfJXP2WzUjUhghhvUMiaDHpY4ciZXraNYfxiFlSKHgvrKNInZavwGzPa8L86EMZcJQSwEVczKnBo5iIYxKboOPenABzJwJOBJtC\_BQ0GYb2s7v9M06rL5-ybcpPGgF2JEstnWWUpIpQa9HNx2h4hUptduxjbY9kg4saPe9OQ) | ![](https://lh5.googleusercontent.com/Qy-vyLljcpRWigkCtZ8o7fAgpyMd8sV\_P\_3Gy1vtLcVQ9vh8sY\_BuzJ5kePyKRHxXf4VSUa6suJ3QYM5MKyuXm9s82lp1X-c2L1iQoUktYiy9SIXg4RE27um6PxSHhlON-etdqzszRcHU5sQtODllnSAYK5y7eV\_SPcKqkc0nv7EDHP\_nzusLwGbC7nTHQ) |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
