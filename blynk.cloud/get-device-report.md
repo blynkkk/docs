@@ -1,4 +1,4 @@
-# Get Device History Data
+# Get Historical Data from Device
 
 {% swagger baseUrl="https://{server_address}" path="/external/api/data/get?token={token}&period={PERIOD}&granularityType={TYPE}&sourceType={SOURCE_TYPE}&tzName={tzName}&format={FORMAT}&output=FILE&pin={pin}" method="get" summary="" %}
 {% swagger-description %}
@@ -40,7 +40,7 @@ Is
 
 `THREE_MONTH`
 
- period! ). Other possible values: 
+ period). Other possible values: 
 
 `MINUTE`
 
@@ -117,13 +117,7 @@ Is FILE by default. Other possible value: JSON
 ```
 {% endswagger-response %}
 
-{% swagger-response status="400" description="Could not find a device token
-or
-No device token was provided
-or
-Typo in parameter or it's value
-or
-Wrong pin format" %}
+{% swagger-response status="400" description="Could not find a device token or No device token was providedorTypo in parameter or it's valueorWrong pin format" %}
 ```
 {"error":{"message":"Invalid token."}}
 
@@ -160,10 +154,13 @@ or
 
 ## **Use case example:**
 
-You live in Sydney and have garage door opener and want to get an exact time you departed today in one file. The accuracy you need is up to 1 minute and it should be in "YYYY-MM-DD HH:MM:SS" format.\
-Garage door opener is Blynked and it uses Datastream with ID 20 and virtual pin 6 for open/close commands. Also you want to get the list of all the events occured during this period. So API request for this case looks like:
+Let's say you live in Sydney, Australia and there is a garage door opener and want to get an exact time you departed today in one file. The accuracy you need is up to 1 minute and it should be in "YYYY-MM-DD HH:MM:SS" format. Your device uses Datastream with ID 20 and virtual pin 6 for open/close commands. Let's say you also need to get the list of all the Events that were recorded during this period.&#x20;
 
-`https://blynk.cloud/external/api/data/get?token=HjKjfij84050fege&period=DAY&granularityType=MINUTE&sourceType=AVG&tzName=America/New_York&format=ISO_SIMPLE&sendEvents=true&output=FILE&dataStreamId=20`
+API call will look like this:&#x20;
+
+`` https://blynk.cloud/external/api/data/get?token=HjKjfij84050fege&period=DAY&granularityType=MINUTE&sourceType=AVG&tzName=America/New_York&format=ISO_SIMPLE&sendEvents=true&output=FILE&dataStreamId=20` ``
+
+``
 
 **JSON Output example:**
 

@@ -12,7 +12,7 @@ Each channel can be configured to turn on/off all notifications or use custom so
 
 For a notification to be considered an alert and become eligible for sound customization, a corresponding setting must be turned on in the Notifications tab of the event settings on the [Blynk.Console](https://blynk.cloud/).  Go to Templates -> Template -> Edit -> Events Tab, select an event, and then the ‘Notifications’ tab. Enable the option ‘Deliver push notifications as alerts’ and then configure the sound settings in Blynk apps.
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Event notifcations settings</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Event notifcations settings</p></figcaption></figure>
 
 On the ‘General’ tab, enable the option ‘Send event to Notifications tab’ if you want the event to be visible in the app notifications tab.
 
