@@ -3,7 +3,7 @@
 Update multiple Datastreams of a single device with one GET request. It can help with saving the data volume for cellular devices.
 
 {% hint style="warning" %}
-Batch update is required for Map Widget in Blynk.Console because all datapoints should be synced to one timestamp and same coordinates
+Use such update for Map Widget in Blynk.Console so that all datapoints have same timestamp for data and coordinates.
 {% endhint %}
 
 {% swagger baseUrl="https://{server_address}" path="/external/api/batch/update?token={token}&{pin1}={value1}&{pin2}={value2}" method="get" summary="Batch update" %}
