@@ -49,7 +49,7 @@ There are sorting (all columns) and filtering (Firmware Version column only) opt
 
 When the binary file is uploaded, the extracted information is shown in this section. It is useful for making sure you have picked the right file.
 
-![](<../../../.gitbook/assets/image (4) (2).png>)
+![](<../../../.gitbook/assets/image (4).png>)
 
 ## Review and Start
 

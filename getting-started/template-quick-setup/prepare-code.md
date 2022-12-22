@@ -250,7 +250,7 @@ char auth[] = "YourAuthToken";
 2. If you don't have a  Device Templates -> [Create New Template](./#create-a-template) or open an existing one
 3. Copy the contents of this section and paste them on top of your firmware, before any includes
 
-![](<../../.gitbook/assets/image (2) (1) (1).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
 #### Getting Auth Token
 

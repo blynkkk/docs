@@ -197,7 +197,7 @@
 * [HTTPs REST API](blynk.cloud/https-api-overview.md)
 * [Get Datastream Value](blynk.cloud/get-datastream-value.md)
 * [Get Multiple Datastream Values](blynk.cloud/get-multiple-datastream-values.md)
-* [Get Historical Data from Device](blynk.cloud/get-device-report.md)
+* [Get Historical Data From Device](blynk.cloud/get-device-report.md)
 * [Update Datastream Value](blynk.cloud/update-datastream-value.md)
 * [Update Multiple Datastreams Simultaneously](blynk.cloud/update-multiple-datastreams-api.md)
 * [Upload a Set of Timestamped Data](blynk.cloud/upload-set-of-data-with-timestamps-api.md)

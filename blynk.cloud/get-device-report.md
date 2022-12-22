@@ -1,4 +1,8 @@
-# Get Historical Data from Device
+---
+description: How to get historical data from a single device for a specified time range
+---
+
+# Get Historical Data From Device
 
 {% swagger baseUrl="https://{server_address}" path="/external/api/data/get?token={token}&period={PERIOD}&granularityType={TYPE}&sourceType={SOURCE_TYPE}&tzName={tzName}&format={FORMAT}&output=FILE&pin={pin}" method="get" summary="" %}
 {% swagger-description %}
