@@ -92,6 +92,8 @@ If the value of the Datastream will be used to trigger an action, then enable th
 
 You may create an Automation scenario in either the [Blynk.Console](broken-reference), or the [Blynk.App](broken-reference). Creating an Automation in one app will cause it to be accessible in the other app (you may need to refresh the other app).
 
+###
+
 ### 2. Create an Automation
 
 From the [Blynk.Console](broken-reference), click on the Automations icon on the main menu.  From the [Blynk.App](broken-reference), click on the ‘Automations’ icon at the bottom of the home screen.
@@ -170,7 +172,7 @@ The automation Device State condition is set to ‘Is Any’ for datastream V20 
 Configuring a switch in the Blynk.Console web dashboard for datastream V20 will allow you to set V20 to on (value of 1), and after two seconds you will see the value changed back to a value of off (zero) by the automation. Click the switch on again and the automation will turn off the switch after two seconds.
 
 {% hint style="warning" %}
-IMPORTANT: If the Device State condition is set to ‘Is On’, then the automation will only execute once, unless the value of the datastream is changed manually with the dashboard switch, or by the hardware. See the next example [‘Is On’ Device State Condition Example](automations.md#is-on-device-state-condition-example).
+If the Device State condition is set to ‘Is On’, then the automation will only execute once, unless the value of the datastream is changed manually with the dashboard switch, or by the hardware. See the next example [‘Is On’ Device State Condition Example](automations.md#is-on-device-state-condition-example).
 {% endhint %}
 
 #### ‘Is On’ Device State Condition Example
