@@ -67,15 +67,29 @@ User A from the parent organization has access to all devices in the sub-organiz
 Decide on roles for the users (‘Admin’, ‘Staff’, ‘User’), and what permissions you want to configure for each role.  Review this by accessing ‘Settings -> Roles and permissions’ from the sidebar.
 
 {% hint style="info" %}
-Keep in mind that by default, members assigned the ‘Staff’ role will be able to see and manage devices. And by default, members assigned the ‘User’ role with default permissions cannot see or manage devices, even those devices transferred to them. The organization permission ‘View devices’ under ‘Owned Devices’ must be enabled for the ‘User’ role by the organization ‘Admin’ user (or other with appropriate permissions). This is the same for other device permissions such as provision, edit, control, etc, and those under the roles and permissions group ‘Organization Devices’.
+Keep in mind that by default, members assigned the ‘Staff’ role will be able to see and manage devices.&#x20;
+
+And by default, members assigned the ‘User’ role with default permissions cannot see or manage devices, even those devices transferred to them.&#x20;
+
+The organization permission ‘View devices’ under ‘Owned Devices’ must be enabled for the ‘User’ role by the organization ‘Admin’ user (or other with appropriate permissions). This is the same for other device permissions such as provision, edit, control, etc, and those under the roles and permissions group ‘Organization Devices’.
 {% endhint %}
 
 Every sub-organization should have at least one member assigned the role ‘Admin’.  The only way to assign a user with the ‘Admin’ role to a sub-organization is to invite someone who is not currently assigned a Blynk account.  Invite the user to join the sub-organization and assign them the role of ‘Admin’.
 
 After the sub-organization ‘Admin’ member has been assigned, other Blynk members may be transferred by providing the email for the sub-organization ‘Admin’ or invited by providing their email address. The transfer is possible only within the same hierarchy of organizations.
 
-{% hint style="info" %}
-TIP:  Although you can define what devices users may see and manage through roles and permissions, it is easier to manage that for multiple users by assigning those users and devices to a sub-organization.  Create a sub-organization, [assign an administrator](https://docs.google.com/document/d/1y\_PpM8KAuvTYCgAaOjuDmh5oL637Vq4Dcuel07LGCkM/edit?pli=1#bookmark=id.7fj59ora61c5), [invite](https://docs.google.com/document/d/1y\_PpM8KAuvTYCgAaOjuDmh5oL637Vq4Dcuel07LGCkM/edit?pli=1#bookmark=kix.x92xrbhclhr6) or [transfer](https://docs.google.com/document/d/1y\_PpM8KAuvTYCgAaOjuDmh5oL637Vq4Dcuel07LGCkM/edit?pli=1#bookmark=kix.x92xrbhclhr6) the user to that sub-organization, and then create the device or transfer it to the user.  It is important to assign an appropriate role to the user that gives them permission to view and/or manage the device(s) assigned to the organization (by default, ‘User’ role is insufficient, but ‘Staff’ is).  Note that device templates may not be viewed or edited by users in the sub-organization unless you [assign a template to the sub-organization](https://docs.google.com/document/d/1y\_PpM8KAuvTYCgAaOjuDmh5oL637Vq4Dcuel07LGCkM/edit?pli=1#bookmark=kix.6fjbrnh26jrt).
+{% hint style="success" %}
+Although you can define what devices users may see and manage through roles and permissions, it is easier to manage that for multiple users by assigning those users and devices to a sub-organization. &#x20;
+
+1. Create a sub-organization
+2. [assign an administrator](https://docs.google.com/document/d/1y\_PpM8KAuvTYCgAaOjuDmh5oL637Vq4Dcuel07LGCkM/edit?pli=1#bookmark=id.7fj59ora61c5), [invite](https://docs.google.com/document/d/1y\_PpM8KAuvTYCgAaOjuDmh5oL637Vq4Dcuel07LGCkM/edit?pli=1#bookmark=kix.x92xrbhclhr6) or [transfer](https://docs.google.com/document/d/1y\_PpM8KAuvTYCgAaOjuDmh5oL637Vq4Dcuel07LGCkM/edit?pli=1#bookmark=kix.x92xrbhclhr6) the user to that sub-organization
+3. Create the device or transfer it to the user. &#x20;
+
+
+
+It is important to assign an appropriate role to the user that gives them permission to view and/or manage the devices assigned to the organization (by default, ‘User’ role is insufficient, but ‘Staff’ is). &#x20;
+
+Note that device templates may not be viewed or edited by users in the sub-organization unless you [assign a template to the sub-organization](https://docs.google.com/document/d/1y\_PpM8KAuvTYCgAaOjuDmh5oL637Vq4Dcuel07LGCkM/edit?pli=1#bookmark=kix.6fjbrnh26jrt).
 {% endhint %}
 
 ### Creating a Sub-Organization
