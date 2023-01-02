@@ -56,7 +56,7 @@ You need to be logged into Blynk as a user with a role and set of permissions th
 
 Sketch out your current root organization including templates, devices, and users.  Then lay out the sub-organization and include the templates, at least one user with ‘Admin’ role, one device, and the user who will be assigned as the device owner.
 
-<figure><img src="../.gitbook/assets/organizations-diagram (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/organizations-diagram (1).png" alt=""><figcaption><p>Multi-level organizational structure</p></figcaption></figure>
 
 In the example above in Muller Boiler Group organization user R has access to the Thermostat of the user W and vice versa, user W has access not only to their own Thermostat but also to the Boiler owned by R.&#x20;
 
@@ -79,7 +79,8 @@ Every sub-organization should have at least one member assigned the role ‘Admi
 After the sub-organization ‘Admin’ member has been assigned, other Blynk members may be transferred by providing the email for the sub-organization ‘Admin’ or invited by providing their email address. The transfer is possible only within the same hierarchy of organizations.
 
 {% hint style="success" %}
-Although you can define what devices users may see and manage through roles and permissions, it is easier to manage that for multiple users by assigning those users and devices to a sub-organization. &#x20;
+Although you can define what devices users may see and manage through roles and permissions, it is easier to manage that for multiple users by assigning those users and devices to a sub-organization.  \
+
 
 1. Create a sub-organization
 2. [assign an administrator](https://docs.google.com/document/d/1y\_PpM8KAuvTYCgAaOjuDmh5oL637Vq4Dcuel07LGCkM/edit?pli=1#bookmark=id.7fj59ora61c5), [invite](https://docs.google.com/document/d/1y\_PpM8KAuvTYCgAaOjuDmh5oL637Vq4Dcuel07LGCkM/edit?pli=1#bookmark=kix.x92xrbhclhr6) or [transfer](https://docs.google.com/document/d/1y\_PpM8KAuvTYCgAaOjuDmh5oL637Vq4Dcuel07LGCkM/edit?pli=1#bookmark=kix.x92xrbhclhr6) the user to that sub-organization
@@ -122,6 +123,37 @@ Click the ‘Create’ button when finished.  Repeat the process to create any o
 
 Once a sub-organization is created, you may transfer devices to the sub-organization by [assigning a user to a device](https://docs.google.com/document/d/1y\_PpM8KAuvTYCgAaOjuDmh5oL637Vq4Dcuel07LGCkM/edit?pli=1#bookmark=id.je16rq9h3eu).  You may also create new devices and then [assign a user to the device](https://docs.google.com/document/d/1y\_PpM8KAuvTYCgAaOjuDmh5oL637Vq4Dcuel07LGCkM/edit?pli=1#bookmark=id.je16rq9h3eu), or the user may [provision the device](https://docs.blynk.io/en/commercial-use/deploying-products-with-dynamic-authtokens#delivering-products-to-clients-pro-plan-workflow).
 
-Read more about tow to work with organizations [here](https://github.com/blynkkk/docs/tree/2dc305739ee5d42b5fd9d7af9c9d6c057276a5fe/blynk.console/organizations/README.md).
+### Creating a multi-level organizational structure
+
+There are two key ways to create a tree-like multi-level structure.
+
+* from the root-level organization
+* from the parent organization
+
+#### Creating a third-level organization by the root-org admin
+
+The flow is to [create all the organizations](organizations.md#creating-a-sub-organization) you need as sub-organizations of the root org using the 'New Organization' button and after that assign the child sub-organizations to their parent sub-organizations according to your planned structure.
+
+To assign a child sub-organization to a parent sub-organization go to Search -> ORGANIZATIONS -> My organizations -> Actions and select 'Transfer Organization' from the drop-down menu. You will be taken to a dialog where you can type in the name of a parent sub-organization or select it from the list to assign the child sub-organization to it. You will be able to review the new hierarchy before confirming the transfer.
+
+{% hint style="warning" %}
+When transferring organization, you will move all the assets, including devices, users, sub organizations (and their assets) under another organization in the hierarchy.
+{% endhint %}
+
+{% hint style="info" %}
+The transfer can be reversed by transferring the sub-organization back.
+{% endhint %}
+
+#### Creating a third-level organization by the parent-org admin
+
+The admin of the parent sub-organization creates a sub-organization of the deeper level using the common [sub-org creation flow](organizations.md#creating-a-sub-organization).
+
+{% hint style="info" %}
+As a root-org admin you can create sub-organizations under the sub-organizations in your hierarchy if you switch to the sub-organization that is planned to be the parent one. Then follow the flow of the parent-org admin described above.
+{% endhint %}
+
+
+
+Read more about how to work with organizations [here](https://github.com/blynkkk/docs/tree/2dc305739ee5d42b5fd9d7af9c9d6c057276a5fe/blynk.console/organizations/README.md).
 
 Learn about existing limitations [here](https://docs.blynk.io/en/blynk.console/limits#organization).
