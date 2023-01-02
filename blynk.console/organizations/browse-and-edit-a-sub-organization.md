@@ -36,7 +36,7 @@ To transfer a user that is currently a Blynk member, navigate to  [Search -> Use
 WARNING:  If you transfer the only ‘Admin’ user in a sub-organization to another organization, then you will need to assign another user with the ‘Admin’ role that is not a Blynk member.
 {% endhint %}
 
-### Switching to a Sub-Organization
+### Switch to a Sub-Organization
 
 You can make a particular sub-organization active from Search -> ORGANIZATIONS and then under the list, hover your mouse over the organization name and click on the ‘Switch to’ link. On doing that you will view the sub-organization exactly like the users of this sub-organization would, which will make troubleshooting far easier.
 
