@@ -7,7 +7,7 @@ description: How multi-tenant tree-like organizational structure works
 Every user of Blynk is a member of an Organization. This could be a one-person organization, a family, or a company with hundreds of employees.
 
 {% hint style="warning" %}
-Creating an multi-level organizational structure is a feature available for **PRO or higher** paid plans.&#x20;
+Creating a multi-level organizational structure is a feature available for **PRO or higher** paid plans.&#x20;
 
 The **FREE and PLUS** plans support multiple users, and assignment of roles to those users (see plan limits).
 {% endhint %}
@@ -97,8 +97,4 @@ Note that device templates may not be viewed or edited by users in the sub-organ
 [create-a-sub-organization.md](../blynk.console/organizations/create-a-sub-organization.md)
 {% endcontent-ref %}
 
-
-
-Read more about how to work with organizations [here](https://github.com/blynkkk/docs/tree/2dc305739ee5d42b5fd9d7af9c9d6c057276a5fe/blynk.console/organizations/README.md).
-
-Learn about existing limitations [here](https://docs.blynk.io/en/blynk.console/limits#organization).
+Learn about existing limitations [here](../blynk.console/limits.md#organization-limits).

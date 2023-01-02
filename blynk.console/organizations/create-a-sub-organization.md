@@ -54,11 +54,7 @@ The transfer can be reversed by transferring the sub-organization back.
 The admin of the parent sub-organization creates a sub-organization of the deeper level using the common [sub-org creation flow](create-a-sub-organization.md#creating-a-sub-organization).
 
 {% hint style="info" %}
-As a root-org admin you can create sub-organizations under the sub-organizations in your hierarchy if you [switch to the sub-organization](create-a-sub-organization.md#creating-a-sub-organization) that is planned to be the parent one. Then you can act as the admin if this cub-organization and [create the next-level sub-organization](create-a-sub-organization.md#creating-a-sub-organization) as usual.
+As a root-org admin you can create sub-organizations under the organizations in your hierarchy if you [switch to the organization](create-a-sub-organization.md#creating-a-sub-organization) that is planned to be the parent one. Then you can act as the admin if this organization and [create a sub-organization](create-a-sub-organization.md#creating-a-sub-organization) as usual.
 {% endhint %}
-
-
-
-Read more about how to work with organizations [here](https://github.com/blynkkk/docs/tree/2dc305739ee5d42b5fd9d7af9c9d6c057276a5fe/blynk.console/organizations/README.md).
 
 Learn about existing limitations [here](https://docs.blynk.io/en/blynk.console/limits#organization).
