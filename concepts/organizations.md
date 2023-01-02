@@ -149,7 +149,7 @@ The transfer can be reversed by transferring the sub-organization back.
 The admin of the parent sub-organization creates a sub-organization of the deeper level using the common [sub-org creation flow](organizations.md#creating-a-sub-organization).
 
 {% hint style="info" %}
-As a root-org admin you can create sub-organizations under the sub-organizations in your hierarchy if you switch to the sub-organization that is planned to be the parent one. Then follow the flow of the parent-org admin described above.
+As a root-org admin you can create sub-organizations under the sub-organizations in your hierarchy if you switch to the sub-organization that is planned to be the parent one. Then you can act as the admin if this cub-organization and [create the next-level sub-organization](organizations.md#creating-a-sub-organization) as usual.
 {% endhint %}
 
 
