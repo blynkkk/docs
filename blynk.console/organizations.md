@@ -35,8 +35,7 @@ This screen has 2 sections: Invite User and User List
 
 **Role** – select user's role in this Organization. _Admin, Staff_ and _User_ roles are available from the dropdown menu.
 
-Click **Invite** once all is done here.\
-The invitation letter will be sent to user's Email and user account will appear in **Users Invitations List.**
+Click **Invite** once all is done here. The invitation letter will be sent to user's Email and user account will appear in **Users Invitations List.**
 
 ![](../.gitbook/assets/org\_usr\_list.png)
 
