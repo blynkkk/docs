@@ -45,7 +45,7 @@ Note that the value of a Datastream may be used by a condition, and action can b
 
 #### Check permissions
 
-[Automations](automations.md) are created per [Organization](organizations.md) and are only available for users with permission for it. By default, the first user in the Organization becomes a [Developer](users.md#developers) and has sufficient permissions to create an Automation.
+[Automations](automations.md) are created per [Organization](organizations.md) and are only available for users with permission for it. By default, the first user in the Organization becomes a [Developer](users/#developers) and has sufficient permissions to create an Automation.
 
 Enable automation permissions for other roles by visiting [Blynk.Console](broken-reference), click on the 'Settings' option on the main menu, access the 'Roles and permissions' menu option, expand the 'Organizations' section and find the 'Automations' permissions. Set the role's create/edit/view/delete/execute/manage permissions as appropriate for the role.
 

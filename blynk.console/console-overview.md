@@ -1,6 +1,6 @@
 # Overview
 
-**Blynk.Console** is a feature-rich web application that can be used by different [types of users](../concepts/users.md).  The key functionality of this product is:
+**Blynk.Console** is a feature-rich web application that can be used by different [types of users](../concepts/users/).  The key functionality of this product is:
 
 * Configuration of how connected devices work on the platform + application settings.
 * Remote control and monitoring of devices in a web browser

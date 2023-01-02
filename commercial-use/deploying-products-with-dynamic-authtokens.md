@@ -70,7 +70,7 @@ Here is a recommended workflow for managing customers in PRO plan so that your c
 
 PRO plan was designed for managed services, where you would need to manually create and manage each customer.&#x20;
 
-First of all, you need to get familiar with the [Multi-tenancy concept](../concepts/multi-tenant-tree-structure.md), organizations hierarchy, and user permissions as you will be using these features often.&#x20;
+First of all, you need to get familiar with the [Multi-tenancy concept](../concepts/users/multi-tenant-tree-structure.md), organizations hierarchy, and user permissions as you will be using these features often.&#x20;
 
 To create a new client:
 

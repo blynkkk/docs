@@ -4,7 +4,7 @@
 
 ![Blynk.Console](https://user-images.githubusercontent.com/72824404/119524638-8041df00-bd86-11eb-831a-0d38fc6c07d3.png)
 
-**Blynk.Console** is a feature-rich web application that can be used by different [types of users](../concepts/users.md). Major functionality of this product is:
+**Blynk.Console** is a feature-rich web application that can be used by different [types of users](../concepts/users/). Major functionality of this product is:
 
 1. Configuration of how connected devices work on the platform + application settings.
 2. Management of devices, their data, users, organizations and locations&#x20;

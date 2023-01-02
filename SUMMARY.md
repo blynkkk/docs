@@ -37,9 +37,9 @@
 
 * [Device](concepts/device.md)
 * [Device Template](concepts/device-template.md)
-* [Users](concepts/users.md)
+* [Users](concepts/users/README.md)
+  * [Multi-tenancy](concepts/users/multi-tenant-tree-structure.md)
 * [Organizations](concepts/organizations.md)
-* [Multi-tenancy](concepts/multi-tenant-tree-structure.md)
 * [Automations](concepts/automations.md)
   * [Forward Device Data](concepts/automations/forward-device-data.md)
 

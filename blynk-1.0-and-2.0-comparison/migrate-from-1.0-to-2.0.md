@@ -53,7 +53,7 @@ The Blynk.Console is a no-code web application that allows you to:
 * Configure and manage devices, users, data, and organizations.&#x20;
 * Create a dashboard with multiple tabs for interacting with your devices via Widgets.
 
-If needed you can get a better understanding of the general concepts of [devices](../concepts/device.md), [templates](../concepts/device-template.md), [users](../concepts/users.md), [organizations](../concepts/organizations.md), [multi-tenancy](../concepts/multi-tenant-tree-structure.md), and automations.
+If needed you can get a better understanding of the general concepts of [devices](../concepts/device.md), [templates](../concepts/device-template.md), [users](../concepts/users/), [organizations](../concepts/organizations.md), [multi-tenancy](../concepts/users/multi-tenant-tree-structure.md), and automations.
 
 Blynk account supports an organization and sub-organizations (available in PRO and Business Plans). Members (users), devices, and locations are assigned to organizations or sub-organizations. Members may be assigned the role of 'Admin', 'Staff', or 'User'. See also the [documentation](broken-reference), and this [blog](https://blynk.io/how-to-add-users-and-give-them-access-to-your-devices).
 

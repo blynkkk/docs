@@ -14,7 +14,7 @@ Blynk platform offers a simple and flexible way to set up and manage multi-tenan
 Multi-tenancy functionality can be limited by the plan you are using. [Upgrade](https://blynk.io/pricing) to a higher plan to get complete access to this feature.
 {% endhint %}
 
-Every user of Blynk is a member of an Organization. This could be a one-person organization, a family, or a company with hundreds of employees. Additionally, every member of an organization has a role. Role controls how users access the data with a set of permissions. Read more [here](../blynk.console/settings/access.md).
+Every user of Blynk is a member of an Organization. This could be a one-person organization, a family, or a company with hundreds of employees. Additionally, every member of an organization has a role. Role controls how users access the data with a set of permissions. Read more [here](../../blynk.console/settings/access.md).
 
 Organizations can have sub-organizations and also be a part of a larger organization, forming a tree-like structure.
 
@@ -22,7 +22,7 @@ The diagram below shows imaginary companies: **United Heaters Inc.** and **Mulle
 
 
 
-<img src="../.gitbook/assets/image (41) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (41) (1).png" alt="" data-size="original">
 
 
 

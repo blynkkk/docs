@@ -9,7 +9,7 @@ Every registered user on Blynk is **always** a member of an Organization, even i
 ## **Types of users**
 
 {% hint style="info" %}
-Types of users are related to, but different from [Roles and Permission](../blynk.console/settings/access.md).
+Types of users are related to, but different from [Roles and Permission](../../blynk.console/settings/access.md).
 {% endhint %}
 
 ### **Developers**
@@ -32,9 +32,9 @@ These users can add devices and use the platform's functionality based on their 
 
 Available in Enterprise version only. These are the members of Partners organization with an _\*\*_additional set of functionality to create and manage clients. Partners could be:
 
-* Distributor 
-* Reseller 
-* Contractor 
+* Distributor&#x20;
+* Reseller&#x20;
+* Contractor&#x20;
 * Installer
 
 ## **Roles and permissions**
