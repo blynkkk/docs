@@ -130,11 +130,11 @@ There are two key ways to create a tree-like multi-level structure.
 * from the root-level organization
 * from the parent organization
 
-#### Creating a third-level organization by the root-org admin
+#### Creating a third-level organization from the root-org
 
 The flow is to [create all the organizations](organizations.md#creating-a-sub-organization) you need as sub-organizations of the root org using the 'New Organization' button and after that assign the child sub-organizations to their parent sub-organizations according to your planned structure.
 
-To assign a child sub-organization to a parent sub-organization go to Search -> ORGANIZATIONS -> My organizations -> Actions and select 'Transfer Organization' from the drop-down menu. You will be taken to a dialog where you can type in the name of a parent sub-organization or select it from the list to assign the child sub-organization to it. You will be able to review the new hierarchy before confirming the transfer.
+To assign a child sub-organization to a parent sub-organization log in as an admin of the root organization, go to Search -> ORGANIZATIONS -> My organizations -> Actions and select 'Transfer Organization' from the drop-down menu. You will be taken to a dialog where you can type in the name of a parent sub-organization or select it from the list to assign the child sub-organization to it. You will be able to review the new hierarchy before confirming the transfer.
 
 {% hint style="warning" %}
 When transferring organization, you will move all the assets, including devices, users, sub organizations (and their assets) under another organization in the hierarchy.
@@ -144,7 +144,7 @@ When transferring organization, you will move all the assets, including devices,
 The transfer can be reversed by transferring the sub-organization back.
 {% endhint %}
 
-#### Creating a third-level organization by the parent-org admin
+#### Creating a third-level organization from the parent-org
 
 The admin of the parent sub-organization creates a sub-organization of the deeper level using the common [sub-org creation flow](organizations.md#creating-a-sub-organization).
 
