@@ -44,8 +44,16 @@ Here you can see all Organizations invited users with their names, roles and inv
 
 ### More Organization management options
 
-If you need to apply more specific edits switch to Organization and proceed to [Organization Settings](settings/organization-settings/)
+{% content-ref url="organizations/create-a-sub-organization.md" %}
+[create-a-sub-organization.md](organizations/create-a-sub-organization.md)
+{% endcontent-ref %}
 
-Also there's [Transfer Organization](https://github.com/blynkkk/docs/tree/005c4b94e9d27f9d5e328f938f5b621b1168e315/blynk.console/organizations/transfer-organization.md) feature available.
+{% content-ref url="organizations/browse-and-edit-a-sub-organization.md" %}
+[browse-and-edit-a-sub-organization.md](organizations/browse-and-edit-a-sub-organization.md)
+{% endcontent-ref %}
+
+{% content-ref url="settings/organization-settings/" %}
+[organization-settings](settings/organization-settings/)
+{% endcontent-ref %}
 
 Keep in mind there are some [limits](https://docs.blynk.io/en/blynk.console/limits#organization) applicable.
