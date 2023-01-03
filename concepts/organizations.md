@@ -97,8 +97,4 @@ Note that device templates may not be viewed or edited by users in the sub-organ
 [create-a-sub-organization.md](../blynk.console/organizations/create-a-sub-organization.md)
 {% endcontent-ref %}
 
-{% content-ref url="../blynk.console/organizations/browse-and-edit-a-sub-organization.md" %}
-[browse-and-edit-a-sub-organization.md](../blynk.console/organizations/browse-and-edit-a-sub-organization.md)
-{% endcontent-ref %}
-
 Learn about existing limitations [here](../blynk.console/limits.md#organization-limits).

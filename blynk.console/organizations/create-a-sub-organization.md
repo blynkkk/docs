@@ -8,7 +8,7 @@ From the Blynk.Console sidebar, click on the ‘Organizations’ icon, and then 
 
 <figure><img src="../../.gitbook/assets/add-organization.png" alt=""><figcaption></figcaption></figure>
 
-Under the ‘Info’ tab, assign a ‘NAME’, and optionally a ‘DESCRIPTION’ and logo.  Logo image must be between 500x500px and 4096x2048 pixels. &#x20;
+Under the ‘Info’ tab, assign a ‘NAME’, and optionally a ‘DESCRIPTION’ and logo.  Logo image must be between 500x500px and 4096x2048 pixels.
 
 Click on the ‘Templates’ tab, and then click on one or more templates to be enabled for the sub-organization. Enabling a template will permit devices to be later transferred to designated users in that sub-organization.
 
@@ -46,7 +46,7 @@ When transferring organization, you will move all the assets, including devices,
 {% endhint %}
 
 {% hint style="info" %}
-The transfer can be reversed by transferring the sub-organization back.
+The transfer is a critical action that can affect how users access devices and their data. It can be reversed by transferring the sub-organization back.
 {% endhint %}
 
 #### Creating a third-level organization from the parent-org
