@@ -55,4 +55,4 @@ Here you can see all Organizations invited users with their names, roles and inv
 [organization-settings](settings/organization-settings/)
 {% endcontent-ref %}
 
-Keep in mind there are some [limits](https://docs.blynk.io/en/blynk.console/limits#organization) applicable.
+Keep in mind there are some [limits](limits.md#organization-limits) applicable.
