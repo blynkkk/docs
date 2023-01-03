@@ -49,4 +49,4 @@ Each user has a **role** in the organization**.** By default there are three mai
 * Staff
 * User
 
-Each role has a set of permissions. Read more about it here
+Each role has a set of permissions. Read more about it [here](../../blynk.console/settings/access.md).

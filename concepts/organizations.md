@@ -58,11 +58,11 @@ Sketch out your current root organization including templates, devices, and user
 
 <figure><img src="../.gitbook/assets/organizations-diagram (1).png" alt=""><figcaption><p>Multi-level organizational structure</p></figcaption></figure>
 
-In the example above in Muller Boiler Group organization user R has access to the Thermostat of the user W and vice versa, user W has access not only to their own Thermostat but also to the Boiler owned by R.&#x20;
+In the example above in Muller Boiler Group organization **user R** has access to the Thermostat of the **user W** and vice versa, **user W** has access not only to their own Thermostat but also to the Boiler owned by **R**.&#x20;
 
-For the users to have access to their own devices only, create a structure like United Heaters Inc. on the image, where a sub-organization is created for each user, so M only has access to Pool Heater, while H can only see data from their Thermostat and manage this device only.
+For the users to have access to their own devices only, create a structure like United Heaters Inc. on the image, where a sub-organization is created for each user, so **M** only has access to Pool Heater, while **H** can only see data from their Thermostat and manage this device only.
 
-User A from the parent organization has access to all devices in the sub-organizations within their hierarchy.
+**User A** from the parent organization has access to all devices in the sub-organizations within their hierarchy.
 
 Decide on roles for the users (‘Admin’, ‘Staff’, ‘User’), and what [permissions](../blynk.console/settings/access.md) you want to configure for each role.  Review this by accessing ‘Settings -> Roles and permissions’ from the sidebar.
 
