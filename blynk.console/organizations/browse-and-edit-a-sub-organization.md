@@ -58,9 +58,9 @@ You can make a particular sub-organization active from Search -> ORGANIZATIONS a
 
 <figure><img src="../../.gitbook/assets/switch-to.png" alt=""><figcaption></figcaption></figure>
 
-Once you switch to a sub-organization, you will see the templates, devices, and users assigned to the sub-organization.  The scope of devices each sub-organization user will see depends on their [device permissions](https://docs.blynk.io/en/blynk.console/settings/access#devices).
+Once you switch to a sub-organization, you will see the templates, devices, and users assigned to the sub-organization. The scope of devices each sub-organization user will see depends on their [device permissions](https://docs.blynk.io/en/blynk.console/settings/access#devices).
 
-You can navigate back to your root organization by clicking the Blynk logo at the top of the sidebar menu (top left corner).
+In this mode you can also perform all actions on the sub-organization as if you were their admin.
 
 {% hint style="info" %}
 You can navigate back to your root organization by clicking the Blynk logo at the top of the sidebar menu (top left corner).
@@ -68,12 +68,16 @@ You can navigate back to your root organization by clicking the Blynk logo at th
 
 ### How to Move a Device to a Sub-Organization
 
+Every device has one owner assigned to it. Multiple members may view and manage the same device by adjusting the device permissions by role, and assigning those roles to members.
+
 The easiest way to move a device within your org structure is to [change its ownership](../devices/actions-with-devices.md#device-transfer). You can transfer ownership from one member to another by email address.
 
-{% hint style="warning" %}
-The user to be assigned to the device, and the device itself must belong to the same organization (or sub-organization).
+{% hint style="info" %}
+The device will automatically be moved to the same organization (or sub-organization) within your hierarchy that the member assigned to it belongs to.
 {% endhint %}
 
-\
+### How to Assign a Device to a User
+
+Learn more about [device sharing](../devices/device-sharing.md) options. You can view device ownership from the [Blynk.Console ](https://docs.blynk.io/en/blynk.console/users/device-owner-view)and from a [Blynk.App](https://docs.blynk.io/en/blynk.apps/device-management). \
 
 
