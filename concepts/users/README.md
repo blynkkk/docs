@@ -30,7 +30,7 @@ These users can add devices and use the platform's functionality based on their 
 
 ### **Partners**
 
-Available in Enterprise version only. These are the members of Partners organization with an _\*\*_additional set of functionality to create and manage clients. Partners could be:
+Available in Enterprise version only. These are the members of Partners organization with an additional set of functionality to create and manage clients. Partners could be:
 
 * Distributor&#x20;
 * Reseller&#x20;
