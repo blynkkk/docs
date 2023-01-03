@@ -9,7 +9,7 @@ Every user of Blynk is a member of an Organization. This could be a one-person o
 {% hint style="warning" %}
 Creating a multi-level organizational structure is a feature available for **PRO or higher** paid plans.&#x20;
 
-The **FREE and PLUS** plans support multiple users, and assignment of roles to those users (see plan limits).
+The **FREE and PLUS** plans support multiple users, and assignment of roles to those users ([see plan limits](https://blynk.io/pricing)).
 {% endhint %}
 
 ### Introduction
@@ -30,41 +30,41 @@ Every Organization consists of:
 
 #### Users
 
-Every user of Blynk is a member of an organization. This could be a one-person organization, a family, or a company with hundreds of employees.  Every member of an organization has a role. Roles control how users access the data with a set of permissions.
+Every user of Blynk is a member of an organization. This could be a one-person organization, a family, or a company with hundreds of employees. Every member of an organization has a role. Roles control how users access the data with a [set of permissions](../blynk.console/settings/access.md).
 
 #### Templates
 
-A template must be [enabled](https://docs.google.com/document/d/1y\_PpM8KAuvTYCgAaOjuDmh5oL637Vq4Dcuel07LGCkM/edit?pli=1#bookmark=kix.6fjbrnh26jrt) for the sub-organization in order for devices associated with it to be transferred to a user.  Templates are created by the root organization. &#x20;
+A template must be [enabled](../blynk.console/organizations/browse-and-edit-a-sub-organization.md#add-templates-to-a-sub-organization) for the sub-organization in order for devices associated with it to be transferred to a user. Templates are created by the root organization. &#x20;
 
 #### Devices
 
-Every device has at least one user assigned as the owner to it via [device transfer](https://docs.blynk.io/en/blynk.console/devices/actions-with-devices#device-transfer).  [Multiple users](https://docs.blynk.io/en/blynk.console/devices/device-sharing#sharing-via-sub-organization) may view a device (see [device sharing](https://docs.blynk.io/en/blynk.console/devices/device-sharing)). &#x20;
+Every device has at least one user assigned as the owner to it via [device transfer](../blynk.console/organizations/browse-and-edit-a-sub-organization.md#how-to-move-a-device-to-a-sub-organization).  Multiple users may view a device (see [device sharing](../blynk.console/devices/device-sharing.md)). &#x20;
 
 #### Locations
 
-[Locations](https://docs.blynk.io/en/blynk.console/locations/locations) allow you to tag devices with a named location details (address and latitude/longitude).  Use sub-organizations to group users and devices, and to control access/permissions for users,  device configuration, and data. &#x20;
+[Locations](../blynk.console/locations/) allow you to tag devices with a named location details (address and latitude/longitude).  Use sub-organizations to group users and devices, and to control access/permissions for users,  device configuration, and data. &#x20;
 
 #### Sub-organizations
 
-Sub-organizations can be of four [types ](https://docs.blynk.io/en/blynk.console/settings/organization-settings/general)that are available only for Business users. For the PRO plan the sub-organization type is assigned automatically and defaults to 'client'.
+Sub-organizations can be of four [types](../blynk.console/settings/organization-settings/general.md) that are available only for Business users. For the PRO plan the sub-organization type is assigned automatically and defaults to 'client'.
 
 ### Planning Your Organization
 
 The full management and configuration is more easily accomplished using the Blynk.Console.  Blynk.App does allow you to add / invite new users and devices to the root and sub-organizations, edit many of the organization settings, and to browse the sub-organizations.
 
-You need to be logged into Blynk as a user with a role and set of permissions that will allow you to create/edit organizations, templates, users, etc.  The organization you are assigned to as a user has access only to that organization, and any sub-organizations.  The root organization user with ‘Admin’ role and default permissions is sufficient.
+You need to be logged into Blynk as a user with a role and set of permissions that will allow you to create/edit organizations, templates, users, etc. The organization you are assigned to as a user has access only to that organization, and any sub-organizations. The root organization user with ‘Admin’ role and default permissions is sufficient.
 
-Sketch out your current root organization including templates, devices, and users.  Then lay out the sub-organization and include the templates, at least one user with ‘Admin’ role, one device, and the user who will be assigned as the device owner.
+Sketch out your current root organization including templates, devices, and users. Then lay out the sub-organization and include the templates, at least one user with ‘Admin’ role, one device, and the user who will be assigned as the device owner (it can be the admin of the sub-organization or any other user assigned to the sub-organization).
 
 <figure><img src="../.gitbook/assets/organizations-diagram (1).png" alt=""><figcaption><p>Multi-level organizational structure</p></figcaption></figure>
 
 In the example above in Muller Boiler Group organization user R has access to the Thermostat of the user W and vice versa, user W has access not only to their own Thermostat but also to the Boiler owned by R.&#x20;
 
-For the users to have access only to their own devices, create a structure like United Heaters Inc. on the image, where a sub-organization is created for each user, so M only has access to Pool Heater, while H can only see data from their Thermostat and manage this device only.
+For the users to have access to their own devices only, create a structure like United Heaters Inc. on the image, where a sub-organization is created for each user, so M only has access to Pool Heater, while H can only see data from their Thermostat and manage this device only.
 
 User A from the parent organization has access to all devices in the sub-organizations within their hierarchy.
 
-Decide on roles for the users (‘Admin’, ‘Staff’, ‘User’), and what permissions you want to configure for each role.  Review this by accessing ‘Settings -> Roles and permissions’ from the sidebar.
+Decide on roles for the users (‘Admin’, ‘Staff’, ‘User’), and what [permissions](../blynk.console/settings/access.md) you want to configure for each role.  Review this by accessing ‘Settings -> Roles and permissions’ from the sidebar.
 
 {% hint style="info" %}
 Keep in mind that by default, members assigned the ‘Staff’ role will be able to see and manage devices.&#x20;
@@ -83,18 +83,22 @@ Although you can define what devices users may see and manage through roles and 
 
 
 1. Create a sub-organization
-2. [assign an administrator](https://docs.google.com/document/d/1y\_PpM8KAuvTYCgAaOjuDmh5oL637Vq4Dcuel07LGCkM/edit?pli=1#bookmark=id.7fj59ora61c5), [invite](https://docs.google.com/document/d/1y\_PpM8KAuvTYCgAaOjuDmh5oL637Vq4Dcuel07LGCkM/edit?pli=1#bookmark=kix.x92xrbhclhr6) or [transfer](https://docs.google.com/document/d/1y\_PpM8KAuvTYCgAaOjuDmh5oL637Vq4Dcuel07LGCkM/edit?pli=1#bookmark=kix.x92xrbhclhr6) the user to that sub-organization
-3. Create the device or transfer it to the user. &#x20;
+2. Assign an administrator, [invite](../blynk.console/organizations/browse-and-edit-a-sub-organization.md#invite-users-to-a-sub-organization) or [transfer](../blynk.console/organizations/browse-and-edit-a-sub-organization.md#how-to-transfer-a-user-to-another-organization) the user to that sub-organization
+3. Create the device or [transfer](../blynk.console/organizations/browse-and-edit-a-sub-organization.md#how-to-move-a-device-to-a-sub-organization) it to the user. &#x20;
 
 
 
 It is important to assign an appropriate role to the user that gives them permission to view and/or manage the devices assigned to the organization (by default, ‘User’ role is insufficient, but ‘Staff’ is). &#x20;
 
-Note that device templates may not be viewed or edited by users in the sub-organization unless you [assign a template to the sub-organization](https://docs.google.com/document/d/1y\_PpM8KAuvTYCgAaOjuDmh5oL637Vq4Dcuel07LGCkM/edit?pli=1#bookmark=kix.6fjbrnh26jrt).
+Note that device templates may not be viewed or edited by users in the sub-organization unless you [assign a template to the sub-organization](../blynk.console/organizations/browse-and-edit-a-sub-organization.md#add-templates-to-a-sub-organization).
 {% endhint %}
 
 {% content-ref url="../blynk.console/organizations/create-a-sub-organization.md" %}
 [create-a-sub-organization.md](../blynk.console/organizations/create-a-sub-organization.md)
+{% endcontent-ref %}
+
+{% content-ref url="../blynk.console/organizations/browse-and-edit-a-sub-organization.md" %}
+[browse-and-edit-a-sub-organization.md](../blynk.console/organizations/browse-and-edit-a-sub-organization.md)
 {% endcontent-ref %}
 
 Learn about existing limitations [here](../blynk.console/limits.md#organization-limits).
