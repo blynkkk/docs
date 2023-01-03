@@ -57,4 +57,4 @@ The admin of the parent sub-organization creates a sub-organization of the deepe
 As a root-org admin you can create sub-organizations under the organizations in your hierarchy if you [switch to the organization](create-a-sub-organization.md#creating-a-sub-organization) that is planned to be the parent one. Then you can act as the admin if this organization and [create a sub-organization](create-a-sub-organization.md#creating-a-sub-organization) as usual.
 {% endhint %}
 
-Learn about existing limitations [here](https://docs.blynk.io/en/blynk.console/limits#organization).
+Learn about existing limitations [here](../limits.md#organization-limits).
