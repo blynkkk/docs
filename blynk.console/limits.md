@@ -47,7 +47,7 @@ These are limits that apply to a single organization:
 
 |                                     Feature                                     | FREE | PLUS | PRO |
 | :-----------------------------------------------------------------------------: | :--: | :--: | --- |
-|                                    Templates                                    |   3  |  10  | 25  |
+|                                    Templates                                    |   3  |  10  | 50  |
 |                    [Automations](../concepts/automations.md)                    |   5  |  25  | 50  |
 | [Actions](https://docs.blynk.io/en/concepts/automations#actions) per automation |   5  |  25  | 50  |
 |                         Automation push/emails per hour                         |  20  |  20  | 20  |
