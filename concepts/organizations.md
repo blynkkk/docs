@@ -36,7 +36,7 @@ Every user of Blynk is a member of an organization. This could be a one-person o
 
 #### Templates
 
-A template must be [enabled](../blynk.console/organizations/browse-and-edit-a-sub-organization.md#add-templates-to-a-sub-organization) for the sub-organization in order for devices associated with it to be transferred to a user. Templates are created by the root organization.
+A template must be [enabled](../blynk.console/organizations/browse-and-edit-a-sub-organization.md#add-templates-to-a-sub-organization) for the sub-organization in order for devices associated with it to be transferred to a user. Templates can be created, edited or deleted only by the root organization.
 
 #### Devices
 
