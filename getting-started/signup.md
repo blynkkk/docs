@@ -12,11 +12,11 @@ A valid email address is required to create a new account.
 If you are a Blynk 1.0 user, you have to create a new account.
 {% endhint %}
 
-User account is needed to enable secure access to your data from different clients \(iOS, Android, Web Browser\) and from anywhere in the world.
+User account is needed to enable secure access to your data from different clients (iOS, Android, Web Browser) and from anywhere in the world.
 
 * Blynk doesn't and will never sell your data to any other companies and passwords are always stored encrypted
-* Blynk doesn't track you with any 3-d party scripts, services or cookies
-* Blynk only gathers anonymous mobile app usage analytics in order to improve user experience
+* Blynk doesn't track your activity on other websites and apps
+* Blynk only gathers anonymous aggregated web and mobile app usage analytics in order to improve user experience
 
 Your privacy is our default priority.
 
@@ -25,7 +25,7 @@ You can create a new account either in [Blynk.Apps](https://docs.blynk.io/en/pla
 ## **Sign Up**
 
 * Open the [Blynk app for iOS or Android](../downloads/blynk-apps-for-ios-and-android.md) or go to [Blynk.Console](https://blynk.cloud).
-* You'll get to the first screen after application launch \(in case you're not logged in\):
+* You'll get to the first screen after application launch (in case you're not logged in):
 
 ![](https://user-images.githubusercontent.com/72790181/119364178-4fdf3f80-bcb7-11eb-9cd4-37461c57185c.png)
 
@@ -33,13 +33,13 @@ You can create a new account either in [Blynk.Apps](https://docs.blynk.io/en/pla
 
 ![Sign up](https://user-images.githubusercontent.com/72790181/119994051-e7ed6980-bfd4-11eb-8518-78b33ead5d9e.png)
 
-* Enter your E-mail, read and agree to the Terms and Conditions.  
+* Enter your E-mail, read and agree to the Terms and Conditions. &#x20;
 * Tap **Continue** and check your inbox for an Email with instructions.
 
 ![Email sent](https://user-images.githubusercontent.com/72790181/119364440-93d24480-bcb7-11eb-81fe-c052382d5f6e.png)
 
 {% hint style="info" %}
-Tap Resend a Link if you can't find the invitation email \(also mind checking Spam folder\) after 1 minute interval\) to send it again.
+Tap Resend a Link if you can't find the invitation email (also mind checking Spam folder) after 1 minute interval) to send it again.
 {% endhint %}
 
 * In the email you get tap **Create Password** button. The link will return you to the application.
@@ -65,13 +65,13 @@ Once you've finished with Profile setup your Sign Up is complete and you can add
 
 ![](https://user-images.githubusercontent.com/72790181/119365340-8073a900-bcb8-11eb-9bd5-5f3cc78948f4.png)
 
-* Input your account Email and password  
+* Input your account Email and password &#x20;
 * Tap **Log In** button
 
 ![Log In](https://user-images.githubusercontent.com/72790181/119365363-87022080-bcb8-11eb-877d-a9964b36a398.png)
 
 {% hint style="success" %}
-Once you've logged in, Devices tab will be opened.  
+Once you've logged in, Devices tab will be opened.\
 Here you can [add ](../blynk.apps/device-management/add-new-device.md)and [view and manage](../blynk.apps/device-management/) your devices or switch to [Developer Mode](developer-mode.md).
 {% endhint %}
 
@@ -79,17 +79,17 @@ Here you can [add ](../blynk.apps/device-management/add-new-device.md)and [view 
 
 ## Password Reset
 
-If you forgot your account password, you can restore it by sending reset password link to your Email.  
+If you forgot your account password, you can restore it by sending reset password link to your Email.\
 Follow the steps below:
 
-1. Launch Blynk.Apps
+1. Launch Blynk.Apps or go to Blynk.Console
 2. tap **Log In** button
 3. _type your Email_
 4. tap **Forgot password?** string
 
 ![Log In](https://user-images.githubusercontent.com/72790181/119365430-984b2d00-bcb8-11eb-9886-ccc21be14284.png)
 
-* Confirm reset password link sending by tap on the **Send** button 
+* Confirm reset password link sending by tap on the **Send** button&#x20;
 
 ![Forgot password screen](https://user-images.githubusercontent.com/72790181/119365594-be70cd00-bcb8-11eb-9865-b7fc91e3e23a.png)
 
@@ -104,7 +104,7 @@ The link will be sent to the Email that was linked to your Blynk account during 
 * Check your Email inbox please
 
 {% hint style="warning" %}
-If you can't find _Reset your password letter_ in your inbox for a long period of time \(it takes less than 1 minute to be delivered normally\), check your Spam folder please. Otherwise, re-send the link from Blynk.Apps
+If you can't find _Reset your password letter_ in your inbox for a long period of time (it takes less than 1 minute to be delivered normally), check your Spam folder please. Otherwise, re-send the link from Blynk.Apps
 {% endhint %}
 
 * Tap **Reset Password** button you've got in the Email
@@ -116,17 +116,17 @@ Once you've tapped **Reset Password** button, you'll be redirected back to Blynk
 {% endhint %}
 
 {% hint style="info" %}
-We recommend to keep up to recommendations you see on the screen for security means.  
-Check the strength-meter that is intended to assist you in generating strong password.  
+We recommend to keep up to recommendations you see on the screen for security means.\
+Check the strength-meter that is intended to assist you in generating strong password.\
 You can check the password for typos with the tap on the \_eye pictogram.
 {% endhint %}
 
-* Tap **Save** button to submit new password  
+* Tap **Save** button to submit new password &#x20;
 
 ![Set new password](https://user-images.githubusercontent.com/72790181/119365819-01cb3b80-bcb9-11eb-8e9d-fcae1bc817ba.png)
 
 {% hint style="success" %}
-Your account password is successfully changed.  
+Your account password is successfully changed.\
 You'll get UI an Email confirmation about that.
 {% endhint %}
 
@@ -135,4 +135,3 @@ You'll get UI an Email confirmation about that.
 ![Password changed](https://user-images.githubusercontent.com/72790181/119366118-4c4cb800-bcb9-11eb-8047-c686c82dc74e.png)
 
 * Tap **Back to Login** button and [sign in](https://docs.blynk.io/en/getting-started/signup#sign-in) to your account.
-
