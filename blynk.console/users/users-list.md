@@ -33,8 +33,6 @@ On clicking filter icon select desired option(s) from the drop-down menu and pre
 * **Name** – opens Email containing hint. Click on it to copy user's Email address
 * **User role** – click opens [Role Permissions list](../settings/access.md) on the right part of the screen&#x20;
 
-
-
 ### Bulk actions on users
 
 The  **Bulk Action** available here is to Apply Tag, Export Users (CSV) and Delete the users.&#x20;
@@ -58,8 +56,7 @@ The  **Bulk Action** available here is to Apply Tag, Export Users (CSV) and Dele
 1. Select all users by marking **checkbox** in columns naming row or specify users selection by marking each user's checkbox.
 2. Once users selection is made **Delete** button appears on the top right of the screen.
 3. Don't worry, there's a prompt  "Are You Sure You Want To Delete Selected Users?" with **Cancel** and **Yes, Delete** buttons.
-4. Confirm or cancel the action\
-
+4. Confirm or cancel the action
 
 ### Single actions on users
 
@@ -79,8 +76,6 @@ The  **Bulk Action** available here is to Apply Tag, Export Users (CSV) and Dele
 * **Delete Account** – modal window will appear. Type DELETE and confirm the action are required.
 
 ![Delete User modal window](../../.gitbook/assets/delete\_user\_modal.gif)
-
-
 
 ## Invite New User
 
