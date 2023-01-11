@@ -4,6 +4,8 @@ description: Access and permissions management for different user roles
 
 # Roles and Permissions
 
+Free and Plus plans have a locked set of permissions for each role, meaning the default permissions by role cannot be changed. PRO and Business plans have permissions that may be edited by role.
+
 ## Roles and Permissions
 
 ![](../../.gitbook/assets/roles\_and\_perms.gif)
@@ -31,42 +33,47 @@ Blynk has 3 default roles that can have different sets of permissions:
 
 #### Users
 
-* View users (currently it's under "Invite new users")
-* Change User Password -> Change user passwords
-* Allow force log out -> Force logout
-* Send Action Log -> Send user action logs
-* Transfer User -> Transfer users
+* View users
+* Invite new users
+* Edit users
+* Delete users
+* Change user passwords
+* Force Logout
+* View user actions log
+* Transfer users
+* Download users list
+* Suspend users
 
 #### Devices
 
 > Own Devices
 
 * View devices (currently it's under "Provision new devices")
-* Delete device data -> Delete device data
-* Download report -> Download reports
-* View Timeline -> View timeline
+* Delete device data
+* Download reports
+* View timeline
 
 > Organization Devices
 
 * View devices (currently it's under "Add new devices from web")
-* Add new devices from web -> Add new devices from using web app
-* Delete device data -> Delete data from devices
-* Download report -> Download reports
-* Access Service Tab -> Access service tab
+* Add new devices from using web app
+* Delete data from devices
+* Download reports
+* Access service tab
 
-> Auth Token -> Auth Tokens
+> Auth Tokens
 
-* Edit Auth Token -> Edit auth tokens
+* Edit auth tokens
 
-> Transfer -> Transfers
+> Transfers
 
-* Transfer Device -> Transfer devices
+* Transfer devices
 
 #### Blynk.Air: Firmware Over-The-Air Updates
 
-* Get Access -> Get access
-* Create New Firmware Shipment -> Create new firmware shipments
-* Stop/Pause Shipment -> Stop/pause shipments
+* Get access
+* Create new firmware shipments
+* Stop/pause shipments
 
 #### Templates
 
@@ -74,47 +81,48 @@ Blynk has 3 default roles that can have different sets of permissions:
 
 #### Organizations
 
-* Access Organization Settings -> Access organization settings
-* Switch to Sub-Organizations -> Switch to sub-organizations
-* Transfer Organization -> Transfer organizations
+* Access organization settings
+* Switch to sub-organizations
+* Transfer organizations
 
 > Owned Locations
 
-* View Location -> View locations
-* Create new locations (it doesn't exist at all) – not needed
-* Edit Location -> Edit locations
-* Delete Location -> Delete locations
-* Assign user to location -> Assign users to locations
+* View locations
+* Create new locations
+* Edit locations
+* Delete locations
+* Assign users to locations
 
-> Organization Locations -> Organization's Locations
+> Organization's Locations
 
-* View Location -> View locations
-* Create New Location -> Create new locations (and currently it's under "Edit Location")
-* Edit Location -> Edit locations
-* Delete Location -> Delete locations
-* Assign user to location -> Assign users to locations
+* View locations
+* Create new locations
+* Edit locations
+* Delete locations
+* Assign users to locations
 
 > Automations
 
-* View Automation -> View automations (and currently it's under "Edit Automation")
-* Create Automation -> Create automations
-* Edit Automation -> Edit automations
-* Delete Automation -> Delete automations
+* View automations
+* Create automations
+* Edit automations
+* Delete automations
+* Execute automations
 
 > Developer API
 
-* View OAuth Token -> View OAuth token settings (and currently it's under "Edit OAuth Token")
-* Create OAuth Token -> Create OAuth tokens
-* Edit OAuth Token -> Edit OAuth tokens
-* Delete OAuth Token -> Delete OAuth tokens
+* View OAuth token settings
+* Create OAuth tokens
+* Edit OAuth tokens
+* Delete OAuth tokens
 
 > **Analytics**
 
-* View Analytics -> View analytics
+* View analytics
 
 > **Rule Engine (under development)**
 
-* View Rule Group -> View rule groups
-* Create rule groups (it doesn't exist at all)
-* Edit Rule Group -> Edit rule groups
-* Delete rule groups (it doesn't exist at all)
+* View rule groups
+* Create rule groups
+* Edit rule groups
+* Delete rule groups
