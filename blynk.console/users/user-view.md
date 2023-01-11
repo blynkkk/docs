@@ -10,7 +10,7 @@ Search by typing the part or the whole Name, Email,  Role or Location. The resul
 
 ![](../../.gitbook/assets/all-users-list.-1png.png)
 
-By clicking on the **Name** of a user in the List of Users**,** **User Profile** will open where you can see information about that specific user.
+By clicking on the **Name** of a user in the List of Users or on the **Device owner's name** in the List of Devices, **User Profile** will open where you can see detailed information about that specific user.
 
 ## User Profile
 
