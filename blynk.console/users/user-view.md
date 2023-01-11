@@ -1,19 +1,16 @@
 # User Profile
 
-You can see advanced information about a specific User in the **Search -> Users** section or **Settings -> Organization settings -> Users** (in the second case only users in current organization are visible).
+You can find a specific user going to **Search -> Users** section or **Settings -> Organization settings -> Users** (in the second case only users in current organization are visible).
 
 ## Search
 
-You can search for a specific user by typing the part or the whole Name, Email,  Role or Location.\
-The result (multiple results are possible) will be given in the Users table.&#x20;
-
 ![](../../.gitbook/assets/search-user.png)
 
-
+Search by typing the part or the whole Name, Email,  Role or Location. The result (multiple results are possible) will be given in the Users table.&#x20;
 
 ![](../../.gitbook/assets/all-users-list.-1png.png)
 
-By clicking on the **Name** of a User in the **List of Users,** you can see information about a specific user.
+By clicking on the **Name** of a user in the List of Users**,** **User Profile** will open where you can see information about that specific user.
 
 ## User Profile
 
