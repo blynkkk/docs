@@ -72,7 +72,6 @@
 * [Users](blynk.console/users/README.md)
   * [List of Users](blynk.console/users/users-list.md)
   * [User Profile](blynk.console/users/user-view.md)
-  * [Device Owner View](blynk.console/users/device-owner-view.md)
 * [Device Templates](blynk.console/templates/README.md)
   * [Working With Templates](blynk.console/templates/working-with-templates.md)
   * [Info](blynk.console/templates/info/README.md)

@@ -78,6 +78,6 @@ The device will automatically be moved to the same organization (or sub-organiza
 
 ### How to Assign a Device to a User
 
-Learn more about [device sharing](../devices/device-sharing.md) options. You can view device ownership from the [Blynk.Console](../users/device-owner-view.md) and from a Blynk.App (upon selecting a device tap on (...) and select the Information tab). \
+Learn more about [device sharing](../devices/device-sharing.md) options. You can view device ownership from the [Blynk.Console](broken-reference) and from a Blynk.App (upon selecting a device tap on (...) and select the Information tab). \
 
 
