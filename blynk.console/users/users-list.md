@@ -20,17 +20,18 @@ This table shows the Organization's users information:
 
 ### Table interaction
 
-All the columns support sorting.
 
-Role and Status columns support additional filtering option.\
-Select desired option(s) from the menu appears on clicking filter icon and press OK in order to change the table view. Click reset in the same menu if you want to return to default table view.
+
+All columns support sorting.
+
+Role and Status columns support additional filtering option (multiple choice).\
+On clicking filter icon select desired option(s) from the drop-down menu and press OK in order to change the table view. Click reset in the same menu if you want to return to default table view.
 
 #### Hover options:
 
 * **Initials** – shows check bocks allowing to select the user for further Bulk Actions
 * **Name** – opens Email containing hint. Click on it to copy user's Email address
-* **User role** – click opens [Role Permissions list](../settings/access.md) on the right part of the screen \
-
+* **User role** – click opens [Role Permissions list](../settings/access.md) on the right part of the screen&#x20;
 
 
 
@@ -41,22 +42,14 @@ The  **Bulk Action** available here is to Apply Tag, Export Users (CSV) and Dele
 1. Select all users by marking **checkbox** in columns naming row or specify users selection by marking each user's checkbox.
 2. Once users selection is made **Apply Tag** button appears on the top right of the screen.
 3. In the modal window that appears, select **a Tag** from **the List of Tags.**
-4. Confirm or cancel the action
+4. Confirm or cancel the action.
 
 ### Export Users (CSV)
 
 1. Select all users by marking **checkbox** in columns naming row or specify users selection by marking each user's checkbox.
 2. Once users selection is made **Export Users (CSV)** button appears on the top right of the screen.
-3. File is ready You can download it now.
-4. Confirm or cancel the action
-
-### Notifications Settings
-
-1. Select all users by marking **checkbox** in columns naming row or specify users selection by marking each user's checkbox.
-2. Once users selection is made **Notifications Settings** button appears on the top right of the screen.
-3.
-
-
+3. File is ready. You can download it now.
+4. Confirm or cancel the action.
 
 ### Delete the users
 
@@ -87,23 +80,7 @@ The  **Bulk Action** available here is to Apply Tag, Export Users (CSV) and Dele
 
 
 
-
-
-
-
-
-
-###
-
-
-
-
-
-
-
 ## Filters
-
-## Actions
 
 ## Invite New User
 
