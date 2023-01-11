@@ -60,3 +60,6 @@ _**Warning**_**:** All data associated with your account will be deleted permane
 
 Click to end the session.\
 You will be redirected to Sign In / Sign Up screen.
+
+### Developer mode
+
