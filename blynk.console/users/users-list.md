@@ -1,6 +1,6 @@
 # List of Users
 
-<figure><img src="../../.gitbook/assets/users-table.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/users-table 2.png" alt=""><figcaption></figcaption></figure>
 
 ## Users table
 
