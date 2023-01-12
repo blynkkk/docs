@@ -2,18 +2,18 @@
 
 Webhooks could be found in the **Developers** section of the **Settings** menu:
 
-![](../../../.gitbook/assets/webhook-menu.png)
+![Webhooks menu item](../../../.gitbook/assets/webhook-menu.png)
 
-![](../../../.gitbook/assets/webhooks.png)
+![Webhooks list](../../../.gitbook/assets/webhooks.png)
 
-If you don't see this section, this means you don't have permissions to access the webhooks. Please contact your administrator for the access rights.
+If you don't see this section, this means you don't have permission to access the webhooks. Please contact your administrator for access rights.
 
 In the view above you can find 5 specific columns:
 
 * **Webhook name**
 * **Status** – webhooks can be enabled or disabled for execution
 * **Trigger event** – displays the action that causes the webhook to run
-* **Last triggered** – displays last execution time in hh:mm:ss M D, Y format (current year is hidden)
+* **Last triggered** – displays last execution time in hh:mm:ss M D, Y format (the current year is hidden)
 * **Attempts** – counter of all (_successful, failed, test, real action_) attempts to execute the webhook
 
 ### Actions
@@ -27,14 +27,17 @@ In the view above you can find 5 specific columns:
 
 ## New Webhook
 
-![](../../../.gitbook/assets/new-webhook.gif)
+![Webhook create form](../../../.gitbook/assets/new-webhook.gif)
 
 * **Webhook Name** – Use only letters, digits, -, ' and spaces up to 80 characters.&#x20;
-* **Webhook Trigger Event** – Blynk.Console event that will trigger webhook execution. Click the field to open events list and select one of the following:
-  * New User Added
-  * User Deleted
-  * User Metadata Updated
-  * New Device Added by User&#x20;
+* **Webhook Trigger Event** – Blynk.Console event that will trigger webhook execution. Click the field to open the events list and select one of the following:
+  * Device Sends Data to Datastream
+  * New User Added (only for Business plan)
+  * User Deleted (only for Business plan)
+  * User Metadata Updated (only for Business plan)
+  * New Device Added by User  (only for Business plan)
+  * Device Connected For A First Time (only for Business plan)
+  * New User Self-Regsitered (only for Business plan)
 * **Webhook URL** – input webhook destination https:// link &#x20;
 * **Request Type** – select supported [HTTP method](https://www.restapitutorial.com/lessons/httpmethods.html):
   * Post – create
