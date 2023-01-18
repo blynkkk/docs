@@ -6,9 +6,11 @@ The button is made to turn something on and off on your device. However, it can 
 
 ### Datastream
 
-Select the Datastream to send values from the button to. If you would like to change properties of the widget, you would need Datastream as well.&#x20;
+Select the Datastream to send values from the button to device.&#x20;
 
-###
+If you would like to change [properties](https://docs.blynk.io/en/blynk.apps/widgets-app/button#change-button-properties) (color, label, etc.) of the widget, you would need a Datastream as well.&#x20;
+
+
 
 ### Mode
 
@@ -93,15 +95,23 @@ You can also update the state of the button from hardware.
 Blynk.virtualWrite(vPin, HIGH);
 ```
 
+or
+
+```cpp
+Blynk.virtualWrite(vPin, 1);
+```
+
 {% hint style="danger" %}
-Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, or use timers.
+Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](https://docs.blynk.io/en/blynk.edgent-firmware-api/blynk-timer).
 {% endhint %}
+
+##
 
 ## Change Button Properties
 
 You can change certain properties of the Widget from your hardware. For that, use this command:&#x20;
 
-```
+```cpp
 Blynk.setProperty(vPin, "widgetProperty", "propertyValue"); 
 ```
 
