@@ -70,7 +70,6 @@
   * [Create a Sub-Organization](blynk.console/organizations/create-a-sub-organization.md)
   * [Browse & Edit a Sub-Organization](blynk.console/organizations/browse-and-edit-a-sub-organization.md)
 * [Users](blynk.console/users/README.md)
-  * [List of Users](blynk.console/users/users-list.md)
   * [User Profile](blynk.console/users/user-view.md)
 * [Device Templates](blynk.console/templates/README.md)
   * [Working With Templates](blynk.console/templates/working-with-templates.md)
