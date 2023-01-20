@@ -87,7 +87,7 @@ The  **Bulk Action** available here is to Apply Tag, Export Users (CSV) and Dele
 
 You can invite users that don’t currently have a Blynk account and assign them the [roles](../settings/access.md) of ‘Admin’, ‘Staff’, or ‘User’. Go to Search -> Users and click the 'Invite New User' button.
 
-![](<../../.gitbook/assets/image (19).png>)
+<img src="../../.gitbook/assets/image (19).png" alt="" data-size="original">
 
 Fill out the short form to invite the user to current organization.
 
@@ -100,9 +100,5 @@ Fill out the short form to invite the user to current organization.
 Click **Invite** once all is done here. The invitation letter will be sent to user's Email and user account will appear in the current organization user list as Pending until they create their password and log in at least once.
 
 If you need to add a user to a specific organization, [switch to that organization](../organizations/browse-and-edit-a-sub-organization.md#switching-to-a-sub-organization) first. Then use the same procedure as above or invite the user to current organization and then [transfer](../organizations/browse-and-edit-a-sub-organization.md#how-to-transfer-a-user-to-another-organization) them as needed.
-
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-
 
 Existing Blynk members will need to be [transferred](./#how-to-transfer-a-user-to-another-organization).
