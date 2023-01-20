@@ -10,6 +10,8 @@ When a user subscribes to a [Blynk plan](https://blynk.io/pricing), they become 
 
 Free and Plus plans have a locked set of permissions for each role, meaning the default permissions by role cannot be changed. PRO and Business plans have permissions that may be edited by role.
 
+
+
 ## User management
 
 Blynk takes care of all key use cases required for user management: inviting users, account registration, password changes, assigning roles and devices, managing permissions, account deletion.
@@ -40,9 +42,7 @@ It is possible for any user to reset their password in their User profile either
 
 Organization admin can [delete any user's account](../../blynk.console/users/#single-actions-on-users) within their organization.
 
-#### Grouping users into organizations
 
-To simplify access management to devices PRO and Business plan users can group their clients and devices into multi-level [organizations](../organizations.md).
 
 ### **Types of users**
 
@@ -58,7 +58,7 @@ Users of this type have access to all the functionality required to configure th
 Currently, only one developer is allowed per Organization to avoid sync issues. This limit might be changed later.
 {% endhint %}
 
-
+If you want some other user to be a developer in your organization you should first switch off the [dev mode](../../getting-started/developer-mode.md) in your account either in Blynk.Console or Blynk.App. After that the other user can switch it on.
 
 #### **End-users (Clients)**
 
@@ -75,6 +75,8 @@ Available in Enterprise version only. These are the members of Partners organiza
 
 As partners functionality is only available in the Business plans the exact set of permissions for these additional user types can be configured according to the client’s needs.
 
+
+
 ### **Manage roles and permissions**
 
 {% hint style="info" %}
@@ -89,3 +91,8 @@ Each user has a **role** in the organization**.** By default there are three mai
 
 Each role has a set of permissions. With Free and Plus plans you can change permissions for a specific user by changing their role. PRO and Business plans allow editing permissions by role. Read more about it [here](../../blynk.console/settings/access.md).
 
+
+
+### Group users into organizations
+
+To simplify access management to devices PRO and Business plan users can group their clients and devices into multi-level [organizations](../organizations.md).
