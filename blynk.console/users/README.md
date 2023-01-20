@@ -53,11 +53,11 @@ All columns support sorting.
 Role and Status columns support additional filtering option (multiple choice).\
 On clicking filter icon select desired option(s) from the drop-down menu and press OK in order to change the table view. Click reset in the same menu if you want to return to default table view.
 
-#### Hover options:
+#### Hover/click options:
 
-* **Initials** – shows check bocks allowing to select the user for further Bulk Actions
-* **Name** – opens Email containing hint. Click on it to copy user's Email address
-* **User role** – click opens [Role Permissions list](../settings/access.md) on the right part of the screen&#x20;
+* **Initials** – shows check boxes allowing to select the user for further bulk actions
+* **Name** – shows the hint with the user's Email. Click on it to copy
+* **User role** – click opens [Permissions list](../settings/access.md) for this role in the right part of the screen&#x20;
 
 
 
