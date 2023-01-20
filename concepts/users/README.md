@@ -1,14 +1,12 @@
----
-description: Types of users
----
-
 # Users
 
-Every registered user of Blynk is a member of an organization. This could be a one-person organization, or a company with hundreds of employees.  Every member of an organization has a [role](https://docs.blynk.io/en/blynk.console/settings/access#roles-and-permissions) and is of certain [type](./#types-of-users). Roles control how users access the data according to a [set of permissions](https://docs.blynk.io/en/blynk.console/settings/access).&#x20;
+Blynk allows you to share devices with other users - from a few to thousands - and takes care of all key use cases required for user management: inviting users, account registration, password changes, assigning roles and devices, managing permissions, account deletion.
+
+Blynk platform offers a simple and flexible way to set up and manage multi-tenant IoT applications at any scale. Users can be grouped in [organizations](../organizations.md). Every member of an organization has a [role](./#manage-roles-and-permissions) and is of certain [type](./#types-of-users). Roles control how users access the data according to a [set of permissions](../../blynk.console/settings/access.md).&#x20;
 
 ### Limits by Plan
 
-When a user subscribes to a [Blynk plan](https://blynk.io/pricing), they become by default a user of type [Developer](./#developers),  assigned the role of [Admin](./#roles-and-permissions) to the [root organization](../organizations.md). The number of additional users varies by [plan](https://blynk.io/pricing), and so does the ability to revise the [set of permissions](../../blynk.console/settings/access.md) for each [role](https://docs.blynk.io/en/blynk.console/settings/access#roles-and-permissions). &#x20;
+When a user subscribes to a [Blynk plan](https://blynk.io/pricing), they become by default a user of type [Developer](./#developers),  assigned the role of [Admin](./#roles-and-permissions) to the [root organization](../organizations.md). The number of additional users varies by [plan](https://blynk.io/pricing), and so does the ability to revise the [set of permissions](../../blynk.console/settings/access.md) for each role. &#x20;
 
 Free and Plus plans have a locked set of permissions for each role, meaning the default permissions by role cannot be changed. PRO and Business plans have permissions that may be edited by role.
 
@@ -43,7 +41,7 @@ Available in Enterprise version only. These are the members of Partners organiza
 
 As partners functionality is only available in the Business plans the exact set of permissions for these additional user types can be configured according to the client’s needs.
 
-### **Roles and permissions**
+### **Manage roles and permissions**
 
 {% hint style="info" %}
 Access to user management including roles and permissions depends on your [plan](https://blynk.io/pricing).
@@ -55,9 +53,37 @@ Each user has a **role** in the organization**.** By default there are three mai
 * **Staff** – we recommend to set up and use this role for internal company functions and client support
 * **Users** – is intended to have the most limited set of permissions, mostly focused on managing their own devices
 
-Each role has a set of permissions. Read more about it [here](../../blynk.console/settings/access.md).
+Each role has a set of permissions. With Free and Plus plans you can change permissions for a specific user by changing their role. PRO and Business plans allow editing permissions by role. Read more about it [here](../../blynk.console/settings/access.md).
 
+### User management
 
+Blynk takes care of all key use cases required for user management: inviting users, account registration, password changes, assigning roles and devices, managing permissions, account deletion.
+
+#### Add user&#x20;
+
+There are multiple ways of adding users to Blynk and they differ by plan.
+
+It is possible for all plans to invite a user to your organization and assign them a selected [role](./#manage-roles-and-permissions) either from Blynk.Console or Blynk.App.
+
+Your users can self-register if you are on any variant of a Business plan. Blynk is working on making it possible for PRO clients as well with an add-on.
+
+#### Assign a device to a user
+
+If your clients activate their devices themselves with [WiFi provisioning](../../commercial-use/deploying-products-with-dynamic-authtokens.md) or a [Static token](../../commercial-use/deploying-products-with-static-authtokens.md), the device is assigned to the user automatically.
+
+If you are not using provisioning and already have both the user and the device in your account you can [transfer device ownership](../../blynk.console/devices/actions-with-devices.md#device-transfer) to that user for them to be able to view and control it.
+
+#### Change password
+
+It is possible for any user to reset their password in their User profile either [in Blynk.Console](../../blynk.console/user-profile.md#reset-password) or in [Blynk.App](../../blynk.apps/profile-management/my-profile.md). Organization admin can also [reset password for any user](../../blynk.console/users/#single-actions-on-users) within their organization.
+
+#### Delete user
+
+Organization admin can [delete any user's account](../../blynk.console/users/#single-actions-on-users) within their organization.
+
+#### Grouping users into organizations
+
+To simplify access management to devices PRO and Business plan users can group their clients and devices into multi-level [organizations](../organizations.md).
 
 
 
