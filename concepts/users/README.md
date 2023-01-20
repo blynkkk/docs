@@ -26,7 +26,9 @@ It is possible for all plans to invite a user to your organization and assign th
 it is only possible to invite users if they don't have a Blynk account associated with this email. In other cases they should either delete their account before being invited or use some other email.
 {% endhint %}
 
-Your users can [self-register](../../commercial-use/business-plan-white-label-assets/application-settings/sign-up.md) if you are on any variant of a Business plan. Blynk is working on making it possible for PRO clients as well with an add-on.
+**PRO, Plus, Free plans:** In order to give other users access to your devices, you will need to first invite each user to your organization (or to a sub-organization under yours if you are on PRO). The user will get an invitation sent to their email address and, will be asked to create a password for their Blynk account and then will be able to activate their device with Blynk. Here you can find more information about how to deploy your [WiFi](../../commercial-use/deploying-products-with-dynamic-authtokens.md#delivering-products-to-clients-pro-plan-workflow) and [non-WiFi products](../../commercial-use/deploying-products-with-static-authtokens.md#pro-plan-workflow) to customers using Blynk PRO.
+
+**Business plan:** This plan eliminates the need to invite each user via email and allows [self-registration](../../commercial-use/business-plan-white-label-assets/application-settings/sign-up.md). The user can simply purchase your device, follow the instructions to create an account in your Blynk-powered app / web portal and activate their device. Blynk is working on making it possible for **PRO clients** as well with an add-on.
 
 #### Assign a device to a user
 
