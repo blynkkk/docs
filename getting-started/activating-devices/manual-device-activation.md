@@ -78,7 +78,7 @@ Choose a Template and give your new device a name
 
 After the device was created, you will get the notification with TemplateID and AuthToken. Also, this info is always available in Device View -> Device Info
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (2).png>)
 
 Now you have all the information you need to update your sketch:
 

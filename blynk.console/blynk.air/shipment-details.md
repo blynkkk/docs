@@ -16,4 +16,4 @@ A list of devices and other useful data will be displayed:
 
 To see the shipment details related to a single device click it's name:
 
-![](<../../.gitbook/assets/image (19).png>)
+![](<../../.gitbook/assets/image (19) (1).png>)
