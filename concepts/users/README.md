@@ -1,8 +1,6 @@
 # Users
 
-Blynk allows you to share devices with other users - from a few to thousands - and takes care of all key use cases required for user management: inviting users, account registration, password changes, assigning roles and devices, managing permissions, account deletion.
-
-Blynk platform offers a simple and flexible way to set up and manage multi-tenant IoT applications at any scale. Users can be grouped in [organizations](../organizations.md). Every member of an organization has a [role](./#manage-roles-and-permissions) and is of certain [type](./#types-of-users). Roles control how users access the data according to a [set of permissions](../../blynk.console/settings/access.md).&#x20;
+Blynk allows you to share devices with other users - from a few to thousands and offers a simple and flexible way to set up and manage multi-tenant IoT applications at any scale. Users can be grouped in [organizations](../organizations.md). Every member of an organization has a [role](./#manage-roles-and-permissions) and is of certain [type](./#types-of-users). Roles control how users access the data according to a [set of permissions](../../blynk.console/settings/access.md).&#x20;
 
 ### Limits by Plan
 
