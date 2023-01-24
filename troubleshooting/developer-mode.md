@@ -110,14 +110,9 @@ void loop()
   \
   **Note:** using `delay()` will not solve the problem either. It may cause [Delay issue](https://docs.blynk.io/en/troubleshooting/developer-mode#delay). Use timers!
 
-If sending hundreds of requests is what you need for your product you may increase flood limit on local server and within Blynk.Library. For local server you need to change `user.message.quota.limit` property within `server.properties` file :
+If sending hundreds of requests is what you need for your product you may increase flood limit within Blynk.Library.&#x20;
 
-```
-    #100 Req/sec rate limit per user.
-    user.message.quota.limit=100
-```
-
-For library you need to change `BLYNK_MSG_LIMIT` property within `BlynkConfig.h` file :
+Change `BLYNK_MSG_LIMIT` property within `BlynkConfig.h` file :
 
 ```
     //Limit the amount of outgoing commands.
