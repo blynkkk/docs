@@ -13,37 +13,6 @@ A code example for ESP32/ ESP8266 / Arduino boards
 
 **Final step:** [Provision your board via Dynamic Provisioning](https://docs.blynk.io/en/getting-started/activating-devices/blynk-edgent-wifi-provisioning) flow and add it to your account using Blynk app
 
-Example of a code with **basic functions** that you can use for your test product:
-
-```cpp
-#define BLYNK_TEMPLATE_ID             ""
-#define BLYNK_DEVICE_NAME             ""
-
-#define BLYNK_FIRMWARE_VERSION        "0.1.0"
-
-#define BLYNK_PRINT Serial
-//#define BLYNK_DEBUG
-
-#define APP_DEBUG
-
-// Uncomment your board, or configure a custom board in Settings.h
-//#define USE_WROVER_BOARD
-
-#include "BlynkEdgent.h"
-
-void setup()
-{
-  Serial.begin(115200);
-  delay(100);
-
-  BlynkEdgent.begin();
-}
-
-void loop() {
-  BlynkEdgent.run();
-}
-```
-
 ## **Defining your physical button and LED**
 
 To enhance the user experience it's recommended that you plan these things into your electrical design:&#x20;
@@ -207,20 +176,18 @@ Select the example for the hardware you use. We will use the one for Arduino UNO
 ```
 #define BLYNK_PRINT Serial
 
-/* Fill-in your Template ID (only if using blynk.cloud) */
-#define BLYNK_TEMPLATE_ID             ""
-#define BLYNK_DEVICE_NAME             ""
+#define BLYNK_TEMPLATE_ID      "TMPL••••••••"
+#define BLYNK_TEMPLATE_NAME    "My First Device"
+#define BLYNK_AUTH_TOKEN       "••••••••••••••••••••••••"
 
 #include <SPI.h>
 #include <Ethernet.h>
 #include <BlynkSimpleEthernet.h>
 
-char auth[] = "YourAuthToken";
-
 void setup()
 {
-  Serial.begin(9600);
-  Blynk.begin(auth);
+  Serial.begin(115200);
+  Blynk.begin(BLYNK_AUTH_TOKEN);
 }
 
 void loop()
@@ -232,12 +199,9 @@ void loop()
 Pay attention to these 3 lines: you would need to fill them.
 
 ```cpp
-...
-#define BLYNK_TEMPLATE_ID             ""
-#define BLYNK_DEVICE_NAME             ""
-...
-char auth[] = "YourAuthToken";
-...
+#define BLYNK_TEMPLATE_ID      "TMPL••••••••"
+#define BLYNK_TEMPLATE_NAME    "My First Device"
+#define BLYNK_AUTH_TOKEN       "••••••••••••••••••••••••"
 ```
 
 
@@ -277,20 +241,18 @@ Now you have all the information you need to update your sketch:
 ```cpp
 #define BLYNK_PRINT Serial
 
-/* Fill-in your Template ID (only if using blynk.cloud) */
-#define BLYNK_TEMPLATE_ID "TMPLbu8YYym5"
-#define BLYNK_DEVICE_NAME "My First Device"
+#define BLYNK_TEMPLATE_ID      "TMPL••••••••"
+#define BLYNK_TEMPLATE_NAME    "My First Device"
+#define BLYNK_AUTH_TOKEN       "••••••••••••••••••••••••"
 
 #include <SPI.h>
 #include <Ethernet.h>
 #include <BlynkSimpleEthernet.h>
 
-char auth[] = "••••••••••••••VoFvaUOH2U_sI";
-
 void setup()
 {
-  Serial.begin(9600);
-  Blynk.begin(auth);
+  Serial.begin(115200);
+  Blynk.begin(BLYNK_AUTH_TOKEN);
 }
 
 void loop()

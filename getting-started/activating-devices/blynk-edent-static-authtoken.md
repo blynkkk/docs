@@ -19,14 +19,17 @@ Static AuthToken is used when you are working with hardware that doesn't support
 
 ```cpp
 #define BLYNK_PRINT Serial
-#define BLYNK_TEMPLATE_ID "TMPLXtg6ltzI"
-#define BLYNK_DEVICE_NAME "Test"
+
+#define BLYNK_TEMPLATE_ID      "TMPL••••••••"
+#define BLYNK_TEMPLATE_NAME    "Test"
+#define BLYNK_AUTH_TOKEN       "••••••••••••••••••••••••"
+
 #include <BlynkSimpleEsp32.h>
-char auth[] = "1jIajShg30JO-QQZmlWf1NjdH5FNi2wW";
+
 void setup()
 {
   Serial.begin(115200);
-  Blynk.begin(auth, "wifi-ssid", "wifi-pass");
+  Blynk.begin(BLYNK_AUTH_TOKEN, "wifi-ssid", "wifi-pass");
 }
 void loop()
 {
@@ -38,12 +41,11 @@ Pay attention to these 4 lines: you would need to fill them.
 
 ```cpp
 ...
-#define BLYNK_TEMPLATE_ID             ""
-#define BLYNK_DEVICE_NAME             ""
+#define BLYNK_TEMPLATE_ID      ""
+#define BLYNK_TEMPLATE_NAME    ""
+#define BLYNK_AUTH_TOKEN       ""
 ...
-char auth[] = "YourAuthToken";
-...
-Blynk.begin(auth, "wifi-ssid", "wifi-pass");
+Blynk.begin(BLYNK_AUTH_TOKEN, "wifi-ssid", "wifi-pass");
 ```
 
 ## Getting Template ID and AuthToken for device
@@ -74,14 +76,17 @@ Now you have all the information you need to update your sketch:
 
 ```cpp
 #define BLYNK_PRINT Serial
-#define BLYNK_TEMPLATE_ID "TMPLbu8•••••"
-#define BLYNK_DEVICE_NAME "My First Device 01"
+
+#define BLYNK_TEMPLATE_ID      "TMPL••••••••"
+#define BLYNK_TEMPLATE_NAME    "My First Device"
+#define BLYNK_AUTH_TOKEN       "••••••••••••••••••••••••"
+
 #include <BlynkSimpleEsp32.h>
-char auth[] = "••••••••••••••VoFvaUOH2U_sI";
+
 void setup()
 {
   Serial.begin(115200);
-  Blynk.begin(auth, "your_wifi-ssid", "your_wifi-pass");
+  Blynk.begin(BLYNK_AUTH_TOKEN, "your_wifi-ssid", "your_wifi-pass");
 }
 void loop()
 {

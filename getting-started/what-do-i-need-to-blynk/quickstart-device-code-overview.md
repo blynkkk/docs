@@ -13,9 +13,9 @@ Let's look at the parts of the code one by one.
 In the beginning, we define three main parameters.
 
 ```cpp
-#define BLYNK_TEMPLATE_ID           "MyTemplateID"
-#define BLYNK_DEVICE_NAME           "MyDeviceName"
-#define BLYNK_AUTH_TOKEN            "MyAuthToken"
+#define BLYNK_TEMPLATE_ID      "MyTemplateID"
+#define BLYNK_TEMPLATE_NAME    "MyTemplateName"
+#define BLYNK_AUTH_TOKEN       "MyAuthToken"
 ```
 
 You already know what a `TemplateID` is. `Device Name` can be any.&#x20;
@@ -53,16 +53,6 @@ Here we are enabling output to Serial monitor of what Blynk.Edgent is doing for 
 ```
 
 These lines above are specific to your hardware. For example, it you are working with NodeMCU, these lines will be different.
-
-
-
-```cpp
-char auth[] = BLYNK_AUTH_TOKEN;
-```
-
-Here we take the AuthToken for your device and declare it as a variable to use later.&#x20;
-
-
 
 ### WiFi Credentials
 
@@ -192,7 +182,7 @@ In the code above we track when the device connects to the Blynk.Cloud with `BLY
 void setup()
 {
   Serial.begin(115200);
-  Blynk.begin(auth, ssid, pass);
+  Blynk.begin(BLYNK_AUTH_TOKEN, ssid, pass);
 
   // Setup a timer function to be called every second
   timer.setInterval(1000L, myTimerEvent);

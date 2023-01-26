@@ -34,8 +34,8 @@ Each Device Template contains a lot of settings. In this guide, we will only loo
 The most important element of the template is `TemplateID`. This is a unique identifier of every template which should be specified in the code on your device. If you check the code we generated for your device, you will see it there:
 
 ```cpp
-#define BLYNK_TEMPLATE_ID "SomeTemplateID"
-#define BLYNK_DEVICE_NAME "Quickstart Device"
+#define BLYNK_TEMPLATE_ID      "SomeTemplateID"
+#define BLYNK_TEMPLATE_NAME    "Quickstart Device"
 ```
 
 {% hint style="danger" %}

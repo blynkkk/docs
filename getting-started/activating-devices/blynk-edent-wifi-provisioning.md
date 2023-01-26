@@ -50,7 +50,7 @@ Now let's make it work for your devices.
 3. Select **Blynk.Edgent &gt; Edgent\_ESP32**
 
 {% hint style="warning" %}
-In the sketch variables `BLYNK_TEMPLATE_ID` and `BLYNK_DEVICE_NAME` are empty. They should be replaced with the ones from your template. Read below on where to find them.
+In the sketch variables `BLYNK_TEMPLATE_ID` and `BLYNK_TEMPLATE_NAME` are empty. They must be replaced with the ones from your template. Read below on where to find them.
 {% endhint %}
 
 1. Log in to your [Blynk.Console](https://blynk.cloud/) developer account  

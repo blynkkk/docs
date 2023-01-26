@@ -18,15 +18,16 @@ Follow the steps 1-4 below:&#x20;
 
 ```cpp
 #define BLYNK_PRINT Serial
-#define BLYNK_TEMPLATE_ID "TMPLXtg6ltzI"
-#define BLYNK_DEVICE_NAME "Test"
+#define BLYNK_TEMPLATE_ID      "TMPL••••••••"
+#define BLYNK_TEMPLATE_NAME    "Test"
+#define BLYNK_AUTH_TOKEN       "••••••••••••••••••••••••"
+
 #include <BlynkSimpleEsp32.h>
-char auth[] = "1jIajShg30JO-QQZmlWf1NjdH5FNi2wW";
 
 void setup()
 {
   Serial.begin(115200);
-  Blynk.begin(auth, "wifi-ssid", "wifi-pass");
+  Blynk.begin(BLYNK_AUTH_TOKEN, "wifi-ssid", "wifi-pass");
 }
 
 void loop()
@@ -38,12 +39,11 @@ void loop()
 Pay attention to these 4 lines: you would need to fill them.
 
 ```cpp
-#define BLYNK_TEMPLATE_ID             ""
-#define BLYNK_DEVICE_NAME             ""
+#define BLYNK_TEMPLATE_ID      "TMPL••••••••"
+#define BLYNK_TEMPLATE_NAME    "Test"
+#define BLYNK_AUTH_TOKEN       "••••••••••••••••••••••••"
 ...
-char auth[] = "YourAuthToken";
-...
-Blynk.begin(auth, "wifi-ssid", "wifi-pass");
+Blynk.begin(BLYNK_AUTH_TOKEN, "wifi-ssid", "wifi-pass");
 ```
 
 </details>
@@ -91,17 +91,16 @@ Now you have all the information you need to update your sketch:
 Add `TEMPLATE_ID` and `AuthToken` to your sketch:
 
 <pre class="language-cpp"><code class="lang-cpp">#define BLYNK_PRINT Serial
-#define BLYNK_TEMPLATE_ID "TMPLbu8•••••"
-#define BLYNK_DEVICE_NAME "My First Device 01"
+#define BLYNK_TEMPLATE_ID      "TMPL••••••••"
+#define BLYNK_TEMPLATE_NAME    "My First Device"
+#define BLYNK_AUTH_TOKEN       "••••••••••••••••••••••••"
 
 #include &#x3C;BlynkSimpleEsp32.h>
-
-char auth[] = "••••••••••••••VoFvaUOH2U_sI";
 
 <strong>void setup()
 </strong>{
   Serial.begin(115200);
-  Blynk.begin(auth, "your_wifi-ssid", "your_wifi-pass");
+  Blynk.begin(BLYNK_AUTH_TOKEN, "your-wifi-ssid", "your-wifi-pass");
 }
 
 void loop()

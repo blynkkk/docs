@@ -25,7 +25,7 @@ Read more about WiFi provisioning here:
 ## Hardware that can work with Static Tokens
 
 {% hint style="info" %}
-This is the easiest way to migrate from legacy Blynk projects. Just add `BLYNK_TEMPLATE_ID` and `BLYNK_DEVICE_NAME` on top of your existing firmware (before any Blynk includes), set new Auth Token and that's it. Read more about [project migration](../blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md).
+This is the easiest way to migrate from legacy Blynk projects. Just add `BLYNK_TEMPLATE_ID` and `BLYNK_TEMPLATE_NAME` at the top of your firmware (prior to any includes), update your auth token and that's it. Read more about [project migration](../blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md).
 {% endhint %}
 
 Read about static tokens here:

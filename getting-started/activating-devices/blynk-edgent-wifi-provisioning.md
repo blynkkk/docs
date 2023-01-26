@@ -55,7 +55,7 @@ You can find [references to handling reset and statuses indication](https://docs
 1. Select **Blynk.Edgent > Edgent\_ESP32**
 
 {% hint style="warning" %}
-In the sketch variables `BLYNK_TEMPLATE_ID` and `BLYNK_DEVICE_NAME` are empty. They should be filled in with the values from your template. Read below on where to find them.
+In the sketch variables `BLYNK_TEMPLATE_ID` and `BLYNK_TEMPLATE_NAME` are empty. They must be filled in with the values from your template. Read below on where to find them.
 {% endhint %}
 
 1. Log in to your [Blynk.Console](https://blynk.cloud/) developer account &#x20;

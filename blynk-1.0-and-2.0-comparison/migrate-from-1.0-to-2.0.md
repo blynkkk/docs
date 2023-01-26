@@ -36,7 +36,7 @@ For those of you who purchased Energy in the legacy app, we provide a 50% discou
 
 Blynk may be deployed on more than 400 IoT device types, including Arduino, Particle, ARM mbed, TI Energia, MicroPython, Node.js, OpenWRT, and many Single Board Computers. You can review the [list of supported devices and provisioning options](../blynk.edgent-firmware-api/supported-boards.md) for them.
 
-Update the library on the device to [the latest version](https://github.com/blynkkk/blynk-library/releases/latest). Modify your firmware to add `BLYNK_TEMPLATE_ID` and `BLYNK_DEVICE_NAME` at the top of your firmware (prior to any includes).
+Update the library on the device to [the latest version](https://github.com/blynkkk/blynk-library/releases/latest). Add `BLYNK_TEMPLATE_ID` and `BLYNK_TEMPLATE_NAME` at the top of your firmware (prior to any includes), and update your auth token.
 
 Note that [Datastreams](../blynk.console/templates/datastreams/) now provide the data transfer between your IoT device, the Blynk.Console, and Blynk IoT. They are similar to the Blynk Legacy [virtual pins](http://docs.blynk.cc/#blynk-main-operations-virtual-pins), but with much more capability.
 
