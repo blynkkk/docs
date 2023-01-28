@@ -165,7 +165,7 @@ Traffic optimization is usually required for cellular connections. Using realtim
 * [Marvell® EZ-Connect™ MW300/MW302](https://github.com/vshymanskyy/blynk-library-ez-connect)
 * [WIZnet-W5500-EVB](http://instructables.com/id/WIZnet-W5500-EVB-and-Blynk-App-communication)
 * [LabVIEW](https://github.com/juncaofish/NI-LabVIEWInterfaceforBlynk)
-* [Node-RED](https://github.com/gablau/node-red-contrib-blynk-ws) (can be used as bridge to HTTP, TCP, UDP, MQTT, XMPP, IRC, OSC…)
+* [Node-RED](https://github.com/gablau/node-red-contrib-blynk-iot) (can be used as bridge to HTTP, TCP, UDP, MQTT, XMPP, IRC, OSC…)
 
 ### Problematic Boards <a href="#supported-hardware-problematic-boards" id="supported-hardware-problematic-boards"></a>
 
