@@ -22,19 +22,7 @@ Blynk.logEvent("event_code", String("Temperature above threshold: ") + temp);
 ```
 
 {% hint style="info" %}
-Maximum allowed length of the description is 300 chars.
+The maximum allowed length of the description is 300 chars.
 
-Messages with description that exceeds 300 cahrs limit will be discarded.
-{% endhint %}
-
-## Resolve Events from the device
-
-```cpp
-Blynk.resolveEvent("event_code");      // Resolve the latest reported event with the given code
-
-Blynk.resolveAllEvents("event_code");  // Resolves last 10 reported events with the given code
-```
-
-{% hint style="info" %}
-You're allowed to call resolve/resolveAll command only once every 15 minutes.
+Messages with description that exceeds the 300 chars limit will be discarded.
 {% endhint %}

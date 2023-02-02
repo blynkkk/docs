@@ -4,7 +4,7 @@ A code example for ESP32/ ESP8266 / Arduino boards
 
 {% tabs %}
 {% tab title="ESP32 or ESP8266" %}
-## 4 simple steps to configure your code:
+### 4 simple steps to configure your code:
 
 1. Open [Arduino IDE ](https://www.arduino.cc/en/software)and install [Blynk library](https://github.com/blynkkk/blynk-library/releases/latest)
 2. Define Template ID and Device Name on top of your firmware, before any includes
@@ -13,14 +13,14 @@ A code example for ESP32/ ESP8266 / Arduino boards
 
 **Final step:** [Provision your board via Dynamic Provisioning](https://docs.blynk.io/en/getting-started/activating-devices/blynk-edgent-wifi-provisioning) flow and add it to your account using Blynk app
 
-## **Defining your physical button and LED**
+### **Defining your physical button and LED**
 
-To enhance the user experience it's recommended that you plan these things into your electrical design:&#x20;
+To enhance the user experience it's recommended that you plan these things into your electrical design:
 
-1. A physical button which will allow resetting the device to its default settings. E.g.: Holding this button for N seconds will erase the AuthToken and WiFi credentials.&#x20;
+1. A physical button which will allow resetting the device to its default settings. E.g.: Holding this button for N seconds will erase the AuthToken and WiFi credentials.
 2. An LED to indicate different statuses of device (AP, connected, etc.). It can be RGB or one-color LED.
 
-Depending on your board there can be different variants of the setup, we'll provide some examples for you to get an idea of how it can work.&#x20;
+Depending on your board there can be different variants of the setup, we'll provide some examples for you to get an idea of how it can work.
 
 Here we use the Edgent\_ESP8266 sketch as an example, but the same principles apply to the ESP32 sketch as well. The Edgent\_ESP8266.ino file (the first tab in the Arduino IDE) contains the following lines of code:
 
@@ -147,9 +147,9 @@ If you didn’t un-comment any board types and allowed the custom board configur
 
 Make sure you check these before starting device provisioning:
 
-* Un-comment the correct board type&#x20;
-* Check the Settings.h file to ensure that the selected board type does actually match your hardware setup&#x20;
-* Add a physical button to the Wemos D1 mini if needed&#x20;
+* Un-comment the correct board type
+* Check the Settings.h file to ensure that the selected board type does actually match your hardware setup
+* Add a physical button to the Wemos D1 mini if needed
 * Use the custom board configuration if you have an unusual type of board, but edit the custom section of Settinsg.h to make it match your hardware
 * Ensure that you don’t use the GPIOs assigned to the button or LED pins for anything else in your sketch.
 {% endtab %}
@@ -161,12 +161,12 @@ Instructions and code for Static AuthToken is used when you are working with har
 
 1. Download [the latest release of Blynk.Edgent](https://github.com/blynkkk/blynk-library/releases/latest) as a **Source code .zip** file
 2. Open [Arduino IDE](https://www.arduino.cc/en/software)
-3. In Arduino IDE menu go to Sketch - > **Include Library**&#x20;
+3. In Arduino IDE menu go to Sketch - > **Include Library**
 4. Select Add **.ZIP library**
 
 ![](<../../.gitbook/assets/pasted image 0.png>)
 
-1. Select the downloaded .zip archive. Press **Choose** to continue. &#x20;
+1. Select the downloaded .zip archive. Press **Choose** to continue.
 2. After that, you should see Blynk folder under the **File > Examples**
 
 ![](<../../.gitbook/assets/pasted image 1.png>)
@@ -204,37 +204,29 @@ Pay attention to these 3 lines: you would need to fill them.
 #define BLYNK_AUTH_TOKEN       "••••••••••••••••••••••••"
 ```
 
+#### Getting Template ID and Auth Token for device
 
-
-### Getting Template ID and Auth Token for device
-
-#### Template ID and Device Name
+**Template ID and Device Name**
 
 1. Log in to your [Blynk.Console](https://blynk.cloud/) developer account
-2. If you don't have a  Device Templates -> [Create New Template](./#create-a-template) or open an existing one
+2. If you don't have a Device Templates -> [Create New Template](./#create-a-template) or open an existing one
 3. Copy the contents of this section and paste them on top of your firmware, before any includes
 
 ![](<../../.gitbook/assets/image (2) (1) (1).png>)
 
-#### Getting Auth Token
+**Getting Auth Token**
 
 When the Template is ready, go to Search -> Devices - **Create new device**
 
 ![](<../../.gitbook/assets/image (4) (1).png>)
 
-
-
 Choose a Template and give your new device a name
 
 ![](<../../.gitbook/assets/image (18) (1).png>)
 
-
-
 After the device was created, open its dashboard, go to the Device Info tab. There you will find a field: Auth Token.
 
 ![](<../../.gitbook/assets/image (17).png>)
-
-
 
 Now you have all the information you need to update your sketch:
 
@@ -272,4 +264,3 @@ Blynk connected!
 ```
 {% endtab %}
 {% endtabs %}
-

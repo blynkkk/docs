@@ -4,13 +4,11 @@ Manual device creation can be used with any device supported by Blynk no matter 
 
 Such workflow is mostly used during prototyping or for devices that don't require end-user activation.
 
-Follow the steps 1-4 below:&#x20;
+Follow the steps 1-4 below:
 
 <details>
 
 <summary>Step 1: Perparing your sketch</summary>
-
-
 
 1. Install the latest version of Blynk Library to the IDE you use
 2. After that, you should see Blynk folder under the **File > Examples**
@@ -52,10 +50,10 @@ Blynk.begin(BLYNK_AUTH_TOKEN, "wifi-ssid", "wifi-pass");
 
 <summary>Step 2: Getting Template ID</summary>
 
-### Template ID and Device Name
+#### Template ID and Device Name
 
 1. Log in to your [Blynk.Console](https://blynk.cloud/) developer account
-2. If you don't have a  Device Templates -> [Create New Template](../template-quick-setup/#create-a-template) or open an existing one
+2. If you don't have a Device Templates -> [Create New Template](../template-quick-setup/#create-a-template) or open an existing one
 3. Copy the contents of this section and paste them to your sketch
 
 <img src="https://user-images.githubusercontent.com/72824404/119491140-4234c300-bd66-11eb-80f4-324f2d06bfa0.png" alt="Template ID" data-size="original">
@@ -66,11 +64,11 @@ Blynk.begin(BLYNK_AUTH_TOKEN, "wifi-ssid", "wifi-pass");
 
 <summary>Step 3: Getting Auth Token</summary>
 
-### Getting Auth Token
+#### Getting Auth Token
 
 When the Template is ready, go to Search -> Devices - **Create New Device**
 
-![](https://user-images.githubusercontent.com/72824404/119494118-9db48000-bd69-11eb-952c-297c0b7627f8.png)
+<img src="https://user-images.githubusercontent.com/72824404/119494118-9db48000-bd69-11eb-952c-297c0b7627f8.png" alt="" data-size="original">
 
 Choose a Template and give your new device a name
 
@@ -78,7 +76,7 @@ Choose a Template and give your new device a name
 
 After the device was created, you will get the notification with TemplateID and AuthToken. Also, this info is always available in Device View -> Device Info
 
-![](<../../.gitbook/assets/image (2) (1).png>)
+<img src="../../.gitbook/assets/image (2) (1).png" alt="" data-size="original">
 
 Now you have all the information you need to update your sketch:
 
@@ -118,8 +116,6 @@ Connecting to...
 Ready (ping: 40ms)
 ```
 
-
-
-### Congrats! Your device should be now online!
+#### Congrats! Your device should be now online!
 
 </details>

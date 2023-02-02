@@ -57,7 +57,7 @@ We’ll use an example of a Power Switch to remotely turn the device on and off 
 
 Set to Integer data type, connected to Virtual Pin 0 (V0). In Blynk.Console we’ll leave the values set to 0 and 1, so the widget sends a 0 when it’s turned off, and a 1 when it’s turned on - like this:
 
-![](<../.gitbook/assets/image (34) (1).png>)
+![](<../.gitbook/assets/image (34) (1) (2).png>)
 
 Now the widget is ready to send 0/1 through the Virtual Pin Datastream V1. Click **Save and Apply** to save the template and apply changes.
 

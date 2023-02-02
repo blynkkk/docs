@@ -27,7 +27,7 @@ In the view above you can find 5 specific columns:
 
 ## New Webhook
 
-![Webhook create form](../../../.gitbook/assets/new-webhook.gif)
+![Webhook create form](<../../../.gitbook/assets/new-webhook (1).gif>)
 
 * **Webhook Name** – Use only letters, digits, -, ' and spaces up to 80 characters.&#x20;
 * **Webhook Trigger Event** – Blynk.Console event that will trigger webhook execution. Click the field to open the events list and select one of the following:
