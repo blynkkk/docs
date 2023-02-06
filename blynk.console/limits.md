@@ -43,20 +43,21 @@ These are limits that apply to a each device template:
 
 ### Organization Limits
 
-These are limits that apply to a single organization:
+These are limits that apply to any organization (that includes all it's sub-organizations):
 
-|                                     Feature                                     | FREE | PLUS | PRO |
-| :-----------------------------------------------------------------------------: | :--: | :--: | --- |
-|                                    Templates                                    |   3  |  10  | 50  |
-|                    [Automations](../concepts/automations.md)                    |   5  |  25  | 50  |
-| [Actions](https://docs.blynk.io/en/concepts/automations#actions) per automation |   5  |  25  | 50  |
-|                         Automation push/emails per hour                         |  20  |  20  | 20  |
-|                                      Users                                      |   5  |  10  | 100 |
-|                                Sub-organizations                                |   0  |   0  | 200 |
-|                      Levels of sub-organizations hierarchy                      |   0  |   0  | 4   |
-|                         Blynk.Air shipments (campaigns)                         |   2  |  10  | 25  |
-|                                    Locations                                    |  50  |  50  | 50  |
-|                                     Webhooks                                    |   1  |   5  | 20  |
+|                                     Feature                                     | FREE |   PLUS   | PRO            |
+| :-----------------------------------------------------------------------------: | :--: | :------: | -------------- |
+|                                    Templates                                    |   3  |    10    | 50             |
+|                                     Devices                                     |   2  | 10 or 20 | 40, 100 or 500 |
+|          [Automations](../concepts/automations.md) per sub-organization         |   5  |    25    | 50             |
+| [Actions](https://docs.blynk.io/en/concepts/automations#actions) per automation |   5  |    25    | 50             |
+|                         Automation push/emails per hour                         |  20  |    20    | 20             |
+|                                      Users                                      |   5  |    10    | 100            |
+|                                Sub-organizations                                |   0  |     0    | 200            |
+|                      Levels of sub-organizations hierarchy                      |   0  |     0    | 4              |
+|                         Blynk.Air shipments (campaigns)                         |   2  |    10    | 25             |
+|                                    Locations                                    |  50  |    50    | 50             |
+|                                     Webhooks                                    |   1  |     5    | 20             |
 
 
 
