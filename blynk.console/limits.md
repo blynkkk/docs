@@ -34,7 +34,7 @@ These are limits that apply to a each device template:
 |                                    Widgets per page in Blynk.Console                                    |  30  |  80  | 255 |
 |                                      Widgets per page in Blynk.Apps                                     |  30  |  80  | 255 |
 |                                                  Events                                                 |  50  |  50  | 50  |
-|                                             Metadata fields                                             |  50  |  50  | 50  |
+|                                             Metadata fields                                             |  10  |  10  | 10  |
 |                            Additional device dashboard pages in Blynk.Console                           |   0  |   1  | 3   |
 |      Additional device dashboard [pages](https://docs.blynk.io/en/blynk.apps/pages) in Blynk.apps       |   0  |   1  | 10  |
 | Additional [device info tabs](https://docs.blynk.io/en/blynk.apps/pages#device-info-tabs) in Blynk.apps |   0  |   1  | 5   |
