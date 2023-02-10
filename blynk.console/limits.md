@@ -33,7 +33,7 @@ These are limits that apply to a each device template:
 |                                  [Datastreams](templates/datastreams/)                                  |  30  |  80  | 200 |
 |                                    Widgets per page in Blynk.Console                                    |  30  |  80  | 255 |
 |                                      Widgets per page in Blynk.Apps                                     |  30  |  80  | 255 |
-|                                                  Events                                                 |   5  |  10  | 50  |
+|                                                  Events                                                 |   5  |  10  | 100 |
 |                                             Metadata fields                                             |  10  |  10  | 10  |
 |                            Additional device dashboard pages in Blynk.Console                           |   0  |   1  | 3   |
 |      Additional device dashboard [pages](https://docs.blynk.io/en/blynk.apps/pages) in Blynk.apps       |   0  |   1  | 10  |
