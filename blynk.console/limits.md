@@ -35,9 +35,9 @@ These are limits that apply to a each device template:
 |                                      Widgets per page in Blynk.Apps                                     |  30  |  80  | 255 |
 |                                                  Events                                                 |   5  |  10  | 100 |
 |                                             Metadata fields                                             |  10  |  10  | 10  |
-|                            Additional device dashboard pages in Blynk.Console                           |   0  |   1  | 3   |
-|      Additional device dashboard [pages](https://docs.blynk.io/en/blynk.apps/pages) in Blynk.apps       |   0  |   1  | 10  |
-| Additional [device info tabs](https://docs.blynk.io/en/blynk.apps/pages#device-info-tabs) in Blynk.apps |   0  |   1  | 5   |
+|                            Additional device dashboard pages in Blynk.Console                           |   -  |   1  | 3   |
+|      Additional device dashboard [pages](https://docs.blynk.io/en/blynk.apps/pages) in Blynk.apps       |   -  |   1  | 10  |
+| Additional [device info tabs](https://docs.blynk.io/en/blynk.apps/pages#device-info-tabs) in Blynk.apps |   -  |   1  | 5   |
 
 
 
@@ -53,10 +53,10 @@ These are limits that apply to any organization (that includes all it's sub-orga
 | [Actions](https://docs.blynk.io/en/concepts/automations#actions) per automation |   5  |    25    | 50             |
 |                         Automation push/emails per hour                         |  20  |    20    | 20             |
 |                                      Users                                      |   5  |    10    | 100            |
-|                                Sub-organizations                                |   0  |     0    | 200            |
-|                      Levels of sub-organizations hierarchy                      |   0  |     0    | 4              |
+|                                Sub-organizations                                |   -  |     -    | 200            |
+|                      Levels of sub-organizations hierarchy                      |   -  |     -    | 4              |
 |                         Blynk.Air shipments (campaigns)                         |   2  |    10    | 25             |
-|                                    Locations                                    |  50  |    50    | 50             |
+|                                    Locations                                    |   2  |    10    | 50             |
 |                                     Webhooks                                    |   1  |     5    | 20             |
 
 
