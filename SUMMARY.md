@@ -148,6 +148,7 @@
 * [Pages](blynk.apps/pages.md)
 * [Widgets (app)](blynk.apps/widgets-app/README.md)
   * [Button](blynk.apps/widgets-app/button.md)
+  * [Web Page Button](blynk.apps/widgets-app/web-page-button.md)
   * [Simple Chart](blynk.apps/widgets-app/simple-chart.md)
   * [Common Widget Settings](blynk.apps/widgets-app/common-widget-settings.md)
   * [List of Datastreams types supported by Widgets](blynk.apps/widgets-app/list-of-datastreams-types-supported-by-widgets.md)
