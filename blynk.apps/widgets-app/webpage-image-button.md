@@ -52,6 +52,23 @@ https://mywebapp.com/action?user=/userID/&device=/deviceID/
 
 Examples below use Virtual Pin V01. Change to your pin.&#x20;
 
+
+
+**URL.** Change the URL to be open. You can use placeholders described above.
+
+```cpp
+Blynk.setProperty(V1, "url", "https://mywebsite.com");
+```
+
+****
+
+**ON/OFF Image URLs.** Change the URL to be opened
+
+```cpp
+Blynk.setProperty(V1, "onImageUrl", "https://mywebsite.com/on.png");
+Blynk.setProperty(V1, "offImageUrl", "https://mywebsite.com/off.png");
+```
+
 ****
 
 **Disable/Enable**. Widget will be greyed out on UI and users won't be able to tap on it.
@@ -73,18 +90,3 @@ Blynk.setProperty(V1, "isHidden", true);
 ```
 
 ****
-
-**URL.** Change the URL to be open. You can use placeholders described above.
-
-```cpp
-Blynk.setProperty(V1, "url", "https://mywebsite.com");
-```
-
-****
-
-**ON/OFF Image URLs.** Change the URL to be opened
-
-```cpp
-Blynk.setProperty(V1, "onImageUrl", "https://mywebsite.com/on.png");
-Blynk.setProperty(V1, "offImageUrl", "https://mywebsite.com/off.png");
-```
