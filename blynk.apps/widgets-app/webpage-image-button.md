@@ -10,15 +10,19 @@ WebPage Image Button is a button that opens in-app browser with a provided URL. 
 
 You can use placeholders for URL:
 
-`/deviceID/` - device ID in Blynk
+`deviceID` - device ID in Blynk
 
-`/userID/` -  ID of the user pressing the button
+`userID` -  ID of the user pressing the button
 
-`/userEmail/` - email of the user pressing the button
+`userEmail` - email of the user pressing the button
 
 
 
-Example URL with placeholders: `https://mywebapp.com/userID/deviceID/`
+Example URL with placeholders:
+
+```
+https://mywebapp.com/action?user=/userID/&device=/deviceID/
+```
 
 ****
 
