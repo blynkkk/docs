@@ -20,9 +20,7 @@ You can use placeholders for URL:
 
 Example URL with placeholders: `https://mywebapp.com/userID/deviceID/`
 
-``
-
-``
+****
 
 **Datastream**: optional parameter. Use if you plan to use set.Property commands
 
