@@ -30,9 +30,9 @@ These are limits that apply to a each device template:
 
 |                                                 Feature                                                 | FREE | PLUS | PRO |
 | :-----------------------------------------------------------------------------------------------------: | :--: | :--: | --- |
-|                                  [Datastreams](templates/datastreams/)                                  |  30  |  80  | 200 |
-|                                    Widgets per page in Blynk.Console                                    |  30  |  80  | 255 |
-|                                      Widgets per page in Blynk.Apps                                     |  30  |  80  | 255 |
+|                                  [Datastreams](templates/datastreams/)                                  |  10  |  80  | 200 |
+|                                    Widgets per page in Blynk.Console                                    |  10  |  80  | 255 |
+|                                      Widgets per page in Blynk.Apps                                     |  10  |  80  | 255 |
 |                                                  Events                                                 |   5  |  10  | 100 |
 |                                             Metadata fields                                             |  10  |  10  | 10  |
 |                            Additional device dashboard pages in Blynk.Console                           |   -  |   1  | 3   |
