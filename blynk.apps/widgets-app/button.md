@@ -125,7 +125,7 @@ Where:&#x20;
 Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, or use timers.
 {% endhint %}
 
-###
+
 
 ### Properties you can change
 
