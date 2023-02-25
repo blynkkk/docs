@@ -27,7 +27,7 @@ You can skip this part as this is something you don't have to think about becaus
 5. Also, Blynk app will request an Auth Token from the server and then send it to the device
 6. Your device will store all of these items in Flash/EEPROM memory
 7. After that, the device will automatically reboot. The AP mode will be turned off.
-8. The device will use the WiFi credentials you provided to connect to your home or office WiFi network&#x20;
+8. The device will use the WiFi credentials you provided to connect to your home or office WiFi network
 9. After the successful authentication, the device is added to your account and is ready to use
 10. If you later need to connect this device to a different network, WiFi credentials can be changed using Blynk app, by resetting the device with a physical button (you would need to plan it into your electrical circuit design)
 
@@ -39,9 +39,7 @@ To enhance the end-user experience it's highly recommended that you plan certain
 1. Plan a physical button which will allow resetting the device to its default settings. E.g.: Holding this button for N seconds will erase the AuthToken and WiFi credentials.
 2. Plan an LED to indicate different statuses of device (AP, connected, etc.). It can be RGB or one-color LED.
 
-You can find [references to handling reset and statuses indication](https://docs.blynk.io/en/getting-started/template-quick-setup/prepare-code#defining-your-physical-button-and-led) in Blynk.Edgent examples&#x20;
-
-
+You can find [references to handling reset and statuses indication](https://docs.blynk.io/en/getting-started/template-quick-setup/prepare-code#defining-your-physical-button-and-led) in Blynk.Edgent examples
 {% endhint %}
 
 ## Setting up your sketch to enable WiFi Provisioning
@@ -49,17 +47,14 @@ You can find [references to handling reset and statuses indication](https://docs
 1. Install Blynk Library in Arduino IDE (or download [the latest release](https://github.com/blynkkk/blynk-library/releases/latest) as a .zip file and install the library as a zip file)
 2. Open [Arduino IDE](https://www.arduino.cc/en/software)
 3. After that, you should see Blynk folder under the **File > Examples**
-
-
-
-1. Select **Blynk.Edgent > Edgent\_ESP32**
+4. Select **Blynk.Edgent > Edgent\_ESP32**
 
 {% hint style="warning" %}
 In the sketch variables `BLYNK_TEMPLATE_ID` and `BLYNK_TEMPLATE_NAME` are empty. They must be filled in with the values from your template. Read below on where to find them.
 {% endhint %}
 
-1. Log in to your [Blynk.Console](https://blynk.cloud/) developer account &#x20;
-2. Go to Templates -> [Create New Template](../template-quick-setup/#create-a-template) or open an existing template &#x20;
+1. Log in to your [Blynk.Console](https://blynk.cloud/) developer account
+2. Go to Templates -> [Create New Template](../template-quick-setup/#create-a-template) or open an existing template
 3. Copy the Firmware Configuration code lines
 4. Go back to your sketch and replace the configuration lines with what you copied.
 
@@ -77,15 +72,13 @@ Now your device is ready to be activated using Blynk app.
 
 ## Activating the device using Blynk app
 
-1. Open Blynk App&#x20;
-2. Open the MENU icon in the upper right corner In the upper right corner&#x20;
+1. Open Blynk App
+2. Open the MENU icon in the upper right corner In the upper right corner
 3. Tap on +Add New Device
-4. The app will scan the WiFi networks around you and offer to connect to your device. In our example, the device name will be:  **Blynk Root Template-FAD8F**
+4. The app will scan the WiFi networks around you and offer to connect to your device. In our example, the device name will be: **Blynk Root Template-FAD8F**
 5. Once the connection is established, the Blynk app will guide you through the provisioning process.
 
 When the process is over, you will be prompted to name the device. At this stage, the device is ready to use.
-
-
 
 Here is an example of how it works in the app:
 
@@ -113,7 +106,7 @@ If the LED is pulsing slowly then the board thinks it’s already provisioned. F
 \
 If the LED is flashing quickly, but the device doesn’t show up in the app when you tap the “Ready” button in the app then check the following:
 
-* The Template name isn’t too long (see the restrictions for BLYNK\_DEVICE\_NAME above)
+* The Template name isn’t too long (see the restrictions for BLYNK\_TEMPLATE\_NAME above)
 * The template ID and device name in the sketch are EXACTLY as they appear in the web console
 * The app is signed in to the same user account as the web console, or
 * The user has permission to provision new devices.
