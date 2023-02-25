@@ -32,7 +32,7 @@ Full documentation on Blynk.Apps is [here](../blynk.apps/overview.md)
 
 Edge + Agent = Edgent
 
-![](../.gitbook/assets/blynk-code-ide-wifi-provisioning.png)
+<figure><img src="../.gitbook/assets/Device-template 3.png" alt=""><figcaption></figcaption></figure>
 
 **Blynk.Edgent** is a lightweight embedded library that runs on over 400 supported hardware models
 
