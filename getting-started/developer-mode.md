@@ -1,6 +1,6 @@
 # Developer Mode
 
-**Developer** is a special user who has access to all the functionality required to configure the platform for the use by end-users \(also called as clients or end-customers\). This is usually someone who builds the hardware, develops the firmware, and does all the device configurations.
+**Developer** is a special user who has access to all the functionality required to configure the platform for the use by end-users (also called as clients or end-customers). This is usually someone who builds the hardware, develops the firmware, and does all the device configurations.
 
 By default, first user in the Organization becomes a Developer.
 
@@ -10,7 +10,7 @@ Developer can:
 * Create and configure web dashboard UI
 * Create and configure mobile dashboard UI
 * Add new devices to the account
-* Publish Templates to Blynk.Marketplace \(work in progress\)
+* Publish Templates to Blynk.Marketplace (work in progress)
 * Use other features accordingly to the chosen [plan](https://blynk.io/pricing)
 
 ## **How To Enable Developer Mode**
@@ -23,3 +23,4 @@ Developer can:
 Currently, **only one developer is allowed per Organization** to avoid sync issues. This limit can be changed later.
 {% endhint %}
 
+If you want some other user to be a developer in your organization you should first switch off the dev mode in your account either in Blynk.Console or Blynk.App. After that the other user can switch it on.
