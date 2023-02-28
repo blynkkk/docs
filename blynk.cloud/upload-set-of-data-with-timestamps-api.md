@@ -82,6 +82,10 @@ or
 {% endswagger-response %}
 {% endswagger %}
 
+{% hint style="info" %}
+You can get the **Device auth token** in [Device info](../getting-started/activating-devices/manual-device-activation.md#step-3-getting-auth-token).
+{% endhint %}
+
 ### cURL example:
 
 `curl -X POST -H 'Content-Type: application/json' -d '[[1650378744000,0]]' -i 'https://blynk.cloud/external/api/batch/update?token=YOUR_TOKEN&pin=v1'`

@@ -1,4 +1,4 @@
-# Get Device MetaField Value
+# Get Device Metadata Value
 
 {% swagger baseUrl="https://{server_address}" path="/external/api/device/meta?token={token}&metaFieldId={metaFieldId}" method="get" summary="Get Device Metafield Value" %}
 {% swagger-description %}
@@ -49,3 +49,7 @@ or
 ```
 {% endswagger-response %}
 {% endswagger %}
+
+{% hint style="info" %}
+You can get the **Device auth token** in [Device info](../getting-started/activating-devices/manual-device-activation.md#step-3-getting-auth-token).
+{% endhint %}
