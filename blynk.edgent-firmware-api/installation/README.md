@@ -4,8 +4,8 @@ description: How to install Blynk.Edgent on popular IDEs
 
 # Installation
 
-{% content-ref url="what-do-i-need-to-blynk.md" %}
-[what-do-i-need-to-blynk.md](what-do-i-need-to-blynk.md)
+{% content-ref url="install-blynk-library-in-arduino-ide.md" %}
+[install-blynk-library-in-arduino-ide.md](install-blynk-library-in-arduino-ide.md)
 {% endcontent-ref %}
 
 {% content-ref url="install-blynk-library-for-platformio.org.md" %}

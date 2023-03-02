@@ -170,7 +170,7 @@
 
 * [Supported Boards](blynk.edgent-firmware-api/supported-boards.md)
 * [Installation](blynk.edgent-firmware-api/installation/README.md)
-  * [Install Blynk Library in Arduino IDE](blynk.edgent-firmware-api/installation/what-do-i-need-to-blynk.md)
+  * [Install Blynk Library in Arduino IDE](blynk.edgent-firmware-api/installation/install-blynk-library-in-arduino-ide.md)
   * [Install Blynk Library for Platformio.org](blynk.edgent-firmware-api/installation/install-blynk-library-for-platformio.org.md)
   * [Install ESP8266 core for Arduino IDE](blynk.edgent-firmware-api/installation/install-esp8266-core-for-arduino-ide.md)
 * [Configuration](blynk.edgent-firmware-api/configuration.md)
