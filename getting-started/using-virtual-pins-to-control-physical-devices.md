@@ -145,7 +145,7 @@ BLYNK_WRITE(V0) // Executes when the value of virtual pin 0 changes
   {
     // execute this code if the switch widget is now ON
     digitalWrite(2,HIGH);  // Set digital pin 2 HIGH
-  {
+  }
   else
   {
     // execute this code if the switch widget is now OFF
@@ -243,7 +243,7 @@ BLYNK_WRITE(V5) // Executes when the value of virtual pin 5 changes
     Blynk.virtualWrite(V2,1);  // Turn the widget attached to V2 On
     Blynk.virtualWrite(V3,1);  // Turn the widget attached to V3 On
     Blynk.virtualWrite(V4,1);  // Turn the widget attached to V4 On
-  {
+  }
   else
   {
     // execute this code if the switch widget is now OFF
