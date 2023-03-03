@@ -1,12 +1,12 @@
 # Alarm & Sound Widget
 
-[Available](https://docs.blynk.io/en/blynk.console/widgets-console) to PLUS and higher subscribers.
+Available to PLUS and higher subscribers.
 
-The alarm and sound widget creates an alarm in the Blynk.Console.  It is triggered by a datastream value other than zero (0). &#x20;
+The alarm and sound widget creates an alarm in the Blynk.Console. It is triggered by a datastream value other than zero (0). &#x20;
 
 ### Datastream
 
-Select or create a datastream of data type [integer. ](https://docs.blynk.io/en/blynk.console/templates/datastreams/datastreams-common-settings/data-type)
+Select or create a datastream of [data type integer](../templates/datastreams/datastreams-common-settings/data-type.md).&#x20;
 
 You can change the ‘label’ property of the widget from your [hardware](https://docs.blynk.io/en/blynk.apps/widgets-app/button#change-button-properties), or via an [HTTP API](https://docs.blynk.io/en/blynk.cloud/update-property).  &#x20;
 
@@ -19,13 +19,13 @@ The alarm and sound widget has the following controls:
 
 ### How to trigger the alarm from the hardware
 
-```
+```cpp
 Blynk.virtualWrite(V1, HIGH);
 ```
 
 or
 
-```
+```cpp
 Blynk.virtualWrite(V1, HIGH);
 ```
 
@@ -57,9 +57,9 @@ Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a 
 
 #### Properties you can change
 
-You can change the properties “label”, “IsHidden” and “isMuted” of the widget from your [hardware](https://docs.blynk.io/en/blynk.apps/widgets-app/button#change-button-properties), or via an [HTTP API](https://docs.blynk.io/en/blynk.cloud/update-property).   The “isMuted” property is unique to the Alarm and Sound widget and will enable or disable the mute option for the Alarm and Sound widget.&#x20;
+You can change the properties “label”, “IsHidden” and “isMuted” of the widget from your [hardware](https://docs.blynk.io/en/blynk.apps/widgets-app/button#change-button-properties), or via an [HTTP API](https://docs.blynk.io/en/blynk.cloud/update-property). The “isMuted” property is unique to the Alarm and Sound widget and will enable or disable the mute option for the Alarm and Sound widget.&#x20;
 
-```
+```cpp
 Blynk.setProperty(V1, "isMuted", "True");
 ```
 
@@ -67,7 +67,7 @@ Blynk.setProperty(V1, "isMuted", "True");
 https://{server_address}/external/api/update/property?token={your 32 char token}&pin=V1&isMuted=1
 ```
 
-```
+```cpp
 Blynk.setProperty(V1, "label", "AlarmnSoundWidget");
 ```
 
@@ -79,13 +79,13 @@ https://{server_address}/external/api/update/property?token={your 32 char token}
 
 Get the latest known value from the server. For example, after your hardware went offline and then came online again.
 
-```
+```cpp
 BLYNK_CONNECTED() { // checks if there is a connection to Blynk.Cloud  
   Blynk.syncVirtual(V1); // get the latest value
 }
 ```
 
-```
+```cpp
 BLYNK_WRITE(V1) // this command is listening when something is written to V1
 {
   int pinValue = param.asInt(); // assigning incoming value from pin V1 to a variable
