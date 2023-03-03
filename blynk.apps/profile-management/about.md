@@ -6,7 +6,7 @@ description: >-
 
 # About
 
-![](<../../.gitbook/assets/about (1).png>)
+![](../../.gitbook/assets/about.png)
 
 ### General app info:&#x20;
 

@@ -120,6 +120,7 @@
   * [Map](blynk.console/widgets-console/map.md)
   * [Image Gallery](blynk.console/widgets-console/image-gallery.md)
   * [Heatmap Chart](blynk.console/widgets-console/heatmap-chart.md)
+  * [Video](blynk.console/widgets-console/video.md)
   * [Terminal](blynk.console/widgets-console/terminal.md)
   * [Segmented Switch](blynk.console/widgets-console/segmented-switch.md)
   * [Modules](blynk.console/widgets-console/modules.md)

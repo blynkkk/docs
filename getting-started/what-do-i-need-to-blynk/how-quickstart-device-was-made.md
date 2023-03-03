@@ -11,13 +11,13 @@ Here is what happened during the Quickstart flow:
 1. We automatically created a Quickstart Template for you.
 2. Using this Quickstart Template, we then created a Quickstart Device.
 3. For this device, we generated the sketch with all the parameters including [Auth Token](../activating-devices/manual-device-activation.md#step-3-getting-auth-token).
-4. You uploaded the sketch to your board and it used the parameters to connect to Blynk.Cloud and to become visible in the apps.&#x20;
+4. You uploaded the sketch to your board and it used the parameters to connect to Blynk.Cloud and to become visible in the apps.
 
 ### What is a Device Template?
 
 In Blynk, we use Device Templates to make it easy to work with multiple devices that perform the same functions. On a high level, Device Template is a set of configurations. Once you have created a template, you can create devices from this template and they will inherit all of the same configurations.
 
-![](<../../.gitbook/assets/blynk-quickstart-template-device-relationship (1) (1) (1) (1) (1) (1) (1).jpg>)
+![](<../../.gitbook/assets/blynk-quickstart-template-device-relationship (1) (1) (1) (1) (1) (1).jpg>)
 
 In the diagram above, you can see that we've created a Quickstart Template and one Quickstart device. When you decide to create your own device, you will first create your own Template and then create devices from it.
 
@@ -39,7 +39,7 @@ The most important element of the template is `TemplateID`. This is a unique ide
 ```
 
 {% hint style="danger" %}
-&#x20;Definition of Template ID should **always be** **the** **first** line in your code
+Definition of Template ID should **always be** **the** **first** line in your code
 {% endhint %}
 
 You can always find TemplateID in [Blynk.Console](https://blynk.cloud) → Templates → YourTemplate. There is a code snippet you can copy/paste for your next devices.
@@ -75,4 +75,3 @@ Now take a closer look at what was happening on the device:
 {% content-ref url="quickstart-device-code-overview.md" %}
 [quickstart-device-code-overview.md](quickstart-device-code-overview.md)
 {% endcontent-ref %}
-

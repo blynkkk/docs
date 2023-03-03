@@ -37,7 +37,7 @@ _Actions available:_
 
 * **Full screen view** – click pictogram to hide search filtering panel&#x20;
 
-![](<../.gitbook/assets/full\_screen (1).png>)
+![](<../.gitbook/assets/full\_screen (1) (1).png>)
 
 * **Create new entity** – **\*\*click** + New Device/Location/Organization/User\*\* (top right button)
 
