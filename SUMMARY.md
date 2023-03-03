@@ -123,6 +123,7 @@
   * [Video](blynk.console/widgets-console/video.md)
   * [Terminal](blynk.console/widgets-console/terminal.md)
   * [Segmented Switch](blynk.console/widgets-console/segmented-switch.md)
+  * [Alarm & Sound Widget](blynk.console/widgets-console/alarm-and-sound-widget.md)
   * [Modules](blynk.console/widgets-console/modules.md)
 * [Blynk.Air](blynk.console/blynk.air/README.md)
   * [Shipment Details](blynk.console/blynk.air/shipment-details.md)

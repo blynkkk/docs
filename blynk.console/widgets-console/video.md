@@ -1,7 +1,5 @@
 # Video
 
-<figure><img src="../../.gitbook/assets/image (15) (2).png" alt=""><figcaption></figcaption></figure>
-
 [Available](https://docs.blynk.io/en/blynk.console/widgets-console) to PLUS and higher subscribers.
 
 The video widget allows you to display static, live, and streaming video(s) contained within a [M3U8 playlist](https://www.rfc-editor.org/rfc/rfc8216.html).  An M3U8 playlist is a Unicode version of an M3U playlist. &#x20;
