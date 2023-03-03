@@ -1,9 +1,9 @@
 # Widget Properties
 
-Changing some of the widget properties from hardware side is also supported.  
+Changing some of the widget properties from hardware side is also supported.\
 For example, you can change the color of LED widget based on a condition:
 
-```text
+```
 //change LED color
 Blynk.setProperty(V0, "color", "#D3435C");
 
@@ -14,19 +14,19 @@ Blynk.setProperty(V0, "label", "My New Widget Label");
 Blynk.setProperty(V0, "labels", "Menu Item 1", "Menu Item 2", "Menu Item 3");
 ```
 
-[Set Property for single value field](https://github.com/blynkkk/blynk-library/blob/master/examples/More/SetProperty/SetProperty_SingleValue/SetProperty_SingleValue.ino)
+[Set Property for single value field](https://github.com/blynkkk/blynk-library/blob/master/examples/More/SetProperty/SetProperty\_SingleValue/SetProperty\_SingleValue.ino)
 
-[Set Property for multi value field](https://github.com/blynkkk/blynk-library/blob/master/examples/More/SetProperty/SetProperty_MultiValue/SetProperty_MultiValue.ino)
+[Set Property for multi value field](https://github.com/blynkkk/blynk-library/blob/master/examples/More/SetProperty/SetProperty\_MultiValue/SetProperty\_MultiValue.ino)
 
-**NOTE :** Changing these parameters work **only** for widgets attached to Virtual pins \(analog/digital pins won't work\).
+**NOTE :** Changing these parameters work **only** for widgets attached to Virtual pins (analog/digital pins won't work).
 
 `color`, `label` widget properties are supported for all widgets :
 
 `label` is string for label of all widgets.
 
-`color` is string in [HEX](http://www.w3schools.com/html/html_colors.asp) format \(in the form: \#RRGGBB, where RR \(red\), GG \(green\) and BB \(blue\) are hexadecimal values between 00 and FF\). For example :
+`color` is string in [HEX](http://www.w3schools.com/html/html\_colors.asp) format (in the form: #RRGGBB, where RR (red), GG (green) and BB (blue) are hexadecimal values between 00 and FF). For example :
 
-```text
+```
 #define BLYNK_GREEN     "#23C48E"
 #define BLYNK_BLUE      "#04C0F8"
 #define BLYNK_YELLOW    "#ED9D00"
@@ -54,7 +54,7 @@ Widget specific properties:
 
 `isOnPlay` is boolean accepts true/false.
 
-```text
+```
 Blynk.setProperty(V0, "isOnPlay", "true");
 ```
 
@@ -62,7 +62,7 @@ Blynk.setProperty(V0, "isOnPlay", "true");
 
 `labels` is list of strings for Menu widget selections;
 
-```text
+```
 Blynk.setProperty(V0, "labels", "label 1", "label 2", "label 3");
 ```
 
@@ -106,3 +106,8 @@ Blynk.setProperty(V1, "url", 1, "https://image1.jpg");
 
 You can also change widget properties via [HTTP API](https://docs.blynk.io/en/blynk.cloud/https-api-overview).
 
+**Alarm and Sound**
+
+```cpp
+Blynk.setProperty(V1, "isMuted", "true");
+```
