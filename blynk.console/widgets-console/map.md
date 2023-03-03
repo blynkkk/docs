@@ -94,7 +94,7 @@ The datastream must have the advanced settings option ‘Save raw data’ enable
 
 The Misc tab allows you to configure the track termination point style, and optionally the track course direction.
 
-![](<../../.gitbook/assets/map\_widget\_settings (5) (4) (1) (1) (1) (1) (1) (1).gif>)
+![](<../../.gitbook/assets/map\_widget\_settings (5) (4) (1) (1) (1) (1) (1) (1) (4).gif>)
 
 **STYLE: POINT** - choose the track termination style from the options of: Point, Course, Truck, and Device name.
 

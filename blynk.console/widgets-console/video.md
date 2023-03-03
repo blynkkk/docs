@@ -1,3 +1,8 @@
+---
+cover: ../../.gitbook/assets/image (15) (2).png
+coverY: 0
+---
+
 # Video
 
 [Available](https://docs.blynk.io/en/blynk.console/widgets-console) to PLUS and higher subscribers.
