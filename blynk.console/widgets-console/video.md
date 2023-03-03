@@ -22,7 +22,7 @@ The video widget has the following controls:
 
 ### How to change the video URL property
 
-You can change the URL from your [hardware](https://docs.blynk.io/en/blynk.apps/widgets-app/button#change-button-properties), or via an [HTTP API](https://docs.blynk.io/en/blynk.cloud/update-property) by using the property name ‘url’.
+You can change the URL from your [hardware](../../blynk.edgent-firmware-api/widget-properties.md), or via an [HTTP API](../../blynk.cloud/update-property.md) by using the property name ‘url’.
 
 ```cpp
 Blynk.setProperty(V1, "url", "http://my_new_video_url");
