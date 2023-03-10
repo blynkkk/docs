@@ -57,7 +57,7 @@ These are limits that apply to any organization (that includes all it's sub-orga
 |                      Levels of sub-organizations hierarchy                      |   -  |     -    | 4              |
 |                         Blynk.Air shipments (campaigns)                         |   2  |    10    | 25             |
 |                                    Locations                                    |   2  |    10    | 50             |
-|                                     Webhooks                                    |   1  |     5    | 20             |
+|                                     Webhooks                                    |   1  |    10    | 20             |
 
 
 
