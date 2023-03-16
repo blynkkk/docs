@@ -57,14 +57,14 @@ Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a 
 
 #### Properties you can change
 
-You can change the properties “label”, “IsHidden” and “isMuted” of the widget from your [hardware](../../blynk.edgent-firmware-api/widget-properties.md), or via an [HTTP API](../../blynk.cloud/update-property.md). The “isMuted” property is unique to the Alarm and Sound widget and will enable or disable the mute option for the Alarm and Sound widget.&#x20;
+You can change the properties “label”, “isHidden” and “isMuted” of the widget from your [hardware](../../blynk.edgent-firmware-api/widget-properties.md), or via an [HTTP API](../../blynk.cloud/update-property.md). The “isMuted” property is unique to the Alarm and Sound widget and will enable or disable the mute option for the Alarm and Sound widget.&#x20;
 
 ```cpp
-Blynk.setProperty(V1, "isMuted", "True");
+Blynk.setProperty(V1, "isMuted", "true");
 ```
 
 ```
-https://{server_address}/external/api/update/property?token={your 32 char token}&pin=V1&isMuted=1
+https://{server_address}/external/api/update/property?token={your 32 char token}&pin=V1&isMuted=true
 ```
 
 ```cpp

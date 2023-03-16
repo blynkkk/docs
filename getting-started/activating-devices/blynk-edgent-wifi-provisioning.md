@@ -73,7 +73,7 @@ Now your device is ready to be activated using Blynk app.
 ## Activating the device using Blynk app
 
 1. Open Blynk App
-2. Open the MENU icon in the upper right corner In the upper right corner
+2. Open the MENU icon in the upper right corner
 3. Tap on +Add New Device
 4. The app will scan the WiFi networks around you and offer to connect to your device. In our example, the device name will be: **Blynk Root Template-FAD8F**
 5. Once the connection is established, the Blynk app will guide you through the provisioning process.
