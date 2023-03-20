@@ -248,6 +248,10 @@
 * [Database Access](add-ons/database-access.md)
 * [Marketing](add-ons/marketing.md)
 
+## Hardware
+
+* [Particle](hardware/particle.md)
+
 ## Legacy Platform Help Articles <a href="#legacy-platform" id="legacy-platform"></a>
 
 * [Legacy articles](legacy-platform/legacy-articles/README.md)
