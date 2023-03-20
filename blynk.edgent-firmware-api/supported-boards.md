@@ -72,22 +72,13 @@ Read about static tokens here:
 * Argon
 * Boron
 * Photon 2
-* SparkFun RedBoard
 
 **JavaScript** (Node.js, Espruino, Browsers) ([https://www.npmjs.com/package/blynk-library](https://www.npmjs.com/package/blynk-library))
 
 * Regular PC with Linux / Windows / OS X
 * Raspberry Pi (Banana Pi, Orange Pi, …)
 * BeagleBone Black
-* Onion Omega
 * Onion Omega 2
-* Intel Galileo
-* Intel Edison
-* Intel Joule
-* LeMaker Guitar
-* LeMaker Banana Pro
-* Samsung ARTIK 5
-* PandaBoard, CubieBoard, pcDuino, Tessel 2
 * VoCore, VoCore2 (OpenWRT + [Espruino package](https://github.com/vshymanskyy/OpenWRT-Espruino-packages))
 * Espruino Pico
 * …
@@ -97,11 +88,7 @@ Read about static tokens here:
 * Regular PC with Linux / Windows / OS X
 * Raspberry Pi (Banana Pi, Orange Pi, …)
 * BeagleBone Black
-* Onion Omega
 * Onion Omega 2
-* Intel Galileo
-* Intel Edison
-* Intel Joule
 * MicroPython
 * …
 
