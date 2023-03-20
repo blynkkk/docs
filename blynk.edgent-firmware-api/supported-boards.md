@@ -41,7 +41,6 @@ Read about static tokens here:
 * Arduino MKR NB 1500
 * Arduino Uno, Duemilanove
 * Arduino Nano, Mini, Pro Mini, Pro Micro, Due, Mega
-* Arduino 101 (Intel Curie)
 * Arduino MKR1000
 * Arduino Zero
 * Arduino Yún (onboard WiFi and Ethernet, via Bridge)
@@ -54,22 +53,13 @@ Read about static tokens here:
 * Blynk Board
 * ESP8266 (Generic, NodeMCU, Witty Cloud, Huzzah, WeMos D1, Seeed Wio Link, etc.)
 * ESP32
-* Nordic nRF51/nRF52 - based boards
-* Teensy 3.2/3.1
+* Teensy
 * Blue Pill (STM32F103C)
 * Realtek RTL8710 / Ameba via [RTLduino](https://github.com/pvvx/RtlDuino)
-* DFRobot Bluno
-* RedBear Duo
-* RedBearLab Blend Micro
-* The AirBoard (BLE-Link, RN-XV)
 * Feather M0 WiFi
-* Intel Edison
-* Intel Galileo
-* Fishino Guppy, Uno, Mega
 * TinyCircuits TinyDuino (CC3000)
 * Microduino/mCookie Core, Core+, CoreUSB
 * Wicked WildFire V2, V3, V4
-* Digistump Oak
 * chipKIT Uno32
 * Alorium XLR8 (FPGA)
 * LinkIt ONE
@@ -113,6 +103,7 @@ Read about static tokens here:
 * Intel Edison
 * Intel Joule
 * MicroPython
+* …
 
 ### Arduino connection types <a href="#supported-hardware-arduino-connection-types" id="supported-hardware-arduino-connection-types"></a>
 
@@ -121,25 +112,18 @@ Read about static tokens here:
   * Arduino MKR ETH
   * Arduino Ethernet Shield (W5100)
   * Arduino Ethernet Shield 2 (W5500)
-  * SeeedStudio Ethernet Shield V2.0 (W5200)
   * ENC28J60-based modules
 * **WiFi**
-  * ESP8266 as WiFi modem (running original firmware)
+  * ESP8266 as WiFi modem (running original AT firmware)
   * Arduino WiFi 101 Shield
   * Arduino WiFi Shield
   * WIZnet WizFi310
-  * Adafruit CC3000 WiFi Breakout / Shield
-  * RN-XV WiFly
 * **Cellular (GSM/3G/LTE)**
   * SIMCom SIM800 series (SIM800A, SIM800C, SIM800L, SIM800H, SIM808, SIM868)
-  * SIMCom SIM900 series (SIM900A, SIM900D, SIM908, SIM968)
-  * A6/A7
-  * M590
+  * SIMCom SIM7600 series
   * BG96
   * GPRSbee
-  * Microduino GSM
   * Adafruit FONA (Mini Cellular GSM Breakout)
-  * Adafruit FONA 800/808 Shield
 
 {% hint style="info" %}
 Traffic optimization is usually required for cellular connections. Using realtime streaming protocols like Blynk or MQTT has benefits of interactive device updates, but it also requires device to stay "always connected", which significantly increases the traffic. Blynk recommends using [HTTPS (batch) API](../blynk.cloud/https-api-overview.md) for reporting telemetry and fetching `DataStream` values periodically in such scenarios. It will also help saving the battery.
