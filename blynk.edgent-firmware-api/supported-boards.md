@@ -118,7 +118,6 @@ Traffic optimization is usually required for cellular connections. Using realtim
 
 ### Made by Community <a href="#supported-hardware-made-by-community" id="supported-hardware-made-by-community"></a>
 
-* [Marvell® EZ-Connect™ MW300/MW302](https://github.com/vshymanskyy/blynk-library-ez-connect)
 * [Node-RED](https://github.com/gablau/node-red-contrib-blynk-iot) (can be used as bridge to HTTP, TCP, UDP, MQTT, XMPP, IRC, OSC…)
 
 ### Troubleshooting
