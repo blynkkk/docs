@@ -12,14 +12,12 @@ Read more about WiFi provisioning here:
 
 | Board                 | Provisioning | Secure connection | Blynk.Air (OTA) |
 | --------------------- | ------------ | ----------------- | --------------- |
-| ESP32                 | ✅            | ✅                 | ✅               |
-| ESP8266               | ✅            | ✅                 | ✅               |
-| Arduino MKR WiFi 1010 | ✅            | ✅                 | ✅               |
-| Arduino Nano 33 IoT   | ✅            | ✅                 | ✅               |
-| Arduino MKR1000       | ✅            | ✅                 | ✅ (partial)     |
-| Seeed Wio Terminal    | ✅            | ✅                 | ✅               |
-| TI CC3220             | ✅            | ✅                 | ✅               |
-
+| ESP32                 | ✅            | ✅                | ✅               |
+| ESP8266               | ✅            | ✅                | ✅               |
+| Arduino MKR WiFi 1010 | ✅            | ✅                | ✅               |
+| Arduino Nano 33 IoT   | ✅            | ✅                | ✅               |
+| Seeed Wio Terminal    | ✅            | ✅                | ✅               |
+| TI CC3220             | ✅            | ✅                | ✅               |
 
 
 ## Hardware that can work with Static Tokens
@@ -76,30 +74,15 @@ Read about static tokens here:
 * Alorium XLR8 (FPGA)
 * LinkIt ONE
 
-**Energia**
-
-* Texas Instruments
-  * CC3220SF-LaunchXL
-  * CC3200-LaunchXL
-  * Tiva C Connected LaunchPad
-  * Stellaris LM4F120 LaunchPad
-  * MSP430F5529 + CC3100
-  * LaunchPad MSP432
-* RedBearLab (CC3200, WiFi Mini)
-
 **Particle** [https://github.com/vshymanskyy/blynk-library-spark](https://github.com/vshymanskyy/blynk-library-spark))
 
 * Core
 * Photon
 * Electron
-* RPi
+* Argon
+* Boron
+* Photon 2
 * SparkFun RedBoard
-
-**ARM mbed** ([https://developer.mbed.org/users/vshymanskyy/code/Blynk/](https://developer.mbed.org/users/vshymanskyy/code/Blynk/))
-
-* Seeed Tiny BLE
-* RedBearLab BLE Nano
-* BBC micro:bit
 
 **JavaScript** (Node.js, Espruino, Browsers) ([https://www.npmjs.com/package/blynk-library](https://www.npmjs.com/package/blynk-library))
 
@@ -121,13 +104,15 @@ Read about static tokens here:
 
 **Python** ([https://github.com/vshymanskyy/blynk-library-python](https://github.com/vshymanskyy/blynk-library-python))
 
+* Regular PC with Linux / Windows / OS X
+* Raspberry Pi (Banana Pi, Orange Pi, …)
+* BeagleBone Black
+* Onion Omega
+* Onion Omega 2
+* Intel Galileo
+* Intel Edison
+* Intel Joule
 * MicroPython
-* Python 2
-* Python 3
-
-**Lua** ([https://github.com/blezek/blynk-esp](https://github.com/blezek/blynk-esp))
-
-* NodeMCU
 
 ### Arduino connection types <a href="#supported-hardware-arduino-connection-types" id="supported-hardware-arduino-connection-types"></a>
 
@@ -163,12 +148,8 @@ Traffic optimization is usually required for cellular connections. Using realtim
 ### Made by Community <a href="#supported-hardware-made-by-community" id="supported-hardware-made-by-community"></a>
 
 * [Marvell® EZ-Connect™ MW300/MW302](https://github.com/vshymanskyy/blynk-library-ez-connect)
-* [WIZnet-W5500-EVB](http://instructables.com/id/WIZnet-W5500-EVB-and-Blynk-App-communication)
-* [LabVIEW](https://github.com/juncaofish/NI-LabVIEWInterfaceforBlynk)
-* [Node-RED](https://github.com/gablau/node-red-contrib-blynk-ws) (can be used as bridge to HTTP, TCP, UDP, MQTT, XMPP, IRC, OSC…)
+* [Node-RED](https://github.com/gablau/node-red-contrib-blynk-iot) (can be used as bridge to HTTP, TCP, UDP, MQTT, XMPP, IRC, OSC…)
 
-### Problematic Boards <a href="#supported-hardware-problematic-boards" id="supported-hardware-problematic-boards"></a>
-
-These boards are not supported and do not work out of the box: - [Arduino Tian](http://www.arduino.org/products/boards/arduino-tian)
+### Troubleshooting
 
 Here is a list of [**known library issues**](https://github.com/blynkkk/blynk-library/issues?q=is%3Aissue+label%3A%22for+reference%22+)
