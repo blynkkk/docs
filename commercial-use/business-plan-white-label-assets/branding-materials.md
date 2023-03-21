@@ -27,7 +27,7 @@ Minimum requirements t&#x20;
 
 For Android 2 layers are required. Transparency is allowed.
 
-![](<../../.gitbook/assets/Icons requirements (1).png>)
+![](<../../.gitbook/assets/Icons requirements.png>)
 
 {% hint style="warning" %}
 **Corner rounding is not allowed.** You need to provide images with no corner raiduses applied. Rounding is applied by an operating system of the smartphone. Different OS apply different rounding. So make sure that your icon content is not cropped with any radius
