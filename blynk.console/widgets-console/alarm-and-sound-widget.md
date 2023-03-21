@@ -26,7 +26,7 @@ Blynk.virtualWrite(V1, HIGH);
 or
 
 ```cpp
-Blynk.virtualWrite(V1, HIGH);
+Blynk.virtualWrite(V1, 1);
 ```
 
 Any integer value other than zero (0) will trigger the alarm.  The alarm can be disabled by changing the datastream value to zero (0) by using the `Blynk.virtualWrite()` command.&#x20;
