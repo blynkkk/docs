@@ -31,10 +31,6 @@ Blynk.virtualWrite(V1, 1);
 
 Any integer value other than zero (0) will trigger the alarm.  The alarm can be disabled by changing the datastream value to zero (0) by using the `Blynk.virtualWrite()` command.&#x20;
 
-{% hint style="danger" %}
-Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, or use timers.
-{% endhint %}
-
 Find full code examples of using `Blynk.virtualWrite()` for your hardware [here](https://examples.blynk.cc/?board=ESP32\&shield=ESP32%20WiFi\&example=GettingStarted%2FGetData).
 
 ### Change Alarm and Sound Properties
