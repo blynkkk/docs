@@ -9,7 +9,7 @@ There are different ways to get your devices connected to the Blynk Cloud:
 
 - **HTTP(s) API**  
    A standard communication protocol that can be used by any Internet-connected device.  
-   The device connects to the cloud occasionally transfer the data.  
+   The device connects to the cloud occasionally to transfer the data.  
    Sending timestamped data in batches is also possible, which is particularly usefull for **Cellular devices**.
 
 - **Blynk.Edgent**  
