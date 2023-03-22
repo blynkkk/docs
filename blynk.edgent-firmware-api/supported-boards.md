@@ -2,24 +2,21 @@
 
 There are different ways to get your devices connected to the Blynk Cloud:
 
-- **Blynk library**  
-  An easy to use and portable C++ library, pre-configured to work with **hundreds of development boards**.  
-  The library implements a streaming connection protocol (i.e. the device stays always connected to the cloud),
-  that allows for a **low latency, bi-directional** communication.
-
-- **HTTP(s) API**  
-   A standard communication protocol that can be used by any Internet-connected device.  
-   The device connects to the cloud occasionally to transfer the data.  
-   Sending timestamped data in batches is also possible, which is particularly useful for **Cellular devices**.
-
-- **Blynk.Edgent**  
+* **Blynk library**\
+  An easy to use and portable C++ library, pre-configured to work with **hundreds of development boards**.\
+  The library implements a streaming connection protocol (i.e. the device stays always connected to the cloud), that allows for a **low latency, bi-directional** communication.
+* **Blynk.Edgent**\
   A packaged solution that includes:
-    - Blynk library API
-    - **Blynk.Inject** (dynamic device credentials provisioning)
-    - **Blynk.Air** (firmware OTA updates)
-    - A simple UX/interaction example:
-      - Device state indication using an RGB LED
-      - Device configuration reset using a button
+  * Blynk library API
+  * **Blynk.Inject** (dynamic device credentials provisioning)
+  * **Blynk.Air** (firmware OTA updates)
+  * A simple UX/interaction example:
+    * Device state indication using an RGB LED
+    * Device configuration reset using a button
+* **HTTP(s) API**\
+  A standard communication protocol that can be used by any Internet-connected device.\
+  The device connects to the cloud occasionally to transfer the data.\
+  Sending timestamped data in batches is also possible, which is particularly useful for **Cellular devices**.
 
 ## Hardware supported by `Blynk.Edgent`
 
@@ -45,7 +42,7 @@ As part of Blynk.Edgent the following features are fully supported:\
 | Seeed Wio Terminal    | ✅            | ✅                 | ✅               |
 | TI CC3220             | ✅            | ✅                 | ✅               |
 
-## Hardware that can work with Static Tokens
+### Hardware that works with Blynk library or HTTPs API (using Static Tokens)
 
 {% hint style="info" %}
 This is the easiest way to migrate from legacy Blynk projects. Just add `BLYNK_TEMPLATE_ID` and `BLYNK_TEMPLATE_NAME` at the top of your firmware (prior to any includes), update your auth token and that's it. Read more about [project migration](../blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md).
