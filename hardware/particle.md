@@ -4,7 +4,7 @@ description: How to Connect a Particle Device to Blynk
 
 # Particle
 
-This guide will help you connect a Particle ... and set up everything that is needed to:
+This guide will help you connect a Particle board and set up everything that is needed to:
 
 * Monitor 2x digital inputs and notify the user whenever the state of any of them changes.
 * Notify the user if the device has moved more than 122 m / 400 ft since it was powered on, and the speed in mph.
@@ -632,7 +632,7 @@ The static token will be generated and then it will be shown within the list of 
 
 Under the list column labeled ‘QR Token’, hover your mouse over the right of the partially visible QR Token and select the pop up option ‘Copy to clipboard’ to get the QR Code as text, or the option ‘Show QR code’ to view and download a QR Code image file.
 
-Add a new user who doesn’t have an existing Blynk account (identified by email address) by sending them an invite by email. Follow the instructions [here](../blynk.console/users/#invite-new-user). Make sure your users have sufficient permissions to claim and control devices. You can do it by checking the default permissions sets and editing them accordingly. The new user who receives the email will click on a link in the email to join Blynk and set their Blynk account password. Once they are logged into Blink, they should install the Blynk.App, login to Blynk on the Blynk.App, and then from the devices panel, choose the menu option ‘+ Add New Device’. Choose the option ‘Scan QR -Code’ and scan in the QR Code for the QR Token. The device will be claimed by the user, and then the user may assign a custom name such as ‘boronc’ to the device.&#x20;
+Add a new user who doesn’t have an existing Blynk account (identified by email address) by sending them an invite by email. Follow the instructions [here](../blynk.console/users/#invite-new-user), and since we want them to claim the new device themselves, [assign them a role and edit the default permissions](../blynk.console/settings/access.md) to ensure they can view, provision, edit, and control the device. The new user who receives the email will click on a link in the email to join Blynk and set their Blynk account password. Once they are logged into Blink, they should install the Blynk.App, login to Blynk on the Blynk.App, and then from the devices panel, choose the menu option ‘+ Add New Device’. Choose the option ‘Scan QR -Code’ and scan in the QR Code for the QR Token. The device will be claimed by the user, and then the user may assign a custom name such as ‘boronc’ to the device.&#x20;
 
 ### Wrap Up
 
