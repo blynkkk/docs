@@ -10,13 +10,13 @@ There are different ways to get your devices connected to the Blynk Cloud:
 - **HTTP(s) API**  
    A standard communication protocol that can be used by any Internet-connected device.  
    The device connects to the cloud occasionally transfer the data.  
-   Sending timestamped data in batches is also possible.
+   Sending timestamped data in batches is also possible, which is particularly usefull for **Cellular devices**.
 
 - **Blynk.Edgent**  
   A packaged solution that includes:
     - Blynk library API
-    - Blynk.Inject (dynamic device credentials provisioning)
-    - Blynk.Air (firmware OTA updates)
+    - **Blynk.Inject** (dynamic device credentials provisioning)
+    - **Blynk.Air** (firmware OTA updates)
     - A simple UX/interaction example:
       - Device state indication using an RGB LED
       - Device configuration reset using a button
