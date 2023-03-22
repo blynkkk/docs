@@ -15,7 +15,7 @@ There are different ways to get your devices connected to the Blynk Cloud:
     * Device configuration reset using a button
 
 - **Blynk.NCP**  
-  Blynk offers a software stack for a variety of `Network Co-Processors`. `NCP` is a dedicated connectivity chip/module that **off-loads all the network functionality** from the main device MCU (which can be arbitrary). The main MCU runs a lightweight client library that communicates to the `NCP` over UART or SPI. It enables blazing fast and high quality integration, and is perfect for retrofitting scenarios. If you're interested in using **Blynk.NCP** for commercial applications, please [contact Blynk](https://blynk.io/en/contact-us-business)
+  Blynk offers a software stack for a variety of `Network Co-Processors`. NCP is a dedicated connectivity chip/module that **off-loads all the network functionality** from the main device MCU (which can be arbitrary). The main MCU runs a lightweight client library that communicates to the NCP over `UART` or `SPI`. It enables blazing fast and high quality integration, and is perfect for retrofitting scenarios. If you're interested in using **Blynk.NCP** for commercial applications, please [contact Blynk](https://blynk.io/en/contact-us-business)
 
 * **HTTP(s) API**\
   A standard communication protocol that can be used by any Internet-connected device.\
