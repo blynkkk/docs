@@ -12,7 +12,7 @@ A packaged solution that includes Blynk library + WiFi provisioning + OTA.
 
 #### HTTPs API
 
-An industry standard communication protocol that can be used with any device that supports it.
+A communication protocol that can be used with any device that supports it.
 
 ## Hardware that **supports** Blynk.Edgent
 
