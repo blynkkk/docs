@@ -4,6 +4,7 @@
 
 ## Getting Started
 
+* [Supported Boards](getting-started/supported-boards.md)
 * [Quickstart](getting-started/what-do-i-need-to-blynk/README.md)
   * [Next Steps After Quickstart](getting-started/what-do-i-need-to-blynk/how-quickstart-device-was-made.md)
   * [Quickstart Device: Code Overview](getting-started/what-do-i-need-to-blynk/quickstart-device-code-overview.md)
