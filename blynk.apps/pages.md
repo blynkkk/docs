@@ -2,7 +2,7 @@
 
 With **Pages** you can add multiple pages to a device dashboard. This helps to better organize the UI and build connections between sections of your device dashboard.
 
-![](<../.gitbook/assets/image (15) (2).png>)
+![](<../.gitbook/assets/image (23).png>)
 
 ####
 

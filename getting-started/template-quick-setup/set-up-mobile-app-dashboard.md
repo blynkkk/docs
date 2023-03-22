@@ -44,7 +44,7 @@ There are currently 8 Device Tile presets with different interactions:
 
     * **Indicator** - set the style (dot or tick), and the color of that indicator.
 
-    <figure><img src="../../.gitbook/assets/gauge-tile-type-design-settings-3.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/gauge-tile-type-design-settings-3 (1).png" alt=""><figcaption></figcaption></figure>
 * **3 Labels** – you can display up to 3 important values plus a switch control
 * **2 Labels** – you can display up to 2 values, plus a switch control
 

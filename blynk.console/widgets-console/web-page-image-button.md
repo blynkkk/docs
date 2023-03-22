@@ -12,7 +12,7 @@ You need to provide a http/s URL for the image. The URL should be a valid endpoi
 
 You can set up two images representing the pressed/unpressed state of the button and an URL field for the external page address.
 
-![](<../../.gitbook/assets/web-page-image-button-widget-newsletter (1).png>)
+![](../../.gitbook/assets/web-page-image-button-widget-newsletter.png)
 
 ### Datastream
 
