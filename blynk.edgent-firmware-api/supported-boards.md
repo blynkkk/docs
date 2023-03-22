@@ -3,7 +3,9 @@
 There are different ways to get your devices connected to the Blynk Cloud:
 
 - **Blynk library**  
-  An easy to use, portable C++ library that comes pre-configured to work with hundreds of development boards. The library implements a streaming connection protocol (i.e. the device stays always connected to the cloud), that allows for a **low latency, bi-directional** communication.
+  An easy to use, portable C++ library that comes pre-configured to work with hundreds of development boards.  
+  The library implements a streaming connection protocol (i.e. the device stays always connected to the cloud),  
+  that allows for a **low latency, bi-directional** communication.
 
 - **HTTP(s) API**  
    A standard communication protocol that can be used by any Internet-connected device.  
