@@ -1,20 +1,26 @@
 # Supported Boards
 
-There are three different ways to make MCUs work with Blynk:
+There are different ways to get your devices connected to the Blynk Cloud:
 
-#### Blynk library
+- **Blynk library**  
+  An easy to use, portable C++ library that comes pre-configured to work with hundreds of development boards.  
+  The library implements a streaming connection protocol. The device stays always connected to the cloud, that allows for a low latency, bi-directional communication.
 
-A pre-configured way of communication with specific device types, using Blynk proprietary protocol (similar to MQTT).
+- **HTTP(s) API**  
+   A standard communication protocol that can be used by any Internet-connected device.  
+   The device connects to the cloud occasionally transfer the data.  
+   Sending timestamped data in batches is also possible.
 
-#### Blynk.Edgent
+- **Blynk.Edgent**  
+  A packaged solution that includes:
+    - Blynk library API
+    - Blynk.Inject (dynamic device credentials provisioning)
+    - Blynk.Air (firmware OTA updates)
+    - A simple UX/interaction example:
+      - Device state indication using an RGB LED
+      - Device configuration reset using a button
 
-A packaged solution that includes Blynk library + WiFi provisioning + OTA.
-
-#### HTTPs API
-
-A communication protocol that can be used with any device that supports it.
-
-## Hardware that **supports** Blynk.Edgent
+## Hardware supported by `Blynk.Edgent`
 
 As part of Blynk.Edgent the following features are fully supported:\
 **Dynamic Tokens (WiFi provisioning)**. Read more about WiFi provisioning here:
