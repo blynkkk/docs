@@ -1,24 +1,42 @@
 # Supported Boards
 
-## Hardware that **supports Dynamic Tokens (WiFi provisioning)**
+There are three different ways to make MCUs work with Blynk:
 
-Read more about WiFi provisioning here:
+#### Blynk library
+
+A pre-configured way of communication with specific device types, using Blynk proprietary protocol (similar to MQTT).
+
+#### Blynk.Edgent
+
+A packaged solution that includes Blynk library + WiFi provisioning + OTA.
+
+#### HTTPs API
+
+An industry standard communication protocol that can be used with any device that supports it.
+
+## Hardware that **supports** Blynk.Edgent
+
+As part of Blynk.Edgent the following features are fully supported:\
+**Dynamic Tokens (WiFi provisioning)**. Read more about WiFi provisioning here:
 
 {% content-ref url="../getting-started/activating-devices/blynk-edgent-wifi-provisioning.md" %}
 [blynk-edgent-wifi-provisioning.md](../getting-started/activating-devices/blynk-edgent-wifi-provisioning.md)
 {% endcontent-ref %}
 
+**Blynk.Air (OTA)**. Read about it here:
 
+{% content-ref url="../getting-started/updating-devices-firmwares-ota.md" %}
+[updating-devices-firmwares-ota.md](../getting-started/updating-devices-firmwares-ota.md)
+{% endcontent-ref %}
 
 | Board                 | Provisioning | Secure connection | Blynk.Air (OTA) |
 | --------------------- | ------------ | ----------------- | --------------- |
-| ESP32                 | ✅            | ✅                | ✅               |
-| ESP8266               | ✅            | ✅                | ✅               |
-| Arduino MKR WiFi 1010 | ✅            | ✅                | ✅               |
-| Arduino Nano 33 IoT   | ✅            | ✅                | ✅               |
-| Seeed Wio Terminal    | ✅            | ✅                | ✅               |
-| TI CC3220             | ✅            | ✅                | ✅               |
-
+| ESP32                 | ✅            | ✅                 | ✅               |
+| ESP8266               | ✅            | ✅                 | ✅               |
+| Arduino MKR WiFi 1010 | ✅            | ✅                 | ✅               |
+| Arduino Nano 33 IoT   | ✅            | ✅                 | ✅               |
+| Seeed Wio Terminal    | ✅            | ✅                 | ✅               |
+| TI CC3220             | ✅            | ✅                 | ✅               |
 
 ## Hardware that can work with Static Tokens
 
@@ -27,8 +45,6 @@ This is the easiest way to migrate from legacy Blynk projects. Just add `BLYNK_T
 {% endhint %}
 
 Read about static tokens here:
-
-
 
 {% content-ref url="../getting-started/activating-devices/blynk-edgent-static-authtoken.md" %}
 [blynk-edgent-static-authtoken.md](../getting-started/activating-devices/blynk-edgent-static-authtoken.md)
