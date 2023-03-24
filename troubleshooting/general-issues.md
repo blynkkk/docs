@@ -79,13 +79,13 @@
 
 * device board hardware is not supported by the Template
 * device Template ID mismatch
-* wrong Product Name&#x20;
+* wrong Template Name&#x20;
 
 **What’s the solution:**
 
 * be sure to use the hardware that is mentioned in Template's Info page
 * be sure you paste correct BLYNK\_TEMPLATE\_ID to the sketch
-* be sure you paste correct BLYNK\_DEVICE\_NAME to the sketch
+* be sure you paste correct BLYNK\_TEMPLATE\_NAME to the sketch
 
 ## I can't erase data from a device
 

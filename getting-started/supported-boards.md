@@ -1,4 +1,4 @@
-# Supported Boards
+# Supported Hardware
 
 There are different ways to get your devices connected to the Blynk Cloud:
 
@@ -92,7 +92,7 @@ Read about static tokens here:
 * Photon
 * Electron
 * Argon
-* Boron
+* [Boron](../hardware/particle.md)
 * Photon 2
 
 **JavaScript** (Node.js, Espruino, Browsers) ([https://www.npmjs.com/package/blynk-library](https://www.npmjs.com/package/blynk-library))
