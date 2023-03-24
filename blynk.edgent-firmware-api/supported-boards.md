@@ -2,9 +2,13 @@
 
 There are different ways to get your devices connected to the Blynk Cloud:
 
-* **Blynk library**\
+* **Blynk Library**\
   An easy to use and portable C++ library, pre-configured to work with **hundreds of development boards**.\
   The library implements a streaming connection protocol (i.e. the device stays always connected to the cloud), that allows for a **low latency, bi-directional** communication.
+* **HTTP(s) API**\
+  A standard communication protocol that can be used by any Internet-connected device.\
+  The device connects to the cloud occasionally to transfer the data.\
+  Sending timestamped data in batches is also possible, which is particularly useful for **Cellular devices**.
 * **Blynk.Edgent**\
   A packaged solution that includes:
   * Blynk library API
@@ -13,12 +17,8 @@ There are different ways to get your devices connected to the Blynk Cloud:
   * A simple UX/interaction example:
     * Device state indication using an RGB LED
     * Device configuration reset using a button
-* **Blynk.NCP**\
-  Blynk offers a software stack for a variety of `Network Co-Processors`. NCP is a dedicated connectivity chip/module that **off-loads all the network functionality** from the main device MCU (which can be arbitrary). The main MCU runs a lightweight client library that communicates to the NCP over `UART` or `SPI`. It enables blazing fast and high quality integration, and is perfect for retrofitting scenarios. If you're interested in using **Blynk.NCP** for commercial applications, please [contact Blynk](https://blynk.io/en/contact-us-business).
-* **HTTP(s) API**\
-  A standard communication protocol that can be used by any Internet-connected device.\
-  The device connects to the cloud occasionally to transfer the data.\
-  Sending timestamped data in batches is also possible, which is particularly useful for **Cellular devices**.
+
+##
 
 ## Hardware supported by `Blynk.Edgent`
 
@@ -44,7 +44,9 @@ As part of Blynk.Edgent the following features are fully supported:\
 | Seeed Wio Terminal    | ✅            | ✅                 | ✅               |
 | TI CC3220             | ✅            | ✅                 | ✅               |
 
-### Hardware that works with Blynk library or HTTPs API (using Static Tokens)
+##
+
+## Hardware that can work with Static Tokens
 
 {% hint style="info" %}
 This is the easiest way to migrate from legacy Blynk projects. Just add `BLYNK_TEMPLATE_ID` and `BLYNK_TEMPLATE_NAME` at the top of your firmware (prior to any includes), update your auth token and that's it. Read more about [project migration](../blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md).
@@ -138,9 +140,13 @@ Read about static tokens here:
 Traffic optimization is usually required for cellular connections. Using realtime streaming protocols like Blynk or MQTT has benefits of interactive device updates, but it also requires device to stay "always connected", which significantly increases the traffic. Blynk recommends using [HTTPS (batch) API](../blynk.cloud/https-api-overview.md) for reporting telemetry and fetching `DataStream` values periodically in such scenarios. It will also help saving the battery.
 {% endhint %}
 
+### &#x20;<a href="#supported-hardware-made-by-community" id="supported-hardware-made-by-community"></a>
+
 ### Made by Community <a href="#supported-hardware-made-by-community" id="supported-hardware-made-by-community"></a>
 
 * [Node-RED](https://github.com/gablau/node-red-contrib-blynk-iot) (can be used as bridge to HTTP, TCP, UDP, MQTT, XMPP, IRC, OSC…)
+
+###
 
 ### Troubleshooting
 

@@ -1,26 +1,29 @@
 # Device Template
 
-Device Template is a set of configurations inherited by devices of a similar type.
+A Device Template is a collection of configurations shared by devices of a similar type.&#x20;
 
-Imagine smart home switches. They all perform a similar function and we can assume they should have the same data model, GPIOs, firmware code, etc. If you would need to introduce changes to all these devices, instead of editing each of them you could just edit a Device Template and all devices will be updated.
+Consider smart home switches as an example. These devices typically perform comparable functions and often have the same data model, GPIO assignments, firmware code, etc. Instead of editing each device individually when changes are required, you can modify a Device Template, and all associated devices will be updated accordingly.
 
-Every Device Template has a **Template ID** – \_\*\*\_a unique template identifier that helps Blynk to recognize the type of added device and attach all other template elements:
+Each Device Template possesses a `Template ID`, a unique identifier that enables Blynk to recognize the device type and link it to the relevant template elements:
 
-**General Settings:** general settings of the device
+1. **General Settings**: These encompass the device's overall settings.
+2. ****[**Metadata**](../blynk.console/devices/device-profile/metadata.md): This consists of a `key:value` data table associated with every device. While keys remain static, values differ for each device. For instance, a Serial Number field may be present for every device, but the actual value varies.
+3. ****[**Datastreams**](../blynk.console/templates/datastreams/): These are channels for time-stamped data transmitted between the device and the cloud. For example, sensor data should pass through a Datastream. In the context of the first version of the Blynk platform, these are akin to Virtual Pins.
+4. ****[**Events**](../getting-started/events-tutorial.md): These represent significant occurrences in a device's lifecycle that should be logged and, if necessary, used for notifications. Events can be initiated by the device itself or externally via the HTTP API.
+5. ****[**Automations**](automations.md) **settings:** definition of which Datastreams should be exposed to Automations &#x20;
 
-**Metadata**: a table of `key:value` data attached to every device. `Keys` are static, and `values` are related for each device. For example Serial Number field can belong to every device, but the actual value is different.
-
-**Datastreams:** channels for any time-stamped data that flows in and out from the device to the cloud. For example sensor data should go through a Datastream. If you used the first version of Blynk platform, these are Virtual Pins.
-
-**Events:** important events in the life of the device that should be logged and, if needed, used for notifications. Events can be triggered from the device itself or externally using HTTP API
-
-Template also includes two dashboards:
+A Template also comprises two dashboards:
 
 ![Template](https://user-images.githubusercontent.com/72824404/119498209-0a317e00-bd6e-11eb-84d1-ae6565dfb7d3.png)
 
-**Web Dashboard:** a set of UI elements (widgets) to visualize the data from the device accessible for the users in Blynk.Console – a web-based application.
+1. **Web Dashboard**: This includes a set of UI elements ([widgets](../blynk.console/widgets-console/)) for visualizing device data, accessible to users via Blynk.Console, a web-based application.
+2. **Mobile Dashboard**: This contains a set of UI elements ([widgets](../blynk.apps/widgets-app/)) for displaying data in Blynk mobile apps on iOS and Android. Mobile apps also feature a template that represents devices in the list of devices (tiles).
 
-**Mobile Dashboard:** a set of UI elements (widgets) to visualize the data in Blynk mobile apps for iOS and Android. Mobile apps also contain a template of how device is represented in the list of devices (tiles)
+
+
+
+
+****
 
 ## Related Articles
 
