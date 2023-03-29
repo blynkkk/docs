@@ -1,4 +1,4 @@
-# Browse & Edit a Sub-Organization
+# Working with Sub-Organizations
 
 Login to Blynk as a user with a role and permissions that will allow you to perform your intended actions.  The ‘Admin’ role with default permissions is sufficient.
 
@@ -64,6 +64,18 @@ In this mode you can also perform all actions on the sub-organization as if you 
 
 {% hint style="info" %}
 You can navigate back to your root organization by clicking the Blynk logo at the top of the sidebar menu (top left corner).
+{% endhint %}
+
+### Transfer a Sub-Organization
+
+You can transfer a whole sub-organization to a different place in your hierarchy by changing their parent sub-organization. To do it you have to be an admin of the root organization. Go to Search -> ORGANIZATIONS -> My organizations -> Actions and select 'Transfer Organization' from the drop-down menu. You will be taken to a dialog where you can type in the name of a parent sub-organization or select it from the list to assign the child sub-organization to it. You will be able to review the new hierarchy before confirming the transfer.
+
+{% hint style="warning" %}
+When transferring organization, you will move all the assets, including devices, users, sub organizations (and their assets) under another organization in the hierarchy.
+{% endhint %}
+
+{% hint style="info" %}
+The transfer is a critical action that can affect how users access devices and their data. It can be reversed by transferring the sub-organization back.
 {% endhint %}
 
 ### How to Move a Device to a Sub-Organization

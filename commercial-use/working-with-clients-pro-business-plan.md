@@ -37,11 +37,11 @@ We highly recommend placing clients under one Organization (e.g. _My clients_) b
 
 Get yourself familiar with these features to manage clients more efficiently:&#x20;
 
-* [Creating a sub- organization](https://docs.blynk.io/en/blynk.console/organizations/create-a-sub-organization) and [inviting customers](https://docs.blynk.io/en/blynk.console/organizations/browse-and-edit-a-sub-organization#invite-users-to-a-sub-organization)
+* [Creating a sub-organization](https://docs.blynk.io/en/blynk.console/organizations/create-a-sub-organization) and [inviting customers](https://docs.blynk.io/en/blynk.console/organizations/browse-and-edit-a-sub-organization#invite-users-to-a-sub-organization)
 * Navigating ([switching](https://docs.blynk.io/en/blynk.console/organizations/browse-and-edit-a-sub-organization#switching-to-a-sub-organization)) between organizations (in mobile app and console)
 * Working with [Roles and Permissions](https://docs.blynk.io/en/blynk.console/settings/access)&#x20;
-* Transferring Organizations
-* [Transferrring Users](https://docs.blynk.io/en/blynk.console/organizations/browse-and-edit-a-sub-organization#how-to-transfer-a-user-to-another-organization)
+* [Transferring Organizations](../blynk.console/organizations/browse-and-edit-a-sub-organization.md#transfer-a-sub-organization)
+* [Transferring Users](https://docs.blynk.io/en/blynk.console/organizations/browse-and-edit-a-sub-organization#how-to-transfer-a-user-to-another-organization)
 * [Transferring Devices](https://docs.blynk.io/en/blynk.console/devices/actions-with-devices#device-transfer)&#x20;
 
 ****
