@@ -146,6 +146,7 @@ The function `publishTimer()` limits publishing of the data to every five minute
 
 This code implements a persistent method of ensuring that when a digital input state changes, the change will be published. The function publishTimer() will continue to attempt to publish the change until a successful result is returned by the Particle.publish() function. Additionally, the value sent for the digital inputs is the count of state changes. Tracking the count of state changes for the digital inputs makes it possible to see historically if somehow a digital input state change event was missed.&#x20;
 
+{% code overflow="wrap" %}
 ```cpp
 /*
   Project particle_to_blynk.io
@@ -179,7 +180,7 @@ This code implements a persistent method of ensuring that when a digital input s
 const char* firmware_version = "0.0.0";
 uint8_t led_mode = 0;
 boolean just_started = true;
-#define BLYNK_AUTH_TOKEN "fhG3U-TZNwezrLb1FMdSGzS23WvdlpIQ"
+#define BLYNK_AUTH_TOKEN "your_blynk_auth_token"
 
 /////////////////////////////////////////////////////////////////////////
 // blinkLEDnoDelay()
@@ -555,6 +556,7 @@ void loop() {
 
 } // loop()
 ```
+{% endcode %}
 
 ### Blynk Dashboard Widget Alarm & Sound Widget
 
