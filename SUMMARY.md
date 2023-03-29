@@ -227,7 +227,7 @@
 
 * [Deploying Products With Dynamic AuthTokens](commercial-use/deploying-products-with-dynamic-authtokens.md)
 * [Deploying Products With Static Tokens](commercial-use/deploying-products-with-static-authtokens.md)
-* [Working With Clients](commercial-use/working-with-clients-pro-plan.md)
+* [Working With Clients](commercial-use/working-with-clients-pro-business-plan.md)
 * [Supported topologies](commercial-use/supported-topologies.md)
 * [Business Plan (White Label Solution)](commercial-use/business-plan-white-label-assets/README.md)
   * [App Publishing Process And Timeline](commercial-use/business-plan-white-label-assets/app-publishing-process-and-timeline.md)
