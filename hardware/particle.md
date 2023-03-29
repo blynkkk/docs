@@ -43,11 +43,11 @@ Blynk Datastreams are bi-directional channels assigned a data type and link to d
 
 Using the Blynk Datastream Definitions listed in the table, create a device template named ‘BRN404X’ as shown below.
 
-<figure><img src="https://lh3.googleusercontent.com/FVJ20MJb1GIRGZaK8HAhil5nff_OLopBH12BCg_Njv8QAtcRX010VoyueTINFEDmGeFNpu2QyrybR4oSXu7eRh4pxED1QdH_CBBrSGkpqt4nDrMHcQ4NgWNyTW8beHgCBRnklj_mDRKDO-UFV_61CT4" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/0.png" alt=""><figcaption></figcaption></figure>
 
 Click on the ‘Templates->Datastreams’ tab and configure the datastreams as defined in the Blynk Datastream Definitions table with the options as shown below. It is important to configure the Pin, Data Type, Is Raw, Min, Max, and Default Value as shown.
 
-<figure><img src="https://lh6.googleusercontent.com/ZEcYEd-Gg91GSeeMjB1VZz-veJ18vGx8f5whMTdf8mYA3Kq4twdcpSSMDqJF87W1ZXTuxkuEAGYUy4n8LMh5u99vACm3NSNG9FHBF6UVoyZyuGODD5mpGkq-tyi6pk1q4IB_sbqTVl_AW5e85yhrDxc" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1.jpeg" alt=""><figcaption></figcaption></figure>
 
 ### Blynk Dashboard
 
@@ -78,7 +78,7 @@ Create a Blynk mobile app. The exact steps may vary between iOS and Android, but
 
 Static tokens will be used for device authentication because the device is cellular. We will generate a static authentication token (BLYNK\_AUTH\_TOKEN) using the [manual method](../getting-started/activating-devices/manual-device-activation.md). Navigate to the search menu and create a new device from the ‘BRN404X’ template with a name that is similar to the name you assigned to your Particle device name (‘boron\_b’ in my case), just to keep it simple and consistent.
 
-<figure><img src="https://lh5.googleusercontent.com/bT4vAN89mjHD78uDnefbUb-7Mw_lbcFCa9jCkbWef0TvgYXbDTctuOSWK_zICZZo7gX-tiwgZ92gpMbt-m9dMxJ2x1Gg38SRhH8eSnI6tRW3hcqKqgtyA6EpG1DH53li83hLbdmaEYHKjVU2tANsT8k" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/01 (1).png" alt=""><figcaption></figcaption></figure>
 
 After you click the ‘Create’ button, a device page will open and the Template ID, Device Name, and AuthToken will be shown in the upper right of the screen.&#x20;
 
@@ -110,15 +110,15 @@ Login to your [Particle Console](https://docs.particle.io/getting-started/consol
 
 <figure><img src="https://lh5.googleusercontent.com/jCTiR_P9AMWZLuyH685VEUiuhfcKYeeI-61H8dM4istQGLoUQWCXa6Nz73tMgyVZu7f1w3cy8Z-L6xGONj9C33Vr6yxrQSBkKtLpOyBHH2TJlsohASh2Nn4u2QGrg2TFo_aPZ3DZOhUn7Ee1a5tJFtY" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://lh3.googleusercontent.com/QjMtIwQOBtCjT6dX_MHtM3Z_lS1T_Z0NmfTqIy07WSRFTFCjfOs4_2exWR8bMrUXKxZDBNkEdVPQ0frMlgRYTDEia5uxNYKFiiBQvgHUXOhHLvsiejdGYIv1BSqF8LhX_S5x4U8EFMT5NJgFVst8soo" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/5 integration 2.jpeg" alt=""><figcaption></figcaption></figure>
 
 Fill out the Webhook form as shown below. The ‘Event Name’ is what will be called later by your device firmware with the Particle.publish() function. The server address of ‘ny3.blynk.cloud’ for the ‘URL’ field should be replaced with the server address from this list that matches what you defined for your Blynk HTTP GET request. Change the ‘Request Type’ to ‘GET’, and then click on the ‘CREATE WEBHOOK’ button at the bottom of the form.&#x20;
 
-<figure><img src="https://lh3.googleusercontent.com/69KRohMtsHL9XZl5trCbv-h3jRjF7-gTT8sz6Sz4ZjAW_uXX6ePshn79U0XvSW5LPG3RYmxiwPkEoaDYnU2FuMe2pNjMY_BFfWkenTcYnEXDo30EuGPO5PG5_HqIC8G_D0HACntmxcvY2GpmkNz_1gQ" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/5.jpeg" alt=""><figcaption></figcaption></figure>
 
 The webhook is not complete yet. The query parameters need to be defined. Click on the ‘EDIT’ button at the top right of the screen.&#x20;
 
-<figure><img src="https://lh3.googleusercontent.com/B386Cp38CQ7ojUhd78RPY8KKeOcBQrWqARl9gtCWkntjYy5OtfaLwPRHG2R0_10D-N-rccVDpJ5rnTo55uWRiMdPdNoZkb1jxCCie7WhrvAIn3UcrUL0QVJ16dGs-ls-1RqyyIeTAh19XXFgTcUT8Fw" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/6.jpeg" alt=""><figcaption></figcaption></figure>
 
 Click on the ‘Advanced Settings’ link at the bottom of the page and then under the ‘QUERY PARAMETERS’ section, choose the ‘Custom’ option. Build the query parameters as shown below, using the ‘+ ADD ROW’ button at the bottom to add a row for each query parameter.&#x20;
 
@@ -584,7 +584,7 @@ Begin by making the three datastreams V0, V1, and V5 available to Automation act
 
 Create the automation by navigating to the ‘Automations’ page in the Blynk.Console, and then clicking on the ‘+ Create Automation’ at the top right of the page. When the dialog ‘Choose Condition’ appears, choose the ‘Device State’ option because we want to trigger the automation based on a change in the state of V0, V1, or V5.
 
-<figure><img src="https://lh6.googleusercontent.com/dDO3T6ASpd3H8Kr2Op3Lx-KqZ4YdSxjMMIMp2W1KYJdyaNF5pUqaiJG3RpWiEr9Yh4X_Tw4uhJGanoViV7AbFZzc2I5-oqe-9xeUwU9ir5RmZLtkASDpESItvyVD-cTloSukAjJHB4p7AbVpHQb30rQ" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/10.jpeg" alt=""><figcaption></figcaption></figure>
 
 Name the first automation ‘pushbutton\_D8’ by editing the field at the top of the page labeled ‘New Automation’. Under the ‘When’ section, choose the device ‘boronb’, the datastream ‘pushbutton\_D8’ (V0), and then assign the type of datastream value change of ‘Is On’ because the device will set the datastream value back to zero once the pushbutton connected to the device digital input is released.&#x20;
 
@@ -628,7 +628,7 @@ From the Blynk.Console, navigate to ‘Static Tokens’ and then click ‘+ Gene
 
 <figure><img src="https://lh5.googleusercontent.com/FH7_nLS3t_Bd5F6cBQ8PEUVyUD96jwVrYI1Bffp1S4-NQLIhS_2qXKo5ICd-cf5QX_BARdW25T6EXW2i3OGAU7NY6dRjWmKjOc5zwRg8VpM38K0zNk8MI3HhthqxioQxgyHF1NN61iNWJVH0Eqrrr1s" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://lh3.googleusercontent.com/zLjNtvHy2RbUhRxpggLiSU7rqZpMNdo4kg9h5KueDDpdKlglvAYF33a2aewcL_RAi8rkjdWS2zaOEs99Y2oHlT3VgL9Hz9sGhBq635W65erUl5dMrqS8dfx4usvdexbUgRBMS7LBx4SqK-uORyd547Y" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/15.jpeg" alt=""><figcaption></figcaption></figure>
 
 The static token will be generated and then it will be shown within the list of all static tokens that exist. Under the list column ‘Device Token’, hover your mouse over the right of the partially visible token and select the pop up option ‘Copy to Clipboard’. Use that static token in the clipboard to update the firmware for the new device ‘boronc’. Note that you can also download one or many device static tokens and the associated QR Codes to a .ZIP file so they could be read from a script and programmatically used to update your firmware and generate custom QR Code enhanced instructions for the device end users.
 

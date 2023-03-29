@@ -107,4 +107,4 @@ It can be sorted by switching Timeline tabs and each column value.
 * **Request to** – webhook request destination URL
 * **Trigger ID** – hover on so the hint appears, click Copy pictogram to put it to your clipboard
 
-### [Limits apply](https://app.gitbook.com/o/-MGgwMU-psr5G97JR9kv/s/zeT8lDbpeVqvHIuM84Gv/)
+### [Limits apply](http://localhost:5000/o/-MGgwMU-psr5G97JR9kv/s/zeT8lDbpeVqvHIuM84Gv/)
