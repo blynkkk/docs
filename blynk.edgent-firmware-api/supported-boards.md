@@ -2,7 +2,7 @@
 
 ## What is Blynk.Edgent
 
-Blynk.Edgent is a packaged solution that allows developers to easily connect their devices to the platform and take advantage of all its cool features without the need for extensive coding. It includes:
+Blynk.Edgent is a packaged solution that allows developers to easily connect their devices to the platform and take advantage of all its advanced features without the need for extensive coding. It includes:
 
 * Blynk library API (Secure connection and data exchange)
 * **Blynk.Inject** (dynamic device credentials provisioning over WiFi Access Point or BLE,)
@@ -24,7 +24,7 @@ It is supported by devices that are pre-configured to work seamlessly with the B
 
 ### How to connect a device with Blynk.Edgent
 
-1. Create a blank Template in [Blynk.Console](https://blynk.cloud/). To do it open the Templates section in the left menu and click + _New Template_ button. Assign a name and select hardware and connectivity, you can further customize the template and build the dashboards later.
+1. Create a blank Template in [Blynk.Console](https://blynk.cloud/). To do it, open the _Templates_ section in the left menu and click + _New Template_ button. Assign a name and select hardware and connectivity, you can further customize the template and build the dashboards later.
 2. Open [PlatformIO IDE](../blynk-library-firmware-api/installation/install-blynk-library-for-platformio.org.md) (recommended) or [Arduino IDE](../blynk-library-firmware-api/installation/install-blynk-library-in-arduino-ide.md) and install Blynk Library.
 3. Open Blynk.Edgent example for your device and your IDE using the links provided in the table below or in your IDE. For Arduino: File -> Examples -> Blynk -> Blynk.Edgent and select your board.\
 
