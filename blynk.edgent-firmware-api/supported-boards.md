@@ -51,4 +51,5 @@ You can get them in Blynk.Console by going to _Templates_, selecting your newly 
 
 5. Compile and upload to your device
 6. Connect your device in Blynk.App. To do it open the _MENU_ icon in the upper right corner. Tap on + _Add New Device_. Select _Connect to Wi-Fi_ option. The app will scan the WiFi networks around you and offer to connect to your device. You will see the template name you’ve chosen in step 1. Once the connection is established, the Blynk app will guide you through the provisioning process.
-7. Bingo! Your device is online and connected to Blynk.Cloud. You can now continue prototyping, adding custom functionality according to your needs, and building your [mobile](../blynk.apps/constructor.md) and [web](../blynk.console/templates/dashboard/) dashboards. Your device is fully set up to get all further firmware updates [over the air](../getting-started/updating-devices-firmwares-ota.md).
+
+Bingo! Your device is online and connected to Blynk.Cloud. You can now continue prototyping, adding custom functionality according to your needs, and building your [mobile](../blynk.apps/constructor.md) and [web](../blynk.console/templates/dashboard/) dashboards. Your device is fully set up to get all further firmware updates [over the air](../getting-started/updating-devices-firmwares-ota.md).
