@@ -9,7 +9,6 @@
   * [Next Steps After Quickstart](getting-started/what-do-i-need-to-blynk/how-quickstart-device-was-made.md)
   * [Quickstart Device: Code Overview](getting-started/what-do-i-need-to-blynk/quickstart-device-code-overview.md)
   * [Troubleshooting](getting-started/what-do-i-need-to-blynk/troubleshooting.md)
-* [Developer Mode](getting-started/developer-mode.md)
 * [Device Activation Methods](getting-started/activating-devices/README.md)
   * [Manual Device Activation](getting-started/activating-devices/manual-device-activation.md)
   * [WiFi provisioning](getting-started/activating-devices/blynk-edgent-wifi-provisioning.md)
@@ -35,6 +34,7 @@
 
 ## General Concepts <a href="#concepts" id="concepts"></a>
 
+* [Developer Mode](concepts/developer-mode.md)
 * [Device](concepts/device.md)
 * [Device Template](concepts/device-template.md)
 * [Users](concepts/users/README.md)

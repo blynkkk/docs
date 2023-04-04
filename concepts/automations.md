@@ -53,7 +53,7 @@ Enable automation permissions for other roles by visiting [Blynk.Console](broken
 
 #### Check Developer Mode
 
-The [Developer Mode](../getting-started/developer-mode.md) must be turned on in order to edit the Automations options for a [Template](device-template.md).  The Developer Mode can be turned on from [Blynk.Console](broken-reference) or the [Blynk.App](broken-reference).
+The [Developer Mode](developer-mode.md) must be turned on in order to edit the Automations options for a [Template](device-template.md).  The Developer Mode can be turned on from [Blynk.Console](broken-reference) or the [Blynk.App](broken-reference).
 
 {% hint style="info" %}
 The ‘Automations’ icon in both the Blynk.App and the Blynk.Console will not be visible until at least one [Datastream](broken-reference) listed in the Template under the ‘Automations’ tab has a condition or action option turned on.

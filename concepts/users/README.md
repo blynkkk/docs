@@ -58,7 +58,7 @@ Users of this type have access to all the functionality required to configure th
 Currently, only one developer is allowed per Organization to avoid sync issues. This limit might be changed later.
 {% endhint %}
 
-If you want some other user to be a developer in your organization you should first switch off the [dev mode](../../getting-started/developer-mode.md) in your account either in Blynk.Console or Blynk.App. After that the other user can switch it on.
+If you want some other user to be a developer in your organization you should first switch off the [dev mode](../developer-mode.md) in your account either in Blynk.Console or Blynk.App. After that the other user can switch it on.
 
 #### **End-users (Clients)**
 

@@ -18,7 +18,7 @@ In May 2021, Blynk released the latest generation of the Blynk IoT Platform call
 * Install Blynk IoT app on your mobile device. Make sure it runs Android 5 or later and/or iOS 14.1 or later.
 * Check [here](../blynk.edgent-firmware-api/supported-boards.md) to confirm that your IoT hardware is supported by Blynk IoT. Note that all boards supported under Legacy Blynk are also supported under the new Blynk IoT.
 * Map out the widgets you intend to utilize in both the Blynk IoT app and Blynk.Console (web console). Begin with your existing Blynk Legacy configuration, then evaluate the [new Blynk IoT widget options](migrate-from-1.0-to-2.0.md#blynk.app) against your map.
-* Enable [developer mode](../getting-started/developer-mode.md#how-to-enable-developer-mode) in either the Blynk.Console (web app), or the Blynk IoT (Android/iOS mobile app).
+* Enable [developer mode](../concepts/developer-mode.md#how-to-enable-developer-mode) in either the Blynk.Console (web app), or the Blynk IoT (Android/iOS mobile app).
 * The process of adding a device is a bit different in the new Blynk. While in Blynk Legacy it was all about Auth Tokens, this time it's centered around Device Templates to simplify adding multiple devices. You can still find your [Auth Tokens here](../getting-started/activating-devices/manual-device-activation.md#step-3-getting-auth-token) if you need them.
 * Build a new [device template](../concepts/device-template.md) from the Blynk.Console, or the Blynk IoT app. It is highly recommended you initially use the Quickstart Template and Quickstart Device automatically created when you walk through the Quickstart flow suggested to you at [setting up a new account](https://blynk.cloud/dashboard/register), and keep it simple to verify the complete workflow and communication between your IoT device, the Blynk.Cloud, Blynk IoT apps, and the \*\*\*\* Blynk.Console. Note that Blynk Legacy Device Tiles Widget is replaced by Device Templates in Blynk IoT and it became the default view for the list of devices.
 * Provision your device(s) using one of the three [device activation methods](../getting-started/activating-devices/). Depending on the activation method chosen, you may need to add a device to your account using the Blynk IoT or Blynk.Console.
@@ -86,7 +86,7 @@ Adjust indexing for Image Gallery, Menu, Icon, Segmented Switch, Icon Segmented 
 Please note that BLYNK\_READ is no longer used. Use [BLYNK\_WRITE](../getting-started/using-virtual-pins-to-control-physical-devices.md#the-blynk\_write-vpin-function) instead.
 {% endhint %}
 
-Make sure you are in [Developer Mode](../getting-started/developer-mode.md) when building the application.
+Make sure you are in [Developer Mode](../concepts/developer-mode.md) when building the application.
 
 ### HTTP API
 

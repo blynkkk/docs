@@ -62,7 +62,7 @@ In order to be listed here, the template should have the [Event](../blynk.consol
 
 ![Device dashboard](https://user-images.githubusercontent.com/72790181/119659080-7f688600-be36-11eb-8cb0-63d378339091.png)
 
-When a user taps on the device tile, the device dashboard will be opened. It consists of widgets that allow controlling and monitoring the device. The layout of the widgets and their settings can be edited in the [Developer mode](../getting-started/developer-mode.md)
+When a user taps on the device tile, the device dashboard will be opened. It consists of widgets that allow controlling and monitoring the device. The layout of the widgets and their settings can be edited in the [Developer mode](../concepts/developer-mode.md)
 
 ### **Device Info and Timeline**
 

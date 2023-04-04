@@ -10,7 +10,7 @@ Web Dashboard editor is a part of a [Device Template](../../../concepts/device-t
 
 In order to see a live view of the widgets with the actual data from the device, you must navigate to Search -> My Devices -> Device.
 
-Creating/editing a Web Dashboard is only possible with [Developer Mode](../../../getting-started/developer-mode.md) on. You can switch the Developer Mode on/off in the User Profile section of the main menu.
+Creating/editing a Web Dashboard is only possible with [Developer Mode](../../../concepts/developer-mode.md) on. You can switch the Developer Mode on/off in the User Profile section of the main menu.
 
 To add widgets, click on the ‘Edit’ button at the top right of the Web Dashboard tab to enter the edit mode, and then drag and drop widgets from the ‘Widget Box’ to the Dashboard Preview window.
 

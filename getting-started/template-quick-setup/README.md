@@ -57,7 +57,7 @@ A new Template is now created. On the screen below notice **Template ID** and **
 
 1. Open [Blynk.Apps](../../blynk.apps/overview.md)
 2. Log In to your account
-3. Switch to [Developer Mode](../developer-mode.md)
+3. Switch to [Developer Mode](../../concepts/developer-mode.md)
 4. Find a template you just created on the web and tap on it.
 
 ## Configure your board:

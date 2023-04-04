@@ -97,7 +97,7 @@ This feature is not yet implemented and will be available when **Template publis
 A quick way to edit a dashboard layout for the template of current device. When selected, you will be sent to Device Template -> [Template Dashboard](../templates/dashboard/) edit
 
 {% hint style="info" %}
-Dashboard Editing available from device profile view in [Developer Mode](../../getting-started/developer-mode.md) only.
+Dashboard Editing available from device profile view in [Developer Mode](../../concepts/developer-mode.md) only.
 {% endhint %}
 
 ### Notification settings
