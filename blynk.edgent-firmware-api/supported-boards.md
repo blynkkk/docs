@@ -1,154 +1,58 @@
-# Supported Boards
+# Blynk.Edgent overview
 
-There are different ways to get your devices connected to the Blynk Cloud:
+## What is Blynk.Edgent
 
-* **Blynk Library**\
-  An easy to use and portable C++ library, pre-configured to work with **hundreds of development boards**.\
-  The library implements a streaming connection protocol (i.e. the device stays always connected to the cloud), that allows for a **low latency, bi-directional** communication.
-* **HTTP(s) API**\
-  A standard communication protocol that can be used by any Internet-connected device.\
-  The device connects to the cloud occasionally to transfer the data.\
-  Sending timestamped data in batches is also possible, which is particularly useful for **Cellular devices**.
-* **Blynk.Edgent**\
-  A packaged solution that includes:
-  * Blynk library API
-  * **Blynk.Inject** (dynamic device credentials provisioning)
-  * **Blynk.Air** (firmware OTA updates)
-  * A simple UX/interaction example:
-    * Device state indication using an RGB LED
-    * Device configuration reset using a button
-* **Blynk.NCP**\
-  Blynk offers a software stack for a variety of `Network Co-Processors`. NCP is a dedicated connectivity chip/module that **off-loads the Blynk.Cloud connectivity (WiFi, Ethernet, Cellular)** from the main device MCU. The main MCU runs a lightweight client library and communicates to the NCP over `UART` or `SPI`. It enables blazing fast and high quality integration, and is perfect for retrofitting scenarios. If you're interested in using **Blynk.NCP** for commercial applications, please [contact Blynk](https://blynk.io/en/contact-us-business).
+Blynk.Edgent is a packaged solution that allows developers to easily connect their devices to the platform and take advantage of all its cool features without the need for extensive coding. It includes:
+
+* Blynk library API (Secure connection and data exchange)
+* **Blynk.Inject** (dynamic device credentials provisioning over WiFi Access Point or BLE,)
+* **Blynk.Air** (OTA firmware updates)
+* A simple UX/interaction example:
+  * Device state indication using an RGB LED
+  * Device configuration reset using a button
+
+This level of integration and ease of use can save significant time and effort spent on developing IOT essentials and help focus on the embedded firmware application building your connected product more quickly.
+
+It is supported by devices that are pre-configured to work seamlessly with the Blynk IoT platform.
+
+### Hardware supported by `Blynk.Edgent`
+
+| Board                 |
+| --------------------- |
+| ESP32                 |
+| ESP8266               |
+| Arduino MKR WiFi 1010 |
+| Arduino Nano 33 IoT   |
+| Seeed Wio Terminal    |
+| TI CC3220             |
+
+### How to connect a device with Blynk.Edgent
+
+1. Create a blank Template in [Blynk.Console](https://blynk.cloud/). To do it open the Templates section in the left menu and click + _New Template_ button. Assign a name and select hardware and connectivity, you can further customize the template and build the dashboards later.
+2. Open [PlatformIO IDE](../blynk-library-firmware-api/installation/install-blynk-library-for-platformio.org.md) (recommended) or [Arduino IDE](../blynk-library-firmware-api/installation/install-blynk-library-in-arduino-ide.md) and install Blynk Library.
+3. Open Blynk.Edgent example for your device and your IDE using the links provided in the table below or in your IDE. For Arduino: File -> Examples -> Blynk -> Blynk.Edgent and select your board.\
 
 
-## Hardware supported by `Blynk.Edgent`
+| Board                 | Example for PlatformIO IDE                                                                  | Example for Arduino IDE                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| ESP32                 | [Link](https://github.com/blynkkk/edgent-examples-pio/tree/main/PIO\_Edgent\_ESP32)         | [Link](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_ESP32)         |
+| ESP8266               | [Link](https://github.com/blynkkk/edgent-examples-pio/tree/main/PIO\_Edgent\_ESP8266)       | [Link](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_ESP8266)       |
+| Arduino MKR WiFi 1010 | [Link](https://github.com/blynkkk/edgent-examples-pio/tree/main/PIO\_Edgent\_ESP8266)       | [Link](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_MKR1010)       |
+| Arduino Nano 33 IoT   | [Link](https://github.com/blynkkk/edgent-examples-pio/tree/main/PIO\_Edgent\_ESP8266)       | [Link](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_MKR1010)       |
+| Seeed Wio Terminal    | [Link](https://github.com/blynkkk/edgent-examples-pio/tree/main/PIO\_Edgent\_Wio\_Terminal) | [Link](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_Wio\_Terminal) |
+| TI CC3220             | [Contact sales](https://blynk.io/contact-us-business) for commercial implementation         | [Contact sales](https://blynk.io/contact-us-business) for commercial implementation                      |
 
-As part of Blynk.Edgent the following features are fully supported:\
-**Dynamic Tokens (WiFi provisioning)**. Read more about WiFi provisioning here:
+4. Uncomment these two lines and replace the placeholders with your Template ID and Template name.
 
-{% content-ref url="../getting-started/activating-devices/blynk-edgent-wifi-provisioning.md" %}
-[blynk-edgent-wifi-provisioning.md](../getting-started/activating-devices/blynk-edgent-wifi-provisioning.md)
-{% endcontent-ref %}
+```
+//#define BLYNK_TEMPLATE_ID           “TMPxxxxxx”
+//#define BLYNK_TEMPLATE_NAME         “TemplateName”
+```
 
-**Blynk.Air (OTA)**. Read about it here:
+You can get them in Blynk.Console by going to _Templates_, selecting your newly created template and finding the _FIRMWARE CONFIGURATION_ in the _Info_ tab.
 
-{% content-ref url="../getting-started/updating-devices-firmwares-ota.md" %}
-[updating-devices-firmwares-ota.md](../getting-started/updating-devices-firmwares-ota.md)
-{% endcontent-ref %}
+<figure><img src="https://lh4.googleusercontent.com/oi-ZayczWEDkvpRNCfr_YR5CVpoF-6XCI6BhKcjvpioKv81eX2Ey-2tEEBSmeox3KK131pTOUX-lChYpgaMJEH3EItY5ccFrDEPICp1_Uwvc8aolFUc4pcQO4IT8WSjw7o-PNoVIloYW_K7F0zr9DUU" alt=""><figcaption></figcaption></figure>
 
-| Board                 | Provisioning | Secure connection | Blynk.Air (OTA) |
-| --------------------- | ------------ | ----------------- | --------------- |
-| ESP32                 | ✅            | ✅                 | ✅               |
-| ESP8266               | ✅            | ✅                 | ✅               |
-| Arduino MKR WiFi 1010 | ✅            | ✅                 | ✅               |
-| Arduino Nano 33 IoT   | ✅            | ✅                 | ✅               |
-| Seeed Wio Terminal    | ✅            | ✅                 | ✅               |
-| TI CC3220             | ✅            | ✅                 | ✅               |
-
-##
-
-## Hardware that can work with Static Tokens
-
-{% hint style="info" %}
-This is the easiest way to migrate from legacy Blynk projects. Just add `BLYNK_TEMPLATE_ID` and `BLYNK_TEMPLATE_NAME` at the top of your firmware (prior to any includes), update your auth token and that's it. Read more about [project migration](../blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md).
-{% endhint %}
-
-Read about static tokens here:
-
-{% content-ref url="../getting-started/activating-devices/blynk-edgent-static-authtoken.md" %}
-[blynk-edgent-static-authtoken.md](../getting-started/activating-devices/blynk-edgent-static-authtoken.md)
-{% endcontent-ref %}
-
-**Arduino** ([https://github.com/blynkkk/blynk-library](https://github.com/blynkkk/blynk-library))
-
-* Arduino MKR WiFi 1010
-* Arduino MKR GSM 1400
-* Arduino MKR NB 1500
-* Arduino Uno, Duemilanove
-* Arduino Nano, Mini, Pro Mini, Pro Micro, Due, Mega
-* Arduino MKR1000
-* Arduino Zero
-* Arduino Yún (onboard WiFi and Ethernet, via Bridge)
-* Arduino.org UNO WiFi
-* Arduino MKR VIDOR 4000 (use the example for MKR WiFi 1010)
-* Arduino UNO WiFi Rev.2 (use the example for MKR WiFi 1010)
-
-**Arduino-like**
-
-* Blynk Board
-* ESP8266 (Generic, NodeMCU, Witty Cloud, Huzzah, WeMos D1, Seeed Wio Link, etc.)
-* ESP32
-* Teensy
-* Blue Pill (STM32F103C)
-* Realtek RTL8710 / Ameba via [RTLduino](https://github.com/pvvx/RtlDuino)
-* Feather M0 WiFi
-* TinyCircuits TinyDuino (CC3000)
-* Microduino/mCookie Core, Core+, CoreUSB
-* Wicked WildFire V2, V3, V4
-* chipKIT Uno32
-* Alorium XLR8 (FPGA)
-* LinkIt ONE
-
-**Particle** [https://github.com/vshymanskyy/blynk-library-spark](https://github.com/vshymanskyy/blynk-library-spark))
-
-* Core
-* Photon
-* Electron
-* Argon
-* Boron
-* Photon 2
-
-**JavaScript** (Node.js, Espruino, Browsers) ([https://www.npmjs.com/package/blynk-library](https://www.npmjs.com/package/blynk-library))
-
-* Regular PC with Linux / Windows / OS X
-* Raspberry Pi (Banana Pi, Orange Pi, …)
-* BeagleBone Black
-* Onion Omega 2
-* VoCore, VoCore2 (OpenWRT + [Espruino package](https://github.com/vshymanskyy/OpenWRT-Espruino-packages))
-* Espruino Pico
-* …
-
-**Python** ([https://github.com/vshymanskyy/blynk-library-python](https://github.com/vshymanskyy/blynk-library-python))
-
-* Regular PC with Linux / Windows / OS X
-* Raspberry Pi (Banana Pi, Orange Pi, …)
-* BeagleBone Black
-* Onion Omega 2
-* MicroPython
-* …
-
-### Arduino connection types <a href="#supported-hardware-arduino-connection-types" id="supported-hardware-arduino-connection-types"></a>
-
-* USB (Serial), connected to your laptop or desktop
-* **Ethernet**
-  * Arduino MKR ETH
-  * Arduino Ethernet Shield (W5100)
-  * Arduino Ethernet Shield 2 (W5500)
-  * ENC28J60-based modules
-* **WiFi**
-  * ESP8266 as WiFi modem (running original AT firmware)
-  * Arduino WiFi 101 Shield
-  * Arduino WiFi Shield
-  * WIZnet WizFi310
-* **Cellular (GSM/3G/LTE)**
-  * SIMCom SIM800 series (SIM800A, SIM800C, SIM800L, SIM800H, SIM808, SIM868)
-  * SIMCom SIM7600 series
-  * BG96
-  * GPRSbee
-  * Adafruit FONA (Mini Cellular GSM Breakout)
-
-{% hint style="info" %}
-Traffic optimization is usually required for cellular connections. Using realtime streaming protocols like Blynk or MQTT has benefits of interactive device updates, but it also requires device to stay "always connected", which significantly increases the traffic. Blynk recommends using [HTTPS (batch) API](../blynk.cloud/https-api-overview.md) for reporting telemetry and fetching `DataStream` values periodically in such scenarios. It will also help saving the battery.
-{% endhint %}
-
-### &#x20;<a href="#supported-hardware-made-by-community" id="supported-hardware-made-by-community"></a>
-
-### Made by Community <a href="#supported-hardware-made-by-community" id="supported-hardware-made-by-community"></a>
-
-* [Node-RED](https://github.com/gablau/node-red-contrib-blynk-iot) (can be used as bridge to HTTP, TCP, UDP, MQTT, XMPP, IRC, OSC…)
-
-###
-
-### Troubleshooting
-
-Here is a list of [**known library issues**](https://github.com/blynkkk/blynk-library/issues?q=is%3Aissue+label%3A%22for+reference%22+)
+5. Compile and upload to your device
+6. Connect your device in Blynk.App. To do it open the _MENU_ icon in the upper right corner. Tap on + _Add New Device_. Select _Connect to Wi-Fi_ option. The app will scan the WiFi networks around you and offer to connect to your device. You will see the template name you’ve chosen in step 1. Once the connection is established, the Blynk app will guide you through the provisioning process.
+7. Bingo! Your device is online and connected to Blynk.Cloud. You can now continue prototyping, adding custom functionality according to your needs, and building your [mobile](../blynk.apps/constructor.md) and [web](../blynk.console/templates/dashboard/) dashboards. Your device is fully set up to get all further firmware updates [over the air](updating-devices-firmwares-ota.md).

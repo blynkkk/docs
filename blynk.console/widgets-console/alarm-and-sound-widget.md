@@ -8,7 +8,7 @@ The alarm and sound widget creates an alarm in the Blynk.Console. It is triggere
 
 Select or create a datastream of [data type integer](../templates/datastreams/datastreams-common-settings/data-type.md).&#x20;
 
-You can change the ‘label’ property of the widget from your [hardware](../../blynk.edgent-firmware-api/widget-properties.md), or via an [HTTP API](../../blynk.cloud/update-property.md).  &#x20;
+You can change the ‘label’ property of the widget from your [hardware](../../blynk-library-firmware-api/widget-properties.md), or via an [HTTP API](../../blynk.cloud/update-property.md).  &#x20;
 
 ### Widget Controls
 
@@ -53,7 +53,7 @@ Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a 
 
 #### Properties you can change
 
-You can change the properties “label”, “isHidden” and “isMuted” of the widget from your [hardware](../../blynk.edgent-firmware-api/widget-properties.md), or via an [HTTP API](../../blynk.cloud/update-property.md). The “isMuted” property is unique to the Alarm and Sound widget and will enable or disable the mute option for the Alarm and Sound widget.&#x20;
+You can change the properties “label”, “isHidden” and “isMuted” of the widget from your [hardware](../../blynk-library-firmware-api/widget-properties.md), or via an [HTTP API](../../blynk.cloud/update-property.md). The “isMuted” property is unique to the Alarm and Sound widget and will enable or disable the mute option for the Alarm and Sound widget.&#x20;
 
 ```cpp
 Blynk.setProperty(V1, "isMuted", "true");

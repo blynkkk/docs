@@ -6,7 +6,7 @@ Event is generic concept that allows to track, log, and work with important even
 
 Additionally to the historical event tracking, events can also be used for notifications which can be sent over email, delivered as push notifications to user's smartphone, or sent as an SMS.
 
-Events are pre-configured in Blynk.Console and can be triggered with a [Events Firmware API](../../../blynk.edgent-firmware-api/log-event.md) from device or using [Events HTTP API](../../../blynk.cloud/trigger-events-api.md).
+Events are pre-configured in Blynk.Console and can be triggered with a [Events Firmware API](broken-reference) from device or using [Events HTTP API](../../../blynk.cloud/trigger-events-api.md).
 
 _Examples of an Event:_
 

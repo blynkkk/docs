@@ -27,4 +27,4 @@ All widgets require the assignment of at least one [datastream](../templates/dat
 
 When editing a widget’s settings, a visual preview is typically provided.
 
-Most widgets also support changes made to the title/label text, color, and other properties via either the [HTTP](../../blynk.cloud/update-property.md) API or [Blynk.EdgeNet Firmware API](../../blynk.edgent-firmware-api/widget-properties.md).
+Most widgets also support changes made to the title/label text, color, and other properties via either the [HTTP](../../blynk.cloud/update-property.md) API or [Blynk.EdgeNet Firmware API](../../blynk-library-firmware-api/widget-properties.md).
