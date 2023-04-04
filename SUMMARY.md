@@ -168,11 +168,11 @@
 * [Automations](blynk.apps/automations.md)
 * [Notifications](blynk.apps/notifications.md)
 
-## Blynk.Edgent - firmware API
+## Blynk.Edgent
 
-* [Blynk.Edgent overview](blynk.edgent-firmware-api/supported-boards.md)
-* [OTA: Firmware Over-The-Air updates](getting-started/updating-devices-firmwares-ota.md)
-* [Over-The-Air Firmware Updates (OTA)](blynk.edgent-firmware-api/ota-updates.md)
+* [Blynk.Edgent overview](blynk.edgent/supported-boards.md)
+* [OTA: Firmware Over-The-Air updates](blynk.edgent/updating-devices-firmwares-ota.md)
+* [Over-The-Air Firmware Updates (OTA)](blynk.edgent/ota-updates.md)
 
 ## Blynk Library - firmware API
 

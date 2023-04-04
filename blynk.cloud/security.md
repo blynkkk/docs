@@ -25,7 +25,7 @@ When we are talking about the security of Blynk cloud, we take into account thes
 
 ## Blynk.Edgent (hardware library)
 
-By default, Blynk.Edgent library tries to use TLS (v1.2) connection between the hardware and server. This is true for popular hardware like ESP32, ESP8266, NodeMCU, MKR 1000, etc ([full list](../blynk.edgent-firmware-api/supported-boards.md)). However, some boards don't support TLS, in that case, a plain (non-encrypted) connection is used. You can check that in the serial console output of your board. A typical TLS connection port would be 443. For the plain connections, port 80 is used.
+By default, Blynk.Edgent library tries to use TLS (v1.2) connection between the hardware and server. This is true for popular hardware like ESP32, ESP8266, NodeMCU, MKR 1000, etc ([full list](../blynk.edgent/supported-boards.md)). However, some boards don't support TLS, in that case, a plain (non-encrypted) connection is used. You can check that in the serial console output of your board. A typical TLS connection port would be 443. For the plain connections, port 80 is used.
 
 Default authentication for the hardware is OAuth secured token, it looks like this `xw7ITVneg1DifRRQuPGcA7fJvV8-FAVl` and represents 24 bytes in base 64 encoding. The token could be changed with the re-provision flow.
 
