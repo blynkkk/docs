@@ -4,21 +4,24 @@ There are different ways to get your devices connected to the Blynk Cloud:
 
 * **Blynk library**\
   An easy to use and portable C++ library, pre-configured to work with **hundreds of development boards**.\
-  The library implements a streaming connection protocol (i.e. the device stays always connected to the cloud), that allows for a **low latency, bi-directional** communication.
+  The library implements a streaming connection protocol (i.e. the device stays always connected to the cloud), that allows for a **low latency, bi-directional** communication. [Blynk Library documentation.](broken-reference)
 * **Blynk.Edgent**\
-  A packaged solution that includes:
+  Blynk.Edgent is a packaged solution that allows developers to easily connect their devices to the platform and take advantage of all its cool features without the need for extensive coding. It includes:
   * Blynk library API
   * **Blynk.Inject** (dynamic device credentials provisioning)
   * **Blynk.Air** (firmware OTA updates)
-  * A simple UX/interaction example:
-    * Device state indication using an RGB LED
-    * Device configuration reset using a button
+  *   A simple UX/interaction example:
+
+      * Device state indication using an RGB LED
+      * Device configuration reset using a button
+
+      If your hardware supports Blynk.Edgent, we recommend using [this flow](../blynk.edgent-firmware-api/supported-boards.md) at all times.
 * **Blynk.NCP**\
   Blynk offers a software stack for a variety of `Network Co-Processors`. NCP is a dedicated connectivity chip/module that **off-loads the Blynk.Cloud connectivity (WiFi, Ethernet, Cellular)** from the main device MCU. The main MCU runs a lightweight client library that communicates to the NCP over `UART` or `SPI`. It enables blazing fast and high quality integration, and is perfect for retrofitting scenarios. If you're interested in using **Blynk.NCP** for commercial applications, please [contact Blynk](https://blynk.io/contact-us-business).
 * **HTTP(s) API**\
   A standard communication protocol that can be used by any Internet-connected device.\
   The device connects to the cloud occasionally to transfer the data.\
-  Sending timestamped data in batches is also possible, which is particularly useful for **Cellular devices**.
+  Sending timestamped data in batches is also possible, which is particularly useful for **Cellular devices**. [HTTP(s) API documentation](broken-reference).
 
 ## Hardware supported by `Blynk.Edgent`
 
