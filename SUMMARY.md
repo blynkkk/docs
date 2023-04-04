@@ -23,7 +23,6 @@
 * [Send Data From Hardware To Blynk](getting-started/how-to-display-any-sensor-data-in-blynk-app.md)
 * [Events](getting-started/events-tutorial.md)
 * [Notifications (Alerts)](getting-started/notification-management.md)
-* [Metadata Tutorial](getting-started/metadata-tutorial.md)
 * [Sign Up / Sign In](getting-started/signup.md)
 
 ## Platform overview
@@ -79,7 +78,8 @@
     * [Template ID](blynk.console/templates/info/template-ids.md)
     * [Categories](blynk.console/templates/info/categories.md)
     * [Hotspot Prefix](blynk.console/templates/info/hotspot-prefix.md)
-  * [Metadata](blynk.console/templates/metadata.md)
+  * [Metadata](blynk.console/templates/metadata/README.md)
+    * [Metadata Tutorial](blynk.console/templates/metadata/metadata-tutorial.md)
   * [Datastreams](blynk.console/templates/datastreams/README.md)
     * [Datastream Settings](blynk.console/templates/datastreams/datastreams-common-settings/README.md)
       * [Name](blynk.console/templates/datastreams/datastreams-common-settings/datastream\_name.md)

@@ -15,7 +15,7 @@ For PRO plans where creating sub-organizations is possible, creating, copying, e
 
 1. Click **New Template** button to start configuring the Template
 2. Provide basic Template info in modal window opened
-3. Fill [Info](info/), [Metadata](metadata.md), [Datastreams](datastreams/), [Events ](events/)and [Dashboard ](dashboard/)tabs contents&#x20;
+3. Fill [Info](info/), [Metadata](metadata/), [Datastreams](datastreams/), [Events ](events/)and [Dashboard ](dashboard/)tabs contents&#x20;
 4. Click **Save** once you've finished the setup.
 
 ## Edit a Template

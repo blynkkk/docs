@@ -15,8 +15,8 @@ description: >-
 [info](info/)
 {% endcontent-ref %}
 
-{% content-ref url="metadata.md" %}
-[metadata.md](metadata.md)
+{% content-ref url="metadata/" %}
+[metadata](metadata/)
 {% endcontent-ref %}
 
 {% content-ref url="datastreams/" %}

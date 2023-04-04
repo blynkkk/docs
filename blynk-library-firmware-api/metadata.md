@@ -4,7 +4,7 @@ description: Send and
 
 # Metadata
 
-[Metadata](../blynk.console/templates/metadata.md) is a `key:value` set of data applied to every device using the same template. Unlinke Datastreams, this data stays mostly unchanged, however, if you need to read/write it, here is how to do it:&#x20;
+[Metadata](../blynk.console/templates/metadata/) is a `key:value` set of data applied to every device using the same template. Unlinke Datastreams, this data stays mostly unchanged, however, if you need to read/write it, here is how to do it:&#x20;
 
 ### Get device Metadata
 
