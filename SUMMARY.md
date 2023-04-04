@@ -171,7 +171,7 @@
 ## Blynk.Edgent - firmware API
 
 * [Blynk.Edgent overview](blynk.edgent-firmware-api/supported-boards.md)
-* [OTA: Firmware Over-The-Air updates](blynk.edgent-firmware-api/updating-devices-firmwares-ota.md)
+* [OTA: Firmware Over-The-Air updates](getting-started/updating-devices-firmwares-ota.md)
 * [Over-The-Air Firmware Updates (OTA)](blynk.edgent-firmware-api/ota-updates.md)
 
 ## Blynk Library - firmware API
@@ -182,14 +182,14 @@
   * [Install Blynk Library for Platformio.org](blynk-library-firmware-api/installation/install-blynk-library-for-platformio.org.md)
   * [Install ESP8266 core for Arduino IDE](blynk-library-firmware-api/installation/install-esp8266-core-for-arduino-ide.md)
 * [Configuration](blynk-library-firmware-api/configuration.md)
-* [Connection Management](blynk-library-firmware-api/connection-management.md)
+* [Connection Management](blynk.edgent-firmware-api/connection-management.md)
 * [Device Online/Offline Status](blynk-library-firmware-api/devices-online-status.md)
 * [Digital/Analog Pins](blynk-library-firmware-api/digital-analog-pins.md)
 * [Virtual Pins](blynk-library-firmware-api/virtual-pins.md)
-* [Widget Properties](blynk-library-firmware-api/widget-properties.md)
-* [State Syncing](blynk-library-firmware-api/state-syncing.md)
-* [Timers](blynk-library-firmware-api/blynk-timer.md)
-* [Time (RTC clock)](blynk-library-firmware-api/rtc-clock.md)
+* [Widget Properties](blynk.edgent-firmware-api/widget-properties.md)
+* [State Syncing](blynk.edgent-firmware-api/state-syncing.md)
+* [Timers](blynk.edgent-firmware-api/blynk-timer.md)
+* [Time (RTC clock)](blynk.edgent-firmware-api/rtc-clock.md)
 * [Timezone / Location](blynk-library-firmware-api/timezone-location.md)
 * [Log Event](blynk-library-firmware-api/log-event.md)
 * [Metadata](blynk-library-firmware-api/metadata.md)

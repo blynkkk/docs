@@ -65,7 +65,7 @@ BLYNK_WRITE(V1) {
 
 ### Set image URLs via setProperty function **of** Blynk.Edgent Firmware API
 
-A connected IoT device can programmatically change the two image URLs by accessing the [properties for the widget](../../blynk-library-firmware-api/widget-properties.md).  Examples:
+A connected IoT device can programmatically change the two image URLs by accessing the [properties for the widget](../../blynk.edgent-firmware-api/widget-properties.md).  Examples:
 
 ```
 Blynk.setProperty(V1, "onImageUrl", "https://host/static/icon.png");

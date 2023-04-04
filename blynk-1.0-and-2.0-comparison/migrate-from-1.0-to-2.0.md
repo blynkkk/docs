@@ -69,7 +69,7 @@ Note the following regarding the former Blynk Legacy widgets:
 * [Bridge widget](http://docs.blynk.cc/#widgets-other-bridge) for device-to-device communication is replaced by [Automations](../concepts/automations.md) and the upcoming Rule Engine.
 * [Eventor widget](http://docs.blynk.cc/#widgets-other-eventor) is replaced by [Automations](../concepts/automations.md).
 * [Timer widget](http://docs.blynk.cc/#widgets-controllers-timer) is replaced by [Automations](../concepts/automations.md).
-* [RTC widget](http://docs.blynk.cc/#widgets-other-rtc) is replaced by [Time API](../blynk-library-firmware-api/rtc-clock.md).
+* [RTC widget](http://docs.blynk.cc/#widgets-other-rtc) is replaced by [Time API](../blynk.edgent-firmware-api/rtc-clock.md).
 * [WebHook widget](http://docs.blynk.cc/#widgets-other-webhook) is replaced by [Webhooks](../blynk.console/settings/developers/webhooks.md) feature in the Blynk.Console. They are triggered by a system event or a Datastream.
 * [Notifications](http://docs.blynk.cc/#widgets-notifications) and [Email](http://docs.blynk.cc/#widgets-notifications-email) widgets are replaced by [Automations](../concepts/automations.md) and [Template Events](../getting-started/events-tutorial.md).
 * [Twitter](http://docs.blynk.cc/#widgets-notifications-twitter) widget was deprecated, but you can use [Webhooks](../blynk.console/settings/developers/webhooks.md).

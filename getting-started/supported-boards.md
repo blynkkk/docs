@@ -31,8 +31,8 @@ As part of Blynk.Edgent the following features are fully supported:\
 
 **Blynk.Air (OTA)**. Read about it here:
 
-{% content-ref url="../blynk.edgent-firmware-api/updating-devices-firmwares-ota.md" %}
-[updating-devices-firmwares-ota.md](../blynk.edgent-firmware-api/updating-devices-firmwares-ota.md)
+{% content-ref url="updating-devices-firmwares-ota.md" %}
+[updating-devices-firmwares-ota.md](updating-devices-firmwares-ota.md)
 {% endcontent-ref %}
 
 | Board                 | Provisioning | Secure connection | Blynk.Air (OTA) |

@@ -2,7 +2,7 @@
 description: Working with time using Blynk API
 ---
 
-# RTC clock
+# Time (RTC clock)
 
 RTC stands for Real-Time-Clock and is usually a hardware component. However, Blynk offers you a way to get time to use in your embedded applications running on devices.
 
@@ -10,7 +10,7 @@ RTC stands for Real-Time-Clock and is usually a hardware component. However, Bly
 Please note that the accuracy of this method is up to several seconds.
 {% endhint %}
 
-To sync your device's time with Blynk cloud, use this command 
+To sync your device's time with Blynk cloud, use this command&#x20;
 
 ```cpp
 Blynk.sendInternal("rtc", "sync"); //request current local time for device
@@ -34,8 +34,6 @@ BLYNK_WRITE(InternalPinRTC) {   //check the value of InternalPinRTC
   Serial.println();
 }
 ```
-
-
 
 
 

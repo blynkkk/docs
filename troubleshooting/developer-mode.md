@@ -106,7 +106,7 @@ void loop()
 
 **What’s the solution:**
 
-* If you need to perform actions in time intervals - use timers, for example [BlynkTimer.](../blynk-library-firmware-api/blynk-timer.md)\
+* If you need to perform actions in time intervals - use timers, for example [BlynkTimer.](../blynk.edgent-firmware-api/blynk-timer.md)\
   \
   **Note:** using `delay()` will not solve the problem either. It may cause [Delay issue](https://docs.blynk.io/en/troubleshooting/developer-mode#delay). Use timers!
 
@@ -142,4 +142,4 @@ _**Note:**_ This also applies to the BLYNK\_READ & BLYNK\_WRITE handlers!
 
 **What’s the solution:**
 
-* If you need to perform actions in time intervals - use timers, for example [BlynkTimer](../blynk-library-firmware-api/blynk-timer.md)
+* If you need to perform actions in time intervals - use timers, for example [BlynkTimer](../blynk.edgent-firmware-api/blynk-timer.md)

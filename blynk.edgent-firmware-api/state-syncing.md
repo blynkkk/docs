@@ -25,9 +25,9 @@ You can also update a single Virtual Pin value by calling `Blynk.syncVirtual(V0)
 
 You can also use server to store any value without widget. Just call `Blynk.virtualWrite(V0, value)`.
 
-[Storing single value on server](https://github.com/blynkkk/blynk-library/blob/master/examples/More/ServerAsDataStorage/ServerAsDataStorage_SingleValue/ServerAsDataStorage_SingleValue.ino)
+[Storing single value on server](https://github.com/blynkkk/blynk-library/blob/master/examples/More/ServerAsDataStorage/ServerAsDataStorage\_SingleValue/ServerAsDataStorage\_SingleValue.ino)
 
-[Storing multiple values on server](https://github.com/blynkkk/blynk-library/blob/master/examples/More/ServerAsDataStorage/ServerAsDataStorage_MultiValue/ServerAsDataStorage_MultiValue.ino)
+[Storing multiple values on server](https://github.com/blynkkk/blynk-library/blob/master/examples/More/ServerAsDataStorage/ServerAsDataStorage\_MultiValue/ServerAsDataStorage\_MultiValue.ino)
 
 ### For app
 
@@ -40,4 +40,3 @@ Imagine you have a LED Widget connected to the Virtual Pin V1 in the app, and a 
 [Represent physical button state via LED widget with polling](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonPoll/ButtonPoll.ino)
 
 [Represent physical button state via Button widget with polling](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/SyncPhysicalButton/SyncPhysicalButton.ino)
-

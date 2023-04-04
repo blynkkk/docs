@@ -22,7 +22,7 @@ The video widget has the following controls:
 
 ### How to change the video URL property
 
-You can change the URL from your [hardware](../../blynk-library-firmware-api/widget-properties.md), or via an [HTTP API](../../blynk.cloud/update-property.md) by using the property name ‘url’.
+You can change the URL from your [hardware](../../blynk.edgent-firmware-api/widget-properties.md), or via an [HTTP API](../../blynk.cloud/update-property.md) by using the property name ‘url’.
 
 ```cpp
 Blynk.setProperty(V1, "url", "http://my_new_video_url");
@@ -34,7 +34,7 @@ https://{server_address}/external/api/update/property?token={your 32 char token}
 
 ### Change Video Properties
 
-You can change the widget’s other properties (label, isDisabled, isHidden) from your [hardware](../../blynk-library-firmware-api/widget-properties.md), or via an [HTTP API](../../blynk.cloud/update-property.md). Set the property to True or an integer value of 1 to disable / hide the widget, or set the property to False / zero (0) to enable or make it visible. &#x20;
+You can change the widget’s other properties (label, isDisabled, isHidden) from your [hardware](../../blynk.edgent-firmware-api/widget-properties.md), or via an [HTTP API](../../blynk.cloud/update-property.md). Set the property to True or an integer value of 1 to disable / hide the widget, or set the property to False / zero (0) to enable or make it visible. &#x20;
 
 ```cpp
 Blynk.setProperty(V1, "isDisabled", "True");
