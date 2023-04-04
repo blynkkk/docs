@@ -6,7 +6,7 @@ There are different ways to get your devices connected to the Blynk Cloud:
   An easy to use and portable C++ library, pre-configured to work with **hundreds of development boards**.\
   The library implements a streaming connection protocol (i.e. the device stays always connected to the cloud), that allows for a **low latency, bi-directional** communication. For an easy start use [Quickstart flow](what-do-i-need-to-blynk/) and make sure to explore [Blynk Library documentation](broken-reference) afterwards.
 * **Blynk.Edgent**\
-  Blynk.Edgent is a packaged solution that allows developers to easily connect their devices to the platform and take advantage of all its cool features without the need for extensive coding. It includes:
+  Blynk.Edgent is a packaged solution that allows developers to easily connect their devices to the platform and take advantage of all its advanced features without the need for extensive coding. It includes:
   * Blynk library API
   * **Blynk.Inject** (dynamic device credentials provisioning)
   * **Blynk.Air** (firmware OTA updates)
