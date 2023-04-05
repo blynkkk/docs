@@ -164,7 +164,6 @@
   * [Log Out](blynk.apps/profile-management/log-out.md)
 * [Devices](blynk.apps/device-management/README.md)
   * [Add New Device](blynk.apps/device-management/add-new-device.md)
-* [Groups](blynk.apps/group-management.md)
 * [Automations](blynk.apps/automations.md)
 * [Notifications](blynk.apps/notifications.md)
 
