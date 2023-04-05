@@ -34,7 +34,7 @@ Edge + Agent = Edgent
 
 <figure><img src="../.gitbook/assets/Device-template 3.png" alt=""><figcaption></figcaption></figure>
 
-**Blynk.Edgent** is a lightweight embedded library that runs on over 400 supported hardware models
+**Blynk.Edgent** is a packaged solution that allows developers to easily connect supported devices to the platform and take advantage of all its advanced features without the need for extensive coding.
 
 Main functions of Blynk.Edgent are:
 
@@ -44,7 +44,7 @@ Main functions of Blynk.Edgent are:
 4. API to work with specific Blynk.Apps and Blynk.cloud features
 5. Over-the-air firmware updates (for selected hardware models)
 
-Full documentation on Blynk.Edgent is [here](broken-reference)
+Full documentation on Blynk.Edgent is [here](../blynk.edgent/overview.md).
 
 ## Blynk.Cloud
 
