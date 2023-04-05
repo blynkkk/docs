@@ -11,16 +11,19 @@ Blynk.Edgent is a packaged solution that allows developers to easily connect the
   * Device state indication using an RGB LED
   * Device configuration reset using a button
 
-This level of integration and ease of use can save significant time and effort spent on developing IOT essentials and help focus on the embedded firmware application building your connected product more quickly.
+This level of integration and ease of use can save significant time and effort spent on developing IOT essentials and help focus on the embedded firmware application building your connected product more quickly.&#x20;
 
-It is supported by devices that are pre-configured to work seamlessly with the Blynk IoT platform.
+Although Blynk Library can be used without Blynk.Edgent features, it is recommended to use Blynk.Edgent whenever possible.
 
 ### Hardware supported by `Blynk.Edgent`
 
-| ESP32     | Arduino MKR WiFi 1010 |
-| --------- | --------------------- |
-| ESP8266   | Arduino Nano 33 IoT   |
-| TI CC3220 | Seeed Wio Terminal    |
+| ESP32                 |
+| --------------------- |
+| ESP8266               |
+| Arduino MKR WiFi 1010 |
+| Arduino Nano 33 IoT   |
+| Seeed Wio Terminal    |
+| TI CC3220             |
 
 ### How to connect a device with Blynk.Edgent
 
