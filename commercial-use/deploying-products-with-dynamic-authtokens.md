@@ -92,7 +92,7 @@ Alternatively, if you know the client's WiFi credentials or you provide a mobile
 * There will be 3 tabs: Info, Templates, Users.  Go through them and set up your client. Give it a name, make sure all needed device templates are enabled for this organization, and in the Users Tab invite your client to this organization using their email address&#x20;
 * Your customer will get an invitation email with a link to create a new account by simply creating a password
 * Customer will log in using Blynk.Apps for iOS and Android or Blynk.Console
-* Once their account is active, use the [Device Transfer](https://docs.blynk.io/en/blynk.console/devices/actions-with-devices#device-transfer) feature
+* Once their account is active, use the [Device Transfer](../blynk.console/devices/actions-with-devices.md#device-transfer) feature
 * The device will be transferred to the client and is ready for use.&#x20;
 
 ### Delivering products to clients (BUSINESS plan workflow)
@@ -129,8 +129,8 @@ With Blynk you can do all sorts of assets transfer:
 
 &#x20;
 
-* [Transfer device](https://docs.blynk.io/en/blynk.console/devices/actions-with-devices#device-transfer) (change owner) from one organization to another. The new owner should be specified.
-* Transfer sub-organization (available in [BUSINESS plan](https://blynk.io/pricing/business-plan) only) under a different organization. Think about it as moving a folder with files to another folder on your computer.&#x20;
+* [Transfer device ](../blynk.console/devices/actions-with-devices.md#device-transfer)(change owner) from one organization to another. The new owner should be specified.
+* [Transfer sub-organization](../blynk.console/organizations/browse-and-edit-a-sub-organization.md#transfer-a-sub-organization) under a different organization. Think about it as moving a folder with files to another folder on your computer.&#x20;
 
 ####
 
