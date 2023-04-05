@@ -2,10 +2,10 @@
 
 For authentication on Blynk platform, every device should have a unique AuthToken. AuthToken is the main identifier of every device in the Blynk Cloud. Depending on the hardware, connectivity, and the IoT use-case you are working on, a way of getting AuthTokens for your device can be different.
 
-With Blynk you can use three ways to activate devices:
+There are three ways to activate devices on Blynk platform:
 
-1. Manually create a device using Blynk.Console for initial prototyping
-2. Use Blynk.Inject for supported WiFi-enabled devices.&#x20;
+1. Manually create a device using Blynk.Console for initial prototyping (works for any hardware)
+2. Dynamically provision AuthTokens and WiFi credentials for [supported devices](../../blynk.edgent/overview.md#hardware-supported-by-blynk.edgent)
 3. Use Static Tokens for cellular, Ethernet, and other non-WiFi connection methods
 
 ### 1. Activating devices with manually generated AuthTokens
