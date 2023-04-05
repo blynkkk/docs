@@ -38,7 +38,7 @@ The full body with multiple entries:`[[timestamp1, value1], [timestamp2, value2]
 {% swagger-description %}
 `Content-Type` header should be set to `application/json`
 
-Example: [`https://blynk.cloud/external/api/batch/update?token=bFFtSHNCZZDWQ__Zs96cP5jLMhLoJofg&pin=v1`](https://blynk.cloud/external/api/batch/update?token=bFFtSHNCZZDWQ\_\_Zs96cP5jLMhLoJofg\&pin=v1)``
+Example: [`https://blynk.cloud/external/api/batch/update?token=bFFtSHNCZZDWQ__Zs96cP5jLMhLoJofg&pin=v1`](https://blynk.cloud/external/api/batch/update?token=bFFtSHNCZZDWQ\_\_Zs96cP5jLMhLoJofg\&pin=v1)
 
 Post body:
 

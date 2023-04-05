@@ -619,7 +619,7 @@ To use SuperChart widget you would need to push the data from the hardware with 
 
 Simply rotate the phone back to portrait mode. Chart should rotate automagically. In full screen view you will see X (time) and multiple Y scales. Full Screen Mode can be disabled from widget Settings.
 
-****
+
 
 **SuperChart Settings:**
 

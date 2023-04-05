@@ -24,15 +24,15 @@ Example URL with placeholders:
 https://mywebapp.com/action?user=/userID/&device=/deviceID/
 ```
 
-****
+
 
 **Datastream**: optional parameter. Use if you plan to use set.Property commands
 
-****
+
 
 **Images**: specify URLs for images for ON (pressed) and OFF (idle) states
 
-****
+
 
 **Scaling:**&#x20;
 
@@ -60,7 +60,7 @@ Examples below use Virtual Pin V01. Change to your pin.&#x20;
 Blynk.setProperty(V1, "url", "https://mywebsite.com");
 ```
 
-****
+
 
 **ON/OFF Image URLs.** Change the URL to be opened
 
@@ -69,7 +69,7 @@ Blynk.setProperty(V1, "onImageUrl", "https://mywebsite.com/on.png");
 Blynk.setProperty(V1, "offImageUrl", "https://mywebsite.com/off.png");
 ```
 
-****
+
 
 **Disable/Enable**. Widget will be greyed out on UI and users won't be able to tap on it.
 
@@ -77,7 +77,7 @@ Blynk.setProperty(V1, "offImageUrl", "https://mywebsite.com/off.png");
 Blynk.setProperty(V1, "isDisabled", true);
 ```
 
-****
+
 
 **Show/Hide**. Widget will be hidden from dashboard.&#x20;
 
@@ -89,4 +89,3 @@ Plan your UI layout so that it looks good even if widget is hidden.
 Blynk.setProperty(V1, "isHidden", true);
 ```
 
-****

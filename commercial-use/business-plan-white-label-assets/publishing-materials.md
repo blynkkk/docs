@@ -24,7 +24,7 @@ Your customers will be using this address to log in to Console, but this address
 
 If you plan to publish your apps to Google Play and App Store you would need a legit website for your company. This is are requirement from both Apple and Google. If you don't have a website you would need to build at least a simple landing page.
 
-****
+
 
 
 

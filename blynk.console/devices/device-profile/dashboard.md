@@ -18,4 +18,3 @@ Each widget may have individual elements (see the documentation for each respect
 [widgets-console](../../widgets-console/)
 {% endcontent-ref %}
 
-****

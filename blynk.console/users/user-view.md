@@ -33,8 +33,8 @@ The Information tab contains information about:&#x20;
 * **Nickname**
 * **Phone Number** (optional) – 15 digit international phone format for any country.&#x20;
 * **Role** – 3 roles available: **Admin, Staff, User** with different [access and permissions](../settings/access.md).
-* **Client Custom fields** – **** may contain additional information about the user required for work.
-* **Timezone** – **** user location timezone.
+* **Client Custom fields** – may contain additional information about the user required for work.
+* **Timezone** – user location timezone.
 
 ### Actions Log Tab
 
@@ -42,13 +42,11 @@ The Information tab contains information about:&#x20;
 
 On the Action logs tab, the user can select a time interval to view the actions for this period:
 
-
-
 The table contains information about:
 
-* **Time** – **** Date and time of the Action
+* **Time** – Date and time of the Action
 * **Organization Name**
-* **Client** – **** Android, iOS, Web, HTTPS API, Automation, Alexa, Google Home, Other
+* **Client** – Android, iOS, Web, HTTPS API, Automation, Alexa, Google Home, Other
 * **Action Name**
 * **Action Code**
 
@@ -58,7 +56,7 @@ The table contains information about:
 
 The Devices tab contains information about all user devices
 
-* **Name** – **** Name of Device
-* **Status** – **** Online or Offline
-* **Model** – **** Model of Device
+* **Name** – Name of Device
+* **Status** – Online or Offline
+* **Model** – Model of Device
 * **Last Updated** – Date and time of the last update

@@ -12,7 +12,7 @@ Each module has it's own tools, units, details that are represented by Datastrea
 <figure><img src="https://user-images.githubusercontent.com/72824404/120777353-de608600-c52d-11eb-859f-6249f1b22381.png" alt=""><figcaption><p>Modules widget example</p></figcaption></figure>
 
 _Example:_ \
-__Your Product is a road cleaning machine and it has summer setup with fan and dry broom modules and winter setup with snow brush and dryer modules. Fan and dryer use socket A for connection, broom and brush use socket B. Each module has Datastream set to represent the connectivity such as V0 for fan and V1 for dryer. So in Display Data for socket A you can switch between Fan and Dryer by enabling and disabling those Datastreams. Once connectivity DS is set to ON all the other Datastreams of Module will be displayed in Socket A tab.&#x20;
+Your Product is a road cleaning machine and it has summer setup with fan and dry broom modules and winter setup with snow brush and dryer modules. Fan and dryer use socket A for connection, broom and brush use socket B. Each module has Datastream set to represent the connectivity such as V0 for fan and V1 for dryer. So in Display Data for socket A you can switch between Fan and Dryer by enabling and disabling those Datastreams. Once connectivity DS is set to ON all the other Datastreams of Module will be displayed in Socket A tab.&#x20;
 
 **Warning:** Check the Datastreams you want to use in modules to have Save raw data option enabled.
 

@@ -72,8 +72,8 @@ Use this command `Blynk.virtualWrite(V5)` where V5 is the Virtual Pin you are us
 – Read [here](http://help.blynk.cc/getting-started/blynk-basics/how-to-display-any-sensor-data-in-blynk-app)  \
 
 
-👉 Full article: [**How to display any sensor data with Blynk**](http://help.blynk.cc/getting-started/blynk-basics/how-to-display-any-sensor-data-in-blynk-app)****\
-****![](https://uploads.intercomcdn.com/i/o/19866955/96eec33e38de6f75c3371861/Sensor+2.png)
+👉 Full article: [**How to display any sensor data with Blynk**](http://help.blynk.cc/getting-started/blynk-basics/how-to-display-any-sensor-data-in-blynk-app)\
+![](https://uploads.intercomcdn.com/i/o/19866955/96eec33e38de6f75c3371861/Sensor+2.png)
 
 **---**\
 **If you have questions or something is not working, visit our 👥** [**community**](http://community.blynk.cc/) **page.**

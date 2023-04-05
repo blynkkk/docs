@@ -73,7 +73,7 @@ In your project, add **BLE widget** and tap on it to open **BLE Settings**.
 #### Reading Analog Sensor <a href="#reading-analog-sensor" id="reading-analog-sensor"></a>
 
 In Blynk App, add a **Value Display widget** and attach it to **Analog Pin 1.**\
-****After you run the project, you should see the value of analog sensor.\
+After you run the project, you should see the value of analog sensor.\
 
 
 #### Reading Button Status <a href="#reading-button-status" id="reading-button-status"></a>
@@ -87,7 +87,7 @@ Add these lines on the top of `setup` function, and upload it to the board.
 ```
 
 Add a **Value Display widget** and attach it to **Digital Pin 5.**\
-****This is the pin of Button A, for Button B use pin 11 (see the pin map).\
+This is the pin of Button A, for Button B use pin 11 (see the pin map).\
 **Run** your project to see the button status.\
 
 

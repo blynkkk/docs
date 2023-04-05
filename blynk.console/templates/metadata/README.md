@@ -78,7 +78,7 @@ Those 5 are present in any Product and can not be deleted:
 
     * **FROM** and **TO** – select or type HH:MM value for each margin of the period. **Now** option is available – sets actual time for the selected field. Confirm by clicking OK. Reset by **X**
 
-    ****
+
 * **Contact** – field name examples: "Contact Person", "Representative", etc.. Un/mark checkboxes below to activate those fields.
   *   **Allow default values** (switch) – enable this option to open default values fields for all the entities below:
 
@@ -93,12 +93,12 @@ Those 5 are present in any Product and can not be deleted:
       * **Country**
       * **Street Address 2**
 
-      ****
+
 * **Time** – field name examples: "Sunrise", "Sunset", "Start", etc.. Select or type HH:MM value. **Now** option is available – sets actual time for the selected field. Confirm by clicking OK. Reset by **X**\
-  ****
+
 *   **Cost** – field name examples: "Maintenance cost", "Transit price", etc..&#x20;
 
-    * **CURRENCY –** select the currency available in the dropdown list: **** USD, EUR, GBP, CNY, RUB
+    * **CURRENCY –** select the currency available in the dropdown list: USD, EUR, GBP, CNY, RUB
     * **PRICE** – set default price value
     * **PER QUANTITY** – set default numeric value of **UNITS** – select metric or imperial unit from the dropdown list.
     * **MIN/MAX VALUES (OPTIONAL) –** define the prices range
@@ -109,11 +109,11 @@ Those 5 are present in any Product and can not be deleted:
 
 *   **Switch** – this field purpose is to show to options of the same entity
 
-    * **STRING** – **** give a name or a description of an entity.
+    * **STRING** – give a name or a description of an entity.
     * **OPTION A** – set or describe one of two possible options. No characters limitations.
     * **OPTION B** –  set or describe second of two possible options. No characters limitations.
 
-    ****
+
 *   **Device Reference** – field name examples: "Other boards versions", "Part of group with", etc..
 
     * **PRODUCT(S)** – type/search/select the existing Product/s
@@ -121,7 +121,7 @@ Those 5 are present in any Product and can not be deleted:
 
 * **List** – name a list of entities you want to create.
   * **OPTIONS** – create a list of entitites by adding them to this field. No characters limitations. Remove entity by clicking **X.** \
-    ****
+
 * **Table** – here you can add .csv format table
   * **TEXT** – name the table you'll add.
   * **Upload data file (.csv)** – click this area and your PC browser window will be opened. Select the .csv table you want to add and confirm the action. Drag'n'Drop is supported.\

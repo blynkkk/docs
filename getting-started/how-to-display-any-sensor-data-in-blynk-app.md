@@ -36,7 +36,7 @@ Before you try to send data to Blynk **you should be able to print the sensor re
 * Install the library for your sensor to Arduino IDE;
 * Print the sensor data to Serial;
 
-****
+
 
 **If you can't get readings from the sensor without Blynk, you won't be able to move further**
 {% endhint %}
@@ -90,10 +90,10 @@ Click **Save and Apply** to save the template and apply changes.
 
 If you don't have devices yet, or need more information on templates, check these articles:
 
-* [**How to create a device from Template**](activating-devices/manual-device-activation.md)****
-* [**Quick Template setup**](template-quick-setup/)****
+* [**How to create a device from Template**](activating-devices/manual-device-activation.md)
+* [**Quick Template setup**](template-quick-setup/)
 
-****
+
 
 Now you are ready to send the data from your device. Depending on the chosen hardware and connectivity method you can choose between two main methods of sending data:&#x20;
 

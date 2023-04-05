@@ -37,7 +37,7 @@ Blynk Launch Engineer can't check if your firmware code works as expected with y
 
 During this stage you will get apps for Android and iOS which you would need to test with your IoT product.
 
-****
+
 
 **Android App**
 

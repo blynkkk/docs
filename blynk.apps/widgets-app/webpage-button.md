@@ -14,7 +14,7 @@ Web Page Button is a button that opens in-app browser with a provided URL.
 
 **Link Name:** text to be displayed on the button
 
-****
+
 
 ### Settings
 
@@ -36,7 +36,7 @@ Example URL with placeholders:
 https://mywebapp.com/action?user=/userID/&device=/deviceID/
 ```
 
-****
+
 
 **Lock Size:** when On, size of the button will be relative to the text
 
@@ -60,7 +60,7 @@ Examples below use Virtual Pin V01. Change to your pin.&#x20;
 Blynk.setProperty(V1, "url", "https://mywebsite.com");
 ```
 
-****
+
 
 **Disable/Enable**. Widget will be greyed out on UI and users won't be able to tap on it.
 
@@ -68,7 +68,7 @@ Blynk.setProperty(V1, "url", "https://mywebsite.com");
 Blynk.setProperty(V1, "isDisabled", true);
 ```
 
-****
+
 
 **Show/Hide**. Widget will be hidden from dashboard.&#x20;
 

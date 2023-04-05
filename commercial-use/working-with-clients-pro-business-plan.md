@@ -44,6 +44,5 @@ Get yourself familiar with these features to manage clients more efficiently:&#x
 * [Transferring Users](https://docs.blynk.io/en/blynk.console/organizations/browse-and-edit-a-sub-organization#how-to-transfer-a-user-to-another-organization)
 * [Transferring Devices](https://docs.blynk.io/en/blynk.console/devices/actions-with-devices#device-transfer)&#x20;
 
-****
 
-****
+

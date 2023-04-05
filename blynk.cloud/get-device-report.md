@@ -164,7 +164,7 @@ API call will look like this:&#x20;
 
 `` https://blynk.cloud/external/api/data/get?token=HjKjfij84050fege&period=DAY&granularityType=MINUTE&sourceType=AVG&tzName=America/New_York&format=ISO_SIMPLE&sendEvents=true&output=FILE&dataStreamId=20` ``
 
-``
+
 
 **JSON Output example:**
 

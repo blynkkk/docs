@@ -15,7 +15,7 @@ There are different ways to get your devices connected to the Blynk Cloud:
       * Device state indication using an RGB LED
       * Device configuration reset using a button
 
-      If your hardware supports Blynk.Edgent, **we recommend using** [**this flow**](../blynk.edgent/supported-boards.md) at all times.
+      If your hardware supports Blynk.Edgent, **we recommend using** [**this flow**](../blynk.edgent/overview.md) at all times.
 * **Blynk.NCP**\
   Blynk offers a software stack for a variety of `Network Co-Processors`. NCP is a dedicated connectivity chip/module that **off-loads the Blynk.Cloud connectivity (WiFi, Ethernet, Cellular)** from the main device MCU. The main MCU runs a lightweight client library that communicates to the NCP over `UART` or `SPI`. It enables blazing fast and high quality integration, and is perfect for retrofitting scenarios. If you're interested in using **Blynk.NCP** for commercial applications, please [contact Blynk](https://blynk.io/contact-us-business).
 * **HTTP(s) API**\

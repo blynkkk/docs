@@ -55,9 +55,9 @@ This is a system event to track firmware update. It can't be configured
 
 These are Events you can configure based on what your device do. Read these articles to start logging events and sending notifications:&#x20;
 
-* [**Event Settings**](../blynk.console/templates/events/custom-events/events-general-setting.md)****
-* ****[**How to send custom events fom hardware using Firmware API and HTTPS API**](../blynk.console/templates/events/custom-events/events--how-to-log-events.md) ****&#x20;
-* ****[**Content Events**](../blynk.console/templates/events/custom-events/events-content-events.md)****
+* [**Event Settings**](../blynk.console/templates/events/custom-events/events-general-setting.md)
+* [**How to send custom events fom hardware using Firmware API and HTTPS API**](../blynk.console/templates/events/custom-events/events--how-to-log-events.md)&#x20;
+* [**Content Events**](../blynk.console/templates/events/custom-events/events-content-events.md)
 
 
 

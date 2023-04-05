@@ -6,19 +6,19 @@ This is the main view, where you can manage all devices that belong to your orga
 
 ## Predefined Filters
 
-In the sidebar there are segments of devices. 
+In the sidebar there are segments of devices.&#x20;
 
 ![](https://user-images.githubusercontent.com/72824404/120638891-68024c00-c479-11eb-8fa0-adc2f1644392.png)
 
 **My Devices** – List of devices that belong to your organization and the ones you have access to based on role and assigned permissions
 
-**All** **Devices**– list of all devices that your organization has access to, including all devices in sub organizations.  
+**All** **Devices**– list of all devices that your organization has access to, including all devices in sub organizations. &#x20;
 
-****
+
 
 ## Quick search
 
-You can search devices by almost any parameter. 
+You can search devices by almost any parameter.&#x20;
 
 ![](../../.gitbook/assets/quick-search.gif)
 
@@ -43,7 +43,7 @@ Search can be performed by the following fields:
 #### Search steps:
 
 1. Click on Devices row in Search Filtering Panel
-2. Start typing to perform a search. Search results will be segmented by sections will appear in the dropdown. 
+2. Start typing to perform a search. Search results will be segmented by sections will appear in the dropdown.&#x20;
 3. Click on result you need and you'll get all the Devices containing it in Table View
 4. Use sorting and filter of the table columns to narrow down the search.
 

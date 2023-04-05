@@ -112,7 +112,7 @@ Choose a condition from one of the options below:
 After you have the _When_ condition defined, the next step is to configure one or more 'Do this' actions. The action choices are:
 
 * **Control Device** - select a specific Device to control by setting a Datastream value.
-* ****[**Forward Device Data**](automations/forward-device-data.md) - update a datastream value for any device with the datastream value from the device assigned to this automation. This option works with datastreams of data type integer, double, and string and is currently available only in Blynk.Console. ****&#x20;
+* [**Forward Device Data**](automations/forward-device-data.md) - update a datastream value for any device with the datastream value from the device assigned to this automation. This option works with datastreams of data type integer, double, and string and is currently available only in Blynk.Console.&#x20;
 * **Send Email** will send an email to one or more Users with optional details about the Organization, Template name, Device name, and/or Datastream value included (availability of each depends on the Datastream data type and type of automation).
 * **Send In-App Notifications** to one or more Users' Blynk.App with optional details about the Organization, Template name, Device name, and/or Datastream value included (availability of each depends on the Datastream data type and type of automation).
 * **Wait, Then Do Something** - delay until a specific time of the day is reached (in a specified timezone), or until a timer between 1 sec and 24 hours elapses.

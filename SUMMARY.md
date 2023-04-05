@@ -170,7 +170,7 @@
 
 ## Blynk.Edgent
 
-* [Blynk.Edgent overview](blynk.edgent/supported-boards.md)
+* [Blynk.Edgent overview](blynk.edgent/overview.md)
 * [OTA: Firmware Over-The-Air updates](blynk.edgent/updating-devices-firmwares-ota.md)
 * [Over-The-Air Firmware Updates (OTA)](blynk.edgent/ota-updates.md)
 

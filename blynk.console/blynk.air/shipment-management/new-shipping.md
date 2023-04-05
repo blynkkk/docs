@@ -38,7 +38,7 @@ Each shipping should have unique name.
 
 **Devices Selection Table** – 2 options available here:&#x20;
 
-* **select** **Devices** available **** if you want to update certain devices by marking their checkboxes.
+* **select** **Devices** available if you want to update certain devices by marking their checkboxes.
 * **leave the selections empty** and all of the selected Product's/Template's devices will be updated including these that will be added in the future.&#x20;
 
 There are sorting (all columns) and filtering (Firmware Version column only) options available to make Devices search easier:

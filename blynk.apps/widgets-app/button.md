@@ -138,7 +138,7 @@ Blynk.setProperty(V1, "onLabel", "ON");
 Blynk.setProperty(V1, "offLabel", "OFF");
 ```
 
-****
+
 
 **Set Button Color:**
 
@@ -147,7 +147,7 @@ Blynk.setProperty(V1, "offLabel", "OFF");
 Blynk.setProperty(V1, "color", "#D3435C");
 ```
 
-****
+
 
 **Disable/Enable**. Widget will be greyed out on UI and users won't be able to tap on it.
 
@@ -155,7 +155,7 @@ Blynk.setProperty(V1, "color", "#D3435C");
 Blynk.setProperty(V1, "isDisabled", true);
 ```
 
-****
+
 
 **Show/Hide**. Widget will be hidden from dashboard. Design your UI so that it doesn't look weird when there is no widget.
 
@@ -163,7 +163,7 @@ Blynk.setProperty(V1, "isDisabled", true);
 Blynk.setProperty(V1, "isHidden", true);
 ```
 
-****
+
 
 **Change Page Target**. This command will set which page should open when the button is pressed. PageId can be found in the mobile app in developer mode:  Toolbox -> Pages
 
@@ -171,7 +171,7 @@ Blynk.setProperty(V1, "isHidden", true);
 Blynk.setProperty(V1, "page", "pageId");
 ```
 
-****
+
 
 **Sync to the latest known state**&#x20;
 

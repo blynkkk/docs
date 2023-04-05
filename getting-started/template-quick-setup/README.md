@@ -14,7 +14,7 @@ While Device Template has a lot of settings, in this tutorial, we focus only on 
 * Receive user input from the web or mobile dashboard UI elements
 
 {% hint style="info" %}
-You would need a development board (e.g. Node MCU, Arduino). A list of supported boards can be found [here](../../blynk.edgent/supported-boards.md).
+You would need a development board (e.g. Node MCU, Arduino). A list of supported boards can be found [here](../../blynk.edgent/overview.md).
 {% endhint %}
 
 Full documentation on all of the Template settings can be found [here](../../blynk.console/templates/working-with-templates.md).
