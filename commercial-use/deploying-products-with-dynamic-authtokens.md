@@ -20,22 +20,22 @@ Dynamic AuthTokens works only with Wi-Fi devices. Supported devices are: ESP32, 
 
 Dynamic AuthToken generation is a part of the device provisioning process:
 
-1. In the beginning, your device will act as an Access Point (AP). It means that your device will broadcast its own WiFi network with an SSID (name) similar to `Blynk Device-1234`
-2. Your smartphone will connect to this AP with the Blynk app (or from smartphone settings) and they will start communicating directly with each other over WiFi
+1. In the beginning, your device will act as an Access Point (AP). It means that your device will broadcast its own WiFi network with an SSID (name) similar to `Blynk Device-1234`.
+2. Your smartphone will connect to this AP with the Blynk app (or from smartphone settings) and they will start communicating directly with each other over WiFi.
 3. Blynk app will ask your customers for the name (SSID) and password of the WiFi network they would like to connect their device to.
 4. WiFi information (SSID and password) will be sent to the device.
 5. Also, Blynk app will request **a new AuthToken** from the server and send this AuthToken to the device.
-6. Device will store all of these parameters in Flash/EEPROM memory
-7. After that, device will automatically reboot. The AP mode will be turned off.
-8. Device will use the WiFi credentials your client provided to connect to their home or office WiFi network&#x20;
-9. After the successful authentication, the device is added to their account and ready to use
-10. If they later need to connect to this device to a different network, WiFi credentials can be changed by using Blynk app, by resetting the device with a physical button (you would need to plan it into your electrical circuit design)
+6. Device will store all of these parameters in Flash/EEPROM memory.
+7. After that, the device will automatically reboot. The AP mode will be turned off.
+8. The device will use the WiFi credentials your client provided to connect to their home or office WiFi network.
+9. After successful authentication, the device is added to their account and is ready to use.
+10. If they later need to connect this device to a different network, WiFi credentials can be changed by using Blynk app, by resetting the device with a physical button (you would need to plan it into your electrical circuit design).
 
 
 
 ### Preparation
 
-In general, Blynk.Edgent covers everything you need to enable your productst to get AuthTokens Following this guide will give you a full understanding of how this process works.
+In general, Blynk.Edgent covers everything you need to enable your products to get AuthTokens. Following this guide will give you a full understanding of how this process works.
 
 {% content-ref url="../getting-started/activating-devices/blynk-edgent-wifi-provisioning.md" %}
 [blynk-edgent-wifi-provisioning.md](../getting-started/activating-devices/blynk-edgent-wifi-provisioning.md)
@@ -66,7 +66,7 @@ User experience is different for iOS and Android devices. Future updates of thes
 
 ### Delivering products to clients (PRO plan workflow)
 
-Here is a recommended workflow for managing customers in PRO plan so that your clients only see devices they own, while you, as an administrator, can get access to all the devices, users, organizations, etc.
+Here is the recommended workflow for managing customers in PRO plan so that your clients only see devices they own, while you, as an administrator, can get access to all the devices, users, organizations, etc.
 
 PRO plan was designed for managed services, where you would need to manually create and manage each customer.&#x20;
 
@@ -138,11 +138,11 @@ With Blynk you can do all sorts of assets transfer:
 
 In Blynk, Permissions are set per organization, which gives you full control of how your clients access devices and other data.&#x20;
 
-Sometimes it can cause a situation where users don't can't access some app features
+Sometimes it can cause a situation where users can't access some app features.
 
 
 
-To check permissions for a current organization and user role
+To check permissions for current organization and user role
 
 1. Go to Search - Organizations section - find the organization you need  &#x20;
 2. Switch to this organization
