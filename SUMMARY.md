@@ -175,7 +175,6 @@
 
 ## Blynk Library - firmware API
 
-* [Supported Boards](blynk-library-firmware-api/supported-boards.md)
 * [Installation](blynk-library-firmware-api/installation/README.md)
   * [Install Blynk Library in Arduino IDE](blynk-library-firmware-api/installation/install-blynk-library-in-arduino-ide.md)
   * [Install Blynk Library for Platformio.org](blynk-library-firmware-api/installation/install-blynk-library-for-platformio.org.md)
