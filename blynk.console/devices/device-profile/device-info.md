@@ -34,7 +34,7 @@ That is defined in product's Sketch.
 
 **Firmware Version** – actual firmware version of the Device (it can be changed by flash or [Blynk.Air](https://github.com/blynkkk/docs/tree/734d666b5b4e7a337c0659a96502e484d15a5d8e/blynk.console/blynk.air))
 
-**Blynk Version** – version of [Blynk Library](../../../downloads/blynk.edgent.md) used in the firmware (it can be changed by flash or [Blynk.Air](https://github.com/blynkkk/docs/tree/734d666b5b4e7a337c0659a96502e484d15a5d8e/blynk.console/blynk.air))
+**Blynk Version** – version of [Blynk Library](../../../downloads/blynk-library.md) used in the firmware (it can be changed by flash or [Blynk.Air](https://github.com/blynkkk/docs/tree/734d666b5b4e7a337c0659a96502e484d15a5d8e/blynk.console/blynk.air))
 
 **Firmware Type** – unique ID of firmware. It's used during Provision and OTA checks.
 

@@ -45,7 +45,7 @@
 ## Downloads
 
 * [Blynk Mobile Apps](downloads/blynk-apps-for-ios-and-android.md)
-* [Blynk.Edgent](downloads/blynk.edgent.md)
+* [Blynk Library](downloads/blynk-library.md)
 
 ## Blynk.Console
 
