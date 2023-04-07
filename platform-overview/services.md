@@ -1,6 +1,10 @@
-# Services
+---
+description: Micro-Services included in Blynk.Edgent
+---
 
-Blynk services (or micro-services) are software modules that work across products and perform a certain set of functionality.
+# Blynk.Inject and Blynk.Air
+
+Blynk services (or micro-services) are software modules that perform a certain set of functionality to simplify common use cases.
 
 ## Blynk.Inject
 

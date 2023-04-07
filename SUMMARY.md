@@ -164,7 +164,7 @@
 ## Blynk.Edgent
 
 * [Blynk.Edgent overview](blynk.edgent/overview.md)
-* [Services](platform-overview/services.md)
+* [Blynk.Inject and Blynk.Air](platform-overview/services.md)
 * [OTA: Firmware Over-The-Air updates](blynk.edgent/updating-devices-firmwares-ota.md)
 * [Over-The-Air Firmware Updates (OTA)](blynk.edgent/ota-updates.md)
 
