@@ -25,11 +25,6 @@
 * [Notifications (Alerts)](getting-started/notification-management.md)
 * [Sign Up / Sign In](getting-started/signup.md)
 
-## Platform overview
-
-* [Blynk Products and Services](platform-overview/products-and-services.md)
-* [Products](platform-overview/products.md)
-
 ## General Concepts <a href="#concepts" id="concepts"></a>
 
 * [Developer Mode](concepts/developer-mode.md)
@@ -169,7 +164,7 @@
 ## Blynk.Edgent
 
 * [Blynk.Edgent overview](blynk.edgent/overview.md)
-* [Services](blynk.edgent/services.md)
+* [Services](platform-overview/services.md)
 * [OTA: Firmware Over-The-Air updates](blynk.edgent/updating-devices-firmwares-ota.md)
 * [Over-The-Air Firmware Updates (OTA)](blynk.edgent/ota-updates.md)
 
@@ -217,13 +212,10 @@
 
 * [General Issues](troubleshooting/general-issues.md)
 * [Developer Mode](troubleshooting/developer-mode.md)
-
-***
-
-* [Changes from Blynk 0.1](blynk-1.0-and-2.0-comparison/README.md)
-  * [Migrating to the new Blynk - Full Guide](blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md)
-* [Glossary](glossary.md)
-* [Links](links.md)
+* [Changes from Blynk 0.1](troubleshooting/blynk-1.0-and-2.0-comparison/README.md)
+  * [Migrating to the new Blynk - Full Guide](troubleshooting/blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md)
+* [Glossary](troubleshooting/glossary.md)
+* [Links](troubleshooting/links.md)
 
 ## Commercial Use
 

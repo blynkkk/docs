@@ -10,7 +10,7 @@ description: Terminology used in Blynk
 
 `Auth Token` - a unique identifier that is assigned to each `Device` that is activated in the system.
 
-[`Automation`](concepts/automations.md) - condition-to-action sets allowing `Devices` to complete tasks without user interaction.
+[`Automation`](../concepts/automations.md) - condition-to-action sets allowing `Devices` to complete tasks without user interaction.
 
 ## B
 

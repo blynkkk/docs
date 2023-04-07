@@ -50,7 +50,7 @@ As part of Blynk.Edgent the following features are fully supported:\
 ### Hardware that works with Blynk library or HTTPs API (using Static Tokens)
 
 {% hint style="info" %}
-This is the easiest way to migrate from legacy Blynk projects. Just add `BLYNK_TEMPLATE_ID` and `BLYNK_TEMPLATE_NAME` at the top of your firmware (prior to any includes), update your auth token and that's it. Read more about [project migration](../blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md).
+This is the easiest way to migrate from legacy Blynk projects. Just add `BLYNK_TEMPLATE_ID` and `BLYNK_TEMPLATE_NAME` at the top of your firmware (prior to any includes), update your auth token and that's it. Read more about [project migration](../troubleshooting/blynk-1.0-and-2.0-comparison/migrate-from-1.0-to-2.0.md).
 {% endhint %}
 
 Read about static tokens here:
