@@ -251,9 +251,9 @@
 * [Database Access](add-ons/database-access.md)
 * [Marketing](add-ons/marketing.md)
 
-## Hardware
+## Hardware Guides
 
-* [Particle](hardware/particle.md)
+* [Particle](hardware-guides/particle.md)
 
 ## Legacy Platform Help Articles <a href="#legacy-platform" id="legacy-platform"></a>
 

@@ -95,7 +95,7 @@ Read about static tokens here:
 * Photon
 * Electron
 * Argon
-* [Boron](../hardware/particle.md)
+* [Boron](../hardware-guides/particle.md)
 * Photon 2
 
 **JavaScript** (Node.js, Espruino, Browsers) ([https://www.npmjs.com/package/blynk-library](https://www.npmjs.com/package/blynk-library))
