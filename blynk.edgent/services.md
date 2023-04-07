@@ -1,6 +1,6 @@
 # Services
 
-Blynk services \(or micro-services\) are software modules that work across products and perform a certain set of functionality.
+Blynk services (or micro-services) are software modules that work across products and perform a certain set of functionality.
 
 ## Blynk.Inject
 
@@ -21,15 +21,7 @@ To get understanding of the Blynk Inject take a look at the below videos:
 
 [![Blynk Inject flow. Cama Cooler](http://img.youtube.com/vi/GPneDxWvp4U/0.jpg)](http://www.youtube.com/watch?v=GPneDxWvp4U)
 
-## Blynk.**R**
 
-![Roles and permissions](https://user-images.githubusercontent.com/72824404/119471708-3808c980-bd52-11eb-89bd-7b003fc94da1.png)
-
-A micro-service for user management, covering
-
-* User registration with invitations
-* Roles and permissions management
-* Multi-tenancy
 
 ## Blynk.Air
 
@@ -39,4 +31,3 @@ A micro-service for Firmware Over-the-Air Updates responsible for:
 
 * Managing Firmware Over-the-Air Updates shipping campaigns
 * Installing new firmware on the edge devices
-

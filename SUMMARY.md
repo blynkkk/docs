@@ -29,7 +29,6 @@
 
 * [Blynk Products and Services](platform-overview/products-and-services.md)
 * [Products](platform-overview/products.md)
-* [Services](platform-overview/services.md)
 
 ## General Concepts <a href="#concepts" id="concepts"></a>
 
@@ -170,6 +169,7 @@
 ## Blynk.Edgent
 
 * [Blynk.Edgent overview](blynk.edgent/overview.md)
+* [Services](blynk.edgent/services.md)
 * [OTA: Firmware Over-The-Air updates](blynk.edgent/updating-devices-firmwares-ota.md)
 * [Over-The-Air Firmware Updates (OTA)](blynk.edgent/ota-updates.md)
 
