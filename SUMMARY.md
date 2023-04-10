@@ -19,8 +19,8 @@
   * [Set Up Mobile App Dashboard](getting-started/template-quick-setup/set-up-mobile-app-dashboard.md)
   * [Prepare Your Code](getting-started/template-quick-setup/prepare-code.md)
   * [Test your Template](getting-started/template-quick-setup/test-your-template.md)
-* [Control Devices (GPIOs and beyond)](getting-started/using-virtual-pins-to-control-physical-devices.md)
 * [Send Data From Hardware To Blynk](getting-started/how-to-display-any-sensor-data-in-blynk-app.md)
+* [Control Devices (GPIOs and beyond)](getting-started/using-virtual-pins-to-control-physical-devices.md)
 * [Events](getting-started/events-tutorial.md)
 * [Notifications (Alerts)](getting-started/notification-management.md)
 * [Sign Up / Sign In](getting-started/signup.md)
@@ -35,11 +35,6 @@
 * [Organizations](concepts/organizations.md)
 * [Automations](concepts/automations.md)
   * [Forward Device Data](concepts/automations/forward-device-data.md)
-
-## Downloads
-
-* [Blynk Mobile Apps](downloads/blynk-apps-for-ios-and-android.md)
-* [Blynk Library](downloads/blynk-library.md)
 
 ## Blynk.Console
 
@@ -207,6 +202,11 @@
 * [Is Device Connected](blynk.cloud/is-device-connected.md)
 * [HTTPS API Troubleshooting](blynk.cloud/troubleshooting.md)
 * [Security](blynk.cloud/security.md)
+
+## Downloads
+
+* [Blynk Mobile Apps](downloads/blynk-apps-for-ios-and-android.md)
+* [Blynk Library](downloads/blynk-library.md)
 
 ## Troubleshooting
 

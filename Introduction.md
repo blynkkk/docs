@@ -44,7 +44,7 @@ Blynk also offers a white-label solution (part of the Business Plan), which mean
 
 Full documentation on Blynk.Apps is [here](blynk.apps/overview.md)
 
-### Blynk.Edgent
+### Blynk.Edgent and Blynk Library
 
 Edge + Agent = Edgent
 
@@ -61,6 +61,9 @@ Main functions of Blynk.Edgent are:
 5. Over-the-air firmware updates (for selected hardware models)
 
 Full documentation on Blynk.Edgent is [here](blynk.edgent/overview.md).
+
+**Blynk Library** is an easy to use and portable C++ library, pre-configured to work with hundreds of development boards.\
+The library implements a streaming connection protocol (i.e. the device stays always connected to the cloud), that allows for a low latency, bi-directional communication. Explore [Blynk Library documentation](broken-reference).
 
 ### Blynk.Cloud
 
