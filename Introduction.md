@@ -88,13 +88,11 @@ A micro-service for:
 * Managing Authentication Tokens
 * UX flow to guide end-users through the process of claiming and provisioning with the help of Blynk.Apps
 
-To get understanding of the Blynk Inject take a look at the below videos:
+To get understanding of the Blynk.Inject take a look at the below videos:
 
-[![Blynk Inject flow. Blynk](http://img.youtube.com/vi/bXPEEmsEtPM/0.jpg)](http://www.youtube.com/watch?v=bXPEEmsEtPM)
+<table data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href="https://www.youtube.com/watch?v=bXPEEmsEtPM">https://www.youtube.com/watch?v=bXPEEmsEtPM</a></td><td><a href=".gitbook/assets/Blynk-inject.jpeg">Blynk-inject.jpeg</a></td></tr><tr><td></td><td></td><td></td><td><a href="https://www.youtube.com/watch?v=4RGAn0tlrHs">https://www.youtube.com/watch?v=4RGAn0tlrHs</a></td><td><a href=".gitbook/assets/plaato.jpeg">plaato.jpeg</a></td></tr><tr><td></td><td></td><td></td><td><a href="https://www.youtube.com/watch?v=GPneDxWvp4U">https://www.youtube.com/watch?v=GPneDxWvp4U</a></td><td><a href=".gitbook/assets/cama-cooler.jpeg">cama-cooler.jpeg</a></td></tr></tbody></table>
 
-[![Blynk Inject flow. Plaato](http://img.youtube.com/vi/4RGAn0tlrHs/0.jpg)](http://www.youtube.com/watch?v=4RGAn0tlrHs)
 
-[![Blynk Inject flow. Cama Cooler](http://img.youtube.com/vi/GPneDxWvp4U/0.jpg)](http://www.youtube.com/watch?v=GPneDxWvp4U)
 
 ## Blynk.**R**
 
