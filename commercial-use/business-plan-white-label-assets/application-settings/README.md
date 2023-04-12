@@ -4,8 +4,8 @@
 [general.md](general.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="design.md" %}
+[design.md](design.md)
 {% endcontent-ref %}
 
 {% content-ref url="mobile-apps.md" %}
