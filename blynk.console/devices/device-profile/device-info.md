@@ -6,7 +6,7 @@
 
 **Last Online** – hh:mm M D format last online appearance time
 
-**Device Activated** – time (hh:mm, M D) and Device Owner's email at the moment of Device [Provision](broken-reference)
+**Device Activated** – time (hh:mm, M D) and Device Owner's email at the moment of Device [Provisioning](../../../getting-started/activating-devices/blynk-edgent-wifi-provisioning.md#activating-the-device-using-blynk-app)
 
 **Total Online Time** – shows total time the Device has been online.\
 Days+hours, hours+minutes or minutes+seconds time view depending on summary duration.
@@ -32,9 +32,9 @@ That is defined in product's Sketch.
 
 **IP LAT/LON** – IP based latitude and longitude definition. It's used to show Device's location on Map if the Device isn't assigned to any Location.
 
-**Firmware Version** – actual firmware version of the Device (it can be changed by flash or [Blynk.Air](https://github.com/blynkkk/docs/tree/734d666b5b4e7a337c0659a96502e484d15a5d8e/blynk.console/blynk.air))
+**Firmware Version** – actual firmware version of the Device (it can be changed by flash or [Blynk.Air](../../blynk.air/))
 
-**Blynk Version** – version of [Blynk Library](../../../downloads/blynk-library.md) used in the firmware (it can be changed by flash or [Blynk.Air](https://github.com/blynkkk/docs/tree/734d666b5b4e7a337c0659a96502e484d15a5d8e/blynk.console/blynk.air))
+**Blynk Version** – version of [Blynk Library](../../../downloads/blynk-library.md) used in the firmware (it can be changed by flash or [Blynk.Air](../../blynk.air/))
 
 **Firmware Type** – unique ID of firmware. It's used during Provision and OTA checks.
 
