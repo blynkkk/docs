@@ -12,7 +12,7 @@ Events are used to track, log, and work with important events that happen on the
 
 Events are also used for notifications which can be sent over email, delivered as push notifications to user's smartphone, or sent as an SMS.
 
-Events are pre-configured in Blynk.Console and can be triggered with a [Events Firmware API](broken-reference) from device or using [Events HTTP API](../blynk.cloud/trigger-events-api.md).
+Events are pre-configured in Blynk.Console and can be triggered with a [Events Firmware API](../blynk-library-firmware-api/log-event.md) from device or using [Events HTTP API](../blynk.cloud/trigger-events-api.md).
 
 _Examples of an Event:_
 
@@ -61,11 +61,7 @@ These are Events you can configure based on what your device do. Read these arti
 
 
 
-
-
-##
-
-
+## How to log an event in Blynk
 
 ### 1. [Create a Template](template-quick-setup/) or use an existing one
 
@@ -91,7 +87,7 @@ Note that each event has`EVENT_CODE`. This event code will be used in firmware A
 
 ![](../.gitbook/assets/2\_new\_events.png)
 
-## Send Events Using Firmware API
+### Send Events Using Firmware API
 
 1. Create a new Event named `High temperature` with code `high_temp`
 2. Use the `Blynk.logEvent(event_code)` firmware API command to trigger new event
@@ -111,7 +107,7 @@ Avoid logging an event too many times not to hit daily limits. You can use timer
 
 
 
-### Custom Event Description
+#### Custom Event Description
 
 You can change the description of the event when it's rendered on the timeline in Blynk.Console and in Blynk.Apps. For example, you can include the current data
 
@@ -128,7 +124,7 @@ Make sure you enabled [Timeline recording](../blynk.console/templates/events/cus
 
 
 
-## Send Events Using HTTPS API
+### Send Events Using HTTPS API
 
 To log an event use GET request:&#x20;
 
