@@ -56,8 +56,8 @@ Keep scrolling down to load more devices.
 **Navigation:**
 
 * Click on **Device Name** – opens [Device View](device-profile/)
-* Click on **Device Owner** – opens [Device Owner profile](broken-reference)
-* Click on **Organization Name** – opens device [Organization](broken-reference)
+* Click on **Device Owner** – opens Device Owner profile
+* Click on **Organization Name** – opens device [Organization](../organizations.md)
 
 ## Map view
 
