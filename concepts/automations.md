@@ -45,7 +45,7 @@ Note that the value of a Datastream may be used by a condition, and action can b
 
 #### Check permissions
 
-[Automations](automations.md) are created per [Organization](organizations.md) and are only available for users with permission for it. By default, the first user in the Organization becomes a [Developer](users/#developers) and has sufficient permissions to create an Automation.
+Automations are created per [Organization](organizations.md) and are only available for users with permission for it. By default, the first user in the Organization becomes a [Developer](users/#developers) and has sufficient permissions to create an Automation.
 
 Enable automation permissions for other roles by visiting [Blynk.Console](broken-reference), click on the 'Settings' option on the main menu, access the 'Roles and permissions' menu option, expand the 'Organizations' section and find the 'Automations' permissions. Set the role's create/edit/view/delete/execute/manage permissions as appropriate for the role.
 
@@ -56,7 +56,7 @@ Enable automation permissions for other roles by visiting [Blynk.Console](broken
 The [Developer Mode](developer-mode.md) must be turned on in order to edit the Automations options for a [Template](device-template.md).  The Developer Mode can be turned on from [Blynk.Console](broken-reference) or the [Blynk.App](broken-reference).
 
 {% hint style="info" %}
-The ‘Automations’ icon in both the Blynk.App and the Blynk.Console will not be visible until at least one [Datastream](broken-reference) listed in the Template under the ‘Automations’ tab has a condition or action option turned on.
+The ‘Automations’ icon in both the Blynk.App and the Blynk.Console will not be visible until at least one [Datastream](../blynk.console/templates/datastreams/) listed in the Template under the ‘Automations’ tab has a condition or action option turned on.
 {% endhint %}
 
 Even if none of your existing Datastreams will be involved in any Automation, you can simply enable the Condition or Action switch for any Datastream (no harm will be done), or create a Datastream if none exist. Otherwise, build your first Automation based on the Datastream that will be used as either the ‘Condition’ or ‘Action’ for the Automation.
@@ -127,7 +127,7 @@ The ‘Send Email’, ‘Send In-App Notifications’, and ‘Send SMS’ action
 * **{DEVICE\_NAME}** - the IoT Device name as displayed under ‘DEVICES’.
 * **{TRIGGER\_VALUE}** - if a Device State trigger was used, this will be the value of the trigger.
 
-The 'Name' and 'Cover' should also be configured for the new [automation](automations.md).&#x20;
+The 'Name' and 'Cover' should also be configured for the new automation.&#x20;
 
 ### Automation Settings (Limit Period, Name, Cover)
 
@@ -191,7 +191,7 @@ Consider carefully this automation behavior for ‘Is On’ and ‘Is Off’ whe
 
 ### 3. Automation Management
 
-After the [Automation](automations.md) is configured, it will appear in the 'Automations' list as a card, with the count of actions defined, and the last date/time that the Automation was executed. A switch on the card allows the Automation to be enabled/disabled.
+After the Automation is configured, it will appear in the 'Automations' list as a card, with the count of actions defined, and the last date/time that the Automation was executed. A switch on the card allows the Automation to be enabled/disabled.
 
 ![](../.gitbook/assets/automation-management.png)
 
@@ -213,5 +213,5 @@ In the [Blynk.Console](broken-reference), you may also view the Automation Logs 
 
 ![](../.gitbook/assets/automation-logs.png)
 
-Selecting the ‘Automation Logs’ icon will display a page with a history of the executions of the [Automation](automations.md).  The summary includes the date/time when it was executed, from what [Device](device.md), the Datastream employed, and the value of the [Datastream](../getting-started/template-quick-setup/set-up-datastreams.md).
+Selecting the ‘Automation Logs’ icon will display a page with a history of the executions of the Automation.  The summary includes the date/time when it was executed, from what [Device](device.md), the Datastream employed, and the value of the [Datastream](../getting-started/template-quick-setup/set-up-datastreams.md).
 
