@@ -16,7 +16,7 @@ In May 2021, Blynk released the latest generation of the Blynk IoT Platform call
 
 * Create a [new account](https://blynk.cloud/dashboard/register) on Blynk.Console (your old account does not exist on the new platform). This should be done by the Developer, the single user who builds the hardware, develops the firmware, and does all of the device configurations.
 * Install Blynk IoT app on your mobile device. Make sure it runs Android 5 or later and/or iOS 14.1 or later.
-* Check [here](../../blynk.edgent/overview.md) to confirm that your IoT hardware is supported by Blynk IoT. Note that all boards supported under Legacy Blynk are also supported under the new Blynk IoT.
+* Check [here](../../getting-started/supported-boards.md) to confirm that your IoT hardware is supported by Blynk IoT. Note that all boards supported under Legacy Blynk are also supported under the new Blynk IoT.
 * Map out the widgets you intend to utilize in both the Blynk IoT app and Blynk.Console (web console). Begin with your existing Blynk Legacy configuration, then evaluate the [new Blynk IoT widget options](migrate-from-1.0-to-2.0.md#blynk.app) against your map.
 * Enable [developer mode](../../concepts/developer-mode.md#how-to-enable-developer-mode) in either the Blynk.Console (web app), or the Blynk IoT (Android/iOS mobile app).
 * The process of adding a device is a bit different in the new Blynk. While in Blynk Legacy it was all about Auth Tokens, this time it's centered around Device Templates to simplify adding multiple devices. You can still find your [Auth Tokens here](../../getting-started/activating-devices/manual-device-activation.md#step-3-getting-auth-token) if you need them.
@@ -34,7 +34,7 @@ For those of you who purchased Energy in the legacy app, we provide a 50% discou
 
 ### IoT Hardware & Firmware
 
-Blynk may be deployed on more than 400 IoT device types, including Arduino, Particle, ARM mbed, TI Energia, MicroPython, Node.js, OpenWRT, and many Single Board Computers. You can review the [list of supported devices and provisioning options](../../blynk.edgent/overview.md) for them.
+Blynk may be deployed on more than 400 IoT device types, including Arduino, Particle, ARM mbed, TI Energia, MicroPython, Node.js, OpenWRT, and many Single Board Computers. You can review the [list of supported devices and provisioning options](../../getting-started/supported-boards.md) for them.
 
 Update the library on the device to [the latest version](https://github.com/blynkkk/blynk-library/releases/latest). Add `BLYNK_TEMPLATE_ID` and `BLYNK_TEMPLATE_NAME` at the top of your firmware (prior to any includes), and update your auth token.
 
@@ -44,7 +44,7 @@ Replace [Blynk.notify()](http://docs.blynk.cc/#widgets-notifications-push-notifi
 
 WiFi, cellular, USB, and Ethernet are supported by Blynk IoT. Classic Bluetooth and low energy Bluetooth (BLE) are not currently supported.
 
-Over-The-Air Firmware Updates ([OTA](../../blynk.edgent/ota-updates.md)) are triggered by a new shipment created in [Blynk.Air](../../blynk.console/blynk.air). Extensive management and control over multiple device OTA are provided by Blynk.Air as well.
+Over-The-Air Firmware Updates ([OTA](../../blynk.edgent/ota-updates.md)) are triggered by a new shipment created in [Blynk.Air](../../blynk.console/blynk.air/). Extensive management and control over multiple device OTA are provided by Blynk.Air as well.
 
 ### Blynk.Console
 
@@ -53,9 +53,9 @@ The Blynk.Console is a no-code web application that allows you to:
 * Configure and manage devices, users, data, and organizations.
 * Create a dashboard with multiple tabs for interacting with your devices via Widgets.
 
-If needed you can get a better understanding of the general concepts of [devices](../../concepts/device.md), [templates](../../concepts/device-template.md), [users](../../concepts/users/), [organizations](../../concepts/organizations.md), [multi-tenancy](../../concepts/users/multi-tenant-tree-structure.md), and automations.
+If needed you can get a better understanding of the general concepts of [devices](../../concepts/device.md), [templates](../../concepts/device-template.md), [users](../../concepts/users/), [organizations](../../concepts/organizations.md), [multi-tenancy](../../concepts/users/multi-tenant-tree-structure.md), and [automations](../../concepts/automations.md).
 
-Blynk account supports an organization and sub-organizations (available in PRO and Business Plans). Members (users), devices, and locations are assigned to organizations or sub-organizations. Members may be assigned the role of 'Admin', 'Staff', or 'User'. See also the [documentation](../../blynk-1.0-and-2.0-comparison/broken-reference/), and this [blog](https://blynk.io/how-to-add-users-and-give-them-access-to-your-devices).
+Blynk account supports an organization and sub-organizations (available in PRO and Business Plans). Members (users), devices, and locations are assigned to organizations or sub-organizations. Members may be assigned the role of 'Admin', 'Staff', or 'User'. See also the [documentation](../../concepts/organizations.md), and this [blog](https://blynk.io/how-to-add-users-and-give-them-access-to-your-devices).
 
 ### Blynk.App
 
@@ -75,8 +75,8 @@ Note the following regarding the former Blynk Legacy widgets:
 * [Twitter](http://docs.blynk.cc/#widgets-notifications-twitter) widget was deprecated, but you can use [Webhooks](../../blynk.console/settings/developers/webhooks.md).
 * [Terminal widget](http://docs.blynk.cc/#widgets-displays-terminal) is replaced by the Terminal Widget available in both the [Blynk.App](https://docs.blynk.io/en/blynk.apps/widgets-app#terminal) and [Blynk.Console](https://docs.blynk.io/en/blynk.console/widgets-console/terminal).
 * [Table widget](http://docs.blynk.cc/#widgets-interface-table) is not yet available.
-* [Device Selector](http://docs.blynk.cc/#widgets-interface-device-selector) is replaced with Device Tiles in both [Blynk.App](https://docs.blynk.io/en/blynk.apps/device-management) and [Blynk.Console](https://docs.blynk.io/en/blynk.console/devices). Several devices can be grouped to be controlled simultaneously by a single command using Blynk.App [Groups](broken-reference) feature (available in Business Plan only)
-* [Device Tiles](http://docs.blynk.cc/#widgets-interface-device-tiles) are replaced by Device Templates. Tiles is a new default view for a list of devices.
+* [Device Selector](http://docs.blynk.cc/#widgets-interface-device-selector) is replaced with Device Tiles in both [Blynk.App](https://docs.blynk.io/en/blynk.apps/device-management) and [Blynk.Console](https://docs.blynk.io/en/blynk.console/devices). Several devices can be grouped to be controlled simultaneously by a single command using Blynk.App Groups feature (available in Business Plan only)
+* [Device Tiles](http://docs.blynk.cc/#widgets-interface-device-tiles) are replaced by Device [Templates](../../concepts/device-template.md). Tiles is a new default view for a list of devices.
 * [Reports](http://docs.blynk.cc/#widgets-other-reports-widget) widget was replaced with [Download Report](../../blynk.console/devices/actions-with-devices.md#download-report) feature in Blynk.Console. Scheduled reports are not available yet.
 * The widget min/max property is now defined within a Datastream.
 
