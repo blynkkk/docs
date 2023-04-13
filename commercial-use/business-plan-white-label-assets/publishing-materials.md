@@ -120,7 +120,7 @@ Format: MP4, AVI, MKV, MOV, FLV or Weblink\
 
 This account allows Google and Apple Store employees to open your application during Review phase.
 
-This account must  have at least one active device. The employees should not add devices using [Static](http://help.blynk.cc/publishing-apps-made-with-blynk/static-auth-token-provisioning) or [Dynamic](http://help.blynk.cc/publishing-apps-made-with-blynk/dynamic-auth-token-provisioning) Provisioning.
+This account must  have at least one active device. The employees should not add devices using [Static](../deploying-products-with-static-authtokens.md) or [Dynamic](../deploying-products-with-dynamic-authtokens.md) Provisioning.
 
 Device dashboard must match what was shown in  the Video for Apple review.
 
