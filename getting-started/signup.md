@@ -20,7 +20,7 @@ User account is needed to enable secure access to your data from different clien
 
 Your privacy is our default priority.
 
-You can create a new account either in [Blynk.Apps](https://docs.blynk.io/en/platform-overview/products-and-services/products#blynk-app) or [Blynk.Console](https://docs.blynk.io/en/platform-overview/products-and-services/products#blynk-360)
+You can create a new account either in [Blynk.Apps](broken-reference) or [Blynk.Console](broken-reference)
 
 ## **Sign Up**
 
@@ -134,4 +134,4 @@ You'll get UI an Email confirmation about that.
 
 ![Password changed](https://user-images.githubusercontent.com/72790181/119366118-4c4cb800-bcb9-11eb-8047-c686c82dc74e.png)
 
-* Tap **Back to Login** button and [sign in](https://docs.blynk.io/en/getting-started/signup#sign-in) to your account.
+* Tap **Back to Login** button and [sign in](signup.md#sign-in) to your account.
