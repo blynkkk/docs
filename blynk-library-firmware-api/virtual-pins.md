@@ -8,7 +8,7 @@ Virtual Pins is a way to exchange any data between your hardware and Blynk app. 
 
 Virtual Pins are commonly used to interface with other libraries (Servo, LCD and others) and implement custom logic. The device can send data to the App using `Blynk.virtualWrite(pin, value)` and receive data from the App using `BLYNK_WRITE(vPIN)`.
 
-###
+
 
 ### Virtual Pin data types
 
@@ -31,7 +31,7 @@ param.getBuffer()
 param.getLength()
 ```
 
-##
+
 
 ## Blynk.virtualWrite(vPin, value)
 
@@ -67,7 +67,7 @@ Please use plain virtual pin number, for example:
 Blynk.virtualWrite(128, "abc");
 ```
 
-##
+
 
 ## BLYNK\_WRITE(vPIN)
 
@@ -90,7 +90,7 @@ BLYNK_WRITE(V0)
 
 **Note:** For virtual pins with numbers > 127, please use `BLYNK_WRITE_DEFAULT()` API
 
-##
+
 
 ## BLYNK\_WRITE\_DEFAULT()
 
@@ -104,7 +104,7 @@ BLYNK_WRITE_DEFAULT()
 }
 ```
 
-##
+
 
 ## Blynk.beginGroup(), Blynk.endGroup()
 
@@ -131,7 +131,7 @@ Blynk.endGroup();
 
 Here, `ts` is a Unix Timestamp (UTC) with milliseconds, which you can get from [Timezone / Location API](timezone-location.md).
 
-##
+
 
 ## Blynk.syncAll()
 
@@ -143,7 +143,7 @@ BLYNK_CONNECTED() {
 }
 ```
 
-##
+
 
 ## Blynk.syncVirtual(vPin)
 
@@ -159,7 +159,7 @@ To update multiple pins, use:
 Blynk.syncVirtual(V0, V1, V6, V9, V16);
 ```
 
-##
+
 
 ## Blynk.setProperty(vPin, "property", value)
 
