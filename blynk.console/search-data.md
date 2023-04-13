@@ -6,7 +6,7 @@ description: Navigate through Devices, Locations, Organizations and users in one
 
 This is the main page of Blynk.Console.
 
-Here you can perform a quick or extended search for [devices](devices/), [locations](locations/), [organizations ](https://github.com/blynkkk/docs/tree/2dc305739ee5d42b5fd9d7af9c9d6c057276a5fe/blynk.console/organizations/README.md)and [users ](users/)you have access to. You can apply various filters to narrow your search.
+Here you can perform a quick or extended search for [devices](devices/), [locations](locations/), [organizations](organizations.md) and [users ](users/)you have access to. You can apply various filters to narrow your search.
 
 This is the first screen you see after signing into Blynk.Console Web Dashboard.
 
