@@ -62,7 +62,7 @@ Now you are ready to ship it.
 
 ## 3. Create Shipping
 
-1. Go to [**Blynk.Air**](https://github.com/blynkkk/docs/tree/874cbfc84deeb7af25fc16dc69cc0aabc984189c/blynk.console/blynk.air) in Left Menu
+1. Go to **Blynk.Air** in Left Menu
 2. Click **New Shipping** button
 3. Specify Target Selection&#x20;
 
