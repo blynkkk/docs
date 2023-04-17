@@ -16,9 +16,7 @@ If there's a network disruption or other issue that prevents the device from sen
 
 ### How to Use State Syncing
 
-To use state syncing in your Blynk project, you'll need to follow these steps:
-
-Enable state syncing for the Datastreams that need this feature. You can do this in your Blynk Console by editing the datastream:
+To use state syncing in your Blynk project, you'll need to enable state syncing for the Datastreams that need this feature. You can do this in your Blynk Console by editing the datastream:
 
 ![Sync datastream for Blynk.syncAll() command](../.gitbook/assets/screenshot-blynk-qa.com-2023.04.17-19\_19\_57.png)
 
