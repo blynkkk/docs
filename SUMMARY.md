@@ -246,6 +246,7 @@
 ## Hardware Guides
 
 * [Particle](hardware-guides/particle.md)
+* [Particle (part II)](hardware-guides/particle-part-ii.md)
 
 ## Legacy Platform Help Articles <a href="#legacy-platform" id="legacy-platform"></a>
 
