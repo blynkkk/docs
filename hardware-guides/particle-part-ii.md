@@ -133,12 +133,9 @@ Configure the POST body message type as application/x-www-form-urlencoded with t
 
 args on
 
-\
-
-
 <figure><img src="https://lh3.googleusercontent.com/5LHPl55jXFL593o0GwBimJTDUrhuHzgmgOIWFGkKW4qfrZ4WXL02QpTqsDiS0CpILV5HvCtehL_xCyZgkYpIRedm3n9d0t6zuEwImoUXKqBQ_1djicJjnE3Y5WRtDSzzRRwJrhqkPylg2ceb6FSMFA" alt=""><figcaption></figcaption></figure>
 
-For clarity, the full headers that will be sent with the HTTP POST by [Postman](https://www.postman.com/) are shown below. Note the key of ‘Authorization’ and the value of ‘Bearer {40 char Particle access token}’. A space is in between “Bearer” and the 40 character Particle access token. This is known as ‘Bearer Authorization’ or ‘token authentication’ and is an HTTP authentication scheme that involves security tokens called bearer tokens. In this case, the bearer token will be sent in an HTTP ‘Authorization’ header.
+For clarity, the full headers that will be sent with the HTTP POST by Postman are shown below. Note the key of ‘Authorization’ and the value of ‘Bearer {40 char Particle access token}’. A space is in between “Bearer” and the 40 character Particle access token. This is known as ‘Bearer Authorization’ or ‘token authentication’ and is an HTTP authentication scheme that involves security tokens called bearer tokens. In this case, the bearer token will be sent in an HTTP ‘Authorization’ header.
 
 <figure><img src="https://lh6.googleusercontent.com/C7Dvz1bd_eDgIy14IeavlFBiPuOycwdQqvKNZ_T44IQ2EoPlbFWilb00PJg5k_lFBoXfGr9fUq351c_Cdk_0kSGpiFgDKZLmgAbB2LtSXkozkCcHSb2GJ1XLTK6lLK22HgVCK26dAYFl8gPPlKpe-w" alt=""><figcaption></figcaption></figure>
 
@@ -164,7 +161,7 @@ A successful execution will appear as follows:
 }
 ```
 
-Note that if you add a body key of “format” and value of “raw” then the response will simply be the integer value you configured for your Particle function ‘blynkLED()’ with a value of -1, 1 or 0.&#x20;
+Note that if you add a body key of “format” and value of “raw” then the response will simply be the integer value you configured for your Particle function `blynkLED()` with a value of -1, 1 or 0.&#x20;
 
 <figure><img src="https://lh4.googleusercontent.com/8peOF-iZ0MukAAy_W9fq4FfMTG7EwXqd_T5q9ciRyVYm8Ii11wnfgvNCueFkbOzROwMw-wK4m6Clxz8tfGp1Zqy9yA3PRhWRC73uTS0RVxJvWbjc4R_LXhYZmWpqP5QNSx2wYKvd05n_fvKw_rHJvw" alt=""><figcaption></figcaption></figure>
 
@@ -186,7 +183,7 @@ The Particle function argument is a data type of String. The custom function we 
 
 ### Blynk Device Template
 
-If you already followed the steps from the prior article “[How to connect a Particle device to Blynk](https://blynk.io/blog/how-to-connect-a-particle-device-to-blynk)”, then edit the same device template and add the datastreams V7, V8, V9 as shown below.
+_If you already followed the steps from the prior article “_[_How to connect a Particle device to Blynk_](particle.md)_”, then edit the same device template and add the datastreams V7, V8, V9 as shown below._
 
 Using the Blynk Datastream Definitions listed in the table, create or edit a device template named ‘BRN404X’ as shown below.
 
@@ -200,7 +197,7 @@ Click on the ‘Templates->Datastreams’ tab and configure the datastreams as d
 
 ### Blynk Web Dashboard
 
-_If you already followed the steps from the prior article “_[_How to connect a Particle device to Blynk_](https://blynk.io/blog/how-to-connect-a-particle-device-to-blynk)_”, then add a new dashboard tab by clicking the ‘+’ button before following the steps below._
+_If you already followed the steps from the prior article “_[_How to connect a Particle device to Blynk_](particle.md)_”, then add a new dashboard tab by clicking the ‘+’ button before following the steps below._
 
 Create a web dashboard by navigating to ‘Templates->\[template name = BRN404X]’ and then click on the ‘Web Dashboard’ tab. Create a dashboard as shown below, using a switch widget for virtual pins V7 and V8, and a text input widget for the string datastream V9. The label widgets to the right of each switch / text input widget are not required and are only to make it easy for you to see the latest datastream value.&#x20;
 
@@ -213,7 +210,7 @@ Create a web dashboard by navigating to ‘Templates->\[template name = BRN404X]
 
 ### Blynk Mobile App
 
-_If you already followed the steps from the prior article “_[_How to connect a Particle device to Blynk_](https://blynk.io/blog/how-to-connect-a-particle-device-to-blynk)_”, then edit the same device template ‘boronc’ and add the three widgets for datastreams V7, V8, V9 as shown below._
+_If you already followed the steps from the prior article “_[_How to connect a Particle device to Blynk”_](particle.md)_, then edit the same device template ‘boronc’ and add the three widgets for datastreams V7, V8, V9 as shown below._
 
 Create a Blynk mobile device dashboard. The exact steps may vary between iOS and Android, but begin by tapping on a device, and tap on the wrench icon and then the ‘+’ icon to add a widget. Create the following widgets:
 
@@ -227,7 +224,7 @@ Skip this step if you already followed the steps from the prior article “[How 
 
 ### Blynk Webhook
 
-Navigate to ‘Settings -> Webhooks’ and create three new [webhooks](https://docs.blynk.io/en/blynk.console/settings/developers/webhooks), one each for the datastreams V7, V8, and V9, based on the information shown in the images below for V7, but substituting your Particle device ID and access token. The only difference between the three webhooks is the assignment of the V7, V8, and V9 datastream to the webhook, and the webhook name.&#x20;
+Navigate to ‘Settings -> Webhooks’ and create three new [webhooks](../blynk.console/settings/developers/webhooks.md), one each for the datastreams V7, V8, and V9, based on the information shown in the images below for V7, but substituting your Particle device ID and access token. The only difference between the three webhooks is the assignment of the V7, V8, and V9 datastream to the webhook, and the webhook name.&#x20;
 
 <figure><img src="https://lh4.googleusercontent.com/GnaBHTO9Lm6XFKvGXtcBJEgZsfZZggSQJ5HUIuuHBRh2kRPQe2kSW6jqDSidQMs75HNj7AEV7UKjDp2-SUjLqWnPOaGUqqAaJRqQ2zWSWX7t0gbVPsQ8DNgsu69TXRPNbpU8nMoiTmNK7H2_Ru1gATg" alt=""><figcaption></figcaption></figure>
 
