@@ -1,6 +1,12 @@
+---
+description: >-
+  A feature in the Blynk library firmware API that allows the hardware device
+  and the Blynk server and apps to keep track of the same state.
+---
+
 # State Syncing
 
-State syncing is an important feature in the Blynk library firmware API that allows the hardware device and the Blynk server to keep track of the same state. In other words, state syncing ensures that the device and the server and the apps are always on the same page, even if there are network disruptions or other issues.
+State syncing ensures that the device and the server and the apps are always on the same page, even if there are network disruptions or other issues.
 
 ### How State Syncing Works
 
