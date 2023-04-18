@@ -205,10 +205,10 @@ Create a web dashboard by navigating to ‘Templates->\[template name = BRN404X]
 
 <figure><img src="../.gitbook/assets/8.jpeg" alt=""><figcaption></figcaption></figure>
 
-| ![](../.gitbook/assets/9.jpeg)                                                                                                                                                                       | ![](../.gitbook/assets/10.jpeg)                                                                                                                                                                  |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![](https://lh4.googleusercontent.com/2R-N7apteHaM3V8ePYlJrciDS88WBWj2CuZUD3qjxV\_dDQ1GHgRwft5d5iUMaLUycP9z6HHGG8oGPj3VzkXiL20IBOXLKEXpoUDAg5cmC0o39wdg0bBqTpEQBytIbHlK\_gpzGTZUMk9FsofB73woG2E)     | ![](https://lh4.googleusercontent.com/HmnodO7mPP8-j3K4TswTmfCceXdaDoRSTrg9B9hItTQZXQwETfhxxzr-NsQ2wMEmQheW1bgDn-efp5Mm4QlnPljnmRbqEsE4p6bob47izsKPQScVEEyBcfmaxXdIhJlUJiytpe3rvG9bW4TqlLCAQtg)   |
-| ![](https://lh3.googleusercontent.com/5wirC\_hEptPYVMXH\_XD-PTfRxjNrE8KkIqtdKO6Y1fPiPfgGxiiW3JmSuBvntYVTsyMkZxcAhLNdfnr42Nq6swJvPPaBhu54\_lV\_pgWok2c\_T6-MfF-fOdgxTpr81bKT4UD4lGIN6tEOSb78hkO-\_SQ) | ![](https://lh5.googleusercontent.com/MUIgvLDXX522ZY0JWInp-HHUoagBd542gdNkHma3oJTvgQ\_CBGdhad9xbo4itWBZj0SOtJ9h9KvSse9ifNwtAoE15ZBcqh-AmGCVutJJrLSxDiB\_0XjZJRk0U7fniqM1gy-IW-uG5QfsxrbY4Nd9JDk) |
+| ![](../.gitbook/assets/9.jpeg)  | ![](../.gitbook/assets/10.jpeg) |
+| ------------------------------- | ------------------------------- |
+| ![](../.gitbook/assets/11.jpeg) | ![](../.gitbook/assets/12.jpeg) |
+| ![](../.gitbook/assets/13.jpeg) | ![](../.gitbook/assets/14.jpeg) |
 
 ### Blynk Mobile App
 
@@ -228,9 +228,9 @@ Skip this step if you already followed the steps from the prior article “[How 
 
 Navigate to ‘Settings -> Webhooks’ and create three new [webhooks](../blynk.console/settings/developers/webhooks.md), one each for the datastreams V7, V8, and V9, based on the information shown in the images below for V7, but substituting your Particle device ID and access token. The only difference between the three webhooks is the assignment of the V7, V8, and V9 datastream to the webhook, and the webhook name.&#x20;
 
-<figure><img src="https://lh4.googleusercontent.com/GnaBHTO9Lm6XFKvGXtcBJEgZsfZZggSQJ5HUIuuHBRh2kRPQe2kSW6jqDSidQMs75HNj7AEV7UKjDp2-SUjLqWnPOaGUqqAaJRqQ2zWSWX7t0gbVPsQ8DNgsu69TXRPNbpU8nMoiTmNK7H2_Ru1gATg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/15 (1).jpeg" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://lh5.googleusercontent.com/KSQwaaxizFrpAb9ww_50H_6P_atxI_KK49SC6ANxHyQgcEkEXlv5uJg6OxIwHVjuCFztXm9B66y0yO4hrqeIQHUOFgaUOt7kOfo-CsFFHN1gYQdvnLLgzC-ka_b0zFAW5KOKym4M821JnhmnyYa8J0k" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/16.jpeg" alt=""><figcaption></figcaption></figure>
 
 After you are finished configuring each webhook, click the ‘Test webhook’ to verify it doesn’t throw an error (it won’t send the datastream value here, so don’t expect to see the LED on your Particle device change). Click the ‘Create Webhook’ button to save it and close the dialog.
 
