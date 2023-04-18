@@ -117,7 +117,7 @@ The syntax for the API is:&#x20;
 POST /v1/devices/{DEVICE_ID}/:{FUNCTION}
 ```
 
-Where {DEVICE\_ID} is your ......... and {FUNCTION} is the cloud function name.&#x20;
+Where {DEVICE\_ID} is your Particle device ID and {FUNCTION} is the cloud function name.&#x20;
 
 Example:
 
@@ -131,9 +131,11 @@ Configure an HTTPs POST with OAuth 2.0 authorization, a webform with the key/val
 
 Configure the POST body message type as application/x-www-form-urlencoded with the following key/value pairs:
 
-args on
+args on/off
 
 <figure><img src="https://lh3.googleusercontent.com/5LHPl55jXFL593o0GwBimJTDUrhuHzgmgOIWFGkKW4qfrZ4WXL02QpTqsDiS0CpILV5HvCtehL_xCyZgkYpIRedm3n9d0t6zuEwImoUXKqBQ_1djicJjnE3Y5WRtDSzzRRwJrhqkPylg2ceb6FSMFA" alt=""><figcaption></figcaption></figure>
+
+The ‘args’ value should be “on” or “off”, depending on if you want to turn the built-in LED on or off.&#x20;
 
 For clarity, the full headers that will be sent with the HTTP POST by Postman are shown below. Note the key of ‘Authorization’ and the value of ‘Bearer {40 char Particle access token}’. A space is in between “Bearer” and the 40 character Particle access token. This is known as ‘Bearer Authorization’ or ‘token authentication’ and is an HTTP authentication scheme that involves security tokens called bearer tokens. In this case, the bearer token will be sent in an HTTP ‘Authorization’ header.
 
