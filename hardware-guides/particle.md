@@ -584,7 +584,7 @@ Begin by making the three datastreams V0, V1, and V5 available to Automation act
 
 Create the automation by navigating to the ‘Automations’ page in the Blynk.Console, and then clicking on the ‘+ Create Automation’ at the top right of the page. When the dialog ‘Choose Condition’ appears, choose the ‘Device State’ option because we want to trigger the automation based on a change in the state of V0, V1, or V5.
 
-<figure><img src="../.gitbook/assets/10.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/10 (1).jpeg" alt=""><figcaption></figcaption></figure>
 
 Name the first automation ‘pushbutton\_D8’ by editing the field at the top of the page labeled ‘New Automation’. Under the ‘When’ section, choose the device ‘boronb’, the datastream ‘pushbutton\_D8’ (V0), and then assign the type of datastream value change of ‘Is On’ because the device will set the datastream value back to zero once the pushbutton connected to the device digital input is released.&#x20;
 
