@@ -11,6 +11,8 @@ This guide will help you connect a Particle board and set up everything that is 
 * Monitor 1x analog input and report the value when a digital input or position change event occurs..&#x20;
 * Report the last time any data was published by the device.
 
+Check part two of the article in order to learn [how to control your Particle device from Blynk app or web console](particle-part-ii.md) as this is not within the scope of this guide.
+
 ## Hardware
 
 The Particle device is a [Boron 404x](https://store.particle.io/collections/boron-lte/products/boron-lte-cat-m1-noram-with-ethersim-4th-gen) cellular LTE Cat M1 device. A [GPS FeatherWing](https://www.adafruit.com/product/3133) with an [external active 28 dB GPS antenna](https://www.adafruit.com/product/960), and a [SMA to uFL/u.FL/IPX/IPEX RF adapter cable](https://www.adafruit.com/product/851) provides GPS functionality. The Boron and the GPS FeatherWing communicate over the Boron UART pins.
@@ -640,4 +642,4 @@ Add a new user who doesn’t have an existing Blynk account (identified by email
 
 This article demonstrated in detail how to send data from a Particle cellular device to Blynk.  The techniques used the Blynk HTTPs API rather than the firmware library so cellular data usage is minimized. Claiming a device by Blynk was explained using both manual and enterprise suitable techniques. The use of Blynk web dashboard and mobile app widgets were also demonstrated to illustrate how they can be used to visualize data sent from the Particle device, and a widget and an automation was used to alert the user via the dashboard or mobile device running the app of changes in the value of data sent from the Particle device. Adding Blynk services to a Particle device deployment creates a full scope IoT platform solution that can later be white-labeled with [Blynk Business plan](https://blynk.io/iot-platform-for-business).
 
-This article has been focused on pushing data from a Particle device to Blynk. Another article will follow that will detail how to remotely control a Particle device from the Blynk web dashboard or mobile app.
+This article has been focused on pushing data from a Particle device to Blynk. Check our another article on [how to remotely control a Particle device from the Blynk web dashboard or mobile app](particle-part-ii.md).
