@@ -14,9 +14,9 @@ Mobile Dashboard is built from Widgets - modular UI elements which can be positi
 Currently, **only one developer is allowed per Organization** to avoid sync issues. This limit can be changed later.
 {% endhint %}
 
-## Mobile Dashboard Editor
+## How To Edit Mobile Dashboard
 
-If you don't have any Device Templates, you can create a basic template in the app and then fully set it up in Blynk.Console later
+If you don't have any Device Templates, you can create a basic template in the app and then fully set it up in Blynk.Console later.
 
 When there is a Device Template already, you can tap on it and start working with mobile dashboard layout.
 
@@ -29,7 +29,7 @@ When there is a Device Template already, you can tap on it and start working wit
 3. Find the widget you need and tap on it
 4. Widget will placed in the first empty area required for this widget
 
-### **Configure Widget**
+### **Configure a Widget**
 
 To open Widget Settings simply tap on the widget. A new screen will open. Each widget has its own settings relevant to the function it provides.
 
@@ -57,7 +57,7 @@ If there is no room for the widget at the destination, it will return to the ini
 3. Drag the widget to the Duplicate area untill its duplicated.&#x20;
 4. Clone of the widget will be placed on the next available place. You might need to scroll down to see where it landed.
 
-### **Delete Widget**
+### **Delete a Widget**
 
 1. Tap and hold any widget until it pops up a bit.&#x20;
 2. The header of the app will change and you will see the ♺ icon.&#x20;
