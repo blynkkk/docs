@@ -19,7 +19,7 @@ The types of **conditions** are:&#x20;
 
 
 
-### &#x20;Actions
+### &#x20;Types of actions
 
 One or more actions may be executed sequentially or simultaneously when a condition's requirement has been met. The types of actions include:
 
