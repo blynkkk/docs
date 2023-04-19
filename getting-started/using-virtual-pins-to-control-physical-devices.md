@@ -8,21 +8,17 @@ description: >-
 
 Getting Started -> Control Devices with Blynk
 
-
-
 ### How Data Gets From Blynk To The Device
 
-Blynk can control any supported device remotely using Blynk.Console web interface or Blynk.Apps for iOS and Android.&#x20;
+Blynk can control any supported device remotely using Blynk.Console web interface or Blynk.Apps for iOS and Android.
 
-When you tap a button or swipe the slider in the mobile app, the value is sent to the device through a Datastream using Blynk protocol.&#x20;
+When you tap a button or swipe the slider in the mobile app, the value is sent to the device through a Datastream using Blynk protocol.
 
-Datastream is a channel that tells Blynk what type of data is flowing through it.&#x20;
+Datastream is a channel that tells Blynk what type of data is flowing through it.
 
 For example, you can tell the button to set the GPIO on your device HIGH or LOW or you can send a specific value based on the state of the button.
 
 You can control the GPIOs directly by using Digital and Analog Datatreams, but we highly recommend using Virtual Pin Datastreams
-
-
 
 ## Virtual Pin Datastream
 
@@ -39,21 +35,17 @@ Virtual Pins can be used to interface with external libraries (Servo, LCD, and o
 #### How do Virtual Pins **relate to the GPIO pins on my hardware?**
 
 Virtual Pins are really just a way of sending a message from the app to the code that’s running on your board (via the Blynk server).\
-There is no correlation between Virtual Pins and any of the physical GPIO pins on your hardware. If you want a Virtual Pin to change the state of one of your physical pins then you have to write the code to make this happen.&#x20;
-
-
+There is no correlation between Virtual Pins and any of the physical GPIO pins on your hardware. If you want a Virtual Pin to change the state of one of your physical pins then you have to write the code to make this happen.
 
 ## **Basic Principles Of Sending Data With Virtual Pin Datastream**
 
 We’ll use an example of a Power Switch to remotely turn the device on and off with Blynk.Console web interface.
 
 1. Create a new Template or go to existing one Blynk.Console ->Templates
-2. Go to Template -> Dashboard - add Switch Widget&#x20;
+2. Go to Template -> Dashboard - add Switch Widget
 3. Open widget settings - Create Datastream - Virtual Pin
 
 ![](<../.gitbook/assets/image (37) (1).png>)
-
-
 
 Set to Integer data type, connected to Virtual Pin 0 (V0). In Blynk.Console we’ll leave the values set to 0 and 1, so the widget sends a 0 when it’s turned off, and a 1 when it’s turned on - like this:
 
@@ -61,19 +53,16 @@ Set to Integer data type, connected to Virtual Pin 0 (V0). In Blynk.Console we�
 
 Now the widget is ready to send 0/1 through the Virtual Pin Datastream V1. Click **Save and Apply** to save the template and apply changes.
 
-Refer to these articles if needed:&#x20;
+Refer to these articles if needed:
 
-* [**How to create a device from Template**](activating-devices/manual-device-activation.md)****
-* [**Quick Template setup**](template-quick-setup/)****
-
-
+* [**How to create a device from Template**](activating-devices/manual-device-activation.md)\*\*\*\*
+* [**Quick Template setup**](template-quick-setup/)\*\*\*\*
 
 ### **The BLYNK\_WRITE(vPin) function**
 
 Now every time you press the switch, 0 or 1 will be sent to your hardware. Let's prepare the code to capture these values when they come.
 
-In your C++ sketch, you can add a special function that is triggered automatically whenever the server tells your device that the value of your virtual pin has changed. \
-
+In your C++ sketch, you can add a special function that is triggered automatically whenever the server tells your device that the value of your virtual pin has changed. \\
 
 This special function is called `BLYNK_WRITE`. Think of it as meaning that the Blynk.Cloud is telling your hardware “I'm WRITING something to Virtual Pin V1”.
 
@@ -89,7 +78,7 @@ BLYNK_WRITE(V1)
 
 That’s okay if you want the same code to execute regardless of whether the button widget was turned on or off, but that’s not much use in real life, so we need to find out what the new value of the virtual pin is. Don’t forget, this will be a `0` if the button widget is off, and a `1` of it’s on.
 
-### ****
+
 
 ### **Obtaining values from the virtual pin**
 
@@ -112,7 +101,7 @@ param.asFloat()
 
 But, as we are dealing with just zeros and ones, which are integers, we’ll use the `param.asInt` method.
 
-### ****
+
 
 ### **How to control the physical GPIO pins on my board?**
 
@@ -159,8 +148,6 @@ Note that you can only have one `void setup` in your sketch, so the pinMode stat
 That’s it really, you now have the same functionality from your virtual pin as you would have had if you’d used a digital pin.\
 I’m now going to cover some extra stuff - some of which is specific to working with virtual pins, but some also apply if you use digital pins instead…
 
-
-
 ## Helpful tips when working with Virtual Pins
 
 ### **Dealing with Active LOW devices**
@@ -184,7 +171,7 @@ BLYNK_CONNECTED()
 }
 ```
 
-****
+***
 
 ### **Pin numbering**
 
@@ -211,17 +198,17 @@ digitalWrite(D4,HIGH);
 
 But this approach makes it much more difficult to use your code on different types of devices if you ever need to.
 
-****
+***
 
-### **Some NodeMCU physical pins need to be avoided**&#x20;
+### **Some NodeMCU physical pins need to be avoided**
 
 Some of the pins on the NodeMCU aren’t really suitable for connecting some types of devices to. In particular, if GPIO0 (the pin labeled D3) is pulled LOW at startup then the device won’t execute the sketch but will enter programming mode, waiting for a new sketch to be uploaded instead. There’s more info on this topic: [ESP8266 GPIO pins info, restrictions and features](https://community.blynk.cc/t/esp8266-gpio-pins-info-restrictions-and-features/22872) [FAQ](https://community.blynk.cc/c/faq/8)
 
-****
+***
 
-### **How to trigger multiple actions (e.g. turn 4 relays on/off) with a single button in the app?**&#x20;
+### **How to trigger multiple actions (e.g. turn 4 relays on/off) with a single button in the app?**
 
-You said “_if you want a single app button to switch multiple relays on or off at the same time then that’s simple with virtual pins” but how do we do that_? - It's really very simple with Virtual Pins.&#x20;
+You said “_if you want a single app button to switch multiple relays on or off at the same time then that’s simple with virtual pins” but how do we do that_? - It's really very simple with Virtual Pins.
 
 Let's say that you have four relays that are all controlled by four different button widgets attached to virtual pins (V1 to V4). These allow independent control of each of the relays, but you then want another button widget, which we’ll attach to virtual pin 5, that can turn all of the relays on or off with just one click.\
 When this button turns on/off all of the relays it also needs to update the 4 button widgets (attached to V1 to V4), so that they are also all on or off.
