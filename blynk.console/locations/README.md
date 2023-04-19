@@ -38,8 +38,6 @@ All the columns support sorting.
 
 ## Table contents
 
-### Table contents
-
 ![](../../.gitbook/assets/list-of-locations-single-actions.png)
 
 There are 5 specific columns:
