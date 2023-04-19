@@ -14,21 +14,13 @@ Web Page Button is a button that opens in-app browser with a provided URL.
 
 **Link Name:** text to be displayed on the button
 
-
-
-### Settings
-
 **URL**: specifies which URL should be opened in the browser.&#x20;
 
 You can use placeholders for URL:
 
-`deviceID` - device ID in Blynk
-
-`userID` -  ID of the user pressing the button
-
-`userEmail` - email of the user pressing the button
-
-
+* `deviceID` - device ID in Blynk
+* `userID` -  ID of the user pressing the button
+* `userEmail` - email of the user pressing the button
 
 Example URL with placeholders:
 
@@ -36,15 +28,9 @@ Example URL with placeholders:
 https://mywebapp.com/action?user=/userID/&device=/deviceID/
 ```
 
-
-
 **Lock Size:** when On, size of the button will be relative to the text
 
-
-
 **Open in browser**: When ON, pressing the button will open the OS browser. User will leave the Blynk app&#x20;
-
-
 
 
 
