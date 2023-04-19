@@ -6,7 +6,7 @@ description: Access and permissions management for different user roles
 
 Free and Plus plans have a locked set of permissions for each role, meaning the default permissions by role cannot be changed. PRO and Business plans have permissions that may be edited by role.
 
-## Roles and Permissions
+## Editing Roles and Permissions
 
 ![](../../.gitbook/assets/roles\_and\_perms.gif)
 
