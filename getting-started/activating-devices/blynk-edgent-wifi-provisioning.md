@@ -61,9 +61,9 @@ In the sketch variables `BLYNK_TEMPLATE_ID` and `BLYNK_TEMPLATE_NAME` are empty.
 ![](../../.gitbook/assets/apr-07-2021-14-06-30.gif)
 
 {% hint style="warning" %}
-The Device Name is the name that you provide when you create the template, and the Edgent sketch then adds additional characters that are derived from the Chip ID of the device to give the SSID which is used when the app connects to the device.
+The Template Name is the name that you provide when you create the template, and the Edgent sketch then adds additional characters that are derived from the Chip ID of the device to form the SSID name which is used when the app connects to the device.
 
-The device name + Chip ID should not exceed 32 characters for the provisioning process to complete successfully. You can edit the template name if the device name proved too long.
+The template name + Chip ID should not exceed 32 characters for the provisioning process to complete successfully. You can edit the template name if the resulting SSID name proved too long.
 {% endhint %}
 
 Press the **Upload** button to flash the code to your device. If the upload process went successfully you should see the output in the serial monitor:
