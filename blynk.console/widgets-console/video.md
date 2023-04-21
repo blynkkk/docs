@@ -29,7 +29,7 @@ Blynk.setProperty(V1, "url", "http://my_new_video_url");
 ```
 
 ```
-https://{server_address}/external/api/update/property?token={your 32 char token}&pin=V1&url="http://my_new_video_url"
+https://{server_address}/external/api/update/property?token={your 32 char token}&pin=V1&url={http://my_new_video_url}
 ```
 
 ### Change Video Properties
