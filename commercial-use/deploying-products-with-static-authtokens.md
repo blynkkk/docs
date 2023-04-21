@@ -211,7 +211,7 @@ When customers receive your device, they would need to claim (activate) it. For 
 * QR code image
 * Account in Blynk
 
-Have in mind, that in order to claim the device it shouldn't be connected to the Blynk.Cloud. End users can claim both connected and non-yet-connected devices. Both Blynk.Apps and Blynk.Console have a "device online" indicator, so the user will always know if the device is connected or not.
+Have in mind, that in order to claim the device it doesn't have to be connected to Blynk.Cloud. End users can claim both connected and non-yet-connected devices. Both Blynk.Apps and Blynk.Console have a "device online" indicator, so the user will always know if the device is connected or not.
 
 This is what the flow with the connected device looks like in detail:
 
