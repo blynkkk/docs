@@ -49,7 +49,7 @@ This method is especially beneficial for commercial applications because:
 
 This method is usually used in commercial applications when you need to deploy a high volume of devices and they will need to be activated by end customers.
 
-This method works best cellular, ethernet, and other non-wifi connection methods
+This method works best cellular, ethernet, and other non-wifi connection methods.
 
 #### Here is a tutorial on how to activate devices with Static tokens:
 
