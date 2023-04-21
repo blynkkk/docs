@@ -68,7 +68,7 @@ Blynk.setProperty(V1, "label", "AlarmnSoundWidget");
 ```
 
 ```
-https://{server_address}/external/api/update/property?token={your 32 char token}&pin=V1&label="AlarmnSoundWidget"
+https://{server_address}/external/api/update/property?token={your 32 char token}&pin=V1&label=AlarmnSoundWidget
 ```
 
 ### Sync to the latest datastream value
