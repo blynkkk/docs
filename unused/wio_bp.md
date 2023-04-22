@@ -1,7 +1,7 @@
-## Overview
+# Overview
 In this tutorial, we will guide you on how to connect the Seeed Wio Terminal to the Blynk platform and send temperature and humidity data collected from a DHT11 sensor. The Blynk platform allows you to create amazing IoT projects with just a few lines of code, and the Wio Terminal is an all-in-one microcontroller that features multiple connectivity options and a 2.4" LCD screen.
 
-## Toolchain
+# Toolchain
 - Blynk App (Android/iOS)
 - Arduino IDE
 - Blynk Library
@@ -9,32 +9,32 @@ In this tutorial, we will guide you on how to connect the Seeed Wio Terminal to 
 - DHT11 Sensor
 - Jumper wires
 
-## Components Used in This Project
+# Components Used in This Project
 1. Seeed Wio Terminal: A versatile microcontroller with a 2.4" LCD screen, integrated Wi-Fi, Bluetooth, and Grove connectors.
 2. DHT11 Sensor: A low-cost digital temperature and humidity sensor.
 3. Jumper Wires: To connect the DHT11 sensor to the Wio Terminal.
 
-## Step-by-Step Guide
+# Step-by-Step Guide
 
-### 1. Install and Set Up the Blynk App
+## 1. Install and Set Up the Blynk App
   a. Download and install the Blynk app on your smartphone (available for both Android and iOS).
   b. Create an account and sign in.
   c. Create a new project, select "Wio Terminal" as your device, and choose the connection type (Wi-Fi).
   d. Add two Value Display widgets to display temperature and humidity, and configure them to use virtual pins V5 and V6, respectively.
   e. Note down the Auth Token sent to your registered email.
 
-### 2. Install Arduino IDE and Libraries
+## 2. Install Arduino IDE and Libraries
   a. Download and install the Arduino IDE from the official website (https://www.arduino.cc/en/software).
   b. Install the "Seeed SAMD Boards" package through the Boards Manager.
   c. Install the "Blynk" and "DHT sensor library by Adafruit" libraries through the Library Manager.
 
-### 3. Wiring
+## 3. Wiring
   a. Connect the DHT11 sensor to the Wio Terminal using jumper wires:
      - DHT11 VCC to Wio Terminal 3.3V
      - DHT11 GND to Wio Terminal GND
      - DHT11 Data to Wio Terminal D2
 
-### 4. Upload the Code
+## 4. Upload the Code
   a. Open Arduino IDE and create a new sketch.
   b. Replace the default code with the following:
 
@@ -88,7 +88,7 @@ void loop() {
 }
 ```
 
-## Troubleshooting
+# Troubleshooting
 
 If you encounter any issues during this project, refer to the following troubleshooting tips:
 
