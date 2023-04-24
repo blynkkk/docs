@@ -1,47 +1,30 @@
-/* Fill in information from Blynk Device Info here */
-//#define BLYNK_TEMPLATE_ID           "TMPxxxxxx"
-//#define BLYNK_TEMPLATE_NAME         "Device"
-//#define BLYNK_AUTH_TOKEN            "YourAuthToken"
+/* Comment this out to disable prints and save space */
+#define BLYNK_PRINT Serial
 
-#include <rpcWiFi.h>
-#include <WiFiClient.h>
-#include <BlynkSimpleWioTerminal.h>
-#include <Adafruit_Sensor.h>
-#include <DHT.h>
+/* Fill in information from Blynk Device Info here */
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
+#define BLYNK_SERVER ""
+
+#include <WiFi.h>
+#include <WiFiClientSecure.h>
+#include <BlynkSimpleEsp32_SSL.h>
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "YourNetworkName";
-char pass[] = "YourPassword";
+char ssid[] = "shanti";
+char pass[] = "TimeIsNotImport@nt";
 
-#define DHTPIN 2
-#define DHTTYPE DHT11
-
-DHT dht(DHTPIN, DHTTYPE);
-BlynkTimer timer;
-
-void sendSensorData() {
-  float h = dht.readHumidity();
-  float t = dht.readTemperature();
-  
-  if (isnan(h) || isnan(t)) {
-    Serial.println("Failed to read from DHT sensor!");
-    return;
-  }
-
-  Blynk.virtualWrite(V5, t);
-  Blynk.virtualWrite(V6, h);
-}
-
-void setup() {
+void setup()
+{
+  // Debug console
   Serial.begin(9600);
-  Blynk.begin(BLYNK_AUTH_TOKEN, ssid, pass);
-  dht.begin();
 
-  timer.setInterval(2000L, sendSensorData);
+  Blynk.begin(BLYNK_AUTH_TOKEN,ssid, pass, BLYNK_SERVER);
 }
 
-void loop() {
+void loop()
+{
   Blynk.run();
-  timer.run();
 }
