@@ -13,8 +13,8 @@
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "shanti";
-char pass[] = "TimeIsNotImport@nt";
+char ssid[] = "";
+char pass[] = "";
 
 void setup()
 {
