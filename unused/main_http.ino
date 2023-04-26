@@ -159,52 +159,44 @@ void loop()
         }
     }
 
-    switch (alertStatus)
-    {
-    case 0:
-        if (httpRequest("GET", String("/external/api/update/property?token=") + BLYNK_AUTH_TOKEN + "&pin=V0&label=https%3A%2F%2Fraw.githubusercontent.com%2Fblynkkk%2Fdocs%2Fmain%2Funused%2Fastronaut.json", "", response))
-        {
-            if (response.length() != 0)
-            {
-                Serial.print("WARNING: ");
-                Serial.println(response);
-            }
+switch (alertStatus)
+  {
+  case 0:
+    if (httpRequest("GET", String("/external/api/update/property?token=") + BLYNK_AUTH_TOKEN + "&pin=V0&url=https%3A%2F%2Fraw.githubusercontent.com%2Fblynkkk%2Fdocs%2Fmain%2Funused%2Fastronaut.json", "", response)) {
+        if (response.length() != 0) {
+        Serial.print("WARNING: ");
+        Serial.println(response);
         }
-        break;
-
-    case 1:
-        if (httpRequest("GET", String("/external/api/update/property?token=") + BLYNK_AUTH_TOKEN + "&pin=V0&label=https%3A%2F%2Fraw.githubusercontent.com%2Fblynkkk%2Fdocs%2Fmain%2Funused%2Forangealert.json", "", response))
-        {
-            if (response.length() != 0)
-            {
-                Serial.print("WARNING: ");
-                Serial.println(response);
-            }
-        }
-        break;
-
-    case 2:
-        if (httpRequest("GET", String("/external/api/update/property?token=") + BLYNK_AUTH_TOKEN + "&pin=V0&label=https%3A%2F%2Fraw.githubusercontent.com%2Fblynkkk%2Fdocs%2Fmain%2Funused%2Fredalert.json", "", response))
-        {
-            if (response.length() != 0)
-            {
-                Serial.print("WARNING: ");
-                Serial.println(response);
-            }
-        }
-        break;
-
-    default:
-        if (httpRequest("GET", String("/external/api/update/property?token=") + BLYNK_AUTH_TOKEN + "&pin=V0&label=https%3A%2F%2Fraw.githubusercontent.com%2Fblynkkk%2Fdocs%2Fmain%2Funused%2Fastronaut.json", "", response))
-        {
-            if (response.length() != 0)
-            {
-                Serial.print("WARNING: ");
-                Serial.println(response);
-            }
-        }
-        break;
     }
+    break;
+
+  case 1:
+    if (httpRequest("GET", String("/external/api/update/property?token=") + BLYNK_AUTH_TOKEN + "&pin=V0&url=https%3A%2F%2Fraw.githubusercontent.com%2Fblynkkk%2Fdocs%2Fmain%2Funused%2Forangealert.json", "", response)) {
+        if (response.length() != 0) {
+        Serial.print("WARNING: ");
+        Serial.println(response);
+        }
+    }
+    break;
+
+  case 2:
+    if (httpRequest("GET", String("/external/api/update/property?token=") + BLYNK_AUTH_TOKEN + "&pin=V0&url=https%3A%2F%2Fraw.githubusercontent.com%2Fblynkkk%2Fdocs%2Fmain%2Funused%2Fredalert.json", "", response)) {
+        if (response.length() != 0) {
+        Serial.print("WARNING: ");
+        Serial.println(response);
+        }
+    }
+    break;
+
+  default:
+    if (httpRequest("GET", String("/external/api/update/property?token=") + BLYNK_AUTH_TOKEN + "&pin=V0&url=https%3A%2F%2Fraw.githubusercontent.com%2Fblynkkk%2Fdocs%2Fmain%2Funused%2Fastronaut.json", "", response)) {
+        if (response.length() != 0) {
+        Serial.print("WARNING: ");
+        Serial.println(response);
+        }
+    }
+    break;
+}
 
         // Wait
         delay(8000L);
