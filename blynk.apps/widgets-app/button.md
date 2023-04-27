@@ -6,9 +6,7 @@ The button is made to turn something on and off on your device. However, it can 
 
 ### Datastream
 
-Select the Datastream to send values from the button to device.&#x20;
-
-If you would like to change [properties](https://docs.blynk.io/en/blynk.apps/widgets-app/button#change-button-properties) (color, label, etc.) of the widget, you would need a Datastream as well.&#x20;
+Select or create a datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) integer, double, or string.  Widget properties (label, color, etc.) are also changed via the datastream, but only for virtual, enumerable, and location pins, not digital and analog pins.
 
 
 
@@ -16,12 +14,12 @@ If you would like to change [properties](https://docs.blynk.io/en/blynk.apps/wid
 
 Button can operate in these modes:&#x20;
 
-1. **Push:** when finger released - button will switch to OFF state
-2. **Switch:** when finger is released - the button will stay in the pressed state
-3. **Page:** button will open a specified [page](../pages.md)
-4. **QR:** button will open the code scanner. Read below:
+1. **Push:** Set to ON state when pressed, then back to OFF state when released.
+2. **Switch:** Toggles between ON/OFF state each time it is pressed. &#x20;
+3. **Page:** Opens a specified page when pressed. &#x20;
+4. **QR:** Opens phone QR Scanner.
 
-#### How the QR code scanner works.
+#### How the QR code scanner works
 
 End users will tap on the widget and a code scanner (camera) will open. The camera should be pointed to the code.
 
@@ -59,11 +57,11 @@ Android app can additionally support these formats:
 
 
 
-## How to process button input on the device
+### How to process button input on the device
 
 When button is pressed, value is sent and stored into the Blynk.Cloud. After that it's sent to your device.
 
-### Reading the button value
+#### Reading the button value
 
 For example, if Button Widget is set to Datastream with Virtual Pin V1, you can use such code:
 
@@ -87,7 +85,7 @@ Find a full code example for your hardware [here](https://examples.blynk.cc/?boa
 
 
 
-### Changing button state
+#### Changing button state
 
 You can also update the state of the button from hardware.
 
@@ -107,7 +105,7 @@ Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a
 
 ##
 
-## Change Button Properties
+### Change Button Properties
 
 You can change certain properties of the Widget from your hardware. For that, use this command:&#x20;
 
@@ -131,49 +129,45 @@ Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a 
 
 Examples below use Virtual Pin V01. Change to your parameters.&#x20;
 
-**Change On/Off labels:**
+#### **Change On/Off labels**
 
 ```cpp
 Blynk.setProperty(V1, "onLabel", "ON");
 Blynk.setProperty(V1, "offLabel", "OFF");
 ```
 
-
-
-**Set Button Color:**
+#### **Set Button Color**
 
 ```cpp
 //#D3435C - Blynk RED 
 Blynk.setProperty(V1, "color", "#D3435C");
 ```
 
+#### **Disable/Enable**
 
-
-**Disable/Enable**. Widget will be greyed out on UI and users won't be able to tap on it.
+Widget will be greyed out on UI and users won't be able to tap on it.
 
 ```cpp
 Blynk.setProperty(V1, "isDisabled", true);
 ```
 
+#### **Show/Hide**
 
-
-**Show/Hide**. Widget will be hidden from dashboard. Design your UI so that it doesn't look weird when there is no widget.
+Widget will be hidden from dashboard. Design your UI so that it doesn't look weird when there is no widget.
 
 ```cpp
 Blynk.setProperty(V1, "isHidden", true);
 ```
 
+#### **Change Page Target**
 
-
-**Change Page Target**. This command will set which page should open when the button is pressed. PageId can be found in the mobile app in developer mode:  Toolbox -> Pages
+This command will set which page should open when the button is pressed. PageId can be found in the mobile app in developer mode:  Toolbox -> Pages
 
 ```cpp
 Blynk.setProperty(V1, "page", "pageId");
 ```
 
-
-
-**Sync to the latest known state**&#x20;
+#### **Sync to the latest known state**&#x20;
 
 Get the latest known value from the server. For example, after your hardware went offline and then became online again.
 
