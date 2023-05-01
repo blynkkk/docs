@@ -1,5 +1,5 @@
 ---
-description: How to install Blynk.Edgent on popular IDEs
+description: How to install Blynk library on popular IDEs
 ---
 
 # Installation
