@@ -34,7 +34,7 @@ Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a 
 
 #### Properties you can change
 
-You can change the properties _url_, _autoplay_, and _loop_ of the widget from your hardware, or via an [HTTP API](https://docs.blynk.io/en/blynk.cloud/update-property). Substitute ‘V2’ in the examples below with the datastream virtual pin reference (V0, V1 ...V255) you have configured for this widget. Make sure any string values are [URL encoded](https://en.wikipedia.org/wiki/URL\_encoding).&#x20;
+You can change the properties _url_, _autoplay_, and _loop_ of the widget from your hardware, or via an [HTTP API](../../blynk.cloud/update-property.md). Substitute ‘V2’ in the examples below with the datastream virtual pin reference (V0, V1 ...V255) you have configured for this widget. Make sure any string values are [URL encoded](https://en.wikipedia.org/wiki/URL\_encoding).&#x20;
 
 ```cpp
 Blynk.setProperty(V2, "url", "https://mechatronicsolutionsllc.com/Blynk%20animated%20image%20beat%20(1).gif"); 
@@ -166,7 +166,7 @@ void loop() {
 
 ### Change the datastream value with the HTTP API
 
-Use the Blynk [HTTP API](https://docs.blynk.io/en/blynk.cloud/https-api-overview) to set the datastream value to _play_ to cause the animation to play, and the value _stop_ to cause the automation to stop playing.&#x20;
+Use the Blynk [HTTP API](../../blynk.cloud/https-api-overview.md) to set the datastream value to _play_ to cause the animation to play, and the value _stop_ to cause the automation to stop playing.&#x20;
 
 {% swagger baseUrl="https://{server_address}" path="/external/api/update/property?token={your 32 char token}&{pin}={value}" method="get" summary="" %}
 {% swagger-description %}
