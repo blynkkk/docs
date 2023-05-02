@@ -2,14 +2,6 @@
 
 The button is made to turn something on and off on your device. However, it can do more. There are different types of buttons, but most of the settings are self-explanatory. This document only covers unique settings.&#x20;
 
-
-
-### Datastream
-
-Select or create a datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) integer, double, or string.  Widget properties (label, color, etc.) are also changed via the datastream, but only for virtual, enumerable, and location pins, not digital and analog pins.
-
-
-
 ### Mode
 
 Button can operate in these modes:&#x20;
@@ -57,6 +49,12 @@ Android app can additionally support these formats:
 
 
 
+### Datastream
+
+Select or create a datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) integer, double, or string.  Widget properties (label, color, etc.) are also changed via the datastream, but only for virtual, enumerable, and location pins, not digital and analog pins.
+
+
+
 ### How to process button input on the device
 
 When button is pressed, value is sent and stored into the Blynk.Cloud. After that it's sent to your device.
@@ -81,7 +79,13 @@ BLYNK_WRITE(V1) // this command is listening when something is written to V1
 }
 ```
 
-Find a full code example for your hardware [here](https://examples.blynk.cc/?board=ESP32\&shield=ESP32%20WiFi\&example=GettingStarted%2FGetData).&#x20;
+Sketch:[ Basic Sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
+
+Sketch:[ Physical Button Interrupt](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)
+
+Sketch:[ Physical Button Poll](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonPoll/ButtonPoll.ino)
+
+Sketch: [Physical Button State Sync](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/SyncPhysicalButton/SyncPhysicalButton.ino)
 
 
 
@@ -127,7 +131,7 @@ Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a 
 
 ### Properties you can change
 
-Examples below use Virtual Pin V01. Change to your parameters.&#x20;
+You can change the properties “onLabel”, “offLabel”, “onColor”, “offColor”, “onBackColor”, offBackColor”, “label”, “color”, “isDisabled”, “isHidden”, and “page” of the widget from your [hardware](https://docs.blynk.io/en/blynk.apps/widgets-app/button#change-button-properties), or via an [HTTP API](https://docs.blynk.io/en/blynk.cloud/update-property).  See ‘[Change Button Properties](https://docs.blynk.io/en/blynk.apps/widgets-app/button#change-button-properties)’ for additional details.  The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
 
 #### **Change On/Off labels**
 
@@ -135,6 +139,34 @@ Examples below use Virtual Pin V01. Change to your parameters.&#x20;
 Blynk.setProperty(V1, "onLabel", "ON");
 Blynk.setProperty(V1, "offLabel", "OFF");
 ```
+
+{% swagger baseUrl="https://{server_address}" path="/external/api/update/property?token={your 32 char token}&pin=V1&onLabel=ON" method="get" summary="" %}
+{% swagger-description %}
+**Example:**
+
+\
+
+
+
+
+`https://blynk.cloud//external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&onLabel=ON`
+{% endswagger-description %}
+
+{% swagger-parameter in="path" name="token" type="string" %}
+Device auth token
+{% endswagger-parameter %}
+
+{% swagger-response status="200" description="Success" %}
+```
+```
+{% endswagger-response %}
+
+{% swagger-response status="400" description="Could not find a device token" %}
+```
+{"error":{"message":"Invalid token."}}
+```
+{% endswagger-response %}
+{% endswagger %}
 
 #### **Set Button Color**
 
