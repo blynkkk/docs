@@ -131,7 +131,7 @@ Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a 
 
 ### Properties you can change
 
-You can change the properties “onLabel”, “offLabel”, “onColor”, “offColor”, “onBackColor”, offBackColor”, “label”, “color”, “isDisabled”, “isHidden”, and “page” of the widget from your hardware, or via an [HTTP API](broken-reference). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
+You can change the properties _onLabel_, _offLabel_, _label_, _color_, _isDisabled_, _isHidden_, and _page_ of the widget from your hardware, or via an [HTTP API](broken-reference). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
 
 #### **Change On/Off labels**
 
@@ -140,7 +140,7 @@ Blynk.setProperty(V1, "onLabel", "ON");
 Blynk.setProperty(V1, "offLabel", "OFF");
 ```
 
-{% swagger baseUrl="https://{server_address}" path="/external/api/update/property?token={your 32 char token}&pin=V1&onLabel=ON" method="get" summary="" %}
+{% swagger baseUrl="https://{server_address}" path="/external/api/update/property?token={your 32 char token}&pin={your vPin}&{property}={value}" method="get" summary="" %}
 {% swagger-description %}
 **Example:**
 
@@ -149,8 +149,132 @@ Blynk.setProperty(V1, "offLabel", "OFF");
 
 
 
-`https://blynk.cloud//external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&onLabel=ON`
+`https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V2&label=`
+
+My%20Label
 {% endswagger-description %}
+
+{% swagger-parameter in="path" name="property" type="string" %}
+The property of the widget you want to update. Possible values: 
+
+`onLabel`
+
+, 
+
+`offLabel`
+
+, 
+
+`onColor`
+
+, 
+
+`offColor`
+
+, 
+
+`onBackColor`
+
+, 
+
+`offBackColor`
+
+, 
+
+`label`
+
+, 
+
+`color`
+
+, 
+
+`isDisabled`
+
+, 
+
+`isHidden`
+
+, and 
+
+`page`
+{% endswagger-parameter %}
+
+{% swagger-parameter in="path" name="value" type="string" %}
+The desired value of the property.
+
+\
+
+
+
+
+`onLabel`
+
+ \- the text on the button when the button is ON
+
+\
+
+
+
+
+`offLabel`
+
+ \- the text on the button when the button is OFF
+
+\
+
+
+
+
+`label`
+
+ \- the text used as widget label
+
+\
+
+
+
+
+`color`
+
+ \- color hexadecimal, must include the hash # character urlencoded as %23
+
+\
+
+
+
+
+`isDisabled`
+
+ \- true or false
+
+\
+
+
+
+
+`isHidden`
+
+ \- true or false
+
+\
+
+
+
+
+`page`
+
+ \- pageID
+
+\
+
+
+
+{% endswagger-parameter %}
+
+{% swagger-parameter in="path" name="pin" type="string" %}
+Virtual pin number (should start with "v")
+{% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="token" type="string" %}
 Device auth token
@@ -167,6 +291,8 @@ Device auth token
 ```
 {% endswagger-response %}
 {% endswagger %}
+
+
 
 #### **Set Button Color**
 
