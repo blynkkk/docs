@@ -1,6 +1,6 @@
-# Button
+# Styled Button
 
-The button is made to turn something on and off on your device. However, it can do more. There are different types of buttons, but most of the settings are self-explanatory. This document only covers unique settings.&#x20;
+As is clear from the name, the widget's style and shape have many options where every little element is customizable. You may optionally specify icons to the right or left of the label for each state, and vary the icon line color based on the state. Styled Button lets you configure text labels for the on/off state based on the assigned datastream value.&#x20;
 
 ### Mode
 
@@ -55,7 +55,7 @@ Select or create a datastream of [data type](../../blynk.console/templates/datas
 
 
 
-### How to process button input on the device
+### How to process widget input on the device
 
 When button is pressed, value is sent and stored into the Blynk.Cloud. After that it's sent to your device.
 
@@ -131,20 +131,33 @@ Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a 
 
 ### Properties you can change
 
-You can change the properties _onLabel_, _offLabel_, _label_, _color_, _isDisabled_, _isHidden_, and _page_ of the widget from your hardware, or via an [HTTP API](broken-reference). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
+You can change the properties _onLabel_, _offLabel_, _onColor_, _offColor_, _onBackColor_, _offBackColor_, _label_, _color_, _isDisabled_, _isHidden_, and _page_ of the widget from your hardware, or via an [HTTP API](broken-reference). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
 
-#### **Change On/Off labels**
+#### Set a custom ON/OFF label associated with the widget state
 
 ```cpp
-Blynk.setProperty(V1, "onLabel", "ON");
-Blynk.setProperty(V1, "offLabel", "OFF");
+Blynk.setProperty(V1, "onLabel", "Playing");
+Blynk.setProperty(V1, "offLabel", "Idle");
+```
+
+#### Set a custom ON/OFF label text color associated with the widget state
+
+```cpp
+Blynk.setProperty(V1, "onColor", "#73D13D");  // green
+Blynk.setProperty(V1, "offColor", "#ED9D00");  // orange
+```
+
+#### Set a custom ON/OFF background color associated with the widget state
+
+```cpp
+Blynk.setProperty(V1, "onBackColor", "#73D13D");  // green
+Blynk.setProperty(V1, "offBackColor", "#ED9D00");  // orange
 ```
 
 #### **Set Button Color**
 
 ```cpp
-//#D3435C - Blynk RED 
-Blynk.setProperty(V1, "color", "#D3435C");
+Blynk.setProperty(V1, "color", "#D3435C");	// Blynk red
 ```
 
 #### **Disable/Enable**
@@ -178,7 +191,7 @@ Blynk.setProperty(V1, "page", "pageId");
 The endpoint allows you to update the Datastream Property value via GET request. All widgets (both web and mobile) that are assigned to this datastream will inherit this property. The Datastream Property is persistent and will be stored forever until you change it with another value. In order to clear the property you need to clear the device data in device actions menu.
 
 **Example:**\
-`https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V2&label=`My%20Label
+`https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V2&label=My%20Label`
 {% endswagger-description %}
 
 {% swagger-parameter in="path" name="property" type="string" %}
@@ -189,6 +202,22 @@ The property of the widget you want to update. Possible values:
 , 
 
 `offLabel`
+
+, 
+
+`onColor`
+
+, 
+
+`offColor`
+
+, 
+
+`onBackColor`
+
+, 
+
+`offBackColor`
 
 , 
 
@@ -246,9 +275,25 @@ The desired value of the property.
 
 
 
+`onColor`
+
+, 
+
+`offColor`
+
+, 
+
+`onBackColor`
+
+, 
+
+`offBackColor`
+
+,
+
 `color`
 
- \- color hexadecimal, must include the hash # character urlencoded as %23
+ \- hexadecimal, must include the hash # character urlencoded as %23
 
 \
 

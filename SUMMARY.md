@@ -139,6 +139,7 @@
 * [Pages](blynk.apps/pages.md)
 * [Widgets (app)](blynk.apps/widgets-app/README.md)
   * [Button](blynk.apps/widgets-app/button.md)
+  * [Styled Button](blynk.apps/widgets-app/styled-button.md)
   * [Simple Chart](blynk.apps/widgets-app/simple-chart.md)
   * [WebPage Button](blynk.apps/widgets-app/webpage-button.md)
   * [WebPage Image Button](blynk.apps/widgets-app/webpage-image-button.md)
