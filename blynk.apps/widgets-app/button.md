@@ -201,22 +201,16 @@ Blynk.setProperty(V1, "page", "pageId");
 
 #### **Sync to the latest known state**&#x20;
 
-Get the latest known value from the server. For example, after your hardware went offline and then became online again.
+You can update your hardware to the latest datastream value from Blynk.Cloud after your hardware went offline, and then came online again. Use `Blynk.syncVirtual()` to update a single virtual pin, or `Blynk.syncAll()` to update all virtual pins. See [State Syncing](../../blynk.edgent-firmware-api/state-syncing.md) for more details.
 
 ```cpp
-BLYNK_CONNECTED() { // checks if there is a connection to Blynk.Cloud  
-  Blynk.syncVirtual(V1); // get the latest value
-}
+BLYNK_CONNECTED() { 
+  // Called when hardware is connected to Blynk.Cloud  
 
-BLYNK_WRITE(V1) // this command is listening when something is written to V1
-{
-  int pinValue = param.asInt(); // assigning incoming value from pin V1 to a variable
-  
-  if (pinValue = 1){
-   // do something when button is pressed;
-  } else if {
-  (pinValue = 0)
-   // do something when button is released;
-  }
+  // get the latest value for V1
+  Blynk.syncVirtual(V1); 
+
+  // Request Blynk server to re-send latest values for all pins
+  Blynk.syncAll()
 }
 ```
