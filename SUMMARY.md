@@ -146,6 +146,7 @@
   * [List of Datastreams types supported by Widgets](blynk.apps/widgets-app/list-of-datastreams-types-supported-by-widgets.md)
 * [Widgets Displays](blynk.apps/widgets-displays/README.md)
   * [Image Animation](blynk.apps/widgets-displays/image-animation.md)
+  * [Lottie Animation](blynk.apps/widgets-displays/lottie-animation.md)
 * [Main Menu](blynk.apps/profile-management/README.md)
   * [My Profile](blynk.apps/profile-management/my-profile.md)
   * [Organization](blynk.apps/profile-management/organization-management.md)
