@@ -166,9 +166,9 @@ void loop() {
 
 ### Change the datastream value with the HTTP API
 
-Use the Blynk [HTTP API](https://docs.blynk.io/en/blynk.cloud/https-api-overview) to set the datastream value to “play” to cause the animation to play, and the value “stop” to cause the automation to stop playing.&#x20;
+Use the Blynk [HTTP API](https://docs.blynk.io/en/blynk.cloud/https-api-overview) to set the datastream value to _play_ to cause the animation to play, and the value _stop_ to cause the automation to stop playing.&#x20;
 
-{% swagger baseUrl="https://{server_address}" path="/external/api/update/property?token={your 32 char token}&{your vPin}=stop" method="get" summary="" %}
+{% swagger baseUrl="https://{server_address}" path="/external/api/update/property?token={your 32 char token}&{pin}={value}" method="get" summary="" %}
 {% swagger-description %}
 **Example:**
 
@@ -180,33 +180,13 @@ Use the Blynk [HTTP API](https://docs.blynk.io/en/blynk.cloud/https-api-overview
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&V2=stop`
 {% endswagger-description %}
 
-{% swagger-parameter in="path" name="token" type="string" %}
-Device auth token
+{% swagger-parameter in="path" name="pin" type="string" %}
+Virtual pin number (should start with "v")
 {% endswagger-parameter %}
 
-{% swagger-response status="200" description="Success" %}
-```
-```
-{% endswagger-response %}
-
-{% swagger-response status="400" description="Could not find a device token" %}
-```
-{"error":{"message":"Invalid token."}}
-```
-{% endswagger-response %}
-{% endswagger %}
-
-{% swagger baseUrl="https://{server_address}" path="/external/api/update/property?token={your 32 char token}&{your vPin}=play" method="get" summary="" %}
-{% swagger-description %}
-**Example:**
-
-\
-
-
-
-
-`https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&V2=play`
-{% endswagger-description %}
+{% swagger-parameter in="path" name="value" type="string" %}
+The desired value of the pin (play or stop)
+{% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="token" type="string" %}
 Device auth token
