@@ -2,6 +2,8 @@
 
 This widget allows you to display an animated GIF or APNG image. From your hardware or the HTTP API you can change the image URL, and start and stop the animation.&#x20;
 
+<figure><img src="../../.gitbook/assets/Animation docs.gif" alt=""><figcaption></figcaption></figure>
+
 ### Widget Controls
 
 The widget has the following controls:
