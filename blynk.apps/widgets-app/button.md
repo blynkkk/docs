@@ -104,7 +104,7 @@ Blynk.virtualWrite(vPin, 1);
 ```
 
 {% hint style="danger" %}
-Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](https://docs.blynk.io/en/blynk.edgent-firmware-api/blynk-timer).
+Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](../../blynk.edgent-firmware-api/blynk-timer.md).
 {% endhint %}
 
 ##
@@ -131,7 +131,7 @@ Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a 
 
 ### Properties you can change
 
-You can change the properties “onLabel”, “offLabel”, “onColor”, “offColor”, “onBackColor”, offBackColor”, “label”, “color”, “isDisabled”, “isHidden”, and “page” of the widget from your [hardware](https://docs.blynk.io/en/blynk.apps/widgets-app/button#change-button-properties), or via an [HTTP API](https://docs.blynk.io/en/blynk.cloud/update-property).  See ‘[Change Button Properties](https://docs.blynk.io/en/blynk.apps/widgets-app/button#change-button-properties)’ for additional details.  The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
+You can change the properties “onLabel”, “offLabel”, “onColor”, “offColor”, “onBackColor”, offBackColor”, “label”, “color”, “isDisabled”, “isHidden”, and “page” of the widget from your hardware, or via an [HTTP API](broken-reference). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
 
 #### **Change On/Off labels**
 
