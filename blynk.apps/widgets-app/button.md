@@ -140,6 +140,41 @@ Blynk.setProperty(V1, "onLabel", "ON");
 Blynk.setProperty(V1, "offLabel", "OFF");
 ```
 
+
+
+#### **Set Button Color**
+
+```cpp
+//#D3435C - Blynk RED 
+Blynk.setProperty(V1, "color", "#D3435C");
+```
+
+#### **Disable/Enable**
+
+Widget will be greyed out on UI and users won't be able to tap on it.
+
+```cpp
+Blynk.setProperty(V1, "isDisabled", true);
+```
+
+#### **Show/Hide**
+
+Widget will be hidden from dashboard. Design your UI so that it doesn't look weird when there is no widget.
+
+```cpp
+Blynk.setProperty(V1, "isHidden", true);
+```
+
+#### **Change Page Target**
+
+This command will set which page should open when the button is pressed. PageId can be found in the mobile app in developer mode:  Toolbox -> Pages
+
+```cpp
+Blynk.setProperty(V1, "page", "pageId");
+```
+
+### Change widget properties via HTTPs API
+
 {% swagger baseUrl="https://{server_address}" path="/external/api/update/property?token={your 32 char token}&pin={your vPin}&{property}={value}" method="get" summary="" %}
 {% swagger-description %}
 **Example:**
@@ -292,40 +327,7 @@ Device auth token
 {% endswagger-response %}
 {% endswagger %}
 
-
-
-#### **Set Button Color**
-
-```cpp
-//#D3435C - Blynk RED 
-Blynk.setProperty(V1, "color", "#D3435C");
-```
-
-#### **Disable/Enable**
-
-Widget will be greyed out on UI and users won't be able to tap on it.
-
-```cpp
-Blynk.setProperty(V1, "isDisabled", true);
-```
-
-#### **Show/Hide**
-
-Widget will be hidden from dashboard. Design your UI so that it doesn't look weird when there is no widget.
-
-```cpp
-Blynk.setProperty(V1, "isHidden", true);
-```
-
-#### **Change Page Target**
-
-This command will set which page should open when the button is pressed. PageId can be found in the mobile app in developer mode:  Toolbox -> Pages
-
-```cpp
-Blynk.setProperty(V1, "page", "pageId");
-```
-
-#### **Sync to the latest known state**&#x20;
+### **Sync to the latest known state**&#x20;
 
 You can update your hardware to the latest datastream value from Blynk.Cloud after your hardware went offline, and then came online again. Use `Blynk.syncVirtual()` to update a single virtual pin, or `Blynk.syncAll()` to update all virtual pins. See [State Syncing](../../blynk.edgent-firmware-api/state-syncing.md) for more details.
 
