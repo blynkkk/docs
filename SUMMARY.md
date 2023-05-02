@@ -144,7 +144,7 @@
   * [WebPage Image Button](blynk.apps/widgets-app/webpage-image-button.md)
   * [Common Widget Settings](blynk.apps/widgets-app/common-widget-settings.md)
   * [List of Datastreams types supported by Widgets](blynk.apps/widgets-app/list-of-datastreams-types-supported-by-widgets.md)
-* [Displays](blynk.apps/widgets-displays/README.md)
+* [Widgets Displays](blynk.apps/widgets-displays/README.md)
   * [Image Animation](blynk.apps/widgets-displays/image-animation.md)
   * [WebPage Image Button](blynk.apps/widgets-displays/webpage-image-button.md)
   * [Common Widget Settings](blynk.apps/widgets-displays/common-widget-settings.md)
