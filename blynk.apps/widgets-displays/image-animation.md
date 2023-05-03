@@ -58,20 +58,34 @@ Blynk.setProperty(V2, "loop", "false"); // Set the image to stop at the end of t
 
 ```
 
-{% swagger baseUrl="https://{server_address}" path="/external/api/update/property?token={your 32 char token}&pin={your vPin}&{property}={value}" method="get" summary="" %}
+### &#x20;Change widget properties via HTTPs API
+
+{% swagger baseUrl="https://{server_address}" path="/external/api/update/property?token={your 32 char token}&pin={your vPin}&{property}={value}" method="get" summary="Updates the Datastream Property and all assigned Widgets" %}
 {% swagger-description %}
-**Example:**
+The endpoint allows you to update the Datastream Property value via GET request. All widgets (both web and mobile) that are assigned to this datastream will inherit this property. The Datastream Property is persistent and will be stored forever until you change it with another value. In order to clear the property you need to clear the device data in device actions menu.
 
-\
-
-
-
-
+**Example:**\
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V2&autoplay=true`
 {% endswagger-description %}
 
-{% swagger-parameter in="path" name="property" type="string" %}
-The property of the widget you want to update. Possible values: 
+{% swagger-parameter in="query" name="token" type="string" required="true" %}
+Device auth token from 
+
+[Device info](../../getting-started/activating-devices/manual-device-activation.md#step-3-getting-auth-token)
+
+
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="pin" type="string" required="true" %}
+The datastream 
+
+[virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md)
+
+ (should start with "v")
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="property" type="string" %}
+The property of the widget you want to update: 
 
 `autoplay`
 
@@ -84,31 +98,24 @@ The property of the widget you want to update. Possible values:
 `url`
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="value" type="string" %}
-The desired value of the property.
-
-\
-
-
-autoplay - true or false
-
-\
-
-
-loop - true or false
-
-\
-
-
-url - the image URL
+{% swagger-parameter in="query" name="autoplay" type="string" %}
+true or false
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="pin" type="string" %}
-Virtual pin number (should start with "v")
+{% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
+Get from the bottom right of your Blynk console. 
+
+[More information](../../blynk.cloud/troubleshooting.md)
+
+.
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="token" type="string" %}
-Device auth token
+{% swagger-parameter in="query" name="loop" type="string" %}
+true or false
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="url" type="string" %}
+the image URL, should be urlencoded
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="Success" %}
@@ -186,16 +193,32 @@ Use the Blynk [HTTP API](../../blynk.cloud/https-api-overview.md) to set the dat
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&V2=stop`
 {% endswagger-description %}
 
-{% swagger-parameter in="path" name="pin" type="string" %}
-Virtual pin number (should start with "v")
+{% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
+Get from the bottom right of your Blynk console. 
+
+[More information](../../blynk.cloud/troubleshooting.md)
+
+.
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="value" type="string" %}
+{% swagger-parameter in="query" name="token" type="string" required="true" %}
+Device auth token from 
+
+[Device info](../../getting-started/activating-devices/manual-device-activation.md#step-3-getting-auth-token)
+
+
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="pin" type="string" required="true" %}
+The datastream 
+
+[virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md)
+
+ (should start with "v")
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="value" type="string" %}
 The desired value of the pin (play or stop)
-{% endswagger-parameter %}
-
-{% swagger-parameter in="path" name="token" type="string" %}
-Device auth token
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="Success" %}
