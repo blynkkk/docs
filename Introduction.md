@@ -72,38 +72,42 @@ Explore [Blynk Library documentation](broken-reference) for further details.
 
 ### Blynk.Cloud
 
-**Blynk.Cloud** is a server infrastructure – heart of Blynk IoT platform. Cloud is responsible for binding all the platform components together.
+**Blynk.Cloud** is a server infrastructure acting as the heart of Blynk IoT platform binding all the components together.
 
 Blynk also offers private servers. See the offerings and prices [here](https://blynk.io/pricing).
 
-[Register in Blynk.Console](https://blynk.cloud)
+Blynk is a [multi-tenant](concepts/users/multi-tenant-tree-structure.md) solution that allows you to configure user access to devices and data by defining roles and permissions.
 
-Blynk is a [multi-tenant](concepts/users/multi-tenant-tree-structure.md) solution. You can configure how users get access to the data by setting roles and configuring permissions.
+[Register in Blynk.Console](https://blynk.cloud).
 
-Blynk services (or micro-services) are software modules that work across products and perform a certain set of functionality.
 
-## Blynk.Inject
+
+## Blynk Micro-Services
+
+Blynk provides micro-services, which are software modules that work across products and perform  specific functionalities. These micro-services include:
+
+### Blynk.Inject
 
 ![Blynk.Inject](https://user-images.githubusercontent.com/72824404/119472455-ef9ddb80-bd52-11eb-9c6a-e54746ae32dd.png)
 
-A micro-service for:
+A micro-service that facilitates:
 
 * Claiming device ownership by users and organizations
 * Provisioning devices with WiFi credentials so they can connect to the end-user WiFi networks.
 * Managing Authentication Tokens
 * UX flow to guide end-users through the process of claiming and provisioning with the help of Blynk.Apps
 
-To get understanding of the Blynk.Inject take a look at the below videos:
+For a better understanding of Blynk.Inject, you can refer to the provided videos:
 
 <table data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href="https://www.youtube.com/watch?v=bXPEEmsEtPM">https://www.youtube.com/watch?v=bXPEEmsEtPM</a></td><td><a href=".gitbook/assets/Blynk-inject.jpeg">Blynk-inject.jpeg</a></td></tr><tr><td></td><td></td><td></td><td><a href="https://www.youtube.com/watch?v=4RGAn0tlrHs">https://www.youtube.com/watch?v=4RGAn0tlrHs</a></td><td><a href=".gitbook/assets/plaato.jpeg">plaato.jpeg</a></td></tr><tr><td></td><td></td><td></td><td><a href="https://www.youtube.com/watch?v=GPneDxWvp4U">https://www.youtube.com/watch?v=GPneDxWvp4U</a></td><td><a href=".gitbook/assets/cama-cooler.jpeg">cama-cooler.jpeg</a></td></tr></tbody></table>
 
 
 
-## Blynk.**R**
+### Blynk.**R**
 
 ![Roles and permissions](https://user-images.githubusercontent.com/72824404/119471708-3808c980-bd52-11eb-89bd-7b003fc94da1.png)
 
-A micro-service for user management, covering
+A micro-service for user management, covering:
 
 * User registration with invitations
 * Roles and permissions management
