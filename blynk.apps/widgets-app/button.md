@@ -181,7 +181,15 @@ The endpoint allows you to update the Datastream Property value via GET request.
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V2&label=My%20Label`
 {% endswagger-description %}
 
-{% swagger-parameter in="path" name="property" type="string" %}
+{% swagger-parameter in="query" name="token" type="string" required="true" %}
+Device auth token
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="pin" type="string" required="true" %}
+Virtual pin number (should start with "v")
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="property" type="string" %}
 The property of the widget you want to update. Possible values: 
 
 `onLabel`
@@ -211,7 +219,7 @@ The property of the widget you want to update. Possible values:
 `page`
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="value" type="string" %}
+{% swagger-parameter in="query" name="value" type="string" %}
 The desired value of the property.
 
 \
@@ -283,12 +291,12 @@ The desired value of the property.
 
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="pin" type="string" %}
-Virtual pin number (should start with "v")
-{% endswagger-parameter %}
+{% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
+Get from the bottom right of your Blynk console.  
 
-{% swagger-parameter in="path" name="token" type="string" %}
-Device auth token
+[More information](https://docs.blynk.io/en/blynk.cloud/troubleshooting)
+
+.
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="Success" %}
