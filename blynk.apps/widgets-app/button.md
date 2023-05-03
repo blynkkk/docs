@@ -182,11 +182,19 @@ The endpoint allows you to update the Datastream Property value via GET request.
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="token" type="string" required="true" %}
-Device auth token
+Device auth token from 
+
+[Device info](../../getting-started/activating-devices/manual-device-activation.md#step-3-getting-auth-token)
+
+
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="pin" type="string" required="true" %}
-Virtual pin number (should start with "v")
+The datastream 
+
+[virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md)
+
+ (should start with "v")
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="property" type="string" %}
@@ -224,9 +232,9 @@ the text on the button when the button is ON
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
-Get from the bottom right of your Blynk console.  
+Get from the bottom right of your Blynk console. 
 
-[More information](https://docs.blynk.io/en/blynk.cloud/troubleshooting)
+[More information](../../blynk.cloud/troubleshooting.md)
 
 .
 {% endswagger-parameter %}
@@ -252,7 +260,11 @@ true or false
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="pageID" type="string" %}
-pageID
+
+
+[pageID](../pages.md#changing-target-page-from-hardware)
+
+
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="Success" %}
