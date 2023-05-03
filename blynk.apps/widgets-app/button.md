@@ -219,76 +219,8 @@ The property of the widget you want to update:
 `page`
 {% endswagger-parameter %}
 
-{% swagger-parameter in="query" name="value" type="string" %}
-The desired value of the property.
-
-\
-
-
-
-
-`onLabel`
-
- \- the text on the button when the button is ON
-
-\
-
-
-
-
-`offLabel`
-
- \- the text on the button when the button is OFF
-
-\
-
-
-
-
-`label`
-
- \- the text used as widget label
-
-\
-
-
-
-
-`color`
-
- \- color hexadecimal, must include the hash # character urlencoded as %23
-
-\
-
-
-
-
-`isDisabled`
-
- \- true or false
-
-\
-
-
-
-
-`isHidden`
-
- \- true or false
-
-\
-
-
-
-
-`page`
-
- \- pageID
-
-\
-
-
-
+{% swagger-parameter in="query" name="onLabel" type="string" %}
+the text on the button when the button is ON
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
@@ -297,6 +229,30 @@ Get from the bottom right of your Blynk console.
 [More information](https://docs.blynk.io/en/blynk.cloud/troubleshooting)
 
 .
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="offLabel" type="string" %}
+the text on the button when the button is OFF
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="label" type="string" %}
+the text used as widget label
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="color" type="string" %}
+button color hexadecimal, must include the hash # character urlencoded as %23
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="isDisabled" type="string" %}
+true or false
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="isHidden" type="string" %}
+true or false
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="pageID" type="string" %}
+pageID
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="Success" %}
