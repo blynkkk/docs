@@ -52,20 +52,23 @@ Edge + Agent = Edgent
 
 <figure><img src=".gitbook/assets/Device-template 3.png" alt=""><figcaption></figcaption></figure>
 
-**Blynk.Edgent** is a packaged solution that allows developers to easily connect supported devices to the platform and take advantage of all its advanced features without the need for extensive coding.
+**Blynk.Edgent** is a packaged solution designed to simplify the connection of supported devices to the Blynk platform, providing access to all its advanced features without extensive coding.
 
-Main functions of Blynk.Edgent are:
+Key features of Blynk.Edgent include:
 
-1. Device claiming and Wi-Fi provisioning (bringing device online and authenticating them with a certain user)
-2. Connectivity management (WiFi, Cellular, Ethernet)
-3. Data transfer between the device and cloud&#x20;
-4. API to work with specific Blynk.Apps and Blynk.cloud features
-5. Over-the-air firmware updates (for selected hardware models)
+1. Device claiming and Wi-Fi provisioning (bringing device online and authenticating them with a certain user).
+2. Connectivity management for Wi-Fi, Cellular, and Ethernet.
+3. Data transfer between device and the cloud.
+4. API integration with Blynk.Apps and Blynk.Cloud features.
+5. Over-the-air firmware updates for select hardware models.
 
-Full documentation on Blynk.Edgent is [here](blynk.edgent/overview.md).
+For [detailed information on Blynk.Edgent](broken-reference), refer to the provided documentation.
 
-**Blynk Library** is an easy to use and portable C++ library, pre-configured to work with hundreds of development boards.\
-The library implements a streaming connection protocol (i.e. the device stays always connected to the cloud), that allows for a low latency, bi-directional communication. Explore [Blynk Library documentation](broken-reference).
+**Blynk Library** is a user-friendly and portable C++ library, that comes pre-configured to work with hundreds of development boards. It implements a streaming connection protocol, allowing for low-latency and bi-directional communication.&#x20;
+
+Explore [Blynk Library documentation](broken-reference) for further details.
+
+
 
 ### Blynk.Cloud
 
