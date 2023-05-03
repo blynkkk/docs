@@ -4,7 +4,7 @@ This widget allows you to display an animated Lottie image.  From your hardware 
 
 Lottie is a JSON based file format for vector graphics animation.  It is intended as a lighter alternative to other animated graphic file formats (GIF, APNG, ..).  It is commonly used in applications and web pages.
 
-<figure><img src="../../.gitbook/assets/Animation docs.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Animation-docs-1.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Widget Controls
 
