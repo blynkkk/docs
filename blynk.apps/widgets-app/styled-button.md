@@ -333,7 +333,11 @@ Virtual pin number (should start with "v")
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="token" type="string" %}
-Device auth token
+Device 
+
+[auth token](../../concepts/device.md#authtoken)
+
+ from Device info
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="Success" %}

@@ -182,11 +182,11 @@ The endpoint allows you to update the Datastream Property value via GET request.
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="token" type="string" required="true" %}
-Device auth token from 
+Device 
 
-[Device info](../../getting-started/activating-devices/manual-device-activation.md#step-3-getting-auth-token)
+[auth token](../../concepts/device.md#authtoken)
 
-
+ from Device info
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="pin" type="string" required="true" %}
