@@ -190,7 +190,7 @@ Virtual pin number (should start with "v")
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="property" type="string" %}
-The property of the widget you want to update. Possible values: 
+The property of the widget you want to update: 
 
 `onLabel`
 
