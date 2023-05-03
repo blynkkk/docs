@@ -97,7 +97,7 @@ A micro-service that facilitates:
 * Managing Authentication Tokens
 * UX flow to guide end-users through the process of claiming and provisioning with the help of Blynk.Apps
 
-For a better understanding of Blynk.Inject, you can refer to the provided videos:
+For a better understanding of Blynk.Inject, you can refer to the [documentation](platform-overview/services.md) and provided videos:
 
 <table data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href="https://www.youtube.com/watch?v=bXPEEmsEtPM">https://www.youtube.com/watch?v=bXPEEmsEtPM</a></td><td><a href=".gitbook/assets/Blynk-inject.jpeg">Blynk-inject.jpeg</a></td></tr><tr><td></td><td></td><td></td><td><a href="https://www.youtube.com/watch?v=4RGAn0tlrHs">https://www.youtube.com/watch?v=4RGAn0tlrHs</a></td><td><a href=".gitbook/assets/plaato.jpeg">plaato.jpeg</a></td></tr><tr><td></td><td></td><td></td><td><a href="https://www.youtube.com/watch?v=GPneDxWvp4U">https://www.youtube.com/watch?v=GPneDxWvp4U</a></td><td><a href=".gitbook/assets/cama-cooler.jpeg">cama-cooler.jpeg</a></td></tr></tbody></table>
 
@@ -117,7 +117,9 @@ A micro-service for user management, covering:
 
 ![Blynk.Air](https://user-images.githubusercontent.com/72824404/119467722-72706780-bd4e-11eb-809c-eebfe3078bb1.png)
 
-A micro-service for Firmware Over-the-Air Updates responsible for:
+A micro-service focused on [Firmware Over-the-Air (OTA) Updates](blynk.edgent/updating-devices-firmwares-ota.md), responsible for:
 
-* Managing Firmware Over-the-Air Updates shipping campaigns
-* Installing new firmware on the edge devices
+* Managing OTA firmware update campaigns
+* Installing new firmware on edge devices
+
+Please note that additional documentation and resources for each component can be found using the provided links.
