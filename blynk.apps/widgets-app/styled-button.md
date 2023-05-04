@@ -328,11 +328,15 @@ The desired value of the property.
 
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="pin" type="string" %}
-Virtual pin number (should start with "v")
+{% swagger-parameter in="path" name="pin" type="string" required="true" %}
+The datastream 
+
+[virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md)
+
+ (should start with "v")
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="token" type="string" %}
+{% swagger-parameter in="path" name="token" type="string" required="true" %}
 Device 
 
 [auth token](../../concepts/device.md#authtoken)

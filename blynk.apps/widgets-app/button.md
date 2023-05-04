@@ -197,7 +197,7 @@ The datastream
  (should start with "v")
 {% endswagger-parameter %}
 
-{% swagger-parameter in="query" name="property" type="string" %}
+{% swagger-parameter in="query" name="{property}" type="string" %}
 The property of the widget you want to update: 
 
 `onLabel`
