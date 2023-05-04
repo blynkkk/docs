@@ -1,7 +1,7 @@
 # Image Animation
 
 {% hint style="info" %}
-Available to Plus and higher subscribers.
+Available to Plus and higher plan users.
 {% endhint %}
 
 This widget allows you to display an animated GIF or APNG image. It is possible to use [Lottie animation](lottie-animation.md) with a different widget. From your hardware or the HTTP API you can change the image URL, and start and stop the animation.&#x20;
