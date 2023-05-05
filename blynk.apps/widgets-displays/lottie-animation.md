@@ -69,6 +69,8 @@ The endpoint allows you to update the Datastream Property value via GET request.
 
 **Example:**\
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V2&autoplay=true`
+
+`https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&url=https://mechatronicsolutionsllc.com/Blynk%20animated%20image%20beat%20(1).gif`
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="token" type="string" required="true" %}
