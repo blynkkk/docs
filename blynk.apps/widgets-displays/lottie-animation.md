@@ -243,19 +243,17 @@ The desired value of the pin (play or stop)
 You can configure the hardware to respond to a change in a datastream value by configuring the `BLYNK_WRITE()` command.&#x20;
 
 ```cpp
-BLYNK_WRITE(V2) // Called when the datastream value for V2 changes
-{
- int pinValue = param.asInt(); // assigning incoming value from virtual pin V2 to a variable
- 
+BLYNK_WRITE(V1) {
+ // Called when the datastream value for V1 changes
+ String value = param.asStr();
  if (value=="play") {
- Serial.println("V2 'play' command received'");
+  Serial.println("V1 'play' command received'");
  } else if (value=="stop") {
- Serial.println("V2 'stop' command received'");
+  Serial.println("V1 'stop' command received'");
  } else {
- Serial.print("Unexpected V2 value of: ");
- Serial.print(value);
- Serial.println("");
+  Serial.print("Unexpected V1 value of: ");
+  Serial.print(value);
+  Serial.println("");
  }
-
 }
 ```
