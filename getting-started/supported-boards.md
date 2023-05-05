@@ -147,7 +147,7 @@ Traffic optimization is usually required for cellular connections. Using realtim
 
 ### Troubleshooting
 
-Here is a list of [**known library issues**](https://github.com/blynkkk/blynk-library/issues?q=is%3Aissue+label%3A%22for+reference%22+)
+Here is a list of [known library issues](https://github.com/blynkkk/blynk-library/issues?q=is%3Aissue+label%3A%22for+reference%22+).
 
 ### Need support for any other hardware?
 
