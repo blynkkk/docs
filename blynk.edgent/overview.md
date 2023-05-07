@@ -37,7 +37,7 @@ Although Blynk Library can be used without Blynk.Edgent features, it is recommen
 | ESP32                 | [Link](https://github.com/blynkkk/edgent-examples-pio/tree/main/PIO\_Edgent\_ESP32)         | [Link](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_ESP32)         |
 | ESP8266               | [Link](https://github.com/blynkkk/edgent-examples-pio/tree/main/PIO\_Edgent\_ESP8266)       | [Link](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_ESP8266)       |
 | Arduino MKR WiFi 1010 | [Link](https://github.com/blynkkk/edgent-examples-pio/tree/main/PIO\_Edgent\_MKR1010)       | [Link](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_MKR1010)       |
-| Arduino Nano 33 IoT   | [Link](https://github.com/blynkkk/edgent-examples-pio/tree/main/PIO\_Edgent\_ESP8266)       | [Link](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_MKR1010)       |
+| Arduino Nano 33 IoT   | [Link](https://github.com/blynkkk/edgent-examples-pio/tree/main/PIO\_Edgent\_MKR1010)       | [Link](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_MKR1010)       |
 | Seeed Wio Terminal    | [Link](https://github.com/blynkkk/edgent-examples-pio/tree/main/PIO\_Edgent\_Wio\_Terminal) | [Link](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_Wio\_Terminal) |
 | TI CC3220             | [Contact sales](https://blynk.io/contact-us-business) for commercial implementation         | [Contact sales](https://blynk.io/contact-us-business) for commercial implementation                      |
 
