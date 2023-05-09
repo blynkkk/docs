@@ -1,7 +1,15 @@
+---
+description: >-
+  The widget property is a widget attribute like color, labels, min/max, ...,
+  and others that could be dynamically changed from the hardware or HTTPS API.
+---
+
 # Widget Properties
 
-Changing some of the widget properties from hardware side is also supported.\
-For example, you can change the color of LED widget based on a condition:
+## Single Datastream
+
+You can change the widget property assigned to a single datastream from the hardware side.\
+For example, you can change the color of an LED widget assigned to Virtua Pin 0:
 
 ```
 //change LED color
@@ -20,11 +28,11 @@ Blynk.setProperty(V0, "labels", "Menu Item 1", "Menu Item 2", "Menu Item 3");
 
 **NOTE :** Changing these parameters work **only** for widgets attached to Virtual pins (analog/digital pins won't work).
 
-`color`, `label` widget properties are supported for all widgets :
+`color`, `label`, `isDisabled`, `isHidden` widget properties are supported for all widgets:
 
-`label` is string for label of all widgets.
+`label` is a string for the label of all widgets.
 
-`color` is string in [HEX](http://www.w3schools.com/html/html\_colors.asp) format (in the form: #RRGGBB, where RR (red), GG (green) and BB (blue) are hexadecimal values between 00 and FF). For example :
+`color` is a string in [HEX](http://www.w3schools.com/html/html\_colors.asp) format (in the form: #RRGGBB, where RR (red), GG (green), and BB (blue) are hexadecimal values between 00 and FF). For example:
 
 ```
 #define BLYNK_GREEN     "#23C48E"
@@ -34,21 +42,21 @@ Blynk.setProperty(V0, "labels", "Menu Item 1", "Menu Item 2", "Menu Item 3");
 #define BLYNK_DARK_BLUE "#5F7CD8"
 ```
 
-On firmware side, widget objects also support `setLabel()` and `setColor()` functions.
+On the firmware side, widget objects also support `setLabel()` and `setColor()` functions.
 
-Widget specific properties:
+Widget-specific properties:
 
 **Button**
 
-`onLabel` / `offLabel` is string for ON/OFF label of button;
+`onLabel` / `offLabel` is a string for ON/OFF label of a button;
 
 **Styled Button**
 
-`onLabel` / `offLabel` is string for ON/OFF label of button;
+`onLabel` / `offLabel` is a string for ON/OFF label of a button;
 
-`onColor` / `offColor` is string in HEX format for ON/OFF colors of the button;
+`onColor` / `offColor` is a string in HEX format for ON/OFF colors of the button;
 
-`onBackColor` / `offBackColor` is string in HEX format for ON/OFF colors of the button background.
+`onBackColor` / `offBackColor` is a string in HEX format for ON/OFF colors of the button background.
 
 **Music Player**
 
@@ -60,7 +68,7 @@ Blynk.setProperty(V0, "isOnPlay", "true");
 
 **Menu**
 
-`labels` is list of strings for Menu widget selections;
+`labels` is a list of strings for Menu widget selections;
 
 ```
 Blynk.setProperty(V0, "labels", "label 1", "label 2", "label 3");
@@ -98,7 +106,7 @@ also, you can fully replace the list of images from the hardware:
 Blynk.setProperty(V1, "urls", "https://image1.jpg", "https://image2.jpg");
 ```
 
-or you can change individual image by it index:
+or you can change the individual image by its index:
 
 ```cpp
 Blynk.setProperty(V1, "url", 1, "https://image1.jpg");
@@ -111,3 +119,19 @@ Blynk.setProperty(V1, "isMuted", "true");
 ```
 
 You can also change widget properties via [HTTP API](https://docs.blynk.io/en/blynk.cloud/https-api-overview).
+
+## Multiple Datastreams
+
+In addition to the above commands, you can also change the multiple datastream properties with one command. For example, let's assume, you want to disable multiple widgets with a single command:
+
+```
+Blynk.setProperty(V0, V1, V2, "isDisabled", "true");
+```
+
+The above command would be an alternative to the batch of single datastream commands:
+
+```
+Blynk.setProperty(V0, "isDisabled", "true");
+Blynk.setProperty(V1, "isDisabled", "true");
+Blynk.setProperty(V2, "isDisabled", "true");
+```
