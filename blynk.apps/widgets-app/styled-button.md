@@ -1,6 +1,6 @@
 # Styled Button
 
-As is clear from the name, the widget's style and shape have many options where every little element is customizable. You may optionally specify icons to the right or left of the label for each state, and vary the icon line color based on the state. Styled Button lets you configure text labels for the on/off state based on the assigned datastream value.&#x20;
+The Styled Button can be configured to display many options in terms of shape, color, font, and labels.  You may optionally specify icons to the right or left of the label for each state, and vary the icon line color based on the state.  Text labels corresponding to the on/off state can also be assigned.
 
 ### Mode
 
@@ -51,7 +51,7 @@ Android app can additionally support these formats:
 
 ### Datastream
 
-Select or create a datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) integer, double, or string.  Widget properties (label, color, etc.) are also changed via the datastream, but only for virtual, enumerable, and location pins, not digital and analog pins.
+Select or create a datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) integer, double, or string. Widget properties (label, color, etc.) are also changed via the datastream, but only for virtual, enumerable, and location pins, not digital and analog pins.
 
 
 
@@ -61,7 +61,7 @@ When button is pressed, value is sent and stored into the Blynk.Cloud. After tha
 
 #### Reading the button value
 
-For example, if Button Widget is set to Datastream with Virtual Pin V1, you can use such code:
+For example, if Styled Button Widget is set to Datastream with Virtual Pin V1, you can use such code:
 
 ```cpp
 BLYNK_WRITE(V1) // this command is listening when something is written to V1
@@ -131,7 +131,7 @@ Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a 
 
 ### Properties you can change
 
-You can change the properties _onLabel_, _offLabel_, _onColor_, _offColor_, _onBackColor_, _offBackColor_, _label_, _color_, _isDisabled_, _isHidden_, and _page_ of the widget from your hardware, or via an [HTTP API](broken-reference). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
+You can change the properties _onLabel_, _offLabel_, _onColor_, _offColor_, _onBackColor_, _offBackColor_, _label_, _color_, _isDisabled_, _isHidden_, and _page_ of the widget from your hardware, or via an [HTTP API](broken-reference). The color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
 
 #### Set a custom ON/OFF label associated with the widget state
 
@@ -192,143 +192,23 @@ The endpoint allows you to update the Datastream Property value via GET request.
 
 **Example:**\
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V2&label=My%20Label`
+
+`https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&color=%23D3435C`
+
+`https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&isDisabled=true`
+
+`https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&page={pageID}`
 {% endswagger-description %}
 
-{% swagger-parameter in="path" name="property" type="string" %}
-The property of the widget you want to update. Possible values: 
+{% swagger-parameter in="query" name="token" type="string" required="true" %}
+Device 
 
-`onLabel`
+[auth token](../../concepts/device.md#authtoken)
 
-, 
-
-`offLabel`
-
-, 
-
-`onColor`
-
-, 
-
-`offColor`
-
-, 
-
-`onBackColor`
-
-, 
-
-`offBackColor`
-
-, 
-
-`label`
-
-, 
-
-`color`
-
-, 
-
-`isDisabled`
-
-, 
-
-`isHidden`
-
-, and 
-
-`page`
+ from Device info
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="value" type="string" %}
-The desired value of the property.
-
-\
-
-
-
-
-`onLabel`
-
- \- the text on the button when the button is ON
-
-\
-
-
-
-
-`offLabel`
-
- \- the text on the button when the button is OFF
-
-\
-
-
-
-
-`label`
-
- \- the text used as widget label
-
-\
-
-
-
-
-`onColor`
-
-, 
-
-`offColor`
-
-, 
-
-`onBackColor`
-
-, 
-
-`offBackColor`
-
-,
-
-`color`
-
- \- hexadecimal, must include the hash # character urlencoded as %23
-
-\
-
-
-
-
-`isDisabled`
-
- \- true or false
-
-\
-
-
-
-
-`isHidden`
-
- \- true or false
-
-\
-
-
-
-
-`page`
-
- \- pageID
-
-\
-
-
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="path" name="pin" type="string" required="true" %}
+{% swagger-parameter in="query" name="pin" type="string" required="true" %}
 The datastream 
 
 [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md)
@@ -336,12 +216,116 @@ The datastream
  (should start with "v")
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="token" type="string" required="true" %}
-Device 
+{% swagger-parameter in="query" name="{property}" type="string" %}
+The property of the widget you want to update: 
 
-[auth token](../../concepts/device.md#authtoken)
+`onLabel`
 
- from Device info
+,
+
+\
+
+
+
+
+`offLabel`
+
+, 
+
+`label`
+
+, 
+
+`onColor`
+
+, 
+
+`offColor`
+
+, 
+
+`onBackColor`
+
+, 
+
+`offBackColor`
+
+, 
+
+`color`
+
+,
+
+\
+
+
+
+
+`isDisabled`
+
+, 
+
+`isHidden`
+
+, 
+
+`page`
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="onLabel" type="string" %}
+custom text on the button when the button is ON
+{% endswagger-parameter %}
+
+{% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
+Get from the bottom right of your Blynk console. 
+
+[More information](../../blynk.cloud/troubleshooting.md)
+
+.
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="offLabel" type="string" %}
+custom text on the button when the button is OFF
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="label" type="string" %}
+the text used as widget label
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="onColor" type="string" %}
+custom icon line color associated with the widget ON/OFF state
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="offColor" type="string" %}
+custom icon line color associated with the widget ON/OFF state
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="onBackColor" type="string" %}
+custom background color associated with the widget ON/OFF state
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="offBackColor" type="string" %}
+custom background color associated with the widget ON/OFF state
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="color" type="string" %}
+button color hexadecimal, must include the hash # character urlencoded as %23
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="isDisabled" type="string" %}
+true or false
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="isHidden" type="string" %}
+true or false
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="pageID" type="string" %}
+
+
+[pageID](../pages.md#changing-target-page-from-hardware)
+
+
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="Success" %}
