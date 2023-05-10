@@ -145,6 +145,8 @@
   * [WebPage Image Button](blynk.apps/widgets-app/webpage-image-button.md)
   * [Common Widget Settings](blynk.apps/widgets-app/common-widget-settings.md)
   * [List of Datastreams types supported by Widgets](blynk.apps/widgets-app/list-of-datastreams-types-supported-by-widgets.md)
+* [Widgets Controllers](blynk.apps/widgets-controllers/README.md)
+  * [Icon Button](blynk.apps/widgets-controllers/icon-button.md)
 * [Widgets Displays](blynk.apps/widgets-displays/README.md)
   * [Image Animation](blynk.apps/widgets-displays/image-animation.md)
   * [Lottie Animation](blynk.apps/widgets-displays/lottie-animation.md)
