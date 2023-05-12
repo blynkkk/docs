@@ -148,6 +148,7 @@
 * [Widgets Controllers](blynk.apps/widgets-controllers/README.md)
   * [Icon Button](blynk.apps/widgets-controllers/icon-button.md)
   * [Image Button](blynk.apps/widgets-controllers/image-button.md)
+  * [RGB Light Control](blynk.apps/widgets-controllers/rgb-light-control.md)
 * [Widgets Displays](blynk.apps/widgets-displays/README.md)
   * [Image Animation](blynk.apps/widgets-displays/image-animation.md)
   * [Lottie Animation](blynk.apps/widgets-displays/lottie-animation.md)
