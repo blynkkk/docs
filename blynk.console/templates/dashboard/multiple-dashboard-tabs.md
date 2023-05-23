@@ -6,10 +6,18 @@ You may also restrict access to particular tabs based on the three possible [use
 
 Add tabs to the dashboard by clicking the ‘+’ icon (‘Add Tab’):
 
-![](../../../.gitbook/assets/tabs.png)
+<div align="left">
+
+<img src="../../../.gitbook/assets/tabs.png" alt="">
+
+</div>
 
 The default dashboard tab ‘Dashboard’ is visible to all users, and it cannot be deleted. Any added tab can be later deleted, and access to the tab may be restricted based on the user’s role within the root organization, and the sub organization.&#x20;
 
 Click on the user icon in order to edit the tab’s access permissions. The window shown below will appear.
 
-![](../../../.gitbook/assets/permissions.png)
+<div align="left">
+
+<img src="../../../.gitbook/assets/permissions.png" alt="">
+
+</div>

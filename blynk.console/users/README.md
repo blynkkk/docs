@@ -12,7 +12,7 @@ description: Here you can Invite, View, Edit, Transfer and Delete users.
 
 You can invite users that don’t currently have a Blynk account and assign them the [roles](../settings/access.md) of ‘Admin’, ‘Staff’, or ‘User’. Go to Search -> Users and click the 'Invite New User' button.
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (7).png>)
 
 Fill out the short form to invite the user to current organization.
 
@@ -78,7 +78,11 @@ On clicking filter icon select desired option(s) from the drop-down menu and pre
 
 * **Delete Account** – modal window will appear. Type DELETE and confirm the action are required.
 
-![Delete User modal window](../../.gitbook/assets/delete\_user\_modal.gif)
+<div align="center">
+
+<img src="../../.gitbook/assets/delete_user_modal.gif" alt="Delete User modal window">
+
+</div>
 
 ### Bulk actions on users
 

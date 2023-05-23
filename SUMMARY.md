@@ -152,6 +152,8 @@
 * [Widgets Displays](blynk.apps/widgets-displays/README.md)
   * [Image Animation](blynk.apps/widgets-displays/image-animation.md)
   * [Lottie Animation](blynk.apps/widgets-displays/lottie-animation.md)
+* [Widgets Interface](blynk.apps/widgets-interface/README.md)
+  * [Dynamic Spacer](blynk.apps/widgets-interface/dynamic-spacer.md)
 * [Main Menu](blynk.apps/profile-management/README.md)
   * [My Profile](blynk.apps/profile-management/my-profile.md)
   * [Organization](blynk.apps/profile-management/organization-management.md)

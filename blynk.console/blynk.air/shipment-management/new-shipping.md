@@ -8,7 +8,11 @@ Each shipping should have unique name.
 2. Type new name (40 characters limit)
 3. Click **Save pictogram**
 
-![](../../../.gitbook/assets/shipping-name.gif)
+<div align="left">
+
+<img src="../../../.gitbook/assets/shipping-name.gif" alt="">
+
+</div>
 
 
 
@@ -49,7 +53,7 @@ There are sorting (all columns) and filtering (Firmware Version column only) opt
 
 When the binary file is uploaded, the extracted information is shown in this section. It is useful for making sure you have picked the right file.
 
-![](<../../../.gitbook/assets/image (4).png>)
+![](<../../../.gitbook/assets/image (4) (1).png>)
 
 ## Review and Start
 

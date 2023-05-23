@@ -201,7 +201,11 @@ The images that follow, show how the Automation card appears in both the Blynk.C
 
 Within the Blynk.App, you can see Automations the device is participating in. From the Device page, select the ‘...’ icon in the upper right of the screen. Choose the ‘Information’ tab, and the Automations the device is participating in will be listed under the ‘AUTOMATIONS’ section.
 
-![](../.gitbook/assets/device-info-automations.png)
+<div align="left">
+
+<img src="../.gitbook/assets/device-info-automations.png" alt="">
+
+</div>
 
 If you click on the ‘AUTOMATIONS’ section, you may enable/disable the participation of the Device in Automations.
 
