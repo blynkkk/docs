@@ -103,31 +103,11 @@ The datastream
 {% swagger-parameter in="query" name="{property}" type="string" %}
 The property of the widget you want to update: 
 
-`onLabel`
-
-, 
-
-`offLabel`
-
-, 
-
-`label`
-
-, 
-
-`color`
-
-, 
-
 `isDisabled`
 
 , 
 
 `isHidden`
-
-, and 
-
-`page`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
