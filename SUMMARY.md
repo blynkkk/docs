@@ -149,6 +149,7 @@
   * [Icon Button](blynk.apps/widgets-controllers/icon-button.md)
   * [Image Button](blynk.apps/widgets-controllers/image-button.md)
   * [Slider](blynk.apps/widgets-controllers/slider.md)
+  * [Vertical Slider](blynk.apps/widgets-controllers/vertical-slider.md)
   * [Joystick](blynk.apps/widgets-controllers/joystick.md)
   * [zeRGBa](blynk.apps/widgets-controllers/zergba.md)
   * [RGB Light Control](blynk.apps/widgets-controllers/rgb-light-control.md)

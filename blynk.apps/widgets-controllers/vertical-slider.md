@@ -1,6 +1,6 @@
-# Slider
+# Vertical Slider
 
-The slider varies the datastream value between the datastream’s min/max values based on the slider’s horizontal position. It is similar in the way a potentiometer is used to vary resistance based on its position.
+The Vertical Slider varies the datastream value between the datastream’s min/max values based on the slider’s vertical position. It is similar in the way a potentiometer is used to vary resistance based on its position.
 
 ### Datastream
 
