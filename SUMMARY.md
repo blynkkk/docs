@@ -152,6 +152,7 @@
   * [Vertical Slider](blynk.apps/widgets-controllers/vertical-slider.md)
   * [Step Slider](blynk.apps/widgets-controllers/step-slider.md)
   * [Vertical Step Slider](blynk.apps/widgets-controllers/vertical-step-slider.md)
+  * [Step H](blynk.apps/widgets-controllers/step-h.md)
   * [Joystick](blynk.apps/widgets-controllers/joystick.md)
   * [zeRGBa](blynk.apps/widgets-controllers/zergba.md)
   * [RGB Light Control](blynk.apps/widgets-controllers/rgb-light-control.md)

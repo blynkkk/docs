@@ -1,16 +1,23 @@
-# Vertical Slider
+# Step H
 
-The Vertical Slider varies the datastream value between the datastream’s min/max values based on the slider’s vertical position. It is similar in the way a potentiometer is used to vary resistance based on its position.
+A horizontal widget that increments or decrements the datastream value in increments of a step value when the user taps on either the ‘+’ or ‘-’ icons.  It can also be configured to send the step value itself.
 
 ### Datastream
 
 Select or create a datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) integer or double. Widget properties (label, color, etc.) are also changed via the datastream, but only for virtual, enumerable, and location pins, not digital and analog pins.
 
+### Settings
+
+* **Step** - the increment/decrement value to be applied to the assigned datastream.&#x20;
+* **Send step** - when enabled, sends the step value rather than the incremented/decremented datastream value. &#x20;
+* **Loop values** - set the assigned datastream value to its minimum value when the next applied step value would reach the datastream maximum value.
+
 ### Widget Controls
 
 The widget has the following controls:
 
-**Send on release**: Enable to limit updating the assigned datastream value only when the control is released by the user.
+1. **+ button**: Increments the datastream value by step if ‘Send step’ is disabled, otherwise sends the step value when ‘Send step’ is enabled.
+2. **- button**: Decrements the datastream value by step if ‘Send step’ is disabled, otherwise sends the step value when ‘Send step’ is enabled.
 
 ### How to process widget input on the device
 
@@ -96,7 +103,7 @@ Blynk.setProperty(V1, "isDisabled", true);
 
 Widget will be greyed out on UI and users won't be able to tap on it.
 
-#### Set a color for the widget
+#### Change color of the +/- button icons
 
 ```cpp
 Blynk.setProperty(V1, "color", "#73D13D");  // green
@@ -172,7 +179,7 @@ the text used as widget label
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="color" type="string" %}
-color hexadecimal, must include the hash # character urlencoded as %23
+change the color of the +/- button icons, color hexadecimal, must include the hash # character urlencoded as %23
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="step" type="string" %}
