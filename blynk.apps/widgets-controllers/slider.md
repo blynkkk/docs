@@ -103,19 +103,6 @@ Blynk.setProperty(V1, "color", "#73D13D");  // green
 Blynk.setProperty(V1, "color", "#ED9D00");  // orange
 ```
 
-\
-
-
-Set a custom step:
-
-\
-\
-
-
-| Property Name | Description & Example                                                                  |
-| ------------- | -------------------------------------------------------------------------------------- |
-| step          | <p>Set a custom step or datastream value increment/decrement. </p><p>&#x26;step=10</p> |
-
 
 
 ### Change widget properties via HTTPs API
