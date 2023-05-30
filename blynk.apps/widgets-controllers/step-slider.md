@@ -1,6 +1,6 @@
-# Vertical Slider
+# Step Slider
 
-The Vertical Slider varies the datastream value between the datastream’s min/max values based on the slider’s vertical position. It is similar in the way a potentiometer is used to vary resistance based on its position.
+The Step Slider varies the datastream value between the datastream’s min/max values based on the slider’s horizontal position, in increments of the step setting.  It is similar in the way a rotary encoder is used to vary an output based on its position. &#x20;
 
 ### Datastream
 
@@ -10,7 +10,8 @@ Select or create a datastream of [data type](../../blynk.console/templates/datas
 
 The widget has the following controls:
 
-**Send on release**: Enable to limit updating the assigned datastream value only when the control is released by the user.
+1. **Step**: Defines the minimum increment of values generated in response to movement of the slider by the user. Note that if the hardware, Blynk.Console widget, or HTTP API changes the datastream value, then that change will be reflected in the slider position.
+2. **Send on release**: Enable to limit updating the assigned datastream value only when the control is released by the user.
 
 ### How to process widget input on the device
 
