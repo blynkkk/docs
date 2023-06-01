@@ -160,6 +160,7 @@
 * [Widgets Displays](blynk.apps/widgets-displays/README.md)
   * [Value Display](blynk.apps/widgets-displays/value-display.md)
   * [Gauge](blynk.apps/widgets-displays/gauge.md)
+  * [Radial Gauge](blynk.apps/widgets-displays/radial-gauge.md)
   * [Image Animation](blynk.apps/widgets-displays/image-animation.md)
   * [Lottie Animation](blynk.apps/widgets-displays/lottie-animation.md)
 * [Widgets Interface](blynk.apps/widgets-interface/README.md)
