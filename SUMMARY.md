@@ -159,6 +159,7 @@
   * [Step V](blynk.apps/widgets-controllers/step-v.md)
 * [Widgets Displays](blynk.apps/widgets-displays/README.md)
   * [Value Display](blynk.apps/widgets-displays/value-display.md)
+  * [Gauge](blynk.apps/widgets-displays/gauge.md)
   * [Image Animation](blynk.apps/widgets-displays/image-animation.md)
   * [Lottie Animation](blynk.apps/widgets-displays/lottie-animation.md)
 * [Widgets Interface](blynk.apps/widgets-interface/README.md)
