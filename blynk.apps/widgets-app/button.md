@@ -79,6 +79,34 @@ BLYNK_WRITE(V1) // this command is listening when something is written to V1
 }
 ```
 
+
+
+#### Changing button state
+
+You can set the state of the button by updating the assigned datastream value using the hardware or HTTP API. When the widget option ‘Use datastream’s Min/Max’ is enabled, then you set the datastream to the value assigned to the datastream max in order to set the button state to ON, and set it to the datastream min value to set the Button state OFF. When the widget option ‘Use datastream’s Min/Max’ is disabled, then you specify the values to use for the OFF/ON states.
+
+**Hardware:**
+
+```cpp
+Blynk.virtualWrite(vPin, 1);	// best practice
+// OR
+Blynk.virtualWrite(vPin, HIGH);
+// OR
+Blynk.virtualWrite(vPin, TRUE);
+```
+
+**HTTP API:**
+
+```cpp
+https://{server_address}/external/api/update/?token={your 32 char token}&V0=1
+
+https://{server_address}/external/api/batch/update/?token={your 32 char token}&V0=1
+```
+
+{% hint style="danger" %}
+Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](../../blynk.edgent-firmware-api/blynk-timer.md).
+{% endhint %}
+
 Sketch:[ Basic Sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
 
 Sketch:[ Physical Button Interrupt](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)
@@ -88,26 +116,6 @@ Sketch:[ Physical Button Poll](https://github.com/blynkkk/blynk-library/blob/mas
 Sketch: [Physical Button State Sync](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/SyncPhysicalButton/SyncPhysicalButton.ino)
 
 
-
-#### Changing button state
-
-You can also update the state of the button from hardware.
-
-```cpp
-Blynk.virtualWrite(vPin, HIGH);
-```
-
-or
-
-```cpp
-Blynk.virtualWrite(vPin, 1);
-```
-
-{% hint style="danger" %}
-Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](../../blynk.edgent-firmware-api/blynk-timer.md).
-{% endhint %}
-
-##
 
 ### Change Button Properties
 
