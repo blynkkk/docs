@@ -28,16 +28,7 @@ Max number of the **Update** requests (`/external/api/update`) per device per da
 
 These are limits that apply to a each device template:
 
-|                                                 Feature                                                 | FREE | PLUS | PRO |
-| :-----------------------------------------------------------------------------------------------------: | :--: | :--: | --- |
-|                                  [Datastreams](templates/datastreams/)                                  |  10  |  80  | 200 |
-|                                    Widgets per page in Blynk.Console                                    |  10  |  80  | 255 |
-|                                      Widgets per page in Blynk.Apps                                     |  10  |  80  | 255 |
-|                                                  Events                                                 |   5  |  10  | 100 |
-|                                             Metadata fields                                             |  10  |  10  | 10  |
-|                            Additional device dashboard pages in Blynk.Console                           |   -  |   1  | 3   |
-|      Additional device dashboard [pages](https://docs.blynk.io/en/blynk.apps/pages) in Blynk.apps       |   -  |   1  | 10  |
-| Additional [device info tabs](https://docs.blynk.io/en/blynk.apps/pages#device-info-tabs) in Blynk.apps |   -  |   1  | 5   |
+<table><thead><tr><th width="325">Feature</th><th width="125" align="center">FREE</th><th align="center">PLUS</th><th align="center">PRO</th></tr></thead><tbody><tr><td><a href="templates/datastreams/">Datastreams</a></td><td align="center">10</td><td align="center">80</td><td align="center">200</td></tr><tr><td>Widgets per page in Blynk.Console</td><td align="center">10</td><td align="center">80</td><td align="center">255</td></tr><tr><td>Widgets per page in Blynk.Apps</td><td align="center">10</td><td align="center">80</td><td align="center">255</td></tr><tr><td>Events</td><td align="center">5</td><td align="center">10</td><td align="center">100</td></tr><tr><td>Metadata fields</td><td align="center">10</td><td align="center">10</td><td align="center">10</td></tr><tr><td>Additional device dashboard pages in Blynk.Console</td><td align="center">-</td><td align="center">1</td><td align="center">3</td></tr><tr><td>Additional device dashboard <a href="https://docs.blynk.io/en/blynk.apps/pages">pages</a> in Blynk.apps </td><td align="center">-</td><td align="center">1</td><td align="center">10</td></tr><tr><td>Additional <a href="https://docs.blynk.io/en/blynk.apps/pages#device-info-tabs">device info tabs</a> in Blynk.apps</td><td align="center">-</td><td align="center">1</td><td align="center">5</td></tr></tbody></table>
 
 
 
@@ -45,19 +36,7 @@ These are limits that apply to a each device template:
 
 These are limits that apply to any organization (that includes all it's sub-organizations):
 
-|                                     Feature                                     | FREE |   PLUS   | PRO            |
-| :-----------------------------------------------------------------------------: | :--: | :------: | -------------- |
-|                                    Templates                                    |   3  |    10    | 50             |
-|                                     Devices                                     |   2  | 10 or 20 | 40, 100 or 500 |
-|          [Automations](../concepts/automations.md) per sub-organization         |   5  |    25    | 50             |
-| [Actions](https://docs.blynk.io/en/concepts/automations#actions) per automation |   5  |    25    | 50             |
-|                         Automation push/emails per hour                         |  20  |    20    | 20             |
-|                                      Users                                      |   5  |    10    | 100            |
-|                                Sub-organizations                                |   -  |     -    | 200            |
-|                      Levels of sub-organizations hierarchy                      |   -  |     -    | 4              |
-|                         Blynk.Air shipments (campaigns)                         |   2  |    10    | 25             |
-|                                    Locations                                    |   2  |    10    | 50             |
-|                                     Webhooks                                    |   1  |    10    | 40             |
+<table><thead><tr><th width="342">Feature</th><th width="134" align="center">FREE</th><th align="center">PLUS</th><th align="center">PRO</th></tr></thead><tbody><tr><td>Templates</td><td align="center">3</td><td align="center">10</td><td align="center">50</td></tr><tr><td>Devices</td><td align="center">2</td><td align="center">10 or 20</td><td align="center">40, 100 or 500</td></tr><tr><td><a href="../concepts/automations.md">Automations</a> per sub-organization</td><td align="center">5</td><td align="center">25</td><td align="center">50</td></tr><tr><td><a href="https://docs.blynk.io/en/concepts/automations#actions">Actions</a> per automation</td><td align="center">5</td><td align="center">25</td><td align="center">50</td></tr><tr><td>Automation push/emails per hour</td><td align="center">20</td><td align="center">20</td><td align="center">20</td></tr><tr><td>Users</td><td align="center">5</td><td align="center">10</td><td align="center">100</td></tr><tr><td>Sub-organizations</td><td align="center">-</td><td align="center">-</td><td align="center">200</td></tr><tr><td>Levels of sub-organizations hierarchy</td><td align="center">-</td><td align="center">-</td><td align="center">4</td></tr><tr><td>Blynk.Air shipments (campaigns)</td><td align="center">2</td><td align="center">10</td><td align="center">25</td></tr><tr><td>Locations</td><td align="center">2</td><td align="center">10</td><td align="center">50</td></tr><tr><td>Webhooks</td><td align="center">1</td><td align="center">10</td><td align="center">40</td></tr></tbody></table>
 
 
 
@@ -106,28 +85,4 @@ Max number of requests per device: 50 requests/second
 Max number of data points per device per day you can import into the device: 10,000 points
 
 Max length of the string value: 1024 bytes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

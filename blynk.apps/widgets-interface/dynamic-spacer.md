@@ -32,7 +32,7 @@ The placement of the widget below the Dynamic Spacer to the bottom of the page i
 
 When more than one Dynamic Spacer is on a page, then the space available to all of them is allocated in proportion to the multiplier values. In the example below, the designer has used one Dynamic Spacer with a multiplier of 5x, and another with a multiplier of 3x to locate the button widget in the space available with a ratio of 5:3 or approximately the Golden Ratio.
 
-![](../../.gitbook/assets/image.png)   ![](<../../.gitbook/assets/image (1).png>)
+![](../../.gitbook/assets/image.png)   ![](<../../.gitbook/assets/image (1) (1).png>)
 
 You have the flexibility to define any proportions you desire, and the layout will adapt seamlessly to various smartphone screen heights.
 

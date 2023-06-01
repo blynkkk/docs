@@ -16,7 +16,7 @@ For a notification to be considered an alert and become eligible for sound custo
 
 On the ‘General’ tab, enable the option ‘Send event to Notifications tab’ if you want the event to be visible in the app notifications tab.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Event "Send event to Notifications tab" setting</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Event "Send event to Notifications tab" setting</p></figcaption></figure>
 
 #### For iOS:
 
