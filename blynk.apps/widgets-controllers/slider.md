@@ -64,15 +64,7 @@ Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a 
 
 ### Properties you can change
 
-You can change the properties _step_, _color_, _label_, _isDisabled_, _isHidden_, and _page_ of the widget from your hardware, or via an [HTTP API](broken-reference). The color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.
-
-#### Set a custom step
-
-```cpp
-Blynk.setProperty(V1, "step", "10");
-```
-
-Set a custom step or datastream value increment/decrement.&#x20;
+You can change the properties _color_, _label_, _isDisabled_, _isHidden_ of the widget from your hardware, or via an [HTTP API](broken-reference). The color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.
 
 #### Set a custom label for the widget
 
@@ -112,8 +104,6 @@ Blynk.setProperty(V1, "color", "#ED9D00");  // orange
 The endpoint allows you to update the Datastream Property value via GET request. All widgets (both web and mobile) that are assigned to this datastream will inherit this property. The Datastream Property is persistent and will be stored forever until you change it with another value. In order to clear the property you need to clear the device data in device actions menu.
 
 **Example:**\
-`https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&step=10`
-
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V2&label=My%20Label`
 
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&color=%23D3435C`
@@ -173,10 +163,6 @@ the text used as widget label
 
 {% swagger-parameter in="query" name="color" type="string" %}
 color hexadecimal, must include the hash # character urlencoded as %23
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="step" type="string" %}
-Set a custom step or datastream value increment/decrement
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="isDisabled" type="string" %}
