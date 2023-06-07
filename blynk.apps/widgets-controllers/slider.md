@@ -130,10 +130,6 @@ The datastream
 {% swagger-parameter in="query" name="{property}" type="string" %}
 The property of the widget you want to update: 
 
-`step`
-
-, 
-
 `label`
 
 , 
