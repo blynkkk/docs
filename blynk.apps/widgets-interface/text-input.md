@@ -14,29 +14,30 @@ The widget only has a text display/input field.
 
 When button is pressed, value is sent and stored into the Blynk.Cloud. After that it's sent to your device.
 
-#### Reading the button value
+#### Reading the widget value(s)
 
 For example, if Button Widget is set to Datastream with Virtual Pin V1, you can use such code:
 
 ```cpp
-BLYNK_WRITE(V1) // this command is listening when something is written to V1
-{
-  int pinValue = param.asInt(); // assigning incoming value from pin V1 to a variable
-  
-  if (pinValue == 1){
-   // do something when button is pressed;
-  } else if (pinValue == 0) {
-   // do something when button is released;
-  }
-  
-  Serial.print("V1 button value is: "); // printing value to serial monitor
-  Serial.println(pinValue);
-}
+BLYNK_WRITE(V2) {   
+  // Called when the datastream virtual pin V2 is updated 
+  // by Blynk.Console, Blynk.App, or HTTP API. 
+
+  String value = param.asStr();
+  // OR:
+  //String value = param.asString();
+
+
+  Serial.print("V2 = '");
+  Serial.print(value);
+  Serial.println("'");    
+    
+} // BLYNK_WRITE()
 ```
 
 
 
-#### Changing button state
+#### Changing the datastream value(s)
 
 You can set the state of the button by updating the assigned datastream value using the hardware or HTTP API. If datastream virtual pin V2 is data type string:
 
