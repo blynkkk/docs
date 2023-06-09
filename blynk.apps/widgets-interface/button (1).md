@@ -1,20 +1,18 @@
-# Segmented Switch
+# Menu
 
-Presents two or more independently selectable options as labeled buttons or labeled buttons with icons and then updates the datastream with a numeric value corresponding to the index of the option selected by the user (index start is 0).
-
-![](https://lh4.googleusercontent.com/nXgM7Aw3vwCu6jcoxl52GqAO9-qp935jy1E1yi4zEzjf-S9T60qw2Wp5Sm63lO59ZV4NKgZXahTJGD3p7p4aA5I722oRjD6BlcUxaSM3DI5Z63ulZn\_71XrtFLmf\_-NIQo-2Ye-sro3gE-Ddz1BD0Ts)
+Creates a list of two or more text labeled menu items for the user to choose from. When the menu is tapped by the user, the list is displayed full screen in the app, displaying up to 11 menu items. More than 11 menu items may be accessed by scrolling the list. When the user taps a menu item, the zero based index is assigned to the assigned integer/enum datastream. The order of the menu items can be easily changed by dragging them vertically. Delete menu items by swiping them to the right.
 
 ### Datastream
 
-Select or create a datastream of [data type](https://docs.blynk.io/en/blynk.console/templates/datastreams/datastreams-common-settings/data-type) integer or enumerable. &#x20;
+Select or create a datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) integer or enumerable.
 
 ### Widget Controls
 
-The widget has no controls other than buttons that allow the user to select the configured options.&#x20;
+The widget controls are solely the menu items. If the number of items exceeds the page height, then the page can be scrolled vertically.
 
 ### How to process widget with the hardware
 
-When button is pressed, value is sent and stored into the Blynk.Cloud. After that it's sent to your device.
+When the menu item is pressed, value is sent and stored into the Blynk.Cloud. After that it's sent to your device.
 
 #### Reading the widget value(s)
 
@@ -37,13 +35,11 @@ BLYNK_WRITE {
 
 
 
-#### Changing the widget state
+#### Changing button state
 
-You can set the state of the widget by updating the assigned datastream value using the hardware or HTTP API. When the widget option ‘Use datastream’s Min/Max’ is enabled, then you set the datastream to the value assigned to the datastream max in order to set the button state to ON, and set it to the datastream min value to set the Button state OFF. When the widget option ‘Use datastream’s Min/Max’ is disabled, then you specify the values to use for the OFF/ON states.
+You can set the state of the button by updating the assigned datastream value using the hardware or HTTP API. For a datastream V5 assigned data type of integer or enumerable, the following will change the option selection to the second (index = 1):
 
 **Hardware:**
-
-For a datastream V5 assigned data type of integer or enumerable, the following will change the option selection to the second (index = 1):
 
 ```cpp
 Blynk.virtualWrite(V5, 1);
@@ -55,6 +51,10 @@ Blynk.virtualWrite(V5, 1);
 https://{server_address}/external/api/update/?token={your 32 char token}&V5=1
 ```
 
+{% hint style="danger" %}
+Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](../../blynk.edgent-firmware-api/blynk-timer.md).
+{% endhint %}
+
 
 
 Sketch:[ Basic Sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
@@ -63,7 +63,8 @@ Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sy
 
 Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonPoll/ButtonPoll.ino)[VirtualPinWrite](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/VirtualPinWrite/VirtualPinWrite.ino)
 
-Sketch: [VirtualPinRead](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/VirtualPinRead/VirtualPinRead.ino)\
+Sketch: [VirtualPinRead](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/VirtualPinRead/VirtualPinRead.ino)
+
 
 
 ### Change Widget Properties
@@ -84,31 +85,19 @@ Where:&#x20;
 Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, or use timers.
 {% endhint %}
 
+
+
 ### Properties you can change
 
-You can change the properties _labels_, _label_, _color_, _isDisabled_, _isHidden_, and _page_ of the widget from your hardware, or via an [HTTP API](broken-reference). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.
-
-#### **Change Option Labels**
-
-The _labels_ property for the two or more widget options can be changed from the hardware with this command:
-
-```cpp
-Blynk.setProperty(V1, "labels", "Unlocked", "Locked", "Reset");
-```
-
-The _labels_ property can also be changed from HTTP API:
-
-```cpp
-https://{server_address}/external/api/update/property?token={your 32 char token}&pin=V5&&labels=Unlocked&labels=Locked&labels=Reset
-```
+You can change the properties _label_, _color_, _isDisabled_, _isHidden_ of the widget from your hardware, or via an [HTTP API](broken-reference). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.
 
 #### **Change Widget Label**
 
 ```cpp
-Blynk.setProperty(V1, "label", "Select");
+Blynk.setProperty(V1, "label", "Air temperature");
 ```
 
-#### **Set Color**
+#### **Set Widget Color**
 
 ```cpp
 //#D3435C - Blynk RED 
@@ -166,14 +155,6 @@ The datastream
 {% swagger-parameter in="query" name="{property}" type="string" %}
 The property of the widget you want to update: 
 
-`onLabel`
-
-, 
-
-`offLabel`
-
-, 
-
 `label`
 
 , 
@@ -187,10 +168,6 @@ The property of the widget you want to update:
 , 
 
 `isHidden`
-
-, and 
-
-`page`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
