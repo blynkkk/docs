@@ -1,6 +1,6 @@
-# Level V
+# Level H
 
-Displays a vertically filled level for the last datastream value, proportionally between the datastream minimum and maximum values.
+Displays a horizontally filled level for the last datastream value, proportionally between the datastream minimum and maximum values.
 
 ### Datastream
 
@@ -11,8 +11,6 @@ Select or create a datastream of [data type](../../blynk.console/templates/datas
 The widget has no controls.
 
 ### How to process widget with the hardware
-
-When button is pressed, value is sent and stored into the Blynk.Cloud. After that it's sent to your device.
 
 #### Reading the widget value
 

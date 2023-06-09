@@ -1,10 +1,10 @@
-# Level V
+# Icon
 
-Displays a vertically filled level for the last datastream value, proportionally between the datastream minimum and maximum values.
+Displays one or more built-in icon images (URL not required). If more than one icon is configured, then the value of the datastream beginning with 0 specifies the index of the icon.&#x20;
 
 ### Datastream
 
-Select or create a datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) integer, double, or enumerable.
+Select or create a datastream of [data type](https://docs.blynk.io/en/blynk.console/templates/datastreams/datastreams-common-settings/data-type) integer or enumerable.&#x20;
 
 ### Widget Controls
 
@@ -12,46 +12,24 @@ The widget has no controls.
 
 ### How to process widget with the hardware
 
-#### Reading the widget value
-
-For example, if Level V widget is set to Datastream with Virtual Pin V1, you can use such code:
-
-```cpp
-BLYNK_WRITE(V1) {
-// Called when the datastream V1 value changes
-
-// Assign incoming value from pin V1 to a variable
-// according to the datastream data type
-int pinValue = param.asInt(); 
-// double pinValue = param.asDouble();
-
-if (pinValue == 0){
-  // do something when the value is 0
-} else if (pinValue > 0 && =< 128) {
-  // do something when the value is between 1 and 128
-} else {
-  // print value to serial monitor
-  Serial.print("V1 value is: "); 
-  Serial.println(pinValue);
-}
-
-}
-```
+The datastream value displayed is updated whenever the value stored on Blynk.Cloud changes.
 
 #### Changing the datastream value(s)
 
-You can set the state of the widget by updating the assigned datastream value using the hardware or HTTP API. For a datastream V1 assigned data type of integer, double, or enum:
+You can update the assigned datastream value using the hardware or HTTP API. You can change the icon shown by changing the datastream value to correspond to the icon index (beginning at 0). If only one icon is assigned, then the datastream value is ignored.
+
+For a datastream V5 assigned data type of integer or enumerable the code snippet below causes the second icon assigned to the widget to be displayed.
 
 **Hardware:**
 
 ```cpp
-Blynk.virtualWrite(V1, 1);
+Blynk.virtualWrite(V5, 1);
 ```
 
 **HTTP API:**
 
 ```cpp
-https://{server_address}/external/api/update/?token={your 32 char token}&V1=1
+https://{server_address}/external/api/update/?token={your 32 char token}&V5=1
 ```
 
 {% hint style="danger" %}
@@ -68,7 +46,7 @@ Sketch: [VirtualPinRead](https://github.com/blynkkk/blynk-library/blob/master/ex
 
 
 
-### Change Widget Properties
+### Change Button Properties
 
 You can change certain properties of the Widget from your hardware. For that, use this command:&#x20;
 
@@ -90,15 +68,15 @@ Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a 
 
 ### Properties you can change
 
-You can change the properties _label_, _color_, _isDisabled_, _isHidden_ of the widget from your hardware, or via an [HTTP API](broken-reference). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
+You can change the properties _label_, _color_, _isDisabled_, _isHidden_ of the widget from your hardware, or via an [HTTP API](broken-reference). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.
 
-#### **Change Widget Label**
+#### **Change Label**
 
 ```cpp
 Blynk.setProperty(V1, "label", "Air temperature");
 ```
 
-#### **Set Widget Color**
+#### **Set Icon Color**
 
 ```cpp
 //#D3435C - Blynk RED 
@@ -135,6 +113,8 @@ The endpoint allows you to update the Datastream Property value via GET request.
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&color=%23D3435C`
 
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&isDisabled=true`
+
+`https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&page={pageID}`
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="token" type="string" required="true" %}
@@ -184,7 +164,7 @@ the text used as widget label
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="color" type="string" %}
-button color hexadecimal, must include the hash # character urlencoded as %23
+icon color hexadecimal, must include the hash # character urlencoded as %23
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="isDisabled" type="string" %}
