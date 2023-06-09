@@ -171,6 +171,8 @@
   * [Text Input](blynk.apps/widgets-interface/button.md)
   * [Segmented Switch](blynk.apps/widgets-interface/button-1.md)
   * [Dynamic Spacer](blynk.apps/widgets-interface/dynamic-spacer.md)
+* [Widgets Other](blynk.apps/widgets-other/README.md)
+  * [Music Player](blynk.apps/widgets-other/button.md)
 * [Main Menu](blynk.apps/profile-management/README.md)
   * [My Profile](blynk.apps/profile-management/my-profile.md)
   * [Organization](blynk.apps/profile-management/organization-management.md)
