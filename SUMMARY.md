@@ -157,6 +157,7 @@
   * [RGB Light Control](blynk.apps/widgets-controllers/rgb-light-control.md)
   * [Step H](blynk.apps/widgets-controllers/step-h.md)
   * [Step V](blynk.apps/widgets-controllers/step-v.md)
+  * [Switch](blynk.apps/widgets-controllers/button.md)
 * [Widgets Displays](blynk.apps/widgets-displays/README.md)
   * [Value Display](blynk.apps/widgets-displays/value-display.md)
   * [Gauge](blynk.apps/widgets-displays/gauge.md)
