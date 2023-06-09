@@ -1,59 +1,60 @@
-# Segmented Switch
+# Text Input
 
-Presents two or more independently selectable options as labeled buttons or labeled buttons with icons and then updates the datastream with a numeric value corresponding to the index of the option selected by the user (index start is 0).
-
-![](https://lh4.googleusercontent.com/nXgM7Aw3vwCu6jcoxl52GqAO9-qp935jy1E1yi4zEzjf-S9T60qw2Wp5Sm63lO59ZV4NKgZXahTJGD3p7p4aA5I722oRjD6BlcUxaSM3DI5Z63ulZn\_71XrtFLmf\_-NIQo-2Ye-sro3gE-Ddz1BD0Ts)
+Displays the latest datastream of data type string value, and allows the user to enter and assign a new text value.
 
 ### Datastream
 
-Select or create a datastream of [data type](https://docs.blynk.io/en/blynk.console/templates/datastreams/datastreams-common-settings/data-type) integer or enumerable. &#x20;
+Select or create a datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) string.
 
 ### Widget Controls
 
-The widget has no controls other than buttons that allow the user to select the configured options.&#x20;
+The widget only has a text display/input field.
 
-### How to process widget with the hardware
+### How to process widget input on the device
 
 When button is pressed, value is sent and stored into the Blynk.Cloud. After that it's sent to your device.
 
-#### Reading the widget value(s)
+#### Reading the button value
 
-Example code:
+For example, if Button Widget is set to Datastream with Virtual Pin V1, you can use such code:
 
 ```cpp
-BLYNK_WRITE {
-  switch (param.asInt()) {
-    case 0: { // Item 1
-      Serial.println("Item 1 selected");
-      break;
-    }
-    case 1: { // Item 2
-      Serial.println("Item 2 selected");
-      break;
-    }    
+BLYNK_WRITE(V1) // this command is listening when something is written to V1
+{
+  int pinValue = param.asInt(); // assigning incoming value from pin V1 to a variable
+  
+  if (pinValue == 1){
+   // do something when button is pressed;
+  } else if (pinValue == 0) {
+   // do something when button is released;
   }
+  
+  Serial.print("V1 button value is: "); // printing value to serial monitor
+  Serial.println(pinValue);
 }
 ```
 
 
 
-#### Changing the widget state
+#### Changing button state
 
-You can set the state of the widget by updating the assigned datastream value using the hardware or HTTP API. When the widget option ‘Use datastream’s Min/Max’ is enabled, then you set the datastream to the value assigned to the datastream max in order to set the button state to ON, and set it to the datastream min value to set the Button state OFF. When the widget option ‘Use datastream’s Min/Max’ is disabled, then you specify the values to use for the OFF/ON states.
+You can set the state of the button by updating the assigned datastream value using the hardware or HTTP API. If datastream virtual pin V2 is data type string:
 
 **Hardware:**
 
-For a datastream V5 assigned data type of integer or enumerable, the following will change the option selection to the second (index = 1):
-
 ```cpp
-Blynk.virtualWrite(V5, 1);
+Blynk.virtualWrite(V2, “My new datastream value”);
 ```
 
 **HTTP API:**
 
 ```cpp
-https://{server_address}/external/api/update/?token={your 32 char token}&V5=1
+https://{server_address}/external/api/update/?token={your 32 char token}&V2=My%20new%20datastream%20value
 ```
+
+{% hint style="danger" %}
+Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](../../blynk.edgent-firmware-api/blynk-timer.md).
+{% endhint %}
 
 
 
@@ -63,7 +64,8 @@ Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sy
 
 Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonPoll/ButtonPoll.ino)[VirtualPinWrite](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/VirtualPinWrite/VirtualPinWrite.ino)
 
-Sketch: [VirtualPinRead](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/VirtualPinRead/VirtualPinRead.ino)\
+Sketch: [VirtualPinRead](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/VirtualPinRead/VirtualPinRead.ino)
+
 
 
 ### Change Widget Properties
@@ -84,31 +86,19 @@ Where:&#x20;
 Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, or use timers.
 {% endhint %}
 
+
+
 ### Properties you can change
 
-You can change the properties _labels_, _label_, _color_, _isDisabled_, _isHidden_, and _page_ of the widget from your hardware, or via an [HTTP API](broken-reference). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.
-
-#### **Change Option Labels**
-
-The _labels_ property for the two or more widget options can be changed from the hardware with this command:
-
-```cpp
-Blynk.setProperty(V1, "labels", "Unlocked", "Locked", "Reset");
-```
-
-The _labels_ property can also be changed from HTTP API:
-
-```cpp
-https://{server_address}/external/api/update/property?token={your 32 char token}&pin=V5&&labels=Unlocked&labels=Locked&labels=Reset
-```
+You can change the properties _label_, _color_, _isDisabled_, _isHidden_ of the widget from your hardware, or via an [HTTP API](broken-reference). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
 
 #### **Change Widget Label**
 
 ```cpp
-Blynk.setProperty(V1, "label", "Select");
+Blynk.setProperty(V1, "label", "Air temperature");
 ```
 
-#### **Set Color**
+#### **Set Text Color**
 
 ```cpp
 //#D3435C - Blynk RED 
@@ -130,8 +120,6 @@ Widget will be hidden from dashboard. Design your UI so that it doesn't look wei
 ```cpp
 Blynk.setProperty(V1, "isHidden", true);
 ```
-
-
 
 ### Change widget properties via HTTPs API
 
@@ -166,14 +154,6 @@ The datastream
 {% swagger-parameter in="query" name="{property}" type="string" %}
 The property of the widget you want to update: 
 
-`onLabel`
-
-, 
-
-`offLabel`
-
-, 
-
 `label`
 
 , 
@@ -187,10 +167,6 @@ The property of the widget you want to update:
 , 
 
 `isHidden`
-
-, and 
-
-`page`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
