@@ -1,10 +1,10 @@
-# Value Display
+# Image Gallery
 
-Displays the latest datastream / virtual pin value formatted according to the datastream decimal place settings (DECIMALS) for numbers, and any units when defined.
+Displays one or more images specified by a HTTPS URL. You can change the image shown by configuring a datastream of type integer and then changing the datastream value to correspond to the image URL index (beginning at 0). If only one image URL is assigned, then the datastream value is ignored. Make sure to encode the image URL.
 
 ### Datastream
 
-Select or create a datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) integer, double, enumerable, or string (does not accept location). Widget properties (label, color, etc.) are also changed via the datastream, but only for virtual, enumerable, and location pins, not digital and analog pins.
+Select or create a datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) integer.
 
 ### Widget Controls
 
@@ -44,7 +44,7 @@ Serial.println(pinValue);
 
 #### Changing the datastream value
 
-You can update the assigned datastream value using the hardware or HTTP API.&#x20;
+You can update the assigned datastream value using the hardware or HTTP API. You can change the image shown by changing the datastream value to correspond to the image URL index (beginning at 0). If only one image URL is assigned, then the datastream value is ignored. Make sure to encode the image URL.
 
 **Hardware:**
 
@@ -96,19 +96,12 @@ Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a 
 
 ### Properties you can change
 
-You can change the properties _label_, _color_, _isDisabled_, _isHidden_ of the widget from your hardware, or via an [HTTP API](broken-reference). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
+You can change the properties _label_, _isDisabled_, _isHidden_ of the widget from your hardware, or via an [HTTP API](broken-reference). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
 
 #### **Change Label**
 
 ```cpp
 Blynk.setProperty(V1, "label", "Air temperature");
-```
-
-#### **Set Color**
-
-```cpp
-//#D3435C - Blynk RED 
-Blynk.setProperty(V1, "color", "#D3435C");
 ```
 
 #### **Disable/Enable**
@@ -136,8 +129,6 @@ The endpoint allows you to update the Datastream Property value via GET request.
 **Example:**\
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V2&label=My%20Label`
 
-`https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&color=%23D3435C`
-
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&isDisabled=true`
 {% endswagger-description %}
 
@@ -164,10 +155,6 @@ The property of the widget you want to update:
 
 , 
 
-`color`
-
-, 
-
 `isDisabled`
 
 , 
@@ -185,10 +172,6 @@ Get from the bottom right of your Blynk console.
 
 {% swagger-parameter in="query" name="label" type="string" %}
 the text used as widget label
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="color" type="string" %}
-button color hexadecimal, must include the hash # character urlencoded as %23
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="isDisabled" type="string" %}
