@@ -148,6 +148,12 @@ Blynk.setProperty(V1, "onLabel", "ON");
 Blynk.setProperty(V1, "offLabel", "OFF");
 ```
 
+#### **Change Widget Label**
+
+```cpp
+Blynk.setProperty(V1, "label", "Air temperature");
+```
+
 #### **Set Button Color**
 
 ```cpp

@@ -164,6 +164,7 @@
   * [Radial Gauge](blynk.apps/widgets-displays/radial-gauge.md)
   * [Enhanced Gauge](blynk.apps/widgets-displays/enhanced-gauge.md)
   * [Image Gallery](blynk.apps/widgets-displays/image-gallery.md)
+  * [Icon](blynk.apps/widgets-displays/button.md)
   * [Image Animation](blynk.apps/widgets-displays/image-animation.md)
   * [Lottie Animation](blynk.apps/widgets-displays/lottie-animation.md)
 * [Widgets Interface](blynk.apps/widgets-interface/README.md)
