@@ -1,30 +1,35 @@
 ---
-description: Send and
+description: Set and receive metadata values
 ---
 
 # Metadata
 
-[Metadata](../blynk.console/templates/metadata/) is a `key:value` set of data applied to every device using the same template. Unlinke Datastreams, this data stays mostly unchanged, however, if you need to read/write it, here is how to do it:&#x20;
+[Metadata](../blynk.console/templates/metadata/) is a `key:value` set of data applied to every device using the same template. Unlike Datastreams, this data stays mostly unchanged, however, if you need to read/write it, here is how to do it:&#x20;
 
 ### Get device Metadata
 
-Device can request value of its own metadata from the cloud using the key (name) of Metadata.
+The device can request the value of its own metadata from the cloud using the key (name) of Metadata.
 
 {% hint style="info" %}
-Double check that you have a Metadata field with a correct name configured in the Device Template.
+Double-check that you have a Metadata field with a correct name configured in the Device Template.
 {% endhint %}
 
-First you need to send a request to Blynk.Cloud
+First, you need to send a request to Blynk.Cloud
 
 ```cpp
 BLYNK_CONNECTED() {
   // Send requests for different metadata
   Blynk.sendInternal("meta", "get", "Serial Number");
   Blynk.sendInternal("meta", "get", "Device Model");
+  
+  //"Auth Token" is a reserved metadata name, if you have your own metadata
+  //with that name it will override the default implementation
+  //which returns device.token field
+  Blynk.sendInternal("meta", "get", "Auth Token");
 }
 ```
 
-Then, parse the data stored in `InternalPinMETA`, which is a system pin to store metadata values.
+Then, parse the data stored in `InternalPinMETA`, which a system pin to store metadata values.
 
 ```cpp
 BLYNK_WRITE(InternalPinMETA) {
@@ -35,15 +40,18 @@ BLYNK_WRITE(InternalPinMETA) {
     } else if (field == "Device Model") {
         String value = param[1].asStr();
         // Do something with Metadata value
+    } else if (filed == "Auth Token") {
+        String value = param[1].asStr();
+        // Do something with Metadata value
     }
 }
 ```
 
 ### Write device metadata
 
-Device can update the value of the metadata using metadata key (name).&#x20;
+The device can update the value of the metadata using the metadata key (name).&#x20;
 
-For example, if your devices stores Serial Number and Device Model internally, you can write this values to corresponding metadata fields. &#x20;
+For example, if your device stores Serial Number and Device Model internally, you can write these values to corresponding metadata fields. &#x20;
 
 ```cpp
 sn_value = "123456789"       //imaginary serial number
