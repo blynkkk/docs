@@ -12,11 +12,11 @@ The widget only has a text display/input field.
 
 ### How to process widget input on the device
 
-When button is pressed, value is sent and stored into the Blynk.Cloud. After that it's sent to your device.
+When the text is entered into the widget input field, the value is sent and stored into the Blynk.Cloud. After that it's sent to your device.
 
 #### Reading the widget value(s)
 
-For example, if Button Widget is set to Datastream with Virtual Pin V1, you can use such code:
+For example, if the Widget is set to Datastream with Virtual Pin V1, you can use such code:
 
 ```cpp
 BLYNK_WRITE(V2) {   
@@ -39,7 +39,7 @@ BLYNK_WRITE(V2) {
 
 #### Changing the datastream value(s)
 
-You can set the state of the button by updating the assigned datastream value using the hardware or HTTP API. If datastream virtual pin V2 is data type string:
+You can set the state of the widget by updating the assigned datastream value using the hardware or HTTP API. If datastream virtual pin V2 is data type string:
 
 **Hardware:**
 

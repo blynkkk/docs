@@ -37,7 +37,7 @@ BLYNK_WRITE {
 
 #### Changing button state
 
-You can set the state of the button by updating the assigned datastream value using the hardware or HTTP API. For a datastream V5 assigned data type of integer or enumerable, the following will change the option selection to the second (index = 1):
+You can change the value of the datastream assigned to the widget with hardware or HTTP API. For a datastream V5 assigned data type of integer or enumerable, the following will change the option selection to the second (index = 1):
 
 **Hardware:**
 
