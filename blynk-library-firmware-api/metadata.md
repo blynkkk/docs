@@ -25,6 +25,7 @@ BLYNK_CONNECTED() {
   //"Auth Token" is a reserved metadata name, if you have your own metadata
   //with that name it will override the default implementation
   //which returns device.token field
+  //you can't change the value of reserved metadata field, only if you override it
   Blynk.sendInternal("meta", "get", "Auth Token");
 }
 ```
