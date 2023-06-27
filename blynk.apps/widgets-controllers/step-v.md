@@ -43,6 +43,30 @@ BLYNK_WRITE(V1) // this command is listening when something is written to V1
 }
 ```
 
+#### Changing the datastream value
+
+You can update the assigned datastream value using the hardware or HTTP API.&#x20;
+
+**Hardware:**
+
+```cpp
+Blynk.virtualWrite(vPin, 1);
+```
+
+**HTTP API:**
+
+```cpp
+https://{server_address}/external/api/update/?token={your 32 char token}&V0=1
+
+https://{server_address}/external/api/batch/update/?token={your 32 char token}&V0=1
+```
+
+{% hint style="danger" %}
+Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](../../blynk.edgent-firmware-api/blynk-timer.md).
+{% endhint %}
+
+
+
 Sketch:[ Basic Sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
 
 Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)[Set Property](https://github.com/blynkkk/blynk-library/blob/master/examples/More/SetProperty/SetProperty\_SingleValue/SetProperty\_SingleValue.ino)
@@ -50,6 +74,8 @@ Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sy
 Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonPoll/ButtonPoll.ino)[VirtualPinWrite](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/VirtualPinWrite/VirtualPinWrite.ino)
 
 Sketch: [VirtualPinRead](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/VirtualPinRead/VirtualPinRead.ino)
+
+
 
 ### Change Widget Properties
 
