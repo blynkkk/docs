@@ -160,6 +160,7 @@
   * [Step H](blynk.apps/widgets-controllers/step-h.md)
   * [Step V](blynk.apps/widgets-controllers/step-v.md)
   * [Switch](blynk.apps/widgets-controllers/switch.md)
+  * [Level Slider](blynk.apps/widgets-controllers/level-slider.md)
 * [Widgets Displays](blynk.apps/widgets-displays/README.md)
   * [Value Display](blynk.apps/widgets-displays/value-display.md)
   * [Gauge](blynk.apps/widgets-displays/gauge.md)
