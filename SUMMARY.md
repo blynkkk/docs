@@ -159,6 +159,7 @@
   * [RGB Light Control](blynk.apps/widgets-controllers/rgb-light-control.md)
   * [Step H](blynk.apps/widgets-controllers/step-h.md)
   * [Step V](blynk.apps/widgets-controllers/step-v.md)
+  * [Slope Control](blynk.apps/widgets-controllers/slope-control.md)
   * [Switch](blynk.apps/widgets-controllers/switch.md)
   * [Level Slider](blynk.apps/widgets-controllers/level-slider.md)
 * [Widgets Displays](blynk.apps/widgets-displays/README.md)

@@ -101,3 +101,27 @@ The Misc tab allows you to configure the track termination point style, and opti
 **Choose Datastream** - select a datastream that contains course information in degrees (e.g. device compass data) in order to show the course direction with the Course and Truck track point styles.
 
 **Use global time range selector** - when enabled, the global time range setting will constrain the range of data displayed.
+
+
+
+### Changing the datastream value(s)
+
+You can update the assigned datastream value using the hardware or HTTP API.&#x20;
+
+**Hardware:**
+
+```cpp
+double lat = 40.8414;
+double lon = -73.8731
+Blynk.virtualWrite(V1, lon, lat);
+```
+
+**HTTP API:**
+
+```
+https://{server_address}/external/api/update/?token={your 32 char token}&V1=-73.8731&V1=40.8414
+```
+
+{% hint style="danger" %}
+Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](../../blynk.edgent-firmware-api/blynk-timer.md).
+{% endhint %}
