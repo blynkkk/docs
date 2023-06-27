@@ -168,6 +168,7 @@
   * [Gauge](blynk.apps/widgets-displays/gauge.md)
   * [Radial Gauge](blynk.apps/widgets-displays/radial-gauge.md)
   * [Enhanced Gauge](blynk.apps/widgets-displays/enhanced-gauge.md)
+  * [LCD](blynk.apps/widgets-displays/lcd.md)
   * [Simple Chart](blynk.apps/widgets-displays/simple-chart.md)
   * [Video Stream](blynk.apps/widgets-displays/video-stream.md)
   * [Level H](blynk.apps/widgets-displays/level-h.md)
