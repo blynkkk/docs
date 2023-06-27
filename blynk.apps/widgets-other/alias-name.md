@@ -1,34 +1,23 @@
-# Gradient Ramp
+# Alias Name
 
-Visually displays the integer or datastream value as a gradient ramp.
+Displays the name of the assigned datastream and optionally permits editing of the name when the Edit mode is enabled.
 
 ### Datastream
 
-Select or create a datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) integer or double. Widget properties (label, color, etc.) are also changed via the datastream, but only for virtual, enumerable, and location pins, not digital and analog pins.
+Select or create a datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) integer, double, enumerable, or string. Widget properties (label, color, etc.) are also changed via the datastream, but only for virtual, enumerable, and location pins, not digital and analog pins.
 
 ### Widget Controls
 
 The widget has no controls.
 
-### How to process widget input on the device
+### Mode
 
-#### Reading the widget value(s)
+* **View** - the assigned datastream ‘Name’ is displayed.
+* **Edit** - the assigned datastream ‘Name’ is displayed in an edit box and may be changed by the user.
 
-For example, if the Widget is set to Datastream with Virtual Pin V1, you can use such code:
+### How to process widget with the hardware
 
-```cpp
-BLYNK_WRITE(V1) {
-// Called when the datastream V1 value changes
-
-// Assign incoming value from pin V1 to a variable
-// according to the datastream data type
-int pinValue = param.asInt(); 
-// double pinValue = param.asDouble();
-
-Serial.print(“V1: “);
-Serial.println(pinValue);
-}
-```
+The widget makes no changes to the datastream other than editing the datastream ‘Name’. Changes to the datastream values have no influence on the visual content or behavior of this widget.
 
 
 
