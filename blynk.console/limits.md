@@ -66,7 +66,7 @@ Max URL length: 1024 chars
 
 Max body size: 5 KB
 
-Max number of Webhooks per organization: 1 for Free, 5 for Plus, 20 for Pro plan
+Max number of Webhooks per organization: 1 for Free, 10-20 for Plus, 40-100 for Pro plan
 
 Limit rate: 1 request per minute per webhook
 
