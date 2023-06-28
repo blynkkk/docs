@@ -2,7 +2,7 @@
 
 ![](../../.gitbook/assets/simple-chart-widget-newsletter.png)
 
-Simple Chart widget visualizes numerical data that comes from the device plotting a historical graph. It features:
+Visualize live and historical data in a chart from a **single** datastream. Applications include sensor data and binary event logging. Simple Chart features:
 
 * line, stepped line, or bar chart types
 * plotting data resolutions: 1 min, 1 hour, or 1 day
