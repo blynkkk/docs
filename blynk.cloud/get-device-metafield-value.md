@@ -1,5 +1,9 @@
 # Get Device Metadata Value
 
+You can get the value of any single-value (text, number, email, hostspot, device name, list, int, imei, image, iccid, device owner email) device meta field using it **exact name** (case sensitive).
+
+**loc.latlon** is special hardcoded internal meta field to get device location "lat lon".
+
 {% swagger baseUrl="https://{server_address}" path="/external/api/device/meta?token={token}&metaFieldId={metaFieldId}" method="get" summary="Get Device Metafield Value" %}
 {% swagger-description %}
 This endpoint allows you to get the device metaField value by its id.
