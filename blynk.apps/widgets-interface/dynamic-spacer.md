@@ -20,7 +20,7 @@ Placing the Dynamic Spacer with a widget below it will cause the widget to be pl
 
 Remember, for the Dynamic Spacer to function correctly, it should be set to 'stick' to the edges of the objects above it and below. Note how the Dynamic Spacer in the example below is sticking to the top of the page, causing it to operate on the space between it and the widgets below it.
 
-![](<../../.gitbook/assets/image (2) (4).png>)   ![](<../../.gitbook/assets/image (6).png>)
+![](<../../.gitbook/assets/image (2).png>)   ![](<../../.gitbook/assets/image (6).png>)
 
 The placement of the widget below the Dynamic Spacer to the bottom of the page is the same when the Dynamic Spacer is sticking to a widget above it (instead of the top of the page).
 
@@ -32,7 +32,7 @@ The placement of the widget below the Dynamic Spacer to the bottom of the page i
 
 When more than one Dynamic Spacer is on a page, then the space available to all of them is allocated in proportion to the multiplier values. In the example below, the designer has used one Dynamic Spacer with a multiplier of 5x, and another with a multiplier of 3x to locate the button widget in the space available with a ratio of 5:3 or approximately the Golden Ratio.
 
-![](<../../.gitbook/assets/image (1).png>)   ![](<../../.gitbook/assets/image (1) (1).png>)
+![](<../../.gitbook/assets/image (34).png>)   ![](<../../.gitbook/assets/image (1) (1).png>)
 
 You have the flexibility to define any proportions you desire, and the layout will adapt seamlessly to various smartphone screen heights.
 

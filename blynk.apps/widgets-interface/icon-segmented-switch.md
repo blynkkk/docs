@@ -2,7 +2,7 @@
 
 Presents two or more independently selectable options as icons and then updates the datastream with a numeric value corresponding to the index of the option selected by the user (index start is 0).
 
-![](<../../.gitbook/assets/image (2).png>)
+![](../../.gitbook/assets/image.png)
 
 ### Datastream
 

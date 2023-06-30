@@ -4,7 +4,7 @@ Displays visually and numerically the latest datastream value, and optionally an
 
 An indicator on a circle is positioned based on the latest datastream value and proportional to an arc of 270 degrees and the datastream min and max values. The last datastream value is also shown as a number in the center of the display. A filled radial arc of 270 degrees with a fading color from light to dark visually enhances the gauge.
 
-<figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption><p>Enhanced Gauge in different modes</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Enhanced Gauge in different modes</p></figcaption></figure>
 
 ### Mode
 

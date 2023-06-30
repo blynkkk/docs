@@ -39,7 +39,7 @@ BLYNK_WRITE {
 
 #### Changing the widget state
 
-You can set the state of the widget by updating the assigned datastream value using the hardware or HTTP API. When the widget option ‘Use datastream’s Min/Max’ is enabled, then you set the datastream to the value assigned to the datastream max in order to set the button state to ON, and set it to the datastream min value to set the Button state OFF. When the widget option ‘Use datastream’s Min/Max’ is disabled, then you specify the values to use for the OFF/ON states.
+You can set the state of the widget by updating the assigned datastream value using the hardware or HTTP API.
 
 **Hardware:**
 
