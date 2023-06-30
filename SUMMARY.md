@@ -171,6 +171,7 @@
   * [LCD](blynk.apps/widgets-displays/lcd.md)
   * [SuperChart](blynk.apps/widgets-displays/superchart.md)
   * [Simple Chart](blynk.apps/widgets-displays/simple-chart.md)
+  * [Terminal](blynk.apps/widgets-displays/terminal.md)
   * [Video Stream](blynk.apps/widgets-displays/video-stream.md)
   * [Level H](blynk.apps/widgets-displays/level-h.md)
   * [Level V](blynk.apps/widgets-displays/level-v.md)
