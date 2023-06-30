@@ -1,6 +1,6 @@
 # Icon Segmented Switch
 
-Presents two or more independently selectable options as icons and then updates the datastream with a numeric value corresponding to the index of the option selected by the user (index start is 0).
+Presents two or more independently selectable options as icons and then updates the datastream with a numeric value corresponding to the index of the option selected by the user (index start is 0). The maximum number of items is 4 (0..3) on Android and 5 (0..4) on iOS.
 
 ![](../../.gitbook/assets/image.png)
 
