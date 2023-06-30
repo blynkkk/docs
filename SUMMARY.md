@@ -182,6 +182,7 @@
   * [Image Animation](blynk.apps/widgets-displays/image-animation.md)
   * [Lottie Animation](blynk.apps/widgets-displays/lottie-animation.md)
 * [Widgets Interface](blynk.apps/widgets-interface/README.md)
+  * [Tabs](blynk.apps/widgets-interface/tabs.md)
   * [Menu](blynk.apps/widgets-interface/menu.md)
   * [Text Input](blynk.apps/widgets-interface/text-input.md)
   * [Numeric Input](blynk.apps/widgets-interface/numeric-input.md)
