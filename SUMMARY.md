@@ -183,6 +183,7 @@
 * [Widgets Interface](blynk.apps/widgets-interface/README.md)
   * [Menu](blynk.apps/widgets-interface/menu.md)
   * [Text Input](blynk.apps/widgets-interface/text-input.md)
+  * [Numeric Input](blynk.apps/widgets-interface/numeric-input.md)
   * [Segmented Switch](blynk.apps/widgets-interface/segmented-switch.md)
   * [Dynamic Spacer](blynk.apps/widgets-interface/dynamic-spacer.md)
 * [Widgets Other](blynk.apps/widgets-other/README.md)
