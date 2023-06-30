@@ -2,7 +2,11 @@
 
 ![](../../.gitbook/assets/simple-chart-widget-newsletter.png)
 
-Visualize live and historical data in a chart from a **single** datastream. Applications include sensor data and binary event logging. Simple Chart features:
+Visualize live and historical data in a chart from a **single** datastream. Applications include sensor data and binary event logging. Choose from data aggregation options of average and sum. The Y-axis scaling can be customized.  Scrolling is an option, and you can connect missing data points.
+
+See also the [SuperChart widget](superchart.md) that can handle multiple datastreams, shows the Y axis values, and supports the chart types of line, step, area, bar, state.
+
+Simple Chart features:
 
 * line, stepped line, or bar chart types
 * plotting data resolutions: 1 min, 1 hour, or 1 day

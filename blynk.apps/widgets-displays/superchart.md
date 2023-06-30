@@ -2,6 +2,8 @@
 
 Visualize live and historical data in a chart from one or more datastreams. Applications include sensor data and binary event logging.
 
+Also, see the [Simple Chart widget](simple-chart.md) that supports data aggregation options of average and sum as well as live data plotting.
+
 
 
 ### Datastream
