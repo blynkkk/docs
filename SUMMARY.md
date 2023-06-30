@@ -185,6 +185,7 @@
   * [Text Input](blynk.apps/widgets-interface/text-input.md)
   * [Numeric Input](blynk.apps/widgets-interface/numeric-input.md)
   * [Segmented Switch](blynk.apps/widgets-interface/segmented-switch.md)
+  * [Icon Segmented Switch](blynk.apps/widgets-interface/icon-segmented-switch.md)
   * [Dynamic Spacer](blynk.apps/widgets-interface/dynamic-spacer.md)
 * [Widgets Other](blynk.apps/widgets-other/README.md)
   * [Music Player](blynk.apps/widgets-other/music-player.md)
