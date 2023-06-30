@@ -164,6 +164,7 @@
   * [Level Slider](blynk.apps/widgets-controllers/level-slider.md)
 * [Widgets Displays](blynk.apps/widgets-displays/README.md)
   * [Value Display](blynk.apps/widgets-displays/value-display.md)
+  * [Labeled Value](blynk.apps/widgets-displays/value-display-1.md)
   * [LED](blynk.apps/widgets-displays/led.md)
   * [Gauge](blynk.apps/widgets-displays/gauge.md)
   * [Radial Gauge](blynk.apps/widgets-displays/radial-gauge.md)
