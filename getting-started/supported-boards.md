@@ -48,15 +48,15 @@ As part of Blynk.Edgent the following features are fully supported:\
 
 ### Dual-MCU Boards supported by `Blynk.NCP`
 
-Board                            | OTA for MCU | OTA for NCP   | Connectivity | Provisioning
-:--                              | :---        | :---          | :---         | :---
-[UNO R4 WiFi][1]                 | `⏳ RA4M1`  | `✅ ESP32s3`   | WiFi 2.4     | ✅ BLE
-[Portenta C33][2]                | `⏳ RA6M5`  | `✅ ESP32c3`   | WiFi 2.4     | ✅ BLE
-[Nano RP2040 Connect][3]         | `✅ RP2040` | `❌ NINA_W102` | WiFi 2.4     | ✅ BLE
-[Nano 33 IoT][4]                 | `✅ SAMD21` | `❌ NINA_W102` | WiFi 2.4     | ✅ BLE
-[MKR WiFi 1010][5]               | `✅ SAMD21` | `❌ NINA_W102` | WiFi 2.4     | ✅ BLE
-[T-PicoC3][6]                    | `✅ RP2040` | `✅ ESP32c3`   | WiFi 2.4     | ✅ BLE
-[RPi Pico][7] + [ESP8266][8]     | `✅ RP2040` | `✅ ESP8266`   | WiFi 2.4     | ✅ WiFiAP
+Board                            | OTA for MCU | OTA for NCP    | Connectivity | Provisioning | NCP File System
+:--                              | :---        | :---           | :---         | :---         | :--
+[UNO R4 WiFi][1]                 | `⏳ RA4M1`  | `✅ ESP32s3`   | WiFi 2.4     | ✅ BLE       | 4.25 MB
+[Portenta C33][2]                | `⏳ RA6M5`  | `✅ ESP32c3`   | WiFi 2.4     | ✅ BLE       | 512 KB
+[Nano RP2040 Connect][3]         | `✅ RP2040` | `❌ NINA_W102` | WiFi 2.4     | ✅ BLE       | 384 KB
+[Nano 33 IoT][4]                 | `✅ SAMD21` | `❌ NINA_W102` | WiFi 2.4     | ✅ BLE       | 384 KB
+[MKR WiFi 1010][5]               | `✅ SAMD21` | `❌ NINA_W102` | WiFi 2.4     | ✅ BLE       | 384 KB
+[T-PicoC3][6]                    | `✅ RP2040` | `✅ ESP32c3`   | WiFi 2.4     | ✅ BLE       | 512 KB
+[RPi Pico][7] + [ESP8266][8]     | `✅ RP2040` | `✅ ESP8266`   | WiFi 2.4     | ✅ WiFiAP    | 1000 KB
 
 
 [1]: https://store-usa.arduino.cc/products/uno-r4-wifi
