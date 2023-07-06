@@ -85,6 +85,7 @@ Connectivity module              | Firmware file               | Chipset        
 [Witty Cloud][24]                | [link][generic_esp8266_4M]  | `ESP8266`       | WiFi 2.4     | WiFiAP       | RGB LED, User Button
 [DFRobot WiFi Bee][25]           | [link][generic_esp8266_4M]  | `ESP8266`       | WiFi 2.4     | WiFiAP       | User Button
 ESP-07S, ESP-12F                 | [link][generic_esp8266_4M]  | `ESP8266`       | WiFi 2.4     | WiFiAP       |
+ESP-01, ESP-01S                  | [link][generic_esp8266_1M]  | `ESP8266`       | WiFi 2.4     | WiFiAP       |
 
 [10]: https://www.espressif.com/en/products/modules
 
@@ -96,6 +97,7 @@ ESP-07S, ESP-12F                 | [link][generic_esp8266_4M]  | `ESP8266`      
 [25]: https://www.dfrobot.com/product-1279.html
 [26]: https://www.u-blox.com/en/product/nina-w10-series-open-cpu
 
+[generic_esp8266_1M]: https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP_generic_esp8266_1M.flash.bin
 [generic_esp8266_4M]: https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP_generic_esp8266_4M.flash.bin
 [generic_esp32_4M]: https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP_generic_esp32_4M.flash.bin
 [generic_esp32c3_4M]: https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP_generic_esp32c3_4M.flash.bin
