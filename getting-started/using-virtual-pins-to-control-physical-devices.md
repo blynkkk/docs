@@ -171,7 +171,7 @@ BLYNK_CONNECTED()
 }
 ```
 
-***
+
 
 ### **Pin numbering**
 
@@ -198,13 +198,13 @@ digitalWrite(D4,HIGH);
 
 But this approach makes it much more difficult to use your code on different types of devices if you ever need to.
 
-***
+
 
 ### **Some NodeMCU physical pins need to be avoided**
 
 Some of the pins on the NodeMCU aren’t really suitable for connecting some types of devices to. In particular, if GPIO0 (the pin labeled D3) is pulled LOW at startup then the device won’t execute the sketch but will enter programming mode, waiting for a new sketch to be uploaded instead. There’s more info on this topic: [ESP8266 GPIO pins info, restrictions and features](https://community.blynk.cc/t/esp8266-gpio-pins-info-restrictions-and-features/22872) [FAQ](https://community.blynk.cc/c/faq/8)
 
-***
+
 
 ### **How to trigger multiple actions (e.g. turn 4 relays on/off) with a single button in the app?**
 

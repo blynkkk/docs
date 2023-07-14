@@ -6,6 +6,8 @@ Available to PRO and higher plan users.
 
 The dynamic spacer assists in the vertical positioning of widgets relative to each other, and the top/bottom of the page in the Blynk.App. The widget will help maintain consistent UI regardless of different screen sizes, making sure your important UI elements are properly positioned and never go below the screen fold.
 
+<figure><img src="../../.gitbook/assets/dynamic-spacer-widget-example.gif" alt=""><figcaption></figcaption></figure>
+
 ### Widget Controls
 
 You can [add](../constructor.md#add-widgets), [duplicate](../constructor.md#duplicate-widgets), [delete](../constructor.md#delete-a-widget), and [move](../constructor.md#move-widgets) the dynamic spacer on the canvas just like any other widget. The widget can only be [resized](../constructor.md#resize-widgets) vertically, which determines its multiplier value.
@@ -20,19 +22,17 @@ Placing the Dynamic Spacer with a widget below it will cause the widget to be pl
 
 Remember, for the Dynamic Spacer to function correctly, it should be set to 'stick' to the edges of the objects above it and below. Note how the Dynamic Spacer in the example below is sticking to the top of the page, causing it to operate on the space between it and the widgets below it.
 
-![](<../../.gitbook/assets/image (2).png>)   ![](<../../.gitbook/assets/image (6).png>)
+<figure><img src="../../.gitbook/assets/1-widgets-below-the-spacer.png" alt=""><figcaption></figcaption></figure>
 
 The placement of the widget below the Dynamic Spacer to the bottom of the page is the same when the Dynamic Spacer is sticking to a widget above it (instead of the top of the page).
 
-![](<../../.gitbook/assets/image (3).png>)   ![](<../../.gitbook/assets/image (4).png>)\
-\
-
+<figure><img src="../../.gitbook/assets/2-widgets-above-and-below-the-spacer.png" alt=""><figcaption></figcaption></figure>
 
 ### Multiple Dynamic Spacers
 
 When more than one Dynamic Spacer is on a page, then the space available to all of them is allocated in proportion to the multiplier values. In the example below, the designer has used one Dynamic Spacer with a multiplier of 5x, and another with a multiplier of 3x to locate the button widget in the space available with a ratio of 5:3 or approximately the Golden Ratio.
 
-![](<../../.gitbook/assets/image (34).png>)   ![](<../../.gitbook/assets/image (1) (1).png>)
+<figure><img src="../../.gitbook/assets/3-two-spacers.png" alt=""><figcaption></figcaption></figure>
 
 You have the flexibility to define any proportions you desire, and the layout will adapt seamlessly to various smartphone screen heights.
 
