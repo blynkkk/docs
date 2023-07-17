@@ -78,6 +78,7 @@ Connectivity module              | Firmware file               | Chipset        
 [ESP32-S3-MINI-1-N8][10]         | [link][generic_esp32s3_8M]  | `ESP32-S3`      | WiFi 2.4     | BLE          |
 [ESP-WROOM-32 4MB][10]<br>(no PSRAM)   | [link][generic_esp32_4M] | `ESP32`      | WiFi 2.4     | BLE          |
 [U-blox NINA-W106][26]           | [link][generic_esp32_4M]    | `ESP32`         | WiFi 2.4     | BLE          |
+[U-blox NORA-W106][27]           | [link][generic_esp32s3_8M]  | `ESP32-S3`      | WiFi 2.4     | BLE          |
 [Adafruit AirLift][20]           | [link][generic_esp32_4M]    | `ESP32`         | WiFi 2.4     | BLE          | RGB LED
 [Macchina SuperB][21]            | [link][generic_esp32_4M]    | `ESP32`         | WiFi 2.4     | BLE          | Green LED
 [TTGO T-Internet-POE][22]        | [link][lilygo_poe]          | `ESP32+LAN8720` | WiFi 2.4, Ethernet POE | BLE    |
@@ -96,6 +97,7 @@ ESP-01, ESP-01S                  | [link][generic_esp8266_1M]  | `ESP8266`      
 [24]: https://protosupplies.com/product/esp8266-witty-cloud-esp-12f-wifi-module/
 [25]: https://www.dfrobot.com/product-1279.html
 [26]: https://www.u-blox.com/en/product/nina-w10-series-open-cpu
+[27]: https://www.u-blox.com/en/product/nora-w10-series
 
 [generic_esp8266_1M]: https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP_generic_esp8266_1M.flash.bin
 [generic_esp8266_4M]: https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP_generic_esp8266_4M.flash.bin
