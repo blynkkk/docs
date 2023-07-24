@@ -188,6 +188,7 @@
   * [Numeric Input](blynk.apps/widgets-interface/numeric-input.md)
   * [Time input](blynk.apps/widgets-interface/time-input.md)
   * [Segmented Switch](blynk.apps/widgets-interface/segmented-switch.md)
+  * [Formatted Text](blynk.apps/widgets-interface/formatted-text.md)
   * [Icon Segmented Switch](blynk.apps/widgets-interface/icon-segmented-switch.md)
   * [Text](blynk.apps/widgets-interface/text.md)
   * [Dynamic Spacer](blynk.apps/widgets-interface/dynamic-spacer.md)
