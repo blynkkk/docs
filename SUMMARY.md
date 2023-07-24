@@ -185,6 +185,7 @@
 * [Widgets Interface](blynk.apps/widgets-interface/README.md)
   * [Tabs](blynk.apps/widgets-interface/tabs.md)
   * [Menu](blynk.apps/widgets-interface/menu.md)
+  * [Map](blynk.apps/widgets-interface/map.md)
   * [Text Input](blynk.apps/widgets-interface/text-input.md)
   * [Numeric Input](blynk.apps/widgets-interface/numeric-input.md)
   * [Time input](blynk.apps/widgets-interface/time-input.md)
