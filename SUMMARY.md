@@ -162,6 +162,7 @@
   * [Slope Control](blynk.apps/widgets-controllers/slope-control.md)
   * [Switch](blynk.apps/widgets-controllers/switch.md)
   * [Level Slider](blynk.apps/widgets-controllers/level-slider.md)
+  * [Level Slider with Switch](blynk.apps/widgets-controllers/level-slider-with-switch.md)
 * [Widgets Displays](blynk.apps/widgets-displays/README.md)
   * [Value Display](blynk.apps/widgets-displays/value-display.md)
   * [Labeled Value](blynk.apps/widgets-displays/labeled-value.md)
