@@ -21,12 +21,12 @@ Communication speed between your company and Blynk is important too.\
 
 **🗓 Duration: 1-2 business days**
 
-1. Your business server will be launched using default domain like `https://yourcompanyname.blynk.cc`
+1. Your business server will be launched by Blynk. You would need to choose a region and a [domain name](https://docs.blynk.io/en/commercial-use/business-plan-white-label-assets/publishing-materials#server-name-and-location-1). &#x20;
 2. Blynk Launch Engineer will help with transferring your project (if you have one) to your business server.
-3. Blynk engineer will do a high-level review of your firmware code to check that Blynk routines are implemented correctly.
+3. Blynk engineer can do a high-level review of your firmware code to check that Blynk routines are implemented correctly.
 
 {% hint style="warning" %}
-Blynk Launch Engineer can't check if your firmware code works as expected with your device. Also, we will not modify your code. &#x20;
+Blynk Launch Engineer can't check if your firmware code works as expected with your device. Also, we will not modify your code.&#x20;
 {% endhint %}
 
 ### &#x20;<a href="#app-testing" id="app-testing"></a>
@@ -41,12 +41,7 @@ During this stage you will get apps for Android and iOS which you would need to 
 
 **Android App**
 
-1. You will get the test build of an Android app first. This will be an **.apk** file or a link to to install the app on your smartphone
-2. You would need to test that app is working correctly with your device
-
-{% hint style="info" %}
-If you prefer to start with the iOS version of the app let your Blynk engineer know.
-{% endhint %}
+You will get an invite to a special app AppTester. There you will be able to download the latest build
 
 
 
@@ -88,7 +83,7 @@ Here is an article you can check:&#x20;
 
 
 
-Usually, Android app is published first because it's easier and faster. For that you would simply give Blynk engineer permissions to publish Android version of the app under your developer account.\
+Usually, Android app is published first because it's easier and faster. You would simply give Launch Engineer permissions to publish Android version of the app under your developer account.\
 \
 To publish an iOS version, we would need to go through these steps:
 
