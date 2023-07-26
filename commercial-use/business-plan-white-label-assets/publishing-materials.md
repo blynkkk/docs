@@ -6,29 +6,49 @@ description: >-
 
 # What's Needed To Publish Your Apps And Go Live
 
+### Server Location <a href="#server-name-and-location" id="server-name-and-location"></a>
+
+Your business server will be physically launched in a region of your choice. Let you Launch Support Engineer know where you would like to run your server.&#x20;
 
 
-### Domain name and server location <a href="#server-name-and-location" id="server-name-and-location"></a>
 
-By default, your business server will be launched at `https://mycompanyname.blynk.cc` in the region of your choice.
+### Custom Domain (optional) <a href="#server-name-and-location" id="server-name-and-location"></a>
 
-Your devices will connect to this server.&#x20;
+Your Business plan includes an option to set up a custom domain (or subdomain) for your console before the server is launched. This is an address where you and your customers can access the web portal. 
 
-Your customers will be using this address to log in to Console, but this address can be custom, for example: `https://dashboard.mycompanyname.com`
+If you are still deciding, your console will be pointed to a default Blynk address: `https://yourcompanyname.blynk.cc`. This can be changed later, but it would incur a domain change fee
+
+{% hint style="info" %}
+Change of the address **after the initial server setup** incurs a $199 fee
+{% endhint %}
 
 
+
+Here is how to create a custom domain:
+
+**Create an address**&#x20;
+
+If you have a website already, then you would need to access your admin console. If you don't have domain yet, use domain registrars services like GoDaddy, Namecheap, and Google Domains to register a new one.
+
+Most of our customers use subdomains like these ones:
+
+* _dashboard.mywebsite.com_
+* _console.mywebsite.com_
+* _iot.mywebsite.com_
+
+**Point your domain to the provided IP address**
+
+Your launch ingeneer will provide you with IP address of the server. You would need to login to admin console of your and point the domain to the provided IP address.&#x20;
 
 
 
 ### Website URL <a href="#website" id="website"></a>
 
-If you plan to publish your apps to Google Play and App Store you would need a legit website for your company. This is are requirement from both Apple and Google. If you don't have a website you would need to build at least a simple landing page.
+If you plan to publish your apps to Google Play and App Store you would need a functioning website for your company. This is a requirement from both Apple and Google. If you don't have a website, you would need to make at least a simple landing page.
 
 
 
-
-
-### Terms and Conditions and  Privacy Policy Links <a href="#public-link-to-your-privacy-policy" id="public-link-to-your-privacy-policy"></a>
+### Terms and Conditions, Privacy Policy <a href="#public-link-to-your-privacy-policy" id="public-link-to-your-privacy-policy"></a>
 
 Google and Apple require a public link to your Privacy Policy which means that you need to add a privacy policy as a separate page to your own website. There is a handful of resources on the web on privacy policy examples for different countries.
 
