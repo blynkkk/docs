@@ -44,7 +44,7 @@ Replace [Blynk.notify()](http://docs.blynk.cc/#widgets-notifications-push-notifi
 
 WiFi, cellular, USB, and Ethernet are supported by Blynk IoT. Classic Bluetooth and low energy Bluetooth (BLE) are not currently supported.
 
-Over-The-Air Firmware Updates ([OTA](../../blynk.edgent/ota-updates.md)) are triggered by a new shipment created in [Blynk.Air](../../blynk.console/blynk.air/). Extensive management and control over multiple device OTA are provided by Blynk.Air as well.
+Over-The-Air Firmware Updates ([OTA](../../blynk-library-firmware-api/ota-updates.md)) are triggered by a new shipment created in [Blynk.Air](../../blynk.console/blynk.air/). Extensive management and control over multiple device OTA are provided by Blynk.Air as well.
 
 ### Blynk.Console
 

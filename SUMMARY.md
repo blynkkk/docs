@@ -216,7 +216,12 @@
 * [Blynk.Edgent overview](blynk.edgent/overview.md)
 * [Blynk.Inject and Blynk.Air](platform-overview/services.md)
 * [OTA: Firmware Over-The-Air updates](blynk.edgent/updating-devices-firmwares-ota.md)
-* [Over-The-Air Firmware Updates (OTA)](blynk.edgent/ota-updates.md)
+
+## Blynk.NCP
+
+* [Blynk.NCP overview](blynk.ncp/overview.md)
+* [Supported Connectivity Modules](blynk.ncp/supported-connectivity-modules.md)
+* [OTA: Firmware Over-The-Air updates](blynk.ncp/updating-devices-firmwares-ota.md)
 
 ## Blynk Library - firmware API
 
@@ -238,6 +243,7 @@
 * [Metadata](blynk-library-firmware-api/metadata.md)
 * [Debug](blynk-library-firmware-api/debug.md)
 * [Reboot](blynk-library-firmware-api/reboot.md)
+* [Over-The-Air Firmware Updates (OTA)](blynk-library-firmware-api/ota-updates.md)
 * [Other](blynk-library-firmware-api/other.md)
 * [Limitations and Recommendations](blynk-library-firmware-api/limitations-and-recommendations.md)
 * [Blynk Protocol](blynk-library-firmware-api/blynk-protocol.md)
