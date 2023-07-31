@@ -23,3 +23,6 @@ Blynk.NCP is shipped as a combined firmware, so you only need to flash a single 
 | ESP-07S, ESP-12F                                                                                             | [link](https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP\_generic\_esp8266\_4M.flash.bin) | `ESP8266`       | WiFi 2.4               | WiFiAP       |                      |
 | ESP-01, ESP-01S                                                                                              | [link](https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP\_generic\_esp8266\_1M.flash.bin) | `ESP8266`       | WiFi 2.4               | WiFiAP       |                      |
 
+#### Connect a supported dual-MCU board using Blynk.NCP
+
+If you are using one of the following dual-MCU boards: UNO R4 WiFi, Portenta C33, Nano RP2040 Connect, Nano 33 IoT, MKR WiFi 1010, T-PicoC3, or RPi Pico + ESP8266, you can use this Blynk.NCP [example](https://github.com/blynkkk/BlynkNcpExample) to set up communication with the platform within minutes.
