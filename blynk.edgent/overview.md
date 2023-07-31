@@ -25,6 +25,18 @@ Although Blynk Library can be used without Blynk.Edgent features, it is recommen
 | Seeed Wio Terminal    |
 | TI CC3220             |
 
+### Dual-MCU Boards supported by `Blynk.Edgent` through `Blynk.NCP`
+
+| Board                                                                                                                      | OTA for MCU | OTA for NCP   | Connectivity | Provisioning | NCP File System |
+| -------------------------------------------------------------------------------------------------------------------------- | ----------- | ------------- | ------------ | ------------ | --------------- |
+| [UNO R4 WiFi](https://store-usa.arduino.cc/products/uno-r4-wifi)                                                           | `⏳ RA4M1`   | `✅ ESP32s3`   | WiFi 2.4     | ✅ BLE        | 4.25 MB         |
+| [Portenta C33](https://store-usa.arduino.cc/products/portenta-c33)                                                         | `⏳ RA6M5`   | `✅ ESP32c3`   | WiFi 2.4     | ✅ BLE        | 512 KB          |
+| [Nano RP2040 Connect](https://store-usa.arduino.cc/products/arduino-nano-rp2040-connect)                                   | `✅ RP2040`  | `❌ NINA_W102` | WiFi 2.4     | ✅ BLE        | 384 KB          |
+| [Nano 33 IoT](https://store-usa.arduino.cc/products/arduino-nano-33-iot)                                                   | `✅ SAMD21`  | `❌ NINA_W102` | WiFi 2.4     | ✅ BLE        | 384 KB          |
+| [MKR WiFi 1010](https://store-usa.arduino.cc/products/arduino-mkr-wifi-1010)                                               | `✅ SAMD21`  | `❌ NINA_W102` | WiFi 2.4     | ✅ BLE        | 384 KB          |
+| [T-PicoC3](https://www.lilygo.cc/products/lilygo%C2%AE-t-picoc3-esp32-c3-rp2040-1-14-inch-lcd-st7789v)                     | `✅ RP2040`  | `✅ ESP32c3`   | WiFi 2.4     | ✅ BLE        | 512 KB          |
+| [RPi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico) + [ESP8266](https://www.waveshare.com/pico-esp8266.htm) | `✅ RP2040`  | `✅ ESP8266`   | WiFi 2.4     | ✅ WiFiAP     | 1000 KB         |
+
 ### How to connect a device with Blynk.Edgent
 
 1. **Create a blank Template** in [Blynk.Console](https://blynk.cloud/). To do it, open the _Templates_ section in the left menu and click + _New Template_ button. Assign a name and select hardware and connectivity, you can further customize the template and build the dashboards later.
