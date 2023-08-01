@@ -2,7 +2,7 @@
 
 ### What is Blynk.NCP
 
-**Blynk.NCP** is a software solution that off-loads connectivity to a **Network Co-Processor (NCP)**, while your application logic resides on the **Primary MCU**. This implies a [dual-Microcontroller Unit (MCU)](https://docs.google.com/presentation/d/1aP2sQWB0J9EWj8Y1h5qeyfm2aFwaNSUKnCE-k7zxVnk/present) architecture.
+Blynk.NCP is a software solution that off-loads connectivity to a **Network Co-Processor (NCP)**, while your application logic resides on the **Primary MCU**. This implies a [dual-Microcontroller Unit (MCU)](https://docs.google.com/presentation/d/1aP2sQWB0J9EWj8Y1h5qeyfm2aFwaNSUKnCE-k7zxVnk/present) architecture.
 
 ### When to use Blynk.NCP
 
@@ -22,7 +22,8 @@ Blynk.NCP allows to immediately have access to Blynk’s advanced features - suc
 * **Blynk.Inject**: connect your devices easily using Android App, iOS App or Web Dashboard
   * `BLE`-assisted device provisioning for the best end-user experience
   * `WiFiAP`-based provisioning for devices without BLE support
-  * **Network Manager**: WiFi (up to 16 saved networks), Ethernet, Cellular (depending on the hardware)
+* **Network Manager**:&#x20;
+  * WiFi (up to 16 saved networks), Ethernet, Cellular (depending on the hardware)
   * Advanced network connection troubleshooting
 * Secure **Blynk.Cloud** connection that provides simple API for:
   * Data transfer with Virtual Pins, reporting Events, and accessing Metadata
