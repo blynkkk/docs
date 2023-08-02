@@ -1,10 +1,16 @@
 # Formatted Text
 
-Displays static formatted text with your choice of font style, horizontal and vertical alignment, and color. A formatted label for the widget is optional.
+Displays static formatted text with your choice of font style, horizontal and vertical alignment, and color.&#x20;
+
+If the widget has a datastream on, it can show its value via placeholder '/value/' put in the text option in settings.&#x20;
+
+<figure><img src="../../.gitbook/assets/formatted-text-widget-data-settings.png" alt="" width="375"><figcaption></figcaption></figure>
+
+A formatted label for the widget is optional.
 
 ### Datastream
 
-Select or create a datastream of [data type](https://docs.blynk.io/en/blynk.console/templates/datastreams/datastreams-common-settings/data-type) integer, double, enumerable, string. The datastream is only used for holding and assigning the widget properties of vertical and horizontal alignment, font style and color.
+Select or create a datastream of [data type](https://docs.blynk.io/en/blynk.console/templates/datastreams/datastreams-common-settings/data-type) integer, double, enumerable, string. The datastream is used to insert a corresponding value inside the text the widget is showing, and for holding and assigning the widget properties of vertical and horizontal alignment, font style and color.&#x20;
 
 ### Widget Controls
 
@@ -12,16 +18,18 @@ The widget has no controls.&#x20;
 
 ### Widget Settings
 
-* **Text** - the formatted text you want to appear in the widget. Alignment as left, center, right justified can be assigned in Design tab.&#x20;
+* **Text** - the formatted text you want to appear in the widget. Alignment as left, center, right justified can be assigned in Design tab. Use placeholder '/value/' to show the datastream value inside the text.
 
 ### Widget Design
 
 * **Title** - the widget label that appears above the formatted text.
 * **Value** - format options for the displayed text assigned under ‘Settings’. Font style, horizontal & vertical alignment, and text color.
 
+<figure><img src="../../.gitbook/assets/formatted-text-widget-design-settings.png" alt=""><figcaption></figcaption></figure>
+
 ### How to process widget with the hardware
 
-Not applicable. The assigned datastream is solely for holding datastream properties.
+Not applicable. This widget only displays the text and the datastream value, it does not allow it to be changed from the UI.
 
 ### Change Widget Properties
 
