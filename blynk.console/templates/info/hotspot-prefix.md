@@ -1,6 +1,6 @@
 # Hotspot Prefix
 
-It's used as part of SSID when the device works as WiFi access point or Bluetooth peripheral during the provisioning process.
+It's used as part of SSID when the device works as WiFi access point or Bluetooth peripheral during the provisioning process.  
 By default, the device uses the "Blynk" prefix.
 
 **Attention!** Only modify this setting if you're using a branded Blynk App.
