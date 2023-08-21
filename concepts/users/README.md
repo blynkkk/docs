@@ -55,13 +55,13 @@ Types of users are related to, but different from [Roles and Permission](../../b
 Users of this type have access to all the functionality required to configure the platform for use by end-users (also called Clients). This is usually someone who builds the hardware, develops the firmware, and does all the needed configurations.  By default, the first user in Organization becomes a Developer and is assigned the [role](https://docs.blynk.io/en/blynk.console/settings/access#roles-and-permissions) of Admin.
 
 {% hint style="info" %}
-Currently, only one developer is allowed per Organization for Free and Plus plans.
+Currently, only one developer is allowed per Organization for **Free and Plus** plans.
 
 If you want some other user to be a developer in your organization you should first switch off the [dev mode](../developer-mode.md) in your account either in Blynk.Console or Blynk.App. After that the other user can switch it on.
 {% endhint %}
 
 {% hint style="info" %}
-In PRO and Business plans multiple developers can be assigned. Assign a user the Admin role in your Organization so they can switch to the Developer mode.
+**PRO and Business** plans allow having multiple developers. Assign a user the Admin role in your Organization so they can switch to the Developer mode.
 {% endhint %}
 
 #### **End-users (Clients)**
