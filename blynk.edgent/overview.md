@@ -25,7 +25,7 @@ Although Blynk Library can be used without Blynk.Edgent features, it is recommen
 | Seeed Wio Terminal    |
 | TI CC3220             |
 
-### Dual-MCU Boards supported by `Blynk.Edgent` through `Blynk.NCP`
+### Dual-MCU Boards supported by `Blynk.Edgent` through [`Blynk.NCP`](../blynk.ncp/overview.md)
 
 | Board                                                                                                                      | OTA for MCU | OTA for NCP   | Connectivity | Provisioning | NCP File System |
 | -------------------------------------------------------------------------------------------------------------------------- | ----------- | ------------- | ------------ | ------------ | --------------- |
