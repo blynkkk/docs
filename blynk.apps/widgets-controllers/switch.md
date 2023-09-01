@@ -94,21 +94,7 @@ Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a 
 
 ### Properties you can change
 
-You can change the properties _onLabel_, _offLabel_, _label_, _color_, _isDisabled_, _isHidden_ of the widget from your hardware, or via an [HTTP API](broken-reference). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
-
-#### **Change On/Off labels**
-
-```cpp
-Blynk.setProperty(V1, "onLabel", "ON");
-Blynk.setProperty(V1, "offLabel", "OFF");
-```
-
-#### **Set Button Color**
-
-```cpp
-//#D3435C - Blynk RED 
-Blynk.setProperty(V1, "color", "#D3435C");
-```
+You can change the properties _label_, _color_, _isDisabled_, _isHidden_ of the widget from your hardware, or via an [HTTP API](broken-reference). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.
 
 #### **Disable/Enable**
 
@@ -137,8 +123,6 @@ The endpoint allows you to update the Datastream Property value via GET request.
 **Example:**\
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V2&label=My%20Label`
 
-`https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&color=%23D3435C`
-
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&isDisabled=true`
 {% endswagger-description %}
 
@@ -161,19 +145,7 @@ The datastream
 {% swagger-parameter in="query" name="{property}" type="string" %}
 The property of the widget you want to update: 
 
-`onLabel`
-
-, 
-
-`offLabel`
-
-, 
-
 `label`
-
-, 
-
-`color`
 
 , 
 
@@ -184,10 +156,6 @@ The property of the widget you want to update:
 `isHidden`
 {% endswagger-parameter %}
 
-{% swagger-parameter in="query" name="onLabel" type="string" %}
-the text on the button when the button is ON
-{% endswagger-parameter %}
-
 {% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
 Get from the bottom right of your Blynk console. 
 
@@ -196,16 +164,8 @@ Get from the bottom right of your Blynk console.
 .
 {% endswagger-parameter %}
 
-{% swagger-parameter in="query" name="offLabel" type="string" %}
-the text on the button when the button is OFF
-{% endswagger-parameter %}
-
 {% swagger-parameter in="query" name="label" type="string" %}
 the text used as widget label
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="color" type="string" %}
-button color hexadecimal, must include the hash # character urlencoded as %23
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="isDisabled" type="string" %}
