@@ -34,35 +34,74 @@ https://mywebapp.com/action?user=/userID/&device=/deviceID/
 
 
 
+### Change Button Properties
+
+You can change certain properties of the Widget from your hardware. For that, use this command:&#x20;
+
+```cpp
+Blynk.setProperty(vPin, "widgetProperty", "propertyValue"); 
+```
+
+Where:&#x20;
+
+* `vPin` is: virtual pin number the widget is assigned to
+* `widgetProperty`: property you want to change
+* `propertyValue`: value of the property you want to change
+
+{% hint style="danger" %}
+Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, or use timers.
+{% endhint %}
+
 ### Widget Properties you can change from device
 
-Examples below use Virtual Pin V01. Change to your pin.&#x20;
+You can change the properties _onLabel_, _offLabel_, _onColor_, _offColor_, _onBackColor_, _offBackColor_, _label_, _color_, _isDisabled_, _isHidden_, and _page_ of the widget from your hardware, or via an [HTTP API](broken-reference). The color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
 
+#### **URL**
 
-
-**URL.** Change the URL to be open. You can use placeholders described above.
+Change the URL to be open. You can use placeholders described [above](webpage-button.md#settings).
 
 ```cpp
 Blynk.setProperty(V1, "url", "https://mywebsite.com");
 ```
 
-
-
-**Disable/Enable**. Widget will be greyed out on UI and users won't be able to tap on it.
+#### Set a custom ON/OFF background color associated with the widget state
 
 ```cpp
-Blynk.setProperty(V1, "isDisabled", true);
+Blynk.setProperty(V1, "onBackColor", "#73D13D");  // green
+Blynk.setProperty(V1, "offBackColor", "#ED9D00");  // orange
 ```
 
+#### Set a custom ON/OFF label text color associated with the widget state
 
+```cpp
+Blynk.setProperty(V1, "onColor", "#73D13D");  // green
+Blynk.setProperty(V1, "offColor", "#ED9D00");  // orange
+```
 
-**Show/Hide**. Widget will be hidden from dashboard.&#x20;
+#### Set a custom ON/OFF label associated with the widget state
+
+```cpp
+Blynk.setProperty(V1, "onLabel", "Playing");
+Blynk.setProperty(V1, "offLabel", "Idle");
+```
+
+#### **Show/Hide**
+
+Widget will be hidden from dashboard. Design your UI so that it doesn't look weird when there is no widget.
+
+```cpp
+Blynk.setProperty(V1, "isHidden", true);
+```
 
 {% hint style="warning" %}
 Plan your UI layout so that it looks good even if widget is hidden.
 {% endhint %}
 
+#### **Disable/Enable**
+
+Widget will be greyed out on UI and users won't be able to tap on it.
+
 ```cpp
-Blynk.setProperty(V1, "isHidden", true);
+Blynk.setProperty(V1, "isDisabled", true);
 ```
 
