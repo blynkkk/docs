@@ -108,6 +108,8 @@ Blynk.setProperty(V1, "label", "Air temperature");
 
 #### **Set Widget Color**
 
+Works only if the gradient was not set for this widget.
+
 ```cpp
 //#D3435C - Blynk RED 
 Blynk.setProperty(V1, "color", "#D3435C");
@@ -192,7 +194,7 @@ the text used as widget label
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="color" type="string" %}
-button color hexadecimal, must include the hash # character urlencoded as %23
+button color hexadecimal, must include the hash # character urlencoded as %23. Works only if the gradient was not set for this widget.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="isDisabled" type="string" %}
