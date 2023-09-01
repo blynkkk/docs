@@ -48,8 +48,8 @@ Blynk.setProperty(V2, "url", "https://mechatronicsolutionsllc.com/Blynk%20animat
 ```
 
 ```cpp
-Blynk.setProperty(V2, "autoplay", "true"); // Start the image animation
-Blynk.setProperty(V2, "autoplay", "false"); // Stop the image animation
+Blynk.setProperty(V2, "autoplay", "true"); // Sets the widget to play animation on dashboard open
+Blynk.setProperty(V2, "autoplay", "false"); // Sets the widget to not play animation on dashboard open
 ```
 
 ```cpp
