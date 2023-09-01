@@ -133,13 +133,6 @@ You can change the properties “label”, “color”, “isDisabled” and “
 Blynk.setProperty(V1, "label", "Toggle");
 ```
 
-#### **Color**
-
-```cpp
-//#D3435C - Blynk RED 
-Blynk.setProperty(V1, "color", "#D3435C");
-```
-
 #### **Disable/Enable**
 
 Widget will be greyed out on UI and users won't be able to tap on it.
@@ -165,8 +158,6 @@ The endpoint allows you to update the Datastream Property value via GET request.
 **Example:**\
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V2&label=My%20Label`
 
-`https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&color=%23D3435C`
-
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&isDisabled=true`
 {% endswagger-description %}
 
@@ -190,10 +181,6 @@ The datastream
 The property of the widget you want to update: 
 
 `label`
-
-, 
-
-`color`
 
 ,
 
@@ -219,10 +206,6 @@ Get from the bottom right of your Blynk console.
 
 {% swagger-parameter in="query" name="label" type="string" %}
 the text used as widget label
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="color" type="string" %}
-color hexadecimal, must include the hash # character urlencoded as %23
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="isDisabled" type="string" %}
