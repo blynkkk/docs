@@ -154,12 +154,6 @@ Blynk.setProperty(V1, "onBackColor", "#73D13D");  // green
 Blynk.setProperty(V1, "offBackColor", "#ED9D00");  // orange
 ```
 
-#### **Set Button Color**
-
-```cpp
-Blynk.setProperty(V1, "color", "#D3435C");	// Blynk red
-```
-
 #### **Disable/Enable**
 
 Widget will be greyed out on UI and users won't be able to tap on it.
@@ -306,10 +300,6 @@ custom background color associated with the widget ON/OFF state
 
 {% swagger-parameter in="query" name="offBackColor" type="string" %}
 custom background color associated with the widget ON/OFF state
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="color" type="string" %}
-button color hexadecimal, must include the hash # character urlencoded as %23
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="isDisabled" type="string" %}
