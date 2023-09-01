@@ -181,7 +181,9 @@ You can change the properties _label_, _color_, _isDisabled_, _isHidden_ of the 
 Blynk.setProperty(V1, "label", "Air temperature");
 ```
 
-#### **Set Widget Color**
+#### **Set Color**
+
+'Color' property changes title color if the title is set and is visible.
 
 ```cpp
 //#D3435C - Blynk RED 
@@ -267,7 +269,7 @@ the text used as widget label
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="color" type="string" %}
-button color hexadecimal, must include the hash # character urlencoded as %23
+hexadecimal, must include the hash # character urlencoded as %23. 'Color' property changes title color if the title is set and is visible.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="isDisabled" type="string" %}
