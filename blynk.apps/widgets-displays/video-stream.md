@@ -48,13 +48,7 @@ Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a 
 
 ### Properties you can change
 
-You can change the properties _label_, _url_, _isDisabled_, _isHidden_ of the widget from your hardware, or via an [HTTP API](broken-reference). The URL must be encoded, so spaces in labels must be replaced with %20.&#x20;
-
-#### **Change Label**
-
-```cpp
-Blynk.setProperty(V1, "label", "Air temperature");
-```
+You can change the properties _url_, _isDisabled_, _isHidden_ of the widget from your hardware, or via an [HTTP API](broken-reference). The URL must be encoded, so spaces in labels must be replaced with %20.&#x20;
 
 #### **Change URL**
 
@@ -86,8 +80,7 @@ Blynk.setProperty(V1, "isHidden", true);
 {% swagger-description %}
 The endpoint allows you to update the Datastream Property value via GET request. All widgets (both web and mobile) that are assigned to this datastream will inherit this property. The Datastream Property is persistent and will be stored forever until you change it with another value. In order to clear the property you need to clear the device data in device actions menu.
 
-**Example:**\
-`https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V2&label=My%20Label`
+**Example:**
 
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&url=http%3A%2F%2Fcommondatastorage.googleapis.com%2Fgtv-videos-bucket%2Fsample%2FElephantsDream.mp4`
 
@@ -134,10 +127,6 @@ Get from the bottom right of your Blynk console.
 [More information](../../blynk.cloud/troubleshooting.md)
 
 .
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="label" type="string" %}
-the text used as widget label
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="url" type="string" %}
