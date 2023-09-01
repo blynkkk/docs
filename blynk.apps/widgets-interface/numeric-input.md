@@ -106,6 +106,13 @@ You can change the properties _label_, _color_, _isDisabled_, _isHidden_ of the 
 Blynk.setProperty(V1, "label", "Air temperature");
 ```
 
+#### **Set Step**
+
+```cpp
+// The amount the datastream value is incremented/decremented by
+Blynk.setProperty(V1, "step", 3);
+```
+
 #### **Set Text Color**
 
 ```cpp
@@ -187,6 +194,10 @@ Get from the bottom right of your Blynk console.
 
 {% swagger-parameter in="query" name="label" type="string" %}
 the text used as widget label
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="step" type="string" %}
+the amount the datastream value is incremented/decremented by
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="color" type="string" %}
