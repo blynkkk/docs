@@ -62,7 +62,7 @@ Although Blynk Library can be used without Blynk.Edgent features, it is recommen
 
 You can get them in Blynk.Console by going to _Templates_, selecting your newly created template and finding the _Firmware configuration_ in the _Home_ tab.
 
-<figure><img src="../.gitbook/assets/template-firmware-configuration.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/firmwareconfig 2.png" alt=""><figcaption></figcaption></figure>
 
 5. **Compile and upload to your device**
 6. **Connect your device in Blynk.App**. To do it open the _MENU_ icon in the upper right corner. Tap on + _Add New Device_. Select _Find Devices Nearby_ option. The app will scan the WiFi networks around you and offer to connect to your device. You will see the template name you’ve chosen in step 1. Once the connection is established, the Blynk app will guide you through the provisioning process.
