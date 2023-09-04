@@ -58,7 +58,7 @@ In the sketch variables `BLYNK_TEMPLATE_ID` and `BLYNK_TEMPLATE_NAME` are empty.
 3. Copy the Firmware Configuration code lines
 4. Go back to your sketch and replace the configuration lines with what you copied.
 
-![](../../.gitbook/assets/apr-07-2021-14-06-30.gif)
+<figure><img src="../../.gitbook/assets/prepare-code.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 The Template Name is the name that you provide when you create the template, and the Edgent sketch then adds additional characters that are derived from the Chip ID of the device to form the SSID name which is used when the app connects to the device.
@@ -66,7 +66,7 @@ The Template Name is the name that you provide when you create the template, and
 The template name + Chip ID should not exceed 32 characters for the provisioning process to complete successfully. You can edit the template name if the resulting SSID name proved too long.
 {% endhint %}
 
-Press the **Upload** button to flash the code to your device. If the upload process went successfully you should see the output in the serial monitor:
+Press the **Upload** button to flash the code to your device. If the upload process went successfully you should see the output in the serial monitor.
 
 Now your device is ready to be activated using Blynk app.
 
@@ -74,7 +74,7 @@ Now your device is ready to be activated using Blynk app.
 
 1. Open Blynk App
 2. Open the MENU icon in the upper right corner
-3. Tap on +Add New Device
+3. Tap on +Add New Device -> Find devices nearby -> Start
 4. The app will scan the WiFi networks around you and offer to connect to your device. In our example, the device name will be: **Blynk Root Template-FAD8F**
 5. Once the connection is established, the Blynk app will guide you through the provisioning process.
 
