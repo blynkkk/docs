@@ -44,3 +44,57 @@ or
 {% hint style="info" %}
 You can get the **Device auth token** in [Device info](../getting-started/activating-devices/manual-device-activation.md#step-3-getting-auth-token).
 {% endhint %}
+
+{% swagger baseUrl="https://{server_address}" path="/external/api/getAll?token={token}" method="get" summary="Get All Datastreams values" %}
+{% swagger-description %}
+This endpoint allows you to get stored values of the all Datastreams by device token. The value(s) will be displayed in the response if the Datastream has a value.
+
+**Example:**\
+`https://blynk.cloud/external/api/getAll?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L`
+{% endswagger-description %}
+
+{% swagger-parameter in="query" name="token" type="string" required="true" %}
+Device 
+
+[auth token](../concepts/device.md#authtoken)
+
+ from Device info
+{% endswagger-parameter %}
+
+{% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
+Get from the bottom right of your Blynk console. 
+
+[More information](troubleshooting.md)
+
+.
+{% endswagger-parameter %}
+
+{% swagger-response status="200" description="Value successfully retrieved." %}
+```
+{
+    "a0": 1,
+    "a1": 1,
+    "a2": 1,
+    "a3": 1,
+    "d0": 1,
+    "d1": 1,
+    "d2": 1,
+    "d3": 0,
+    "v0": 1,
+    "v1": 1.0,
+    "v2": "string",
+    "v3": 1,
+    "v4": [
+        12.0,
+        11.0
+    ]
+}
+```
+{% endswagger-response %}
+
+{% swagger-response status="400" description="Could not find a device token" %}
+```
+{"error":{"message":"Invalid token."}}
+```
+{% endswagger-response %}
+{% endswagger %}
