@@ -27,17 +27,23 @@ In the view above you can find 5 specific columns:
 
 ## New Webhook
 
-![Webhook create form](<../../../.gitbook/assets/new-webhook (1).gif>)
+<figure><img src="../../../.gitbook/assets/blynk-webhook.png" alt=""><figcaption></figcaption></figure>
 
-* **Webhook Name** – Use only letters, digits, -, ' and spaces up to 80 characters.&#x20;
-* **Webhook Trigger Event** – Blynk.Console event that will trigger webhook execution. Click the field to open the events list and select one of the following:
-  * Device Sends Data to Datastream
+* **Webhook Trigger Event** – Blynk.Console event that will trigger webhook execution. The following triggers are available:
+  * Template Datastream Update
+  * Device Datastream Update
   * New User Added (only for Business plan)
   * User Deleted (only for Business plan)
   * User Metadata Updated (only for Business plan)
   * New Device Added by User  (only for Business plan)
   * Device Connected For A First Time (only for Business plan)
   * New User Self-Regsitered (only for Business plan)
+
+You can set it to trigger either for any device using a specific template or just one individual device.
+
+* **Webhook Name** – Use only letters, digits, -, ' and spaces up to 80 characters.&#x20;
+* **Template** (or **Device** if you chose that option) – select the template from the dropdown.
+* **Datastream** - select datastream the webhook will be working with
 * **Webhook URL** – input webhook destination https:// link &#x20;
 * **Request Type** – select supported [HTTP method](https://www.restapitutorial.com/lessons/httpmethods.html):
   * Post – create
@@ -45,7 +51,7 @@ In the view above you can find 5 specific columns:
   * Put – update
   * Delete – delete&#x20;
 * **Content Type** – switch to one of supported webhook request content type:&#x20;
-  * **Web Form**  Fill the corresponding fields.  Add as much rows as you need – once a row's fields are filled the **Add row** button appears. Hover right to the row to make **Delete** button visible (at least 2 rows needed for it to appear).
+  * **Web Form**  Fill the corresponding fields. Add as many rows as you need – once a row's fields are filled the **Add row** button appears. Hover right to the row to make **Delete** button visible (at least 2 rows needed for it to appear).
     * **Form fields constructor**
       * **Key** – type any meaningful key. 100 characters limit
       * **Value** – select from the list (manual scroll or quick search by typing)
