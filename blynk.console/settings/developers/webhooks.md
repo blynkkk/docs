@@ -27,21 +27,23 @@ In the view above you can find 5 specific columns:
 
 ## New Webhook
 
-<figure><img src="../../../.gitbook/assets/blynk-webhook.png" alt=""><figcaption></figcaption></figure>
+First of all you need to select the Blynk.Console event that will trigger webhook execution. Your selection will define the set of fields necessary to set up the webhook.
 
-* **Webhook Trigger Event** – Blynk.Console event that will trigger webhook execution. The following triggers are available:
+* **Webhook Trigger Event** – the following triggers are available:
   * Template Datastream Update
   * Device Datastream Update
+  * First-Time Device Connection (only for Business plan)
+  * New Device Activated By User (only for Business plan)
   * New User Added (only for Business plan)
   * User Account Deleted (only for Business plan)
   * User Metadata Updated (only for Business plan)
-  * New Device Activated By User (only for Business plan)
-  * First-Time Device Connection (only for Business plan)
   * New User Sign-Up (only for Business plan)
 
 {% hint style="info" %}
 You can set it to trigger either for any device using a specific template or just one individual device.
 {% endhint %}
+
+<figure><img src="../../../.gitbook/assets/blynk-webhook.png" alt=""><figcaption></figcaption></figure>
 
 * **Webhook Name** – Use only letters, digits, -, ' and spaces up to 80 characters.&#x20;
 * **Template** (or **Device** if you chose that option) – select the template from the dropdown.
@@ -56,15 +58,15 @@ You can set it to trigger either for any device using a specific template or jus
   * **Web Form**  Fill the corresponding fields. Add as many rows as you need – once a row's fields are filled the **Add row** button appears. Hover right to the row to make **Delete** button visible (at least 2 rows needed for it to appear).
     * **Form fields constructor**
       * **Key** – type any meaningful key. 100 characters limit
-      * **Value** – select from the list (manual scroll or quick search by typing)
+      * **Value** – select from [the list](webhooks.md#objects-that-can-be-used-for-dynamic-data) (manual scroll or quick search by typing)
     * **Query parameters (optional)**
       * **Key** – type any meaningful key. 100 characters limit
-      * **Value** – select from the list (manual scroll or quick search by typing)&#x20;
+      * **Value** – select from [the list](webhooks.md#objects-that-can-be-used-for-dynamic-data) (manual scroll or quick search by typing)&#x20;
   * **Custom JSON**
     * Code Input field – input your code here. Objects input can be sped up by selecting from Dynamic Data list (quick search is supported there)
     * **Dynamic Data**
       * **Search** – objects quick search&#x20;
-      * **Objects** list – scroll and select the object(s) you want to add to your code
+      * **Objects** [list](webhooks.md#objects-that-can-be-used-for-dynamic-data) – scroll and select the object(s) you want to add to your code
   * **Plain text**
     * Text Input field – input any text you want to send.
 * **Authorization Method (optional)** – select corresponding Authentication Type in case your destination requires authorization.
