@@ -80,9 +80,11 @@ You can set it to trigger either for any device using a specific template or jus
 * **HTTP Headers (optional)** – you can add them to your request
   * **Key** – type any meaningful key. 100 characters limit
   * **Value** – Use only letters, digits, spaces, /, \_, :, ;, . and -&#x20;
+* **Failure receivers (optional)** - select users who will receive the notification on webhook failure
+* **Send failure email after this number of failures** - input the number of unsuccessful attempts
 * **Test Webhook** – click this button to test the webhook before saving. The result with response code will replace the button. If something is missing in the webhook form – the field will be highlighted.
 * **Cancel** – closes webhook form. Please note that all the inputs made will be lost.
-* **Create Webhook** – click to save webhook you created
+* **Create Webhook** – click to save the webhook you created
 
 ![](../../../.gitbook/assets/test-webhook.gif)
 
