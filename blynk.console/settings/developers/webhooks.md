@@ -88,6 +88,21 @@ You can set it to trigger either for any device using a specific template or jus
 
 ![](../../../.gitbook/assets/test-webhook.gif)
 
+### Objects that can be used for dynamic data
+
+`device_id` - send device id\
+`device_productName` - send template name\
+`device_dateCreated` - send device creation date\
+`device_name` - send device name\
+`device_orgName` - send organization name\
+`device_pin` - send current pin of datastream\
+`device_dataStreamId` - send id of datastream\
+`device_pinValue` - send current (last) pin value of datastream\
+`device_tags` - comma-separated device tag names\
+`device_dataStream_X` - where `X` is data stream identifier - value of device data stream. Example: `{device_dataStream_1}`\
+`device_metadata_X` - where `X` is metadata identifier - value of device metadata. Example: `{device_metadata_1}`\
+`{timestamp_unix}, {timestamp_iso8601}` - timestamp in Unix or ISO format&#x20;
+
 ## Webhook view
 
 Once the Webhook is created you can view it's info by clicking it's row or name in Webhooks table.
