@@ -33,11 +33,11 @@ In the view above you can find 5 specific columns:
   * Template Datastream Update
   * Device Datastream Update
   * New User Added (only for Business plan)
-  * User Deleted (only for Business plan)
+  * User Account Deleted (only for Business plan)
   * User Metadata Updated (only for Business plan)
-  * New Device Added by User  (only for Business plan)
-  * Device Connected For A First Time (only for Business plan)
-  * New User Self-Regsitered (only for Business plan)
+  * New Device Activated By User (only for Business plan)
+  * First-Time Device Connection (only for Business plan)
+  * New User Sign-Up (only for Business plan)
 
 {% hint style="info" %}
 You can set it to trigger either for any device using a specific template or just one individual device.
