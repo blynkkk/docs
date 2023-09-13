@@ -103,7 +103,7 @@ You can set it to trigger either for any device using a specific template or jus
 `device_tags` - comma-separated device tag names\
 `device_dataStream_X` - where `X` is data stream identifier - value of device data stream. Example: `{device_dataStream_1}`\
 `device_metadata_X` - where `X` is metadata identifier - value of device metadata. Example: `{device_metadata_1}`\
-`{timestamp_unix}, {timestamp_iso8601}` - timestamp in Unix or ISO format&#x20;
+`timestamp_unix, timestamp_iso8601` - timestamp in Unix or ISO format&#x20;
 
 ## Webhook view
 
