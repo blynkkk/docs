@@ -39,7 +39,9 @@ In the view above you can find 5 specific columns:
   * Device Connected For A First Time (only for Business plan)
   * New User Self-Regsitered (only for Business plan)
 
+{% hint style="info" %}
 You can set it to trigger either for any device using a specific template or just one individual device.
+{% endhint %}
 
 * **Webhook Name** – Use only letters, digits, -, ' and spaces up to 80 characters.&#x20;
 * **Template** (or **Device** if you chose that option) – select the template from the dropdown.
@@ -64,10 +66,7 @@ You can set it to trigger either for any device using a specific template or jus
       * **Search** – objects quick search&#x20;
       * **Objects** list – scroll and select the object(s) you want to add to your code
   * **Plain text**
-    * Text Input field – input any text you want to send. It supports Dynamic Data selections
-    * **Dynamic Data**
-      * Search – objects quick search
-      * User Object list – scroll and select the object(s) you want to add to your code
+    * Text Input field – input any text you want to send.
 * **Authorization Method (optional)** – select corresponding Authentication Type in case your destination requires authorization.
   * **Authentication Type** – switch to one that is required by your destination:
     * **None** is set by default
