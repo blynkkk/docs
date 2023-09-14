@@ -68,6 +68,8 @@ You can set it to trigger either for any device using a specific template or jus
 
 ### Objects that can be used for dynamic data
 
+There is a number of dynamic data objects that can be used to pass data through webhooks. The objects get sorted out automatically. So, if an item is not accessible through the dropdown menu or a search query, it is not available for this specific trigger.
+
 | `device_id` - send device id                                                                                                       |
 | ---------------------------------------------------------------------------------------------------------------------------------- |
 | `device_name` - send device name                                                                                                   |
