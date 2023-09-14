@@ -91,6 +91,22 @@ There is a number of dynamic data objects that can be used to pass data through 
 | `device_tags` - comma-separated device tag names.                                                                                  |
 | `timestamp_unix` - timestamp of webhook triggered in epoch format                                                                  |
 | `timestamp_iso8601` - timestamp of webhook triggered in ISO8601 format                                                             |
+| `user_id`                                                                                                                          |
+| `user_object`                                                                                                                      |
+| `user_email`                                                                                                                       |
+| `user_name`                                                                                                                        |
+| `user_orgName`                                                                                                                     |
+| `user_dateCreated`                                                                                                                 |
+| `user_roleName`                                                                                                                    |
+| `user_title`                                                                                                                       |
+| `user_nickname`                                                                                                                    |
+| `user_phoneNumber`                                                                                                                 |
+| `user_country`                                                                                                                     |
+| `user_state`                                                                                                                       |
+| `user_zipCode`                                                                                                                     |
+| `user_assignedTags`                                                                                                                |
+| `user_ownDevicesCount`                                                                                                             |
+| `user_devicesCountByProductName`                                                                                                   |
 
 #### **Blynk support multiple values in a single pin**
 
