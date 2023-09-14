@@ -128,6 +128,7 @@
   * [Developers](blynk.console/settings/developers/README.md)
     * [OAuth2](blynk.console/settings/developers/oauth2.md)
     * [Webhooks](blynk.console/settings/developers/webhooks.md)
+    * [Create New Webhook](blynk.console/settings/developers/create-new-webhook.md)
   * [Integrations](blynk.console/settings/integrations.md)
 * [User Profile](blynk.console/user-profile.md)
 * [Limits](blynk.console/limits.md)
