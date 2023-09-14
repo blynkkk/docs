@@ -2,9 +2,9 @@
 
 Webhooks could be found in the **Developers** section of the **Settings** menu:
 
-![Webhooks menu item](../../../.gitbook/assets/webhook-menu.png)
+![Webhooks menu item](../../../.gitbook/assets/blynk-webhook-menu.png)
 
-![Webhooks list](../../../.gitbook/assets/webhooks.png)
+![Webhooks list](../../../.gitbook/assets/blynk-webhook-list.png)
 
 If you don't see this section, this means you don't have permission to access the webhooks. Please contact your administrator for access rights.
 
@@ -43,7 +43,7 @@ First of all you need to select the Blynk.Console event that will trigger webhoo
 You can set it to trigger either for any device using a specific template or just one individual device.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/blynk-webhook.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/output-onlinegiftools.gif" alt=""><figcaption></figcaption></figure>
 
 * **Webhook Name** – Use only letters, digits, -, ' and spaces up to 80 characters.&#x20;
 * **Template** (or **Device** if you chose that option) – select the template from the dropdown.
@@ -114,7 +114,7 @@ Once the Webhook is created you can view it's info by clicking it's row or name 
 
 ### Information tab
 
-![Information tab](../../../.gitbook/assets/webhook\_view.png)
+![Information tab](../../../.gitbook/assets/blynk-webhook-info.png)
 
 * **URL** – webhook request destination&#x20;
 * **Trigger events** – displays the action that causes the webhook to run
@@ -127,7 +127,7 @@ Once the Webhook is created you can view it's info by clicking it's row or name 
 This table stores and displays all trigger results that were caused by real actions (not test webhook runs)\
 It can be sorted by switching Timeline tabs and each column value.
 
-![Logs table](../../../.gitbook/assets/webhook\_log.png)
+![Logs table](../../../.gitbook/assets/blynk-webhook-logs.png)
 
 * **Status** – `OK`_,_ `Waiting`_,_ `Failed` are possible with [`server response code`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)\`\`
 * **Date** – webhook trigger time in hh:mm:ss M D, Y format&#x20;
