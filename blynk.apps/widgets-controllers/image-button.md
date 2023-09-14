@@ -239,7 +239,7 @@ the image URL, should be urlencoded
 {% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
 Get from the bottom right of your Blynk console. 
 
-[More information](../../blynk.cloud/troubleshooting.md)
+[More information](../../blynk.cloud/device-https-api/troubleshooting.md)
 
 .
 {% endswagger-parameter %}

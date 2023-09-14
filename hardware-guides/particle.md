@@ -2,7 +2,7 @@
 description: How to Connect a Particle Device to Blynk
 ---
 
-# Particle
+# Particle - monitor with Blynk
 
 This guide will help you connect a Particle board and set up everything that is needed to:
 
@@ -90,7 +90,7 @@ Write down the Device name you picked, and then the BLYNK\_TEMPLATE\_NAME and th
 
 ### Blynk HTTPs API
 
-For this project, we want the [Particle webhook (integration)](https://docs.particle.io/getting-started/integrations/webhooks/) to pass data from the Particle device to Blynk. The [Blynk HTTPs API](../blynk.cloud/https-api-overview.md) will be used to set multiple datastream values in the Blynk Cloud. The following HTTP GET request will update the Blynk datastreams defined for this project after the {token} is replaced with the BLYNK\_AUTH\_TOKEN, and {[server\_address](../blynk.cloud/troubleshooting.md)} is replaced with the server shown at the bottom right of your Blynk.Console:
+For this project, we want the [Particle webhook (integration)](https://docs.particle.io/getting-started/integrations/webhooks/) to pass data from the Particle device to Blynk. The [Blynk HTTPs API](broken-reference) will be used to set multiple datastream values in the Blynk Cloud. The following HTTP GET request will update the Blynk datastreams defined for this project after the {token} is replaced with the BLYNK\_AUTH\_TOKEN, and {[server\_address](../blynk.cloud/device-https-api/troubleshooting.md)} is replaced with the server shown at the bottom right of your Blynk.Console:
 
 ```
 https://{server_address}/external/api/batch/update?token={token}&V0=0&V1=0&V2=1.5&V3=-73.8731,40.8414&V4=12.54&V5=0
@@ -568,7 +568,7 @@ The datastream V5 named ‘position\_changed’ is assigned to the Blynk [Alarm 
 https://{server_address}/external/api/batch/update?token={token}&V5=1
 ```
 
-Update {[server\_address](../blynk.cloud/troubleshooting.md)} with the server shown at the bottom right of your Blynk.Console, and {token} with the BLYNK\_AUTH\_TOKEN assigned to your device.&#x20;
+Update {[server\_address](../blynk.cloud/device-https-api/troubleshooting.md)} with the server shown at the bottom right of your Blynk.Console, and {token} with the BLYNK\_AUTH\_TOKEN assigned to your device.&#x20;
 
 ### Blynk Automation
 

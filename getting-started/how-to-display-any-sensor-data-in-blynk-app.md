@@ -12,7 +12,7 @@ Getting Started -> Send Data From Hardware To Blynk
 
 With Blynk you can send raw or processed data from any sensor or actuator connected to the MCU board
 
-When you send data to Blynk it flows through a Datastream using Blynk protocol. Then every value is automatically timstamped and stored in the Blynk.Cloud database (you can also [send batches of timestamped data](../blynk.cloud/upload-set-of-data-with-timestamps-api.md) if needed).
+When you send data to Blynk it flows through a Datastream using Blynk protocol. Then every value is automatically timstamped and stored in the Blynk.Cloud database (you can also [send batches of timestamped data](../blynk.cloud/device-https-api/upload-set-of-data-with-timestamps-api.md) if needed).
 
 Datastream is a channel that tells Blynk what type of data is flowing through it.&#x20;
 
@@ -186,8 +186,8 @@ With HTTP API you can send individual values, multiple values, and even upload b
 
 Read more about available API methods here:&#x20;
 
-{% content-ref url="../blynk.cloud/https-api-overview.md" %}
-[https-api-overview.md](../blynk.cloud/https-api-overview.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 

@@ -18,7 +18,7 @@ The video widget has the following controls:
 
 ### How to change the video URL property
 
-You can change the URL from your [hardware](../../blynk.edgent-firmware-api/widget-properties.md), or via an [HTTP API](../../blynk.cloud/update-property.md) by using the property name ‘url’.
+You can change the URL from your [hardware](../../blynk.edgent-firmware-api/widget-properties.md), or via an [HTTP API](../../blynk.cloud/device-https-api/update-property.md) by using the property name ‘url’.
 
 ```cpp
 Blynk.setProperty(V1, "url", "http://my_new_video_url");
@@ -124,7 +124,7 @@ The property of the widget you want to update:
 {% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
 Get from the bottom right of your Blynk console. 
 
-[More information](../../blynk.cloud/troubleshooting.md)
+[More information](../../blynk.cloud/device-https-api/troubleshooting.md)
 
 .
 {% endswagger-parameter %}

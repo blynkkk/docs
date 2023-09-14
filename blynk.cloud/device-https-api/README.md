@@ -1,8 +1,4 @@
----
-description: Blynk Cloud HTTPS API overview
----
-
-# HTTPs REST API
+# Device HTTPS API
 
 **Main API Endpoints:**
 

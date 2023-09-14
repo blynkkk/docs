@@ -43,7 +43,7 @@ Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a 
 
 #### Properties you can change
 
-You can change the properties _url_, _autoplay_, and _loop_ of the widget from your hardware, or via an [HTTP API](../../blynk.cloud/update-property.md). Substitute ‘V2’ in the examples below with the datastream virtual pin reference (V0, V1 ...V255) you have configured for this widget. Make sure any string values are [URL encoded](https://en.wikipedia.org/wiki/URL\_encoding).&#x20;
+You can change the properties _url_, _autoplay_, and _loop_ of the widget from your hardware, or via an [HTTP API](../../blynk.cloud/device-https-api/update-property.md). Substitute ‘V2’ in the examples below with the datastream virtual pin reference (V0, V1 ...V255) you have configured for this widget. Make sure any string values are [URL encoded](https://en.wikipedia.org/wiki/URL\_encoding).&#x20;
 
 ```cpp
 Blynk.setProperty(V2, "url", "https://mechatronicsolutionsllc.com/Blynk_animated_image_breathing.json"); 
@@ -110,7 +110,7 @@ true or false
 {% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
 Get from the bottom right of your Blynk console. 
 
-[More information](../../blynk.cloud/troubleshooting.md)
+[More information](../../blynk.cloud/device-https-api/troubleshooting.md)
 
 .
 {% endswagger-parameter %}
@@ -184,7 +184,7 @@ void loop() {
 
 ### Change the datastream value with the HTTP API
 
-Use the Blynk [HTTP API](../../blynk.cloud/https-api-overview.md) to set the datastream value to _play_ to cause the animation to play, and the value _stop_ to cause the automation to stop playing.
+Use the Blynk [HTTP API](broken-reference) to set the datastream value to _play_ to cause the animation to play, and the value _stop_ to cause the automation to stop playing.
 
 {% swagger baseUrl="https://{server_address}" path="/external/api/update/property?token={your 32 char token}&{pin}={value}" method="get" summary="" %}
 {% swagger-description %}
@@ -201,7 +201,7 @@ Use the Blynk [HTTP API](../../blynk.cloud/https-api-overview.md) to set the dat
 {% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
 Get from the bottom right of your Blynk console. 
 
-[More information](../../blynk.cloud/troubleshooting.md)
+[More information](../../blynk.cloud/device-https-api/troubleshooting.md)
 
 .
 {% endswagger-parameter %}

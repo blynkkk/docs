@@ -249,21 +249,22 @@
 * [Limitations and Recommendations](blynk-library-firmware-api/limitations-and-recommendations.md)
 * [Blynk Protocol](blynk-library-firmware-api/blynk-protocol.md)
 
-## BLYNK.CLOUD (HTTPS API) <a href="#blynk.cloud" id="blynk.cloud"></a>
+## BLYNK.CLOUD HTTPS API <a href="#blynk.cloud" id="blynk.cloud"></a>
 
-* [HTTPs REST API](blynk.cloud/https-api-overview.md)
-* [Get Datastream Value](blynk.cloud/get-datastream-value.md)
-* [Get Multiple Datastream Values](blynk.cloud/get-multiple-datastream-values.md)
-* [Get Historical Data From Device](blynk.cloud/get-device-report.md)
-* [Update Datastream Value](blynk.cloud/update-datastream-value.md)
-* [Update Multiple Datastreams Simultaneously](blynk.cloud/update-multiple-datastreams-api.md)
-* [Upload a Set of Timestamped Data](blynk.cloud/upload-set-of-data-with-timestamps-api.md)
-* [Update Widget/Datastream Property](blynk.cloud/update-property.md)
-* [Send/Log An Event](blynk.cloud/trigger-events-api.md)
-* [Get Device Metadata Value](blynk.cloud/get-device-metafield-value.md)
-* [Is Device Connected](blynk.cloud/is-device-connected.md)
-* [HTTPS API Troubleshooting](blynk.cloud/troubleshooting.md)
-* [Security](blynk.cloud/security.md)
+* [Device HTTPS API](blynk.cloud/device-https-api/README.md)
+  * [Get Datastream Value](blynk.cloud/device-https-api/get-datastream-value.md)
+  * [Get Multiple Datastream Values](blynk.cloud/device-https-api/get-multiple-datastream-values.md)
+  * [Get Historical Data From Device](blynk.cloud/device-https-api/get-device-report.md)
+  * [Update Datastream Value](blynk.cloud/device-https-api/update-datastream-value.md)
+  * [Update Multiple Datastreams Simultaneously](blynk.cloud/device-https-api/update-multiple-datastreams-api.md)
+  * [Upload a Set of Timestamped Data](blynk.cloud/device-https-api/upload-set-of-data-with-timestamps-api.md)
+  * [Update Widget/Datastream Property](blynk.cloud/device-https-api/update-property.md)
+  * [Send/Log An Event](blynk.cloud/device-https-api/trigger-events-api.md)
+  * [Get Device Metadata Value](blynk.cloud/device-https-api/get-device-metafield-value.md)
+  * [Is Device Connected](blynk.cloud/device-https-api/is-device-connected.md)
+  * [HTTPS API Troubleshooting](blynk.cloud/device-https-api/troubleshooting.md)
+  * [Security](blynk.cloud/device-https-api/security.md)
+* [Organization HTTPS API](blynk.cloud/organization-https-api.md)
 
 ## Downloads
 

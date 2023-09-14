@@ -2,7 +2,7 @@
 
 Displays static formatted text with your choice of font style, horizontal and vertical alignment, and color.&#x20;
 
-If the widget has a datastream on, it can show its value via placeholder '/value/' put in the text option in settings.&#x20;
+If the widget has a datastream on, it can show its value via placeholder '/value/' put in the text option in settings.
 
 <figure><img src="../../.gitbook/assets/formatted-text-widget-data-settings.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -135,7 +135,7 @@ The property of the widget you want to update:
 {% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
 Get from the bottom right of your Blynk console. 
 
-[More information](../../blynk.cloud/troubleshooting.md)
+[More information](../../blynk.cloud/device-https-api/troubleshooting.md)
 
 .
 {% endswagger-parameter %}

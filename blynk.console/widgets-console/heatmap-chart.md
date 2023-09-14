@@ -113,12 +113,12 @@ void loop()
 
 You can also use HTTPs API to send data. Check the articles below:&#x20;
 
-{% content-ref url="../../blynk.cloud/update-datastream-value.md" %}
-[update-datastream-value.md](../../blynk.cloud/update-datastream-value.md)
+{% content-ref url="../../blynk.cloud/device-https-api/update-datastream-value.md" %}
+[update-datastream-value.md](../../blynk.cloud/device-https-api/update-datastream-value.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../blynk.cloud/upload-set-of-data-with-timestamps-api.md" %}
-[upload-set-of-data-with-timestamps-api.md](../../blynk.cloud/upload-set-of-data-with-timestamps-api.md)
+{% content-ref url="../../blynk.cloud/device-https-api/upload-set-of-data-with-timestamps-api.md" %}
+[upload-set-of-data-with-timestamps-api.md](../../blynk.cloud/device-https-api/upload-set-of-data-with-timestamps-api.md)
 {% endcontent-ref %}
 
 

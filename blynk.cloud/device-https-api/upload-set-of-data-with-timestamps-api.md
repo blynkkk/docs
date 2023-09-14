@@ -83,7 +83,7 @@ or
 {% endswagger %}
 
 {% hint style="info" %}
-You can get the **Device auth token** in [Device info](../getting-started/activating-devices/manual-device-activation.md#step-3-getting-auth-token).
+You can get the **Device auth token** in [Device info](../../getting-started/activating-devices/manual-device-activation.md#step-3-getting-auth-token).
 {% endhint %}
 
 ### cURL example:

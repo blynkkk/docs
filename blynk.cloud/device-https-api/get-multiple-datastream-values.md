@@ -42,7 +42,7 @@ or
 {% endswagger %}
 
 {% hint style="info" %}
-You can get the **Device auth token** in [Device info](../getting-started/activating-devices/manual-device-activation.md#step-3-getting-auth-token).
+You can get the **Device auth token** in [Device info](../../getting-started/activating-devices/manual-device-activation.md#step-3-getting-auth-token).
 {% endhint %}
 
 {% swagger baseUrl="https://{server_address}" path="/external/api/getAll?token={token}" method="get" summary="Get All Datastreams values" %}
@@ -56,7 +56,7 @@ This endpoint allows you to get stored values of the all Datastreams by device t
 {% swagger-parameter in="query" name="token" type="string" required="true" %}
 Device 
 
-[auth token](../concepts/device.md#authtoken)
+[auth token](../../concepts/device.md#authtoken)
 
  from Device info
 {% endswagger-parameter %}

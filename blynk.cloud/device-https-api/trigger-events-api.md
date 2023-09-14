@@ -1,8 +1,8 @@
 # Send/Log An Event
 
-[HTTPS API ](https-api-overview.md)-> Send/Log An Event
+[HTTPS API ](broken-reference)-> Send/Log An Event
 
-1. Check this [article](../getting-started/events-tutorial.md) on setting up an event
+1. Check this [article](../../getting-started/events-tutorial.md) on setting up an event
 2. Use the GET call below to send event&#x20;
 
 {% swagger baseUrl="https://{server_address}" path="/external/api/logEvent?token={token}&code={event_code}&description={event_description}" method="get" summary="Trigger the event by event code" %}
@@ -51,5 +51,5 @@ or
 {% endswagger %}
 
 {% hint style="info" %}
-You can get the **Device auth token** in [Device info](../getting-started/activating-devices/manual-device-activation.md#step-3-getting-auth-token).
+You can get the **Device auth token** in [Device info](../../getting-started/activating-devices/manual-device-activation.md#step-3-getting-auth-token).
 {% endhint %}

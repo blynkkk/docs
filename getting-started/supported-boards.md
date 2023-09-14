@@ -4,7 +4,7 @@ There are different ways to get your devices connected to the Blynk Cloud:
 
 * **Blynk library**\
   An easy to use and portable C++ library, pre-configured to work with **hundreds of development boards**.\
-  The library implements a streaming connection protocol (i.e. the device stays always connected to the cloud), that allows for a **low latency, bi-directional** communication. For an easy start use [Quickstart flow](what-do-i-need-to-blynk/) and make sure to explore [Blynk Library documentation](broken-reference) afterwards.
+  The library implements a streaming connection protocol (i.e. the device stays always connected to the cloud), that allows for a **low latency, bi-directional** communication. For an easy start use [Quickstart flow](what-do-i-need-to-blynk/) and make sure to explore [Blynk Library documentation](broken-reference/) afterwards.
 * **Blynk.Edgent**\
   Blynk.Edgent is a packaged solution that allows developers to easily connect their devices to the platform and take advantage of all its advanced features without the need for extensive coding. It includes:
   * Blynk library API
@@ -21,7 +21,7 @@ There are different ways to get your devices connected to the Blynk Cloud:
 * **HTTP(s) API**\
   A standard communication protocol that can be used by any Internet-connected device.\
   The device connects to the cloud occasionally to transfer the data.\
-  Sending timestamped data in batches is also possible, which is particularly useful for **Cellular devices**. You can find more guidance in [HTTP(s) API documentation](broken-reference).
+  Sending timestamped data in batches is also possible, which is particularly useful for **Cellular devices**. You can find more guidance in [HTTP(s) API documentation](broken-reference/).
 
 ## Hardware supported by `Blynk.Edgent`
 
@@ -38,75 +38,43 @@ As part of Blynk.Edgent the following features are fully supported:\
 [updating-devices-firmwares-ota.md](../blynk.edgent/updating-devices-firmwares-ota.md)
 {% endcontent-ref %}
 
-| Board                 | Provisioning | Secure connection | Blynk.Air (OTA) |
-| --------------------- | ------------ | ----------------- | --------------- |
-| ESP32                 | ✅            | ✅                | ✅               |
-| ESP8266               | ✅            | ✅                | ✅               |
-| Seeed Wio Terminal    | ✅            | ✅                | ✅               |
-| TI CC3220             | ✅            | ✅                | ✅               |
-
+| Board              | Provisioning | Secure connection | Blynk.Air (OTA) |
+| ------------------ | ------------ | ----------------- | --------------- |
+| ESP32              | ✅            | ✅                 | ✅               |
+| ESP8266            | ✅            | ✅                 | ✅               |
+| Seeed Wio Terminal | ✅            | ✅                 | ✅               |
+| TI CC3220          | ✅            | ✅                 | ✅               |
 
 ### Dual-MCU Boards supported by `Blynk.NCP`
 
-Board                            | OTA for MCU | OTA for NCP    | Connectivity | Provisioning | NCP File System
-:--                              | :---        | :---           | :---         | :---         | :--
-[UNO R4 WiFi][1]                 | `⏳ RA4M1`  | `✅ ESP32s3`   | WiFi 2.4     | ✅ BLE       | 4.25 MB
-[Portenta C33][2]                | `⏳ RA6M5`  | `✅ ESP32c3`   | WiFi 2.4     | ✅ BLE       | 512 KB
-[Nano RP2040 Connect][3]         | `✅ RP2040` | `❌ NINA_W102` | WiFi 2.4     | ✅ BLE       | 384 KB
-[Nano 33 IoT][4]                 | `✅ SAMD21` | `❌ NINA_W102` | WiFi 2.4     | ✅ BLE       | 384 KB
-[MKR WiFi 1010][5]               | `✅ SAMD21` | `❌ NINA_W102` | WiFi 2.4     | ✅ BLE       | 384 KB
-[T-PicoC3][6]                    | `✅ RP2040` | `✅ ESP32c3`   | WiFi 2.4     | ✅ BLE       | 512 KB
-[RPi Pico][7] + [ESP8266][8]     | `✅ RP2040` | `✅ ESP8266`   | WiFi 2.4     | ✅ WiFiAP    | 1000 KB
-
-
-[1]: https://store-usa.arduino.cc/products/uno-r4-wifi
-[2]: https://store-usa.arduino.cc/products/portenta-c33
-[3]: https://store-usa.arduino.cc/products/arduino-nano-rp2040-connect
-[4]: https://store-usa.arduino.cc/products/arduino-nano-33-iot
-[5]: https://store-usa.arduino.cc/products/arduino-mkr-wifi-1010
-[6]: https://www.lilygo.cc/products/lilygo%C2%AE-t-picoc3-esp32-c3-rp2040-1-14-inch-lcd-st7789v
-[7]: https://www.raspberrypi.com/products/raspberry-pi-pico
-[8]: https://www.waveshare.com/pico-esp8266.htm
-
+| Board                                                                                                                      | OTA for MCU | OTA for NCP   | Connectivity | Provisioning | NCP File System |
+| -------------------------------------------------------------------------------------------------------------------------- | ----------- | ------------- | ------------ | ------------ | --------------- |
+| [UNO R4 WiFi](https://store-usa.arduino.cc/products/uno-r4-wifi)                                                           | `⏳ RA4M1`   | `✅ ESP32s3`   | WiFi 2.4     | ✅ BLE        | 4.25 MB         |
+| [Portenta C33](https://store-usa.arduino.cc/products/portenta-c33)                                                         | `⏳ RA6M5`   | `✅ ESP32c3`   | WiFi 2.4     | ✅ BLE        | 512 KB          |
+| [Nano RP2040 Connect](https://store-usa.arduino.cc/products/arduino-nano-rp2040-connect)                                   | `✅ RP2040`  | `❌ NINA_W102` | WiFi 2.4     | ✅ BLE        | 384 KB          |
+| [Nano 33 IoT](https://store-usa.arduino.cc/products/arduino-nano-33-iot)                                                   | `✅ SAMD21`  | `❌ NINA_W102` | WiFi 2.4     | ✅ BLE        | 384 KB          |
+| [MKR WiFi 1010](https://store-usa.arduino.cc/products/arduino-mkr-wifi-1010)                                               | `✅ SAMD21`  | `❌ NINA_W102` | WiFi 2.4     | ✅ BLE        | 384 KB          |
+| [T-PicoC3](https://www.lilygo.cc/products/lilygo%C2%AE-t-picoc3-esp32-c3-rp2040-1-14-inch-lcd-st7789v)                     | `✅ RP2040`  | `✅ ESP32c3`   | WiFi 2.4     | ✅ BLE        | 512 KB          |
+| [RPi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico) + [ESP8266](https://www.waveshare.com/pico-esp8266.htm) | `✅ RP2040`  | `✅ ESP8266`   | WiFi 2.4     | ✅ WiFiAP     | 1000 KB         |
 
 ### Connectivity Modules supported by `Blynk.NCP`
 
-Connectivity module              | Firmware file               | Chipset         | Connectivity | Provisioning | Interaction
-:--                              | :---                        | :---            | :---         | :---         | :---
-[ESP32-MINI-1][10]               | [link][generic_esp32_4M]    | `ESP32`         | WiFi 2.4     | BLE          |
-[ESP32-C3-MINI-1][10]            | [link][generic_esp32c3_4M]  | `ESP32-C3`      | WiFi 2.4     | BLE          |
-[ESP32-S3-MINI-1-N8][10]         | [link][generic_esp32s3_8M]  | `ESP32-S3`      | WiFi 2.4     | BLE          |
-[ESP-WROOM-32 4MB][10]<br>(no PSRAM)   | [link][generic_esp32_4M] | `ESP32`      | WiFi 2.4     | BLE          |
-[U-blox NINA-W106][26]           | [link][generic_esp32_4M]    | `ESP32`         | WiFi 2.4     | BLE          |
-[U-blox NORA-W106][27]           | [link][generic_esp32s3_8M]  | `ESP32-S3`      | WiFi 2.4     | BLE          |
-[Adafruit AirLift][20]           | [link][generic_esp32_4M]    | `ESP32`         | WiFi 2.4     | BLE          | RGB LED
-[Macchina SuperB][21]            | [link][generic_esp32_4M]    | `ESP32`         | WiFi 2.4     | BLE          | Green LED
-[TTGO T-Internet-POE][22]        | [link][lilygo_poe]          | `ESP32+LAN8720` | WiFi 2.4, Ethernet POE | BLE    |
-[Seeed WT32-ETH01][23]           | [link][wt32_eth01]          | `ESP32+LAN8720` | WiFi 2.4, Ethernet     | BLE    |
-[Witty Cloud][24]                | [link][generic_esp8266_4M]  | `ESP8266`       | WiFi 2.4     | WiFiAP       | RGB LED, User Button
-[DFRobot WiFi Bee][25]           | [link][generic_esp8266_4M]  | `ESP8266`       | WiFi 2.4     | WiFiAP       | User Button
-ESP-07S, ESP-12F                 | [link][generic_esp8266_4M]  | `ESP8266`       | WiFi 2.4     | WiFiAP       |
-ESP-01, ESP-01S                  | [link][generic_esp8266_1M]  | `ESP8266`       | WiFi 2.4     | WiFiAP       |
-
-[10]: https://www.espressif.com/en/products/modules
-
-[20]: https://www.adafruit.com/product/4201
-[21]: https://www.macchina.cc/catalog/m2-accessories/superb
-[22]: https://www.lilygo.cc/products/t-internet-poe
-[23]: https://www.seeedstudio.com/Ethernet-module-based-on-ESP32-series-WT32-ETH01-p-4736.html
-[24]: https://protosupplies.com/product/esp8266-witty-cloud-esp-12f-wifi-module/
-[25]: https://www.dfrobot.com/product-1279.html
-[26]: https://www.u-blox.com/en/product/nina-w10-series-open-cpu
-[27]: https://www.u-blox.com/en/product/nora-w10-series
-
-[generic_esp8266_1M]: https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP_generic_esp8266_1M.flash.bin
-[generic_esp8266_4M]: https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP_generic_esp8266_4M.flash.bin
-[generic_esp32_4M]: https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP_generic_esp32_4M.flash.bin
-[generic_esp32c3_4M]: https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP_generic_esp32c3_4M.flash.bin
-[generic_esp32s3_8M]: https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP_generic_esp32s3_8M.flash.bin
-[lilygo_poe]: https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP_lilygo_poe.flash.bin
-[wt32_eth01]: https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP_wt32_eth01.flash.bin
-
+| Connectivity module                                                                                          | Firmware file                                                                                                       | Chipset         | Connectivity           | Provisioning | Interaction          |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- | --------------- | ---------------------- | ------------ | -------------------- |
+| [ESP32-MINI-1](https://www.espressif.com/en/products/modules)                                                | [link](https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP\_generic\_esp32\_4M.flash.bin)   | `ESP32`         | WiFi 2.4               | BLE          |                      |
+| [ESP32-C3-MINI-1](https://www.espressif.com/en/products/modules)                                             | [link](https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP\_generic\_esp32c3\_4M.flash.bin) | `ESP32-C3`      | WiFi 2.4               | BLE          |                      |
+| [ESP32-S3-MINI-1-N8](https://www.espressif.com/en/products/modules)                                          | [link](https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP\_generic\_esp32s3\_8M.flash.bin) | `ESP32-S3`      | WiFi 2.4               | BLE          |                      |
+| <p><a href="https://www.espressif.com/en/products/modules">ESP-WROOM-32 4MB</a><br>(no PSRAM)</p>            | [link](https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP\_generic\_esp32\_4M.flash.bin)   | `ESP32`         | WiFi 2.4               | BLE          |                      |
+| [U-blox NINA-W106](https://www.u-blox.com/en/product/nina-w10-series-open-cpu)                               | [link](https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP\_generic\_esp32\_4M.flash.bin)   | `ESP32`         | WiFi 2.4               | BLE          |                      |
+| [U-blox NORA-W106](https://www.u-blox.com/en/product/nora-w10-series)                                        | [link](https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP\_generic\_esp32s3\_8M.flash.bin) | `ESP32-S3`      | WiFi 2.4               | BLE          |                      |
+| [Adafruit AirLift](https://www.adafruit.com/product/4201)                                                    | [link](https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP\_generic\_esp32\_4M.flash.bin)   | `ESP32`         | WiFi 2.4               | BLE          | RGB LED              |
+| [Macchina SuperB](https://www.macchina.cc/catalog/m2-accessories/superb)                                     | [link](https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP\_generic\_esp32\_4M.flash.bin)   | `ESP32`         | WiFi 2.4               | BLE          | Green LED            |
+| [TTGO T-Internet-POE](https://www.lilygo.cc/products/t-internet-poe)                                         | [link](https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP\_lilygo\_poe.flash.bin)          | `ESP32+LAN8720` | WiFi 2.4, Ethernet POE | BLE          |                      |
+| [Seeed WT32-ETH01](https://www.seeedstudio.com/Ethernet-module-based-on-ESP32-series-WT32-ETH01-p-4736.html) | [link](https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP\_wt32\_eth01.flash.bin)          | `ESP32+LAN8720` | WiFi 2.4, Ethernet     | BLE          |                      |
+| [Witty Cloud](https://protosupplies.com/product/esp8266-witty-cloud-esp-12f-wifi-module/)                    | [link](https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP\_generic\_esp8266\_4M.flash.bin) | `ESP8266`       | WiFi 2.4               | WiFiAP       | RGB LED, User Button |
+| [DFRobot WiFi Bee](https://www.dfrobot.com/product-1279.html)                                                | [link](https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP\_generic\_esp8266\_4M.flash.bin) | `ESP8266`       | WiFi 2.4               | WiFiAP       | User Button          |
+| ESP-07S, ESP-12F                                                                                             | [link](https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP\_generic\_esp8266\_4M.flash.bin) | `ESP8266`       | WiFi 2.4               | WiFiAP       |                      |
+| ESP-01, ESP-01S                                                                                              | [link](https://github.com/blynkkk/BlynkNcpDriver/releases/latest/download/BlynkNCP\_generic\_esp8266\_1M.flash.bin) | `ESP8266`       | WiFi 2.4               | WiFiAP       |                      |
 
 ### Hardware that works with Blynk library or HTTPs API (using Static Tokens)
 
@@ -121,7 +89,7 @@ Read about static tokens here:
 {% endcontent-ref %}
 
 {% hint style="info" %}
-If your board is not listed below, you may still be able to use it with Blynk library. Check out [the generic Arduino Client examples](https://github.com/blynkkk/blynk-library/tree/master/examples/Boards_ArduinoClient).
+If your board is not listed below, you may still be able to use it with Blynk library. Check out [the generic Arduino Client examples](https://github.com/blynkkk/blynk-library/tree/master/examples/Boards\_ArduinoClient).
 {% endhint %}
 
 **Arduino** ([https://github.com/blynkkk/blynk-library](https://github.com/blynkkk/blynk-library))
@@ -203,7 +171,7 @@ If your board is not listed below, you may still be able to use it with Blynk li
   * Adafruit FONA (Mini Cellular GSM Breakout)
 
 {% hint style="info" %}
-Traffic optimization is usually required for cellular connections. Using realtime streaming protocols like Blynk or MQTT has benefits of interactive device updates, but it also requires device to stay "always connected", which significantly increases the traffic. Blynk recommends using [HTTPS (batch) API](../blynk.cloud/https-api-overview.md) for reporting telemetry and fetching `DataStream` values periodically in such scenarios. It will also help saving the battery.
+Traffic optimization is usually required for cellular connections. Using realtime streaming protocols like Blynk or MQTT has benefits of interactive device updates, but it also requires device to stay "always connected", which significantly increases the traffic. Blynk recommends using [HTTPS (batch) API](broken-reference) for reporting telemetry and fetching `DataStream` values periodically in such scenarios. It will also help saving the battery.
 {% endhint %}
 
 ### Made by Community <a href="#supported-hardware-made-by-community" id="supported-hardware-made-by-community"></a>
