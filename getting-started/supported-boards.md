@@ -120,6 +120,10 @@ Read about static tokens here:
 [blynk-edgent-static-authtoken.md](activating-devices/blynk-edgent-static-authtoken.md)
 {% endcontent-ref %}
 
+{% hint style="info" %}
+If your board is not listed below, you may still be able to use it with Blynk library. Check out [the generic Arduino Client examples](https://github.com/blynkkk/blynk-library/tree/master/examples/Boards_ArduinoClient).
+{% endhint %}
+
 **Arduino** ([https://github.com/blynkkk/blynk-library](https://github.com/blynkkk/blynk-library))
 
 * Arduino MKR WiFi 1010
