@@ -39,12 +39,12 @@ You can set it to trigger either for any device using a specific template or jus
     * Code Input field – input your code here. Objects input can be sped up by selecting from Dynamic Data list (quick search is also supported)
     * **Dynamic Data**
       * **Search** – objects quick search&#x20;
-      * **Objects** [list](create-new-webhook.md#objects-that-can-be-used-for-dynamic-data) – scroll and select the object(s) you want to add to your code
+      * **Placeholder** [list](create-new-webhook.md#objects-that-can-be-used-for-dynamic-data) – scroll and select the object(s) you want to add to your code
   * **Plain text**
     * Text Input field – input any text you want to send.  Objects input can be sped up by selecting from Dynamic Data list (quick search is also supported)
     * **Dynamic Data**
       * **Search** – objects quick search&#x20;
-      * **Objects** [list](create-new-webhook.md#objects-that-can-be-used-for-dynamic-data) – scroll and select the object(s) you want to add to your code
+      * **Placeholder** [list](create-new-webhook.md#objects-that-can-be-used-for-dynamic-data) – scroll and select the object(s) you want to add to your code
 * **Authorization Method (optional)** – select corresponding Authentication Type in case your destination requires authorization.
   * **Authentication Type** – switch to one that is required by your destination:
     * **None** is set by default
@@ -66,9 +66,9 @@ You can set it to trigger either for any device using a specific template or jus
 
 ![](../../../.gitbook/assets/test-webhook.gif)
 
-### Objects that can be used for dynamic data
+### Placeholders that can be used for dynamic data
 
-There is a number of dynamic data objects that can be used to pass data through webhooks. The objects get sorted out automatically. So, if an item is not accessible through the dropdown menu or a search query, it is not available for this specific trigger.
+There is a number of dynamic data objects that can be used to pass data through webhooks. The placeholders get sorted out automatically. So, if an item is not accessible through the dropdown menu or a search query, it is not available for this specific trigger.
 
 | `device_id` - send device id                                                                                                       |
 | ---------------------------------------------------------------------------------------------------------------------------------- |
