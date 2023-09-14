@@ -115,7 +115,7 @@ Type of datasream should be only `string`, method GET
 Use in sketch\
 `Blynk.virtualWrite(V17, "7", "6", "5");`
 
-Custom JSON
+**Custom JSON:**
 
 ```
 {
@@ -125,8 +125,13 @@ Custom JSON
 }
 ```
 
-Result after triggering webhook
+**Result after triggering webhook:**
 
 [![5](https://user-images.githubusercontent.com/110888025/213689851-3761ed18-aa91-4790-a275-03d056a74e52.jpg)](https://user-images.githubusercontent.com/110888025/213689851-3761ed18-aa91-4790-a275-03d056a74e52.jpg)
+
+### Trigger a webhook from the hardware
+
+For triggering a webhook, use `Blynk.virtualWrite` in your firmware.\
+Refer to the documentation for more info about [sending data to virtual pins](../../../blynk-library-firmware-api/virtual-pins.md#blynk.virtualwrite-vpin-value).
 
 ### [Limits apply](../../limits.md#webhooks-limits)
