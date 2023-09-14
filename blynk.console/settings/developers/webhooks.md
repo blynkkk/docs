@@ -129,7 +129,7 @@ It can be sorted by switching Timeline tabs and each column value.
 
 ![Logs table](../../../.gitbook/assets/blynk-webhook-logs.png)
 
-* **Status** – `OK`_,_ `Waiting`_,_ `Failed` are possible with [`server response code`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)\`\`
+* **Status** – `OK`_,_ `Waiting`_,_ `Failed` are possible with [`server response code`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 * **Date** – webhook trigger time in hh:mm:ss M D, Y format&#x20;
 * **Request to** – webhook request destination URL
 * **Trigger ID** – hover on so the hint appears, click Copy pictogram to put it to your clipboard
