@@ -63,12 +63,15 @@ You can set it to trigger either for any device using a specific template or jus
       * **Key** – type any meaningful key. 100 characters limit
       * **Value** – select from [the list](webhooks.md#objects-that-can-be-used-for-dynamic-data) (manual scroll or quick search by typing)&#x20;
   * **Custom JSON**
-    * Code Input field – input your code here. Objects input can be sped up by selecting from Dynamic Data list (quick search is supported there)
+    * Code Input field – input your code here. Objects input can be sped up by selecting from Dynamic Data list (quick search is also supported)
     * **Dynamic Data**
       * **Search** – objects quick search&#x20;
       * **Objects** [list](webhooks.md#objects-that-can-be-used-for-dynamic-data) – scroll and select the object(s) you want to add to your code
   * **Plain text**
-    * Text Input field – input any text you want to send.
+    * Text Input field – input any text you want to send.  Objects input can be sped up by selecting from Dynamic Data list (quick search is also supported)
+    * **Dynamic Data**
+      * **Search** – objects quick search&#x20;
+      * **Objects** [list](webhooks.md#objects-that-can-be-used-for-dynamic-data) – scroll and select the object(s) you want to add to your code
 * **Authorization Method (optional)** – select corresponding Authentication Type in case your destination requires authorization.
   * **Authentication Type** – switch to one that is required by your destination:
     * **None** is set by default
