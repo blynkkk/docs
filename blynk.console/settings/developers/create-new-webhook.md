@@ -68,19 +68,47 @@ You can set it to trigger either for any device using a specific template or jus
 
 ### Objects that can be used for dynamic data
 
-`device_id` - send device id\
-`device_productName` - send template name\
-`device_dateCreated` - send device creation date\
-`device_name` - send device name\
-`device_orgName` - send organization name\
-`device_pin` - send current pin of datastream\
-`device_dataStreamId` - send id of datastream\
-`device_pinValue` - send current (last) pin value of datastream\
-`device_tags` - comma-separated device tag names\
-`device_dataStream_X` - where `X` is data stream identifier - value of device data stream. Example: `{device_dataStream_1}`\
-`device_metadata_X` - where `X` is metadata identifier - value of device metadata. Example: `{device_metadata_1}`\
-`timestamp_unix, timestamp_iso8601` - timestamp in Unix or ISO format&#x20;
+| `device_id` - send device id                                                                                                       |
+| ---------------------------------------------------------------------------------------------------------------------------------- |
+| `device_name` - send device name                                                                                                   |
+| `device_authToken` - send auth token of the device                                                                                 |
+| `device_templateId` - send template id                                                                                             |
+| `device_productName` - send template name                                                                                          |
+| `device_orgName` - send organization name                                                                                          |
+| `device_dataStream_X` where X is data stream identifier - value of device data stream. Example: {device\_dataStream\_1}            |
+| `device_dataStreamId` - send id of the datastream                                                                                  |
+| `device_dateCreated` - send device creation date                                                                                   |
+| `device_pin` - send current pin of datastream                                                                                      |
+| `device_pinValue` - send current (last) pin value of datastream                                                                    |
+| `device_pinValue[X]` - send [multiple values in a single pin](create-new-webhook.md#blynk-support-multiple-values-in-a-single-pin) |
+| `device_clientType`                                                                                                                |
+| `device_country`                                                                                                                   |
+| `device_state`                                                                                                                     |
+| `device_zipCode`                                                                                                                   |
+| `device_metadata_X` where X is metadata identifier - value of device metadata. Example: {device\_metadata\_1}                      |
+| `device_tags` - comma-separated device tag names.                                                                                  |
+| `timestamp_unix` - timestamp of webhook triggered in epoch format                                                                  |
+| `timestamp_iso8601` - timestamp of webhook triggered in ISO8601 format                                                             |
 
+#### **Blynk support multiple values in a single pin**
 
+Type of datasream should be only `string`, method GET
+
+Use in sketch\
+`Blynk.virtualWrite(V17, "7", "6", "5");`
+
+Custom JSON
+
+```
+{
+  "value0": "{device_pinValue[0]}",
+  "value1": "{device_pinValue[1]}",
+  "value2": "{device_pinValue[2]}"
+}
+```
+
+Result after triggering webhook
+
+[![5](https://user-images.githubusercontent.com/110888025/213689851-3761ed18-aa91-4790-a275-03d056a74e52.jpg)](https://user-images.githubusercontent.com/110888025/213689851-3761ed18-aa91-4790-a275-03d056a74e52.jpg)
 
 ### [Limits apply](../../limits.md#webhooks-limits)
