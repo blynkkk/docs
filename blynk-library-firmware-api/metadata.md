@@ -41,7 +41,7 @@ BLYNK_WRITE(InternalPinMETA) {
     } else if (field == "Device Model") {
         String value = param[1].asStr();
         // Do something with Metadata value
-    } else if (filed == "Auth Token") {
+    } else if (field == "Auth Token") {
         String value = param[1].asStr();
         // Do something with Metadata value
     }
