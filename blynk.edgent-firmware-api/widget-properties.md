@@ -9,7 +9,7 @@ description: >-
 ## Single Datastream
 
 You can change the widget property assigned to a single datastream from the hardware side.\
-For example, you can change the color of an LED widget assigned to Virtua Pin 0:
+For example, you can change the color of an LED widget assigned to Virtual Pin 0:
 
 ```
 //change LED color
