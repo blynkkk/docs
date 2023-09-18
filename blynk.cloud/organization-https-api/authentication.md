@@ -1,12 +1,16 @@
 # Authentication
 
-Organization API uses oAuth authentication protocol in order to grant access and authenticate client requests. Your launch engineer have to provide you with oAuth client identifier and secret by your request.
+Organization API uses OAuth authentication protocol in order to grant access and authenticate client requests. Your launch engineer has to provide you with an OAuth client identifier and secret at your request.
+
+Alternatively, you can find it in **Settings** -> **Developers** -> **OAuth2**:
+
+<figure><img src="../../.gitbook/assets/screenshot-blynk-qa.com-2023.09.18-13_58_22.png" alt=""><figcaption><p>OAuth2 develoepr section</p></figcaption></figure>
 
 
 
-### Authenticate using Authorization Header
+## Authenticate using Authorization Header
 
-To obtain authentication token use `client_credentials` grant type as mentioned above:
+To obtain authentication tokens use `client_credentials` grant type as mentioned below:
 
 {% swagger method="post" path="/oauth2/token" baseUrl="https://{server_address}" summary="Authenticate using client credentials" %}
 {% swagger-description %}
@@ -17,12 +21,14 @@ Authentication to Organization API using oAuth client credentials provided in
  header.
 {% endswagger-description %}
 
-{% swagger-parameter in="header" name="Authorization" required="true" type="Basic {credentials}" %}
-Provide authorization header with oAuth client credentials filled in basic authorization format.
+{% swagger-parameter in="header" name="Authorization" required="true" type="" %}
+Provide authorization header with oAuth client credentials filled in basic authorization format:
+
+`Basic {credentials}`
 {% endswagger-parameter %}
 
-{% swagger-parameter in="query" name="grant_type" type="client_credentials" required="true" %}
-
+{% swagger-parameter in="query" name="grant_type" type="" required="true" %}
+Use client_credentials
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Successfuly authenticated" %}
@@ -37,7 +43,7 @@ Example response:
 }
 ```
 
-Use `access_token` value to authenticate further requests and `refresh_token` to refresh the token after it's expiration. Use `expires_in` (value specified in seconds) parameter to determine token expiration time.
+Use `access_token` value to authenticate further requests and `refresh_token` to refresh the token after its expiration. Use `expires_in` (value specified in seconds) parameter to determine token expiration time.
 {% endswagger-response %}
 
 {% swagger-response status="400: Bad Request" description="Authentication failed" %}
@@ -54,19 +60,23 @@ Example response:
 {% endswagger-response %}
 {% endswagger %}
 
-Request examples:
+#### Usage example
 
-```bash
-# curl command example:
-$ curl -X POST -u {clientId}:{clientSecret} https://fra1.blynk.cloud/oauth2/token?grant_type=client_credentials
+cURL:
+
+```
+$ curl -X POST -u {clientId}:{clientSecret} https://{server_address}/oauth2/token?grant_type=client_credentials
+```
+
+cURL with real data:
+
+```
 $ curl -X POST -u oa2-client-id_zmNtW-D0Toqpz4AZnBLCIlklBrz9ynU-:5uC5Y4Mcvdl5rB56rBmxnvB4DZgiIpcyTPbOoEWp https://fra1.blynk.cloud/oauth2/token?grant_type=client_credentials
-
-# httpie command example:
-$ https -a {clientId}:{clientSecret} POST fra1.blynk.cloud/oauth2/token grant_type==client_credentials
-$ https -a oa2-client-id_zmNtW-D0Toqpz4AZnBLCIlklBrz9ynU-:5uC5Y4Mcvdl5rB56rBmxnvB4DZgiIpcyTPbOoEWp POST fra1.blynk.cloud/oauth2/token grant_type==client_credentials
 ```
 
 
+
+## Token Refresh using Authorization Header
 
 After authentication token expiration use `refresh_token` grant type to refresh it:
 
@@ -79,12 +89,14 @@ Refreshing the authentication to Organization API using oAuth client credentials
  header and refresh token issued in previous authentication response.
 {% endswagger-description %}
 
-{% swagger-parameter in="header" type="Basic {credentials}" name="Authorization" required="true" %}
-Provide authorization header with oAuth client credentials filled in basic authorization format.
+{% swagger-parameter in="header" type="" name="Authorization" required="true" %}
+Provide authorization header with oAuth client credentials filled in basic authorization format:
+
+`Basic {credentials}`
 {% endswagger-parameter %}
 
-{% swagger-parameter in="query" name="grant_type" type="refresh_token" required="true" %}
-
+{% swagger-parameter in="query" name="grant_type" type="" required="true" %}
+refresh_token
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="refresh_token" type="" required="true" %}
@@ -120,28 +132,33 @@ Example response:
 {% endswagger-response %}
 {% endswagger %}
 
-Request examples:
+#### Usage example
 
-<pre class="language-bash"><code class="lang-bash"><strong># curl command example:
-</strong>$ curl -X POST -u {clientId}:{clientSecret} https://fra1.blynk.cloud/oauth2/token?grant_type=refresh_token&#x26;refresh_token={refreshToken}
-$ curl -X POST -u oa2-client-id_zmNtW-D0Toqpz4AZnBLCIlklBrz9ynU-:5uC5Y4Mcvdl5rB56rBmxnvB4DZgiIpcyTPbOoEWp https://fra1.blynk.cloud/oauth2/token?grant_type=refresh_token&#x26;refresh_token=Esiu5g_OVc0ZxoH_F3X-4-lIoMvcU3yJjBN4QoQq
-<strong>
-</strong><strong># httpie command example:
-</strong>$ https -a {clientId}:{clientSecret} POST fra1.blynk.cloud/oauth2/token grant_type==refresh_token refresh_token=={refreshToken}
-$ https -a oa2-client-id_zmNtW-D0Toqpz4AZnBLCIlklBrz9ynU-:5uC5Y4Mcvdl5rB56rBmxnvB4DZgiIpcyTPbOoEWp POST fra1.blynk.cloud/oauth2/token grant_type==refresh_token refresh_token==Esiu5g_OVc0ZxoH_F3X-4-lIoMvcU3yJjBN4QoQq
-</code></pre>
+cURL:
 
-### Authenticate using query parameters
+```
+$ curl -X POST -u {clientId}:{clientSecret} https://{server_address}/oauth2/token?grant_type=refresh_token&refresh_token={refreshToken}
+```
 
-Authentication using query parameters is less preferred due to it's lower security, but more easier. You may use this authentication type for hand experimentation, for example.
+cURL with real data:
+
+```
+$ curl -X POST -u oa2-client-id_zmNtW-D0Toqpz4AZnBLCIlklBrz9ynU-:5uC5Y4Mcvdl5rB56rBmxnvB4DZgiIpcyTPbOoEWp https://fra1.blynk.cloud/oauth2/token?grant_type=refresh_token&refresh_token=Esiu5g_OVc0ZxoH_F3X-4-lIoMvcU3yJjBN4QoQq
+```
+
+
+
+## Authenticate using query parameters
+
+Authentication using query parameters is less preferred due to it's lower security, but more easier. You may use this authentication type to achieve quick results as it can even be tested in a browser.
 
 {% swagger method="post" path="/oauth2/token" baseUrl="https://{server_address}" summary="Authenticate using client credentials" %}
 {% swagger-description %}
 Authentication to Organization API using oAuth client credentials provided in query parameters.
 {% endswagger-description %}
 
-{% swagger-parameter in="query" name="grant_type" type="client_credentials" required="true" %}
-
+{% swagger-parameter in="query" name="grant_type" type="" required="true" %}
+client_credentials
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="client_id" required="true" %}
@@ -181,27 +198,31 @@ Example response:
 {% endswagger-response %}
 {% endswagger %}
 
-Request examples:
+#### Usage example
 
-```bash
-# curl command example:
-$ curl -X POST https://fra1.blynk.cloud/oauth2/token?grant_type=client_credentials&client_id={clientId}&client_secret={clientSecret}
+cURL:
+
+```
+$ curl -X POST https://{server_addresss}/oauth2/token?grant_type=client_credentials&client_id={clientId}&client_secret={clientSecret}
+```
+
+cURL with real data:
+
+```
 $ curl -X POST https://fra1.blynk.cloud/oauth2/token?grant_type=client_credentials&client_id=oa2-client-id_zmNtW-D0Toqpz4AZnBLCIlklBrz9ynU-&client_secret=5uC5Y4Mcvdl5rB56rBmxnvB4DZgiIpcyTPbOoEWp
-
-# httpie command example:
-$ https POST fra1.blynk.cloud/oauth2/token grant_type==client_credentials client_id=={clientId} client_secret=={clientSecret}
-$ https POST fra1.blynk.cloud/oauth2/token grant_type==client_credentials client_id==oa2-client-id_zmNtW-D0Toqpz4AZnBLCIlklBrz9ynU- client_secret==5uC5Y4Mcvdl5rB56rBmxnvB4DZgiIpcyTPbOoEWp
 ```
 
 
+
+## Token Refresh using query parameters
 
 {% swagger method="post" path="/oauth2/token" baseUrl="https://{server_address}" summary="Refresh authentication token" %}
 {% swagger-description %}
 Refreshing the authentication to Organization API using query parameters with oAuth client credentials and refresh token issued in previous authentication response.
 {% endswagger-description %}
 
-{% swagger-parameter in="query" name="grant_type" type="refresh_token" required="true" %}
-
+{% swagger-parameter in="query" name="grant_type" type="" required="true" %}
+refresh_token
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="refresh_token" required="true" %}
@@ -245,15 +266,16 @@ Example response:
 {% endswagger-response %}
 {% endswagger %}
 
-Request examples:
+#### Usage example
 
-```bash
-# curl command example:
-$ curl -X POST https://fra1.blynk.cloud/oauth2/token?grant_type=refresh_token&refresh_token={refreshToken}&client_id={clientId}&client_secret={clientSecret}
-$ curl -X POST https://fra1.blynk.cloud/oauth2/token?grant_type=refresh_token&refresh_token=pLa8jdJWHuCUfVniqNc8XimUs0gUZ8YuK_qsaUej&client_id=oa2-client-id_zmNtW-D0Toqpz4AZnBLCIlklBrz9ynU-&client_secret=5uC5Y4Mcvdl5rB56rBmxnvB4DZgiIpcyTPbOoEWp
+cURL:
 
-# httpie command example:
-$ https POST fra1.blynk.cloud/oauth2/token grant_type==refresh_token refresh_token=={refreshToken} client_id=={clientId} client_secret=={clientSecret}
-$ https POST fra1.blynk.cloud/oauth2/token grant_type==refresh_token refresh_token==pLa8jdJWHuCUfVniqNc8XimUs0gUZ8YuK_qsaUej client_id==oa2-client-id_zmNtW-D0Toqpz4AZnBLCIlklBrz9ynU- client_secret==5uC5Y4Mcvdl5rB56rBmxnvB4DZgiIpcyTPbOoEWp
+```
+$ curl -X POST https://{server_address}/oauth2/token?grant_type=refresh_token&refresh_token={refreshToken}&client_id={clientId}&client_secret={clientSecret}
 ```
 
+cURL with real data:
+
+```
+$ curl -X POST https://fra1.blynk.cloud/oauth2/token?grant_type=refresh_token&refresh_token=pLa8jdJWHuCUfVniqNc8XimUs0gUZ8YuK_qsaUej&client_id=oa2-client-id_zmNtW-D0Toqpz4AZnBLCIlklBrz9ynU-&client_secret=5uC5Y4Mcvdl5rB56rBmxnvB4DZgiIpcyTPbOoEWp
+```
