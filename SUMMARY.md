@@ -266,6 +266,12 @@
   * [Security](blynk.cloud/device-https-api/security.md)
 * [Organization HTTPS API](blynk.cloud/organization-https-api.md)
 
+***
+
+* [HTTPs Organization API](https-organization-api.md)
+* [Authentication](authentication.md)
+* [Get Organization Info](get-organization-info.md)
+
 ## Downloads
 
 * [Blynk Mobile Apps](downloads/blynk-apps-for-ios-and-android.md)
