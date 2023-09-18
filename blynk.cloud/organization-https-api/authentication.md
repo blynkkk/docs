@@ -1,10 +1,14 @@
 # Authentication
 
-Organization API uses OAuth authentication protocol in order to grant access and authenticate client requests. Your launch engineer has to provide you with an OAuth client identifier and secret at your request.
+Organization API uses OAuth authentication protocol in order to grant access and authenticate client requests. Your launch engineer has to provide you with an OAuth client identifier (`clientId`) and secret (`clientSecret`) at your request.
 
 Alternatively, you can find it in **Settings** -> **Developers** -> **OAuth2**:
 
-<figure><img src="../../.gitbook/assets/screenshot-blynk-qa.com-2023.09.18-13_58_22.png" alt=""><figcaption><p>OAuth2 develoepr section</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot-blynk-qa.com-2023.09.18-13_58_22.png" alt=""><figcaption><p>OAuth2 Develoepr section</p></figcaption></figure>
+
+
+
+<figure><img src="../../.gitbook/assets/screenshot-blynk-qa.com-2023.09.18-14_41_48 (1).png" alt=""><figcaption><p>OAuth2 Tokens list</p></figcaption></figure>
 
 
 
