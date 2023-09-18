@@ -264,13 +264,9 @@
   * [Is Device Connected](blynk.cloud/device-https-api/is-device-connected.md)
   * [HTTPS API Troubleshooting](blynk.cloud/device-https-api/troubleshooting.md)
   * [Security](blynk.cloud/device-https-api/security.md)
-* [Organization HTTPS API](blynk.cloud/organization-https-api.md)
-
-***
-
-* [HTTPs Organization API](https-organization-api.md)
-* [Authentication](authentication.md)
-* [Get Organization Info](get-organization-info.md)
+* [Organization HTTPS API](blynk.cloud/organization-https-api/README.md)
+  * [Authentication](blynk.cloud/organization-https-api/authentication.md)
+  * [Get Organization Info](blynk.cloud/organization-https-api/get-organization-info.md)
 
 ## Downloads
 
