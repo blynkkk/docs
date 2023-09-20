@@ -1,6 +1,12 @@
 # Terminal
 
-Displays the assigned datastream of data type string values since the app was last refreshed in a scrolling list. It optionally provides a text input area for the user to assign new values to the assigned datastream. Special commands are available for the hardware to assign data to the datastream using the print/println/write methods. Note that the terminal display is cleared with every app refresh.
+Displays the assigned datastream of data type string values since the app was last refreshed in a scrolling list. It optionally provides a text input area for the user to assign new values to the assigned datastream. Special commands are available for the hardware to assign data to the datastream using the print/println/write methods.&#x20;
+
+{% hint style="info" %}
+Note that the terminal display is cleared with every app refresh for Free plan.&#x20;
+
+With **Plus plan** the widget stores up to 10 lines of historical data. It stores up to 25 lines with the **PRO plan**.
+{% endhint %}
 
 ### Datastream
 
