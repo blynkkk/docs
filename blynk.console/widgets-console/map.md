@@ -119,7 +119,7 @@ Blynk.virtualWrite(V1, lon, lat);
 **HTTP API:**
 
 ```
-https://{server_address}/external/api/update/?token={your 32 char token}&V1=-73.8731&V1=40.8414
+https://{server_address}/external/api/update?token={your 32 char token}&V1=-73.8731&V1=40.8414
 ```
 
 {% hint style="danger" %}
