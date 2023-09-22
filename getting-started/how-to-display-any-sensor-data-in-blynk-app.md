@@ -12,7 +12,7 @@ Getting Started -> Send Data From Hardware To Blynk
 
 With Blynk you can send raw or processed data from any sensor or actuator connected to the MCU board
 
-When you send data to Blynk it flows through a Datastream using Blynk protocol. Then every value is automatically timstamped and stored in the Blynk.Cloud database (you can also [send batches of timestamped data](../blynk.cloud/device-https-api/upload-set-of-data-with-timestamps-api.md) if needed).
+When you send data to Blynk it flows through a Datastream using Blynk protocol. Then every value is automatically timestamped and stored in the Blynk.Cloud database (you can also [send batches of timestamped data](../blynk.cloud/device-https-api/upload-set-of-data-with-timestamps-api.md) if needed).
 
 Datastream is a channel that tells Blynk what type of data is flowing through it.&#x20;
 
@@ -47,7 +47,7 @@ Before you try to send data to Blynk **you should be able to print the sensor re
 
 You should be already familiar with Digital and Analog pins which are used on your hardware to transfer data from connected sensors.&#x20;
 
-Virtual Pins are a Blynk abstraction designed to exchange **any data** between your hardware and Blynk. Anything you connect to your hardware will be able to talk to Blynk. With Virtual Pins you can send something from the App, process it on the microcontroller, and then send it back to the smartphone. You can trigger functions, read I2C devices, convert values, control servo and DC motors etc.
+Virtual Pins are a Blynk abstraction designed to exchange **any data** between your hardware and Blynk. Anything you connect to your hardware will be able to talk to Blynk. With Virtual Pins you can send something from the App, process it on the microcontroller, and then send it back to the smartphone. You can trigger functions, read I2C devices, convert values, control servo and DC motors, etc.
 
 Virtual Pins can be used to interface with external libraries (Servo, LCD, and others) and implement custom functionality.
 
@@ -68,11 +68,11 @@ There is no correlation between Virtual Pins and any of the physical GPIO pins o
 
 ## Sending And Storing Data  <a href="#first-of-all-you-should-know-that-blynk-can-work-with-any-sensor" id="first-of-all-you-should-know-that-blynk-can-work-with-any-sensor"></a>
 
-Depending on the plan you choose, the data can be stored as-is (Raw data) or will be averaged to a one-minute average. Averaging means that if you sent 60 values per minute, Blynk will only store one value. You can still see the data flowing in in real-time.
+Depending on the plan you choose, the data can be stored as-is (Raw data) or will be averaged to a one-minute average. Averaging means that if you send 60 values per minute, Blynk will only store one value. You can still see the data flowing in in real-time.
 
 
 
-Before you start sending data, we need to prepare some place to store it and visualize. Let's use Chart Widget in Blynk.Console for that and plot the noise coming in from Analog Pin A0 on the hardware.
+Before you start sending data, we need to prepare some place to store it and visualize it. Let's use  Chart Widget in Blynk.Console for that and plot the noise coming in from Analog Pin A0 on the hardware.
 
 1. Go to Blynk.Console -> Templates -> Create New Template
 2. Go to Web Dashboard Tab -> Add Chart Widget, then open Widget Settings
@@ -88,7 +88,7 @@ Now the widget is ready to receive values in the range of 0-1023 through the Vir
 
 Click **Save and Apply** to save the template and apply changes.
 
-If you don't have devices yet, or need more information on templates, check these articles:
+If you don't have devices yet or need more information on templates, check these articles:
 
 * [**How to create a device from Template**](activating-devices/manual-device-activation.md)
 * [**Quick Template setup**](template-quick-setup/)
@@ -97,7 +97,7 @@ If you don't have devices yet, or need more information on templates, check thes
 
 Now you are ready to send the data from your device. Depending on the chosen hardware and connectivity method you can choose between two main methods of sending data:&#x20;
 
-* [Blynk Library Firmware API](how-to-display-any-sensor-data-in-blynk-app.md#1.-send-data-with-blynk-library-firmware-api): for devices that can be constantly connected to the internet. For  example: WiFI or Ethernet
+* [Blynk Library Firmware API](how-to-display-any-sensor-data-in-blynk-app.md#1.-send-data-with-blynk-library-firmware-api): for devices that can be constantly connected to the internet. For  example: Wi-Fi or Ethernet
 * [HTTPS API](how-to-display-any-sensor-data-in-blynk-app.md#2.-using-https-rest-api): for cellular devices or any other cases when you need to use standard HTTP protocol&#x20;
 
 
@@ -106,7 +106,7 @@ Now you are ready to send the data from your device. Depending on the chosen har
 
 This method utilizes Blynk Protocol and it's the most common and easy-to-use method when you need to send data in real-time.
 
-First you need to do is setup a [template](template-quick-setup/) with a [datastream](template-quick-setup/set-up-datastreams.md) to configure what type of data your hardware will be sending.&#x20;
+First, you need to set up a [template](template-quick-setup/) with a [datastream](template-quick-setup/set-up-datastreams.md) to configure what type of data your hardware will be sending.&#x20;
 
 When you have the datastream set, use its Virtual Pin number further.&#x20;
 
@@ -128,7 +128,7 @@ Blynk.virtualWrite(Vpin, "hello", 123, 12.34);
 ### Use timers!
 
 {% hint style="danger" %}
-It's important to understand that if you put such code into a `void loop()` it will execute "gazillion" times. This could spam the Blynk.Cloud with thousands of messages from your hardware. When this happens, Blynk.Cloud will cut off the connection between hardware and server.
+It's important to understand that if you put such code into `void loop()` it will execute "gazillion" times. This could spam the Blynk.Cloud with thousands of messages from your hardware. When this happens, Blynk.Cloud will cut off the connection between the hardware and the server.
 {% endhint %}
 
 To avoid spamming the server, send data only when it's needed (event-based) or use timers to send data in controlled intervals. Blynk Library offers a built-in timer for your convenience.
@@ -178,7 +178,7 @@ void loop()
 
 
 
-## Send Data Using HTTPs RESTful API
+## Send Data Using HTTP RESTful API
 
 If you prefer or need to use HTTP protocol, use it with any device that supports HTTP client functionality.&#x20;
 
