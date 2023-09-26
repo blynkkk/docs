@@ -1,13 +1,13 @@
 # Security
 
-Blynk cloud has multiple layers of security:
+Blynk.Cloud has multiple layers of security:
 
 * Every message sent through Blynk is encrypted and secure (unless you're using hardware that doesn't support TLS)
 * Granular permissions allow you to manage who and how can see your devices and their data
 * Every user should have a valid email address. Blynk offers a built-in verification process
-* Server system design doesn't allow any other user than allowed by you to view the devices within your organization hierarchy
-* Each device has own unique OAuth token and Product Id. Combination of both these fields grants access of the device only for your organization
-* Constant monitoring allows us to react quickly on any possible incidents  &#x20;
+* Server system design doesn't allow any other user than allowed by you to view the devices within your organization's hierarchy
+* Each device has its own unique OAuth token and Product ID. A combination of both these fields grants access to the device only for your organization
+* Constant monitoring allows us to react quickly to any possible incidents  &#x20;
 
 Blynk mostly relies on industry standards - transport layer security protocol, known as TLS. Blynk server by default tries to use the latest available protocol TLSv1.3 (or TLSv1.2 in case TLSv1.3 version is not supported).
 
@@ -31,18 +31,18 @@ Default authentication for the hardware is OAuth secured token, it looks like th
 
 ## Blynk.Apps for iOS and Android
 
-Blynk uses secured web sockets (TLSv1.3 in case you browser supports it, TLSv1.2 otherwise) communication and basic authentication (email/password). for Blynk.Console and mobile apps&#x20;
+Blynk uses secured web sockets (TLSv1.3 in case your browser supports it, TLSv1.2 otherwise) for communication and basic authentication (email/password). for Blynk.Console and mobile apps&#x20;
 
-Passwords are encrypted on the client side before transferring to the cloud server and never stored or transferred in the plain format. Only encrypted password hash is stored and used on the server.
+Passwords are encrypted on the client side before transferring to the cloud server and are never stored or transferred in plain format. Only encrypted password hash is stored and used on the server.
 
-After 5  failed login attempts from the same IP - IP is not allowed to login for the next 10 minutes.
+After 5  failed login attempts from the same IP - IP is not allowed to log in for the next 10 minutes.
 
 ## Blynk.Cloud
 
-* All data transferred between cloud and database is always encrypted
-* Database is fully isolated within the private network
-* Database doesn't have access from the internet and can be accessed from the private network only
-* Database itself is not encrypted. Encryption is available for white-label solution as a paid add-on
+* All data transferred between the cloud and the database is always encrypted
+* The database is fully isolated within the private network
+* The database doesn't have access to the internet and can be accessed from the private network only
+* The database itself is not encrypted. Encryption is available for white-label solution as a paid add-on
 
 ### Certificates
 
