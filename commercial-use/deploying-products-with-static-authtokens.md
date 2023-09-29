@@ -167,12 +167,6 @@ The biggest challenge is that since every device would need to have a unique Aut
 
 Depending on the volumes you are working with, you should take this factor into account.
 
-#### EOL Inject Utility
-
-Blynk offers a utility that allows flashing AuthTokens at EOL (end-of-line). This means that you can flash all devices with the same firmware, and then this utility will "inject" AuthTokens only.
-
-This tool simplifies the flashing process significantly. Contact us if you would like to purchase it (only available for [BUSINESS plan](https://blynk.io/pricing/business-plan) customers).
-
 
 
 ### 3. Preparing for device delivery
