@@ -1,6 +1,6 @@
 # Static Token
 
-This type of device activation is designed for commercial deployments of non-WiFi IoT devices, such as cellular (3G, 4G, LTE, etc), Ethernet, and others. Typically these devices don't require any additional parameters from the end customers to connect to the Internet.
+This type of device activation is designed for commercial deployments of non-WiFi IoT devices, such as cellular (3G, 4G, LTE, etc.), Ethernet, and others. Typically these devices don't require any additional parameters from the end customers to connect to the Internet.
 
 The process of working with Statiс Tokens is the following:
 
@@ -10,8 +10,8 @@ The process of working with Statiс Tokens is the following:
 4. You download the list of Tokens and all QR code images&#x20;
 5. You flash AuthToken (Device Token in the table) to every device and print the corresponding QR code
 6. Your customers receive the device + printed (or emailed) QR code
-7. Your customers download the Blynk app and scan the QR code.&#x20;
-8. After scanning the QR code, a device will be claimed by the customer and is now ready to use.
+7. Your customers download the Blynk app and scan the QR code
+8. After scanning the QR code, a device will be claimed by the customer and is now ready to use
 
 Read more about this process here:
 
