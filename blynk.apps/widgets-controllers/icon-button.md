@@ -81,14 +81,6 @@ BLYNK_WRITE(V1) // this command is listening when something is written to V1
 }
 ```
 
-Sketch:[ Basic Sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
-
-Sketch:[ Physical Button Interrupt](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)
-
-Sketch:[ Physical Button Poll](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonPoll/ButtonPoll.ino)
-
-Sketch: [Physical Button State Sync](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/SyncPhysicalButton/SyncPhysicalButton.ino)
-
 
 
 #### Changing button state
@@ -109,7 +101,15 @@ Blynk.virtualWrite(vPin, 1);
 Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](../../blynk.edgent-firmware-api/blynk-timer.md).
 {% endhint %}
 
-##
+Sketch:[ Basic Sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
+
+Sketch:[ Physical Button Interrupt](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)
+
+Sketch:[ Physical Button Poll](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonPoll/ButtonPoll.ino)
+
+Sketch: [Physical Button State Sync](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/SyncPhysicalButton/SyncPhysicalButton.ino)
+
+
 
 ### Change Icon Button Properties
 
@@ -196,83 +196,21 @@ The endpoint allows you to update the Datastream Property value via GET request.
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="token" type="string" required="true" %}
-Device 
-
-[auth token](../../concepts/device.md#authtoken)
-
- from Device info
+Device [auth token](../../concepts/device.md#authtoken) from Device info
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="pin" type="string" required="true" %}
-The datastream 
-
-[virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md)
-
- (should start with "v")
+The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v")
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="{property}" type="string" %}
-The property of the widget you want to update: 
-
-`onLabel`
-
-,
-
-\
-
-
-
-
-`offLabel`
-
-, 
-
-`label`
-
-, 
-
-`onColor`
-
-, 
-
-`offColor`
-
-, 
-
-`onBackColor`
-
-, 
-
-`offBackColor`
-
-, 
-
-`color`
-
-,
-
-\
-
-
-
-
-`isDisabled`
-
-, 
-
-`isHidden`
-
-, 
-
-`page`
+The property of the widget you want to update: `onLabel`,\
+`offLabel`, `label`, `onColor`, `offColor`, `onBackColor`, `offBackColor`, `color`,\
+`isDisabled`, `isHidden`, `page`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
-Get from the bottom right of your Blynk console. 
-
-[More information](../../blynk.cloud/device-https-api/troubleshooting.md)
-
-.
+Get from the bottom right of your Blynk console. [More information](../../blynk.cloud/device-https-api/troubleshooting.md).
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="label" type="string" %}
@@ -304,11 +242,7 @@ true or false
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="pageID" type="string" %}
-
-
 [pageID](../pages.md#changing-target-page-from-hardware)
-
-
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="Success" %}
