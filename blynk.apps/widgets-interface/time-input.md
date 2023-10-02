@@ -83,13 +83,11 @@ Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a
 
 
 
-Sketch:[ Basic Sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
+Sketch:  [SimpleTimeInput](https://github.com/blynkkk/blynk-library/tree/master/examples/Widgets/TimeInput/SimpleTimeInput)
 
-Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)[Set Property](https://github.com/blynkkk/blynk-library/blob/master/examples/More/SetProperty/SetProperty\_SingleValue/SetProperty\_SingleValue.ino)
+Sketch:  [AdvancedTimeInput](https://github.com/blynkkk/blynk-library/tree/master/examples/Widgets/TimeInput/AdvancedTimeInput)
 
-Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonPoll/ButtonPoll.ino)[VirtualPinWrite](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/VirtualPinWrite/VirtualPinWrite.ino)
-
-Sketch: [VirtualPinRead](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/VirtualPinRead/VirtualPinRead.ino)
+Sketch:  [UpdateTimeInputState](https://github.com/blynkkk/blynk-library/tree/master/examples/Widgets/TimeInput/UpdateTimeInputState)
 
 
 
@@ -161,45 +159,19 @@ The endpoint allows you to update the Datastream Property value via GET request.
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="token" type="string" required="true" %}
-Device 
-
-[auth token](../../concepts/device.md#authtoken)
-
- from Device info
+Device [auth token](../../concepts/device.md#authtoken) from Device info
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="pin" type="string" required="true" %}
-The datastream 
-
-[virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md)
-
- (should start with "v")
+The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v")
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="{property}" type="string" %}
-The property of the widget you want to update: 
-
-`label`
-
-, 
-
-`color`
-
-, 
-
-`isDisabled`
-
-, 
-
-`isHidden`
+The property of the widget you want to update: `label`, `color`, `isDisabled`, `isHidden`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
-Get from the bottom right of your Blynk console. 
-
-[More information](../../blynk.cloud/device-https-api/troubleshooting.md)
-
-.
+Get from the bottom right of your Blynk console. [More information](../../blynk.cloud/device-https-api/troubleshooting.md).
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="label" type="string" %}
