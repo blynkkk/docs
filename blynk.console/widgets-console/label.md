@@ -19,7 +19,7 @@ Label is used to show value of Virtual Pin e.g. length/distance, mass, duration,
 * **Background** \
 
   * With disabled option **Change color based on value** pick your own Background colour from palette
-  *   With enabled **Change color based on value** set **MIN** and **MAX** values and Background color
+  *   With enabled **Change color based on value** select the gradient scheme or set up your own one based on the **MIN** and **MAX** values of your choice and Background color
 
 
 * **Level** – enable it by switching **Show level** on to visualize accordingly to values set in **MIN and MAX Value** fields below. Select position (vertical or horizontal) and level color.

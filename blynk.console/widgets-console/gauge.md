@@ -9,11 +9,9 @@ A great visual way to display incoming numeric values, e.g. Temperature, Pressur
 * **Title** – name the widget by editing _Gauge_ inside top field
 * **Datastream** – select the one that will provide it's value
 * **Level color**
-  * disabled **Change color based on value** – pick a color from palette;
-  * enabled **Change color based on value**:
-    * set **MIN** and **MAX** values and level color for that values range
-    * default set is of 3 options and it can be changed in range from 1 to as much as you need:
-      * click **+Add Value** button under the last MIN field to _**increase**_ set;
-      * you can **Delete** value range sets anytime you want to.
+  * With disabled option **Change color based on value** pick your own colour from palette
+  *   With enabled **Change color based on value** select the gradient scheme or set up your own one based on the MIN and MAX values that you select.
+
+
 
 ![](../../.gitbook/assets/gauge.gif)
