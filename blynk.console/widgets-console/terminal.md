@@ -4,8 +4,7 @@
 _**Note:**_ please remember that web and mobile app widgets are set up separately in the Web Dashboard and Mobile App Dashboard sections correspondingly. They can still use the same datastreams to access the same data (Map widget is an exception – a different codebase is used for Map on mobile and web).
 {% endhint %}
 
-Terminal widget works like the usual system terminal. The widget is showing real-time data from your hardware through a **string** datastream. Allows sending any string to your hardware.\
-
+Terminal widget works like the usual system terminal. This widget displays datastream text in a multi-line window, and optionally provides a text input area which allows sending any string to your hardware. Options allow a new line character to be added to each datastream change in value, scrolling, and the text and background color of the display and input area.
 
 ![](../../.gitbook/assets/terminal-widget-newsletter.png)
 
@@ -13,25 +12,23 @@ Terminal widget works like the usual system terminal. The widget is showing real
 
 ![](<../../.gitbook/assets/terminal-widget-settings-documentation (1).png>)
 
-#### Datastream
+**Title** - This is the label shown at the top of the widget. The default is the name assigned to the datastream.
 
-Only **String** datastream can be used here.
+**Datastream** - Select or create a datastream of data type **string**.
 
-#### Input hint
+**Add new line** - Enable to have each change to the datastream prefaced with a new line character. When disabled, all new text will be concatenated directly after the last.
 
-Textual hint for the input field
+**Auto scroll** - Automatically scrolls the text display in the output window vertically to show the latest at the bottom. Useful only when ‘Add new line’ is enabled.
 
-#### Auto scroll
+**Show input** - When disabled, hides the text input field.
 
-Enable/disable automatic scrolling to the bottom when new values are coming
+**SCREEN COLOR** - Sets the background color of the output (display) and input areas.
 
-#### Show input
+**TEXT COLOR** - Sets the color of the text displayed in the output and input areas.\
 
-Show/hide input field in the terminal widget
 
-#### Colors
+Note that a horizontal scroll bar below the output display becomes visible when the text in the current line exceeds the width of the output display.\
 
-You can set screen and text colors too
 
 ### How to send data from a device
 
