@@ -105,7 +105,7 @@ Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a
 
 Sketch:  [LCD Advanced Mode](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/LCD/LCD\_AdvancedMode/LCD\_AdvancedMode.ino)
 
-Sketch: [LCD\_SimpleMode](https://github.com/blynkkk/blynk-library/tree/master/examples/Widgets/LCD/LCD\_SimpleMode)
+Sketch:  [LCD SimpleMode](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/LCD/LCD\_SimpleMode/LCD\_SimpleMode.ino)
 
 
 
