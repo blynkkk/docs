@@ -77,8 +77,6 @@ BLYNK_WRITE(V2) {
 } // BLYNK_WRITE(V2)
 ```
 
-Sketch:[ Basic Sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
-
 #### Changing the datastream value(s)
 
 You can also change the datastream value with the hardware, resulting in a change to the widgets assigned to that datastream.
@@ -101,9 +99,13 @@ If V3 is a datastream of data type string, then the following code will position
 Blynk.virtualWrite(V3, 35, 196, 142);
 ```
 
+
+
 Sketch:[ Basic Sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
 
 Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)[NeoPixel](https://github.com/blynkkk/blynk-library/blob/master/examples/More/NeoPixel/NeoPixel.ino)
+
+
 
 ### Change Widget Properties
 
@@ -162,46 +164,20 @@ The endpoint allows you to update the Datastream Property value via GET request.
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="token" type="string" required="true" %}
-Device 
-
-[auth token](../../concepts/device.md#authtoken)
-
- from Device info
+Device [auth token](../../concepts/device.md#authtoken) from Device info
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="pin" type="string" required="true" %}
-The datastream 
-
-[virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md)
-
- (should start with "v")
+The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v")
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="{property}" type="string" %}
-The property of the widget you want to update: 
-
-`label`
-
-,
-
-\
-
-
-
-
-`isDisabled`
-
-, 
-
-`isHidden`
+The property of the widget you want to update: `label`,\
+`isDisabled`, `isHidden`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
-Get from the bottom right of your Blynk console. 
-
-[More information](../../blynk.cloud/device-https-api/troubleshooting.md)
-
-.
+Get from the bottom right of your Blynk console. [More information](../../blynk.cloud/device-https-api/troubleshooting.md).
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="label" type="string" %}
