@@ -4,7 +4,7 @@
 _**Note:**_ please remember that web and mobile app widgets are set up separately in the Web Dashboard and Mobile App Dashboard sections correspondingly. They can still use the same datastreams to access the same data (Map widget is an exception – a different codebase is used for Map on mobile and web).
 {% endhint %}
 
-Chart is used to visualise live and historical data. You can use it for sensor data, for binary event logging and more. Chart display can be of 4 types: _Line, Area, Column, Stepline_General chart properties:
+The chart widget helps you to visualize live and historical data from multiple datastreams with a [data type](https://docs.blynk.io/en/blynk.console/templates/datastreams/datastreams-common-settings/data-type) of integer or double. You can use it for sensor data, for binary event logging and more. The data may be plotted as a line, area, column (bar), or a stepline.&#x20;
 
 * **Values axis** (vertical) – each Datastream added to Chart widget has it's scale on the right and left. It can be set manually or to be auto-scaled during Template dashboard setup.
 * **Timeline Axis** (horizontal) – helps to find values actual for the exact time the search is performed.
@@ -16,35 +16,46 @@ Chart is used to visualise live and historical data. You can use it for sensor d
 
 ### **Settings**
 
-* **Add source** – it's possible to set several Datastream **Sources** under one Chart. Click and set up as much as you need.\
+* **Chart Title** – This is the label shown at the top of the widget. The default is the name assigned to the datastream.\
 
-* **Chart Title** – name a chart so you or your client understand what it's about\
+* **Datastreams** – [data type](../templates/datastreams/datastreams-common-settings/data-type.md) of integer or double may be assigned. You may create a new virtual pin or enumerable datastream directly by choosing the ‘+ Create New’ option. Multiple datastreams may be plotted on the chart.
+*   **Edit Chart** - this option to the left of each datastream allows you to customize the appearance of the datastream values in the chart.
 
-* **Source Label** – The easiest way to name it/them is giving used Datastreams names.  \
 
-* **Source** – there are two fields:\
 
-  * the  right one contains _**Datastreams used in the Product**_. Select one;  \
+    * **Max/Min/Avg** - choose between plotting the average, max, and minimum value.
 
-  *   the left is _**Source aggregation type menu**_ it's used to select an option to be used in chart data plotting:
 
-      **AVG of** will plot average value per minute;
 
-      **Raw of** data will plot using all the data available;
+    * **Move Source** - allows you to change the order of datastreams in the legend.
 
-      **SUM of** will summarize all incoming values to the specified Virtual Pin;
 
-      **MIN of** will plot minimum value per minute;
 
-      **MAX of** will plot maximum value per minute;
+    * **CHART TYPE** - the data may be plotted as a line, area, column (bar), or a stepline.
 
-      **COUNT of** will plot the number of times data was sent by device per minute;\
 
-* **Chart type** - 4 types are available: _Line, Area, Column, Stepline_. Pick a color to make it different from other sources may use under this chart. &#x20;
-  * **Show Y-axis** – enable if it's needed to view Datastream values on the axis (X-axis displays the time); &#x20;
-  * **Autoscale** – enable if there's no specific limitations of the data values needed to be viewed. Otherwise specify them by setting the values in **MIN** and **MAX** fields.\
 
-* **Enable zoom** – enable if chart zoom may be useful. Otherwise leave it disabled.
+    * **Color** - choose the color of the line, area, column, or stepline.
+
+
+
+    * **Show Y-axis** - will display a labeled y-axis when enabled.
+
+
+
+    * **Autoscale** - automatically scales the y-axis.
+
+
+
+    * **Override Datastream’s Min/Max fields** - this option is only available when ‘Autoscale’ is disabled. When enabled, the chart y-axis scale takes on the assigned ‘MIN’ and ‘MAX’ values.
+
+
+
+    * **MINIMUM Y AXIS RANGE** - This option is only available when the option ‘Override Datastream’s Min/Max fields’ is disabled.
+
+
+* **Show legend** - adds a legend to the top of the chart under the title when enabled.\
+
 
 ![Chart widget setup demo](../../.gitbook/assets/chart\_setup.gif)
 
