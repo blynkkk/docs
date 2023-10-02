@@ -11,7 +11,6 @@ Image Gallery is used to create sets of pictures and display one of them accordi
 * **Title** – name the widget by editing _Image Gallery_ inside top field
 * **Datastream** – select the one that will affect images change
 * **+ Add Image** – click this button to add image (20 is maximum) and provide it's URL.&#x20;
-  * **Preview** – click this button to check if the image is accessible and visible
   * **Move** – hold this button and move the image in order to change it's view order and index
   * **Delete** – delеte image URL. No confirmation is required
 * **Images Scaling**: select Fit or Fill option&#x20;
