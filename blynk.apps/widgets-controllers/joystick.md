@@ -66,11 +66,7 @@ BLYNK_WRITE(V2) {
 } // BLYNK_WRITE(V2)
 ```
 
-Sketch:[ Basic Sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
 
-Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)[Joystick](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/Joystick/Joystick.ino)
-
-Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)[Servo](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/Servo/Servo.ino)
 
 #### Changing the datastream value(s)
 
@@ -92,6 +88,14 @@ If V3 is a datastream of data type string, then the following code will move the
 ```cpp
 Blynk.virtualWrite(V3, 0, 255);
 ```
+
+
+
+Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)[Joystick](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/Joystick/Joystick.ino)
+
+Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)[Servo](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/Servo/Servo.ino)
+
+
 
 ### Change Widget Properties
 
