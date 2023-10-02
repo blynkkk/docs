@@ -64,8 +64,6 @@ Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a
 
 Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)[WidgetMap](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/Map/Map.ino)
 
-Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)[Map](https://examples.blynk.cc/?board=ESP8266\&shield=ESP8266%20WiFi\&example=Widgets%2FMap)
-
 
 
 ### Change Widget Properties
