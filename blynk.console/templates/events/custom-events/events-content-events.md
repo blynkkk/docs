@@ -4,10 +4,6 @@ description: Here's an instruction on how to create and test Content Events
 
 # Content Events
 
-{% hint style="info" %}
-Events content can be created by the user with the permissions of the Super admin.
-{% endhint %}
-
 ## Create Content Event
 
 1. Open Blynk.Console
