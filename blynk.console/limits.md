@@ -50,7 +50,7 @@ Max user invites per day: 25 invites
 
 ### Tags Limits
 
-Max number of tags per organization: 25
+Max number of tags per organization: 20
 
 Max number of tags per device: 5
 
