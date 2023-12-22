@@ -29,6 +29,14 @@ Is
 , 
 
 `THREE_MONTHS`
+
+, 
+
+`SIX_MONTHS`
+
+, 
+
+`ONE_YEAR`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="granularityType" type="string" %}
