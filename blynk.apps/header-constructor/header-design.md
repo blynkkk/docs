@@ -5,8 +5,8 @@ You can customize the appeal of the header by easily changing its size, color, a
 ## How to change Header Design?
 
 Press the "paint bucket" icon to access the Header Settings page. 
+![header-settings](https://github.com/blynkkk/docs/assets/72790181/5dc1854b-c5bc-401d-8352-6205dac161aa)
 
-![image](https://github.com/vveretko/vveretko/assets/72790181/466d32ca-3872-4753-bab5-5aec17f2a50c)
 
 ## Header settings:
 
@@ -117,6 +117,6 @@ light or dark
 ## Resizing
 
 In the default state, the header size depends on its content. However, you can manually change the size by dragging the handle at the bottom of it.
+![resizing](https://github.com/blynkkk/docs/assets/72790181/225b2274-92f9-47c4-8d90-dc5210792262)
 
-![image](https://github.com/vveretko/vveretko/assets/72790181/b849c4c9-10b2-4f1c-a154-4b2d64521bdb)
 
