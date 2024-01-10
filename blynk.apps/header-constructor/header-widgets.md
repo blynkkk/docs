@@ -9,14 +9,14 @@ To add a header widget, click on the "plus" icon located below the Template name
 Once the first widget is added, you'll notice two “plus” icons, enabling you to add widgets in different rows for enhanced customization.
 
 To remove a widget, press on it to access its settings, and then tap the “trash” icon positioned at the top right corner. This will promptly delete the selected widget from your configuration.
+![add-header-widget](https://github.com/blynkkk/docs/assets/72790181/8c0c95dc-8585-4de4-8fca-c9fdda7ea9cb)
 
-![image](https://github.com/vveretko/vveretko/assets/72790181/c40622af-f842-43e7-a54c-0440377dc120)
 
 ## Connection Status widget
 
 This widget displays the device’s current status as a text label.
+![connection-status](https://github.com/blynkkk/docs/assets/72790181/e291b819-fec5-485d-810e-7e12414ee9ea)
 
-![connection-status-header-widget](https://github.com/vveretko/vveretko/assets/72790181/c89191d9-7db7-4287-bffc-484fded7fa61)
 
 ### Settings
 
@@ -96,8 +96,8 @@ true or false
 ## Last Reported widget
 
 This widget shows the timestamp of the last time Blynk received the data from the device.
+![last-reported](https://github.com/blynkkk/docs/assets/72790181/b8b964b7-a13e-44ed-afe5-08852e6dbd97)
 
-![last-reported-header-widget](https://github.com/vveretko/vveretko/assets/72790181/b50238c6-d6a3-4040-884d-7a8118b9e2e6)
 
 ### Settings
 
@@ -181,8 +181,8 @@ true or false
 
 Adds one or more tabs to the top of the device mobile dashboard in order to expand and organize the user interface space. You can drag widgets between tabs.
 Note that plan limits apply here.
+![tabs](https://github.com/blynkkk/docs/assets/72790181/01e95686-b12d-4910-acbb-5e7bbae0ee4f)
 
-![image](https://github.com/vveretko/vveretko/assets/72790181/50b2b7e0-20f2-47d5-bd62-99ecac3f6425)
 
 ### **Navigating the Tabs Editor:**
 
@@ -197,8 +197,8 @@ To access the Tabs editor, simply tap on the active tab. In the editor, you can 
 ## Datastream Value widget
 
 Displays the latest datastream / virtual pin value. Units assigned to the datastream are also displayed. Labels may also be optionally added before and after the displayed value.
+![datastream-value](https://github.com/blynkkk/docs/assets/72790181/ad4451c9-58c1-451c-9179-dc91f47608da)
 
-![datastream-value-header-widget](https://github.com/vveretko/vveretko/assets/72790181/5c13fa74-a888-4011-8ddb-08fd0501aef6)
 
 ### Settings
 
@@ -279,8 +279,8 @@ true or false
 ## Image widget
 
 Improve your header visually with a custom image that can be controlled from hardware.
+![image-header-widget](https://github.com/blynkkk/docs/assets/72790181/d5760548-9f36-48ef-ad41-471f0d2bd531)
 
-![image-header-widget](https://github.com/vveretko/vveretko/assets/72790181/f12df0fe-8d2e-485e-a4f7-b18738fa2eff)
 
 ### Settings
 
@@ -420,8 +420,8 @@ true or false
 ## Battery level widget
 
 This widget provides a clear visual representation of your battery level, accompanied by a percentage indicator for quick reference.
+![battery-level-header-widget](https://github.com/blynkkk/docs/assets/72790181/9762a482-0eaf-4e65-aaec-20c6e36b3697)
 
-![battery-level-header-widget](https://github.com/vveretko/vveretko/assets/72790181/541084a7-3475-4f72-981d-168213b1fc99)
 
 ### Settings
 
@@ -505,8 +505,8 @@ true or false
 ## Tags widget
 
 Display a list of tags assigned to the device.
+![tags-header-widget](https://github.com/blynkkk/docs/assets/72790181/cfc323a1-8d87-4bb2-98d6-ce79ae57b25a)
 
-![tags-header-widget](https://github.com/vveretko/vveretko/assets/72790181/11f7b8a0-ccf3-4a2d-82e2-74b36f15bcfa)
 
 ### Settings
 
