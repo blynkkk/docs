@@ -253,6 +253,9 @@
   * [Widget Properties](blynk.cloud/device-mqtt-api/widget-properties.md)
   * [Events](blynk.cloud/device-mqtt-api/events.md)
   * [Metadata](blynk.cloud/device-mqtt-api/metadata.md)
+  * [Timezone/Location](blynk.cloud/device-mqtt-api/timezone-location.md)
+  * [OTA](blynk.cloud/device-mqtt-api/ota.md)
+  * [Miscelaneous](blynk.cloud/device-mqtt-api/miscelaneous.md)
 
 ## BLYNK.CLOUD HTTPS API <a href="#blynk.cloud" id="blynk.cloud"></a>
 
