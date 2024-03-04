@@ -19,8 +19,12 @@ MQTT client configuration:
 The client should handle the Connect Return code appropriately; if you receive
 a `0x04 Connection Refused` response, it indicates a problem with your credentials.
 
-> [!NOTE]
-> Blynk.Cloud currently disallows connecting multiple MQTT clients using the same auth token.
+{% hint style="info" %}
+You can get the **Device auth token** in [Device info](../../getting-started/activating-devices/manual-device-activation.md#step-3-getting-auth-token).
+{% endhint %}
+
+> [!IMPORTANT]
+> Blynk.Cloud currently disallows simultaneous connection of multiple MQTT clients using the same auth token.
 
 Upon connection, the client should subscribe to downlink messages (i.e. `downlink/#` topic).
 

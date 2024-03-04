@@ -249,6 +249,10 @@
 * [Device MQTT API](blynk.cloud/device-mqtt-api/README.md)
   * [Authentication](blynk.cloud/device-mqtt-api/authentication.md)
   * [Topic Structure](blynk.cloud/device-mqtt-api/topic-structure.md)
+  * [Datastreams](blynk.cloud/device-mqtt-api/datastreams.md)
+  * [Widget Properties](blynk.cloud/device-mqtt-api/widget-properties.md)
+  * [Events](blynk.cloud/device-mqtt-api/events.md)
+  * [Metadata](blynk.cloud/device-mqtt-api/metadata.md)
 
 ## BLYNK.CLOUD HTTPS API <a href="#blynk.cloud" id="blynk.cloud"></a>
 
