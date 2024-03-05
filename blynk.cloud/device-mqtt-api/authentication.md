@@ -27,15 +27,11 @@ MQTT client configuration:
 The client should handle the Connect Return code appropriately; if you receive
 a `0x04 Connection Refused` response, it indicates a problem with your credentials.
 
-> [!IMPORTANT]
-> Blynk.Cloud currently disallows simultaneous connection of multiple MQTT clients using the same auth token.
-
 ## Subscribing to topics
 
 Upon establishing a clean connection, the client should subscribe to downlink messages;
 otherwise, it will not receive any incoming messages.
 
-The Device API client is restricted to subscribing only to sub-topics within `downlink/`.
 It is standard practice to subscribe to all messages under this topic using a wildcard,
 such as `downlink/#`.
 
@@ -51,7 +47,8 @@ which helps in **reducing latency, improving connection speed, and ensuring data
 Immediately after connection, the broker will decide if redirection is needed
 and publish `downlink/redirect` topic with a new endpoint in `URI` format
 (i.e. `tls://ny3.blynk.cloud:8883` or `wss://fra1.blynk.cloud:443/mqtt`).
-Supported protocols prefixes are: `tcp`, `tls`, `ws`, `wss`.
+
+Supported protocol prefixes are: `tcp`, `tls`, `ws`, `wss`.
 
 ## Firmware and Device Info
 
@@ -76,5 +73,12 @@ On every clean connection, the device should publish a message to `info/mcu` top
 > [!IMPORTANT]
 > Sending info message is optional for the most simplistic use cases, however
 > when using **Blynk.Air** (Managed OTA firmware updates) or **Blynk.Inject** (Dynamic Auth Token and network credentials provisioning),
-> The client **MUST** send the info message to operate properly.
+> the client **MUST** send the info message to operate properly.
+
+## Limitations
+
+- Only **clean sessions** are supported at the moment.
+- Blynk.Cloud currently disallows **simultaneous connection** of multiple MQTT clients using **the same auth token**.
+- The Device API client is restricted to subscribing only to sub-topics within `downlink/`.
+- All MQTT messages are limited to **`8092` bytes** (including variable header and payload)
 
