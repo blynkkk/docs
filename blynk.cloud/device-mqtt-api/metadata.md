@@ -8,15 +8,15 @@ Publish topic **meta/`NAME`**, payload: value in plain text (i.e. `123`, `hello`
 
 The device can set the value of such field types:
 
-- `Device EUI`
-- `Hotspot Name`
-- `ICCID`
-- `IMEI`
-- `Int`
-- `Number`
-- `Table`
-- `Text`
-- `Timezone`
+- System fields
+  - `Hotspot Name`
+  - `Timezone`
+- Custom fields
+  - `Text`
+  - `Number`
+  - `Table`
+  - `IMEI`
+  - `ICCID`
 
 ## Request metadata value from Blynk
 
@@ -28,22 +28,20 @@ Publish topic **get/meta**, payload: metadata names separated by comma (i.e. `Ce
 
 The device can request the value of such field types:
 
-- `Contact`
-- `Device EUI`
-- `Device Name`
-- `Device Owner`
-- `Device Reference`
-- `Email`
-- `Hotspot Name`
-- `ICCID`
-- `Image`
-- `IMEI`
-- `Int`
-- `List`
-- `Location`
-- `Number`
-- `Switch`
-- `Table`
-- `Text`
-- `Timezone`
+- System fields
+  - `Device Name`
+  - `Device Owner`
+  - `Hotspot Name`
+  - `Location`
+  - `Timezone`
+- Custom fields
+  - `Text`
+  - `Number`
+  - `Contact`
+  - `Switch`
+  - `Device Reference`
+  - `List`
+  - `Table`
+  - `IMEI`
+  - `ICCID`
 
