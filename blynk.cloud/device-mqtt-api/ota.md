@@ -2,7 +2,7 @@
 
 ## OTA package notification
 
-To indicate it's current software/firmware version, the device publishes [`Firmware and Device Info`](authentication.md) message.
+To indicate it's current software/firmware version, the device publishes [`Firmware and Device Info`](authentication.md#firmware-and-device-info) message.
 The server then evaluates whether an update is necessary and, if so, publishes a message on the **downlink/ota/json** topic:
 
 ```json
