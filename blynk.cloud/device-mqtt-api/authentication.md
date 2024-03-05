@@ -80,5 +80,5 @@ On every clean connection, the device should publish a message to `info/mcu` top
 - Only **clean sessions** are supported at the moment.
 - Blynk.Cloud currently disallows **simultaneous connection** of multiple MQTT clients using **the same auth token**.
 - The Device API client is restricted to subscribing only to sub-topics within `downlink/`.
-- All MQTT messages are limited to **`8092` bytes** (including variable header and payload)
+- All MQTT messages are limited to **`1024` bytes** (including variable header and payload). This only affects the public MQTT service, the limit is adjustible for **White Label** or **Enterprise** customers.
 
