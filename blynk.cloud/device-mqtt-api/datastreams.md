@@ -1,5 +1,12 @@
 # Datastreams MQTT API
 
+Blynk.Cloud MQTT API uses Names to reference Datastreams.
+
+> [!WARNING]
+> Changing datastream names in the template settings can make your existing devices misbehave.
+> If this happens, you can either revert your changes or update your device firmware Over the Air
+> to conform to the new datastream structure.
+
 ## Send data to Blynk
 
 Publish topic **ds/`DATASTREAM`**, payload: value in plain text (i.e. `123`, `hello` or `3.1415926`)
@@ -17,7 +24,7 @@ Subscribe to topic: **downlink/ds/`DATASTREAM`**
 - `DATASTREAM` - the datastream name
 
 > [!TIP]
-> Usually, you'll want to subscribe to a widcard topic like **downlink/#** or **downlink/ds/+**.
+> Usually, you'll want to subscribe to a widcard topic like **downlink/#** or **downlink/ds/#**.
 
 ## Request the latest value from Blynk
 
