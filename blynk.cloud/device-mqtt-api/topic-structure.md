@@ -1,4 +1,4 @@
-# MQTT Topic Structure
+# Device MQTT API Topic Structure
 
 ## Downlink
 

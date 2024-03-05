@@ -7,6 +7,8 @@
 - Secure SSL/TLS port:    **`8883`**
 - Secure WebSocket ports: **`443`, `9443`** (path must be **`/mqtt`**)
 
+The broker will accept connections from `MQTTv3.1.1` and `MQTTv5.0` clients.
+
 ## Authentication
 
 MQTT client configuration:
