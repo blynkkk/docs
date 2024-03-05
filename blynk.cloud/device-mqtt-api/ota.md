@@ -15,6 +15,10 @@ The server then evaluates whether an update is necessary and, if so, publishes a
 }
 ```
 
+> [!IMPORTANT]
+> This message can also be delivered at any time during the device operation, i.e. when Blynk.Air shipment is created
+> or when the `Preferred Time` condition is met.
+
 The device must verify whether the update is feasible and then download the OTA package using `HTTPS`.
 Additionally, the HTTP Response Headers provide valuable information:
 
