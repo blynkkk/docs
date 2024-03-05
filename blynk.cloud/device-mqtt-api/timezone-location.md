@@ -28,11 +28,12 @@ You will get a message on **downlink/utc/all/json** topic, with JSON-encoded pay
 - `iso8601`: The current time formatted according to the ISO 8601 standard, which combines date and time into a single string, appended with the time zone offset from UTC.
 
 > [!NOTE]
-> All values, except for time (which is in UTC), are dependent on the actual device location.
+> All values, except for time (which is in UTC), are dependent on the device location.
 > Blynk.Cloud determines the device's timezone based on the available location information, in the following order:
-> 1. Associated Location Limezone
-> 2. Device Timezone Metadata
-> 3. Device's Organization Timezone
+> 1. Device [Location Timezone](../../blynk.console/locations/locations.md)
+> 2. Device [Timezone Metadata](../../blynk.console/templates/metadata/README.md#basic-metadata-types)
+> 3. Device [Organization Timezone](../../blynk.console/settings/organization-settings/general.md)
+> 4. If none of the above is configured, `UTC` time is used
 
 ## Request an approximate device location
 
