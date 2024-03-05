@@ -1,9 +1,9 @@
-# Timezone/Location MQTT API
+# Device Timezone/Location MQTT API
 
 > [!TIP]
 > Usually, you'll want to subscribe to a widcard topic like **downlink/#**.
 
-## Request time-related data from Blynk
+## Request the Device Time and Timezone from Blynk
 
 Publish topic **get/utc/all/json**, payload: empty
 
@@ -27,9 +27,21 @@ You will get a message on **downlink/utc/all/json** topic, with JSON-encoded pay
 - `time`: The current time as a UNIX timestamp in milliseconds.
 - `iso8601`: The current time formatted according to the ISO 8601 standard, which combines date and time into a single string, appended with the time zone offset from UTC.
 
+> [!NOTE]
+> All values, except for time (which is in UTC), are dependent on the actual device location.
+> Blynk.Cloud determines the device's timezone based on the available location information, in the following order:
+> 1. Associated Location Limezone
+> 2. Device Timezone Metadata
+> 3. Device's Organization Timezone
+
 ## Request an approximate device location
 
 Publish topic **get/loc/all**, payload: empty
 
 You will get a message on **downlink/utc/all** topic, with Lat Lon GPS coordinates separaed by comma.
+
+> [!NOTE]
+> The actual coordinates value depends on multiple factors, i.e:
+> 1. Associated Location
+> 2. Network address of device
 
