@@ -244,7 +244,7 @@
 * [Limitations and Recommendations](blynk-library-firmware-api/limitations-and-recommendations.md)
 * [Blynk Protocol](blynk-library-firmware-api/blynk-protocol.md)
 
-## BLYNK.CLOUD MQTT API <a href="#blynk.cloud" id="blynk.cloud"></a>
+## BLYNK.CLOUD MQTT API
 
 * [Device MQTT API](blynk.cloud/device-mqtt-api/README.md)
   * [Authentication](blynk.cloud/device-mqtt-api/authentication.md)
