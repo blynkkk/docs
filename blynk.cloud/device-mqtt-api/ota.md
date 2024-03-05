@@ -31,3 +31,4 @@ Additionally, the HTTP Response Headers provide valuable information:
 > [!NOTE]
 > `type`, `ver`, `build` fields are available only if Blynk.Cloud can extract this information (stored as a binary info tag) from the uploaded OTA package file.
 
+After installing the update, the device re-connects to Blynk.Cloud and publishes the updated [`Firmware and Device Info`](authentication.md#firmware-and-device-info) message.
