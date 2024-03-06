@@ -12,12 +12,12 @@ You will get a message on **downlink/utc/all/json** topic, with JSON-encoded pay
 
 ```json
 {
-    "tz_name":"America/Goose_Bay",
-    "tz_rule":"AST4ADT,M3.2.0,M11.1.0",
-    "tz_offset":-240,
-    "dst_offset":0,
-    "time":1709326077759,
-    "iso8601":"2024-03-01T16:47:57-04:00"
+    "tz_name": "America/Goose_Bay",
+    "tz_rule": "AST4ADT,M3.2.0,M11.1.0",
+    "tz_offset": -240,
+    "dst_offset": 0,
+    "time": 1709326077759,
+    "iso8601": "2024-03-01T16:47:57-04:00"
 }
 ```
 
@@ -41,7 +41,7 @@ Blynk.Cloud determines the device's timezone based on the available location inf
 
 Publish topic **get/loc/all**, payload: empty
 
-You will get a message on **downlink/utc/all** topic, with Lat Lon GPS coordinates separaed by comma.
+You will get a message on **downlink/loc/all** topic, with Lat Lon GPS coordinates separaed by comma.
 
 {% hint style="info" %}
 The actual coordinates value depends on multiple factors, i.e:

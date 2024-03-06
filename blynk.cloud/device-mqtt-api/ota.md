@@ -7,11 +7,11 @@ The server then evaluates whether an update is necessary and, if so, publishes a
 
 ```json
 {
-    "url":"https://blynk.cloud/static/file.tar.gz?token=jOuWQWu_bOANvBPzz4LllPDMk7sYAAQMa",
-    "size":2082,
-    "type":"TMPL87mTr-1PZ",
-    "ver":"0.5.0",
-    "build":"Mar 05 2024 18:29:27"
+    "url": "https://blynk.cloud/static/file.tar.gz?token=jOuWQWu_bOANvBPzz4LllPDMk7sYAAQMa",
+    "size": 20082,
+    "type": "TMPLabcd1234",
+    "ver": "0.5.0",
+    "build": "Mar 05 2024 18:29:27"
 }
 ```
 
