@@ -23,7 +23,7 @@ If the client loses connection **without sending a proper disconnect message**, 
 
 ## Server Diagnostics
 
-The server has the capability to publish messages under the server/oops topic under certain circumstances,
+The server has the capability to publish messages under the **server/oops** topic under certain circumstances,
 typically when it detects potentially problematic behavior from the client.
 These diagnostic messages are designed to be observed and addressed by developers.
 
