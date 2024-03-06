@@ -19,6 +19,12 @@ For multivalue (array-like) values, the individual items in the payload are sepa
 The separator is a `NUL` character, that is also represented as `\u0000` in Unicode.
 {% endhint %}
 
+## Erase datastream value
+
+Publish topic **ds/`DATASTREAM`/erase**, payload: empty
+
+- `DATASTREAM` - the datastream name
+
 ## Get data updates from Blynk
 
 Subscribe to topic: **downlink/ds/`DATASTREAM`**
