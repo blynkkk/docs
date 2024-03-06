@@ -1,7 +1,8 @@
 # Device Timezone/Location MQTT API
 
-> [!TIP]
-> Usually, you'll want to subscribe to a widcard topic like **downlink/#**.
+{% hint style="success" %}
+Usually, you'll want to subscribe to a widcard topic like **downlink/#**.
+{% endhint %}
 
 ## Request the Device Time and Timezone from Blynk
 
@@ -27,13 +28,14 @@ You will get a message on **downlink/utc/all/json** topic, with JSON-encoded pay
 - `time`: The current time as a UNIX timestamp in milliseconds.
 - `iso8601`: The current time formatted according to the ISO 8601 standard, which combines date and time into a single string, appended with the time zone offset from UTC.
 
-> [!NOTE]
-> All values, except for time (which is in UTC), are dependent on the device location.
-> Blynk.Cloud determines the device's timezone based on the available location information, in the following order:
-> 1. The [Location](../../blynk.console/locations/locations.md) assigned to device
-> 2. Device [Timezone Metadata](../../blynk.console/templates/metadata/README.md#basic-metadata-types)
-> 3. Device [Organization Timezone](../../blynk.console/settings/organization-settings/general.md)
-> 4. If none of the above is configured, `UTC` time is used
+{% hint style="info" %}
+All values, except for time (which is in UTC), are dependent on the device location.
+Blynk.Cloud determines the device's timezone based on the available location information, in the following order:
+1. The [Location](../../blynk.console/locations/locations.md) assigned to device
+2. Device [Timezone Metadata](../../blynk.console/templates/metadata/README.md#basic-metadata-types)
+3. Device [Organization Timezone](../../blynk.console/settings/organization-settings/general.md)
+4. If none of the above is configured, `UTC` time is used
+{% endhint %}
 
 ## Request an approximate device location
 
@@ -41,8 +43,8 @@ Publish topic **get/loc/all**, payload: empty
 
 You will get a message on **downlink/utc/all** topic, with Lat Lon GPS coordinates separaed by comma.
 
-> [!NOTE]
-> The actual coordinates value depends on multiple factors, i.e:
-> 1. The [Location](../../blynk.console/locations/locations.md) assigned to device
-> 2. Network address of device
-
+{% hint style="info" %}
+The actual coordinates value depends on multiple factors, i.e:
+1. The [Location](../../blynk.console/locations/locations.md) assigned to device
+2. Network address of device
+{% endhint %}

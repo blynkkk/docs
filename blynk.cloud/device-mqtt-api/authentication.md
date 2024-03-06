@@ -19,10 +19,11 @@ MQTT client configuration:
 - Keepalive: `45 seconds` (recommended)
 - Clean Session: `True`
 
-> [!NOTE]
-> For the initial MQTT API release, only **clean sessions** are supported.
-> In particular, the client will not receive any undelivered QoS 1 messages that were queued for it while it was disconnected.
-> The Blynk team is working on `Persistent Session` support.
+{% hint style="info" %}
+For the initial MQTT API release, only **clean sessions** are supported.
+In particular, the client will not receive any undelivered QoS 1 messages that were queued for it while it was disconnected.
+The Blynk team is working on `Persistent Session` support.
+{% endhint %}
 
 The client should handle the Connect Return code appropriately; if you receive
 a `0x04 Connection Refused` response, it indicates a problem with your credentials.
@@ -35,7 +36,7 @@ otherwise, it will not receive any incoming messages.
 It is standard practice to subscribe to all messages under this topic using a wildcard,
 such as `downlink/#`.
 
-**Server Redirect** and **OTA (Over-The-Air) Update** messages represent notable exceptions.
+**OTA (Over-The-Air) Update**, **Server Redirect**, and **Server Diagnostic** messages represent notable exceptions.
 These messages can still be published and received by the client even if it has not subscribed
 to them (in which case they are published with QoS 0).
 
@@ -70,10 +71,11 @@ On every clean connection, the device should publish a message to `info/mcu` top
 - `type`   - the type of firmware upgrade packages that the device accepts (in most cases, it matches `Blynk Template ID`)
 - `rxbuff` - the MQTT rx buffer of the device in bytes (this limits the size of messages that the broker can send)
 
-> [!IMPORTANT]
-> Sending info message is optional for the most simplistic use cases, however
-> when using **Blynk.Air** (Managed OTA firmware updates) or **Blynk.Inject** (Dynamic Auth Token and network credentials provisioning),
-> the client **MUST** send the info message to operate properly.
+{% hint style="warning" %}
+Sending info message is optional for the most simplistic use cases, however
+when using **Blynk.Air** (Managed OTA firmware updates) or **Blynk.Inject** (Dynamic Auth Token and network credentials provisioning),
+the client **MUST** send the info message to operate properly.
+{% endhint %}
 
 ## Limitations
 

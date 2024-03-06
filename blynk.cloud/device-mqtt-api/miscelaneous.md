@@ -1,7 +1,8 @@
 # Miscelaneous MQTT API
 
-> [!TIP]
-> Usually, you'll want to subscribe to a widcard topic like **downlink/#**.
+{% hint style="success" %}
+Usually, you'll want to subscribe to a widcard topic like **downlink/#**.
+{% endhint %}
 
 ## Reboot Device
 
@@ -19,4 +20,10 @@ The server will send the MQTT-level `PINGREQ` and wait for `PINGRESP`.
 
 Upon connection, the client can specifiy the Last Will message along with the topic to which it should be published.
 If the client loses connection **without sending a proper disconnect message**, the broker will publish this pre-determined Last Will message.
+
+## Server Diagnostics
+
+The server has the capability to publish messages under the server/oops topic under certain circumstances,
+typically when it detects potentially problematic behavior from the client.
+These diagnostic messages are designed to be observed and addressed by developers.
 

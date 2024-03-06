@@ -15,9 +15,10 @@ The server then evaluates whether an update is necessary and, if so, publishes a
 }
 ```
 
-> [!IMPORTANT]
-> This message can also be delivered at any time during the device operation, i.e. when Blynk.Air shipment is created
-> or when the `Preferred Time` condition is met.
+{% hint style="info" %}
+This message can also be delivered at any time during the device operation, i.e. when Blynk.Air shipment is created
+or when the `Preferred Time` condition is met.
+{% endhint %}
 
 The device must verify whether the update is feasible and then download the OTA package using `HTTP`/`HTTPS`.
 Additionally, the HTTP Response Headers provide valuable information:
@@ -28,7 +29,8 @@ Additionally, the HTTP Response Headers provide valuable information:
 - `x-fw-ver` - The firmware version string
 - `x-fw-build` - The firmware build time
 
-> [!NOTE]
-> `type`, `ver`, `build` fields are available only if Blynk.Cloud can extract this information (stored as a binary info tag) from the uploaded OTA package file.
+{% hint style="info" %}
+`type`, `ver`, `build` fields are available only if Blynk.Cloud can extract this information (stored as a binary info tag) from the uploaded OTA package file.
+{% endhint %}
 
 After installing the update, the device re-connects to Blynk.Cloud and publishes the updated [`Firmware and Device Info`](authentication.md#firmware-and-device-info) message.
