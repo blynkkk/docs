@@ -10,7 +10,7 @@ The device can set the value of such field types:
 
 - System fields
   - `Hotspot Name`
-  - `Timezone`
+  - `Time Zone`
 - Custom fields
   - `Text`
   - `Number`
@@ -30,10 +30,10 @@ The device can request the value of such field types:
 
 - System fields
   - `Device Name`
-  - `Device Owner`
+  - `Device Owner` (owner's email)
   - `Hotspot Name`
   - `Location`
-  - `Timezone`
+  - `Time Zone`
 - Custom fields
   - `Text`
   - `Number`

@@ -257,6 +257,19 @@
 * [Limitations and Recommendations](blynk-library-firmware-api/limitations-and-recommendations.md)
 * [Blynk Protocol](blynk-library-firmware-api/blynk-protocol.md)
 
+## BLYNK.CLOUD MQTT API
+
+* [Device MQTT API](blynk.cloud/device-mqtt-api/README.md)
+  * [Authentication](blynk.cloud/device-mqtt-api/authentication.md)
+  * [Topic Structure](blynk.cloud/device-mqtt-api/topic-structure.md)
+  * [Datastreams](blynk.cloud/device-mqtt-api/datastreams.md)
+  * [Widget Properties](blynk.cloud/device-mqtt-api/widget-properties.md)
+  * [Events](blynk.cloud/device-mqtt-api/events.md)
+  * [Metadata](blynk.cloud/device-mqtt-api/metadata.md)
+  * [Timezone/Location](blynk.cloud/device-mqtt-api/timezone-location.md)
+  * [OTA](blynk.cloud/device-mqtt-api/ota.md)
+  * [Miscelaneous](blynk.cloud/device-mqtt-api/miscelaneous.md)
+
 ## BLYNK.CLOUD HTTPS API <a href="#blynk.cloud" id="blynk.cloud"></a>
 
 * [Device HTTPS API](blynk.cloud/device-https-api/README.md)
