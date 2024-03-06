@@ -18,7 +18,7 @@ The video widget has the following controls:
 
 ### How to change the video URL property
 
-You can change the URL from your [hardware](../../blynk-library-firmware-api/widget-properties.md), or via an [HTTP API](../../blynk.cloud/device-https-api/update-property.md) by using the property name ‘url’.
+You can change the URL from your [hardware](../../blynk.edgent-firmware-api/widget-properties.md), or via an [HTTP API](../../blynk.cloud/device-https-api/update-property.md) by using the property name ‘url’.
 
 ```cpp
 Blynk.setProperty(V1, "url", "http://my_new_video_url");
@@ -129,7 +129,7 @@ true or false
 
 ### **Sync to the latest known state**&#x20;
 
-You can update your hardware to the latest datastream value from Blynk.Cloud after your hardware went offline, and then came online again. Use `Blynk.syncVirtual()` to update a single virtual pin, or `Blynk.syncAll()` to update all virtual pins. See [State Syncing](../../blynk-library-firmware-api/state-syncing.md) for more details.
+You can update your hardware to the latest datastream value from Blynk.Cloud after your hardware went offline, and then came online again. Use `Blynk.syncVirtual()` to update a single virtual pin, or `Blynk.syncAll()` to update all virtual pins. See [State Syncing](../../blynk.edgent-firmware-api/state-syncing.md) for more details.
 
 ```cpp
 BLYNK_CONNECTED() { 

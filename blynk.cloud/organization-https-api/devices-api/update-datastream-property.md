@@ -22,7 +22,7 @@ Device datastream identifier.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="property" type="color" required="true" %}
-DataStream property name. See [Widget Properties](../../../blynk-library-firmware-api/widget-properties.md).
+DataStream property name. See [Widget Properties](../../../blynk.edgent-firmware-api/widget-properties.md).
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="value" type="Some value" required="true" %}

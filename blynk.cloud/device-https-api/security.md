@@ -9,19 +9,23 @@ Blynk.Cloud has multiple layers of security:
 * Each device has its own unique OAuth token and Product ID. A combination of both these fields grants access to the device only for your organization
 * Constant monitoring allows us to react quickly to any possible incidents  &#x20;
 
-Blynk mostly relies on industry standards - transport layer security protocol, known as TLS. Blynk server by default tries to use the latest available protocol TLSv1.3 (or TLSv1.2 in case TLSv1.3 version is not supported).
+Blynk mostly relies on industry standards - transport layer security protocol, known as TLS. Blynk server by default tries to use the latest available protocol TLSv1.3 (or TLSv1.2 in case the TLSv1.3 version is not supported).
 
 Lower versions of TLS protocols TLSv1 and TLSv1.1 [are not supported](https://en.wikipedia.org/wiki/Transport\_Layer\_Security#TLS\_1.0) as they are considered being not secure.
 
 The server will automatically close connections with not supported TLS versions.
 
-Blynk uses 443 port for TLS connections and 80 port for plain connections (in case your hardware doesn't support it). We highly recommend using hardware that supports TLS.&#x20;
+Blynk uses 443 port (or 9443 if 443 is not available) for TLS connections and 80 port (or 8080 if 80 is not available) for plain connections (in case your hardware doesn't support it). We highly recommend using hardware that supports TLS.&#x20;
 
 When we are talking about the security of Blynk cloud, we take into account these Blynk Products and components:
 
 * Blynk.Edgent that runs on the device
 * Blynk.Console and Blynk.App for iOS and Android
 * Blynk.Cloud (or private servers for white-label solutions)
+
+## SOC2 certification
+
+Blynk is currently in the process of passing SOC2 Type 2 certification.
 
 ## Blynk.Edgent (hardware library)
 
@@ -35,7 +39,7 @@ Blynk uses secured web sockets (TLSv1.3 in case your browser supports it, TLSv1.
 
 Passwords are encrypted on the client side before transferring to the cloud server and are never stored or transferred in plain format. Only encrypted password hash is stored and used on the server.
 
-After 5  failed login attempts from the same IP - IP is not allowed to log in for the next 10 minutes.
+After 5  failed login attempts from the same IP - the IP is not allowed to log in for the next 10 minutes.
 
 ## Blynk.Cloud
 
@@ -52,5 +56,5 @@ Blynk uses Let's Encrypt certificates for TLS connections. Certificates are rene
 
 Blynk doesn't require any non-standard ports.
 
-* 443 port is used for TLS connections
-* 80 port is used for plain connections
+* 443 port is used for TLS connections (9443 if 443 is not available)
+* 80 port is used for plain connections (8080 if 80 is not available)

@@ -4,9 +4,9 @@ Organizations are digital representations of real companies on Blynk Platform. T
 
 ## Organization Settings in Blynk.Console&#x20;
 
-### Info
+### General
 
-![](../.gitbook/assets/org\_info.png)
+<figure><img src="../.gitbook/assets/14-organizations-settings 1.png" alt=""><figcaption></figcaption></figure>
 
 **Name** – must be unique. Use letters, digits, space or '.', '-', ''' characters. 80 characters limit.
 
@@ -16,18 +16,11 @@ Organizations are digital representations of real companies on Blynk Platform. T
 
 **Logo** – option to add Organization logo by uploading from computer or drag-n-drop a picture of .png or .jpg, min 500x500px format.
 
-### Templates
-
-This screen with tiles view contains all the Templates available to Organization.\
-Click **Edit** to add/remove Templates by _**clicking the tiles**_. Active Templates are marked with green tick, disabled have tiles with reduced colors. Once the changes are made click **Save**.
-
-![](../.gitbook/assets/prod\_tiles.png)
-
 ### Users
 
-This screen has 2 sections: Invite User and User List
+This screen showcases the User List and allows to invite new users.
 
-![](../.gitbook/assets/inv\_user.png)
+<figure><img src="../.gitbook/assets/17-organizations-invite users 1.png" alt=""><figcaption></figcaption></figure>
 
 **User name** – fill in this field with First and Last names of the user you want to invite.
 
@@ -37,9 +30,7 @@ This screen has 2 sections: Invite User and User List
 
 Click **Invite** once all is done here. The invitation letter will be sent to user's Email and user account will appear in **Users Invitations List.**
 
-![](../.gitbook/assets/org\_usr\_list.png)
-
-Here you can see all Organizations invited users with their names, roles and invitation statuses. Also you can change view order by toggling sorting arrows near the columns names and limit viewed users list by applying Status filter (multiple selections are supported).
+Here you can see all users that have been invited to your organization with their names, roles and invitation statuses. Also you can change view order by toggling sorting arrows near the columns names and limit viewed users list by applying Status filter (multiple selections are supported).
 
 ### More Organization management options
 

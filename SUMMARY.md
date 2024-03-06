@@ -35,7 +35,7 @@
 * [Users](concepts/users/README.md)
   * [Multi-tenancy](concepts/users/multi-tenant-tree-structure.md)
 * [Organizations](concepts/organizations.md)
-* [Automations](concepts/automations/README.md)
+* [Automations](concepts/automations.md)
   * [Forward Device Data](concepts/automations/forward-device-data.md)
 
 ## Blynk.Console
@@ -54,7 +54,7 @@
 * [Locations](blynk.console/locations/README.md)
   * [Location Profile](blynk.console/locations/location-profile.md)
   * [Assigning Devices to the Locations](blynk.console/locations/locations.md)
-* [Organizations](blynk.console/organizations/README.md)
+* [Organizations](blynk.console/organizations.md)
   * [Create a Sub-Organization](blynk.console/organizations/create-a-sub-organization.md)
   * [Working with Sub-Organizations](blynk.console/organizations/browse-and-edit-a-sub-organization.md)
 * [Users](blynk.console/users/README.md)
@@ -223,7 +223,7 @@
 ## Blynk.Edgent
 
 * [Blynk.Edgent overview](blynk.edgent/overview.md)
-* [Blynk.Inject and Blynk.Air](blynk.edgent/services.md)
+* [Blynk.Inject and Blynk.Air](platform-overview/services.md)
 * [OTA: Firmware Over-The-Air updates](blynk.edgent/updating-devices-firmwares-ota.md)
 
 ## Blynk.NCP
@@ -239,14 +239,14 @@
   * [Install Blynk Library for Platformio.org](blynk-library-firmware-api/installation/install-blynk-library-for-platformio.org.md)
   * [Install ESP8266 core for Arduino IDE](blynk-library-firmware-api/installation/install-esp8266-core-for-arduino-ide.md)
 * [Configuration](blynk-library-firmware-api/configuration.md)
-* [Connection Management](blynk-library-firmware-api/connection-management.md)
+* [Connection Management](blynk.edgent-firmware-api/connection-management.md)
 * [Device Online/Offline Status](blynk-library-firmware-api/devices-online-status.md)
 * [Digital/Analog Pins](blynk-library-firmware-api/digital-analog-pins.md)
 * [Virtual Pins](blynk-library-firmware-api/virtual-pins.md)
-* [Widget Properties](blynk-library-firmware-api/widget-properties.md)
-* [State Syncing](blynk-library-firmware-api/state-syncing.md)
-* [Timers](blynk-library-firmware-api/blynk-timer.md)
-* [Time (RTC clock)](blynk-library-firmware-api/rtc-clock.md)
+* [Widget Properties](blynk.edgent-firmware-api/widget-properties.md)
+* [State Syncing](blynk.edgent-firmware-api/state-syncing.md)
+* [Timers](blynk.edgent-firmware-api/blynk-timer.md)
+* [Time (RTC clock)](blynk.edgent-firmware-api/rtc-clock.md)
 * [Timezone / Location](blynk-library-firmware-api/timezone-location.md)
 * [Log Event](blynk-library-firmware-api/log-event.md)
 * [Metadata](blynk-library-firmware-api/metadata.md)
@@ -287,7 +287,7 @@
 * [Platform API](blynk.cloud/organization-https-api/README.md)
   * [Authentication](blynk.cloud/organization-https-api/authentication.md)
   * [Ogranization API](blynk.cloud/organization-https-api/ogranization-api/README.md)
-    * [Get Own Organization Info](blynk.cloud/organization-https-api/ogranization-api/get-organization-info.md)
+    * [Get Own Organization Info](blynk.cloud/organization-https-api/get-organization-info.md)
     * [Get Organization Info](blynk.cloud/organization-https-api/ogranization-api/get-organization-info-1.md)
     * [Search Organizations](blynk.cloud/organization-https-api/ogranization-api/get-organization-info-2.md)
     * [Create Organization](blynk.cloud/organization-https-api/ogranization-api/create-organization.md)
@@ -330,7 +330,7 @@
     * [Get Template Metadata](blynk.cloud/organization-https-api/templates-api/get-template-metadata.md)
     * [Get Template Datastreams](blynk.cloud/organization-https-api/templates-api/get-template-datastreams.md)
     * [Get Template Events](blynk.cloud/organization-https-api/templates-api/get-template-events.md)
-* [Security](blynk.cloud/security.md)
+* [Security](blynk.cloud/device-https-api/security.md)
 
 ## Downloads
 

@@ -31,7 +31,7 @@ You can find the full guide on how to use WiFi provisioning by the link below:
 
 ## Blynk.Air
 
-![Blynk.Air](https://user-images.githubusercontent.com/72824404/119467722-72706780-bd4e-11eb-809c-eebfe3078bb1.png)
+<figure><img src="../.gitbook/assets/28-edgent-blynk inject and air-blynk air.png" alt=""><figcaption></figcaption></figure>
 
 A micro-service for Firmware Over-the-Air Updates responsible for:
 

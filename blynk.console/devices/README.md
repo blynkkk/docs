@@ -52,7 +52,7 @@ Keep scrolling down to load more devices.
 
 * Click on **Device Name** – opens [Device View](device-profile/)
 * Click on **Device Owner** – opens Device Owner profile
-* Click on **Organization Name** – opens device [Organization](../organizations/)
+* Click on **Organization Name** – opens device [Organization](../organizations.md)
 
 ## Map view
 

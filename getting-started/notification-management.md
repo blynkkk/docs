@@ -8,7 +8,7 @@ Notifications/Alerts is a crucial part of any IoT solution. Blynk offers extensi
 
 There are three main approaches you can take:
 
-1. End-users can set up Notifications using [Automations](../concepts/automations/) (if allowed so by their role and set of permissions). Once Automation is set up, Blynk.Cloud monitors the data and sends notification to the specified recipients when the condition is met.&#x20;
+1. End-users can set up Notifications using [Automations](../concepts/automations.md) (if allowed so by their role and set of permissions). Once Automation is set up, Blynk.Cloud monitors the data and sends notification to the specified recipients when the condition is met.&#x20;
 2. Device-driven notifications
 3. [Content events](../blynk.console/templates/events/custom-events/events-content-events.md)
 
@@ -18,8 +18,8 @@ This is the easiest way of sending notifications triggered by user-defined condi
 
 Read more about setting up automations here:
 
-{% content-ref url="../concepts/automations/" %}
-[automations](../concepts/automations/)
+{% content-ref url="../concepts/automations.md" %}
+[automations.md](../concepts/automations.md)
 {% endcontent-ref %}
 
 ## Send Notifications From Hardware

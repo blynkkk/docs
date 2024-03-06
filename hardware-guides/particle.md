@@ -572,7 +572,7 @@ Update {[server\_address](../blynk.cloud/device-https-api/troubleshooting.md)} w
 
 ### Blynk Automation
 
-[Automations](../concepts/automations/) allow the end-user of your app to create scenarios where the device automatically performs one or more actions based on a condition. Following our functional specification, we want to alert the user when the state changes for either of the two digital inputs on the device, or when the device has moved more than 122 m / 400 ft since it was powered on.
+[Automations](../concepts/automations.md) allow the end-user of your app to create scenarios where the device automatically performs one or more actions based on a condition. Following our functional specification, we want to alert the user when the state changes for either of the two digital inputs on the device, or when the device has moved more than 122 m / 400 ft since it was powered on.
 
 The datastream V5 named ‘position\_changed’ is updated by the device from a value of 0 (false) to a value of 1 (true) when the device has moved more than 122 m / 400 ft since it was powered on. The GPS calculations are done on the device, making it very easy to use this datastream as a trigger for the automation.
 

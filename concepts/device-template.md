@@ -10,7 +10,7 @@ Each Device Template possesses a `Template ID`, a unique identifier that enables
 2. [**Metadata**](../blynk.console/devices/device-profile/metadata.md): This consists of a `key:value` data table associated with every device. While keys remain static, values differ for each device. For instance, a Serial Number field may be present for every device, but the actual value varies.
 3. [**Datastreams**](../blynk.console/templates/datastreams/): These are channels for time-stamped data transmitted between the device and the cloud. For example, sensor data should pass through a Datastream. In the context of the first version of the Blynk platform, these are akin to Virtual Pins.
 4. [**Events**](../getting-started/events-tutorial.md): These represent significant occurrences in a device's lifecycle that should be logged and, if necessary, used for notifications. Events can be initiated by the device itself or externally via the HTTP API.
-5. [**Automations**](automations/) **settings:** definition of which Datastreams should be exposed to Automations &#x20;
+5. [**Automations**](automations.md) **settings:** definition of which Datastreams should be exposed to Automations &#x20;
 
 A Template also comprises two dashboards:
 

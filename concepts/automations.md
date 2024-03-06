@@ -49,7 +49,7 @@ Automations are created per [Organization](organizations.md) and are only availa
 
 Enable automation permissions for other roles by visiting [Blynk.Console](broken-reference), click on the 'Settings' option on the main menu, access the 'Roles and permissions' menu option, expand the 'Organizations' section and find the 'Automations' permissions. Set the role's create/edit/view/delete/execute/manage permissions as appropriate for the role.
 
-![](../.gitbook/assets/roles-and-permissions-automations.png)
+<figure><img src="../.gitbook/assets/17-automations-roles perms 1.png" alt=""><figcaption></figcaption></figure>
 
 #### Check Developer Mode
 
@@ -69,7 +69,7 @@ Go to Blynk.Console ->Templates -> Template you are working with -> **Automation
 
 A list of Datastreams for the Template will appear, with columns labeled 'Condition' and 'Action' that each has an enable/disable switch for each Datastream. At the top right of the screen, click the 'Edit' button.
 
-![](../.gitbook/assets/automations-datastreams.png)
+<figure><img src="../.gitbook/assets/18-automations-automations tab 1.png" alt=""><figcaption></figcaption></figure>
 
 In the table column labeled **Type of Automation**, make a choice for the Datastream to be associated with your Automation.  The choices vary by the [Datastream](../getting-started/template-quick-setup/set-up-datastreams.md) data type (double, integer, string, enumerable).  All options except for ‘Sensor’ define what type of GUI control will be presented to the User when defining the Automation in the Blynk.App.
 
@@ -152,7 +152,7 @@ The ‘Is Any’ option detects an update to the value for the datastream (it ca
 
 A integer type datastream V20 is configured as shown below.
 
-<figure><img src="../.gitbook/assets/isanyexample (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/isanyexample.png" alt=""><figcaption></figcaption></figure>
 
 An automation is created as shown below with the ‘LIMIT PERIOD’ set to ‘No Limit’.
 

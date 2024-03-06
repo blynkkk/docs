@@ -150,7 +150,7 @@ Use this option when you don't want users to interact with the device. For examp
 </div>
 
 {% hint style="info" %}
-If the device is Offline, but [_syncing to the latest server state_](../../blynk-library-firmware-api/state-syncing.md) is implemented, the users will be able to change the parameters, but the changes will be applied when the device goes online.&#x20;
+If the device is Offline, but [_syncing to the latest server state_](../../blynk.edgent-firmware-api/state-syncing.md) is implemented, the users will be able to change the parameters, but the changes will be applied when the device goes online.&#x20;
 {% endhint %}
 
 
