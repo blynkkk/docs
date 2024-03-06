@@ -1,6 +1,8 @@
-# Device HTTPS API
+---
+description: This API enables individual device to communicate with the Blynk cloud
+---
 
-**Main API Endpoints:**
+# Device HTTPS API
 
 * [Get Datastream Value](get-datastream-value.md)
 * [Get Multiple Datastream Values](get-multiple-datastream-values.md)
@@ -9,7 +11,7 @@
 * [Update Widget/Datastream Property](update-property.md)
 * [Trigger Log Event](trigger-events-api.md)
 * [Get Device History Data](get-device-report.md)
-* [Get Device MetaField Value](get-device-metafield-value.md)
+* [Get Device Metadata Value](get-device-metafield-value.md)
 * [Is Device Connected](is-device-connected.md)
 
 [Troubleshooting](troubleshooting.md)

@@ -9,9 +9,8 @@ description: Blynk supports external services integrations.
 
 ## [Twilio](https://www.twilio.com/)
 
-![](../../.gitbook/assets/twilio.png)
+![](../../.gitbook/assets/Twilio.PNG)
 
 ## [1NCE](https://1nce.com/)
 
-![](../../.gitbook/assets/1nce.png)
-
+![](../../.gitbook/assets/1nce.PNG)

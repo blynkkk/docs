@@ -22,7 +22,7 @@ Delete
 
 You can see information about the available Locations in the form of a table or in the form of a map.
 
-![](../../.gitbook/assets/list-or-map.png)
+![](<../../.gitbook/assets/list or map.png>)
 
 ## Map
 
@@ -38,7 +38,7 @@ All the columns support sorting.
 
 ## Table contents
 
-![](../../.gitbook/assets/list-of-locations-single-actions.png)
+![](<../../.gitbook/assets/list of locations single actions.png>)
 
 There are 5 specific columns:
 
@@ -56,17 +56,17 @@ Table view can be **sorted** in ascending/descending order by any column value.
 
     Confirm or cancel the action  &#x20;
 
-![](../../.gitbook/assets/list-of-locations-single-actions-edit.png)
+![](<../../.gitbook/assets/list of locations single actions edit.png>)
 
 * **Delete Location** – modal window will appear. Type DELETE and confirm the action are required.
 
-![](../../.gitbook/assets/list-of-locations-single-actions-delete.png)
+![](<../../.gitbook/assets/list of locations single actions delete.png>)
 
 
 
 The only **Bulk Action** available here is to Delete the Locations.&#x20;
 
-![](../../.gitbook/assets/list-of-locations-bulk-actions.png)
+![](<../../.gitbook/assets/list of locations bulk actions.png>)
 
 1. Select all Locations by marking **checkbox** in columns naming row or specify Locations selection by marking each Location's checkbox.
 2. Once Locations selection is made **Delete** button appears on the top right of the screen.
@@ -77,7 +77,7 @@ The only **Bulk Action** available here is to Delete the Locations.&#x20;
 
 ### **Search**
 
-![](../../.gitbook/assets/search-locations.png)
+![](<../../.gitbook/assets/search locations.png>)
 
 
 
@@ -87,7 +87,7 @@ Locations can be found by Location **Name**, **Address** or **Owner E-mail** –
 
 This button click opens modal window.&#x20;
 
-![](../../.gitbook/assets/create-new-location.png)
+![](<../../.gitbook/assets/create new location.png>)
 
 
 
@@ -99,9 +99,9 @@ This button click opens modal window.&#x20;
 
     Full form will be opened:
 
-![](../../.gitbook/assets/new\_location.png)
+![](../../.gitbook/assets/New\_Location.png)
 
-![](../../.gitbook/assets/location\_fullform.png)
+![](../../.gitbook/assets/location\_fullform.PNG)
 
 
 
@@ -120,4 +120,4 @@ Check all the fields to be filled and correct here:
 
 You can view information about a Location by clicking on its Name in the List of Locations
 
-![](../../.gitbook/assets/search-page-of-location.png)
+![](<../../.gitbook/assets/search page of location.png>)

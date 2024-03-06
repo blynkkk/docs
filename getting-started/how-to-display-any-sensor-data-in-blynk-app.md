@@ -4,13 +4,9 @@ description: How to send any data from any sensor
 
 # Send Data From Hardware To Blynk
 
-Getting Started -> Send Data From Hardware To Blynk
-
-
-
 ### How Data Flows From Device to Blynk
 
-With Blynk you can send raw or processed data from any sensor or actuator connected to the MCU board
+With Blynk you can send raw or processed data from any sensor or actuator connected to the MCU.
 
 When you send data to Blynk it flows through a Datastream using Blynk protocol. Then every value is automatically timestamped and stored in the Blynk.Cloud database (you can also [send batches of timestamped data](../blynk.cloud/device-https-api/upload-set-of-data-with-timestamps-api.md) if needed).
 
@@ -74,15 +70,15 @@ Depending on the plan you choose, the data can be stored as-is (Raw data) or wil
 
 Before you start sending data, we need to prepare some place to store it and visualize it. Let's use  Chart Widget in Blynk.Console for that and plot the noise coming in from Analog Pin A0 on the hardware.
 
-1. Go to Blynk.Console -> Templates -> Create New Template
+1. Go to Blynk.Console -> Developer Zone -> Templates -> Create New Template
 2. Go to Web Dashboard Tab -> Add Chart Widget, then open Widget Settings
 3. Press Create New Datastream -> Virtual Pin
 
-![](<../.gitbook/assets/image (36) (1).png>)
+![](<../.gitbook/assets/image (12).png>)
 
 &#x20;Now set up the Datastream like this and press create
 
-![](<../.gitbook/assets/image (35) (1).png>)
+![](<../.gitbook/assets/image (29).png>)
 
 Now the widget is ready to receive values in the range of 0-1023 through the Virtual Pin Datastream V5.&#x20;
 

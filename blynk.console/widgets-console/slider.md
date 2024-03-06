@@ -32,4 +32,4 @@ The range of values the slider will generate is defined by the datastream [min v
 
 **VALUE POSITION** - sets the position of the slider value displayed to either the left or right of the slider handle.
 
-![Slider widget setup demo](../../.gitbook/assets/slider\_setup.gif)
+![Slider widget setup demo](../../.gitbook/assets/Slider\_setup.gif)

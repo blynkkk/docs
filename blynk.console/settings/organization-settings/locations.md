@@ -8,7 +8,7 @@ description: >-
 
 _**Note:**_ this entity has [3 variations](../../../commercial-use/business-plan-white-label-assets/application-settings/general.md)
 
-![](<../../../.gitbook/assets/locations (1).png>)
+![](../../../.gitbook/assets/Locations.PNG)
 
 ## Table contents
 
@@ -30,7 +30,7 @@ Locations can be found by Location Name, Address or Owner E-mail – type at lea
 
 This button click opens modal window.&#x20;
 
-![Add Location short form](../../../.gitbook/assets/new\_location.png)
+![Add Location short form](../../../.gitbook/assets/New\_Location.png)
 
 * **Name** – make it meaningful and readable. 48 characters limit.
 *   **Address** (field will appear after Name input) – start typing Location address up to 48 characters and there are 2 options available:&#x20;
@@ -40,7 +40,7 @@ This button click opens modal window.&#x20;
 
     Full form will be opened:
 
-![Location create/edit full form](../../../.gitbook/assets/location\_fullform.png)
+![Location create/edit full form](../../../.gitbook/assets/location\_fullform.PNG)
 
 Check all the fields to be filled and correct here:
 
@@ -59,7 +59,7 @@ Check all the fields to be filled and correct here:
   * **Edit** (also can be accessed by click on **Location Name)** – opens Location create/edit full form
   * **Manage Users** (also can be accessed by click on **Users** **counter**) – assign or unassign Organization Users by selecting and moving them between All users and Users assigned columns. Search by User name, single and bulk selections are supported here.
 
-![Manage Users modal window](../../../.gitbook/assets/locations\_manageusers.png)
+![Manage Users modal window](../../../.gitbook/assets/Locations\_manageUsers.PNG)
 
 *
   * **Delete** – standard Delete confirmation modal window opens after click. Only single Location delete option is supported.

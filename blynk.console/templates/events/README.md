@@ -1,6 +1,6 @@
 # Events
 
-[Blynk.Console](../../console-overview.md) -> [Device Template](../) -> Events
+[Blynk.Console](../../console-overview.md) -> Developer Zone -> [My Templates](../) -> Template -> Events
 
 Event is generic concept that allows to track, log, and work with important events that happen on the device.&#x20;
 
@@ -15,7 +15,7 @@ _Examples of an Event:_
 
 
 
-![Events list in the template](../../../.gitbook/assets/events.png)
+![Events list in the template](../../../.gitbook/assets/events.PNG)
 
 
 

@@ -6,8 +6,6 @@ description: >-
 
 # Control Devices (GPIOs and beyond)
 
-Getting Started -> Control Devices with Blynk
-
 ### How Data Gets From Blynk To The Device
 
 Blynk can control any supported device remotely using Blynk.Console web interface or Blynk.Apps for iOS and Android.
@@ -41,22 +39,22 @@ There is no correlation between Virtual Pins and any of the physical GPIO pins o
 
 We’ll use an example of a Power Switch to remotely turn the device on and off with Blynk.Console web interface.
 
-1. Create a new Template or go to existing one Blynk.Console ->Templates
+1. Create a new Template or go to existing one Blynk.Console -> Developer Zone ->Templates
 2. Go to Template -> Dashboard - add Switch Widget
 3. Open widget settings - Create Datastream - Virtual Pin
 
-![](<../.gitbook/assets/image (37) (1).png>)
+![](<../.gitbook/assets/image (17).png>)
 
 Set to Integer data type, connected to Virtual Pin 0 (V0). In Blynk.Console we’ll leave the values set to 0 and 1, so the widget sends a 0 when it’s turned off, and a 1 when it’s turned on - like this:
 
-![](<../.gitbook/assets/image (34) (1) (2).png>)
+![](<../.gitbook/assets/image (14).png>)
 
 Now the widget is ready to send 0/1 through the Virtual Pin Datastream V1. Click **Save and Apply** to save the template and apply changes.
 
 Refer to these articles if needed:
 
-* [**How to create a device from Template**](activating-devices/manual-device-activation.md)\*\*\*\*
-* [**Quick Template setup**](template-quick-setup/)\*\*\*\*
+* [**How to create a device from Template**](activating-devices/manual-device-activation.md)
+* [**Quick Template setup**](template-quick-setup/)
 
 ### **The BLYNK\_WRITE(vPin) function**
 
@@ -171,7 +169,7 @@ BLYNK_CONNECTED()
 }
 ```
 
-
+***
 
 ### **Pin numbering**
 
@@ -198,13 +196,13 @@ digitalWrite(D4,HIGH);
 
 But this approach makes it much more difficult to use your code on different types of devices if you ever need to.
 
-
+***
 
 ### **Some NodeMCU physical pins need to be avoided**
 
 Some of the pins on the NodeMCU aren’t really suitable for connecting some types of devices to. In particular, if GPIO0 (the pin labeled D3) is pulled LOW at startup then the device won’t execute the sketch but will enter programming mode, waiting for a new sketch to be uploaded instead. There’s more info on this topic: [ESP8266 GPIO pins info, restrictions and features](https://community.blynk.cc/t/esp8266-gpio-pins-info-restrictions-and-features/22872) [FAQ](https://community.blynk.cc/c/faq/8)
 
-
+***
 
 ### **How to trigger multiple actions (e.g. turn 4 relays on/off) with a single button in the app?**
 

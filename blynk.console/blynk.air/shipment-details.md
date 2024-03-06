@@ -4,16 +4,16 @@
 
 All shipments can be viewed and managed through the table.
 
-![](../../.gitbook/assets/air.png)
+![](../../.gitbook/assets/Air.PNG)
 
 To see the shipment details (e.g. devices are successfully updated or failed) click it's  name:
 
-![](<../../.gitbook/assets/image (11).png>)
+![](<../../.gitbook/assets/image (49).png>)
 
 A list of devices and other useful data will be displayed:
 
-![](<../../.gitbook/assets/image (9).png>)
+![](<../../.gitbook/assets/image (53).png>)
 
 To see the shipment details related to a single device click it's name:
 
-![](<../../.gitbook/assets/image (19) (1).png>)
+![](<../../.gitbook/assets/image (55).png>)

@@ -2,7 +2,7 @@
 
 
 
-![](../../../.gitbook/assets/org\_settings.png)
+![](../../../.gitbook/assets/org\_settings.PNG)
 
 **Organization Name** – can be up to 80 characters. _Use letters, digits, space or '.', '-', ''' characters_
 

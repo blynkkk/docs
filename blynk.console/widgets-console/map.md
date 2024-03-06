@@ -1,6 +1,8 @@
 # Map
 
-Available to PLUS and higher subscribers.
+{% hint style="info" %}
+Available to PRO and Enterprise plans subscribers.
+{% endhint %}
 
 {% hint style="warning" %}
 _**Note:**_ please remember that web and mobile app widgets are set up separately in the Web Dashboard and Mobile App Dashboard sections correspondingly. They can still use the same datastreams to access the same data (Map widget is an exception – a different codebase is used for Map on mobile and web).
@@ -94,7 +96,7 @@ The datastream must have the advanced settings option ‘Save raw data’ enable
 
 The Misc tab allows you to configure the track termination point style, and optionally the track course direction.
 
-![](<../../.gitbook/assets/map\_widget\_settings (5) (4) (1) (1) (1) (1) (1) (1) (1) (2) (1) (1).gif>)
+![](<../../.gitbook/assets/map\_widget\_settings (5) (4) (1) (1) (5).gif>)
 
 **STYLE: POINT** - choose the track termination style from the options of: Point, Course, Truck, and Device name.
 
@@ -123,5 +125,5 @@ https://{server_address}/external/api/update?token={your 32 char token}&V1=-73.8
 ```
 
 {% hint style="danger" %}
-Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](../../blynk.edgent-firmware-api/blynk-timer.md).
+Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](../../blynk-library-firmware-api/blynk-timer.md).
 {% endhint %}

@@ -2,7 +2,7 @@
 
 A **Device Template** is a set of configurations inherited by devices of a similar type.
 
-![](<../../.gitbook/assets/blynk-template-device-relationship (2).png>)
+![](<../../.gitbook/assets/Blynk-template-device-relationship (2).png>)
 
 Think about smart home switches. They all perform a similar function and it's safe to assume that they should have the same data model, GPIOs, firmware code, etc. You can create a SmartSwitch template and then create multiple SmartHome switches from it.
 
@@ -24,18 +24,18 @@ Full documentation on all of the Template settings can be found [here](../../bly
 Before moving further, make sure that you have **Developer Mode** enabled:
 
 1. In the Blynk app or in Blynk.Console
-2. Navigate to **My Profile** → **User profile** in the left menu
+2. Navigate to **My Profile** in the left menu of the app or the top right corner of Blynk.Console
 3. Check that the **Developer Mode** switch is set to ON
 
 {% hint style="warning" %}
-Currently, **only one developer is allowed per Organization** to avoid sync issues. This limit can be changed later.
+Currently, **only one developer is allowed per Organization in Free and Maker plans** to avoid sync issues.
 {% endhint %}
 
 ## 2. Edit/Create Template
 
-Open the Templates section in the left menu and click **+ New Template** button**.** If you already have a template - click to open it and press **Edit** button.
+Open the Templates section (Developer Zone -> My Templates) in the left menu and click **+ New Template** button**.** If you already have a template - click to open it and press **Edit** button.
 
-![](../../.gitbook/assets/open-templates.gif)
+<figure><img src="../../.gitbook/assets/2-template quick setup.gif" alt=""><figcaption></figcaption></figure>
 
 ## 3. **Basic** Settings
 
@@ -45,13 +45,13 @@ Give your new template a name, specify the hardware and connectivity you will be
 If you can't find your hardware in the list choose **Other**
 {% endhint %}
 
-![New template modal](https://user-images.githubusercontent.com/72790181/119468187-e1e65700-bd4e-11eb-8cfd-7c6fffda7b09.png)
+<figure><img src="../../.gitbook/assets/3-template quick setup-new template 1.png" alt=""><figcaption></figcaption></figure>
 
 ## 4. Find **Template ID**
 
 A new Template is now created. On the screen below notice **Template ID** and **Firmware Configuration** sections. You will need these details later in your sketch.
 
-![Template editing](https://user-images.githubusercontent.com/72790181/119468206-e6127480-bd4e-11eb-974a-d50402fbee52.png)
+<figure><img src="../../.gitbook/assets/4-template quick setup-firmware config 1.png" alt=""><figcaption></figcaption></figure>
 
 ## 5. **Set Up Mobile Dashboard**
 

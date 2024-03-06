@@ -1,14 +1,10 @@
 # Devices
 
-This is the main view, where you can manage all devices that belong to your organization, including the sub-organizations (if you have any)
+This is the main view, where you can manage all devices that belong to your organization, including the sub-organizations (if you have any).
 
-![](https://user-images.githubusercontent.com/72824404/120637733-ecec6600-c477-11eb-9aff-24dbddbcb29a.png)
+<figure><img src="../../.gitbook/assets/10-devices 1.png" alt=""><figcaption></figcaption></figure>
 
 ## Predefined Filters
-
-In the sidebar there are segments of devices.&#x20;
-
-![](https://user-images.githubusercontent.com/72824404/120638891-68024c00-c479-11eb-8fa0-adc2f1644392.png)
 
 **My Devices** – List of devices that belong to your organization and the ones you have access to based on role and assigned permissions
 
@@ -20,7 +16,7 @@ In the sidebar there are segments of devices.&#x20;
 
 You can search devices by almost any parameter.&#x20;
 
-![](../../.gitbook/assets/quick-search.gif)
+<figure><img src="../../.gitbook/assets/11-devices-search.gif" alt=""><figcaption></figcaption></figure>
 
 Search can be performed by the following fields:
 
@@ -42,10 +38,9 @@ Search can be performed by the following fields:
 
 #### Search steps:
 
-1. Click on Devices row in Search Filtering Panel
-2. Start typing to perform a search. Search results will be segmented by sections will appear in the dropdown.&#x20;
-3. Click on result you need and you'll get all the Devices containing it in Table View
-4. Use sorting and filter of the table columns to narrow down the search.
+1. Start typing to perform a search. Search results will be segmented by sections will appear in the dropdown.&#x20;
+2. Click on result you need and you'll get all the Devices containing it in Table View
+3. Use sorting and filter of the table columns to narrow down the search.
 
 ## Table view
 
@@ -57,13 +52,13 @@ Keep scrolling down to load more devices.
 
 * Click on **Device Name** – opens [Device View](device-profile/)
 * Click on **Device Owner** – opens Device Owner profile
-* Click on **Organization Name** – opens device [Organization](../organizations.md)
+* Click on **Organization Name** – opens device [Organization](../organizations/)
 
 ## Map view
 
 Here you can search and view Devices (depending on selected filter) by their locations.
 
-![](https://user-images.githubusercontent.com/72824404/120645490-28d7f900-c481-11eb-8ea5-189ee5095ec3.png)
+<figure><img src="../../.gitbook/assets/12-devices-map view 1.png" alt=""><figcaption></figcaption></figure>
 
 Applied filtering option and Devices count are shown at top left.
 

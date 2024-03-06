@@ -4,15 +4,13 @@ description: Here you can Invite, View, Edit, Transfer and Delete users.
 
 # Users
 
-
-
-<figure><img src="../../.gitbook/assets/users-table 2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/24-console-users 1.png" alt=""><figcaption></figcaption></figure>
 
 ## Invite New User
 
 You can invite users that don’t currently have a Blynk account and assign them the [roles](../settings/access.md) of ‘Admin’, ‘Staff’, or ‘User’. Go to Search -> Users and click the 'Invite New User' button.
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (65).png>)
 
 Fill out the short form to invite the user to current organization.
 
@@ -68,21 +66,17 @@ On clicking filter icon select desired option(s) from the drop-down menu and pre
 * **Edit** – edit data that was provided during invitation. Same modal window as for Invite User. Email can't be changed.
 * **Change Password** – modal window opens.  "Are you sure want to change user password?" prompt NEW PASSWORD input field.
 
-![Change Password modal window](../../.gitbook/assets/change\_password\_modal.png)
+![Change Password modal window](../../.gitbook/assets/Change\_Password\_modal.PNG)
 
 * **Send Device Log** – sends selected user's devices logs to Administrator's Email
 * **Force Logout** – logs user out immediately. No confirmations required.
 * **Transfer User** – you can transfer this user to another organization. You would need to input an email address of administrator in a Destination Organization Administrator Email field.
 
-![Transfer User modal window](../../.gitbook/assets/transfer\_user.png)
+![Transfer User modal window](../../.gitbook/assets/transfer\_user.PNG)
 
 * **Delete Account** – modal window will appear. Type DELETE and confirm the action are required.
 
-<div align="center">
-
-<img src="../../.gitbook/assets/delete_user_modal.gif" alt="Delete User modal window">
-
-</div>
+<figure><img src="../../.gitbook/assets/25-console-users-delete user (bad quality 1.png" alt=""><figcaption></figcaption></figure>
 
 ### Bulk actions on users
 

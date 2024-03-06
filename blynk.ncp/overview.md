@@ -49,4 +49,4 @@ To enable a seamless connection and advanced Blynk’s functionality, add one of
 
 If you are using one of the following dual-MCU boards: UNO R4 WiFi, Portenta C33, Nano RP2040 Connect, Nano 33 IoT, MKR WiFi 1010, T-PicoC3, or RPi Pico + ESP8266, you can use this Blynk.NCP [example](https://github.com/blynkkk/BlynkNcpExample) to set up communication with the platform within minutes.
 
-\
+#### If you're interested in using **Blynk.NCP** for commercial applications, please [contact Blynk](https://blynk.io/contact-us-business).

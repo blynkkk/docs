@@ -6,7 +6,6 @@ description: >-
 
 # Blynk.Air
 
-![Main Blynk.Air table](../../.gitbook/assets/shipments.png)
+![Main Blynk.Air table](../../.gitbook/assets/shipments.PNG)
 
-## 
-
+##

@@ -1,4 +1,3 @@
 # Device profile
 
-![](../../../.gitbook/assets/dev_view.png)
-
+<figure><img src="../../../.gitbook/assets/19-devices-device profile 1.png" alt=""><figcaption></figcaption></figure>

@@ -1,5 +1,7 @@
 ---
-description: Sending WiFi credentials and and Auth Token to your device
+description: >-
+  Sending WiFi credentials and the Auth Token to your device. This feature is
+  also known as "Dynamic Provisioning" and "WiFi Manager"
 ---
 
 # WiFi provisioning
@@ -39,7 +41,7 @@ To enhance the end-user experience it's highly recommended that you plan certain
 1. Plan a physical button which will allow resetting the device to its default settings. E.g.: Holding this button for N seconds will erase the AuthToken and WiFi credentials.
 2. Plan an LED to indicate different statuses of device (AP, connected, etc.). It can be RGB or one-color LED.
 
-You can find [references to handling reset and statuses indication](https://docs.blynk.io/en/getting-started/template-quick-setup/prepare-code#defining-your-physical-button-and-led) in Blynk.Edgent examples
+You can find [references to handling reset and statuses indication](../template-quick-setup/prepare-code.md#defining-your-physical-button-and-led) in Blynk.Edgent examples
 {% endhint %}
 
 ## Setting up your sketch to enable WiFi Provisioning
@@ -54,7 +56,7 @@ In the sketch variables `BLYNK_TEMPLATE_ID` and `BLYNK_TEMPLATE_NAME` are empty.
 {% endhint %}
 
 1. Log in to your [Blynk.Console](https://blynk.cloud/) developer account
-2. Go to Templates -> [Create New Template](../template-quick-setup/#create-a-template) or open an existing template
+2. Go to Developer Zone -> My Templates -> [Create New Template](../template-quick-setup/#2.-edit-create-template) or open an existing template
 3. Copy the Firmware Configuration code lines
 4. Go back to your sketch and replace the configuration lines with what you copied.
 
@@ -100,14 +102,14 @@ If the wrong SSID was selected and/or the password was entered before then take 
 
 ## Troubleshooting
 
-If the LED on the board isn’t doing anything, then ensure that the [LED and switch are defined correctly](https://docs.blynk.io/en/getting-started/template-quick-setup/prepare-code#defining-your-physical-button-and-led) and that you don’t have any peripherals also using the LED or Switch pins.\
+If the LED on the board isn’t doing anything, then ensure that the [LED and switch are defined correctly](../template-quick-setup/prepare-code.md#defining-your-physical-button-and-led) and that you don’t have any peripherals also using the LED or Switch pins.\
 \
-If the LED is pulsing slowly then the board thinks it’s already provisioned. Follow the instructions in the _“_[_Re-provisioning new WiFi credentials_](https://docs.blynk.io/en/getting-started/activating-devices/blynk-edgent-wifi-provisioning#re-provisioning-new-wifi-credentials)_”_ section.\
+If the LED is pulsing slowly then the board thinks it’s already provisioned. Follow the instructions in the _“_[_Re-provisioning new WiFi credentials_](blynk-edgent-wifi-provisioning.md#re-provisioning-new-wifi-credentials)_”_ section.\
 \
 If the LED is flashing quickly, but the device doesn’t show up in the app when you tap the “Ready” button in the app then check the following:
 
 * The Template name isn’t too long (see the restrictions for BLYNK\_TEMPLATE\_NAME above)
-* The template ID and device name in the sketch are EXACTLY as they appear in the web console
+* The template ID and template name in the sketch are EXACTLY as they appear in the web console
 * The app is signed in to the same user account as the web console, or
 * The user has permission to provision new devices.
 

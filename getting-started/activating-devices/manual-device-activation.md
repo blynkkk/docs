@@ -52,11 +52,11 @@ Blynk.begin(BLYNK_AUTH_TOKEN, "wifi-ssid", "wifi-pass");
 
 #### Template ID and Device Name
 
-1. Log in to your [Blynk.Console](https://blynk.cloud/) developer account
-2. If you don't have a Device Templates -> [Create New Template](../template-quick-setup/#create-a-template) or open an existing one
+1. Log in to your [Blynk.Console](https://blynk.cloud/) developer account, go to Developer Zone
+2. [Create New Template](../template-quick-setup/#create-a-template) or open an existing one
 3. Copy the contents of this section and paste them to your sketch
 
-<img src="https://user-images.githubusercontent.com/72824404/119491140-4234c300-bd66-11eb-80f4-324f2d06bfa0.png" alt="Template ID" data-size="original">
+<img src="../../.gitbook/assets/5-manual device act-templ id 1.png" alt="" data-size="original">
 
 </details>
 
@@ -66,17 +66,17 @@ Blynk.begin(BLYNK_AUTH_TOKEN, "wifi-ssid", "wifi-pass");
 
 #### Getting Auth Token
 
-When the Template is ready, go to Search -> Devices - **Create New Device**
+When the Template is ready, go to Devices -> **Create New Device**
 
-<img src="https://user-images.githubusercontent.com/72824404/119494118-9db48000-bd69-11eb-952c-297c0b7627f8.png" alt="" data-size="original">
+<img src="../../.gitbook/assets/6-manual device act-new device 1.png" alt="" data-size="original">
 
 Choose a Template and give your new device a name
 
-<img src="https://user-images.githubusercontent.com/72824404/119496316-0c92d880-bd6c-11eb-9276-9ce033ef38c2.png" alt="" data-size="original">
+<img src="../../.gitbook/assets/7-manual dev act-new device-1 1.png" alt="" data-size="original">
 
-After the device was created, you will get the notification with TemplateID and AuthToken. Also, this info is always available in Device View -> Device Info
+After the device was created, you will get the notification with TemplateID and AuthToken. Also, this info is always available in Devices -> Device -> Device Info
 
-<img src="../../.gitbook/assets/image (2) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/8-manual device act-device info 1.png" alt="" data-size="original">
 
 Now you have all the information you need to update your sketch:
 

@@ -53,7 +53,7 @@ The Blynk.Console is a no-code web application that allows you to:
 * Configure and manage devices, users, data, and organizations.
 * Create a dashboard with multiple tabs for interacting with your devices via Widgets.
 
-If needed you can get a better understanding of the general concepts of [devices](../../concepts/device.md), [templates](../../concepts/device-template.md), [users](../../concepts/users/), [organizations](../../concepts/organizations.md), [multi-tenancy](../../concepts/users/multi-tenant-tree-structure.md), and [automations](../../concepts/automations.md).
+If needed you can get a better understanding of the general concepts of [devices](../../concepts/device.md), [templates](../../concepts/device-template.md), [users](../../concepts/users/), [organizations](../../concepts/organizations.md), [multi-tenancy](../../concepts/users/multi-tenant-tree-structure.md), and [automations](../../concepts/automations/).
 
 Blynk account supports an organization and sub-organizations (available in PRO and Business Plans). Members (users), devices, and locations are assigned to organizations or sub-organizations. Members may be assigned the role of 'Admin', 'Staff', or 'User'. See also the [documentation](../../concepts/organizations.md), and this [blog](https://blynk.io/how-to-add-users-and-give-them-access-to-your-devices).
 
@@ -66,12 +66,12 @@ The no-code phone application for Blynk IoT supports many new features:
 
 Note the following regarding the former Blynk Legacy widgets:
 
-* [Bridge widget](http://docs.blynk.cc/#widgets-other-bridge) for device-to-device communication is replaced by [Automations](../../concepts/automations.md) and the upcoming Rule Engine.
-* [Eventor widget](http://docs.blynk.cc/#widgets-other-eventor) is replaced by [Automations](../../concepts/automations.md).
-* [Timer widget](http://docs.blynk.cc/#widgets-controllers-timer) is replaced by [Automations](../../concepts/automations.md).
-* [RTC widget](http://docs.blynk.cc/#widgets-other-rtc) is replaced by [Time API](../../blynk.edgent-firmware-api/rtc-clock.md).
+* [Bridge widget](http://docs.blynk.cc/#widgets-other-bridge) for device-to-device communication is replaced by [Automations](../../concepts/automations/) and the upcoming Rule Engine.
+* [Eventor widget](http://docs.blynk.cc/#widgets-other-eventor) is replaced by [Automations](../../concepts/automations/).
+* [Timer widget](http://docs.blynk.cc/#widgets-controllers-timer) is replaced by [Automations](../../concepts/automations/).
+* [RTC widget](http://docs.blynk.cc/#widgets-other-rtc) is replaced by [Time API](../../blynk-library-firmware-api/rtc-clock.md).
 * [WebHook widget](http://docs.blynk.cc/#widgets-other-webhook) is replaced by [Webhooks](../../blynk.console/settings/developers/webhooks.md) feature in the Blynk.Console. They are triggered by a system event or a Datastream.
-* [Notifications](http://docs.blynk.cc/#widgets-notifications) and [Email](http://docs.blynk.cc/#widgets-notifications-email) widgets are replaced by [Automations](../../concepts/automations.md) and [Template Events](../../getting-started/events-tutorial.md).
+* [Notifications](http://docs.blynk.cc/#widgets-notifications) and [Email](http://docs.blynk.cc/#widgets-notifications-email) widgets are replaced by [Automations](../../concepts/automations/) and [Template Events](../../getting-started/events-tutorial.md).
 * [Twitter](http://docs.blynk.cc/#widgets-notifications-twitter) widget was deprecated, but you can use [Webhooks](../../blynk.console/settings/developers/webhooks.md).
 * [Terminal widget](http://docs.blynk.cc/#widgets-displays-terminal) is replaced by the Terminal Widget available in both the [Blynk.App](https://docs.blynk.io/en/blynk.apps/widgets-app#terminal) and [Blynk.Console](https://docs.blynk.io/en/blynk.console/widgets-console/terminal).
 * [Table widget](http://docs.blynk.cc/#widgets-interface-table) is not yet available.

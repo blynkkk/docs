@@ -69,33 +69,15 @@ The endpoint allows you to update the Datastream Property value via GET request.
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="token" type="string" required="true" %}
-Device 
-
-[auth token](../../concepts/device.md#authtoken)
-
- from Device info
+Device [auth token](../../concepts/device.md#authtoken) from Device info
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="pin" type="string" required="true" %}
-The datastream 
-
-[virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md)
-
- (should start with "v")
+The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v")
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="property" type="string" %}
-The property of the widget you want to update: 
-
-`autoplay`
-
-, 
-
-`loop`
-
-, 
-
-`url`
+The property of the widget you want to update: `autoplay`, `loop`, `url`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="autoplay" type="string" %}
@@ -103,11 +85,7 @@ true or false
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
-Get from the bottom right of your Blynk console. 
-
-[More information](../../blynk.cloud/device-https-api/troubleshooting.md)
-
-.
+Get from the bottom right of your Blynk console. [More information](../../blynk.cloud/device-https-api/troubleshooting.md).
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="loop" type="string" %}
@@ -183,38 +161,20 @@ Use the Blynk [HTTP API](broken-reference) to set the datastream value to _play_
 
 {% swagger baseUrl="https://{server_address}" path="/external/api/update/property?token={your 32 char token}&{pin}={value}" method="get" summary="" %}
 {% swagger-description %}
-**Example:**
-
-\
-
-
-
-
+**Example:**\
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&V2=stop`
 {% endswagger-description %}
 
 {% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
-Get from the bottom right of your Blynk console. 
-
-[More information](../../blynk.cloud/device-https-api/troubleshooting.md)
-
-.
+Get from the bottom right of your Blynk console. [More information](../../blynk.cloud/device-https-api/troubleshooting.md).
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="token" type="string" required="true" %}
-Device 
-
-[auth token](../../concepts/device.md#authtoken)
-
- from Device info
+Device [auth token](../../concepts/device.md#authtoken) from Device info
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="pin" type="string" required="true" %}
-The datastream 
-
-[virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md)
-
- (should start with "v")
+The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v")
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="value" type="string" %}

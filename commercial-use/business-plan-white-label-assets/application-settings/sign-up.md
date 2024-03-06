@@ -6,7 +6,7 @@ description: Here you can set up Client and Partners Sign Up options.
 
 Sign Up screen is separated in two view parts: **Sign Up** settings on the right and Sign Up window **Preview**.
 
-![](<../../../.gitbook/assets/sign\_up (1).png>)
+![](../../../.gitbook/assets/Sign\_Up.PNG)
 
 ## Sign Up Settings
 
@@ -30,14 +30,14 @@ Enabling this option allows your Clients to be able to sign up by themselves by 
 Mark **Checkboxes** accordingly to your requirements.\
 **Custom fields** can be used for some specific data you set. 30 Characters limit.
 
-![Client Sign Up metadata collection options](../../../.gitbook/assets/csu\_options.png)
+![Client Sign Up metadata collection options](../../../.gitbook/assets/CSU\_options.PNG)
 
 #### Default Name for Client Organization
 
 This selection defines what names should be generated for Clients Organizations.\
 Later they can be found as sub-organizations of Clients organization.
 
-![](../../../.gitbook/assets/defaultnameforclientorganization.png)
+![](../../../.gitbook/assets/DefaultNameforClientOrganization.png)
 
 ### Partner Sign Up
 
@@ -60,20 +60,20 @@ By enabling organization and user data collection you are confirming that you ha
 Mark **Checkboxes** accordingly to your requirements.\
 **Custom fields** can be used for some specific data you set. 30 Characters limit.
 
-![Partner Sign Up metadata collection options](../../../.gitbook/assets/psu\_options.png)
+![Partner Sign Up metadata collection options](../../../.gitbook/assets/PSU\_options.PNG)
 
 #### Sign Copytext and Links
 
-![](../../../.gitbook/assets/links.png)
+![](../../../.gitbook/assets/Links.PNG)
 
 ## Preview
 
 That's what new users will see after click on Sign Up button on the welcome screen. There are 4 options:
 
-![Sign Up is closed. Invitations only.](../../../.gitbook/assets/signup\_default.png)
+![Sign Up is closed. Invitations only.](../../../.gitbook/assets/SignUp\_Default.PNG)
 
-![Client Sign Up is open](../../../.gitbook/assets/signup\_clients.png)
+![Client Sign Up is open](../../../.gitbook/assets/SignUp\_Clients.PNG)
 
-![Partner Sign Up is open](../../../.gitbook/assets/signup\_partner.png)
+![Partner Sign Up is open](../../../.gitbook/assets/SignUp\_Partner.PNG)
 
-![Both Sign Up types are available](../../../.gitbook/assets/signup\_full.png)
+![Both Sign Up types are available](../../../.gitbook/assets/SignUp\_full.PNG)

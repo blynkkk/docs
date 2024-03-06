@@ -62,11 +62,11 @@ Now you are ready to ship it.
 
 ## 3. Create Shipping
 
-1. Go to **Blynk.Air** in Left Menu
+1. Go to _Developer Zone_ -> **Blynk.Air (OTA)** in Left Menu
 2. Click **New Shipping** button
 3. Specify Target Selection&#x20;
 
-![](../.gitbook/assets/target-selection.png)
+![](<../.gitbook/assets/Target selection.PNG>)
 
 4\. Select a **Template** available in the dropdown menu  \
 5\. Select Devices available in the **Devices list** if you want to update certain devices.\
@@ -74,21 +74,20 @@ If you leave the selection empty, all of the devices made from this Template wil
 6\. **Upload** **Firmware** file. Click the area with cloud pictogram and select .bin, .tar binary file in your PC file explorer. Drag'n'drop is supported.\
 7\. Check **Firmware info**
 
-![](../.gitbook/assets/firmware.png)
+![](../.gitbook/assets/firmware.PNG)
 
 8\. Check for **Optional Settings** under Template selection field and in \_\*\*\_Review and start area\
 9\. Press **Start Shipping**
 
-![](../.gitbook/assets/review\_and\_start.png)
+![](../.gitbook/assets/review\_and\_start.PNG)
 
 Now you are all set. The shipping has started.
 
 You will see the progress of the shipping. You can close it, the shipping will continue working.
 
-![](../.gitbook/assets/shipping\_in\_progress.png)
+![](../.gitbook/assets/Shipping\_in\_Progress.PNG)
 
 You can always check your Shippings status and progress by accessing list of all OTA updates.
 
-![](../.gitbook/assets/shipments\_tab.png)
+![](../.gitbook/assets/Shipments\_tab.PNG)
 
-Read more about over-the-air updates here:

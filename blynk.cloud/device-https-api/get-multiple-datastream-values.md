@@ -2,15 +2,7 @@
 
 {% swagger baseUrl="https://{server_address}" path="/external/api/get?token={token}&{pin}&{pinX}" method="get" summary="Get Multiple Datastream values" %}
 {% swagger-description %}
-In some cases it's important to get the datastream values with one call. This endpoint allows you to get the stored values of the multiple Datastreams. Returned type depends on the datastream type. 
-
-**Example:**
-
-\
-
-
-
-
+In some cases it's important to get the datastream values with one call. This endpoint allows you to get the stored values of the multiple Datastreams. Returned type depends on the datastream type. **Example:**\
 `https://blynk.cloud/external/api/get?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&v1&v2&v3&v4`
 {% endswagger-description %}
 
@@ -54,19 +46,11 @@ This endpoint allows you to get stored values of the all Datastreams by device t
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="token" type="string" required="true" %}
-Device 
-
-[auth token](../../concepts/device.md#authtoken)
-
- from Device info
+Device [auth token](../../concepts/device.md#authtoken) from Device info
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
-Get from the bottom right of your Blynk console. 
-
-[More information](troubleshooting.md)
-
-.
+Get from the bottom right of your Blynk console. [More information](troubleshooting.md).
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="Value successfully retrieved." %}

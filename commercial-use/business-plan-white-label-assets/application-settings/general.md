@@ -1,6 +1,6 @@
 # General
 
-![](../../../.gitbook/assets/general.png)
+![](../../../.gitbook/assets/General.png)
 
 **App Name** – can be the same as Organization, Template name or any other. \
 Input validation: _Use letters, digits, spaces, dots and hyphens only._ 50 characters limit.

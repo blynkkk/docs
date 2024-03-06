@@ -2,20 +2,8 @@
 
 {% swagger baseUrl="https://{server_address}" path="/external/api/isHardwareConnected?token={token}" method="get" summary="Returns the device online state" %}
 {% swagger-description %}
-This API call allows you to get the device online status
-
-\
-
-
-
-
-**Example:**
-
-\
-
-
-
-
+This API call allows you to get the device online status\
+**Example:**\
 `https://blynk.cloud/external/api/isHardwareConnected?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L`
 {% endswagger-description %}
 

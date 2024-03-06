@@ -16,7 +16,7 @@ For example, a Serial Number Metadata field can be attached to every device, but
 
 4. Click **Add Metadata**.
 
-Choose the most relevant [type ](metadata-tutorial.md)for every metadata input. For example, if you would need to associate Serial Number with every product, add the “Number” metadata field.
+Choose the most relevant [type](../datastreams/datastreams-common-settings/data-type.md) for every metadata input. For example, if you would need to associate Serial Number with every product, add the “Number” metadata field.
 
 5. Set it up and click **Create** button once you've finished with this characteristic
 
@@ -53,10 +53,9 @@ During the provision there will be prompts to input Device Metadata:
 
 #### View metadata in Blynk.Console
 
-1. Navigate to [Search section](../../search-data.md)
-2. Find your Device
-3. Click on it's name or row in the table
-4. Switch to Metadata tab
+1. Find your Device
+2. Click on it's name or row in the table
+3. Switch to Metadata tab
 
 ![](https://user-images.githubusercontent.com/72824404/120797332-90a34800-c544-11eb-8337-2127e665b330.png)
 
@@ -73,13 +72,12 @@ During the provision there will be prompts to input Device Metadata:
 
 #### Edit device metadata in Blynk.Console
 
-1. Navigate to [Search section](../../search-data.md)
-2. Find your Device
-3. Click on it's name or row in the table
-4. Switch to Metadata tab
-5. Hover Metadata value you want to change
-6. Click **Edit**
-7. Change the value
-8. Click **Save**
+1. Find your Device
+2. Click on it's name or row in the table
+3. Switch to Metadata tab
+4. Hover Metadata value you want to change
+5. Click **Edit**
+6. Change the value
+7. Click **Save**
 
 ![](https://user-images.githubusercontent.com/72824404/120797432-b4ff2480-c544-11eb-92b7-681fed6f0262.png)

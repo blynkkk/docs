@@ -34,10 +34,6 @@ Every Organization consists of:
 
 Every user of Blynk is a member of an organization. This could be a one-person organization, a family, or a company with hundreds of employees. Every member of an organization has a role. Roles control how users access the data with a [set of permissions](../blynk.console/settings/access.md).
 
-#### Templates
-
-A template must be [enabled](../blynk.console/organizations/browse-and-edit-a-sub-organization.md#add-templates-to-a-sub-organization) for the sub-organization in order for devices associated with it to be transferred to a user. Templates can be created, edited or deleted only by the root organization.
-
 #### Devices
 
 Every device has at least one user assigned as the owner to it via [device transfer](../blynk.console/organizations/browse-and-edit-a-sub-organization.md#how-to-move-a-device-to-a-sub-organization).  Multiple users may view a device (see [device sharing](../blynk.console/devices/device-sharing.md)).

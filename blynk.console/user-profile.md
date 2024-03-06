@@ -24,7 +24,7 @@ Hover Actions Menu near the Name to access following options.
 
 Click to open User Profile edit modal window
 
-![Edit User Profile modal window](<../.gitbook/assets/user\_profile\_edit (2) (2) (2) (2) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![Edit User Profile modal window](<../.gitbook/assets/user\_profile\_edit (2) (2) (2) (2) (2) (1) (2).png>)
 
 **Name** – here you can edit user name displayed in Blynk Platform. Use only letters, hyphens, dots and spaces. 60 characters limit.
 
@@ -36,7 +36,7 @@ Click to open User Profile edit modal window
 
 Click to open Reset Password modal window
 
-![Reset Password modal window](../.gitbook/assets/reset\_password.png)
+![Reset Password modal window](../.gitbook/assets/reset\_password.PNG)
 
 1. **Type current password** (click "eye" pictogram to show/hide the password)
 2. **Type new password** with minimum of 8 characters (click "eye" pictogram to show/hide the password) Our recomendations on password creation:
@@ -48,7 +48,7 @@ Click to open Reset Password modal window
 
 ### Delete Account
 
-![](../.gitbook/assets/delete\_account.png)
+![](../.gitbook/assets/delete\_account.PNG)
 
 _**Warning**_**:** All data associated with your account will be deleted permanently. If you are the only user of an Organization, the organization with all it's data will also be deleted. This can not be undone.
 

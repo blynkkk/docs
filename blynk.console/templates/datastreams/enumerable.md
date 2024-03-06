@@ -8,7 +8,7 @@ description: >-
 
 This Datastream specific fields INCOMING and OUTCOME allow to transform integer data to string.&#x20;
 
-![](../../../.gitbook/assets/enum\_ds.png)
+![](../../../.gitbook/assets/enum\_DS.PNG)
 
 Example:\
 Device has sets of three positions: Open, Vent, Closed. In means of servo they are: 130, 20 and 0 \

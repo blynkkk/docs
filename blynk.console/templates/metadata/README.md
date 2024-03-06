@@ -6,12 +6,12 @@ For example, a Serial Number Metadata field can be attached to every device, but
 
 Unlike Datastreams, Metadata is not supposed to change very often. &#x20;
 
-![](../../../.gitbook/assets/metadata\_table.png)
+![](../../../.gitbook/assets/metadata\_table.PNG)
 
 Metadata can be of different types. Choose the most relevant type for every characteristic.\
 For example, if you would need to associate Serial Number with every product, add the “Number” metadata field. Metadata is also used during device provisioning and configiration process. Staff, installing the equipment will be able to fill it in.
 
-![](../../../.gitbook/assets/metadata-types.png)
+![](<../../../.gitbook/assets/metadata types.png>)
 
 Metadata can be edited by users based on their access level.
 
@@ -37,7 +37,7 @@ Most of the text fields have 200 characters input limit. Specific differences wi
 
 ### Basic Metadata types&#x20;
 
-![](../../../.gitbook/assets/basic\_metadata\_types.png)
+![](../../../.gitbook/assets/basic\_metadata\_types.PNG)
 
 Those 5 are present in any Product and can not be deleted:
 
@@ -55,7 +55,7 @@ Those 5 are present in any Product and can not be deleted:
 
 ### Additional Metadata types available:
 
-![](../../../.gitbook/assets/metadata-types.png)
+![](<../../../.gitbook/assets/metadata types.png>)
 
 * **Text** – name this field any way you want and type default value for it. 255 characters limit for both fields.\
 

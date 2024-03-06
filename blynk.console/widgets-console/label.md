@@ -6,7 +6,7 @@ _**Note:**_ please remember that web and mobile app widgets are set up separatel
 
 Label is used to show value of Virtual Pin e.g. length/distance, mass, duration, volume, temperature and other data types including strings. Also it can show level/progress bar (horizontal or vertical) and/or have widget colors changes based on getting different predefined values.
 
-![](../../.gitbook/assets/label.png)
+![](../../.gitbook/assets/label.PNG)
 
 ### **Settings**
 

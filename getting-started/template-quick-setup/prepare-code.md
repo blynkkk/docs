@@ -212,21 +212,21 @@ Pay attention to these 3 lines: you would need to fill them.
 2. If you don't have a Device Templates -> [Create New Template](./#create-a-template) or open an existing one
 3. Copy the contents of this section and paste them on top of your firmware, before any includes
 
-![](<../../.gitbook/assets/image (2) (1) (1).png>)
+![](<../../.gitbook/assets/image (62).png>)
 
 **Getting Auth Token**
 
 When the Template is ready, go to Search -> Devices - **Create new device**
 
-![](<../../.gitbook/assets/image (4) (1) (1).png>)
+![](<../../.gitbook/assets/image (34).png>)
 
 Choose a Template and give your new device a name
 
-![](<../../.gitbook/assets/image (18) (1).png>)
+![](<../../.gitbook/assets/image (45).png>)
 
 After the device was created, open its dashboard, go to the Device Info tab. There you will find a field: Auth Token.
 
-![](<../../.gitbook/assets/image (17).png>)
+![](<../../.gitbook/assets/image (56).png>)
 
 Now you have all the information you need to update your sketch:
 

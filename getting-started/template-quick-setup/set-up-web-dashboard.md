@@ -24,7 +24,7 @@ After widgets are added you can apply the following **actions**:
 
 You'll get a Dashbord view like this one as result:
 
-![](https://user-images.githubusercontent.com/72824404/119656472-690cfb00-be33-11eb-9f1e-668f0ebcf060.png)
+<figure><img src="../../.gitbook/assets/12-templ quick setup-web dashboard 1.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **IMPORTANT!** At this stage you have set up a dashboard _template_ only and it will not yet connect to your actual devices. You will need to save the template and apply it to actual devices.
@@ -36,19 +36,19 @@ In order to see actual data and interact with your device, you need to go to you
 
 Hover on the widget and you will see a **Configure** (gear) button. Click it and it will open widget settings. Set up widget as in the picture below:
 
-![](https://user-images.githubusercontent.com/72824404/119656543-7cb86180-be33-11eb-8e90-0aae4545a06f.png)
+<figure><img src="../../.gitbook/assets/13-templ quick setup-web dash-switch set 1.png" alt=""><figcaption></figcaption></figure>
 
 ## Label Widget Settings
 
-On this widget, we will be showing data from the device in real-time from the `V0` Datastream
+On this widget, we will be showing data from the device in real-time from the `V0` Datastream.
 
-![](https://user-images.githubusercontent.com/72824404/119656739-b2f5e100-be33-11eb-8816-5a013bb8d17e.png)
+<figure><img src="../../.gitbook/assets/14-templ quick set-web dash-label set 1.png" alt=""><figcaption></figcaption></figure>
 
 ## Chart Widget Settings
 
-On this widget, we will be showing historical data from the device from the `V0` Datastream
+On this widget, we will be showing historical data from the device from the `V0` Datastream.
 
-![](https://user-images.githubusercontent.com/72824404/119656767-bd17df80-be33-11eb-948d-93371e5afefd.png)
+<figure><img src="../../.gitbook/assets/15-templ quick set-web dash-chart set 1.png" alt=""><figcaption></figcaption></figure>
 
 Click **Save** button at top right of the screen to save all the changes made to the Template.
 

@@ -9,7 +9,7 @@ Four datastreams are required for this widget:
 1. **COLOR** - select or create a datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) string for the color.  The three RGB color values are independently available to be read by the hardware.&#x20;
 2. **BUTTON** - select or create a datastream of data type integer or double with the minimum and maximum values that will turn on/off the RGB connected to the hardware..
 3. **BRIGHTNESS** - select or create a datastream of data type integer or double to represent the color intensity, with a minimum value of 0 and a maximum value of 100. &#x20;
-4. **ANIMATION SPEED** - select or create a datastream of data type integer or double with a range of values from 0 to 10000.&#x20;
+4. **ANIMATION SPEED** - select or create a datastream of data type integer or double with a range of values from 0 to 10,000.&#x20;
 
 Widget properties (label, color, etc.) are also changed via the datastreams, but only for virtual, enumerable, and location pins, not digital and analog pins.&#x20;
 
@@ -32,7 +32,9 @@ The RGB Light Control widget in Color Mode or White Mode with White Tints option
 
 Sketch:[ Basic Sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
 
-Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)[NeoPixel](https://github.com/blynkkk/blynk-library/blob/master/examples/More/NeoPixel/NeoPixel.ino)\
+Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)[NeoPixel](https://github.com/blynkkk/blynk-library/blob/master/examples/More/NeoPixel/NeoPixel.ino)
+
+[Detailed guide with the firmware example](https://blynk.io/blog/rgb-control-widget) in our blog post.\
 
 
 ### Change Widget Properties
@@ -85,37 +87,19 @@ The endpoint allows you to update the Datastream Property value via GET request.
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="token" type="string" required="true" %}
-Device 
-
-[auth token](../../concepts/device.md#authtoken)
-
- from Device info
+Device [auth token](../../concepts/device.md#authtoken) from Device info
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="pin" type="string" required="true" %}
-The datastream 
-
-[virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md)
-
- (should start with "v")
+The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v")
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="{property}" type="string" %}
-The property of the widget you want to update: 
-
-`isDisabled`
-
-, 
-
-`isHidden`
+The property of the widget you want to update: `isDisabled`, `isHidden`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
-Get from the bottom right of your Blynk console. 
-
-[More information](../../blynk.cloud/device-https-api/troubleshooting.md)
-
-.
+Get from the bottom right of your Blynk console. [More information](../../blynk.cloud/device-https-api/troubleshooting.md).
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="isDisabled" type="string" %}
@@ -140,7 +124,7 @@ true or false
 
 ### **Sync to the latest known state**&#x20;
 
-You can update your hardware to the latest datastream value from Blynk.Cloud after your hardware went offline, and then came online again. Use `Blynk.syncVirtual()` to update a single virtual pin, or `Blynk.syncAll()` to update all virtual pins. See [State Syncing](../../blynk.edgent-firmware-api/state-syncing.md) for more details.
+You can update your hardware to the latest datastream value from Blynk.Cloud after your hardware went offline, and then came online again. Use `Blynk.syncVirtual()` to update a single virtual pin, or `Blynk.syncAll()` to update all virtual pins. See [State Syncing](../../blynk-library-firmware-api/state-syncing.md) for more details.
 
 ```cpp
 BLYNK_CONNECTED() { 

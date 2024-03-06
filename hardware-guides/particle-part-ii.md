@@ -2,7 +2,7 @@
 description: How to Control a Particle Device with Blynk
 ---
 
-# Particle (part II)
+# Particle - control with Blynk
 
 This guide can be used in combination with the first part, where we were connecting the Particle Boron device and pushing data to Blynk Cloud.&#x20;
 
@@ -228,7 +228,7 @@ Skip this step if you already followed the steps from the prior article “[How 
 
 Navigate to ‘Settings -> Webhooks’ and create three new [webhooks](../blynk.console/settings/developers/webhooks.md), one each for the datastreams V7, V8, and V9, based on the information shown in the images below for V7, but substituting your Particle device ID and access token. The only difference between the three webhooks is the assignment of the V7, V8, and V9 datastream to the webhook, and the webhook name.&#x20;
 
-<figure><img src="../.gitbook/assets/15 (1).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/15.jpeg" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/16.jpeg" alt=""><figcaption></figcaption></figure>
 

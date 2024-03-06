@@ -1,27 +1,12 @@
+---
+description: List of hardware and development boards that work with Blynk.
+---
+
 # Supported Hardware
 
-There are different ways to get your devices connected to the Blynk Cloud:
+## There are four ways to get your devices connected to the Blynk Cloud:
 
-* **Blynk library**\
-  An easy to use and portable C++ library, pre-configured to work with **hundreds of development boards**.\
-  The library implements a streaming connection protocol (i.e. the device stays always connected to the cloud), that allows for a **low latency, bi-directional** communication. For an easy start use [Quickstart flow](what-do-i-need-to-blynk/) and make sure to explore [Blynk Library documentation](broken-reference/) afterwards.
-* **Blynk.Edgent**\
-  Blynk.Edgent is a packaged solution that allows developers to easily connect their devices to the platform and take advantage of all its advanced features without the need for extensive coding. It includes:
-  * Blynk library API
-  * **Blynk.Inject** (dynamic device credentials provisioning)
-  * **Blynk.Air** (firmware OTA updates)
-  *   A simple UX/interaction example:
-
-      * Device state indication using an RGB LED
-      * Device configuration reset using a button
-
-      If your hardware supports Blynk.Edgent, **we recommend using** [**this flow**](../blynk.edgent/overview.md) at all times.
-* **Blynk.NCP**\
-  Blynk offers a software stack for a variety of `Network Co-Processors`. NCP is a dedicated connectivity chip/module that **off-loads the Blynk.Cloud connectivity (WiFi, Ethernet, Cellular)** from the main device MCU. The main MCU runs a lightweight client library that communicates to the NCP over `UART` or `SPI`. It enables blazing fast and high quality integration, and is perfect for retrofitting scenarios. If you're interested in using **Blynk.NCP** for commercial applications, please [contact Blynk](https://blynk.io/contact-us-business).
-* **HTTP(s) API**\
-  A standard communication protocol that can be used by any Internet-connected device.\
-  The device connects to the cloud occasionally to transfer the data.\
-  Sending timestamped data in batches is also possible, which is particularly useful for **Cellular devices**. You can find more guidance in [HTTP(s) API documentation](broken-reference/).
+<table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><p><strong>Blynk Library</strong></p><p><br>An easy to use and portable C++ library, pre-configured to work with <strong>hundreds of development boards</strong>.<br></p><p>The library implements a streaming connection protocol (i.e. the device stays always connected to the cloud), that allows for a <strong>low latency, bi-directional</strong> communication. </p><p></p><p>Try <a href="what-do-i-need-to-blynk/">Quickstart flow</a> and make sure to explore <a href="../blynk-library-firmware-api/configuration.md">Blynk Library documentation</a> afterwards.</p></td><td></td><td></td><td><a href="../blynk-library-firmware-api/configuration.md">configuration.md</a></td></tr><tr><td><p><strong>Blynk.Edgent</strong></p><p><br>Blynk.Edgent is a packaged solution that allows you to easily connect devices to Blynk and take advantage of all its advanced features, including:</p><ul><li>Blynk.Library API</li><li><strong>Blynk.Inject</strong> (dynamic device credentials provisioning)</li><li><strong>Blynk.Air</strong> (firmware OTA updates)</li></ul><p>If your hardware supports Blynk.Edgent, <strong>we recommend using</strong> <a href="../blynk.edgent/overview.md"><strong>this flow</strong></a> at all times.</p></td><td></td><td></td><td><a href="../blynk.edgent/overview.md">overview.md</a></td></tr><tr><td><p><strong>Blynk.NCP</strong><br></p><p>Blynk provides a versatile software stack for Network Co-Processors (NCPs), which are dedicated connectivity chips or modules. </p><p></p><p>NCP handles Blynk.Cloud connectivity (WiFi, Ethernet, Cellular), offloading this task from the main device's MCU. The main MCU operates with a lightweight client library, communicating with the NCP via UART or SPI. This setup offers rapid and high-quality integration, making it ideal for retrofitting scenarios.</p><p></p><p>To get started, check our <a href="../blynk.ncp/overview.md">firmware examples</a> to connect a dual-MCU board or design your own device by incorporating an NCP module.</p></td><td></td><td></td><td><a href="../blynk.ncp/overview.md">overview.md</a></td></tr><tr><td><p><strong>HTTP(s) API</strong></p><p><br>This is a standard communication protocol suitable for any internet-connected device. </p><p></p><p>It allows the device to connect to the cloud periodically to transfer data. Additionally, it supports sending timestamped data in batches, a feature especially beneficial for cellular devices.</p><p></p><p>You can find more guidance in <a href="../blynk.cloud/device-https-api/">HTTP(s) API documentation</a>.</p></td><td></td><td></td><td><a href="../blynk.cloud/device-https-api/">device-https-api</a></td></tr></tbody></table>
 
 ## Hardware supported by `Blynk.Edgent`
 
@@ -171,7 +156,7 @@ If your board is not listed below, you may still be able to use it with Blynk li
   * Adafruit FONA (Mini Cellular GSM Breakout)
 
 {% hint style="info" %}
-Traffic optimization is usually required for cellular connections. Using realtime streaming protocols like Blynk or MQTT has benefits of interactive device updates, but it also requires device to stay "always connected", which significantly increases the traffic. Blynk recommends using [HTTPS (batch) API](broken-reference) for reporting telemetry and fetching `DataStream` values periodically in such scenarios. It will also help saving the battery.
+Traffic optimization is usually required for cellular connections. Using realtime streaming protocols like Blynk or MQTT has benefits of interactive device updates, but it also requires device to stay "always connected", which significantly increases the traffic. Blynk recommends using [HTTPS (batch) API](../blynk.cloud/device-https-api/upload-set-of-data-with-timestamps-api.md) for reporting telemetry and fetching `DataStream` values periodically in such scenarios. It will also help saving the battery.
 {% endhint %}
 
 ### Made by Community <a href="#supported-hardware-made-by-community" id="supported-hardware-made-by-community"></a>

@@ -16,7 +16,7 @@ Start with Enabling notifications by turning on this option.
 
 
 
-![](../../../../.gitbook/assets/new\_ev\_notifspng.png)
+![](../../../../.gitbook/assets/new\_ev\_notifsPNG.PNG)
 
 ### Default recipients
 

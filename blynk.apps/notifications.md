@@ -1,5 +1,7 @@
 ---
-description: This screen displays all events related to your devices
+description: >-
+  This screen displays events related to all of your devices as well as
+  important Blynk communication.
 ---
 
 # Notifications
@@ -14,6 +16,10 @@ Learn more how to configure Notifications:
 
 {% content-ref url="../blynk.console/templates/events/events-notification-settings/" %}
 [events-notification-settings](../blynk.console/templates/events/events-notification-settings/)
+{% endcontent-ref %}
+
+{% content-ref url="../blynk.console/templates/connection-lifecycle.md" %}
+[connection-lifecycle.md](../blynk.console/templates/connection-lifecycle.md)
 {% endcontent-ref %}
 
 {% content-ref url="../blynk.console/templates/events/events-notification-settings/custom-sounds-and-critical-notifications.md" %}

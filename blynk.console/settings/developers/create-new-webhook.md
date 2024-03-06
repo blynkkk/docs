@@ -64,7 +64,7 @@ You can set it to trigger either for any device using a specific template or jus
 * **Cancel** – closes webhook form. Please note that all the inputs made will be lost.
 * **Create Webhook** – click to save the webhook you created
 
-![](../../../.gitbook/assets/test-webhook.gif)
+![](<../../../.gitbook/assets/Test webhook.gif>)
 
 ### Placeholders that can be used for dynamic data
 

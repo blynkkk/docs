@@ -4,7 +4,7 @@ This type of device activation is designed for commercial deployments of non-WiF
 
 The process of working with Statiс Tokens is the following:
 
-1. Go to Blynk.Console -> Static Tokens
+1. Go to Blynk.Console -> Developer Zone -> Static Tokens
 2. Generate the number of Tokens you need based on the number of devices you plan to deploy
 3. Each token comes with a corresponding downloadable QR-code image
 4. You download the list of Tokens and all QR code images&#x20;

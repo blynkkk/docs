@@ -7,6 +7,6 @@ You can view and edit Device's Metadata that was provided during adding Device p
 3. make changes in Metadata edit modal window
 4. click **Save** to confirm
 
-![](../../../.gitbook/assets/metadata\_edit.gif)
+<figure><img src="../../../.gitbook/assets/22-devices-metadata 1.png" alt=""><figcaption></figcaption></figure>
 
 Available Metadata entries can be managed in [Template's Metadata setup](../../templates/metadata/)

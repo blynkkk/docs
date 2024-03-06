@@ -2,20 +2,8 @@
 
 {% swagger baseUrl="https://{server_address}" path="/external/api/update?token={token}&{pin}={value}" method="get" summary="Update the Datastream value" %}
 {% swagger-description %}
-This endpoint allows you to update the value of the Datastream value via GET request.
-
-\
-
-
-
-
-**Example:**
-
-\
-
-
-
-
+This endpoint allows you to update the value of the Datastream value via GET request.\
+**Example:**\
 `https://blynk.cloud/external/api/update?token=ffujYGgbf805tgsf&v1=100`
 {% endswagger-description %}
 
@@ -55,20 +43,8 @@ You can get the **Device auth token** in [Device info](../../getting-started/act
 
 {% swagger baseUrl="https://{server_address}" path="/external/api/update?token={token}&dataStreamId={id}&value={value}" method="get" summary="Update value by Datastream ID" %}
 {% swagger-description %}
-This endpoint allows you to update the value of the Datastream value via GET request.
-
-\
-
-
-
-
-**Example:**
-
-\
-
-
-
-
+This endpoint allows you to update the value of the Datastream value via GET request.\
+**Example:**\
 `https://blynk.cloud/external/api/update?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&dataStreamId=1&value=100`
 {% endswagger-description %}
 

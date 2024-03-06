@@ -60,7 +60,7 @@ https://{server_address}/external/api/batch/update/?token={your 32 char token}&V
 ```
 
 {% hint style="danger" %}
-Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](../../blynk.edgent-firmware-api/blynk-timer.md).
+Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](../../blynk-library-firmware-api/blynk-timer.md).
 {% endhint %}
 
 Sketch:[ Basic Sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
@@ -97,11 +97,46 @@ Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a 
 
 You can change the properties _label_, _isDisabled_, _isHidden_ of the widget from your hardware, or via an [HTTP API](broken-reference). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
 
-#### **Change Label**
+#### **Change Widget Label**
 
 ```cpp
 Blynk.setProperty(V1, "label", "Air temperature");
 ```
+
+
+
+**Change Opacity, Scale, Rotation**
+
+```cpp
+Blynk.setProperty(V1, "opacity", 50); // 0-100%
+```
+
+```cpp
+Blynk.setProperty(V1, "scale", 30); // 0-100%
+```
+
+```cpp
+Blynk.setProperty(V1, "rotation", 10); //0-360 degrees
+```
+
+
+
+**Change Images**
+
+Change the individual image by its index:
+
+<pre class="language-cpp"><code class="lang-cpp"><strong>Blynk.setProperty(V1, "url", 1, "https://image1.jpg");
+</strong></code></pre>
+
+Change a list of URLs for the widget. First image will have index `0`, next `1`, and so on.&#x20;
+
+```cpp
+Blynk.setProperty(V1, "urls", "https://image1.jpg", "https://image2.jpg");
+```
+
+{% hint style="warning" %}
+Make sure you not exceed the max string size of 255 chars when sending a long list of URLs&#x20;
+{% endhint %}
 
 #### **Disable/Enable**
 
@@ -125,48 +160,34 @@ Blynk.setProperty(V1, "isHidden", true);
 {% swagger-description %}
 The endpoint allows you to update the Datastream Property value via GET request. All widgets (both web and mobile) that are assigned to this datastream will inherit this property. The Datastream Property is persistent and will be stored forever until you change it with another value. In order to clear the property you need to clear the device data in device actions menu.
 
-**Example:**\
+**Examples:**\
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V2&label=My%20Label`
 
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&isDisabled=true`
+
+https://blynk.cloud/external/api/update/property?token={token}\&pin={pin}\&url={index}\&url={url}
+
+`https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&url=2&url=https://image%202.jpg`
+
+https://blynk.cloud/external/api/update/property?token={token}\&pin={pin}\&urls={url1}\&urls={url2}\&urls={url3}
+
+`https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&urls=https://image%201.jpg&urls=https://image%202.jpg&urls=https://image%203.jpg`
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="token" type="string" required="true" %}
-Device 
-
-[auth token](../../concepts/device.md#authtoken)
-
- from Device info
+Device [auth token](../../concepts/device.md#authtoken) from Device info
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="pin" type="string" required="true" %}
-The datastream 
-
-[virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md)
-
- (should start with "v")
+The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v")
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="{property}" type="string" %}
-The property of the widget you want to update: 
-
-`label`
-
-, 
-
-`isDisabled`
-
-, 
-
-`isHidden`
+The property of the widget you want to update: `label`, `isDisabled`, `isHidden`, `url`, `urls`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
-Get from the bottom right of your Blynk console. 
-
-[More information](../../blynk.cloud/device-https-api/troubleshooting.md)
-
-.
+Get from the bottom right of your Blynk console. [More information](../../blynk.cloud/device-https-api/troubleshooting.md).
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="label" type="string" %}
@@ -179,6 +200,14 @@ true or false
 
 {% swagger-parameter in="query" name="isHidden" type="string" %}
 true or false
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="url" type="string" %}
+Replace image by its index. Indexes start from 0. URL should be urlencoded
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" type="string" name="urls" %}
+Replace the whole set of images with the new set of URLs. The URLs should be urlencoded
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="Success" %}
@@ -195,7 +224,7 @@ true or false
 
 ### **Sync to the latest known state**&#x20;
 
-You can update your hardware to the latest datastream value from Blynk.Cloud after your hardware went offline, and then came online again. Use `Blynk.syncVirtual()` to update a single virtual pin, or `Blynk.syncAll()` to update all virtual pins. See [State Syncing](../../blynk.edgent-firmware-api/state-syncing.md) for more details.
+You can update your hardware to the latest datastream value from Blynk.Cloud after your hardware went offline, and then came online again. Use `Blynk.syncVirtual()` to update a single virtual pin, or `Blynk.syncAll()` to update all virtual pins. See [State Syncing](../../blynk-library-firmware-api/state-syncing.md) for more details.
 
 ```cpp
 BLYNK_CONNECTED() { 

@@ -1,6 +1,6 @@
 # Next Steps After Quickstart
 
-Congrats on getting your first device online! Now let's take a look at what happened during the Quickstart process. This will help you to understand important details of how the Blynk platform works and will get you comfortable with building your own logic.
+Congrats on getting your first device online! Now let's take a look at what happened during the Quickstart process. This will help you understand important details of how the Blynk platform works and get you comfortable with building your own logic.
 
 {% hint style="success" %}
 **Make sure you are in** [**Developer Mode**](../../concepts/developer-mode.md) **before you continue**
@@ -17,7 +17,7 @@ Here is what happened during the Quickstart flow:
 
 In Blynk, we use Device Templates to make it easy to work with multiple devices that perform the same functions. On a high level, Device Template is a set of configurations. Once you have created a template, you can create devices from this template and they will inherit all of the same configurations.
 
-![](<../../.gitbook/assets/blynk-quickstart-template-device-relationship (1) (1) (1) (1) (1) (1) (1).jpg>)
+![](<../../.gitbook/assets/blynk-quickstart-template-device-relationship (1).jpg>)
 
 In the diagram above, you can see that we've created a Quickstart Template and one Quickstart device. When you decide to create your own device, you will first create your own Template and then create devices from it.
 
@@ -27,7 +27,7 @@ Think about smart home switches. They all perform a similar function and it's sa
 
 Each Device Template contains a lot of settings. In this guide, we will only look at the most important ones.
 
-![](../../.gitbook/assets/blynk-quickstart-template-structure.jpg)
+![](../../.gitbook/assets/Blynk-quickstart-template-structure.jpg)
 
 #### TemplateID
 
@@ -42,7 +42,7 @@ The most important element of the template is `TemplateID`. This is a unique ide
 Definition of Template ID should **always be** **the** **first** line in your code
 {% endhint %}
 
-You can always find TemplateID in [Blynk.Console](https://blynk.cloud) → Templates → YourTemplate. There is a code snippet you can copy/paste for your next devices.
+You can always find TemplateID in [Blynk.Console](https://blynk.cloud) → Developer Zone → My Templates → YourTemplate. There is a code snippet you can copy/paste for your next devices.
 
 #### Datastreams
 
@@ -54,21 +54,21 @@ If you used an old version of Blynk, Datastreams are somewhat similar to **Virtu
 
 During the Quickstart process, we created and configured four Datastreams for you, but when you continue building your own device, you will need to do it by yourself.
 
-You can go to [Blynk.Console](https://blynk.cloud) → Templates → Quickstart Template → Datastreams
+You can go to [Blynk.Console](https://blynk.cloud) → Developer Zone → My Templates → YourTemplate → Datastreams
 
 Once defined, Datastreams are heavily used in mobile apps and web dashboards when visualizing the data in Widgets.
 
 #### Web and Mobile app dashboards
 
-The main purpose of Blynk is to make it easy to control and monitor your devices from web and mobile apps.
+Dashboards are made from building blocks called **Widgets**. These UI layouts are part of the Device Template. When you update the layout in the template, the UI will be updated for every device built with that template. How cool is that!
 
-Dashboards are made from building blocks we call **Widgets**. These UI layouts are part of the Device Template. When you update the layout in the template, UI will be updated for every device. How cool is that!
+For the Quickstart demo, we've created dashboards with a few simple widgets to demonstrate how they work. Of course, you can build your own dashboards.&#x20;
 
-For the Quickstart demo, we've created dashboards with a few simple widgets to demonstrate how they work. Of course, you can build your own dashboards. The best part is that you can have two different dashboards: one on the mobile apps and another one for desktop computer, they will not automatically mirror each other.
+The best part is that you can have different dashboards on the mobile apps and desktop computer, based on your key use cases. They will not automatically mirror each other.
 
-![](../../.gitbook/assets/onboarding-device-dashboard.png)
+![](<../../.gitbook/assets/Onboarding Device Dashboard.png>)
 
-### **At this point, you should have a bit more understanding of the relationship between templates, devices, datastreams, and widgets on the dashboard.**
+### **At this point, you should have a better understanding of the relationship between templates, devices, datastreams, and widgets on the dashboard.**
 
 Now take a closer look at what was happening on the device:
 

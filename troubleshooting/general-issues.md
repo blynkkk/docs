@@ -99,7 +99,7 @@
 * wait for up to 5 minutes and re-check device's data
 * check your network connection, re-send the command
 
-## There are no devices in Blynk.Apps [Automation](../concepts/automations.md)
+## There are no devices in Blynk.Apps [Automation](../concepts/automations/)
 
 **What could be the reason:**
 

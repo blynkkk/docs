@@ -4,6 +4,8 @@ description: Welcome to Blynk Documentation
 
 # Introduction
 
+
+
 {% hint style="success" %}
 This documentation covers the **latest generation** of the Blynk IoT Platform.
 {% endhint %}
@@ -16,7 +18,7 @@ Whether it's personal IoT projects or commercial connected products in the milli
 
 ### Blynk.Console
 
-![Blynk.Console](https://user-images.githubusercontent.com/72824404/119524638-8041df00-bd86-11eb-831a-0d38fc6c07d3.png)
+<figure><img src=".gitbook/assets/1-Introduction-console 1.png" alt=""><figcaption></figcaption></figure>
 
 **Blynk.Console** is a feature-rich web application catering to different [types of users](concepts/users/). Its key functionalities include:
 
@@ -97,15 +99,15 @@ A micro-service that facilitates:
 * Managing Authentication Tokens
 * UX flow to guide end-users through the process of claiming and provisioning with the help of Blynk.Apps
 
-For a better understanding of Blynk.Inject, you can refer to the [documentation](platform-overview/services.md) and provided videos:
+For a better understanding of Blynk.Inject, you can refer to the [documentation](blynk.edgent/services.md) and provided videos:
 
-<table data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href="https://www.youtube.com/watch?v=bXPEEmsEtPM">https://www.youtube.com/watch?v=bXPEEmsEtPM</a></td><td><a href=".gitbook/assets/Blynk-inject.jpeg">Blynk-inject.jpeg</a></td></tr><tr><td></td><td></td><td></td><td><a href="https://www.youtube.com/watch?v=4RGAn0tlrHs">https://www.youtube.com/watch?v=4RGAn0tlrHs</a></td><td><a href=".gitbook/assets/plaato.jpeg">plaato.jpeg</a></td></tr><tr><td></td><td></td><td></td><td><a href="https://www.youtube.com/watch?v=GPneDxWvp4U">https://www.youtube.com/watch?v=GPneDxWvp4U</a></td><td><a href=".gitbook/assets/cama-cooler.jpeg">cama-cooler.jpeg</a></td></tr></tbody></table>
+<table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href="https://www.youtube.com/watch?v=yM-ScI8N04A">https://www.youtube.com/watch?v=yM-ScI8N04A</a></td><td><a href=".gitbook/assets/maxresdefault.webp">maxresdefault.webp</a></td></tr><tr><td></td><td></td><td></td><td><a href="https://www.youtube.com/watch?v=4RGAn0tlrHs">https://www.youtube.com/watch?v=4RGAn0tlrHs</a></td><td><a href=".gitbook/assets/plaato.jpeg">plaato.jpeg</a></td></tr><tr><td></td><td></td><td></td><td><a href="https://www.youtube.com/watch?v=bXPEEmsEtPM">https://www.youtube.com/watch?v=bXPEEmsEtPM</a></td><td><a href=".gitbook/assets/Blynk-inject.jpeg">Blynk-inject.jpeg</a></td></tr><tr><td></td><td></td><td></td><td><a href="https://www.youtube.com/watch?v=GPneDxWvp4U">https://www.youtube.com/watch?v=GPneDxWvp4U</a></td><td><a href=".gitbook/assets/cama-cooler.jpeg">cama-cooler.jpeg</a></td></tr></tbody></table>
 
 
 
 ### Blynk.**R**
 
-![Roles and permissions](https://user-images.githubusercontent.com/72824404/119471708-3808c980-bd52-11eb-89bd-7b003fc94da1.png)
+<figure><img src=".gitbook/assets/2-introduction-blynkr 1.png" alt=""><figcaption></figcaption></figure>
 
 A micro-service for user management, covering:
 
@@ -115,7 +117,7 @@ A micro-service for user management, covering:
 
 ## Blynk.Air
 
-![Blynk.Air](https://user-images.githubusercontent.com/72824404/119467722-72706780-bd4e-11eb-809c-eebfe3078bb1.png)
+<figure><img src=".gitbook/assets/3-introduction-blynk-air 1.png" alt=""><figcaption></figcaption></figure>
 
 A micro-service focused on [Firmware Over-the-Air (OTA) Updates](blynk.edgent/updating-devices-firmwares-ota.md), responsible for:
 

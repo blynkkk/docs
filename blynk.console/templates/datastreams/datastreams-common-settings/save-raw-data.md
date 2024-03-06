@@ -4,5 +4,4 @@ By default server stores only 1 data point per data stream per minute. In case y
 
 Raw data allows you to store every value that hardware sends.
 
-Enabling this option allows to view Datastreams data changes dynamic in [Service ](../../../devices/device-profile/service.md)graph.
-
+Enabling this option allows to view Datastreams data changes dynamic in [Custom Chart widgets](../../../widgets-console/custom-chart.md).

@@ -16,7 +16,7 @@ What happens inside of `Blynk.begin()` function:
 2. Call of `Blynk.config(...)` to set Auth Token, Server Address, etc.
 3. Attempts to connect to the server once (can block for more than 30s)
 
-If your shield/connection type is not supported yet - you can implement it by yourself. [Here are some examples](https://github.com/blynkkk/blynk-library/tree/master/examples/More/ArduinoClient).
+If your shield/connection type is not supported yet - you can implement it by yourself. [Here are some examples](https://github.com/blynkkk/blynk-library/tree/master/examples).
 
 ## Blynk.config()
 

@@ -2,7 +2,7 @@
 
 With **Pages** you can add multiple pages to a device dashboard. This helps to better organize the UI and build connections between sections of your device dashboard.
 
-![](<../.gitbook/assets/image (15) (2).png>)
+![](<../.gitbook/assets/image (39).png>)
 
 ####
 
@@ -24,7 +24,7 @@ There are three types of pages you can add:
 * Pages (tabs) in Device Info&#x20;
 * Device Welcome page
 
-![](<../.gitbook/assets/image (31).png>)
+![](<../.gitbook/assets/image (23).png>)
 
 Standalone Pages can be interconnected. You can open **Page A** from **Page B** or **Page C** in any order. Just keep the navigation simple and clear for end-users.
 
@@ -38,11 +38,11 @@ Device Info Pages can only be accessed in Device Info view.&#x20;
 
 These pages are opened by tapping on widgets that are set as _entry points._&#x20;
 
-![](<../.gitbook/assets/image (30).png>)
+![](<../.gitbook/assets/image (64).png>)
 
 ### 1. Creating a new page
 
-![](<../.gitbook/assets/image (32).png>)
+![](<../.gitbook/assets/image (31).png>)
 
 1. Go to ToolBox → Pages → **Standalone Pages**
 2. Tap **+ Add Page**
@@ -77,13 +77,13 @@ Once the page layout is ready, you need to define a page entry point. In Blynk, 
 
 To create an entry point:
 
-![](<../.gitbook/assets/image (33) (1).png>)
+![](<../.gitbook/assets/image (8).png>)
 
 1. Add one of the supported widgets to the dashboard (check supported widgets below)
 2. Open Widget Settings
 3. Set **Mode** to **Page**
 4. Choose the Page to open
-5. Set page appearance animation (how the page appears on screen). The page can slide in from the bottom or from the left.&#x20;
+5. Set page appearance animation (how the page appears on screen). The page can slide in from the bottom or from the right.&#x20;
 
 
 
@@ -136,7 +136,7 @@ Unlike Standalone Pages, you can define which users can access the tab. For exam
 
 ### 1. Adding a Device Info Tab
 
-![](<../.gitbook/assets/image (32).png>)
+![](<../.gitbook/assets/image (31).png>)
 
 1. Go to Toolbox → Pages → **Device Info Tabs**
 2. Tap **+ Add Page**

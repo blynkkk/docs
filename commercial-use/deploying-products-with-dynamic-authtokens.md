@@ -117,7 +117,7 @@ To go back to your main organization - click on the Blynk icon in the top left c
 
 You can also switch organizations in the mobile app by tapping on the organization name in the left menu (_Test Reseller_ on the screenshot below) - then choosing Switch organization menu
 
-![](<../.gitbook/assets/image (40).png>)
+![](<../.gitbook/assets/image (6).png>)
 
 #### 2. Transferring devices.
 
@@ -125,7 +125,7 @@ With Blynk you can do all sorts of assets transfer:
 
 * Transfer user to a different organization. Go to Users - hover on the actions button - Transfer User. You would need an email of an administrator of the destination organization.
 
-![](<../.gitbook/assets/image (38) (1) (1).png>)
+![](<../.gitbook/assets/image (9).png>)
 
 &#x20;
 
@@ -154,7 +154,7 @@ You can change and apply permissions for all clients or for a group of clients. 
 
 
 
-![](<../.gitbook/assets/image (36).png>)
+![](<../.gitbook/assets/image (37).png>)
 
 * Create a new Organization. For example: My Clients (with no users in it)
 * Switch to My Clients
@@ -163,5 +163,5 @@ You can change and apply permissions for all clients or for a group of clients. 
 
 You can then edit permissions in My Clients organization and when applying changes, enable the switch **Apply to sub-organizations -> Overwrite**
 
-![](<../.gitbook/assets/image (35).png>)
+![](<../.gitbook/assets/image (77).png>)
 

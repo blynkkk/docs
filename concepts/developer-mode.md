@@ -16,7 +16,7 @@ Developer can:
 ## **How To Enable Developer Mode**
 
 1. In the Blynk app or in [Blynk.Console](https://blynk.cloud)
-2. Navigate to **My Profile** / **User profile** in the left menu
+2. Navigate to **My Profile** in the left menu of a Blynk app or in the top right menu on Blynk.Console
 3. Check that **Developer Mode** switch is set to ON
 
 ### Multiple developers

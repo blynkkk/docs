@@ -2,7 +2,7 @@
 
 You can perform various actions with individual and multiple devices. Actions are accessible from the List of devices, and from Device Profile views.
 
-![](https://user-images.githubusercontent.com/72824404/120639525-1ad2aa00-c47a-11eb-9733-10677e6fd766.png)
+<figure><img src="../../.gitbook/assets/13-devices-actions with devices 1.png" alt=""><figcaption></figcaption></figure>
 
 ## Create Device
 
@@ -13,8 +13,6 @@ In the list of devices, click **New Device.** A dialogue will pop up:
 1. **Choose template** – click this field and select the Template from the dropdown list
 2. **Device Name** – give it a meaningful name up to 60 characters. Use only letters, digits, and spaces.
 3. Click **Create** button to confirm the action.
-
-_\*\*\*\*_
 
 ## Actions Column (mouse over the last column)
 
@@ -48,7 +46,7 @@ Raw data means no aggregation will be applied
 
 **Date and time format:** Change the date and time format to be used in report
 
-\*\*\*\*
+
 
 ### Device Transfer
 
@@ -116,7 +114,7 @@ Clear device ownership. Device can be transferred to a new owner. **⚠️ It's 
 
 Deletes Device entry and all it's data. **⚠️ It's a critical action**
 
-\*\*\*\*
+
 
 ## Bulk actions
 
@@ -129,4 +127,4 @@ Only loaded/visible devices will be selected. To load devices - scroll down to r
 * **Tag:** apply a [tag](../settings/organization-settings/tags.md) to multiple devices
 * **Export devices CSV:** download the list of devices in CSV format&#x20;
 * **Notification settings** - apply same notification settings to multiple devices
-* **Delete:** deletes all selected devices their data.**⚠️ It's a critical action**
+* **Delete:** deletes all selected devices their data. **⚠️ It's a critical action**

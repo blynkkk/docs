@@ -1,7 +1,5 @@
 # Image Gallery
 
-Available only for PLUS and PRO users
-
 {% hint style="warning" %}
 _**Note:**_ please remember that web and mobile app widgets are set up separately in the Web Dashboard and Mobile App Dashboard sections correspondingly. They can still use the same datastreams to access the same data (Map widget is an exception – a different codebase is used for Map on mobile and web).
 {% endhint %}

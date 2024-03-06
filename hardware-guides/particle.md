@@ -80,7 +80,7 @@ Create a Blynk mobile app. The exact steps may vary between iOS and Android, but
 
 Static tokens will be used for device authentication because the device is cellular. We will generate a static authentication token (BLYNK\_AUTH\_TOKEN) using the [manual method](../getting-started/activating-devices/manual-device-activation.md). Navigate to the search menu and create a new device from the ‘BRN404X’ template with a name that is similar to the name you assigned to your Particle device name (‘boron\_b’ in my case), just to keep it simple and consistent.
 
-<figure><img src="../.gitbook/assets/01 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/01.png" alt=""><figcaption></figcaption></figure>
 
 After you click the ‘Create’ button, a device page will open and the Template ID, Device Name, and AuthToken will be shown in the upper right of the screen.&#x20;
 
@@ -572,7 +572,7 @@ Update {[server\_address](../blynk.cloud/device-https-api/troubleshooting.md)} w
 
 ### Blynk Automation
 
-[Automations](../concepts/automations.md) allow the end-user of your app to create scenarios where the device automatically performs one or more actions based on a condition. Following our functional specification, we want to alert the user when the state changes for either of the two digital inputs on the device, or when the device has moved more than 122 m / 400 ft since it was powered on.
+[Automations](../concepts/automations/) allow the end-user of your app to create scenarios where the device automatically performs one or more actions based on a condition. Following our functional specification, we want to alert the user when the state changes for either of the two digital inputs on the device, or when the device has moved more than 122 m / 400 ft since it was powered on.
 
 The datastream V5 named ‘position\_changed’ is updated by the device from a value of 0 (false) to a value of 1 (true) when the device has moved more than 122 m / 400 ft since it was powered on. The GPS calculations are done on the device, making it very easy to use this datastream as a trigger for the automation.
 
@@ -630,7 +630,7 @@ From the Blynk.Console, navigate to ‘Static Tokens’ and then click ‘+ Gene
 
 <figure><img src="https://lh5.googleusercontent.com/FH7_nLS3t_Bd5F6cBQ8PEUVyUD96jwVrYI1Bffp1S4-NQLIhS_2qXKo5ICd-cf5QX_BARdW25T6EXW2i3OGAU7NY6dRjWmKjOc5zwRg8VpM38K0zNk8MI3HhthqxioQxgyHF1NN61iNWJVH0Eqrrr1s" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/15.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/15 (1).jpeg" alt=""><figcaption></figcaption></figure>
 
 The static token will be generated and then it will be shown within the list of all static tokens that exist. Under the list column ‘Device Token’, hover your mouse over the right of the partially visible token and select the pop up option ‘Copy to Clipboard’. Use that static token in the clipboard to update the firmware for the new device ‘boronc’. Note that you can also download one or many device static tokens and the associated QR Codes to a .ZIP file so they could be read from a script and programmatically used to update your firmware and generate custom QR Code enhanced instructions for the device end users.
 

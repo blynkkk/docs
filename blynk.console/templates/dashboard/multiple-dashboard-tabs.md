@@ -1,5 +1,9 @@
 # Multiple Dashboard Tabs
 
+{% hint style="info" %}
+Available to PRO and Enterprise plans subscribers.
+{% endhint %}
+
 The default dashboard has a single tab named ‘Dashboard’ automatically created. You may add additional tabs to the dashboard by clicking the ‘+’ icon (‘Add Tab’). Tabs allow you to group widgets based on their use case, or whatever grouping fits your project.&#x20;
 
 You may also restrict access to particular tabs based on the three possible [user roles](../../settings/access.md) of Admin, Staff, Users.

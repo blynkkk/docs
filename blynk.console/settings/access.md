@@ -4,11 +4,11 @@ description: Access and permissions management for different user roles
 
 # Roles and Permissions
 
-Free and Plus plans have a locked set of permissions for each role, meaning the default permissions by role cannot be changed. PRO and Business plans have permissions that may be edited by role.
+Free and Maker plans have a locked set of permissions for each role, meaning the default permissions by role cannot be changed. PRO and Business plans have permissions that may be edited by role.
 
 ## Editing Roles and Permissions
 
-![](../../.gitbook/assets/roles\_and\_perms.gif)
+![](../../.gitbook/assets/Roles\_and\_Perms.gif)
 
 Blynk has 3 default roles that can have different sets of permissions:
 

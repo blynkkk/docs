@@ -1,6 +1,8 @@
 # Modules
 
-Available only for PLUS and PRO users
+{% hint style="info" %}
+Available to PRO and Enterprise plans subscribers.
+{% endhint %}
 
 {% hint style="warning" %}
 _**Note:**_ please remember that web and mobile app widgets are set up separately in the Web Dashboard and Mobile App Dashboard sections correspondingly. They can still use the same datastreams to access the same data (Map widget is an exception – a different codebase is used for Map on mobile and web).
@@ -18,7 +20,7 @@ Your Product is a road cleaning machine and it has summer setup with fan and dry
 
 ### Module entities:
 
-![](../../.gitbook/assets/cpt2104051210-1143x899.gif)
+![](../../.gitbook/assets/CPT2104051210-1143x899.gif)
 
 Module setup modal window is split to configuration part (on the left) and preview window (on the right).
 
@@ -38,7 +40,7 @@ _Example_: your module is fan, it has datastream V0. Once you attach the fan to 
 1. **Add Datastream** – click to add and set up Datastreams which values or states will be displayed
 2. **Set View Type** – define Datastreams values/status view by accessing dropdown menu on the right of the selected Datastream. _**Note**:_ type limitations can be applied in the list accordingly to the selected Datastrem properties
 
-![](<../../.gitbook/assets/module\_view\_types (1).png>)
+![](<../../.gitbook/assets/module\_view\_types (1).PNG>)
 
 **Modules Arrangement inside the Widget** – set vertical or horizontal order. Scrollbar will appear if there are a lot of modules.
 

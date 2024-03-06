@@ -2,7 +2,7 @@
 
 This table contains every datastream action sent through Blynk.Cloud for this device.
 
-![](<../../../.gitbook/assets/actions log.PNG>)
+<figure><img src="../../../.gitbook/assets/23-devices-metadata 1.png" alt=""><figcaption></figcaption></figure>
 
 Select or adjust Time Period using the switches on top of the tab.
 
