@@ -52,7 +52,7 @@ and publish `downlink/redirect` topic with a new endpoint in `URI` format
 Supported protocol prefixes are: `tcp`, `tls`, `ws`, `wss`.
 
 {% hint style="warning" %}
-The client MUST handle the redirect message to ensure proper operation under all network conditions.
+The client **MUST** handle the redirect message to ensure proper operation under all network conditions.
 Ignoring or skipping the redirect may lead to an inability to exchange data with the server, resulting in the device being displayed as `Offline`.
 {% endhint %}
 
