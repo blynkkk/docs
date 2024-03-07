@@ -24,7 +24,7 @@ Ignoring or skipping the ping message will result in warnings displayed in the w
 ## Last Will and Testament
 
 Upon connection, the client can specifiy the Last Will message along with the topic to which it should be published.
-If the client loses connection **without sending a proper disconnect message**, the broker will publish this pre-determined Last Will message.
+If the client loses connection **without sending a proper MQTT `DISCONNECT` message**, the broker will publish this pre-determined Last Will message.
 
 ## Server Diagnostics
 
