@@ -9,6 +9,20 @@
 
 The broker will accept connections from `MQTT 3.1.1` and `MQTT 5` clients.
 
+{% hint style="info" %}
+Due to **GeoDNS** configuration, the client **MUST** handle the [redirect message](#server-redirect) to ensure proper operation under all network conditions.
+
+Alternatively, the client can **connect to the regional server direcly** (in which case the redirection will not be needed):
+
+- [fra1.blynk.cloud](https://fra1.blynk.cloud/) – Frankfurt
+- [lon1.blynk.cloud](https://lon1.blynk.cloud/) – London
+- [ny3.blynk.cloud](https://ny3.blynk.cloud/) – New York
+- [sgp1.blynk.cloud](https://sgp1.blynk.cloud/) – Singapore
+- [blr1.blynk.cloud](https://blr1.blynk.cloud/) – Bangalore
+
+The server region can be found in the right bottom corner of the web interface.
+{% endhint %}
+
 ## Authentication
 
 MQTT client configuration:
@@ -43,21 +57,6 @@ Immediately after connection, the broker will decide if redirection is needed an
 
 Supported protocol prefixes are: `tcp`, `tls`, `ws`, `wss`.
 
-{% hint style="warning" %}
-The client **MUST** handle the redirect message to ensure proper operation under all network conditions.
-Ignoring or skipping the redirect may lead to an inability to exchange data with the server, resulting in the device being displayed as `Offline`.
-
-Alternatively, the client can **connect to the regional server direcly** (in which case the redirection will not be needed):
-
-- [fra1.blynk.cloud](https://fra1.blynk.cloud/) – Frankfurt
-- [lon1.blynk.cloud](https://lon1.blynk.cloud/) – London
-- [ny3.blynk.cloud](https://ny3.blynk.cloud/) – New York
-- [sgp1.blynk.cloud](https://sgp1.blynk.cloud/) – Singapore
-- [blr1.blynk.cloud](https://blr1.blynk.cloud/) – Bangalore
-
-The server region can be found in the right bottom corner of the web interface.
-{% endhint %}
-
 ## Firmware and Device Info
 
 On every clean connection, the device should publish a message to `info/mcu` topic:
@@ -88,3 +87,5 @@ Sending info message is optional for the most simplistic use cases, however when
 * Blynk.Cloud currently disallows **simultaneous connection** of multiple MQTT clients using **the same auth token**.
 * The Device API client is restricted to subscribing only to sub-topics within `downlink/`. Only multi-level (`#`) wildcard at the end of the topic filter is supported, Blynk does not support single-level (`+`) wildcard at the moment.
 * All MQTT messages are limited to **`1024` bytes** (including variable header and payload). This only affects the public MQTT service, the limit is adjustible for **White Label** or **Enterprise** customers.
+* Ignoring or skipping the redirect may lead to an inability to exchange data with the server, resulting in the device being displayed as `Offline`.
+
