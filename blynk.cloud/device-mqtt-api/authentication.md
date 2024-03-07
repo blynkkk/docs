@@ -31,7 +31,9 @@ Upon establishing a clean connection, the client should subscribe to downlink me
 
 It is standard practice to subscribe to all messages under this topic using a wildcard, such as `downlink/#`.
 
-**OTA (Over-The-Air) Update**, **Server Redirect**, and **Server Diagnostic** messages represent notable exceptions. These messages can still be published and received by the client even if it has not subscribed to them. These messages are always published with QoS 0.
+**OTA (Over-The-Air) Update**, **Server Redirect**, and **Server Diagnostic** messages represent notable exceptions.
+These messages can still be published and received by the client even if it has not subscribed to them.
+These messages are always published with QoS 0.
 
 ## Server Redirect
 
@@ -42,7 +44,18 @@ Immediately after connection, the broker will decide if redirection is needed an
 Supported protocol prefixes are: `tcp`, `tls`, `ws`, `wss`.
 
 {% hint style="warning" %}
-The client **MUST** handle the redirect message to ensure proper operation under all network conditions. Ignoring or skipping the redirect may lead to an inability to exchange data with the server, resulting in the device being displayed as `Offline`.
+The client **MUST** handle the redirect message to ensure proper operation under all network conditions.
+Ignoring or skipping the redirect may lead to an inability to exchange data with the server, resulting in the device being displayed as `Offline`.
+
+Alternatively, the client can **connect to the regional server direcly** (in which case the redirection will not be needed):
+
+- [fra1.blynk.cloud](https://fra1.blynk.cloud/) – Frankfurt
+- [lon1.blynk.cloud](https://lon1.blynk.cloud/) – London
+- [ny3.blynk.cloud](https://ny3.blynk.cloud/) – New York
+- [sgp1.blynk.cloud](https://sgp1.blynk.cloud/) – Singapore
+- [blr1.blynk.cloud](https://blr1.blynk.cloud/) – Bangalore
+
+The server region can be found in the right bottom corner of the web interface.
 {% endhint %}
 
 ## Firmware and Device Info

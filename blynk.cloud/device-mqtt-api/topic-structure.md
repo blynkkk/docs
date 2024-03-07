@@ -11,7 +11,7 @@ These topics are used for messages sent from Blynk.Cloud to the device:
 * **downlink/loc/all**: Device approximate location. Used to send response for `get/loc/all` request made by the device.
 * **downlink/reboot**: Instructs the device to reboot. This can be necessary for applying updates, resetting the device's state, or troubleshooting.
 * **downlink/redirect**: Provides a new MQTT endpoint to which the device should connect. This is part of handling GeoDNS and ensuring the device connects to the most suitable server for improved performance and reliability.
-* **server/oops**: Server diagnostics messages.
+* **downlink/diag**: Server diagnostics messages.
 
 ## Uplink
 
