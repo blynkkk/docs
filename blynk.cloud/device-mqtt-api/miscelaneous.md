@@ -14,12 +14,9 @@ You will get a message on **downlink/reboot** topic, with an empty payload
 
 This feature is activated using `Device Menu -> Ping`.
 
-The server will publish **downlink/ping** topic, with an empty payload.
-In response, the clinet should publish **pong** topic, with an empty payload.
-
-{% hint style="warning" %}
-Ignoring or skipping the ping message will result in warnings displayed in the web dashboard, when this function is used.
-{% endhint %}
+The server publishes **downlink/ping** topic, with `QOS 1` and an empty payload.
+Subsequently, the client should automatically respond with an MQTT `PUBACK` packet,
+in accordance with the MQTT standard.
 
 ## Last Will and Testament
 
