@@ -1,7 +1,7 @@
 ---
 description: >-
-  Here you can generate and store authentification tokens that will be used with
-  Mapbox GL JS, Mobile, and Mapbox web services.
+  Here you can generate and store Client Id and Client Secret that will be used
+  for integration with third-party systems.
 ---
 
 # OAuth2
