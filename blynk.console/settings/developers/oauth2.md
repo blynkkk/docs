@@ -6,7 +6,7 @@ description: >-
 
 # OAuth2
 
-![](../../../.gitbook/assets/OAuth2.PNG)
+<figure><img src="../../../.gitbook/assets/oauth2.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 You need Client Id and Client Secret in order to identify the client requesting for authentication. Those credentials let any 3rd party service authenticate with the Access Token URI. It is used to identify the request as coming from expected and trusted source.
@@ -23,7 +23,7 @@ There are 4 specific columns:
 
 ## Create New Token
 
-![](../../../.gitbook/assets/CreateNewToken.PNG)
+<figure><img src="../../../.gitbook/assets/token.png" alt=""><figcaption></figcaption></figure>
 
 * **Name** – we recommend to use web services names up to 64 symbols.
 * **Redirect URLs** – add up to 11 (click **Add URL** and **Bin** buttons) URLs to external web services&#x20;

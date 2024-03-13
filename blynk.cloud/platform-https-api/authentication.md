@@ -8,7 +8,7 @@ Organization API uses OAuth authentication protocol in order to grant access and
 
 The Organization API employs the OAuth authentication protocol to securely authorize and authenticate client requests. To get started, you should request an OAuth client identifier (commonly known as `clientId`) and a secret key (`clientSecret`) from your Launch Support Engineer. These credentials are essential for establishing a secure connection with the API. Remember, the `clientId` serves as your unique identifier, while the `clientSecret` acts like a password, ensuring that access to the API is restricted to authorized users only.
 
-You can also create one by yourself in **Console** ->  **Developer Zone** -> **OAuth2**
+You can also create one by yourself in **Console** ->  **Developer Zone** -> [**OAuth2**](../../blynk.console/settings/developers/oauth2.md)
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-01-09 at 23.19.34.png" alt=""><figcaption></figcaption></figure>
 
