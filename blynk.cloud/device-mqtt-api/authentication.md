@@ -81,6 +81,29 @@ On every clean connection, the device should publish a message to `info/mcu` top
 Sending info message is optional for the most simplistic use cases, however when using **Blynk.Air** (Managed OTA firmware updates) or **Blynk.Inject** (Dynamic Auth Token and network credentials provisioning), the client **MUST** send the info message to operate properly.
 {% endhint %}
 
+## Test connection
+
+You can check connection using an [online playground page](https://html-preview.github.io/?url=https://github.com/Blynk-Technologies/Blynk-MQTT-Samples/blob/main/HTML5_WebSocket/WebSocket-Blynk-MQTT.html).
+
+
+Also, you can connect using `mosquitto-clients`:
+
+```sh
+export BLYNK_AUTH_TOKEN="••••••••••••••••••••••••"
+
+# Subscribe to all downlink messgaes
+mosquitto_sub -L "mqtts://device:$BLYNK_AUTH_TOKEN@blynk.cloud/downlink/#" -F "%t: %p"
+
+# Publish some data
+mosquitto_pub -L "mqtts://device:$BLYNK_AUTH_TOKEN@blynk.cloud/ds/Temperature" -m "21.3"
+```
+
+{% hint style="info" %}
+In most cases, you need to subscribe and publish messages using a single MQTT connection.
+It's not possible using `mosquitto_sub`/`mosquitto_pub`, but trivial when using MQTT API libraries.
+Please see [our examples](https://github.com/Blynk-Technologies/Blynk-MQTT-Samples).
+{% endhint %}
+
 ## Limitations
 
 * Only **clean sessions** are supported at the moment.
