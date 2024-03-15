@@ -9,6 +9,8 @@
 
 The broker will accept connections from `MQTT 3.1.1` and `MQTT 5` clients.
 
+Please explore our [**sample projects**](https://github.com/Blynk-Technologies/Blynk-MQTT-Samples) for detailed examples.
+
 {% hint style="info" %}
 Due to **GeoDNS** configuration, the client **MUST** handle the [redirect message](#server-redirect) to ensure proper operation under all network conditions.
 
@@ -83,7 +85,7 @@ Sending info message is optional for the most simplistic use cases, however when
 
 ## Test connection
 
-You can check connection using an [online playground page](https://html-preview.github.io/?url=https://github.com/Blynk-Technologies/Blynk-MQTT-Samples/blob/main/HTML5_WebSocket/WebSocket-Blynk-MQTT.html).
+You can check connection using an [**online playground page**](https://html-preview.github.io/?url=https://github.com/Blynk-Technologies/Blynk-MQTT-Samples/blob/main/HTML5_WebSocket/WebSocket-Blynk-MQTT.html).
 
 
 Also, you can connect using `mosquitto-clients`:
