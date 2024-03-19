@@ -1,6 +1,6 @@
 # Header Design
 
-Customize the the header layout by easily changing its size, color, adding a border, or modifying its content colors.
+Customize the header layout by easily changing its size, color, adding a border, or modifying its content colors.
 
 ### How to change Header Design?
 
@@ -68,51 +68,45 @@ Blynk.setProperty(V1, "contentDesign", "dark");
 
 ### Change Header Properties with HTTPs API
 
-{% swagger baseUrl="https://{server_address}" path="/external/api/update/property?token={your 32 char token}&pin={your vPin}&{property}={value}" method="get" summary="Updates the Datastream Property and all assigned Widgets" %}
-{% swagger-description %}
+## Updates the Datastream Property and all assigned Widgets
+
+<mark style="color:blue;">`GET`</mark> `https://{server_address}/external/api/update/property?token={your 32 char token}&pin={your vPin}&{property}={value}`
+
 The endpoint allows you to update the Datastream Property value via GET request. All widgets (both web and mobile) that are assigned to this datastream will inherit this property. The Datastream Property is persistent and will be stored forever until you change it with another value. In order to clear the property you need to clear the device data in device actions menu.
 
 **Example:**\
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V2&color=%2300000`
 
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&contentDesign=dark`
-{% endswagger-description %}
 
-{% swagger-parameter in="query" name="token" type="string" required="true" %}
-Device [auth token](../../concepts/device.md#authtoken) from Device info
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="query" name="pin" type="string" required="true" %}
-The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v")
-{% endswagger-parameter %}
+| Name                                               | Type   | Description                                                                                                                 |
+| -------------------------------------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------- |
+| {server address}<mark style="color:red;">\*</mark> | string | Get from the bottom right of your Blynk console. [More information](../../blynk.cloud/device-https-api/troubleshooting.md). |
 
-{% swagger-parameter in="query" name="{property}" type="string" %}
-The property of the header you want to update: `color`, `contentDesign`
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
-Get from the bottom right of your Blynk console. [More information](../../blynk.cloud/device-https-api/troubleshooting.md).
-{% endswagger-parameter %}
+| Name                                    | Type   | Description                                                                                                    |
+| --------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------- |
+| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                                       |
+| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v") |
+| {property}                              | string | The property of the header you want to update: `color`, `contentDesign`                                        |
+| color                                   | string | header color hexadecimal, must include the hash # character urlencoded as %23                                  |
+| contentDesign                           | string | light or dark                                                                                                  |
 
-{% swagger-parameter in="query" name="color" type="string" %}
-header color hexadecimal, must include the hash # character urlencoded as %23
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="contentDesign" type="string" %}
-light or dark
-{% endswagger-parameter %}
-
-{% swagger-response status="200" description="Success" %}
+{% tabs %}
+{% tab title="200 Success" %}
 ```
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400" description="Could not find a device token" %}
+{% tab title="400 Could not find a device token" %}
 ```
 {"error":{"message":"Invalid token."}}
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 
 
