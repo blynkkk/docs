@@ -10,4 +10,7 @@ You can also experiment with colors to make it more visually appealing.&#x20;
 
 ### Here is what you can build
 
+{% embed url="https://youtu.be/3DVjRr9JpSI?si=HPgkr_M_kVEGTuXg" %}
+
 <figure><img src="../../.gitbook/assets/device-header-design-examples.png" alt=""><figcaption></figcaption></figure>
+
