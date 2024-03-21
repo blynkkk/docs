@@ -12,5 +12,7 @@ You can also experiment with colors to make it more visually appealing.&#x20;
 
 {% embed url="https://youtu.be/3DVjRr9JpSI?si=HPgkr_M_kVEGTuXg" %}
 
+Flexible settings and a range of widgets and controls allow creating various designs that match the use case of your specific product.
+
 <figure><img src="../../.gitbook/assets/device-header-design-examples.png" alt=""><figcaption></figcaption></figure>
 
