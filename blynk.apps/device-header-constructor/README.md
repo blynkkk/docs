@@ -8,7 +8,7 @@ You can also experiment with colors to make it more visually appealing.&#x20;
 
 <figure><img src="../../.gitbook/assets/mobile-header-constructor-overview (1).png" alt=""><figcaption></figcaption></figure>
 
-### Here is what you can build
+### What you can build with device header
 
 {% embed url="https://youtu.be/3DVjRr9JpSI?si=HPgkr_M_kVEGTuXg" %}
 
