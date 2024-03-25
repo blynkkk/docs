@@ -85,7 +85,7 @@ Sending info message is optional for the most simplistic use cases, however when
 
 ## Test connection
 
-You can check connection using an [**online playground page**](https://html-preview.github.io/?url=https://github.com/Blynk-Technologies/Blynk-MQTT-Samples/blob/main/HTML5_WebSocket/WebSocket-Blynk-MQTT.html).
+You can check connection using an [**online playground page**](https://bit.ly/Blynk-MQTT-Playground).
 
 
 Also, you can connect using `mosquitto-clients`:
