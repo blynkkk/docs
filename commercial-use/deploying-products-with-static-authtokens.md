@@ -8,7 +8,7 @@ Deployment of commercial IoT products for use by end-customer is a challenging p
 
 There are three ways to obtain AuthTokens for your devices:
 
-1. [Manually](../getting-started/activating-devices/manual-device-activation.md): typically used at prototyping stages or in non-commercial applications
+1. [Manually](https://bit.ly/BlynkSimpleAuth): typically used at prototyping stages or in non-commercial applications
 2. [Automatically, using Blynk.Inject](deploying-products-with-dynamic-authtokens.md) : can be used for WiFi devices only
 3. Using **Static Tokens**
 

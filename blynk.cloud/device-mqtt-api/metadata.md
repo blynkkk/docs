@@ -10,7 +10,7 @@ The device can set the value of such field types:
 
 - System fields
   - `Hotspot Name`
-  - `Time Zone`
+  - `Time Zone` - no validation of input!
 - Custom fields
   - `Text`
   - `Number`
@@ -32,14 +32,14 @@ The device can request the value of such field types:
   - `Device Name`
   - `Device Owner` (owner's email)
   - `Hotspot Name`
-  - `Location`
+  - `Location` - doesn't work
   - `Time Zone`
 - Custom fields
   - `Text`
   - `Number`
   - `Contact`
   - `Switch`
-  - `Device Reference`
+  - `Device Reference` - works but not insightful (returns Device ID)
   - `List`
   - `Table`
   - `IMEI`

@@ -86,7 +86,7 @@ Click **Save and Apply** to save the template and apply changes.
 
 If you don't have devices yet or need more information on templates, check these articles:
 
-* [**How to create a device from Template**](activating-devices/manual-device-activation.md)
+* [**How to create a device from Template**](https://bit.ly/BlynkSimpleAuth)
 * [**Quick Template setup**](template-quick-setup/)
 
 

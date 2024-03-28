@@ -31,7 +31,7 @@ MQTT client configuration:
 
 * ClientID: `""` (or any UTF-8 encoded string, up to **64 characters** long)
 * Username: `"device"`
-* Password: `BLYNK_AUTH_TOKEN` (see [Device info](../../getting-started/activating-devices/manual-device-activation.md#step-3-getting-auth-token))
+* Password: `BLYNK_AUTH_TOKEN` (see [Device info](https://bit.ly/BlynkSimpleAuth))
 * Keepalive: `45 seconds` (recommended)
 * Clean Session: `True`
 

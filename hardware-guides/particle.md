@@ -78,7 +78,7 @@ Create a Blynk mobile app. The exact steps may vary between iOS and Android, but
 
 ### Blynk Device Activation
 
-Static tokens will be used for device authentication because the device is cellular. We will generate a static authentication token (BLYNK\_AUTH\_TOKEN) using the [manual method](../getting-started/activating-devices/manual-device-activation.md). Navigate to the search menu and create a new device from the ‘BRN404X’ template with a name that is similar to the name you assigned to your Particle device name (‘boron\_b’ in my case), just to keep it simple and consistent.
+Static tokens will be used for device authentication because the device is cellular. We will generate a static authentication token (BLYNK\_AUTH\_TOKEN) using the [manual method](https://bit.ly/BlynkSimpleAuth). Navigate to the search menu and create a new device from the ‘BRN404X’ template with a name that is similar to the name you assigned to your Particle device name (‘boron\_b’ in my case), just to keep it simple and consistent.
 
 <figure><img src="../.gitbook/assets/01.png" alt=""><figcaption></figcaption></figure>
 

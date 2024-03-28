@@ -53,7 +53,7 @@ Now the widget is ready to send 0/1 through the Virtual Pin Datastream V1. Click
 
 Refer to these articles if needed:
 
-* [**How to create a device from Template**](activating-devices/manual-device-activation.md)
+* [**How to create a device from Template**](https://bit.ly/BlynkSimpleAuth)
 * [**Quick Template setup**](template-quick-setup/)
 
 ### **The BLYNK\_WRITE(vPin) function**
