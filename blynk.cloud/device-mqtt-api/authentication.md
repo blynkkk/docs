@@ -55,9 +55,9 @@ These messages are always published with QoS 0.
 
 Blynk.Cloud uses GeoDNS to direct clients to the geographically closest server, which helps in **reducing latency, improving connection speed, and ensuring data reliability**.
 
-Immediately after connection, the broker will decide if redirection is needed and publish `downlink/redirect` topic with a new endpoint in `URI` format (i.e. `tls://ny3.blynk.cloud:8883` or `wss://fra1.blynk.cloud:443/mqtt`).
+Immediately after connection, the broker will decide if redirection is needed and publish `downlink/redirect` topic with a new endpoint in `URI` format (i.e. `mqtts://ny3.blynk.cloud:8883` or `wss://fra1.blynk.cloud:443/mqtt`).
 
-Supported protocol prefixes are: `tcp`, `tls`, `ws`, `wss`.
+Supported protocol prefixes are: `mqtt`, `mqtts`, `ws`, `wss`.
 
 ## Firmware and Device Info
 
