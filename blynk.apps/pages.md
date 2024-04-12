@@ -40,7 +40,7 @@ These pages are opened by tapping on widgets that are set as _entry points._&#x2
 
 
 
-{% embed url="https://youtube.com/shorts/ky4mJ8b89qs?si=vfgdJiqEFwhuyXhF" %}
+{% embed url="https://youtube.com/shorts/ky4mJ8b89qs?si=vfgdJiqEFwhuyXhF" fullWidth="true" %}
 
 ![](<../.gitbook/assets/image (64).png>)
 
