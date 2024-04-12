@@ -38,6 +38,10 @@ Device Info Pages can only be accessed in Device Info view.&#x20;
 
 These pages are opened by tapping on widgets that are set as _entry points._&#x20;
 
+
+
+{% embed url="https://youtube.com/shorts/ky4mJ8b89qs?si=vfgdJiqEFwhuyXhF" %}
+
 ![](<../.gitbook/assets/image (64).png>)
 
 ### 1. Creating a new page
