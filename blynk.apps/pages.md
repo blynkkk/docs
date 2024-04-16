@@ -54,6 +54,10 @@ These pages are opened by tapping on widgets that are set as _entry points._&#x2
 
 ### 2. Editing a Page
 
+
+
+{% embed url="https://youtube.com/shorts/BfNKJhfV0t0?si=_lat3gkKUx5K-Hqe" %}
+
 After you have created a new page, tap on it to start editing. You will see a familiar canvas with the grid where you can add widgets.
 
 Tap on the gear icon to  access page settings, where you can Rename or Delete the page.
