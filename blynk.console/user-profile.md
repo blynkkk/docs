@@ -89,7 +89,7 @@ You will be redirected to Sign In / Sign Up screen.
 You can choose the language for your Blynk.Console interface here. This setting is independent from your Blynk.Apps interface language.
 
 {% hint style="info" %}
-In **Blynk.Apps**, localization settings automatically synchronize with the locale of the user's smartphone, ensuring customized language preferences.
+In **Blynk.Apps**, localization settings automatically synchronize with the locale of the user's smartphone, ensuring consistent interface experience.
 {% endhint %}
 
 ### Developer mode
