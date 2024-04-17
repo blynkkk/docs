@@ -24,3 +24,14 @@ Profile details fields may vary due to settings made by Organization Administrat
 * Change password – _**critical action.**_ Enter current password, create new password, confirm by return.
 * Delete account – _**critical action.**_ Confirmation window is present.
 
+{% hint style="info" %}
+In **Blynk.Apps**, localization settings automatically synchronize with the locale of the user's smartphone, ensuring customized language preferences.
+{% endhint %}
+
+{% hint style="info" %}
+For **Blynk.Console**, users can independently adjust the localization settings via the [user profile menu](../../blynk.console/user-profile.md), allowing for customized language preferences.
+{% endhint %}
+
+### Developer mode
+
+Switch between end-user or developer views. View full documentation on [developer mode](../../concepts/developer-mode.md).\
