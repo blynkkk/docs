@@ -1,45 +1,26 @@
 # Update Device Metadata
 
-{% swagger method="post" path="/api/v1/organization/device/metafield" baseUrl="https://{server_address}" summary="Update Device Metadata" %}
-{% swagger-description %}
+## Update Device Metadata
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark> `https://{server_address}/api/v1/organization/device/metafield`
 
-{% swagger-parameter in="header" name="Authorization" type="Bearer {access_token}" required="true" %}
+#### Headers
 
-{% endswagger-parameter %}
+| Name                                            | Type                   | Description |
+| ----------------------------------------------- | ---------------------- | ----------- |
+| Authorization<mark style="color:red;">\*</mark> | Bearer {access\_token} |             |
+| Content-Type                                    | application/json       |             |
 
-{% swagger-parameter in="header" name="Content-Type" type="application/json" %}
+#### Request Body
 
-{% endswagger-parameter %}
+| Name                                          | Type      | Description                 |
+| --------------------------------------------- | --------- | --------------------------- |
+| deviceId<mark style="color:red;">\*</mark>    | 1         | Device identifier.          |
+| metaFieldId<mark style="color:red;">\*</mark> | 1         | MetaField identifier.       |
+| newValue<mark style="color:red;">\*</mark>    | New Value | New metafield string value. |
 
-{% swagger-parameter in="body" name="deviceId" type="1" required="true" %}
-Device identifier.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="metaFieldId" type="1" required="true" %}
-MetaField identifier.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="newValue" type="New Value" required="true" %}
-New metafield string value.
-{% endswagger-parameter %}
-
-{% swagger-response status="204: No Content" description="Device metadata updated" %}
-
-{% endswagger-response %}
-
-{% swagger-response status="400: Bad Request" description="Invalid metadata value" %}
-```json
-{
-    "error": {
-        "message": "The provided value for metafield is invalid."
-    }
-}
-```
-{% endswagger-response %}
-
-{% swagger-response status="404: Not Found" description="Device is not found" %}
+{% tabs %}
+{% tab title="404: Not Found Device is not found" %}
 ```json
 {
     "error": {
@@ -47,9 +28,23 @@ New metafield string value.
     }
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="404: Not Found" description="Metadata is not found" %}
+{% tab title="204: No Content Device metadata updated" %}
+
+{% endtab %}
+
+{% tab title="400: Bad Request Invalid metadata value" %}
+```json
+{
+    "error": {
+        "message": "The provided value for metafield is invalid."
+    }
+}
+```
+{% endtab %}
+
+{% tab title="404: Not Found Metadata is not found" %}
 ```json
 {
     "error": {
@@ -57,8 +52,8 @@ New metafield string value.
     }
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 Request examples:
 

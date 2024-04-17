@@ -1,23 +1,23 @@
 # Erase All Data
 
-{% swagger method="delete" path="/api/v1/organization/device/clear" baseUrl="https://{server_address}" summary="Erase All Device Data" %}
-{% swagger-description %}
+## Erase All Device Data
 
-{% endswagger-description %}
+<mark style="color:red;">`DELETE`</mark> `https://{server_address}/api/v1/organization/device/clear`
 
-{% swagger-parameter in="header" name="Authorization" type="Bearer {access_token}" required="true" %}
+#### Query Parameters
 
-{% endswagger-parameter %}
+| Name                                       | Type | Description                                   |
+| ------------------------------------------ | ---- | --------------------------------------------- |
+| deviceId<mark style="color:red;">\*</mark> | 1    | Device identifier. Should be a valid integer. |
 
-{% swagger-parameter in="query" name="deviceId" type="1" required="true" %}
-Device identifier. Should be a valid integer.
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-response status="204: No Content" description="Device data deleted" %}
+| Name                                            | Type                   | Description |
+| ----------------------------------------------- | ---------------------- | ----------- |
+| Authorization<mark style="color:red;">\*</mark> | Bearer {access\_token} |             |
 
-{% endswagger-response %}
-
-{% swagger-response status="404: Not Found" description="Device is not found" %}
+{% tabs %}
+{% tab title="404: Not Found Device is not found" %}
 ```json
 {
     "error": {
@@ -25,8 +25,12 @@ Device identifier. Should be a valid integer.
     }
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+
+{% tab title="204: No Content Device data deleted" %}
+
+{% endtab %}
+{% endtabs %}
 
 Request examples:
 

@@ -2,40 +2,29 @@
 
 In order to use this API you must enable raw data saving for the datastream.
 
-{% swagger method="get" path="/api/v1/organization/device/datastream/history" baseUrl="https://{server_address}" summary="Get Device DataStream History" %}
-{% swagger-description %}
+## Get Device DataStream History
 
-{% endswagger-description %}
+<mark style="color:blue;">`GET`</mark> `https://{server_address}/api/v1/organization/device/datastream/history`
 
-{% swagger-parameter in="header" name="Authorization" type="Bearer {access_token}" required="true" %}
+#### Query Parameters
 
-{% endswagger-parameter %}
+| Name                                       | Type   | Description                                                                                                    |
+| ------------------------------------------ | ------ | -------------------------------------------------------------------------------------------------------------- |
+| deviceId<mark style="color:red;">\*</mark> | 1      | Device identifier. Should be a valid integer.                                                                  |
+| page                                       | 0      | Page number starting from 0. First page by default.                                                            |
+| size                                       | 20     | Page size. Should be from 1 to 100. 20 by default.                                                             |
+| pin<mark style="color:red;">\*</mark>      | v1     | Pin name.                                                                                                      |
+| from                                       | String | Filter device data stream history from the specified time. Should be a valid unix epoch time in milliseconds.  |
+| to                                         | String | Filter device data stream history up to the specified time. Should be a valid unix epoch time in milliseconds. |
 
-{% swagger-parameter in="query" name="page" type="0" %}
-Page number starting from 0. First page by default.
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-parameter in="query" name="size" type="20" %}
-Page size. Should be from 1 to 100. 20 by default.
-{% endswagger-parameter %}
+| Name                                            | Type                   | Description |
+| ----------------------------------------------- | ---------------------- | ----------- |
+| Authorization<mark style="color:red;">\*</mark> | Bearer {access\_token} |             |
 
-{% swagger-parameter in="query" name="deviceId" type="1" required="true" %}
-Device identifier. Should be a valid integer.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="pin" type="v1" required="true" %}
-Pin name.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="from" required="false" %}
-Filter device data stream history from the specified time. Should be a valid unix epoch time in milliseconds.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="to" %}
-Filter device data stream history up to the specified time. Should be a valid unix epoch time in milliseconds.
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="Device datastream history" %}
+{% tabs %}
+{% tab title="200: OK Device datastream history" %}
 ```json
 {
   "content": [
@@ -47,9 +36,9 @@ Filter device data stream history up to the specified time. Should be a valid un
   "totalElements": 1
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="404: Not Found" description="Device is not found" %}
+{% tab title="404: Not Found Device is not found" %}
 ```json
 {
     "error": {
@@ -57,8 +46,8 @@ Filter device data stream history up to the specified time. Should be a valid un
     }
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 Request examples:
 

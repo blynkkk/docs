@@ -1,7 +1,9 @@
 # Transfer Device
 
-{% swagger method="post" path="/api/v1/organization/device/transfer" baseUrl="https://{server_address}" summary="Transfer Device" %}
-{% swagger-description %}
+## Transfer Device
+
+<mark style="color:green;">`POST`</mark> `https://{server_address}/api/v1/organization/device/transfer`
+
 To successfully trasnfer device, you need to fulfil these requirements:
 
 
@@ -21,33 +23,24 @@ You must have access rights to the organization to which you're transferring the
 **Activation of New Owner's Account:** The account of the new device owner must be activated for the transfer to be successful.
 
 
-{% endswagger-description %}
 
-{% swagger-parameter in="header" name="Authorization" type="Bearer {access_token}" required="true" %}
+#### Headers
 
-{% endswagger-parameter %}
+| Name                                            | Type                   | Description |
+| ----------------------------------------------- | ---------------------- | ----------- |
+| Authorization<mark style="color:red;">\*</mark> | Bearer {access\_token} |             |
+| Content-Type<mark style="color:red;">\*</mark>  | application/json       |             |
 
-{% swagger-parameter in="body" name="deviceId" type="1" required="true" %}
-Device identifier.
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="header" name="Content-Type" type="application/json" required="true" %}
+| Name                                       | Type | Description                        |
+| ------------------------------------------ | ---- | ---------------------------------- |
+| deviceId<mark style="color:red;">\*</mark> | 1    | Device identifier.                 |
+| newUserId                                  | 1    | New device owner identifier.       |
+| newOrgId                                   | 1    | New organization owner identifier. |
 
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="newUserId" type="1" required="false" %}
-New device owner identifier.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="newOrgId" type="1" required="false" %}
-New organization owner identifier.
-{% endswagger-parameter %}
-
-{% swagger-response status="204: No Content" description="Device transfered" %}
-
-{% endswagger-response %}
-
-{% swagger-response status="404: Not Found" description="Device is not found" %}
+{% tabs %}
+{% tab title="404: Not Found Device is not found" %}
 ```json
 {
     "error": {
@@ -55,9 +48,13 @@ New organization owner identifier.
     }
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="404: Not Found" description="Destination organization is not found" %}
+{% tab title="204: No Content Device transfered" %}
+
+{% endtab %}
+
+{% tab title="404: Not Found Destination organization is not found" %}
 ```json
 {
     "error": {
@@ -65,9 +62,9 @@ New organization owner identifier.
     }
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="Same owner transfer error" %}
+{% tab title="400: Bad Request Same owner transfer error" %}
 ```json
 {
     "error": {
@@ -75,8 +72,8 @@ New organization owner identifier.
     }
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 Request examples:
 

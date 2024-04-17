@@ -1,47 +1,40 @@
 # Create Organization
 
-{% swagger method="post" path="/api/v1/organization/create" baseUrl="https://{server_address}" summary="Create New Organization" %}
-{% swagger-description %}
+## Create New Organization
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark> `https://{server_address}/api/v1/organization/create`
 
-{% swagger-parameter in="header" name="Authorization" type="Bearer {access_token}" required="true" %}
+#### Headers
 
-{% endswagger-parameter %}
+| Name                                            | Type                   | Description |
+| ----------------------------------------------- | ---------------------- | ----------- |
+| Authorization<mark style="color:red;">\*</mark> | Bearer {access\_token} |             |
+| Content-Type<mark style="color:red;">\*</mark>  | application/json       |             |
 
-{% swagger-parameter in="body" name="name" type="My Organization" required="true" %}
-New organization's name. Should be from 3 to 100 symbols and can contains only letters, digits, spaces, dots, hyphens and apostrophes.
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="description" type="My friend's organization" required="false" %}
-New organization's description. Should be up to 1,000 symbols and may **cannot** contains slashes, back slashes, less than and greater than symbols.
-{% endswagger-parameter %}
+| Name                                   | Type                     | Description                                                                                                                                                                                                                        |
+| -------------------------------------- | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| name<mark style="color:red;">\*</mark> | My Organization          | New organization's name. Should be from 3 to 100 symbols and can contains only letters, digits, spaces, dots, hyphens and apostrophes.                                                                                             |
+| description                            | My friend's organization | New organization's description. Should be up to 1,000 symbols and may **cannot** contains slashes, back slashes, less than and greater than symbols.                                                                               |
+| type<mark style="color:red;">\*</mark> | BUSINESS                 | Organization type. Could be: `ROOT`, `BUSINESS`, `PERSONAL`, `BRANCH`, `DISTRIBUTOR`, `CONTRACTOR`, `INSTALLER`, `RESELLER`. If parent organization's type is `PERSONAL`, then new organization's type will be `PERSONAL` as well. |
+| tz                                     | Europe/Kyiv              | Organization's timezone.                                                                                                                                                                                                           |
+| parentId                               | 1                        | Parent organization's identifier.                                                                                                                                                                                                  |
+| phoneNumber                            | +380123456789            | New organization's phone number. Should be prefixed with `+`.                                                                                                                                                                      |
+| unitSystem                             | IMPERIAL                 | Organization's unit system. Could be `IMPERIAL` or `METRIC`.                                                                                                                                                                       |
 
-{% swagger-parameter in="body" name="type" type="BUSINESS" required="true" %}
-Organization type. Could be: `ROOT`, `BUSINESS`, `PERSONAL`, `BRANCH`, `DISTRIBUTOR`, `CONTRACTOR`, `INSTALLER`, `RESELLER`. If parent organization's type is `PERSONAL`, then new organization's type will be `PERSONAL` as well.
-{% endswagger-parameter %}
+{% tabs %}
+{% tab title="404: Not Found Parent organization is not found" %}
+```json
+{
+    "error": {
+        "message": "Parent organization is not found or you don't have access to it."
+    }
+}
+```
+{% endtab %}
 
-{% swagger-parameter in="body" name="tz" type="Europe/Kyiv" %}
-Organization's timezone.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="parentId" type="1" required="false" %}
-Parent organization's identifier.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="header" name="Content-Type" type="application/json" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="phoneNumber" type="+380123456789" %}
-New organization's phone number. Should be prefixed with `+`.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="unitSystem" type="IMPERIAL" %}
-Organization's unit system. Could be `IMPERIAL` or `METRIC`.
-{% endswagger-parameter %}
-
-{% swagger-response status="201: Created" description="Created organization" %}
+{% tab title="201: Created Created organization" %}
 ```json
 {
    "id": 751,
@@ -55,18 +48,8 @@ Organization's unit system. Could be `IMPERIAL` or `METRIC`.
    "lastModifiedTs": 1703068747351
 }
 ```
-{% endswagger-response %}
-
-{% swagger-response status="404: Not Found" description="Parent organization is not found" %}
-```json
-{
-    "error": {
-        "message": "Parent organization is not found or you don't have access to it."
-    }
-}
-```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 Request examples:
 

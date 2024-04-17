@@ -18,22 +18,26 @@ You can also create one by yourself in **Console** ->  **Developer Zone** -> [**
 
 To obtain authentication tokens use `client_credentials` grant type as mentioned below:
 
-{% swagger method="post" path="/oauth2/token" baseUrl="https://{server_address}" summary="Authenticate using client credentials" %}
-{% swagger-description %}
+## Authenticate using client credentials
+
+<mark style="color:green;">`POST`</mark> `https://{server_address}/oauth2/token`
+
 Authentication to Organization API using OAuth client credentials provided in `Authorization` header.
-{% endswagger-description %}
 
-{% swagger-parameter in="header" name="Authorization" required="true" type="" %}
-Provide authorization header with OAuth client credentials filled in basic authorization format:
+#### Query Parameters
 
-`Basic {credentials}`
-{% endswagger-parameter %}
+| Name                                          | Type | Description             |
+| --------------------------------------------- | ---- | ----------------------- |
+| grant\_type<mark style="color:red;">\*</mark> |      | Use client\_credentials |
 
-{% swagger-parameter in="query" name="grant_type" type="" required="true" %}
-Use client\_credentials
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-response status="200: OK" description="Successfuly authenticated" %}
+| Name                                            | Type | Description                                                                                                                                    |
+| ----------------------------------------------- | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> |      | <p>Provide authorization header with OAuth client credentials filled in basic authorization format:</p><p><code>Basic {credentials}</code></p> |
+
+{% tabs %}
+{% tab title="200: OK Successfuly authenticated" %}
 Example response:
 
 ```json
@@ -46,9 +50,9 @@ Example response:
 ```
 
 Use `access_token` value to authenticate further requests and `refresh_token` to refresh the token after its expiration. Use `expires_in` (value specified in seconds) parameter to determine token expiration time.
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="Authentication failed" %}
+{% tab title="400: Bad Request Authentication failed" %}
 Example response:
 
 ```json
@@ -59,8 +63,8 @@ Example response:
 ```
 
 `error` parameter is one of: `invalid_request`, `invalid_client`, `invalid_grant`, `unauthorized_client`, `unsupported_grant_type`.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 #### Usage example
 
@@ -82,26 +86,27 @@ $ curl -X POST -u oa2-client-id_zmNtW-D0Toqpz4AZnBLCIlklBrz9ynU-:5uC5Y4Mcvdl5rB5
 
 After authentication token expiration use `refresh_token` grant type to refresh it:
 
-{% swagger method="post" path="/oauth2/token" baseUrl="https://{server_address}" summary="Refresh authentication token" %}
-{% swagger-description %}
+## Refresh authentication token
+
+<mark style="color:green;">`POST`</mark> `https://{server_address}/oauth2/token`
+
 Refreshing the authentication to Organization API using OAuth client credentials provided in `Authorization` header and refresh token issued in previous authentication response.
-{% endswagger-description %}
 
-{% swagger-parameter in="header" type="" name="Authorization" required="true" %}
-Provide authorization header with OAuth client credentials filled in basic authorization format:
+#### Query Parameters
 
-`Basic {credentials}`
-{% endswagger-parameter %}
+| Name                                             | Type | Description                                              |
+| ------------------------------------------------ | ---- | -------------------------------------------------------- |
+| refresh\_token<mark style="color:red;">\*</mark> |      | Refresh token, issued by previous authentication request |
+| grant\_type<mark style="color:red;">\*</mark>    |      | refresh\_token                                           |
 
-{% swagger-parameter in="query" name="grant_type" type="" required="true" %}
-refresh\_token
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-parameter in="query" name="refresh_token" type="" required="true" %}
-Refresh token, issued by previous authentication request
-{% endswagger-parameter %}
+| Name                                            | Type | Description                                                                                                                                    |
+| ----------------------------------------------- | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> |      | <p>Provide authorization header with OAuth client credentials filled in basic authorization format:</p><p><code>Basic {credentials}</code></p> |
 
-{% swagger-response status="200: OK" description="Successfuly authenticated" %}
+{% tabs %}
+{% tab title="200: OK Successfuly authenticated" %}
 Example response:
 
 ```json
@@ -114,9 +119,9 @@ Example response:
 ```
 
 Use `access_token` value to authenticate further requests and `refresh_token` to refresh the token after it's expiration. Use `expires_in` (value specified in seconds) parameter to determine token expiration time.
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="Authentication failed" %}
+{% tab title="400: Bad Request Authentication failed" %}
 Example response:
 
 ```json
@@ -127,8 +132,8 @@ Example response:
 ```
 
 `error` parameter is one of: `invalid_request`, `invalid_client`, `invalid_grant`, `unauthorized_client`, `unsupported_grant_type`.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 #### Usage example
 
@@ -154,24 +159,22 @@ Using query parameters for authentication is easier and suitable for quick testi
 
 This method allows you to authenticate by directly appending your credentials to the URL as query parameters.
 
-{% swagger method="post" path="/oauth2/token" baseUrl="https://{server_address}" summary="Authenticate using client credentials" %}
-{% swagger-description %}
+## Authenticate using client credentials
+
+<mark style="color:green;">`POST`</mark> `https://{server_address}/oauth2/token`
+
 Authentication to Organization API using OAuth client credentials provided in query parameters.
-{% endswagger-description %}
 
-{% swagger-parameter in="query" name="grant_type" type="" required="true" %}
-client\_credentials
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-parameter in="query" name="client_id" required="true" %}
-OAuth client identifier
-{% endswagger-parameter %}
+| Name                                             | Type   | Description             |
+| ------------------------------------------------ | ------ | ----------------------- |
+| grant\_type<mark style="color:red;">\*</mark>    |        | client\_credentials     |
+| client\_id<mark style="color:red;">\*</mark>     | String | OAuth client identifier |
+| client\_secret<mark style="color:red;">\*</mark> | String | OAuth client secret     |
 
-{% swagger-parameter in="query" name="client_secret" required="true" %}
-OAuth client secret
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="Successfuly authenticated" %}
+{% tabs %}
+{% tab title="200: OK Successfuly authenticated" %}
 Example response:
 
 ```json
@@ -184,9 +187,9 @@ Example response:
 ```
 
 Use `access_token` value to authenticate further requests and `refresh_token` to refresh the token after it's expiration. Use `expires_in` (value specified in seconds) parameter to determine token expiration time.
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="Authentication failed" %}
+{% tab title="400: Bad Request Authentication failed" %}
 Example response:
 
 ```json
@@ -197,8 +200,8 @@ Example response:
 ```
 
 `error` parameter is one of: `invalid_request`, `invalid_client`, `invalid_grant`, `unauthorized_client`, `unsupported_grant_type`.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 #### Usage example
 
@@ -218,28 +221,23 @@ $ curl -X POST https://fra1.blynk.cloud/oauth2/token?grant_type=client_credentia
 
 ## Token Refresh using query parameters
 
-{% swagger method="post" path="/oauth2/token" baseUrl="https://{server_address}" summary="Refresh authentication token" %}
-{% swagger-description %}
+## Refresh authentication token
+
+<mark style="color:green;">`POST`</mark> `https://{server_address}/oauth2/token`
+
 To refresh authentication for the Organization API using query parameters, include your OAuth client credentials and the previously issued refresh token in the URL query string. This method is straightforward but less secure.
-{% endswagger-description %}
 
-{% swagger-parameter in="query" name="grant_type" type="" required="true" %}
-refresh\_token
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-parameter in="query" name="refresh_token" required="true" %}
-Refresh token, issued by previous authentication request
-{% endswagger-parameter %}
+| Name                                             | Type   | Description                                              |
+| ------------------------------------------------ | ------ | -------------------------------------------------------- |
+| grant\_type<mark style="color:red;">\*</mark>    |        | refresh\_token                                           |
+| refresh\_token<mark style="color:red;">\*</mark> | String | Refresh token, issued by previous authentication request |
+| client\_id<mark style="color:red;">\*</mark>     | String | oAuth client identifier                                  |
+| client\_secret<mark style="color:red;">\*</mark> | String | oAuth client secret                                      |
 
-{% swagger-parameter in="query" name="client_id" required="true" %}
-oAuth client identifier
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="client_secret" required="true" %}
-oAuth client secret
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="Successfuly authenticated" %}
+{% tabs %}
+{% tab title="200: OK Successfuly authenticated" %}
 Example response:
 
 ```json
@@ -252,9 +250,9 @@ Example response:
 ```
 
 Use `access_token` value to authenticate further requests and `refresh_token` to refresh the token after it's expiration. Use `expires_in` (value specified in seconds) parameter to determine token expiration time.
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="Authentication failed" %}
+{% tab title="400: Bad Request Authentication failed" %}
 Example response:
 
 ```json
@@ -265,8 +263,8 @@ Example response:
 ```
 
 `error` parameter is one of: `invalid_request`, `invalid_client`, `invalid_grant`, `unauthorized_client`, `unsupported_grant_type`.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 #### Usage example
 

@@ -1,27 +1,40 @@
 # Edit Device
 
-{% swagger method="put" path="/api/v1/organization/device" baseUrl="https://{server_address}" summary="Edit Device" %}
-{% swagger-description %}
+## Edit Device
 
-{% endswagger-description %}
+<mark style="color:orange;">`PUT`</mark> `https://{server_address}/api/v1/organization/device`
 
-{% swagger-parameter in="header" name="Authorization" type="Bearer {access_token}" required="true" %}
+#### Query Parameters
 
-{% endswagger-parameter %}
+| Name                                       | Type | Description                                   |
+| ------------------------------------------ | ---- | --------------------------------------------- |
+| deviceId<mark style="color:red;">\*</mark> | 1    | Device identifier. Should be a valid integer. |
 
-{% swagger-parameter in="body" name="name" type="My Awesome Device" required="true" %}
-Device name. Should be up to 50 symbols in length and may contains only letters, digits, spaces, apostrophes, underscores and hyphens.
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-parameter in="header" name="Content-Type" type="application/json" required="true" %}
+| Name                                            | Type                   | Description |
+| ----------------------------------------------- | ---------------------- | ----------- |
+| Authorization<mark style="color:red;">\*</mark> | Bearer {access\_token} |             |
+| Content-Type<mark style="color:red;">\*</mark>  | application/json       |             |
 
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="query" name="deviceId" type="1" required="true" %}
-Device identifier. Should be a valid integer.
-{% endswagger-parameter %}
+| Name                                   | Type              | Description                                                                                                                            |
+| -------------------------------------- | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| name<mark style="color:red;">\*</mark> | My Awesome Device | Device name. Should be up to 50 symbols in length and may contains only letters, digits, spaces, apostrophes, underscores and hyphens. |
 
-{% swagger-response status="200: OK" description="Updated device info" %}
+{% tabs %}
+{% tab title="404: Not Found Device is not found" %}
+```json
+{
+    "error": {
+        "message": "Device with identifier 1 is not found or belong to another organization."
+    }
+}
+```
+{% endtab %}
+
+{% tab title="200: OK Updated device info" %}
 ```json
 {
    "id": 165,
@@ -40,18 +53,8 @@ Device identifier. Should be a valid integer.
    }
 }
 ```
-{% endswagger-response %}
-
-{% swagger-response status="404: Not Found" description="Device is not found" %}
-```json
-{
-    "error": {
-        "message": "Device with identifier 1 is not found or belong to another organization."
-    }
-}
-```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 Request examples:
 

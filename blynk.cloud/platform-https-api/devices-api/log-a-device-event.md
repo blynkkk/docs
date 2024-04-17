@@ -1,35 +1,28 @@
 # Log a Device Event
 
-{% swagger method="post" path="/api/v1/organization/device/trigger-event" baseUrl="https://{server_address}" summary="Trigger Device Event" %}
-{% swagger-description %}
+## Trigger Device Event
+
+<mark style="color:green;">`POST`</mark> `https://{server_address}/api/v1/organization/device/trigger-event`
+
 Note: The combined length of the event code and description must not exceed 1024 symbols
-{% endswagger-description %}
 
-{% swagger-parameter in="header" name="Authorization" type="Bearer {access_token}" required="true" %}
+#### Headers
 
-{% endswagger-parameter %}
+| Name                                            | Type                   | Description |
+| ----------------------------------------------- | ---------------------- | ----------- |
+| Authorization<mark style="color:red;">\*</mark> | Bearer {access\_token} |             |
+| Content-Type                                    | application/json       |             |
 
-{% swagger-parameter in="header" name="Content-Type" type="application/json" %}
+#### Request Body
 
-{% endswagger-parameter %}
+| Name                                        | Type                    | Description                                                                                                   |
+| ------------------------------------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------- |
+| deviceId<mark style="color:red;">\*</mark>  | 1                       | Device identifier.                                                                                            |
+| eventCode<mark style="color:red;">\*</mark> | high\_temp              | Event code.                                                                                                   |
+| eventDescription                            | Temperature is over 20° | Triggered event description. Should be up to 300 symbols in length (may be increased for enterprise clients). |
 
-{% swagger-parameter in="body" name="deviceId" type="1" required="true" %}
-Device identifier.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="eventCode" type="high_temp" required="true" %}
-Event code.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="eventDescription" type="Temperature is over 20°" required="false" %}
-Triggered event description. Should be up to 300 symbols in length (may be increased for enterprise clients).
-{% endswagger-parameter %}
-
-{% swagger-response status="204: No Content" description="Event triggered" %}
-
-{% endswagger-response %}
-
-{% swagger-response status="404: Not Found" description="Device is not found" %}
+{% tabs %}
+{% tab title="404: Not Found Device is not found" %}
 ```json
 {
     "error": {
@@ -37,9 +30,13 @@ Triggered event description. Should be up to 300 symbols in length (may be incre
     }
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="404: Not Found" description="Event is not found" %}
+{% tab title="204: No Content Event triggered" %}
+
+{% endtab %}
+
+{% tab title="404: Not Found Event is not found" %}
 ```json
 {
     "error": {
@@ -47,8 +44,8 @@ Triggered event description. Should be up to 300 symbols in length (may be incre
     }
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 Request examples:
 

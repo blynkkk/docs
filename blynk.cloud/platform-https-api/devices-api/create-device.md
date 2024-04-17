@@ -1,35 +1,57 @@
 # Create Device
 
-{% swagger method="post" path="/api/v1/organization/device/create" baseUrl="https://{server_address}" summary="Create Device" %}
-{% swagger-description %}
+## Create Device
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark> `https://{server_address}/api/v1/organization/device/create`
 
-{% swagger-parameter in="header" name="Authorization" type="Bearer {access_token}" required="true" %}
+#### Headers
 
-{% endswagger-parameter %}
+| Name                                            | Type                   | Description |
+| ----------------------------------------------- | ---------------------- | ----------- |
+| Authorization<mark style="color:red;">\*</mark> | Bearer {access\_token} |             |
+| Content-Type<mark style="color:red;">\*</mark>  | application/json       |             |
 
-{% swagger-parameter in="body" name="templateId" type="TMPL84aMXD6vd" required="true" %}
-Template identifier.
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="orgId" type="1" required="false" %}
-Organization identifier.
-{% endswagger-parameter %}
+| Name                                         | Type              | Description                                                                                                                            |
+| -------------------------------------------- | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| templateId<mark style="color:red;">\*</mark> | TMPL84aMXD6vd     | Template identifier.                                                                                                                   |
+| orgId                                        | 1                 | Organization identifier.                                                                                                               |
+| name<mark style="color:red;">\*</mark>       | My Awesome Device | Device name. Should be up to 50 symbols in length and may contains only letters, digits, spaces, apostrophes, underscores and hyphens. |
+| onwerId<mark style="color:red;">\*</mark>    | 1                 | User identifier, that will own this device.                                                                                            |
 
-{% swagger-parameter in="body" name="name" type="My Awesome Device" required="true" %}
-Device name. Should be up to 50 symbols in length and may contains only letters, digits, spaces, apostrophes, underscores and hyphens.
-{% endswagger-parameter %}
+{% tabs %}
+{% tab title="404: Not Found User is not found" %}
+```json
+{
+    "error": {
+        "message": "User is not found or you don't have access to him."
+    }
+}
+```
+{% endtab %}
 
-{% swagger-parameter in="body" name="onwerId" type="1" required="true" %}
-User identifier, that will own this device.
-{% endswagger-parameter %}
+{% tab title="404: Not Found Template is not found" %}
+```json
+{
+    "error": {
+        "message": "Template is not found."
+    }
+}
+```
+{% endtab %}
 
-{% swagger-parameter in="header" name="Content-Type" type="application/json" required="true" %}
+{% tab title="404: Not Found Organization is not found" %}
+```json
+{
+    "error": {
+        "message": "Organization is not found or you don't have access to it."
+    }
+}
+```
+{% endtab %}
 
-{% endswagger-parameter %}
-
-{% swagger-response status="201: Created" description="Created device info" %}
+{% tab title="201: Created Created device info" %}
 ```json
 {
    "id": 1,
@@ -61,38 +83,8 @@ User identifier, that will own this device.
    "lastReceivedEventAt": 0
 }
 ```
-{% endswagger-response %}
-
-{% swagger-response status="404: Not Found" description="User is not found" %}
-```json
-{
-    "error": {
-        "message": "User is not found or you don't have access to him."
-    }
-}
-```
-{% endswagger-response %}
-
-{% swagger-response status="404: Not Found" description="Template is not found" %}
-```json
-{
-    "error": {
-        "message": "Template is not found."
-    }
-}
-```
-{% endswagger-response %}
-
-{% swagger-response status="404: Not Found" description="Organization is not found" %}
-```json
-{
-    "error": {
-        "message": "Organization is not found or you don't have access to it."
-    }
-}
-```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 Request examples:
 

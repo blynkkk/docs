@@ -1,35 +1,26 @@
 # Update Datastream Value
 
-{% swagger method="post" path="/api/v1/organization/device/datastream" baseUrl="https://{server_address}" summary="Update Device Datastream Value" %}
-{% swagger-description %}
+## Update Device Datastream Value
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark> `https://{server_address}/api/v1/organization/device/datastream`
 
-{% swagger-parameter in="header" name="Authorization" type="Bearer {access_token}" required="true" %}
+#### Headers
 
-{% endswagger-parameter %}
+| Name                                            | Type                   | Description |
+| ----------------------------------------------- | ---------------------- | ----------- |
+| Authorization<mark style="color:red;">\*</mark> | Bearer {access\_token} |             |
+| Content-Type<mark style="color:red;">\*</mark>  | application/json       |             |
 
-{% swagger-parameter in="body" name="deviceId" type="1" required="true" %}
-Device identifier.
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="header" name="Content-Type" type="application/json" required="true" %}
+| Name                                           | Type       | Description                   |
+| ---------------------------------------------- | ---------- | ----------------------------- |
+| deviceId<mark style="color:red;">\*</mark>     | 1          | Device identifier.            |
+| dataStreamId<mark style="color:red;">\*</mark> | 1          | Device datastream identifier. |
+| value<mark style="color:red;">\*</mark>        | Some value | Device datastream value.      |
 
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="dataStreamId" type="1" required="true" %}
-Device datastream identifier.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="value" type="Some value" required="true" %}
-Device datastream value.
-{% endswagger-parameter %}
-
-{% swagger-response status="204: No Content" description="Device datastream value updated" %}
-
-{% endswagger-response %}
-
-{% swagger-response status="404: Not Found" description="Device is not found" %}
+{% tabs %}
+{% tab title="404: Not Found Device is not found" %}
 ```json
 {
     "error": {
@@ -37,9 +28,13 @@ Device datastream value.
     }
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="404: Not Found" description="Datastream is not found" %}
+{% tab title="204: No Content Device datastream value updated" %}
+
+{% endtab %}
+
+{% tab title="404: Not Found Datastream is not found" %}
 ```json
 {
     "error": {
@@ -47,8 +42,8 @@ Device datastream value.
     }
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 Request examples:
 

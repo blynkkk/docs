@@ -10,46 +10,29 @@ A maximum of 10,000 data points per device per day is allowed, regardless of whe
 This limit may vary depending on your subscription plan and is consistent with the [Upload a Set of Timestamped Data](../../device-https-api/upload-set-of-data-with-timestamps-api.md) endpoint in the Device HTTPS API.
 {% endhint %}
 
-{% swagger method="post" path="/api/v1/organization/device/import/batch" baseUrl="https://{server_address}" summary="Import DataStream Values" %}
-{% swagger-description %}
+## Import DataStream Values
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark> `https://{server_address}/api/v1/organization/device/import/batch`
 
-{% swagger-parameter in="header" name="Authorization" type="Bearer {access_token}" required="true" %}
+#### Headers
 
-{% endswagger-parameter %}
+| Name                                            | Type                   | Description |
+| ----------------------------------------------- | ---------------------- | ----------- |
+| Authorization<mark style="color:red;">\*</mark> | Bearer {access\_token} |             |
+| Content-Type<mark style="color:red;">\*</mark>  | application/json       |             |
 
-{% swagger-parameter in="body" name="deviceId" type="1" required="true" %}
-Device identifier.
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="header" name="Content-Type" type="application/json" required="true" %}
+| Name                                               | Type   | Description                                                                                                                                                                                          |
+| -------------------------------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| deviceId<mark style="color:red;">\*</mark>         | 1      | Device identifier.                                                                                                                                                                                   |
+| dataStreamId<mark style="color:red;">\*</mark>     | 1      | Device datastream identifier.                                                                                                                                                                        |
+| values<mark style="color:red;">\*</mark>           |        | Datastream values to import.                                                                                                                                                                         |
+| values\[x].value<mark style="color:red;">\*</mark> | 1      | Datastream value.                                                                                                                                                                                    |
+| values\[x].ts<mark style="color:red;">\*</mark>    | String | <p>Unix epoch time in milliseconds representing datastream value creation time.</p><p><strong>Note:</strong> Timestamps could be only one month in the past. Older timestamps won't be accepted.</p> |
 
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="dataStreamId" type="1" required="true" %}
-Device datastream identifier.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="values" type="" required="true" %}
-Datastream values to import.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="values[x].value" type="1" required="true" %}
-Datastream value.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="values[x].ts" required="true" %}
-Unix epoch time in milliseconds representing datastream value creation time.
-
-**Note:** Timestamps could be only one month in the past. Older timestamps won't be accepted.
-{% endswagger-parameter %}
-
-{% swagger-response status="204: No Content" description="Device datastream value updated" %}
-
-{% endswagger-response %}
-
-{% swagger-response status="404: Not Found" description="Device is not found" %}
+{% tabs %}
+{% tab title="404: Not Found Device is not found" %}
 ```json
 {
     "error": {
@@ -57,9 +40,13 @@ Unix epoch time in milliseconds representing datastream value creation time.
     }
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="404: Not Found" description="Datastream is not found" %}
+{% tab title="204: No Content Device datastream value updated" %}
+
+{% endtab %}
+
+{% tab title="404: Not Found Datastream is not found" %}
 ```json
 {
     "error": {
@@ -67,8 +54,8 @@ Unix epoch time in milliseconds representing datastream value creation time.
     }
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 Request examples:
 

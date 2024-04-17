@@ -132,7 +132,7 @@
     * [Webhooks](blynk.console/settings/developers/webhooks.md)
     * [Create New Webhook](blynk.console/settings/developers/create-new-webhook.md)
   * [Integrations](blynk.console/settings/integrations.md)
-* [User Profile](blynk.console/user-profile.md)
+* [User Profile Menu](blynk.console/user-profile.md)
 * [Limits](blynk.console/limits.md)
 
 ## Blynk.Apps

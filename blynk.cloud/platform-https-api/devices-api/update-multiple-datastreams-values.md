@@ -1,31 +1,25 @@
 # Update Multiple Datastreams Values
 
-{% swagger method="post" path="/api/v1/organization/device/datastreams" baseUrl="https://{server_address}" summary="Update Multiple Datastreams Values" %}
-{% swagger-description %}
+## Update Multiple Datastreams Values
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark> `https://{server_address}/api/v1/organization/device/datastreams`
 
-{% swagger-parameter in="header" name="Authorization" type="Bearer {access_token}" required="true" %}
+#### Headers
 
-{% endswagger-parameter %}
+| Name                                            | Type                   | Description |
+| ----------------------------------------------- | ---------------------- | ----------- |
+| Authorization<mark style="color:red;">\*</mark> | Bearer {access\_token} |             |
+| Content-Type<mark style="color:red;">\*</mark>  | application/json       |             |
 
-{% swagger-parameter in="body" name="deviceId" type="1" required="true" %}
-Device identifier.
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="header" name="Content-Type" type="application/json" required="true" %}
+| Name                                       | Type    | Description                                                              |
+| ------------------------------------------ | ------- | ------------------------------------------------------------------------ |
+| deviceId<mark style="color:red;">\*</mark> | 1       | Device identifier.                                                       |
+| values<mark style="color:red;">\*</mark>   | {"1":5} | Map with datastream identifier as a key and datastream value as a value. |
 
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="values" type="{"1":5}" required="true" %}
-Map with datastream identifier as a key and datastream value as a value.
-{% endswagger-parameter %}
-
-{% swagger-response status="204: No Content" description="Device datastream values updated" %}
-
-{% endswagger-response %}
-
-{% swagger-response status="404: Not Found" description="Device is not found" %}
+{% tabs %}
+{% tab title="404: Not Found Device is not found" %}
 ```json
 {
     "error": {
@@ -33,8 +27,12 @@ Map with datastream identifier as a key and datastream value as a value.
     }
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+
+{% tab title="204: No Content Device datastream values updated" %}
+
+{% endtab %}
+{% endtabs %}
 
 Request examples:
 

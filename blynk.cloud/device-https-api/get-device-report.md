@@ -4,132 +4,29 @@ description: How to get historical data from a single device for a specified tim
 
 # Get Historical Data From Device
 
-{% swagger baseUrl="https://{server_address}" path="/external/api/data/get?token={token}&period={PERIOD}&granularityType={TYPE}&sourceType={SOURCE_TYPE}&tzName={tzName}&format={FORMAT}&output=FILE&pin={pin}" method="get" summary="" %}
-{% swagger-description %}
+<mark style="color:blue;">`GET`</mark> `https://{server_address}/external/api/data/get?token={token}&period={PERIOD}&granularityType={TYPE}&sourceType={SOURCE_TYPE}&tzName={tzName}&format={FORMAT}&output=FILE&pin={pin}`
 
-{% endswagger-description %}
+#### Path Parameters
 
-{% swagger-parameter in="path" name="period" type="string" %}
-Is 
+| Name                | Type   | Description                                                                                                                               |
+| ------------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| period              | string | Is `MONTH` by default. Other possible options: `HOUR`, `DAY`, `WEEK`, `THREE_MONTHS`                                                      |
+| granularityType     | string | Is `RAW_DATA` by default. ( `RAW_DATA` is not supported for the `THREE_MONTH` period). Other possible values: `MINUTE`, `HOURLY`, `DAILY` |
+| sourceType          | string | Is `AVG` by default. Other possible values: `MIN`, `MAX`, `SUM`, `COUNT`                                                                  |
+| tzName              | string | Is `UTC` by defult. Please specify timezones accordingly to `java.time.ZoneId`                                                            |
+| format              | string | <p>Is TS by default. Other possible values:<br>ISO_US "04/10/19 11:45:41 AM"<br>ISO_SIMPLE "2018-06-07 22:01:20"</p>                      |
+| sendEvents          | string | Is false by default                                                                                                                       |
+| dataStreamId or pin | string | Are optional parameteres, which are used to get data for the specific pin                                                                 |
+| output              | string | Is FILE by default. Other possible value: JSON                                                                                            |
 
-`MONTH`
-
- by default. Other possible options: 
-
-`HOUR`
-
-, 
-
-`DAY`
-
-, 
-
-`WEEK`
-
-, 
-
-`THREE_MONTHS`
-
-, 
-
-`SIX_MONTHS`
-
-, 
-
-`ONE_YEAR`
-{% endswagger-parameter %}
-
-{% swagger-parameter in="path" name="granularityType" type="string" %}
-Is 
-
-`RAW_DATA`
-
- by default. ( 
-
-`RAW_DATA`
-
- is not supported for the 
-
-`THREE_MONTH`
-
- period). Other possible values: 
-
-`MINUTE`
-
-, 
-
-`HOURLY`
-
-, 
-
-`DAILY`
-{% endswagger-parameter %}
-
-{% swagger-parameter in="path" name="sourceType" type="string" %}
-Is 
-
-`AVG`
-
- by default. Other possible values: 
-
-`MIN`
-
-, 
-
-`MAX`
-
-, 
-
-`SUM`
-
-, 
-
-`COUNT`
-{% endswagger-parameter %}
-
-{% swagger-parameter in="path" name="tzName" type="string" %}
-Is 
-
-`UTC`
-
- by defult. Please specify timezones accordingly to 
-
-`java.time.ZoneId`
-{% endswagger-parameter %}
-
-{% swagger-parameter in="path" name="format" type="string" %}
-Is TS by default. Other possible values:
-
-\
-
-
-ISO_US "04/10/19 11:45:41 AM"
-
-\
-
-
-ISO_SIMPLE "2018-06-07 22:01:20"
-{% endswagger-parameter %}
-
-{% swagger-parameter in="path" name="sendEvents" type="string" %}
-Is false by default
-{% endswagger-parameter %}
-
-{% swagger-parameter in="path" name="dataStreamId or pin" type="string" %}
-Are optional parameteres, which are used to get data for the specific pin
-{% endswagger-parameter %}
-
-{% swagger-parameter in="path" name="output" type="string" %}
-Is FILE by default. Other possible value: JSON
-{% endswagger-parameter %}
-
-{% swagger-response status="200" description="Success." %}
+{% tabs %}
+{% tab title="200 Success." %}
 ```
 {"link":"https://server_address/device_data_2592_2021-04-13T02-27-11.zip"}
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400" description="Could not find a device token or No device token was providedorTypo in parameter or it's valueorWrong pin format" %}
+{% tab title="400 Could not find a device token or No device token was providedorTypo in parameter or it's valueorWrong pin format" %}
 ```
 {"error":{"message":"Invalid token."}}
 
@@ -145,9 +42,9 @@ or
 
 {"error":{"message":"Wrong pin format."}}
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="500" description="Wrong constant is used in parameter (specified in the end of the string)
+{% tab title="500 Wrong constant is used in parameter (specified in the end of the string)
 or
 There is no data for specified pin or datastream" %}
 ```
@@ -161,8 +58,8 @@ or
 
 {"error":{"message":"Wrong pin format."}}
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ## **Use case example:**
 
