@@ -68,7 +68,7 @@ Max body size: 5 KB
 
 Max number of Webhooks per organization: 1 for Free, 10 for Maker (10 devices), 20 for Maker (20 devices), 40 for PRO (40 devices), 100 for PRO plan (100 devices).
 
-Limit rate: 1 request per minute per webhook
+Limit rate: 10 request per minute per webhook
 
 
 
