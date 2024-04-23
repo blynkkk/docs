@@ -72,12 +72,6 @@ You can create standalone pages of two formats: full-screen or sheets.
 
 </div>
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/plant 1 case 1.2mb.gif" alt="" width="240"><figcaption></figcaption></figure>
-
-</div>
-
 * **Quick interaction.** Imagine a weather station, or smart lighting calibration process, where users would frequently need to reset (purge) all settings.
 
 <div align="left">
