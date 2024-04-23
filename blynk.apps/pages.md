@@ -56,7 +56,7 @@ You can create standalone pages of two formats: full-screen or sheets.
 
 </div>
 
-* **Confirmation.** Let users perform an action and get confirmation for the effects of the selected settings. &#x20;
+* **Confirmation.** Let users confirm the effects of the selected settings. &#x20;
 
 <div align="left">
 
