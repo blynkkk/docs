@@ -4,7 +4,7 @@ With **Pages** you can add multiple pages to a device dashboard. This helps to b
 
 ![](<../.gitbook/assets/image (39).png>)
 
-####
+
 
 ### Examples Of Use&#x20;
 
@@ -45,6 +45,40 @@ You can create standalone pages of two formats: full-screen or sheets.
 **Full Screen** page opens a dedicated full-screen view. Different animations of screen appearance are available (how the page appears on screen). The page can slide in from the bottom or from the right.&#x20;
 
 **Sheets** open pages as sheets from the bottom of the screen, with the option to pre-define the sheet size and can be closed by the user with a swipe.
+
+### Examples Of Sheets Use&#x20;
+
+* **Placing additional controls.** Create a sub-screen for additional functionality. E.g.: main screen - list of drinks, drink selection. Sheet - adjustments, settings and options for the selected drink.&#x20;
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/coffee 1 case.gif" alt="" width="320"><figcaption></figcaption></figure>
+
+</div>
+
+* **Confirmation.** Let users perform an action and get confirmation for the effects of the selected settings. &#x20;
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/filter 1 case 787kb.gif" alt="" width="320"><figcaption></figcaption></figure>
+
+</div>
+
+* **Dynamic information.** Show more data, including textual, graphs, images and other that will enrich your user experience without taking the space of your main screen.
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/plant 1 case 1.2mb.gif" alt="" width="240"><figcaption></figcaption></figure>
+
+</div>
+
+* **Quick interaction.** Imagine a weather station, or smart lighting calibration process, where users would frequently need to reset (purge) all settings.
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/reset 1 case .gif" alt="" width="320"><figcaption></figcaption></figure>
+
+</div>
 
 ### 1. Creating a new page
 
