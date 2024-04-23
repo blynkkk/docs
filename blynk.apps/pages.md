@@ -68,6 +68,12 @@ You can create standalone pages of two formats: full-screen or sheets.
 
 <div align="left">
 
+<figure><img src="../.gitbook/assets/plant 1 case 3mb.gif" alt="" width="320"><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
 <figure><img src="../.gitbook/assets/plant 1 case 1.2mb.gif" alt="" width="240"><figcaption></figcaption></figure>
 
 </div>
