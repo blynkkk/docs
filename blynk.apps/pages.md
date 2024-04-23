@@ -6,7 +6,7 @@ With **Pages** you can add multiple pages to a device dashboard. This helps to b
 
 
 
-### Examples Of Use&#x20;
+### Examples of page use&#x20;
 
 * **Device Settings.** Let's say you plan to use a group of widgets for various Settings. This is not something your end-users will be using very often, so it makes sense to organize Settings widgets as into a separate page. For end-users, there will be a tiny icon in the UI which will open this page.&#x20;
 * **View More Data.** Imagine you have a sensor value displayed on the dashboard and you would like to show more data, like historical data chart, explanations how to read this, show additional data points  etc. To de-clutter the user interface, you can create a button which will open a page with all of this additional information.&#x20;
@@ -16,7 +16,7 @@ With **Pages** you can add multiple pages to a device dashboard. This helps to b
 Pages feature is available in paid plans only. You can always upgrade in your Account Settings.
 {% endhint %}
 
-### Types Of Pages And Navigation
+### Types of pages and navigation
 
 There are three types of pages you can add:
 
@@ -34,7 +34,7 @@ Device Info Pages can only be accessed in Device Info view.&#x20;
 
 
 
-## Standalone Pages
+## Standalone pages
 
 These pages are opened by tapping on widgets that are set as _entry points._&#x20;
 
@@ -46,7 +46,7 @@ You can create standalone pages of two formats: full-screen or sheets.
 
 **Sheets** open pages as sheets from the bottom of the screen, with the option to pre-define the sheet size and can be closed by the user with a swipe.
 
-### Examples Of Sheets Use&#x20;
+### Examples of sheets use&#x20;
 
 * **Placing additional controls.** Create a sub-screen for additional functionality. E.g.: main screen - list of drinks, drink selection. Sheet - adjustments, settings and options for the selected drink.&#x20;
 
@@ -80,7 +80,7 @@ You can create standalone pages of two formats: full-screen or sheets.
 
 </div>
 
-### 1. Creating a new page
+### Creating a new page
 
 <div align="left">
 
@@ -97,9 +97,7 @@ You can create standalone pages of two formats: full-screen or sheets.
 
 
 
-### 2. Editing a Page
-
-
+### Editing a page
 
 After you have created a new page, tap on it to start editing. You will see a familiar canvas with the grid where you can add widgets.
 
@@ -109,7 +107,7 @@ You can always access all of the pages and edit them in ToolBar → Pages
 
 
 
-### 3. Linking Page to an Entry Point&#x20;
+### Linking page to an entry point&#x20;
 
 Once the page layout is ready, you need to define a page entry point. In Blynk, an entry point is a widget configured to open pages.&#x20;
 
@@ -133,7 +131,7 @@ To create an entry point:
 
 
 
-### 4. Opening pages by end-users
+### Opening pages by end-users
 
 After the page has been set up and connected to an entry point widget, it's ready for use.
 
@@ -180,7 +178,7 @@ Unlike Standalone Pages, you can define which users can access the tab. For exam
 
 
 
-### 1. Adding a Device Info Tab
+### Adding a device info tab
 
 <div align="left">
 
@@ -197,7 +195,7 @@ Unlike Standalone Pages, you can define which users can access the tab. For exam
 
 
 
-### 2. Editing Tab Contents
+### Editing tab contents
 
 After you have created a new tab, tap on it to start editing. You will see a familiar canvas with the grid where you can add widgets.
 
@@ -205,7 +203,7 @@ You can always access list of added tabs in ToolBar → Pages → **Device Info 
 
 
 
-### 3. Reordering The Tabs
+### Reordering the tabs
 
 To change the order of tabs:&#x20;
 
@@ -214,7 +212,7 @@ To change the order of tabs:&#x20;
 
 
 
-### 4. Deleting The Tab
+### Deleting The Tab
 
 To delete the tab, swipe left in the list of Tabs . Keep in mind that this will delete all widgets on the tab.
 
@@ -232,7 +230,7 @@ Device Welcome Page is set up similarly to a Standalone Page described above usi
 
 
 
-#### Web Page
+#### Web page
 
 Optionally, instead of page with widgets you can set up a **web** page to show after the device was added. In this case, the in-app browser will open automatically with the specified page.&#x20;
 
