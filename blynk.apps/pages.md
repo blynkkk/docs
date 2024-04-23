@@ -40,15 +40,26 @@ These pages are opened by tapping on widgets that are set as _entry points._&#x2
 
 ![](<../.gitbook/assets/image (64).png>)
 
+You can create standalone pages of two formats: full-screen or sheets.
+
+**Full Screen** page opens a dedicated full-screen view. Different animations of screen appearance are available (how the page appears on screen). The page can slide in from the bottom or from the right.&#x20;
+
+**Sheets** open pages as sheets from the bottom of the screen, with the option to pre-define the sheet size and can be closed by the user with a swipe.
+
 ### 1. Creating a new page
 
-![](<../.gitbook/assets/image (31).png>)
+<div align="left">
 
-1. Go to ToolBox → Pages → **Standalone Pages**
+<figure><img src="../.gitbook/assets/sheets-pages.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+1. Go to ToolBar → Pages → **Standalone Pages**
 2. Tap **+ Add Page**
 3. Give your new page a name
 4. Tap **Create** in the top right corner
-5. Your new page is created
+5. Adjust the animation or size if necessary
+6. Your new page is created
 
 
 
@@ -60,9 +71,9 @@ After you have created a new page, tap on it to start editing. You will see a fa
 
 Tap on the gear icon to  access page settings, where you can Rename or Delete the page.
 
-You can always access all of the pages and edit them in ToolBox → Pages
+You can always access all of the pages and edit them in ToolBar → Pages
 
-####
+
 
 ### 3. Linking Page to an Entry Point&#x20;
 
@@ -85,7 +96,6 @@ To create an entry point:
 2. Open Widget Settings
 3. Set **Mode** to **Page**
 4. Choose the Page to open
-5. Set page appearance animation (how the page appears on screen). The page can slide in from the bottom or from the right.&#x20;
 
 
 
@@ -97,9 +107,9 @@ After the page has been set up and connected to an entry point widget, it's read
 2. Open the device
 3. Tap on the entry point widget
 4. A page should open
-5. Press Back to return to the entry point
+5. Press Back to return to the entry point (or swipe down if it's a sheet)
 
-###
+
 
 ### Changing target page from hardware
 
@@ -138,7 +148,11 @@ Unlike Standalone Pages, you can define which users can access the tab. For exam
 
 ### 1. Adding a Device Info Tab
 
-![](<../.gitbook/assets/image (31).png>)
+<div align="left">
+
+<figure><img src="../.gitbook/assets/sheets-pages.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 1. Go to Toolbox → Pages → **Device Info Tabs**
 2. Tap **+ Add Page**
@@ -153,7 +167,7 @@ Unlike Standalone Pages, you can define which users can access the tab. For exam
 
 After you have created a new tab, tap on it to start editing. You will see a familiar canvas with the grid where you can add widgets.
 
-You can always access list of added tabs in Toolbox → Pages → **Device Info Tabs**
+You can always access list of added tabs in ToolBar → Pages → **Device Info Tabs**
 
 
 
