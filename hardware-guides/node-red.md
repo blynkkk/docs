@@ -48,14 +48,15 @@ Follow the instructions outlined in the [official Node-RED documentation](https:
 ## Configure the MQTT Broker
 
 1. Obtain the properties of the "mqtt in" node and select the option "Add new mqtt-broker" for the field "Server." Proceed to edit the configuration with the following details:
+
    - **Connection tab:**
-     - Server: blynk.cloud
-     - Port: 8883
-     - Protocol: MQTT V5
-     - Keep alive: 45
+     - Server: `blynk.cloud` (it is better to specify your [regional server](../blynk.cloud/device-mqtt-api/authentication.md))
+     - Port: `8883`
+     - Protocol: `MQTT V5`
+     - Keep alive: `45`
      - Use TLS: TLS configuration
-       - CA Certificate: upload ISRG_Root_X1.der
-       - Server name: blynk.cloud
+       - CA Certificate: upload `ISRG_Root_X1.der`
+       - Server name: same as Server field
 
    ![MQTT Broker Configuration](images/mqtt_broker.png)
 
@@ -111,17 +112,13 @@ Follow the instructions outlined in the [official Node-RED documentation](https:
 
 5. Connect two outputs of the switch node to mqtt out nodes created in step 4. The first one to **ds/Led** and the second one to **ds/Target Temperature**.
 
-## Run the Sample Using Node-RED
-
-1. [Prepare Blynk.Cloud](#prepare-blynkcloud).
-2. [Install Node-RED](#prepare-nodered-installing-node-red).
-3. [Manual setup NodeRED flow](#manual-setup-nodeRED-flow) or [import flow from sample code](#import-flow-from-sample-code)
-
-As a result, you must get this flow:
+As a result, you should get this flow:
 
 ![Result](images/result_nodered.png)
 
-4. Deploy your flow (using button as the same name **Deploy**) and go to blynk.cloud for testing. When you toggle the switch, the LED will turn on or off. Setting the temperature will update the label widget with the value of the target temperature.
+## Run the Sample Using Node-RED
+
+Deploy your flow (using button as the same name **Deploy**) and go to blynk.cloud for testing. When you toggle the switch, the LED will turn on or off. Setting the temperature will update the label widget with the value of the target temperature.
 
 ![Result](images/result_cloud.png)
 
