@@ -374,6 +374,7 @@
 
 ## Hardware Guides
 
+* [Node-RED](hardware-guides/node-red.md)
 * [Particle - monitor with Blynk](hardware-guides/particle.md)
 * [Particle - control with Blynk](hardware-guides/particle-part-ii.md)
 
