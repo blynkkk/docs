@@ -8,7 +8,9 @@ Follow the steps 1-4 below:
 
 <details>
 
-<summary>Step 1: Perparing your sketch</summary>
+<summary>Step 1: Preparing your sketch</summary>
+
+### Perparing your sketch
 
 1. Install the latest version of Blynk Library to the IDE you use
 2. After that, you should see Blynk folder under the **File > Examples**
@@ -50,7 +52,7 @@ Blynk.begin(BLYNK_AUTH_TOKEN, "wifi-ssid", "wifi-pass");
 
 <summary>Step 2: Getting Template ID</summary>
 
-#### Template ID and Device Name
+### Template ID and Device Name
 
 1. Log in to your [Blynk.Console](https://blynk.cloud/) developer account, go to Developer Zone
 2. [Create New Template](../template-quick-setup/#create-a-template) or open an existing one
@@ -64,7 +66,7 @@ Blynk.begin(BLYNK_AUTH_TOKEN, "wifi-ssid", "wifi-pass");
 
 <summary>Step 3: Getting Auth Token</summary>
 
-#### Getting Auth Token
+### Getting Auth Token
 
 When the Template is ready, go to Devices -> **Create New Device**
 
@@ -85,6 +87,8 @@ Now you have all the information you need to update your sketch:
 <details>
 
 <summary>Step 4: Updating sketch with Template ID and AuthToken</summary>
+
+### Updating sketch with Template ID and AuthToken
 
 Add `TEMPLATE_ID` and `AuthToken` to your sketch:
 
