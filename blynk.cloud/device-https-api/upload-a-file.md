@@ -1,5 +1,9 @@
 # Upload a File
 
+{% hint style="info" %}
+This API is currently available only for Enterprise customers.
+{% endhint %}
+
 ```http
 POST https://{server_address}/external/api/upload?token={token}
 Content-Type: multipart/form-data; boundary=someboundary
@@ -63,6 +67,5 @@ https://fra1.blynk.cloud/device_uploads/35587/8vPs4QSrfKOXyxZnXJhz0lA6cax7WQe8.x
 
 * Each device may hold up to 10 files. If the limit is exceeded - the oldest file will be deleted.
 * Each file should be up to 5MB.
-* Each device can upload up to 1,000. The limit is configurable for White-Label customers.
+* Each device can upload up to 1,000. The limit is configurable for Enterprise customers.
 * Uploading a file with the same specified name, that was uploaded before, would override the existing file.
-* This API is currently available only for White-Label customers.
