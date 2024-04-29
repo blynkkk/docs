@@ -283,6 +283,7 @@
   * [Send/Log An Event](blynk.cloud/device-https-api/trigger-events-api.md)
   * [Get Device Metadata Value](blynk.cloud/device-https-api/get-device-metafield-value.md)
   * [Is Device Connected](blynk.cloud/device-https-api/is-device-connected.md)
+  * [Upload a File](blynk.cloud/device-https-api/upload-a-file.md)
   * [HTTPS API Troubleshooting](blynk.cloud/device-https-api/troubleshooting.md)
 * [Platform API](blynk.cloud/platform-https-api/README.md)
   * [Authentication](blynk.cloud/platform-https-api/authentication.md)

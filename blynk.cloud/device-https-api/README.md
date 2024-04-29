@@ -13,6 +13,7 @@ description: This API enables individual device to communicate with the Blynk cl
 * [Get Device History Data](get-device-report.md)
 * [Get Device Metadata Value](get-device-metafield-value.md)
 * [Is Device Connected](is-device-connected.md)
+* [Upload a File](upload-a-file.md)
 
 [Troubleshooting](troubleshooting.md)
 
