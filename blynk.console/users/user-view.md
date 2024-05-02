@@ -16,21 +16,31 @@ The User profile contains information about the user **Name**, user **Organizati
 
 ### Information Tab
 
-The Information tab contains information about:&#x20;
+The Information tab contains the following details:
 
-*   **Status** – 3 registration statuses are possible:
+**Status:** There are three possible registration statuses:
 
-    * **pending** – the user is invited, but the email is not confirmed (user haven't logged in)&#x20;
-    * **active** – the user confirmed the email, logged at least one time&#x20;
-    * **inactive** – the user hasn't logged for 1 month
+* **Pending:** The user is invited, but the email hasn't been confirmed (the user hasn't logged in).
+* **Active:** The user has confirmed the email and logged in at least once.
+* **Inactive:** The user hasn't logged in for a month.
+
+**Email:** The user's email address.
+
+**Nickname:** The user's chosen nickname.
+
+**Phone Number (optional):** Up to 15 digits, following the international phone format for any country.
+
+**Role:** There are three roles available with different access and permissions:
+
+* **Admin**
+* **Staff**
+* **User**
+
+**Client Custom Fields:** May contain additional information about the user required for work. Available in Enterprise Plan only.
+
+**Timezone:** The user's timezone based on their location.
 
 
-* **Email**&#x20;
-* **Nickname**
-* **Phone Number** (optional) – 15 digit international phone format for any country.&#x20;
-* **Role** – 3 roles available: **Admin, Staff, User** with different [access and permissions](../settings/access.md).
-* **Client Custom fields** – may contain additional information about the user required for work.
-* **Timezone** – user location timezone.
 
 ### Actions Log Tab
 
