@@ -33,7 +33,7 @@ Each entry value should respect datastream value type. Thus you have to pass a s
 
 Example body based on datastream type:
 
-<table><thead><tr><th width="248">DataStream Value Type</th><th>Example</th></tr></thead><tbody><tr><td>String</td><td><code>[[1648054765458,"Some value"],[1648054825459,"Some another value"]]</code></td></tr><tr><td>Integer</td><td><code>[[1648054765458,1],[1648054825459,2]]</code></td></tr><tr><td>Double</td><td><code>[[1648054765458,36.6],[1648054825459,41.2]]</code></td></tr><tr><td>Boolean</td><td><code>[[1648054765458,true],[1648054825459,false]]</code></td></tr><tr><td>Enum</td><td><code>[[1648054765458,1],[1648054825459,2]]</code></td></tr><tr><td>Location</td><td><code>[[1648054765458,[32.123960,49.109466]]]</code></td></tr></tbody></table>
+<table><thead><tr><th width="248">DataStream Value Type</th><th>Example</th></tr></thead><tbody><tr><td>String</td><td><code>[[1648054765458,"Some value"],[1648054825459,"Some another value"]]</code></td></tr><tr><td>Integer</td><td><code>[[1648054765458,1],[1648054825459,2]]</code></td></tr><tr><td>Double</td><td><code>[[1648054765458,36.6],[1648054825459,41.2]]</code></td></tr><tr><td>Boolean</td><td><code>[[1648054765458,true],[1648054825459,false]]</code></td></tr><tr><td>Enum</td><td><code>[[1648054765458,1],[1648054825459,2]]</code></td></tr><tr><td>Location ([[ts, [lon, lat]]])</td><td><code>[[1648054765458,[32.123960,49.109466]]]</code></td></tr></tbody></table>
 
 ## Upload a Set Of Datapoints With Timestamps
 
