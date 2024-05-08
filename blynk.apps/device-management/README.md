@@ -8,7 +8,7 @@ In case you haven't added devices yet, your Devices screen will look like this. 
 
 </div>
 
-Follow the [provisioning steps](../../getting-started/activating-devices/blynk-edgent-wifi-provisioning.md).
+Follow the [provisioning steps](../../getting-started/activating-devices/blynk-edgent-wifi-provisioning.md#activating-the-device-using-blynk-app).
 
 <div align="left">
 
