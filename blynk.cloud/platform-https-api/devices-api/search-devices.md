@@ -1,35 +1,29 @@
 # Search Devices
 
-{% swagger method="get" path="/api/v1/organization/search/devices" baseUrl="https://{server_address}" summary="Search Organization Devices" %}
-{% swagger-description %}
+## Search Organization Devices
+
+<mark style="color:blue;">`GET`</mark> `https://{server_address}/api/v1/organization/search/devices`
+
 `sortBy` query parameter could accept the following values: `Device Id`, `Name` (stands for device's name), `Auth Token`, `Owner Id` (stands for device's owner name), `Device Owner Name`, `Device Owner` (stands for device's owner email), `Last Reported At`, `Activated At`, `Activated By` (stands for email of user, that activated device), `Model` (stands for device's model), `Template Name`, `Template Id`, `Firmware Version`, `Organization Id`, `Status` (stands for device's status).
-{% endswagger-description %}
 
-{% swagger-parameter in="header" name="Authorization" type="Bearer {access_token}" required="true" %}
+#### Query Parameters
 
-{% endswagger-parameter %}
+| Name                                    | Type        | Description                                                                                               |
+| --------------------------------------- | ----------- | --------------------------------------------------------------------------------------------------------- |
+| query<mark style="color:red;">\*</mark> | Device name | Search query. Should be up to 255 symbols.                                                                |
+| page                                    | 0           | Page number starting from 0. First page by default.                                                       |
+| size                                    | 20          | Page size. Should be from 1 to 100. 20 by default.                                                        |
+| sortBy                                  | Device Id   | Field to sort result by.                                                                                  |
+| sortOrder                               | ASC         | Sorting order. Could be `ASC` (ascending sort order) or `DESC` (descending sort order). `ASC` by default. |
 
-{% swagger-parameter in="query" name="query" type="Device name" required="true" %}
-Search query. Should be up to 255 symbols.
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-parameter in="query" name="page" type="0" %}
-Page number starting from 0. First page by default.
-{% endswagger-parameter %}
+| Name                                            | Type                   | Description |
+| ----------------------------------------------- | ---------------------- | ----------- |
+| Authorization<mark style="color:red;">\*</mark> | Bearer {access\_token} |             |
 
-{% swagger-parameter in="query" name="size" type="20" %}
-Page size. Should be from 1 to 100. 20 by default.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="sortBy" type="Device Id" %}
-Field to sort result by.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="sortOrder" type="ASC" %}
-Sorting order. Could be `ASC` (ascending sort order) or `DESC` (descending sort order). `ASC` by default.
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="Organization devices" %}
+{% tabs %}
+{% tab title="200: OK Organization devices" %}
 ```json
 {
    "content": [
@@ -38,6 +32,7 @@ Sorting order. Could be `ASC` (ascending sort order) or `DESC` (descending sort 
          "templateId": 353,
          "orgId": 577,
          "name": "My awesome device",
+         "token": "etAxiiiYlDv4j7WCeb1pKW2Ck7UGWpgl",
          "activatedAt": 1702480139859,
          "ownerUserId": 879,
          "hardwareInfo": {
@@ -53,8 +48,8 @@ Sorting order. Could be `ASC` (ascending sort order) or `DESC` (descending sort 
    "totalElements": 1
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 Request examples:
 

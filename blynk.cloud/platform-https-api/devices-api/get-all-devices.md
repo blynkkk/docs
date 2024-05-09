@@ -1,27 +1,27 @@
 # Get All Devices
 
-{% swagger method="get" path="/api/v1/organization/devices" baseUrl="https://{server_address}" summary="Get Organization Devices" %}
-{% swagger-description %}
+## Get Organization Devices
+
+<mark style="color:blue;">`GET`</mark> `https://{server_address}/api/v1/organization/devices`
+
 Get a list of devices in your organization
-{% endswagger-description %}
 
-{% swagger-parameter in="header" name="Authorization" type="Bearer {access_token}" required="true" %}
+#### Query Parameters
 
-{% endswagger-parameter %}
+| Name                 | Type  | Description                                                                   |
+| -------------------- | ----- | ----------------------------------------------------------------------------- |
+| page                 | 0     | Page number starting from 0. First page by default.                           |
+| size                 | 20    | Page size. Should be from 1 to 100. 20 by default.                            |
+| includeSubOrgDevices | false | If specified, we will also include devices, that belong to sub-organizations. |
 
-{% swagger-parameter in="query" name="page" type="0" %}
-Page number starting from 0. First page by default.
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-parameter in="query" name="size" type="20" %}
-Page size. Should be from 1 to 100. 20 by default.
-{% endswagger-parameter %}
+| Name                                            | Type                   | Description |
+| ----------------------------------------------- | ---------------------- | ----------- |
+| Authorization<mark style="color:red;">\*</mark> | Bearer {access\_token} |             |
 
-{% swagger-parameter in="query" name="includeSubOrgDevices" type="false" %}
-If specified, we will also include devices, that belong to sub-organizations.
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="Organization devices" %}
+{% tabs %}
+{% tab title="200: OK Organization devices" %}
 ```json
 {
    "content": [
@@ -30,6 +30,7 @@ If specified, we will also include devices, that belong to sub-organizations.
          "templateId": 353,
          "orgId": 577,
          "name": "My awesome device",
+         "token": "etAxiiiYlDv4j7WCeb1pKW2Ck7UGWpgl",
          "activatedAt": 1702480139859,
          "ownerUserId": 879,
          "hardwareInfo": {
@@ -45,8 +46,8 @@ If specified, we will also include devices, that belong to sub-organizations.
    "totalElements": 1
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 Request examples:
 

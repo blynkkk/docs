@@ -24,16 +24,6 @@
 | name<mark style="color:red;">\*</mark> | My Awesome Device | Device name. Should be up to 50 symbols in length and may contains only letters, digits, spaces, apostrophes, underscores and hyphens. |
 
 {% tabs %}
-{% tab title="404: Not Found Device is not found" %}
-```json
-{
-    "error": {
-        "message": "Device with identifier 1 is not found or belong to another organization."
-    }
-}
-```
-{% endtab %}
-
 {% tab title="200: OK Updated device info" %}
 ```json
 {
@@ -41,6 +31,7 @@
    "templateId": 353,
    "orgId": 577,
    "name": "My awesome device",
+   "token": "etAxiiiYlDv4j7WCeb1pKW2Ck7UGWpgl",
    "activatedAt": 1702480139859,
    "ownerUserId": 879,
    "hardwareInfo": {
@@ -51,6 +42,16 @@
       "build": "1",
       "templateId": "TMPL0NqfCLjWX"
    }
+}
+```
+{% endtab %}
+
+{% tab title="404: Not Found Device is not found" %}
+```json
+{
+    "error": {
+        "message": "Device with identifier 1 is not found or belong to another organization."
+    }
 }
 ```
 {% endtab %}
