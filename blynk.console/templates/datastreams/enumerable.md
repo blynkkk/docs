@@ -24,3 +24,7 @@ Follow these steps to create value translation:
 5. click **add row** to set further conversion values
 
 ![](../../../.gitbook/assets/enum.gif)
+
+{% hint style="info" %}
+Suppose the device sends a value that is not within the specified range of options for the Enumerable datastream. In that case, the cloud will set the datastream's value to the specified Fallback value. This ensures that the datastream maintains a valid state even if unexpected or erroneous data is received from the device.
+{% endhint %}
