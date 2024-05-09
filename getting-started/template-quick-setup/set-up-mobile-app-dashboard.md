@@ -46,10 +46,10 @@ Let's select _Button_ for this demonstration (you can edit it later). On choosin
 
 Select the _Tap Interaction_ - Switch. It will allow toggling the device ON/OFF when tapping on the device tile.&#x20;
 
-Tiles can additionally feature one of the mini-widgets to show connection status, last reported time, or battery level as a subtitle on the tile.
+Tiles can feature one of the additional labels to show connection status, last reported time, or battery level as a subtitle on the tile.
 
 {% hint style="info" %}
-Subtitle mini-wigets are available with plan PRO and higher.
+Subtitle labels are available with plan PRO and higher.
 {% endhint %}
 
 <div align="left">
