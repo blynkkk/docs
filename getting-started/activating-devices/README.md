@@ -18,11 +18,11 @@ The main difference from WiFi provisioning is that AuthToken should be manually 
 
 #### Here is a tutorial on how to activate devices manually:
 
-{% content-ref url="https://bit.ly/BlynkSimpleAuth" %}
-[manual-device-activation.md](https://bit.ly/BlynkSimpleAuth)
+{% content-ref url="manual-device-activation.md" %}
+[manual-device-activation.md](manual-device-activation.md)
 {% endcontent-ref %}
 
-###
+
 
 ### 2. WiFi provisioning with Blynk.Inject
 
