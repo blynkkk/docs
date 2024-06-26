@@ -4,9 +4,13 @@ description: >-
   important Blynk communication.
 ---
 
-# Notifications
+# Notifications & Events
 
-![Notifications](https://user-images.githubusercontent.com/72790181/120472480-9b2bd900-c3ae-11eb-8966-9069ccf6f149.png)
+<div align="left">
+
+<figure><img src="../.gitbook/assets/notifications&#x26;events.png" alt="" width="375"><figcaption><p>Notifications &#x26; Events</p></figcaption></figure>
+
+</div>
 
 Tap alert tile to switch to Device's Timeline.
 

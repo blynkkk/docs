@@ -60,7 +60,7 @@ You can [automate](../concepts/automations.md) your connected devices with the f
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/notifications&#x26;events.png" alt="" width="375"><figcaption><p>Notifications &#x26; events section</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/notifications&#x26;events (1).png" alt="" width="375"><figcaption><p>Notifications &#x26; events section</p></figcaption></figure>
 
 </div>
 

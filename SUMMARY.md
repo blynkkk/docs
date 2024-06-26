@@ -218,7 +218,7 @@
 * [Devices](blynk.apps/device-management/README.md)
   * [Add New Device](blynk.apps/device-management/add-new-device.md)
 * [Automations](blynk.apps/automations.md)
-* [Notifications](blynk.apps/notifications.md)
+* [Notifications & Events](blynk.apps/notifications.md)
 
 ## Blynk.Edgent
 
