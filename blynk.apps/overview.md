@@ -16,7 +16,7 @@ Mobile Dashboard is built from Widgets - modular UI elements which can be positi
 
 #### **End-user mode**
 
-This mode is used by both the makers and the end-users.
+This mode is used by both the developers and the end-users.
 
 It's focused on devices, automations and notifications view and management with the help of widgets and additional screens containing specific information about data that is set/sent/received to/from Blynk.Cloud and devices.
 
