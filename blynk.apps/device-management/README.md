@@ -44,11 +44,11 @@ Tap **Device tile** to open the device's Dashboard. Here you can view and intera
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/Timeline (1).png" alt="" width="375"><figcaption><p>Timeline screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/device-timeline.png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
-Device info screen contains all the basic information and meta data related to the device and can have additional tabs to host more info with PRO plan or higher. Device actions menu is accessible from the device info screen.
+**Device info** screen contains all the basic information and meta data related to the device and can have additional tabs to host more info with PRO plan or higher. Device actions menu is accessible from the device info screen.
 
 <div align="left">
 
