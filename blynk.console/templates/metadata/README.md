@@ -128,4 +128,6 @@ Those 5 are present in any Product and can not be deleted:
 
 * **IMEI** – type/paste default [International Mobile Equipment Identity](https://en.wikipedia.org/wiki/International\_Mobile\_Equipment\_Identity) here. 15 digits limit.\
 
-* **ICCID** – type/paste default [Integrated Circuit Card Identifier](https://en.wikipedia.org/wiki/SIM\_card#ICCID) here.&#x20;
+* **ICCID** – type/paste default [Integrated Circuit Card Identifier](https://en.wikipedia.org/wiki/SIM\_card#ICCID) here. \
+
+* **Firmware Update Control** – provides an option to users [manually control device firmware updates](../../blynk.air/user-controlled-shipments.md).
