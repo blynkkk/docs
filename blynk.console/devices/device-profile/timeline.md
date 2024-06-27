@@ -30,14 +30,14 @@ Total quantity numbers for each of them are displayed inside the switches.
 
 Here you can see events in sequential order (latest to earliest).
 
-Event name and date are displayed in the header.\
-Short description given in event body can be fully viewed during cursor hover on it.\
-After actions applied you can move notification from Critical or Warning list to Resolved. To do this:
+Event name and date are displayed in the header. Hover over the event body to view the full short description.&#x20;
 
-1. Hover on notification, Mark as Resolved button will appear &#x20;
-2. Click **Mark as Resolved**, it will open **Commentary** modal window
-3. Describe actions made and/or actual specific of what happened to Device by giving a commentary in the input field (up to 200 characters)
-4. Click **Mark as Resolved.**
+To move a notification from Critical or Warning list to Resolved:
+
+1. Hover over the notification to reveal the "Mark as Resolved" button.
+2. Click **Mark as Resolved** to open the **Commentary** modal window.
+3. Describe the actions taken and/or specifics of what happened to the device in the input field (up to 200 characters).
+4. Click **Mark as Resolved** again.
 
 ## **Notifications Settings**
 
