@@ -12,7 +12,9 @@ After adding the metafield, the user can disable or enable firmware auto-updates
 
 <figure><img src="../../.gitbook/assets/new-firmware-available-in-app.png" alt=""><figcaption><p>"Firmware Update Control" metafield look in the mobile device information window</p></figcaption></figure>
 
-If the user disables auto-update, as soon as a new update is available, we will display a button to update the firmware on the device information screen. After the user clicks on the "Update Firmware" button, we will send the new firmware to the device if it is online or wait until the device goes online to send the new firmware. Note that the preferred shipment time is ignored in this case. Blynk will send an update as soon as possible.
+If the user disables auto-update, as soon as a new update is available, we will display a button to update the firmware on the device information screen. The device shipment status at this moment will be **Awaiting user action**. This means an update for that device can't be applied until the user confirms it with a click on "Update Firmware" button on the UI.
+
+After the user clicks on the "Update Firmware" button, we will send the new firmware to the device if it is online or wait until the device goes online to send the new firmware. Note that the preferred shipment time is ignored in this case. Blynk will send an update as soon as possible.
 
 <div data-full-width="false">
 
