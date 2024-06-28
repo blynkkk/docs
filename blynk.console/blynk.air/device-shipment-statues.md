@@ -8,13 +8,13 @@ description: This page explains the meaning of Blynk device shipment statuses
 
 When the shipment is started, the server assigns shipment progress status for every device. The meaning of every status is described below:
 
-* **Started**
+* **Firmware Shipment Process Started**
   * This status indicates that the OTA update process has been initiated and the device is online. The system has begun the necessary preparations to send the firmware update to the designated devices.
 * **Request sent**
   * A request with a firmware download URL for the OTA update has been sent to the device. The system has communicated with the device, notifying it that an update is available and requesting it to prepare for the firmware download. This step ensures that the correct firmware version is identified.
-* **Firmware requested**
+* **New Firmware Requested**
   * The device has acknowledged the update request and has asked the server for the specific firmware file.&#x20;
-* **Firmware uploaded**
+* **Firmware Downloaded**
   * The firmware file has been successfully uploaded to the device. This status indicates that the transfer process has finished, and the firmware is now on the device, ready to be installed.
 * **Success**
   * The OTA update has been successfully completed. The device has received the firmware, installed it, and reconnected to the server with a new firmware version.
