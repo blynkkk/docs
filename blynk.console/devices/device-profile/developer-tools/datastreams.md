@@ -2,7 +2,7 @@
 
 <figure><img src="../../../../.gitbook/assets/developer-tools-datastreams.png" alt=""><figcaption><p>Developer tools | Datastreams</p></figcaption></figure>
 
-The Datastreams tab provides a list of the data streams associated with the device. The section is divided into multiple columns, each providing specific information about the data streams.
+The Datastreams tab provides a list of the data streams associated with the device. The section is divided into multiple columns, each providing specific information about the data streams. Click on the value in any column to copy it.
 
 #### Columns and Descriptions
 
