@@ -1,10 +1,10 @@
 # Device Info
 
-<figure><img src="../../../.gitbook/assets/21-devices-device info 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/device-info&#x26;metadata.png" alt=""><figcaption><p>Device Info &#x26; Metadata</p></figcaption></figure>
 
 **Status** – shows if the Device is Online or Offline at the moment
 
-**Last Online** – hh:mm M D format last online appearance time
+**Last Seen Online** – hh:mm M D format last online appearance time
 
 **Device Activated** – time (hh:mm, M D) and Device Owner's email at the moment of Device [Provisioning](../../../getting-started/activating-devices/blynk-edgent-wifi-provisioning.md#activating-the-device-using-blynk-app)
 
