@@ -1,7 +1,7 @@
 ---
 description: >-
   The Actions Log tab of Developer tools provides a comprehensive history of
-  actions performed on the device.
+  actions performed on the datastream.
 ---
 
 # Actions Log
