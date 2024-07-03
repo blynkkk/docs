@@ -6,6 +6,8 @@ description: >-
 
 # Testing
 
+<figure><img src="../../../../.gitbook/assets/developer-tools-testing.png" alt=""><figcaption></figcaption></figure>
+
 This section is essential for verifying the functionality of different parameters and ensuring proper communication between the device and the platform.
 
 ### API
@@ -36,8 +38,5 @@ You can also update multiple datastreams / properties usind _Add_ button.
 The section provides code snippets for [firmware API](broken-reference), [HTTP API](../../../../blynk.cloud/device-https-api/) and [MQTT API](../../../../blynk.cloud/device-mqtt-api/) that can be used to perform the actions that were configured in the interface above from the hardware.
 
 {% hint style="info" %}
-Use Timers to send data in intervals. Don’t place `Blynk.virtualWrite` command into `void loop().` [Read documentation here](../../../../getting-started/how-to-display-any-sensor-data-in-blynk-app.md#use-timers)
+Use Timers to send data in intervals. Don’t place `Blynk.virtualWrite` command directly into `void loop().` [Read documentation here](../../../../getting-started/how-to-display-any-sensor-data-in-blynk-app.md#use-timers).
 {% endhint %}
-
-* **Timers for Data Intervals:** A tip suggesting the use of timers to send data at intervals rather than placing `Blynk.virtualWrite` command directly into the `void loop()`.
-* **Read Documentation Here:** A link to the documentation for additional guidance and best practices.

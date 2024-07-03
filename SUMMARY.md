@@ -48,6 +48,7 @@
       * [General](blynk.console/devices/device-profile/developer-tools/general.md)
       * [Datastreams](blynk.console/devices/device-profile/developer-tools/datastreams.md)
       * [Testing](blynk.console/devices/device-profile/developer-tools/testing.md)
+      * [Actions Log](blynk.console/devices/device-profile/developer-tools/actions-log.md)
     * [Notifications & Events](blynk.console/devices/device-profile/timeline.md)
     * [Device Info](blynk.console/devices/device-profile/device-info.md)
     * [Metadata](blynk.console/devices/device-profile/metadata.md)
