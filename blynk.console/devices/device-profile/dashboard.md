@@ -2,7 +2,7 @@
 
 Dashboard is used to visualize data (e.g. from sensors) and provide remote control for your devices.
 
-![](../../../.gitbook/assets/device\_dashboard.gif)
+<figure><img src="../../../.gitbook/assets/device-dashboard (2).png" alt=""><figcaption><p>Device Dashboard</p></figcaption></figure>
 
 Select or adjust Time Period using the switches on top of the tab.
 
