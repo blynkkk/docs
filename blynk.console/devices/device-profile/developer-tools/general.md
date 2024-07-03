@@ -6,9 +6,9 @@ description: General tab of the developer tools screen
 
 <figure><img src="../../../../.gitbook/assets/developer-tools-general.png" alt=""><figcaption><p>Developer tools | General</p></figcaption></figure>
 
-### Control panel
+### Quick access panel
 
-Contains important device attributes, such as status, last seen online, auth token, and template ID, as well as quick buttons to edit dashboard, download reports, create webhook, or reboot device.
+Contains important device attributes, such as status, last seen online, auth token, and template ID, as well as quick buttons to edit dashboard, download reports, create webhooks, or reboot device.
 
 Click on auth token or template ID to copy.
 
