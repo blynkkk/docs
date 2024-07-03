@@ -44,6 +44,8 @@
 * [Devices](blynk.console/devices/README.md)
   * [Device profile](blynk.console/devices/device-profile/README.md)
     * [Dashboard](blynk.console/devices/device-profile/dashboard.md)
+    * [Developer tools](blynk.console/devices/device-profile/developer-tools/README.md)
+      * [General](blynk.console/devices/device-profile/developer-tools/general.md)
     * [Notifications & Events](blynk.console/devices/device-profile/timeline.md)
     * [Device Info](blynk.console/devices/device-profile/device-info.md)
     * [Metadata](blynk.console/devices/device-profile/metadata.md)
