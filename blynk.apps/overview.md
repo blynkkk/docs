@@ -96,7 +96,7 @@ In the **Device Info** page the metadata for the device is presented. You can ed
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/device-actions (1).png" alt="" width="375"><figcaption><p>Device Actions menu</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/device-actions (1) (1).png" alt="" width="375"><figcaption><p>Device Actions menu</p></figcaption></figure>
 
 </div>
 

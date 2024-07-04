@@ -52,7 +52,7 @@ Tap **Device tile** to open the device's Dashboard. Here you can view and intera
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/device-actions.png" alt="" width="375"><figcaption><p>Actions menu on device info screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/device-actions (1).png" alt="" width="375"><figcaption><p>Actions menu on device info screen</p></figcaption></figure>
 
 </div>
 
