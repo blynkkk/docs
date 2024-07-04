@@ -34,7 +34,7 @@ Search can be performed by the following fields:
 * Serial Number
 * Device ID
 * Tag
-* other [Metadata](device-profile/metadata.md) set in [Template](../../concepts/device-template.md)
+* other [Metadata](../templates/metadata/) set in [Template](../../concepts/device-template.md)
 
 #### Search steps:
 

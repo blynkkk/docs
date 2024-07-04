@@ -1,47 +1,37 @@
-# Device Info
+---
+description: >-
+  The Device Info & Metadata section provides detailed information about the
+  device, including its status, owner, location, and other relevant metadata.
+---
+
+# Device Info & Metadata
 
 <figure><img src="../../../.gitbook/assets/device-info&#x26;metadata.png" alt=""><figcaption><p>Device Info &#x26; Metadata</p></figcaption></figure>
 
-**Status** – shows if the Device is Online or Offline at the moment
+The Device Info & Metadata section provides detailed information about the device, including its status, owner, location, and other relevant metadata. Below is an overview of the key elements displayed:
 
-**Last Seen Online** – hh:mm M D format last online appearance time
+### Key device metadata elements
 
-**Device Activated** – time (hh:mm, M D) and Device Owner's email at the moment of Device [Provisioning](../../../getting-started/activating-devices/blynk-edgent-wifi-provisioning.md#activating-the-device-using-blynk-app)
+**Last Seen Online -** Indicates the last time the device was online .
 
-**Total Online Time** – shows total time the Device has been online.\
-Days+hours, hours+minutes or minutes+seconds time view depending on summary duration.
+**Last Updated -** Shows the last time the device's data was updated.
 
-**Auth Token** – it's hidden. Hover to make Copy pictogram appear (if you have sufficient rights). Click Copy pictogram to put Auth Token to clipboard.
+**Device Owner -** Displays the email address and name of the device owner.
 
-**Manufacturer** – name of an Organization where this Device's Template was created
+**Device Timezone -** Indicates the timezone in which the device is located.
 
-**SSL** – data transfer between device and Blynk.Cloud can be secure (SSL) and risky (no SSL).\
-That is defined in product's Sketch.
+**Device Activated -** Shows the date and time when the device was first activated, along with the name of the user who activated it.
 
-**Last Updated** – last time of Datastream changes for that Device in hh:mm M D format
+**Automations -** Indicates the number of automations using this device.
 
-**Latest Metadata Update** – last time of Metadata edited in hh:mm M D format. Editor Email is displayed.
+**Firmware Version -** Displays the current firmware version installed on the device, including the date and time of the version.
 
-**Organization** – name of Organization the Device is assigned to
+**Latest Metadata Update -** Shows the last time the device's metadata was updated and by whom.
 
-**Template Name** – name of the Template used by the Device
+**Device Location -** Provides the geographical location of the device. (E.g.: `New York 12777, Forestburgh, New York, United States)`.  Additionally, a map with the device marked on it is placed at the top of the section. IP based latitude and longitude is used to show device's location on map if the device isn't assigned to any location.
 
-**IP** – IP address used by the Device. Click Copy pictogram to put it to clipboard
+**Device IMEI -** Displays the International Mobile Equipment Identity number of the device.
 
-**IP Country** – IP based country definition. It's used to show Device's location on Map if the Device isn't assigned to any Location.
 
-**IP LAT/LON** – IP based latitude and longitude definition. It's used to show Device's location on Map if the Device isn't assigned to any Location.
 
-**Firmware Version** – actual firmware version of the Device (it can be changed by flash or [Blynk.Air](../../blynk.air/))
-
-**Blynk Version** – version of [Blynk Library](../../../downloads/blynk-library.md) used in the firmware (it can be changed by flash or [Blynk.Air](../../blynk.air/))
-
-**Firmware Type** – unique ID of firmware. It's used during Provision and OTA checks.
-
-**Board Type** – model of the board firmware is running on
-
-**Build** – firmware build date in hh:mm M D format
-
-**Template ID** – unique ID of the Template used by Devices Product.
-
-**Heartbeat Interval** – ping command period (in seconds) that is defined in firmware
+Available Metadata entries can be managed in [Template's Metadata setup](../../templates/metadata/)

@@ -22,7 +22,7 @@ It's focused on devices, automations and notifications view and management with 
 
 ## Home screen
 
-Depending on the configuration, home screen can consist of up to 3 sections corresponding to icons in the navigation bar: [Devices](overview.md#devices), [Automations](../concepts/automations.md) and [Notifications & Events](overview.md#notifications)
+Depending on the configuration, home screen can consist of up to 3 sections corresponding to icons in the navigation bar: [Devices](overview.md#devices), [Automations](overview.md#automations) and [Notifications & Events](overview.md#notifications-and-events)
 
 ### **Devices**
 
@@ -84,7 +84,7 @@ When a user taps on the device tile, the device dashboard will open. It consists
 
 The 'i' icon in the top right corner of the dashboard opens the _Device Info_ page.
 
-In the **Device Info** page the metadata for the device is presented. You can edit a device name, change other [metadata](../blynk.console/devices/device-profile/metadata.md) values, view other information like firmware version, etc.
+In the **Device Info** page the metadata for the device is presented. You can edit a device name, view other information like firmware version, etc.
 
 <div align="left">
 
