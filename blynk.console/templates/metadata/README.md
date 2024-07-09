@@ -11,7 +11,7 @@ Unlike Datastreams, Metadata is not supposed to change very often. &#x20;
 Metadata can be of different types. Choose the most relevant type for every characteristic.\
 For example, if you would need to associate Serial Number with every product, add the “Number” metadata field. Metadata is also used during device provisioning and configiration process. Staff, installing the equipment will be able to fill it in.
 
-![](<../../../.gitbook/assets/metadata types.png>)
+![Metadata type names](<../../../.gitbook/assets/metadata types.png>)
 
 Metadata can be edited by users based on their access level.
 

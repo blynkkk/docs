@@ -124,7 +124,7 @@
   * [Shipment Management](blynk.console/blynk.air/shipment-management/README.md)
     * [New Shipping](blynk.console/blynk.air/shipment-management/new-shipping.md)
   * [Device shipment statuses](blynk.console/blynk.air/device-shipment-statuses.md)
-  * [User-controlled Shipments](blynk.console/blynk.air/user-controlled-shipments.md)
+  * [User-Controlled Shipments](blynk.console/blynk.air/user-controlled-shipments.md)
 * [Settings](blynk.console/settings/README.md)
   * [Organization Settings](blynk.console/settings/organization-settings/README.md)
     * [General](blynk.console/settings/organization-settings/general.md)
