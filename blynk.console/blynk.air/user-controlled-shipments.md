@@ -8,6 +8,10 @@ By default, all shipments are delivered automatically if the device meets the sh
 
 To enable user-controlled shipments you need to add the "Firmware Update Control" metafield to your template. By [adding this metafield to your device template](../templates/metadata/), you provide the ability for the end-users to control device updates manually for every newly created shipment. "Firmware Update Control" metafield works the same way as other metafields. It has a default state for auto-updates switch and you can require the end-user to set the state of the auto-update control during the device provisioning.
 
+{% hint style="info" %}
+You can set the value for this metafield at the template level and later customize it for individual devices. For example, you can enable automatic updates for all devices using the template and selectively disable automatic updates for specific devices.
+{% endhint %}
+
 After adding the metafield, the user can disable or enable firmware auto-updates both: in the [Blynk.Console](../devices/device-profile/device-info.md) and Blynk.App device information page.
 
 <figure><img src="../../.gitbook/assets/new-firmware-available-in-app.png" alt=""><figcaption><p>"Firmware Update Control" metafield look in the mobile device information window</p></figcaption></figure>
