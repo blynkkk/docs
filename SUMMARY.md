@@ -38,6 +38,12 @@
 * [Automations](concepts/automations.md)
   * [Forward Device Data](concepts/automations/forward-device-data.md)
 
+## Integration Guides <a href="#hardware-guides" id="hardware-guides"></a>
+
+* [Node-RED](hardware-guides/node-red.md)
+* [Particle - monitor with Blynk](hardware-guides/particle.md)
+* [Particle - control with Blynk](hardware-guides/particle-part-ii.md)
+
 ## Blynk.Console
 
 * [Overview](blynk.console/console-overview.md)
@@ -377,12 +383,6 @@
 * [Localization](add-ons/localization.md)
 * [Database Access](add-ons/database-access.md)
 * [Marketing](add-ons/marketing.md)
-
-## Hardware Guides
-
-* [Node-RED](hardware-guides/node-red.md)
-* [Particle - monitor with Blynk](hardware-guides/particle.md)
-* [Particle - control with Blynk](hardware-guides/particle-part-ii.md)
 
 ## Legacy Platform Help Articles <a href="#legacy-platform" id="legacy-platform"></a>
 
