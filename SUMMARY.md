@@ -43,6 +43,10 @@
 * [Node-RED](hardware-guides/node-red.md)
 * [Particle - monitor with Blynk](hardware-guides/particle.md)
 * [Particle - control with Blynk](hardware-guides/particle-part-ii.md)
+* [TheThingsNetwork](hardware-guides/thethingsnetwork/README.md)
+  * [Getting Started](hardware-guides/thethingsnetwork/getting-started.md)
+  * [Automated Device Onboarding](hardware-guides/thethingsnetwork/automated-device-onboarding.md)
+  * [Best Practices](hardware-guides/thethingsnetwork/best-practices.md)
 
 ## Blynk.Console
 

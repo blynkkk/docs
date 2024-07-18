@@ -117,7 +117,7 @@ To go back to your main organization - click on the Blynk icon in the top left c
 
 You can also switch organizations in the mobile app by tapping on the organization name in the left menu (_Test Reseller_ on the screenshot below) - then choosing Switch organization menu
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (6) (1).png>)
 
 #### 2. Transferring devices.
 

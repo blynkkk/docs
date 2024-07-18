@@ -18,4 +18,4 @@ For **Live** shipment, there are **Cancel** & **Pause**\
 For **Canceled** shipments there are **Delete** & **Download Report** options\
 
 
-![](<../../../.gitbook/assets/image (2).png>)
+![](<../../../.gitbook/assets/image (2) (1).png>)
