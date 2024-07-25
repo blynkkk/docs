@@ -2,9 +2,15 @@
 description: This page explains the meaning of Blynk device shipment statuses
 ---
 
-# Device shipment statues
+# Device shipment statuses
 
 <figure><img src="../../.gitbook/assets/screenshot-raymote.raypak.com-2024.06.28-18_00_58.png" alt=""><figcaption><p>Device shipment statuses</p></figcaption></figure>
+
+When the shipment is started, the server assigns shipment progress status for every device. The meaning of every status is described below:
+
+<figure><img src="../../.gitbook/assets/screenshot-raymote.raypak.com-2024.06.28-17_59_27.png" alt=""><figcaption><p>Device shipment statuses</p></figcaption></figure>
+
+
 
 When the shipment is started, the server assigns shipment progress status for every device. The meaning of every status is described below:
 
