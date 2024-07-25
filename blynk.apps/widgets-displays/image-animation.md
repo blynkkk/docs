@@ -60,53 +60,44 @@ Blynk.setProperty(V2, "loop", "false"); // Set the image to stop at the end of t
 
 ### &#x20;Change widget properties via HTTPs API
 
-{% swagger baseUrl="https://{server_address}" path="/external/api/update/property?token={your 32 char token}&pin={your vPin}&{property}={value}" method="get" summary="Updates the Datastream Property and all assigned Widgets" %}
-{% swagger-description %}
+## Updates the Datastream Property and all assigned Widgets
+
+<mark style="color:blue;">`GET`</mark> `https://{server_address}/external/api/update/property?token={your 32 char token}&pin={your vPin}&{property}={value}`
+
 The endpoint allows you to update the Datastream Property value via GET request. All widgets (both web and mobile) that are assigned to this datastream will inherit this property. The Datastream Property is persistent and will be stored forever until you change it with another value. In order to clear the property you need to clear the device data in device actions menu.
 
 **Example:**\
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V2&autoplay=true`
-{% endswagger-description %}
 
-{% swagger-parameter in="query" name="token" type="string" required="true" %}
-Device [auth token](../../concepts/device.md#authtoken) from Device info
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="query" name="pin" type="string" required="true" %}
-The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v")
-{% endswagger-parameter %}
+| Name                                               | Type   | Description                                                                                                                 |
+| -------------------------------------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------- |
+| {server address}<mark style="color:red;">\*</mark> | string | Get from the bottom right of your Blynk console. [More information](../../blynk.cloud/device-https-api/troubleshooting.md). |
 
-{% swagger-parameter in="query" name="property" type="string" %}
-The property of the widget you want to update: `autoplay`, `loop`, `url`
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-parameter in="query" name="autoplay" type="string" %}
-true or false
-{% endswagger-parameter %}
+| Name                                    | Type   | Description                                                                                                    |
+| --------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------- |
+| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                                       |
+| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v") |
+| property                                | string | The property of the widget you want to update: `autoplay`, `loop`, `url`                                       |
+| autoplay                                | string | true or false                                                                                                  |
+| loop                                    | string | true or false                                                                                                  |
+| url                                     | string | the image URL, should be urlencoded                                                                            |
 
-{% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
-Get from the bottom right of your Blynk console. [More information](../../blynk.cloud/device-https-api/troubleshooting.md).
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="loop" type="string" %}
-true or false
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="url" type="string" %}
-the image URL, should be urlencoded
-{% endswagger-parameter %}
-
-{% swagger-response status="200" description="Success" %}
+{% tabs %}
+{% tab title="200 Success" %}
 ```
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400" description="Could not find a device token" %}
+{% tab title="400 Could not find a device token" %}
 ```
 {"error":{"message":"Invalid token."}}
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 
 
@@ -157,41 +148,39 @@ void loop() {
 
 ### Change the datastream value with the HTTP API
 
-Use the Blynk [HTTP API](broken-reference) to set the datastream value to _play_ to cause the animation to play, and the value _stop_ to cause the automation to stop playing.&#x20;
+Use the Blynk HTTP API to set the datastream value to _play_ to cause the animation to play, and the value _stop_ to cause the automation to stop playing.&#x20;
 
-{% swagger baseUrl="https://{server_address}" path="/external/api/update/property?token={your 32 char token}&{pin}={value}" method="get" summary="" %}
-{% swagger-description %}
+<mark style="color:blue;">`GET`</mark> `https://{server_address}/external/api/update/property?token={your 32 char token}&{pin}={value}`
+
 **Example:**\
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&V2=stop`
-{% endswagger-description %}
 
-{% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
-Get from the bottom right of your Blynk console. [More information](../../blynk.cloud/device-https-api/troubleshooting.md).
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="query" name="token" type="string" required="true" %}
-Device [auth token](../../concepts/device.md#authtoken) from Device info
-{% endswagger-parameter %}
+| Name                                               | Type   | Description                                                                                                                 |
+| -------------------------------------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------- |
+| {server address}<mark style="color:red;">\*</mark> | string | Get from the bottom right of your Blynk console. [More information](../../blynk.cloud/device-https-api/troubleshooting.md). |
 
-{% swagger-parameter in="query" name="pin" type="string" required="true" %}
-The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v")
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-parameter in="query" name="value" type="string" %}
-The desired value of the pin (play or stop)
-{% endswagger-parameter %}
+| Name                                    | Type   | Description                                                                                                    |
+| --------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------- |
+| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                                       |
+| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v") |
+| value                                   | string | The desired value of the pin (play or stop)                                                                    |
 
-{% swagger-response status="200" description="Success" %}
+{% tabs %}
+{% tab title="200 Success" %}
 ```
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400" description="Could not find a device token" %}
+{% tab title="400 Could not find a device token" %}
 ```
 {"error":{"message":"Invalid token."}}
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 
 

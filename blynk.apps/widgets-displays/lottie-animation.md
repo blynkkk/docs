@@ -153,7 +153,7 @@ void loop() {
 
 ### Change the datastream value with the HTTP API
 
-Use the Blynk [HTTP API](broken-reference) to set the datastream value to _play_ to cause the animation to play, and the value _stop_ to cause the automation to stop playing.
+Use the Blynk HTTP API to set the datastream value to _play_ to cause the animation to play, and the value _stop_ to cause the automation to stop playing.
 
 <mark style="color:blue;">`GET`</mark> `https://{server_address}/external/api/update/property?token={your 32 char token}&{pin}={value}`
 
