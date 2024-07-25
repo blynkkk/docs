@@ -22,7 +22,7 @@ Click the "**Connect**" button at the bottom of the application card on Blynk. Y
 At this point, the metadata for _TheThingsNetwork Device_ will be created in the template if it wasn't created before. Blynk uses this metadata to identify each device in The Things Network application.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/the-things-network-application-connected.png" alt=""><figcaption><p>The Things Network Integration Page with a Connected Application</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/the-things-network-application-connected (1).png" alt="" width="563"><figcaption><p>The Things Network Integration Page with a Connected Application</p></figcaption></figure>
 
 Once this is done, Blynk will automatically create the device connected to The Things Network as soon as it sends any data. This device will then be available on the [Devices page](../../blynk.console/devices/).
 

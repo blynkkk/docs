@@ -11,7 +11,7 @@ Grouping multiple devices under a single The Things Network application offers s
 When connecting multiple templates on Blynk to a single The Things Network application, **Device Provisioning from The Things Network will be disabled for both applications**.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/the-things-network-device-onboarding-warning.png" alt=""><figcaption><p>Device Provisioning is disabled warning</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/the-things-network-device-onboarding-warning (1).png" alt="" width="563"><figcaption><p>Device Provisioning is disabled warning</p></figcaption></figure>
 
 ## Prefer Device Provisioning through Blynk
 

@@ -8,7 +8,7 @@ To enable the Automated Device Onboarding through Blynk, follow these steps:
 4. Specify the addresses of The Things Network components. You can find the correct values at the bottom of the "**Overview**" page on your The Things Network dashboard.
 5. Save the changes.
 
-<figure><img src="../../.gitbook/assets/advanced-settings.png" alt="" width="563"><figcaption><p>The Things Network Application Advanced Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/the-things-network-advanced-settings.png" alt="" width="563"><figcaption><p>The Things Network Application Advanced Settings</p></figcaption></figure>
 
 {% hint style="info" %}
 At this point, Blynk creates three new metadata fields in the device template: _Device EUI_, _Join EUI_ (same as App EUI), and _Application Key_.
@@ -63,7 +63,7 @@ Blynk also supports [LoRaWAN® Device Identification QR Codes for Automated Onbo
 
 Additionally, you can change the Profile ID used in the QR code body. To do so, open the application settings on Blynk, locate to the advanced settings and edit the Profile ID field.
 
-<figure><img src="../../.gitbook/assets/lorawan-profile-id.png" alt="" width="563"><figcaption><p>Application Profile ID Field</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/the-things-network-lorawan-profile-id.png" alt="" width="563"><figcaption><p>Application Profile ID Field</p></figcaption></figure>
 
 For LoRaWAN QR codes, Blynk requires the following:
 
