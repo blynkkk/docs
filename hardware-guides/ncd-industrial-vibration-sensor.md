@@ -140,11 +140,11 @@ Enable history data: ON&#x20;
 
 Press on the Create button and your first Datastream will appear in the table, you can edit it by clicking on the Name if you want to change anything. The process for the other Datastreams we are to create is similar, simply click on the New Datastream button and make more.
 
-<figure><img src="../.gitbook/assets/10-Blynk-upgrade-for-more-datastreams.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/7-Blynk-create-more-datastreams.png" alt=""><figcaption></figcaption></figure>
 
 Add 3 more streams for the maximum acceleration over the x, y, and z access and you should end up with a total of 4.
 
-<figure><img src="../.gitbook/assets/7-Blynk-create-more-datastreams.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/8-Blynk-NCD-vibration-sensor-datastreams.png" alt=""><figcaption></figcaption></figure>
 
 Let’s add one more Datastream, this one would be a bit different as it will be for the frequency where the first vibrational peak over the X axis is detected (_x\_peak\_one\_Hz_). These frequency peaks are useful to identifying specifically which component of the machine is causing the increased vibration and is likely to experience failure, thus a good thing to have for our observation.
 
@@ -162,13 +162,15 @@ Enable history data: OFF
 
 <figure><img src="../.gitbook/assets/9-Blynk-frequency-datastream.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/8-Blynk-NCD-vibration-sensor-datastreams.png" alt=""><figcaption></figcaption></figure>
-
 This sensor measurements differs, it comes in Integer form and also, we need to adjust the range as the value is in Hz and vibrations up to a few kHz are not uncommon, thus the MAX is set to 10000.
 
+{% hint style="info" %}
 Take note that if you are using the free version, you will have 5 Datastreams at this point, which is the limit, if you want to add more you will need to upgrade.
+{% endhint %}
 
 We are using the upgraded version so we add more datastreams, if you are limited you will simply have to choose a subset of the measurements you are going to end up with, which will still give you plenty of data to look at.
+
+<figure><img src="../.gitbook/assets/10-Blynk-upgrade-for-more-datastreams.png" alt=""><figcaption></figcaption></figure>
 
 &#x20;
 
@@ -176,132 +178,43 @@ Continue adding Datastreams until you are satisfied. This particular sensor outp
 
 At this point, we have mapped the Sensor metrics to the Datastreams and we can continue to the Web Dashboard.
 
-&#x20;
-
-\
-
-
-\
-
-
-\
-
-
-\
-
-
-\
-
-
-\
-
-
-\
-
-
 #### Web Dashboard
 
 In Blynk data is displayed in a Web Dashboard, where Widgets are associated with Datastreams. Thus, we would have at least as many Widgets as Datasteams if we want to show all the measurement data we are receiving from the sensor.
 
 We will have the 2 following widget types:
 
-Gauge – for the temperature, so we can easily tell if it is approaching the critical limit
+**Gauge** – for the temperature, so we can easily tell if it is approaching the critical limit
 
-Label – visualize the value of a parameter, this we will use for the acceleration and the frequency components as we want to look at the values in real time and determine whether they are too high.
+**Label** – visualize the value of a parameter, this we will use for the acceleration and the frequency components as we want to look at the values in real time and determine whether they are too high.
 
 Go to the Web Dashboard tab, scroll down on the Widget Box and double click on the Gauge Widget. This will put it in the dashboard area.
 
 Resize it to your liking and press on the Gear icon in order to open up the configuration window.
 
-\
-
-
-\
-
-
-\
-
-
-\
-
-
-\
-
-
-\
-
-
-\
-
-
-\
-
-
-\
-
-
-\
-
-
-\
-
-
-\
-
-
-\
-
-
-&#x20;
+<figure><img src="../.gitbook/assets/12-Blynk-web-dashboard-editing.png" alt=""><figcaption></figcaption></figure>
 
 Give the it a name (optional) and select the _temperature (V0)_ Datastream we created earlier that is tied to the temperature measurement.
 
-&#x20;
+<figure><img src="../.gitbook/assets/13-Blynk-web-dashboard-gauge.png" alt=""><figcaption></figcaption></figure>
 
-Once you select the Datastream more configuration options will open up. Enable the Change color based on value toggle and select a color scheme that is to your liking. Finalize by pressing the Save button.
+&#x20;Once you select the Datastream more configuration options will open up. Enable the Change color based on value toggle and select a color scheme that is to your liking. Finalize by pressing the Save button.
 
-\
+<figure><img src="../.gitbook/assets/14-Blynk-web-dashboard-gauge-color-based-on-value.png" alt=""><figcaption></figcaption></figure>
 
+Your first Widget should now be visible, lets add another, this time a Label. Let’s keep it simple for this one, just select the _x\_max\_ACC\_G_ Datastream and name it.
 
-\
+<figure><img src="../.gitbook/assets/16-Blynk-web-dashboard-label.png" alt=""><figcaption></figcaption></figure>
 
+&#x20;You now have 2 Widgets in the Dashboard. Continue adding Label Widgets until you have the full set, or a subset if you are using the Free version, eventually you should have a nicely looking Dashboard similar to ours (after some rearrangement and resizing of Widgets).
 
-&#x20;
-
-Your first Widget should now be visible, lets add another, this time a Label.
-
-\
-
-
-&#x20;
-
-Let’s keep it simple for this one, just select the _x\_max\_ACC\_G_ Datastream and name it.&#x20;
-
-&#x20;
-
-You now have 2 Widgets in the Dashboard. Continue adding the rest in the same manner.
-
-\
-
-
-\
-
-
-\
-
-
-&#x20;
-
-Continue adding Label Widgets until you have the full set, or a subset if you are using the Free version, eventually you should have a nicely looking Dashboard similar to ours (after some rearrangement and resizing of Widgets).
-
-&#x20;
+<figure><img src="../.gitbook/assets/18-Blynk-web-dashboard.png" alt=""><figcaption></figcaption></figure>
 
 #### The Device
 
-\
+Go to the Devices menu on the left and add a New Device.
 
 
-Go to the Devices menu on the left and add a New Device
 
 &#x20;
 
