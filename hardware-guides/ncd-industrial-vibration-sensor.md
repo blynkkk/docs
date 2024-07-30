@@ -278,9 +278,9 @@ A complete flow file will be provided for you to download to make things simple.
 
 Now that the function node has parsed the data for us, we need to forward it to the Blynk MQTT Broker. Open up the mqtt out node and fill in the Topic field with the same topic used for the function node - _`ds/temperature`_
 
-You will also need to create a new Server to connect to (press the pen icon).
-
 <figure><img src="../.gitbook/assets/3-Node-RED-mqtt-out-node.png" alt=""><figcaption></figcaption></figure>
+
+You will also need to create a new Server to connect to (press the pen icon).
 
 Enter the settings as follows:
 
@@ -298,19 +298,19 @@ Protocol: MQTT V5
 
 Keep Alive: 45
 
+<figure><img src="../.gitbook/assets/4-Node-RED-configure-mqtt-server.png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
 Note that the server address can be different for your location, for the full guide on servers refer to the [Blynk Server address](https://docs.blynk.io/en/blynk.cloud-mqtt-api/device-mqtt-api/authentication) list.
 {% endhint %}
 
-You also need to import the TLS CA Certificate, Blynk uses isrgrootx1.der, which you can download from [here](https://letsencrypt.org/certs/isrgrootx1.der).
+<figure><img src="../.gitbook/assets/6-Blynk-data-flowing.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/4-Node-RED-configure-mqtt-server.png" alt=""><figcaption></figcaption></figure>
+You also need to import the TLS CA Certificate, Blynk uses isrgrootx1.der, which you can download from [here](https://letsencrypt.org/certs/isrgrootx1.der).
 
 Upload the file after you have downloaded it via the button, make sure to also fill in the Server address (same as above) and you are done with the TLS configuration.
 
 <figure><img src="../.gitbook/assets/5-Node-RED-TLS-configuration.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/6-Blynk-data-flowing.png" alt=""><figcaption></figcaption></figure>
 
 Once you update the node the MQTT client (mqtt out) node will connect to the Blynk MQTT Broker and data will start flowing. You should be able to see this reflected in the Dashboard where the Temperature Widget will update its value (refer to the image below).
 
