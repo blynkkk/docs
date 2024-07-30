@@ -218,7 +218,11 @@ Go to the Devices menu on the left and add a New Device.
 
 Choose the _From template_ option, as we have created one in the previous step.
 
-<figure><img src="../.gitbook/assets/2-Blynk-add-new-device-from-template.png" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/2-Blynk-add-new-device-from-template.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 You should have a single choice here, select it and press the Create button.
 
@@ -242,62 +246,29 @@ We are done with the configuration in the Blynk platform itself. The next step i
 
 ### Connect the Gateway to the Blynk MQTT Broker
 
-\
-
-
 Two nodes need to be added to the flow – _function_ and _mqtt out_. Pull them into the flow and connect them as in the image below.
 
-&#x20;
-
-\
-
-
-\
-
-
-\
-
-
-\
-
-
-\
-
-
-\
-
-
-\
-
+<figure><img src="../.gitbook/assets/1-Node-RED-function-mqtt-out.png" alt=""><figcaption></figcaption></figure>
 
 #### Parsing function
 
-\
-
-
 Open up the _function_ node and paste the following code.
 
+```javascript
 var returnMsg = null;
-
 returnMsg = { topic: "ds/temperature", payload: msg.payload.temperature }
-
 return returnMsg
+```
 
-\
-
-
-&#x20;
-
-\
-
+<figure><img src="../.gitbook/assets/2-Node-RED-parsing-function.png" alt=""><figcaption></figcaption></figure>
 
 This will create a variable that has two fields:
 
-topic: "ds/temperature" – the mqtt topic where the message will be published
+`topic: "ds/temperature"` – the mqtt topic where the message will be published
 
-_ds/_ - stands for Datastream and as you might have guessed this ties with the ones we created in the previous steps, thus _ds/temperature_ will associated with our temperature Datastream, _ds/x\_max\_ACC\_G_ would be the one for the X axis acceleration, etc.
+_`ds/`_ - stands for Datastream and as you might have guessed this ties with the ones we created in the previous steps, thus _`ds/temperature`_ will associated with our temperature Datastream, _`ds/x_max_ACC_G`_ would be the one for the X axis acceleration, etc.
 
-payload: msg.payload.temperature – this separates the _temperature_ value from the entire sensor payload and assignes it to a new _payload_ variable to be sent on the _temperature_ Datastream/mqtt topic. As an example if we wanted to send the value of the X axis acceleration the value would be _msg.payload.x\_max\_ACC\_G_.
+`payload: msg.payload.temperature` – this separates the _temperature_ value from the entire sensor payload and assignes it to a new _payload_ variable to be sent on the _temperature_ Datastream/mqtt topic. As an example if we wanted to send the value of the X axis acceleration the value would be _`msg.payload.x_max_ACC_G`_.
 
 You need to have one of these function nodes for every parameter you want to separate and send to a Datastream on Blynk, adjusting the function values as we explained above.
 
@@ -305,17 +276,11 @@ A complete flow file will be provided for you to download to make things simple.
 
 #### MQTT out
 
-\
-
-
-Now that the function node has parsed the data for us, we need to forward it to the Blynk MQTT Broker. Open up the mqtt out node and fill in the Topic field with the same topic used for the function node - _ds/temperature_
+Now that the function node has parsed the data for us, we need to forward it to the Blynk MQTT Broker. Open up the mqtt out node and fill in the Topic field with the same topic used for the function node - _`ds/temperature`_
 
 You will also need to create a new Server to connect to (press the pen icon).
 
-\
-
-
-&#x20;
+<figure><img src="../.gitbook/assets/3-Node-RED-mqtt-out-node.png" alt=""><figcaption></figcaption></figure>
 
 Enter the settings as follows:
 
@@ -333,35 +298,36 @@ Protocol: MQTT V5
 
 Keep Alive: 45
 
-\
-
+{% hint style="info" %}
+Note that the server address can be different for your location, for the full guide on servers refer to the [Blynk Server address](https://docs.blynk.io/en/blynk.cloud-mqtt-api/device-mqtt-api/authentication) list.
+{% endhint %}
 
 You also need to import the TLS CA Certificate, Blynk uses isrgrootx1.der, which you can download from [here](https://letsencrypt.org/certs/isrgrootx1.der).
 
-&#x20;
+<figure><img src="../.gitbook/assets/4-Node-RED-configure-mqtt-server.png" alt=""><figcaption></figcaption></figure>
 
 Upload the file after you have downloaded it via the button, make sure to also fill in the Server address (same as above) and you are done with the TLS configuration.
 
-&#x20;
+<figure><img src="../.gitbook/assets/5-Node-RED-TLS-configuration.png" alt=""><figcaption></figcaption></figure>
 
-Note that we have chosen a server address the is close to our location, for a full list refer to the [Blynk Server address](https://docs.blynk.io/en/blynk.cloud-mqtt-api/device-mqtt-api/authentication) list.
+<figure><img src="../.gitbook/assets/6-Blynk-data-flowing.png" alt=""><figcaption></figcaption></figure>
 
 Once you update the node the MQTT client (mqtt out) node will connect to the Blynk MQTT Broker and data will start flowing. You should be able to see this reflected in the Dashboard where the Temperature Widget will update its value (refer to the image below).
 
-&#x20;
+<figure><img src="../.gitbook/assets/7-Node-RED-NCD-Industrial-Vibration-Sensor-full-flow.png" alt=""><figcaption></figcaption></figure>
 
 The rest of the widgets will remain empty, as we have only connected one of the Datastreams. Once you have connected the rest, you will see all widgets update.
 
-The procedure is the same for every widget, you simply need to create a set of _function_ and _mqtt_ nodes, connect them to the Sensor node and configure them utilizing the provided configuration, where you edit the naming to reflect the naming of the topic and payload. Your final flow should contain the following set of functions.
+The procedure is the same for every widget, you simply need to create a set of _function_ and _mqtt_ nodes, connect them to the Sensor node and configure them utilizing the provided configuration, where you edit the naming to reflect the naming of the topic and payload. Your final flow should contain the full set of functions.
 
 Alternatively, you could simply download the ready-to-use flow from the link below:
 
 Example Flow
 
-&#x20;
+<figure><img src="../.gitbook/assets/8-Node-RED-NCD-Industrial-Vibration-Sensor-full-flow.png" alt=""><figcaption></figcaption></figure>
 
 Which when deployed will populate the entirety of your Dashboard.
 
-&#x20;
+<figure><img src="../.gitbook/assets/9-Blynk-NCD-Industrial-Vibration-Sensor-full-web-dashboard.png" alt=""><figcaption></figcaption></figure>
 
 This concludes the tutorial, you now have your small network gathering Vibration data and sending it through the Gateway via Node-RED (utilizing MQTT) to Blynk for visualization.
