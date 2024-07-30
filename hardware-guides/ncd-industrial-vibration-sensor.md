@@ -214,33 +214,29 @@ Your first Widget should now be visible, lets add another, this time a Label. Le
 
 Go to the Devices menu on the left and add a New Device.
 
-
-
-&#x20;
+<figure><img src="../.gitbook/assets/1-Blynk-add-new-device.png" alt=""><figcaption></figcaption></figure>
 
 Choose the _From template_ option, as we have created one in the previous step.
 
-&#x20;
+<figure><img src="../.gitbook/assets/2-Blynk-add-new-device-from-template.png" alt=""><figcaption></figcaption></figure>
 
-Yous should have a single choice here, select it and press the Create button.
+You should have a single choice here, select it and press the Create button.
 
-&#x20;
+<div align="left">
 
-You will be taken to the main device screen, where we can note the following.
+<figure><img src="../.gitbook/assets/3-Blynk-name-device.png" alt="" width="559"><figcaption></figcaption></figure>
 
-The Widgets display no data (which is to be expected as we have not bridged the Gateway and Blynk quite yet).
+</div>
 
-There is a window at the top right that gives you some important information, in this particular cape the Authentication Token for the Device, which we need in order to connect the Gateway to Blynk.
+You will be taken to the main device screen, where we can note the following: the Widgets display no data (which is to be expected as we have not bridged the Gateway and Blynk quite yet).
 
+There is a window at the top right that gives you some important information, in this particular case the Authentication Token for the Device, which we need in order to connect the Gateway to Blynk.
+
+{% hint style="info" %}
 Make sure to copy the value in the “” for the Authentication token (refer to the image below).
+{% endhint %}
 
-\
-
-
-\
-
-
-&#x20;
+<figure><img src="../.gitbook/assets/4-Blynk-device-auth-token.png" alt=""><figcaption></figcaption></figure>
 
 We are done with the configuration in the Blynk platform itself. The next step is to go back to Node-RED and create the MQTT integration to bridge the Gateway and the Blynk MQTT Broker. Once we do this, data will start flowing and we will immediately see it in Blynk.
 
