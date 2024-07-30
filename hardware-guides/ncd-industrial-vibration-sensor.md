@@ -312,7 +312,9 @@ _`ds/`_ - stands for Datastream and as you might have guessed this ties with the
 
 You need to have one of these function nodes for every parameter you want to separate and send to a Datastream on Blynk, adjusting the function values as we explained above.
 
+{% hint style="info" %}
 A complete flow file will be provided for you to download to make things simple.
+{% endhint %}
 
 #### MQTT out
 
