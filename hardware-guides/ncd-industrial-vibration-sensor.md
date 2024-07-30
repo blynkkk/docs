@@ -100,25 +100,29 @@ This tutorial assumes you are already have created an account in Blynk, if not h
 
 We are going to assume this is your first time using the platform, thus your workspace will be empty, and you will be greeted by the Blynk Tour screen.
 
-&#x20;
+<figure><img src="../.gitbook/assets/1-Blynk-Tour.png" alt=""><figcaption></figcaption></figure>
 
 Click on the Let’s go! button and navigate through the windows till the end. You should see an invitation to create your first Template (in case you navigate away, a template is normally created in the Developer Zone).
 
-&#x20;
+<figure><img src="../.gitbook/assets/2-Blynk-developer-zone.png" alt=""><figcaption></figcaption></figure>
 
 Give your Template a name, for the hardware select Other and set the connection type to WiFi. Press on the Done button and the Template will be created, now you need to configure it.
 
-&#x20;
+<figure><img src="../.gitbook/assets/3-Blynk-create-template.png" alt=""><figcaption></figcaption></figure>
 
 #### Datastreams
 
 Go to the Datastreams tab and create a New Datastream. When you press on the button a drop-down menu will appear with a few options. For the purpose of this tutorial, we will keep it simple and utilize only the Virtual Pin Datastream type.
 
-&#x20;
+<figure><img src="../.gitbook/assets/4-Blynk-create-new-datastream.png" alt=""><figcaption></figcaption></figure>
 
 In order to stay consistent, we are going to adhere to the same naming notations that the NCD sensor uses, which you can see in the payload in Node-RED (refer to the image below).
 
-&#x20;
+<div align="left">
+
+<figure><img src="../.gitbook/assets/5-Blynk-datastreams-naming-notations.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 We will start from the first parameter, the _temperature_ (any parameter you want forwarded and displayed on Blynk needs to have its own Datastream). Fill in the Template data (refer to the image below) as follows:
 
@@ -132,13 +136,15 @@ MAX: 100
 
 Enable history data: ON&#x20;
 
+<figure><img src="../.gitbook/assets/6-Blynk-datastream-settings.png" alt=""><figcaption></figcaption></figure>
+
 Press on the Create button and your first Datastream will appear in the table, you can edit it by clicking on the Name if you want to change anything. The process for the other Datastreams we are to create is similar, simply click on the New Datastream button and make more.
 
-&#x20;
+<figure><img src="../.gitbook/assets/10-Blynk-upgrade-for-more-datastreams.png" alt=""><figcaption></figcaption></figure>
 
 Add 3 more streams for the maximum acceleration over the x, y, and z access and you should end up with a total of 4.
 
-&#x20;
+<figure><img src="../.gitbook/assets/7-Blynk-create-more-datastreams.png" alt=""><figcaption></figcaption></figure>
 
 Let’s add one more Datastream, this one would be a bit different as it will be for the frequency where the first vibrational peak over the X axis is detected (_x\_peak\_one\_Hz_). These frequency peaks are useful to identifying specifically which component of the machine is causing the increased vibration and is likely to experience failure, thus a good thing to have for our observation.
 
@@ -154,7 +160,9 @@ MAX: 10000
 
 Enable history data: OFF
 
-&#x20;
+<figure><img src="../.gitbook/assets/9-Blynk-frequency-datastream.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/8-Blynk-NCD-vibration-sensor-datastreams.png" alt=""><figcaption></figcaption></figure>
 
 This sensor measurements differs, it comes in Integer form and also, we need to adjust the range as the value is in Hz and vibrations up to a few kHz are not uncommon, thus the MAX is set to 10000.
 
