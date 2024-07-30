@@ -2,7 +2,7 @@
 description: Connecting the NCD Industrial Vibration Sensor to Blynk
 ---
 
-# NCD Industrial Vibration Sensor to Blynk
+# NCD Industrial Vibration Sensor
 
 ### Pre-requisites
 
@@ -66,55 +66,29 @@ This takes care of the basic settings, press the Done button and finalize the ch
 
 You should end up with a flow that looks like the one in the image below, the only thing left now is to Deploy it.
 
-
-
-&#x20;
-
-\
-
+<figure><img src="../.gitbook/assets/6-Node-RED-deploy the Node-RED flow.png" alt=""><figcaption></figcaption></figure>
 
 At this point the gateway will attempt to connect as the flow is now running, this is indicated by the Connecting message below the node.
 
-\
-
-
-&#x20;
-
-\
-
+<figure><img src="../.gitbook/assets/7-Node-RED-the gateway will attempt to connect.png" alt=""><figcaption></figcaption></figure>
 
 It should take no more than 2-3 seconds for the gateway to mode to the Ready state, indicating it has connected and can receive sensor data. If you check the debug window on the right at this point you will see that the gateway has reported its MAC address, which is an indication of the connection being established.
 
-\
-
-
-&#x20;
-
-\
-
+<figure><img src="../.gitbook/assets/8-Node-RED-the gateway has reported its MAC address.png" alt=""><figcaption></figcaption></figure>
 
 At this point everything is prepared and you can turn on your sensor. NCD Industrial Sensor come pre-provisioned with batteries and in order to turn them on you have to open up the casing and toggle a switch. We advise you to refer to the official NCD documentation on the topic - [Industrial Vibration Sensor V3 Product Manual](https://ncd.io/blog/industrial-vibration-sensor-v3-product-manual-2/).
 
 Your sensor is now connected to the gateway and data is flowing between the two. You should see it going into FLY mode, which is a mode that lets it pull any config changes wirelessly (in our case there aren’t any).
 
-&#x20;
-
-\
-
+<figure><img src="../.gitbook/assets/9-Node-RED-sensor going into FLY mode.png" alt=""><figcaption></figcaption></figure>
 
 It will shortly move into RUN mode and start sending data over its predefined interval.
 
-&#x20;
-
-\
-
+<figure><img src="../.gitbook/assets/10-Node-RED-sensor sending data.png" alt=""><figcaption></figcaption></figure>
 
 Now you have your sensor data at your disposal, but only locally (Gateway). In order for it to reach Blynk, we need to connect the Gateway to the Blynk MQTT broker.
 
 ### Creating a Template for the Sensor in Blynk
-
-\
-
 
 Blynk utilizes what is called Datastreams, a way to structure data that flows into the platform. In order for the flow to properly happen the format coming out of the NCD Sensor needs to match the one in Blynk.
 
