@@ -274,7 +274,7 @@ You should have a single choice here, select it and press the Create button.
 
 You will be taken to the main device screen, where we can note the following: the Widgets display no data (which is to be expected as we have not bridged the Gateway and Blynk quite yet).
 
-There is a window at the top right that gives you some important information, in this particular case the Authentication Token for the Device, which we need in order to connect the Gateway to Blynk.
+There is a window at the top right that gives you some important information, in this particular case the **Authentication Token for the Device**, which we need in order to connect the Gateway to Blynk.
 
 {% hint style="info" %}
 Make sure to copy the value in the “” for the Authentication token (refer to the image below).
@@ -322,7 +322,7 @@ Now that the function node has parsed the data for us, we need to forward it to 
 
 <figure><img src="../.gitbook/assets/3-Node-RED-mqtt-out-node.png" alt=""><figcaption></figcaption></figure>
 
-You will also need to create a new Server to connect to (press the pen icon).
+You will also need to **create a new Server** to connect to (press the pen icon).
 
 Enter the settings as follows:
 
@@ -345,6 +345,11 @@ Keep Alive: 45
 {% hint style="info" %}
 Note that the server address can be different for your location. For the full guide on servers refer to the [Blynk Server address](https://docs.blynk.io/en/blynk.cloud-mqtt-api/device-mqtt-api/authentication) list.
 {% endhint %}
+
+**Security tab:**
+
+* Username: `device`
+* Password: your device Auth Token (see instructions above on how to obtain it)
 
 <figure><img src="../.gitbook/assets/6-Node-RED-mqtt-broker-config-node.png" alt=""><figcaption></figcaption></figure>
 
