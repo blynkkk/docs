@@ -364,7 +364,7 @@ The procedure is the same for every widget, you simply need to create a set of _
 
 Alternatively, you could simply download the ready-to-use flow from the link below:
 
-Example Flow
+[Example Flow](https://blynk-io-static.nyc3.cdn.digitaloceanspaces.com/example.flow.json)
 
 <figure><img src="../.gitbook/assets/8-Node-RED-NCD-Industrial-Vibration-Sensor-full-flow.png" alt=""><figcaption></figcaption></figure>
 
