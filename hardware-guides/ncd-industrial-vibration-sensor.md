@@ -328,7 +328,7 @@ Enter the settings as follows:
 
 Name: Blynk
 
-Server: fra1.blynk.cloud
+Server: fra1.blynk.cloud (could be different for your location. Consult [full guide on servers](../blynk.cloud/device-mqtt-api/authentication.md).)
 
 Port: 8883
 
@@ -343,7 +343,7 @@ Keep Alive: 45
 <figure><img src="../.gitbook/assets/4-Node-RED-configure-mqtt-server.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Note that the server address can be different for your location. For the full guide on servers refer to the [Blynk Server address](https://docs.blynk.io/en/blynk.cloud-mqtt-api/device-mqtt-api/authentication) list.
+Note that the server address can be different for your location. For the full guide on servers refer to the [Blynk Server address](../blynk.cloud/device-mqtt-api/authentication.md) list.
 {% endhint %}
 
 **Security tab:**
