@@ -2,16 +2,20 @@
 
 
 
-{% swagger method="get" path="/api/v1/organization/profile" baseUrl="https://{server_address}" summary="Get Own Organization Info" %}
-{% swagger-description %}
-Get your own organization information.
-{% endswagger-description %}
+## Get Own Organization Info
 
-{% swagger-parameter in="header" name="Authorization" type="Bearer {access_token}" required="true" %}
+<mark style="color:blue;">`GET`</mark> `https://{server_address}/api/v1/organization/profile`
 
-{% endswagger-parameter %}
+With this API call, you get information from the organization where the OAuth credentials were created. So, if the OAuth credentials were provided to you by your Account Manager, this call will return you the root organization info.
 
-{% swagger-response status="200: OK" description="Organization info" %}
+#### Headers
+
+| Name                                            | Type                   | Description |
+| ----------------------------------------------- | ---------------------- | ----------- |
+| Authorization<mark style="color:red;">\*</mark> | Bearer {access\_token} |             |
+
+{% tabs %}
+{% tab title="200: OK Organization info" %}
 ```json
 {
    "id": 658,
@@ -32,8 +36,8 @@ Get your own organization information.
    "lastModifiedTs": 1694707051504
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 Request examples:
 
