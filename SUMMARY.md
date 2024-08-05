@@ -314,6 +314,8 @@
   * [Devices API](blynk.cloud/platform-https-api/devices-api/README.md)
     * [Get All Devices](blynk.cloud/platform-https-api/devices-api/get-all-devices.md)
     * [Search Devices](blynk.cloud/platform-https-api/devices-api/search-devices.md)
+    * [Get Devices by Owner Email](blynk.cloud/platform-https-api/devices-api/search-devices-1.md)
+    * [Get Devices in user organization](blynk.cloud/platform-https-api/devices-api/search-devices-2.md)
     * [Get Recently Activated Devices](blynk.cloud/platform-https-api/devices-api/get-recently-activated-devices.md)
     * [Get Device Info](blynk.cloud/platform-https-api/devices-api/get-device-info.md)
     * [Get Connection Status](blynk.cloud/platform-https-api/devices-api/get-connection-status.md)
