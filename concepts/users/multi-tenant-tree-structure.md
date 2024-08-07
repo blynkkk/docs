@@ -1,5 +1,7 @@
 ---
-description: How different types of users can access the data on Blynk platform
+description: >-
+  How different types of users can access the data on Blynk platform with
+  multi-tenant tree structure
 ---
 
 # Multi-tenancy
