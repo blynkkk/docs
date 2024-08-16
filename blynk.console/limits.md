@@ -86,3 +86,9 @@ Max number of data points per device per day you can import into the device: 10,
 
 Max length of the string value: 1024 bytes
 
+
+
+## UI
+
+The maximum number of real-time updates on the web/app can accept - 20 commands per second
+
