@@ -71,3 +71,7 @@ https://fra1.blynk.cloud/device_uploads/35587/8vPs4QSrfKOXyxZnXJhz0lA6cax7WQe8.p
 * Uploading a file with the same specified name, that was uploaded before, would override the existing file.
 
 All the above limits could be changed based on the Enterprise client's needs.
+
+The uploaded images could be previewed in the "Developer Tools" section:
+
+<figure><img src="../../.gitbook/assets/upload.jpg" alt=""><figcaption><p>File Storage for the uploaded images</p></figcaption></figure>
