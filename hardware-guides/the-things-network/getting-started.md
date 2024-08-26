@@ -30,6 +30,10 @@ Once this is done, Blynk will automatically create the device connected to The T
 
 Once your first device is connected to Blynk, it's time to transfer some data! Start by configuring [the Payload formatter on The Things Network](https://www.thethingsindustries.com/docs/integrations/payload-formatters/).
 
+{% hint style="danger" %}
+If you are using any provided TheThingsNetwork Payload Formatter, such as a Payload Formatter imported from the TheThingsNetwork Device Repository, additional steps might be required to convert the data format into the format required by Blynk.
+{% endhint %}
+
 ### Uplink
 
 For uplinks, Blynk requires the data to be in _key-value_ pair format, where the _key_ is either the datastream name or pin (such as `v1` or `a10`) and the _value_ is the datastream value. The value type must match the datastream value type! Here is an example of the decoded uplink:
@@ -47,6 +51,10 @@ In this example, Blynk will set the datastream with the name "temperature" to th
 
 {% hint style="info" %}
 Each time Blynk receives an update from the device, it will trigger the Online lifecycle event. Therefore, it is recommended [to configure a meaningful wait time](../../blynk.console/templates/connection-lifecycle.md) to prevent your device from being stuck in the offline state.
+{% endhint %}
+
+{% hint style="success" %}
+Additionally, refer to the [System DataStreams](best-practices.md#system-datastreams) section, which provides details on how to retrieve RSSI, SNR, and Firmware Version information.
 {% endhint %}
 
 ### Downlink
