@@ -20,7 +20,7 @@ These topics are used for messages sent from the device to Blynk.Cloud:
 
 * [**info/mcu**](authentication.md#firmware-and-device-info): Updates the server with device or firmware information. This is essential for device management and monitoring, allowing Blynk.Cloud to keep track of device types, versions, and other critical information.
 * [**ds/`DATASTREAM`**](datastreams.md): Updates the value of a specific datastream on the cloud. This is how sensor readings, state changes, or any other device-generated information are communicated to the server.
-* [**batch\_ds**](datastreams.md#send-batched-data-to-blynk): Update value of a multiple datastreams simultaneously. Use this topic if your device rarely send data in batches.
+* [**batch\_ds**](datastreams.md#send-batched-data-to-blynk): Updates values of a multiple datastreams simultaneously. Use this topic if your device rarely sends data in batches.
 * [**ds/`DATASTREAM`/prop/`PROPERTY`**](widget-properties.md): Sets a property of the widget associated with a datastream, allowing dynamic changes to how data is displayed or interacted with in the Blynk application.
 * [**event/`EVENT`**](events.md): Publishes an event, which can be used for alerts, emails, push notifications, logging, or triggering other server-side actions based on device activities.
 * [**meta/`FIELD`**](metadata.md): Updates a specific metadata field of the device. This can include configuration parameters, or any other contextual information about the device.

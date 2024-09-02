@@ -18,7 +18,7 @@ For multivalue (array-like) values, the individual items in the payload are sepa
 
 ## Send batched data to Blynk
 
-Publish topic **batch\_ds**, payload: JSON-encoded object with datastream name as a key and datastream value as a value. The JSON value type must match with the datastream type. Use string for datastream with String data type, number for datastream with Integer, Double or Enum value type, `true` or `false` for datastream with Boolean data type and array of two numbers for datastream with Location data type (use longitude as the first array element and latitude as the second). Example:
+Publish topic **batch\_ds**, payload: JSON-encoded object with datastream name as the key and datastream value as the value. The JSON value type must match with the datastream type. Use string for datastream with String data type, number for datastream with Integer, Double or Enum value type, `true` or `false` for datastream with Boolean data type and array of two numbers for datastream with Location data type (use longitude as the first array element and latitude as the second). Example:
 
 ```json
 {
