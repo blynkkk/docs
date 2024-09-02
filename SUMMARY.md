@@ -41,14 +41,14 @@
 ## Integration Guides <a href="#hardware-guides" id="hardware-guides"></a>
 
 * [Node-RED](hardware-guides/node-red.md)
-* [Particle - monitor with Blynk](hardware-guides/particle.md)
-* [Particle - control with Blynk](hardware-guides/particle-part-ii.md)
 * [The Things Network](hardware-guides/the-things-network/README.md)
   * [Getting Started](hardware-guides/the-things-network/getting-started.md)
   * [Automated Device Onboarding](hardware-guides/the-things-network/automated-device-onboarding.md)
   * [Best Practices](hardware-guides/the-things-network/best-practices.md)
-* [NCD Industrial Vibration Sensor](hardware-guides/ncd-industrial-vibration-sensor.md)
 * [Blues](hardware-guides/blues.md)
+* [NCD Industrial Vibration Sensor](hardware-guides/ncd-industrial-vibration-sensor.md)
+* [Particle - monitor with Blynk](hardware-guides/particle.md)
+* [Particle - control with Blynk](hardware-guides/particle-part-ii.md)
 
 ## Blynk.Console
 
