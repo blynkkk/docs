@@ -48,6 +48,7 @@
   * [Automated Device Onboarding](hardware-guides/the-things-network/automated-device-onboarding.md)
   * [Best Practices](hardware-guides/the-things-network/best-practices.md)
 * [NCD Industrial Vibration Sensor](hardware-guides/ncd-industrial-vibration-sensor.md)
+* [Blues](hardware-guides/blues.md)
 
 ## Blynk.Console
 
