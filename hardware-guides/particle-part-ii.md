@@ -103,7 +103,11 @@ int blynkLED(String on_off) {
 
 Upload the firmware code to the Boron and then continue to power it so it can connect to the Particle cloud. Go to your Particle [console](https://console.particle.io/), select the Boron device, and then under the section ‘FUNCTIONS’ on the right side of the screen you will see the function key of ‘blynk\_led’ listed. Enter ‘on’ in the ‘Argument’ input area and click the ‘CALL’ button. Observe the Boron to confirm that the built-in blue LED on D7 turns on. Repeat, this time with the ‘off’ argument to turn off the LED.&#x20;
 
-![](https://lh4.googleusercontent.com/L8hKwu7McYIfqjAxomWYTTgCPNQGXSET32Pv9faNrJU60HtQ7RK7inZ4jLfpCZQxAt5B5zO7nODAj2yDoZrfwFygT0TH5rbVwvxfmb8LgmI5BF1tJWdON-YDY74\_oIT8gOICLsTXPwHB5EjIDd43osk)
+<div align="left">
+
+<figure><img src="../.gitbook/assets/functions_particle_blynk.jpg" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### Particle API
 
@@ -189,7 +193,11 @@ _If you already followed the steps from the prior article “_[_How to connect a
 
 Using the Blynk Datastream Definitions listed in the table, create or edit a device template named ‘BRN404X’ as shown below.
 
-<figure><img src="../.gitbook/assets/6.png" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/6.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 Three datastreams of data types integer, enumerable, and string will be created to illustrate how each can be used to control the LED on the Particle Boron. In a real application, you would only need to employ one of these.&#x20;
 
