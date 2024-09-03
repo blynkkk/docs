@@ -17,7 +17,7 @@ Check part two of the article in order to learn [how to control your Particle de
 
 The Particle device is a [Boron 404x](https://store.particle.io/collections/boron-lte/products/boron-lte-cat-m1-noram-with-ethersim-4th-gen) cellular LTE Cat M1 device. A [GPS FeatherWing](https://www.adafruit.com/product/3133) with an [external active 28 dB GPS antenna](https://www.adafruit.com/product/960), and a [SMA to uFL/u.FL/IPX/IPEX RF adapter cable](https://www.adafruit.com/product/851) provides GPS functionality. The Boron and the GPS FeatherWing communicate over the Boron UART pins.
 
-<figure><img src="https://lh6.googleusercontent.com/A1dAS8vRquXblANVUZE2KWDUf3Tm_W2zsOsx_n8WMYfbaG3c3xvTTFqmUmHgQBgqi9ZwS3zJHGrGR05p1fdzGBa4-nsCvnMetcj2lHQUtlVjJNpxSXkCmqiL8nKEcbnUf5vUgBBQB_cGTvXcMnG84_E" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/hardware_particle.png" alt=""><figcaption></figcaption></figure>
 
 ## Software
 
@@ -45,7 +45,11 @@ Blynk Datastreams are bi-directional channels assigned a data type and link to d
 
 Using the Blynk Datastream Definitions listed in the table, create a device template named ‘BRN404X’ as shown below.
 
-<figure><img src="../.gitbook/assets/0.png" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/0.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 Click on the ‘Templates->Datastreams’ tab and configure the datastreams as defined in the Blynk Datastream Definitions table with the options as shown below. It is important to configure the Pin, Data Type, Is Raw, Min, Max, and Default Value as shown.
 
@@ -55,7 +59,7 @@ Click on the ‘Templates->Datastreams’ tab and configure the datastreams as d
 
 Create a web dashboard by navigating to ‘Templates->\[template name = BRN404X]’ and then click on the ‘Web Dashboard’ tab. Create a dashboard as shown below.
 
-<figure><img src="https://lh5.googleusercontent.com/cjvwM4D3VWS3KRBt3PukNyLvofxxhMnW8CyYQriBr1Mt8r-c3F_wuxz7dViC53V9CO4G50ljLQsGOY_AoFx9IyK0N8RO-H3NNjmJxTV8YRu60jgSXy8rsfO_8Ql7lhpWsdgRR9Rn90FK1GcFbYROA6k" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/particle_web_dashboard.jpeg" alt=""><figcaption></figcaption></figure>
 
 A chart widget is used for the two datastreams associated with the two digital inputs because the value assigned to the datastream is the count of state changes. Details on the configuration of each widget is shown below.
 
@@ -84,7 +88,11 @@ Static tokens will be used for device authentication because the device is cellu
 
 After you click the ‘Create’ button, a device page will open and the Template ID, Device Name, and AuthToken will be shown in the upper right of the screen.
 
-<figure><img src="https://lh5.googleusercontent.com/1XSQbFpH0dIrw5naZVb0JEEgpXxXbUx7oQlZH45yS4I7KqvjaLghp04o7al7IzZ04bUM-iVfDi-btZNfri0FWd9c55__hq5C211VbH_INf4civt72ZpDeU1cwL28RkcvCJF0qnU4sriTdK2_R4oPSIY" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/new_device created.jpeg" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
 
 Write down the Device name you picked, and then the BLYNK\_TEMPLATE\_NAME and the BLYNK\_AUTH\_TOKEN shown in the panel because you will need them later.
 
@@ -100,7 +108,7 @@ Note that datastream V6 was omitted for now, and the location datastream V3 is f
 
 Paste the HTTP GET request into an internet browser to update the datastreams in the Blynk Cloud, and then observe the changes in the Blynk.Console by navigating to ‘Search -> My Devices -> Device -> Dashboard’. The browser will respond with nothing if the HTTP GET request is accepted, or a JSON string with an error if it is not.
 
-<figure><img src="https://lh6.googleusercontent.com/IzXVbEjTUKjQJR2noSgGtCFu3PuhWiSZuj8TLEfKyhVWLN0hlIX0M2cN_BU8FF53T01kh7_JUjMwUL8O2GHUGKnZNEXVCkwkMrY5f9NRvFEhIEFnPVMItNqwD2abaHkC4Els_oNEDMOqVG3dK-DN9K0" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/HTTP GET request updates the widgets.jpeg" alt=""><figcaption></figcaption></figure>
 
 Once you have confirmed that the HTTP GET request properly updates the widgets on your Blynk web dashboard, you are then ready to create the Particle webhook / integration.
 
@@ -110,7 +118,11 @@ We are going to create a Particle integration webhook running on the Particle cl
 
 Login to your [Particle Console](https://docs.particle.io/getting-started/console/console/) and click on the [‘Integrations’ ](https://console.particle.io/integrations)sidebar option. Click on the ‘NEW INTEGRATION’ shown on the page, and then select the ‘Webhook’ option.
 
-<figure><img src="https://lh5.googleusercontent.com/jCTiR_P9AMWZLuyH685VEUiuhfcKYeeI-61H8dM4istQGLoUQWCXa6Nz73tMgyVZu7f1w3cy8Z-L6xGONj9C33Vr6yxrQSBkKtLpOyBHH2TJlsohASh2Nn4u2QGrg2TFo_aPZ3DZOhUn7Ee1a5tJFtY" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/NEW INTEGRATION.jpeg" alt="" width="237"><figcaption></figcaption></figure>
+
+</div>
 
 <figure><img src="../.gitbook/assets/5 integration 2.jpeg" alt=""><figcaption></figcaption></figure>
 
@@ -124,17 +136,17 @@ The webhook is not complete yet. The query parameters need to be defined. Click 
 
 Click on the ‘Advanced Settings’ link at the bottom of the page and then under the ‘QUERY PARAMETERS’ section, choose the ‘Custom’ option. Build the query parameters as shown below, using the ‘+ ADD ROW’ button at the bottom to add a row for each query parameter.
 
-<figure><img src="https://lh3.googleusercontent.com/xInLuy3kptahf9N66oC4KZV5SqsCDU4hoi3EJH_bxkqflcWtpCHDY0_6H6rK4L6VE2C-Za9L1kthf2T0knIHda1PjH1x8m1XpyGqN4EHhVGi4zHlYEZeZjMvJudTd9CSIcd8tMdbPEcGVQ4_GZwp5ao" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/QUERY PARAMETERS.jpeg" alt=""><figcaption></figcaption></figure>
 
 The keys on the left (token, V0, V1 .. V6) refer to Blynk virtual pins (datastreams), and the values on the right for ‘v0, v1, pot, lon, lat, spd, moved’ reference variables from the firmware that will be passed from the Particle.publish() function. The value ‘PARTICLE\_PUBLISHED\_AT’ for virtual pin V6 is a [Particle pre-defined variable](https://docs.particle.io/reference/cloud-apis/webhooks/#pre-defined-variables) that provides a timestamp for when the webhook is executed.
 
 At the bottom of the form, make sure the ‘ENFORCE SSL’ option is set to ‘Yes’, and then click the ‘SAVE’ button to save your changes.
 
-<figure><img src="https://lh5.googleusercontent.com/MztotjQU53s17fk5Jk3ThkH5ApKTQpFk2whJqReEFNK9iVNiwJDIYNcg2gFr8o2lLscu3QQcKymKS5hCgr_U-tKRoELdDbba2C6idllAfx3QDBrVMD1pou6l1AUM7368nifMIiMlnUTeipSDu0896o0" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ENFORCE SSL.jpeg" alt=""><figcaption></figcaption></figure>
 
 After you save your webhook, a summary of the configuration will be shown. Make sure it matches exactly what is shown below (except for the server address).
 
-<figure><img src="https://lh5.googleusercontent.com/cGxm5M_ycDj0N4O9JNcOFnSYK7VGjwZPkFvvX2hymjK_ixRDKEOt4b-uxWRYjfdTtkDNfxgD2u4gceIgtJEusdSJQGGcMU72pug4zs9B_OYddHgWJKAyeqSy8nUbhnHd3w9vZKXdffTesytc2MuHG3s" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/a summary of the configuration.jpeg" alt=""><figcaption></figcaption></figure>
 
 Note that we will be passing the unique BLYNK\_AUTH\_TOKEN defined in the firmware for each device to the Particle webhook as the variable ‘t’. This allows each device to call the same webhook, at the expense of increasing the cellular payload for each transmission by 32 bytes.
 
@@ -580,7 +592,7 @@ The automation can be created from either the [Blynk.Console](broken-reference/)
 
 Begin by making the three datastreams V0, V1, and V5 available to Automation actions and conditions. In the Blynk.Console, navigate to ‘Templates -> Automations’. Click on the ‘Edit’ button at the top right of the page and then enable both the ‘Condition’ and ‘Action’ switches for the V0, V1, and V5 datastreams. Click the ‘Save And Apply’ button at the top right of the page when you are finished.
 
-<figure><img src="https://lh6.googleusercontent.com/Fx97nj0H_qik8uTVWRQsY_sA7b7EMy1Sb4CEUo5IWR-iDqJdXYHzMNvCnoFFu0QnCf2icpCy-RcHikN5iHfXV3pIdfQKjhTJN0QXjzkbIukwXpxY7dXwOv8GXO2TuKxSt6nfzutFjwM6ABGX22z0I4Y" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Automations.jpeg" alt=""><figcaption></figcaption></figure>
 
 #### Configure an Automation for the Pushbutton Connected to D8
 
@@ -594,27 +606,47 @@ Create the automation by navigating to the ‘Automations’ page in the Blynk.C
 
 Name the first automation ‘pushbutton\_D8’ by editing the field at the top of the page labeled ‘New Automation’. Under the ‘When’ section, choose the device ‘boronb’, the datastream ‘pushbutton\_D8’ (V0), and then assign the type of datastream value change of ‘Is On’ because the device will set the datastream value back to zero once the pushbutton connected to the device digital input is released.
 
-<figure><img src="https://lh4.googleusercontent.com/HpNcx7vqUKC-DymeYryj6lzjcEjqleQ3HCmGx0bSLL4gBsNWZv334ZiT_CHlOGy7fGZ0d6Urq2OGqBqaubD5vLQLddi1KF-GdM4k0qQa5d3CRsKMYs7jXCubEVCQfhmLWHo-F6fjP2vduaQ8KznZ-bU" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/configure the automation.jpeg" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 Under the section ‘Do this’, choose the ‘@ Send E-Mail’ option and fill out the form as shown below. The placeholder fields {DEVICE\_NAME} and {TRIGGER\_VALUE} may be typed in as shown, or drag and dropped from ‘Device name’ and ‘Trigger value’ shown at the bottom of the page.
 
-<figure><img src="https://lh4.googleusercontent.com/XOngLJo9zELkOEgv5QRmBNhr4lby8Sc9NZQSG3PeLYykP140FnCAbp1jg_NdpnXVCa6MdveKDeDqNoY7DZJEOm1YT6dh3Os74V1QDGbJRngM137YO1BKR995oOUsit698wiictIvrs0Iap2yy1qBKkw" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/configure action.jpeg" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 When you are finished configuring the action, click ‘Save’ at the top right of the page. The new automation will appear in the Automations page, and you can see that by default, the automation is enabled.
 
-<figure><img src="https://lh5.googleusercontent.com/qPNANn2m3xcs1hJiiy0KX1dO18KeXSd0cEFmCjUUlQC98MEYzLcm-Od16UMRgGUD0T_CMhDDgqs55Xes_51Xunv7XgyjIBEWpclT2K7ur0OjgOeCtXXSJSnDG51kmxt_w_9npjH2KC6tjk0GULgdBRc" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/automation enabled.jpeg" alt="" width="507"><figcaption></figcaption></figure>
+
+</div>
 
 Go to the Blynk.App mobile app and navigate to ‘Automations’. You will see the automation you just created. From here you can enable/disable the automation, and edit the automation options.
 
 Trigger the automation by pressing the pushbutton on your device connected to the Boron digital input D8. Then monitor the email account(s) assigned as the recipient(s) of the automation.
 
-<figure><img src="https://lh6.googleusercontent.com/v2lYEwuezwB-Heo6Ydv96v_ZNxWDJBC5bSx7fgO22Zl_xvbfmCJ0C-MKrukNsKe0U-WuW9RsdmwNy8TBQDfZhW_kU79jUTnTschJZGVsYWuadPZRqHzc2QMsXdc3h83kBvGaU7OcVWEkpXTKNZ1ZbkM" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/email sent.jpeg" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 #### Configure an Automation for the Pushbutton Connected to D6
 
 Repeat the prior steps of configuring an automation for ‘pushbutton\_D8’ for the datastream ‘pushbutton\_D6’ (V1), except this time choose the action option of ‘Send In-App Notifications’.
 
-<figure><img src="https://lh5.googleusercontent.com/yCBW401HtMYh5n31Ov1LbTA1G9FZCpYGhGXb6YkOWnoZWb6emNGSDXbtMGD8qBUuMtDAxqqVYBBnwLdQ39ivqVs7tEes4eVLIF68UzfQ_O6k7ucjOD0YtGbLsGkRSEGJH3DO7repsr1060FB13t7wS8" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/v6_automation.jpeg" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 Save the automation. Close the Blynk app on your mobile phone and then load it again so that the automation you just created is loaded. Verify that the automation ‘pushbutton\_D6’ is shown in the Blynk.App ‘Automations’ page. Then trigger the automation by pressing the pushbutton on your device connected to the Boron digital input D6. You should receive a notification on your mobile phone with the message defined for the automation.
 
@@ -632,7 +664,11 @@ We are going to add a new device named ‘boronc’ based on the template ‘BRN
 
 From the Blynk.Console, navigate to ‘Static Tokens’ and then click ‘+ Generate Static Tokens’, and select the ‘Generate Multiple’ option. Choose the template ‘BRN404X’ and leave the ‘NUMBER OF TOKENS TO CREATE’ set to the value of ‘1’. Click the ‘Create Tokens’ button.
 
-<figure><img src="https://lh5.googleusercontent.com/FH7_nLS3t_Bd5F6cBQ8PEUVyUD96jwVrYI1Bffp1S4-NQLIhS_2qXKo5ICd-cf5QX_BARdW25T6EXW2i3OGAU7NY6dRjWmKjOc5zwRg8VpM38K0zNk8MI3HhthqxioQxgyHF1NN61iNWJVH0Eqrrr1s" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/generate static tokens.jpeg" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 <div align="left">
 
