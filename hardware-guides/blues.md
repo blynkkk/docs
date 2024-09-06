@@ -18,6 +18,17 @@ Next, open the Blynk Console, go to **Developer Zone** -> **Integrations** -> **
 
 <figure><img src="../.gitbook/assets/Снимок экрана 2024-08-26 в 13.48.20.png" alt=""><figcaption><p>Blynk integrations page</p></figcaption></figure>
 
+Finally, create the Blynk Route in your Notehub project:
+
+1. Open your Notehub project and navigate to **Routes** -> **+ Create Route** -> **Blynk**.
+2. Fill in the Blynk region and click **Save**.
+
+<figure><img src="../.gitbook/assets/blynk-route-creation-notehub.png" alt=""><figcaption><p>Blynk Route creation on Notehub</p></figcaption></figure>
+
+You can find the Blynk region at the bottom right of the Blynk Console:
+
+<figure><img src="../.gitbook/assets/blynk-region.png" alt=""><figcaption></figcaption></figure>
+
 ## Configuring a Device Template
 
 Now that the integration is configured, you can create a device template. Each template is mapped to [a Notehub ProductUID](https://dev.blues.io/api-reference/glossary/#productuid) to group common devices.
