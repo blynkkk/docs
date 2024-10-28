@@ -7,9 +7,7 @@ description: How multi-tenant tree-like organizational structure works
 Every user of Blynk is a member of an Organization. This could be a one-person organization, a family, or a company with hundreds of employees.
 
 {% hint style="warning" %}
-Creating a multi-level organizational structure is a feature available for **PRO or higher-paid** plans.&#x20;
-
-The **FREE and PLUS** plans support multiple users, and the assignment of roles to those users ([see plan limits](https://blynk.io/pricing)).
+Creating a multi-level organizational structure is a feature available for **PRO or higher-paid** plans.
 {% endhint %}
 
 ### Introduction
