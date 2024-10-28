@@ -46,6 +46,9 @@ For downlinks, Blynk will send a `blynk.qi` [Notefile](https://dev.blues.io/api-
 ```json
 {
   "coffee_strength": 3
+  "idle": false,
+  "state": "Working",
+  "location": [-73.935242, 40.730610]
 }
 ```
 

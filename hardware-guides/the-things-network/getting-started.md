@@ -41,7 +41,10 @@ For uplinks, Blynk requires the data to be in _key-value_ pair format, where the
 ```json
 {
   "temperature": 24.1,
-  "humidity": 54
+  "humidity": 54,
+  "idle": false,
+  "state": "Working",
+  "location": [-73.935242, 40.730610]
 }
 ```
 
