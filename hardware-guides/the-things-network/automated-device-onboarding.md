@@ -85,3 +85,18 @@ LW:D0:70B3D57ED0000010:0018B20000000101:000AF8BE
 ```
 
 Then this QR code can be scanned in the same way as Static Tokens in the mobile application or on the console. Once the device is created, it will be automatically onboarded on The Things Network.
+
+## Re-provisioning
+
+If you've changed your hardware or updated any LoRaWAN connection parameters (such as DevEUI, AppEUI/JoinEUI, or Application Key), you will need to create a new device in TheThingsStack.
+
+To retain the historical data, settings, or any other details for the old device in Blynk, follow these steps:
+
+1. Navigate to the **Device Information & Metadata** tab for the old device in Blynk.
+2. Update the **TheThingsNetwork Device ID** metafield.
+3. Optionally, you can also update other related metafields like **DevEUI**, **JoinEUI**, and **Application Key**.
+
+{% hint style="danger" %}
+If the new device goes online in TheThingsStack before updating the metafields in Blynk, it may be automatically imported into Blynk. In case of a **TheThingsNetwork Device ID** collision (where two devices have the same ID), Blynk will randomly select one device.\
+To resolve this, simply delete the automatically imported device to ensure the correct one is used.
+{% endhint %}
