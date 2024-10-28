@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Bluetooth (2.0 SPP, 4.0 LE)
 
 {% hint style="warning" %}

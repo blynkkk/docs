@@ -2,6 +2,7 @@
 description: >-
   Does my hardware work with Blynk? Which example code should I use with my
   hardware?
+hidden: true
 ---
 
 # How to find code for my hardware?

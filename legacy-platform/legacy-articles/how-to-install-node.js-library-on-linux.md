@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # How to install Node.js library on Linux
 
 {% hint style="warning" %}

@@ -1,5 +1,6 @@
 ---
 description: How to connect Raspberry Pi and Blynk
+hidden: true
 ---
 
 # Raspberry Pi and Blynk

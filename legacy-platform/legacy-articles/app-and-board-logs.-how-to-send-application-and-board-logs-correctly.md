@@ -2,6 +2,7 @@
 description: >-
   Logs are a very powerful tool in the hands of our developers. Using them we
   can find a cause of an issue within a minimum amount of time.
+hidden: true
 ---
 
 # App and board logs. How to send application and board logs correctly

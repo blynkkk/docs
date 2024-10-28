@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # USB Serial
 
 {% hint style="warning" %}

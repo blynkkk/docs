@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Implementing a Blynk client (library)
 
 {% hint style="warning" %}

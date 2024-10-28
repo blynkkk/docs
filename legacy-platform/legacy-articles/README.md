@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Legacy articles
 
 {% hint style="warning" %}

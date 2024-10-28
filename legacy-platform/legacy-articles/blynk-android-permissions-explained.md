@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Blynk Android permissions explained
 
 {% hint style="warning" %}

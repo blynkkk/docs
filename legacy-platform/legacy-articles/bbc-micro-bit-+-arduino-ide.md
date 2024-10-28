@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # BBC micro:bit + Arduino IDE
 
 {% hint style="warning" %}
