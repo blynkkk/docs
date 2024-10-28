@@ -15,7 +15,7 @@ Click on auth token or template ID to copy.
 ### Vitals
 
 {% hint style="info" %}
-This feature is available in the Maker and higher plans.
+This feature is available in the PRO and higher plans.
 {% endhint %}
 
 The Vitals section provides real-time monitoring metrics and insights into the device's performance. It is divided into several key areas:

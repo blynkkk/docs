@@ -85,7 +85,7 @@ If the value of the Datastream will be used to trigger an action, then enable th
 
 You may create an Automation scenario in either the [Blynk.Console](broken-reference), or the [Blynk.App](broken-reference). Creating an Automation in one app will cause it to be accessible in the other app (you may need to refresh the other app).
 
-###
+
 
 ### 2. Create an Automation
 

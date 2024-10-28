@@ -4,7 +4,7 @@ description: Access and permissions management for different user roles
 
 # Roles and Permissions
 
-Free and Maker plans have a locked set of permissions for each role, meaning the default permissions by role cannot be changed. PRO and Business plans have permissions that may be edited by role.
+Free plan has a locked set of permissions, meaning the default permissions by role cannot be changed. PRO and Business plans have permissions that may be edited by role.
 
 ## Editing Roles and Permissions
 

@@ -22,5 +22,3 @@ Developer can:
 ### Multiple developers
 
 It’s allowed to add multiple developers per Organization within the [PRO or Business plans](https://blynk.io/pricing). Assign a user the Admin role in your Organization so they can switch to the Developer mode.
-
-For Free and Plus plans, if you want some other user to be a developer in your organization you should first switch off the dev mode in your account either in Blynk.Console or Blynk.App. After that the other user can switch it on.

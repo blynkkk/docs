@@ -6,7 +6,7 @@ Blynk allows you to share devices with other users - from a few to thousands and
 
 When a user subscribes to a [Blynk plan](https://blynk.io/pricing), they become by default a user of type [Developer](./#developers),  assigned the role of [Admin](./#roles-and-permissions) to the [root organization](../organizations.md). The number of additional users varies by [plan](https://blynk.io/pricing), and so does the ability to revise the [set of permissions](../../blynk.console/settings/access.md) for each role. &#x20;
 
-Free and Plus plans have a locked set of permissions for each role, meaning the default permissions by role cannot be changed. PRO and Business plans have permissions that may be edited by role.
+Free plan has a locked set of permissions, meaning the default permissions by role cannot be changed. PRO and Business plans have permissions that may be edited by role.
 
 
 
@@ -24,7 +24,7 @@ It is possible for all plans to invite a user to your organization and assign th
 it is only possible to invite users if they don't have a Blynk account associated with this email. In other cases they should either delete their account before being invited or use some other email.
 {% endhint %}
 
-**PRO, Plus, Free plans:** In order to give other users access to your devices, you will need to first invite each user to your organization (or to a sub-organization under yours if you are on PRO). The user will get an invitation sent to their email address and, will be asked to create a password for their Blynk account and then will be able to activate their device with Blynk. Here you can find more information about how to deploy your [WiFi](../../commercial-use/deploying-products-with-dynamic-authtokens.md#delivering-products-to-clients-pro-plan-workflow) and [non-WiFi products](../../commercial-use/deploying-products-with-static-authtokens.md#pro-plan-workflow) to customers using Blynk PRO.
+**PRO plan:** In order to give other users access to your devices, you will need to first invite each user to your organization (or to a sub-organization under yours). The user will get an invitation sent to their email address and, will be asked to create a password for their Blynk account and then will be able to activate their device with Blynk. Here you can find more information about how to deploy your [WiFi](../../commercial-use/deploying-products-with-dynamic-authtokens.md#delivering-products-to-clients-pro-plan-workflow) and [non-WiFi products](../../commercial-use/deploying-products-with-static-authtokens.md#pro-plan-workflow) to customers using Blynk PRO.
 
 **Business plan:** This plan eliminates the need to invite each user via email and allows [self-registration](../../commercial-use/business-plan-white-label-assets/application-settings/sign-up.md). The user can simply purchase your device, follow the instructions to create an account in your Blynk-powered app / web portal and activate their device. Blynk is working on making it possible for **PRO clients** as well with an add-on.
 
@@ -53,12 +53,6 @@ Types of users are related to, but different from [Roles and Permission](../../b
 #### **Developers**
 
 Users of this type have access to all the functionality required to configure the platform for use by end-users (also called Clients). This is usually someone who builds the hardware, develops the firmware, and does all the needed configurations.  By default, the first user in Organization becomes a Developer and is assigned the [role](https://docs.blynk.io/en/blynk.console/settings/access#roles-and-permissions) of Admin.
-
-{% hint style="info" %}
-Currently, only one developer is allowed per Organization for **Free and Plus** plans.
-
-If you want some other user to be a developer in your organization you should first switch off the [dev mode](../developer-mode.md) in your account either in Blynk.Console or Blynk.App. After that the other user can switch it on.
-{% endhint %}
 
 {% hint style="info" %}
 **PRO and Business** plans allow having multiple developers. Assign a user the Admin role in your Organization so they can switch to the Developer mode.
@@ -93,7 +87,7 @@ Each user has a **role** in the organization**.** By default there are three mai
 * **Staff** – we recommend to set up and use this role for internal company functions and client support
 * **Users** – is intended to have the most limited set of permissions, mostly focused on managing their own devices
 
-Each role has a set of permissions. With Free and Plus plans you can change permissions for a specific user by changing their role. PRO and Business plans allow editing permissions by role. Read more about it [here](../../blynk.console/settings/access.md).
+Each role has a set of permissions. PRO and Business plans allow editing permissions by role. Read more about it [here](../../blynk.console/settings/access.md).
 
 
 

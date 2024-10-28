@@ -10,7 +10,7 @@ Button can operate in these modes:&#x20;
 
 1. **Push.** Set to ON state when pressed, then back to OFF state when released
 2. **Switch.** Toggles between ON/OFF state each time it is pressed&#x20;
-3. **Page.** Opens a specified app page when pressed (requires [Plus](https://blynk.io/pricing) plan)
+3. **Page.** Opens a specified app page when pressed (requires [PRO](https://blynk.io/pricing) plan)
 4. **QR.** Opens phone QR Scanner (requires [PRO](https://blynk.io/pricing) plan)
 
 #### How the QR code scanner works
