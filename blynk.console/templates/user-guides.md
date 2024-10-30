@@ -10,15 +10,21 @@ _You can reset the Guides to default by clicking the Reset To Default button_.
 
 > This feature is available with our Enterprise plan. [Contact Sales](https://blynk.io/contact-us-business)
 
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/User Guides.png" alt=""><figcaption><p>User Guides</p></figcaption></figure>
+
+</div>
 
 
-{% embed url="https://embed.figma.com/design/YLKVXxLLrTrK7nKmEA6IAq/Blynk.Documentation---source?embed-host=share&node-id=14-21096" %}
-
-{% embed url="https://embed.figma.com/design/YLKVXxLLrTrK7nKmEA6IAq/Blynk.Documentation---source?embed-host=share&node-id=14-21606" %}
 
 ### Device Installation Guide
 
-{% embed url="https://embed.figma.com/design/YLKVXxLLrTrK7nKmEA6IAq/Blynk.Documentation---source?embed-host=share&node-id=14-21094" %}
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/Device Installation Guide.png" alt=""><figcaption><p>Device Installation Guide</p></figcaption></figure>
+
+</div>
 
 To ensure your guide is clear and well-structured, we support Markdown syntax. Below are the essential Markdown elements you can use:
 
@@ -89,7 +95,11 @@ For more details, visit the [official documentation](https://example.com/documen
 
 ### Device Activation Guide
 
-{% embed url="https://embed.figma.com/design/YLKVXxLLrTrK7nKmEA6IAq/Blynk.Documentation---source?embed-host=share&node-id=14-21096" %}
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/Device Activation Guide.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 To ensure your instructions are clear and well-structured, we support Markdown syntax. Below are the essential Markdown elements you can use:
 
