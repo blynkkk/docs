@@ -112,6 +112,7 @@
       * [Content Events](blynk.console/templates/events/custom-events/events-content-events.md)
     * [Notifications Settings](blynk.console/templates/events/events-notification-settings/README.md)
       * [Custom Sounds and Critical Notifications](blynk.console/templates/events/events-notification-settings/custom-sounds-and-critical-notifications.md)
+  * [User Guides](blynk.console/templates/user-guides.md)
 * [Widgets (Console)](blynk.console/widgets-console/README.md)
   * [Switch](blynk.console/widgets-console/switch.md)
   * [Slider](blynk.console/widgets-console/slider.md)
