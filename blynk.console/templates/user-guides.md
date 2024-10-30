@@ -12,6 +12,8 @@ _You can reset the Guides to default by clicking the Reset To Default button_.
 
 
 
+{% embed url="https://embed.figma.com/design/YLKVXxLLrTrK7nKmEA6IAq/Blynk.Documentation---source?embed-host=share&node-id=14-21096" %}
+
 {% embed url="https://embed.figma.com/design/YLKVXxLLrTrK7nKmEA6IAq/Blynk.Documentation---source?embed-host=share&node-id=14-21606" %}
 
 ### Device Installation Guide
