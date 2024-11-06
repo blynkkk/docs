@@ -29,10 +29,10 @@ You'll get a Dashboard view like this one as result:
 {% hint style="warning" %}
 **IMPORTANT!** At this stage you have set up a dashboard _template_ only and it will not yet connect to your actual devices. You will need to save the template and apply it to actual devices.
 
-In order to see actual data and interact with your device, you need to go to your devices: Search → My Devices → Device%2F
+In order to see actual data and interact with your device, you need to go to your devices: Search -> My Devices -> Device&#x20;
 {% endhint %}
 
-## Switch widget settings
+## Switch Widget Settings
 
 Hover on the widget and you will see a **Configure** (gear) button. Click it and it will open widget settings. Set up the widget as in the picture below:
 
@@ -55,10 +55,10 @@ Click **Save** button at the top right of the screen to save all the changes mad
 {% hint style="warning" %}
 **IMPORTANT!** At this stage you have set up a dashboard _template_ only and it will not yet connect to your devices. You will need to save the template and apply it to actual devices.
 
-In order to see actual data and interact with your device, you need to go to your devices: Search → My Devices → Device%2F
+In order to see actual data and interact with your device, you need to go to your devices: Search -> My Devices -> Device&#x20;
 {% endhint %}
 
-A more detailed guide on how to configure/manage a more robust web dashboard for your device you can find here:
+A more detailed guide on how to configure/manage a more robust Web Dashboard for your device you can find here:
 
 {% content-ref url="../../blynk.console/templates/dashboard/" %}
 [dashboard](../../blynk.console/templates/dashboard/)
