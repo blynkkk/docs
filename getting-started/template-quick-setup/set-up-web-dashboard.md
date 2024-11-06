@@ -28,9 +28,9 @@ You'll get a Dashboard view like this one as result:
 
 {% hint style="warning" %}
 **IMPORTANT!** At this stage you have set up a dashboard _template_ only and it will not yet connect to your actual devices. You will need to save the template and apply it to actual devices.
-{% endhint %}
 
 In order to see actual data and interact with your device, you need to go to your devices: Search → My Devices → Device%2F
+{% endhint %}
 
 ## Switch widget settings
 
@@ -48,15 +48,15 @@ On this widget, we will be showing data from the device in real-time from the `V
 
 On this widget, we will be showing historical data from the device from the `V0` Datastream.
 
-<figure><img src="../../.gitbook/assets/15-templat Quick Set-Web Dash Chart Set 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/15-templ quick set-web dash-chart set 1.png" alt=""><figcaption></figcaption></figure>
 
-Click **Save** button at the top right of the screen to save all the changes made to the template.
+Click **Save** button at the top right of the screen to save all the changes made to the Template.
 
 {% hint style="warning" %}
 **IMPORTANT!** At this stage you have set up a dashboard _template_ only and it will not yet connect to your devices. You will need to save the template and apply it to actual devices.
-{% endhint %}
 
 In order to see actual data and interact with your device, you need to go to your devices: Search → My Devices → Device%2F
+{% endhint %}
 
 A more detailed guide on how to configure/manage a more robust web dashboard for your device you can find here:
 
