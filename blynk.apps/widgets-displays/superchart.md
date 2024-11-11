@@ -2,7 +2,7 @@
 
 Visualize live and historical data in a chart from one or more datastreams. Applications include sensor data and binary event logging. The widget can handle multiple datastreams, shows the Y axis values, and supports the chart types of line, step, area, bar and state.
 
-Also, see the [Simple Chart widget](simple-chart.md) that supports data aggregation options of average and sum as well as live data plotting.
+Also, see the [Simple Chart widget](simple-chart.md) that supports data aggregation options of average and sum.
 
 
 
