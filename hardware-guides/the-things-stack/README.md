@@ -1,5 +1,7 @@
 ---
-description: The integration with The Things Network details
+description: >-
+  The details of integration with The Things Stack (including The Things
+  Network)
 ---
 
 # The Things Stack
