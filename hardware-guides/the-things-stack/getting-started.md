@@ -4,9 +4,9 @@ description: Create a template, set up the integration and import your first dev
 
 # Getting Started
 
-The easiest way to prototype a device on Blynk and correctly configure the integration is to use a device that is already [connected to The Things Stack](https://www.thethingsindustries.com/docs/devices/adding-devices/). Once the device is connected and successfully goes online, [create a new template on Blynk](../../getting-started/template-quick-setup/) for this device. Once you have created a new template, navigate to the **Developer Zone -> Integrations -> The Things Network**. Click the "**+ Add**" button and select the template you previously created.
+The easiest way to prototype a device on Blynk and correctly configure the integration is to use a device that is already [connected to The Things Stack](https://www.thethingsindustries.com/docs/devices/adding-devices/). Once the device is connected and successfully goes online, [create a new template on Blynk](../../getting-started/template-quick-setup/) for this device. Once you have created a new template, navigate to the **Developer Zone -> Integrations -> The Things Stack**. Click the "**+ Add**" button and select the template you previously created.
 
-<figure><img src="../../.gitbook/assets/add-application.png" alt="" width="563"><figcaption><p>Create a new The Things Network Application on Blynk</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/add-application.png" alt="" width="563"><figcaption><p>Create a new The Things Stack Application on Blynk</p></figcaption></figure>
 
 In the application settings, fill in The Things Stack hostname, username, and password. To [obtain the credentials](https://www.thethingsindustries.com/docs/integrations/mqtt/#creating-an-api-key), navigate to the application page you wish to connect on The Things Stack. Click on the **Integrations** button in the left sidebar and select **MQTT**. Copy the Public TLS address under the MQTT server host section and paste it into Blynk (if you are going to use non-TLS MQTT address, change the switch to "**Insecure**"). Then, copy the username from the page and paste it into Blynk. After that, click on the "**Generate new API key**" button, copy the password, and paste it into Blynk.
 
