@@ -1,9 +1,9 @@
 # Automated Device Onboarding
 
 {% hint style="success" %}
-**Prefer Device Provisioning through Blynk**
+**Use Device Provisioning through Blynk Where Possible**
 
-For easier maintenance and to avoid potential errors, it is recommended to prefer device provisioning through Blynk rather than The Things Stack. This approach also simplifies the device activation process, making it more user-friendly.
+For easier maintenance and to minimize potential errors, device provisioning through Blynk is strongly recommended over The Things Stack. This approach streamlines the device activation process, making it more efficient and user-friendly.
 {% endhint %}
 
 To enable the Automated Device Onboarding through Blynk, follow these steps:
@@ -14,7 +14,7 @@ To enable the Automated Device Onboarding through Blynk, follow these steps:
 4. Specify the addresses of The Things Stack components, which can be found by navigating to **Home -> Admin panel -> Network information** at the bottom of the page. If you are using The Things Stack Sandbox, all components share the same regional domain.
 5. Save the changes.
 
-<figure><img src="../../.gitbook/assets/the-things-network-advanced-settings.png" alt="" width="563"><figcaption><p>The Things Network Application Advanced Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/the-things-network-advanced-settings.png" alt="" width="563"><figcaption><p>The Things Stack Application Advanced Settings</p></figcaption></figure>
 
 {% hint style="info" %}
 At this point, Blynk creates three new metadata fields in the device template: _Device EUI_, _Join EUI_ (same as App EUI), and _Application Key_.
@@ -94,7 +94,7 @@ Then this QR code can be scanned in the same way as Static Tokens in the mobile 
 
 ## Re-provisioning
 
-If you've changed your hardware or updated any LoRaWAN connection parameters (such as DevEUI, AppEUI/JoinEUI, or Application Key), you will need to create a new device in TheThingsStack.
+If you've changed your hardware or updated any LoRaWAN connection parameters (such as DevEUI, AppEUI/JoinEUI, or Application Key), you will need to create a new device in The Things Stack.
 
 To retain the historical data, settings, or any other details for the old device in Blynk, follow these steps:
 
@@ -103,6 +103,6 @@ To retain the historical data, settings, or any other details for the old device
 3. Optionally, you can also update other related metafields like **DevEUI**, **JoinEUI**, and **Application Key**.
 
 {% hint style="danger" %}
-If the new device goes online in TheThingsStack before updating the metafields in Blynk, it may be automatically imported into Blynk. In case of a **TheThingsNetwork Device ID** collision (where two devices have the same ID), Blynk will randomly select one device.\
+If the new device goes online in The Things Stack before updating the metafields in Blynk, it may be automatically imported into Blynk. In case of a **TheThingsNetwork Device ID** collision (where two devices have the same ID), Blynk will randomly select one device.\
 To resolve this, simply delete the automatically imported device to ensure the correct one is used.
 {% endhint %}
