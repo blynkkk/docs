@@ -8,12 +8,14 @@ description: >-
 
 Blynk offers integration with [The Things Stack](https://www.thethingsnetwork.org/), facilitating bidirectional communication, device lifecycle management, and provisioning.
 
-With this integration, you can control devices from:
+This integration works seamlessly across different instances of The Things Stack, including:
 
 * [The Things Stack Cloud](https://www.thethingsindustries.com/docs/the-things-stack/cloud/)
 * [The Things Stack Enterprise](https://www.thethingsindustries.com/docs/the-things-stack/host/)
 * [The Things Stack Sandbox](https://www.thethingsindustries.com/docs/reference/ttn/)
 * [The Things Stack Open Source](https://www.thethingsindustries.com/docs/the-things-stack/host/)
+
+Regardless of which instance you choose, follow the same integration flow to ensure consistent functionality and smooth operation.
 
 <figure><img src="../../.gitbook/assets/integrations 2.png" alt=""><figcaption><p>Integrations Section</p></figcaption></figure>
 
