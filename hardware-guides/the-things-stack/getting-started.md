@@ -10,15 +10,15 @@ The easiest way to prototype a device on Blynk and correctly configure the integ
 
 In the application settings, fill in The Things Stack hostname, username, and password. To [obtain the credentials](https://www.thethingsindustries.com/docs/integrations/mqtt/#creating-an-api-key), navigate to the application page you wish to connect on The Things Stack. Click on the **Integrations** button in the left sidebar and select **MQTT**. Copy the Public TLS address under the MQTT server host section and paste it into Blynk (if you are going to use non-TLS MQTT address, change the switch to "**Insecure**"). Then, copy the username from the page and paste it into Blynk. After that, click on the "**Generate new API key**" button, copy the password, and paste it into Blynk.
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-18 в 16.36.27.png" alt=""><figcaption><p>Capturing the credentials from The Things Network</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-18 в 16.36.27.png" alt=""><figcaption><p>Capturing the credentials from The Things Stack</p></figcaption></figure></div>
 
 Click the "**Connect**" button at the bottom of the application card on Blynk. You will see the integration status change to "**Connected**".
 
 {% hint style="info" %}
-At this point, the metadata for _TheThingsNetwork Device_ will be created in the template if it wasn't created before. Blynk uses this metadata to identify each device in The Things Stack application.
+At this point, the metadata for _The Things Stack Device_ will be created in the template if it wasn't created before. Blynk uses this metadata to identify each device in The Things Stack application.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/the-things-network-application-connected (1).png" alt="" width="563"><figcaption><p>The Things Network Integration Page with a Connected Application</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/the-things-network-application-connected (1).png" alt="" width="563"><figcaption><p>The Things Stack Integration Page with a Connected Application</p></figcaption></figure>
 
 Once this is done, Blynk will automatically create the device connected to The Things Stack as soon as it sends any data. This device will then be available on the [Devices page](../../blynk.console/devices/).
 
@@ -27,7 +27,7 @@ Once this is done, Blynk will automatically create the device connected to The T
 Once your first device is connected to Blynk, it's time to transfer some data! Start by configuring [the Payload formatter on The Things Stack](https://www.thethingsindustries.com/docs/integrations/payload-formatters/).
 
 {% hint style="danger" %}
-If you are using any provided TheThingsNetwork Payload Formatter, such as a Payload Formatter imported from the TheThingsNetwork Device Repository, additional steps might be required to convert the data format into the format required by Blynk.
+If you are using any provided The Things Stack Payload Formatter, such as a Payload Formatter imported from the The Things Stack Device Repository, additional steps might be required to convert the data format into the format required by Blynk.
 {% endhint %}
 
 ### Uplink
