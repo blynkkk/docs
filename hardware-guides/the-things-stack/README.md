@@ -23,10 +23,14 @@ Regardless of which instance you choose, follow the same integration flow to ens
 [getting-started.md](getting-started.md)
 {% endcontent-ref %}
 
+{% content-ref url="device-grouping.md" %}
+[device-grouping.md](device-grouping.md)
+{% endcontent-ref %}
+
 {% content-ref url="automated-device-onboarding.md" %}
 [automated-device-onboarding.md](automated-device-onboarding.md)
 {% endcontent-ref %}
 
-{% content-ref url="device-grouping.md" %}
-[device-grouping.md](device-grouping.md)
+{% content-ref url="system-datastreams.md" %}
+[system-datastreams.md](system-datastreams.md)
 {% endcontent-ref %}
