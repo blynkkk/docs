@@ -15,7 +15,7 @@ In the application settings, fill in The Things Stack hostname, username, and pa
 Click the "**Connect**" button at the bottom of the application card on Blynk. You will see the integration status change to "**Connected**".
 
 {% hint style="info" %}
-At this point, the metadata for _The Things Stack Device_ will be created in the template if it wasn't created before. Blynk uses this metadata to identify each device in The Things Stack application.
+At this point, the metadata for _TheThingsNetwork Device_ will be created in the template if it wasn't created before. Blynk uses this metadata to identify each device in The Things Stack application.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/the-things-network-application-connected (1).png" alt="" width="563"><figcaption><p>The Things Stack Integration Page with a Connected Application</p></figcaption></figure>
