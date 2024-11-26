@@ -32,11 +32,11 @@ Let's imagine a device, that sleeps most of the time, but is expected to report 
 
 1. **Online** status is applied when the device connects to server and successfully reports data.&#x20;
 2. After stage one is over the server captures disconnection and starts the timer. In 5 minutes the server automatically sets the device to **Standby** status. Your customers will understand that the device is not online, but is operating as expected and won't be concerned about it being Offline or not working. \
-   _Set up a wait between `Online` and `Standby` to 5 minutes._
+   &#xNAN;_&#x53;et up a wait between `Online` and `Standby` to 5 minutes._
 3. The server is waiting for 24 hours for the device to connect and report data (become **Online**). If that doesn't happen, the server applies **No Data Reported** status. This is an indication for you and your customers that something is not working correctly. \
-   _Set up a wait between `Standby` and `No Data Reported` to 24 hours._
+   &#xNAN;_&#x53;et up a wait between `Standby` and `No Data Reported` to 24 hours._
 4. If there is no signal from the device for 3 months, the server applies **No Longer Active** status.\
-   _Set up a wait between `No Data Reported` and `No Longer Active` to 3 months._
+   &#xNAN;_&#x53;et up a wait between `No Data Reported` and `No Longer Active` to 3 months._
 
 
 
@@ -107,19 +107,11 @@ The current daily limit is 100 events per device. For Enterprise clients, this l
 
 Statuses set up in the Connection Lifecycle tab can modify the behavior of the device dashboard UI (except for `online` event) to provide feedback and avoid unwanted user actions. The following options are available:
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/template-settings-connection-lifecycle-status-settings.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/template-settings-connection-lifecycle-status-settings.png" alt=""><figcaption></figcaption></figure></div>
 
 * **Disable all dashboard widgets** - all widgets on device dashboard will be disabled when the status is applied.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/mobile-app-disabled-all-widgets.png" alt="" width="375"><figcaption><p>App with all widgets disabled</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/mobile-app-disabled-all-widgets.png" alt="" width="375"><figcaption><p>App with all widgets disabled</p></figcaption></figure></div>
 
 * **Disable control widgets** - widgets that can accept user input (button, switch, text input, etc.) will be disabled.&#x20;
 
@@ -127,27 +119,15 @@ Statuses set up in the Connection Lifecycle tab can modify the behavior of the d
 Use this option when you don't want users to interact with the device. For example, when the device is offline. &#x20;
 {% endhint %}
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/mobile-app-disabled-control-widgets.png" alt="" width="375"><figcaption><p>App with control widgets disabled</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/mobile-app-disabled-control-widgets.png" alt="" width="375"><figcaption><p>App with control widgets disabled</p></figcaption></figure></div>
 
 * **Display notification on dashboard open** - when users open the device dashboard, a pop up will show up for 3 seconds indicating the state, both on the web and mobile.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/mobile-app-display-notification.png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/mobile-app-display-notification.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 * **Display notification on interaction** - when users try to interact with widgets, a banner will pop up, indicating that the device is in the certain status. You can still interact with widgets and change their state, however, on every interaction you'll get a banner with a warning. This option is the default for all newly created templates.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/mobile-app-display-notification.png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/mobile-app-display-notification.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 If the device is Offline, but [_syncing to the latest server state_](../../blynk.edgent-firmware-api/state-syncing.md) is implemented, the users will be able to change the parameters, but the changes will be applied when the device goes online.&#x20;

@@ -81,7 +81,7 @@ As partners functionality is only available in the Business plans the exact set 
 Access to user management including roles and permissions depends on your [plan](https://blynk.io/pricing).
 {% endhint %}
 
-Each user has a **role** in the organization**.** By default there are three main roles.
+Each user has a **role** in the organizatio&#x6E;**.** By default there are three main roles.
 
 * **Admin** – is intended to have the highest level of permissions
 * **Staff** – we recommend to set up and use this role for internal company functions and client support

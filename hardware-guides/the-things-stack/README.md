@@ -2,9 +2,9 @@
 description: The integration with The Things Network details
 ---
 
-# The Things Network
+# The Things Stack
 
-Blynk offers integration with [The Things Network](https://www.thethingsnetwork.org/), facilitating bidirectional communication, device lifecycle management, and provisioning.
+Blynk offers integration with [The Things Stack](https://www.thethingsnetwork.org/), facilitating bidirectional communication, device lifecycle management, and provisioning.
 
 With this integration, you can control devices from:
 
@@ -23,6 +23,6 @@ With this integration, you can control devices from:
 [automated-device-onboarding.md](automated-device-onboarding.md)
 {% endcontent-ref %}
 
-{% content-ref url="best-practices.md" %}
-[best-practices.md](best-practices.md)
+{% content-ref url="device-grouping.md" %}
+[device-grouping.md](device-grouping.md)
 {% endcontent-ref %}

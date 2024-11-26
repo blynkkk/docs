@@ -6,7 +6,7 @@ For example, a Serial Number Metadata field can be attached to every device, but
 
 Unlike Datastreams, Metadata is not supposed to change very often. &#x20;
 
-![](../../../.gitbook/assets/metadata\_table.PNG)
+![](../../../.gitbook/assets/metadata_table.PNG)
 
 Metadata can be of different types. Choose the most relevant type for every characteristic.\
 For example, if you would need to associate Serial Number with every product, add the “Number” metadata field. Metadata is also used during device provisioning and configiration process. Staff, installing the equipment will be able to fill it in.
@@ -37,7 +37,7 @@ Most of the text fields have 200 characters input limit. Specific differences wi
 
 ### Basic Metadata types&#x20;
 
-![](../../../.gitbook/assets/basic\_metadata\_types.PNG)
+![](../../../.gitbook/assets/basic_metadata_types.PNG)
 
 Those 5 are present in any Product and can not be deleted:
 
@@ -105,7 +105,7 @@ Those 5 are present in any Product and can not be deleted:
 
 
 * **Coordinates** – field name examples: "Factory Location", "Shipping Facility", etc..
-  * **LAT** – set latitude default value here**,  LON** – set longtitude default value here\
+  * **LAT** – set latitude default value her&#x65;**,  LON** – set longtitude default value here\
 
 *   **Switch** – this field purpose is to show to options of the same entity
 
@@ -126,8 +126,8 @@ Those 5 are present in any Product and can not be deleted:
   * **TEXT** – name the table you'll add.
   * **Upload data file (.csv)** – click this area and your PC browser window will be opened. Select the .csv table you want to add and confirm the action. Drag'n'Drop is supported.\
 
-* **IMEI** – type/paste default [International Mobile Equipment Identity](https://en.wikipedia.org/wiki/International\_Mobile\_Equipment\_Identity) here. 15 digits limit.\
+* **IMEI** – type/paste default [International Mobile Equipment Identity](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity) here. 15 digits limit.\
 
-* **ICCID** – type/paste default [Integrated Circuit Card Identifier](https://en.wikipedia.org/wiki/SIM\_card#ICCID) here. \
+* **ICCID** – type/paste default [Integrated Circuit Card Identifier](https://en.wikipedia.org/wiki/SIM_card#ICCID) here. \
 
 * **Firmware Update Control** – provides an option to users [manually control device firmware updates](../../blynk.air/user-controlled-shipments.md).

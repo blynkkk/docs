@@ -16,7 +16,7 @@ The widget has no controls.
 ### Mode
 
 * **SIMPLE** - the datastream value is shown left justified on each line of the LCD. You can add text before and after the value displayed by navigating to ‘Design’ -> ‘FIRST LINE’ and then enter “/value1/ kg” excluding the double quotes. The datastream value of 3.14159 will be displayed as “3.14159 kg”. &#x20;
-* **ADVANCED** - allows you to send clear and positioning commands just like those sent to a physical LCD. See sketch: [LCD Advanced Mode](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/LCD/LCD\_AdvancedMode/LCD\_AdvancedMode.ino)
+* **ADVANCED** - allows you to send clear and positioning commands just like those sent to a physical LCD. See sketch: [LCD Advanced Mode](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/LCD/LCD_AdvancedMode/LCD_AdvancedMode.ino)
 
 
 
@@ -93,19 +93,19 @@ https://{server_address}/external/api/update/?token={your 32 char token}&V1=My%2
 
 #### Changing the datastream value(s): Advanced **Mode**
 
-You cannot use Blynk.virtualWrite() or HTTP API with the LCD widget in advanced mode because the changes to the datastream will not be reflected in the LCD widget.  You must use the functions as demonstrated in the sketch [LCD Advanced Mode](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/LCD/LCD\_AdvancedMode/LCD\_AdvancedMode.ino).
+You cannot use Blynk.virtualWrite() or HTTP API with the LCD widget in advanced mode because the changes to the datastream will not be reflected in the LCD widget.  You must use the functions as demonstrated in the sketch [LCD Advanced Mode](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/LCD/LCD_AdvancedMode/LCD_AdvancedMode.ino).
 
 
 
 {% hint style="danger" %}
-Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](../../blynk.edgent-firmware-api/blynk-timer.md).
+Don't put **`Blynk.virtualWrite()`**&#x69;nto the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](../../blynk.edgent-firmware-api/blynk-timer.md).
 {% endhint %}
 
 
 
-Sketch:  [LCD Advanced Mode](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/LCD/LCD\_AdvancedMode/LCD\_AdvancedMode.ino)
+Sketch:  [LCD Advanced Mode](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/LCD/LCD_AdvancedMode/LCD_AdvancedMode.ino)
 
-Sketch:  [LCD SimpleMode](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/LCD/LCD\_SimpleMode/LCD\_SimpleMode.ino)
+Sketch:  [LCD SimpleMode](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/LCD/LCD_SimpleMode/LCD_SimpleMode.ino)
 
 
 
@@ -124,7 +124,7 @@ Where:&#x20;
 * `propertyValue`: value of the property you want to change
 
 {% hint style="danger" %}
-Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, or use timers.
+Don't put **`Blynk.setProperty()`**&#x69;nto the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, or use timers.
 {% endhint %}
 
 
@@ -160,8 +160,10 @@ Blynk.setProperty(V1, "isHidden", true);
 
 ### Change widget properties via HTTPs API
 
-{% swagger baseUrl="https://{server_address}" path="/external/api/update/property?token={your 32 char token}&pin={your vPin}&{property}={value}" method="get" summary="Updates the Datastream Property and all assigned Widgets" %}
-{% swagger-description %}
+## Updates the Datastream Property and all assigned Widgets
+
+<mark style="color:blue;">`GET`</mark> `https://{server_address}/external/api/update/property?token={your 32 char token}&pin={your vPin}&{property}={value}`
+
 The endpoint allows you to update the Datastream Property value via GET request. All widgets (both web and mobile) that are assigned to this datastream will inherit this property. The Datastream Property is persistent and will be stored forever until you change it with another value. In order to clear the property you need to clear the device data in device actions menu.
 
 **Example:**
@@ -169,47 +171,36 @@ The endpoint allows you to update the Datastream Property value via GET request.
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&color=%23D3435C`
 
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&isDisabled=true`
-{% endswagger-description %}
 
-{% swagger-parameter in="query" name="token" type="string" required="true" %}
-Device [auth token](../../concepts/device.md#authtoken) from Device info
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="query" name="pin" type="string" required="true" %}
-The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v")
-{% endswagger-parameter %}
+| Name                                               | Type   | Description                                                                                                                 |
+| -------------------------------------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------- |
+| {server address}<mark style="color:red;">\*</mark> | string | Get from the bottom right of your Blynk console. [More information](../../blynk.cloud/device-https-api/troubleshooting.md). |
 
-{% swagger-parameter in="query" name="{property}" type="string" %}
-The property of the widget you want to update: `label`, `color`, `isDisabled`, `isHidden`
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
-Get from the bottom right of your Blynk console. [More information](../../blynk.cloud/device-https-api/troubleshooting.md).
-{% endswagger-parameter %}
+| Name                                    | Type   | Description                                                                                                    |
+| --------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------- |
+| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                                       |
+| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v") |
+| {property}                              | string | The property of the widget you want to update: `label`, `color`, `isDisabled`, `isHidden`                      |
+| color                                   | string | button color hexadecimal, must include the hash # character urlencoded as %23                                  |
+| isDisabled                              | string | true or false                                                                                                  |
+| isHidden                                | string | true or false                                                                                                  |
 
-{% swagger-parameter in="query" name="color" type="string" %}
-button color hexadecimal, must include the hash # character urlencoded as %23
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="isDisabled" type="string" %}
-true or false
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="isHidden" type="string" %}
-true or false
-{% endswagger-parameter %}
-
-{% swagger-response status="200" description="Success" %}
+{% tabs %}
+{% tab title="200 Success" %}
 ```
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400" description="Could not find a device token" %}
+{% tab title="400 Could not find a device token" %}
 ```
 {"error":{"message":"Invalid token."}}
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ### **Sync to the latest known state**&#x20;
 

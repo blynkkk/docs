@@ -69,7 +69,7 @@ If you plan to publish your apps to App Store and Google Play app marketplaces y
 For iOS, you would need to enroll in the Apple Developer Program **as an organization**, not as an individual.
 {% endhint %}
 
-Once you have the developer accounts set up, Blynk engineer will guide**,** you through the rest of the procedures needed.
+Once you have the developer accounts set up, Blynk engineer will guid&#x65;**,** you through the rest of the procedures needed.
 
 #### Design Assets
 

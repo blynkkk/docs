@@ -28,7 +28,7 @@ Before creating a map widget, you need to create a Location Datastream, and in o
 
 The map widget requires the use of a Location Datastream. Create a location datastream by editing a template, select ‘Datastreams’ tab, click on ‘+ New Datastream’, and select the option ‘Location’. Max one location datastream per template.
 
-Assign a virtual pin to the location datastream, and a default longitude and latitude positions in [decimal degrees](https://en.wikipedia.org/wiki/Decimal\_degrees) under ‘DEFAULT COORDINATES (LON/LAT)’. The advanced setting ‘Show in Service Charts’ will make this DS available in the list of datastreams in Custom chart (which is often used as a service chart).
+Assign a virtual pin to the location datastream, and a default longitude and latitude positions in [decimal degrees](https://en.wikipedia.org/wiki/Decimal_degrees) under ‘DEFAULT COORDINATES (LON/LAT)’. The advanced setting ‘Show in Service Charts’ will make this DS available in the list of datastreams in Custom chart (which is often used as a service chart).
 
 #### Write Values To Location Datastream
 
@@ -96,7 +96,7 @@ The datastream must have the advanced settings option ‘Save raw data’ enable
 
 The Misc tab allows you to configure the track termination point style, and optionally the track course direction.
 
-![](<../../.gitbook/assets/map\_widget\_settings (5) (4) (1) (1) (5).gif>)
+![](<../../.gitbook/assets/map_widget_settings (5) (4) (1) (1) (5).gif>)
 
 **STYLE: POINT** - choose the track termination style from the options of: Point, Course, Truck, and Device name.
 
@@ -125,5 +125,5 @@ https://{server_address}/external/api/update?token={your 32 char token}&V1=-73.8
 ```
 
 {% hint style="danger" %}
-Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](../../blynk.edgent-firmware-api/blynk-timer.md).
+Don't put **`Blynk.virtualWrite()`**&#x69;nto the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](../../blynk.edgent-firmware-api/blynk-timer.md).
 {% endhint %}

@@ -24,7 +24,7 @@ Click the color you want to change and pick or set a color you want.
 
 {% hint style="info" %}
 _Brand Primary_ and _Primary Colors_ have advanced color picker options;\
-_Positive_, _Warning_ and _Critical_ are limited to 13 grades of green, yellow and red (that's made for data safety purposes).
+&#xNAN;_&#x50;ositive_, _Warning_ and _Critical_ are limited to 13 grades of green, yellow and red (that's made for data safety purposes).
 {% endhint %}
 
 ## Shape

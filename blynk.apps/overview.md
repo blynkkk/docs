@@ -12,7 +12,7 @@ App operates in two modes:
 
 The primary function of Developer Mode in the mobile app is to [build and edit the Mobile Dashboard User interface (GUI) for the given Device Template](constructor.md).
 
-Mobile Dashboard is built from Widgets - modular UI elements which can be positioned on the canvas. Every Widget serves a special function (a button, a slider, a chart, etc). Every Widget has it's own settings based on its functionality**.**
+Mobile Dashboard is built from Widgets - modular UI elements which can be positioned on the canvas. Every Widget serves a special function (a button, a slider, a chart, etc). Every Widget has it's own settings based on its functionalit&#x79;**.**
 
 #### **End-user mode**
 
@@ -26,11 +26,7 @@ Depending on the configuration, home screen can consist of up to 3 sections corr
 
 ### **Devices**
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/Devices-tab.png" alt="" width="563"><figcaption><p>Devices section</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/Devices-tab.png" alt="" width="563"><figcaption><p>Devices section</p></figcaption></figure></div>
 
 This section is open by default when you open the app. All created devices will be listed here and their tiles will look according to their [template ](../blynk.console/templates/)type. To add a device go to the [Right](overview.md#right-menu) menu by tapping the top right button in the navigation bar. There are also options to change how devices are sorted.
 
@@ -43,11 +39,7 @@ This section is visible only when a template has at least one datastream enabled
 To learn how to enable a datastream for automation, please read the [Datastreams](../blynk.console/templates/datastreams/datastreams-common-settings/) article.
 {% endhint %}
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/Automations-tab.png" alt="" width="563"><figcaption><p>Automations section</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/Automations-tab.png" alt="" width="563"><figcaption><p>Automations section</p></figcaption></figure></div>
 
 You can [automate](../concepts/automations.md) your connected devices with the following triggers:
 
@@ -58,11 +50,7 @@ You can [automate](../concepts/automations.md) your connected devices with the f
 
 ### **Notifications & Events**
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/notifications&#x26;events (1).png" alt="" width="375"><figcaption><p>Notifications &#x26; events section</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/notifications&#x26;events (1).png" alt="" width="375"><figcaption><p>Notifications &#x26; events section</p></figcaption></figure></div>
 
 The list of notifications from all devices will be here.
 
@@ -72,11 +60,7 @@ In order to be listed here, the template should have the [Event](../blynk.consol
 
 ## Device dashboard
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/device-dashboard (1).png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/device-dashboard (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 When a user taps on the device tile, the device dashboard will open. It consists of widgets to monitor and control the device. The layout of the widgets and their settings can be edited in the [Developer mode](../concepts/developer-mode.md) and apply to all devices using this template.
 
@@ -86,19 +70,11 @@ The 'i' icon in the top right corner of the dashboard opens the _Device Info_ pa
 
 In the **Device Info** page the metadata for the device is presented. You can edit a device name, view other information like firmware version, etc.
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/device-info.png" alt="" width="375"><figcaption><p>Device Info page</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/device-info.png" alt="" width="375"><figcaption><p>Device Info page</p></figcaption></figure></div>
 
 ### **Device Actions menu**
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/device-actions (1) (1).png" alt="" width="375"><figcaption><p>Device Actions menu</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/device-actions (1) (1).png" alt="" width="375"><figcaption><p>Device Actions menu</p></figcaption></figure></div>
 
 At the top right corner of the Device Info page, there's a 'three dots' icon that opens device actions menu with the following options:
 
@@ -111,19 +87,11 @@ At the top right corner of the Device Info page, there's a 'three dots' icon tha
 
 In the **Device Notifications** page which is opened by tapping on the 'bell' icon in the _Device Dashboard_ page, you'll find the list of all events of the device (for example online, offline and custom [Events](../blynk.console/templates/events/)).
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/device-timeline.png" alt="" width="375"><figcaption><p>Device Notifications page</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/device-timeline.png" alt="" width="375"><figcaption><p>Device Notifications page</p></figcaption></figure></div>
 
 ## Main menu
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/left-menu.png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/left-menu.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 At the top left corner of the main screen, there's a **Burger** icon that opens the main menu when you tap on it. This menu consists of the following entries:
 
@@ -138,11 +106,7 @@ At the top left corner of the main screen, there's a **Burger** icon that opens 
 
 ## **Right menu**
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/right-menu (1).png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/right-menu (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 At the top right corner in the main screen, there's a 'three dots' icon that opens the right sidebar menu when you tap on it.\
 It offers adding a new Device, as well as search and sorting and stacking options for the devices and device groups list.

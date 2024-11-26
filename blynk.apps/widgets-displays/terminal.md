@@ -97,7 +97,7 @@ https://{server_address}/external/api/update/?token={your 32 char token}&V1=my%2
 ```
 
 {% hint style="danger" %}
-Don't put **`Blynk.virtualWrite()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](../../blynk.edgent-firmware-api/blynk-timer.md).
+Don't put **`Blynk.virtualWrite()`**&#x69;nto the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](../../blynk.edgent-firmware-api/blynk-timer.md).
 {% endhint %}
 
 
@@ -106,7 +106,7 @@ Sketch:  [Terminal](https://github.com/blynkkk/blynk-library/blob/master/example
 
 Sketch:[ Basic Sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
 
-Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)[Set Property](https://github.com/blynkkk/blynk-library/blob/master/examples/More/SetProperty/SetProperty\_SingleValue/SetProperty\_SingleValue.ino)
+Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)[Set Property](https://github.com/blynkkk/blynk-library/blob/master/examples/More/SetProperty/SetProperty_SingleValue/SetProperty_SingleValue.ino)
 
 Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonPoll/ButtonPoll.ino)[VirtualPinWrite](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/VirtualPinWrite/VirtualPinWrite.ino)
 
@@ -129,7 +129,7 @@ Where:&#x20;
 * `propertyValue`: value of the property you want to change
 
 {% hint style="danger" %}
-Don't put **`Blynk.setProperty()`**into the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, or use timers.
+Don't put **`Blynk.setProperty()`**&#x69;nto the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, or use timers.
 {% endhint %}
 
 
@@ -171,8 +171,10 @@ Blynk.setProperty(V1, "isHidden", true);
 
 ### Change widget properties via HTTPs API
 
-{% swagger baseUrl="https://{server_address}" path="/external/api/update/property?token={your 32 char token}&pin={your vPin}&{property}={value}" method="get" summary="Updates the Datastream Property and all assigned Widgets" %}
-{% swagger-description %}
+## Updates the Datastream Property and all assigned Widgets
+
+<mark style="color:blue;">`GET`</mark> `https://{server_address}/external/api/update/property?token={your 32 char token}&pin={your vPin}&{property}={value}`
+
 The endpoint allows you to update the Datastream Property value via GET request. All widgets (both web and mobile) that are assigned to this datastream will inherit this property. The Datastream Property is persistent and will be stored forever until you change it with another value. In order to clear the property you need to clear the device data in device actions menu.
 
 **Example:**\
@@ -181,51 +183,37 @@ The endpoint allows you to update the Datastream Property value via GET request.
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&color=%23D3435C`
 
 `https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&isDisabled=true`
-{% endswagger-description %}
 
-{% swagger-parameter in="query" name="token" type="string" required="true" %}
-Device [auth token](../../concepts/device.md#authtoken) from Device info
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="query" name="pin" type="string" required="true" %}
-The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v")
-{% endswagger-parameter %}
+| Name                                               | Type   | Description                                                                                                                 |
+| -------------------------------------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------- |
+| {server address}<mark style="color:red;">\*</mark> | string | Get from the bottom right of your Blynk console. [More information](../../blynk.cloud/device-https-api/troubleshooting.md). |
 
-{% swagger-parameter in="query" name="{property}" type="string" %}
-The property of the widget you want to update: `label`, `color`, `isDisabled`, `isHidden`
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-parameter in="path" name="{server address}" type="string" required="true" %}
-Get from the bottom right of your Blynk console. [More information](../../blynk.cloud/device-https-api/troubleshooting.md).
-{% endswagger-parameter %}
+| Name                                    | Type   | Description                                                                                                    |
+| --------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------- |
+| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                                       |
+| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v") |
+| {property}                              | string | The property of the widget you want to update: `label`, `color`, `isDisabled`, `isHidden`                      |
+| label                                   | string | the text used as widget label                                                                                  |
+| color                                   | string | button color hexadecimal, must include the hash # character urlencoded as %23                                  |
+| isDisabled                              | string | true or false                                                                                                  |
+| isHidden                                | string | true or false                                                                                                  |
 
-{% swagger-parameter in="query" name="label" type="string" %}
-the text used as widget label
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="color" type="string" %}
-button color hexadecimal, must include the hash # character urlencoded as %23
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="isDisabled" type="string" %}
-true or false
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="isHidden" type="string" %}
-true or false
-{% endswagger-parameter %}
-
-{% swagger-response status="200" description="Success" %}
+{% tabs %}
+{% tab title="200 Success" %}
 ```
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400" description="Could not find a device token" %}
+{% tab title="400 Could not find a device token" %}
 ```
 {"error":{"message":"Invalid token."}}
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ### **Sync to the latest known state**&#x20;
 

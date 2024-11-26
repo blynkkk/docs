@@ -15,7 +15,7 @@ sensorData = analogRead(A0); // this is an example of reading sensor data
 Blynk.virtualWrite(V5, sensorData);
 ```
 
-<mark style="color:red;">**Don't put**</mark><mark style="color:red;">** **</mark><mark style="color:red;">**`Blynk.virtualWrite(V5, sensorData);`**</mark><mark style="color:red;">** **</mark><mark style="color:red;">**in the**</mark><mark style="color:red;">** **</mark><mark style="color:red;">**`void loop ()`**</mark><mark style="color:red;">!</mark>
+<mark style="color:red;">**Don't put**</mark><mark style="color:red;">**&#x20;**</mark><mark style="color:red;">**`Blynk.virtualWrite(V5, sensorData);`**</mark><mark style="color:red;">**&#x20;**</mark><mark style="color:red;">**in the**</mark><mark style="color:red;">**&#x20;**</mark><mark style="color:red;">**`void loop ()`**</mark><mark style="color:red;">!</mark>
 
 If you put it code into a `void loop()` it will execute "gazillion" times. This will spam the Blynk.Cloud with thousands of messages from your hardware. When it happens, **Blynk.Cloud will cut off** the connection between your hardware and server.
 

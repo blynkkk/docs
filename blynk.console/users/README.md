@@ -38,7 +38,7 @@ This table shows the Organization's users information:
   * **active** – the user confirmed the email, logged at least one time&#x20;
   * **inactive** – the user hasn't logged for 1 month
 * **Last login** – last time user logged in hh:mm M D, Y format (year is hidden if it's current)
-*   **Actions-**displays a menu of actions that can be applied to this User: Edit,&#x20;
+*   **Actions-**&#x64;isplays a menu of actions that can be applied to this User: Edit,&#x20;
 
     Change Password, Send Device Log, Force Logout, Transfer User, Delete Account.
 
@@ -66,13 +66,13 @@ On clicking filter icon select desired option(s) from the drop-down menu and pre
 * **Edit** – edit data that was provided during invitation. Same modal window as for Invite User. Email can't be changed.
 * **Change Password** – modal window opens.  "Are you sure want to change user password?" prompt NEW PASSWORD input field.
 
-![Change Password modal window](../../.gitbook/assets/Change\_Password\_modal.PNG)
+![Change Password modal window](../../.gitbook/assets/Change_Password_modal.PNG)
 
 * **Send Device Log** – sends selected user's devices logs to Administrator's Email
 * **Force Logout** – logs user out immediately. No confirmations required.
 * **Transfer User** – you can transfer this user to another organization. You would need to input an email address of administrator in a Destination Organization Administrator Email field.
 
-![Transfer User modal window](../../.gitbook/assets/transfer\_user.PNG)
+![Transfer User modal window](../../.gitbook/assets/transfer_user.PNG)
 
 * **Delete Account** – modal window will appear. Type DELETE and confirm the action are required.
 

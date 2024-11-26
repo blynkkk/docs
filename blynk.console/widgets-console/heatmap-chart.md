@@ -66,7 +66,7 @@ Blynk.virtualWrite(vPin, value);
 where `vPin` is a number, and `value` is the actual value you want to send.&#x20;
 
 {% hint style="danger" %}
-Don't put **`Blynk.virtualWrite()`**into the **`void loop()`**as it can cause a flood of messages and your hardware will be disconnected from the server for spam. Send such updates only when necessary, or use timers as described below.
+Don't put **`Blynk.virtualWrite()`**&#x69;nto the **`void loop()`**&#x61;s it can cause a flood of messages and your hardware will be disconnected from the server for spam. Send such updates only when necessary, or use timers as described below.
 {% endhint %}
 
 

@@ -1,11 +1,17 @@
 # Automated Device Onboarding
 
+{% hint style="success" %}
+**Prefer Device Provisioning through Blynk**
+
+For easier maintenance and to avoid potential errors, it is recommended to prefer device provisioning through Blynk rather than The Things Stack. This approach also simplifies the device activation process, making it more user-friendly.
+{% endhint %}
+
 To enable the Automated Device Onboarding through Blynk, follow these steps:
 
 1. Open the advanced settings of the application on Blynk.
 2. Turn on the "Enable automated device onboarding" switch.
 3. Specify the LoRaWAN version, Frequency plan, and Regional Parameter Version. Also, enable the "Support class B" and/or "Support class C" checkboxes if required.
-4. Specify the addresses of The Things Network components. You can find the correct values at the bottom of the "**Overview**" page on your The Things Network dashboard.
+4. Specify the addresses of The Things Stack components, which can be found by navigating to **Home -> Admin panel -> Network information** at the bottom of the page. If you are using The Things Stack Sandbox, all components share the same regional domain.
 5. Save the changes.
 
 <figure><img src="../../.gitbook/assets/the-things-network-advanced-settings.png" alt="" width="563"><figcaption><p>The Things Network Application Advanced Settings</p></figcaption></figure>
@@ -18,10 +24,10 @@ Additionally, Blynk requires the "**View device keys in application**", "**Creat
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-18 в 16.43.01.png" alt=""><figcaption><p>API Key settings on The Things Network Application page</p></figcaption></figure>
 
-Now that automated device onboarding is enabled and configured, you can onboard your first device. Blynk supports three ways to onboard a device on The Things Network. Let's cover them separately.
+Now that automated device onboarding is enabled and configured, you can onboard your first device. Blynk supports three ways to onboard a device on The Things Stack. Let's cover them separately.
 
 {% hint style="info" %}
-Sometimes, a device requires a reboot to initiate the onboarding flow. Make sure to restart the device if it doesn't automatically start the onboarding process after following the setup steps. This can help ensure the device properly connects and begins the necessary communication with Blynk and The Things Network.
+Sometimes, a device requires a reboot to initiate the onboarding flow. Make sure to restart the device if it doesn't automatically start the onboarding process after following the setup steps. This can help ensure the device properly connects and begins the necessary communication with Blynk and The Things Stack.
 {% endhint %}
 
 ## Manually configure the tokens
@@ -33,7 +39,7 @@ This is the easiest, but least scalable way to onboard the device:
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2024-07-18 в 16.47.08.png" alt=""><figcaption><p>Device Info &#x26; Metadata Settings</p></figcaption></figure>
 
-Once these three metadata fields are specified, Blynk will automatically create the device in The Things Network application.
+Once these three metadata fields are specified, Blynk will automatically create the device in The Things Stack application.
 
 ## Onboard using Static Tokens
 
@@ -43,7 +49,7 @@ The preferred method for device provisioning is using [Static Tokens](../../comm
 2. Use this CSV file to [create static tokens](../../getting-started/activating-devices/blynk-edgent-static-authtoken.md): open the **Developer Zone** -> **Static Tokens** -> **Generate Static Tokens** -> **Create From File**. Then select the device template and upload the file.
 3. This process will generate a unique QR code for each device.
 4. These QR codes can be scanned via the mobile application or on the web dashboard.
-5. Once a QR code is scanned and the device is created, it will be automatically created on The Things Network.
+5. Once a QR code is scanned and the device is created, it will be automatically created on The Things Stack.
 
 Here is an example of a CSV file that could be used for creating static tokens:
 
@@ -56,10 +62,10 @@ Device EUI,Join EUI,Application Key
 
 ## Onboard using LoRaWAN QR Code
 
-Blynk also supports [LoRaWAN® Device Identification QR Codes for Automated Onboarding](https://lora-alliance.org/wp-content/uploads/2020/11/TR005\_LoRaWAN\_Device\_Identification\_QR\_Codes.pdf). To use them, follow these steps:
+Blynk also supports [LoRaWAN® Device Identification QR Codes for Automated Onboarding](https://lora-alliance.org/wp-content/uploads/2020/11/TR005_LoRaWAN_Device_Identification_QR_Codes.pdf). To use them, follow these steps:
 
 1. First, create the static tokens as described in the "[Onboard using Static Tokens](automated-device-onboarding.md#onboard-using-static-tokens)" section.
-2. Construct the QR code in the LoRaWAN format using the Profile ID specified in the advanced settings of The Things Network integration application card.
+2. Construct the QR code in the LoRaWAN format using the Profile ID specified in the advanced settings of The Things Stack integration application card.
 
 Additionally, you can change the Profile ID used in the QR code body. To do so, open the application settings on Blynk, locate to the advanced settings and edit the Profile ID field.
 
@@ -84,7 +90,7 @@ Here is an example of the QR code body with `Join EUI = 70B3D57ED0000010`, `Devi
 LW:D0:70B3D57ED0000010:0018B20000000101:000AF8BE
 ```
 
-Then this QR code can be scanned in the same way as Static Tokens in the mobile application or on the console. Once the device is created, it will be automatically onboarded on The Things Network.
+Then this QR code can be scanned in the same way as Static Tokens in the mobile application or on the console. Once the device is created, it will be automatically onboarded on The Things Stack.
 
 ## Re-provisioning
 

@@ -33,7 +33,7 @@ Currently, **only one developer is allowed per Organization in Free and Maker pl
 
 ## 2. Edit/Create Template
 
-Open the Templates section (Developer Zone -> My Templates) in the left menu and click **+ New Template** button**.** If you already have a template - click to open it and press **Edit** button.
+Open the Templates section (Developer Zone -> My Templates) in the left menu and click **+ New Template** butto&#x6E;**.** If you already have a template - click to open it and press **Edit** button.
 
 <figure><img src="../../.gitbook/assets/2-template quick setup.gif" alt=""><figcaption></figcaption></figure>
 
@@ -62,7 +62,7 @@ A new Template is now created. On the screen below notice **Template ID** and **
 
 ## Configure your board:
 
-1. Open Dynamic Provisioning Template: - [ESP8266 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_ESP8266)- [ESP32 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_ESP32)- [MKR1000 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_MKR1000)- [MKR1010](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_MKR1010)&#x20;
+1. Open Dynamic Provisioning Template: - [ESP8266 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent_ESP8266)- [ESP32 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent_ESP32)- [MKR1000 ](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent_MKR1000)- [MKR1010](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent_MKR1010)&#x20;
 2. Specify [TMPLID](https://docs.blynk.io/en/blynk.console/templates/info/template-ids), [SSID WiFi](../../blynk.console/templates/info/hotspot-prefix.md) and Board Name in the [sketch](../activating-devices/)
 3. Upload this code to your board
 
