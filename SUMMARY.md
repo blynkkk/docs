@@ -64,6 +64,7 @@
       * [Datastreams](blynk.console/devices/device-profile/developer-tools/datastreams.md)
       * [Testing](blynk.console/devices/device-profile/developer-tools/testing.md)
       * [Actions Log](blynk.console/devices/device-profile/developer-tools/actions-log.md)
+  * [Segments](blynk.console/devices/segments.md)
   * [Actions with devices](blynk.console/devices/actions-with-devices.md)
   * [Notifications Settings](blynk.console/devices/notifications-settings.md)
   * [Device Sharing](blynk.console/devices/device-sharing.md)
