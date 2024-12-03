@@ -63,7 +63,7 @@ Each filter type supports various filtering conditions depending on the paramete
 2. Select the filter type from the dropdown menu.
 3. Apply the desired filtering condition and enter the necessary values
 
-
+<figure><img src="../../.gitbook/assets/Filter list.png" alt=""><figcaption></figcaption></figure>
 
 #### Applying Filter Logic
 
