@@ -76,6 +76,8 @@ Once you save the value, Blynk will automatically create the device in your Note
 
 <figure><img src="../.gitbook/assets/Снимок экрана 2024-08-26 в 14.42.28.png" alt=""><figcaption><p>Configuring a Blues Device ID manually</p></figcaption></figure>
 
+## Mass device provisioning with Static Tokens
+
 To simplify device provisioning for end-users, you can use Static Tokens:
 
 1.  Create a CSV file with Blues Device IDs listed in each row. For example:
