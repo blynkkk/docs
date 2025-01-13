@@ -67,7 +67,7 @@ When replacing an asset, the URL changes but the ID remains the same.
 
 ### Limitations
 
-| Limitation                 | Details                         |
+| Feature                    | Details                         |
 | -------------------------- | ------------------------------- |
 | **Supported formats**      | `.png`, `.jpg`, `.jpeg`, `.ico` |
 | **Max files per upload**   | 50 files                        |

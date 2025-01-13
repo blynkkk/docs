@@ -28,6 +28,21 @@ These are limits that apply to a each device template:
 
 <table><thead><tr><th width="325">Feature</th><th width="125" align="center">FREE</th><th align="center">PRO</th></tr></thead><tbody><tr><td><a href="templates/datastreams/">Datastreams</a></td><td align="center">20</td><td align="center">200</td></tr><tr><td>Events</td><td align="center">5</td><td align="center">100</td></tr><tr><td>Metadata fields</td><td align="center">5</td><td align="center">20</td></tr><tr><td>Additional device dashboard pages in Blynk.Console</td><td align="center">-</td><td align="center">3</td></tr><tr><td>Additional <a href="https://docs.blynk.io/en/blynk.apps/pages">pages</a> in Blynk.apps </td><td align="center">-</td><td align="center">20 pages total (among them max 7 device Info tabs, 1 welcome page)</td></tr><tr><td>Tabs in Tabs widget in Blynk.apps</td><td align="center">-</td><td align="center">20</td></tr></tbody></table>
 
+```
+Limitations
+```
+
+### Assets
+
+| Feature                    | Details                         |
+| -------------------------- | ------------------------------- |
+| **Supported formats**      | `.png`, `.jpg`, `.jpeg`, `.ico` |
+| **Max files per upload**   | 50 files                        |
+| **Max file size**          | 5 MB per file                   |
+| **Storage per template**   | 200 MB                          |
+| **Max files per template** | 1,000 files                     |
+| **Max file name length**   | 1,000 characters                |
+
 
 
 ### Organization Limits
