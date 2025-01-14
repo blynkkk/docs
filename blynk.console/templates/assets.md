@@ -1,7 +1,7 @@
 ---
 description: >-
-  The Assets feature allows you to store media files directly within Blynk, and
-  then use them in both the App and Console dashboards.
+  Store media files directly within Blynk, and then use them in both the App and
+  Console dashboards.
 ---
 
 # Assets
