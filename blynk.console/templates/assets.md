@@ -1,10 +1,14 @@
 ---
 description: >-
-  Easily upload and manage all your assets in one central location, ready for
-  use in both the App and Console dashboards.
+  The Assets feature allows you to store media files directly within Blynk, and
+  then use them in both the App and Console dashboards.
 ---
 
 # Assets
+
+The Assets feature allows you to upload and manage **media files like .png, .jpg, .jpeg, and .ico** directly within Blynk. This eliminates the need for external file hosting, as assets can now be stored in the template and accessed through the UI Builder.
+
+Use these files to build mobile and web dashboards, adding custom visuals like logos, icons, or equipment images to your UI.&#x20;
 
 {% hint style="info" %}
 **Note:** This feature is currently available only for Enterprise customers.
@@ -45,6 +49,8 @@ You can create folders to organize your assets:
 
 ### Managing Files
 
+Actions menu is available in Edit mode.
+
 #### Actions Available
 
 * **Copy Link:** Get a direct link to the file for use anywhere in the app.
@@ -65,7 +71,7 @@ When replacing an asset, the URL changes but the ID remains the same.
 
 ***
 
-### Limitations
+### File and storage limits
 
 | Feature                    | Details                         |
 | -------------------------- | ------------------------------- |
@@ -80,13 +86,15 @@ When replacing an asset, the URL changes but the ID remains the same.
 
 ### Using Assets
 
-#### 1. Add an Asset Using the Asset Picker (Recommended)
+#### 1. Add an Asset Using the Asset Picker (Recommended).&#x20;
 
-The Asset Picker is available in both the App and Console for convenient asset selection:
+Available in both the App and web Console for convenient asset selection:
 
-1. Click **Add Image** (in the App) or the image URL input (on mobile) to open the Asset Picker.
-2. Search for an asset by name, or switch to "list view" for easier navigation.
-3. Use sorting and grouping options to find assets quickly.
+1. While editing the Dashboard open the widget you want to configure.
+2. Click **Add Image** (in the App) or the image URL input (on the web) to open the Asset Picker.
+3. Search for an asset by name, or switch to "list view" for easier navigation.
+4. Use sorting and grouping options to find assets quickly.
+5. Click and save to apply.
 
 {% hint style="success" %}
 **Pro Tip:** Use the **Add All** button to add all images from a folder at once.\
