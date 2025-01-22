@@ -101,7 +101,7 @@ Available in both the App and web Console for convenient asset selection:
 This feature is supported in the Image Gallery and Header Image widgets, with images sorted by their IDs.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/asset-picker.png" alt=""><figcaption><p>Asset picker on iOS and Android</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/asset-picker.png" alt=""><figcaption><p>Asset pickers in Apps and Console</p></figcaption></figure>
 
 #### 2. Add an Asset Using the URL
 
