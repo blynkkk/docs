@@ -113,7 +113,7 @@ You can also manually copy an asset URL and paste it into the URL field where ne
 
 #### 3. Add Images Using Device Storage Placeholders
 
-Replace placeholders with actual images stored on the device:
+Replace placeholders with actual images uploaded from the device:
 
 * **Supported Placeholder:** `device_storage://filename`
 
