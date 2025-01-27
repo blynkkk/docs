@@ -28,6 +28,10 @@ Use these files to build mobile and web dashboards, adding custom visuals like l
 **Pro Tip:** Use `_light`/`_dark` postfixes in your file names, and the app will automatically detect the appropriate image for opposite themes.
 {% endhint %}
 
+{% hint style="success" %}
+During upload, we automatically compress the images to improve load speed on the UI.
+{% endhint %}
+
 {% hint style="warning" %}
 **Note:** Uploading a file with the same name replaces the existing one.
 {% endhint %}
@@ -49,7 +53,7 @@ You can create folders to organize your assets:
 
 ### Managing Files
 
-Actions menu is available in Edit mode.
+The actions menu is available in Edit mode.
 
 #### Actions Available
 
@@ -63,7 +67,7 @@ Renaming a file does not change its link or ID.
 * **Replace:** Replace the file while keeping the same ID.
 
 {% hint style="info" %}
-Ideal during prototyping to swap images without breaking the UI.\
+It is ideal during prototyping to swap images without breaking the UI.\
 When replacing an asset, the URL changes but the ID remains the same.
 {% endhint %}
 
@@ -112,6 +116,8 @@ You can also manually copy an asset URL and paste it into the URL field where ne
 {% endhint %}
 
 #### 3. Add Images Using Device Storage Placeholders
+
+Replace placeholders with images uploaded from the device:
 
 Replace placeholders with actual images uploaded from the device:
 
