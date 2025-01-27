@@ -4,7 +4,7 @@ description: How to get historical data from a single device for a specified tim
 
 # Get Historical Data From Device
 
-<mark style="color:blue;">`GET`</mark> `https://{server_address}/external/api/data/get?token={token}&period={PERIOD}&granularityType={TYPE}&sourceType={SOURCE_TYPE}&tzName={tzName}&format={FORMAT}&output=FILE&pin={pin}`
+<mark style="color:blue;">`GET`</mark> `https://{server_address}/external/api/data/get?token={token}&period={PERIOD}&granularityType={TYPE}&sourceType={SOURCE_TYPE}&tzName={tzName}&format={FORMAT}&pin={pin}`
 
 #### Path Parameters
 
@@ -17,7 +17,6 @@ description: How to get historical data from a single device for a specified tim
 | format              | string | <p>Is TS by default. Other possible values:<br>ISO_US "04/10/19 11:45:41 AM"<br>ISO_SIMPLE "2018-06-07 22:01:20"</p>                      |
 | sendEvents          | string | Is false by default                                                                                                                       |
 | dataStreamId or pin | string | Are optional parameteres, which are used to get data for the specific pin                                                                 |
-| output              | string | Is FILE by default. Other possible value: JSON                                                                                            |
 
 {% tabs %}
 {% tab title="200 Success." %}
@@ -67,7 +66,7 @@ Let's say you live in Sydney, Australia and there is a garage door opener and wa
 
 API call will look like this:&#x20;
 
-`` https://blynk.cloud/external/api/data/get?token=HjKjfij84050fege&period=DAY&granularityType=MINUTE&sourceType=AVG&tzName=America/New_York&format=ISO_SIMPLE&sendEvents=true&output=FILE&dataStreamId=20` ``
+`` https://blynk.cloud/external/api/data/get?token=HjKjfij84050fege&period=DAY&granularityType=MINUTE&sourceType=AVG&tzName=America/New_York&format=ISO_SIMPLE&sendEvents=true&dataStreamId=20` ``
 
 
 
