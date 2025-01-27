@@ -29,7 +29,7 @@ Use these files to build mobile and web dashboards, adding custom visuals like l
 {% endhint %}
 
 {% hint style="success" %}
-During upload, we automatically compress the images to improve load speed on the UI.
+During the upload, Blynk compresses the images automatically to improve load speed on the UI.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -67,7 +67,7 @@ Renaming a file does not change its link or ID.
 * **Replace:** Replace the file while keeping the same ID.
 
 {% hint style="info" %}
-It is ideal during prototyping to swap images without breaking the UI.\
+Use during prototyping to swap images without breaking the UI.\
 When replacing an asset, the URL changes but the ID remains the same.
 {% endhint %}
 
