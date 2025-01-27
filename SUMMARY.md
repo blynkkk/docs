@@ -50,6 +50,7 @@
 * [NCD Industrial Vibration Sensor](hardware-guides/ncd-industrial-vibration-sensor.md)
 * [Particle - monitor with Blynk](hardware-guides/particle.md)
 * [Particle - control with Blynk](hardware-guides/particle-part-ii.md)
+* [AWS IoT Core](hardware-guides/aws-iot-core.md)
 
 ## Blynk.Console
 
