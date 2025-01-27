@@ -349,6 +349,7 @@
     * [Create New User](blynk.cloud/platform-https-api/users-api/create-new-user.md)
     * [Invite User](blynk.cloud/platform-https-api/users-api/invite-user.md)
     * [Get User Info](blynk.cloud/platform-https-api/users-api/get-user-info.md)
+    * [Update User Role](blynk.cloud/platform-https-api/users-api/get-user-info-1.md)
   * [Templates API](blynk.cloud/platform-https-api/templates-api/README.md)
     * [Get All Templates](blynk.cloud/platform-https-api/templates-api/get-all-templates.md)
     * [Get Template Info](blynk.cloud/platform-https-api/templates-api/get-template-info.md)
