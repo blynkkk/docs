@@ -1,3 +1,10 @@
+---
+description: >-
+  A real-time overview of your IoT devices, allowing to track key metrics, spot
+  historical trends, and control devices—all from a single, intuitive no-code
+  interface.
+---
+
 # Dashboards
 
 ### Overview
