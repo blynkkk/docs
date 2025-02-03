@@ -62,6 +62,8 @@ To assign particular device(s) as a widget data source select it from the table.
 
 You may select up to 50 devices.
 
+
+
 #### Layer 3. Dynamic Filters
 
 Dynamic filters are available in View mode after a dashboard is created and are accessible to all users with dashboard access. These filters allow users to temporarily focus on specific devices included in the dashboard. They do not affect other users and are reset after the page is reloaded. The Filters button is located in the top-right corner.
@@ -101,22 +103,26 @@ Firstly, we recommend to narrow down the list of devices included to the dashboa
 
 **Manage Access**: By default, only roles with Manage analytics permission from the organization where the dashboard was created have an access. You can grant view access to other roles through the Manage Access menu either in Edit mode or options menu.
 
-<figure><img src="../.gitbook/assets/11_options_menu.avif" alt=""><figcaption><p>Options menu</p></figcaption></figure>
+<div align="left"><figure><img src="../.gitbook/assets/11_options_menu.avif" alt="" width="563"><figcaption><p>Options menu</p></figcaption></figure></div>
 
 ### Widgets
 
-Each widget has its own settings, similar to those on a [Device Dashboard](https://docs.blynk.io/en/blynk.console/templates/dashboard) but adjusted slightly to work correctly with multiple devices.The following widgets are currently supported:
+Each widget has its own settings, similar to those on a [Device Dashboard](templates/dashboard/) but adjusted slightly to work correctly with multiple devices.
+
+The following widgets are currently supported:
 
 #### Device Metrics Widgets
 
-Control Widgets:
+**Control Widgets**:
 
 These widgets can be used to perform management operations on devices, such as turning devices on or off, or changing values.
 
 * Switch
 * Slider
 
-Display Widgets:
+
+
+**Display Widgets**:
 
 These widgets can be used to display a metric value from multiple devices, or historical data for the selected period of time.
 
@@ -124,13 +130,17 @@ These widgets can be used to display a metric value from multiple devices, or hi
 * Chart: Metrics over time, agg.
 * Chart: Metric by devices
 
-![Screenshot 2024-11-14 at 18.24.01.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-uRWyBf1cSU/c83bed1ceb496c6372555c17144587b8958a28efd78634b4574f5581da1ff656b90911b86fe9e66410fd2ad3d67b6964e0865275ea5d992e2987f24560dc7b3a8ca36d05559ca49f0adca2fc73459fc25e62a6e66ea74cf5c59c2795529a229abb30e8da)
+<div align="left"><figure><img src="../.gitbook/assets/12_device_metrics_widgets.avif" alt=""><figcaption><p>Device Metrics Widgets</p></figcaption></figure></div>
 
-#### Event Widgets:
+
+
+#### **Event Widgets**
 
 The dashboard includes 9 ready-to-use widgets that display data about events. These widgets provide insights into the latest events, most frequent events, critical events, and more. You can analyze trends and event distribution across devices and organizations, helping you stay informed and make data-driven decisions.
 
-![Screenshot 2024-11-14 at 18.22.01.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-HFX6IvX1l0/214ebab9c72e2b5d3ac921186c96c4928747e39885eb805f65dace6844ea3c8d9b016ab1a33943d553fbb455afa90345023fe3460582ed22ed7b247381a9dbff22b93e6e539f3485ba1a43566d6573e7e0476be3c78b658588b997c01e70a2937783ebb1)
+<div align="left"><figure><img src="../.gitbook/assets/13_event_widgets.png" alt=""><figcaption><p>Event Widgets</p></figcaption></figure></div>
+
+
 
 ### Device metrics widgets
 
@@ -138,34 +148,51 @@ Device metrics widgets are designed to display or interact with datastream value
 
 #### Datastreams
 
-All device metrics widgets require an assigned datastream to function. To streamline this process and enhance your experience, we’ve developed a Virtual Pin approach for datastream selection.
+All device metrics widgets require an assigned datastream to function. To streamline this process and enhance your experience, we’ve developed a **Virtual Pin** approach for datastream selection.
 
 Instead of manually mapping multiple datastreams one by one, you only need to select a single Virtual Pin. All datastreams associated with that Virtual Pin will automatically be assigned to the widget, saving time and reducing complexity.
 
-This approach simplifies widget setup and ensures a seamless connection to the data you need.Before creating a dashboard, you should standardize the datastreams across the templates so that the corresponding Virtual Pins contain the same data. For example, V1 represents Brightness across all templates.E.g. You have launched a new product model. And you want to add new data to one of your existing dashboards. If you have datastreams standardized the same way as for the existing products, you just need to add the new product to the dashboard data source (if it wasn’t) and all of your widgets will be updated immediately and you will get insights in a moment.
+This approach simplifies widget setup and ensures a seamless connection to the data you need.
+
+{% hint style="warning" %}
+Before creating a dashboard, standardize the datastreams across the templates included in it so that the corresponding Virtual Pins contain the same data. For example, V1 represents Brightness across all templates.
+{% endhint %}
+
+E.g. You have launched a new product model. And you want to add the data from it to one of your existing dashboards. If you have datastreams standardized the same way as for the existing products, you just need to add the new product (template) to the dashboard data source and all of your widgets will be updated immediately.
 
 #### Data Types
 
-Current widgets support only Integer and Double types, so the datastreams with another type will be ignored and haven't been taken into calculation.
+Current widgets support only Integer and Double data types. Datastreams of any other type will be ignored and excluded from calculations.
 
 {% hint style="success" %}
-For example, you selected V1 Pin for showing Average value using Label widget. And it has Integer type in 4 templates and String type in 2 templates. The value will reflect an Average of 4 datastreams among 4 templates. The 2 String datastreams will be ignored regardless of the data selection.
+For example, if you set the V1 Pin to display the Average value in a Label widget, and V1 uses the Integer type in four templates but String type in two, the calculation will only include the four Integer datastreams. The two String datastreams will be ignored, regardless of the data selection.
 {% endhint %}
 
 #### How to select datastreams
 
-To select datastreams, choose a row from the dropdown. The dropdown displays all datastreams, grouped by Virtual Pin, based on the templates corresponding to the dashboard's data source.
+To select datastreams, choose a row from the dropdown. The dropdown displays all datastreams, grouped by Virtual Pin, based on the templates included in the dashboard's data source.
 
-![Screenshot 2024-12-10 at 11.22.31.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-aS5soIkPK9/bc28abe4a0ecea33b70728bd864584625135cd2a5c5e831d6f916f09b16d079046119cae294a8ef367dfa20a80c341a01b50e4edf6a82bbb63c8ba2e931b02604758716364cb198bf47e55885059644be5d4c431a344340b25e011404e24b0d031ff318b)
+<figure><img src="../.gitbook/assets/14_select_datastream.avif" alt=""><figcaption><p>Select datastreams grouped by Virtual Pin</p></figcaption></figure>
 
-\
-Once you select the row, a datastreams preview appears on the right, displaying the datastreams associated with the selected Virtual Pin across all templates included in the dashboard. This preview helps you quickly assess the data and confirm that the correct datastreams are connected for each template.
+Once you select the row, assigned datastreams preview appears on the right, displaying the datastreams associated with the selected Virtual Pin across all templates included in the dashboard. This preview helps you quickly assess the data and confirm that the correct datastreams are connected for each template.
 
-![Screenshot 2024-12-10 at 11.23.20.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-7afQd6007u/fa57c802a7ea2674b884aaee7e784efa79e27e25eaf0748f12caaf4433ed5a1545657b4e9bffb4465b4e7942f32057acdfaeae3f7901a2ea81cd3291db05764ce5d5a6271ca602b8f2ff54e36962b7c1559689998eb273621dfeb133b117a00f17bdc2ad)
+<div align="left"><figure><img src="../.gitbook/assets/15_datastreams_preview.avif" alt=""><figcaption><p>Assigned datastreams preview</p></figcaption></figure></div>
+
+
 
 #### Aggregation types
 
-We support 4 aggregation types across all widgets: Average, Min, Max, and Sum.Also the Label widget supports additional aggregation type - Latest value. It is available only if 1 device selected and streams its latest value once in a 10 sec.  ![Screenshot 2024-11-14 at 16.27.15.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-xcs1A-tYQw/e7bf863c1568a0c8bc35eaf7377b74449ea6152d79ec8d0bf81ea6677c3026688171bb886e9ea8da297a2280e52082989e5fcef21d08107345350d321139d304ce9219e31dcdf7fb5cb085e60fa235d7869c7c0c85c73bfbafbec2ac2e0e0cfdd8c2c43b)
+Blynk supports 4 aggregation types across all widgets: Average, Min, Max, and Sum.
+
+Also the **Label widget** supports additional aggregation type - **Latest value**.&#x20;
+
+{% hint style="info" %}
+**Latest value** aggregation type is available only if **1 device** is selected and updates its latest value once in a 10 sec.
+{% endhint %}
+
+<div align="left"><figure><img src="../.gitbook/assets/16_aggregation_types.avif" alt="" width="563"><figcaption><p>Aggregation types</p></figcaption></figure></div>
+
+&#x20;&#x20;
 
 #### Decimals
 
@@ -173,7 +200,9 @@ Determines the number of decimal places displayed for numerical values in the wi
 
 #### Units
 
-Specifies the measurement unit to display alongside values (e.g., °C, %, kWh) for clarity and context.Note that this is purely a label and does not involve any unit conversion of the values\
+Specifies the measurement unit to display alongside values (e.g., °C, %, kWh) for clarity and context.
+
+Note that this is purely a label and does not involve any unit conversion of the values\
 
 
 ### Switch
