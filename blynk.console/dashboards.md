@@ -202,22 +202,25 @@ Determines the number of decimal places displayed for numerical values in the wi
 
 Specifies the measurement unit to display alongside values (e.g., °C, %, kWh) for clarity and context.
 
-Note that this is purely a label and does not involve any unit conversion of the values\
-
+{% hint style="warning" %}
+Note that this is purely a label and does not involve any unit conversion of the values.
+{% endhint %}
 
 ### Switch
 
 The Switch widget sends a command to the devices, typically 1 for ON and 0 for OFF. This widget allows you to turn multiple devices on or off with a single click. Additionally, it can interact with other datastreams and perform various operations that involve two states, such as enabling or disabling features, toggling between modes, or setting specific conditions.
 
-![switch.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-Z3QktImNMg/1e74d8749ec8cd778731f450f4429f4eccfdb20f91d9e01dfb7c5f0e64b3d81aacb87cd2cbeb1ffcfe189f4e375e9ce0fdb25e8ef28fc5a2624aecc6210b8c16ae3d15a83f60bd5a4e4958a7422e0f69a2dc1da07583bb00ffff58c3f7df7e272b63ee31)
-
+{% hint style="info" %}
 Please note that the switch does not reflect the current state of devices. It serves as a control for setting the desired state.
-
-{% hint style="success" %}
-Note that the value will be sent to all currently online devices. For offline devices, the value will be stored on the server. When any of these offline devices go online, they may request the latest state via Blynk.sync() if necessary.
 {% endhint %}
 
-How to configure:
+<div align="left"><figure><img src="../.gitbook/assets/switch.png" alt="" width="276"><figcaption><p>Switch</p></figcaption></figure></div>
+
+{% hint style="warning" %}
+The value will be sent to all currently online devices. For offline devices, the value will be stored on the server. When any of these offline devices goes online, they may request the latest state via Blynk.sync() if necessary.
+{% endhint %}
+
+**How to configure**:
 
 1. Select a datastream.
 2. Set On/Off values.
@@ -229,11 +232,17 @@ How to configure:
 
 The Slider widget sends a value to devices within a defined range. Move the slider handle or use the fine control buttons (+ and -) to set the value precisely. It may be used to adjust temperature setpoint, fan speed, brightness level, etc.
 
-![slider.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-M_oIUBjWcz/bc7de26fe60590cd92ed99e50b15e77234684db2068ab06154d3d0e00f5769d84b851698c65cb59a3200ce11ba429eca2fabfb09c560d22cd1f4a269b7cde34fd6947bc0471bf08fb871b72288b79b0bd462e5d3351c24217c42a6d2bdbf02750d8983a4)
+{% hint style="info" %}
+Please note that the slider does not reflect the current value on devices. It serves as a control for setting the desired value.
+{% endhint %}
 
-Please note that the slider does not reflect the current value on devices. It serves as a control for setting the desired value.Note that the value will be sent to all currently online devices. For offline devices, the value will be stored on the server. When any of these offline devices go online, they may request the latest state via Blynk.sync() if necessary.
+<div align="left"><figure><img src="../.gitbook/assets/slider (1).png" alt="" width="330"><figcaption><p>Slider</p></figcaption></figure></div>
 
-How to configure:
+{% hint style="warning" %}
+The value will be sent to all currently online devices. For offline devices, the value will be stored on the server. When any of these offline devices goes online, they may request the latest state via Blynk.sync() if necessary.
+{% endhint %}
+
+**How to configure**:
 
 1. Select a datastream.
 2. Set Values Range. Enter Min and Max values and Handle step value.
@@ -244,7 +253,7 @@ How to configure:
 
 The Label widget provides a clear, aggregated view of important data from single or multiple devices.
 
-![label.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-s6dN9TKI7i/00d6b70aae1963987bed4e800bc3bd843ee6924da1b10c4385dc552a8ae823372c119c62636fb1373c57df8c711922fc11afc0024e947b5c40b301a725da639efc8d16e60ab220a9fb296dd61f1c80358d8f7848958a891699ad1649add55762d0d28c8b)
+<div align="left"><figure><img src="../.gitbook/assets/label.png" alt="" width="207"><figcaption></figcaption></figure></div>
 
 By combining data from multiple devices, the Label widget helps you make informed decisions. It is useful in many cases such as:
 
@@ -256,14 +265,15 @@ By combining data from multiple devices, the Label widget helps you make informe
 
 **Smart Homes**: Display the overall air quality index by combining readings from multiple air quality sensors throughout the house.
 
-How to configure:
+**How to configure**:
 
 1. Select datastreams.
 2. Choose aggregation type. You can choose Average, Min, Max, Sum, or Latest value (only if 1 device selected).
 3. Narrow down device selection (optional).
 4. Design. Navigate to Design tab to configure options such as Background color, Level, and Content Alignment.
 
-Ensure that Enable History Data switch is enabled across all used datastreams. Otherwise the widget will not display the data.
+{% hint style="warning" %}
+Ensure that **Enable History Data** switch is enabled across all used datastreams. Otherwise the widget will not display the data.
 
 1. Navigate to Developer Tools → Templates.
 2. Open a template → Datastreams tab.
@@ -271,32 +281,37 @@ Ensure that Enable History Data switch is enabled across all used datastreams. O
 4. Open Advanced Settings.
 5. Turn on the Enable history data.
 
-![Screenshot 2024-11-14 at 16.59.00.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-57x314Ek8o/ce1488dccb6e7cad7e79afe1b324526eef63c7efe7cf2048eacd2d965b1ff98ba3e766bb33d933ea7f3f1c39ae65a11ec752dbc14c9f8f5bf099ac1aeb045819623adf58b719138f4034fb4d92f306c0eb8222498e343dee03c04e48bbb21421a1bdc240)
+
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/17_enable_history.avif" alt=""><figcaption><p>Enable History Data</p></figcaption></figure>
+
+
 
 ### Chart: Metrics over time, agg.
 
 This widget provides a visual representation of historical data, making it easier to identify trends, patterns, and anomalies over time.
 
-![metrics\_over\_time.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-YWWcNhDf3f/f3b0c5c9086926300063ff4a9c63dd7950618f54df65057e778efd34fecc53dc28d04ec5918100c50f9c223d4ff5aeda71bd17383c229b32cc4897873576e485e36d6fd470662cb4f5c5aec1597fcc93bf23ebcc2cc18ce78ebc1f919fd9f03a5bac2d77)
+<figure><img src="../.gitbook/assets/metrics_over_time.png" alt=""><figcaption><p>Chart: Metrics over time, agg.</p></figcaption></figure>
 
 By supporting multiple data series, the widget allows you to compare different data types simultaneously, such as temperature and humidity, or energy consumption and production output. You can also compare energy consumption or any other metric by different aggregation types, e.g. Min Temperature vs Max Temperature.
 
-How to configure:
+**How to configure**:
 
 1. Select datastreams. The chart supports up to 5 series.
 2. Choose aggregation type. You can choose Average, Min, Max, or Sum for each data series.
 3. Narrow down device selection (optional).
 4. Design. Navigate to Design tab to select the chart view (line, area, column (bar), or stepline) set colors, axis and series names.
 
-### Chart: Metric by devices
+### Chart: Metric by device
 
 This chart displays datastream values from multiple selected devices on a single chart, with each device represented by a distinct line. You can customize the chart by selecting specific devices.
 
-The charts supports showing up to 8 devices simultaneously.
+The chart can display data from up to **eight** devices at the same time.
 
-![metric\_by\_devices.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-deq7rK1OaW/b30051cbe41cc6805b6ee7b13e5e8ad5be42814befe6933094c31dcea41e574e6d0d8d31fab00870e1b57ea78c8e01577ad0e66d2f99b238d2a7d430fd8390fe74d807181a1b51aa76c4b7ce7283b35dc2a8d274e4da8916a8523a862c00e5ac1ab0a095)
+<figure><img src="../.gitbook/assets/metric_by_devices.png" alt=""><figcaption><p>Chart: Metric by device</p></figcaption></figure>
 
-How to configure:
+**How to configure**:
 
 1. Select datastream.
 2. Narrow down device selection (optional).
@@ -306,58 +321,64 @@ How to configure:
 
 You can find the date range picker under the Dashboard name.
 
-![Screenshot 2024-11-14 at 17.12.34.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-rZR8ehf8-7/b5e793d4224cbfb13769a9f7329b65d841fc61edad7161279697fc7ee22c36026219c00afcb4ff40a5c1f3507c27f5b2bf17300cdaee79b54affdc2ce0fa59ecbed311b52a0b10d101207364538b149973942b512091039141020aada6f6f2755bc2d9da)
+<div align="left"><figure><img src="../.gitbook/assets/19_date_picker.avif" alt="" width="563"><figcaption><p>Date range picker</p></figcaption></figure></div>
 
-This picker allows you to analyze historical data across different periods. It includes predefined ranges such as:1d - displays data for the last 24 hours.
+This picker allows you to analyze historical data across different periods. It includes predefined ranges such as:
 
-* 1w - displays data for the last 7 days.1mo - displays data for the last 30 days.
-* 3mo - Displays data for the last 90 days.
-* 1y - Displays data for the last 365 days.
+**1d** - displays data for the last 24 hours.
 
+**1w** - displays data for the last 7 days.
+
+**1mo** - displays data for the last 30 days.
+
+**3mo** - Displays data for the last 90 days.
+
+**1y** - Displays data for the last 365 days.
+
+{% hint style="warning" %}
 Please note, the date range picker does not affect the Control widgets and the widgets showing Latest value. Regardless of the selected range, it operates the same.
+{% endhint %}
+
+
 
 ### Managing Access
 
-By default, only users with the “Manage Dashboards” permission in the organization where the dashboard was created can access it. These users can view and edit all dashboards in that organization.
+By default, only users with the **Manage Dashboards** permission in the organization where the dashboard was created can access it. These users can view and edit all dashboards in that organization.
 
-Please note that creating or editing a dashboard also requires the View Template permission.
+{% hint style="info" %}
+Please note that creating or editing a dashboard also requires the **View Template** permission.
+{% endhint %}
 
 You can also grant View access to specific dashboards for additional users using the Manage Access option, available in the menu or Edit mode.
 
-![Screenshot 2024-11-14 at 16.37.32.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-2NSMWpGpBP/90c3d4c3d0da9b4aad0ff67c80f2e5f2fff7595c6fac752990d82abbdf5ccfc7c9a7ebc6a6961acb2eafb58654761b855c239b7b22e2452226523d317f99e2be72a3618d8dd6f90b8e60592dca9f2155a98afced362fedc438db8633e762c65ab2e68a04)
+<div align="left"><figure><img src="../.gitbook/assets/20_options_menu copy.avif" alt="" width="375"><figcaption><p>Manage access in the menu</p></figcaption></figure></div>
 
 Dashboards can be shared with sub-organizations, allowing you to create a single dashboard and share it across all sub-orgs. However, shared dashboards can only be edited in the organization where they were created.
 
-Access to a dashboard depends on the organizations included in its data source:
+Access to a dashboard depends on the **organizations included in its data source**:
 
-* **All or Only Sub-Organizations**: The dashboard is shared with all sub-organizations.
+* **All Sub-Organizations**: The dashboard is shared with all sub-organizations.
 * **Specific Organizations**: The dashboard is shared only with those selected organizations.
 * **Current Organization Only**: The dashboard is not shared with sub-organizations.
 
-
-
-![Group 3-1.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-mt140P37WT/edf8062436798e93ec1507c2bae9f9c521952c11b689f915b139c7282b86663f8c9a32048ddfb018502d0a7b320617515470d885bff92870e061110e419192f3986ca12f623698d7814f48553c636997d004b38858d02cdac2792f585c5909326f48974d)
+<figure><img src="../.gitbook/assets/21_manage_access.png" alt=""><figcaption><p>Manage access</p></figcaption></figure>
 
 ### Setting a Dashboard as the Homepage
 
-Normally, when you log into Blynk, you’d see the device page first. This feature lets you set a dashboard as the homepage.By customizing your Homepage, you can ensure the data that matters most to you is always front and center. This makes it easier to keep track of key metrics, trends, and control devices.How to Set a Dashboard as the Homepage
+Normally, when you log into Blynk, you’d see the devices page first. Alternatively you can set a dashboard as the homepage for your organization.
+
+By customizing your Homepage, you can ensure the data that matters most to you is always front and center. This makes it easier to keep track of key metrics, trends, and control devices.
+
+**How to Set a Dashboard as the Homepage**:
 
 1. **Open a dashboard**: Go to Dashboards and open the dashboard you want to set as the homepage.
 2. **Open menu**: Find the Options menu in the top right corner.
 3. **Set as homepage**: Choose the “Set as homepage” option from the menu.
 
-
-
-![Set as Homepage.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-DtfHehj26J/c284e9197d40543445dac7b9a84800887a0b15aea37006d194bffe3e1b2754061f4fde48374094eab3cd300b5695cdb717e61f21eb56723ebd1f9ca2c100469099e09e4ef6c407ae53176bd6f385eb296e48eab19975ab86cc84f4a68071bcdf5519774e)
+<div align="left"><figure><img src="../.gitbook/assets/22_set_as_homepage.png" alt="" width="273"><figcaption><p>Set as Homepage</p></figcaption></figure></div>
 
 The home icon appears at the top of the Main Navigation menu once you’ve set the homepage.
 
 The homepage applies per organization, so each of your organizations can have its own homepage.
 
-![home.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-MGqMTp08Mk/5af236286a1cb4693534abc4aefdaeffd7b9994d5381c0866f0e75c26392597750b6547af8c7cae725560deba723b5219a0863f5df0348bddd7fa2d3c79fbf84defdbd220be0118a875bf92f22c6d15a6883809539225e406081bcc18775f96c3454b36b)
-
-\
-\
-\
-\
-\
+<div align="left"><figure><img src="../.gitbook/assets/23_home.png" alt="" width="563"><figcaption><p>Dashboard as a Homepage</p></figcaption></figure></div>
