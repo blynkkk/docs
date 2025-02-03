@@ -21,42 +21,57 @@ For example, you have three different products: a heater, an air conditioner, an
 
 <div align="left"><figure><img src="../.gitbook/assets/02_filters_datasource.png" alt="" width="372"><figcaption><p>Layer 1: Dashboard Data Source</p></figcaption></figure></div>
 
-![Screenshot 2024-11-14 at 15.02.15.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-zK0tNGItOK/3dc5542e6ed2d9550a3099e00cd4dbcab2ace778e66d80bc90fa8f34f7d63c8f26918629d7911b360930b740e18ac24be1b1141f2b4cafdf853f01c9738b77762c633a9b640aac170b26b7e01b38340a3d9b36be0e18aa3c2f7c58d7a020059d10299a60)
-
 By default, the data source for the entire dashboard includes All devices (Templates = All, Organizations = All).  The Dashboard Data Source is editable anytime, but be careful as the changes affects all added widgets and may broke some of your settings.
+
+<div align="left"><figure><img src="../.gitbook/assets/03_dash_datasource copy.avif" alt="" width="375"><figcaption><p>Setting up data source for your dashboard</p></figcaption></figure></div>
+
+
 
 #### Layer 2: Widget Data Source
 
-By default each widget is assigned to All devices from your Dashboard Data Source.However, you can narrow down the device selection for any widget.To specify devices for the widget:
+By default each widget is assigned to All devices from your Dashboard Data Source.
+
+However, you can narrow down the device selection for any widget.
+
+<div align="left"><figure><img src="../.gitbook/assets/04_filters_perwidget.png" alt="" width="372"><figcaption><p>Layer 2: Widget Data Source</p></figcaption></figure></div>
+
+To specify devices for the widget:
 
 * Open widget settings
 * Navigate to Devices on a Data tab.
 * Choose devices by selecting a segment bubble, applying filters, or picking them manually from the table.
 
-Each widget may be assigned to a different subset of devices.\
-\
-![Frame 2839.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-NID7EizXV-/fbc9f8ee71392c0e1763755924ebd8cb0f4c85b1dc290d2eb29fe5d13e44a68583f28a1378feaf926bbae7f8b2beae79669c96105303909cfa2bdcd3c647612513844307d99659bca425f18bfd62034f0cb016161b0f8ff9913ae103d71f69b6d5badb4b)![Screenshot 2024-11-14 at 15.10.48.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-6jOFpeX1sm/d8fdf8b8fb579c62a6cf96116d636da3cc967e209d60ca62722737d5eec40c9499f722aa70afd1ef692b7f26d94881331f92dabfe411baf40adcf76e7b6a0dc04f9f8aa5b4cfdd53c0219e40166802e1a819802c60730129130d874fdf876b78a3bca9a2)\
+Each widget may be assigned to a different subset of devices.
 
+<figure><img src="../.gitbook/assets/05_filters_perwidget1.avif" alt=""><figcaption><p>Devices that are assigned to the widget</p></figcaption></figure>
 
 #### Segments
 
-"All" segment is assigned by default. It means all devices corresponding the dashboard data source are assigned.\
-The segments in widgets contain only devices corresponding dashboard data source, other devices are filtered out.Next to the "All" there are other segments that were created on a Device page.\
+"**All**" segment is assigned by default. It means all devices corresponding the dashboard data source are assigned. **The segments in widgets contain only devices corresponding dashboard data source, other devices are filtered out.**
+
+Next to the "All" there are other segments that were created on a Devices page.\
 You can select any of these segments.
 
 #### Filters
 
-Also you can select devices by applying filters (e.g. Device name contains “heater”). The filters work the same as on the Device page.
+Also you can select devices by applying filters (e.g. Device name contains “heater”). The filters work the same as on the Devices page.
 
 #### Manual Selection
 
-To assign particular device(s) as a widget data source select it from the table.\
-Once you select the first device, the new segment "Selected devices \[count]" appears.\
+To assign particular device(s) as a widget data source select it from the table. Once you select the first device, the new segment "Selected devices \[count]" appears.
+
 You may select up to 50 devices.
 
 #### Layer 3. Dynamic Filters
 
-Dynamic filters are available in View mode after a dashboard is created and are accessible to all users with dashboard access. These filters allow users to temporarily focus on specific devices included in the dashboard. They do not affect other users and are reset after the page is reloaded. The Filters button is located in the top-right corner.There are three dynamic filters: Organizations, Templates, and Devices. The filter options are based on the dashboard's data source.![Screenshot 2024-11-14 at 15.29.08.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-rTFmBM-cuZ/4d3a5b87113be49dd142df2190942f06abda9de85d63c89c0c770e8abe759e4f8a857eb40d034f3ee2bff60bdc9db3bfc269667c816491e133b8d5c4a3d8c2186eeaa7eafb60c09a1dcea0d37ca2b80eda58d630544977e8aa57424e9d0b0b655aae0e6b)![Dynamic Filters@512p-25fps.gif](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-49_HrU3URu/9e5545c185aabe7b09b4fc2a4318776a211d38d4b3e59c7b1f2be287ef97a3786ebdec1caf2425aff78f7b044433c7e78d6521e68d9c3ac08bf75be042c66c4bc44af54f1e6cfa5cd5e9e72f3ae276fa9ffd93ed0b2b613fc32c4c08c04c44d320e040a4)\
+Dynamic filters are available in View mode after a dashboard is created and are accessible to all users with dashboard access. These filters allow users to temporarily focus on specific devices included in the dashboard. They do not affect other users and are reset after the page is reloaded. The Filters button is located in the top-right corner.
+
+There are three dynamic filters: Organizations, Templates, and Devices. The filter options are based on the dashboard's data source.
+
+<div align="left"><figure><img src="../.gitbook/assets/06_filters_dynamic.avif.gif" alt="" width="384"><figcaption><p>Layer 3. Dynamic Filters</p></figcaption></figure></div>
+
+<div align="left"><figure><img src="../.gitbook/assets/07_filters_dynamic1.avif" alt="" width="558"><figcaption><p>Apply dynamic filters to the dashboard</p></figcaption></figure></div>
+
 
 
 ### Creating a Dashboard
