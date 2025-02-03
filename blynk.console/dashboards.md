@@ -35,7 +35,7 @@ However, you can narrow down the device selection for any widget.
 
 <div align="left"><figure><img src="../.gitbook/assets/04_filters_perwidget.png" alt="" width="372"><figcaption><p>Layer 2: Widget Data Source</p></figcaption></figure></div>
 
-To specify devices for the widget:
+**To specify devices for the widget**:
 
 * Open widget settings
 * Navigate to Devices on a Data tab.
@@ -68,7 +68,7 @@ You may select up to 50 devices.
 
 Dynamic filters are available in View mode after a dashboard is created and are accessible to all users with dashboard access. These filters allow users to temporarily focus on specific devices included in the dashboard. They do not affect other users and are reset after the page is reloaded. The Filters button is located in the top-right corner.
 
-There are three dynamic filters: Organizations, Templates, and Devices. The filter options are based on the dashboard's data source.
+There are three dynamic filters: **Organizations**, **Templates**, and **Devices**. The filter options are based on the dashboard's data source.
 
 <div align="left"><figure><img src="../.gitbook/assets/06_filters_dynamic.avif.gif" alt="" width="384"><figcaption><p>Layer 3. Dynamic Filters</p></figcaption></figure></div>
 
@@ -265,6 +265,8 @@ By combining data from multiple devices, the Label widget helps you make informe
 
 **Smart Homes**: Display the overall air quality index by combining readings from multiple air quality sensors throughout the house.
 
+
+
 **How to configure**:
 
 1. Select datastreams.
@@ -336,7 +338,7 @@ This picker allows you to analyze historical data across different periods. It i
 **1y** - Displays data for the last 365 days.
 
 {% hint style="warning" %}
-Please note, the date range picker does not affect the Control widgets and the widgets showing Latest value. Regardless of the selected range, it operates the same.
+Please note, the date range picker does not affect the **Control widgets** and the widgets showing **Latest value**. Regardless of the selected range, they operate the same.
 {% endhint %}
 
 
@@ -349,7 +351,7 @@ By default, only users with the **Manage Dashboards** permission in the organiza
 Please note that creating or editing a dashboard also requires the **View Template** permission.
 {% endhint %}
 
-You can also grant View access to specific dashboards for additional users using the Manage Access option, available in the menu or Edit mode.
+You can grant **View** access to specific dashboards for additional users through the **Manage Access** option, available in the menu or **Edit mode**.
 
 <div align="left"><figure><img src="../.gitbook/assets/20_options_menu copy.avif" alt="" width="375"><figcaption><p>Manage access in the menu</p></figcaption></figure></div>
 
