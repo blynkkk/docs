@@ -76,23 +76,32 @@ There are three dynamic filters: Organizations, Templates, and Devices. The filt
 
 ### Creating a Dashboard
 
-Access Dashboard Page: Go to the Dashboards page and click the New Dashboard button in the sidebar.
+**Access Dashboard Page**: Go to the Dashboards page and click the **New Dashboard** button in the sidebar.
 
-* To create a dashboard you need to have a Manage Dashboards permission. Additionally you need to have View Templates permission to be able to work on a template level.
+{% hint style="warning" %}
+To create a dashboard you need to have a **Manage Dashboards** permission. Additionally you need to have **View Templates** permission to be able to work on a template level.
+{% endhint %}
 
-![Group 3-3.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl--A1lXgmWWi/8e1d6f5301a164ecc78439b03eb96badc30c26e4e1ab74b630d0e213a6c51a6a870a8606a7099bdd6d26a34079aa8d271b1e684be03d3f658cdfd4b61dc4d46508e2864e2cafd63380bd4017f9b2e0af985931967ff48b9e39ae661b1f283aad9458bb95)The new dashboard will open in an empty state in Edit mode.Define Dashboard Data Source:\
-Firstly, we recommend to narrow down the devices included to the dashboard if you don’t need all of them. It will make the dashboard configuration faster and simpler for you. To do that cliick the Change... button inside a Dashboard Data Source box and select desired templates and organizations.
+<div align="left"><figure><img src="../.gitbook/assets/08_create_dashboard.png" alt="" width="375"><figcaption><p>Creating a Dashboard</p></figcaption></figure></div>
 
-![Screenshot 2024-11-14 at 15.02.15.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-zK0tNGItOK/3dc5542e6ed2d9550a3099e00cd4dbcab2ace778e66d80bc90fa8f34f7d63c8f26918629d7911b360930b740e18ac24be1b1141f2b4cafdf853f01c9738b77762c633a9b640aac170b26b7e01b38340a3d9b36be0e18aa3c2f7c58d7a020059d10299a60)
+The new dashboard will open in an empty state in Edit mode.
 
-\
-Build Your Dashboard: Add widgets from the Widget Box and configure them according to your needs. To add a widget double-click it or drag into the canvas.
+**Define Dashboard Data Source**:\
+Firstly, we recommend to narrow down the list of devices included to the dashboard if you don’t need all of them. It will make the dashboard configuration faster and simpler for you. To do that click the **Change**... button inside a Dashboard **Data Source** box and select the desired templates and organizations.
 
-![Screenshot 2024-11-14 at 16.34.54.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-U5HBIKwh50/561ad4fbdf3ad2442830738bd092089e23d2421b43860b4ededbf9eebbf377662f0332d43d1a92b58bc8fd273a8a6ae935f8f2dc42b161ca09c216bdf6b505be5e40a5380ac158b47f65980bf2c913a090101f7ec9d971a050c36f8f663e239fd96038d6)
+<div align="left"><figure><img src="../.gitbook/assets/09_dash_datasource.avif" alt="" width="375"><figcaption><p>Select devices to include in the dashboard</p></figcaption></figure></div>
 
-Customize Dashboard Settings: Rename dashboard by clicking on it and entering the name. Also, you can set a default date range that is relevant to your data and will apply every time you open the dashboard and manage who can see the dashboard.Save Your Dashboard: Once you are satisfied with the dashboard view, click the Save Dashboard button in the top right corner. Congrats, your first dashboard is live.Manage Access: By default, only roles with Manage analytics permission from the organization where the dashboard was created have an access. You can grant view access to other roles through the Manage Access menu either in Edit mode or options menu.
+**Build Your Dashboard**: Add widgets from the Widget Box and configure them according to your needs. To add a widget double-click it or drag into the canvas.
 
-![Screenshot 2024-11-14 at 16.37.32.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-2NSMWpGpBP/90c3d4c3d0da9b4aad0ff67c80f2e5f2fff7595c6fac752990d82abbdf5ccfc7c9a7ebc6a6961acb2eafb58654761b855c239b7b22e2452226523d317f99e2be72a3618d8dd6f90b8e60592dca9f2155a98afced362fedc438db8633e762c65ab2e68a04)
+<figure><img src="../.gitbook/assets/10_edit_mode.png" alt=""><figcaption><p>Add widgets from the Widget Box</p></figcaption></figure>
+
+**Customize Dashboard Settings**: Rename dashboard by clicking on it and entering the name. Also, you can set a default date range that is relevant to your data and will apply every time you open the dashboard and manage who can see the dashboard.
+
+**Save Your Dashboard**: Once you are satisfied with the dashboard view, click the Save Dashboard button in the top right corner. Congrats, your first dashboard is live.
+
+**Manage Access**: By default, only roles with Manage analytics permission from the organization where the dashboard was created have an access. You can grant view access to other roles through the Manage Access menu either in Edit mode or options menu.
+
+<figure><img src="../.gitbook/assets/11_options_menu.avif" alt=""><figcaption><p>Options menu</p></figcaption></figure>
 
 ### Widgets
 
