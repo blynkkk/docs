@@ -55,6 +55,7 @@
 ## Blynk.Console
 
 * [Overview](blynk.console/console-overview.md)
+* [Dashboards](blynk.console/dashboards.md)
 * [Devices](blynk.console/devices/README.md)
   * [Device profile](blynk.console/devices/device-profile/README.md)
     * [Dashboard](blynk.console/devices/device-profile/dashboard.md)
