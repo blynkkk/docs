@@ -97,6 +97,10 @@ Blynk.setProperty(V1, "isHidden", true);
 
 <mark style="color:blue;">`GET`</mark> `https://{server_address}/external/api/update/property?token={your 32 char token}&pin={your vPin}&{property}={value}`
 
+## Updates the Datastream Property and all assigned Widgets
+
+<mark style="color:blue;">`GET`</mark> `https://{server_address}/external/api/update/property?token={your 32 char token}&pin={your vPin}&{property}={value}`
+
 The endpoint allows you to update the Datastream Property value via GET request. All widgets (both web and mobile) that are assigned to this datastream will inherit this property. The Datastream Property is persistent and will be stored forever until you change it with another value. In order to clear the property you need to clear the device data in device actions menu.
 
 **Example:**\
@@ -136,6 +140,24 @@ The endpoint allows you to update the Datastream Property value via GET request.
 ```
 {% endtab %}
 {% endtabs %}
+
+#### Path Parameters
+
+| Name                                               | Type   | Description  |
+| -------------------------------------------------- | ------ | ------------ |
+| {server address}<mark style="color:red;">\*</mark> | string | SsZgHKPwjwyt |
+
+#### Query Parameters
+
+| Name                                    | Type   | Description  |
+| --------------------------------------- | ------ | ------------ |
+| token<mark style="color:red;">\*</mark> | string | wMxB6GrcHbSt |
+| pin<mark style="color:red;">\*</mark>   | string | 3k4o2uAHHT4n |
+| {property}                              | string | 1TpOvhujQW5k |
+| label                                   | string | NsJ2efKukmTG |
+| color                                   | string | 4sfncFjZyO2o |
+| isDisabled                              | string | F6hpBbyk1pfx |
+| isHidden                                | string | 4mUGtukdAT3R |
 
 ### **Sync to the latest known state**&#x20;
 

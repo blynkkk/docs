@@ -16,17 +16,25 @@ Publish topic **ds/`DATASTREAM`**, payload: value in plain text (i.e. `123`, `he
 For multivalue (array-like) values, the individual items in the payload are separated using a `0x00` byte, i.e: `First\u0000Second\u0000Third`. The separator is a `NUL` character, that is also represented as `\u0000` in Unicode.
 {% endhint %}
 
+```bash
+mosquitto_pub -h blynk.cloud -p 8883 -u device -P '{DEVICE_TOKEN}' -t 'ds/Temperature' -m '21.3'
+```
+
 ## Send batched data to Blynk
 
 Publish topic **batch\_ds**, payload: JSON-encoded object with datastream name as the key and datastream value as the value. The JSON value type must match with the datastream type. Use string for datastream with String data type, number for datastream with Integer, Double or Enum value type, `true` or `false` for datastream with Boolean data type and array of two numbers for datastream with Location data type (use longitude as the first array element and latitude as the second). Example:
 
 ```json
 {
-  "Name": "Sample Batch Uplink",
-  "Temperature": 10.3,
-  "Location": [30.523333, 50.450001],
-  "Device On": true
+    "Name": "Sample Batch Uplink",
+    "Temperature": 10.3,
+    "Location": [30.523333, 50.450001],
+    "Device On": true
 }
+```
+
+```bash
+mosquitto_pub -h blynk.cloud -p 8883 -u device -P '{DEVICE_TOKEN}' -t 'batch_ds' -m '{"Temperature": 23.1, "Humidity": 72}'
 ```
 
 ## Erase datastream value
@@ -34,6 +42,10 @@ Publish topic **batch\_ds**, payload: JSON-encoded object with datastream name a
 Publish topic **ds/`DATASTREAM`/erase**, payload: empty
 
 * `DATASTREAM` - the datastream name
+
+```bash
+mosquitto_pub -h blynk.cloud -p 8883 -u device -P '{DEVICE_TOKEN}' -t 'ds/Temperature/erase' -n
+```
 
 ## Get data updates from Blynk
 
@@ -45,11 +57,19 @@ Subscribe to topic: **downlink/ds/`DATASTREAM`**
 Usually, you'll want to subscribe to a widcard topic like **downlink/#** or **downlink/ds/#**.
 {% endhint %}
 
+```bash
+mosquitto_sub -h blynk.cloud -p 8883 -u device -P '{DEVICE_TOKEN}' -t 'downlink/ds/MeasurementTimeout'
+```
+
 ## Request the latest value from Blynk
 
 Publish topic **get/ds**, payload: datastream names separated by comma (i.e. `Brightness,Color`)
 
 The device will receive requested datastream values on **downlink/ds/`DATASTREAM`** topic.
+
+```bash
+mosquitto_pub -h blynk.cloud -p 8883 -u device -P '{DEVICE_TOKEN}' -t 'get/ds' -m 'Brightness,Color'
+```
 
 ## Request current values for all datastreams
 
@@ -60,3 +80,7 @@ The device will receive requested datastream values on **downlink/ds/`DATASTREAM
 {% hint style="info" %}
 For this to work, open `Datastream settings` and enable `Advanced Settings -> Sync with latest server value`.
 {% endhint %}
+
+```bash
+mosquitto_pub -h blynk.cloud -p 8883 -u device -P '{DEVICE_TOKEN}' -t 'get/ds/all' -n
+```
