@@ -243,7 +243,7 @@ How to configure:
 2. Narrow down device selection (optional).
 3. Design. Navigate to Design tab to set widget title.
 
-## Date range picker
+### Date range picker
 
 You can find the date range picker under the Dashboard name.
 
@@ -257,7 +257,7 @@ This picker allows you to analyze historical data across different periods. It i
 
 Please note, the date range picker does not affect the Control widgets and the widgets showing Latest value. Regardless of the selected range, it operates the same.
 
-## Managing Access
+### Managing Access
 
 By default, only users with the “Manage Dashboards” permission in the organization where the dashboard was created can access it. These users can view and edit all dashboards in that organization.
 
@@ -274,3 +274,31 @@ Access to a dashboard depends on the organizations included in its data source:
 * **All or Only Sub-Organizations**: The dashboard is shared with all sub-organizations.
 * **Specific Organizations**: The dashboard is shared only with those selected organizations.
 * **Current Organization Only**: The dashboard is not shared with sub-organizations.
+
+
+
+![Group 3-1.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-mt140P37WT/edf8062436798e93ec1507c2bae9f9c521952c11b689f915b139c7282b86663f8c9a32048ddfb018502d0a7b320617515470d885bff92870e061110e419192f3986ca12f623698d7814f48553c636997d004b38858d02cdac2792f585c5909326f48974d)
+
+### Setting a Dashboard as the Homepage
+
+Normally, when you log into Blynk, you’d see the device page first. This feature lets you set a dashboard as the homepage.By customizing your Homepage, you can ensure the data that matters most to you is always front and center. This makes it easier to keep track of key metrics, trends, and control devices.How to Set a Dashboard as the Homepage
+
+1. **Open a dashboard**: Go to Dashboards and open the dashboard you want to set as the homepage.
+2. **Open menu**: Find the Options menu in the top right corner.
+3. **Set as homepage**: Choose the “Set as homepage” option from the menu.
+
+
+
+![Set as Homepage.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-DtfHehj26J/c284e9197d40543445dac7b9a84800887a0b15aea37006d194bffe3e1b2754061f4fde48374094eab3cd300b5695cdb717e61f21eb56723ebd1f9ca2c100469099e09e4ef6c407ae53176bd6f385eb296e48eab19975ab86cc84f4a68071bcdf5519774e)
+
+The home icon appears at the top of the Main Navigation menu once you’ve set the homepage.
+
+The homepage applies per organization, so each of your organizations can have its own homepage.
+
+![home.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-MGqMTp08Mk/5af236286a1cb4693534abc4aefdaeffd7b9994d5381c0866f0e75c26392597750b6547af8c7cae725560deba723b5219a0863f5df0348bddd7fa2d3c79fbf84defdbd220be0118a875bf92f22c6d15a6883809539225e406081bcc18775f96c3454b36b)
+
+\
+\
+\
+\
+\
