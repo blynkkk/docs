@@ -2,9 +2,11 @@
 
 ### Overview
 
-Dashboards put you in the driver's seat for managing and monitoring all your devices in one place. They allow you to bring together data from different devices and control them from a single dashboard. Even if they belong to different templates, you can work with them simultaneously.For example, you can display the average temperature value from 10 devices on a single Label widget or turn on multiple devices in a single click.
+Dashboards put you in the driver's seat for managing and monitoring all your devices in one place. They allow you to bring together data from different devices and control them from a single dashboard. Even if they belong to different templates, you can work with them simultaneously.
 
-![Screenshot 2024-11-14 at 17.39.35.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-V4Rb8H9R34/9adaa3e04feaa10e7b8693810a8a891f8a13e8a4cc9ac73b67e1fcf7ee41bb3a5d2fff13def69ee304b959b0013a2537051ce0f692e217d3edb4de7cba5f6e7b2b28e91a519d7378d81a739c4f3f89dc7a61811177bf6cdd7181a5f51f23fe84cbd4e705)
+For example, you can display the average temperature value from 10 devices on a single Label widget or turn on multiple devices in a single click.
+
+<figure><img src="../.gitbook/assets/01_overview.avif" alt=""><figcaption><p>Dashboards overview</p></figcaption></figure>
 
 ### Dashboard Data Filtering
 
@@ -13,7 +15,11 @@ In order to meet every needs we have developed three-layered device filtration a
 
 #### Layer 1: Dashboard Data Source
 
-Dashboard Data Source allows you to refine the devices that should be included to the dashboard by selecting specific templates and organizations.For example, you have three different products: a heater, an air conditioner, and a fan. However, you want to build a dashboard only for heaters. In that case, you can select the corresponding template that contains heaters as the dashboard data source, ensuring that only such devices are included.
+Dashboard Data Source allows you to refine the devices that should be included to the dashboard by selecting specific templates and organizations.
+
+For example, you have three different products: a heater, an air conditioner, and a fan. However, you want to build a dashboard only for heaters. In that case, you can select the corresponding template that contains heaters as the dashboard data source, ensuring that only such devices are included.
+
+<div align="left"><figure><img src="../.gitbook/assets/02_filters_datasource.png" alt="" width="372"><figcaption><p>Layer 1: Dashboard Data Source</p></figcaption></figure></div>
 
 ![Screenshot 2024-11-14 at 15.02.15.png](https://codahosted.io/docs/ULfOVK4kyk/blobs/bl-zK0tNGItOK/3dc5542e6ed2d9550a3099e00cd4dbcab2ace778e66d80bc90fa8f34f7d63c8f26918629d7911b360930b740e18ac24be1b1141f2b4cafdf853f01c9738b77762c633a9b640aac170b26b7e01b38340a3d9b36be0e18aa3c2f7c58d7a020059d10299a60)
 
