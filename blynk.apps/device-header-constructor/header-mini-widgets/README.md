@@ -4,13 +4,9 @@ Add up to 6 Mini Widgets to the header widgets to display battery level, the las
 
 You can utilize  2 rows, each row containing up to 3 mini widgets.
 
-<div align="left">
+<div align="left"><figure><img src="../../../.gitbook/assets/all-mobile-header-widgets (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-<figure><img src="../../../.gitbook/assets/all-mobile-header-widgets (1).png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
-
-<table data-header-hidden><thead><tr><th data-type="content-ref">Header Mini Widgets</th><th data-hidden></th><th data-hidden></th><th data-hidden></th><th data-hidden data-type="content-ref"></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="connection-status-widget.md">connection-status-widget.md</a></td><td></td><td></td><td></td><td><a href="last-reported-widget.md">last-reported-widget.md</a></td><td></td></tr><tr><td><a href="last-reported-widget.md">last-reported-widget.md</a></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td><a href="tabs-widget.md">tabs-widget.md</a></td><td></td><td></td><td></td><td><a href="datastream-value-widget.md">datastream-value-widget.md</a></td><td></td></tr><tr><td><a href="datastream-value-widget.md">datastream-value-widget.md</a></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td><a href="image-widget.md">image-widget.md</a></td><td></td><td></td><td></td><td><a href="battery-level-widget.md">battery-level-widget.md</a></td><td></td></tr><tr><td><a href="battery-level-widget.md">battery-level-widget.md</a></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td><a href="tags-widget.md">tags-widget.md</a></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th data-type="content-ref">Header Mini Widgets</th><th data-hidden></th><th data-hidden></th><th data-hidden></th><th data-hidden data-type="content-ref"></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="connection-status-widget.md">connection-status-widget.md</a></td><td></td><td></td><td></td><td><a href="last-reported-widget.md">last-reported-widget.md</a></td><td></td></tr><tr><td><a href="last-reported-widget.md">last-reported-widget.md</a></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td><a href="tabs-widget.md">tabs-widget.md</a></td><td></td><td></td><td></td><td><a href="datastream-value-widget.md">datastream-value-widget.md</a></td><td></td></tr><tr><td><a href="datastream-value-widget.md">datastream-value-widget.md</a></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td><a href="image-widget.md">image-widget.md</a></td><td></td><td></td><td></td><td><a href="battery-level-widget.md">battery-level-widget.md</a></td><td></td></tr><tr><td><a href="battery-level-widget.md">battery-level-widget.md</a></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td><a href="tags-widget.md">tags-widget.md</a></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td><a href="signal-level.md">signal-level.md</a></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 ### **Adding And Deleting Widgets**
 
@@ -20,7 +16,7 @@ Once the first widget is added, you'll notice two “plus” icons, enabling you
 
 To remove a widget, press on it to access its settings, and then tap the “trash” icon positioned at the top right corner. This will promptly delete the selected widget from your configuration.
 
-<figure><img src="../../../.gitbook/assets/add-mobile-header-widget (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/add-mobile-header-widget 3.png" alt=""><figcaption><p>Adding a Header Mini Widget</p></figcaption></figure>
 
 
 
@@ -54,7 +50,9 @@ Don't put **`Blynk.setProperty()`** into the **`void loop()`** as it can cause a
 
 ### Change widget properties via HTTPs API
 
-## Updates the Datastream Property and all assigned Widgets
+{% hint style="info" %}
+Updates the Datastream Property and all assigned Widgets!
+{% endhint %}
 
 <mark style="color:blue;">`GET`</mark> `https://{server_address}/external/api/update/property?token={your 32 char token}&pin={your vPin}&{property}={value}`
 

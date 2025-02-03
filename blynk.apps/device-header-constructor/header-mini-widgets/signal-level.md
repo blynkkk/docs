@@ -1,16 +1,22 @@
-# Last Reported Widget
+---
+description: >-
+  This widget provides a clear visual representation of the device's signal
+  strength, accompanied by an optional value indicator for quick reference.
+---
 
-This widget shows the timestamp of the last time Blynk received the data from the device.
+# Signal Level Widget
 
-<figure><img src="../../../.gitbook/assets/last-reported-header-widget.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/signal-level.png" alt=""><figcaption><p>Signal Level Widget</p></figcaption></figure>
 
 ### Settings
 
-**Datastream (optional)** - choose the Datastream if you plan to use `setProperty` API.
+**Datastream** - Select or create a datastream of data type integer, or double.&#x20;
 
-**Show icon** - To show/hide the “Clock” icon on the left.
+**Icon** - Select from three options to represent Signal Level. The data stream’s minimum and maximum values are automatically mapped to four signal level icons, plus a ‘No Signal’ state.&#x20;
 
-**Show label** - To show/hide the “Last reported” text.
+**Show value** - You can show the datastream value. Turn it off to see just the icon.&#x20;
+
+**Label** - Set custom label before the value. E.g Signal Level: /value/
 
 
 
