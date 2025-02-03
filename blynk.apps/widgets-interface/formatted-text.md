@@ -12,6 +12,13 @@ A formatted label for the widget is optional.
 
 Select or create a datastream of [data type](https://docs.blynk.io/en/blynk.console/templates/datastreams/datastreams-common-settings/data-type) integer, double, enumerable, string. The datastream is used to insert a corresponding value inside the text the widget is showing, and for holding and assigning the widget properties of vertical and horizontal alignment, font style and color.&#x20;
 
+### Tap Interaction
+
+Configure the widget's behavior when it is tapped. The available options are:
+
+1. **None**. The widget does not respond to taps.
+2. **Page**. Opens a specified app page when pressed (requires [PRO](https://blynk.io/pricing) plan)
+
 ### Widget Controls
 
 The widget has no controls.&#x20;
