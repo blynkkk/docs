@@ -7,6 +7,14 @@ description: >-
 
 # Dashboards
 
+{% hint style="info" %}
+Dashboards feature is available in PRO and Enterprise plans only. You can upgrade anytime in your Account Settings.
+{% endhint %}
+
+{% hint style="success" %}
+Free and legacy Maker plan users get access to Dashboards for 30 days after the feature launch.
+{% endhint %}
+
 ### Overview
 
 Dashboards put you in the driver's seat for managing and monitoring all your devices in one place. They allow you to bring together data from different devices and control them from a single dashboard. Even if they belong to different templates, you can work with them simultaneously.
