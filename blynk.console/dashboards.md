@@ -12,7 +12,7 @@ Dashboards feature is available in PRO and Enterprise plans only. You can upgrad
 {% endhint %}
 
 {% hint style="success" %}
-Free and legacy Maker plan users get access to Dashboards for 30 days after the feature launch.
+Free and legacy Maker plan users get 30 days of full access to Dashboards after the feature launch. Try them out and explore new ways to work with your data!&#x20;
 {% endhint %}
 
 ### Overview
