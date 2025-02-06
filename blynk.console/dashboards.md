@@ -8,11 +8,11 @@ description: >-
 # Dashboards
 
 {% hint style="info" %}
-Dashboards feature is available in PRO and Enterprise plans only. You can upgrade anytime in your Account Settings.
+**Dashboards are available on PRO and Enterprise plans.** You can upgrade anytime in your Account Settings.
 {% endhint %}
 
 {% hint style="success" %}
-Free and legacy Maker plan users get 30 days of full access to Dashboards after the feature launch. Try them out and explore new ways to work with your data!&#x20;
+**Free and legacy Maker plan users get 30 days of full access to Dashboards.** Try them out and explore new ways to work with your data!&#x20;
 {% endhint %}
 
 ### Overview
