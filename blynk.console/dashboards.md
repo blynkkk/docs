@@ -25,8 +25,7 @@ For example, you can display the average temperature value from 10 devices on a 
 
 ### Dashboard Data Filtering
 
-In order to meet every needs we have developed three-layered device filtration allows you to cover all cases from small to enterprise scale.\
-
+To accommodate various use cases, we have implemented a three-layered device filtering system that enables efficient data management for both small-scale and enterprise deployments.
 
 #### Layer 1: Dashboard Data Source
 
