@@ -47,8 +47,22 @@ Let's imagine a device, that sleeps most of the time, but is expected to report 
 You can change name of any status and color-code it.
 
 {% hint style="info" %}
-Choose names that are easy to understand. Set the colorcoding and the icon to reflect the nature of the status following known patterns. Online - green, Offline - grey. Be careful with red and orange colors as they can be interpreted as errors.    &#x20;
+Choose names that are easy to understand. Set the colorcoding and the icon to reflect the nature of the status following known patterns. Online - green, Offline - grey. Be careful with red and orange colors as they can be interpreted as errors.
 {% endhint %}
+
+#### Log when device reports any data
+
+This setting is designed for devices that periodically send data but are not continuously connected to Blynk Cloud. It is particularly useful for devices that use HTTP(s), cloud-to-cloud integrations, or other methods that do not rely on the Blynk library.
+
+**How It Works:**
+
+• When **enabled**, the device will be marked as **Online** once data is received.
+
+• The device will **remain in the Online status** for the duration of the configured **Wait Period**, even if no new data is received.
+
+• If no additional data is received within the Wait Period, the device status will transition to **Offline**.
+
+This feature ensures that devices with intermittent connectivity still appear online while actively transmitting data, improving visibility and event logging within Blynk.
 
 
 
