@@ -164,4 +164,4 @@ When the widget is triggered, Blynk will update the device's unnamed shadow desi
 
 With a configured Blynk template and a working device, you can now start creating a [Web Dashboard](../blynk.console/templates/dashboard/) and [Mobile application](../blynk.apps/constructor.md).
 
-Additionally, take advantage of other powerful Blynk features, such as [Automations](../concepts/automations.md), [WebHooks](../blynk.console/settings/developers/webhooks.md), and the [Device HTTPS API](../blynk.cloud/device-https-api/), to build more advanced workflows.
+Additionally, take advantage of other powerful Blynk features, such as [Automations](../concepts/automations.md), [WebHooks](../blynk.console/settings/developers/webhooks.md), [Device Connection Lifecycle](../concepts/connection-lifecycle-management/), and the [Device HTTPS API](../blynk.cloud/device-https-api/), to build more advanced workflows.
