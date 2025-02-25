@@ -93,4 +93,4 @@ With a configured Blynk template and a working device, you can now start creatin
 
 For scaling your device fleet, refer to the [Device Grouping](device-grouping.md) and [Automated Device Onboarding](automated-device-onboarding.md) sections. Be sure to explore the [System DataStreams](system-datastreams.md) section to extract more valuable data from your device.
 
-Additionally, take advantage of other powerful Blynk features, such as [Automations](../../concepts/automations.md), [WebHooks](../../blynk.console/settings/developers/webhooks.md), and the [Device HTTPS API](../../blynk.cloud/device-https-api/), to build more advanced workflows.
+Additionally, take advantage of other powerful Blynk features, such as [Automations](../../concepts/automations.md), [WebHooks](../../blynk.console/settings/developers/webhooks.md), [Device Connection Lifecycle](../../concepts/connection-lifecycle-management/), and the [Device HTTPS API](../../blynk.cloud/device-https-api/), to build more advanced workflows.
