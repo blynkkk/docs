@@ -91,3 +91,11 @@ To simplify device provisioning for end-users, you can use Static Tokens:
 3. Map the row with Blues Device IDs to the Blues Device metafield and click **Create**.
 
 You will receive a separate QR code for each row in your CSV file. Users can scan these QR codes using the Blynk Mobile app or Blynk Console. Once scanned, the device will be automatically created in both your Blynk organization and Notehub project.
+
+
+
+## Next steps
+
+With a configured Blynk template and a working device, you can now start creating a [Web Dashboard](../blynk.console/templates/dashboard/) and [Mobile application](../blynk.apps/constructor.md).
+
+Next, take advantage of other powerful Blynk features, such as [Automations](../concepts/automations.md), [WebHooks](../blynk.console/settings/developers/webhooks.md), [Device Connection Lifecycle](../concepts/connection-lifecycle-management/), and the [Device HTTPS API](../blynk.cloud/device-https-api/), to build more advanced workflows.
