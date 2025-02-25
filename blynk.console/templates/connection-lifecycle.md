@@ -64,7 +64,7 @@ This setting is designed for devices that periodically send data but are not con
 
 This feature ensures that devices with intermittent connectivity still appear online while actively transmitting data, improving visibility and event logging within Blynk.
 
-
+<div align="left"><figure><img src="../../.gitbook/assets/image (92).png" alt="" width="563"><figcaption><p>Log when device reports any data</p></figcaption></figure></div>
 
 ### Notifications
 
