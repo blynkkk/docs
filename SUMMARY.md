@@ -38,6 +38,10 @@
 * [Automations](concepts/automations.md)
   * [Forward Device Data](concepts/automations/forward-device-data.md)
 
+***
+
+* [Message Usage](message-usage.md)
+
 ## Integration Guides <a href="#hardware-guides" id="hardware-guides"></a>
 
 * [Node-RED](hardware-guides/node-red.md)
