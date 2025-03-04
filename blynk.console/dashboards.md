@@ -23,6 +23,12 @@ For example, you can display the average temperature value from 10 devices on a 
 
 <figure><img src="../.gitbook/assets/01_overview.avif" alt=""><figcaption><p>Dashboards overview</p></figcaption></figure>
 
+Watch the demo to see Blynk Dashboards in action, and find all the necessary documentation below.
+
+{% embed url="https://www.youtube.com/watch?t=898s&v=1PucugKB81I" %}
+Dashboards demo
+{% endembed %}
+
 ### Dashboard Data Filtering
 
 To accommodate various use cases, we have implemented a three-layered device filtering system that enables efficient data management for both small-scale and enterprise deployments.
