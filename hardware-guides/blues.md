@@ -37,8 +37,8 @@ Now that the integration is configured, you can create a device template. Each t
 
 Ensure that your datastream name matches the keys your device sends to Notehub. By default, Blynk will attempt to map all keys from all Notefiles to their corresponding datastreams.
 
-{% hint style="info" %}
-Each time Blynk receives an update from the device, it will trigger the Online lifecycle event. Therefore, it is recommended [to config a meaningful wait time](../blynk.console/templates/connection-lifecycle.md) to prevent your device from being stuck in the offline state.
+{% hint style="success" %}
+Use the ['Log when device reports any data'](../blynk.console/templates/connection-lifecycle.md#log-when-device-reports-any-data) feature in Lifecycle to mark the device as online with each uplink received from Blues.
 {% endhint %}
 
 For downlinks, Blynk will send a `blynk.qi` [Notefile](https://dev.blues.io/api-reference/glossary/#notefile) with the datastream name as the key. Below is an example of the Notefile body that Blynk will create:

@@ -57,7 +57,7 @@ The datastreams configuration for this example may look like this:
 Refer to the [Datastream documentation](../../blynk.console/templates/datastreams/) to create datastreams.
 
 {% hint style="info" %}
-Each time Blynk receives an update from the device, it will trigger the Online lifecycle event. Therefore, it is recommended [to configure a meaningful wait time](../../blynk.console/templates/connection-lifecycle.md) to prevent your device from being stuck in the offline state.
+Use the ['Log when device reports any data'](../../blynk.console/templates/connection-lifecycle.md#log-when-device-reports-any-data) feature in Lifecycle to mark the device as online with each uplink received from The Things Stack.
 {% endhint %}
 
 {% hint style="success" %}
