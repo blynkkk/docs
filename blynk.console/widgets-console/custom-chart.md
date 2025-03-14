@@ -13,7 +13,7 @@ From Developer Zone -> My Templates -> Selected Template -> Web Dashboard, selec
 #### Settings
 
 **Default Datastreams**\
-Select the list of datastreams that will be shown to the end user by default. Users can later adjust this list as needed.
+Select the list of datastreams of any data type (integer, double, string, enumerable, GPS) that will be shown to the end user by default. Users can later adjust this list as needed.
 
 **Data Aggregation**\
 Define how the data will be aggregated:
@@ -26,8 +26,6 @@ Each aggregation type has a **100,000 data points per datastream limit**.
 
 <figure><img src="https://lh7-us.googleusercontent.com/QHl3_swz1p00VQ932l4dagDCOGRX-_cglL43AM2siyg5u6P-tPZxzFl3CjCk7lOidy2G8TfEx2dUQdNQP5rexvBTkLMgwOyP4i2tWv3f0wz3OwkHoFqoiKFVyNU_dmqWvjh6XF6kGZiSOxhaV6zwuJ4" alt=""><figcaption></figcaption></figure>
 
-### Datastreams
-
-Select an existing datastream of any data type (integer, double, string, enumerable, GPS) to be displayed in the Custom Chart widget.
+### Time Period
 
 The slider below the chart will adjust the time period displayed.  Note that the Time Period Filter above the chart has no effect on the time period displayed.
