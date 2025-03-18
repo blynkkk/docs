@@ -6,6 +6,12 @@
 For easier maintenance and to minimize potential errors, device provisioning through Blynk is strongly recommended over The Things Stack. This approach streamlines the device activation process, making it more efficient and user-friendly.
 {% endhint %}
 
+{% hint style="info" %}
+This flow is available for **PRO** users and above.
+
+If you’re on the **Free** plan, follow the process outlined in [this guide](getting-started.md), where you first connect the device to TTS. Once connected, it will automatically be added to Blynk.
+{% endhint %}
+
 To enable the Automated Device Onboarding through Blynk, follow these steps:
 
 1. Open the advanced settings of the application on Blynk.
