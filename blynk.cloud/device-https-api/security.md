@@ -11,7 +11,7 @@ Blynk.Cloud has multiple layers of security:
 
 Blynk mostly relies on industry standards - transport layer security protocol, known as TLS. Blynk server by default tries to use the latest available protocol TLSv1.3 (or TLSv1.2 in case the TLSv1.3 version is not supported).
 
-Lower versions of TLS protocols TLSv1 and TLSv1.1 [are not supported](https://en.wikipedia.org/wiki/Transport\_Layer\_Security#TLS\_1.0) as they are considered being not secure.
+Lower versions of TLS protocols TLSv1 and TLSv1.1 [are not supported](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.0) as they are considered being not secure.
 
 The server will automatically close connections with not supported TLS versions.
 
@@ -23,11 +23,22 @@ When we are talking about the security of Blynk cloud, we take into account thes
 * Blynk.Console and Blynk.App for iOS and Android
 * Blynk.Cloud (or private servers for white-label solutions)
 
-## SOC2 certification
+### SOC2 Compliance
 
-Blynk is currently in the process of passing SOC2 Type 2 certification.
+Blynk has successfully completed a SOC 2 Type II audit, conducted by an independent third-party auditor. This validates that our internal controls and processes meet the highest industry standards for security, availability, and confidentiality—as defined by the American Institute of Certified Public Accountants (AICPA).
 
-## Blynk.Edgent (hardware library)
+#### What This Means for You:
+
+* **Stronger Data Protection** – Ensures your IoT data is managed in accordance with rigorous security standards.
+* **Faster Vendor Approvals** – Helps reduce friction during security reviews in enterprise environments.
+* **Trusted Infrastructure** – Confirms that Blynk follows structured processes to secure systems and data continuously.
+* **Scalable & Secure Deployments** – Allows you to confidently build and scale IoT applications on a platform with enterprise-grade security practices.
+
+Blynk's SOC 2 report is not publicly available but can be shared under NDA upon request. Contact your Blynk representative for more details.
+
+Read the [full announcement](https://blynk.io/blog/blynk-soc2-compliance-secure-scalable-iot).
+
+### Blynk.Edgent (hardware library)
 
 By default, Blynk.Edgent library tries to use TLS (v1.2) connection between the hardware and server. This is true for popular hardware like ESP32, ESP8266, NodeMCU, MKR 1000, etc ([full list](../../blynk.edgent/overview.md)). However, some boards don't support TLS, in that case, a plain (non-encrypted) connection is used. You can check that in the serial console output of your board. A typical TLS connection port would be 443. For the plain connections, port 80 is used.
 
