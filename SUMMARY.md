@@ -315,6 +315,7 @@
   * [Update Widget/Datastream Property](blynk.cloud/device-https-api/update-property.md)
   * [Send/Log An Event](blynk.cloud/device-https-api/trigger-events-api.md)
   * [Get Device Metadata Value](blynk.cloud/device-https-api/get-device-metafield-value.md)
+  * [Update Device Metadata Value](blynk.cloud/device-https-api/get-device-metafield-value-1.md)
   * [Is Device Connected](blynk.cloud/device-https-api/is-device-connected.md)
   * [Upload a File](blynk.cloud/device-https-api/upload-a-file.md)
   * [HTTPS API Troubleshooting](blynk.cloud/device-https-api/troubleshooting.md)
