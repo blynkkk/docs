@@ -56,6 +56,10 @@
 * [Particle - control with Blynk](hardware-guides/particle-part-ii.md)
 * [AWS IoT Core](hardware-guides/aws-iot-core.md)
 
+***
+
+* [OpenWeather](openweather.md)
+
 ## Blynk.Console
 
 * [Overview](blynk.console/console-overview.md)

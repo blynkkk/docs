@@ -12,15 +12,15 @@ The broker will accept connections from `MQTT 3.1.1` and `MQTT 5` clients.
 Please explore our [**sample projects**](https://github.com/Blynk-Technologies/Blynk-MQTT-Samples) for detailed examples.
 
 {% hint style="info" %}
-Due to **GeoDNS** configuration, the client **MUST** handle the [redirect message](#server-redirect) to ensure proper operation under all network conditions.
+Due to **GeoDNS** configuration, the client **MUST** handle the [redirect message](authentication.md#server-redirect) to ensure proper operation under all network conditions.
 
 Alternatively, the client can **connect to the regional server direcly** (in which case the redirection will not be needed):
 
-- [fra1.blynk.cloud](https://fra1.blynk.cloud/) – Frankfurt
-- [lon1.blynk.cloud](https://lon1.blynk.cloud/) – London
-- [ny3.blynk.cloud](https://ny3.blynk.cloud/) – New York
-- [sgp1.blynk.cloud](https://sgp1.blynk.cloud/) – Singapore
-- [blr1.blynk.cloud](https://blr1.blynk.cloud/) – Bangalore
+* [fra1.blynk.cloud](https://fra1.blynk.cloud/) – Frankfurt
+* [lon1.blynk.cloud](https://lon1.blynk.cloud/) – London
+* [ny3.blynk.cloud](https://ny3.blynk.cloud/) – New York
+* [sgp1.blynk.cloud](https://sgp1.blynk.cloud/) – Singapore
+* [blr1.blynk.cloud](https://blr1.blynk.cloud/) – Bangalore
 
 The server region can be found in the right bottom corner of the web interface.
 {% endhint %}
@@ -47,9 +47,7 @@ Upon establishing a clean connection, the client should subscribe to downlink me
 
 It is standard practice to subscribe to all messages under this topic using a wildcard, such as `downlink/#`.
 
-**OTA (Over-The-Air) Update**, **Server Redirect**, and **Server Diagnostic** messages represent notable exceptions.
-These messages can still be published and received by the client even if it has not subscribed to them.
-These messages are always published with QoS 0.
+**OTA (Over-The-Air) Update**, **Server Redirect**, and **Server Diagnostic** messages represent notable exceptions. These messages can still be published and received by the client even if it has not subscribed to them. These messages are always published with QoS 0.
 
 ## Server Redirect
 
@@ -87,7 +85,6 @@ Sending info message is optional for the most simplistic use cases, however when
 
 You can check connection using an [**online playground page**](https://bit.ly/Blynk-MQTT-Playground).
 
-
 Also, you can connect using `mosquitto-clients`:
 
 ```sh
@@ -101,9 +98,7 @@ mosquitto_pub -L "mqtts://device:$BLYNK_AUTH_TOKEN@blynk.cloud/ds/Temperature" -
 ```
 
 {% hint style="info" %}
-In most cases, you need to subscribe and publish messages using a single MQTT connection.
-It's not possible using `mosquitto_sub`/`mosquitto_pub`, but trivial when using MQTT API libraries.
-Please see [our examples](https://github.com/Blynk-Technologies/Blynk-MQTT-Samples).
+In most cases, you need to subscribe and publish messages using a single MQTT connection. It's not possible using `mosquitto_sub`/`mosquitto_pub`, but trivial when using MQTT API libraries. Please see [our examples](https://github.com/Blynk-Technologies/Blynk-MQTT-Samples).
 {% endhint %}
 
 ## Limitations
@@ -113,4 +108,3 @@ Please see [our examples](https://github.com/Blynk-Technologies/Blynk-MQTT-Sampl
 * The Device API client is restricted to subscribing only to sub-topics within `downlink/`. Only multi-level (`#`) wildcard at the end of the topic filter is supported, Blynk does not support single-level (`+`) wildcard at the moment.
 * All MQTT messages are limited to **`1024` bytes** (including variable header and payload). This only affects the public MQTT service, the limit is adjustible for **White Label** or **Enterprise** customers.
 * Ignoring or skipping the redirect may lead to an inability to exchange data with the server, resulting in the device being displayed as `Offline`.
-
