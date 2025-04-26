@@ -65,7 +65,7 @@ Many devices can **only** connect to 2.4Ghz networks. Double-check specs of your
 
 In some cases, you won't know the credentials upfront. For that, we offer an alternative way to provision devices with WiFi credentials using Blynk.Apps. You can read more about it [here](../activating-devices/blynk-edgent-wifi-provisioning.md).
 
-###
+
 
 ### Timers
 
