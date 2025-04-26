@@ -6,13 +6,9 @@ description: Welcome to Blynk Documentation
 
 
 
-{% hint style="success" %}
-This documentation covers the **latest generation** of the Blynk IoT Platform.
-{% endhint %}
+Blynk is a complete IoT software platform where you can prototype, deploy, and remotely manage connected electronic devices at any scale.&#x20;
 
-Blynk is a comprehensive software suite that enables the prototyping, deployment, and remote management of connected electronic devices at any scale.&#x20;
-
-Whether it's personal IoT projects or commercial connected products in the millions, Blynk empowers users to connect their hardware to the cloud and create iOS, Android, and web applications, analyze real-time and historical data from devices, remotely control them from anywhere, receive important notifications, and much more.
+Whether it's personal IoT projects or commercial connected products in the millions we empower developers and businesses to connect their hardware to the cloud and create iOS, Android, and web applications, analyze real-time and historical data from devices, remotely control them from anywhere, receive important notifications, and much more.
 
 ## Components of the Blynk IoT Platform
 
