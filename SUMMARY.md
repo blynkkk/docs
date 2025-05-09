@@ -58,6 +58,7 @@
 
 ***
 
+* [Myriota](myriota.md)
 * [OpenWeather](openweather.md)
 
 ## Blynk.Console
