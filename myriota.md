@@ -118,7 +118,7 @@ To receive and display parsed data in Blynk:
 3. Paste your **uplink decoder function**
 4. Click **Save**
 
-<figure><img src=".gitbook/assets/myriota-integration-ready.png" alt=""><figcaption><p>Myriota Integration Ready</p></figcaption></figure>
+<figure><img src=".gitbook/assets/myriota--integration-ready.png" alt=""><figcaption><p>Myriota Integration Ready</p></figcaption></figure>
 
 ***
 
@@ -150,3 +150,4 @@ If data isn’t coming through:
 2. Click **Error Logs** on the integration card to view recent errors
 
 <figure><img src=".gitbook/assets/myriota-error-logs.png" alt=""><figcaption><p><strong>Myriota Error Logs</strong></p></figcaption></figure>
+
