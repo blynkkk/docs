@@ -144,6 +144,7 @@
   * [Heatmap Chart](blynk.console/widgets-console/heatmap-chart.md)
   * [Video](blynk.console/widgets-console/video.md)
   * [Bitmask Table](blynk.console/widgets-console/bitmask-table.md)
+  * [Gradient Ramp](blynk.console/widgets-console/gradient-ramp.md)
   * [Terminal](blynk.console/widgets-console/terminal.md)
   * [Segmented Switch](blynk.console/widgets-console/segmented-switch.md)
   * [Alarm & Sound Widget](blynk.console/widgets-console/alarm-and-sound-widget.md)
