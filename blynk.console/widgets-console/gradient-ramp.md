@@ -14,8 +14,9 @@ Common use cases include displaying:
 
 ### Settings
 
-| Title               | Optional. Set a custom name for the widget.                           |
+| Setting             | Description                                                           |
 | ------------------- | --------------------------------------------------------------------- |
+| Title               | Optional. Set a custom name for the widget.                           |
 | Datastream          | Choose the datastream to visualize.                                   |
 | Override Min/Max    | Optionally override the datastream’s default min/max value limits.    |
 | Gauge Shape         | <p>Choose visual style:<br>• Solid<br>• Ascending<br>• Descending</p> |
