@@ -29,7 +29,9 @@ This feature is currently available only for Enterprise customers.
 Make sure your OpenWeather subscription is active.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/openweather-get-api-key (1).png" alt=""><figcaption></figcaption></figure>
+
+
+<figure><img src=".gitbook/assets/openweather-get-api-key.png" alt=""><figcaption><p>OpenWeather Integration Get API Key</p></figcaption></figure>
 
 ### Data Mapping
 
@@ -83,7 +85,7 @@ Map each field to individual datastreams. The following fields are supported:
 }
 ```
 
-<figure><img src=".gitbook/assets/openweather-data-mapping.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/openweather-data-mapping.png" alt=""><figcaption><p>OpenWeather Integration Data Mapping</p></figcaption></figure>
 
 {% hint style="info" %}
 You can create datastreams directly from the Integration window. The metric system is used by default.
