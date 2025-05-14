@@ -4,9 +4,9 @@ Each widget has its own settings, similar to those on a [Device Dashboard](../te
 
 The following widgets are currently supported:
 
-#### Device Metrics Widgets
+### Device Metrics Widgets
 
-**Control Widgets**:
+#### **Control Widgets**:
 
 These widgets can be used to perform management operations on devices, such as turning devices on or off, or changing values.
 
@@ -15,25 +15,37 @@ These widgets can be used to perform management operations on devices, such as t
 
 
 
-**Display Widgets**:
+#### **Display Widgets**:
 
 These widgets can be used to display a metric value from multiple devices, or historical data for the selected period of time.
 
 * Label
 * Chart: Metrics over time, agg.
 * Chart: Metric by devices
+* Device Table
 
 <div align="left"><figure><img src="../../.gitbook/assets/12_device_metrics_widgets.avif" alt=""><figcaption><p>Device Metrics Widgets</p></figcaption></figure></div>
 
 
 
-#### **Event Widgets**
+### **Event Widgets**
 
 The dashboard includes 9 ready-to-use widgets that display data about events. These widgets provide insights into the latest events, most frequent events, critical events, and more. You can analyze trends and event distribution across devices and organizations, helping you stay informed and make data-driven decisions.
 
 <div align="left"><figure><img src="../../.gitbook/assets/13_event_widgets.png" alt=""><figcaption><p>Event Widgets</p></figcaption></figure></div>
 
+### Platform Data Widgets
 
+Available only for Enterprise plan.Seven ready-to-use widgets keep you informed about your business performance by showing key metrics and trends powered by time-series data.
+
+* **Activations** – Displays the number of newly activated devices, defined as those that connected to the Blynk cloud for the first time.
+* **Total Devices** – Shows the total number of devices in your organization(s).
+* **Total Devices by Templates** – Shows the total number of devices grouped by their templates, helping you analyze device distribution across product types.
+* **Active Devices** – Indicates how many devices were online and connected to the Blynk cloud at least once during the selected time period.
+* **Active Devices by Templates** – Breaks down active device by their templates, offering deeper insight into which product types are most active.
+* **Devices by Connection Statuses Chart** – Visualizes the distribution of connection statuses (Online, Offline) across your devices. If a device was both online and offline during the selected timeframe, it is counted once for each status.
+
+<div align="left"><figure><img src="../../.gitbook/assets/Platform data widgets.png" alt=""><figcaption><p>Platform Data Widgets</p></figcaption></figure></div>
 
 ### Device metrics widgets
 
@@ -218,7 +230,7 @@ The Device Table widget displays the latest datastream values from multiple devi
 
 <figure><img src="../../.gitbook/assets/1-table example.png" alt=""><figcaption><p>Device Table Widget</p></figcaption></figure>
 
-### How to Configure
+#### How to Configure
 
 1. Add the Device Table widget to your dashboard.
 2. Select the devices you want to display in the table.
@@ -226,7 +238,7 @@ The Device Table widget displays the latest datastream values from multiple devi
 4. (Optional) Add conditional formatting.
 5. Adjust table settings such as Title, Default Sort, and Devices per Page.
 
-### Selecting Devices
+#### Selecting Devices
 
 In this tab, you can choose which devices are shown in the table. You can:
 
@@ -236,7 +248,7 @@ In this tab, you can choose which devices are shown in the table. You can:
 
 By default, all devices from the Dashboard Data Source are selected.
 
-### Columns
+#### Columns
 
 Once devices are selected, you can configure which datastreams appear as columns in the table (up to 20 columns).
 
@@ -281,12 +293,12 @@ Once you’ve configured columns, you can enhance the table visually by applying
 
 This feature lets you highlight differences in device values using color gradients. You can start with one of the preset gradients or fully customize your own by adjusting the color and values. For each point on the gradient, you can define both the background and the content color.
 
-<figure><img src="../../.gitbook/assets/8 - formatting settings.png" alt=""><figcaption><p>Formatting Settings</p></figcaption></figure>
+<div align="left"><figure><img src="../../.gitbook/assets/8 - formatting settings.png" alt="" width="563"><figcaption><p>Formatting Settings</p></figcaption></figure></div>
 
 If you want the same formatting applied across all columns in the table, simply enable the Color all columns option.\
 
 
-### Table Settings
+#### Table Settings
 
 In this tab, configure:
 
