@@ -10,8 +10,8 @@ The following widgets are currently supported:
 
 These widgets can be used to perform management operations on devices, such as turning devices on or off, or changing values.
 
-* Switch
-* Slider
+* [Switch](dashboard-widgets.md#switch)
+* [Slider](dashboard-widgets.md#slider)
 
 
 
@@ -19,10 +19,10 @@ These widgets can be used to perform management operations on devices, such as t
 
 These widgets can be used to display a metric value from multiple devices, or historical data for the selected period of time.
 
-* Label
-* Chart: Metrics over time, agg.
-* Chart: Metric by devices
-* Device Table
+* [Label](dashboard-widgets.md#label)
+* [Chart: Metrics over time, agg.](dashboard-widgets.md#chart-metrics-over-time-agg)
+* [Chart: Metric by devices](dashboard-widgets.md#chart-metric-by-device)
+* [Device Table](dashboard-widgets.md#device-table)
 
 <div align="left"><figure><img src="../../.gitbook/assets/12_device_metrics_widgets.avif" alt=""><figcaption><p>Device Metrics Widgets</p></figcaption></figure></div>
 
