@@ -306,6 +306,7 @@
   * [Timezone/Location](blynk.cloud/device-mqtt-api/timezone-location.md)
   * [OTA](blynk.cloud/device-mqtt-api/ota.md)
   * [Miscelaneous](blynk.cloud/device-mqtt-api/miscelaneous.md)
+  * [Code Examples](blynk.cloud-mqtt-api/device-mqtt-api/code-examples.md)
 
 ## BLYNK.CLOUD HTTPS API <a href="#blynk.cloud" id="blynk.cloud"></a>
 
