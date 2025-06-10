@@ -93,9 +93,9 @@ If your board is not listed below, you may still be able to use it with Blynk li
 
 **Arduino-like**
 
-* Blynk Board
+* ESP32, ESP32-S2, ESP32-S3, ESP32-C3, ESP32-C6
 * ESP8266 (Generic, NodeMCU, Witty Cloud, Huzzah, WeMos D1, Seeed Wio Link, etc.)
-* ESP32
+* Blynk Board
 * Teensy
 * Blue Pill (STM32F103C)
 * Realtek RTL8710 / Ameba via [RTLduino](https://github.com/pvvx/RtlDuino)
@@ -116,23 +116,13 @@ If your board is not listed below, you may still be able to use it with Blynk li
 * [Boron](../hardware-guides/particle.md)
 * Photon 2
 
-**JavaScript** (Node.js, Espruino, Browsers) ([https://www.npmjs.com/package/blynk-library](https://www.npmjs.com/package/blynk-library))
+**Single Board Computers** [Node.js, Browsers, Python3, MicroPython, Lua, Node-RED, etc.](https://github.com/Blynk-Technologies/Blynk-MQTT-Samples)
 
 * Regular PC with Linux / Windows / OS X
 * Raspberry Pi (Banana Pi, Orange Pi, …)
 * BeagleBone Black
 * Onion Omega 2
-* VoCore, VoCore2 (OpenWRT + [Espruino package](https://github.com/vshymanskyy/OpenWRT-Espruino-packages))
-* Espruino Pico
-* …
-
-**Python** ([https://github.com/vshymanskyy/blynk-library-python](https://github.com/vshymanskyy/blynk-library-python))
-
-* Regular PC with Linux / Windows / OS X
-* Raspberry Pi (Banana Pi, Orange Pi, …)
-* BeagleBone Black
-* Onion Omega 2
-* MicroPython
+* VoCore, VoCore2 (OpenWRT)
 * …
 
 ### Arduino connection types <a href="#supported-hardware-arduino-connection-types" id="supported-hardware-arduino-connection-types"></a>
@@ -158,10 +148,6 @@ If your board is not listed below, you may still be able to use it with Blynk li
 {% hint style="info" %}
 Traffic optimization is usually required for cellular connections. Using realtime streaming protocols like Blynk or MQTT has benefits of interactive device updates, but it also requires device to stay "always connected", which significantly increases the traffic. Blynk recommends using [HTTPS (batch) API](../blynk.cloud/device-https-api/upload-set-of-data-with-timestamps-api.md) for reporting telemetry and fetching `DataStream` values periodically in such scenarios. It will also help saving the battery.
 {% endhint %}
-
-### Made by Community <a href="#supported-hardware-made-by-community" id="supported-hardware-made-by-community"></a>
-
-* [Node-RED](https://github.com/gablau/node-red-contrib-blynk-iot) (can be used as bridge to HTTP, TCP, UDP, MQTT, XMPP, IRC, OSC…)
 
 ### Troubleshooting
 
