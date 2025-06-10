@@ -25,6 +25,10 @@
 * [Notifications (Alerts)](getting-started/notification-management.md)
 * [Sign Up / Sign In](getting-started/signup.md)
 
+***
+
+* [Changelog](changelog.md)
+
 ## General Concepts <a href="#concepts" id="concepts"></a>
 
 * [Developer Mode](concepts/developer-mode.md)
