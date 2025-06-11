@@ -36,7 +36,7 @@ The dashboard includes 9 ready-to-use widgets that display data about events. Th
 
 ### Platform Data Widgets
 
-Available only for Enterprise plan.
+Fleet Analytics (Platform Data) Widgets are available only for Enterprise plan.
 
 Six ready-to-use widgets keep you informed about your fleet performance by showing key metrics and trends powered by time-series data.
 
