@@ -38,7 +38,7 @@ The dashboard includes 9 ready-to-use widgets that display data about events. Th
 
 Available only for Enterprise plan.
 
-Seven ready-to-use widgets keep you informed about your fleet performance by showing key metrics and trends powered by time-series data.
+Six ready-to-use widgets keep you informed about your fleet performance by showing key metrics and trends powered by time-series data.
 
 * **Activations** – Displays the number of newly activated devices, defined as those that connected to the Blynk cloud for the first time.
 * **Total Devices** – Shows the total number of devices in your organization(s).
