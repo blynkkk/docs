@@ -4,6 +4,12 @@
 
 Blynk.NCP is a software solution that off-loads connectivity to a **Network Co-Processor (NCP)**, while your application logic resides on the **Primary MCU**. This implies a [dual-Microcontroller Unit (MCU)](https://docs.google.com/presentation/d/1aP2sQWB0J9EWj8Y1h5qeyfm2aFwaNSUKnCE-k7zxVnk/present) architecture.
 
+### Quick Start with Blynk.NCP
+
+Blynk offers several full-featured integrations that let you set up communication with the platform in just minutes:
+- If you're using one of the following dual-MCU boards — UNO R4 WiFi, Portenta C33, Nano RP2040 Connect, Nano 33 IoT, MKR WiFi 1010, T-PicoC3, or RPi Pico paired with an ESP8266 — check out our [Blynk.NCP Arduino example](https://github.com/Blynk-Technologies/Blynk-NCP-Example-Arduino).
+- For broader use cases and additional board support, explore our [Zephyr integration example](https://github.com/Blynk-Technologies/Blynk-NCP-Example-Zephyr).
+
 ### When to use Blynk.NCP
 
 Using Blynk.NCP is recommended if one of these is true:
@@ -44,11 +50,5 @@ Blynk team is now working on a range of complementary features that will be avai
 ### How to connect any board to Blynk with Blynk.NCP
 
 To enable a seamless connection and advanced Blynk’s functionality, add one of the [supported connectivity modules](supported-connectivity-modules.md) to your hardware as a Network Co-Processor. We’ve prepared an [example](https://github.com/blynkkk/BlynkNcpExample/blob/main/docs/BuildYourOwn.md) that includes firmware and will help you set up the communication between your hardware and Blynk with minimal effort.
-
-#### Connect a supported dual-MCU board using Blynk.NCP
-
-If you are using one of the following dual-MCU boards: UNO R4 WiFi, Portenta C33, Nano RP2040 Connect, Nano 33 IoT, MKR WiFi 1010, T-PicoC3, or RPi Pico + ESP8266, you can use this [Blynk.NCP example for Arduino](https://github.com/Blynk-Technologies/Blynk-NCP-Example-Arduino) to set up communication with the platform within minutes.  
-We also offer a [Zephyr example](https://github.com/Blynk-Technologies/Blynk-NCP-Example-Zephyr) for multiple boards and use cases.
-
 
 #### If you're interested in using **Blynk.NCP** for commercial applications, please [contact Blynk](https://blynk.io/contact-us-business).
