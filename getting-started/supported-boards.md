@@ -107,14 +107,12 @@ If your board is not listed below, you may still be able to use it with Blynk li
 * Alorium XLR8 (FPGA)
 * LinkIt ONE
 
-**Particle** [https://github.com/vshymanskyy/blynk-library-spark](https://github.com/vshymanskyy/blynk-library-spark))
+**[Particle](https://github.com/vshymanskyy/blynk-library-spark)**
 
-* Core
-* Photon
-* Electron
-* Argon
-* [Boron](../hardware-guides/particle.md)
-* Photon 2
+* Asset Tracking: Tracker SoM, Tracker One, Monitor One
+* Prototyping hardware: Photon 2, [Boron](../hardware-guides/particle.md), Muon
+* Mass production hardware: M-SoM, P2, B-SoM
+* Legacy hardware: Core, Photon, Argon, Electron
 
 **Single Board Computers** [Node.js, Browsers, Python3, MicroPython, Lua, Node-RED, etc.](https://github.com/Blynk-Technologies/Blynk-MQTT-Samples)
 
