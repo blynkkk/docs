@@ -125,7 +125,6 @@ If your board is not listed below, you may still be able to use it with Blynk li
 
 ### Arduino connection types <a href="#supported-hardware-arduino-connection-types" id="supported-hardware-arduino-connection-types"></a>
 
-* USB (Serial), connected to your laptop or desktop
 * **Ethernet**
   * Arduino MKR ETH
   * Arduino Ethernet Shield (W5100)
