@@ -1,5 +1,26 @@
 # Changelog
 
+## June 23, 2025
+
+> #### New Features
+>
+> * **Blynk.Console**: more dashboard features are now available to users on the Free plan.
+>
+>
+>
+> #### Improvements
+>
+> * **Blynk.Apps**: Android – Developer Mode UX Improvements for theme sync and editing flow.
+> * **Enterprise**: Enhanced email notifications.
+>
+>
+>
+> #### Cleanup & Fixes
+>
+> Ongoing stability improvements and resolution of various UI, logic, and performance issues.
+
+
+
 ## June 9th, 2025&#x20;
 
 > #### New Features
