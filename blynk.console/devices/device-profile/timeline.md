@@ -1,8 +1,22 @@
+---
+description: >-
+  This drawer shows a timeline of all device events, helping users monitor
+  activity, identify issues, and collaborate with their team.
+---
+
 # Notifications & Events
 
-This drawer keeps the timeline of events that can be filtered by time period and event type.
+> **Note:** This feature must be configured in the device template before use.
+>
+> 👉 [Learn more about setting up events in templates](https://docs.blynk.io/en/blynk.console/templates/events)
 
-<figure><img src="../../../.gitbook/assets/console-device-timeline.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/device-timeline (1).png" alt=""><figcaption></figcaption></figure>
+
+### Event Types
+
+***
+
+This drawer keeps the timeline of events that can be filtered by time period and event type.
 
 ## Filters
 
