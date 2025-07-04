@@ -12,48 +12,84 @@ description: >-
 
 <figure><img src="../../../.gitbook/assets/device-timeline (1).png" alt=""><figcaption></figcaption></figure>
 
+***
+
 ### Event Types
+
+There are 5 types of events:
+
+* **Critical** – Used for the most important events, such as system faults or critical errors.
+* **Warning** – Alerts for important but less severe issues like filter replacements or anomalies.
+* **Info** – Non-urgent informational messages, such as status updates.
+* **Content** – Promotional or upselling messages, e.g., time to replace a battery.
+* **User Note** – Manually added notes by users. Enterprise Plan users can also attach images.
 
 ***
 
-This drawer keeps the timeline of events that can be filtered by time period and event type.
+### Filter and Search <a href="#filter-and-search" id="filter-and-search"></a>
 
-## Filters
+By default, the timeline shows All events, sorted from the latest to earliest.
 
-### Time Period
+You can narrow down your view using:
 
-* 1 Day
-* 1 Week
-* 1 Month
-* Custom Range – set start and end dates in date picker
+#### **Filters**
 
-### **Events Type**
+* **Event Types & States** – Select one of 7 filters: Critical, Warning, Info, Content, User Note, Archived, Resolved. Each filter displays a counter badge showing the total number of events inside.
+* **Time Range**:
+  * 1 Day
+  * 1 Week
+  * 1 Month
+  * Custom Range – Select a start and end date using the date picker.
 
-There are 4 types of events view:
+#### **Search**
 
-* Critical
-* Warning
-* Info
-* Content
-* Resolved
-* All events
+Use the Search field to look for events by:
 
-Total quantity numbers for each of them are displayed inside the switches.
+* Name
+* Short description
+* Comments (including text inside a comment)
 
-## Events list
+***
 
-Here you can see events in sequential order (latest to earliest).
+### How Are Events Logged?
 
-Event name and date are displayed in the header. Hover over the event body to view the full short description.&#x20;
+Events can appear on the timeline via the following methods:
 
-To move a notification from Critical or Warning list to Resolved:
+* Device-generated, using:
+  * [Firmware API](https://docs.blynk.io/en/blynk-library-firmware-api/log-event)
+  * [HTTP API](https://docs.blynk.io/en/blynk.cloud/device-https-api/trigger-events-api)
+  * [MQTT API](https://docs.blynk.io/en/blynk.cloud-mqtt-api/device-mqtt-api/events)
+* Log Event action type in user-created automations _(Only available in Web Console)_
+* Manual entry, using the Add Note button
 
-1. Hover over the notification to reveal the "Mark as Resolved" button.
-2. Click **Mark as Resolved** to open the **Commentary** modal window.
-3. Describe the actions taken and/or specifics of what happened to the device in the input field (up to 200 characters).
-4. Click **Mark as Resolved** again.
+***
 
-## **Notifications Settings**
+### Event Actions <a href="#event-actions" id="event-actions"></a>
 
-This button is on the top right of the screen.\
-Click it to set up events notifications recipients, statuses and channels. Click [this link](../../../getting-started/notification-management.md) for more details.
+Users with Edit Timeline permission can perform the following actions on events:
+
+#### Comment
+
+Leave a comment under an event — for example, to describe the resolution taken. Enterprise Plan users can also attach images in comments.
+
+#### Resolve
+
+Only available for Critical and Warning event types. Mark the event as resolved and add a resolution note. Resolved events move to the Resolved filter.
+
+#### **Archive**
+
+If enabled in[ event settings](https://docs.blynk.io/en/blynk.console/templates/events/custom-events/events-general-setting), users can archive an event to hide it from the main timeline. Archived events are still available via the Archived filter. Users can also unarchive an event to bring it back to the timeline.
+
+***
+
+### Notification Settings
+
+By default, users receive notifications based on how the event was configured in the device’s template. However, users can customize these settings (if allowed) for specific events.
+
+To access Notification Settings:
+
+* Click the Notification Settings icon in the top-right corner of the Notifications & Events drawer.
+* Or use the Device Actions menu on the device’s main page.
+
+[👉 Learn more about Notification Settings](../notifications-settings.md)
+
