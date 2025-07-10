@@ -1,5 +1,23 @@
 # Changelog
 
+## July 7, 2025
+
+> #### New Features
+>
+> * **Blynk.Apps**: Stop Automation allowing users to halt running automation directly from the automation settings or card.
+>
+>
+>
+> #### Enterprise Features
+>
+> * **Custom Data:** allows users to view, create, edit, and manage custom database records with proper validation, nested relations, and access control—supporting both structured data management and field operations. It is available in Blynk.Console and Blynk.Apps.
+>
+>
+>
+> #### Cleanup & Fixes
+>
+> Ongoing stability improvements and resolution of various UI, logic, and performance issues.
+
 ## June 23, 2025
 
 > #### New Features
