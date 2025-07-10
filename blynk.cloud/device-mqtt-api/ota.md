@@ -51,8 +51,9 @@ volatile const char firmwareTag[] = "blnkinf\0"
     "\0";
 ```
 
-> [!IMPORTANT]
-> If your OTA process involves encrypting, compressing, re-packaging (or altering the raw firmware binary in any other way), you should add the equivalent tag to your final OTA package. Blynk provides a [`blynk_tag.py extract`](https://github.com/Blynk-Technologies/Blynk-NCP-Example-Arduino/blob/main/tools/blynk_tag.py) tool to automate this process.
+{% hint style="warning" %}
+If your OTA process involves encrypting, compressing, re-packaging (or altering the raw firmware binary in any other way), you should add the equivalent tag to your final OTA package. Blynk provides a [`blynk_tag.py extract`](https://github.com/Blynk-Technologies/Blynk-NCP-Example-Arduino/blob/main/tools/blynk_tag.py) tool to automate this process.
+{% endhint %}
 
 ### Alternative OTA package generation procedure
 
