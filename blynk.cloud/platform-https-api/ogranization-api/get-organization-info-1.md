@@ -2,20 +2,26 @@
 
 
 
-{% swagger method="get" path="/api/v1/organization" baseUrl="https://{server_address}" summary="Get Organization Info" %}
-{% swagger-description %}
-Get organization information by it's identifier.
-{% endswagger-description %}
+## Get Organization Info
 
-{% swagger-parameter in="header" name="Authorization" type="Bearer {access_token}" required="true" %}
+<mark style="color:blue;">`GET`</mark> `https://{server_address}/api/v1/organization`
 
-{% endswagger-parameter %}
+Get organization information by its identifier.
 
-{% swagger-parameter in="query" name="orgId" type="1" required="true" %}
-Organization identifier
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-response status="200: OK" description="Organization info" %}
+| Name                                    | Type | Description             |
+| --------------------------------------- | ---- | ----------------------- |
+| orgId<mark style="color:red;">\*</mark> | 1    | Organization identifier |
+
+#### Headers
+
+| Name                                            | Type                   | Description |
+| ----------------------------------------------- | ---------------------- | ----------- |
+| Authorization<mark style="color:red;">\*</mark> | Bearer {access\_token} |             |
+
+{% tabs %}
+{% tab title="200: OK Organization info" %}
 ```json
 {
    "id": 658,
@@ -36,9 +42,9 @@ Organization identifier
    "lastModifiedTs": 1694707051504
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="404: Not Found" description="Organization is not found" %}
+{% tab title="404: Not Found Organization is not found" %}
 ```json
 {
     "error": {
@@ -46,17 +52,17 @@ Organization identifier
     }
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 Request examples:
 
 ```bash
 # curl command example:
 $ curl -H "Authorization: Bearer {accessToken}" https://fra1.blynk.cloud/api/v1/organization?orgId=1
-$ curl -H "Authorization: Bearer eIdWHQqRfFmvP5LDDh-IGxPUzi7I27HthzCPAVmS" https://fra1.blynk.cloud/api/organization?orgId=1
+$ curl -H "Authorization: Bearer eIdWHQqRfFmvP5LDDh-IGxPUzi7I27HthzCPAVmS" https://fra1.blynk.cloud/api/v1/organization?orgId=1
 
-# httpie command exmaple:
-$ https -A bearer -a {accessToken} fra1.blynk.cloud/api/organization?orgId=1
+# httpie command example:
+$ https -A bearer -a {accessToken} fra1.blynk.cloud/api/v1/organization?orgId=1
 $ https -A bearer -a eIdWHQqRfFmvP5LDDh-IGxPUzi7I27HthzCPAVmS fra1.blynk.cloud/api/v1/organization?orgId=1
 ```
