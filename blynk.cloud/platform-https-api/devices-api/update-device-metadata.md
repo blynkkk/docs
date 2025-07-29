@@ -13,11 +13,11 @@
 
 #### Request Body
 
-| Name                                          | Type    | Description                 |
-| --------------------------------------------- | ------- | --------------------------- |
-| deviceId<mark style="color:red;">\*</mark>    | Integer | Device identifier.          |
-| metaFieldId<mark style="color:red;">\*</mark> | Integer | MetaField identifier.       |
-| newValue<mark style="color:red;">\*</mark>    | String  | New metafield string value. |
+| Name                                          | Type           | Description                 |
+| --------------------------------------------- | -------------- | --------------------------- |
+| deviceId<mark style="color:red;">\*</mark>    | Integer        | Device identifier.          |
+| metaFieldId<mark style="color:red;">\*</mark> | Integer        | MetaField identifier.       |
+| newValue<mark style="color:red;">\*</mark>    | Integer/String | New metafield string value. |
 
 {% tabs %}
 {% tab title="404: Not Found Device is not found" %}
