@@ -44,9 +44,9 @@ Request examples:
 ```bash
 # curl command example:
 $ curl -H "Authorization: Bearer {accessToken}" https://fra1.blynk.cloud/api/v1/organization/profile
-$ curl -H "Authorization: Bearer eIdWHQqRfFmvP5LDDh-IGxPUzi7I27HthzCPAVmS" https://fra1.blynk.cloud/api/organization/profile
+$ curl -H "Authorization: Bearer eIdWHQqRfFmvP5LDDh-IGxPUzi7I27HthzCPAVmS" https://fra1.blynk.cloud/api/v1/organization/profile
 
-# httpie command exmaple:
-$ https -A bearer -a {accessToken} fra1.blynk.cloud/api/organization/profile
+# httpie command example:
+$ https -A bearer -a {accessToken} fra1.blynk.cloud/api/v1/organization/profile
 $ https -A bearer -a eIdWHQqRfFmvP5LDDh-IGxPUzi7I27HthzCPAVmS fra1.blynk.cloud/api/v1/organization/profile
 ```
