@@ -1,19 +1,23 @@
 # Get Device Info
 
-{% swagger method="get" path="/api/v1/organization/device" baseUrl="https://{server_address}" summary="Get Device Info" %}
-{% swagger-description %}
+## Get Device Info
 
-{% endswagger-description %}
+<mark style="color:blue;">`GET`</mark> `https://{server_address}/api/v1/organization/device`
 
-{% swagger-parameter in="header" name="Authorization" type="Bearer {access_token}" required="true" %}
+#### Query Parameters
 
-{% endswagger-parameter %}
+| Name                                       | Type | Description                                   |
+| ------------------------------------------ | ---- | --------------------------------------------- |
+| deviceId<mark style="color:red;">\*</mark> | 1    | Device identifier. Should be a valid integer. |
 
-{% swagger-parameter in="query" name="deviceId" type="1" required="true" %}
-Device identifier. Should be a valid integer.
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-response status="200: OK" description="Device info" %}
+| Name                                            | Type                   | Description |
+| ----------------------------------------------- | ---------------------- | ----------- |
+| Authorization<mark style="color:red;">\*</mark> | Bearer {access\_token} |             |
+
+{% tabs %}
+{% tab title="200: OK Device info" %}
 ```json
 {
    "id": 1,
@@ -43,12 +47,32 @@ Device identifier. Should be a valid integer.
    },
    "ip": "127.0.0.1",
    "isLocked": false,
-   "lastReceivedEventAt": 0
+   "lastReceivedEventAt": 0,
+   "dataStreamValues": [
+      {
+         "dataStreamId": 1,
+         "pin": "v1",
+         "dataStreamLabel": "Temperature",
+         "dataStreamAlias": "Temperature",
+         "value": 24.3,
+         "updatedAt": 1753778251000
+      }
+   ],
+   "metaFieldValues": [
+      {
+         "id": 1,
+         "name": "Serial Number",
+         "value": {
+            "type": "Text",
+            "value": "SN:123"
+         }
+      }
+   ]
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="404: Not Found" description="Device is not found" %}
+{% tab title="404: Not Found Device is not found" %}
 ```json
 {
     "error": {
@@ -56,8 +80,8 @@ Device identifier. Should be a valid integer.
     }
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 Request examples:
 

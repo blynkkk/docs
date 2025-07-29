@@ -345,6 +345,7 @@
     * [Get Devices in user organization](blynk.cloud/platform-https-api/devices-api/search-devices-2.md)
     * [Get Recently Activated Devices](blynk.cloud/platform-https-api/devices-api/get-recently-activated-devices.md)
     * [Get Device Info](blynk.cloud/platform-https-api/devices-api/get-device-info.md)
+    * [Get Base Device Info](blynk.cloud/platform-https-api/devices-api/get-device-info-1.md)
     * [Get Connection Status](blynk.cloud/platform-https-api/devices-api/get-connection-status.md)
     * [Create Device](blynk.cloud/platform-https-api/devices-api/create-device.md)
     * [Edit Device](blynk.cloud/platform-https-api/devices-api/edit-device.md)
