@@ -1,5 +1,21 @@
 # Changelog
 
+## August 18, 2025&#x20;
+
+> ### **Enterprise features** &#x20;
+>
+> * Event and push messages are now translated based on each receiver’s locale, ensuring notifications are delivered in the user’s preferred language.
+>
+> ### **Improvements**  &#x20;
+>
+> * Added the “Download all” button in Assets to easily export all files with assets JSON as a ZIP archive.&#x20;
+> * **OTA:** status now displays only the actual state per device, simplifying managing multiple devices
+> * Added a download popup for SQL widget reports, giving users clearer control over exporting data
+>
+> ### **Cleanup & Fixes**&#x20;
+>
+> Ongoing stability improvements and resolution of various UI, logic, and performance issues.
+
 ## August 4, 2025
 
 > ### **New Features**&#x20;
