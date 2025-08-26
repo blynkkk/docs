@@ -14,7 +14,7 @@ Your business server will be physically launched in a region of your choice. Let
 
 ### Custom Domain (optional) <a href="#server-name-and-location" id="server-name-and-location"></a>
 
-Your Business plan includes an option to set up a custom domain (or subdomain) for your console before the server is launched. This is an address where you and your customers can access the web portal. 
+Your Enterprise plan includes an option to set up a custom domain (or subdomain) for your console before the server is launched. This is an address where you and your customers can access the web portal. 
 
 If you are still deciding, your console will be pointed to a default Blynk address: `https://yourcompanyname.blynk.cc`. This can be changed later, but it would incur a domain change fee
 
@@ -38,7 +38,7 @@ Most of our customers use subdomains like these ones:
 
 **Point your domain to the provided IP address**
 
-Your launch ingeneer will provide you with IP address of the server. You would need to login to admin console of your and point the domain to the provided IP address.&#x20;
+Your launch engineer will provide you with IP address of the server. You would need to login to admin console of your and point the domain to the provided IP address.&#x20;
 
 
 
