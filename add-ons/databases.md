@@ -1,7 +1,7 @@
 ---
 description: >-
-  Bring in any structured data to Blynk and integrate it in your business
-  application
+  Build structured databases that connect your business data with IoT devices
+  and sensors
 ---
 
 # Databases
