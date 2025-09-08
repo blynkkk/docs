@@ -4,11 +4,46 @@ description: Access and permissions management for different user roles
 
 # Roles and Permissions
 
-Free plan has a locked set of permissions, meaning the default permissions by role cannot be changed. PRO and Business plans have permissions that may be edited by role.
+### Plans
+
+* With a **Free plan** you can only use the default roles with their fixed permissions.
+* With a **PRO plan** you can edit permissions for the default roles.
+* With an **Enterprise plan** you get full control with **Custom Roles:** create, rename, and delete roles.
+
+***
+
+### Default Roles
+
+Blynk has 3 default roles that can have different sets of permissions:
+
+* **Admin** – is intended to have the highest level of permissions
+* **Staff** – we recommend to set up and use this role for internal company functions and client support
+* **Users** – is intended to have the most limited set of permissions, mostly focused on managing their own devices
+
+***
+
+### Custom Roles (Enterprise only)
+
+With Custom Roles, organizations can build their own role structure beyond the defaults. With this feature, you can add, rename, or remove roles while keeping role management consistent across your organization hierarchy.
+
+#### Capabilities
+
+* **Create new roles**\
+  Only Blynk team can create custom roles, by client request. You can have up to **9 roles**.
+* **Rename roles**\
+  Change role names anytime. The system applies renames across the entire organization hierarchy.
+* **Delete roles**
+  * To delete a role select a replacement role before deletion.
+  * If the deleted role has users, the system transfers them to the replacement role.
+  * You cannot delete the **Admin role** to ensure at least one role always exists.
+* **Organization-wide consistency**\
+  You can set role permissions for each organization separately. But role structure always applies to the whole organization hierarchy.
+* **Roles Across the App**\
+  Custom Roles appear everywhere you manage roles in Blynk: device dashboard tab permissions, dashboard permissions, mobile pages permissions, etc.
 
 ## Editing Roles and Permissions
 
-![](../../.gitbook/assets/Roles\_and\_Perms.gif)
+![](../../.gitbook/assets/Roles_and_Perms.gif)
 
 Blynk has 3 default roles that can have different sets of permissions:
 
