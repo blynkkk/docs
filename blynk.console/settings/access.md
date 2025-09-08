@@ -45,12 +45,6 @@ With Custom Roles, organizations can build their own role structure beyond the d
 
 ![](../../.gitbook/assets/Roles_and_Perms.gif)
 
-Blynk has 3 default roles that can have different sets of permissions:
-
-* **Admin** – is intended to have the highest level of permissions
-* **Staff** – we recommend to set up and use this role for internal company functions and client support
-* **Users** – is intended to have the most limited set of permissions, mostly focused on managing their own devices
-
 ### Actions
 
 * **Collapse/Expand all** in Actions block – applies eponymous actions to expandable permissions list
