@@ -91,8 +91,6 @@ Where:&#x20;
 Don't put **`Blynk.setProperty()`**&#x69;nto the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, or use timers.
 {% endhint %}
 
-
-
 ### Properties you can change
 
 You can change the properties _label_, _isDisabled_, _isHidden_ of the widget from your hardware, or via an [HTTP API](broken-reference). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
@@ -164,22 +162,41 @@ Blynk.setProperty(V1, "isHidden", true);
 
 ## Updates the Datastream Property and all assigned Widgets
 
-<mark style="color:blue;">`GET`</mark> `https://{server_address}/external/api/update/property?token={your 32 char token}&pin={your vPin}&{property}={value}`
+<mark style="color:blue;">`GET`</mark>&#x20;
+
+```
+https://{server_address}/external/api/update/property?token={your 32 char token}&pin={your vPin}&{property}={value}
+```
 
 The endpoint allows you to update the Datastream Property value via GET request. All widgets (both web and mobile) that are assigned to this datastream will inherit this property. The Datastream Property is persistent and will be stored forever until you change it with another value. In order to clear the property you need to clear the device data in device actions menu.
 
-**Examples:**\
-`https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V2&label=My%20Label`
+**Examples:**
 
-`https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&isDisabled=true`
+```
+https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V2&label=My%20Label
+```
 
-https://blynk.cloud/external/api/update/property?token={token}\&pin={pin}\&url={index}\&url={url}
+```
+https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&isDisabled=true
+```
 
-`https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&url=2&url=https://image%202.jpg`
+```html
+https://blynk.cloud/external/api/update/property?token={token}&pin={pin}&url={index}&url={url}
+```
 
-https://blynk.cloud/external/api/update/property?token={token}\&pin={pin}\&urls={url1}\&urls={url2}\&urls={url3}
+```
+https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&url=2&url=https://image%202.jpg
+```
 
-`https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&urls=https://image%201.jpg&urls=https://image%202.jpg&urls=https://image%203.jpg`
+```
+https://blynk.cloud/external/api/update/property?token={token}&pin={pin}&urls={url1}&urls={url2}&urls={url3}
+```
+
+```
+https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y0OpneL1&pin=V1&urls=https://image%201.jpg&urls=https://image%202.jpg&urls=https://image%203.jpg
+```
+
+####
 
 #### Path Parameters
 
