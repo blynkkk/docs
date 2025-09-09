@@ -140,6 +140,12 @@ Blynk.setProperty(V1, "onImageUrl", "URL");
 Blynk.setProperty(V1, "offImageUrl", "URL");
 ```
 
+You can also use images from uploaded [assets.md](../../blynk.console/templates/assets.md "mention") by referencing its id:
+
+```
+Blynk.setProperty(V1, "onImageUrl", "template_asset://id");
+```
+
 #### Set a custom label for the widget
 
 ```cpp

@@ -138,6 +138,12 @@ Blynk.setProperty(V1, "urls", "https://image1.jpg", "https://image2.jpg");
 Make sure you not exceed the max string size of 255 chars when sending a long list of URLs&#x20;
 {% endhint %}
 
+You can also use images from uploaded [assets.md](../../blynk.console/templates/assets.md "mention") by referencing its id:
+
+```
+Blynk.setProperty(V1, "url", 1, "template_asset://id");
+```
+
 #### **Disable/Enable**
 
 Widget will be greyed out on UI and users won't be able to tap on it.

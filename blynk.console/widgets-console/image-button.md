@@ -73,6 +73,16 @@ Blynk.setProperty(V1, "onImageUrl", "https://host/static/icon.png");
 Blynk.setProperty(V1, "offImageUrl", "https://host/static/icon.png");
 ```
 
+You can also use images from uploaded [assets.md](../templates/assets.md "mention") by referencing its id:
+
+```
+Blynk.setProperty(V1, "onImageUrl", "template_asset://id");
+```
+
+
+
+
+
 ### Send data using HTTP API
 
 Please check this article [https://docs.blynk.io/en/blynk.cloud/update-datastream-value](https://docs.blynk.io/en/blynk.cloud/update-datastream-value)
