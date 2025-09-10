@@ -23,7 +23,7 @@ These widgets can be used to display a metric value from multiple devices, or hi
 * [Chart: Metrics over time, agg.](dashboard-widgets.md#chart-metrics-over-time-agg)
 * [Chart: Metric by devices](dashboard-widgets.md#chart-metric-by-device)
 * [Device Table](dashboard-widgets.md#device-table)
-* Image Map
+* [Image Map](dashboard-widgets.md#image-map)
 
 <div align="left"><figure><img src="../../.gitbook/assets/12_device_metrics_widgets.avif" alt=""><figcaption><p>Device Metrics Widgets</p></figcaption></figure></div>
 
