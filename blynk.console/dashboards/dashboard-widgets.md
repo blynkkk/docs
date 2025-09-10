@@ -379,12 +379,10 @@ All marker styles support the **Color based on value** option.
 
 You can optionally add datastreams to display in a popup tooltip when clicking on a device. Each popup supports up to 5 datastreams, giving you quick access to extra details without crowding the map.
 
-{% hint style="warning" %}
-Avoid overcrowding by showing only essential datastreams per device. For deeper analysis, combine the Image Map with tables or charts.
-{% endhint %}
+**💡 Tip:** Avoid overcrowding by showing only essential datastreams per device. For deeper analysis, combine the Image Map with tables or charts.
 
 <figure><img src="../../.gitbook/assets/Image_Map_popup.png" alt=""><figcaption></figcaption></figure>
 
-#### Value Sharing to Sub-Orgs
+#### Sharing to Sub-Orgs
 
 When a dashboard containing an Image Map widget is shared with sub-organizations, users in the sub-org will see the background image along with only the devices they have access to. Devices from higher-level organizations are automatically filtered out. This ensures that sub-org users always view a clean and relevant map without exposure to unrelated devices.
