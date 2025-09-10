@@ -333,11 +333,11 @@ Unlike GPS-based maps, the Image Map uses images you upload, giving you full con
 3. **Add devices**\
    Hover over the image and click in a place you want to add a device.
 
-<figure><img src="../../.gitbook/assets/Image_Map_add_device.png" alt="Adding Devices in the Image"><figcaption><p>Adding Devices in the Image</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Image_Map_add_device.png" alt="Adding Devices in the Image"><figcaption></figcaption></figure>
 
 One you’ve clicked, the spot is created. Then pick a device you want to display there.
 
-<figure><img src="../../.gitbook/assets/Image_Map_pick_device.png" alt=""><figcaption><p>Adding Devices in the Image</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Image_Map_pick_device.png" alt=""><figcaption></figcaption></figure>
 
 4. **Adjust devices**\
    Resize a device marker if needed. You can also reposition devices anytime by dragging them.  Devices stay pinned to their locations for quick reference. You can place up to **50 devices** on one map.
