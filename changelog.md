@@ -1,5 +1,18 @@
 # Changelog
 
+## September 12, 2025&#x20;
+
+> ### **New Features**
+>
+> * Data converters - a user-defined javascript for https/mqtt messages that can decode/encode the messages on the fly and perform other blynk operations like sending log events, changing multiple datastreams at time, data filtering and convertion, etc. Available for Enterprise and PRO users.
+> * Root org level webhook with "Orgnanization Created" trigger. Available for Enterprise users.
+> * Image Map Widget - upload your image of building, floor, room, etc and pin devices on it. Available for Enterprise and PRO users.
+>
+> ### **Cleanup & Fixes**&#x20;
+>
+> * The maximum number of datastreams for Enterprise clients is now 256 and not 255 (like it was before).
+> * Fixed broken percentage counters in dashboard widgets "Active Deviecs" / "Total Devices".
+
 ## August 18, 2025&#x20;
 
 > ### **Enterprise features** &#x20;
@@ -16,7 +29,7 @@
 >
 > Ongoing stability improvements and resolution of various UI, logic, and performance issues.
 
-## August 4, 2025
+## August 4, 2025&#x20;
 
 > ### **New Features**&#x20;
 >
