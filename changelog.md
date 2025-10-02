@@ -11,7 +11,7 @@
 >   * "Product Log Event"
 > * **Rule Engine Update**: Introduced a new Rule Engine flow to cater to "Plan Changed" triggers for Enterprise end-user billing.
 > * **AI Helper Chat**: A new AI helper chat feature is now available to make template editing and configuration easier.
-> * **Device Segmentation**: Our automation now supports device segments, allowing for dynamic device list generation.
+> * **Automations for Segments**: Our automation now supports device segments, allowing for dynamic device list generation.
 > * **GeoMap Widget**: A new GeoMap widget has been introduced.
 > *   **CSV Download Features**:
 >
