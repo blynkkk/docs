@@ -41,11 +41,11 @@
 * [Organizations](concepts/organizations.md)
 * [Automations](concepts/automations.md)
   * [Forward Device Data](concepts/automations/forward-device-data.md)
-* [Security Overview](concepts/security.md)
 
 ***
 
 * [Message Usage](message-usage.md)
+* [Security Overview](security.md)
 
 ## Integration Guides <a href="#hardware-guides" id="hardware-guides"></a>
 
