@@ -1,17 +1,50 @@
 # Changelog
 
-## September 12, 2025&#x20;
+## September 30, 2025&#x20;
 
 > ### **New Features**
 >
-> * Data converters - a user-defined javascript for https/mqtt messages that can decode/encode the messages on the fly and perform other blynk operations like sending log events, changing multiple datastreams at time, data filtering and convertion, etc. Available for Enterprise and PRO users.
-> * Root org level webhook with "Orgnanization Created" trigger. Available for Enterprise users.
-> * Image Map Widget - upload your image of building, floor, room, etc and pin devices on it. Available for Enterprise and PRO users.
+> * **Customize View Accessibility**: The "Customize View" button for the device list is now available to all plans, broadening its previous accessibility from just Plus/Pro users.
+> * **New Column in Customize View**: We've added a "Last Connected At" column to enhance the "Customize View" options.
+> * **New Webhooks for Enterprise Plans**:
+>   * "New Organization Created"
+>   * "Product Log Event"
+> * **Rule Engine Update**: Introduced a new Rule Engine flow to cater to "Plan Changed" triggers for Enterprise end-user billing.
+> * **AI Helper Chat**: A new AI helper chat feature is now available to make template editing and configuration easier.
+> * **Device Segmentation**: Our automation now supports device segments, allowing for dynamic device list generation.
+> * **GeoMap Widget**: A new GeoMap widget has been introduced.
+> *   **CSV Download Features**:
+>
+>     * Button added for downloading uploaded CSV files for In-App campaigns.
+>     * Organizations list can now be downloaded as CSV files.
+>
+>
 >
 > ### **Cleanup & Fixes**&#x20;
 >
-> * The maximum number of datastreams for Enterprise clients is now 256 and not 255 (like it was before).
-> * Fixed broken percentage counters in dashboard widgets "Active Deviecs" / "Total Devices".
+> * Reformatted datastream values in the devices table.
+> * Enhanced error messages for data converters.
+> * Fixed memory leak in rare cases during data converter usage.
+> * Corrected incorrect counters in running shipments.
+> * Added a link to documentation in the Data Converter view.
+> * Boosted performance for ARM servers in self-hosted environments.
+
+## September 12, 2025&#x20;
+
+> ###
+>
+> ### **New Features**
+>
+> * **Data Converters**: A user-defined JavaScript for HTTPS/MQTT messages that can decode/encode messages on the fly and perform other Blynk operations like sending log events, changing multiple data streams at a time, data filtering, and conversion, etc. Available for Enterprise and PRO users.
+> * **Root Org Level Webhook**: With "Organization Created" trigger. Available for Enterprise users.
+> * **Image Map Widget**: Upload your image of a building, floor, room, etc., and pin devices on it. Available for Enterprise and PRO users.
+>
+>
+>
+> ### **Cleanup & Fixes**&#x20;
+>
+> * The maximum number of data streams for Enterprise clients is now 256 instead of 255 as it was before.
+> * Fixed broken percentage counters in dashboard widgets "Active Devices" / "Total Devices."
 
 ## August 18, 2025&#x20;
 
