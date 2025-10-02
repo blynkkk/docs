@@ -31,8 +31,6 @@
 
 ## September 12, 2025&#x20;
 
-> ###
->
 > ### **New Features**
 >
 > * **Data Converters**: A user-defined JavaScript for HTTPS/MQTT messages that can decode/encode messages on the fly and perform other Blynk operations like sending log events, changing multiple data streams at a time, data filtering, and conversion, etc. Available for Enterprise and PRO users.
