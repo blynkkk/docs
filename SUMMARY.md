@@ -41,6 +41,7 @@
 * [Organizations](concepts/organizations.md)
 * [Automations](concepts/automations.md)
   * [Forward Device Data](concepts/automations/forward-device-data.md)
+* [Security Overview](concepts/security.md)
 
 ***
 
