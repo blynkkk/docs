@@ -1,5 +1,88 @@
 # Changelog
 
+## October 13, 2025&#x20;
+
+> ### **New Features**
+>
+> **AI Chat Features:**
+>
+> * **Availability:** AI Chat is now available for Free and Plus users with a limit of 100 messages. Pro users can enjoy up to 1000 messages.
+> * **Expanded View:** Users can expand the AI Chat interface to a width of 40rem (640px). Preferences are saved for user convenience.
+>
+> **MQTT Converter:**
+>
+> * **Downlinks:** Added functionality for downlinks in MQTT converters to trigger device actions.
+>
+> **SQL Widget:**
+>
+> * **Download Confirmation:** Implemented a download confirmation popup for CSV report exports in SQL widgets, enhancing consistency with device reports.
+>
+>
+>
+> ### **Improvements**
+>
+> * **AI Chat Interface**: Enhanced code block display for better readability.
+> * **AI Chat UX**: Replaced "New Chat" icon with a broom icon for improved visual clarity.
+> * **AI Chat Performance**: Optimized database queries for faster AI message history retrieval.
+> * **Converter UI**: Auto-hide "Create" buttons when reaching datastream/event limits.
+> * **Device Interface**: Fixed no-device screen issue for non-developer users.
+> * **Modules Widget**: Made "Create more datastreams to add" text non-interactive when no datastreams match.
+> * **Email Validation**: Enhanced registration email validation to support special characters and formatting.
+> * **OpenWeather Optimization**: Reduced API call frequency to enhance performance.
+>
+>
+>
+> ### **Cleanup & Fixes**&#x20;
+>
+> #### AI Chat
+>
+> * Resolved crash issue when sending requests in product edit mode.
+> * Fixed server message content errors after server restarts.
+> * Corrected artifacts revealing datastream specs incorrectly.
+> * Adjusted wrapping of single backtick quotes in code blocks.
+> * Fixed crash due to "undefined is not an object" error.
+>
+> #### Automation
+>
+> * Fixed editing window closure when deselecting datastreams at certain positions.
+> * Resolved marking issues for datastreams in automation conditions.
+> * Hid "Duplicate" button when only one action exists.
+>
+> #### Control Segments
+>
+> * Fixed name cropping issues in the automation interface.
+>
+> #### Converter UI
+>
+> * Resolved template name overflow hiding additional action buttons.
+>
+> #### Device Customization
+>
+> * Fixed non-functional search in the "Customize View" tab.
+>
+> #### Device Map
+>
+> * Fixed map button not showing on "My Devices" page after refresh.
+> * Fixed map not showing when adding a new location in device info.
+>
+> #### Geographic Map Widget
+>
+> * Prevented devices from displaying on the Design tab when segments lack available devices.
+> * Fixed map loading twice on the Design tab.
+> * Resolved widget name cropping with "Upgrade" button visible.
+>
+> #### Icon Alignment
+>
+> * Corrected misaligned icons.
+>
+> #### Webhook Parameters
+>
+> * Fixed missing timestamp and tag values in webhook calls.
+>
+> #### Product Validation
+>
+> * Resolved "Datastream should have unique ID" error for AI-generated datastreams.
+
 ## September 30, 2025&#x20;
 
 > ### **New Features**
