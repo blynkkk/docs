@@ -1,6 +1,10 @@
 # Control Segment
 
-The **Control Segment** action allows you to control multiple devices grouped in a segment with a single automation. This makes it easy to apply the same action across many devices without configuring them individually.Use Control Segment when you want to manage groups of devices at scale — for example, switching off all air conditioners in one office segment at 6:00 PM.Available for Pro and Enterprise plans.
+The **Control Segment** action allows you to control multiple devices grouped in a segment with a single automation. This makes it easy to apply the same action across many devices without configuring them individually. Use Control Segment when you want to manage groups of devices at scale — for example, switching off all air conditioners in one office segment at 6:00 PM.
+
+{% hint style="info" %}
+Available for **Pro and Enterprise plans.**
+{% endhint %}
 
 #### Adding a Control Segment Action
 
