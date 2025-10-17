@@ -1,6 +1,8 @@
 # Control Segment
 
-The **Control Segment** action allows you to control multiple devices grouped in a segment with a single automation. This makes it easy to apply the same action across many devices without configuring them individually. Use Control Segment when you want to manage groups of devices at scale — for example, switching off all air conditioners in one office segment at 6:00 PM.
+The **Control Segment** action allows you to control multiple devices grouped in a segment with a single automation. This makes it easy to apply the same action across many devices without configuring them individually.&#x20;
+
+Use Control Segment when you want to manage groups of devices at scale — for example, switching off all air conditioners in one office segment at 6:00 PM.
 
 {% hint style="info" %}
 Available for **Pro and Enterprise plans.**
@@ -41,6 +43,8 @@ Each selected property (datastream) appears in the list, showing the Control ele
 
 #### Which Devices the Automation Will Apply To
 
-When the automation is triggered, Blynk checks which devices currently belong to the segment and applies the action to them.You can see exactly which devices the automation was executed on in the **Automation Logs**.
+When the automation is triggered, Blynk checks which devices currently belong to the segment and applies the action to them.
+
+You can see exactly which devices the automation was executed on in the **Automation Logs**.
 
 <figure><img src="../../.gitbook/assets/automations log.png" alt=""><figcaption></figcaption></figure>
