@@ -407,7 +407,11 @@ Device location is determined automatically in the following order:
    * Otherwise, the system uses either the **organization’s default location** or the **static location defined in the metafield** itself.
 2. **IP-based geolocation** — used if no location metadata is available.
 
-This logic ensures that every device can appear on the map, even if it doesn’t provide precise GPS data.If neither Location Metadata nor IP information is available, the device will not be shown on the map.
+This logic ensures that every device can appear on the map, even if it doesn’t provide precise GPS data.
+
+{% hint style="warning" %}
+If neither Location Metadata nor IP information is available, the device will not be shown on the map.
+{% endhint %}
 
 #### How to Configure
 
