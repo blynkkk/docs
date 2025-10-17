@@ -40,6 +40,7 @@
   * [Multi-tenancy](concepts/users/multi-tenant-tree-structure.md)
 * [Organizations](concepts/organizations.md)
 * [Automations](concepts/automations.md)
+  * [Control Segment](concepts/automations/control-segment.md)
   * [Forward Device Data](concepts/automations/forward-device-data.md)
 
 ***
