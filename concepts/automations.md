@@ -105,6 +105,7 @@ Choose a condition from one of the options below:
 After you have the _When_ condition defined, the next step is to configure one or more 'Do this' actions. The action choices are:
 
 * **Control Device** - select a specific Device to control by setting a Datastream value.
+* [**Control Segment**](automations/control-segment.md) - control multiple devices grouped in a segment through a single automation.
 * [**Forward Device Data**](automations/forward-device-data.md) - update a datastream value for any device with the datastream value from the device assigned to this automation. This option works with datastreams of data type integer, double, and string and is currently available only in Blynk.Console.&#x20;
 * **Send Email** will send an email to one or more Users with optional details about the Organization, Template name, Device name, and/or Datastream value included (availability of each depends on the Datastream data type and type of automation).
 * **Send In-App Notifications** to one or more Users' Blynk.App with optional details about the Organization, Template name, Device name, and/or Datastream value included (availability of each depends on the Datastream data type and type of automation).
@@ -194,11 +195,7 @@ The images that follow, show how the Automation card appears in both the Blynk.C
 
 Within the Blynk.App, you can see Automations the device is participating in. From the Device page, select the ‘...’ icon in the upper right of the screen. Choose the ‘Information’ tab, and the Automations the device is participating in will be listed under the ‘AUTOMATIONS’ section.
 
-<div align="left">
-
-<img src="../.gitbook/assets/device-info-automations.png" alt="">
-
-</div>
+<div align="left"><img src="../.gitbook/assets/device-info-automations.png" alt=""></div>
 
 If you click on the ‘AUTOMATIONS’ section, you may enable/disable the participation of the Device in Automations.
 
