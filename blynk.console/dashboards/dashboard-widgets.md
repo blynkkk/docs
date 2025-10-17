@@ -440,8 +440,8 @@ You can select one of three marker styles:
 * **Indicator** — shows the device as a circle, best for maps with many similar devices.\
 
 
-1. **Enable Color Based on Value (optional)**
-2. Turn on Color based on value to highlight devices according to their data or status:
+4. **Enable Color Based on Value (optional)**
+5. Turn on Color based on value to highlight devices according to their data or status:
    * Use a gradient scale or set custom thresholds for a chosen datastream (red - danger, green-normal).
    * Color markers based on connection status (online/offline).
 
@@ -451,17 +451,17 @@ This helps you spot abnormal values or disconnected devices immediately.\
 All marker styles support the **Color based on value** option.\
 
 
-1. **Set up popup details**\
+5. **Set up popup details**\
    Configure which datastreams appear in the popup tooltip when clicking a device marker. You can display up to **5 datastreams per device**, providing more detail without cluttering the map view.
 
 <figure><img src="../../.gitbook/assets/Geomap_popup.png" alt=""><figcaption></figcaption></figure>
 
-2. **Adjust map view**\
+6. **Adjust map view**\
    In the **Settings** tab, choose your preferred map style. This style will be applied by default when the dashboard is loaded.
 
 <figure><img src="../../.gitbook/assets/Geomap_settings.png" alt=""><figcaption></figcaption></figure>
 
-3. **Save your dashboard**\
+7. **Save your dashboard**\
    Once configured, the widget is ready to use.
 
 #### Sharing to Sub-Orgs
