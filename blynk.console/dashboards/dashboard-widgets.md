@@ -403,10 +403,8 @@ The widget is available on **Pro and Enterprise plans**.
 Device location is determined automatically in the following order:
 
 1. **Metadata location** set in the device profile
-
-* **GPS coordinates:** If “Use location data from device (e.g. GPS)” is enabled in the Location Metadata, the system uses the coordinates sent by the device to the Location datastream.
-* Otherwise, the system uses either the **organization’s default location** or the **static location defined in the metafield** itself.
-
+   * **GPS coordinates:** If “Use location data from device (e.g. GPS)” is enabled in the Location Metadata, the system uses the coordinates sent by the device to the Location datastream.
+   * Otherwise, the system uses either the **organization’s default location** or the **static location defined in the metafield** itself.
 2. **IP-based geolocation** — used if no location metadata is available.
 
 This logic ensures that every device can appear on the map, even if it doesn’t provide precise GPS data.If neither Location Metadata nor IP information is available, the device will not be shown on the map.
@@ -435,7 +433,8 @@ You can select one of three marker styles:
 
 * **Image** — shows the device image.
 * **Value** — shows a selected datastream value.
-* **Indicator** — shows the device as a circle, best for maps with many similar devices.
+* **Indicator** — shows the device as a circle, best for maps with many similar devices.\
+
 
 1. **Enable Color Based on Value (optional)**
 2. Turn on Color based on value to highlight devices according to their data or status:
