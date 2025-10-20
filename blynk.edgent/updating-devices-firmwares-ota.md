@@ -4,6 +4,8 @@ Blynk offers an interface to easily update your devices over-the-air. It's calle
 
 {% hint style="info" %}
 OTA works only with ESP32, ESP8266, Seeed WiO Terminal, Arduino MKR1010, Arduino Nano 33IoT, and Texas Instruments CC3220. Raspberry Pi will be supported soon.
+
+Currently, OTA can only work over WiFi
 {% endhint %}
 
 ## Overview
