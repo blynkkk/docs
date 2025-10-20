@@ -4,8 +4,6 @@ Blynk offers an interface to easily update your devices over-the-air. It's calle
 
 {% hint style="info" %}
 OTA works only with ESP32, ESP8266, Seeed WiO Terminal, Arduino MKR1010, Arduino Nano 33IoT, and Texas Instruments CC3220. Raspberry Pi will be supported soon.
-
-Currently, OTA can only work over WiFi
 {% endhint %}
 
 ## Overview
@@ -79,15 +77,15 @@ If you leave the selection empty, all of the devices made from this Template wil
 8\. Check for **Optional Settings** under Template selection field and in \_\*\*\_Review and start area\
 9\. Press **Start Shipping**
 
-![](../.gitbook/assets/review\_and\_start.PNG)
+![](../.gitbook/assets/review_and_start.PNG)
 
 Now you are all set. The shipping has started.
 
 You will see the progress of the shipping. You can close it, the shipping will continue working.
 
-![](../.gitbook/assets/Shipping\_in\_Progress.PNG)
+![](../.gitbook/assets/Shipping_in_Progress.PNG)
 
 You can always check your Shippings status and progress by accessing list of all OTA updates.
 
-![](../.gitbook/assets/Shipments\_tab.PNG)
+![](../.gitbook/assets/Shipments_tab.PNG)
 
