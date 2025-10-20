@@ -69,8 +69,6 @@ Users who don’t have access will see a paywall screen prompting them to upgrad
 * [Styled Button](https://docs.blynk.io/en/blynk.apps/widgets-controllers/styled-button)
 * [Icon Button](https://docs.blynk.io/en/blynk.apps/widgets-controllers/icon-button)
 * [Image Button](https://docs.blynk.io/en/blynk.apps/widgets-controllers/image-button)
-* [WebPage Button](https://docs.blynk.io/en/blynk.apps/widgets-other/webpage-button)
-* [WebPage Image Button](https://docs.blynk.io/en/blynk.apps/widgets-other/webpage-image-button)
 * [SuperChart](https://docs.blynk.io/en/blynk.apps/widgets-displays/superchart) (graph settings)
 * [Header Button](https://docs.blynk.io/en/blynk.apps/device-header-constructor/header-buttons)
 
