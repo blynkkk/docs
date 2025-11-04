@@ -2,9 +2,9 @@
 
 ## Create a new Location
 
-1. Navigate to Settings - Organization Settings - Locations 
-2. Name it \(Let's use `Factory` in this example\)
-3. Type the address in the corresponding field \(you can provide details s.e. ZIP, state, etc. in the modal window appearing after **Manual Input** click\)
+1. Navigate to Settings - Organization Settings - Locations&#x20;
+2. Name it (Let's use `Factory` in this example)
+3. Type the address in the corresponding field (you can provide details s.e. ZIP, state, etc. in the modal window appearing after **Manual Input** click)
 4. Confirm by clicking **Done**
 
 ![](https://user-images.githubusercontent.com/72824404/120810204-7fae0300-c553-11eb-9e33-9b395a18a860.png)
@@ -15,19 +15,17 @@
 
 After you've created first Location you'll see Locations table[. ](./#table-contents)You can find more details about it [here](./#table-contents).
 
-Repeat steps to create another location \(let's call it `Office` \)
+Repeat steps to create another location (let's call it `Office` )
 
 ## Enable Location Metadata
 
-1. Navigate to Templates section  
-2. Click **Edit** button 
-3. Switch to Metadata tab 
-4. Click on **Location** 
-5. Toggle switch to **Enable** in the modal window 
-6. Click **Save** 
+1. Navigate to Templates section &#x20;
+2. Click **Edit** button&#x20;
+3. Switch to Metadata tab&#x20;
+4. Click on **Location**&#x20;
+5. Toggle switch to **Enable** in the modal window&#x20;
+6. Click **Save**&#x20;
 7. **Save** the Template
-8. Set **Update active devices** option in Apply Changes modal window 
-9. Click **Continue** button
 
 ![](https://user-images.githubusercontent.com/72824404/120813274-68bce000-c556-11eb-891d-4bd7e20a09a6.png)
 
@@ -37,19 +35,19 @@ Repeat steps to create another location \(let's call it `Office` \)
 
 1. Navigate to Search - Device - My Devices
 2. Click on the **Device** you want to assign the Location
-3. Switch to Metadata tab 
+3. Switch to Metadata tab&#x20;
 4. Hover the **Location** row
 5. Click **Edit**
-6. Select Location from the **dropdown list** \( `Factory` \)
+6. Select Location from the **dropdown list** ( `Factory` )
 7. Provide additional data in the modal window opened
-8. Click **Save** 
+8. Click **Save**&#x20;
 
 ![](https://user-images.githubusercontent.com/72824404/120813370-7e320a00-c556-11eb-888f-6ae118b57c6b.png)
 
 ![](https://user-images.githubusercontent.com/72824404/120813432-8c802600-c556-11eb-86af-28d31502f20d.png)
 
-1. Create or chose another one Device  
-2. Repeat the steps below to assign location Office to your second Device  
+1. Create or chose another one Device &#x20;
+2. Repeat the steps below to assign location Office to your second Device &#x20;
 
 ## Check the locations assignment
 
@@ -62,8 +60,8 @@ Repeat steps to create another location \(let's call it `Office` \)
 
 #### Quantity of the Devices assigned to the Locations
 
-1. Navigate to Settings - Organization Settings - Locations 
-2. Check the rows contents, Devices column 
+1. Navigate to Settings - Organization Settings - Locations&#x20;
+2. Check the rows contents, Devices column&#x20;
 
 ![](https://user-images.githubusercontent.com/72824404/120813517-a02b8c80-c556-11eb-8bd7-c6dd8b5ee8e1.png)
 
@@ -74,7 +72,7 @@ Repeat steps to create another location \(let's call it `Office` \)
 1. Search - Locations - My/All Locations
 2. Hover **Actions** column in desired Location's row
 3. Click **...**
-4. Click **Edit Location** 
+4. Click **Edit Location**&#x20;
 5. Change the values in the modal window opened
 6. Confirm the changes with click on **Done** button
 
@@ -82,7 +80,7 @@ Repeat steps to create another location \(let's call it `Office` \)
 
 ### Edit in Settings section
 
-1. Navigate to Settings - Locations  
+1. Navigate to Settings - Locations &#x20;
 2. Click desired Location name
 3. Change the values in the modal window opened
 4. Confirm the changes with click on **Done** button
@@ -91,8 +89,8 @@ Repeat steps to create another location \(let's call it `Office` \)
 
 ## Advanced Location Settings
 
-1. Navigate to Template section 
-2. Click **Edit** 
+1. Navigate to Template section&#x20;
+2. Click **Edit**&#x20;
 3. Switch to Metadata tab
 4. _Hover_ Location
 5. Click **Edit** button appeared
@@ -101,4 +99,3 @@ Repeat steps to create another location \(let's call it `Office` \)
 8. Select appliance option and confirm by click on **Save** button
 
 ![](https://user-images.githubusercontent.com/72824404/120813679-c94c1d00-c556-11eb-8e18-c880bcc17e6d.png)
-
