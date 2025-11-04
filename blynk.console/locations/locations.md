@@ -29,8 +29,6 @@ Repeat steps to create another location (let's call it `Office` )
 
 ![](https://user-images.githubusercontent.com/72824404/120813274-68bce000-c556-11eb-891d-4bd7e20a09a6.png)
 
-![](https://user-images.githubusercontent.com/72824404/120813307-707c8480-c556-11eb-8e5f-d68ec7b58421.png)
-
 ## Assign Device to Location
 
 1. Navigate to Search - Device - My Devices
