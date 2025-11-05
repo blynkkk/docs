@@ -384,7 +384,7 @@
     * [Get Template Metadata](blynk.cloud/platform-https-api/templates-api/get-template-metadata.md)
     * [Get Template Datastreams](blynk.cloud/platform-https-api/templates-api/get-template-datastreams.md)
     * [Get Template Events](blynk.cloud/platform-https-api/templates-api/get-template-events.md)
-* [Security](blynk.cloud/security/README.md)
+* [Security](blynk.cloud/device-https-api/security.md)
   * [SOC 2 Type II](blynk.cloud/security/soc-2-type-ii.md)
 
 ## Downloads
