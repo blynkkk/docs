@@ -316,6 +316,7 @@
   * [OTA](blynk.cloud/device-mqtt-api/ota.md)
   * [Miscelaneous](blynk.cloud/device-mqtt-api/miscelaneous.md)
   * [Code Examples](blynk.cloud-mqtt-api/device-mqtt-api/code-examples.md)
+* [MQTT Gateway API](blynk.cloud-mqtt-api/mqtt-gateway-api.md)
 
 ## BLYNK.CLOUD HTTPS API <a href="#blynk.cloud" id="blynk.cloud"></a>
 
