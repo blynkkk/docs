@@ -27,6 +27,8 @@ When we are talking about the security of Blynk cloud, we take into account thes
 
 Blynk has successfully completed a SOC 2 Type II audit, conducted by an independent third-party auditor. This validates that our internal controls and processes meet the highest industry standards for security, availability, and confidentiality—as defined by the American Institute of Certified Public Accountants (AICPA).
 
+If you need access to our SOC2 certificate, please send an access request via this link [https://app.vanta.com/blynk.io/trust/p6ka6ger5lea96qgnld9lf](https://app.vanta.com/blynk.io/trust/p6ka6ger5lea96qgnld9lf).
+
 #### What This Means for You:
 
 * **Stronger Data Protection** – Ensures your IoT data is managed in accordance with rigorous security standards.
