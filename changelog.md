@@ -1,6 +1,64 @@
 # Changelog
 
-## October 30, 2025&#x20;
+## November 14, 2025
+
+#### New Features
+
+* **Starter Plan:** Introduced a new pricing tier with tailored features and limits.
+* **HTTP Product Decoder:** Added support for unclaimed static tokens.
+
+#### Improvements
+
+**Billing**
+
+* Overhauled the interface with updated plan displays, color schemes, and comparison tables.
+* Removed decimal places from device/user count displays.
+* Eliminated obsolete limits like "Multiple devices per template"
+
+**Datastreams**
+
+* Removed global limits; they're now bound only by platform maximums (200 for cloud, 255 for enterprise).
+* Enhanced the datastream table to display real values, not placeholders.
+* Improved display and functionality of automation switches.
+* Disabled '+ New Datastream' button upon reaching the limit.
+
+**AI Chat**
+
+* Revamped metafield creation with better defaults and validation.
+* Improved handling of metafields and added features like persistence and user-notification enhancements.
+
+**Custom Data**
+
+* Fixed errors in database table fields, record displays, and snapshot date representations.
+
+**Permissions & User Interface**
+
+* Made additional features like "Device actions log" available for all plans.
+* Aligned various UI elements and addressed inconsistencies.
+
+**Performance**
+
+* Optimized multiple queries for better user activity reporting.
+
+#### Bug Fixes
+
+**AI Chat**
+
+* Resolved issues blocking AI requests and cleared confusion in metafield ID and creation.
+
+**Datastreams & Dashboards**
+
+* Corrected datastream access and plan-specific dashboard limits.
+
+**Billing & White Label**
+
+* Fixed mismatched plan values and organizational functionality issues.
+
+**Automation**
+
+* Addressed automations not being correctly sent or executed.
+
+## October 30, 2025
 
 ### New features
 
