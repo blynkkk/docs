@@ -423,7 +423,7 @@
 ## Add-Ons
 
 * [Add-on list](add-ons/add-on-list.md)
-* [Billing](add-ons/billing.md)
+* [Paywalls](add-ons/paywalls.md)
 * [Databases](add-ons/databases.md)
 * [Amazon Alexa](add-ons/amazon-alexa.md)
 * [Google Assistant](add-ons/google-assistant.md)

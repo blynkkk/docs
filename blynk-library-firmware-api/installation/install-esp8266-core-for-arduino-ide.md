@@ -15,17 +15,17 @@ Click on **Additional Boards Manager URLs** button and add this link:
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
 ```
 
-![](https://uploads.intercomcdn.com/i/o/20866093/60ae89223dd38335c61e0f68/file\_preferences.png)
+![](https://uploads.intercomcdn.com/i/o/20866093/60ae89223dd38335c61e0f68/file_preferences.png)
 
 In the Arduino IDE open: `Tools -> Board -> Boards Manager` .\
 Search for `esp8266` , and install it:
 
-![](https://uploads.intercomcdn.com/i/o/20866111/4bfaa4bd6bb2547a890ccfd3/boards\_manager.png)
+![](https://uploads.intercomcdn.com/i/o/20866111/4bfaa4bd6bb2547a890ccfd3/boards_manager.png)
 
 ### Troubleshooting <a href="#troubleshooting" id="troubleshooting"></a>
 
-In case you see Error downloading [http://downloads.arduino.cc/packages/package\_index.json](http://downloads.arduino.cc/packages/package\_index.json) like this:
+In case you see Error downloading [http://downloads.arduino.cc/packages/package\_index.json](http://downloads.arduino.cc/packages/package_index.json) like this:
 
-![](https://uploads.intercomcdn.com/i/o/20866154/50e8eefe4218e5a69fb62f03/error\_download\_mac.png)
+![](https://uploads.intercomcdn.com/i/o/20866154/50e8eefe4218e5a69fb62f03/error_download_mac.png)
 
-You need to find folder `Arduino15`  or `.Arduino15`  and remove all files inside with package word in name.\
+You need to find folder `Arduino15`  or `.Arduino15`  and remove all files inside with package word in name.<br>

@@ -14,8 +14,7 @@ The widget has the following controls:
 
 1. URL ADDRESS: The URL to .json file.
 2. Auto-Play: Play the animation once when the device is initially displayed in the app.&#x20;
-3. Play in Loop: Play the animation repeatedly.\
-
+3. Play in Loop: Play the animation repeatedly.<br>
 
 ### Datastream
 

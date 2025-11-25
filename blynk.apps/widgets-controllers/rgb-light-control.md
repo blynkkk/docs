@@ -34,8 +34,7 @@ Sketch:[ Basic Sketch](https://github.com/blynkkk/blynk-library/blob/master/exam
 
 Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)[NeoPixel](https://github.com/blynkkk/blynk-library/blob/master/examples/More/NeoPixel/NeoPixel.ino)
 
-[Detailed guide with the firmware example](https://blynk.io/blog/rgb-control-widget) in our blog post.\
-
+[Detailed guide with the firmware example](https://blynk.io/blog/rgb-control-widget) in our blog post.<br>
 
 ### Change Widget Properties
 

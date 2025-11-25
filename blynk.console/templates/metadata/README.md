@@ -21,18 +21,12 @@ Default value can be set to each Metadata, be changed during Add Device procedur
 
 Most of the text fields have 200 characters input limit. Specific differences will be shown in Type info.
 
-* _**`Metadata Type Name`**_ – type default value that will be used and can be changed during Add Device procedure. \
-
-* **Advanced Settings** – click `+` to access the following settings:\
-
-  * **Short Description** – fill this field with information corresponding to the hint "Help end-users understand what this field is about and how it will be used." 100 characters limit.\
-
-  * **Mobile App Provisioning** \
-
-    * **Include in Mobile App Provisioning** (switch) – enabling this option allows to edit current Metadata Field during Device Provisioning\
-
-    * **This is a required field** (checkbox) – marking the checkbox makes current Metadata Field mandatory during Device Provisioning\
-
+* _**`Metadata Type Name`**_ – type default value that will be used and can be changed during Add Device procedure. <br>
+* **Advanced Settings** – click `+` to access the following settings:<br>
+  * **Short Description** – fill this field with information corresponding to the hint "Help end-users understand what this field is about and how it will be used." 100 characters limit.<br>
+  * **Mobile App Provisioning** <br>
+    * **Include in Mobile App Provisioning** (switch) – enabling this option allows to edit current Metadata Field during Device Provisioning<br>
+    * **This is a required field** (checkbox) – marking the checkbox makes current Metadata Field mandatory during Device Provisioning<br>
     * **Exclude from “Recently used profile”** (checkbox) – marking the checkbox excludes current Metadata Field during Provisioning of the next Device
 
 ### Basic Metadata types&#x20;
@@ -57,8 +51,7 @@ Those 5 are present in any Product and can not be deleted:
 
 ![](<../../../.gitbook/assets/metadata types.png>)
 
-* **Text** – name this field any way you want and type default value for it. 255 characters limit for both fields.\
-
+* **Text** – name this field any way you want and type default value for it. 255 characters limit for both fields.<br>
 *   **Number** – field name examples: "Serial number", "Unit S/N", "Plate Number", etc..
 
     * **DEFAULT VALUE** – set default value up to 15 digits. Stepper buttons are available for this field.
@@ -94,8 +87,7 @@ Those 5 are present in any Product and can not be deleted:
       * **Street Address 2**
 
 
-* **Time** – field name examples: "Sunrise", "Sunset", "Start", etc.. Select or type HH:MM value. **Now** option is available – sets actual time for the selected field. Confirm by clicking OK. Reset by **X**\
-
+* **Time** – field name examples: "Sunrise", "Sunset", "Start", etc.. Select or type HH:MM value. **Now** option is available – sets actual time for the selected field. Confirm by clicking OK. Reset by **X**<br>
 *   **Cost** – field name examples: "Maintenance cost", "Transit price", etc..&#x20;
 
     * **CURRENCY –** select the currency available in the dropdown list: USD, EUR, GBP, CNY, RUB
@@ -105,8 +97,7 @@ Those 5 are present in any Product and can not be deleted:
 
 
 * **Coordinates** – field name examples: "Factory Location", "Shipping Facility", etc..
-  * **LAT** – set latitude default value her&#x65;**,  LON** – set longtitude default value here\
-
+  * **LAT** – set latitude default value her&#x65;**,  LON** – set longtitude default value here<br>
 *   **Switch** – this field purpose is to show to options of the same entity
 
     * **STRING** – give a name or a description of an entity.
@@ -120,14 +111,10 @@ Those 5 are present in any Product and can not be deleted:
 
 
 * **List** – name a list of entities you want to create.
-  * **OPTIONS** – create a list of entitites by adding them to this field. No characters limitations. Remove entity by clicking **X.** \
-
+  * **OPTIONS** – create a list of entitites by adding them to this field. No characters limitations. Remove entity by clicking **X.** <br>
 * **Table** – here you can add .csv format table
   * **TEXT** – name the table you'll add.
-  * **Upload data file (.csv)** – click this area and your PC browser window will be opened. Select the .csv table you want to add and confirm the action. Drag'n'Drop is supported.\
-
-* **IMEI** – type/paste default [International Mobile Equipment Identity](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity) here. 15 digits limit.\
-
-* **ICCID** – type/paste default [Integrated Circuit Card Identifier](https://en.wikipedia.org/wiki/SIM_card#ICCID) here. \
-
+  * **Upload data file (.csv)** – click this area and your PC browser window will be opened. Select the .csv table you want to add and confirm the action. Drag'n'Drop is supported.<br>
+* **IMEI** – type/paste default [International Mobile Equipment Identity](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity) here. 15 digits limit.<br>
+* **ICCID** – type/paste default [Integrated Circuit Card Identifier](https://en.wikipedia.org/wiki/SIM_card#ICCID) here. <br>
 * **Firmware Update Control** – provides an option to users [manually control device firmware updates](../../blynk.air/user-controlled-shipments.md).

@@ -54,13 +54,13 @@ Follow the instructions outlined in the [official Node-RED documentation](https:
         * CA Certificate: upload `ISRG_Root_X1.der`
         * Server name: same as Server field
 
-    ![MQTT Broker Configuration](images/mqtt\_broker.png)
+    ![MQTT Broker Configuration](../.gitbook/assets/mqtt_broker.png)
 
     * **Security tab:**
       * Username: `device`
       * Password: your device Auth Token
 
-    ![MQTT Broker Security Configuration](images/mqtt\_broker\_sec.png)
+    ![MQTT Broker Security Configuration](../.gitbook/assets/mqtt_broker_sec.png)
 
     Once all the required fields are filled, click the Update button, and select your configured broker from the list of servers.
 2.  **Setting Up the Node-RED Flow**
@@ -76,7 +76,7 @@ Follow the instructions outlined in the [official Node-RED documentation](https:
        * Topic: specify the desired topic from which you want to retrieve data. For instance, setting it to **downlink/ds/#** will fetch data from the slider datastream.
        * QoS: 0
 
-    ![MQTT In Node Configuration](images/mqtt\_in.png)
+    ![MQTT In Node Configuration](../.gitbook/assets/mqtt_in.png)
 
     5. Customize the properties of the "mqtt out" node:
        * Select the previously configured server.
@@ -103,16 +103,16 @@ Follow the instructions outlined in the [official Node-RED documentation](https:
     ```
 4. Add a node named "switch" to check the property "msg.topic" for **ds/Led** and **ds/Target Temperature**.
 
-![Switch topic check](images/topic\_check.png)
+![Switch topic check](../.gitbook/assets/topic_check.png)
 
 5. Connect two outputs of the switch node to mqtt out nodes created in step 4. The first one to **ds/Led** and the second one to **ds/Target Temperature**.
 
 As a result, you should get this flow:
 
-![Result](images/result\_nodered.png)
+![Result](../.gitbook/assets/result_nodered.png)
 
 ## Run the Sample Using Node-RED
 
 Deploy your flow (using button as the same name **Deploy**) and go to blynk.cloud for testing. When you toggle the switch, the LED will turn on or off. Setting the temperature will update the label widget with the value of the target temperature.
 
-![Result](images/result\_cloud.png)
+![Result](../.gitbook/assets/result_cloud.png)

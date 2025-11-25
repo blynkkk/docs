@@ -1,7 +1,6 @@
 # Over-The-Air Firmware Updates (OTA)
 
-OTA firmware updates are delivered using HTTP/HTTPS protocol.\
-
+OTA firmware updates are delivered using HTTP/HTTPS protocol.<br>
 
 When new shipment is created in **Blynk.Air** it determines if device needs to be upgraded, then sends an upgrade URL to your devices.
 

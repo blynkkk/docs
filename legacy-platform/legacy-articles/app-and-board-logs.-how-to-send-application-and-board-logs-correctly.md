@@ -64,8 +64,7 @@ Please follow these steps:\
 ![](https://downloads.intercomcdn.com/i/o/258176954/a46905e024a4e5540bac137b/image.png)
 
 5\. Save board logs as a separate text file\
-6\. Attach the file to email with [**issue name**](https://app.intercom.com/a/apps/hhaxrs9k/articles/articles/4558850/show) and description of the issue\
-
+6\. Attach the file to email with [**issue name**](https://app.intercom.com/a/apps/hhaxrs9k/articles/articles/4558850/show) and description of the issue<br>
 
 #### **Bare-minimum sketch** <a href="#bare-minimum-sketch" id="bare-minimum-sketch"></a>
 
@@ -78,4 +77,4 @@ If your issue is with:\
 
 2\. Communication with a server: we will need your application logs\
 3\. Sending data between board-server-application: we will need your application logs / Serial Monitor Output / bare-minimum sketch\
-4\. If a screenshot will not display the issue because it is not static or it is difficult to describe it with the text - we will need a video.\
+4\. If a screenshot will not display the issue because it is not static or it is difficult to describe it with the text - we will need a video.<br>

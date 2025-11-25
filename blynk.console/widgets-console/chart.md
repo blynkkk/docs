@@ -16,8 +16,7 @@ The chart widget helps you to visualize live and historical data from multiple d
 
 ### **Settings**
 
-* **Chart Title** – This is the label shown at the top of the widget. The default is the name assigned to the datastream.\
-
+* **Chart Title** – This is the label shown at the top of the widget. The default is the name assigned to the datastream.<br>
 * **Datastreams** – [data type](../templates/datastreams/datastreams-common-settings/data-type.md) of integer or double may be assigned. You may create a new virtual pin or enumerable datastream directly by choosing the ‘+ Create New’ option. Multiple datastreams may be plotted on the chart.
 *   **Edit Chart** - this option to the left of each datastream allows you to customize the appearance of the datastream values in the chart.
 
@@ -54,8 +53,7 @@ The chart widget helps you to visualize live and historical data from multiple d
     * **MINIMUM Y AXIS RANGE** - This option is only available when the option ‘Override Datastream’s Min/Max fields’ is disabled.
 
 
-* **Show legend** - adds a legend to the top of the chart under the title when enabled.\
+* **Show legend** - adds a legend to the top of the chart under the title when enabled.<br>
 
-
-![Chart widget setup demo](../../.gitbook/assets/chart\_setup.gif)
+![Chart widget setup demo](../../.gitbook/assets/chart_setup.gif)
 

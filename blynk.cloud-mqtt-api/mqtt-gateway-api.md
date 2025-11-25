@@ -35,8 +35,7 @@ To create the OAuth Client, refer to the [OAuth 2.0 documentation](../blynk.cons
 
 Alternatively, you can connect to the MQTT Gateway API using the device authentication token. This is particularly useful in a gateway scenario, where the Gateway Device holds its own Authentication Token to connect to the Gateway API.
 
-1.  Select the specific templates that should have access to the MQTT Gateway API. In the template settings, turn on the "Enable for Gateway API" switch and save the template.\
-
+1.  Select the specific templates that should have access to the MQTT Gateway API. In the template settings, turn on the "Enable for Gateway API" switch and save the template.<br>
 
     <figure><img src="../.gitbook/assets/gateway_api_switch.png" alt=""><figcaption></figcaption></figure>
 2. When sending `CONNECT` MQTT message, use `mgmt_device` as the MQTT username and device authentication token as password.

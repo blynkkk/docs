@@ -15,7 +15,7 @@ ESP8266 WiFi module (or shield) with default AT firmware can be used to connect 
 ### ESP8266 Shields <a href="#esp8266-shields" id="esp8266-shields"></a>
 
 These come in different shapes and colors, but basically you can use simple ESP01 module like this:\
-![](https://s3.amazonaws.com/uploads.intercomcdn.com/i/o/20403619/89af7398dd485c00c1235a9e/upload\_8700179421741362625)
+![](https://s3.amazonaws.com/uploads.intercomcdn.com/i/o/20403619/89af7398dd485c00c1235a9e/upload_8700179421741362625)
 
 If you have an Arduino Shield with ESP8266 (like doit.com ESP13 Shield), you don't need to do this wiring - that is already done for you!
 
@@ -23,16 +23,15 @@ If you have an Arduino Shield with ESP8266 (like doit.com ESP13 Shield), you don
 
 ### &#x20; <a href="#h_2bbb223880" id="h_2bbb223880"></a>
 
-#### ☝️ This method does not work with [this](http://www.arduino.org/products/boards/arduino-uno-wifi?gclid=CjwKEAjwytLKBRCX547gve7EsE4SJAD3IZV6jA96xZ-U5ED2VI6ARlTxVJRe1k1iDOUNggAoyCbL1hoCQ2Pw\_wcB) Arduino UNO WIFI board (at least until Arduino provides proper TCP libraries). <a href="#this-method-does-not-work-with-this-arduino-uno-wifi-board-at-least-until-arduino-provides-proper-tc" id="this-method-does-not-work-with-this-arduino-uno-wifi-board-at-least-until-arduino-provides-proper-tc"></a>
+#### ☝️ This method does not work with [this](http://www.arduino.org/products/boards/arduino-uno-wifi?gclid=CjwKEAjwytLKBRCX547gve7EsE4SJAD3IZV6jA96xZ-U5ED2VI6ARlTxVJRe1k1iDOUNggAoyCbL1hoCQ2Pw_wcB) Arduino UNO WIFI board (at least until Arduino provides proper TCP libraries). <a href="#this-method-does-not-work-with-this-arduino-uno-wifi-board-at-least-until-arduino-provides-proper-tc" id="this-method-does-not-work-with-this-arduino-uno-wifi-board-at-least-until-arduino-provides-proper-tc"></a>
 
 ### --- <a href="#undefined" id="undefined"></a>
 
 First of all, it is recommended to buy a USB-UART TTL converter, capable to supply 1A @ 3.3V. This will help you in lots of different cases, not only for ESP8266. For ESP8266, it will be needed for initial configuration and testing, AT firmware upgrade, etc.
 
-☝️ If you run ESP8266-standalone example on your ESP8266 module, it overwrites AT firmware of the module, so it won't work as modem. Make sure your ESP is flashed with AT firmware (you can find stable firmware [here](http://www.electrodragon.com/w/File:At\_firmware\_bin1.54.zip), flash it to 0x00000 using [this guide](http://cityos.io/tutorial/1935/How-to-put-AT-firmware-in-Esp8266) for example).
+☝️ If you run ESP8266-standalone example on your ESP8266 module, it overwrites AT firmware of the module, so it won't work as modem. Make sure your ESP is flashed with AT firmware (you can find stable firmware [here](http://www.electrodragon.com/w/File:At_firmware_bin1.54.zip), flash it to 0x00000 using [this guide](http://cityos.io/tutorial/1935/How-to-put-AT-firmware-in-Esp8266) for example).
 
-For this connection, Blynk uses ESP8266\_Lib.h library, which you get automatically when you [install Blynk libraries](https://github.com/blynkkk/blynk-library/releases/latest).\
-
+For this connection, Blynk uses ESP8266\_Lib.h library, which you get automatically when you [install Blynk libraries](https://github.com/blynkkk/blynk-library/releases/latest).<br>
 
 ### Getting Started <a href="#getting-started" id="getting-started"></a>
 
@@ -41,7 +40,7 @@ For this connection, Blynk uses ESP8266\_Lib.h library, which you get automatica
 3. Use your USB-UART TTL converter, or [this sketch](https://github.com/blynkkk/blynk-library/tree/master/tests/SerialXconnect/SerialXconnect.ino) to access AT command console
 4. Update your ESP to the latest firmware, if needed (AT v1.1.0.0 is recommended)
 5. Remember which Software Serial pins (or Hardware Serial#) and baud rate work for your module.
-6. Use **Blynk -> Boards\_WiFi ->** [**ESP8266\_Shield**](https://github.com/blynkkk/blynk-library/tree/master/examples/Boards\_WiFi/ESP8266\_Shield/ESP8266\_Shield.ino) example with the same Serial configuration.
+6. Use **Blynk -> Boards\_WiFi ->** [**ESP8266\_Shield**](https://github.com/blynkkk/blynk-library/tree/master/examples/Boards_WiFi/ESP8266_Shield/ESP8266_Shield.ino) example with the same Serial configuration.
 7. In Blynk App, select the Board type of your main board, to which ESP8266 is connected (Uno, Mega, etc)
 
 #### Software Serial <a href="#software-serial" id="software-serial"></a>

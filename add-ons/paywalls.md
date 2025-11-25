@@ -1,8 +1,8 @@
-# Billing
+# Paywalls
 
 #### Overview
 
-The Billing add-on enables you to create and manage custom pricing plans for your end users directly within your app.
+The Paywalls add-on enables you to create and manage custom pricing plans for your end users directly within your app.
 
 **With this feature, you can:**
 
@@ -14,18 +14,18 @@ The Billing add-on enables you to create and manage custom pricing plans for you
 {% hint style="info" %}
 **Note:**
 
-* The Billing add-on is available to [Enterprise plan](https://www.blynk.io/enterprise/blynk-enterprise-overview) subscribers only.
-* Contact your Launch Engineer to unlock and configure it for your organization.
-* Currently, Billing works with mobile apps only (iOS and Android).
+* The Paywalls add-on is available to [Enterprise plan](https://www.blynk.io/enterprise/blynk-enterprise-overview) subscribers only.
+* Contact your Account Manager to unlock and configure it for your organization.
+* Currently, Paywalls add-on works with mobile apps only (iOS and Android).
 {% endhint %}
 
 ***
 
 #### How to Set Up
 
-**Step 1. Contact Your Launch Engineer**
+**Step 1. Contact Your Account Manager**
 
-Reach out to your Launch Engineer to enable the Billing add-on and provide all required content for each pricing plan.
+Reach out to your Account Manager to enable the Paywalls add-on and provide all required content for each pricing plan.
 
 {% hint style="info" %}
 **Note:**
@@ -52,7 +52,7 @@ Reach out to your Launch Engineer to enable the Billing add-on and provide all r
 
 **Step 2. Define Which App Features Are Locked**
 
-Once the Billing add-on is active, you can lock specific widgets or features behind a paywall based on the user’s subscription plan.
+Once the Paywalls add-on is active, you can lock specific widgets or features behind a paywall based on the user’s subscription plan.
 
 **To Configure Feature Availability:**
 
@@ -123,7 +123,7 @@ When the user taps the widget, the Billing page with a list of available subscri
 
 #### Managing and Updating Plans
 
-* To edit, add, or remove a plan, contact your Launch Engineer or Account Manager.
+* To edit, add, or remove a plan, contact your Account Manager.
 * The Root Org Admin can manually change a user’s subscription directly from the Console.
 
 ***

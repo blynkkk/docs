@@ -58,4 +58,4 @@ This permission is used for the vibration on push notifications receive.
 
 **Prevent phone from sleeping**
 
-This permission is used for when "keep screen on” option is enabled for selected projects.\
+This permission is used for when "keep screen on” option is enabled for selected projects.<br>

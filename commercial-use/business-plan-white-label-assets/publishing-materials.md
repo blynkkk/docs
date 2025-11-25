@@ -69,8 +69,7 @@ Length: up to 80 characters
 **Example:**\
 The August & Wonder app is the companion app for August & Wonder objects.
 
-**How it looks:**\
-
+**How it looks:**<br>
 
 ![](https://downloads.intercomcdn.com/i/o/101939412/d31dc0cfe2ca8db4765793a0/image.png?expires=1620504000\&signature=94c45e6d89a8b6e9ed4322827dc3ef4fd3a8ee9f1ed56ac7c9aeae00a2386291)
 
@@ -131,8 +130,7 @@ Therefore, the presence of your iOS application next to your product or prototyp
 
 Duration: 1 - 3 minutes\
 Resolution: 480p or more\
-Format: MP4, AVI, MKV, MOV, FLV or Weblink\
-
+Format: MP4, AVI, MKV, MOV, FLV or Weblink<br>
 
 ### &#x20;<a href="#test-account-for-google-and-apple-employees" id="test-account-for-google-and-apple-employees"></a>
 
@@ -152,4 +150,4 @@ Required information: Login and Password
 **Example:**
 
 Login: [test@email.com](mailto:test@email.com)\
-Password: test\
+Password: test<br>

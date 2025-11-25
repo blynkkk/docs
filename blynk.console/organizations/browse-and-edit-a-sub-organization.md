@@ -46,7 +46,7 @@ Users can only be transferred within the same hierarchy. E.g.: If a user has a B
 
 To transfer a user that is currently a Blynk member, navigate to  Search -> Users -> All -> Actions, and choose the ‘Transfer User’ option. Enter the email address of the administrator for the destination organization. You may change the role for the user, and optionally transfer all owned devices. The user transferred, and the admin for the destination organization will automatically receive an email notification of the user transfer.
 
-![](https://lh6.googleusercontent.com/lheniT04JM8J9tggh3d3aG7aQbwN9s9QHPZ9E7plcDSGeQjkOc6noBEXHYGI\_J6lArBnLYV1oK1gjsrXOTrFB\_9TX8zpM2J06SFqxL3QSr5eNQOHz9\_6A\_bYH9lhMjE9agmtdLtiUsMQRwsjXgrfEiVZHFLD9Val0ulyJXzgJgNuw9FpXzr6EssNN\_vUig)   ![](https://lh5.googleusercontent.com/VR1k0YxzWlflnCNJnJLxTe3x0dy0sa6pbzFiNtsNoQ0CKeZRZI\_K0QN1WlN72k5H60yYeB66qlDR7XgsB3MaDB6Roi6hQPk4\_xRswMEEwnkfxt6t\_tWzmwI4qi3qO8egk7b\_HLxg7ja-NdYZ7HviiIDJcfs13v9e4091OMk1z\_uzoV8PMmEy\_DvAvXVnvQ)
+![](https://lh6.googleusercontent.com/lheniT04JM8J9tggh3d3aG7aQbwN9s9QHPZ9E7plcDSGeQjkOc6noBEXHYGI_J6lArBnLYV1oK1gjsrXOTrFB_9TX8zpM2J06SFqxL3QSr5eNQOHz9_6A_bYH9lhMjE9agmtdLtiUsMQRwsjXgrfEiVZHFLD9Val0ulyJXzgJgNuw9FpXzr6EssNN_vUig)   ![](https://lh5.googleusercontent.com/VR1k0YxzWlflnCNJnJLxTe3x0dy0sa6pbzFiNtsNoQ0CKeZRZI_K0QN1WlN72k5H60yYeB66qlDR7XgsB3MaDB6Roi6hQPk4_xRswMEEwnkfxt6t_tWzmwI4qi3qO8egk7b_HLxg7ja-NdYZ7HviiIDJcfs13v9e4091OMk1z_uzoV8PMmEy_DvAvXVnvQ)
 
 {% hint style="danger" %}
 WARNING:  If you transfer the only ‘Admin’ user in a sub-organization to another organization, then you will need to assign another user with the ‘Admin’ role that is not a Blynk member.
@@ -90,6 +90,5 @@ The device will automatically be moved to the same organization (or sub-organiza
 
 ### How to Assign a Device to a User
 
-Learn more about [device sharing](../devices/device-sharing.md) options. You can view device ownership from the Blynk.Console and from a Blynk.App (upon selecting a device tap on (...) and select the Information tab). \
-
+Learn more about [device sharing](../devices/device-sharing.md) options. You can view device ownership from the Blynk.Console and from a Blynk.App (upon selecting a device tap on (...) and select the Information tab). <br>
 

@@ -134,8 +134,7 @@ The value will be sent to all currently online devices. For offline devices, the
 1. Select a datastream.
 2. Set On/Off values.
 3. Narrow down device selection (optional).
-4. Design. Navigate to Design tab to adjust widget appearance such as color and labels.\
-
+4. Design. Navigate to Design tab to adjust widget appearance such as color and labels.<br>
 
 ### Slider
 
@@ -299,8 +298,7 @@ This feature lets you highlight differences in device values using color gradien
 
 <div align="left"><figure><img src="../../.gitbook/assets/8 - formatting settings.png" alt="" width="563"><figcaption><p>Formatting Settings</p></figcaption></figure></div>
 
-If you want the same formatting applied across all columns in the table, simply enable the Color all columns option.\
-
+If you want the same formatting applied across all columns in the table, simply enable the Color all columns option.<br>
 
 #### Table Settings
 
@@ -437,8 +435,7 @@ You can select one of three marker styles:
 
 * **Image** — shows the device image.
 * **Value** — shows a selected datastream value.
-* **Indicator** — shows the device as a circle, best for maps with many similar devices.\
-
+* **Indicator** — shows the device as a circle, best for maps with many similar devices.<br>
 
 4. **Enable Color Based on Value (optional)**
 5. Turn on Color based on value to highlight devices according to their data or status:
@@ -448,8 +445,7 @@ You can select one of three marker styles:
 <figure><img src="../../.gitbook/assets/geomap_color_on_value.png" alt=""><figcaption></figcaption></figure>
 
 This helps you spot abnormal values or disconnected devices immediately.\
-All marker styles support the **Color based on value** option.\
-
+All marker styles support the **Color based on value** option.<br>
 
 5. **Set up popup details**\
    Configure which datastreams appear in the popup tooltip when clicking a device marker. You can display up to **5 datastreams per device**, providing more detail without cluttering the map view.

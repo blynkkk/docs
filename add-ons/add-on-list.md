@@ -4,8 +4,8 @@ description: Tools you can add on top of Blynk Business plan to better achieve y
 
 # Add-on list
 
-{% content-ref url="billing.md" %}
-[billing.md](billing.md)
+{% content-ref url="paywalls.md" %}
+[paywalls.md](paywalls.md)
 {% endcontent-ref %}
 
 {% content-ref url="amazon-alexa.md" %}

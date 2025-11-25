@@ -16,7 +16,7 @@ The actual Blynk documentation is [here](https://docs.blynk.io/).
 
 ### Getting Started <a href="#getting-started" id="getting-started"></a>
 
-To start with Particle Electron, please refer to [this example](https://github.com/vshymanskyy/blynk-library-spark/blob/master/examples/02\_Particle\_Electron/02\_Particle\_Electron.ino).
+To start with Particle Electron, please refer to [this example](https://github.com/vshymanskyy/blynk-library-spark/blob/master/examples/02_Particle_Electron/02_Particle_Electron.ino).
 
 ### Troubleshooting <a href="#troubleshooting" id="troubleshooting"></a>
 
@@ -41,4 +41,4 @@ Blynk can consume quite a lot of data! Use carefully not no overpay for the data
 #define BLYNK_HEARTBEAT 60
 ```
 
-Please choose the one that works best for you.\
+Please choose the one that works best for you.<br>

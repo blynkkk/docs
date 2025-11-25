@@ -61,8 +61,7 @@ Find your AWS Account ID by clicking on your account name (top-right corner) in 
 1. In the AWS Console, navigate to **AWS IoT Core** → **Security** → **Certificates**.
 2. Click **Add certificate** → **Create certificate**.
 3. Change its status to **Active** and click **Create**.
-4.  Download the **Device Certificate** and **Private Key** files, then upload them to the corresponding section on the Blynk integration page.\
-
+4.  Download the **Device Certificate** and **Private Key** files, then upload them to the corresponding section on the Blynk integration page.<br>
 
     <figure><img src="../.gitbook/assets/AWS certificate download screen.png" alt="" width="309"><figcaption></figcaption></figure>
 5. Click **Continue** in the Blynk interface.
@@ -78,8 +77,7 @@ Find your AWS Account ID by clicking on your account name (top-right corner) in 
    * Go to **Roles** → **Create Role**.
    * Select **Custom Trust Policy** and paste the copied JSON.
    * Click **Next**, then **Next** again, and name the role **BlynkRole**.
-3.  Click **Create Role** to finalize.\
-
+3.  Click **Create Role** to finalize.<br>
 
     <figure><img src="../.gitbook/assets/AWS create role.png" alt=""><figcaption></figcaption></figure>
 4. Next, on the Blynk integration page, copy the **Role Permission JSON**.
@@ -135,8 +133,7 @@ Once the integration is successfully connected and the Thing Type is mapped to t
 **Configure Datastreams**\
 Begin by setting up the datastreams within the Blynk Template. Ensure the names of the datastreams align with the JSON key names in the AWS IoT Device Shadow, and that their types match the JSON value types. Use Virtual Pins, Enum, and Location datastream types.
 
-Below is an example of datastream configurations:\
-
+Below is an example of datastream configurations:<br>
 
 <figure><img src="../.gitbook/assets/Blynk template datastreams settings (1).png" alt=""><figcaption></figcaption></figure>
 

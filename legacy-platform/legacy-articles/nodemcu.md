@@ -14,7 +14,7 @@ First, follow [this guide](http://help.blynk.cc/hardware-and-libraries/install-e
 
 ### Uploading Blynk example to NodeMCU <a href="#uploading-blynk-example-to-nodemcu" id="uploading-blynk-example-to-nodemcu"></a>
 
-Open `File -> Examples -> Blynk -> Boards_WiFi -> NodeMCU` ![](https://uploads.intercomcdn.com/i/o/20865565/ce4c830ed1c8884b0e83e835/nodeMCU\_in\_menu.png)
+Open `File -> Examples -> Blynk -> Boards_WiFi -> NodeMCU` ![](https://uploads.intercomcdn.com/i/o/20865565/ce4c830ed1c8884b0e83e835/nodeMCU_in_menu.png)
 
 Put your auth token from Blynk app and your WiFi credentials in sketch:
 
@@ -30,18 +30,17 @@ Put your auth token from Blynk app and your WiFi credentials in sketch:
 ```
 
 \
-In `Tools -> Board`  menu, select `NodeMCU 1.0 (ESP-12E Module)`![](https://uploads.intercomcdn.com/i/o/20865600/bbc02100531d4fd5ee0fe5cf/nodemcu\_board\_type.png)
+In `Tools -> Board`  menu, select `NodeMCU 1.0 (ESP-12E Module)`![](https://uploads.intercomcdn.com/i/o/20865600/bbc02100531d4fd5ee0fe5cf/nodemcu_board_type.png)
 
 Click on `Verify`  button and make sure that example compiled correctly:![](https://uploads.intercomcdn.com/i/o/20865541/17a6f6d785ba1716ab033de0/verify.png)
 
 Select the port of your board in `Tools -> Port` menu.\
 In `Tools -> Upload Speed` , select 115200 (higher values may also work for you).\
-If you don't know how to select the port check this [troubleshooting section](https://github.com/blynkkk/blynk-library/tree/master/examples/Boards\_WiFi/NodeMCU#how-to-pick-the-correct-port) or if you don't see any ports, check this [troubleshooting section](https://github.com/blynkkk/blynk-library/tree/master/examples/Boards\_WiFi/NodeMCU#no-ports-appear-when-board-is-plugged-in).
+If you don't know how to select the port check this [troubleshooting section](https://github.com/blynkkk/blynk-library/tree/master/examples/Boards_WiFi/NodeMCU#how-to-pick-the-correct-port) or if you don't see any ports, check this [troubleshooting section](https://github.com/blynkkk/blynk-library/tree/master/examples/Boards_WiFi/NodeMCU#no-ports-appear-when-board-is-plugged-in).
 
 Click the `Upload`  button. (You should see a progress bar in the console, followed by Done uploading message in the status panel. After this process is finished, LED should start blinking blue: which means the board is waiting for configuration).
 
-The firmware was successfully loaded and is ready. Now go to app and try to light on board LED (pin D4).\
-
+The firmware was successfully loaded and is ready. Now go to app and try to light on board LED (pin D4).<br>
 
 ### What next? <a href="#what-next" id="what-next"></a>
 
@@ -80,8 +79,7 @@ sudo usermod -a -G dialout $USER
 
 **Note:** You will need to reboot (or just log out and log in) for this change to take effect.
 
-If drivers are installed and you still don't see the port, please try to unplug and plug your NodeMCU board.\
-
+If drivers are installed and you still don't see the port, please try to unplug and plug your NodeMCU board.<br>
 
 #### How to pick the correct port? <a href="#how-to-pick-the-correct-port" id="how-to-pick-the-correct-port"></a>
 

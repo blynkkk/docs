@@ -148,15 +148,13 @@ Connected
 Authorized
 ```
 
-Write our own script based on [examples](https://github.com/vshymanskyy/blynk-library-js/tree/master/examples)!\
-
+Write our own script based on [examples](https://github.com/vshymanskyy/blynk-library-js/tree/master/examples)!<br>
 
 ### What next? <a href="#what-next" id="what-next"></a>
 
 Read about [**Virtual Pins**](http://help.blynk.cc/blynk-basics/what-is-virtual-pins) concept and unleash full power of Blynk.\
 Blynk supports huge amount of board types. [Check if your favourite is on the list!](https://github.com/blynkkk/blynkkk.github.io/blob/master/SupportedHardware.md)\
-Our library is Open Source Software. [Give](https://github.com/blynkkk/blynk-library/blob/master/README.md) us a star on GitHub.\
-
+Our library is Open Source Software. [Give](https://github.com/blynkkk/blynk-library/blob/master/README.md) us a star on GitHub.<br>
 
 ### Troubleshooting <a href="#troubleshooting" id="troubleshooting"></a>
 
@@ -166,10 +164,9 @@ If you are trying to connect to Blynk cloud, and get an error like:
 npm ERR! Error: SSL Error: CERT_NOT_YET_VALID
 ```
 
-you should use the `date` command to update current system time.\
-
+you should use the `date` command to update current system time.<br>
 
 ### Further reading <a href="#further-reading" id="further-reading"></a>
 
 [Instructables: Use DHT11/DHT12 sensors with Raspberry Pi and Blynk](http://www.instructables.com/id/Raspberry-Pi-Nodejs-Blynk-App-DHT11DHT22AM2302/?ALLSTEPS)\
-[Node.js vs C++ library](http://help.blynk.cc/hardware-and-libraries/nodejs-vs-c-library)\
+[Node.js vs C++ library](http://help.blynk.cc/hardware-and-libraries/nodejs-vs-c-library)<br>

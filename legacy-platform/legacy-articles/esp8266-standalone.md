@@ -24,8 +24,7 @@ ESP8266-based boards, like `NodeMCU, Huzzah, WeMos D1, Seeed Wio Link, ...` can 
 * ESP8266 can't be powered directly from 3v3 pin on most Arduinos, as it requires more than 400 mA current supply.&#x20;
 * ESP8266 flash might get broken. The code executes without problem right after flashing, but stops working after first reboot.
 * This WiFi module can somehow interfere with PIR sensors -> PIR sensor starts producing random values ;)
-* ESP8266 currently has troubles with connecting to **WPA2-Enterprise** networks, and WiFi hotspots that have **Captive Portal** (webpage that requires you to sign-in to get Internet access).\
-
+* ESP8266 currently has troubles with connecting to **WPA2-Enterprise** networks, and WiFi hotspots that have **Captive Portal** (webpage that requires you to sign-in to get Internet access).<br>
 
 ### Low level debugging <a href="#low-level-debugging" id="low-level-debugging"></a>
 

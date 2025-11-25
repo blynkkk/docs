@@ -26,10 +26,9 @@ There are two ways of turning things ON and OFF with Blynk:&#x20;
 In this article we will describe both cases.
 
 \
-Let's try turning on/off LED connected to **Digital Pin D3** of your hardware.\
+Let's try turning on/off LED connected to **Digital Pin D3** of your hardware.<br>
 
-
-![](https://uploads.intercomcdn.com/i/o/19421463/dfe3e0f06f459c4b9ff06fc0/LED\_blink\_320.gif)
+![](https://uploads.intercomcdn.com/i/o/19421463/dfe3e0f06f459c4b9ff06fc0/LED_blink_320.gif)
 
 ### Control GPIOs with no extra coding <a href="#control-gpios-with-no-extra-coding" id="control-gpios-with-no-extra-coding"></a>
 

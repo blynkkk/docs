@@ -43,8 +43,7 @@ Indicates the number of disconnections that occurred today (e.g., `12`). This da
 
 #### **Disconnections Chart**
 
-Provides a visual representation of disconnections over the month, with larger dots indicating higher frequencies. Also shows the average count of disconnections daily within the month.\
-
+Provides a visual representation of disconnections over the month, with larger dots indicating higher frequencies. Also shows the average count of disconnections daily within the month.<br>
 
 ### Hardware Info
 
@@ -59,8 +58,7 @@ Indicates the type of board used (e.g., ESP32).
 
 #### **Heartbeat Interval**
 
-Displays the interval in seconds for [heartbeat ](../../../../concepts/connection-lifecycle-management/disconnections-and-heartbeat.md#heartbeat)signals (e.g., 10 seconds).\
-
+Displays the interval in seconds for [heartbeat ](../../../../concepts/connection-lifecycle-management/disconnections-and-heartbeat.md#heartbeat)signals (e.g., 10 seconds).<br>
 
 ### Firmware Info
 

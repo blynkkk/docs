@@ -10,19 +10,15 @@ Label is used to show value of Virtual Pin e.g. length/distance, mass, duration,
 
 ### **Settings**
 
-* **Label** – name a Label widget so you or your client understand what it's about    \
-
-* **Datastream** - select or create the data stream that will be the source of the data for the widget\
-
-* **Content Alignment** – 2 options are available: Left, Right\
-
-* **Background** \
-
+* **Label** – name a Label widget so you or your client understand what it's about    <br>
+* **Datastream** - select or create the data stream that will be the source of the data for the widget<br>
+* **Content Alignment** – 2 options are available: Left, Right<br>
+* **Background** <br>
   * With disabled option **Change color based on value** pick your own Background colour from palette
   *   With enabled **Change color based on value** select the gradient scheme or set up your own one based on the **MIN** and **MAX** values of your choice and Background color
 
 
 * **Level** – enable it by switching **Show level** on to visualize accordingly to values set in **MIN and MAX Value** fields below. Select position (vertical or horizontal) and level color.
 
-![Label widget setup demo](../../.gitbook/assets/label\_setup.gif)
+![Label widget setup demo](../../.gitbook/assets/label_setup.gif)
 

@@ -39,17 +39,16 @@ Although Blynk Library can be used without Blynk.Edgent features, it is recommen
 
 1. **Create a blank Template** in [Blynk.Console](https://blynk.cloud/). To do it, go to _Developer Zone_ in the left menu and click + _New Template_ button. Assign a name and select hardware and connectivity, you can further customize the template and build the dashboards later.
 2. Open [PlatformIO IDE](../blynk-library-firmware-api/installation/install-blynk-library-for-platformio.org.md) (recommended) or [Arduino IDE](../blynk-library-firmware-api/installation/install-blynk-library-in-arduino-ide.md) and **install** [**Blynk Library**](https://github.com/blynkkk/blynk-library/releases/latest).
-3. **Open Blynk.Edgent example** for your device and your IDE using the links provided in the table below or in your IDE. For Arduino: File -> Examples -> Blynk -> Blynk.Edgent and select your board.\
+3. **Open Blynk.Edgent example** for your device and your IDE using the links provided in the table below or in your IDE. For Arduino: File -> Examples -> Blynk -> Blynk.Edgent and select your board.<br>
 
-
-| Board                 | Example for PlatformIO IDE                                                                  | Example for Arduino IDE                                                                                  |
-| --------------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| ESP32                 | [Link](https://github.com/blynkkk/edgent-examples-pio/tree/main/PIO\_Edgent\_ESP32)         | [Link](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_ESP32)         |
-| ESP8266               | [Link](https://github.com/blynkkk/edgent-examples-pio/tree/main/PIO\_Edgent\_ESP8266)       | [Link](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_ESP8266)       |
-| Arduino MKR WiFi 1010 | [Link](https://github.com/blynkkk/edgent-examples-pio/tree/main/PIO\_Edgent\_MKR1010)       | [Link](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_MKR1010)       |
-| Arduino Nano 33 IoT   | [Link](https://github.com/blynkkk/edgent-examples-pio/tree/main/PIO\_Edgent\_MKR1010)       | [Link](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_MKR1010)       |
-| Seeed Wio Terminal    | [Link](https://github.com/blynkkk/edgent-examples-pio/tree/main/PIO\_Edgent\_Wio\_Terminal) | [Link](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent\_Wio\_Terminal) |
-| TI CC3220             | [Contact sales](https://blynk.io/contact-us-business) for commercial implementation         | [Contact sales](https://blynk.io/contact-us-business) for commercial implementation                      |
+| Board                 | Example for PlatformIO IDE                                                               | Example for Arduino IDE                                                                                |
+| --------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| ESP32                 | [Link](https://github.com/blynkkk/edgent-examples-pio/tree/main/PIO_Edgent_ESP32)        | [Link](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent_ESP32)        |
+| ESP8266               | [Link](https://github.com/blynkkk/edgent-examples-pio/tree/main/PIO_Edgent_ESP8266)      | [Link](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent_ESP8266)      |
+| Arduino MKR WiFi 1010 | [Link](https://github.com/blynkkk/edgent-examples-pio/tree/main/PIO_Edgent_MKR1010)      | [Link](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent_MKR1010)      |
+| Arduino Nano 33 IoT   | [Link](https://github.com/blynkkk/edgent-examples-pio/tree/main/PIO_Edgent_MKR1010)      | [Link](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent_MKR1010)      |
+| Seeed Wio Terminal    | [Link](https://github.com/blynkkk/edgent-examples-pio/tree/main/PIO_Edgent_Wio_Terminal) | [Link](https://github.com/blynkkk/blynk-library/tree/master/examples/Blynk.Edgent/Edgent_Wio_Terminal) |
+| TI CC3220             | [Contact sales](https://blynk.io/contact-us-business) for commercial implementation      | [Contact sales](https://blynk.io/contact-us-business) for commercial implementation                    |
 
 4. **Uncomment these two lines and replace the placeholders** with your Template ID and Template name.
 

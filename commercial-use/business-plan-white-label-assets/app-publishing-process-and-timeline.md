@@ -14,8 +14,7 @@ Make sure you check other articles about app exporting before starting the expor
 
 On average, this process takes 5-10 business days, however it depends on how ready your project and hardware are and how familiar your team is with Blynk platform.&#x20;
 
-Communication speed between your company and Blynk is important too.\
-
+Communication speed between your company and Blynk is important too.<br>
 
 ### &#x20;Server Launch and Initial Setup <a href="#launch" id="launch"></a>
 

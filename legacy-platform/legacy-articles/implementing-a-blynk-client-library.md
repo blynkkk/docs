@@ -35,8 +35,7 @@ This document hints how to write a custom library.
 * Serialize/deserialize Blynk protocol
 * Should be portable across similar devices (or same technology/programming language), if possible
 * Should detect and notify the user about [troubles](https://github.com/blynkkk/blynk-library/blob/master/extras/docs/Troubleshooting.md) where possible (especially Flood)
-* Handle direct pin operations \[optional]\
-
+* Handle direct pin operations \[optional]<br>
 
 #### Adding new HW board to the Blynk mobile app <a href="#adding-new-hw-board-to-the-blynk-mobile-app" id="adding-new-hw-board-to-the-blynk-mobile-app"></a>
 
@@ -55,7 +54,7 @@ Blynk transfers binary messages with the following structure:
 
 Command and Status definitions: [BlynkProtocolDefs.h](https://github.com/blynkkk/blynk-library/blob/master/src/Blynk/BlynkProtocolDefs.h)
 
-Another protocol description can be found [here](https://github.com/blynkkk/blynk-server/blob/master/docs/README\_FOR\_APP\_DEVS.md).
+Another protocol description can be found [here](https://github.com/blynkkk/blynk-server/blob/master/docs/README_FOR_APP_DEVS.md).
 
 Typical Blynk library knows how to **send**(S) and **process**(P):
 
@@ -72,7 +71,7 @@ S   BLYNK_CMD_PUSH_NOTIFICATION
 
 #### HARDWARE/BRIDGE command body <a href="#hardwarebridge-command-body" id="hardwarebridge-command-body"></a>
 
-The body of these commands are encoded as a sequence of strings, separated by **'\0'** ([Null character](http://en.wikipedia.org/wiki/Null\_character)). Please note that the last value may be not [Null-terminated.In](http://null-terminated.in/) the following command examples **'\0'** chars are replaced with spaces.
+The body of these commands are encoded as a sequence of strings, separated by **'\0'** ([Null character](http://en.wikipedia.org/wiki/Null_character)). Please note that the last value may be not [Null-terminated.In](http://null-terminated.in/) the following command examples **'\0'** chars are replaced with spaces.
 
 #### Pin mode <a href="#pin-mode" id="pin-mode"></a>
 
@@ -163,4 +162,4 @@ Based on the API of the connection, create the Transport. Some examples may be f
 * BlynkSimpleUIPEthernet.h
 
 4 - Create a simple example for your platform ;)\
-\
+<br>

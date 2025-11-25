@@ -8,8 +8,7 @@ Select or create a datastream of [data type](../../blynk.console/templates/datas
 
 ### Widget Controls
 
-The widget has no controls\
-
+The widget has no controls<br>
 
 ### How to process widget input on the device
 

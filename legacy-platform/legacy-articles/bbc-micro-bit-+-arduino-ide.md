@@ -21,8 +21,7 @@ It can be used with JavaScript, Python, or Scratch programming languages and is 
 
 But you can get bored with the functionality of the board itself.\
 What if you could easily build an iOS/Android app to interact with your micro:bit?\
-Blynk does just that! Here is how to use it with Arduino IDE. The whole tutorial should not take more than 30 minutes.\
-
+Blynk does just that! Here is how to use it with Arduino IDE. The whole tutorial should not take more than 30 minutes.<br>
 
 ### Install required software <a href="#install-required-software" id="install-required-software"></a>
 
@@ -31,8 +30,7 @@ Blynk does just that! Here is how to use it with Arduino IDE. The whole tutorial
 3. Install **BLEPeripheral** library.\
    You can use **Arduino Library Manager** or [install manually](https://github.com/sandeepmistry/arduino-BLEPeripheral).
 4. Install the latest **Blynk libraries**. [Our instructions](https://github.com/blynkkk/blynk-library/releases/latest).
-5. Install **Blynk** app on your smartphone, and create an account (if you don't have one).\
-
+5. Install **Blynk** app on your smartphone, and create an account (if you don't have one).<br>
 
 ### Configure your Arduino IDE and Micro:Bit <a href="#configure-your-arduino-ide-and-microbit" id="configure-your-arduino-ide-and-microbit"></a>
 
@@ -53,7 +51,7 @@ S132 is for Nordic nRF52-based boards,  Central + Peripheral
 ### Upload your first sketch! <a href="#upload-your-first-sketch" id="upload-your-first-sketch"></a>
 
 Using Blynk smartphone app, create a **New Project**.\
-Select **BBC Micro:bit** device, **BLE** connection type.![](https://downloads.intercomcdn.com/i/o/63020504/2ebd400e0685a1a8bec47105/Screenshot\_2017-05-18-16-27-01-357\_cc.blynk.png)
+Select **BBC Micro:bit** device, **BLE** connection type.![](https://downloads.intercomcdn.com/i/o/63020504/2ebd400e0685a1a8bec47105/Screenshot_2017-05-18-16-27-01-357_cc.blynk.png)
 
 A new **Auth Token** for this device will land in your email box.\
 \
@@ -77,8 +75,7 @@ In your project, add **BLE widget** and tap on it to open **BLE Settings**.
 #### Reading Analog Sensor <a href="#reading-analog-sensor" id="reading-analog-sensor"></a>
 
 In Blynk App, add a **Value Display widget** and attach it to **Analog Pin 1.**\
-After you run the project, you should see the value of analog sensor.\
-
+After you run the project, you should see the value of analog sensor.<br>
 
 #### Reading Button Status <a href="#reading-button-status" id="reading-button-status"></a>
 
@@ -92,8 +89,7 @@ Add these lines on the top of `setup` function, and upload it to the board.
 
 Add a **Value Display widget** and attach it to **Digital Pin 5.**\
 This is the pin of Button A, for Button B use pin 11 (see the pin map).\
-**Run** your project to see the button status.\
-
+**Run** your project to see the button status.<br>
 
 #### Switching some LEDs on and off  <a href="#switching-some-leds-on-and-off" id="switching-some-leds-on-and-off"></a>
 
@@ -126,7 +122,7 @@ Read more about [how micro:bit display works](https://lancaster-university.githu
 
 Now add a **Button widget (select mode: Switch)**, assign it to **Virtual Pin 0.**\
 **Run** the project, and try clicking the Button widget.\
-The middle LED should light up.![](https://downloads.intercomcdn.com/i/o/63020510/90e3eff07c251fa327adbe81/Screenshot\_2017-05-18-23-50-58-786\_cc.blynk.png)
+The middle LED should light up.![](https://downloads.intercomcdn.com/i/o/63020510/90e3eff07c251fa327adbe81/Screenshot_2017-05-18-23-50-58-786_cc.blynk.png)
 
 ### What next? <a href="#what-next" id="what-next"></a>
 

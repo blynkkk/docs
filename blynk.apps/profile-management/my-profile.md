@@ -34,4 +34,4 @@ For **Blynk.Console**, users can independently adjust the localization settings 
 
 ### Developer mode
 
-Switch between end-user or developer views. View full documentation on [developer mode](../../concepts/developer-mode.md).\
+Switch between end-user or developer views. View full documentation on [developer mode](../../concepts/developer-mode.md).<br>

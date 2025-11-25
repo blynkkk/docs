@@ -21,8 +21,7 @@ Blynk works with hundreds of hardware models and connection types. We prepared *
 
 ### ⚙️ Find a full list of all supported hardware [here](https://github.com/blynkkk/blynkkk.github.io/blob/master/SupportedHardware.md) <a href="#find-a-full-list-of-all-supported-hardware-here" id="find-a-full-list-of-all-supported-hardware-here"></a>
 
-☝️ **Before moving forward, make sure you have Blynk Library properly installed.**\
-
+☝️ **Before moving forward, make sure you have Blynk Library properly installed.**<br>
 
 ### Find the example code for your hardware <a href="#find-the-example-code-for-your-hardware" id="find-the-example-code-for-your-hardware"></a>
 

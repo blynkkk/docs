@@ -24,11 +24,9 @@ Terminal widget works like the usual system terminal. This widget displays datas
 
 **SCREEN COLOR** - Sets the background color of the output (display) and input areas.
 
-**TEXT COLOR** - Sets the color of the text displayed in the output and input areas.\
+**TEXT COLOR** - Sets the color of the text displayed in the output and input areas.<br>
 
-
-Note that a horizontal scroll bar below the output display becomes visible when the text in the current line exceeds the width of the output display.\
-
+Note that a horizontal scroll bar below the output display becomes visible when the text in the current line exceeds the width of the output display.<br>
 
 ### How to send data from a device
 

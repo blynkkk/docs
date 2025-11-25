@@ -268,8 +268,7 @@
 >
 > Ongoing stability improvements and resolution of various UI, logic, and performance issues.
 
-\
-
+<br>
 
 ## July 7, 2025
 
@@ -329,4 +328,4 @@
 >
 > Ongoing stability improvements and resolution of various UI, logic, and performance issues.
 
-\
+<br>

@@ -50,7 +50,7 @@ The full management and configuration are more easily accomplished using the Bly
 
 You need to be logged into Blynk as a user with a role and set of permissions that will allow you to create/edit organizations, templates, users, etc. A user has access only to the organization he is assigned to. Access to the sub-organizations is possible only when the user has a specific permission `Switch to Sub Organizations`. The root organization user with ‘Admin’ role and default permissions are sufficient:
 
-![Sub organization permissions](../.gitbook/assets/screenshot-blynk-qa.com-2023.01.04-19\_52\_35.png)
+![Sub organization permissions](../.gitbook/assets/screenshot-blynk-qa.com-2023.01.04-19_52_35.png)
 
 Sketch out your current root organization including templates, devices, and users. Then lay out the sub-organization and include the templates, at least one user with ‘Admin’ role, one device, and the user who will be assigned as the device owner (it can be the admin of the sub-organization or any other user assigned to the sub-organization).
 
@@ -77,8 +77,7 @@ Every sub-organization should have at least one member assigned the role ‘Admi
 After the sub-organization ‘Admin’ member has been assigned, other Blynk members may be transferred by providing the email for the sub-organization ‘Admin’ or invited by providing their email address. The transfer is possible only within the same hierarchy of organizations.
 
 {% hint style="success" %}
-Although you can define what devices users may see and manage through roles and permissions, it is easier to manage that for multiple users by assigning those users and devices to a sub-organization.  \
-
+Although you can define what devices users may see and manage through roles and permissions, it is easier to manage that for multiple users by assigning those users and devices to a sub-organization.  <br>
 
 1. Create a sub-organization
 2. Assign an administrator, [invite](../blynk.console/organizations/browse-and-edit-a-sub-organization.md#invite-users-to-a-sub-organization) or [transfer](../blynk.console/organizations/browse-and-edit-a-sub-organization.md#how-to-transfer-a-user-to-another-organization) the user to that sub-organization

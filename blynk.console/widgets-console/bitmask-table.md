@@ -78,8 +78,7 @@ Blynk.setProperty(vPin, "widgetProperty", "propertyValue");
 
 * vPin: Virtual pin assigned to the widget
 * widgetProperty: The property to change
-* propertyValue: New value to assign\
-
+* propertyValue: New value to assign<br>
 
 {% hint style="danger" %}
 Warning: Avoid placing Blynk.setProperty() in the loop() function — this may flood the server and disconnect your device. Use timers or event-based updates instead.

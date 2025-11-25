@@ -57,8 +57,7 @@ You can change the following properties from hardware or via the HTTP API:
 
 * label
 * isHidden
-* isDisabled\
-
+* isDisabled<br>
 
 **Example (hardware):**
 

@@ -10,12 +10,10 @@ All shipments can be viewed and managed through the table.
 
 Every shipment has an actions menu where the options available\
 \
-For **Live** shipment, there are **Cancel** & **Pause**\
-
+For **Live** shipment, there are **Cancel** & **Pause**<br>
 
 ![](<../../../.gitbook/assets/image (16).png>)
 
-For **Canceled** shipments there are **Delete** & **Download Report** options\
-
+For **Canceled** shipments there are **Delete** & **Download Report** options<br>
 
 ![](<../../../.gitbook/assets/image (2) (1).png>)

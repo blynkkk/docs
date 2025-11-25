@@ -64,4 +64,4 @@ You can set **offImageUrl** via setProperty function:
 Blynk.setProperty(V1, "offImageUrl", "https://blynk.cloud/static/icon.png");
 ```
 
-\
+<br>
