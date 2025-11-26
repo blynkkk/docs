@@ -10,7 +10,7 @@ We've prepared a quick and easy way to connect your first device. Whether you ar
 
 ### To get started:
 
-1. Create a Blynk account using [Blynk.Console](broken-reference) or [Blynk.App for iOS or Android](../../downloads/blynk-apps-for-ios-and-android.md).
+1. Create a Blynk account using [Blynk.Console](/broken/pages/-MbocQkJaC0zuVVnD7pi) or [Blynk.App for iOS or Android](../../downloads/blynk-apps-for-ios-and-android.md).
 2. Switch to [Developer Mode](../../concepts/developer-mode.md) in Blynk.Console or Blynk.App
 3. Have a supported hardware (ESP32, Arduino, Raspberry Pi, etc). The list of supported devices is [here](../supported-boards.md).
 4. Be familiar with the basics of electric circuitry and know how to at least blink an LED using Arduino boards, know how to install new Arduino libraries, etc.

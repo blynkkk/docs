@@ -20,7 +20,7 @@ User account is needed to enable secure access to your data from different clien
 
 Your privacy is our default priority.
 
-You can create a new account either in [Blynk.Apps](broken-reference) or [Blynk.Console](broken-reference)
+You can create a new account either in [Blynk.Apps](/broken/pages/-MboiDVEpd2FL0JGkM9f) or [Blynk.Console](/broken/pages/-MbocQkJaC0zuVVnD7pi)
 
 ## **Sign Up**
 

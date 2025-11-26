@@ -345,7 +345,7 @@
     * [Get Static Tokens](blynk.cloud/platform-https-api/ogranization-api/get-static-tokens.md)
     * [Get Organization Tags](blynk.cloud/platform-https-api/ogranization-api/get-organization-tags.md)
     * [Get Organization Automations](blynk.cloud/platform-https-api/ogranization-api/get-organization-automations.md)
-    * [Delete Organization](blynk.cloud/platform-https-api/ogranization-api/get-organization-automations-1.md)
+    * [Delete Organization](blynk.cloud/platform-https-api/ogranization-api/delete-organization.md)
   * [Devices API](blynk.cloud/platform-https-api/devices-api/README.md)
     * [Get All Devices](blynk.cloud/platform-https-api/devices-api/get-all-devices.md)
     * [Search Devices](blynk.cloud/platform-https-api/devices-api/search-devices.md)

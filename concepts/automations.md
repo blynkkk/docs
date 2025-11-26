@@ -15,7 +15,7 @@ The types of **conditions** are:&#x20;
 * **Schedule:** triggers an event based on the current date/time reaching a particular set of date/time values (all relative to a specified time zone)
 * **Sunrise/Sunset:** triggers an event when the time before/after sunrise/sunset occurs relative to a set of defined weekdays, at a specific geographic location.
 * **Device State:** triggers an action based on the value of a [Datastream](../blynk.console/templates/datastreams/).&#x20;
-* **Scene:** manually triggers an automation scenario from the [Blynk.App](broken-reference) mobile app or the [Blynk.Console](broken-reference) web app.
+* **Scene:** manually triggers an automation scenario from the [Blynk.App](/broken/pages/-MboiDVEpd2FL0JGkM9f) mobile app or the [Blynk.Console](/broken/pages/-MbocQkJaC0zuVVnD7pi) web app.
 
 
 
@@ -47,13 +47,13 @@ Note that the value of a Datastream may be used by a condition, and action can b
 
 Automations are created per [Organization](organizations.md) and are only available for users with permission for it. By default, the first user in the Organization becomes a [Developer](users/#developers) and has sufficient permissions to create an Automation.
 
-Enable automation permissions for other roles by visiting [Blynk.Console](broken-reference), click on the 'Settings' option on the main menu, access the 'Roles and permissions' menu option, expand the 'Organizations' section and find the 'Automations' permissions. Set the role's create/edit/view/delete/execute/manage permissions as appropriate for the role.
+Enable automation permissions for other roles by visiting [Blynk.Console](/broken/pages/-MbocQkJaC0zuVVnD7pi), click on the 'Settings' option on the main menu, access the 'Roles and permissions' menu option, expand the 'Organizations' section and find the 'Automations' permissions. Set the role's create/edit/view/delete/execute/manage permissions as appropriate for the role.
 
 <figure><img src="../.gitbook/assets/17-automations-roles perms 1.png" alt=""><figcaption></figcaption></figure>
 
 #### Check Developer Mode
 
-The [Developer Mode](developer-mode.md) must be turned on in order to edit the Automations options for a [Template](device-template.md).  The Developer Mode can be turned on from [Blynk.Console](broken-reference) or the [Blynk.App](broken-reference).
+The [Developer Mode](developer-mode.md) must be turned on in order to edit the Automations options for a [Template](device-template.md).  The Developer Mode can be turned on from [Blynk.Console](/broken/pages/-MbocQkJaC0zuVVnD7pi) or the [Blynk.App](/broken/pages/-MboiDVEpd2FL0JGkM9f).
 
 {% hint style="info" %}
 The ‘Automations’ icon in both the Blynk.App and the Blynk.Console will not be visible until at least one [Datastream](../blynk.console/templates/datastreams/) listed in the Template under the ‘Automations’ tab has a condition or action option turned on.
@@ -80,16 +80,16 @@ In the table column labeled **Type of Automation**, make a choice for the Datast
 If the value of the Datastream will be used to trigger an action, then enable the ‘Condition’ switch in the table.  If the value of the Datastream is to be changed by the Automation, then enable the ‘Action’ switch in the table.
 
 1. Enable at least one Condition or Action for a Datastream and then click the **Save And Apply** button at the top right of the screen.&#x20;
-2. Refresh the browser window (CTRL-F5), and the Automations icon should be now visible in the [Blynk.Console](broken-reference) side menu.&#x20;
-3. Restart the [Blynk.App](broken-reference), and the Automations icon will be visible at the bottom of the screen in between the Devices and Notifications icons.
+2. Refresh the browser window (CTRL-F5), and the Automations icon should be now visible in the [Blynk.Console](/broken/pages/-MbocQkJaC0zuVVnD7pi) side menu.&#x20;
+3. Restart the [Blynk.App](/broken/pages/-MboiDVEpd2FL0JGkM9f), and the Automations icon will be visible at the bottom of the screen in between the Devices and Notifications icons.
 
-You may create an Automation scenario in either the [Blynk.Console](broken-reference), or the [Blynk.App](broken-reference). Creating an Automation in one app will cause it to be accessible in the other app (you may need to refresh the other app).
+You may create an Automation scenario in either the [Blynk.Console](/broken/pages/-MbocQkJaC0zuVVnD7pi), or the [Blynk.App](/broken/pages/-MboiDVEpd2FL0JGkM9f). Creating an Automation in one app will cause it to be accessible in the other app (you may need to refresh the other app).
 
 
 
 ### 2. Create an Automation
 
-From the [Blynk.Console](broken-reference), click on the Automations icon on the main menu.  From the [Blynk.App](broken-reference), click on the ‘Automations’ icon at the bottom of the home screen.
+From the [Blynk.Console](/broken/pages/-MbocQkJaC0zuVVnD7pi), click on the Automations icon on the main menu.  From the [Blynk.App](/broken/pages/-MboiDVEpd2FL0JGkM9f), click on the ‘Automations’ icon at the bottom of the home screen.
 
 ### Conditions
 
@@ -203,7 +203,7 @@ If you click on the ‘AUTOMATIONS’ section, you may enable/disable the partic
 
 ### Automations Logs
 
-In the [Blynk.Console](broken-reference), you may also view the Automation Logs while editing an Automation.  This option is not available in the [Blynk.App](broken-reference).
+In the [Blynk.Console](/broken/pages/-MbocQkJaC0zuVVnD7pi), you may also view the Automation Logs while editing an Automation.  This option is not available in the [Blynk.App](/broken/pages/-MboiDVEpd2FL0JGkM9f).
 
 ![](../.gitbook/assets/automation-logs.png)
 

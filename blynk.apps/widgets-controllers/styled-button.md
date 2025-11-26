@@ -131,7 +131,7 @@ Don't put **`Blynk.setProperty()`**&#x69;nto the **`void loop()`** as it can cau
 
 ### Properties you can change
 
-You can change the properties _onLabel_, _offLabel_, _onColor_, _offColor_, _onBackColor_, _offBackColor_, _label_, _color_, _isDisabled_, _isHidden_, and _page_ of the widget from your hardware, or via an [HTTP API](broken-reference). The color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
+You can change the properties _onLabel_, _offLabel_, _onColor_, _offColor_, _onBackColor_, _offBackColor_, _label_, _color_, _isDisabled_, _isHidden_, and _page_ of the widget from your hardware, or via an [HTTP API](/broken/pages/-MboZKh3GURRjbTTpUUV). The color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
 
 #### Set a custom ON/OFF label associated with the widget state
 

@@ -35,7 +35,7 @@ You can also update multiple datastreams / properties usind _Add_ button.
 
 #### Code Snippets
 
-The section provides code snippets for [firmware API](broken-reference), [HTTP API](../../../../blynk.cloud/device-https-api/) and [MQTT API](../../../../blynk.cloud/device-mqtt-api/) that can be used to perform the actions that were configured in the interface above from the hardware.
+The section provides code snippets for [firmware API](/broken/pages/3N6UZd68hmTb9kGG8ZUT), [HTTP API](../../../../blynk.cloud/device-https-api/) and [MQTT API](../../../../blynk.cloud/device-mqtt-api/) that can be used to perform the actions that were configured in the interface above from the hardware.
 
 {% hint style="info" %}
 Use Timers to send data in intervals. Don’t place `Blynk.virtualWrite` command directly into `void loop().` [Read documentation here](../../../../getting-started/how-to-display-any-sensor-data-in-blynk-app.md#use-timers).

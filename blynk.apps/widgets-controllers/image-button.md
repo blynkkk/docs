@@ -131,7 +131,7 @@ Don't put **`Blynk.setProperty()`**&#x69;nto the **`void loop()`** as it can cau
 
 ### Properties you can change
 
-You can change the properties _onImageUrl_, _offImageUrl_, _label_, _isDisabled_, _isHidden_, and _page_ of the widget from your hardware, or via an [HTTP API](broken-reference). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
+You can change the properties _onImageUrl_, _offImageUrl_, _label_, _isDisabled_, _isHidden_, and _page_ of the widget from your hardware, or via an [HTTP API](/broken/pages/-MboZKh3GURRjbTTpUUV). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
 
 #### **Change On/Off images**
 
