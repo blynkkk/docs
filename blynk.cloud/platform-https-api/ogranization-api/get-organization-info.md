@@ -1,18 +1,12 @@
-# Get Organization Info
+# Get Own Organization Info
 
 
 
-## Get Organization Info
+## Get Own Organization Info
 
-<mark style="color:blue;">`GET`</mark> `https://{server_address}/api/v1/organization`
+<mark style="color:blue;">`GET`</mark> `https://{server_address}/api/v1/organization/profile`
 
-Get organization information by its identifier.
-
-#### Query Parameters
-
-| Name                                    | Type | Description             |
-| --------------------------------------- | ---- | ----------------------- |
-| orgId<mark style="color:red;">\*</mark> | 1    | Organization identifier |
+With this API call, you get information from the organization where the OAuth credentials were created. So, if the OAuth credentials were provided to you by your Account Manager, this call will return you the root organization info.
 
 #### Headers
 
@@ -43,26 +37,16 @@ Get organization information by its identifier.
 }
 ```
 {% endtab %}
-
-{% tab title="404: Not Found Organization is not found" %}
-```json
-{
-    "error": {
-        "message": "Organization is not found or you don't have access to it."
-    }
-}
-```
-{% endtab %}
 {% endtabs %}
 
 Request examples:
 
 ```bash
 # curl command example:
-$ curl -H "Authorization: Bearer {accessToken}" https://fra1.blynk.cloud/api/v1/organization?orgId=1
-$ curl -H "Authorization: Bearer eIdWHQqRfFmvP5LDDh-IGxPUzi7I27HthzCPAVmS" https://fra1.blynk.cloud/api/v1/organization?orgId=1
+$ curl -H "Authorization: Bearer {accessToken}" https://fra1.blynk.cloud/api/v1/organization/profile
+$ curl -H "Authorization: Bearer eIdWHQqRfFmvP5LDDh-IGxPUzi7I27HthzCPAVmS" https://fra1.blynk.cloud/api/v1/organization/profile
 
 # httpie command example:
-$ https -A bearer -a {accessToken} fra1.blynk.cloud/api/v1/organization?orgId=1
-$ https -A bearer -a eIdWHQqRfFmvP5LDDh-IGxPUzi7I27HthzCPAVmS fra1.blynk.cloud/api/v1/organization?orgId=1
+$ https -A bearer -a {accessToken} fra1.blynk.cloud/api/v1/organization/profile
+$ https -A bearer -a eIdWHQqRfFmvP5LDDh-IGxPUzi7I27HthzCPAVmS fra1.blynk.cloud/api/v1/organization/profile
 ```
