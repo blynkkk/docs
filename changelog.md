@@ -1,5 +1,28 @@
 # Changelog
 
+## January 5, 2026
+
+**Bug Fixes**
+
+* Resolved an issue in the terminal widget where only the first message was displayed during real-time updates.
+* Fixed loading issues on the web hooks attempts screen.
+* Corrected parsing errors in location metadata.
+* Implemented various fixes for filters and search functionality.
+* Fixed non-functional "Contact Sales" button.
+* Sub-organization data is now included in the "Events by Organizations" widget.
+* Resolved error message: "Your organization plan doesn't allow extra users".
+* Addressed the default value setting issue of 0 for data streams.
+
+**New Features**
+
+* Added a new chart to Dashboards: "Events by Templates".
+* Introduced a new Platform API endpoint for unclaiming static tokens.
+* Improved visibility by adding "Auth token" to multiple device screens.
+
+**Improvements**
+
+* Enhanced performance for "Edit template" flow.
+
 ## December 8, 2025
 
 ### Bug Fixes
