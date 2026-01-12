@@ -25,19 +25,19 @@
 
 ## December 8, 2025
 
-### Bug Fixes
+**Bug Fixes**
 
 * Fixed the incorrect order of event notifications in mobile apps.
 * Resolved a permission issue preventing admins from performing certain actions on devices.
 * Addressed performance and loading issues with the CSV import in the SQL widget and the "Devices" tab for some organizations.
 
-### Enhancements
+**Enhancements**
 
 * Improved performance for handling multiple queries and editing templates in large fleets.
 * Added the Spanish locale.
 * SQL widget now displays an error for malformed queries.
 
-### Features
+**Features**
 
 * Limited user access for downgraded organizations: Only the first user can log in when downgrading from a PRO plan to a single-user plan.
 * Shipments now support `.yaml` and `.yml` Docker compose files for Raspberry Pi.
@@ -45,30 +45,30 @@
 * The device token is now displayed in the device header and info view.
 * Added measurement unit `pH` to the datastreams.
 
-### Platform Changes
+**Platform Changes**
 
 * New API endpoint to remove empty organizations.
 * Applied a rate limit for the Platform API: 10,000 requests per minute per organization.
 * Increased metadata limits to 10 for all free plans.
 * Shipments allowance reduced to 1 for new free plans.
 
-### User Interface
+**User Interface**
 
 * Roles and Permissions view improvements.
 * Added "Registered At" column in the organization users list.
 * Changed service charts to show enum strings instead of numbers.
 
-### Device Management
+**Device Management**
 
 * Device Lifecycle offline period now recognizes seconds, with maximum wait interval extended to 30 minutes.
 
-### Authentication
+**Authentication**
 
 * HTTPS converter now returns the device authentication token.
 
 ## November 14, 2025
 
-#### New Features
+**New Features**
 
 * **Starter Plan:** Introduced a new pricing tier with tailored features and limits.
 * **HTTP Product Decoder:** Added support for unclaimed static tokens.
