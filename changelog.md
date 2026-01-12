@@ -126,15 +126,15 @@
 
 ## October 30, 2025
 
-### New features
+**New features**
 
 * New Blynk firmware API to get device owner locale
 
-### Improvements
+**Improvements**
 
 * Free plan hardware messages limit increased 30k -> 200k
 
-### Cleanup & Fixes
+Cleanup & Fixes
 
 * **AI Chat:**
   * Fixed metadata addition issue on request.
@@ -170,16 +170,16 @@
 
 ### **New Features**
 
-#### AI Chat Features
+**AI Chat Features**
 
 * **Availability:** AI Chat is now accessible for Free and Plus users with a 100-message limit. Pro users can use up to 1000 messages.
 * **Expanded View:** The AI Chat interface can now be expanded to 40rem (640px) width, with preferences saved for user convenience.
 
-#### MQTT Converter
+**MQTT Converter**
 
 * **Downlinks:** Added downlink functionality in MQTT converters to trigger device actions.
 
-#### SQL Widget
+**SQL Widget**
 
 * **Download Confirmation:** A download confirmation popup is now available for CSV report exports in SQL widgets, aligning with device reports.
 
