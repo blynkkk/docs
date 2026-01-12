@@ -168,22 +168,22 @@ Cleanup & Fixes
 
 ## October 13, 2025&#x20;
 
-### **New Features**
+**New Features**
 
-**AI Chat Features**
+AI Chat Features
 
 * **Availability:** AI Chat is now accessible for Free and Plus users with a 100-message limit. Pro users can use up to 1000 messages.
 * **Expanded View:** The AI Chat interface can now be expanded to 40rem (640px) width, with preferences saved for user convenience.
 
-**MQTT Converter**
+MQTT Converter
 
 * **Downlinks:** Added downlink functionality in MQTT converters to trigger device actions.
 
-**SQL Widget**
+SQL Widget
 
 * **Download Confirmation:** A download confirmation popup is now available for CSV report exports in SQL widgets, aligning with device reports.
 
-### **Improvements**
+**Improvements**
 
 * **AI Chat Interface:** Enhanced code block display for improved readability.
 * **AI Chat UX:** Replaced the "New Chat" icon with a broom icon for better clarity.
@@ -194,9 +194,11 @@ Cleanup & Fixes
 * **Email Validation:** Improved registration email validation to support special characters.
 * **OpenWeather Optimization:** Reduced API call frequency for better performance.
 
-### **Cleanup & Fixes**
 
-#### AI Chat
+
+**Cleanup & Fixes**
+
+AI Chat
 
 * Resolved crash issues during product edit mode.
 * Fixed server message content errors after restarts.
@@ -204,46 +206,44 @@ Cleanup & Fixes
 * Adjusted single backtick wrapping in code blocks.
 * Fixed crash due to "undefined is not an object" error.
 
-#### Automation
+Automation
 
 * Fixed editing window closure issue when deselecting datastreams.
 * Resolved marking issues for datastreams in automation.
 * Hide "Duplicate" button when only one action exists.
 
-#### Control Segments
+Control Segments
 
 * Fixed name cropping issues in the automation interface.
 
-#### Converter UI
+Converter UI
 
 * Resolved template name overflow hiding additional action buttons.
 
-#### Device Customization
+Device Customization
 
 * Fixed non-functional search in the "Customize View" tab.
 
-#### Device Map
+Device Map
 
 * Fixed map button visibility on "My Devices" page after refresh.
 * Fixed map not displaying when adding a new location in device info.
 
-#### Geographic Map Widget
+Geographic Map Widget
 
 * Prevented devices from displaying on the Design tab without available devices.
 * Fixed double map loading on the Design tab.
 * Resolved widget name cropping with "Upgrade" button visible.
 
-#### Icon Alignment
+Icon Alignment
 
 * Corrected misaligned icons.
 
-#### Webhook Parameters
+Webhook Parameters
 
 * Fixed missing timestamp and tag values in webhook calls.
 
-#### Product Validation
 
-* Resolved "Datastream should have unique ID" error for AI-generated datastreams.
 
 ## September 30, 2025&#x20;
 
