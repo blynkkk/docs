@@ -24,6 +24,7 @@
 * [Events](getting-started/events-tutorial.md)
 * [Notifications (Alerts)](getting-started/notification-management.md)
 * [Sign Up / Sign In](getting-started/signup.md)
+* [MCP Server](getting-started/mcp-server.md)
 
 ***
 
