@@ -380,6 +380,7 @@
     * [Create New User](blynk.cloud/platform-https-api/users-api/create-new-user.md)
     * [Register User](blynk.cloud/platform-https-api/users-api/register-user.md)
     * [Invite User](blynk.cloud/platform-https-api/users-api/invite-user.md)
+    * [Transfer User](blynk.cloud/platform-https-api/users-api/transfer-user.md)
     * [Get User Info](blynk.cloud/platform-https-api/users-api/get-user-info.md)
     * [Update User Role](blynk.cloud/platform-https-api/users-api/update-user-role.md)
   * [Templates API](blynk.cloud/platform-https-api/templates-api/README.md)
