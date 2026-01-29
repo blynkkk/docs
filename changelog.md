@@ -1,5 +1,26 @@
 # Changelog
 
+## January 29, 2026
+
+#### New Features
+
+* **Increased Datastreams Limit**: Extended the maximum number of datastreams from 256 to 1000 for Enterprise servers.
+* **New Analytics Widget**: Introduced the "Total events over time" widget.
+* **Platform API Enhancements**: Automatically sets "Content-Type" to "application/json" if unspecified; added a new endpoint to "unclaim static token."
+
+#### Improvements
+
+* **Location Metadata**: Refactored and redesigned to enhance customer usability.
+
+#### Bug Fixes
+
+* **Data Converters**: Fixed a crash in certain Data Converters configurations.
+* **Template Parsing**: Resolved "parsing error" when editing templates for specific setups.
+* **Sub-Organization Switching**: Fixed the "You have to specify organization ids" error.
+* **Devices Table Display**: Show Outcome value for enum datastreams in the devices table.
+
+
+
 ## January 5, 2026
 
 **Bug Fixes**
