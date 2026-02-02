@@ -378,6 +378,7 @@
     * [Get All Users](blynk.cloud/platform-https-api/users-api/get-all-users.md)
     * [Search Users](blynk.cloud/platform-https-api/users-api/search-users.md)
     * [Create New User](blynk.cloud/platform-https-api/users-api/create-new-user.md)
+    * [Create New User in an Organization](blynk.cloud/platform-https-api/users-api/create-new-user-1.md)
     * [Register User](blynk.cloud/platform-https-api/users-api/register-user.md)
     * [Invite User](blynk.cloud/platform-https-api/users-api/invite-user.md)
     * [Transfer User](blynk.cloud/platform-https-api/users-api/transfer-user.md)
