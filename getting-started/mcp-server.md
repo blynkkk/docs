@@ -22,8 +22,15 @@ For tools that modify the structure of your project (like creating templates or 
 
 `search_devices`
 
-Finds and lists devices, optionally filtered by name.\
+Finds and lists devices, optionally filtered by name, template, or current device status.\
 Example AI request: "Find all devices that have 'Pump' in their name."
+
+#### Get a Device
+
+`get_device`
+
+Get detailed information about the device, including its datastream and metadata values.\
+Example AI request: "What's the current temperature value in the 'Temperature Sensor' device?"
 
 #### Create a Device
 
@@ -31,6 +38,13 @@ Example AI request: "Find all devices that have 'Pump' in their name."
 
 Creates a new device under a template and generates an Auth Token.\
 Example AI request: "Create a new device named 'Living Room Sensor' using template 'Room Sensor'."
+
+#### Update DataStream Value
+
+`update_datastream_value`
+
+Update a datastream value on the device.\
+Example AI request: "Turn on my heater device."
 
 #### Get all Templates
 
