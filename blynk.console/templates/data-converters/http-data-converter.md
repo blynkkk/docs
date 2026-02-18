@@ -232,6 +232,21 @@ interface Request {
 type DataStreamValue = number | string | { lon: number; lat: number };
 
 /**
+ * DataStream property names.
+ */
+type DataStreamPropertyName = 'label' | 'color' | 'onBackColor' | 'offBackColor' |
+  'onColor' | 'offColor' | 'onLabel' | 'offLabel' | 'labels' |
+  'min' | 'max' | 'isOnPlay' | 'url' | 'urls' | 'step' | 'valueFormatting' |
+  'suffix' | 'maximumFractionDigits' | 'opacity' | 'scale' | 'rotation' |
+  'sortType' | 'isDisabled' | 'isHidden' | 'icons' | 'onImageUrl' | 'offImageUrl' |
+  'page' | 'sound' | 'isMuted' | 'loop' | 'autoplay' | 'contentDesign' | 'backColor';
+
+/**
+ * DataStream property names that accept boolean values.
+ */
+type DataStreamBooleanPropertyName = 'isOnPlay' | 'isDisabled' | 'isHidden' | 'isMuted' | 'loop' | 'autoplay';
+
+/**
  * Represents a Blynk device.
  */
 interface Device {
@@ -256,6 +271,41 @@ interface Device {
   setDataStreamValue(dataStreamName: string, value: DataStreamValue): void;
 
   /**
+   * Updates the datastream property value.
+   * Note: You can provide up to 100 values. Each value should be up to 1000 characters in length.
+   *
+   * @param dataStreamName Datastream name
+   * @param propertyName Property name to update
+   * @param values New property values
+   * @throws Error if the datastream name is not provided, empty, or contains more than 1000 symbols
+   * @throws Error if the datastream property name is not provided, empty, contains more than 1000 symbols or unknown
+   * @throws Error if property value is invalid or too long
+   */
+  setProperty(dataStreamName: string, propertyName: DataStreamPropertyName, ...values: string[]): void;
+
+  /**
+   * Updates the datastream property value.
+   *
+   * @param dataStreamName Datastream name
+   * @param propertyName Property name to update
+   * @param value New property value
+   * @throws Error if the datastream name is not provided, empty, or contains more than 1000 symbols
+   * @throws Error if the datastream property name is not provided, empty, contains more than 1000 symbols or unknown
+   */
+  setProperty(dataStreamName: string, propertyName: DataStreamPropertyName, value: boolean): void;
+  
+   /**
+   * Updates the datastream property value.
+   *
+   * @param dataStreamName Datastream name
+   * @param propertyName Property name to update
+   * @param value New property value
+   * @throws Error if the datastream name is not provided, empty, or contains more than 1000 symbols
+   * @throws Error if the datastream property name is not provided, empty, contains more than 1000 symbols or unknown
+   */
+  setProperty(dataStreamName: string, propertyName: DataStreamBooleanPropertyName, value: boolean): void;
+
+  /**
    * Logs an event for the device.
    * @param code Event code (required)
    * @param description Event description (optional, up to 300 characters)
@@ -264,6 +314,11 @@ interface Device {
    * @throws Error if 3 events were already logged during the script execution
    */
   logEvent(code: string, description?: string): void;
+  
+  /**
+   * Device's assigned Blynk Auth Token.
+   */
+  blynkAuthToken: string;
 }
 
 /**
