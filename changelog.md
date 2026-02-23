@@ -1,5 +1,22 @@
 # Changelog
 
+## Feb 23, 2026
+
+#### New Features and Improvements
+
+* **New Button Widget:** Unveiled a highly anticipated button widget.
+* **Performance Enhancements:** Numerous server optimizations implemented for increased speed.
+* **Device Info Update:** Developer Settings now display hardware protocol type and connection security level.
+* **New Platform API Endpoints:**
+  * Manage device claims/unclaims using static tokens.
+  * Create users within specific organizations.
+* **Bug Fixes:**
+  * Resolved the issue preventing real-time updates in the datastreams tab.
+  * Multiple fixes for the "Total Events Over Time" reporting widget.
+* **Blynk MCP Introduced:** Rolled out the new Blynk MCP.
+* **Automation List Boost:** Enhanced device sorting for automation lists.
+* **Location Metadata:** Addressed issues with location metadata, resulting in improvements.
+
 ## January 29, 2026
 
 #### New Features
