@@ -37,6 +37,28 @@ Publish topic **batch\_ds**, payload: JSON-encoded object with datastream name a
 mosquitto_pub -h blynk.cloud -p 8883 -u device -P '{DEVICE_TOKEN}' -t 'batch_ds' -m '{"Temperature": 23.1, "Humidity": 72}'
 ```
 
+## Send timestamped batch to Blynk
+
+Sometimes a device collects data in its own memory and needs to send multiple timestamped data points at once to reduce the number of TCP messages.
+
+For these purposes, use the **ds/`DATASTREAM`/timestamped\_batch** topic. Send a comma-separated array of timestamps and corresponding values.
+
+Example payload:
+
+```json
+[
+  [1772639468034, 34.4],
+  [1772639468341, 25.4],
+  [1772639468974, 83.1]
+]
+```
+
+The timestamp should be sent in milliseconds and no older than 1 month. Blynk will also accept points with a timestamp "in the future" within the next 1 month.
+
+```bash
+mosquitto_pub -h blynk.cloud -p 8883 -u device -P '{DEVICE_TOKEN}' -t 'ds/Temperature/timestamped_batch' -m '[[1772639468034, 22.5], [1772639468341, 23.0]]'
+```
+
 ## Erase datastream value
 
 Publish topic **ds/`DATASTREAM`/erase**, payload: empty
