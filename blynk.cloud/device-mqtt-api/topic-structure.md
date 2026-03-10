@@ -5,11 +5,12 @@
 These topics are used for messages sent from Blynk.Cloud to the device:
 
 * [**downlink/ds/`DATASTREAM`**](datastreams.md): Carries live updates of datastream values or responses to get/ds requests. This ensures that the device is updated with the latest values or specific data it requested.
-* [**downlink/meta/`FIELD`**](metadata.md): Used to send responses for `get/meta` requests made by the device. This allows the device to update its configuration or status based on cloud-side settings or information.
+* [**downlink/meta/`FIELD`**](metadata.md): Used to receive a real-time metadata values update as well as to send responses for `get/meta` requests made by the device. This allows the device to update its configuration or status based on cloud-side settings or information.
 * [**downlink/ota/json**](ota.md): Requests from the server to perform a software/firmware update.
 * [**downlink/utc/all/json**](timezone-location.md): Device Time and Timezone information. Used to send response for `get/utc/all/json` request made by the device.
 * [**downlink/loc/all**](timezone-location.md): Device approximate location. Used to send response for `get/loc/all` request made by the device.
 * [**downlink/ping**](miscelaneous.md): Allows server to ping the device. This message is always published with `QOS 1`.
+* [**downlink/reconfigure**](miscelaneous.md#reconfigure-device): Instructs the device to enter the Wi-Fi configuration stage.
 * [**downlink/reboot**](miscelaneous.md): Instructs the device to reboot. This can be necessary for applying updates, resetting the device's state, or troubleshooting.
 * [**downlink/redirect**](authentication.md#server-redirect): Provides a new MQTT endpoint to which the device should connect. This is part of handling GeoDNS and ensuring the device connects to the most suitable server for improved performance and reliability.
 * [**downlink/diag**](miscelaneous.md): Server diagnostics messages.

@@ -24,6 +24,16 @@ The server publishes **downlink/ping** topic, with `QOS 1` and an empty payload.
 mosquitto_sub -h blynk.cloud -p 8883 -u device -P '{DEVICE_TOKEN}' -t 'downlink/ping'
 ```
 
+## Reconfigure Device
+
+This feature is activated using a `Device -> Info Icon -> Three dots -> Reconfigure` button in the mobile application (see the [Mobile App Device Actions menu section](../../blynk.apps/overview.md#device-actions-menu)).
+
+The server publishes the downlink/reconfigure topic with an empty payload. Subsequently, the device should enter the Wi-Fi configuration stage, by broadcasting a Wi-Fi Access Point and asking the user to enter the new Wi-Fi network credentials.
+
+```bash
+mosquitto_sub -h blynk.cloud -p 8883 -u device -P '{DEVICE_TOKEN}' -t 'downlink/reconfigure'
+```
+
 ## Last Will and Testament
 
 Upon connection, the client can specifiy the Last Will message along with the topic to which it should be published. If the client loses connection **without sending a proper MQTT `DISCONNECT` message**, the broker will publish this pre-determined Last Will message.
