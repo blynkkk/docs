@@ -27,10 +27,6 @@ Before moving further, make sure that you have **Developer Mode** enabled:
 2. Navigate to **My Profile** in the left menu of the app or the top right corner of Blynk.Console
 3. Check that the **Developer Mode** switch is set to ON
 
-{% hint style="warning" %}
-Currently, **only one developer is allowed per Organization in Free and Maker plans** to avoid sync issues.
-{% endhint %}
-
 ## 2. Edit/Create Template
 
 Open the Templates section (Developer Zone -> My Templates) in the left menu and click **+ New Template** butto&#x6E;**.** If you already have a template - click to open it and press **Edit** button.
