@@ -1,5 +1,57 @@
 # Changelog
 
+## Mar 12, 2026
+
+#### New Paid Plans
+
+* **Production 100**: 100 users, 100 devices
+* **Production 200**: 200 users, 200 devices
+* **Production 300**: 300 users, 300 devices
+* **Production 400**: 400 users, 400 devices
+* **Production 500**: 500 users, 500 devices
+* **Production 750**: 750 users, 750 devices
+* **Production 1000**: 1000 users, 1000 devices
+
+#### SMS Providers
+
+* Added Twilio and TextGrid for Production Plans.
+
+#### Image Uploads
+
+* Users on Production and PRO plans can upload up to 10 images per device per day.
+
+#### Developer Tools Enhancements
+
+* Device Vitals now features a scrollable disconnections graph.
+* Added graphs for messages sent and events over the last 30 days.
+* UI performance in Device Vitals significantly improved.
+
+<figure><img src=".gitbook/assets/device_vitals.png" alt="Improved Developer Tools: Device Vitals section"><figcaption></figcaption></figure>
+
+#### Bug Fixes and Improvements
+
+* Fixed the infinite loader during organization transfer.
+* The new Web Button widget is now accessible to all users.
+* Improved server monitoring and other optimizations.
+
+#### Limits and Features
+
+* Enterprise servers can now create up to 20 analytics dashboards.
+* New free plans have a cap of 100k device messages.
+* Introduced a Platform API endpoint for device reconfiguration.
+* Devices without access are no longer shown in automations unless used by the owner/creator.
+* Haptic feedback has been added to Mobile Control Widgets.
+
+#### Enterprise Features
+
+* Aliases can now replace datastream names universally.
+
+#### Future Additions
+
+* Round-trip time (RTT) data collection will be available in Device Vitals soon.
+
+
+
 ## Feb 23, 2026
 
 #### New Features and Improvements
