@@ -14,7 +14,9 @@
 
 #### SMS Providers
 
-* Added Twilio and TextGrid for Production Plans.
+* Added Twilio and TextGrid for Production Plans. You can find it in "Developer Zone" -> "Integrations" section:
+
+<figure><img src=".gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
 
 #### Image Uploads
 
