@@ -18,6 +18,8 @@
 
 <figure><img src=".gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src=".gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
+
 #### Image Uploads
 
 * Users on Production and PRO plans can upload up to 10 images per device per day.
