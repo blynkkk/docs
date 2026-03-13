@@ -30,11 +30,124 @@ These widgets can be used to display a metric value from multiple devices, or hi
 
 
 
-### **Event Widgets**
+### Event Widgets
 
-The dashboard includes 9 ready-to-use widgets that display data about events. These widgets provide insights into the latest events, most frequent events, critical events, and more. You can analyze trends and event distribution across devices and organizations, helping you stay informed and make data-driven decisions.
+Event widgets provide insights into the latest events, most frequent events, and critical alerts across your devices. They help you analyze trends and event distribution across devices, templates, and organizations so you can stay informed and make data-driven decisions.
 
-<div align="left"><figure><img src="../../.gitbook/assets/13_event_widgets.png" alt=""><figcaption><p>Event Widgets</p></figcaption></figure></div>
+Available Event widgets:
+
+* [Event Count tile](dashboard-widgets.md#event-count-tile)
+* [Events Count Bar Chart](dashboard-widgets.md#events-count-bar-chart)
+* [Latest Events](dashboard-widgets.md#latest-events)
+* [Events by Organization / Templates / Devices](dashboard-widgets.md#events-by-organization-templates-devices)
+* [Total Events Over Time](dashboard-widgets.md#total-events-over-time)
+* [Events Breakdown Over Time](dashboard-widgets.md#events-breakdown-over-time)
+
+<figure><img src="../../.gitbook/assets/img_1.png" alt=""><figcaption></figcaption></figure>
+
+### How to Configure
+
+All Event widgets share a similar configuration structure. Widget settings consist of three tabs:
+
+* **Devices**
+* **Events**
+* **Design**
+
+To configure an Event widget:
+
+1. **Select Devices** (optional)
+
+The **Devices** tab allows you to narrow the device selection for the widget.
+
+By default, all devices from the Dashboard Data Source are included.You can refine the selection by:
+
+* Selecting segments
+* Applying filters
+* Manually selecting individual devices
+
+<figure><img src="../../.gitbook/assets/img_2_device_settings.png" alt=""><figcaption></figcaption></figure>
+
+2. **Select Events**\
+   In the **Events** tab, select which events should appear in the widget.\
+   Events with the same name across multiple templates are grouped together automatically.\
+   By default, all events are selected, but you can limit the widget to:
+
+* A specific event
+* Several selected events
+
+<figure><img src="../../.gitbook/assets/img_3_event_settings.png" alt=""><figcaption></figcaption></figure>
+
+3. **Fine-tune design**\
+   In the **Design** tab you can:
+
+* Rename the widget
+* Adjust appearance
+* Configure widget-specific settings
+
+{% hint style="info" %}
+Available design options are vary depending on the widget type.
+{% endhint %}
+
+#### Event Count tile
+
+The Event Count Tile shows the total number of selected events triggered by the selected devices.It also displays the percentage change compared to the previous equivalent period, helping you quickly identify whether event activity is increasing or decreasing.
+
+<figure><img src="../../.gitbook/assets/img_4_tile.png" alt=""><figcaption></figcaption></figure>
+
+#### Events Count Bar chart
+
+Use the Events Count Bar Chart to compare the number of occurrences across multiple events.
+
+This widget is especially useful when you want to:
+
+* Analyze many events at once
+* Identify the most frequent events
+
+<figure><img src="../../.gitbook/assets/img_5_event_counts.png" alt=""><figcaption></figcaption></figure>
+
+#### Latest events
+
+The Latest Events widget displays the most recent events triggered by your devices.
+
+The widget automatically refreshes, allowing you to monitor events in near real time and quickly react to important changes.
+
+You can filter events using tags to focus on what matters most. The widget can also display resolved events (enabled by default), and this setting can be adjusted directly in view mode.
+
+<figure><img src="../../.gitbook/assets/img_6_latest_events.png" alt=""><figcaption></figcaption></figure>
+
+#### Events by Organization/Templates/Devices
+
+These widgets show how events are distributed across:
+
+* Organizations
+* Device Templates
+* Devices
+
+They help you quickly identify where events are occurring most frequently and focus on the entities that matter most.
+
+All widgets are configurable, allowing you to select specific devices and events for analysis.
+
+<figure><img src="../../.gitbook/assets/img_7_events_by_entities.png" alt=""><figcaption></figcaption></figure>
+
+#### Total events over time
+
+Use this widget to track the number of events over time. You can display a single event or combine multiple events; when multiple events are selected, their values are summed together to show overall trends.
+
+<figure><img src="../../.gitbook/assets/img_8_total_events.png" alt=""><figcaption></figcaption></figure>
+
+You can temporarily focus on individual events, compare them against the total, or show and hide series directly on the chart.
+
+<figure><img src="../../.gitbook/assets/img_9_total_events.png" alt=""><figcaption></figcaption></figure>
+
+The widget also allows you to adjust **time resolution**, which depends on the dashboard’s selected time range (for example, 1 hour, 15 minutes, or 1 minute for one day). A default resolution can be set in the widget settings.
+
+<figure><img src="../../.gitbook/assets/img_10_drawer.png" alt=""><figcaption></figcaption></figure>
+
+#### Events breakdown over time
+
+Use the Events Breakdown Over Time chart to analyze events individually. Each event is displayed as a separate line, allowing you to compare events, identify patterns and correlations, and track event behavior over time on a single chart.The chart also supports tag filtering and time resolution adjustments, similar to the Total Events Over Time chart.
+
+<figure><img src="../../.gitbook/assets/img_11_event_breakdown.png" alt=""><figcaption></figcaption></figure>
 
 ### Platform Data Widgets
 
@@ -386,7 +499,7 @@ You can optionally add datastreams to display in a popup tooltip when clicking o
 
 When a dashboard containing an Image Map widget is shared with sub-organizations, users in the sub-org will see the background image along with only the devices they have access to. Devices from higher-level organizations are automatically filtered out. This ensures that sub-org users always view a clean and relevant map without exposure to unrelated devices.
 
-### Geomap
+## Geomap
 
 #### Overview
 
