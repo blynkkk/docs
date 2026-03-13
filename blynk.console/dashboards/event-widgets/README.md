@@ -4,12 +4,12 @@ Event widgets provide insights into the latest events, most frequent events, and
 
 Available Event widgets:
 
-* [Event Count tile](./#event-count-tile)
+* [Event Count Tile](./#event-count-tile)
 * [Events Count Bar Chart](./#events-count-bar-chart)
 * [Latest Events](./#latest-events)
-* [Events by Organization / Templates / Devices](./#events-by-organization-templates-devices)
 * [Total Events Over Time](./#total-events-over-time)
 * [Events Breakdown Over Time](./#events-breakdown-over-time)
+* [Events by Organization / Templates / Devices](./#events-by-organization-templates-devices)
 
 <figure><img src="../../../.gitbook/assets/img_1.png" alt=""><figcaption></figcaption></figure>
 

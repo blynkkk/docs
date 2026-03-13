@@ -4,6 +4,17 @@ Each widget has its own settings, similar to those on a [Device Dashboard](../..
 
 Device widgets can be used to perform management actions such as turning devices on or off or updating values. They can also display data from multiple devices and visualize them on a map or floor plan.
 
+Available Device widgets:
+
+* [Switch](controls.md#switch)
+* [Slider](controls.md#slider)
+* [Label](label.md)
+* [Device Table](device-table.md)
+* [Chart: Metrics over time](charts.md#metrics-over-time-agg)
+* [Chart: Metrics by device](charts.md#metric-by-device)
+* [Image Map](image-map.md)
+* [Geomap](geomap.md)
+
 <div align="left"><figure><img src="../../../.gitbook/assets/12_device_metrics_widgets.avif" alt=""><figcaption><p>Device Metrics Widgets</p></figcaption></figure></div>
 
 ### How to configure
