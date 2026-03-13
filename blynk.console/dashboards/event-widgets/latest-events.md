@@ -1,7 +1,5 @@
 # Latest Events
 
-### Latest Events
-
 The Latest Events widget displays the most recent events triggered by your devices.
 
 The widget automatically refreshes, allowing you to monitor events in near real time and quickly react to important changes.

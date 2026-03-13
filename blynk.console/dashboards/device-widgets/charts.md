@@ -1,6 +1,6 @@
 # Charts
 
-### Chart: Metrics over time, agg.
+### Metrics over time, agg.
 
 This widget provides a visual representation of historical data, making it easier to identify trends, patterns, and anomalies over time.
 
@@ -15,7 +15,7 @@ By supporting multiple data series, the widget allows you to compare different d
 3. Narrow down device selection (optional).
 4. Design. Navigate to Design tab to select the chart view (line, area, column (bar), or stepline) set colors, axis and series names.
 
-### Chart: Metric by device
+### Metric by device
 
 This chart displays datastream values from multiple selected devices on a single chart, with each device represented by a distinct line. You can customize the chart by selecting specific devices.
 

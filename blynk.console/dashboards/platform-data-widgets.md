@@ -1,7 +1,9 @@
 # Platform Data Widgets
 
+
+
 {% hint style="info" %}
-Fleet Analytics (Platform Data) Widgets are available only for Enterprise plan.
+Fleet Analytics (Platform Data) Widgets are available only for **Enterprise plan**.
 {% endhint %}
 
 Six ready-to-use widgets keep you informed about your fleet performance by showing key metrics and trends powered by time-series data.
