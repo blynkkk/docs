@@ -1,7 +1,7 @@
 # Upload a File
 
 {% hint style="info" %}
-This API is currently available only for Enterprise customers.
+This API is currently available only for PRO, Production, and Enterprise customers.
 {% endhint %}
 
 ```http
