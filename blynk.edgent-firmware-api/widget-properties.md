@@ -22,9 +22,9 @@ Blynk.setProperty(V0, "label", "My New Widget Label");
 Blynk.setProperty(V0, "labels", "Menu Item 1", "Menu Item 2", "Menu Item 3");
 ```
 
-[Set Property for single value field](https://github.com/blynkkk/blynk-library/blob/master/examples/More/SetProperty/SetProperty\_SingleValue/SetProperty\_SingleValue.ino)
+[Set Property for single value field](https://github.com/blynkkk/blynk-library/blob/master/examples/More/SetProperty/SetProperty_SingleValue/SetProperty_SingleValue.ino)
 
-[Set Property for multi value field](https://github.com/blynkkk/blynk-library/blob/master/examples/More/SetProperty/SetProperty\_MultiValue/SetProperty\_MultiValue.ino)
+[Set Property for multi value field](https://github.com/blynkkk/blynk-library/blob/master/examples/More/SetProperty/SetProperty_MultiValue/SetProperty_MultiValue.ino)
 
 **NOTE :** Changing these parameters work **only** for widgets attached to Virtual pins (analog/digital pins won't work).
 
@@ -32,7 +32,7 @@ Blynk.setProperty(V0, "labels", "Menu Item 1", "Menu Item 2", "Menu Item 3");
 
 `label` is a string for the label of all widgets.
 
-`color` is a string in [HEX](http://www.w3schools.com/html/html\_colors.asp) format (in the form: #RRGGBB, where RR (red), GG (green), and BB (blue) are hexadecimal values between 00 and FF). For example:
+`color` is a string in [HEX](http://www.w3schools.com/html/html_colors.asp) format (in the form: #RRGGBB, where RR (red), GG (green), and BB (blue) are hexadecimal values between 00 and FF). For example:
 
 ```
 #define BLYNK_GREEN     "#23C48E"
@@ -118,7 +118,7 @@ Blynk.setProperty(V1, "url", 1, "https://image1.jpg");
 Blynk.setProperty(V1, "isMuted", "true");
 ```
 
-You can also change widget properties via [HTTP API](https://docs.blynk.io/en/blynk.cloud/https-api-overview).
+You can also change widget properties via [HTTP API](../blynk.cloud/device-https-api/update-property.md).
 
 ## Multiple Datastreams
 
