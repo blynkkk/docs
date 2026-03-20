@@ -12,7 +12,7 @@ Creating a multi-level organizational structure is a feature available for **PRO
 
 ### Introduction
 
-Organizations enable you to categorize your devices and users, assigning them roles, permissions, and locations. The structure is a tree-like hierarchy, where a user assigned to an organization has permission to all sub-organizations beneath it (with `View Sub Organizations` permission granted), and the assigned devices and data. This multi-tenancy functionality allows you to easily scale your project, and customize it to your particular needs. The maximum depth of organizations is four (could be increased for business clients by request), as shown in the example image below.
+Organizations enable you to categorize your devices and users, assigning them roles, permissions, and locations. The structure is a tree-like hierarchy, where a user assigned to an organization has permission to all sub-organizations beneath it (with `View Sub Organizations` permission granted), and the assigned devices and data. This multi-tenancy functionality allows you to easily scale your project, and customize it to your particular needs. The maximum depth of organizations is four (could be increased for Enterprise clients by request), as shown in the example image below.
 
 <figure><img src="../.gitbook/assets/organizations-levels.png" alt=""><figcaption><p>Maximum organization depth</p></figcaption></figure>
 
@@ -42,7 +42,7 @@ Every device has at least one user assigned as the owner to it via [device trans
 
 #### Sub-organizations
 
-Sub-organizations can be of four [types](../blynk.console/settings/organization-settings/general.md) that are available only for Business users. For the PRO plan the sub-organization type is assigned automatically and defaults to 'client'.
+Sub-organizations can be of four [types](../blynk.console/settings/organization-settings/general.md) that are available only for Enterprise users. For the PRO plan the sub-organization type is assigned automatically and defaults to 'client'.
 
 ### Planning Your Organization
 

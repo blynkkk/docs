@@ -7,5 +7,5 @@ This Add-on allows you to create a read-only version of your Blynk database that
 Our clients typically use this to set up integrations with tools like PowerBI or Tableau, but it can be any service that supports Open Database Connectivity (ODBC).
 
 {% hint style="info" %}
-The add-on is available to Business plan subscribers only. Contact your launch engineer to unlock and set up.
+The add-on is available to Enterprise plan subscribers only. Contact your launch engineer to unlock and set up.
 {% endhint %}

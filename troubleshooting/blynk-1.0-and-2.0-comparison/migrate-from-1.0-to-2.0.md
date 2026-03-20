@@ -44,7 +44,7 @@ Replace [Blynk.notify()](http://docs.blynk.cc/#widgets-notifications-push-notifi
 
 WiFi, cellular, USB, and Ethernet are supported by Blynk IoT. Classic Bluetooth and low energy Bluetooth (BLE) are not currently supported.
 
-Over-The-Air Firmware Updates ([OTA](../../blynk-library-firmware-api/ota-updates.md)) are triggered by a new shipment created in [Blynk.Air](../../blynk.console/blynk.air/). Extensive management and control over multiple device OTA are provided by Blynk.Air as well.
+Over-The-Air Firmware Updates ([OTA](../../blynk-library-firmware-api/ota-updates.md)) are triggered by a new shipment created in [Blynk.Air](../../blynk.console/blynk.air). Extensive management and control over multiple device OTA are provided by Blynk.Air as well.
 
 ### Blynk.Console
 
@@ -55,7 +55,7 @@ The Blynk.Console is a no-code web application that allows you to:
 
 If needed you can get a better understanding of the general concepts of [devices](../../concepts/device.md), [templates](../../concepts/device-template.md), [users](../../concepts/users/), [organizations](../../concepts/organizations.md), [multi-tenancy](../../concepts/users/multi-tenant-tree-structure.md), and [automations](../../concepts/automations.md).
 
-Blynk account supports an organization and sub-organizations (available in PRO and Business Plans). Members (users), devices, and locations are assigned to organizations or sub-organizations. Members may be assigned the role of 'Admin', 'Staff', or 'User'. See also the [documentation](../../concepts/organizations.md), and this [blog](https://blynk.io/how-to-add-users-and-give-them-access-to-your-devices).
+Blynk account supports an organization and sub-organizations (available in PRO and Enterprise Plans). Members (users), devices, and locations are assigned to organizations or sub-organizations. Members may be assigned the role of 'Admin', 'Staff', or 'User'. See also the [documentation](../../concepts/organizations.md), and this [blog](https://blynk.io/how-to-add-users-and-give-them-access-to-your-devices).
 
 ### Blynk.App
 
@@ -75,7 +75,7 @@ Note the following regarding the former Blynk Legacy widgets:
 * [Twitter](http://docs.blynk.cc/#widgets-notifications-twitter) widget was deprecated, but you can use [Webhooks](../../blynk.console/settings/developers/webhooks.md).
 * [Terminal widget](http://docs.blynk.cc/#widgets-displays-terminal) is replaced by the Terminal Widget available in both the [Blynk.App](https://docs.blynk.io/en/blynk.apps/widgets-app#terminal) and [Blynk.Console](https://docs.blynk.io/en/blynk.console/widgets-console/terminal).
 * [Table widget](http://docs.blynk.cc/#widgets-interface-table) is not yet available.
-* [Device Selector](http://docs.blynk.cc/#widgets-interface-device-selector) is replaced with Device Tiles in both [Blynk.App](https://docs.blynk.io/en/blynk.apps/device-management) and [Blynk.Console](https://docs.blynk.io/en/blynk.console/devices). Several devices can be grouped to be controlled simultaneously by a single command using Blynk.App Groups feature (available in Business Plan only)
+* [Device Selector](http://docs.blynk.cc/#widgets-interface-device-selector) is replaced with Device Tiles in both [Blynk.App](https://docs.blynk.io/en/blynk.apps/device-management) and [Blynk.Console](https://docs.blynk.io/en/blynk.console/devices). Several devices can be grouped to be controlled simultaneously by a single command using Blynk.App Groups feature (available in Enterprise Plan only)
 * [Device Tiles](http://docs.blynk.cc/#widgets-interface-device-tiles) are replaced by Device [Templates](../../concepts/device-template.md). Tiles is a new default view for a list of devices.
 * [Reports](http://docs.blynk.cc/#widgets-other-reports-widget) widget was replaced with [Download Report](../../blynk.console/devices/actions-with-devices.md#download-report) feature in Blynk.Console. Scheduled reports are not available yet.
 * The widget min/max property is now defined within a Datastream.
@@ -83,7 +83,7 @@ Note the following regarding the former Blynk Legacy widgets:
 Adjust indexing for Image Gallery, Menu, Icon, Segmented Switch, Icon Segmented Switch widgets. It used to start with one (1), but in the new Blynk IoT it starts from the min value of the associated DataStream.
 
 {% hint style="warning" %}
-Please note that BLYNK\_READ is no longer used. Use [BLYNK\_WRITE](../../getting-started/using-virtual-pins-to-control-physical-devices.md#the-blynk\_write-vpin-function) instead.
+Please note that BLYNK\_READ is no longer used. Use [BLYNK\_WRITE](../../getting-started/using-virtual-pins-to-control-physical-devices.md#the-blynk_write-vpin-function) instead.
 {% endhint %}
 
 Make sure you are in [Developer Mode](../../concepts/developer-mode.md) when building the application.

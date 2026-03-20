@@ -5,7 +5,7 @@
 Marketing add-on unlocks the two powerful features: in-app click tracking and in-app messaging.&#x20;
 
 {% hint style="info" %}
-The add-on is available to Business plan subscribers only. Contact your launch engineer to unlock and set up.
+The add-on is available to Enterprise plan subscribers only. Contact your launch engineer to unlock and set up.
 {% endhint %}
 
 ### In-App Tracking

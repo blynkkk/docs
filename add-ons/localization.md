@@ -16,5 +16,5 @@ The process is the following:&#x20;
 4. The language is than adjusted based on your user’s phone settings, if the corresponding translation is available.
 
 {% hint style="info" %}
-The add-on is available to Business plan subscribers only. Contact your launch engineer to unlock and set up.
+The add-on is available to Enterprise plan subscribers only. Contact your launch engineer to unlock and set up.
 {% endhint %}

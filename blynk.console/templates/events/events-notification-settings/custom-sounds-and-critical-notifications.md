@@ -4,7 +4,7 @@ It is possible to customize sounds for notifications coming from Blynk. There ar
 
 * In-app push notifications from a device triggered by [events](../custom-events/events-general-setting.md) configured in the Blynk.Console&#x20;
 * Notifications triggered by Automations&#x20;
-* General/other such as [content events](../custom-events/events-content-events.md) notifications or Rule engine notifications (business plan only)
+* General/other such as [content events](../custom-events/events-content-events.md) notifications or Rule engine notifications (Enterprise plan only)
 
 Each channel can be configured to turn on/off all notifications or use custom sounds, and device event notifications can be configured as critical alerts in some cases.&#x20;
 
@@ -30,7 +30,7 @@ Access notifications by choosing Profile -> Settings -> Notifications and sounds
 
 #### iOS
 
-Clients using [BUSINESS plan](https://blynk.io/pricing/business-plan) can cause critical alerts to be recognized by iOS, resulting in delivery with maximum sound, ignoring the phone’s mute and Do Not Disturb settings.
+Clients using [Enterprise plan](https://blynk.io/pricing/business-plan) can cause critical alerts to be recognized by iOS, resulting in delivery with maximum sound, ignoring the phone’s mute and Do Not Disturb settings.
 
 {% hint style="warning" %}
 Approval for the app to use this feature is required by Apple.
@@ -40,7 +40,7 @@ Approval for the app to use this feature is required by Apple.
 
 On Android, Critical notifications were created to bypass the Android app Do Not Disturb setting and to enable custom sounds for different triggers. (By default when Do Not Disturb is enabled for Android, notifications and sounds are suppressed).
 
-![](https://lh4.googleusercontent.com/mpVqM6HCmq\_pNHXu\_kVBy3x4fogK6z4EcTmneJQDFSXbjyAO8eQs8E-DtJmdqbTDdYZTAFNelAt93rbMP7IhN0xEpfDoefPs1nNt0rKuHkNPDwLgjY-Yv69\_3Ge5849YkpA-fNEHHUi9HXgPkwUSqf7lD0kI-IvSSr7M1h49M\_ZioKA9MxISzHn-q6LdUw)    ![](https://lh6.googleusercontent.com/QlshOhaAvFfokgobt8PzwvdxnMmIWIJDTE3NJAM-nn317q4xDdat7FWcAQEVv7xmum2mjnZp9e2Z4MUsl\_5ib5LYgHkuIwSLFzr8ELDN\_IRBlNkpb5NcYwkXZjZ8Tar3mKtHRl4sW9F-CRyKAMK-9UCJza6mtHASJts3SASMbR7sjRm-a5A8Rlrq7FqXdQ)
+![](https://lh4.googleusercontent.com/mpVqM6HCmq_pNHXu_kVBy3x4fogK6z4EcTmneJQDFSXbjyAO8eQs8E-DtJmdqbTDdYZTAFNelAt93rbMP7IhN0xEpfDoefPs1nNt0rKuHkNPDwLgjY-Yv69_3Ge5849YkpA-fNEHHUi9HXgPkwUSqf7lD0kI-IvSSr7M1h49M_ZioKA9MxISzHn-q6LdUw)    ![](https://lh6.googleusercontent.com/QlshOhaAvFfokgobt8PzwvdxnMmIWIJDTE3NJAM-nn317q4xDdat7FWcAQEVv7xmum2mjnZp9e2Z4MUsl_5ib5LYgHkuIwSLFzr8ELDN_IRBlNkpb5NcYwkXZjZ8Tar3mKtHRl4sW9F-CRyKAMK-9UCJza6mtHASJts3SASMbR7sjRm-a5A8Rlrq7FqXdQ)
 
 If ‘Ignore Background Restrictions’ setting is on, Blynk will run in the background and will try to push notifications despite the phone’s do not disturb settings.
 
@@ -54,7 +54,7 @@ On Android, notification settings may also be configured for each Blynk device. 
 
 An additional setting ‘Override Do Not Disturb’ can be found by expanding the ‘Advanced’ menu. After enabling this setting, a window will appear asking for permission to always run the app in the background.
 
-![](https://lh4.googleusercontent.com/UlvJN22bwAdjDz78ECtZz0mRF-mk0hTOp8rSo8vghpX40CulhunmV\_79lNyATEudfqR0Tk-j6S\_4BpBbGfVfLjN4vPgbLf5aRc-xCGebIQHV6dw02IC-FQGP7qoO-k0gI1bXymGlG69A7pQ\_b55HbGfUrGGYvi0UqPAP5onR8dVq3f-8mxSTHlIsruEoig)
+![](https://lh4.googleusercontent.com/UlvJN22bwAdjDz78ECtZz0mRF-mk0hTOp8rSo8vghpX40CulhunmV_79lNyATEudfqR0Tk-j6S_4BpBbGfVfLjN4vPgbLf5aRc-xCGebIQHV6dw02IC-FQGP7qoO-k0gI1bXymGlG69A7pQ_b55HbGfUrGGYvi0UqPAP5onR8dVq3f-8mxSTHlIsruEoig)
 
 
 
@@ -70,5 +70,5 @@ Go to Main menu -> Settings -> Notifications and sounds -> Automations. From thi
 
 Go to the Automations tab, select automation, and then choose ‘Notification Settings’.
 
-| ![](https://lh3.googleusercontent.com/TUtmfIlLfuWJAU3ofNzZqMMfJXP2WzUjUhghhvUMiaDHpY4ciZXraNYfxiFlSKHgvrKNInZavwGzPa8L86EMZcJQSwEVczKnBo5iIYxKboOPenABzJwJOBJtC\_BQ0GYb2s7v9M06rL5-ybcpPGgF2JEstnWWUpIpQa9HNx2h4hUptduxjbY9kg4saPe9OQ) | ![](https://lh5.googleusercontent.com/Qy-vyLljcpRWigkCtZ8o7fAgpyMd8sV\_P\_3Gy1vtLcVQ9vh8sY\_BuzJ5kePyKRHxXf4VSUa6suJ3QYM5MKyuXm9s82lp1X-c2L1iQoUktYiy9SIXg4RE27um6PxSHhlON-etdqzszRcHU5sQtODllnSAYK5y7eV\_SPcKqkc0nv7EDHP\_nzusLwGbC7nTHQ) |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![](https://lh3.googleusercontent.com/TUtmfIlLfuWJAU3ofNzZqMMfJXP2WzUjUhghhvUMiaDHpY4ciZXraNYfxiFlSKHgvrKNInZavwGzPa8L86EMZcJQSwEVczKnBo5iIYxKboOPenABzJwJOBJtC_BQ0GYb2s7v9M06rL5-ybcpPGgF2JEstnWWUpIpQa9HNx2h4hUptduxjbY9kg4saPe9OQ) | ![](https://lh5.googleusercontent.com/Qy-vyLljcpRWigkCtZ8o7fAgpyMd8sV_P_3Gy1vtLcVQ9vh8sY_BuzJ5kePyKRHxXf4VSUa6suJ3QYM5MKyuXm9s82lp1X-c2L1iQoUktYiy9SIXg4RE27um6PxSHhlON-etdqzszRcHU5sQtODllnSAYK5y7eV_SPcKqkc0nv7EDHP_nzusLwGbC7nTHQ) |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

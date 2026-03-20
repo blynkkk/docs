@@ -5,7 +5,7 @@ description: What are the limits to use Blynk platform features
 # Limits
 
 {% hint style="success" %}
-If you are using [Business or Enterprise Plan](https://blynk.io/pricing/business-plan), the limits below can be increased. Contact your support engineer.
+If you are using [Enterprise Plan](https://blynk.io/pricing), the limits below can be increased. Contact your support engineer.
 {% endhint %}
 
 

@@ -95,9 +95,9 @@ Alternatively, if you know the client's WiFi credentials or you provide a mobile
 * Once their account is active, use the [Device Transfer](../blynk.console/devices/actions-with-devices.md#device-transfer) feature
 * The device will be transferred to the client and is ready for use.&#x20;
 
-### Delivering products to clients (BUSINESS plan workflow)
+### Delivering products to clients (Enterprise plan workflow)
 
-With [BUSINESS plan ](https://blynk.io/pricing/business-plan)you no longer need to invite each client manually like in PRO plan. They can create accounts and claim devices by themselves. Here is how it works:
+With [Enterprise plan](https://blynk.io/pricing) you no longer need to invite each client manually like in PRO plan. They can create accounts and claim devices by themselves. Here is how it works:
 
 * Customer will log in using your branded apps for iOS and Android or your branded web console
 * In the app, they will tap on Add New Device and go through WiFi provisioning steps to connect the device to their home or office WiFi network

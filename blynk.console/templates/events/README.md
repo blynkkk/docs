@@ -62,4 +62,4 @@ These are Events you can configure based on what your device do. Read these arti
 * You can send only 1 event per second of specific type
 * You are limited with 100 events per day per device
 
-In Business Plan limits can be increased
+On the Enterprise Plan limits can be increased

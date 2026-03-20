@@ -5,12 +5,12 @@ First of all you need to select the Blynk.Console event that will trigger webhoo
 * **Webhook Trigger Event** – the following triggers are available:
   * Template Datastream Update
   * Device Datastream Update
-  * First-Time Device Connection (only for Business plan)
-  * New Device Activated By User (only for Business plan)
-  * New User Added (only for Business plan)
-  * User Account Deleted (only for Business plan)
-  * User Metadata Updated (only for Business plan)
-  * New User Sign-Up (only for Business plan)
+  * First-Time Device Connection (only for Enterprise plan)
+  * New Device Activated By User (only for Enterprise plan)
+  * New User Added (only for Enterprise plan)
+  * User Account Deleted (only for Enterprise plan)
+  * User Metadata Updated (only for Enterprise plan)
+  * New User Sign-Up (only for Enterprise plan)
 
 {% hint style="info" %}
 You can set it to trigger either for any device using a specific template or just one individual device.

@@ -83,7 +83,7 @@ Don't log an event too many times to avoid hitting daily limits. You can use tim
 {% endhint %}
 
 {% hint style="info" %}
-The current limit is 100 events per device per day. This limit could be increased for business clients to fit their needs.
+The current limit is 100 events per device per day. This limit could be increased for Enterprise clients to fit their needs.
 {% endhint %}
 
 #### Custom Event Description
@@ -162,7 +162,7 @@ if (some_condition){
 
 <figure><img src="../.gitbook/assets/screenshot-blynk-qa.com-2024.01.15-18_01_44.png" alt=""><figcaption><p>Device Info tab with Auth Token</p></figcaption></figure>
 
-![Auth Token. Click copy Auth Token pictogram here](../.gitbook/assets/single\_auth\_token.png)
+![Auth Token. Click copy Auth Token pictogram here](../.gitbook/assets/single_auth_token.png)
 
 Now make an HTTP request with the tools you use for that. Make sure to change the `AuthToken` to the one you copied in the previous step.
 
@@ -182,13 +182,13 @@ https://blynk.cloud/external/api/logEvent?token=AuthToken&code=error
 
 First of all, check [Device Timeline](../blynk.console/devices/device-profile/timeline.md) by going to Device -> Timeline tab
 
-![Device Timeline tab](../.gitbook/assets/events\_on\_timeline.png)
+![Device Timeline tab](../.gitbook/assets/events_on_timeline.png)
 
 You should see 2 events on the timeline! If you set up notifications, they should have been delivered as well.
 
 ## Limitations
 
-* You can send only 100 events per device per day (Adjustable in Business Plan)
+* You can send only 100 events per device per day (Adjustable in Enterprise Plan)
 * When the limit is reached you'll see the notification on the UI in the Device Timeline section
 * The maximum description length for the event is 300 characters
 

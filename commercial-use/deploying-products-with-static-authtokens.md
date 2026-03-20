@@ -91,7 +91,7 @@ This is the simplest way to generate any number of Static Tokens you need.
 The number of tokens you can create is limited by your plan limits. If you need more tokens, upgrade to a higher plan.
 {% endhint %}
 
-![](<../.gitbook/assets/Static Tokens generation\_ auto-create.png>)
+![](<../.gitbook/assets/Static Tokens generation_ auto-create.png>)
 
 1. Go to Blynk.Console → Static Tokens
 2. Click on **Create Static Tokens**
@@ -143,7 +143,7 @@ CSV file headers are case-sensitive and should fully match Metadata Field names.
 6. The number of Tokens will be based on the number of rows in your file
 7. You will have the ability to remap the columns in your file to metadata fields
 
-![](<../.gitbook/assets/Static Tokens generation\_ create from file.png>)
+![](<../.gitbook/assets/Static Tokens generation_ create from file.png>)
 
 After this process is finished each token can be found in the list of Static Tokens. Each token is associated with a QR code image. Now you can export Tokens as a .zip file. It will contain AuthTokens and a folder with all the QR code images as PNG files.
 
@@ -220,9 +220,9 @@ If the user deletes the device from their account, it becomes unclaimed. After t
 5. The customer scans the provided QR code
 6. The device appears under their account and is ready for use
 
-### BUSINESS plan workflow
+### Enterprise plan workflow
 
-With [BUSINESS plan ](https://blynk.io/pricing/business-plan)you no longer need to invite each client manually like in PRO plan. They can create accounts and claim devices by themselves. Here is how it works:
+With [Enterprise plan](https://blynk.io/pricing) you no longer need to invite each client manually like in PRO plan. They can create accounts and claim devices by themselves. Here is how it works:
 
 1. The customer downloads your branded app and creates a new account there. Or they can use your branded web console.
 2. When logged in, the customer clicks on Add New Device and scans the provided QR code

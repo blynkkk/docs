@@ -2,7 +2,7 @@
 
 
 
-![](../../../.gitbook/assets/org\_settings.PNG)
+![](../../../.gitbook/assets/org_settings.PNG)
 
 **Organization Name** – can be up to 80 characters. _Use letters, digits, space or '.', '-', ''' characters_
 
@@ -10,8 +10,8 @@
 
 * Root (accessible only in white-label version)
 * Sub-organization
-* Partners (Business Plan only)
-* Client (Business Plan only)
+* Partners (Enterprise Plan only)
+* Client (Enterprise Plan only)
 
 **Description** (optional) – organization info container. 500 characters limit with counter at the bottom
 

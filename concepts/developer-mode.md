@@ -21,4 +21,4 @@ Developer can:
 
 ### Multiple developers
 
-It’s allowed to add multiple developers per Organization within the [PRO or Business plans](https://blynk.io/pricing). Assign a user the Admin role in your Organization so they can switch to the Developer mode.
+It’s allowed to add multiple developers per Organization within the [PRO or Enterprise plans](https://blynk.io/pricing). Assign a user the Admin role in your Organization so they can switch to the Developer mode.

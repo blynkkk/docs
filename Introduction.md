@@ -38,7 +38,7 @@ To get started, simply [register in Blynk.Console](https://blynk.cloud).
 
 Applications made with Blynk are ready for the end-users. Whether they are family members, employees, or product purchasers, they can easily download the app, connect their devices, and start using them.
 
-Blynk also offers a white-label solution as part of the [Business Plan](https://blynk.io/pricing/business-plan), allowing you to customize the app with your company logo, app icon, theme, colors, and publish it on App Store and Google Play under your company's name. These customized apps will work seamlessly with your devices.
+Blynk also offers a white-label solution as part of the [Enterprise Plan](https://blynk.io/pricing), allowing you to customize the app with your company logo, app icon, theme, colors, and publish it on App Store and Google Play under your company's name. These customized apps will work seamlessly with your devices.
 
 To use Blynk.Apps, [install Blynk app on your iOS or Android device](downloads/blynk-apps-for-ios-and-android.md). For comprehensive [documentation on Blynk.Apps](/broken/pages/-MboiDVEpd2FL0JGkM9f), refer to the provided link.
 
