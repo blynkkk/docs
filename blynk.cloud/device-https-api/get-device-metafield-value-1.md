@@ -1,14 +1,22 @@
 # Update Device Metadata Value
 
-You can update the value of any single-value (text, number, hostspot, device name, list, int, imei, iccid) device meta field using its identifier.
+You can update the value of any single-value (text, number, hotspot, device name, list, int, imei, iccid) device meta field using its identifier.
 
 
 
 <mark style="color:blue;">`GET`</mark> `https://{server_address}/external/api/device/meta/update?token={token}&metaFieldId={metaFieldId}&value={metaFieldValue}`
 
+or by metafield name (**param and value are case sensitive, should be properly encoded**):
+
+<mark style="color:blue;">`GET`</mark> `https://{server_address}/external/api/device/meta/update?token={token}&metaFieldName={metaFieldId}&value={metaFieldValue}`
+
+###
+
 ### Example
 
-`https://fra1.blynk.cloud/external/api/device/meta/update?token=EzHOlVG4dOdkPozcZutxK0AlkrsJAVff&metaFieldId=3&value=Sample+value`&#x20;
+`https://fra1.blynk.cloud/external/api/device/meta/update?token=EzHOlVG4dOdkPozcZutxK0AlkrsJAVff&metaFieldId=3&value=Sample+value`
+
+`https://fra1.blynk.cloud/external/api/device/meta/update?token=EzHOlVG4dOdkPozcZutxK0AlkrsJAVff&metaFieldName=Meta%20Name&value=Sample%20value`
 
 ### Response
 
