@@ -8,7 +8,7 @@ description: Myriota Integration with Blynk
 
 **Blynk** offers a seamless integration with Myriota to decode uplinks and visualize data from your satellite-connected devices — no custom backend required.
 
-<figure><img src=".gitbook/assets/myriota-integration.png" alt=""><figcaption><p>Myriota Integration with Blynk</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/myriota-integration.png" alt=""><figcaption><p>Myriota Integration with Blynk</p></figcaption></figure>
 
 ***
 
@@ -24,7 +24,7 @@ To send uplink data from Myriota to Blynk, start by creating a destination:
 4. Click **Create New Destination** and paste the copied URL.
 5. Click **Create** to save.
 
-<figure><img src=".gitbook/assets/myriota-new-destination.png" alt=""><figcaption><p><strong>Myriota New Destination</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/myriota-new-destination.png" alt=""><figcaption><p><strong>Myriota New Destination</strong></p></figcaption></figure>
 
 > **Note:** If you update the HTTP Destination URL in Blynk, remember to update it in your Myriota destination settings.
 
@@ -118,7 +118,7 @@ To receive and display parsed data in Blynk:
 3. Paste your **uplink decoder function**
 4. Click **Save**
 
-<figure><img src=".gitbook/assets/myriota--integration-ready.png" alt=""><figcaption><p>Myriota Integration Ready</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/myriota--integration-ready.png" alt=""><figcaption><p>Myriota Integration Ready</p></figcaption></figure>
 
 ***
 
@@ -138,7 +138,7 @@ Once the integration and template are configured, you can create a device to sta
 
 This links incoming payloads to the correct device instance in Blynk.
 
-<figure><img src=".gitbook/assets/terminal-id-metadata.png" alt=""><figcaption><p>Terminal ID metadata</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/terminal-id-metadata.png" alt=""><figcaption><p>Terminal ID metadata</p></figcaption></figure>
 
 ***
 
@@ -149,5 +149,5 @@ If data isn’t coming through:
 1. Open the **Myriota Integration** page in Blynk Console
 2. Click **Error Logs** on the integration card to view recent errors
 
-<figure><img src=".gitbook/assets/myriota-error-logs.png" alt=""><figcaption><p><strong>Myriota Error Logs</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/myriota-error-logs.png" alt=""><figcaption><p><strong>Myriota Error Logs</strong></p></figcaption></figure>
 

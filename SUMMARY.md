@@ -62,11 +62,9 @@
 * [Particle - monitor with Blynk](hardware-guides/particle.md)
 * [Particle - control with Blynk](hardware-guides/particle-part-ii.md)
 * [AWS IoT Core](hardware-guides/aws-iot-core.md)
-
-***
-
-* [Myriota](myriota.md)
-* [OpenWeather](openweather.md)
+* [Myriota](hardware-guides/myriota.md)
+* [OpenWeather](hardware-guides/openweather.md)
+* [TEKTELIC](hardware-guides/tektelic.md)
 
 ## Blynk.Console
 
