@@ -35,7 +35,7 @@ The number and types of Datastreams you need to create will depend on the specif
 * **Web/Mobile Dashboard:** Drag and drop a **LCD** or **Value Display** widget and link it to your Virtual Pins.
 
 {% hint style="info" %}
-Datastream names must match the JSON keys produced by the TTN Payload Formatter exactly (e.g., `leak_detected`, not `moisture_detected`).
+Datastream names must match the JSON keys produced by the TTN Payload Formatter exactly (e.g., `leak_detected` vs `moisture_detected`).
 {% endhint %}
 
 ***
