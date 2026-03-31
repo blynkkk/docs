@@ -1,5 +1,32 @@
 # Changelog
 
+## Mar 31, 2026
+
+### Platform Updates
+
+* **Analytics & Performance**: Added additional platform analytics and improved performance of MQTT flows.
+*   **User Interface**:
+
+    * Added a "Download Firmware" button to the shipment info and actions menu.
+
+    <figure><img src=".gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
+
+    * Introduced "Start From Scratch" in the Create New Device flow.
+    * Implemented a "SQL Label" widget and a "Device Count Label" widget on aggregated dashboards.
+    * Added a "SMS Logs" tab to the Developers tools.
+
+### API & Integration
+
+* **Platform API**: Launched API for batch datastream updates.
+* **Integration**: Integrated Chirpstack for enhanced connectivity.
+
+### Device & Data Management
+
+* **Device Management**: Enabled instant indexing for new entities like devices, users, or organizations.
+* **Firmware Management**: Prevented the removal of firmware files when shipment is stopped or finished.
+
+
+
 ## Mar 12, 2026
 
 #### New Paid Plans
