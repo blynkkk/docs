@@ -316,6 +316,13 @@ interface Device {
   logEvent(code: string, description?: string): void;
   
   /**
+   * Get device metafield value.
+   * @param metaFieldName Metafield name (required)
+   * @throws Error if the metafield name is not provided or contains more than 1000 symbols
+   */
+  getMetaFieldValue(metaFieldName: string): string | null;
+  
+  /**
    * Device's assigned Blynk Auth Token.
    */
   blynkAuthToken: string;

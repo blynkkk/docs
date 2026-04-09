@@ -131,6 +131,13 @@ interface Device {
   setProperty(dataStreamName: string, propertyName: DataStreamBooleanPropertyName, value: boolean): void;
 
   /**
+   * Get device metafield value.
+   * @param metaFieldName Metafield name (required)
+   * @throws Error if the metafield name is not provided or contains more than 1000 symbols
+   */
+  getMetaFieldValue(metaFieldName: string): string | null;
+
+  /**
    * Logs an event for the device.
    * @param code Event code (required)
    * @param description Event description (optional, up to 300 characters)
