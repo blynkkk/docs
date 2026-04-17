@@ -57,6 +57,7 @@
   * [Device Grouping](hardware-guides/the-things-stack/device-grouping.md)
   * [Automated Device Onboarding](hardware-guides/the-things-stack/automated-device-onboarding.md)
   * [System DataStreams](hardware-guides/the-things-stack/system-datastreams.md)
+* [ChirpStack](hardware-guides/chirpstack.md)
 * [Blues](hardware-guides/blues.md)
 * [NCD Industrial Vibration Sensor](hardware-guides/ncd-industrial-vibration-sensor.md)
 * [Particle - monitor with Blynk](hardware-guides/particle.md)
