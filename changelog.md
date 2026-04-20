@@ -1,5 +1,34 @@
 # Changelog
 
+## Apr 20, 2026
+
+
+
+* **Platform API Enhancements:**
+  * Added API to manage shipments.
+  * Added API for webhooks.
+* **Code and Performance Improvements:**
+  * Refactored OTA-related code for better performance in file operations.
+* **Developer Tools:**
+  * Introduced "Errors" tab.
+  * Enhanced data collection for individual device operations.
+* **Enterprise Features:**
+  * Implemented web session rotation.
+  * Enabled updates for specific products in mobile apps.
+* **Plan Updates:**
+  * Removed graph datastream limits for Free plans.
+* **Import and Data Handling:**
+  * Extended the minimum timestamp in the import handler from 1 to 3 months.
+  * Increased data converter character limit from 5k to 10k.
+  * Enabled metadata value reading in product decoders.
+* **Dashboard Enhancements:**
+  * Added new aggregation type for label widgets.
+* **Metadata Improvements:**
+  * Added filtering support for metadata of List type.
+* **Performance Fixes:**
+  * Improved web console load speed by reducing initial HTTP requests.
+  * Resolved delays following organization transfers to higher levels.
+
 ## Mar 31, 2026
 
 ### Platform Updates
