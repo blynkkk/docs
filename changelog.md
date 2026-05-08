@@ -1,5 +1,50 @@
 # Changelog
 
+## May 7, 2026
+
+
+
+* **Performance Enhancements**: Improved build and test speed, introduced a more efficient HTTP client to reduce allocations.
+* **Widget Updates**: Developed "Any Widget" MVP; SQL Widget output now limited to 100k entries to prevent OOM errors.
+* **Developer Tools**:
+  * Alert banner now displays in the Developer Tools section for server errors (e.g., rate limit, parsing error, incorrect type).
+  * Tabs/end-of-line characters are highlighted for detecting incorrect inputs quickly.
+*   **Device Vitals**:
+
+    * Double-click a specific date to switch to a 24-hour view.
+    * Changed the disconnection heatmap to a bar chart:
+
+
+
+    <figure><img src=".gitbook/assets/image (99).png" alt="Device Vitals after the changes in a new release"><figcaption></figcaption></figure>
+
+    * Display HTTP API messages and other sources (MQTT, Blynk firmware) in the "Messages" chart.
+    * Added banner to highlight errors when processing device messages:
+
+<figure><img src=".gitbook/assets/image (11) (1).png" alt="Error banner and Errors section showing specific errors"><figcaption></figcaption></figure>
+
+
+
+* **API and Endpoint Enhancements**:
+  * New Platform API endpoint for event resolution.
+  * Enhanced performance of "delete" queries and OTA file parsing.
+  * Introduced synchronization for shipments created manually or via API.
+  * New optional field expansion for GET /api/v1/organization/devices.
+* **Feature Releases**:
+  * Implemented segment sharing.
+  * Improved search by action name in "User actions log."
+  * Increased default limit for report downloads via HTTP API.
+  * Erase data now also clears device statistics (disconnections, messages, and events count).
+* **Roles and Permissions**:
+  * Improved functionality for changing the roles of invited users, especially in multi-organization enterprises.
+  * Resolved a bug preventing root org admins from transferring devices between sub-orgs and root org via UI.
+* **Miscellaneous**:
+  * Migration for segments will change IDs displayed in browser URLs.
+  * Location CRUD operations are now instantly indexed.
+  * Fixed bug when root org admin couldn't transfer devices from sub-org to root org via UI.
+
+
+
 ## Apr 20, 2026
 
 
