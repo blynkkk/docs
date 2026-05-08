@@ -6,9 +6,13 @@
 
 * **Performance Enhancements**: Improved build and test speed, introduced a more efficient HTTP client to reduce allocations.
 * **Widget Updates**: Developed "Any Widget" MVP; SQL Widget output now limited to 100k entries to prevent OOM errors.
-* **Developer Tools**:
-  * Alert banner now displays in the Developer Tools section for server errors (e.g., rate limit, parsing error, incorrect type).
-  * Tabs/end-of-line characters are highlighted for detecting incorrect inputs quickly.
+*   **Developer Tools**:
+
+    * Alert banner now displays in the Developer Tools section for server errors (e.g., rate limit, parsing error, incorrect type):
+
+    <figure><img src=".gitbook/assets/image (11) (1).png" alt="Error banner and Errors section showing specific errors"><figcaption></figcaption></figure>
+
+    * Tabs/end-of-line characters are highlighted for detecting incorrect inputs quickly.
 *   **Device Vitals**:
 
     * Double-click a specific date to switch to a 24-hour view.
@@ -19,12 +23,6 @@
     <figure><img src=".gitbook/assets/image (99).png" alt="Device Vitals after the changes in a new release"><figcaption></figcaption></figure>
 
     * Display HTTP API messages and other sources (MQTT, Blynk firmware) in the "Messages" chart.
-    * Added banner to highlight errors when processing device messages:
-
-<figure><img src=".gitbook/assets/image (11) (1).png" alt="Error banner and Errors section showing specific errors"><figcaption></figcaption></figure>
-
-
-
 * **API and Endpoint Enhancements**:
   * New Platform API endpoint for event resolution.
   * Enhanced performance of "delete" queries and OTA file parsing.
