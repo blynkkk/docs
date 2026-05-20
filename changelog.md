@@ -1,5 +1,23 @@
 # Changelog
 
+## May 20, 2026
+
+
+
+* OAuth 2.0 section unblocked for Blynk Cloud
+* Fixes for the OAuth 2.0 logs section
+* Increased datapoints import per device per day from 10k to 100k
+* Product datastreams section reworked: ability to show/hide required columns, sort, filter
+* Added payment failure banner to the dashboard view
+* Remove the limit on outdated devices per template
+* Cleanup in frontend libraries, removed unnecessary dependencies to minimize bundle
+* Better guard of data conversion with a rate limiter
+* Data converters can now be used by free users
+* Added a new "get sub-organizations" Platform API endpoint
+* Removed paywall for free users for the tiny device map view
+* Added ability to switch to 24h view in Device Vitals
+* Chirpstack integration fixes
+
 ## May 7, 2026
 
 
