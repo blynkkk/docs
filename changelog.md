@@ -1,8 +1,14 @@
 # Changelog
 
+## June 2, 2026
+
+* Reordered and renamed sections in the template sidebar navigation
+* Added datastream semantics
+* Increased API rate limit for Pro and Production users for the "Get Report" HTTP API endpoint
+* Redesigned the unit conversion feature
+* Added Dutch locale
+
 ## May 20, 2026
-
-
 
 * OAuth 2.0 section unblocked for Blynk Cloud
 * Fixes for the OAuth 2.0 logs section
@@ -20,8 +26,6 @@
 
 ## May 7, 2026
 
-
-
 * **Performance Enhancements**: Improved build and test speed, introduced a more efficient HTTP client to reduce allocations.
 * **Widget Updates**: Developed "Any Widget" MVP; SQL Widget output now limited to 100k entries to prevent OOM errors.
 *   **Developer Tools**:
@@ -35,8 +39,6 @@
 
     * Double-click a specific date to switch to a 24-hour view.
     * Changed the disconnection heatmap to a bar chart:
-
-
 
     <figure><img src=".gitbook/assets/image (99).png" alt="Device Vitals after the changes in a new release"><figcaption></figcaption></figure>
 
@@ -59,11 +61,7 @@
   * Location CRUD operations are now instantly indexed.
   * Fixed bug when root org admin couldn't transfer devices from sub-org to root org via UI.
 
-
-
 ## Apr 20, 2026
-
-
 
 * **Platform API Enhancements:**
   * Added API to manage shipments.
@@ -114,8 +112,6 @@
 
 * **Device Management**: Enabled instant indexing for new entities like devices, users, or organizations.
 * **Firmware Management**: Prevented the removal of firmware files when shipment is stopped or finished.
-
-
 
 ## Mar 12, 2026
 
@@ -171,8 +167,6 @@
 
 * Round-trip time (RTT) data collection will be available in Device Vitals soon.
 
-
-
 ## Feb 23, 2026
 
 #### New Features and Improvements
@@ -208,8 +202,6 @@
 * **Template Parsing**: Resolved "parsing error" when editing templates for specific setups.
 * **Sub-Organization Switching**: Fixed the "You have to specify organization ids" error.
 * **Devices Table Display**: Show Outcome value for enum datastreams in the devices table.
-
-
 
 ## January 5, 2026
 
@@ -377,7 +369,7 @@ Cleanup & Fixes
   * Fixed memory leaks in the MQTT encoder.
   * Added internal worker for system resources monitoring for self-hosted environments
 
-## October 13, 2025&#x20;
+## October 13, 2025
 
 **New Features**
 
@@ -404,8 +396,6 @@ SQL Widget
 * **Modules Widget:** Made "Create more datastreams" text non-interactive when no datastreams match.
 * **Email Validation:** Improved registration email validation to support special characters.
 * **OpenWeather Optimization:** Reduced API call frequency for better performance.
-
-
 
 **Cleanup & Fixes**
 
@@ -454,9 +444,7 @@ Webhook Parameters
 
 * Fixed missing timestamp and tag values in webhook calls.
 
-
-
-## September 30, 2025&#x20;
+## September 30, 2025
 
 > ### **New Features**
 >
@@ -469,14 +457,11 @@ Webhook Parameters
 > * **AI Helper Chat**: A new AI helper chat feature is now available to make template editing and configuration easier.
 > * **Automations for Segments**: Our automation now supports device segments, allowing for dynamic device list generation.
 > * **GeoMap Widget**: A new GeoMap widget has been introduced.
-> *   **CSV Download Features**:
+> * **CSV Download Features**:
+>   * Button added for downloading uploaded CSV files for In-App campaigns.
+>   * Organizations list can now be downloaded as CSV files.
 >
->     * Button added for downloading uploaded CSV files for In-App campaigns.
->     * Organizations list can now be downloaded as CSV files.
->
->
->
-> ### **Cleanup & Fixes**&#x20;
+> ### **Cleanup & Fixes**
 >
 > * Reformatted datastream values in the devices table.
 > * Enhanced error messages for data converters.
@@ -485,7 +470,7 @@ Webhook Parameters
 > * Added a link to documentation in the Data Converter view.
 > * Boosted performance for ARM servers in self-hosted environments.
 
-## September 12, 2025&#x20;
+## September 12, 2025
 
 > ### **New Features**
 >
@@ -493,55 +478,47 @@ Webhook Parameters
 > * **Root Org Level Webhook**: With "Organization Created" trigger. Available for Enterprise users.
 > * **Image Map Widget**: Upload your image of a building, floor, room, etc., and pin devices on it. Available for Enterprise and PRO users.
 >
->
->
-> ### **Cleanup & Fixes**&#x20;
+> ### **Cleanup & Fixes**
 >
 > * The maximum number of data streams for Enterprise clients is now 256 instead of 255 as it was before.
 > * Fixed broken percentage counters in dashboard widgets "Active Devices" / "Total Devices."
 
-## August 18, 2025&#x20;
+## August 18, 2025
 
-> ### **Enterprise features** &#x20;
+> ### **Enterprise features**
 >
 > * Event and push messages are now translated based on each receiver’s locale, ensuring notifications are delivered in the user’s preferred language.
 >
-> ### **Improvements**  &#x20;
+> ### **Improvements**
 >
-> * Added the “Download all” button in Assets to easily export all files with assets JSON as a ZIP archive.&#x20;
+> * Added the “Download all” button in Assets to easily export all files with assets JSON as a ZIP archive.
 > * **OTA:** status now displays only the actual state per device, simplifying managing multiple devices
 > * Added a download popup for SQL widget reports, giving users clearer control over exporting data
 >
-> ### **Cleanup & Fixes**&#x20;
+> ### **Cleanup & Fixes**
 >
 > Ongoing stability improvements and resolution of various UI, logic, and performance issues.
 
-## August 4, 2025&#x20;
+## August 4, 2025
 
-> ### **New Features**&#x20;
+> ### **New Features**
 >
-> * **Dashboards:** New Bitmask Table widget that visualizes binary states as LED indicators in a table, supporting customizable rows, endianness, and per-bit inversion for efficient status monitoring.&#x20;
+> * **Dashboards:** New Bitmask Table widget that visualizes binary states as LED indicators in a table, supporting customizable rows, endianness, and per-bit inversion for efficient status monitoring.
 > * **Dashboards:** Added support for entering decimal values in the slider widget to enable precise control, e.g., setting temperature thresholds.
 > * **Datastreams:** When saving with invalid fields, the editor now automatically opens the tab containing the errors to improve visibility and user feedback.
 > * **Platform API:** Added Get Base Device Info endpoint with minimized response for faster device lookup and improved performance.
 >
->
->
 > ### **Improvements**
 >
-> * **OTA:** Implemented gradual shipment rollout for over 100k devices to prevent system overload by staggering firmware delivery when targeting fleets over 10k devices.&#x20;
+> * **OTA:** Implemented gradual shipment rollout for over 100k devices to prevent system overload by staggering firmware delivery when targeting fleets over 10k devices.
 > * **Intercom Integration:** Improved security by implementing JWT-based user authentication for the Intercom messenger across platforms.
->
->
 >
 > ### **Enterprise Features**
 >
 > * **Datastreams**: Added support for storing string datastream values, including integration into device reports and history data export.
 > * **Platform:** Implemented support for HTTP range requests in the static file handler to enable partial downloads, such as segmented firmware retrieval.
 >
->
->
-> ### **Cleanup & Fixes**&#x20;
+> ### **Cleanup & Fixes**
 >
 > Ongoing stability improvements and resolution of various UI, logic, and performance issues.
 
@@ -553,13 +530,9 @@ Webhook Parameters
 >
 > * **Blynk.Apps**: Stop Automation allowing users to halt running automation directly from the automation settings or card.
 >
->
->
 > ### Enterprise Features
 >
 > * **Custom Data:** allows users to view, create, edit, and manage custom database records with proper validation, nested relations, and access control—supporting both structured data management and field operations. It is available in Blynk.Console and Blynk.Apps.
->
->
 >
 > ### Cleanup & Fixes
 >
@@ -571,35 +544,25 @@ Webhook Parameters
 >
 > * **Blynk.Console**: more dashboard features are now available to users on the Free plan.
 >
->
->
 > ### Improvements
 >
 > * **Blynk.Apps**: Android – Developer Mode UX Improvements for theme sync and editing flow.
 > * **Enterprise**: Enhanced email notifications.
 >
->
->
 > ### Cleanup & Fixes
 >
 > Ongoing stability improvements and resolution of various UI, logic, and performance issues.
 
-
-
-## June 9th, 2025&#x20;
+## June 9th, 2025
 
 > ### New Features
 >
 > * **Get Started With Blynk**: New first-month experience with streamlined onboarding and a unified device connection flow covering all supported connection methods.
 >
->
->
 > ### Enterprise features
 >
-> * **Intercom Integration**: platform-wide support for Intercom chat with configurable settings and user activity sync.&#x20;
+> * **Intercom Integration**: platform-wide support for Intercom chat with configurable settings and user activity sync.
 > * **Custom Roles**: enabled support for the creation, modification, and management of custom roles, featuring hierarchical synchronization, limit enforcement, and granular permission control across organizations
->
->
 >
 > ### Cleanup & Fixes
 >
