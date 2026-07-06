@@ -22,6 +22,8 @@ You can use placeholders for URL:
 * `userID` -  ID of the user pressing the button
 * `userEmail` - email of the user pressing the button
 * `deviceToken` - device token
+* `orgID` - organization id
+* `orgName` - organization name
 
 Example URL with placeholders:
 
