@@ -231,6 +231,11 @@ interface Request {
  */
 type DataStreamValue = number | string | { lon: number; lat: number };
 
+interface DataStream {
+  value: DataStreamValue | null; // Current device datastream value
+  lastUpdatedAt: number | null; // Unix timestamp (ms) when the value was last updated, null if no value exists
+}
+
 /**
  * DataStream property names.
  */
@@ -257,6 +262,14 @@ interface Device {
    * @throws Error if datastream name is not provided or contains more than 1000 symbols
    */
   getDataStreamValue(dataStreamName: string): DataStreamValue | null;
+
+  /**
+   * Gets the device datastream info.
+   * @param dataStreamName Datastream name (required)
+   * @returns the datastream value or `null`, if the datastream is missing
+   * @throws Error if datastream name is not provided or contains more than 1000 symbols
+   */
+  getDataStreamValue(dataStreamName: string): DataStream | null;
 
   /**
    * Updates the value of a device datastream.
