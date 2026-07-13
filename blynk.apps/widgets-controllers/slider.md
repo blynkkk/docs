@@ -80,7 +80,7 @@ Don't put **`Blynk.setProperty()`**&#x69;nto the **`void loop()`** as it can cau
 
 ### Properties you can change
 
-You can change the properties _color_, _label_, _isDisabled_, _isHidden_ of the widget from your hardware, or via an [HTTP API](/broken/pages/-MboZKh3GURRjbTTpUUV). The color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.
+You can change the properties _color_, _label_, _isDisabled_, _isHidden_ of the widget from your hardware, or via an [HTTP API](https://app.gitbook.com/s/-MBFTVMf7L6S67HOuqVC/blynk.cloud). The color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.
 
 #### Set a custom label for the widget
 

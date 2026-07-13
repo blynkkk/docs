@@ -14,7 +14,7 @@ The API uses OAuth2 for authentication. Obtain an access token via the `POST /oa
 Authorization: Bearer {access_token}
 ```
 
-See the [**Authentication**](/broken/pages/f8e96e44e05b776f5094809b107bb591bd994393) section for the available grant types and detailed usage.
+See the [**Authentication**](https://app.gitbook.com/s/-MBFTVMf7L6S67HOuqVC/blynk.cloud/platform-https-api/authentication) section for the available grant types and detailed usage.
 
 ### Rate Limiting
 

@@ -1,6 +1,6 @@
 # Send/Log An Event
 
-[HTTPS API ](broken-reference/)-> Send/Log An Event
+[HTTPS API ](https://github.com/blynkkk/docs/blob/main/blynk.cloud/device-https-api/broken-reference/README.md)-> Send/Log An Event
 
 1. Check this [article](../../getting-started/events-tutorial.md) on setting up an event
 2. Use the GET call below to send event

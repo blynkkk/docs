@@ -86,7 +86,7 @@ Write down the Device name you picked, and then the BLYNK\_TEMPLATE\_NAME and th
 
 ### Blynk HTTPs API
 
-For this project, we want the [Particle webhook (integration)](https://docs.particle.io/getting-started/integrations/webhooks/) to pass data from the Particle device to Blynk. The [Blynk HTTPs API](broken-reference/) will be used to set multiple datastream values in the Blynk Cloud. The following HTTP GET request will update the Blynk datastreams defined for this project after the {token} is replaced with the BLYNK\_AUTH\_TOKEN, and {[server\_address](../blynk.cloud/device-https-api/troubleshooting.md)} is replaced with the server shown at the bottom right of your Blynk.Console:
+For this project, we want the [Particle webhook (integration)](https://docs.particle.io/getting-started/integrations/webhooks/) to pass data from the Particle device to Blynk. The [Blynk HTTPs API](https://github.com/blynkkk/docs/blob/main/hardware-guides/broken-reference/README.md) will be used to set multiple datastream values in the Blynk Cloud. The following HTTP GET request will update the Blynk datastreams defined for this project after the {token} is replaced with the BLYNK\_AUTH\_TOKEN, and {[server\_address](../blynk.cloud/device-https-api/troubleshooting.md)} is replaced with the server shown at the bottom right of your Blynk.Console:
 
 ```
 https://{server_address}/external/api/batch/update?token={token}&V0=0&V1=0&V2=1.5&V3=-73.8731,40.8414&V4=12.54&V5=0
@@ -572,7 +572,7 @@ Update {[server\_address](../blynk.cloud/device-https-api/troubleshooting.md)} w
 
 The datastream V5 named ‘position\_changed’ is updated by the device from a value of 0 (false) to a value of 1 (true) when the device has moved more than 122 m / 400 ft since it was powered on. The GPS calculations are done on the device, making it very easy to use this datastream as a trigger for the automation.
 
-The automation can be created from either the [Blynk.Console](broken-reference/) (web dashboard), or the [Blynk.App](broken-reference/) (mobile app). We will create the automation within the Blynk.Console.
+The automation can be created from either the [Blynk.Console](https://github.com/blynkkk/docs/blob/main/hardware-guides/broken-reference/README.md) (web dashboard), or the [Blynk.App](https://github.com/blynkkk/docs/blob/main/hardware-guides/broken-reference/README.md) (mobile app). We will create the automation within the Blynk.Console.
 
 Begin by making the three datastreams V0, V1, and V5 available to Automation actions and conditions. In the Blynk.Console, navigate to ‘Templates -> Automations’. Click on the ‘Edit’ button at the top right of the page and then enable both the ‘Condition’ and ‘Action’ switches for the V0, V1, and V5 datastreams. Click the ‘Save And Apply’ button at the top right of the page when you are finished.
 

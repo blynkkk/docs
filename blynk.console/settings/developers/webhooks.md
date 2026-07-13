@@ -2,7 +2,7 @@
 
 Webhooks could be found in the **Developers** section of the **Settings** menu:
 
-![Webhooks menu item](../../../.gitbook/assets/blynk-webhook-menu.png)
+<img src="../../../.gitbook/assets/blynk-webhook-menu.png" alt="Webhooks menu item" width="375">
 
 ![Webhooks list](../../../.gitbook/assets/blynk-webhook-list.png)
 
@@ -33,7 +33,7 @@ Once the Webhook is created you can view it's info by clicking it's row or name 
 
 ### Information tab
 
-![Information tab](../../../.gitbook/assets/blynk-webhook-info.png)
+<img src="../../../.gitbook/assets/blynk-webhook-info.png" alt="Information tab" width="375">
 
 * **URL** – webhook request destination&#x20;
 * **Trigger events** – displays the action that causes the webhook to run
