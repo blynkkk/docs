@@ -182,6 +182,7 @@
   * [Organization Settings](blynk.console/settings/organization-settings/README.md)
     * [General](blynk.console/settings/organization-settings/general.md)
     * [Users](blynk.console/settings/organization-settings/users.md)
+    * [Unit System](blynk.console/settings/organization-settings/unit-system.md)
     * [Locations (Job Site or Facilities)](blynk.console/settings/organization-settings/locations.md)
     * [Tags](blynk.console/settings/organization-settings/tags.md)
   * [Roles and Permissions](blynk.console/settings/access.md)

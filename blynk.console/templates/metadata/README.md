@@ -118,3 +118,34 @@ Those 5 are present in any Product and can not be deleted:
 * **IMEI** – type/paste default [International Mobile Equipment Identity](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity) here. 15 digits limit.<br>
 * **ICCID** – type/paste default [Integrated Circuit Card Identifier](https://en.wikipedia.org/wiki/SIM_card#ICCID) here. <br>
 * **Firmware Update Control** – provides an option to users [manually control device firmware updates](../../blynk.air/user-controlled-shipments.md).
+
+### Number metadata
+
+The **Number** metadata field holds a numeric value and, optionally, a unit. When a unit is assigned and that unit is convertible, the field can be converted just like a datastream.
+
+{% hint style="info" %}
+The previous separate Number and Unit metadata types have been merged into a single Number type. Existing fields keep their settings; there is now one type to choose from instead of two.
+{% endhint %}
+
+When you add a Number field, you can set a default value, a unit, optional min/max limits, and a step.
+
+If the selected unit supports conversion, an **Enable Unit Conversion** switch appears with its conversion settings — the same way it works on a datastream. If the unit is not convertible, no switch is shown.
+
+In **Device Info**, a Number field with a unit always displays the value together with its unit (for example, `22 °C`, not just `22`), shown in whatever unit the viewer's preference resolves to.
+
+<figure><img src="../../../.gitbook/assets/9_unit_conversion_in_number_metadata.png" alt=""><figcaption></figcaption></figure>
+
+### Unit Conversion Switch metadata
+
+The **Unit Conversion Switch** metadata type lets a device declare which unit the app should display, overriding the organization and user preferences. Use it when a device has its own way of choosing units — for example, a thermostat with a physical °C/°F button — and the app should stay in sync with it. It also works in reverse: a user changing the unit in the app can be reflected back on the device.
+
+<figure><img src="../../../.gitbook/assets/7_10_unit_conversion_switch_metadata.png" alt=""><figcaption></figcaption></figure>
+
+When you add this metadata type, you select the **unit pair** it controls (for example, °C ↔ °F). You also decide whether end users can change it:
+
+* **Editable** — end users can switch the unit from Device Info.
+* **Non-editable** — the value is controlled by the device only.
+
+{% hint style="info" %}
+Each unit pair can be controlled by only one Unit Conversion Switch in a template. Once a pair is used, it is disabled in the selector when adding another switch, so the same pair can't be assigned twice.
+{% endhint %}

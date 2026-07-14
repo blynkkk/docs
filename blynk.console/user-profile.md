@@ -6,11 +6,7 @@ description: Access and manage your account information.
 
 Here, you can view and edit your details provided during sign-up, delete your data if necessary, or sign out of your account.
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/profile-settings (1).png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/profile-settings (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### Profile settings. Basic view set
 
@@ -95,6 +91,14 @@ In **Blynk.Apps**, localization settings automatically synchronize with the loca
 ### Developer mode
 
 Switch between end-user or developer views. View full documentation on [developer mode](../concepts/developer-mode.md).&#x20;
+
+### Unit system
+
+Each user can override the org default in their **User Profile** in web console. Users get the same **Metric** and **Imperial** presets, plus a **Default** option that follows whatever the organization is set to.&#x20;
+
+Default is pre-selected for new users and shows what it currently resolves to, so users always know what they're inheriting. If the org admin later changes the org units, users on Default update automatically; users who picked their own preset stay put.
+
+<figure><img src="../.gitbook/assets/5_unit_conversion_profile_web.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Billing
 

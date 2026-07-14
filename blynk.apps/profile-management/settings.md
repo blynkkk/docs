@@ -17,6 +17,14 @@ Here you can enable or disable the following application settings:
 * Automations: turn on/off notifications triggered by Automations. You can choose custom sounds
 * Other
 
+### Unit system
+
+Each user can override the org default in their **Settings** on mobile app. Users get the same **Metric** and **Imperial** presets, plus a **Default** option that follows whatever the organization is set to.&#x20;
+
+Default is pre-selected for new users and shows what it currently resolves to, so users always know what they're inheriting. If the org admin later changes the org units, users on Default update automatically; users who picked their own preset stay put.
+
+<figure><img src="../../.gitbook/assets/6_unit_conversion_profile_mobile.png" alt="" width="308"><figcaption></figcaption></figure>
+
 ### Interface
 
 * Keep screen always on: if you don't exit the app, smartphone screen will not turn off&#x20;
