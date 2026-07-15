@@ -1,5 +1,44 @@
 # Changelog
 
+## July 15, 2026
+
+### 🚀 New Features
+
+**Provisioning Sessions** — a new section to monitor device provisioning end-to-end: per-session timelines and steps, success rate and session-duration stats, most-common-error insights, statuses (including Canceled/Aborted), filtering and search (by email, client, error), sorting, log download, and data export. A very handful feature, especially for Enterprise clients, which allows to simplify investigation of user device pairing problems.
+
+<figure><img src=".gitbook/assets/image (20).png" alt="Provisioning Sessions View"><figcaption></figcaption></figure>
+
+**Custom Units** — define your own units and use them everywhere: datastream settings, number metafields, dashboards, the devices table, and widgets, with a redesigned units picker.
+
+**Template & Product Version History** — every template/product edit is now tracked. View change history, see what was modified, and restore a previous version.
+
+<figure><img src=".gitbook/assets/image (52).png" alt="Template Version History"><figcaption></figcaption></figure>
+
+**Shareable Automations** — share an automation as a template, control creation/enablement across sub-organizations, and manage it with a dedicated sharing permission. Enterprise feature.
+
+**Scheduled Reports** (expanded) — a full Reports page, a "Generate report" automation action with configurable report period, enhanced email delivery (recipient exclusions by user/role), and a polished "Events Summary" report layout. Enterprise feature.
+
+**Crash Reports & Crash Dumps** — a new developer-zone section to review device crash reports and dumps, with filtering, bulk delete, and downloads. Enterprise feature.
+
+**Org-level Assets** — assets are now managed at the organization level, with folders, increased storage, and improved file handling.
+
+### ✨ Improvements
+
+* **OIDC / SSO** — smoother registration and invitation flows, correct login and logout redirects, and password handling for SSO accounts.
+* **Datastreams** — reworked creation flow with name presets, auto-filled display names, clearer validation, improved semantic-tag selection, and the ability to hide a datastream from the HTTP API.
+* **Automations** — enhanced scheduling (multiple monthly dates, better schedule summaries) and a rebuilt email action.
+* **HTTP / Platform API** — historical-data endpoints now support unlimited requests, raw data, and streaming JSON responses, plus a new endpoint to generate static tokens.
+* **Dashboards & Widgets** — refinements to Total Events Over Time, Events Breakdown Over Time, the device table, image gallery, and AnyWidget; better organization and dashboard filtering.
+* **Semantics** — smarter tag assignment and filtering that hides options not supported by a widget or column.
+
+### 🐞 Fixes
+
+* Resolved several web crashes across the Assets, Provisioning Sessions, and dashboard pages.
+* Fixed device online/offline detection delays (including devices updating via MQTT).
+* Corrected numerous report layout, scheduling, and email-recipient issues.
+* Many custom-unit display, datastream naming/search, and widget-settings fixes for consistent behavior.
+* Improved offline device handling and data-table cleanup for better reliability.
+
 ## June 18, 2026
 
 ### 🚀 New Features

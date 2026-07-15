@@ -86,7 +86,7 @@ Find your AWS Account ID by clicking on your account name (top-right corner) in 
    * Choose the **JSON Policy Editor** and paste the copied JSON.
    * Enter a name for the policy and click **Create**.
 
-<div><figure><img src="../.gitbook/assets/AWS role create policy (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/AWS role policy creation.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/AWS role create policy.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/AWS role policy creation.png" alt=""><figcaption></figcaption></figure></div>
 
 #### **8. Create a Role Alias**
 

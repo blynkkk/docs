@@ -14,12 +14,12 @@ Creating/editing a Web Dashboard is only possible with [Developer Mode](../../..
 
 To add widgets, click on the ‘Edit’ button at the top right of the Web Dashboard tab to enter the edit mode, and then drag and drop widgets from the ‘Widget Box’ to the Dashboard Preview window.
 
-<figure><img src="../../../.gitbook/assets/add_widgets (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/add_widgets.gif" alt=""><figcaption></figcaption></figure>
 
 After the widgets are added, you may:
 
 * **Arrange** - drag the widgets into the position you want on each dashboard tab.
-* **Resize** - hover your mouse over the lower right corner until the cursor changes to a resize pictogram, then hold the left mouse button and drag to change the widget size.&#x20;
+* **Resize** - hover your mouse over the lower right corner until the cursor changes to a resize pictogram, then hold the left mouse button and drag to change the widget size.
 * **Delete** - Hover the mouse pointer over the widget and then click on the trash bin pictogram. No undo option exists.
 * **Clone** - creates a copy of the selected widget. Hover your mouse over the widget and click on the copy pictogram.
 * **Configure** - hover your mouse over the widget and select the gear pictogram. This option will allow you to access all of the widget settings, including assignment of a datastream.

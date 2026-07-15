@@ -48,7 +48,7 @@ You only need to add a Wireless Device node that will represent the sensor. Navi
 
 As we want to monitor only the output of the sensor for debug purposes for now, move the debug node, disconnect it from the Wireless Gateway node and connect it to the Wireless Device node.
 
-<figure><img src="../.gitbook/assets/2-Node-RED-connect-debug-node.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
 Now that we have our basic flow, we need to configure it. The Wireless Gateway is configured by default, you need not change anything in its node settings.
 
@@ -100,45 +100,25 @@ This tutorial assumes you are already have created an account in Blynk, if not h
 
 We are going to assume this is your first time using the platform, thus your workspace will be empty, and you will be greeted by the Blynk Tour screen.
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/1-Blynk-Tour.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/1-Blynk-Tour.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Click on the Let’s go! button and navigate through the windows till the end. You should see an invitation to create your first Template (in case you navigate away, a template is normally created in the Developer Zone).
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/2-Blynk-developer-zone.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/2-Blynk-developer-zone.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Give your Template a name, for the hardware select Other and set the connection type to WiFi. Press on the Done button and the Template will be created, now you need to configure it.
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/3-Blynk-create-template.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/3-Blynk-create-template.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Datastreams
 
 Go to the Datastreams tab and create a New Datastream. When you press on the button a drop-down menu will appear with a few options. For the purpose of this tutorial, we will keep it simple and utilize only the Virtual Pin Datastream type.
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/4-Blynk-create-new-datastream.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/4-Blynk-create-new-datastream.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 In order to stay consistent, we are going to adhere to the same naming notations that the NCD sensor uses, which you can see in the payload in Node-RED (refer to the image below).
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/5-Blynk-datastreams-naming-notations.png" alt="" width="311"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/5-Blynk-datastreams-naming-notations.png" alt="" width="311"><figcaption></figcaption></figure></div>
 
 We will start from the first parameter, the _temperature_ (any parameter you want forwarded and displayed on Blynk needs to have its own Datastream). Fill in the Template data (refer to the image below) as follows:
 
@@ -150,13 +130,9 @@ DATA TYPE: Double
 
 MAX: 100
 
-Enable history data: ON&#x20;
+Enable history data: ON
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/6-Blynk-datastream-settings.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/6-Blynk-datastream-settings.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Press on the Create button and your first Datastream will appear in the table, you can edit it by clicking on the Name if you want to change anything. The process for the other Datastreams we are to create is similar, simply click on the New Datastream button and make more.
 
@@ -180,11 +156,7 @@ MAX: 10000
 
 Enable history data: OFF
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/9-Blynk-frequency-datastream.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/9-Blynk-frequency-datastream.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 This sensor measurements differs, it comes in Integer form and also, we need to adjust the range as the value is in Hz and vibrations up to a few kHz are not uncommon, thus the MAX is set to 10000.
 
@@ -195,8 +167,6 @@ Take note that if you are using the free version, you will have 5 Datastreams at
 We are using the upgraded version so we add more datastreams, if you are limited you will simply have to choose a subset of the measurements you are going to end up with, which will still give you plenty of data to look at.
 
 <figure><img src="../.gitbook/assets/10-Blynk-upgrade-for-more-datastreams.png" alt=""><figcaption></figcaption></figure>
-
-&#x20;
 
 Continue adding Datastreams until you are satisfied. This particular sensor outputs 22 metrics; however, the following subset of 13 is sufficient in 80% of cases to conduct a full vibrational analysis.
 
@@ -220,29 +190,17 @@ Resize it to your liking and press on the Gear icon in order to open up the conf
 
 Give the it a name (optional) and select the _temperature (V0)_ Datastream we created earlier that is tied to the temperature measurement.
 
-<div align="left">
+<div align="left"><figure><img src="../.gitbook/assets/13-Blynk-web-dashboard-gauge.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/13-Blynk-web-dashboard-gauge.png" alt="" width="563"><figcaption></figcaption></figure>
+Once you select the Datastream more configuration options will open up. Enable the Change color based on value toggle and select a color scheme that is to your liking. Finalize by pressing the Save button.
 
-</div>
-
-&#x20;Once you select the Datastream more configuration options will open up. Enable the Change color based on value toggle and select a color scheme that is to your liking. Finalize by pressing the Save button.
-
-<div align="left">
-
-<figure><img src="../.gitbook/assets/14-Blynk-web-dashboard-gauge-color-based-on-value.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/14-Blynk-web-dashboard-gauge-color-based-on-value.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Your first Widget should now be visible, lets add another, this time a Label. Let’s keep it simple for this one, just select the _x\_max\_ACC\_G_ Datastream and name it.
 
-<div align="left">
+<div align="left"><figure><img src="../.gitbook/assets/16-Blynk-web-dashboard-label.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/16-Blynk-web-dashboard-label.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
-
-&#x20;You now have 2 Widgets in the Dashboard. Continue adding Label Widgets until you have the full set, or a subset if you are using the Free version, eventually you should have a nicely looking Dashboard similar to ours (after some rearrangement and resizing of Widgets).
+You now have 2 Widgets in the Dashboard. Continue adding Label Widgets until you have the full set, or a subset if you are using the Free version, eventually you should have a nicely looking Dashboard similar to ours (after some rearrangement and resizing of Widgets).
 
 <figure><img src="../.gitbook/assets/18-Blynk-web-dashboard.png" alt=""><figcaption></figcaption></figure>
 
@@ -250,27 +208,15 @@ Your first Widget should now be visible, lets add another, this time a Label. Le
 
 Go to the Devices menu on the left and add a New Device.
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/1-Blynk-add-new-device.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/1-Blynk-add-new-device.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Choose the _From template_ option, as we have created one in the previous step.
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/2-Blynk-add-new-device-from-template.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/2-Blynk-add-new-device-from-template.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 You should have a single choice here, select it and press the Create button.
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/3-Blynk-name-device.png" alt="" width="559"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/3-Blynk-name-device.png" alt="" width="559"><figcaption></figcaption></figure></div>
 
 You will be taken to the main device screen, where we can note the following: the Widgets display no data (which is to be expected as we have not bridged the Gateway and Blynk quite yet).
 
@@ -351,7 +297,7 @@ Note that the server address can be different for your location. For the full gu
 * Username: `device`
 * Password: your device Auth Token (see instructions above on how to obtain it)
 
-<figure><img src="../.gitbook/assets/6-Node-RED-mqtt-broker-config-node.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/6-Blynk-data-flowing.png" alt=""><figcaption></figcaption></figure>
 
 You also need to import the TLS CA Certificate, Blynk uses isrgrootx1.der, which you can download from [here](https://letsencrypt.org/certs/isrgrootx1.der).
 

@@ -15,7 +15,7 @@ Here, you can view and edit your details provided during sign-up, delete your da
 * Name
 * Email
 * Phone Number (field is hidden if no information was provided)
-* Last Login&#x20;
+* Last Login
 * Timezone (this setting is defined by Organization's Timezone)
 * Locale
 
@@ -29,7 +29,7 @@ Hover Actions Menu near the Name to access following options.
 
 Click to open User Profile edit modal window
 
-<img src="../.gitbook/assets/user_profile_edit (2) (2) (2) (2) (2) (1) (1).png" alt="Edit User Profile modal window" data-size="original">
+<img src="../.gitbook/assets/user_profile_edit (2) (2) (2) (2) (2) (1).png" alt="Edit User Profile modal window" data-size="original">
 
 **Name** – here you can edit user name displayed in Blynk Platform. Use only letters, hyphens, dots and spaces. 60 characters limit.
 
@@ -90,11 +90,11 @@ In **Blynk.Apps**, localization settings automatically synchronize with the loca
 
 ### Developer mode
 
-Switch between end-user or developer views. View full documentation on [developer mode](../concepts/developer-mode.md).&#x20;
+Switch between end-user or developer views. View full documentation on [developer mode](../concepts/developer-mode.md).
 
 ### Unit system
 
-Each user can override the org default in their **User Profile** in web console. Users get the same **Metric** and **Imperial** presets, plus a **Default** option that follows whatever the organization is set to.&#x20;
+Each user can override the org default in their **User Profile** in web console. Users get the same **Metric** and **Imperial** presets, plus a **Default** option that follows whatever the organization is set to.
 
 Default is pre-selected for new users and shows what it currently resolves to, so users always know what they're inheriting. If the org admin later changes the org units, users on Default update automatically; users who picked their own preset stay put.
 
@@ -109,4 +109,3 @@ Explore and manage your subscription details here. You can view your current pla
 Choose light or dark theme for your Blynk.Console interface.
 
 ### Log out
-

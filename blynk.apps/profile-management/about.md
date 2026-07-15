@@ -6,9 +6,9 @@ description: >-
 
 # About
 
-![](../../.gitbook/assets/About.png)
+![](../../.gitbook/assets/about.png)
 
-### General app info:&#x20;
+### General app info:
 
 * Version – Blynk IoT app version
 * Account – Email of the account used at the moment

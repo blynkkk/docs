@@ -33,11 +33,9 @@ For example, you have three different products: a heater, an air conditioner, an
 
 <div align="left"><figure><img src="../../.gitbook/assets/02_filters_datasource.png" alt="" width="372"><figcaption><p>Layer 1: Dashboard Data Source</p></figcaption></figure></div>
 
-By default, the data source for the entire dashboard includes All devices (Templates = All, Organizations = All).  The Dashboard Data Source is editable anytime, but be careful as the changes affects all added widgets and may broke some of your settings.
+By default, the data source for the entire dashboard includes All devices (Templates = All, Organizations = All). The Dashboard Data Source is editable anytime, but be careful as the changes affects all added widgets and may broke some of your settings.
 
-<div align="left"><figure><img src="../../.gitbook/assets/03_dash_datasource copy.avif" alt="" width="375"><figcaption><p>Setting up data source for your dashboard</p></figcaption></figure></div>
-
-
+<div align="left"><figure><img src="../../.gitbook/assets/09_dash_datasource.avif" alt="" width="375"><figcaption><p>Setting up data source for your dashboard</p></figcaption></figure></div>
 
 #### Layer 2: Widget Data Source
 
@@ -74,8 +72,6 @@ To assign particular device(s) as a widget data source select it from the table.
 
 You may select up to 50 devices.
 
-
-
 #### Layer 3. Dynamic Filters
 
 Dynamic filters are available in View mode after a dashboard is created and are accessible to all users with dashboard access. These filters allow users to temporarily focus on specific devices included in the dashboard. They do not affect other users and are reset after the page is reloaded. The Filters button is located in the top-right corner.
@@ -85,8 +81,6 @@ There are three dynamic filters: **Organizations**, **Templates**, and **Devices
 <div align="left"><figure><img src="../../.gitbook/assets/06_filters_dynamic.avif.gif" alt="" width="384"><figcaption><p>Layer 3. Dynamic Filters</p></figcaption></figure></div>
 
 <div align="left"><figure><img src="../../.gitbook/assets/07_filters_dynamic1.avif" alt="" width="558"><figcaption><p>Apply dynamic filters to the dashboard</p></figcaption></figure></div>
-
-
 
 ### Creating a Dashboard
 
@@ -139,8 +133,6 @@ This picker allows you to analyze historical data across different periods. It i
 Please note, the date range picker does not affect the **Control widgets** and the widgets showing **Latest value**. Regardless of the selected range, they operate the same.
 {% endhint %}
 
-
-
 ### Managing Access
 
 By default, only users with the **Manage Dashboards** permission in the organization where the dashboard was created can access it. These users can view and edit all dashboards in that organization.
@@ -151,7 +143,7 @@ Please note that creating or editing a dashboard also requires the **View Templa
 
 You can grant **View** access to specific dashboards for additional users through the **Manage Access** option, available in the menu or **Edit mode**.
 
-<div align="left"><figure><img src="../../.gitbook/assets/20_options_menu copy.avif" alt="" width="563"><figcaption><p>Manage access in the menu</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/11_options_menu.avif" alt="" width="563"><figcaption><p>Manage access in the menu</p></figcaption></figure></div>
 
 Dashboards can be shared with sub-organizations, allowing you to create a single dashboard and share it across all sub-orgs. However, shared dashboards can only be edited in the organization where they were created.
 

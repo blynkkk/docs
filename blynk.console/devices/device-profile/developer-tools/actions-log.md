@@ -8,7 +8,7 @@ description: >-
 
 This table contains every datastream action sent through Blynk.Cloud for this device.
 
-<figure><img src="../../../../.gitbook/assets/developer-tools-actions-log (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/developer-tools-actions-log.png" alt=""><figcaption></figcaption></figure>
 
 This section is crucial for tracking activities, diagnosing issues, and auditing changes. The Actions Log tab provides a comprehensive history of actions performed on the datastream.
 

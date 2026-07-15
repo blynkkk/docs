@@ -8,7 +8,7 @@ Available to PRO and Enterprise plans subscribers.
 _**Note:**_ please remember that web and mobile app widgets are set up separately in the Web Dashboard and Mobile App Dashboard sections correspondingly. They can still use the same datastreams to access the same data (Map widget is an exception – a different codebase is used for Map on mobile and web).
 {% endhint %}
 
-This widget displays GPS position data, and optionally additional synchronized datastream data on a map as a callout or/and a track overlay.&#x20;
+This widget displays GPS position data, and optionally additional synchronized datastream data on a map as a callout or/and a track overlay.
 
 The displayed time period, zoom, map style, and track overlay (when enabled) can be configured by the user. Only one map widget can be added per device template.
 
@@ -19,7 +19,7 @@ The displayed time period, zoom, map style, and track overlay (when enabled) can
 **Track overlays** allow datastream values that approximately correspond to the location datastream timestamp to be visualized on the GPS track. E.g. speed of the device along the track.
 
 {% hint style="info" %}
-Note that the GPS track points are assigned to a datastream by an IoT device or HTTPS API.  The current position of the IoT device derived from the IP address is also available, but is generally treated separately from the map widget.
+Note that the GPS track points are assigned to a datastream by an IoT device or HTTPS API. The current position of the IoT device derived from the IP address is also available, but is generally treated separately from the map widget.
 {% endhint %}
 
 Before creating a map widget, you need to create a Location Datastream, and in order to visualize the data you will need to write location values to the datastream.
@@ -33,7 +33,7 @@ Assign a virtual pin to the location datastream, and a default longitude and lat
 #### Write Values To Location Datastream
 
 {% hint style="warning" %}
-Currently the code behind the Blynk.App (mobile) map widget supports both an old and new API format. It is recommended you do not use the old format of Blynk.virtualWrite (pin, index, lat, lon, label).&#x20;
+Currently the code behind the Blynk.App (mobile) map widget supports both an old and new API format. It is recommended you do not use the old format of Blynk.virtualWrite (pin, index, lat, lon, label).
 
 Use the new format of Blynk.virtualWrite (pin, lon, lat) and/or the HTTPS API to ensure your system is compatible with both the Blynk.App and Blynk.Console map widgets, and conforms to the unification of the code in the future.
 {% endhint %}
@@ -68,9 +68,9 @@ The map widget settings has four tabs labeled ‘Map and GPS track’, ‘Callou
 
 <figure><img src="../../.gitbook/assets/map-widget-map-and-GPS-track-settings.png" alt=""><figcaption></figcaption></figure>
 
-**Show location track** - Turns on/off the display of the track.  When enabled, you may choose a color and thickness for the track.&#x20;
+**Show location track** - Turns on/off the display of the track. When enabled, you may choose a color and thickness for the track.
 
-**Disconnect track points period** - when enabled, two sequential points with a delta higher than the specified threshold will not be connected.&#x20;
+**Disconnect track points period** - when enabled, two sequential points with a delta higher than the specified threshold will not be connected.
 
 **Show direction** - when enabled it will add a directional arrow to the track.
 
@@ -96,7 +96,7 @@ The datastream must have the advanced settings option ‘Save raw data’ enable
 
 The Misc tab allows you to configure the track termination point style, and optionally the track course direction.
 
-![](<../../.gitbook/assets/map_widget_settings (5) (4) (1) (1) (5).gif>)
+![](<../../.gitbook/assets/map_widget_settings (5) (4) (1) (1).gif>)
 
 **STYLE: POINT** - choose the track termination style from the options of: Point, Course, Truck, and Device name.
 
@@ -104,11 +104,9 @@ The Misc tab allows you to configure the track termination point style, and opti
 
 **Use global time range selector** - when enabled, the global time range setting will constrain the range of data displayed.
 
-
-
 ### Changing the datastream value(s)
 
-You can update the assigned datastream value using the hardware or HTTP API.&#x20;
+You can update the assigned datastream value using the hardware or HTTP API.
 
 **Hardware:**
 

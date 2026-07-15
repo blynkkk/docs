@@ -4,7 +4,7 @@ description: General tab of the developer tools screen
 
 # General
 
-<figure><img src="../../../../.gitbook/assets/developer-tools-general (1).png" alt=""><figcaption><p>Developer tools | General</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/developer-tools-general.png" alt=""><figcaption><p>Developer tools | General</p></figcaption></figure>
 
 ### Quick access panel
 

@@ -3,7 +3,7 @@
 The Platform API provides comprehensive access to all features of the Blynk IoT Platform through a secure HTTPS API. It enables you to perform Create, Read, Update, and Delete (CRUD) operations on a wide range of entities. These entities include devices, users, organizations, automations, webhooks, tags, templates, and more, giving you extensive control and flexibility.
 
 {% hint style="info" %}
-Platform API is available to Prototype, Production, and [Enterprise Plan](https://blynk.io/iot-platform-for-business) clients. If you're interested in utilizing this API for your business needs, consider upgrading. If you are already an Enterprise Plan customer, please reach out to your Account Manager.&#x20;
+Platform API is available to Prototype, Production, and [Enterprise Plan](https://blynk.io/iot-platform-for-business) clients. If you're interested in utilizing this API for your business needs, consider upgrading. If you are already an Enterprise Plan customer, please reach out to your Account Manager.
 {% endhint %}
 
 ### Authentication
@@ -14,7 +14,7 @@ The API uses OAuth2 for authentication. Obtain an access token via the `POST /oa
 Authorization: Bearer {access_token}
 ```
 
-See the [**Authentication**](https://app.gitbook.com/s/-MBFTVMf7L6S67HOuqVC/blynk.cloud/platform-https-api/authentication) section for the available grant types and detailed usage.
+See the [**Authentication**](/broken/pages/f8e96e44e05b776f5094809b107bb591bd994393) section for the available grant types and detailed usage.
 
 ### Rate Limiting
 

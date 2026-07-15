@@ -115,7 +115,7 @@ Blynk needs to know exactly where to place new devices.
     <figure><img src="../.gitbook/assets/chirpstack_tenant_id.png" alt="" width="375"><figcaption></figcaption></figure>
 2.  Application ID: Go to Applications, select your specific application, and copy the ID from the application dashboard.
 
-    <figure><img src="../.gitbook/assets/chirpstack_application_id (1).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/chirpstack_application_id.png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Step 2: Enable Onboarding in Blynk
 

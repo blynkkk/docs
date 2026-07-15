@@ -50,7 +50,7 @@ You can [automate](../concepts/automations.md) your connected devices with the f
 
 ### **Notifications & Events**
 
-<div align="left"><figure><img src="../.gitbook/assets/notifications&#x26;events (1).png" alt="" width="375"><figcaption><p>Notifications &#x26; events section</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/notifications&#x26;events.png" alt="" width="375"><figcaption><p>Notifications &#x26; events section</p></figcaption></figure></div>
 
 The list of notifications from all devices will be here.
 
@@ -100,9 +100,9 @@ At the top left corner of the main screen, there's a **Burger** icon that opens 
 * **My Organizations (households)** – view the structure of your organization. Switch to one of your suborganizations to view the app as a member of that suborg.
 * **Billing** – view and manage your plan (if you initially subscribed on this platform).
 * **Settings** – set up sounds for notifications, light/dark theme, biometric authentication and other global settings for the app.
-* **Help** –  quick access to Blynk's documentation.
+* **Help** – quick access to Blynk's documentation.
 * **About** – app version, server, logs, reset learning cards and other useful resouerces.
-* **Log out**&#x20;
+* **Log out**
 
 ## **Right menu**
 

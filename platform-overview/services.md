@@ -27,11 +27,9 @@ You can find the full guide on how to use WiFi provisioning by the link below:
 [blynk-edgent-wifi-provisioning.md](../getting-started/activating-devices/blynk-edgent-wifi-provisioning.md)
 {% endcontent-ref %}
 
-
-
 ## Blynk.Air
 
-<figure><img src="../.gitbook/assets/28-edgent-blynk inject and air-blynk air.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3-introduction-blynk-air 1.png" alt=""><figcaption></figcaption></figure>
 
 A micro-service for Firmware Over-the-Air Updates responsible for:
 
@@ -43,4 +41,3 @@ You can find the full guide on how to set up OTA updates by the link below:
 {% content-ref url="../blynk.edgent/updating-devices-firmwares-ota.md" %}
 [updating-devices-firmwares-ota.md](../blynk.edgent/updating-devices-firmwares-ota.md)
 {% endcontent-ref %}
-
