@@ -351,10 +351,10 @@
   * [HTTPS API Troubleshooting](blynk.cloud/device-https-api/troubleshooting.md)
 * [Platform API](blynk.cloud/platform-https-api/README.md)
   * ```yaml
-    type: builtin:openapi
     props:
       models: true
       downloadLink: false
+    type: builtin:openapi
     dependencies:
       spec:
         ref:

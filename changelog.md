@@ -1,5 +1,32 @@
 # Changelog
 
+## June 18, 2026
+
+### 🚀 New Features
+
+**Scheduled Reports** — generate reports automatically on a schedule through automations, with a dedicated permission to control who can run them. (Only for dedicated Enterprise Servers)
+
+**Unit Conversion & Custom Units** — pick your preferred units at the user and organization level, convert datastream values between units, and let **Smart Unit Scaling** automatically switch to the most readable unit (e.g., showing _12 h_ instead of _0.5 d_, or _30 mW_ instead of _0.03 W_) with short notations. (Only for dedicated Enterprise Servers)
+
+**OIDC Login** — existing users can now sign in via OIDC. (Only for dedicated Enterprise Servers)
+
+### ✨ Improvements
+
+* **Dashboards & Widgets** — faster dashboards with live-updating label widgets; smoother "Metrics over time" and "Metrics of devices" widgets; label widgets now show enum values and colors correctly; Location datastream support in the Modules widget.
+* **Data export** — CSV exports now follow the same event ordering shown in the widget.
+* **Blueprints** — status indicators on "My Blueprints" cards, working Copy Code button, and cleaner text formatting.
+* **Automation** — the editor no longer closes when you click outside it, devices are sorted A–Z, and automation tiles share a consistent size.
+* **AI** — the Confirm button now works for accepting proposed changes, and AI chat handles data converters more reliably.
+* **Templates & Metadata** — clearer metafield settings, better step and value handling, and products using the same digital/analog pin can now be saved.
+* **Security** — OAuth client secrets are now shown only once.
+
+### 🐞 Fixes
+
+* Resolved crashes and out-of-memory issues when opening dashboards with aggregated "Metrics over time" widgets.
+* Fixed data not appearing in the "Metrics of devices" widget and search missing datastreams lower in the list.
+* Numerous unit-conversion display and formatting fixes for correct, consistent values.
+* Widget, map, switch, and image-map polish across the dashboard.
+
 ## June 2, 2026
 
 * Reordered and renamed sections in the template sidebar navigation
@@ -129,7 +156,7 @@
 
 * Added Twilio and TextGrid for Production Plans. You can find it in "Developer Zone" -> "Integrations" section:
 
-<figure><img src=".gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
 
