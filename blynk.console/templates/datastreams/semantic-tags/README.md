@@ -4,7 +4,7 @@ Semantic Tags let you label the meaning of a datastream's data — for example,
 temperature, battery level, or RSSI — so Blynk can power smarter dashboards,
 column management, automations, and device analytics automatically.
 
-<figure><img src="../../.gitbook/assets/datastream-settings-semantic-tags.png" alt=""><figcaption><p>Sementic Tags in Datastream Settings</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/datastream-settings-semantic-tags.png" alt=""><figcaption><p>Sementic Tags in Datastream Settings</p></figcaption></figure>
 
 ---
 
@@ -53,7 +53,7 @@ Applied settings can still be overridden manually. However, if a System Tag
 specifies a set of supported Data Types, you cannot select a Data Type outside
 that supported set.
 
-<figure><img src="../../.gitbook/assets/datastream-settings-semantic-tags-suggested-settings.png" alt=""><figcaption><p>Suggested Datastream Settings by Semantic Tags</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/datastream-settings-semantic-tags-suggested-settings.png" alt=""><figcaption><p>Suggested Datastream Settings by Semantic Tags</p></figcaption></figure>
 
 {% hint style="success" %}
 **Pro Tip:** Use System Tags for well-known signals (such as RSSI or Battery
