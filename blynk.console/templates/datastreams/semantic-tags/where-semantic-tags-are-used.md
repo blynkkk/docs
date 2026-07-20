@@ -9,7 +9,7 @@ requiring manual configuration per device.
 
 ### Automations
 
-<figure><img src="../../.gitbook/assets/automation-control-segment-semantic-group.png" alt=""><figcaption><p>Use Semantic Tags in Automations</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/automation-control-segment-semantic-group.png" alt=""><figcaption><p>Use Semantic Tags in Automations</p></figcaption></figure>
 
 When building an Automation with a **Control Segment** action, you can choose
 which device properties to include. The property picker offers three views:
@@ -36,7 +36,7 @@ it is not used in Automation conditions.
 
 ### Dashboard Widgets
 
-<figure><img src="../../.gitbook/assets/dashboard-widget-settings-semantic-group.png" alt=""><figcaption><p>Use Semantic Tags in Dashboard Widgets</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/dashboard-widget-settings-semantic-group.png" alt=""><figcaption><p>Use Semantic Tags in Dashboard Widgets</p></figcaption></figure>
 
 When configuring a dashboard widget, the datastream picker includes a
 **Property Group (Semantics)** view. This lets you bind the widget to a
@@ -48,7 +48,7 @@ of which exact pin holds the relevant data on each device.
 
 ### Column Management (Devices List)
 
-<figure><img src="../../.gitbook/assets/column-management-semantic-groups.png" alt=""><figcaption><p>Use Semantic Tags in Column Management</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/column-management-semantic-groups.png" alt=""><figcaption><p>Use Semantic Tags in Column Management</p></figcaption></figure>
 
 In the **Devices List**, column management lets you add columns driven by
 semantic tags. When adding a new column, you can select:
@@ -69,7 +69,7 @@ single, unambiguous datastream for every device.
 
 ### Developer Tools
 
-<figure><img src="../../.gitbook/assets/developer-tools-semantic-tags.png" alt=""><figcaption><p>Use Semantic Tags for pre-defined device metrics in Developer Tools</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/developer-tools-semantic-tags.png" alt=""><figcaption><p>Use Semantic Tags for pre-defined device metrics in Developer Tools</p></figcaption></figure>
 
 The **Developer Tools** section of a device automatically surfaces datastreams
 tagged with specific System Tags — no additional configuration is needed:
@@ -89,7 +89,7 @@ panels are populated automatically. If the tag is absent, the panel is hidden.
 
 ### Device Filters (Dashboard Widgets)
 
-<figure><img src="../../.gitbook/assets/dashboard-widget-filter-by-semantic-group.png" alt=""><figcaption><p>Filter by Semantic Tags in Dashboard Widgets</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/dashboard-widget-filter-by-semantic-group.png" alt=""><figcaption><p>Filter by Semantic Tags in Dashboard Widgets</p></figcaption></figure>
 
 In dashboard widgets that support device-level filtering, the
 **Filter by Datastream Value** option uses a multi-level cascader picker:
@@ -111,4 +111,4 @@ virtual pins for the same measurement.
 - [Automations](https://docs.blynk.io/en/concepts/automations)
 - [Dashboard Widgets](https://docs.blynk.io/en/blynk.console/dashboards)
 - [Devices List](https://docs.blynk.io/en/blynk.console/devices)
-- [Developer Tools](https://docs.blynk.io/en/blynk.console/devices/developer-tools)
+- [Developer Tools](https://docs.blynk.io/en/blynk.console/devices/device-profile/developer-tools)
