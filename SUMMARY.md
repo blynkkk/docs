@@ -11,7 +11,7 @@
   * [Troubleshooting](getting-started/what-do-i-need-to-blynk/troubleshooting.md)
 * [Device Activation Methods](getting-started/activating-devices/README.md)
   * [Manual Device Activation](getting-started/activating-devices/manual-device-activation.md)
-  * [WiFi provisioning](getting-started/activating-devices/blynk-edgent-wifi-provisioning.md)
+  * [Dynamic provisioning](getting-started/activating-devices/blynk-edgent-wifi-provisioning.md)
   * [Static Token](getting-started/activating-devices/blynk-edgent-static-authtoken.md)
 * [Template Quick Setup](getting-started/template-quick-setup/README.md)
   * [Set Up Datastreams](getting-started/template-quick-setup/set-up-datastreams.md)
