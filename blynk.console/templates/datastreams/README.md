@@ -4,6 +4,8 @@ Datastreams are the foundation of how Blynk handles device data. Every value a d
 
 Each Datastream maps to a **Virtual Pin** and defines how that data is typed, stored, displayed, and used across the platform: in dashboards, automations, and reports.
 
+<figure><img src="../../../.gitbook/assets/datastreams-managing-datastreams-list.png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 ### Data Types

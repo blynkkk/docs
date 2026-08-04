@@ -4,6 +4,8 @@
 
 Each Datastream is configured through a settings panel with a left-side navigation. This page covers all available settings.
 
+<figure><img src="../../../.gitbook/assets/datastream-settings-general.png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 ### General
@@ -223,6 +225,8 @@ Define what each integer key means. The device always sends and receives integer
 
 Each key can be assigned a color. This color is reflected in widgets that support color-by-state, such as the LED widget.
 
+<figure><img src="../../../.gitbook/assets/datastream-type-enumerable.png" alt=""><figcaption></figcaption></figure>
+
 **Outcome Values**
 
 Outcome labels are the string representations displayed in the UI. The device always communicates using the integer key — outcome strings are display-only and are not sent to the device.
@@ -249,6 +253,8 @@ BLYNK_WRITE(V3) {
 ### Location Data Type Reference
 
 The Location data type stores a GPS coordinate pair. Used with Map widgets to show device position.
+
+<figure><img src="../../../.gitbook/assets/datastream-type-location.png" alt=""><figcaption></figcaption></figure>
 
 Values are two doubles: **longitude** and **latitude** sent as a comma-separated pair.
 
