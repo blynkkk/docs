@@ -8,31 +8,19 @@ Improve your header visually with a custom image that can be controlled from har
 
 **Theme** - Define how the widget design will appear in dark and light app/OS themes.
 
+**Datastream** - Select or create a datastream of data type integer. By changing the value of this datastream, an image index wil change.
 
+**Handle values out of range as empty**
 
-**Datastream** - Select or create a datastream of data type integer. By changing the value of this datastream, an image index wil change.&#x20;
-
-
-
-**Handle values out of range as empty**&#x20;
-
-When turned ON, widget will don't show an image if the incoming value is out of datastream min/max range.&#x20;
+When turned ON, widget will don't show an image if the incoming value is out of datastream min/max range.
 
 When OFF, the image with index closest to the current value will be shown.
 
-
-
 **Images** - Specify a list of images to display, where the Image ID corresponds to the respective values of the datastream.
-
-
 
 **Full width** - When ON, image will be expanded to the edges of the screen and under the Tabs.
 
-
-
 **Images scaling** - Choose between FIT or FILL options to adjust how the image appears within the container.
-
-
 
 ### **Properties**
 
@@ -71,7 +59,7 @@ Blynk.setProperty(V1, "urls", "https://image1.jpg", "https://image2.jpg");"
 ```
 
 {% hint style="warning" %}
-Make sure you not exceed the max string size of 255 chars when sending a long list of URLs&#x20;
+Make sure you not exceed the max string size of 255 chars when sending a long list of URLs
 {% endhint %}
 
 #### Show/Hide
@@ -111,14 +99,14 @@ https://blynk.cloud/external/api/update/property?token={token}\&pin={pin}\&urls=
 
 #### Query Parameters
 
-| Name                                    | Type   | Description                                                                                                       |
-| --------------------------------------- | ------ | ----------------------------------------------------------------------------------------------------------------- |
-| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../../concepts/device.md#authtoken) from Device info                                       |
-| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](../../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v") |
-| {property}                              | string | The property of the widget you want to update: `isHidden`, `url`, `urls`                                          |
-| isHidden                                | string | true or false                                                                                                     |
-| url                                     | string | Replace image by its index. Indexes start from 0. URL should be urlencoded                                        |
-| urls                                    | string | Replace the whole set of images with the new set of URLs. The URLs should be urlencoded                           |
+| Name                                    | Type   | Description                                                                              |
+| --------------------------------------- | ------ | ---------------------------------------------------------------------------------------- |
+| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../../concepts/device.md#authtoken) from Device info              |
+| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](/broken/pages/-MRUNFZezq-GsVolHHOj) (should start with "v") |
+| {property}                              | string | The property of the widget you want to update: `isHidden`, `url`, `urls`                 |
+| isHidden                                | string | true or false                                                                            |
+| url                                     | string | Replace image by its index. Indexes start from 0. URL should be urlencoded               |
+| urls                                    | string | Replace the whole set of images with the new set of URLs. The URLs should be urlencoded  |
 
 {% tabs %}
 {% tab title="200 Success" %}
@@ -132,4 +120,3 @@ https://blynk.cloud/external/api/update/property?token={token}\&pin={pin}\&urls=
 ```
 {% endtab %}
 {% endtabs %}
-

@@ -1,13 +1,13 @@
 # zeRGBa
 
-zeRGBa is a control for choosing colors that are sent as RGB values. RGB represents a color derived from the primary red, green, and blue colors, and with an intensity varied for each color between a level of 0 and 255.&#x20;
+zeRGBa is a control for choosing colors that are sent as RGB values. RGB represents a color derived from the primary red, green, and blue colors, and with an intensity varied for each color between a level of 0 and 255.
 
 ### Mode
 
 For both modes, the widget will update the datastream(s) with the RGB color values based on the widget position.
 
-* **Simple** - Assign one datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) integer or double each to R, G, and B (a total of three datastreams). &#x20;
-* **Advanced** - Assign one datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) string.  In the hardware, you access the RGB values from the datastream.  The RGB values will each vary between 0 and 255. &#x20;
+* **Simple** - Assign one datastream of [data type](/broken/pages/-MS3zKWJtlX_kqNf6y-l) integer or double each to R, G, and B (a total of three datastreams).
+* **Advanced** - Assign one datastream of [data type](/broken/pages/-MS3zKWJtlX_kqNf6y-l) string. In the hardware, you access the RGB values from the datastream. The RGB values will each vary between 0 and 255.
 
 ### Widget Controls
 
@@ -99,23 +99,19 @@ If V3 is a datastream of data type string, then the following code will position
 Blynk.virtualWrite(V3, 35, 196, 142);
 ```
 
-
-
 Sketch:[ Basic Sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
 
 Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)[NeoPixel](https://github.com/blynkkk/blynk-library/blob/master/examples/More/NeoPixel/NeoPixel.ino)
 
-
-
 ### Change Widget Properties
 
-You can change certain properties of the Widget from your hardware. For that, use this command:&#x20;
+You can change certain properties of the Widget from your hardware. For that, use this command:
 
 ```cpp
 Blynk.setProperty(vPin, "widgetProperty", "propertyValue"); 
 ```
 
-Where:&#x20;
+Where:
 
 * `vPin` is: virtual pin number the widget is assigned to
 * `widgetProperty`: property you want to change
@@ -175,7 +171,7 @@ The endpoint allows you to update the Datastream Property value via GET request.
 | Name                                    | Type   | Description                                                                                                                 |
 | --------------------------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------- |
 | token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                                                    |
-| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v")              |
+| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](/broken/pages/-MRUNFZezq-GsVolHHOj) (should start with "v")                                    |
 | {property}                              | string | <p>The property of the widget you want to update: <code>label</code>,<br><code>isDisabled</code>, <code>isHidden</code></p> |
 | label                                   | string | the text used as widget label                                                                                               |
 | isDisabled                              | string | true or false                                                                                                               |
@@ -194,7 +190,7 @@ The endpoint allows you to update the Datastream Property value via GET request.
 {% endtab %}
 {% endtabs %}
 
-### **Sync to the latest known state**&#x20;
+### **Sync to the latest known state**
 
 ```cpp
 BLYNK_CONNECTED() { 

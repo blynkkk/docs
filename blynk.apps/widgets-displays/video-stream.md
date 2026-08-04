@@ -4,7 +4,7 @@ The video widget allows you to display static, live, and streaming video(s) cont
 
 ### Datastream
 
-Select or create a datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) string.
+Select or create a datastream of [data type](/broken/pages/-MS3zKWJtlX_kqNf6y-l) string.
 
 At the moment Blynk doesn't provide streaming servers. So you can either stream directly from the camera, use third-party services, or host your own streaming server (on Raspberry Pi for example).
 
@@ -12,9 +12,9 @@ At the moment Blynk doesn't provide streaming servers. So you can either stream 
 
 The video widget has the following controls:
 
-1. **Play / Pause**:  Press the play button to start or continue the video.  Press the pause button to stop the video. &#x20;
-2. **Frame Sider**:  Grab and slide it to position the video to a particular frame. &#x20;
-3. **Full Screen**:  View the video in full screen.&#x20;
+1. **Play / Pause**: Press the play button to start or continue the video. Press the pause button to stop the video.
+2. **Frame Sider**: Grab and slide it to position the video to a particular frame.
+3. **Full Screen**: View the video in full screen.
 
 ### How to change the video URL property
 
@@ -36,7 +36,7 @@ You can change certain properties of the Widget from your hardware. For that, us
 Blynk.setProperty(vPin, "widgetProperty", "propertyValue"); 
 ```
 
-Where:&#x20;
+Where:
 
 * `vPin` is: virtual pin number the widget is assigned to
 * `widgetProperty`: property you want to change
@@ -48,7 +48,7 @@ Don't put **`Blynk.setProperty()`**&#x69;nto the **`void loop()`** as it can cau
 
 ### Properties you can change
 
-You can change the properties _url_, _isDisabled_, _isHidden_ of the widget from your hardware, or via an [HTTP API](https://app.gitbook.com/s/-MBFTVMf7L6S67HOuqVC/blynk.cloud). The URL must be encoded, so spaces in labels must be replaced with %20.&#x20;
+You can change the properties _url_, _isDisabled_, _isHidden_ of the widget from your hardware, or via an [HTTP API](https://app.gitbook.com/s/-MBFTVMf7L6S67HOuqVC/blynk.cloud). The URL must be encoded, so spaces in labels must be replaced with %20.
 
 #### **Change URL**
 
@@ -72,8 +72,6 @@ Widget will be hidden from dashboard. Design your UI so that it doesn't look wei
 Blynk.setProperty(V1, "isHidden", true);
 ```
 
-
-
 ### Change widget properties via HTTPs API
 
 ## Updates the Datastream Property and all assigned Widgets
@@ -96,14 +94,14 @@ The endpoint allows you to update the Datastream Property value via GET request.
 
 #### Query Parameters
 
-| Name                                    | Type   | Description                                                                                                    |
-| --------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------- |
-| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                                       |
-| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v") |
-| {property}                              | string | The property of the widget you want to update: `label`, `color`, `isDisabled`, `isHidden`                      |
-| url                                     | string | the url of the video that has to be played, urlencoded                                                         |
-| isDisabled                              | string | true or false                                                                                                  |
-| isHidden                                | string | true or false                                                                                                  |
+| Name                                    | Type   | Description                                                                               |
+| --------------------------------------- | ------ | ----------------------------------------------------------------------------------------- |
+| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                  |
+| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](/broken/pages/-MRUNFZezq-GsVolHHOj) (should start with "v")  |
+| {property}                              | string | The property of the widget you want to update: `label`, `color`, `isDisabled`, `isHidden` |
+| url                                     | string | the url of the video that has to be played, urlencoded                                    |
+| isDisabled                              | string | true or false                                                                             |
+| isHidden                                | string | true or false                                                                             |
 
 {% tabs %}
 {% tab title="200 Success" %}
@@ -118,7 +116,7 @@ The endpoint allows you to update the Datastream Property value via GET request.
 {% endtab %}
 {% endtabs %}
 
-### **Sync to the latest known state**&#x20;
+### **Sync to the latest known state**
 
 You can update your hardware to the latest datastream value from Blynk.Cloud after your hardware went offline, and then came online again. Use `Blynk.syncVirtual()` to update a single virtual pin, or `Blynk.syncAll()` to update all virtual pins. See [State Syncing](../../blynk.edgent-firmware-api/state-syncing.md) for more details.
 

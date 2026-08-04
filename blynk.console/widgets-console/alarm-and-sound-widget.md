@@ -4,20 +4,20 @@
 Available to PRO and Enterprise plans subscribers.
 {% endhint %}
 
-The alarm and sound widget creates an alarm in the Blynk.Console. It is triggered by a datastream value other than zero (0). &#x20;
+The alarm and sound widget creates an alarm in the Blynk.Console. It is triggered by a datastream value other than zero (0).
 
 ### Datastream
 
-Select or create a datastream of [data type integer](../templates/datastreams/datastreams-common-settings/data-type.md).&#x20;
+Select or create a datastream of [data type integer](/broken/pages/-MS3zKWJtlX_kqNf6y-l).
 
-You can change the ‘label’ property of the widget from your [hardware](../../blynk.edgent-firmware-api/widget-properties.md), or via an [HTTP API](../../blynk.cloud/device-https-api/update-property.md).  &#x20;
+You can change the ‘label’ property of the widget from your [hardware](../../blynk.edgent-firmware-api/widget-properties.md), or via an [HTTP API](../../blynk.cloud/device-https-api/update-property.md).
 
 ### Widget Controls
 
 The alarm and sound widget has the following controls:
 
-* **On / Off:** Disables (mutes) the alarm, or resets it. &#x20;
-* **Alarm Sound:**  When the ‘Allow end-user to change the sound’ widget option is enabled, the user can select the alarm sound to be played when the alarm is triggered.&#x20;
+* **On / Off:** Disables (mutes) the alarm, or resets it.
+* **Alarm Sound:** When the ‘Allow end-user to change the sound’ widget option is enabled, the user can select the alarm sound to be played when the alarm is triggered.
 
 ### How to trigger the alarm from the hardware
 
@@ -31,19 +31,19 @@ or
 Blynk.virtualWrite(V1, 1);
 ```
 
-Any integer value other than zero (0) will trigger the alarm.  The alarm can be disabled by changing the datastream value to zero (0) by using the `Blynk.virtualWrite()` command.&#x20;
+Any integer value other than zero (0) will trigger the alarm. The alarm can be disabled by changing the datastream value to zero (0) by using the `Blynk.virtualWrite()` command.
 
 Find full code examples of using `Blynk.virtualWrite()` for your hardware [here](https://examples.blynk.cc/?board=ESP32\&shield=ESP32%20WiFi\&example=GettingStarted%2FGetData).
 
 ### Change Alarm and Sound Properties
 
-You can change certain properties of the widget from your hardware using the command:&#x20;
+You can change certain properties of the widget from your hardware using the command:
 
 ```cpp
 Blynk.setProperty(vPin, "widgetProperty", "propertyValue"); 
 ```
 
-Where:&#x20;
+Where:
 
 * `vPin` is: virtual pin number the widget is assigned to
 * `widgetProperty`: property you want to change
@@ -55,7 +55,7 @@ Don't put **`Blynk.setProperty()`**&#x69;nto the **`void loop()`** as it can cau
 
 #### Properties you can change
 
-You can change the properties “label”, “isHidden” and “isMuted” of the widget from your [hardware](../../blynk.edgent-firmware-api/widget-properties.md), or via an [HTTP API](../../blynk.cloud/device-https-api/update-property.md). The “isMuted” property is unique to the Alarm and Sound widget and will enable or disable the mute option for the Alarm and Sound widget.&#x20;
+You can change the properties “label”, “isHidden” and “isMuted” of the widget from your [hardware](../../blynk.edgent-firmware-api/widget-properties.md), or via an [HTTP API](../../blynk.cloud/device-https-api/update-property.md). The “isMuted” property is unique to the Alarm and Sound widget and will enable or disable the mute option for the Alarm and Sound widget.
 
 ```cpp
 Blynk.setProperty(V1, "isMuted", "true");

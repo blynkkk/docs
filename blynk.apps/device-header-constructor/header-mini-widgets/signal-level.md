@@ -10,15 +10,13 @@ description: >-
 
 ### Settings
 
-**Datastream** - Select or create a datastream of data type integer, or double.&#x20;
+**Datastream** - Select or create a datastream of data type integer, or double.
 
-**Icon** - Select from three options to represent Signal Level. The data stream’s minimum and maximum values are automatically mapped to four signal level icons, plus a ‘No Signal’ state.&#x20;
+**Icon** - Select from three options to represent Signal Level. The data stream’s minimum and maximum values are automatically mapped to four signal level icons, plus a ‘No Signal’ state.
 
-**Show value** - You can show the datastream value. Turn it off to see just the icon.&#x20;
+**Show value** - You can show the datastream value. Turn it off to see just the icon.
 
 **Label** - Set custom label before the value. E.g Signal Level: /value/
-
-
 
 ### **Properties you can change**
 
@@ -35,8 +33,6 @@ Where:
 `isHidden`: property that controls the widget visibility
 
 `propertyValue`: value of the property you want to change. _true_ and _false_ values are supported.
-
-
 
 Example:
 
@@ -69,12 +65,12 @@ The endpoint allows you to update the Datastream Property value via GET request.
 
 #### Query Parameters
 
-| Name                                    | Type   | Description                                                                                                       |
-| --------------------------------------- | ------ | ----------------------------------------------------------------------------------------------------------------- |
-| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../../concepts/device.md#authtoken) from Device info                                       |
-| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](../../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v") |
-| {property}                              | string | The property of the widget you want to update: `isHidden`                                                         |
-| isHidden                                | string | true or false                                                                                                     |
+| Name                                    | Type   | Description                                                                              |
+| --------------------------------------- | ------ | ---------------------------------------------------------------------------------------- |
+| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../../concepts/device.md#authtoken) from Device info              |
+| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](/broken/pages/-MRUNFZezq-GsVolHHOj) (should start with "v") |
+| {property}                              | string | The property of the widget you want to update: `isHidden`                                |
+| isHidden                                | string | true or false                                                                            |
 
 {% tabs %}
 {% tab title="200 Success" %}

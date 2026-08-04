@@ -2,7 +2,7 @@
 
 Add up to 6 Mini Widgets to the header widgets to display battery level, the last reported timestamp, datastream value, and more.
 
-You can utilize  2 rows, each row containing up to 3 mini widgets.
+You can utilize 2 rows, each row containing up to 3 mini widgets.
 
 <div align="left"><figure><img src="../../../.gitbook/assets/all-mobile-header-widgets (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
@@ -17,8 +17,6 @@ Once the first widget is added, you'll notice two “plus” icons, enabling you
 To remove a widget, press on it to access its settings, and then tap the “trash” icon positioned at the top right corner. This will promptly delete the selected widget from your configuration.
 
 <figure><img src="../../../.gitbook/assets/add-mobile-header-widget 3.png" alt=""><figcaption><p>Adding a Header Mini Widget</p></figcaption></figure>
-
-
 
 ### **Properties**
 
@@ -35,8 +33,6 @@ Where:
 `isHidden`: property that controls the widget visibility
 
 `propertyValue`: value of the property you want to change. _true_ and _false_ values are supported.
-
-
 
 Example:
 
@@ -69,12 +65,12 @@ The endpoint allows you to update the Datastream Property value via GET request.
 
 #### Query Parameters
 
-| Name                                    | Type   | Description                                                                                                       |
-| --------------------------------------- | ------ | ----------------------------------------------------------------------------------------------------------------- |
-| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../../concepts/device.md#authtoken) from Device info                                       |
-| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](../../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v") |
-| {property}                              | string | The property of the widget you want to update: `isHidden`                                                         |
-| isHidden                                | string | true or false                                                                                                     |
+| Name                                    | Type   | Description                                                                              |
+| --------------------------------------- | ------ | ---------------------------------------------------------------------------------------- |
+| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../../concepts/device.md#authtoken) from Device info              |
+| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](/broken/pages/-MRUNFZezq-GsVolHHOj) (should start with "v") |
+| {property}                              | string | The property of the widget you want to update: `isHidden`                                |
+| isHidden                                | string | true or false                                                                            |
 
 {% tabs %}
 {% tab title="200 Success" %}
@@ -88,6 +84,3 @@ The endpoint allows you to update the Datastream Property value via GET request.
 ```
 {% endtab %}
 {% endtabs %}
-
-
-

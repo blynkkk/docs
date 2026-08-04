@@ -1,15 +1,13 @@
 # Icon Button
 
-The Icon Button assigns icons that are displayed according to the assigned datastream on/off state. The icon line and background colors may be configured based on the on/off state. You can also configure the button style and shape. &#x20;
-
-
+The Icon Button assigns icons that are displayed according to the assigned datastream on/off state. The icon line and background colors may be configured based on the on/off state. You can also configure the button style and shape.
 
 ### Mode
 
-Button can operate in these modes:&#x20;
+Button can operate in these modes:
 
 1. **Push.** Set to ON state when pressed, then back to OFF state when released
-2. **Switch.** Toggles between ON/OFF state each time it is pressed&#x20;
+2. **Switch.** Toggles between ON/OFF state each time it is pressed
 3. **Page.** Opens a specified app page when pressed (requires [PRO](https://blynk.io/pricing) plan)
 4. **QR.** Opens phone QR Scanner (requires [PRO](https://blynk.io/pricing) plan)
 
@@ -19,7 +17,7 @@ End users will tap on the widget and a code scanner (camera) will open. The came
 
 Once the code is successfully scanned, its contents will be sent to the hardware in a String format to the specified Datastream. The scanner screen will be closed automatically. A String Datastream should be added to the Device Template to accept these values.
 
-Value of the code is sent as is (not pre-processed or post-processed by Blynk).&#x20;
+Value of the code is sent as is (not pre-processed or post-processed by Blynk).
 
 In case of scanning an unsupported format, no error will be shown. User would need to close the scanner view (camera) manually.
 
@@ -27,12 +25,12 @@ End-users would need to grant permissions to use the camera on the smartphone OS
 
 #### Scanner works with these code formats
 
-* QR&#x20;
+* QR
 * AZTEC
 * CODE\_39
 * CODE\_39 mod 43
-* CODE\_93&#x20;
-* CODE\_128&#x20;
+* CODE\_93
+* CODE\_128
 * DATA\_MATRIX
 * EAN\_8
 * EAN-13
@@ -49,13 +47,9 @@ Android app can additionally support these formats:
 * UPC\_A
 * UPC\_EAN\_EXTENSION
 
-
-
 ### Datastream
 
-Select or create a datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) integer, double, or string.  Widget properties (label, color, etc.) are also changed via the datastream, but only for virtual, enumerable, and location pins, not digital and analog pins.
-
-
+Select or create a datastream of [data type](/broken/pages/-MS3zKWJtlX_kqNf6y-l) integer, double, or string. Widget properties (label, color, etc.) are also changed via the datastream, but only for virtual, enumerable, and location pins, not digital and analog pins.
 
 ### How to process button input on the device
 
@@ -80,8 +74,6 @@ BLYNK_WRITE(V1) // this command is listening when something is written to V1
   Serial.println(pinValue);
 }
 ```
-
-
 
 #### Changing button state
 
@@ -109,17 +101,15 @@ Sketch:[ Physical Button Poll](https://github.com/blynkkk/blynk-library/blob/mas
 
 Sketch: [Physical Button State Sync](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/SyncPhysicalButton/SyncPhysicalButton.ino)
 
-
-
 ### Change Icon Button Properties
 
-You can change certain properties of the Widget from your hardware. For that, use this command:&#x20;
+You can change certain properties of the Widget from your hardware. For that, use this command:
 
 ```cpp
 Blynk.setProperty(vPin, "widgetProperty", "propertyValue"); 
 ```
 
-Where:&#x20;
+Where:
 
 * `vPin` is: virtual pin number the widget is assigned to
 * `widgetProperty`: property you want to change
@@ -129,11 +119,9 @@ Where:&#x20;
 Don't put **`Blynk.setProperty()`**&#x69;nto the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, or use timers.
 {% endhint %}
 
-
-
 ### Properties you can change
 
-You can change the properties _onColor_, _offColor_, _onBackColor_, _offBackColor_, _label_, _isDisabled_, _isHidden_, and _page_ of the widget from your hardware, or via an [HTTP API](https://app.gitbook.com/s/-MBFTVMf7L6S67HOuqVC/blynk.cloud). The color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
+You can change the properties _onColor_, _offColor_, _onBackColor_, _offBackColor_, _label_, _isDisabled_, _isHidden_, and _page_ of the widget from your hardware, or via an [HTTP API](https://app.gitbook.com/s/-MBFTVMf7L6S67HOuqVC/blynk.cloud). The color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.
 
 #### Set a custom label for the widget
 
@@ -173,7 +161,7 @@ Blynk.setProperty(V1, "isHidden", true);
 
 #### **Change Page Target**
 
-This command will set which page should open when the icon button is pressed. PageId can be found in the mobile app in developer mode:  Toolbox -> Pages
+This command will set which page should open when the icon button is pressed. PageId can be found in the mobile app in developer mode: Toolbox -> Pages
 
 ```cpp
 Blynk.setProperty(V1, "page", "pageId");
@@ -207,7 +195,7 @@ The endpoint allows you to update the Datastream Property value via GET request.
 | Name                                    | Type   | Description                                                                                                                                                                                                                                                                                                          |
 | --------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                                                                                                                                                                                                                                             |
-| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v")                                                                                                                                                                                                       |
+| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](/broken/pages/-MRUNFZezq-GsVolHHOj) (should start with "v")                                                                                                                                                                                                                             |
 | {property}                              | string | <p>The property of the widget you want to update: <code>onLabel</code>,<br><code>offLabel</code>, <code>label</code>, <code>onColor</code>, <code>offColor</code>, <code>onBackColor</code>, <code>offBackColor</code>, <code>color</code>,<br><code>isDisabled</code>, <code>isHidden</code>, <code>page</code></p> |
 | label                                   | string | the text used as widget label                                                                                                                                                                                                                                                                                        |
 | isDisabled                              | string | true or false                                                                                                                                                                                                                                                                                                        |
@@ -231,7 +219,7 @@ The endpoint allows you to update the Datastream Property value via GET request.
 {% endtab %}
 {% endtabs %}
 
-### **Sync to the latest known state**&#x20;
+### **Sync to the latest known state**
 
 You can update your hardware to the latest datastream value from Blynk.Cloud after your hardware went offline, and then came online again. Use `Blynk.syncVirtual()` to update a single virtual pin, or `Blynk.syncAll()` to update all virtual pins. See [State Syncing](../../blynk.edgent-firmware-api/state-syncing.md) for more details.
 

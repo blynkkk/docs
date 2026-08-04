@@ -4,7 +4,7 @@ Displays one or more images specified by a HTTPS URL. You can change the image s
 
 ### Datastream
 
-Select or create a datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) integer.
+Select or create a datastream of [data type](/broken/pages/-MS3zKWJtlX_kqNf6y-l) integer.
 
 ### Widget Controls
 
@@ -71,17 +71,15 @@ Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sy
 
 Sketch: [VirtualPinRead](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/VirtualPinRead/VirtualPinRead.ino)
 
-
-
 ### Change Widget Properties
 
-You can change certain properties of the Widget from your hardware. For that, use this command:&#x20;
+You can change certain properties of the Widget from your hardware. For that, use this command:
 
 ```cpp
 Blynk.setProperty(vPin, "widgetProperty", "propertyValue"); 
 ```
 
-Where:&#x20;
+Where:
 
 * `vPin` is: virtual pin number the widget is assigned to
 * `widgetProperty`: property you want to change
@@ -93,15 +91,13 @@ Don't put **`Blynk.setProperty()`**&#x69;nto the **`void loop()`** as it can cau
 
 ### Properties you can change
 
-You can change the properties _label_, _isDisabled_, _isHidden_ of the widget from your hardware, or via an [HTTP API](https://app.gitbook.com/s/-MBFTVMf7L6S67HOuqVC/blynk.cloud). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
+You can change the properties _label_, _isDisabled_, _isHidden_ of the widget from your hardware, or via an [HTTP API](https://app.gitbook.com/s/-MBFTVMf7L6S67HOuqVC/blynk.cloud). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.
 
 #### **Change Widget Label**
 
 ```cpp
 Blynk.setProperty(V1, "label", "Air temperature");
 ```
-
-
 
 **Change Opacity, Scale, Rotation**
 
@@ -117,8 +113,6 @@ Blynk.setProperty(V1, "scale", 30); // 0-100%
 Blynk.setProperty(V1, "rotation", 10); //0-360 degrees
 ```
 
-
-
 **Change Images**
 
 Change the individual image by its index:
@@ -126,14 +120,14 @@ Change the individual image by its index:
 <pre class="language-cpp"><code class="lang-cpp"><strong>Blynk.setProperty(V1, "url", 1, "https://image1.jpg");
 </strong></code></pre>
 
-Change a list of URLs for the widget. First image will have index `0`, next `1`, and so on.&#x20;
+Change a list of URLs for the widget. First image will have index `0`, next `1`, and so on.
 
 ```cpp
 Blynk.setProperty(V1, "urls", "https://image1.jpg", "https://image2.jpg");
 ```
 
 {% hint style="warning" %}
-Make sure you not exceed the max string size of 255 chars when sending a long list of URLs&#x20;
+Make sure you not exceed the max string size of 255 chars when sending a long list of URLs
 {% endhint %}
 
 You can also use images from uploaded [assets.md](../../blynk.console/templates/assets.md "mention") by referencing its id:
@@ -162,7 +156,7 @@ Blynk.setProperty(V1, "isHidden", true);
 
 ## Updates the Datastream Property and all assigned Widgets
 
-<mark style="color:blue;">`GET`</mark>&#x20;
+<mark style="color:blue;">`GET`</mark>
 
 ```
 https://{server_address}/external/api/update/property?token={your 32 char token}&pin={your vPin}&{property}={value}
@@ -206,16 +200,16 @@ https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y
 
 #### Query Parameters
 
-| Name                                    | Type   | Description                                                                                                    |
-| --------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------- |
-| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                                       |
-| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v") |
-| {property}                              | string | The property of the widget you want to update: `label`, `isDisabled`, `isHidden`, `url`, `urls`                |
-| label                                   | string | the text used as widget label                                                                                  |
-| isDisabled                              | string | true or false                                                                                                  |
-| isHidden                                | string | true or false                                                                                                  |
-| url                                     | string | Replace image by its index. Indexes start from 0. URL should be urlencoded                                     |
-| urls                                    | string | Replace the whole set of images with the new set of URLs. The URLs should be urlencoded                        |
+| Name                                    | Type   | Description                                                                                     |
+| --------------------------------------- | ------ | ----------------------------------------------------------------------------------------------- |
+| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                        |
+| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](/broken/pages/-MRUNFZezq-GsVolHHOj) (should start with "v")        |
+| {property}                              | string | The property of the widget you want to update: `label`, `isDisabled`, `isHidden`, `url`, `urls` |
+| label                                   | string | the text used as widget label                                                                   |
+| isDisabled                              | string | true or false                                                                                   |
+| isHidden                                | string | true or false                                                                                   |
+| url                                     | string | Replace image by its index. Indexes start from 0. URL should be urlencoded                      |
+| urls                                    | string | Replace the whole set of images with the new set of URLs. The URLs should be urlencoded         |
 
 {% tabs %}
 {% tab title="200 Success" %}
@@ -230,7 +224,7 @@ https://blynk.cloud/external/api/update/property?token=GVki9IC70vb3IqvsV0YD3el4y
 {% endtab %}
 {% endtabs %}
 
-### **Sync to the latest known state**&#x20;
+### **Sync to the latest known state**
 
 You can update your hardware to the latest datastream value from Blynk.Cloud after your hardware went offline, and then came online again. Use `Blynk.syncVirtual()` to update a single virtual pin, or `Blynk.syncAll()` to update all virtual pins. See [State Syncing](../../blynk.edgent-firmware-api/state-syncing.md) for more details.
 

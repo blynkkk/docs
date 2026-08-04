@@ -36,7 +36,7 @@ If there are no devices yet, there is a button "Add new device" in the middle wi
 
 {% hint style="info" %}
 This section is visible only when a template has at least one datastream enabled for automation.\
-To learn how to enable a datastream for automation, please read the [Datastreams](../blynk.console/templates/datastreams/datastreams-common-settings/) article.
+To learn how to enable a datastream for automation, please read the [Datastreams](../blynk.console/templates/datastreams/datastreams-common-settings.md) article.
 {% endhint %}
 
 <div align="left"><figure><img src="../.gitbook/assets/Automations-tab.png" alt="" width="563"><figcaption><p>Automations section</p></figcaption></figure></div>

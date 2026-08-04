@@ -6,9 +6,9 @@ This widget allows you to control something in four directions, such as a pair o
 
 For both modes, the joystick will update the datastream(s) with the minimum X to the left, the maximum X to the right, the minimum Y to the bottom, and the maximum Y to the top.
 
-**Simple** - Assign one datastream each to the X and Y directions of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) integer or double. The output from the joystick movement will vary between the datastream min and max values.
+**Simple** - Assign one datastream each to the X and Y directions of [data type](/broken/pages/-MS3zKWJtlX_kqNf6y-l) integer or double. The output from the joystick movement will vary between the datastream min and max values.
 
-**Advanced** - Assign one datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) string. In the hardware, you access the X and Y direction values from the datastream. The X and Y values will vary between 0 and 255.
+**Advanced** - Assign one datastream of [data type](/broken/pages/-MS3zKWJtlX_kqNf6y-l) string. In the hardware, you access the X and Y direction values from the datastream. The X and Y values will vary between 0 and 255.
 
 ### Widget Controls
 
@@ -18,7 +18,7 @@ The widget has one control, the joystick. Press and then slide the joystick radi
 
 The same settings apply to both modes of Simple and Advanced.
 
-* **Autoreturn** - when enabled, the joystick will return to the center position after it is released by the user. &#x20;
+* **Autoreturn** - when enabled, the joystick will return to the center position after it is released by the user.
 * **Rotate on tilt** - when enabled, the output from the joystick will keep the X and Y directions aligned relative to the smartphone screen orientation (portrait / landscape).
 
 ### How to process widget input on the hardware
@@ -66,8 +66,6 @@ BLYNK_WRITE(V2) {
 } // BLYNK_WRITE(V2)
 ```
 
-
-
 #### Changing the datastream value(s)
 
 You can also change the datastream value with the hardware, resulting in a change to the widgets assigned to that datastream.
@@ -89,23 +87,19 @@ If V3 is a datastream of data type string, then the following code will move the
 Blynk.virtualWrite(V3, 0, 255);
 ```
 
-
-
 Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)[Joystick](https://github.com/blynkkk/blynk-library/blob/master/examples/Widgets/Joystick/Joystick.ino)
 
 Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)[Servo](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/Servo/Servo.ino)
 
-
-
 ### Change Widget Properties
 
-You can change certain properties of the Widget from your hardware. For that, use this command:&#x20;
+You can change certain properties of the Widget from your hardware. For that, use this command:
 
 ```cpp
 Blynk.setProperty(vPin, "widgetProperty", "propertyValue"); 
 ```
 
-Where:&#x20;
+Where:
 
 * `vPin` is: virtual pin number the widget is assigned to
 * `widgetProperty`: property you want to change
@@ -174,7 +168,7 @@ The endpoint allows you to update the Datastream Property value via GET request.
 | Name                                    | Type   | Description                                                                                                                                     |
 | --------------------------------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                                                                        |
-| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v")                                  |
+| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](/broken/pages/-MRUNFZezq-GsVolHHOj) (should start with "v")                                                        |
 | {property}                              | string | <p>The property of the widget you want to update: <code>label</code>, <code>color</code>,<br><code>isDisabled</code>, <code>isHidden</code></p> |
 | label                                   | string | the text used as widget label                                                                                                                   |
 | isDisabled                              | string | true or false                                                                                                                                   |
@@ -194,7 +188,7 @@ The endpoint allows you to update the Datastream Property value via GET request.
 {% endtab %}
 {% endtabs %}
 
-### **Sync to the latest known state**&#x20;
+### **Sync to the latest known state**
 
 ```cpp
 BLYNK_CONNECTED() { 

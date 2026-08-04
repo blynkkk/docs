@@ -10,8 +10,6 @@ Displays the current datastream / virtual pin value. Units assigned to the datas
 
 **Label** - Set custom label before the value. E.g Temperature: `/value/`
 
-
-
 ### **Properties you can change**
 
 You can hide/show header widgets from device. Use `isHidden` property API:
@@ -27,8 +25,6 @@ Where:
 `isHidden`: property that controls the widget visibility
 
 `propertyValue`: value of the property you want to change. _true_ and _false_ values are supported.
-
-
 
 Example:
 
@@ -61,12 +57,12 @@ The endpoint allows you to update the Datastream Property value via GET request.
 
 #### Query Parameters
 
-| Name                                    | Type   | Description                                                                                                       |
-| --------------------------------------- | ------ | ----------------------------------------------------------------------------------------------------------------- |
-| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../../concepts/device.md#authtoken) from Device info                                       |
-| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](../../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v") |
-| {property}                              | string | The property of the widget you want to update: `isHidden`                                                         |
-| isHidden                                | string | true or false                                                                                                     |
+| Name                                    | Type   | Description                                                                              |
+| --------------------------------------- | ------ | ---------------------------------------------------------------------------------------- |
+| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../../concepts/device.md#authtoken) from Device info              |
+| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](/broken/pages/-MRUNFZezq-GsVolHHOj) (should start with "v") |
+| {property}                              | string | The property of the widget you want to update: `isHidden`                                |
+| isHidden                                | string | true or false                                                                            |
 
 {% tabs %}
 {% tab title="200 Success" %}

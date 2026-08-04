@@ -11,14 +11,14 @@ An indicator on a circle is positioned based on the latest datastream value and 
 The ‘Trend’ and ‘Trend change’ options change the mode between the following:
 
 * **‘Trend’ disabled** - the latest datastream value is displayed.
-* **‘Trend’ enabled, ‘Trend change’ disabled** -in addition to the display of the latest datastream value, an arrow point up (increasing trend) or down (decreasing trend) is shown based on the first and last values over the ‘TREND PERIOD’.  The ‘TREND PERIOD’ is also displayed. &#x20;
-* **‘Trend’ enabled, ‘Trend change’ enabled** - in addition to the display of the latest datastream value, an arrow point up (increasing trend) or down (decreasing trend) is shown, and to the right of the trend arrow a numerical value for the change in value over the ‘TREND PERIOD’.  The ‘IGNORE DELTA FLUCTUATIONS’ setting will cause the trend calculation to ignore (filter) values less than this setting. &#x20;
+* **‘Trend’ enabled, ‘Trend change’ disabled** -in addition to the display of the latest datastream value, an arrow point up (increasing trend) or down (decreasing trend) is shown based on the first and last values over the ‘TREND PERIOD’. The ‘TREND PERIOD’ is also displayed.
+* **‘Trend’ enabled, ‘Trend change’ enabled** - in addition to the display of the latest datastream value, an arrow point up (increasing trend) or down (decreasing trend) is shown, and to the right of the trend arrow a numerical value for the change in value over the ‘TREND PERIOD’. The ‘IGNORE DELTA FLUCTUATIONS’ setting will cause the trend calculation to ignore (filter) values less than this setting.
 
-‘TREND PERIOD’ defines the period over which a trend will be evaluated. The options are: 15 min, 30 min, 1 h, 3h, 6h, 12h, 1d.  No trend arrow or trend change numerical value will be displayed until at least one trend period has elapsed.
+‘TREND PERIOD’ defines the period over which a trend will be evaluated. The options are: 15 min, 30 min, 1 h, 3h, 6h, 12h, 1d. No trend arrow or trend change numerical value will be displayed until at least one trend period has elapsed.
 
 ### Datastream
 
-Select or create a datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) integer or double. Widget properties (label, color, etc.) are also changed via the datastream, but only for virtual, enumerable, and location pins, not digital and analog pins.
+Select or create a datastream of [data type](/broken/pages/-MS3zKWJtlX_kqNf6y-l) integer or double. Widget properties (label, color, etc.) are also changed via the datastream, but only for virtual, enumerable, and location pins, not digital and analog pins.
 
 The “color” property changes the color of the radial gauge and the latest value shown in the center of the gauge.
 
@@ -59,7 +59,7 @@ Serial.println(pinValue);
 
 #### Changing the datastream value
 
-You can update the assigned datastream value using the hardware or HTTP API.&#x20;
+You can update the assigned datastream value using the hardware or HTTP API.
 
 **Hardware:**
 
@@ -79,8 +79,6 @@ https://{server_address}/external/api/batch/update/?token={your 32 char token}&V
 Don't put **`Blynk.virtualWrite()`**&#x69;nto the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](../../blynk.edgent-firmware-api/blynk-timer.md).
 {% endhint %}
 
-
-
 Sketch:[ Basic Sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
 
 Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)[Set Property](https://github.com/blynkkk/blynk-library/blob/master/examples/More/SetProperty/SetProperty_SingleValue/SetProperty_SingleValue.ino)
@@ -89,17 +87,15 @@ Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sy
 
 Sketch: [VirtualPinRead](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/VirtualPinRead/VirtualPinRead.ino)
 
-
-
 ### Change Widget Properties
 
-You can change certain properties of the Widget from your hardware. For that, use this command:&#x20;
+You can change certain properties of the Widget from your hardware. For that, use this command:
 
 ```cpp
 Blynk.setProperty(vPin, "widgetProperty", "propertyValue"); 
 ```
 
-Where:&#x20;
+Where:
 
 * `vPin` is: virtual pin number the widget is assigned to
 * `widgetProperty`: property you want to change
@@ -109,11 +105,9 @@ Where:&#x20;
 Don't put **`Blynk.setProperty()`**&#x69;nto the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, or use timers.
 {% endhint %}
 
-
-
 ### Properties you can change
 
-You can change the properties _label_, _color_, _isDisabled_, _isHidden_ of the widget from your hardware, or via an [HTTP API](https://app.gitbook.com/s/-MBFTVMf7L6S67HOuqVC/blynk.cloud). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
+You can change the properties _label_, _color_, _isDisabled_, _isHidden_ of the widget from your hardware, or via an [HTTP API](https://app.gitbook.com/s/-MBFTVMf7L6S67HOuqVC/blynk.cloud). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.
 
 #### **Change Label**
 
@@ -167,15 +161,15 @@ The endpoint allows you to update the Datastream Property value via GET request.
 
 #### Query Parameters
 
-| Name                                    | Type   | Description                                                                                                    |
-| --------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------- |
-| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                                       |
-| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v") |
-| {property}                              | string | The property of the widget you want to update: `label`, `color`, `isDisabled`, `isHidden`                      |
-| label                                   | string | the text used as widget label                                                                                  |
-| color                                   | string | button color hexadecimal, must include the hash # character urlencoded as %23                                  |
-| isDisabled                              | string | true or false                                                                                                  |
-| isHidden                                | string | true or false                                                                                                  |
+| Name                                    | Type   | Description                                                                               |
+| --------------------------------------- | ------ | ----------------------------------------------------------------------------------------- |
+| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                  |
+| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](/broken/pages/-MRUNFZezq-GsVolHHOj) (should start with "v")  |
+| {property}                              | string | The property of the widget you want to update: `label`, `color`, `isDisabled`, `isHidden` |
+| label                                   | string | the text used as widget label                                                             |
+| color                                   | string | button color hexadecimal, must include the hash # character urlencoded as %23             |
+| isDisabled                              | string | true or false                                                                             |
+| isHidden                                | string | true or false                                                                             |
 
 {% tabs %}
 {% tab title="200 Success" %}
@@ -190,7 +184,7 @@ The endpoint allows you to update the Datastream Property value via GET request.
 {% endtab %}
 {% endtabs %}
 
-### **Sync to the latest known state**&#x20;
+### **Sync to the latest known state**
 
 You can update your hardware to the latest datastream value from Blynk.Cloud after your hardware went offline, and then came online again. Use `Blynk.syncVirtual()` to update a single virtual pin, or `Blynk.syncAll()` to update all virtual pins. See [State Syncing](../../blynk.edgent-firmware-api/state-syncing.md) for more details.
 

@@ -2,31 +2,27 @@
 
 Allows you to interactively specify a linear slope for the control of actuators and other devices.
 
-
-
 ### Datastream
 
-Select or create a datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) string. Widget properties (label, color, etc.) are also changed via the datastream, but only for virtual, enumerable, and location pins, not digital and analog pins.
-
-
+Select or create a datastream of [data type](/broken/pages/-MS3zKWJtlX_kqNf6y-l) string. Widget properties (label, color, etc.) are also changed via the datastream, but only for virtual, enumerable, and location pins, not digital and analog pins.
 
 ### Widget Controls
 
 The widget has the following controls:
 
-1. **X1,Y1 coordinate handle**: drag to set the X1, Y1 coordinate position on the grid.&#x20;
-2. **X2, Y2 coordinate handle**: drag to set the X2, Y2 coordinate position on the grid.&#x20;
+1. **X1,Y1 coordinate handle**: drag to set the X1, Y1 coordinate position on the grid.
+2. **X2, Y2 coordinate handle**: drag to set the X2, Y2 coordinate position on the grid.
 
 ### Widget Settings
 
 * **Send on release** - updates the assigned datastream only when the handle is released by the user (recommended).
 * X & Y Axis:
-  * **X MIN, X MAX, Y MIN, Y MAX** - The X & Y Axis min/max values are limited to the range of 0 and 100.  The X & Y axis graph range can be limited more by adjusting the MIN and MAX limits for the X and Y Axis.
-  * **X GRID, Y GRID** - defines the spacing of the grid shown. &#x20;
+  * **X MIN, X MAX, Y MIN, Y MAX** - The X & Y Axis min/max values are limited to the range of 0 and 100. The X & Y axis graph range can be limited more by adjusting the MIN and MAX limits for the X and Y Axis.
+  * **X GRID, Y GRID** - defines the spacing of the grid shown.
   * **X MOVE STEP, Y MOVE STEP** - defines the increment the X & Y points change when the coordinate handles are dragged by the user.
 * Points:
   * **X1, Y1, X1, Y2** - customize the label shown for each x,y coordinate.
-  * **X1 MIN, Y1 MIN, X2 MIN, Y2 MIN** - limits the min/max value the user can choose on the grid.&#x20;
+  * **X1 MIN, Y1 MIN, X2 MIN, Y2 MIN** - limits the min/max value the user can choose on the grid.
 
 ### How to process widget with the hardware
 
@@ -60,11 +56,9 @@ BLYNK_WRITE(V1) {
 }
 ```
 
-
-
 #### Changing the datastream value(s)
 
-You can change the value of the datastream assigned to the widget with the hardware or HTTP API.  For a datastream V1 assigned data type of string to the Slope widget.
+You can change the value of the datastream assigned to the widget with the hardware or HTTP API. For a datastream V1 assigned data type of string to the Slope widget.
 
 **Hardware:**
 
@@ -94,17 +88,15 @@ Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sy
 
 Sketch: [VirtualPinRead](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/VirtualPinRead/VirtualPinRead.ino)
 
-
-
 ### Change Widget Properties
 
-You can change certain properties of the Widget from your hardware. For that, use this command:&#x20;
+You can change certain properties of the Widget from your hardware. For that, use this command:
 
 ```cpp
 Blynk.setProperty(vPin, "widgetProperty", "propertyValue"); 
 ```
 
-Where:&#x20;
+Where:
 
 * `vPin` is: virtual pin number the widget is assigned to
 * `widgetProperty`: property you want to change
@@ -113,8 +105,6 @@ Where:&#x20;
 {% hint style="danger" %}
 Don't put **`Blynk.setProperty()`**&#x69;nto the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, or use timers.
 {% endhint %}
-
-
 
 ### Properties you can change
 
@@ -149,8 +139,6 @@ Widget will be hidden from dashboard. Design your UI so that it doesn't look wei
 Blynk.setProperty(V1, "isHidden", true);
 ```
 
-
-
 ### Change widget properties via HTTPs API
 
 ## Updates the Datastream Property and all assigned Widgets
@@ -174,15 +162,15 @@ The endpoint allows you to update the Datastream Property value via GET request.
 
 #### Query Parameters
 
-| Name                                    | Type   | Description                                                                                                    |
-| --------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------- |
-| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                                       |
-| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v") |
-| {property}                              | string | The property of the widget you want to update: `label`, `color`, `isDisabled`, `isHidden`                      |
-| label                                   | string | the text used as widget label                                                                                  |
-| color                                   | string | button color hexadecimal, must include the hash # character urlencoded as %23                                  |
-| isDisabled                              | string | true or false                                                                                                  |
-| isHidden                                | string | true or false                                                                                                  |
+| Name                                    | Type   | Description                                                                               |
+| --------------------------------------- | ------ | ----------------------------------------------------------------------------------------- |
+| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                  |
+| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](/broken/pages/-MRUNFZezq-GsVolHHOj) (should start with "v")  |
+| {property}                              | string | The property of the widget you want to update: `label`, `color`, `isDisabled`, `isHidden` |
+| label                                   | string | the text used as widget label                                                             |
+| color                                   | string | button color hexadecimal, must include the hash # character urlencoded as %23             |
+| isDisabled                              | string | true or false                                                                             |
+| isHidden                                | string | true or false                                                                             |
 
 {% tabs %}
 {% tab title="200 Success" %}
@@ -197,7 +185,7 @@ The endpoint allows you to update the Datastream Property value via GET request.
 {% endtab %}
 {% endtabs %}
 
-### **Sync to the latest known state**&#x20;
+### **Sync to the latest known state**
 
 You can update your hardware to the latest datastream value from Blynk.Cloud after your hardware went offline, and then came online again. Use `Blynk.syncVirtual()` to update a single virtual pin, or `Blynk.syncAll()` to update all virtual pins. See [State Syncing](../../blynk.edgent-firmware-api/state-syncing.md) for more details.
 

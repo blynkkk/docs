@@ -10,7 +10,7 @@ Press the "spray" icon to access the Header Settings page.
 
 ### Header settings:
 
-**Theme** - Define how the header will appear in dark or light app themes. Since end-users can choose the theme of the OS they use, it's important to take it into consideration when working on a visual design of your app.&#x20;
+**Theme** - Define how the header will appear in dark or light app themes. Since end-users can choose the theme of the OS they use, it's important to take it into consideration when working on a visual design of your app.
 
 **Background color** - Choose the header background. Color can also be changed by device using `setProperty` firmware API
 
@@ -19,8 +19,6 @@ Press the "spray" icon to access the Header Settings page.
 **Datastream (optional)** - choose the Datastream if you plan to change header design from device using `setProperty` API.
 
 **Border -** Apply a stroke or a shadow under the header body
-
-
 
 ### **Change Header Properties**
 
@@ -44,21 +42,17 @@ Don't put **`Blynk.setProperty()`** into the **`void loop()`** as it can cause a
 
 **Properties you can change**
 
-You can change the _color_ and _contentDesign_ properties from your hardware, or via an HTTP API.&#x20;
+You can change the _color_ and _contentDesign_ properties from your hardware, or via an HTTP API.
 
 {% hint style="warning" %}
 The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.
 {% endhint %}
-
-
 
 **Set color**
 
 ```
 Blynk.setProperty(V1, "color", "#D3435C");
 ```
-
-
 
 **Set content design**
 
@@ -87,13 +81,13 @@ The endpoint allows you to update the Datastream Property value via GET request.
 
 #### Query Parameters
 
-| Name                                    | Type   | Description                                                                                                    |
-| --------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------- |
-| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                                       |
-| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v") |
-| {property}                              | string | The property of the header you want to update: `color`, `contentDesign`                                        |
-| color                                   | string | header color hexadecimal, must include the hash # character urlencoded as %23                                  |
-| contentDesign                           | string | light or dark                                                                                                  |
+| Name                                    | Type   | Description                                                                              |
+| --------------------------------------- | ------ | ---------------------------------------------------------------------------------------- |
+| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                 |
+| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](/broken/pages/-MRUNFZezq-GsVolHHOj) (should start with "v") |
+| {property}                              | string | The property of the header you want to update: `color`, `contentDesign`                  |
+| color                                   | string | header color hexadecimal, must include the hash # character urlencoded as %23            |
+| contentDesign                           | string | light or dark                                                                            |
 
 {% tabs %}
 {% tab title="200 Success" %}
@@ -108,14 +102,8 @@ The endpoint allows you to update the Datastream Property value via GET request.
 {% endtab %}
 {% endtabs %}
 
-
-
 ### Resizing
 
 In the default state, the header size depends on its content. However, you can manually change the size by dragging the handle at the bottom of it.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/mobile-header-resizing (4).png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/mobile-header-resizing (4).png" alt="" width="375"><figcaption></figcaption></figure></div>

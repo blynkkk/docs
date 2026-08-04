@@ -2,7 +2,7 @@
 
 ![](../../.gitbook/assets/simple-chart-widget-newsletter.png)
 
-Visualize live and historical data in a chart from a **single** datastream. Applications include sensor data and binary event logging. Choose from data aggregation options of average and sum. The Y-axis scaling can be customized.  Scrolling is an option, and you can connect missing data points.
+Visualize live and historical data in a chart from a **single** datastream. Applications include sensor data and binary event logging. Choose from data aggregation options of average and sum. The Y-axis scaling can be customized. Scrolling is an option, and you can connect missing data points.
 
 See also the [SuperChart widget](superchart.md) that can handle multiple datastreams, shows the Y axis values, and supports the chart types of line, step, area, bar, state.
 
@@ -21,8 +21,6 @@ Simple Chart features:
 ### Datastream
 
 Select or create a datastream of [data type](https://docs.blynk.io/en/blynk.console/templates/datastreams/datastreams-common-settings/data-type) integer or double.
-
-
 
 ### Widget Controls
 
@@ -139,8 +137,6 @@ https://{server_address}/external/api/update/?token={your 32 char token}&V1=3.14
 Don't put **`Blynk.virtualWrite()`**&#x69;nto the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](../../blynk.edgent-firmware-api/blynk-timer.md).
 {% endhint %}
 
-
-
 Sketch:[ Basic Sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
 
 Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)[Set Property](https://github.com/blynkkk/blynk-library/blob/master/examples/More/SetProperty/SetProperty_SingleValue/SetProperty_SingleValue.ino)
@@ -149,17 +145,15 @@ Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sy
 
 Sketch: [VirtualPinRead](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/VirtualPinRead/VirtualPinRead.ino)
 
-
-
 ### Change Widget Properties
 
-You can change certain properties of the Widget from your hardware. For that, use this command:&#x20;
+You can change certain properties of the Widget from your hardware. For that, use this command:
 
 ```cpp
 Blynk.setProperty(vPin, "widgetProperty", "propertyValue"); 
 ```
 
-Where:&#x20;
+Where:
 
 * `vPin` is: virtual pin number the widget is assigned to
 * `widgetProperty`: property you want to change
@@ -168,8 +162,6 @@ Where:&#x20;
 {% hint style="danger" %}
 Don't put **`Blynk.setProperty()`**&#x69;nto the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, or use timers.
 {% endhint %}
-
-
 
 ### Properties you can change
 
@@ -206,8 +198,6 @@ Widget will be hidden from dashboard. Design your UI so that it doesn't look wei
 Blynk.setProperty(V1, "isHidden", true);
 ```
 
-
-
 ### Change widget properties via HTTPs API
 
 ## Updates the Datastream Property and all assigned Widgets
@@ -234,7 +224,7 @@ The endpoint allows you to update the Datastream Property value via GET request.
 | Name                                    | Type   | Description                                                                                                                                |
 | --------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                                                                   |
-| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v")                             |
+| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](/broken/pages/-MRUNFZezq-GsVolHHOj) (should start with "v")                                                   |
 | {property}                              | string | The property of the widget you want to update: `label`, `color`, `isDisabled`, `isHidden`                                                  |
 | label                                   | string | the text used as widget label                                                                                                              |
 | color                                   | string | hexadecimal, must include the hash # character urlencoded as %23. 'Color' property changes title color if the title is set and is visible. |
@@ -254,7 +244,7 @@ The endpoint allows you to update the Datastream Property value via GET request.
 {% endtab %}
 {% endtabs %}
 
-### **Sync to the latest known state**&#x20;
+### **Sync to the latest known state**
 
 You can update your hardware to the latest datastream value from Blynk.Cloud after your hardware went offline, and then came online again. Use `Blynk.syncVirtual()` to update a single virtual pin, or `Blynk.syncAll()` to update all virtual pins. See [State Syncing](../../blynk.edgent-firmware-api/state-syncing.md) for more details.
 

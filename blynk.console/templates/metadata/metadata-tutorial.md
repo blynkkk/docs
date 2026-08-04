@@ -16,14 +16,14 @@ For example, a Serial Number Metadata field can be attached to every device, but
 
 4. Click **Add Metadata**.
 
-Choose the most relevant [type](../datastreams/datastreams-common-settings/data-type.md) for every metadata input. For example, if you would need to associate Serial Number with every product, add the “Number” metadata field.
+Choose the most relevant [type](/broken/pages/-MS3zKWJtlX_kqNf6y-l) for every metadata input. For example, if you would need to associate Serial Number with every product, add the “Number” metadata field.
 
 5. Set it up and click **Create** button once you've finished with this characteristic
 
 ![](https://user-images.githubusercontent.com/72824404/120796929-15da2d00-c544-11eb-8ed2-52ae0fdd94f7.png)
 
-6. Repeat steps 4 and 5 untill you create Metadata list you need &#x20;
-7. Click **Save** Template at the top right &#x20;
+6. Repeat steps 4 and 5 untill you create Metadata list you need
+7. Click **Save** Template at the top right
 8. Choose Apply Changes option (let's select Save Changes. Don't update active device this time) and click **Continue**
 
 ![](https://user-images.githubusercontent.com/72824404/120797093-3efabd80-c544-11eb-81bb-24344b16717b.png)
@@ -38,7 +38,7 @@ During the provision there will be prompts to input Device Metadata:
 
 ![Device profiling](https://user-images.githubusercontent.com/72790181/119658205-8a6ee680-be35-11eb-8825-6bc47971ef98.png)
 
-1. Change default value to actual one by tapping step buttons or direct input to the field. &#x20;
+1. Change default value to actual one by tapping step buttons or direct input to the field.
 2. Follow provision flow till it's end.
 
 ### 4. View Metadata

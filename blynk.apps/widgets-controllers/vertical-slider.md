@@ -4,7 +4,7 @@ The Vertical Slider varies the datastream value between the datastream’s min/m
 
 ### Datastream
 
-Select or create a datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) integer or double. Widget properties (label, color, etc.) are also changed via the datastream, but only for virtual, enumerable, and location pins, not digital and analog pins.
+Select or create a datastream of [data type](/broken/pages/-MS3zKWJtlX_kqNf6y-l) integer or double. Widget properties (label, color, etc.) are also changed via the datastream, but only for virtual, enumerable, and location pins, not digital and analog pins.
 
 ### Widget Controls
 
@@ -38,7 +38,7 @@ BLYNK_WRITE(V1) // this command is listening when something is written to V1
 
 #### Changing the datastream value
 
-You can update the assigned datastream value using the hardware or HTTP API.&#x20;
+You can update the assigned datastream value using the hardware or HTTP API.
 
 **Hardware:**
 
@@ -58,8 +58,6 @@ https://{server_address}/external/api/batch/update/?token={your 32 char token}&V
 Don't put **`Blynk.virtualWrite()`**&#x69;nto the **`void loop()`** as it can cause a flood of messages and your hardware will be disconnected. Send such updates only when necessary, use flags, or [timers](../../blynk.edgent-firmware-api/blynk-timer.md).
 {% endhint %}
 
-
-
 Sketch:[ Basic Sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
 
 Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)[Set Property](https://github.com/blynkkk/blynk-library/blob/master/examples/More/SetProperty/SetProperty_SingleValue/SetProperty_SingleValue.ino)
@@ -70,13 +68,13 @@ Sketch: [VirtualPinRead](https://github.com/blynkkk/blynk-library/blob/master/ex
 
 ### Change Widget Properties
 
-You can change certain properties of the Widget from your hardware. For that, use this command:&#x20;
+You can change certain properties of the Widget from your hardware. For that, use this command:
 
 ```cpp
 Blynk.setProperty(vPin, "widgetProperty", "propertyValue"); 
 ```
 
-Where:&#x20;
+Where:
 
 * `vPin` is: virtual pin number the widget is assigned to
 * `widgetProperty`: property you want to change
@@ -119,8 +117,6 @@ Blynk.setProperty(V1, "color", "#73D13D");  // green
 Blynk.setProperty(V1, "color", "#ED9D00");  // orange
 ```
 
-
-
 ### Change widget properties via HTTPs API
 
 ## Updates the Datastream Property and all assigned Widgets
@@ -145,15 +141,15 @@ The endpoint allows you to update the Datastream Property value via GET request.
 
 #### Query Parameters
 
-| Name                                    | Type   | Description                                                                                                    |
-| --------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------- |
-| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                                       |
-| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v") |
-| {property}                              | string | The property of the widget you want to update: `label`, `color`, `isDisabled`, `isHidden`                      |
-| label                                   | string | the text used as widget label                                                                                  |
-| isDisabled                              | string | true or false                                                                                                  |
-| isHidden                                | string | true or false                                                                                                  |
-| color                                   | string | color hexadecimal, must include the hash # character urlencoded as %23                                         |
+| Name                                    | Type   | Description                                                                               |
+| --------------------------------------- | ------ | ----------------------------------------------------------------------------------------- |
+| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                  |
+| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](/broken/pages/-MRUNFZezq-GsVolHHOj) (should start with "v")  |
+| {property}                              | string | The property of the widget you want to update: `label`, `color`, `isDisabled`, `isHidden` |
+| label                                   | string | the text used as widget label                                                             |
+| isDisabled                              | string | true or false                                                                             |
+| isHidden                                | string | true or false                                                                             |
+| color                                   | string | color hexadecimal, must include the hash # character urlencoded as %23                    |
 
 {% tabs %}
 {% tab title="200 Success" %}
@@ -167,8 +163,6 @@ The endpoint allows you to update the Datastream Property value via GET request.
 ```
 {% endtab %}
 {% endtabs %}
-
-
 
 ### Sync to the latest known state
 

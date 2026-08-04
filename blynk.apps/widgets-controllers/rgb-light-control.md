@@ -1,33 +1,33 @@
 # RGB Light Control
 
-This widget is intended to allow you to control an RGB connected to your hardware. It not only allows you to dynamically set the color, but you can also turn the RGB on/off, set the brightness, and choose custom animation effects. &#x20;
+This widget is intended to allow you to control an RGB connected to your hardware. It not only allows you to dynamically set the color, but you can also turn the RGB on/off, set the brightness, and choose custom animation effects.
 
 ### Datastream
 
 Four datastreams are required for this widget:
 
-1. **COLOR** - select or create a datastream of [data type](../../blynk.console/templates/datastreams/datastreams-common-settings/data-type.md) string for the color.  The three RGB color values are independently available to be read by the hardware.&#x20;
+1. **COLOR** - select or create a datastream of [data type](/broken/pages/-MS3zKWJtlX_kqNf6y-l) string for the color. The three RGB color values are independently available to be read by the hardware.
 2. **BUTTON** - select or create a datastream of data type integer or double with the minimum and maximum values that will turn on/off the RGB connected to the hardware..
-3. **BRIGHTNESS** - select or create a datastream of data type integer or double to represent the color intensity, with a minimum value of 0 and a maximum value of 100. &#x20;
-4. **ANIMATION SPEED** - select or create a datastream of data type integer or double with a range of values from 0 to 10,000.&#x20;
+3. **BRIGHTNESS** - select or create a datastream of data type integer or double to represent the color intensity, with a minimum value of 0 and a maximum value of 100.
+4. **ANIMATION SPEED** - select or create a datastream of data type integer or double with a range of values from 0 to 10,000.
 
-Widget properties (label, color, etc.) are also changed via the datastreams, but only for virtual, enumerable, and location pins, not digital and analog pins.&#x20;
+Widget properties (label, color, etc.) are also changed via the datastreams, but only for virtual, enumerable, and location pins, not digital and analog pins.
 
 ### Mode
 
 The Color Circle displays a rainbow of colors. The user moves the Color Picker radially around the Color Circle to choose a particular color. Tap one of three radio buttons to select between the Color, White, and Animation modes.
 
 * **Color Mode**: The user selects a hue/color on the Color Circle using the Color Picker. The Radial Slider allows the user to select a **luminance** (brightness) varying from 0 to 100.
-* **White Mode**: When the ‘White Tints’ option is selected, white tints may be selected with the Color Picker (red 219 to 255, green 219 to 255, blue 169 to 255). When the ‘White Only’ option is selected, the Color Picker is disabled, the RGB values are set to white, and only the brightness may be adjusted with the radial slider. &#x20;
-* **Animation Mode**: Choose the animation type by selecting the Strobe/Fade button, or the Change button for a pattern selection. The radial slider sets the animation speed in the range of 0 to 1000.  The Color Picker is disabled.
+* **White Mode**: When the ‘White Tints’ option is selected, white tints may be selected with the Color Picker (red 219 to 255, green 219 to 255, blue 169 to 255). When the ‘White Only’ option is selected, the Color Picker is disabled, the RGB values are set to white, and only the brightness may be adjusted with the radial slider.
+* **Animation Mode**: Choose the animation type by selecting the Strobe/Fade button, or the Change button for a pattern selection. The radial slider sets the animation speed in the range of 0 to 1000. The Color Picker is disabled.
 
 {% hint style="info" %}
-The RGB Light Control widget in Color Mode or White Mode with White Tints option generates RGB color values for a common cathode RGB.  If you are using a common anode RGB with your hardware, then you need to adjust the values in your firmware by subtracting each of them from 255.
+The RGB Light Control widget in Color Mode or White Mode with White Tints option generates RGB color values for a common cathode RGB. If you are using a common anode RGB with your hardware, then you need to adjust the values in your firmware by subtracting each of them from 255.
 {% endhint %}
 
 ### Settings
 
-* **WHITE MODE** - The ‘White Tints’ option allows you to choose white tints with the Color Picker. The ‘White Only’ disables the Color Picker and only the white brightness may be adjusted with the radial slider. &#x20;
+* **WHITE MODE** - The ‘White Tints’ option allows you to choose white tints with the Color Picker. The ‘White Only’ disables the Color Picker and only the white brightness may be adjusted with the radial slider.
 * **Send on release** - enable to only update the datastreams when the control is released by the user (recommended). Otherwise the datastreams will be continuously updated based on the color chosen until the control is released.
 
 Sketch:[ Basic Sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
@@ -38,13 +38,13 @@ Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sy
 
 ### Change Widget Properties
 
-You can change certain properties of the Widget from your hardware. For that, use this command:&#x20;
+You can change certain properties of the Widget from your hardware. For that, use this command:
 
 ```cpp
 Blynk.setProperty(vPin, "widgetProperty", "propertyValue"); 
 ```
 
-Where:&#x20;
+Where:
 
 * `vPin` is: virtual pin number the widget is assigned to
 * `widgetProperty`: property you want to change
@@ -56,7 +56,7 @@ Don't put **`Blynk.setProperty()`**&#x69;nto the **`void loop()`** as it can cau
 
 ### Properties you can change
 
-You can change the properties “isDisabled” and “isHidden” of the widget from your hardware, or via an [HTTP API](https://app.gitbook.com/s/-MBFTVMf7L6S67HOuqVC/blynk.cloud). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.&#x20;
+You can change the properties “isDisabled” and “isHidden” of the widget from your hardware, or via an [HTTP API](https://app.gitbook.com/s/-MBFTVMf7L6S67HOuqVC/blynk.cloud). The URL must be encoded, so spaces in labels must be replaced with %20, and color hexadecimal values in the HTTP API URL must include the hash # character urlencoded as %23.
 
 #### **Disable/Enable**
 
@@ -94,13 +94,13 @@ The endpoint allows you to update the Datastream Property value via GET request.
 
 #### Query Parameters
 
-| Name                                    | Type   | Description                                                                                                    |
-| --------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------- |
-| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                                       |
-| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v") |
-| {property}                              | string | The property of the widget you want to update: `isDisabled`, `isHidden`                                        |
-| isDisabled                              | string | true or false                                                                                                  |
-| isHidden                                | string | true or false                                                                                                  |
+| Name                                    | Type   | Description                                                                              |
+| --------------------------------------- | ------ | ---------------------------------------------------------------------------------------- |
+| token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                 |
+| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](/broken/pages/-MRUNFZezq-GsVolHHOj) (should start with "v") |
+| {property}                              | string | The property of the widget you want to update: `isDisabled`, `isHidden`                  |
+| isDisabled                              | string | true or false                                                                            |
+| isHidden                                | string | true or false                                                                            |
 
 {% tabs %}
 {% tab title="200 Success" %}
@@ -115,7 +115,7 @@ The endpoint allows you to update the Datastream Property value via GET request.
 {% endtab %}
 {% endtabs %}
 
-### **Sync to the latest known state**&#x20;
+### **Sync to the latest known state**
 
 You can update your hardware to the latest datastream value from Blynk.Cloud after your hardware went offline, and then came online again. Use `Blynk.syncVirtual()` to update a single virtual pin, or `Blynk.syncAll()` to update all virtual pins. See [State Syncing](../../blynk.edgent-firmware-api/state-syncing.md) for more details.
 

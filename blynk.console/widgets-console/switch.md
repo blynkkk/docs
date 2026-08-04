@@ -12,11 +12,11 @@ The Switch widget sends a command and displays the binary status of the device, 
 
 **Title** - the label shown at the top of the widget when the option ‘Hide widget name’ is not enabled.
 
-**Datastream** - [data type](../templates/datastreams/datastreams-common-settings/data-type.md) integer or double may be assigned.
+**Datastream** - [data type](/broken/pages/-MS3zKWJtlX_kqNf6y-l) integer or double may be assigned.
 
-**ON VALUE** - the numeric value you want the datastream value set to when the switch is turned on. Typically the value one (1). The range of values are constrained by the datastream [min value](../templates/datastreams/datastreams-common-settings/min-value.md) and [max value](../templates/datastreams/datastreams-common-settings/max-value.md) settings.
+**ON VALUE** - the numeric value you want the datastream value set to when the switch is turned on. Typically the value one (1). The range of values are constrained by the datastream [min value](/broken/pages/-MS3yy_t0NucFAmAc-G8) and [max value](/broken/pages/-MS3z7SEM67FxKq6UEWL) settings.
 
-**OFF VALUE** - the numeric value you want the datastream value set to when the switch is turned off. Typically the value is zero (0). The range of values are constrained by the datastream [min value](../templates/datastreams/datastreams-common-settings/min-value.md) and [max value](../templates/datastreams/datastreams-common-settings/max-value.md) settings.
+**OFF VALUE** - the numeric value you want the datastream value set to when the switch is turned off. Typically the value is zero (0). The range of values are constrained by the datastream [min value](/broken/pages/-MS3yy_t0NucFAmAc-G8) and [max value](/broken/pages/-MS3z7SEM67FxKq6UEWL) settings.
 
 **Color** - The widget color takes on the assigned datastream color by default.
 
@@ -30,4 +30,4 @@ The Switch widget sends a command and displays the binary status of the device, 
 
 **Hide widget name** - when enabled, hides the display of the ‘TITLE’ at the top of the widget.
 
-![Switch widget setup demo](../../.gitbook/assets/switch\_setup.gif)
+![Switch widget setup demo](../../.gitbook/assets/switch_setup.gif)

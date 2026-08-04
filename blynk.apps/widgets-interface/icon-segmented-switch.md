@@ -6,11 +6,11 @@ Presents two or more independently selectable options as icons and then updates 
 
 ### Datastream
 
-Select or create a datastream of [data type](https://docs.blynk.io/en/blynk.console/templates/datastreams/datastreams-common-settings/data-type) integer or enumerable. &#x20;
+Select or create a datastream of [data type](https://docs.blynk.io/en/blynk.console/templates/datastreams/datastreams-common-settings/data-type) integer or enumerable.
 
 ### Widget Controls
 
-The widget has no controls other than buttons that allow the user to select the configured options.&#x20;
+The widget has no controls other than buttons that allow the user to select the configured options.
 
 ### How to process widget with the hardware
 
@@ -35,8 +35,6 @@ BLYNK_WRITE {
 }
 ```
 
-
-
 #### Changing the widget state
 
 You can set the state of the widget by updating the assigned datastream value using the hardware or HTTP API.
@@ -55,8 +53,6 @@ Blynk.virtualWrite(V5, 1);
 https://{server_address}/external/api/update/?token={your 32 char token}&V5=1
 ```
 
-
-
 Sketch:[ Basic Sketch](https://github.com/blynkkk/blynk-library/blob/master/examples/GettingStarted/BlynkBlink/BlynkBlink.ino)
 
 Sketch:[ ](https://github.com/blynkkk/blynk-library/blob/master/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino)[Set Property](https://github.com/blynkkk/blynk-library/blob/master/examples/More/SetProperty/SetProperty_SingleValue/SetProperty_SingleValue.ino)
@@ -67,13 +63,13 @@ Sketch: [VirtualPinRead](https://github.com/blynkkk/blynk-library/blob/master/ex
 
 ### Change Widget Properties
 
-You can change certain properties of the Widget from your hardware. For that, use this command:&#x20;
+You can change certain properties of the Widget from your hardware. For that, use this command:
 
 ```cpp
 Blynk.setProperty(vPin, "widgetProperty", "propertyValue"); 
 ```
 
-Where:&#x20;
+Where:
 
 * `vPin` is: virtual pin number the widget is assigned to
 * `widgetProperty`: property you want to change
@@ -130,8 +126,6 @@ Widget will be hidden from dashboard. Design your UI so that it doesn't look wei
 Blynk.setProperty(V1, "isHidden", true);
 ```
 
-
-
 ### Change widget properties via HTTPs API
 
 ## Updates the Datastream Property and all assigned Widgets
@@ -158,7 +152,7 @@ The endpoint allows you to update the Datastream Property value via GET request.
 | Name                                    | Type   | Description                                                                                                                  |
 | --------------------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------- |
 | token<mark style="color:red;">\*</mark> | string | Device [auth token](../../concepts/device.md#authtoken) from Device info                                                     |
-| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](../../blynk.console/templates/datastreams/virtual-pin.md) (should start with "v")               |
+| pin<mark style="color:red;">\*</mark>   | string | The datastream [virtual pin](/broken/pages/-MRUNFZezq-GsVolHHOj) (should start with "v")                                     |
 | {property}                              | string | The property of the widget you want to update: `onLabel`, `offLabel`, `label`, `color`, `isDisabled`, `isHidden`, and `page` |
 | label                                   | string | the text used as widget label                                                                                                |
 | color                                   | string | button color hexadecimal, must include the hash # character urlencoded as %23                                                |
@@ -178,7 +172,7 @@ The endpoint allows you to update the Datastream Property value via GET request.
 {% endtab %}
 {% endtabs %}
 
-### **Sync to the latest known state**&#x20;
+### **Sync to the latest known state**
 
 You can update your hardware to the latest datastream value from Blynk.Cloud after your hardware went offline, and then came online again. Use `Blynk.syncVirtual()` to update a single virtual pin, or `Blynk.syncAll()` to update all virtual pins. See [State Syncing](../../blynk.edgent-firmware-api/state-syncing.md) for more details.
 
