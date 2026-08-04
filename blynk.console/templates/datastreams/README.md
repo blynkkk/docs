@@ -75,7 +75,7 @@ Click **Browse Presets** to add a pre-configured Datastream from Blynk's library
 
 Click **New Datastream**. Enter a name or pick from the preset suggestions, then configure the settings in the panel that opens.
 
-See Datastream Settings for a full reference of all configuration options.
+See [Datastream Settings](datastreams-common-settings.md) for a full reference of all configuration options.
 
 ***
 

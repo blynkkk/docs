@@ -76,7 +76,7 @@ Unit conversion lets Blynk automatically display sensor values in a different un
 
 For example, a device that reports temperature in °C can show values to users in °F. A flow sensor reporting in l/min can display readings in CFM. No firmware changes needed.
 
-See Unit Conversion for configuration details.
+See [Unit Conversion](unit-conversion.md) for configuration details.
 
 ***
 
