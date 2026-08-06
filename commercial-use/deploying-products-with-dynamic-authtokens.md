@@ -35,12 +35,16 @@ Dynamic AuthToken generation is a part of the device provisioning process:
 10. If they later need to connect this device to a different network, WiFi credentials can be changed by using Blynk app, by resetting the device with a physical button (you would need to plan it into your electrical circuit design).
 
 {% hint style="info" %}
-If your device also keeps a BLE connection alive during this process, the app can show your customer the device's live status and exact error codes as each of these steps happens, instead of only finding out after the fact. See Real-time feedback during provisioning (BLE).
+If your device also keeps a BLE connection alive during this process, the app can show your customer the device's live status and exact error codes as each of these steps happens, instead of only finding out after the fact. See [Real-time feedback during provisioning (BLE)](../getting-started/activating-devices/blynk-edgent-wifi-provisioning.md#real-time-feedback-during-provisioning-ble).
 {% endhint %}
 
 #### Preparation
 
 In general, Blynk.Edgent covers everything you need to enable your products to get AuthTokens. Following this guide will give you a full understanding of how this process works.
+
+{% content-ref url="../getting-started/activating-devices/blynk-edgent-wifi-provisioning.md" %}
+[blynk-edgent-wifi-provisioning.md](../getting-started/activating-devices/blynk-edgent-wifi-provisioning.md)
+{% endcontent-ref %}
 
 {% hint style="warning" %}
 **IMPORTANT**: When working on an electrical design for your product:
@@ -65,6 +69,10 @@ User experience is different for iOS and Android devices. Future updates of thes
 
 Once you have real customers provisioning real devices, you'll want visibility into how that's actually going — not just how it worked in your own test. **Provisioning Sessions** in Blynk.Console (Developer Zone) logs every attempt across your organization and sub-organizations, with success rates, average duration, and most common errors broken down by iOS/Android, plus a full step-by-step timeline for any individual session.
 
+{% content-ref url="../blynk.console/developers/debugging/provisioning-sessions.md" %}
+[provisioning-sessions.md](../blynk.console/developers/debugging/provisioning-sessions.md)
+{% endcontent-ref %}
+
 This is especially useful in the PRO/Enterprise workflows below, where you may not be the one running the provisioning yourself.
 
 #### Delivering products to clients (PRO plan workflow)
@@ -73,7 +81,7 @@ Here is the recommended workflow for managing customers in PRO plan so that your
 
 PRO plan was designed for managed services, where you would need to manually create and manage each customer.
 
-First of all, you need to get familiar with the Multi-tenancy concept, organizations hierarchy, and user permissions as you will be using these features often.
+First of all, you need to get familiar with the [Multi-tenancy concept](../concepts/users/multi-tenant-tree-structure.md), organizations hierarchy, and user permissions as you will be using these features often.
 
 To create a new client:
 
@@ -91,7 +99,7 @@ Alternatively, if you know the client's WiFi credentials or you provide a mobile
 * There will be 4 tabs: Info, Devices, Users, and Locations. Go through them and set up your client. Give them a name, and in the Users Tab invite your client to this organization using their email address.
 * Your customer will get an invitation email with a link to create a new account by simply creating a password
 * Customer will log in using Blynk.Apps for iOS and Android or Blynk.Console
-* Once their account is active, use the Device Transfer feature
+* Once their account is active, use the [Device Transfer](../blynk.console/devices/actions-with-devices.md#device-transfer) feature
 * The device will be transferred to the client and is ready for use.
 
 #### Delivering products to clients (Enterprise plan workflow)
