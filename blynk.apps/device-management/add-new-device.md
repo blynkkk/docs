@@ -46,7 +46,7 @@ If several similar devices might be nearby, set a **Broadcast Name** for the tem
 
 #### Firmware update, if required
 
-If the device needs a firmware update before it can be provisioned, the standard OTA update screens are shown at this point, before the connection step continues.
+If the device needs a firmware update before it can be provisioned, the standard [OTA update screens](../../blynk.edgent/updating-devices-firmwares-ota.md) are shown at this point, before the connection step continues.
 
 #### Connecting
 
@@ -79,7 +79,7 @@ The app checks for an active Ethernet connection and proceeds automatically once
 What you see once the device is online depends on what's already known about this template:
 
 1. **Apply saved configuration** — if a device from the same template was provisioned before with metadata, you're offered a button to open a drawer of recent configurations and apply one directly to the new device.
-2. **Configure device** — first device from this template with provisioning [metadata](https://docs.blynk.io/en/blynk.console/templates/metadata) enabled: continues into the device profiling flow below.
+2. **Configure device** — first device from this template with provisioning [metadata](https://docs.blynk.io/en/blynk.console/templates/metadata) enabled: continues into the [device profiling flow](add-new-device.md#device-profiling) below.
 3. **Nothing further to configure** — if the template has no provisioning metadata enabled, you're done: continue to the device dashboard, or add another device.
 
 ### Device profiling
@@ -92,7 +92,7 @@ If you've provisioned devices on this template before, you can skip re-entering 
 
 ### Error handling
 
-Provisioning is one of the trickiest moments for a new IoT product, so the app tries to be as specific as possible about what went wrong and what to do next. For the full list of error codes and what each one means, see Provisioning Error IDs in Provisioning Sessions.
+Provisioning is one of the trickiest moments for a new IoT product, so the app tries to be as specific as possible about what went wrong and what to do next. For the full list of error codes and what each one means, see [Provisioning Error IDs](../../blynk.console/developers/debugging/provisioning-sessions.md#provisioning-error-ids) in Provisioning Sessions.
 
 #### Devices with a live (BLE-assisted) connection
 
@@ -100,15 +100,15 @@ Some devices keep their Bluetooth connection to the phone alive throughout setup
 
 <figure><img src="../../.gitbook/assets/provisioning-error.png" alt="" width="375"><figcaption></figcaption></figure>
 
-The recovery instructions and the **See Troubleshooting** link come from the template's User Guides troubleshooting link, if one is configured, or a generic Blynk documentation link otherwise.
+The recovery instructions and the **See Troubleshooting** link come from the template's [User Guides](../../blynk.console/templates/user-guides.md) troubleshooting link, if one is configured, or a generic Blynk documentation link otherwise.
 
 Two additional fields appear below the instructions, visible only in **Developer Mode** — regular end users don't see these:
 
 * **Reason** — the specific error identifier.
-* **Session ID** — developers can look this up in Provisioning Sessions in the console to see the full step-by-step timeline for that attempt.
+* **Session ID** — developers can look this up in [Provisioning Sessions](../../blynk.console/developers/debugging/provisioning-sessions.md) in the console to see the full step-by-step timeline for that attempt.
 
 {% hint style="success" %}
-BLE-assisted provisioning is supported by the basic Blynk.Edgent examples found in the Blynk.Edgent overview — exact support depends on your hardware type.
+BLE-assisted provisioning is supported by the basic Blynk.Edgent examples found in the [Blynk.Edgent overview](../../blynk.edgent/overview.md) — exact support depends on your hardware type.
 {% endhint %}
 
 **Wi-Fi-specific errors** send you straight back to the relevant step — the network list if it was the wrong network, or the password screen (with the previously entered password still visible) if it was a wrong password.
@@ -139,8 +139,8 @@ Devices that ship with a pre-flashed **Static Token** (cellular, Ethernet, or ot
 2. Scanning opens a QR scanner in a bottom drawer; manual entry validates the code length as you type and flags it if it's incomplete.
 3. Once accepted, the device is claimed to your account and ready to use.
 
-See Static Token for how these tokens are generated and deployed by manufacturers.
+See [Static Token](../../getting-started/activating-devices/blynk-edgent-static-authtoken.md) for how these tokens are generated and deployed by manufacturers.
 
 ### Reconfiguring an existing device
 
-Use **Reconfigure** from the device's actions menu when a device needs new network credentials — the most common reasons are moving it to a new place or updating your Wi-Fi setup (new router, new password, switching networks). It also works for connecting a new or factory-reset device while keeping the data and settings of a previously set-up device. Either way, this starts the provisioning flow described at the top of this page again for that device slot. For the physical button/LED behavior used to reset a device before reconfiguring it, see Re-provisioning new WiFi credentials.
+Use **Reconfigure** from the device's actions menu when a device needs new network credentials — the most common reasons are moving it to a new place or updating your Wi-Fi setup (new router, new password, switching networks). It also works for connecting a new or factory-reset device while keeping the data and settings of a previously set-up device. Either way, this starts the provisioning flow described at the top of this page again for that device slot. For the physical button/LED behavior used to reset a device before reconfiguring it, see [Re-provisioning new WiFi credentials](../../getting-started/activating-devices/blynk-edgent-wifi-provisioning.md#re-provisioning-new-wifi-credentials).

@@ -46,13 +46,9 @@ Claiming token is secure. It can only be used for claiming purpose. Unlike AuthT
 
 After the QR token was used, device can't be claimed by anyone else. It can be unclaimed only by the owner of the device or by the manufacturer.
 
-####
-
 #### Relationship to the Device Template
 
 Static Tokens are generated for a specific Device Template. When device connects to the Blynk.Cloud for the first time, AuthToken is used for authentication. Then the server checks whether such AuthToken belongs to a Static Token. If this is true, this device will be using a corresponding Template.
-
-####
 
 #### Relationship to the Organization
 
