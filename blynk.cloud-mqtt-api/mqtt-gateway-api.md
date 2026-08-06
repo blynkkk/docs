@@ -29,7 +29,7 @@ To connect to the MQTT Gateway API using OAuth Client credentials, create the OA
 
 Only devices located within the OAuth Client's creation organization (or its descendant sub-organizations) will be accessible via the API.
 
-To create the OAuth Client, refer to the [OAuth 2.0 documentation](../blynk.console/settings/developers/oauth2.md).
+To create the OAuth Client, refer to the [OAuth 2.0 documentation](../blynk.console/developers/oauth2.md).
 
 #### Device Auth Token
 
@@ -50,13 +50,13 @@ The MQTT Gateway API extends the [Device MQTT API's](../blynk.cloud/device-mqtt-
 
 The prefix `dev/{deviceToken}/` directs the broker to the intended device within your organization's scope. The `{deviceToken}` in the topic must be the authentication token of the specific device you intend to manage or update, not the token used for your Gateway API connection.
 
-Example: To update the "Temperature" datastream value on a device, you publish the update payload to the topic: `dev/{deviceToken}/ds/Temperature`  (see the [Send data to Blynk](../blynk.cloud/device-mqtt-api/datastreams.md#send-data-to-blynk) article).
+Example: To update the "Temperature" datastream value on a device, you publish the update payload to the topic: `dev/{deviceToken}/ds/Temperature` (see the [Send data to Blynk](../blynk.cloud/device-mqtt-api/datastreams.md#send-data-to-blynk) article).
 
 ### Receiving MQTT downlinks
 
 The Management API uses a similar topic prefixing approach for subscribing to updates (downlinks) from devices. To receive a downlink message (e.g., a datastream update) from a specific device, you must include that device's authentication token in the subscription topic.
 
-Example: To receive updates for the "Temperature" datastream from a target device, subscribe to the topic: `dev/{deviceToken}/downlink/ds/Temperature`  (see the [Get data updates from Blynk](../blynk.cloud/device-mqtt-api/datastreams.md#get-data-updates-from-blynk) article).
+Example: To receive updates for the "Temperature" datastream from a target device, subscribe to the topic: `dev/{deviceToken}/downlink/ds/Temperature` (see the [Get data updates from Blynk](../blynk.cloud/device-mqtt-api/datastreams.md#get-data-updates-from-blynk) article).
 
 {% hint style="warning" %}
 **Subscription Wildcard Restrictions**

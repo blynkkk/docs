@@ -4,15 +4,17 @@ description: Terminology used in Blynk
 
 # Glossary
 
-## A
+### A
 
 `API` - an Application Programming Interface – computing interface that defines interactions between multiple software intermediaries
 
 `Auth Token` - a unique identifier that is assigned to each `Device` that is activated in the system.
 
-[`Automation`](../concepts/automations.md) - condition-to-action sets allowing `Devices` to complete tasks without user interaction.
+`Automation` - condition-to-action sets allowing `Devices` to complete tasks without user interaction.
 
-## B
+`AccessorySetupKit` - Apple's native framework (iOS 18+) that Blynk.Apps uses to discover and pair supported devices. When available, it replaces Blynk's in-app permissions and search screens with the system's own pairing UI.
+
+### B
 
 `Blynk.Console` - a web application to configure devices, manage users, organizations...
 
@@ -32,13 +34,13 @@ description: Terminology used in Blynk
 
 `Blynk Library` - first version of the hardware agent library . Now`Blynk.Edgent`
 
-## C
+### C
 
 `Category` - `Devices` group by their type that allows controlling all of them with voice assistants (Alexa, Google Assistant).
 
 `Claiming` - a process of associating the device with the User (device owner). Usually used with devices that connect to the Internet using cellular or wired connection. WiFI `Provisioning`
 
-## D
+### D
 
 `Dashboard` - a collection of `Widgets`
 
@@ -50,37 +52,37 @@ description: Terminology used in Blynk
 
 `Dynamic Auth Token` - a unique identifier that is activated in the system and is assigned to each `Device` automatically during Wi-Fi `Provisioning`
 
-## E
+### E
 
 `Event` - a recorded occurrence of an application-important event on the device
 
-## F
+### F
 
 `Firmware` - a low-level software application that controls electronics and peripherials
 
-## H
+### H
 
 `HTTP API` - a service that allows inter-operating with devices using a simple HTTP client. Devices can report their data using `HTTP` protocol.
 
-## L
+### L
 
 `Library` - a set of files embedded to the arduino (or any other) integrated development environment (IDE) that add more functionality and ease to the use the `Board`.
 
-## M
+### M
 
 `Metadata` - a `{key: value}` data associated with every device of a certain `Template`
 
-## N
+### N
 
 `Notification` - a short message triggered by a certain `Event` and delivered to the specified recipient as an Email, SMS or `Push Notification`
 
-## O
+### O
 
 `Organization` - a collection of users, devices, and locations
 
 `OTA` (also `FOTA`) – **O**ver-**T**he-**A**ir `Firmware` updates without accessing the `Device` physically.
 
-## P
+### P
 
 `Pin` - GPIO (general-purpose input/output) pin on your `Board` used to interface with external hardware components (sensors, servo motors, LCDs, etc) of your `Device`.
 
@@ -88,17 +90,19 @@ description: Terminology used in Blynk
 
 `Provisioning (also WiFI provisioning)` - a process where the Blynk app sends parameters required to establish a WiFi connection to the `device`.
 
+`Provisioning Session` - a logged record of a single device `Provisioning` attempt (successful, failed, or cancelled), viewable in `Blynk.Console` under Developer Zone → Debugging.
+
 `Profiling` - a process of filling-out of Device `Matadata` after `Claiming` or `Provisioning` a device
 
 `Push Notification` - a type of notification sent directly to the app on the smartphone
 
-## S
+### S
 
 `Shipment` - `OTA` `Firmware`loading to a single or multiple `Devices`
 
 `Static Auth Token` - a unique identifier that is activated in the system and is assigned to each `Device` manually by editting the `Sketch`
 
-## T
+### T
 
 `Tag` - a keyword or term that can be used to give a short description to a `User` or a `Device`
 
@@ -110,14 +114,14 @@ description: Terminology used in Blynk
 
 `Transfer` - move operation applied to 'Organizations', 'Devices' and Users, such as `Organization` or `Device Owner` changes.
 
-## U
+### U
 
 `User` - an account assigned to a person and is a member of group of people accessing an `Organization`
 
-## V
+### V
 
 `Virtual Pin` - a "channel" used to send processed data from/to cloud . Virtual pins have no physical representation on the hardware.
 
-## W
+### W
 
 `Widget` - a self-contained graphical user interface (GUI) element used to visualize data or get user input.

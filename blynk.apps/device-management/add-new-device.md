@@ -1,88 +1,130 @@
 # Add New Device
 
-## Connect the device with Blynk.Apps
+### Connect the device with Blynk.Apps
 
-1. Tap **Add new device**
+Tap **Add New Device** from the Devices tab.
 
-![Devices tab](https://user-images.githubusercontent.com/72790181/120279434-1a41e400-c2bf-11eb-8043-a7ae62397593.png)
-
-2. Make sure your device is powered on and waiting for connection.  &#x20;
-3. Tap **Ready**
-
-![Add new device](https://user-images.githubusercontent.com/72790181/120279456-2168f200-c2bf-11eb-818c-f012ef0d6981.png)
-
-4. **Choose your device** and tap it's name
-
-![Choose device](https://user-images.githubusercontent.com/72790181/120279475-29289680-c2bf-11eb-864a-2bec69665648.png)
-
-### **iOS device connection:**
-
-Once the **Ready** button is hit, the application tries to automatically connect to the device AP based on its hotspot prefix - **Blynk**. If connection is successful, the app goes straight to the **Connect your device** step. If unsuccessful (e.g. because the device has different hotspot prefix), the app presents with the instructions to go to the system settings and connect to the device manually:
-
-* tap **Go to Settings;**
-* select your Device in Wi-Fi settings
-* return back to the Blynk application
-* tap **Already connected;**
-* if asked, **allow** Blynk application to connect to devices in your local network;
-* proceed with common add device **flow**
-
-\*\*\*\*
-
-![IOS manual connection](https://user-images.githubusercontent.com/72790181/120279552-43627480-c2bf-11eb-97be-ad8f9130b916.png)
-
-## **Connect your device to WiFi**
-
-Once the app is connected to the device, the next step is to send to the device the WiFi credentials for it to use.
-
-1. tap **Choose Wi-Fi network** and select the network your mobile device is connected to;
-2. type selected Wi-Fi password;&#x20;
-3. there's an option to **Remember this network** **for other devices** – enabling it helps to save time if you need to add many devices.&#x20;
-4. tap **Continue.**
-
-![WiFi setup](https://user-images.githubusercontent.com/72790181/120279726-773d9a00-c2bf-11eb-9fc8-7bcab1681f02.png)
-
-{% hint style="success" %}
-Your smartphone will connect to the device and transfer the credentials, consequently, the device will try to connect to the internet and subsequently to the Cloud.
-{% endhint %}
-
-![Configuring device](https://user-images.githubusercontent.com/72790181/120279747-802e6b80-c2bf-11eb-9e05-0e31da8636dc.png)
-
-## **Device profiling**
+If the app doesn't already have the permissions it needs (e.g. Bluetooth, Local Network, Location), it will ask for them at this point.
 
 {% hint style="info" %}
-Once your device is successfully connected to the internet and the cloud, you can rename it to differentiate it from the others.
+On iOS 18 and later, Blynk uses Apple's **AccessorySetupKit** for device discovery and pairing. Because AccessorySetupKit handles this natively, the permissions screen is skipped entirely on those devices — the system handles access grants as part of the native pairing sheet instead (see below).
 {% endhint %}
 
-1. Tap **Continue**
+#### Prepare Your Device
 
-![Device connected](https://user-images.githubusercontent.com/72790181/120279939-b966db80-c2bf-11eb-9deb-becb387e85df.png)
+Before searching for the device, the app shows preparation instructions. What's shown here depends on how the device's template is configured:
 
-2. Follow the on-screen steps to create Device profile
+* **Multiple templates with their own guides** — you're first asked which template the device belongs to, then shown that template's specific instructions.
+* **A single template with an installation guide** — an **Install \[Product Name]** link opens the full guide.
+* **No guides configured** — generic preparation instructions are shown.
 
-![Device profiling](https://user-images.githubusercontent.com/72790181/120279960-c257ad00-c2bf-11eb-9aed-e9745aba0422.png)
+{% hint style="warning" %}
+Per-template installation/activation guides are an **Enterprise plan** feature. On other plans, this screen always shows generic preparation instructions, regardless of how many templates a device could match.
+{% endhint %}
 
 {% hint style="info" %}
-Check the device information to be correct on the Review screen. If something has to be changed you can edit it here by taping the field you need to edit.
+Template owners configure these per-template instructions (Installation Guide, Activation Guide, Troubleshooting link) under User Guides in the template settings. See the full guide-authoring reference here: [https://docs.blynk.io/en/blynk.console/templates/user-guides#device-activation-guide](https://docs.blynk.io/en/blynk.console/templates/user-guides#device-activation-guide).
 {% endhint %}
 
-3. Tap **Apply** once all is fine
+Read the instructions, make sure your device is powered on and in pairing mode, then tap **Find Devices**.
 
-![Review](https://user-images.githubusercontent.com/72790181/120279993-cdaad880-c2bf-11eb-9690-6c16c943fe91.png)
+#### Finding your device
+
+**On iOS**, the system's own AccessorySetupKit window takes over to search for and pair the device — you won't see Blynk's own search screen.
+
+**On Android** (and pre-iOS 18 devices), the system shows its own dialog listing the device's access points found nearby — tap the one you want to connect to, and the app proceeds straight to connecting.
+
+{% hint style="info" %}
+If several similar devices might be nearby, set a **Broadcast Name** for the template — the device advertises as `Blynk {broadcast-name}-XXXX` instead of a generic name, so both the AccessorySetupKit sheet and the Android picker above can identify it faster and show its product image and name from this very first step. Configure it under **Template → Template Settings → Device activation & provisioning → Dynamic provisioning**.
+{% endhint %}
+
+#### Firmware update, if required
+
+If the device needs a firmware update before it can be provisioned, the standard OTA update screens are shown at this point, before the connection step continues.
+
+#### Connecting
+
+Once a device is selected, the app connects to it and reads its details. If your device supports more than one connection type (e.g. Wi-Fi and Ethernet), you'll be asked to pick one at this point.
+
+Closing the flow at any point from here on prompts a confirmation — exiting counts as a Canceled session, and you'll need to start over.
+
+### Connect your device to a network
+
+#### Wi-Fi
+
+1. If you've previously saved Wi-Fi credentials on this app (via **Remember this network**), you're offered that saved network directly. Otherwise, the app fetches the list of networks visible to the device and shows them for you to pick from. Only networks compatible with the device are listed — 2.4 GHz, 5 GHz, or both, depending on what the device supports.
+2. Networks with a weak signal are marked **Weak signal**; selecting one asks you to confirm you want to proceed (or move closer to the router, or pick a different network).
+3. Enter the network password. Advanced connection settings (static IP, etc.) are available here if your device supports them.
+
+Once submitted, credentials are sent to the device, the device reports back whether it connected successfully, and the app waits for cloud confirmation that the device is online before showing the success screen.
+
+#### Cellular
+
+Cellular devices may offer a **Configure APN** step if your carrier requires a custom access point name.
+
+#### Ethernet
+
+The app checks for an active Ethernet connection and proceeds automatically once confirmed.
+
+### Success screen
+
+What you see once the device is online depends on what's already known about this template:
+
+1. **Apply saved configuration** — if a device from the same template was provisioned before with metadata, you're offered a button to open a drawer of recent configurations and apply one directly to the new device.
+2. **Configure device** — first device from this template with provisioning [metadata](https://docs.blynk.io/en/blynk.console/templates/metadata) enabled: continues into the device profiling flow below.
+3. **Nothing further to configure** — if the template has no provisioning metadata enabled, you're done: continue to the device dashboard, or add another device.
+
+### Device profiling
+
+If the template has provisioning metadata enabled, you'll be guided through a short setup wizard for that device (name, location, contact info, unit preferences, or whatever fields the template defines), then a **Review** screen to confirm everything before finishing.
+
+If you've provisioned devices on this template before, you can skip re-entering the same details: press **Apply saved configuration**, choose a previous configuration, and tap **Review and Apply**.
+
+### Error handling
+
+Provisioning is one of the trickiest moments for a new IoT product, so the app tries to be as specific as possible about what went wrong and what to do next. For the full list of error codes and what each one means, see Provisioning Error IDs in Provisioning Sessions.
+
+#### Devices with a live (BLE-assisted) connection
+
+Some devices keep their Bluetooth connection to the phone alive throughout setup. For these, the app can show the _exact_ error the device reported, plus recovery instructions, and lets you resume from the failed step instead of starting over.
+
+The recovery instructions and the **See Troubleshooting** link come from the template's User Guides troubleshooting link, if one is configured, or a generic Blynk documentation link otherwise.
+
+Two additional fields appear below the instructions, visible only in **Developer Mode** — regular end users don't see these:
+
+* **Reason** — the specific error identifier.
+* **Session ID** — developers can look this up in Provisioning Sessions in the console to see the full step-by-step timeline for that attempt.
 
 {% hint style="success" %}
-Profile is created.
+BLE-assisted provisioning is supported by the basic Blynk.Edgent examples found in the Blynk.Edgent overview — exact support depends on your hardware type.
 {% endhint %}
 
-4. Confirm by tapping **Continue**
+**Wi-Fi-specific errors** send you straight back to the relevant step — the network list if it was the wrong network, or the password screen (with the previously entered password still visible) if it was a wrong password.
 
-![Final step](https://user-images.githubusercontent.com/72790181/120280018-d56a7d00-c2bf-11eb-9e0c-3ce0e6aaa77a.png)
+#### Devices without a live connection
 
-## **Finalizing setup**
+If the device isn't BLE-assisted, the connection is simply lost on error and the cause isn't known right away. On your next attempt, the device reports whatever error it last hit, and it's surfaced as a snackbar on the Wi-Fi screen with a link to details.
 
-There’s one last screen of the provision process. 3 options are here:
+#### Proximity warnings
 
-* **Add new device** – add and setup completely new device;
-* **Add new device and apply most recent profile/metadata** – our advice is to give devices different names;
-* **Exit to app** – end device adding process and proceed to using it.
+The app can detect a weak connection between your phone and the device, or between the device and your router, and will warn you to move closer. The warning clears automatically once the connection improves.
 
-![Exit](https://user-images.githubusercontent.com/72790181/120280043-de5b4e80-c2bf-11eb-84d8-c3f6aaa252d2.png)
+#### Escalation
+
+If the same error happens on the same device three times in a row, the app stops suggesting you just try again and instead opens an escalation drawer:
+
+From here you can **Contact Support**, **Send Logs** (attaches app logs, if logging is enabled), or **Try Again**.
+
+### Claiming a device with a Static Token
+
+Devices that ship with a pre-flashed **Static Token** (cellular, Ethernet, or other non-Wi-Fi hardware) are added the same way — tap **Add New Device** — but instead of Wi-Fi setup you'll claim the device using its QR code:
+
+1. On the same template-driven **Prepare Your Device** screen described above, choose **Scan QR Code**, or **Enter Manually** if the code is printed as text instead of (or alongside) a QR code.
+2. Scanning opens a QR scanner in a bottom drawer; manual entry validates the code length as you type and flags it if it's incomplete.
+3. Once accepted, the device is claimed to your account and ready to use.
+
+See Static Token for how these tokens are generated and deployed by manufacturers.
+
+### Reconfiguring an existing device
+
+Use **Reconfigure** from the device's actions menu when a device needs new network credentials — the most common reasons are moving it to a new place or updating your Wi-Fi setup (new router, new password, switching networks). It also works for connecting a new or factory-reset device while keeping the data and settings of a previously set-up device. Either way, this starts the provisioning flow described at the top of this page again for that device slot. For the physical button/LED behavior used to reset a device before reconfiguring it, see Re-provisioning new WiFi credentials.

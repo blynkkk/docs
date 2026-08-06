@@ -70,9 +70,9 @@ Note the following regarding the former Blynk Legacy widgets:
 * [Eventor widget](http://docs.blynk.cc/#widgets-other-eventor) is replaced by [Automations](../../concepts/automations.md).
 * [Timer widget](http://docs.blynk.cc/#widgets-controllers-timer) is replaced by [Automations](../../concepts/automations.md).
 * [RTC widget](http://docs.blynk.cc/#widgets-other-rtc) is replaced by [Time API](../../blynk.edgent-firmware-api/rtc-clock.md).
-* [WebHook widget](http://docs.blynk.cc/#widgets-other-webhook) is replaced by [Webhooks](../../blynk.console/settings/developers/webhooks.md) feature in the Blynk.Console. They are triggered by a system event or a Datastream.
+* [WebHook widget](http://docs.blynk.cc/#widgets-other-webhook) is replaced by [Webhooks](../../blynk.console/developers/webhooks/) feature in the Blynk.Console. They are triggered by a system event or a Datastream.
 * [Notifications](http://docs.blynk.cc/#widgets-notifications) and [Email](http://docs.blynk.cc/#widgets-notifications-email) widgets are replaced by [Automations](../../concepts/automations.md) and [Template Events](../../getting-started/events-tutorial.md).
-* [Twitter](http://docs.blynk.cc/#widgets-notifications-twitter) widget was deprecated, but you can use [Webhooks](../../blynk.console/settings/developers/webhooks.md).
+* [Twitter](http://docs.blynk.cc/#widgets-notifications-twitter) widget was deprecated, but you can use [Webhooks](../../blynk.console/developers/webhooks/).
 * [Terminal widget](http://docs.blynk.cc/#widgets-displays-terminal) is replaced by the Terminal Widget available in both the [Blynk.App](https://docs.blynk.io/en/blynk.apps/widgets-app#terminal) and [Blynk.Console](https://docs.blynk.io/en/blynk.console/widgets-console/terminal).
 * [Table widget](http://docs.blynk.cc/#widgets-interface-table) is not yet available.
 * [Device Selector](http://docs.blynk.cc/#widgets-interface-device-selector) is replaced with Device Tiles in both [Blynk.App](https://docs.blynk.io/en/blynk.apps/device-management) and [Blynk.Console](https://docs.blynk.io/en/blynk.console/devices). Several devices can be grouped to be controlled simultaneously by a single command using Blynk.App Groups feature (available in Enterprise Plan only)

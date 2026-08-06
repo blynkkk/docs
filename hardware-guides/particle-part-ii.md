@@ -4,19 +4,19 @@ description: How to Control a Particle Device with Blynk
 
 # Particle - control with Blynk
 
-This guide can be used in combination with the first part, where we were connecting the Particle Boron device and pushing data to Blynk Cloud.&#x20;
+This guide can be used in combination with the first part, where we were connecting the Particle Boron device and pushing data to Blynk Cloud.
 
-This second part will help you change the state of a digital output on a Particle device built-in LED using either a pushbutton on the Blynk dashboard, or a Button’ widget in the Blynk.App.&#x20;
+This second part will help you change the state of a digital output on a Particle device built-in LED using either a pushbutton on the Blynk dashboard, or a Button’ widget in the Blynk.App.
 
 ### Hardware
 
-The Particle device is a [Boron 404x](https://store.particle.io/collections/boron-lte/products/boron-lte-cat-m1-noram-with-ethersim-4th-gen) cellular LTE Cat M1 device. The built-in LED on the device connected to digital I/O D7 will be utilized.&#x20;
+The Particle device is a [Boron 404x](https://store.particle.io/collections/boron-lte/products/boron-lte-cat-m1-noram-with-ethersim-4th-gen) cellular LTE Cat M1 device. The built-in LED on the device connected to digital I/O D7 will be utilized.
 
 ### Firmware
 
 A Particle [cloud function](https://docs.particle.io/reference/device-os/api/cloud-functions/particle-function/) causes code on a device to run when requested from the [Particle cloud API](https://docs.particle.io/reference/cloud-apis/api/#call-a-function). Up to 15 cloud functions may be registered, and each function call request and response uses one Particle Data Operation from your monthly or yearly quota. The function can also be triggered from the Particle [console](https://console.particle.io/), and the [CLI](https://docs.particle.io/getting-started/developer-tools/cli/). The function returns an integer defined by the function code.
 
-Below is the firmware code for the Boron. Note that the cloud function is first registered in setup() by the call to Particle.function(funcKey, funcName), and then the custom function ‘funcName’ is added to the script. In this example, the funcKey is ‘blynk\_led’ and the funcName is ‘blynkLED’.&#x20;
+Below is the firmware code for the Boron. Note that the cloud function is first registered in setup() by the call to Particle.function(funcKey, funcName), and then the custom function ‘funcName’ is added to the script. In this example, the funcKey is ‘blynk\_led’ and the funcName is ‘blynkLED’.
 
 ```cpp
 /*
@@ -101,13 +101,9 @@ int blynkLED(String on_off) {
 }
 ```
 
-Upload the firmware code to the Boron and then continue to power it so it can connect to the Particle cloud. Go to your Particle [console](https://console.particle.io/), select the Boron device, and then under the section ‘FUNCTIONS’ on the right side of the screen you will see the function key of ‘blynk\_led’ listed. Enter ‘on’ in the ‘Argument’ input area and click the ‘CALL’ button. Observe the Boron to confirm that the built-in blue LED on D7 turns on. Repeat, this time with the ‘off’ argument to turn off the LED.&#x20;
+Upload the firmware code to the Boron and then continue to power it so it can connect to the Particle cloud. Go to your Particle [console](https://console.particle.io/), select the Boron device, and then under the section ‘FUNCTIONS’ on the right side of the screen you will see the function key of ‘blynk\_led’ listed. Enter ‘on’ in the ‘Argument’ input area and click the ‘CALL’ button. Observe the Boron to confirm that the built-in blue LED on D7 turns on. Repeat, this time with the ‘off’ argument to turn off the LED.
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/functions_particle_blynk.jpg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/functions_particle_blynk.jpg" alt=""><figcaption></figcaption></figure></div>
 
 ### Particle API
 
@@ -115,13 +111,13 @@ Now that we have confirmed that the Particle function works properly on the Boro
 
 <figure><img src="../.gitbook/assets/1 (1).jpeg" alt=""><figcaption></figcaption></figure>
 
-The syntax for the API is:&#x20;
+The syntax for the API is:
 
 ```
 POST /v1/devices/{DEVICE_ID}/:{FUNCTION}
 ```
 
-Where {DEVICE\_ID} is your Particle device ID and {FUNCTION} is the cloud function name.&#x20;
+Where {DEVICE\_ID} is your Particle device ID and {FUNCTION} is the cloud function name.
 
 Example:
 
@@ -139,7 +135,7 @@ args on/off
 
 <figure><img src="../.gitbook/assets/3.jpeg" alt=""><figcaption></figcaption></figure>
 
-The ‘args’ value should be “on” or “off”, depending on if you want to turn the built-in LED on or off.&#x20;
+The ‘args’ value should be “on” or “off”, depending on if you want to turn the built-in LED on or off.
 
 For clarity, the full headers that will be sent with the HTTP POST by Postman are shown below. Note the key of ‘Authorization’ and the value of ‘Bearer {40 char Particle access token}’. A space is in between “Bearer” and the 40 character Particle access token. This is known as ‘Bearer Authorization’ or ‘token authentication’ and is an HTTP authentication scheme that involves security tokens called bearer tokens. In this case, the bearer token will be sent in an HTTP ‘Authorization’ header.
 
@@ -167,7 +163,7 @@ A successful execution will appear as follows:
 }
 ```
 
-Note that if you add a body key of “format” and value of “raw” then the response will simply be the integer value you configured for your Particle function `blynkLED()` with a value of -1, 1 or 0.&#x20;
+Note that if you add a body key of “format” and value of “raw” then the response will simply be the integer value you configured for your Particle function `blynkLED()` with a value of -1, 1 or 0.
 
 <figure><img src="../.gitbook/assets/5 (1).jpeg" alt=""><figcaption></figcaption></figure>
 
@@ -193,13 +189,9 @@ _If you already followed the steps from the prior article “_[_How to connect a
 
 Using the Blynk Datastream Definitions listed in the table, create or edit a device template named ‘BRN404X’ as shown below.
 
-<div align="left">
+<div align="left"><figure><img src="../.gitbook/assets/6.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/6.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
-
-Three datastreams of data types integer, enumerable, and string will be created to illustrate how each can be used to control the LED on the Particle Boron. In a real application, you would only need to employ one of these.&#x20;
+Three datastreams of data types integer, enumerable, and string will be created to illustrate how each can be used to control the LED on the Particle Boron. In a real application, you would only need to employ one of these.
 
 Click on the ‘Templates->Datastreams’ tab and configure the datastreams as defined in the Blynk Datastream Definitions table with the options as shown below. It is important to configure the Pin, Data Type, Is Raw, Min, Max, and Default Value as shown.
 
@@ -209,7 +201,7 @@ Click on the ‘Templates->Datastreams’ tab and configure the datastreams as d
 
 _If you already followed the steps from the prior article “_[_How to connect a Particle device to Blynk_](particle.md)_”, then add a new dashboard tab by clicking the ‘+’ button before following the steps below._
 
-Create a web dashboard by navigating to ‘Templates->\[template name = BRN404X]’ and then click on the ‘Web Dashboard’ tab. Create a dashboard as shown below, using a switch widget for virtual pins V7 and V8, and a text input widget for the string datastream V9. The label widgets to the right of each switch / text input widget are not required and are only to make it easy for you to see the latest datastream value.&#x20;
+Create a web dashboard by navigating to ‘Templates->\[template name = BRN404X]’ and then click on the ‘Web Dashboard’ tab. Create a dashboard as shown below, using a switch widget for virtual pins V7 and V8, and a text input widget for the string datastream V9. The label widgets to the right of each switch / text input widget are not required and are only to make it easy for you to see the latest datastream value.
 
 <figure><img src="../.gitbook/assets/8.jpeg" alt=""><figcaption></figcaption></figure>
 
@@ -230,11 +222,11 @@ Create a Blynk mobile device dashboard. The exact steps may vary between iOS and
 
 #### Blynk Device Activation
 
-Skip this step if you already followed the steps from the prior article “[How to connect a Particle device to Blynk](particle.md)”. If you didn’t, then go to that article and follow the steps under [‘Blynk Device Activation’](particle.md#blynk-device-activation).&#x20;
+Skip this step if you already followed the steps from the prior article “[How to connect a Particle device to Blynk](particle.md)”. If you didn’t, then go to that article and follow the steps under [‘Blynk Device Activation’](particle.md#blynk-device-activation).
 
 ### Blynk Webhook
 
-Navigate to ‘Settings -> Webhooks’ and create three new [webhooks](../blynk.console/settings/developers/webhooks.md), one each for the datastreams V7, V8, and V9, based on the information shown in the images below for V7, but substituting your Particle device ID and access token. The only difference between the three webhooks is the assignment of the V7, V8, and V9 datastream to the webhook, and the webhook name.&#x20;
+Navigate to ‘Settings -> Webhooks’ and create three new [webhooks](../blynk.console/developers/webhooks/), one each for the datastreams V7, V8, and V9, based on the information shown in the images below for V7, but substituting your Particle device ID and access token. The only difference between the three webhooks is the assignment of the V7, V8, and V9 datastream to the webhook, and the webhook name.
 
 <figure><img src="../.gitbook/assets/15.jpeg" alt=""><figcaption></figcaption></figure>
 
@@ -242,13 +234,13 @@ Navigate to ‘Settings -> Webhooks’ and create three new [webhooks](../blynk.
 
 After you are finished configuring each webhook, click the ‘Test webhook’ to verify it doesn’t throw an error (it won’t send the datastream value here, so don’t expect to see the LED on your Particle device change). Click the ‘Create Webhook’ button to save it and close the dialog.
 
-Note that request quota is ‘1 per minute’ so any datastream value changes faster than one minute will be ignored (webhook won’t execute).&#x20;
+Note that request quota is ‘1 per minute’ so any datastream value changes faster than one minute will be ignored (webhook won’t execute).
 
 ### Full System Test
 
 Everything is now configured to push data from either the Blynk web dashboard widgets or mobile app widgets to the associated Blynk webhook. The webhook will execute a HTTP POST to Particle’s API, and call the Particle function running on the Particle device.
 
-Make sure your Particle device is running and connected (cyan LED breathing). From the Blynk web dashboard, send a command from one of the widgets to turn on the Particle device LED. Wait 60 seconds, and then use the same widget to turn the LED off. The label widgets on the web dashboard will display the actual datastream values. Repeat the same tests from the Blynk mobile app.&#x20;
+Make sure your Particle device is running and connected (cyan LED breathing). From the Blynk web dashboard, send a command from one of the widgets to turn on the Particle device LED. Wait 60 seconds, and then use the same widget to turn the LED off. The label widgets on the web dashboard will display the actual datastream values. Repeat the same tests from the Blynk mobile app.
 
 ### Wrap Up
 

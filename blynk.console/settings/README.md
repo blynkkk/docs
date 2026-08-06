@@ -16,8 +16,8 @@ description: Set up and edit Blynk.Console properties
 [access.md](access.md)
 {% endcontent-ref %}
 
-{% content-ref url="developers/" %}
-[developers](developers/)
+{% content-ref url="../developers/" %}
+[developers](../developers/)
 {% endcontent-ref %}
 
 {% content-ref url="integrations.md" %}

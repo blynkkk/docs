@@ -34,7 +34,7 @@ In the Blynk Console:
 
 <figure><img src="../.gitbook/assets/Снимок экрана 2024-08-26 в 14.28.05.png" alt=""><figcaption><p>Template datastreams configuration example</p></figcaption></figure>
 
-> Each template is mapped to [a Notehub ProductUID](https://dev.blues.io/api-reference/glossary/#productuid) to group common devices.&#x20;
+> Each template is mapped to [a Notehub ProductUID](https://dev.blues.io/api-reference/glossary/#productuid) to group common devices.
 
 Blynk will attempt to map all keys from all Notefiles to corresponding datastreams. For downlinks, Blynk will send a `blynk.qi` [Notefile](https://dev.blues.io/api-reference/glossary/#notefile) with the datastream name as the key. Below is an example of the Notefile body that Blynk will create:
 
@@ -53,8 +53,6 @@ Use the ['Log when device reports any data'](../blynk.console/templates/connecti
 
 After finishing the template configuration, save it.
 
-
-
 #### 3. Authorize the Blues Integration in Blynk Console
 
 In the Blynk Console:
@@ -66,8 +64,6 @@ In the Blynk Console:
 This authorizes Blynk to access your Notehub project and fetch your ProductUIDs.
 
 <figure><img src="../.gitbook/assets/Снимок экрана 2024-08-26 в 13.48.20.png" alt=""><figcaption><p>Blynk integrations page</p></figcaption></figure>
-
-
 
 #### 4. Map Your Template to a ProductUID
 
@@ -83,8 +79,6 @@ In the Blynk Console still in the Blues Integration screen:
 
 If your Notehub project already has devices **click the import icon in the Actions column** to bring them into Blynk.
 
-
-
 #### 5. Enable the Blynk Route in Notehub
 
 In your Notehub project:
@@ -99,8 +93,6 @@ In your Notehub project:
 <figure><img src="../.gitbook/assets/blynk-region.png" alt=""><figcaption><p>You can find the Blynk region at the bottom right of the Blynk Console</p></figcaption></figure>
 
 * Confirm the route.
-
-
 
 ## Device provisioning
 
@@ -138,10 +130,8 @@ To simplify device provisioning for end-users, you can use Static Tokens:
 
 Blynk will generate one static token and QR code per row. These can be scanned in the Blynk Mobile App or registered in the Console, which will automatically create devices in both Blynk and Notehub.
 
-
-
 ## Next steps
 
 With a configured Blynk template and a working device, you can now start creating a [Web Dashboard](../blynk.console/templates/dashboard/) and [Mobile application](../blynk.apps/constructor.md).
 
-Next, take advantage of other powerful Blynk features, such as [Automations](../concepts/automations.md), [WebHooks](../blynk.console/settings/developers/webhooks.md), [Device Connection Lifecycle](../concepts/connection-lifecycle-management/), and the [Device HTTPS API](../blynk.cloud/device-https-api/), to build more advanced workflows.
+Next, take advantage of other powerful Blynk features, such as [Automations](../concepts/automations.md), [WebHooks](../blynk.console/developers/webhooks/), [Device Connection Lifecycle](../concepts/connection-lifecycle-management/), and the [Device HTTPS API](../blynk.cloud/device-https-api/), to build more advanced workflows.
