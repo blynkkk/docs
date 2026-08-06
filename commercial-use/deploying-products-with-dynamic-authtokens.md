@@ -2,6 +2,8 @@
 
 Every device needs a unique AuthToken in order to authenticate in Blynk.Cloud. During prototyping, you can manually add AuthToken to every device. However, when working with commercial products you would need a scalable approach to eliminate manual work.
 
+
+
 #### Why use dynamic AuthTokens
 
 1. With this approach, you don't have to flash different AuthTokens onto every device. You can use the same firmware on every device, which significantly simplifies the production process.
@@ -17,7 +19,7 @@ Dynamic AuthTokens are currently supported on:
 * **Blynk.NCP:** ESP32 series
 {% endhint %}
 
-####
+
 
 ### **Device Activation With Dynamic AuthTokens**
 
@@ -113,6 +115,8 @@ With Blynk you can switch to any sub-organization to see "what client sees". Whe
 To go back to your main organization - click on the Blynk icon in the top left corner.
 
 You can also switch organizations in the mobile app by tapping on the My Organizations in the left menu - then choosing an organization you want to switch to.
+
+<figure><img src="../.gitbook/assets/blynk-apps-switch-organization.png" alt=""><figcaption></figcaption></figure>
 
 **2. Transferring devices.**
 

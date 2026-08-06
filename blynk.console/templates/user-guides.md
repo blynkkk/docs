@@ -10,21 +10,11 @@ _You can reset the Guides to default by clicking the Reset To Default button_.
 
 > This feature is available with our Enterprise plan. [Contact Sales](https://blynk.io/contact-us-business)
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/User Guides.png" alt=""><figcaption><p>User Guides</p></figcaption></figure>
-
-</div>
-
-
+<div align="left"><figure><img src="../../.gitbook/assets/User Guides.png" alt=""><figcaption><p>User Guides</p></figcaption></figure></div>
 
 ### Device Installation Guide
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/Device Installation Guide.png" alt=""><figcaption><p>Device Installation Guide</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/Device Installation Guide.png" alt=""><figcaption><p>Device Installation Guide</p></figcaption></figure></div>
 
 To ensure your guide is clear and well-structured, we support Markdown syntax. Below are the essential Markdown elements you can use:
 
@@ -95,11 +85,7 @@ For more details, visit the [official documentation](https://example.com/documen
 
 ### Device Activation Guide
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/Device Activation Guide.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/device-activation-guides.png" alt=""><figcaption></figcaption></figure>
 
 To ensure your instructions are clear and well-structured, we support Markdown syntax. Below are the essential Markdown elements you can use:
 

@@ -10,6 +10,8 @@ description: >-
 
 Every attempt to provision a device — successful, failed, or cancelled — is recorded as a **Provisioning Session**. This gives administrators visibility into how device onboarding is actually performing across their fleet, without needing to reproduce the issue on the device itself or rely on the end user's description of what happened.
 
+<figure><img src="../../../.gitbook/assets/provisioning-sessions-overview.png" alt=""><figcaption></figcaption></figure>
+
 ### Why it exists
 
 An error code alone rarely explains what actually happened on a device during setup. And if you're an administrator who didn't personally run the provisioning, you still need a way to see how onboarding is performing for your users. Provisioning Sessions solves both problems:
@@ -74,6 +76,8 @@ Click anywhere on a row (outside the email/copy icon) to open the **Provisioning
 | Session Finished        | total session duration                                                                                                                                | —        |
 
 Every step carries its own timestamp and duration, so you can see exactly where time was spent or where a session stalled — this is the detail that answers "what actually happened on the device" beyond just the last error code.
+
+<figure><img src="../../../.gitbook/assets/provisioning-sessions-session-drawer.png" alt=""><figcaption></figcaption></figure>
 
 #### Filtering and search
 

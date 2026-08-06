@@ -4,6 +4,8 @@
 
 Tap **Add New Device** from the Devices tab.
 
+<figure><img src="../../.gitbook/assets/prepare-your-device.png" alt=""><figcaption></figcaption></figure>
+
 If the app doesn't already have the permissions it needs (e.g. Bluetooth, Local Network, Location), it will ask for them at this point.
 
 {% hint style="info" %}
@@ -32,7 +34,11 @@ Read the instructions, make sure your device is powered on and in pairing mode, 
 
 **On iOS**, the system's own AccessorySetupKit window takes over to search for and pair the device — you won't see Blynk's own search screen.
 
+<figure><img src="../../.gitbook/assets/accessory-setup-kit-ios.png" alt=""><figcaption></figcaption></figure>
+
 **On Android** (and pre-iOS 18 devices), the system shows its own dialog listing the device's access points found nearby — tap the one you want to connect to, and the app proceeds straight to connecting.
+
+<figure><img src="../../.gitbook/assets/choose-your-device-android.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 If several similar devices might be nearby, set a **Broadcast Name** for the template — the device advertises as `Blynk {broadcast-name}-XXXX` instead of a generic name, so both the AccessorySetupKit sheet and the Android picker above can identify it faster and show its product image and name from this very first step. Configure it under **Template → Template Settings → Device activation & provisioning → Dynamic provisioning**.
@@ -56,6 +62,8 @@ Closing the flow at any point from here on prompts a confirmation — exiting co
 2. Networks with a weak signal are marked **Weak signal**; selecting one asks you to confirm you want to proceed (or move closer to the router, or pick a different network).
 3. Enter the network password. Advanced connection settings (static IP, etc.) are available here if your device supports them.
 
+<figure><img src="../../.gitbook/assets/wifi-network-setup.png" alt=""><figcaption></figcaption></figure>
+
 Once submitted, credentials are sent to the device, the device reports back whether it connected successfully, and the app waits for cloud confirmation that the device is online before showing the success screen.
 
 #### Cellular
@@ -78,6 +86,8 @@ What you see once the device is online depends on what's already known about thi
 
 If the template has provisioning metadata enabled, you'll be guided through a short setup wizard for that device (name, location, contact info, unit preferences, or whatever fields the template defines), then a **Review** screen to confirm everything before finishing.
 
+<figure><img src="../../.gitbook/assets/device-profiling-and-recent-profiles.png" alt=""><figcaption></figcaption></figure>
+
 If you've provisioned devices on this template before, you can skip re-entering the same details: press **Apply saved configuration**, choose a previous configuration, and tap **Review and Apply**.
 
 ### Error handling
@@ -87,6 +97,8 @@ Provisioning is one of the trickiest moments for a new IoT product, so the app t
 #### Devices with a live (BLE-assisted) connection
 
 Some devices keep their Bluetooth connection to the phone alive throughout setup. For these, the app can show the _exact_ error the device reported, plus recovery instructions, and lets you resume from the failed step instead of starting over.
+
+<figure><img src="../../.gitbook/assets/provisioning-error.png" alt="" width="375"><figcaption></figcaption></figure>
 
 The recovery instructions and the **See Troubleshooting** link come from the template's User Guides troubleshooting link, if one is configured, or a generic Blynk documentation link otherwise.
 
@@ -113,11 +125,15 @@ The app can detect a weak connection between your phone and the device, or betwe
 
 If the same error happens on the same device three times in a row, the app stops suggesting you just try again and instead opens an escalation drawer:
 
+<div align="center"><figure><img src="../../.gitbook/assets/provisioning-escalation-drawer.png" alt="" width="375"><figcaption></figcaption></figure></div>
+
 From here you can **Contact Support**, **Send Logs** (attaches app logs, if logging is enabled), or **Try Again**.
 
 ### Claiming a device with a Static Token
 
 Devices that ship with a pre-flashed **Static Token** (cellular, Ethernet, or other non-Wi-Fi hardware) are added the same way — tap **Add New Device** — but instead of Wi-Fi setup you'll claim the device using its QR code:
+
+<figure><img src="../../.gitbook/assets/static-token-claim-flow.png" alt=""><figcaption></figcaption></figure>
 
 1. On the same template-driven **Prepare Your Device** screen described above, choose **Scan QR Code**, or **Enter Manually** if the code is printed as text instead of (or alongside) a QR code.
 2. Scanning opens a QR scanner in a bottom drawer; manual entry validates the code length as you type and flags it if it's incomplete.

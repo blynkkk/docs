@@ -198,7 +198,9 @@ This is what the flow with the connected device looks like in detail:
 * The user either scans the QR code printed on the device box, or taps **Enter Manually** and types the claim code in by hand (validated as they type)
 * The device is transferred from the manufacturer organization to the end user organization
 
-####
+<figure><img src="../.gitbook/assets/static-token-claim-flow.png" alt=""><figcaption></figcaption></figure>
+
+
 
 #### Deleting a device by the end customer
 
