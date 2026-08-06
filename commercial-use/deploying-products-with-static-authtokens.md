@@ -8,8 +8,8 @@ Deployment of commercial IoT products for use by end-customer is a challenging p
 
 There are three ways to obtain AuthTokens for your devices:
 
-1. [Manually](https://bit.ly/BlynkSimpleAuth): typically used at prototyping stages or in non-commercial applications
-2. Automatically, using Blynk.Inject : can be used for WiFi devices only
+1. [Manually](../getting-started/activating-devices/manual-device-activation.md): typically used at prototyping stages or in non-commercial applications
+2. [Automatically](deploying-products-with-dynamic-authtokens.md), using Blynk.Inject : can be used for WiFi devices only
 3. Using **Static Tokens**
 
 This article will help you to understand the key concepts related to Static Tokens and guide you through the steps required at all stages - from manufacturing to delivery of your devices into the customer's hands.
@@ -245,7 +245,7 @@ Examples when disclaiming can be needed:
 
 * **Testing**. You may test the tokens and then disclaim them before sending the device to end customers.
 * **Device return**. If a device was returned and you need to resell it again. Disclaiming will allow new customers to claim the device again.
-* **Ownership change**. When your customer wants to give the device to another user. (You can also use device transfer for that without disclaiming)
+* **Ownership change**. When your customer wants to give the device to another user. (You can also use [device transfer](../blynk.console/devices/actions-with-devices.md#device-transfer) for that without disclaiming)
 
 **Deleting a Static Token**
 
