@@ -15,6 +15,10 @@ The process of working with Statiс Tokens is the following:
 7. Your customers download the Blynk app and scan the QR code
 8. After scanning the QR code, a device will be claimed by the customer and is now ready to use
 
+{% hint style="info" %}
+The claiming screen now shows the same template-driven preparation instructions used for Wi-Fi provisioning (see [User Guides](../../blynk.console/templates/user-guides.md)), so customers get the same guidance regardless of activation method. Manual code entry validates the code as it's typed and flags it if it's incomplete.
+{% endhint %}
+
 Read more about this process here:
 
 {% content-ref url="../../commercial-use/deploying-products-with-static-authtokens.md" %}
