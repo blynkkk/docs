@@ -66,6 +66,8 @@ Blynk currently doesn't support over-the-air firmware updates for devices that u
 
 ### Device Activation With Static Tokens
 
+<figure><img src="../.gitbook/assets/Blynk-Static-Token-commercial-manufacturing.png" alt=""><figcaption></figcaption></figure>
+
 The workflow proposed below covers these steps:
 
 1. Generating Static Tokens
@@ -88,6 +90,8 @@ This is the simplest way to generate any number of Static Tokens you need.
 {% hint style="warning" %}
 The number of tokens you can create is limited by your plan limits. If you need more tokens, upgrade to a higher plan.
 {% endhint %}
+
+<figure><img src="../.gitbook/assets/static-tokens-generation-auto-create.png" alt=""><figcaption></figcaption></figure>
 
 1. Go to Blynk.Console → Static Tokens
 2. Click on **Create Static Tokens**
@@ -138,6 +142,8 @@ CSV file headers are case-sensitive and should fully match Metadata Field names.
 5. Blynk will parse the CSV file and will identify all the columns (or find errors in the file)
 6. The number of Tokens will be based on the number of rows in your file
 7. You will have the ability to remap the columns in your file to metadata fields
+
+<figure><img src="../.gitbook/assets/static-tokens-create-from-file.png" alt=""><figcaption></figcaption></figure>
 
 After this process is finished each token can be found in the list of Static Tokens. Each token is associated with a QR code image. Now you can export Tokens as a .zip file. It will contain AuthTokens and a folder with all the QR code images as PNG files.
 
