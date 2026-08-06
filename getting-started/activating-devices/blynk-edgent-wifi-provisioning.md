@@ -51,10 +51,10 @@ You can find references to handling reset and statuses indication in Blynk.Edgen
 
 ### Real-time feedback during provisioning (BLE)
 
-Devices that keep a Bluetooth connection to the phone alive throughout provisioning (instead of only a Wi-Fi AP link) let the Blynk app show the device's _actual_ state and error codes live, rather than guessing after the connection drops. This is what powers the live error recovery and precise error reporting described in Add New Device → Error Handling, and it's also what shows up in Provisioning Sessions as a full step-by-step timeline.
+Devices that keep a Bluetooth connection to the phone alive throughout provisioning (instead of only a Wi-Fi AP link) let the Blynk app show the device's _actual_ state and error codes live, rather than guessing after the connection drops. This is what powers the live error recovery and precise error reporting described in [Add New Device → Error Handling](../../blynk.apps/device-management/add-new-device.md#error-handling), and it's also what shows up in [Provisioning Sessions](../../blynk.console/developers/debugging/provisioning-sessions.md) as a full step-by-step timeline.
 
 {% hint style="success" %}
-BLE-assisted provisioning is supported by the basic Blynk.Edgent examples found in the Blynk.Edgent overview — exact support depends on your hardware type.
+BLE-assisted provisioning is supported by the basic Blynk.Edgent examples found in the [Blynk.Edgent overview](../../blynk.edgent/overview.md) — exact support depends on your hardware type.
 {% endhint %}
 
 ### Setting up your sketch to enable WiFi Provisioning
@@ -89,11 +89,15 @@ Now your device is ready to be activated using Blynk app.
 
 Tap **Add New Device** in the app and follow the on-screen instructions — the app will guide you through preparing the device, finding it, connecting it to your Wi-Fi network, and (if your template uses it) a short device profiling step.
 
+{% content-ref url="../../blynk.apps/device-management/add-new-device.md" %}
+[add-new-device.md](../../blynk.apps/device-management/add-new-device.md)
+{% endcontent-ref %}
+
 Here is an example of how it works in the app:
 
 {% embed url="https://www.youtube.com/watch?v=bXPEEmsEtPM" %}
 
-For debugging and troubleshooting check the serial monitor output. There you will see how the provisioning process is happening on the device. If you hit an error while testing, Developer Mode shows a **Reason** and **Session ID** on the error screen — look that session up in Provisioning Sessions for a full step-by-step timeline. When troubleshooting a report from an end customer (who won't see these fields), search by their email or the approximate time of the attempt instead.
+For debugging and troubleshooting check the serial monitor output. There you will see how the provisioning process is happening on the device. If you hit an error while testing, Developer Mode shows a **Reason** and **Session ID** on the error screen — look that session up in [Provisioning Sessions](../../blynk.console/developers/debugging/provisioning-sessions.md) for a full step-by-step timeline. When troubleshooting a report from an end customer (who won't see these fields), search by their email or the approximate time of the attempt instead.
 
 ### Re-provisioning new WiFi credentials
 
@@ -111,7 +115,7 @@ If the wrong SSID was selected and/or the password was entered before then take 
 
 If the LED on the board isn’t doing anything, then ensure that the LED and switch are defined correctly and that you don’t have any peripherals also using the LED or Switch pins.\
 \
-If the LED is pulsing slowly then the board thinks it’s already provisioned. Follow the instructions in the _“Re-provisioning new WiFi credentials”_ section.\
+If the LED is pulsing slowly then the board thinks it’s already provisioned. Follow the instructions in the _“_[_Re-provisioning new WiFi credentials_](blynk-edgent-wifi-provisioning.md#re-provisioning-new-wifi-credentials)_”_ section.\
 \
 If the LED is flashing quickly, but the device doesn’t show up in the app when you tap the “Ready” button in the app then check the following:
 
