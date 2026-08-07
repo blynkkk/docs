@@ -4,7 +4,7 @@ Let's check if everything is up and running!
 
 ## Add device
 
-You can add your device using built-in [WiFi Provsioning](https://docs.blynk.io/en/getting-started/activating-devices/blynk-edgent-wifi-provisioning#activating-device-using-blynk-app) or using [Static AuthToken](https://docs.blynk.io/en/getting-started/activating-devices/blynk-edgent-static-authtoken).
+You can add your device using built-in [WiFi Provisioning](https://docs.blynk.io/en/getting-started/activating-devices/blynk-edgent-wifi-provisioning#activating-device-using-blynk-app) or using [Static AuthToken](https://docs.blynk.io/en/getting-started/activating-devices/blynk-edgent-static-authtoken).
 
 After you add the device it will appear in the Devices section of the Blynk App. Tap on it to open Device page
 
