@@ -10,7 +10,7 @@ The Assets feature allows you to upload and manage **media files like .png, .jpg
 
 Use these files to build mobile and web dashboards, adding custom visuals like logos, icons, or equipment images to your UI.
 
-<figure><img src="../../.gitbook/assets/template-assets.png" alt=""><figcaption><p>Assets tab in your Device Template</p></figcaption></figure>
+<figure><img src="/broken/files/MDvFMtZFp23pIapIlxBL" alt=""><figcaption></figcaption></figure>
 
 ### Uploading Files
 
