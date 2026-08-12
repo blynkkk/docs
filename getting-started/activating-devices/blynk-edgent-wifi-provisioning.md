@@ -103,7 +103,7 @@ For debugging and troubleshooting check the serial monitor output. There you wil
 
 If you’re having problems provisioning a device, or you’ve accidentally entered the wrong WiFi credentials, then press and hold the physical button (the one defined in Settings.h for your board type) for 10 seconds. This will clear the stored credentials and the LED will start flashing quickly and allow you to either repeat the provisioning process, or if the device has already been created in the app you can re-provision it.
 
-To re-provision an existing device, tap on the device in the app, then tap the three dots in the top right-hand corner of the app screen. This will bring up the device information screen.
+To re-provision an existing device, tap on the device in the app, then tap the **info icon** in the top right-hand corner of the app screen. This will bring up the device information screen.
 
 Tap on the three dots in the top right-hand corner once more, and this will pop up a dialog that allows you to “Reconfigure”, “Erase all device data” or “Delete Device”.
 
