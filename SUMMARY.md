@@ -151,6 +151,7 @@
   * [Image Gallery](blynk.console/widgets-console/image-gallery.md)
   * [Custom Chart](blynk.console/widgets-console/custom-chart.md)
   * [Heatmap Chart](blynk.console/widgets-console/heatmap-chart.md)
+  * [HTML Widget](blynk.console/widgets-console/html-widget.md)
   * [Video](blynk.console/widgets-console/video.md)
   * [Bitmask Table](blynk.console/widgets-console/bitmask-table.md)
   * [Gradient Ramp](blynk.console/widgets-console/gradient-ramp.md)
