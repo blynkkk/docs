@@ -4,33 +4,6 @@ HTML lets you embed a fully custom HTML + JavaScript page inside the Blynk dashb
 
 ***
 
-### Table of Contents
-
-1. How It Works
-2. Minimal HTML Skeleton
-3. BlynkBridge JavaScript API
-   * Initialization
-   * Checking Bridge Availability
-   * Checking External Request Permission
-   * Reading Values
-   * Sending Values
-   * Error Handling
-   * Real-time Updates
-   * Device Info
-   * App Theme
-   * Historical Data
-     * Checking Range Picker Support
-   * Page Navigation
-     * Checking Page Actions Support
-   * Logging
-4. CSS Custom Properties & Theming
-5. Responsive Layout with Container Queries
-6. Initialization Flow
-7. Complete Annotated Example
-8. Tips & Gotchas
-
-***
-
 ### How It Works
 
 ```
