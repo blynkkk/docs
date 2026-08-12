@@ -6,19 +6,15 @@ description: >-
 
 # Assets
 
-The Assets feature allows you to upload and manage **media files like .png, .jpg, .jpeg, and .ico** directly within Blynk. This eliminates the need for external file hosting, as assets can now be stored in the template and accessed through the UI Builder.
+The Assets feature allows you to upload and manage **media files like .png, .jpg, .jpeg, .ico and .html** directly within Blynk. This eliminates the need for external file hosting, as assets can now be stored in the organization and accessed through the UI Builder.
 
-Use these files to build mobile and web dashboards, adding custom visuals like logos, icons, or equipment images to your UI.&#x20;
-
-{% hint style="info" %}
-**Note:** This feature is currently available only for Enterprise customers.
-{% endhint %}
+Use these files to build mobile and web dashboards, adding custom visuals like logos, icons, or equipment images to your UI.
 
 <figure><img src="../../.gitbook/assets/template-assets.png" alt=""><figcaption><p>Assets tab in your Device Template</p></figcaption></figure>
 
 ### Uploading Files
 
-1. Navigate to the **Assets** tab in your Template.
+1. Navigate to the **Assets** tab in Developer Zone.
 2. Click the **Upload Files** button.
 3. Drag and drop files or click on the file upload area to browse and select files.
 4. Adjust file names if needed.
@@ -77,20 +73,19 @@ When replacing an asset, the URL changes but the ID remains the same.
 
 ### File and storage limits
 
-| Feature                    | Details                         |
-| -------------------------- | ------------------------------- |
-| **Supported formats**      | `.png`, `.jpg`, `.jpeg`, `.ico` |
-| **Max files per upload**   | 50 files                        |
-| **Max file size**          | 5 MB per file                   |
-| **Storage per template**   | 200 MB                          |
-| **Max files per template** | 1,000 files                     |
-| **Max file name length**   | 1,000 characters                |
+
+
+<table data-header-hidden><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td>Feature</td><td>Free Plan</td><td>Paid Plans</td></tr><tr><td><strong>Supported formats</strong></td><td><pre><code>.png, .jpg, 
+.jpeg, .ico .html
+</code></pre></td><td><pre><code>.png, .jpg, 
+.jpeg, .ico .html
+</code></pre></td></tr><tr><td><strong>Max file size</strong></td><td>1 MB per file</td><td>5 MB per file</td></tr><tr><td><strong>Storage per organizations</strong></td><td>10 MB</td><td>200 MB</td></tr><tr><td><strong>Max files per organization</strong></td><td>50 files</td><td>1,000 files</td></tr><tr><td><strong>Max files per upload</strong></td><td>50 files</td><td>50 files</td></tr><tr><td><strong>Max file name length</strong></td><td>1,000 characters</td><td>1,000 characters</td></tr></tbody></table>
 
 ***
 
 ### Using Assets
 
-#### 1. Add an Asset Using the Asset Picker (Recommended).&#x20;
+#### 1. Add an Asset Using the Asset Picker (Recommended).
 
 Available in both the App and web Console for convenient asset selection:
 
