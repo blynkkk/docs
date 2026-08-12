@@ -8,7 +8,7 @@ The widget renders your HTML in a sandboxed frame and injects a JavaScript objec
 
 ***
 
-#### Adding an HTML Widget
+### Adding an HTML Widget
 
 1. Open your Template and navigate to the **Web Dashboard** tab.
 2. Drag the **HTML Widget** onto the canvas.
@@ -18,7 +18,7 @@ The widget renders your HTML in a sandboxed frame and injects a JavaScript objec
 
 ***
 
-#### Choosing a starting point
+### Choosing a starting point
 
 HTML Widget offers three ways to begin:
 
@@ -30,7 +30,7 @@ HTML Widget offers three ways to begin:
 
 ***
 
-#### Widget settings
+### Widget settings
 
 * **Datastreams** – select one or more Datastreams the widget can read from and write to. The order you add them here defines their index, starting at `0`. Your code refers to Datastreams by that index, not by name.
 * **HTML code** – the full HTML document that will be rendered, including its `<style>` and `<script>` blocks.
@@ -39,7 +39,7 @@ HTML Widget offers three ways to begin:
 
 ***
 
-#### Where widget files are stored
+### Where widget files are stored
 
 Every `.html` file used by an HTML Widget lives in **Developer Zone → Assets**. There are two ways to get a file there:
 
@@ -56,7 +56,7 @@ Every `.html` file used by an HTML Widget lives in **Developer Zone → Assets**
 
 ***
 
-#### Code Editor
+### Code Editor
 
 Whichever starting point you choose, the code opens in the same editor — new files, files uploaded to Assets, and cloned Blynk presets are all edited the same way. The code editor has two tabs.
 
@@ -86,7 +86,7 @@ Check how the widget behaves with a real device before you put it on a dashboard
 
 ***
 
-#### What HTML Widget can do
+### What HTML Widget can do
 
 | Capability                    | Method                                                                               |
 | ----------------------------- | ------------------------------------------------------------------------------------ |
@@ -103,7 +103,7 @@ Full method signatures, parameters, return shapes, and annotated examples are in
 
 ***
 
-#### Light and dark theme
+### Light and dark theme
 
 Call `getTheme()` and write the returned values into CSS custom properties. The colors come back already matched to the Dashboard’s current mode, so you don’t need `prefers-color-scheme` logic inside the widget.
 
@@ -123,7 +123,7 @@ Always keep fallback values in `:root` so the widget still looks correct before 
 
 ***
 
-#### Generating widgets with AI
+### Generating widgets with AI
 
 Blynk publishes `blynk-anywidget`, an [Agent Skill](https://agentskills.io) that teaches an AI coding agent how to build HTML widgets. It carries the BlynkBridge API reference, the platform constraints, and Blynk's visual style, so the agent produces a widget that works instead of guessing at the bridge.
 
@@ -140,7 +140,7 @@ Blynk publishes `blynk-anywidget`, an [Agent Skill](https://agentskills.io) that
 
 ***
 
-#### Limits
+### Limits
 
 The HTML widget is available on all plans. The number of widgets you can add differs by subscription.
 
