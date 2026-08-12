@@ -1,8 +1,8 @@
 # HTML Widget
 
-The HTML Widget is the most flexible dashboard widget allows you to use your own custom HTML, CSS, and JavaScript and connect it to your datastreams. Use it when the standard Widgets don’t cover your use case — a custom gauge design, a combined status panel, a branded control surface, or any layout you want to build yourself.
+The HTML Widget is the most flexible dashboard widget allows you to use your own custom HTML, CSS, and JavaScript and connect it to your datastreams. Use it when the standard widgets don’t cover your use case — a custom gauge design, a combined status panel, a branded control surface, or any layout you want to build yourself.
 
-The Widget renders your HTML in a sandboxed frame and injects a JavaScript object called `BlynkBridge`. Through it, your page can read Datastream values, write values back to the Device, receive real-time updates, fetch historical data, and pick up the current app theme.
+The widget renders your HTML in a sandboxed frame and injects a JavaScript object called `BlynkBridge`. Through it, your page can read Datastream values, write values back to the Device, receive real-time updates, fetch historical data, and pick up the current app theme.
 
 <figure><img src="../../../.gitbook/assets/img_html_widget_1.webp" alt=""><figcaption></figcaption></figure>
 
@@ -12,7 +12,7 @@ The Widget renders your HTML in a sandboxed frame and injects a JavaScript objec
 
 1. Open your Template and navigate to the **Web Dashboard** tab.
 2. Drag the **HTML Widget** onto the canvas.
-3. Open the Widget settings.
+3. Open the widget settings.
 4. Pick a starting point, then assign the Datastreams your widget needs.
 5. Click **Save**.
 
@@ -32,7 +32,7 @@ HTML Widget offers three ways to begin:
 
 #### Widget settings
 
-* **Datastreams** – select one or more Datastreams the Widget can read from and write to. The order you add them here defines their index, starting at `0`. Your code refers to Datastreams by that index, not by name.
+* **Datastreams** – select one or more Datastreams the widget can read from and write to. The order you add them here defines their index, starting at `0`. Your code refers to Datastreams by that index, not by name.
 * **HTML code** – the full HTML document that will be rendered, including its `<style>` and `<script>` blocks.
 
 <figure><img src="../../../.gitbook/assets/img_html_widget_3.png" alt=""><figcaption></figcaption></figure>
@@ -51,7 +51,7 @@ Every `.html` file used by an HTML Widget lives in **Developer Zone → Assets**
 {% endhint %}
 
 {% hint style="success" icon="lightbulb" %}
-**Tip:** Sub-folders inside **Widget Library** appear as separate categories in the widget settings. Create sub-folders to group your Widgets — by project, by device type, or however your team works — and the gallery structure follows.
+**Tip:** Sub-folders inside **Widget Library** appear as separate categories in the widget settings. Create sub-folders to group your widgets — by project, by device type, or however your team works — and the gallery structure follows.
 {% endhint %}
 
 ***
@@ -81,7 +81,7 @@ Check how the widget behaves with a real device before you put it on a dashboard
 <figure><img src="../../../.gitbook/assets/img_html_widget_5.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-**Note:** Testing runs against a real Device, not a simulation. The Widget displays live data from that device, and any value your widget sends is delivered to it. These messages count toward your regular message limit.
+**Note:** Testing runs against a real Device, not a simulation. The widget displays live data from that device, and any value your widget sends is delivered to it. These messages count toward your regular message limit.
 {% endhint %}
 
 ***
@@ -105,9 +105,9 @@ Full method signatures, parameters, return shapes, and annotated examples are in
 
 #### Light and dark theme
 
-Call `getTheme()` and write the returned values into CSS custom properties. The colors come back already matched to the Dashboard’s current mode, so you don’t need `prefers-color-scheme` logic inside the Widget.
+Call `getTheme()` and write the returned values into CSS custom properties. The colors come back already matched to the Dashboard’s current mode, so you don’t need `prefers-color-scheme` logic inside the widget.
 
-Always keep fallback values in `:root` so the Widget still looks correct before `getTheme()` resolves.
+Always keep fallback values in `:root` so the widget still looks correct before `getTheme()` resolves.
 
 ```
 :root {  
@@ -123,7 +123,7 @@ Always keep fallback values in `:root` so the Widget still looks correct before 
 
 ***
 
-#### Generating Widgets with AI
+#### Generating widgets with AI
 
 Blynk publishes `blynk-anywidget`, an [Agent Skill](https://agentskills.io) that teaches an AI coding agent how to build HTML widgets. It carries the BlynkBridge API reference, the platform constraints, and Blynk's visual style, so the agent produces a widget that works instead of guessing at the bridge.
 
