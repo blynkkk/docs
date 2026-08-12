@@ -4,7 +4,7 @@ The HTML Widget is the most flexible dashboard widget allows you to use your own
 
 The Widget renders your HTML in a sandboxed frame and injects a JavaScript object called `BlynkBridge`. Through it, your page can read Datastream values, write values back to the Device, receive real-time updates, fetch historical data, and pick up the current app theme.
 
-<figure><img src="../../.gitbook/assets/img_html_widget_1.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/img_html_widget_1.webp" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -26,7 +26,7 @@ HTML Widget offers three ways to begin:
 * **Blynk presets (Display, Control)** – ready-made widgets built and maintained by Blynk. When you pick one, a copy is cloned into your **Assets** so you can modify it as much as you want.
 * **Your uploaded files** – any `.html` file you’ve already uploaded to the **Widget Library** folder in [Assets](https://docs.blynk.io/en/blynk.console/templates/assets).
 
-<figure><img src="../../.gitbook/assets/img_html_widget_2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/img_html_widget_2.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -35,7 +35,7 @@ HTML Widget offers three ways to begin:
 * **Datastreams** – select one or more Datastreams the Widget can read from and write to. The order you add them here defines their index, starting at `0`. Your code refers to Datastreams by that index, not by name.
 * **HTML code** – the full HTML document that will be rendered, including its `<style>` and `<script>` blocks.
 
-<figure><img src="../../.gitbook/assets/img_html_widget_3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/img_html_widget_3.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -56,15 +56,19 @@ Every `.html` file used by an HTML Widget lives in **Developer Zone → Assets**
 
 ***
 
-#### The code editor
+#### Code Editor
 
-Whichever starting point you choose, the code opens in the same editor — new files, files uploaded to Assets, and cloned Blynk presets are all edited the same way. The code editor has two tabs.Code tabThe tab where you're working on your code. It consists of:
+Whichever starting point you choose, the code opens in the same editor — new files, files uploaded to Assets, and cloned Blynk presets are all edited the same way. The code editor has two tabs.
+
+#### Code tab
+
+The tab where you're working on your code. It consists of:
 
 * **Editor pane:** write and edit your HTML here.
 * **Preview:** shows the rendered widget. Click Refresh after making changes to see the update. Use the theme toggle to check how it looks in light and dark mode.
 * **Console:** shows log messages and JavaScript errors from your code, so you can debug without leaving the editor.
 
-<figure><img src="../../.gitbook/assets/img_html_widget_4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/img_html_widget_4.png" alt=""><figcaption></figcaption></figure>
 
 #### Testing tab
 
@@ -74,7 +78,7 @@ Check how the widget behaves with a real device before you put it on a dashboard
 2. Add the datastreams your widget uses.
 3. Update their values to see how the widget reacts.
 
-<figure><img src="../../.gitbook/assets/img_html_widget_5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/img_html_widget_5.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **Note:** Testing runs against a real Device, not a simulation. The Widget displays live data from that device, and any value your widget sends is delivered to it. These messages count toward your regular message limit.
@@ -82,7 +86,7 @@ Check how the widget behaves with a real device before you put it on a dashboard
 
 ***
 
-#### What the Widget can do
+#### What HTML Widget can do
 
 | Capability                    | Method                                                                               |
 | ----------------------------- | ------------------------------------------------------------------------------------ |
@@ -95,7 +99,7 @@ Check how the widget behaves with a real device before you put it on a dashboard
 | **Show Device details**       | `getDeviceInfo()` — Device name, status, and last reported time                      |
 | **Surface an error**          | `sendError(message)` — displays an error toast in the Dashboard                      |
 
-Full method signatures, parameters, return shapes, and annotated examples are in the [BlynkBridge API reference on GitHub](https://github.com/blynkkk/\[TBD-repo]).&#x20;
+Full method signatures, parameters, return shapes, and annotated examples are in the [HTML Widget Developer Guide](html-widget-developer-guide.md).&#x20;
 
 ***
 
@@ -123,10 +127,12 @@ Always keep fallback values in `:root` so the Widget still looks correct before 
 
 Blynk publishes `blynk-anywidget`, an [Agent Skill](https://agentskills.io) that teaches an AI coding agent how to build HTML widgets. It carries the BlynkBridge API reference, the platform constraints, and Blynk's visual style, so the agent produces a widget that works instead of guessing at the bridge.
 
-1. Download the skill folder here.
+1. Download the skill below.
 2. Add it to your AI tool. The way to add depends on the exact tool.
 3. Describe what you need in plain language: _"a gauge showing the temperature datastream with a 24-hour chart underneath"_ and optionally send a screenshot reference if you have to get more precise result.
 4. Copy the generated HTML into the editor's **Code** tab, then verify it on the **Testing** tab against a real device.
+
+{% file src="../../../.gitbook/assets/blynk-html-widget-skill.zip" %}
 
 {% hint style="warning" %}
 **Note:** Always review generated code before adding the widget to a production dashboard. A generated widget can send values to your device, and the Testing tab uses a real device and real messages.
