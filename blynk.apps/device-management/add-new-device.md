@@ -42,6 +42,8 @@ Read the instructions, make sure your device is powered on and in pairing mode, 
 
 {% hint style="info" %}
 If several similar devices might be nearby, set a **Broadcast Name** for the template — the device advertises as `Blynk {broadcast-name}-XXXX` instead of a generic name, so both the AccessorySetupKit sheet and the Android picker above can identify it faster and show its product image and name from this very first step. Configure it under **Template → Template Settings → Device activation & provisioning → Dynamic provisioning**.
+
+**Keep the Broadcast Name to 8 characters or fewer.** Because of a BLE broadcasting limitation, a longer name isn't detected by the iOS app at all — the device falls back to advertising with only the vendor suffix. It stays discoverable, but if your organization has more than one template, the app can't tell which template the device belongs to, so it won't show the correct product image and name.
 {% endhint %}
 
 #### Firmware update, if required
