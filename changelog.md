@@ -1,4 +1,59 @@
+---
+description: August 18, 2026
+---
+
 # Changelog
+
+## Aug 18, 2026
+
+### 🚀 New Features
+
+**Any Widget** — build your own widgets from HTML, CSS, and JavaScript: an in-place code editor with live preview and console output, a Testing tab for driving real datastreams, and a preset gallery to start from. Per-plan limits apply per template.
+
+**Data Engine** — query your data with SQL through new Web and Platform APIs, including custom data tables, guarded by a dedicated "Query data engine" permission. A new **SQL Table** widget is built on top of it.
+
+**Errors View** — a new Developer Zone section for device and user errors, split into Device (hardware) and User (web/mobile) tabs, with per-device and per-user error log drawers, aggregation by error type, a time picker, and an indication of new errors.
+
+**OAuth 2.0 Token Scopes** — scope management for MQTT Gateway, Alexa, Google Home, and the Platform API, plus a token introspection endpoint.
+
+**Platform & Management API** (expanded) — CRUD for automations, endpoints for custom data rows, and an aggregated multi-datastream history endpoint, plus ping, reconfigure, and reboot commands over the Management API.
+
+**Condition-Triggered Events** — events now fire automatically when a datastream value meets the configured condition. User Note events gain tags and notification settings.
+
+**Org Assets** (expanded) — folders with bulk removal and duplicate-name validation, `.html` upload and in-place editing, Duplicate and Download actions for files, and `asset://` URLs for referencing assets.
+
+**Provisioning Sessions** (expanded) — full session details, summary statistics, and clear, localized error descriptions.
+
+**Data Objects** — a new management UI and API.
+
+**JWT Login on Mobile** — mobile apps can now sign in with JWT.
+
+### ✨ Improvements
+
+* **Performance** — a large speed-up across dashboards and reporting: streamed query responses, faster event counts, a lighter datastream update path, lazy-loaded Fleet Management lists, a much faster org-wide Errors view, and map data that is sampled rather than truncated.
+* **Errors** — a default 1-day time filter and an "All" option, aggregation by type, error counts shown in red, a clickable organization, and a button to open the device straight from an error.
+* **Provisioning Sessions** — human-readable signal quality, a more accurate success rate, a richer error catalogue, and informative tooltips.
+* **Data Engine** — clearer error messages, proper timestamp columns, and documented SQL limits.
+* **Automations** — a "Shared" label, a delete confirmation, and hints explaining why some automation types are unavailable.
+* **Data Converters** — test message and request limits raised to 20000, and converters are now cloned along with the product.
+* **Datastreams** — location datastreams keep RAW history so maps render, and Notes now show a character counter.
+* **Devices** — dots and commas are allowed in device and template names, and connected devices no longer flip to Offline unexpectedly.
+* **Widgets** — the HTML container widget is now available to everyone, and the device table supports unit conversion.
+* **Security** — stricter Data Engine SQL execution and tighter custom data table access.
+* **Email** — delivery is retried when it times out.
+
+### 🐞 Fixes
+
+* Resolved web crashes on the Devices page and across Fleet Management time fields, dates, and unsaved tours.
+* Corrected event widget behavior — the wrong chart when hiding an event or resetting filters, chart flicker on time range changes, missing data on shared dashboards, and SQL Table pagination not loading further pages.
+* Metadata fixes for invisible List and Timezone options, missing currencies in Cost, and Switch options that could not be cleared.
+* Event and automation fixes: the event type reverting on save, event limit settings not saving, the condition value input clamped to zero, the "Add next action" dropdown not closing, and excluded recipients not showing.
+* Shipment counters no longer double-count devices, and duplicated status events no longer appear in the Blynk.Air timeline.
+* Webhooks are now fully removed when their device or template is deleted.
+* Map fixes for the My Devices map not rendering, Geomap marker settings hidden before devices report GPS, and trip history showing stale data after switching devices.
+* Fixed the daily upload limit being exceeded by multi-file requests and in-app campaign impression under-counting.
+* OAuth token fixes for Custom access selection, group toggles not expanding, overlapping headers, and several styling issues.
+* Dark theme, table header, border, and hover-visibility polish across the web app.
 
 ## July 15, 2026
 
