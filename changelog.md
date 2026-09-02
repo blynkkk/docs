@@ -1,8 +1,45 @@
----
-description: August 18, 2026
----
-
 # Changelog
+
+## Sep 2, 2026
+
+**New Features**
+
+**Platform API Stats** — A new usage view on the OAuth2 page shows your organization's API requests, errors, and current rate limits. Counters are collected hourly and broken down per OAuth token, per endpoint, and per organization. The page has its own URL, so it can be bookmarked and shared, and is available to everyone with access to the OAuth section.
+
+**Data Object** (formerly Data Engine) — work in progress
+
+**New Shipments** — work in progress
+
+**Other**
+
+* Devices show a connection-troubles indicator reporting the most severe connection issue, next to the device name and in the device header
+* Unit conversion in the Metric by Device and Devices Table widgets, which now display the unit reported by the server
+* Widget datastreams carry a color and a display name (alias), so custom and HTML widgets can render them; datastream aliases can be localized
+* "Erase Data" can now delete history data and log events
+* Templates show their template ID in the header; the vendor prefix appears in front of the broadcast name, with a minimum length enforced
+* Application errors are stored per minute for finer-grained monitoring
+
+**Improvements**
+
+**Performance** — Substantially less per-query overhead in the ClickHouse driver: batch buffers built in a single allocation, primitives written straight into the buffer, LZ4 frames hashed in place, and the server timezone resolved once per endpoint. The database driver now uses the async HTTP client by default, user application errors are paginated in the database query rather than in memory.
+
+**Connectivity** — Fragmented web, mobile, and device-forwarder messages are reassembled instead of dropped, and decoder exceptions that used to be swallowed are now reported. Connection resets and http-to-https redirects are handled without aggregating the request, and a device over its quota has the whole message dropped rather than a partial one.
+
+**Permissions** — The HTML widget is locked and cannot be duplicated without MANAGE\_ASSETS, and template assets are no longer fetched without it. Automation sharing is rejected when SHARE\_AUTOMATION is disabled, the "Enable for Gateway API" OAuth switch is limited to Enterprise.
+
+**Dashboards & widgets** — Chart widgets hide when their datastream is hidden, and the Map widget disables when its location datastream is disabled. Metrics by Devices respects dashboard side filters and keeps explicitly selected devices. Custom charts are limited to datastreams of the current template, and Any Widget code is stored as an asset link with presets shipping with the platform. Table column widths, the Customize View column set, and row selection all survive table reloads.
+
+**Elsewhere** — Unsaved template edits survive a server deploy; static tokens of a deleted device return to the pool; future dates can no longer be picked for a Custom report period; AI chat gained better actions and blocks artifact application when no slots are free; transfer by organization name works while switched into a child organization.
+
+**Bug Fixes**
+
+Three web crashes are fixed — one in a background operation, one from a minified React error, and one after saving a data converter — along with endless dashboard loading and widgets failing to be added to a dashboard.
+
+On dashboards: stale data after saving widget settings, wrong aggregation in Metric by Device, duplicated time labels, chart pan/close buttons drawn outside the chart, a line drawn before the first data point, a stale datastream color in the HTML widget bridge, and a `url` set-property overwriting `darkUrl`.
+
+Elsewhere: PDF export in reports, IMEI metadata validation, the Table metadata preview layout, a subtitle missing when duplicating an in-app campaign, a "UserId can't be empty" error after closing user details.
+
+***
 
 ## Aug 18, 2026
 
