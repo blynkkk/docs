@@ -1,5 +1,46 @@
 # Changelog
 
+## Sep 15, 2026
+
+**New Features**
+
+**Email Delivery** — a new Developer Zone section for outgoing email: searchable logs with "Email type" and "Result" filters, a detailed view, and statistics behind "View stats" with Sent/Failed counters and a breakdown per kind of email.
+
+**Demand Response Stats** — a new stats page showing participants by outcome, with all demand events stored and browsable.
+
+**Device Lock/Unlock** — lock or unlock a device from its menu, for a whole segment, for several selected devices at once, or through the Platform API. For paid plans only.
+
+**Device-to-Organization Sharing** — share a device with another organization, manually or automatically through a Rule Engine rule. Enterprise feature only.
+
+**Platform API Stats (expanded)** — CSV and JSON export, full-table views, a "Failed requests per hour" chart, per-token request statistics, and the tokens of sub-organizations.
+
+**Other**
+
+* Dashboards side rail reworked into drag-and-drop sections, with the order saved per organization so it follows you between browsers
+* HMAC signing functions in the Data Converter JavaScript
+* Assets support GIFs, drag-and-drop upload and move, and folder renaming
+* AnyWidget gained location history for tracking maps and a preset gallery
+* Create a datastream directly from the device page, and open device drawers with a link
+* The Users page is split into Members and External sections
+
+**Improvements**
+
+**Performance** — Dashboards and reporting queries hit ClickHouse with tighter time bounds instead of scanning whole tables, and the Errors and Platform API Stats pages fetch and redraw far less.
+
+**Dashboards & widgets** — Charts reject duplicate series and share one date axis, the minimum Y-axis range option is back, the Segmented Switch only offers values its datastream allows, the Image Gallery holds up to 50 images, and edit mode keeps its header fixed while scrolling.
+
+**Devices & templates** — Maps open at the maximum available zoom, LoRaWAN decoders appear as a Payload formatter card, the unstable-connection tooltip explains itself better, and datastreams, events and metadata open in edit mode from the template view.
+
+**Elsewhere** — Metadata filters hide the hardcoded Device Name and Owner fields, Table metadata is validated and available in device filters, webhook forms hide CONTENT TYPE for GET requests, Developer Tools remembers the selected log period, and the Testing tab searches case-insensitively and never reports a send as successful while offline.
+
+**Bug Fixes**
+
+Three web crashes are fixed — opening the device map while creating a demand response event, a missing portal container, and a blank page caused by an import cycle.
+
+On charts: LIVE mode showing stale data with the zoom snapping back, the broken Y axis in the Active devices and Activations widgets, an overlapping Gauge preview, Enum datastreams having no live chart, and the Map widget staying enabled when it should be disabled.
+
+Elsewhere: device search in the demand response event flow, the Template filter's org-wide count, search and status filters on Static tokens, errors when transferring an organization, image widgets that could not be saved after a bad URL, and organization, SMS-status and device-row lists not refreshing after a change — plus a round of padding, alignment and dark-theme polish across the web app.
+
 ## Sep 2, 2026
 
 **New Features**
