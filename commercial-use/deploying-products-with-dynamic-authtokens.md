@@ -17,8 +17,6 @@ Dynamic AuthTokens are currently supported on:
 * **Blynk.NCP:** ESP32 series
 {% endhint %}
 
-
-
 ### **Device Activation With Dynamic AuthTokens**
 
 Dynamic AuthToken generation is a part of the device provisioning process:
@@ -130,12 +128,10 @@ With Blynk you can do all sorts of assets transfer:
 
 * Transfer user to a different organization. Go to Users - hover on the actions button - Transfer User. You would need an email of an administrator of the destination organization.
 
-<figure><img src="../.gitbook/assets/transfer-user-to-different-org.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 * [Transfer device ](../blynk.console/devices/actions-with-devices.md)(change owner) from one organization to another. The new owner should be specified.
 * [Transfer sub-organization](../blynk.console/organizations/browse-and-edit-a-sub-organization.md) under a different organization. Think about it as moving a folder with files to another folder on your computer.
-
-
 
 **3. User permissions**
 
@@ -153,7 +149,7 @@ To check permissions for current organization and user role
 
 You can change and apply permissions for all clients or for a group of clients. To do that, you can create such a structure:
 
-<figure><img src="../.gitbook/assets/org-structure.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (37).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * Create a new Organization. For example: My Clients (with no users in it)
 * Switch to My Clients
@@ -162,4 +158,4 @@ You can change and apply permissions for all clients or for a group of clients. 
 
 You can then edit permissions in My Clients organization and when applying changes, enable the switch **Apply to sub-organizations -> Overwrite**
 
-<figure><img src="../.gitbook/assets/changes-to-suborg.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>

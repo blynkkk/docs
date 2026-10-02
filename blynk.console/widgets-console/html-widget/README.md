@@ -99,7 +99,9 @@ Check how the widget behaves with a real device before you put it on a dashboard
 | **Show Device details**       | `getDeviceInfo()` — Device name, status, and last reported time                      |
 | **Surface an error**          | `sendError(message)` — displays an error toast in the Dashboard                      |
 
-Full method signatures, parameters, return shapes, and annotated examples are in the [HTML Widget Developer Guide](html-widget-developer-guide.md).&#x20;
+Full method signatures, parameters, return shapes, and annotated examples are in the [HTML Widget Developer Guide](html-widget-developer-guide.md).
+
+To generate a widget with AI, see [Generating widgets with AI](html-widget-developer-guide.md#generating-widgets-with-ai).
 
 ***
 
@@ -109,6 +111,7 @@ Call `getTheme()` and write the returned values into CSS custom properties. The 
 
 Always keep fallback values in `:root` so the widget still looks correct before `getTheme()` resolves.
 
+{% code collapsedlinecount="10" %}
 ```
 :root {  
 --bg: #f7f7f8;  
@@ -116,26 +119,10 @@ Always keep fallback values in `:root` so the widget still looks correct before 
 --accent: #22c55e;
 }
 ```
+{% endcode %}
 
 {% hint style="info" %}
 **Note:** `getTheme()` returns the theme once, at the moment it is called. It does not notify your page when the user switches between light and dark mode. If you want to update it on theme change add `onThemeUpdated: applyTheme;`to the `bridge.setCallbacks`
-{% endhint %}
-
-***
-
-### Generating widgets with AI
-
-Blynk publishes `blynk-anywidget`, an [Agent Skill](https://agentskills.io) that teaches an AI coding agent how to build HTML widgets. It carries the BlynkBridge API reference, the platform constraints, and Blynk's visual style, so the agent produces a widget that works instead of guessing at the bridge.
-
-1. Download the skill below.
-2. Add it to your AI tool. The way to add depends on the exact tool.
-3. Describe what you need in plain language: _"a gauge showing the temperature datastream with a 24-hour chart underneath"_ and optionally send a screenshot reference if you have to get more precise result.
-4. Copy the generated HTML into the editor's **Code** tab, then verify it on the **Testing** tab against a real device.
-
-{% file src="../../../.gitbook/assets/blynk-html-widget-skill.zip" %}
-
-{% hint style="warning" %}
-**Note:** Always review generated code before adding the widget to a production dashboard. A generated widget can send values to your device, and the Testing tab uses a real device and real messages.
 {% endhint %}
 
 ***
@@ -149,4 +136,3 @@ The HTML widget is available on all plans. The number of widgets you can add dif
 | **HTML code size**            | 100,000 characters per widget                                        |
 | **HTML Widgets per Template** | `1,3,10,20` per plan — see [Blynk pricing](https://blynk.io/pricing) |
 | **Historical data range**     | Maximum 365 days per request                                         |
-| **Historical data timeout**   | 60 seconds per request                                               |

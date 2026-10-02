@@ -73,7 +73,7 @@ In the sketch variables `BLYNK_TEMPLATE_ID` and `BLYNK_TEMPLATE_NAME` are empty.
 3. Copy the Firmware Configuration code lines
 4. Go back to your sketch and replace the configuration lines with what you copied.
 
-<figure><img src="../../.gitbook/assets/prepare-code (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/prepare-code.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 The Template Name is the name that you provide when you create the template, and the Edgent sketch then adds additional characters that are derived from the Chip ID of the device to form the SSID name which is used when the app connects to the device.

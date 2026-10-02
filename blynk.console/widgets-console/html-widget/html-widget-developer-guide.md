@@ -2,10 +2,30 @@
 
 HTML lets you embed a fully custom HTML + JavaScript page inside the Blynk dashboard as a first-class widget. The page runs in a Blynk WebView that exposes a native bridge (`BlynkBridge`) so your HTML can read datastream values, push values back to the server, react to real-time updates, pick up app theme colours, query device metadata, fetch historical datastream data, and navigate between dashboard pages - all without any server-side code.
 
+The bridge described in this guide is shared by the Blynk Console (web) and the mobile apps, but hosts can expose different capabilities. Where behavior differs, the relevant section describes web and mobile separately.
+
+***
+
+### Generating widgets with AI
+
+Blynk publishes `blynk-html-widget`, an [Agent Skill](https://agentskills.io) that teaches an AI coding agent how to build HTML widgets. It carries the BlynkBridge API reference, the platform constraints, and Blynk's visual style, so the agent produces a widget that works instead of guessing at the bridge.
+
+1. Download the skill below.
+2. Add it to your AI tool. The way to add depends on the exact tool.
+3. Describe what you need in plain language: _"a gauge showing the temperature datastream with a 24-hour chart underneath"_ and optionally send a screenshot reference if you have to get more precise result.
+4. Copy the generated HTML into the editor's **Code** tab, then verify it on the **Testing** tab against a real device.
+
+{% file src="../../../.gitbook/assets/blynk-html-widget.zip" %}
+
+{% hint style="warning" %}
+**Note:** Always review generated code before adding the widget to a production dashboard. A generated widget can send values to your device, and the Testing tab uses a real device and real messages.
+{% endhint %}
+
 ***
 
 ### How It Works
 
+{% code collapsedlinecount="10" %}
 ```
 HTML <script>                    Blynk WebView bridge
   BlynkBridge.getValue(index)  ─► read current value of a single datastream (0-based)
@@ -26,16 +46,26 @@ HTML <script>                    Blynk WebView bridge
                                             resolves with { streams: [{ index, granularity, values: [{x,y}] }] }
                                             granularity is null when sourceType was RAW_DATA
   BlynkBridge.isPageActionsSupported()   ─► boolean — whether page navigation calls are available
+  BlynkBridge.getMapData(options)        ─► location points of a LOCATION datastream for a given period
+                                            resolves with { points: [{ ts, latitude, longitude }] }
+  BlynkBridge.getAllDeviceMetadata()     ─► all supported device metadata descriptors of the bound device
+  BlynkBridge.getDeviceMetadata(selector) ─► one metadata descriptor, selected by id or name
+  BlynkBridge.updateDeviceMetadata(selector, valuePatch) ─► update one metadata descriptor
+  BlynkBridge.getPages()                 ─► dashboard pages as [{ id, name }]
+  BlynkBridge.destroy()                  ─► clear callbacks and native handlers when your UI is removed
 
   // Real-time updates — register once after constructing the bridge:
   bridge.setCallbacks({
     onValueUpdated: ({ index, value, ... }) => { /* update your UI */ },
     onThemeUpdated: (theme) => { /* re-apply theme on light/dark switch */ },
+    onDeviceMetadataUpdated: (descriptor) => { /* device metadata changed */ },
+    onMapDataUpdated: (data) => { /* map data updated */ },
     onError: (message) => { /* handle platform/validation errors */ }
   });
   // The Blynk WebView calls these handlers whenever the server pushes
   // new data, the app theme changes, or an error occurs.
 ```
+{% endcode %}
 
 The `BlynkBridge` JavaScript class (injected before your page's own scripts) wraps all platform calls and keeps things consistent.
 
@@ -43,6 +73,7 @@ The `BlynkBridge` JavaScript class (injected before your page's own scripts) wra
 
 ### Minimal HTML Skeleton
 
+{% code collapsedlinecount="10" %}
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -80,6 +111,12 @@ The `BlynkBridge` JavaScript class (injected before your page's own scripts) wra
         showPage:               () => {},
         closePage:              () => {},
         closeAllPages:          () => {},
+        getMapData:             () => Promise.reject('no bridge'),
+        getPages:               () => Promise.reject('no bridge'),
+        getAllDeviceMetadata:   () => Promise.reject('no bridge'),
+        getDeviceMetadata:      () => Promise.reject('no bridge'),
+        updateDeviceMetadata:   () => Promise.reject('no bridge'),
+        destroy:                () => {},
       };
 
   // ② Register callbacks
@@ -111,6 +148,7 @@ The `BlynkBridge` JavaScript class (injected before your page's own scripts) wra
 </body>
 </html>
 ```
+{% endcode %}
 
 ***
 
@@ -118,31 +156,44 @@ The `BlynkBridge` JavaScript class (injected before your page's own scripts) wra
 
 The `BlynkBridge` class is **injected by the Blynk WebView before your page scripts run**. Always guard against it being absent (browser / editor preview):
 
+{% code collapsedlinecount="10" %}
 ```js
 const bridge = (typeof BlynkBridge !== 'undefined')
   ? new BlynkBridge()
   : { /* stub */ };
 ```
+{% endcode %}
 
 #### Initialization
 
+{% code collapsedlinecount="10" %}
 ```js
 const bridge = new BlynkBridge({
   logEnabled:       true,  // default true — forwards log() calls to the Blynk platform logger
   isOnErrorEnabled: true   // default true — enables the onError callback and sendError()
 });
 ```
+{% endcode %}
 
 Constructing `BlynkBridge` also exposes:
 
 * `window.blynkWidgetUpdate(json)` — called by the Blynk WebView with real-time push payloads
 * `window.blynkOnError(message)` — called by the Blynk WebView when a platform error occurs
+* `window.blynkDeviceMetadataUpdated` — the native entry point for device metadata updates
+
+**Initialization order and method types**
+
+* Register callbacks **before** the initial reads. Live updates can arrive before or after initialization, so use each payload's `index` to identify its datastream and make rendering safe to repeat. Reconcile concurrent initial reads and pushes if strict freshness ordering is required.
+* Read and request methods (`getValue`, `getValues`, `getDeviceInfo`, `getTheme`, `getHistoricalData`, `getMapData`, `getPages` and the device metadata methods) return Promises.
+* Setters, `sendValue`, `sendError`, callback registration, navigation and `destroy` are synchronous. Capability checks return booleans.
 
 #### Checking Bridge Availability
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.isBridgeAvailable()  // → boolean
 ```
+{% endcode %}
 
 Returns `true` when running inside the Blynk WebView. Returns `false` in a browser or during the HTML editor preview.
 
@@ -150,9 +201,11 @@ Returns `true` when running inside the Blynk WebView. Returns `false` in a brows
 
 #### Checking External Request Permission
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.isExternalRequestsAllowed()  // → boolean
 ```
+{% endcode %}
 
 Returns `true` when the host platform permits the widget to make outbound HTTP/HTTPS requests (e.g. calling the Blynk Platform REST API or any third-party endpoint) directly from widget JavaScript.
 
@@ -160,6 +213,7 @@ Returns `true` when the host platform permits the widget to make outbound HTTP/H
 
 Recommended guard before making any external network request:
 
+{% code collapsedlinecount="10" %}
 ```js
 if (bridge.isExternalRequestsAllowed()) {
   fetch('https://api.example.com/data')
@@ -170,6 +224,7 @@ if (bridge.isExternalRequestsAllowed()) {
   bridge.log('External requests not allowed on this platform');
 }
 ```
+{% endcode %}
 
 ***
 
@@ -177,33 +232,37 @@ if (bridge.isExternalRequestsAllowed()) {
 
 **`getValue(index)` — single datastream**
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.getValue(0)  // → Promise<ValueObject>
 ```
+{% endcode %}
 
 `index` is 0-based. Rejects when the index is missing (`Error: 'getValue() has no index'`) or refers to a datastream that isn't configured on the widget (`` Error: `Datastream index ${index} is not configured` `` ).
 
 **All fields below are always present on the resolved object**, even ones that don't apply to the current stream's type — in that case they default to `null`, `''`, or `[]` rather than being left out. Use the `type` field to decide which ones are meaningful:
 
-| Field               | Type       | Description                                                        |
-| ------------------- | ---------- | ------------------------------------------------------------------ |
-| `index`             | `number`   | 0-based datastream index (mirrors the position in widget settings) |
-| `value`             | `string`   | Current datastream value as a string                               |
-| `lastUpdated`       | \`number   | null\`                                                             |
-| `type`              | `string`   | Datastream type:`"INT"`, `"DOUBLE"`, `"STRING"`, `"ENUM"`, …       |
-| `label`             | `string`   | Datastream label if configured, otherwise`''`                      |
-| `pinType`           | `string`   | Pin type name, e.g.`"VIRTUAL"`, or `''`                            |
-| `color`             | `string`   | Datastream accent color configured in widget settings, or`''`      |
-| `min`               | \`number   | null\`                                                             |
-| `max`               | \`number   | null\`                                                             |
-| `unit`              | `string`   | Measurement unit name, or`''`                                      |
-| `suffix`            | `string`   | Unit suffix for display, or`''`                                    |
-| `decimalFormat`     | `string`   | Decimal format pattern, e.g.`"#.##"`, or `''`                      |
-| `mappings`          | `string[]` | Enum option labels;`[]` for non-enum streams                       |
-| `enumFallbackValue` | \`string   | null\`                                                             |
+| Field               | Type       | Description                                                                                   |
+| ------------------- | ---------- | --------------------------------------------------------------------------------------------- |
+| `index`             | `number`   | 0-based datastream index (mirrors the position in widget settings)                            |
+| `value`             | `string`   | Current datastream value as a string                                                          |
+| `lastUpdated`       | \`number   | null\`                                                                                        |
+| `type`              | `string`   | Datastream type:`"INT"`, `"DOUBLE"`, `"STRING"`, `"ENUM"`, …                                  |
+| `label`             | `string`   | Datastream label if configured, otherwise`''`                                                 |
+| `displayName`       | `string`   | Display alias of the datastream, falling back to the label where available; `''` when not set |
+| `pinType`           | `string`   | Pin type name, e.g.`"VIRTUAL"`, or `''`                                                       |
+| `color`             | `string`   | Datastream accent color configured in widget settings, or`''`                                 |
+| `min`               | \`number   | null\`                                                                                        |
+| `max`               | \`number   | null\`                                                                                        |
+| `unit`              | `string`   | Measurement unit name, or`''`                                                                 |
+| `suffix`            | `string`   | Unit suffix for display, or`''`                                                               |
+| `decimalFormat`     | `string`   | Decimal format pattern, e.g.`"#.##"`, or `''`                                                 |
+| `mappings`          | `string[]` | Enum option labels;`[]` for non-enum streams                                                  |
+| `enumFallbackValue` | \`string   | null\`                                                                                        |
 
 Example resolved object for an integer temperature datastream:
 
+{% code collapsedlinecount="10" %}
 ```js
 {
   index:             0,
@@ -222,9 +281,11 @@ Example resolved object for an integer temperature datastream:
   enumFallbackValue: null
 }
 ```
+{% endcode %}
 
 Example for a double speed datastream:
 
+{% code collapsedlinecount="10" %}
 ```js
 {
   index:             1,
@@ -243,9 +304,11 @@ Example for a double speed datastream:
   enumFallbackValue: null
 }
 ```
+{% endcode %}
 
 Usage pattern — rendering a human-readable value:
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.getValue(0).then(v => {
   const num = parseFloat(v.value);
@@ -255,6 +318,7 @@ bridge.getValue(0).then(v => {
   valueEl.textContent = v.suffix ? `${display} ${v.suffix}` : display;
 });
 ```
+{% endcode %}
 
 ***
 
@@ -271,6 +335,7 @@ The `value` field holds the **numeric index** of the currently selected option a
 
 Example resolved object for a mode selector with three options:
 
+{% code collapsedlinecount="10" %}
 ```js
 {
   index:              0,
@@ -289,9 +354,11 @@ Example resolved object for a mode selector with three options:
   enumFallbackValue:  "Unknown"   // null if not configured
 }
 ```
+{% endcode %}
 
 Usage pattern — rendering the selected label:
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.getValue(0).then(v => {
   if (v.type === 'ENUM') {
@@ -301,9 +368,11 @@ bridge.getValue(0).then(v => {
   }
 });
 ```
+{% endcode %}
 
 Usage pattern — building a dropdown from enum options:
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.getValue(0).then(v => {
   if (v.type !== 'ENUM') return;
@@ -320,19 +389,23 @@ bridge.getValue(0).then(v => {
   });
 });
 ```
+{% endcode %}
 
 ***
 
 **`getValues()` — all datastreams**
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.getValues()  // → Promise<ValueObject[]>
 ```
+{% endcode %}
 
 Returns an array of `ValueObject` (same shape as above), one per assigned datastream, in the same order as the datastreams appear in widget settings. The `index` field on each object reflects its 0-based position in that ordering. The array length equals the number of assigned datastreams. An empty array means no datastreams are configured.
 
 Usage pattern — handling mixed stream types:
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.getValues().then(values => {
   values.forEach(v => {
@@ -346,14 +419,43 @@ bridge.getValues().then(values => {
   });
 });
 ```
+{% endcode %}
+
+**Reading by selector**
+
+Besides a 0-based index, `getValue` and `sendValue` accept `{ id: number }` or `{ name: string }`, with exactly one selector property defined:
+
+{% code collapsedlinecount="10" %}
+```js
+const temperature = await bridge.getValue({ id: 42 });
+bridge.sendValue({ name: 'Temperature' }, '23.5');
+
+// The resolved index can be reused for history and map requests
+const history = await bridge.getHistoricalData({
+  period: 'DAY', dataStreams: [{ index: temperature.index, sourceType: 'AVG' }]
+});
+const locations = await bridge.getValue({ name: 'Location' });
+const map = await bridge.getMapData({ index: locations.index, period: 'DAY' });
+```
+{% endcode %}
+
+Selectors search only the widget's assigned datastreams. `name` matches the exact datastream label, not its display alias. `getValue` returns the same value model as an index read, including the resolved `index`.
+
+| Error code                      | Meaning                                                    |
+| ------------------------------- | ---------------------------------------------------------- |
+| `datastream_not_found`          | No assigned datastream matches the selector                |
+| `ambiguous_datastream_selector` | More than one assigned datastream matches the selector     |
+| `invalid_selector`              | The selector does not define exactly one of `id` or `name` |
 
 ***
 
 #### Sending Values
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.sendValue(index, value)
 ```
+{% endcode %}
 
 | Parameter | Type     | Description              |
 | --------- | -------- | ------------------------ |
@@ -362,12 +464,16 @@ bridge.sendValue(index, value)
 
 Example:
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.sendValue(0, '23.5');
 bridge.sendValue(1, 'ON');
 ```
+{% endcode %}
 
 `sendValue` is fire-and-forget — it doesn't return a Promise. If `index` refers to a datastream that isn't configured on the widget, you'll see `` `Datastream index ${index} is not configured` `` come through `onError` (or as a toast, if `sendError`-driven UI is enabled) instead of a thrown exception.
+
+Selector-based `sendValue({ id })` or `sendValue({ name })` is also synchronous. If the selector cannot be resolved, it throws and reports the error to `onError`.
 
 ***
 
@@ -375,9 +481,11 @@ bridge.sendValue(1, 'ON');
 
 **`sendError(message)` — push an error toast to the Dashboard**
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.sendError(message)
 ```
+{% endcode %}
 
 Displays `message` as an error toast notification in the Blynk Dashboard UI. Use this to surface widget errors to the user (e.g. a failed external fetch, invalid input, or unsupported configuration).
 
@@ -389,6 +497,7 @@ Displays `message` as an error toast notification in the Blynk Dashboard UI. Use
 * Does nothing when `isOnErrorEnabled` is `false`.
 * Does nothing when the bridge is not available.
 
+{% code collapsedlinecount="10" %}
 ```js
 if (bridge.isExternalRequestsAllowed()) {
   fetch('https://api.example.com/data')
@@ -399,15 +508,18 @@ if (bridge.isExternalRequestsAllowed()) {
   bridge.sendError('External requests are not allowed on this platform');
 }
 ```
+{% endcode %}
 
 ***
 
 **`setOnErrorEnabled(enabled)` — enable/disable error delivery**
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.setOnErrorEnabled(false)  // suppress both sendError() and the onError callback
 bridge.setOnErrorEnabled(true)   // re-enable (default)
 ```
+{% endcode %}
 
 When `false`:
 
@@ -420,6 +532,7 @@ When `false`:
 
 Register via `setCallbacks`:
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.setCallbacks({
   onError: (message) => {
@@ -431,19 +544,50 @@ bridge.setCallbacks({
   }
 });
 ```
+{% endcode %}
 
 The platform calls `window.blynkOnError(message)` directly; `BlynkBridge` forwards it to your registered handler.
 
 **Platform behaviour:**
 
-| Platform            | `sendError` | `onError` callback  |
-| ------------------- | ----------- | ------------------- |
-| Web (Blynk Console) | No-op       | Fires via JS bridge |
+| Platform            | `sendError`                                                                   | `onError` callback  |
+| ------------------- | ----------------------------------------------------------------------------- | ------------------- |
+| Web (Blynk Console) | No-op                                                                         | Fires via JS bridge |
+| Mobile              | Sends the message to the native toast handler and invokes the local `onError` | Fires via JS bridge |
+
+On mobile, `sendError(message)` also invokes the local `onError` callback, and the local callback still runs if the native bridge is unavailable. Empty or non-string messages are ignored. `setOnErrorEnabled(false)` suppresses both forms of notification, and `true` re-enables them.
+
+**Promise-returning requests and errors**
+
+Promise-returning requests (value reads, device info, theme, history, map and device metadata) notify through `sendError` on validation, native and fetch failures **before** rejecting. The Promise still rejects when notifications are disabled. Avoid displaying a second error from `catch` if `onError` already displays it.
+
+**Exceptions in callbacks**
+
+* Synchronous exceptions from value and metadata callbacks are caught and logged.
+* Exceptions from `onError` are silently ignored, which preserves the original request failure.
+* A Promise rejection returned by an async callback is **not** caught by these synchronous guards. Handle it inside that callback.
+
+**`BlynkBridgeError`**
+
+Device metadata failures use the exported `BlynkBridgeError`, which carries `code` and `details`. Branch on the code rather than on the human-readable error text. Other request APIs generally reject with `Error`.
+
+{% code collapsedlinecount="10" %}
+```js
+try {
+  await bridge.getDeviceMetadata({ id: 42 });
+} catch (error) {
+  if (error instanceof window.BlynkBridgeError) {
+    bridge.log(error.code);
+  }
+}
+```
+{% endcode %}
 
 ***
 
 #### Real-time Updates
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.setCallbacks({
   onValueUpdated: ({ index, value, lastUpdated, type, label, pinType, color,
@@ -489,22 +633,47 @@ bridge.setCallbacks({
   }
 });
 ```
+{% endcode %}
 
 `BlynkBridge` dispatches new values, theme changes, and range-picker updates to `onValueUpdated`, `onThemeUpdated`, and `onHistoricalDataUpdated` respectively, as they happen.
+
+**Registering and removing callbacks**
+
+`setCallbacks` accepts six callback names: `onValueUpdated`, `onDeviceMetadataUpdated`, `onError`, `onHistoricalDataUpdated`, `onMapDataUpdated` and `onThemeUpdated`.
+
+{% code collapsedlinecount="10" %}
+```js
+bridge.setCallbacks({
+  onDeviceMetadataUpdated: descriptor => renderMetadata(descriptor),
+  onMapDataUpdated: data => renderMap(data)
+});
+```
+{% endcode %}
+
+Omitted callback keys are preserved. Pass `null` to remove a registration:
+
+{% code collapsedlinecount="10" %}
+```js
+bridge.setCallbacks({ onDeviceMetadataUpdated: null });
+```
+{% endcode %}
 
 ***
 
 #### Device Info
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.getDeviceInfo()  // → Promise<DeviceInfo>
 ```
+{% endcode %}
 
 On Web, this **never resolves with a bare `null`.**
 
 * It **rejects** when the bridge isn't available, or after a 10-second timeout (`Error: 'Device info request timeout (10s)'`).
 * Otherwise it **resolves** with an object — when there's no device linked to the widget, the individual fields fall back to `null`/`''` instead.
 
+{% code collapsedlinecount="10" %}
 ```ts
 {
   id:             number | null,   // internal device ID; null if no device is linked
@@ -514,6 +683,7 @@ On Web, this **never resolves with a bare `null`.**
   lastReportedAt: number | null    // Unix timestamp (ms) of last server activity; null if unknown
 }
 ```
+{% endcode %}
 
 **Field notes:**
 
@@ -527,6 +697,7 @@ On Web, this **never resolves with a bare `null`.**
 
 Example — showing an online/offline badge:
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.getDeviceInfo().then(info => {
   if (!info.id) return; // no device linked to this widget
@@ -544,9 +715,11 @@ bridge.getDeviceInfo().then(info => {
   }
 });
 ```
+{% endcode %}
 
 Example — safe guard pattern (recommended):
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.getDeviceInfo()
   .then(info => {
@@ -558,14 +731,68 @@ bridge.getDeviceInfo()
   })
   .catch(() => showNoDevice());
 ```
+{% endcode %}
+
+On mobile, `getDeviceInfo()` returns `{ id, orgId, name, lastReportedAt, status? }` when device info is available, and it can resolve `null` when it is not, so handle both `null` and rejected requests. `status` is a string and may be absent, and this API does not return a `lifecycleStatus` object. For standard statuses, compare `info?.status?.toUpperCase()`.
+
+***
+
+#### Device Metadata
+
+Read and update the metadata of the device the widget is bound to.
+
+| API                                          | Result                                                    |
+| -------------------------------------------- | --------------------------------------------------------- |
+| `getAllDeviceMetadata(options?)`             | Promise of the supported descriptors for the bound device |
+| `getDeviceMetadata(selector, options?)`      | Promise of one descriptor                                 |
+| `updateDeviceMetadata(selector, valuePatch)` | Promise of the committed descriptor                       |
+| `onDeviceMetadataUpdated(descriptor)`        | Callback with one committed descriptor                    |
+
+{% code collapsedlinecount="10" %}
+```js
+const fields = await bridge.getAllDeviceMetadata();
+const location = await bridge.getDeviceMetadata({ name: 'Installation location' });
+if (location.type === 'Location' && location.editable && location.schema.enabledFields.includes('room')) {
+  const committed = await bridge.updateDeviceMetadata({ id: location.id }, { room: '205' });
+  renderMetadata(committed);
+}
+```
+{% endcode %}
+
+**Selecting and reading**
+
+* Select by exactly one `id` or exact `name`.
+* Options are `{ refresh?: boolean }`. Null or omitted options mean `{ refresh: false }`. Extra selector or options properties are ignored, and undefined selector properties count as absent.
+* Calls always target the widget's bound device. JavaScript does not provide a device ID.
+* On mobile, IDs are signed 32-bit integers and values go through bounded JSON validation.
+* Reads reuse native full-device snapshots. `{ refresh: true }` awaits an authoritative full-device response.
+* Metadata types introduced by a newer server keep their original server type string in the descriptor's `type`. Their non-base JSON properties are preserved in `value`, including nested objects and arrays. Base descriptor properties such as `id`, `type`, label or name, description, icon and flags stay in the descriptor itself.
+
+**Updating**
+
+* Patch documented value properties only. Omitted properties remain unchanged. An explicit `null` is accepted only where native validation permits it.
+* Use `editable` and `schema` to build controls.
+* Writes serialize per device and field. A timed-out write can have an unknown outcome, so refresh before deciding whether to retry.
+* Requests and notifications are scoped to the current page and device binding.
+
+**Callback behavior**
+
+* `onDeviceMetadataUpdated` delivers committed descriptors after native readiness, including changed schema or metadata. Identical snapshots are suppressed.
+* Readiness can emit existing fields, but callback registration does not replace an initial read.
+* A successful write may arrive through both its Promise and the callback.
+* The callback ignores null and non-object payloads and receives a shallow copy. Exceptions are caught and logged.
+
+Failures use `BlynkBridgeError` (see [Error Handling](html-widget-developer-guide.md#error-handling)). Native models, transport paths, descriptor type names and stable error codes keep the existing "metafield" terminology.
 
 ***
 
 #### App Theme
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.getTheme()  // → Promise<Theme>
 ```
+{% endcode %}
 
 On Web, `getTheme()` **rejects** (does not resolve `null`) when the bridge isn't available (`Error: 'Blynk bridge is not available'`) or after a 10-second response timeout (`Error: 'Theme request timeout (10s)'`). Otherwise it resolves with an object whose color fields are CSS hex strings **already resolved for the current light/dark mode** — no `prefers-color-scheme` adaptation needed — plus optional font-family strings supplied by the host app:
 
@@ -601,6 +828,7 @@ Custom theme fonts (`primaryFont`, `secondaryFont`, `buttonsFont`, `widgetValues
 
 Apply all theme properties as CSS custom properties so the whole page updates atomically:
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.getTheme().then(theme => {
   if (!theme) return;
@@ -623,9 +851,11 @@ bridge.getTheme().then(theme => {
   if (theme.widgetValuesFont) r.setProperty('--font-widget-values', theme.widgetValuesFont);
 });
 ```
+{% endcode %}
 
 And reference them in your CSS:
 
+{% code collapsedlinecount="10" %}
 ```css
 :root {
   /* Color fallbacks (overridden by getTheme()) */
@@ -645,28 +875,31 @@ body        { font-family: var(--font-primary); }
 button      { font-family: var(--font-buttons); }
 .sub-label  { font-family: var(--font-secondary); }
 ```
+{% endcode %}
 
 > **Note:** Always keep CSS fallback values in `:root` so the widget looks correct in the browser/editor before `getTheme()` resolves.
-
-***
 
 #### Historical Data
 
 **Checking Range Picker Support**
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.isRangePickerSupported()  // → boolean
 ```
+{% endcode %}
 
-Returns `true` when the host platform supports the `RANGE_PICKER` period mode (an interactive date-range picker driven by the native UI). |
+Returns `true` when the host platform supports the `RANGE_PICKER` period mode (an interactive date-range picker driven by the native UI). The date picker exists only on web.
 
 ***
 
 **`getHistoricalData(options)`**
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.getHistoricalData(options)  // → Promise<HistoricalDataMap>
 ```
+{% endcode %}
 
 Fetches historical datastream values for the widget's assigned datastreams.
 
@@ -698,6 +931,7 @@ Fetches historical datastream values for the widget's assigned datastreams.
 
 Resolves with a `HistoricalDataResult` object containing a `streams` array:
 
+{% code collapsedlinecount="10" %}
 ```ts
 {
   streams: Array<{
@@ -716,6 +950,7 @@ Resolves with a `HistoricalDataResult` object containing a `streams` array:
   }>
 }
 ```
+{% endcode %}
 
 > **Note on `granularity`:** The server automatically picks the appropriate bucket size based on the requested period and `sourceType`. `RAW_DATA` requests return individual raw points and the `granularity` field is **`null`** for those streams. Aggregated source types (`AVG`, `MIN`, `MAX`, `SUM`, `COUNT`) use time-bucket aggregation and always return a non-null `granularity` string. Always null-check `stream.granularity` before displaying or comparing it.
 
@@ -755,6 +990,7 @@ The following conditions are checked **before** the native call is made; the Pro
 
 **Examples**
 
+{% code collapsedlinecount="10" %}
 ```js
 // Named period with datastreams and aggregation
 bridge.getHistoricalData({
@@ -799,16 +1035,18 @@ bridge.getHistoricalData({
   .then(({ streams }) => renderChart(streams))
   .catch(err => bridge.log('History error: ' + err));
 ```
+{% endcode %}
 
 **RANGE\_PICKER period**
 
-`RANGE_PICKER` is a special period that delegates range selection to the **native date-range picker UI** provided by the host app rather than using a fixed window or explicit timestamps. It is only available on platforms where `bridge.isRangePickerSupported()` returns `true`.
+`RANGE_PICKER` is a special period that delegates range selection to the **native date-range picker UI** provided by the host app rather than using a fixed window or explicit timestamps. It is only available on web where `bridge.isRangePickerSupported()` returns `true`.
 
 **How it works (subscription model):**
 
 1. **Initial call** — `getHistoricalData({ period: 'RANGE_PICKER' })` registers the widget as a subscriber and resolves with the data for whatever range the picker currently shows.
 2. **Automatic updates** — from that point on, whenever the user moves the range picker, the platform pushes a fresh `HistoricalDataMap` directly to the `onHistoricalDataUpdated` callback registered via `setCallbacks`. These are **not** new Promise resolutions — they arrive asynchronously outside the Promise chain.
 
+{% code collapsedlinecount="10" %}
 ```js
 // 1. Register the onHistoricalDataUpdated callback first
 bridge.setCallbacks({
@@ -832,6 +1070,7 @@ if (bridge.isRangePickerSupported()) {
     .then(({ streams }) => renderChart(streams));
 }
 ```
+{% endcode %}
 
 > **Note:** Register `onHistoricalDataUpdated` in `setCallbacks` **before** calling `getHistoricalData({ period: 'RANGE_PICKER' })` to avoid missing the first automatic push that may arrive immediately after subscription.
 
@@ -839,14 +1078,114 @@ if (bridge.isRangePickerSupported()) {
 
 ***
 
+#### Map Data
+
+{% code collapsedlinecount="10" %}
+```js
+const result = await bridge.getMapData({ index: 0, period: 'DAY' });
+// result.points: [{ ts, latitude, longitude }]
+```
+{% endcode %}
+
+`getMapData(options)` returns the recorded location points of a location datastream for a given period.
+
+| Parameter        | Type     | Required    | Description                                                                                |
+| ---------------- | -------- | ----------- | ------------------------------------------------------------------------------------------ |
+| `options.index`  | `number` | yes         | 0-based index of an assigned `LOCATION` datastream (`getValue(index).type === 'LOCATION'`) |
+| `options.period` | `string` | yes         | Same periods as `getHistoricalData`                                                        |
+| `options.from`   | `number` | CUSTOM only | Start of the custom range, Unix timestamp in **milliseconds**                              |
+| `options.to`     | `number` | CUSTOM only | End of the custom range, Unix timestamp in **milliseconds**. `from` must be less than `to` |
+
+* `CUSTOM` requires finite millisecond timestamps.
+* Map data has no aggregation or `sourceType` parameter. It returns raw points, or `points: []` when none exist.
+* The result shape is `{ points: [{ ts, latitude, longitude }] }`.
+
+***
+
+#### Page Navigation (mobile only)
+
+**Listing pages**
+
+{% code collapsedlinecount="10" %}
+```js
+const pages = await bridge.getPages();
+// [{ id: 17, name: 'Room details' }, { id: 3, name: 'Settings' }]
+```
+{% endcode %}
+
+`getPages(): Promise<Array<{ id: number; name: string }>>` returns the widget pages of the current dashboard's tile template, in template order.
+
+* It is not restricted to the HTML Widget's configured navigation targets.
+* Device-info tabs and welcome pages are not included.
+* An unavailable template, or a template without pages, returns `[]`. An unavailable native bridge rejects and invokes `onError` when enabled.
+* The list is refreshed when the widget binding updates.
+
+Page IDs are stable identifiers, **not** arguments for `showPage(index)`, which selects an entry in this HTML Widget's configured page targets. `getPages()` only lists pages: it does not add ID-based navigation or change the capability flags.
+
+**Navigating**
+
+{% code collapsedlinecount="10" %}
+```js
+bridge.showPage(0);
+bridge.closePage();
+bridge.closeAllPages();
+```
+{% endcode %}
+
+* `showPage(index)` opens a configured page target. Page indices are 0-based.
+* `closePage()` goes back one page.
+* `closeAllPages()` returns to the main dashboard.
+
+These methods are fire-and-forget and return no completion Promise.
+
+**Checking Page Actions Support**
+
+{% code collapsedlinecount="10" %}
+```js
+bridge.isPageActionsSupported()  // → boolean
+```
+{% endcode %}
+
+Returns `true` when the host platform supports the page navigation calls. Do not infer page or range-picker support from the host name alone: check the capability methods.
+
+| Method                        | Current mobile result                |
+| ----------------------------- | ------------------------------------ |
+| `isBridgeAvailable()`         | `true` when the native bridge exists |
+| `isExternalRequestsAllowed()` | `true`                               |
+| `isRangePickerSupported()`    | `false`                              |
+| `isPageActionsSupported()`    | `true`                               |
+
+The external-request flag is a capability signal, not proof that every underlying WebView request is blocked or allowed. Bridge result fetches and font loading use their own paths. On hosts that report `true`, CORS or network conditions can still cause fetch failures.
+
+***
+
 #### Logging
 
+{% code collapsedlinecount="10" %}
 ```js
 bridge.log('my message')
 bridge.setLogging(false)   // silence all bridge.log() calls
 ```
+{% endcode %}
 
-Messages are forwarded to the Blynk platform logger.
+Messages are forwarded to the Blynk platform logger. `bridge.setLogging(false)` disables bridge logging only, not error delivery.
+
+***
+
+#### Cleanup
+
+{% code collapsedlinecount="10" %}
+```js
+bridge.destroy();
+```
+{% endcode %}
+
+* Clears all six callbacks and removes the native global handlers owned by this instance.
+* Repeated calls are safe, and destroying an old bridge does not remove a newer instance's handlers.
+* Native event delivery is guarded when no handler exists.
+* The shared font stylesheet and the exported constructors remain available.
+
+`destroy()` does not promise to abort in-flight fetches or native writes. Reload, detach and binding changes have separate native request lifecycle handling. Use `setCallbacks` to change handlers, and call `destroy` when your UI is removed instead of manually replacing bridge globals.
 
 ***
 
@@ -854,6 +1193,7 @@ Messages are forwarded to the Blynk platform logger.
 
 Define all theme-sensitive values as CSS custom properties in `:root` with sensible defaults; override them from `getTheme()` at runtime:
 
+{% code collapsedlinecount="10" %}
 ```css
 :root {
   /* — updated by getTheme() — */
@@ -881,6 +1221,7 @@ Define all theme-sensitive values as CSS custom properties in `:root` with sensi
   }
 }
 ```
+{% endcode %}
 
 The `@media (prefers-color-scheme: dark)` block serves as a fallback for the editor/browser. Inside the Blynk WebView `getTheme()` returns colors already matched to the current Blynk theme (which may differ from the OS preference), so always call `getTheme()` and apply its values.
 
@@ -890,6 +1231,7 @@ The `@media (prefers-color-scheme: dark)` block serves as a fallback for the edi
 
 The WebView uses a fixed pixel canvas, but the widget tile can be any size. Use CSS Container Queries to adapt:
 
+{% code collapsedlinecount="10" %}
 ```css
 .stage {
   container-type: size;
@@ -909,12 +1251,15 @@ The WebView uses a fixed pixel canvas, but the widget tile can be any size. Use 
   .widget { padding: 16px; gap: 14px; }
 }
 ```
+{% endcode %}
 
 Use `clamp()` for fluid type:
 
+{% code collapsedlinecount="10" %}
 ```css
 font-size: clamp(12px, 3cqmin, 15px);
 ```
+{% endcode %}
 
 Container query units (`cqw`, `cqh`, `cqmin`, `cqmax`) are fully supported in Blynk WebViews.
 
@@ -924,6 +1269,7 @@ Container query units (`cqw`, `cqh`, `cqmin`, `cqmax`) are fully supported in Bl
 
 The recommended boot sequence:
 
+{% code collapsedlinecount="10" %}
 ```js
 async function init() {
   // 1. Apply theme first so there's no flash of wrong colors
@@ -955,6 +1301,7 @@ bridge.setCallbacks({
   onError: (message) => showErrorBanner(message)
 });
 ```
+{% endcode %}
 
 > **Important:** All bridge calls return a `Promise`. Always chain `.catch()` on every call to handle the no-bridge and timeout cases.
 
@@ -1014,3 +1361,8 @@ The built-in sample HTML is a production-quality example that demonstrates all o
 | **`window.blynkWidgetUpdate`**                                | Blynk calls this global directly. Do not delete or replace it after`BlynkBridge` is constructed.                                                                                                                                                                                                                                                                            |
 | **Preview / editor mode**                                     | When`bridge.isBridgeAvailable()` is `false`, show `MAX_INPUTS` fields with placeholder content so the widget looks meaningful in the editor.                                                                                                                                                                                                                                |
 | **Per-plan limit on HTML Widgets per template**               | Each plan allows only a limited number of HTML Widget instances per template (shown to users as\*"HTML Widget limit reached. Your plan allows \{{count\}} per template."\*). Once reached, the dashboard editor shows an "Upgrade" prompt and blocks adding more — this is a platform/billing constraint, not something your widget's JavaScript can detect or work around. |
+| **Register callbacks before initial reads**                   | Live updates can arrive before or after your initial `getValue`/`getValues` calls. Register `setCallbacks` first, key rendering on `index`, and make it safe to repeat.                                                                                                                                                                                                     |
+| **Selectors by `id` or `name`**                               | `getValue` and `sendValue` accept `{ id }` or `{ name }` as well as an index. `name` matches the exact datastream label, not the display alias.                                                                                                                                                                                                                             |
+| **Handle Promise failures without duplicating errors**        | Promise-returning requests call `sendError` before rejecting, so `onError` may already have shown the message. Avoid displaying a second error from `catch`.                                                                                                                                                                                                                |
+| **`destroy()`**                                               | Call it when your UI is removed to clear callbacks and native handlers. Use `setCallbacks` (with `null` to remove a key) to change handlers.                                                                                                                                                                                                                                |
+| **Capabilities differ by host**                               | Check `isRangePickerSupported()`, `isPageActionsSupported()` and `isExternalRequestsAllowed()` instead of assuming web behavior on other platforms.                                                                                                                                                                                                                         |

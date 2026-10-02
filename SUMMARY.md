@@ -258,6 +258,7 @@
   * [WebPage Button](blynk.apps/widgets-other/webpage-button.md)
   * [WebPage Image Button](blynk.apps/widgets-other/webpage-image-button.md)
   * [Alias Name](blynk.apps/widgets-other/alias-name.md)
+* [HTML Widget](blynk.apps/html-widget.md)
 * [Main Menu](blynk.apps/profile-management/README.md)
   * [My Profile](blynk.apps/profile-management/my-profile.md)
   * [Organization](blynk.apps/profile-management/organization-management.md)
