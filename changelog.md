@@ -1,5 +1,47 @@
 # Changelog
 
+## Oct 5, 2026
+
+**Device Developer Tools**
+
+* "Enable Trace" is now a **live trace terminal**: every message a device exchanges, in both directions, with Formatted and HEX views, in its own Trace log tab.
+* Testing tab: add datastreams in bulk, randomize values, and test `setProperty` with several image addresses.
+
+**Blynk.AI and the Data Engine**
+
+* Explore a Data Object with Blynk.AI from the SQL Query Editor; it appears in the chat as an artifact and its results can be exported.
+* Generated queries use your Data Engine schema; COUNT aggregation added to custom data columns.
+
+**Widgets**
+
+* New **Latest Events** widget for the device dashboard.
+* AnyWidget/HTML widget: read and write device metadata and query the Data Engine from widget code; HTML widget now available on Plus and Free mobile.
+* New ECharts Chart, Custom chart and Heatmap widgets (preview).
+
+**Devices and organizations**
+
+* The device's template shows in the header and info drawer, with metadata updating live.
+* Segments: drag-and-drop reordering, pills that stay visible during selection; the devices map view has its own link.
+* Users can change their time zone after registration; device names may contain parentheses.
+
+**Reports and exports**
+
+* Report emails reach whoever started the report and describe it; failures are emailed too.
+* Device report CSVs stream straight from ClickHouse — faster and far less disk.
+
+**API**
+
+* New Platform API endpoints for organization roles and a user's developer mode; mobile can duplicate pages and run Data Engine queries.
+
+**Performance and security**
+
+* Faster Blynk.Air pages, a lighter console boot, virtualized tables and smoother dialogs.
+* CSV export formulas neutralized, event email values escaped, export file names sanitized.
+
+**Notable fixes**
+
+* Endless Log In loader between restarts; Geomap showing another template's datastreams; broken device transfer pop-ups; empty devices map after sorting.
+
 ## Sep 15, 2026
 
 **New Features**
