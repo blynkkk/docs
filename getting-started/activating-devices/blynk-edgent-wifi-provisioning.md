@@ -95,7 +95,7 @@ Tap **Add New Device** in the app and follow the on-screen instructions — the 
 
 Here is an example of how it works in the app:
 
-{% embed url="https://www.youtube.com/watch?v=bXPEEmsEtPM" %}
+{% embed url="https://youtu.be/EGNbhRODRVo" %}
 
 For debugging and troubleshooting check the serial monitor output. There you will see how the provisioning process is happening on the device. If you hit an error while testing, Developer Mode shows a **Reason** and **Session ID** on the error screen — look that session up in [Provisioning Sessions](../../blynk.console/developers/debugging/provisioning-sessions.md) for a full step-by-step timeline. When troubleshooting a report from an end customer (who won't see these fields), search by their email or the approximate time of the attempt instead.
 
