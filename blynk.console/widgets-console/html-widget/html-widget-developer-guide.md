@@ -15,7 +15,7 @@ Blynk publishes `blynk-html-widget`, an [Agent Skill](https://agentskills.io) th
 3. Describe what you need in plain language: _"a gauge showing the temperature datastream with a 24-hour chart underneath"_ and optionally send a screenshot reference if you have to get more precise result.
 4. Copy the generated HTML into the editor's **Code** tab, then verify it on the **Testing** tab against a real device.
 
-{% file src="../../../.gitbook/assets/blynk-html-widget.zip" %}
+{% file src="../../../.gitbook/assets/blynk-html-widget (1).zip" %}
 
 {% hint style="warning" %}
 **Note:** Always review generated code before adding the widget to a production dashboard. A generated widget can send values to your device, and the Testing tab uses a real device and real messages.
