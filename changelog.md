@@ -2,6 +2,8 @@
 
 ## Oct 21, 2026
 
+**Breking change** - datastream aliases are now used in widgets instead of datastream name.
+
 **New Blynk.Air** - work in progress
 
 **Developer Zone**
