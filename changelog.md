@@ -1,5 +1,60 @@
 # Changelog
 
+## Oct 21, 2026
+
+**New Blynk.Air** - work in progress
+
+**Developer Zone**
+
+* New **Requests log** with three views: **Datapoints** (messages sent by devices, messages sent to devices and logged events, per organization and device), **Http requests** (External API calls with their success and failure counts) and **Emails** (the former Email logs). Graphs switch between per hour and per day.
+* Developer Tools show the current firmware file with a download link; copy the Template ID when updating the firmware of a single device.
+
+**Templates**
+
+* Version History shows the full JSON diff and who made each edit, with JSON downloads; its actions moved into a 3-dots menu.
+* Reworked Dashboard tab: header settings menu, sticky tabs and a gear menu per tab; the map preview shows in view mode.
+* No more “Create new template” popup; saving shows a “Changes saved” toast and offers to open a device.
+* Previous/next navigation in the datastream and event edit modals, a Decimals example for Double datastreams, and fluid ounces in units.
+* Events: numeric operators on Switch datastreams; visibility toggles are ON by default.
+
+**Devices and organizations**
+
+* Redesigned device header: an 88px image, owner, organization and tags in one row, a developer strip with AuthToken and Template ID (click to copy a ready `#define`), and a mini header pinned while scrolling.
+* Faster switching between device dashboards.
+* The tag limit counts per organization, so tags added by a parent organization no longer block sub-organization users.
+* A custom device table view can be made the default for every new sub-organization.
+* The Admin role now includes the **Manage Assets** permission.
+* A sub-organization user can re-provision a device with a QR code (static token) of a parent organization.
+
+**Widgets**
+
+* HTML widget: new **All datastreams** mode, local key-value storage (same API as on Android), the unit system in datastream values, and device events in the bridge. Widget runtime errors no longer flood the dashboard with toasts.
+* Latest Events widget shows the Note title and offers “Clear selection”; the Label widget keeps its title when its datastream changes.
+
+**Blynk.AI**
+
+* Answers stream in as they are written, with intermediate steps in separate bubbles; Clear empties the conversation at once.
+* Event and datastream artifacts open in the full settings UI; event conditions can be set through the MCP server.
+
+**Reports and notifications**
+
+* Delete generated reports from the Reports tab; report emails say when the download link expires.
+* Message quota notifications go to the organization’s developers.
+
+**API and devices**
+
+* The Platform API `device/timeline` endpoint is now `device/events`; the old path keeps working.
+* MQTT devices can report component versions (Edgent, Blynk SDK, ESP-IDF, Arduino, MicroPython) in `info/mcu`.
+* Decimal values sent by devices are parsed with correct rounding.
+* A Data Engine query with no rows returns an empty result instead of an error.
+
+**Performance and security**
+
+* No more high CPU on chart hover in device dashboards and Developer Tools; no lag in datastream settings with many datastreams or in the Developer Tools datastreams table; a smaller first page load.
+* Faster, lighter ClickHouse reads and writes for charts, timelines and reports.
+* **Minimum supported browser is now Chrome 110** (Firefox 116, Safari 17).
+* DOMPurify XSS advisory cleared; CSV export neutralization covers negative numbers.
+
 ## Oct 5, 2026
 
 **Device Developer Tools**
