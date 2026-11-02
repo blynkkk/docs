@@ -4,7 +4,7 @@
 
 Each Datastream is configured through a settings panel with a left-side navigation. This page covers all available settings.
 
-<figure><img src="../../../.gitbook/assets/datastream-settings-general.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://1839001309-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MBFTVMf7L6S67HOuqVC%2Fuploads%2FPQ3T5YBWcLhAwNvR3IMa%2Fdatastream-settings-general.png?alt=media&#x26;token=97297855-5116-4bd6-b93e-c16a3573d772" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -94,6 +94,10 @@ Controls how Blynk stores incoming values over time.
 
 {% hint style="info" %}
 High-Resolution (RAW) storage for **String** data type is available on the Enterprise plan only.
+{% endhint %}
+
+{% hint style="warning" %}
+Values set from widgets (user input) are not stored to history. To keep them, use 1-Minute Average.
 {% endhint %}
 
 ***
@@ -225,7 +229,7 @@ Define what each integer key means. The device always sends and receives integer
 
 Each key can be assigned a color. This color is reflected in widgets that support color-by-state, such as the LED widget.
 
-<figure><img src="../../../.gitbook/assets/datastream-type-enumerable.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://1839001309-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MBFTVMf7L6S67HOuqVC%2Fuploads%2FPDqG4Oj6ithQMU2lpv3j%2Fdatastream-type-enumerable.png?alt=media&#x26;token=96ead80e-4f87-4dcd-88d4-c497bf9ce1e8" alt=""><figcaption></figcaption></figure>
 
 **Outcome Values**
 
@@ -254,7 +258,7 @@ BLYNK_WRITE(V3) {
 
 The Location data type stores a GPS coordinate pair. Used with Map widgets to show device position.
 
-<figure><img src="../../../.gitbook/assets/datastream-type-location.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://1839001309-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MBFTVMf7L6S67HOuqVC%2Fuploads%2Fj7EuTQz60VuxpmTziPJZ%2Fdatastream-type-location.png?alt=media&#x26;token=bc8a9475-bc8f-481c-90e9-ea171c3eda39" alt=""><figcaption></figcaption></figure>
 
 Values are two doubles: **longitude** and **latitude** sent as a comma-separated pair.
 
