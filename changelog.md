@@ -1,5 +1,32 @@
 # Changelog
 
+## Nov 3, 2026
+
+**New Features**
+
+* **Mobile UI builder on the web** - work in progress
+* **Custom HTML device dashboard layout** - work in progress
+* **Dashboard preview.** You can now preview web and mobile dashboards full screen with sample data.
+* **Rebuilt Widget Box.** Widgets are grouped into sections, you can search them and click to place one, and there are ready-made HTML presets.
+* **Event conditions can compare against other datastreams**, not only against fixed values.
+* **AI assistant.** The chat window has been redesigned and can be resized, and the MCP server is now on by default. Through MCP you can edit datastream names, notes and semantic tags, and set event notifications, limits and conditions.
+
+**Improvements**
+
+* **Trace log:** Shows the real MQTT frame bytes and management API messages.
+* **Requests log:** Shows exact External API requests per device. Developers with access to the organization can now open it.
+* **Faster dashboard:** Pages load faster, charts no longer lag or max out the CPU on hover, and long device lists and large templates scroll smoothly.
+* **Datastream values in your units:** The API returns values in the user’s unit system.
+* **Semantic tags** can be reordered.
+
+**Bug Fixes**
+
+* Fixed “too many failed login attempts” appearing after a server restart.
+* Fixed several web dashboard crashes: location assignments, order forms, and The Things Stack settings.
+* Fixed the Device info map not loading the first time it’s opened.
+* Fixed company logos being stretched in exported PDF reports.
+* Security hardening: tighter organization and permission checks across the API, and webhooks can no longer send requests to internal addresses.
+
 ## Oct 21, 2026
 
 **Breking change** - datastream aliases are now used in widgets instead of datastream name.
